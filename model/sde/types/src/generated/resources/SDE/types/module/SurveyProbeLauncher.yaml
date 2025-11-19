@@ -1,6 +1,5 @@
 types:
   33270:
-    capacity: 10.0
     chargegroup2: 492
     chargerate: 1
     cpu: 220.0
@@ -11,12 +10,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Survey Probe Launcher I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 3
@@ -25,7 +22,6 @@ types:
     techlevel: 1
     volume: 5.0
   33272:
-    capacity: 10.0
     chargegroup2: 492
     chargerate: 1
     cpu: 242.0
@@ -37,12 +33,10 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Survey Probe Launcher II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 5

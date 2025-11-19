@@ -4,42 +4,34 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1920
     name: Oxygen Fuel Block Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   4314:
     id: 4314
     industryblueprintrank: 3.0
     marketGroup: 1920
     name: Nitrogen Fuel Block Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   4315:
     id: 4315
     industryblueprintrank: 3.0
     marketGroup: 1920
     name: Helium Fuel Block Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   4316:
     id: 4316
     industryblueprintrank: 3.0
     marketGroup: 1920
     name: Hydrogen Fuel Block Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

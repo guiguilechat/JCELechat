@@ -9,7 +9,6 @@ types:
     marketGroup: 2820
     mass: 5.0
     name: Standup Flak Round I
-    packagedVolume: 1.0
     portionSize: 200
     price: 5000.0
     published: true

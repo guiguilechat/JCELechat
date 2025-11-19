@@ -7,10 +7,8 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Focused Warp Scrambling Script
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 1.0

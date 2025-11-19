@@ -3,7 +3,6 @@ types:
     id: 77473
     mass: 20000.0
     name: Warclone Blanks Vat
-    packagedVolume: 3500.0
     portionSize: 1
     published: true
     volume: 3500.0
@@ -11,7 +10,6 @@ types:
     id: 77474
     mass: 20000.0
     name: Contraband Freight
-    packagedVolume: 3500.0
     portionSize: 1
     published: true
     volume: 3500.0
@@ -19,7 +17,6 @@ types:
     id: 77475
     mass: 20000.0
     name: Narcotics Package
-    packagedVolume: 3500.0
     portionSize: 1
     published: true
     volume: 3500.0
@@ -27,7 +24,6 @@ types:
     id: 77476
     mass: 20000.0
     name: M.R.F. Supplies
-    packagedVolume: 3500.0
     portionSize: 1
     published: true
     volume: 3500.0
@@ -36,77 +32,69 @@ types:
     marketGroup: 2479
     mass: 1.0
     name: Unaligned Dekaisogen
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   77708:
     id: 77708
     marketGroup: 2479
     mass: 1.0
     name: Fluctuating Entropic Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   77946:
     id: 77946
     marketGroup: 1863
     mass: 1.0
     name: Insurgent Trojan Fragments
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 350000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   77947:
     id: 77947
     marketGroup: 1863
     mass: 1.0
     name: Federal Encryption Key
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 350000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   77948:
     id: 77948
     marketGroup: 1863
     mass: 1.0
     name: Megacorp Transaction Thread
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 350000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   77949:
     id: 77949
     marketGroup: 1863
     mass: 1.0
     name: Imperial Exploit Log
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 350000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   81352:
     id: 81352
     marketGroup: 1863
     mass: 1.0
-    name: Encrypted ‘Istina’ Data
-    packagedVolume: 0.009999999776482582
+    name: Encrypted 'Istina' Data
     portionSize: 1
     price: 100000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   81383:
     id: 81383
     marketGroup: 1863
     mass: 500.0
     name: Contraband Data
-    packagedVolume: 5.0
     portionSize: 1
     price: 350000.0
     published: true

@@ -2,27 +2,23 @@ types:
   23183:
     id: 23183
     inventionmemodifier: 3.0
-    inventionpropabilitymultiplier: 1.100000023841858
+    inventionpropabilitymultiplier: 1.1
     inventiontemodifier: 6.0
     mass: 1.0
     name: Incognito Process
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23184:
     id: 23184
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 1.2000000476837158
+    inventionpropabilitymultiplier: 1.2
     inventiontemodifier: 10.0
     mass: 1.0
     name: Incognito Accelerant
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23185:
     id: 23185
@@ -32,36 +28,30 @@ types:
     inventiontemodifier: 8.0
     mass: 1.0
     name: Incognito Symmetry
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23186:
     id: 23186
     inventionmaxrunmodifier: 9.0
     inventionmemodifier: -2.0
-    inventionpropabilitymultiplier: 0.6000000238418579
+    inventionpropabilitymultiplier: 0.6
     inventiontemodifier: 2.0
     mass: 1.0
     name: Incognito Augmentation
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23187:
     id: 23187
     inventionmaxrunmodifier: 4.0
     inventionmemodifier: -1.0
-    inventionpropabilitymultiplier: 1.7999999523162842
+    inventionpropabilitymultiplier: 1.8
     inventiontemodifier: 4.0
     mass: 1.0
     name: Incognito Attainment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33320:
     id: 33320
@@ -71,33 +61,27 @@ types:
     inventiontemodifier: -2.0
     mass: 1.0
     name: Incognito Parity
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33323:
     id: 33323
     inventionmaxrunmodifier: 7.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 0.8999999761581421
+    inventionpropabilitymultiplier: 0.9
     mass: 1.0
     name: Optimized Incognito Augmentation
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33326:
     id: 33326
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
-    inventionpropabilitymultiplier: 1.899999976158142
+    inventionpropabilitymultiplier: 1.9
     inventiontemodifier: -2.0
     mass: 1.0
     name: Optimized Incognito Attainment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

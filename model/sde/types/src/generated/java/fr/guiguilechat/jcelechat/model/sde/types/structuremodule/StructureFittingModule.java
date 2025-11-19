@@ -17,14 +17,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutputMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
@@ -55,13 +53,6 @@ public class StructureFittingModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup03;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -106,13 +97,6 @@ public class StructureFittingModule
     @DefaultRealValue(1.0)
     public double poweroutputmultiplier;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
@@ -127,7 +111,7 @@ public class StructureFittingModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, CpuMultiplier.INSTANCE, PowerOutputMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MetaLevelOld.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PowerOutputMultiplier.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, CpuMultiplier.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureFittingModule.MetaGroup METAGROUP = new StructureFittingModule.MetaGroup();
 
     @Override
@@ -144,10 +128,6 @@ public class StructureFittingModule
             case  1300 :
             {
                 return canfitshipgroup03;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -172,10 +152,6 @@ public class StructureFittingModule
             case  145 :
             {
                 return poweroutputmultiplier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2334 :
             {

@@ -1,7 +1,6 @@
 types:
   45586:
     capacitorcapacity: 200.0
-    capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
     fitstoshiptype: 29986
@@ -16,10 +15,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Defensive - Covert Reconfiguration
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30532
     requiredskill1level: 1
     shieldcapacity: 300.0
@@ -34,7 +31,6 @@ types:
     volume: 40.0
   45587:
     armorhpbonusadd: 1000
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29986
@@ -46,10 +42,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Defensive - Augmented Plating
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30532
     requiredskill1level: 1
     signatureradius: 10.0
@@ -61,7 +55,6 @@ types:
   45588:
     armorhpbonusadd: 500
     capacitorcapacity: 300.0
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29986
@@ -73,10 +66,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Legion Defensive - Nanobot Injector
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30532
     requiredskill1level: 1
     shieldcapacity: 100.0
@@ -89,7 +80,6 @@ types:
   45589:
     armorhpbonusadd: 300
     capacitorcapacity: 200.0
-    capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
     fitstoshiptype: 29984
@@ -103,10 +93,8 @@ types:
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Defensive - Covert Reconfiguration
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30544
     requiredskill1level: 1
     signatureradius: 5.0
@@ -119,7 +107,6 @@ types:
     virusstrengthbonus: 10
     volume: 40.0
   45590:
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29984
@@ -131,10 +118,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Defensive - Supplemental Screening
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30544
     requiredskill1level: 1
     shieldcapacity: 1000.0
@@ -147,7 +132,6 @@ types:
   45591:
     armorhpbonusadd: 100
     capacitorcapacity: 300.0
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29984
@@ -159,10 +143,8 @@ types:
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Defensive - Amplification Node
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30544
     requiredskill1level: 1
     shieldcapacity: 500.0
@@ -174,7 +156,6 @@ types:
     volume: 40.0
   45592:
     capacitorcapacity: 200.0
-    capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
     fitstoshiptype: 29988
@@ -189,10 +170,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Defensive - Covert Reconfiguration
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30540
     requiredskill1level: 1
     shieldcapacity: 500.0
@@ -207,7 +186,6 @@ types:
     volume: 40.0
   45593:
     armorhpbonusadd: 1000
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29988
@@ -219,10 +197,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Defensive - Augmented Plating
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30540
     requiredskill1level: 1
     signatureradius: 10.0
@@ -235,7 +211,6 @@ types:
   45594:
     armorhpbonusadd: 500
     capacitorcapacity: 300.0
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29988
@@ -247,10 +222,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Defensive - Nanobot Injector
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30540
     requiredskill1level: 1
     shieldcapacity: 100.0
@@ -262,7 +235,6 @@ types:
     volume: 40.0
   45595:
     capacitorcapacity: 200.0
-    capacity: 300.0
     cargocapacityadd: 30
     covertopsandreconopscloakmoduledelay: 5000
     fitstoshiptype: 29990
@@ -277,10 +249,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Covert Reconfiguration
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30545
     requiredskill1level: 1
     signatureradius: 5.0
@@ -294,7 +264,6 @@ types:
     volume: 40.0
   45596:
     armorhpbonusadd: 600
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29990
@@ -306,10 +275,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Augmented Durability
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30545
     requiredskill1level: 1
     shieldcapacity: 600.0
@@ -322,7 +289,6 @@ types:
   45597:
     armorhpbonusadd: 300
     capacitorcapacity: 300.0
-    capacity: 300.0
     covertcloakcpupenalty: 10000
     covertopsandreconopscloakmoduledelay: 30000
     fitstoshiptype: 29990
@@ -334,10 +300,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Defensive - Adaptive Defense Node
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30545
     requiredskill1level: 1
     shieldcapacity: 300.0

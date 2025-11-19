@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -33,7 +32,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalPassengerRequire
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
@@ -202,7 +200,7 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(-99)
     public int speedfactorfloor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, SpeedFactorFloor.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SpeedBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowAssistance.INSTANCE, SpeedFactorFloor.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, Cpu.INSTANCE, EnableOpenJumpPortal.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, JumpPortalPassengerRequiredAttributeID.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
 
     @Override

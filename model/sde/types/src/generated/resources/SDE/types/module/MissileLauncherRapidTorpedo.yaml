@@ -2,22 +2,19 @@ types:
   37288:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 1.5
     chargegroup1: 89
     chargerate: 1
     cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37288
     marketGroup: 2247
     name: Rapid Torpedo Launcher I
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     reloadtime: 40000.0
     requiredskill1: 3325
     requiredskill1level: 1
@@ -34,12 +31,11 @@ types:
   37292:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 1.5
     chargegroup1: 89
     chargegroup2: 657
     chargerate: 1
     cpu: 150.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37292
@@ -47,11 +43,9 @@ types:
     metalevelold: 5
     name: Rapid Torpedo Launcher II
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     reloadtime: 40000.0
     requiredskill1: 20213
     requiredskill1level: 1
@@ -70,12 +64,11 @@ types:
   37293:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 1.725000023841858
     chargegroup1: 89
     chargegroup2: 657
     chargerate: 1
     cpu: 120.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37293
@@ -84,11 +77,9 @@ types:
     metalevelold: 8
     name: Dread Guristas Rapid Torpedo Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     reloadtime: 40000.0
     requiredskill1: 3325
     requiredskill1level: 1
@@ -105,11 +96,10 @@ types:
   41223:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 1.5
     chargegroup1: 89
     chargerate: 1
     cpu: 120.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41223
@@ -117,11 +107,9 @@ types:
     metalevelold: 1
     name: Arbalest Compact Rapid Torpedo Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     reloadtime: 40000.0
     requiredskill1: 3325
     requiredskill1level: 1
@@ -138,11 +126,10 @@ types:
   41224:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 1.725000023841858
     chargegroup1: 89
     chargerate: 1
     cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41224
@@ -150,11 +137,9 @@ types:
     metalevelold: 1
     name: TE-2100 Ample Rapid Torpedo Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     reloadtime: 40000.0
     requiredskill1: 3325
     requiredskill1level: 1

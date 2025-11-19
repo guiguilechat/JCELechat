@@ -12,12 +12,10 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionMEModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionMaxRunModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionPropabilityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.InventionTEModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.DecryptorsAmarr;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.DecryptorsCaldari;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.DecryptorsGallente;
@@ -28,13 +26,6 @@ import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 public abstract class Decryptors
     extends EveType
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * Modifies the mineral efficiency of invented BPCs
      */
@@ -63,23 +54,12 @@ public abstract class Decryptors
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double inventiontemodifier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, InventionMaxRunModifier.INSTANCE, Capacity.INSTANCE, InventionPropabilityMultiplier.INSTANCE, InventionMEModifier.INSTANCE, InventionTEModifier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {InventionMaxRunModifier.INSTANCE, InventionPropabilityMultiplier.INSTANCE, InventionMEModifier.INSTANCE, InventionTEModifier.INSTANCE })));
     public static final Decryptors.MetaCat METACAT = new Decryptors.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1113 :
             {
                 return inventionmemodifier;
@@ -95,10 +75,6 @@ public abstract class Decryptors
             case  1114 :
             {
                 return inventiontemodifier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

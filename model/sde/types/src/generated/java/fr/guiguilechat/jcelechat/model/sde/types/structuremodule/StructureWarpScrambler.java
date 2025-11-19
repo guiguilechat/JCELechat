@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -34,7 +33,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -81,13 +79,6 @@ public class StructureWarpScrambler
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
@@ -188,13 +179,6 @@ public class StructureWarpScrambler
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * reload time (ms)
      */
     @HighIsGood(false)
@@ -223,7 +207,7 @@ public class StructureWarpScrambler
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleStrength.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, ActivationBlockedStrenght.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureWarpScrambler.MetaGroup METAGROUP = new StructureWarpScrambler.MetaGroup();
 
     @Override
@@ -248,10 +232,6 @@ public class StructureWarpScrambler
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  604 :
             {
@@ -308,10 +288,6 @@ public class StructureWarpScrambler
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  1795 :
             {

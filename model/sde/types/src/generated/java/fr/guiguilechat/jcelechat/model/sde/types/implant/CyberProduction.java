@@ -13,10 +13,8 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufacturingTimeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -49,7 +47,7 @@ public class CyberProduction
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, Implantness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, Implantness.INSTANCE })));
     public static final CyberProduction.MetaGroup METAGROUP = new CyberProduction.MetaGroup();
 
     @Override

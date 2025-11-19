@@ -21,9 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoDeliveryRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ECMResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
@@ -45,7 +43,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PauseArmorRepairDpsThresho
 import fr.guiguilechat.jcelechat.model.sde.attributes.PauseHullRepairDpsThreshold;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PauseShieldRepairDpsThreshold;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
@@ -57,7 +54,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldDamageLimit;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
@@ -149,26 +145,12 @@ public abstract class Structure
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Distance which players can deposit cargo into a structure
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int cargodeliveryrange;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * CPU output of ship
      */
@@ -298,15 +280,8 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int poweroutput;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultRealValue(0.0)
-    public double radius;
+    public double poweroutput;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -384,14 +359,6 @@ public abstract class Structure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * 
      */
@@ -504,7 +471,7 @@ public abstract class Structure
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weapondisruptionresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PauseShieldRepairDpsThreshold.INSTANCE, PauseArmorRepairDpsThreshold.INSTANCE, PauseHullRepairDpsThreshold.INSTANCE, MaximumRangeCap.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, RigSlots.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
     public static final Structure.MetaCat METACAT = new Structure.MetaCat();
 
     @Override
@@ -546,17 +513,9 @@ public abstract class Structure
             {
                 return capacitorcapacity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  2790 :
             {
                 return cargodeliveryrange;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  48 :
             {
@@ -638,10 +597,6 @@ public abstract class Structure
             {
                 return poweroutput;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -685,10 +640,6 @@ public abstract class Structure
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  2034 :
             {

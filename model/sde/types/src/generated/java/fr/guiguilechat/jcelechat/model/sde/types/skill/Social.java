@@ -15,14 +15,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BountySkillBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConnectionBonusMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CriminalConnectionsMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DiplomacyMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FastTalkMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NegotiationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -108,7 +106,7 @@ public class Social
     @Stackable(true)
     @DefaultIntValue(0)
     public int socialmutator;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, BountySkillBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, NegotiationBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, ConnectionBonusMutator.INSTANCE, CriminalConnectionsMutator.INSTANCE, DiplomacyMutator.INSTANCE, FastTalkMutator.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BountySkillBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, NegotiationBonus.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, ConnectionBonusMutator.INSTANCE, CriminalConnectionsMutator.INSTANCE, DiplomacyMutator.INSTANCE, FastTalkMutator.INSTANCE })));
     public static final Social.MetaGroup METAGROUP = new Social.MetaGroup();
 
     @Override

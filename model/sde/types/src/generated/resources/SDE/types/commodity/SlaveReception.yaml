@@ -4,7 +4,6 @@ types:
     marketGroup: 23
     mass: 400.0
     name: Freed Slaves
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0

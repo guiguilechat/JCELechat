@@ -2,120 +2,105 @@ types:
   54845:
     id: 54845
     name: Small Vorton Projector I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54846:
     id: 54846
     name: Large Consortium Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54848:
     id: 54848
     name: Small Compact Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54849:
     id: 54849
     name: Small Scoped Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54850:
     id: 54850
     name: Small Vorton Projector II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54851:
     id: 54851
     name: Small Consortium Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54852:
     id: 54852
     name: Medium Vorton Projector I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54853:
     id: 54853
     name: Medium Compact Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54854:
     id: 54854
     name: Medium Scoped Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54855:
     id: 54855
     name: Medium Vorton Projector II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54856:
     id: 54856
     name: Medium Consortium Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54857:
     id: 54857
     name: Large Vorton Projector I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54858:
     id: 54858
     name: Large Compact Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54859:
     id: 54859
     name: Large Scoped Vorton Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54860:
     id: 54860
     name: Large Vorton Projector II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

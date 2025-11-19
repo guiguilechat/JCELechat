@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefRigMatBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefRigTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -60,13 +58,6 @@ public class StructureReactorRigLEfficiency
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
@@ -101,13 +92,6 @@ public class StructureReactorRigLEfficiency
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -158,7 +142,7 @@ public class StructureReactorRigLEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, RefRigTimeBonus.INSTANCE, RefRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, RequiredSkill1 .INSTANCE, SecurityModifier.INSTANCE, RefRigTimeBonus.INSTANCE, RefRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureReactorRigLEfficiency.MetaGroup METAGROUP = new StructureReactorRigLEfficiency.MetaGroup();
 
     @Override
@@ -175,10 +159,6 @@ public class StructureReactorRigLEfficiency
             case  1300 :
             {
                 return canfitshipgroup03;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  1970 :
             {
@@ -199,10 +179,6 @@ public class StructureReactorRigLEfficiency
             case  2357 :
             {
                 return nullsecmodifier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

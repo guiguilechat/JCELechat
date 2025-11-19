@@ -13,7 +13,6 @@ types:
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CVII
-    packagedVolume: 1.0
     portionSize: 100
     published: true
     radius: 5.0
@@ -36,7 +35,6 @@ types:
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CXIV
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
     radius: 5.0
@@ -44,7 +42,7 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: -10.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30222:
     agility: 3000.0
     aimedlaunch: 1
@@ -59,7 +57,6 @@ types:
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball CX
-    packagedVolume: 1.0
     portionSize: 100
     published: true
     radius: 5.0
@@ -82,7 +79,6 @@ types:
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Melted Snowball
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
     radius: 5.0
@@ -90,4 +86,4 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: -10.0
-    volume: 0.10000000149011612
+    volume: 0.1

@@ -15,9 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiresSovereigntyDisplayOnly;
@@ -79,7 +77,7 @@ public class StationImprovementPlatform
     @Stackable(true)
     @DefaultIntValue(0)
     public int stationtypeid;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, StationOreRefiningBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, StationTypeID.INSTANCE, Hp.INSTANCE, AnchoringDelay.INSTANCE, RequiresSovereigntyDisplayOnly.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StationOreRefiningBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, StationTypeID.INSTANCE, Hp.INSTANCE, AnchoringDelay.INSTANCE, RequiresSovereigntyDisplayOnly.INSTANCE })));
     public static final StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
 
     @Override

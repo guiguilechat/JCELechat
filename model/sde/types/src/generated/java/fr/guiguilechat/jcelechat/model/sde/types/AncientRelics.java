@@ -12,9 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.ancientrelics.SleeperDefensiveRelics;
 import fr.guiguilechat.jcelechat.model.sde.types.ancientrelics.SleeperEngineeringRelics;
 import fr.guiguilechat.jcelechat.model.sde.types.ancientrelics.SleeperHullRelics;
@@ -25,43 +23,21 @@ public abstract class AncientRelics
     extends EveType
 {
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double industryblueprintrank;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IndustryBlueprintRank.INSTANCE })));
     public static final AncientRelics.MetaCat METACAT = new AncientRelics.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1955 :
             {
                 return industryblueprintrank;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

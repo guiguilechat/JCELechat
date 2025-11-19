@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AllowInFullyCorruptedLowSec;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOEDuration;
@@ -23,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOERange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayWarningDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -152,7 +150,7 @@ public class InterdictionBurstProbes
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DoomsdayWarningDuration.INSTANCE, RequiredSkill1 .INSTANCE, DisallowInHazardSystem.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TechLevel.INSTANCE, DoomsdayAOERange.INSTANCE, SignatureRadius.INSTANCE, DoomsdayAOEDuration.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, DisallowInEmpireSpace.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DoomsdayWarningDuration.INSTANCE, DisallowInHazardSystem.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE })));
     public static final InterdictionBurstProbes.MetaGroup METAGROUP = new InterdictionBurstProbes.MetaGroup();
 
     @Override

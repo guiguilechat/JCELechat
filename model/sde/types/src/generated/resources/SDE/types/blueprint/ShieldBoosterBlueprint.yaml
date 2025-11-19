@@ -4,217 +4,181 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1552
     name: Small Shield Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 91160.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1033:
     id: 1033
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Shield Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3543:
     id: 3543
     industryblueprintrank: 120.0
     name: CONCORD Capital Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.100232E7
+    price: 51002322.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10040:
     id: 10040
     industryblueprintrank: 6.0
     marketGroup: 1552
     name: Civilian Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3360.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10837:
     id: 10837
     industryblueprintrank: 3.0
     marketGroup: 1552
     name: Medium Shield Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 364640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10839:
     id: 10839
     industryblueprintrank: 6.0
     marketGroup: 1552
     name: Large Shield Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1458560.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10841:
     id: 10841
     industryblueprintrank: 9.0
     marketGroup: 1552
     name: X-Large Shield Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5854720.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10843:
     id: 10843
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: X-Large Shield Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   10851:
     id: 10851
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Medium Shield Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   10859:
     id: 10859
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Large Shield Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20618:
     id: 20618
     industryblueprintrank: 3.0
     name: Small 'Settler' Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20620:
     id: 20620
     industryblueprintrank: 3.0
     name: Medium 'Lone Ranger' Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20622:
     id: 20622
     industryblueprintrank: 6.0
     name: Large 'Outlaw' Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20624:
     id: 20624
     industryblueprintrank: 9.0
     name: X-Large 'Locomotive' Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20704:
     id: 20704
     industryblueprintrank: 120.0
     marketGroup: 1552
     name: Capital Shield Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.100232E7
+    price: 51002322.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41632:
     id: 41632
     marketGroup: 1552
     name: Capital C-5L Compact Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.02E8
+    price: 102000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41633:
     id: 41633
     marketGroup: 1552
     name: Capital Clarity Ward Enduring Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.02E8
+    price: 102000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41634:
     id: 41634
     name: Capital Shield Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41635:
     id: 41635
     name: True Sansha Capital Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41636:
     id: 41636
     name: Dread Guristas Capital Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41637:
     id: 41637
     name: Domination Capital Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

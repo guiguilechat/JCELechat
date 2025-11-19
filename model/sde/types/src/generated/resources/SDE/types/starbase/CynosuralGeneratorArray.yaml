@@ -13,18 +13,17 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27673
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     jumpharmonics: -5
     kineticdamageresonance: 1.0
     marketGroup: 1013
-    mass: 1.0E8
+    mass: 100000000.0
     name: Cynosural Generator Array
     onliningdelay: 300000
-    packagedVolume: 4000.0
     portionSize: 1
     posanchoredpersolarsystemamount: 1
     power: 375000
-    price: 2.0E7
+    price: 20000000.0
     published: true
     radius: 629.0
     requiresihubupgrade: 2008

@@ -1,21 +1,19 @@
 types:
   12618:
     chargesize: 1
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     id: 12618
     kineticdamage: 4.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 865
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike S
-    packagedVolume: 0.0024999999441206455
     portionSize: 5000
     price: 150000.0
     published: true
-    radius: 1.0
     requiredskill1: 11082
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -23,8 +21,8 @@ types:
     techlevel: 2
     thermaldamage: 4.0
     trackingspeedmultiplier: 0.25
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.0025
+    weaponrangemultiplier: 1.8
   12620:
     chargesize: 1
     entityflyrangemultiplier: 0.75
@@ -33,15 +31,13 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 865
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin S
-    packagedVolume: 0.0024999999441206455
     portionSize: 5000
     price: 150000.0
     published: true
-    radius: 1.0
     requiredskill1: 11082
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -49,7 +45,7 @@ types:
     techlevel: 2
     thermaldamage: 8.0
     trackingspeedmultiplier: 1.25
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.25
   12801:
     chargesize: 2
@@ -59,15 +55,13 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 864
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin M
-    packagedVolume: 0.012500000186264515
     portionSize: 5000
     price: 600000.0
     published: true
-    radius: 1.0
     requiredskill1: 12206
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -75,7 +69,7 @@ types:
     techlevel: 2
     thermaldamage: 16.0
     trackingspeedmultiplier: 1.25
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.25
   12803:
     chargesize: 3
@@ -85,15 +79,13 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 863
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin L
-    packagedVolume: 0.02500000037252903
     portionSize: 5000
     price: 1500000.0
     published: true
-    radius: 1.0
     requiredskill1: 12207
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -101,25 +93,23 @@ types:
     techlevel: 2
     thermaldamage: 32.0
     trackingspeedmultiplier: 1.25
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.25
   12805:
     chargesize: 2
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     id: 12805
     kineticdamage: 8.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 864
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike M
-    packagedVolume: 0.012500000186264515
     portionSize: 5000
     price: 600000.0
     published: true
-    radius: 1.0
     requiredskill1: 12206
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -127,25 +117,23 @@ types:
     techlevel: 2
     thermaldamage: 8.0
     trackingspeedmultiplier: 0.25
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.0125
+    weaponrangemultiplier: 1.8
   12807:
     chargesize: 3
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     id: 12807
     kineticdamage: 16.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 863
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike L
-    packagedVolume: 0.02500000037252903
     portionSize: 5000
     price: 1500000.0
     published: true
-    radius: 1.0
     requiredskill1: 12207
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -153,8 +141,8 @@ types:
     techlevel: 2
     thermaldamage: 16.0
     trackingspeedmultiplier: 0.25
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.025
+    weaponrangemultiplier: 1.8
   41326:
     chargesize: 4
     entityflyrangemultiplier: 0.75
@@ -167,7 +155,6 @@ types:
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Javelin XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 40000.0
     published: true
@@ -183,7 +170,7 @@ types:
     weaponrangemultiplier: 0.25
   41328:
     chargesize: 4
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     id: 41328
     kineticdamage: 32.0
     launchergroup: 74
@@ -193,7 +180,6 @@ types:
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Spike XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 80000.0
     published: true
@@ -206,4 +192,4 @@ types:
     thermaldamage: 32.0
     trackingspeedmultiplier: 0.25
     volume: 0.125
-    weaponrangemultiplier: 1.7999999523162842
+    weaponrangemultiplier: 1.8

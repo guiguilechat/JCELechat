@@ -20,7 +20,7 @@ public class GasDecompressionBaseEfficiency
 
     @Override
     public Number getDefaultValue() {
-        return  0.800000011920929;
+        return  0.8;
     }
 
     @Override

@@ -4,20 +4,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.3
     armorhp: 3975.0
-    armorkineticdamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 480.0
-    damagemultiplier: 7.208333492279053
+    damagemultiplier: 7.208333333
     disallowassistance: 1
     entityarmorrepairamount: 350.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancelarge: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15600
     entityattackdelaymin: 3900
@@ -29,32 +28,31 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.20999999344348907
+    entitydefenderchance: 0.21
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 5500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 2500000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.1599999964237213
+    entitysecuritystatuskillbonus: 0.16
     falloff: 6000.0
     gfxboosterid: 394
     gfxturretid: 571
     hp: 4250.0
     id: 42139
     kineticdamage: 12.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4000.0
     maxvelocity: 1120.0
     name: Serpentis Guard
     optimalsigradius: 400
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -63,9 +61,9 @@ types:
     scanmagnetometricstrength: 22.0
     scanresolution: 105.0
     shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -73,5 +71,5 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.05000000074505806
+    trackingspeed: 0.05
     volume: 1010000.0

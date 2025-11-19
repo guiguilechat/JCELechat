@@ -15,13 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -39,20 +36,6 @@ public class SalvageContainers
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * 
      */
@@ -82,13 +65,6 @@ public class SalvageContainers
     @DefaultIntValue(0)
     public int entitykillbounty;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -109,7 +85,7 @@ public class SalvageContainers
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, RechargeRate.INSTANCE, EntityEquipmentMin.INSTANCE, SignatureRadius.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, EntityFactionLoss.INSTANCE, RechargeRate.INSTANCE, EntityEquipmentMin.INSTANCE, SignatureRadius.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE })));
     public static final SalvageContainers.MetaGroup METAGROUP = new SalvageContainers.MetaGroup();
 
     @Override
@@ -118,14 +94,6 @@ public class SalvageContainers
             case  482 :
             {
                 return capacitorcapacity;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  457 :
             {
@@ -142,10 +110,6 @@ public class SalvageContainers
             case  481 :
             {
                 return entitykillbounty;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  55 :
             {

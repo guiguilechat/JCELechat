@@ -27,587 +27,514 @@ types:
   369091:
     id: 369091
     name: State 'Marine Issue' CA-M SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369092:
     id: 369092
     name: Federation 'Marine Issue' GA-M SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369093:
     id: 369093
     name: Imperial 'Marine Issue' AM-M SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369094:
     id: 369094
     name: Republic 'Marine Issue' MN-M SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369102:
     id: 369102
     name: Imperial 'Marine Issue' AM-H SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369103:
     id: 369103
     name: State 'Marine Issue' CA-H SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369104:
     id: 369104
     name: Federation 'Marine Issue' GA-H SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369105:
     id: 369105
     name: Republic 'Marine Issue' MN-H SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369106:
     id: 369106
     name: State 'Marine Issue' CA-L SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369107:
     id: 369107
     name: Federation 'Marine Issue' GA-L SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369108:
     id: 369108
     name: Imperial 'Marine Issue' AM-L SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369109:
     id: 369109
     name: Republic 'Marine Issue' MN-L SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369113:
     id: 369113
     name: '''Blood Raiders'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369114:
     id: 369114
     name: '''Guristas'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369115:
     id: 369115
     name: '''Serpentis'' GA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369116:
     id: 369116
     name: '''Angel Cartel'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369158:
     id: 369158
     name: '''Legacy'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369159:
     id: 369159
     name: '''Thukker'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369160:
     id: 369160
     name: '''Angel Cartel'' MN-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369161:
     id: 369161
     name: '''Duvolle'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369162:
     id: 369162
     name: '''Legacy'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369163:
     id: 369163
     name: '''Ishukone'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369164:
     id: 369164
     name: '''Guristas'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369165:
     id: 369165
     name: '''Legacy'' CA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369166:
     id: 369166
     name: '''Blood Raiders'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369167:
     id: 369167
     name: '''Kador'' AM-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369168:
     id: 369168
     name: '''Legacy'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369180:
     id: 369180
     name: '''Leopard'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369200:
     id: 369200
     name: '''Jungle Hunter'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369203:
     id: 369203
     name: '''Tash-Murkon'' AM-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369204:
     id: 369204
     name: '''Roden'' GA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369205:
     id: 369205
     name: '''Kaalakiota'' CA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369206:
     id: 369206
     name: '''Brutor'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369242:
     id: 369242
     name: '''Kador'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369243:
     id: 369243
     name: '''Ishukone'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369244:
     id: 369244
     name: '''Duvolle'' GA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369245:
     id: 369245
     name: '''Thukker'' MN-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369246:
     id: 369246
     name: '''Kador'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369247:
     id: 369247
     name: '''Ishukone'' CA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369248:
     id: 369248
     name: '''Duvolle'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369249:
     id: 369249
     name: '''Thukker'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369250:
     id: 369250
     name: '''Guristas'' CA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369251:
     id: 369251
     name: '''Serpentis'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369252:
     id: 369252
     name: '''Blood Raiders'' AM-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369253:
     id: 369253
     name: '''Serpentis'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369254:
     id: 369254
     name: '''Angel Cartel'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369255:
     id: 369255
     name: '''Legacy'' AM-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369256:
     id: 369256
     name: '''Legacy'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369257:
     id: 369257
     name: '''Legacy'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369258:
     id: 369258
     name: '''Legacy'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369259:
     id: 369259
     name: '''Legacy'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369260:
     id: 369260
     name: '''Legacy'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369261:
     id: 369261
     name: '''Legacy'' GA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369262:
     id: 369262
     name: '''Legacy'' MN-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369263:
     id: 369263
     name: '''Tash-Murkon'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369264:
     id: 369264
     name: '''Kaalakiota'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369265:
     id: 369265
     name: '''Roden'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369266:
     id: 369266
     name: '''Brutor'' MN-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369267:
     id: 369267
     name: '''Tash-Murkon'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369268:
     id: 369268
     name: '''Kaalakiota'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369269:
     id: 369269
     name: '''Roden'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369270:
     id: 369270
     name: '''Brutor'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369271:
     id: 369271
     name: '''Quafe'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369272:
     id: 369272
     name: '''Quafe'' CA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369273:
     id: 369273
     name: '''Quafe'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369274:
     id: 369274
     name: '''Quafe'' MN-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369275:
     id: 369275
     name: '''Quafe'' AM-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369276:
     id: 369276
     name: '''Quafe'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369277:
     id: 369277
     name: '''Quafe'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369278:
     id: 369278
     name: '''Quafe'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369279:
     id: 369279
     name: '''Quafe'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369280:
     id: 369280
     name: '''Quafe'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369281:
     id: 369281
     name: '''Quafe'' GA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369282:
     id: 369282
     name: '''Quafe'' MN-M SKIN'
@@ -617,128 +544,112 @@ types:
   369290:
     id: 369290
     name: '''Ardishapur'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369291:
     id: 369291
     name: '''Wiyrkomi'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369292:
     id: 369292
     name: '''Intaki'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369293:
     id: 369293
     name: '''Sebiestor'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369294:
     id: 369294
     name: '''Sever'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369295:
     id: 369295
     name: '''Sever'' CA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369296:
     id: 369296
     name: '''Raven'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369297:
     id: 369297
     name: '''Valor'' MN-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369302:
     id: 369302
     name: '''Cyber Knight'' AM-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369303:
     id: 369303
     name: '''Home Guard'' CA-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369304:
     id: 369304
     name: '''Bravo Company'' GA-L SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369305:
     id: 369305
     name: '''Valklear'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369434:
     id: 369434
     name: '''Krin''s'' MN-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   369435:
     id: 369435
     name: '''Lethe'' GA-H SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   370308:
     id: 370308
     name: '''Deathshroud'' AM-M SKIN'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   370488:
     id: 370488
     name: ‘Tairei’s Crimson’ AM-L SKIN
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

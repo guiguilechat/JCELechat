@@ -9,7 +9,6 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -31,7 +30,6 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0

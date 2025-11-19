@@ -5,7 +5,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     capacitorcapacity: 1200.0
-    capacity: 1200.0
     damagemultiplier: 1.0
     disallowassistance: 1
     emdamage: 4.0
@@ -29,7 +28,6 @@ types:
     missilelaunchduration: 20000.0
     name: Loiterer I
     orbitrange: 40
-    packagedVolume: 60.0
     portionSize: 10
     proximityrange: 150
     published: false
@@ -51,13 +49,12 @@ types:
     thermaldamageresonance: 1.0
     volume: 60.0
   10999:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 65.0
-    capacity: 150.0
     damagemultiplier: 3.125
     disallowassistance: 1
     emdamageresonance: 1.0
@@ -67,7 +64,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -75,7 +72,7 @@ types:
     entitykillbounty: 3000
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     explosivedamageresonance: 1.0
     falloff: 3000.0
     gfxboosterid: 395
@@ -91,7 +88,6 @@ types:
     maxvelocity: 450.0
     missilelaunchduration: 35000.0
     name: Convoy Escort
-    packagedVolume: 18000.0
     portionSize: 1
     published: false
     radius: 33.0
@@ -103,26 +99,25 @@ types:
     scanspeed: 3500
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 3000.0
     structureuniformity: 1.0
     thermaldamage: 3.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.11999999731779099
+    trackingspeed: 0.12
     volume: 18000.0
   11000:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 170.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 100.0
-    capacity: 160.0
-    damagemultiplier: 1.7361111640930176
+    damagemultiplier: 1.736111111
     disallowassistance: 1
     emdamage: 4.0
     emdamageresonance: 1.0
@@ -132,7 +127,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
@@ -141,7 +136,7 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     explosivedamageresonance: 1.0
     falloff: 4000.0
     gfxboosterid: 395
@@ -156,10 +151,9 @@ types:
     maxvelocity: 375.0
     missilelaunchduration: 30000.0
     name: Convoy Protector
-    packagedVolume: 19400.0
     portionSize: 1
     published: false
-    radius: 42.93000030517578
+    radius: 42.93
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scanladarstrength: 1000.0
@@ -168,25 +162,24 @@ types:
     scanspeed: 3000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.05999999865889549
+    trackingspeed: 0.06
     volume: 19400.0
   11001:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 125.0
-    capacity: 305.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamageresonance: 1.0
@@ -196,7 +189,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -206,7 +199,7 @@ types:
     entitymissiletypeid: 211
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
-    entitywarpscramblechance: 0.05000000074505806
+    entitywarpscramblechance: 0.05
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 395
@@ -222,10 +215,9 @@ types:
     maxvelocity: 350.0
     missilelaunchduration: 25000.0
     name: Convoy Guard
-    packagedVolume: 19700.0
     portionSize: 1
     published: false
-    radius: 45.97999954223633
+    radius: 45.98
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scanladarstrength: 1000.0
@@ -234,27 +226,26 @@ types:
     scanspeed: 3000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 4000.0
     structureuniformity: 1.0
     thermaldamage: 5.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.11999999731779099
+    trackingspeed: 0.12
     volume: 19700.0
     warpscramblerange: 10000
     warpscramblestrength: 1
   11002:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 130.0
-    capacity: 130.0
     damagemultiplier: 8.5
     disallowassistance: 1
     emdamageresonance: 1.0
@@ -264,7 +255,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -274,7 +265,7 @@ types:
     entitymissiletypeid: 212
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
-    entitywarpscramblechance: 0.10000000149011612
+    entitywarpscramblechance: 0.1
     explosivedamageresonance: 1.0
     falloff: 3500.0
     gfxboosterid: 395
@@ -290,7 +281,6 @@ types:
     maxvelocity: 450.0
     missilelaunchduration: 15000.0
     name: Convoy Sentry
-    packagedVolume: 16500.0
     portionSize: 1
     published: false
     radius: 39.0
@@ -302,16 +292,16 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 5.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.11999999731779099
+    trackingspeed: 0.12
     volume: 16500.0
     warpscramblerange: 2500
     warpscramblestrength: 2

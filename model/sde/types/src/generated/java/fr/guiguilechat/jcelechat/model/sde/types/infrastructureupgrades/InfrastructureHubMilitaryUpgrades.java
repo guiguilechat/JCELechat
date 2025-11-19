@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexMilitary;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionID01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel01;
@@ -46,7 +45,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis04;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SovUpgradeRequiredUpgradeID;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -286,7 +284,7 @@ public class InfrastructureHubMilitaryUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int sovupgraderequiredupgradeid;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DistributionIDRogueDrone04 .INSTANCE, DistributionIDRogueDrone05 .INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDSansha02 .INSTANCE, DistributionIDSansha03 .INSTANCE, DistributionIDSansha04 .INSTANCE, DistributionIDSansha05 .INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDSerpentis02 .INSTANCE, DistributionIDSerpentis03 .INSTANCE, DistributionIDSerpentis04 .INSTANCE, DistributionIDSerpentis05 .INSTANCE, DistributionID01 .INSTANCE, DistributionIDAngel01 .INSTANCE, DistributionIDAngel02 .INSTANCE, DistributionIDAngel03 .INSTANCE, DistributionIDAngel04 .INSTANCE, Radius.INSTANCE, DistributionIDAngel05 .INSTANCE, Capacity.INSTANCE, DistributionIDBlood01 .INSTANCE, DistributionIDBlood02 .INSTANCE, DistributionIDBlood03 .INSTANCE, DistributionIDBlood04 .INSTANCE, DistributionIDBlood05 .INSTANCE, DevIndexMilitary.INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionIDGurista02 .INSTANCE, DistributionIDGurista03 .INSTANCE, DistributionIDGurista04 .INSTANCE, DistributionIDGurista05 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionIDRogueDrone02 .INSTANCE, DistributionIDRogueDrone03 .INSTANCE, SovUpgradeRequiredUpgradeID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DistributionIDRogueDrone04 .INSTANCE, DistributionIDRogueDrone05 .INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDSansha02 .INSTANCE, DistributionIDSansha03 .INSTANCE, DistributionIDSansha04 .INSTANCE, DistributionIDSansha05 .INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDSerpentis02 .INSTANCE, DistributionIDSerpentis03 .INSTANCE, DistributionIDSerpentis04 .INSTANCE, DistributionIDSerpentis05 .INSTANCE, DistributionID01 .INSTANCE, DistributionIDAngel01 .INSTANCE, DistributionIDAngel02 .INSTANCE, DistributionIDAngel03 .INSTANCE, DistributionIDAngel04 .INSTANCE, DistributionIDAngel05 .INSTANCE, DistributionIDBlood01 .INSTANCE, DistributionIDBlood02 .INSTANCE, DistributionIDBlood03 .INSTANCE, DistributionIDBlood04 .INSTANCE, DistributionIDBlood05 .INSTANCE, DevIndexMilitary.INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionIDGurista02 .INSTANCE, DistributionIDGurista03 .INSTANCE, DistributionIDGurista04 .INSTANCE, DistributionIDGurista05 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionIDRogueDrone02 .INSTANCE, DistributionIDRogueDrone03 .INSTANCE, SovUpgradeRequiredUpgradeID.INSTANCE })));
     public static final InfrastructureHubMilitaryUpgrades.MetaGroup METAGROUP = new InfrastructureHubMilitaryUpgrades.MetaGroup();
 
     @Override

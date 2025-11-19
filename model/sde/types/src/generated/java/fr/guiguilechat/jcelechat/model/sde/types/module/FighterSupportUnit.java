@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterBonusROFPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterBonusShieldCapacityPercent;
@@ -28,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -138,7 +136,7 @@ public class FighterSupportUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterBonusVelocityPercent.INSTANCE, FighterBonusROFPercent.INSTANCE, FighterBonusShieldRechargePercent.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, FighterBonusShieldCapacityPercent.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterBonusVelocityPercent.INSTANCE, FighterBonusROFPercent.INSTANCE, FighterBonusShieldRechargePercent.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, FighterBonusShieldCapacityPercent.INSTANCE })));
     public static final FighterSupportUnit.MetaGroup METAGROUP = new FighterSupportUnit.MetaGroup();
 
     @Override

@@ -11,13 +11,10 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AurumConversionRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NumDays;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Accessories;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -33,27 +30,13 @@ public class LegacyCurrency
     @DefaultIntValue(0)
     public int aurumconversionrate;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Number of days that this PLEX adds to your account
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int numdays;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, AurumConversionRate.INSTANCE, NumDays.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AurumConversionRate.INSTANCE, NumDays.INSTANCE })));
     public static final LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
 
     @Override
@@ -63,17 +46,9 @@ public class LegacyCurrency
             {
                 return aurumconversionrate;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  1551 :
             {
                 return numdays;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CovertCloakCPUAdd;
@@ -45,7 +44,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityLimited;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
@@ -290,7 +288,7 @@ public class CynosuralFieldGenerator
     @Stackable(true)
     @DefaultIntValue(-99)
     public int speedfactorfloor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, IsIndustrialCyno.INSTANCE, CanCloak.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SiegeModeWarpStatus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CynosuralFieldSpawnRadius.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipType3 .INSTANCE, SpeedFactorFloor.INSTANCE, ModuleReactivationDelay.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, IsCovert.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, MaxVelocityLimited.INSTANCE, RequiredSkill1 .INSTANCE, MaxVelocityActivationLimit.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, DisallowEarlyDeactivation.INSTANCE, IsIndustrialCyno.INSTANCE, CanCloak.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup06 .INSTANCE, CynosuralFieldSpawnRadius.INSTANCE, CanFitShipType3 .INSTANCE, SpeedFactorFloor.INSTANCE, ModuleReactivationDelay.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, IsCovert.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, MaxVelocityLimited.INSTANCE, RequiredSkill1 .INSTANCE, MaxVelocityActivationLimit.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CynosuralFieldGenerator.MetaGroup METAGROUP = new CynosuralFieldGenerator.MetaGroup();
 
     @Override

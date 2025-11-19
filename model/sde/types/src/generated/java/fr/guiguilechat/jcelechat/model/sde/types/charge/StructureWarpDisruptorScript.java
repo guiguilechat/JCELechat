@@ -14,10 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRangeBonus;
@@ -71,7 +69,7 @@ public class StructureWarpDisruptorScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerangebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, ActivationBlockedStrenght.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, StructureItemVisualFlag.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, TechLevel.INSTANCE, ActivationBlockedStrenght.INSTANCE, LauncherGroup.INSTANCE, StructureItemVisualFlag.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
     public static final StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
 
     @Override

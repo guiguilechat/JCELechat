@@ -1,36 +1,35 @@
 types:
   29234:
-    armoremdamageresonance: 0.9900000095367432
-    armorexplosivedamageresonance: 0.6899999976158142
+    armoremdamageresonance: 0.99
+    armorexplosivedamageresonance: 0.69
     armorhp: 75.0
-    armorkineticdamageresonance: 0.7900000214576721
-    armorthermaldamageresonance: 0.8899999856948853
+    armorkineticdamageresonance: 0.79
+    armorthermaldamageresonance: 0.89
     armoruniformity: 0.75
     capacitorcapacity: 80.0
-    capacity: 235.0
     damagemultiplier: 0.78125
     disallowassistance: 1
     emdamage: 3.0
     entityarmorrepairamount: 25.0
-    entityarmorrepairdelaychancesmall: 0.1599999964237213
+    entityarmorrepairdelaychancesmall: 0.16
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29700
     entityattackdelaymin: 7425
     entityattackrange: 10875
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 7250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: -4
-    entityfactionloss: 0.0012499999720603228
+    entityfactionloss: 0.00125
     entityflyrange: 3625.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.25999999046325684
+    entityreactionfactor: 0.26
     entitysecuritymaxgain: 5.0
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -54,7 +53,6 @@ types:
     modifytargetspeedrange: 20000
     name: Amarr Frigate Vessel
     optimalsigradius: 40
-    packagedVolume: 24398.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -63,54 +61,53 @@ types:
     scanradarstrength: 7.0
     scanresolution: 1350.0
     shieldcapacity: 50.0
-    shieldemdamageresonance: 0.9900000095367432
-    shieldexplosivedamageresonance: 0.6899999976158142
-    shieldkineticdamageresonance: 0.7900000214576721
+    shieldemdamageresonance: 0.99
+    shieldexplosivedamageresonance: 0.69
+    shieldkineticdamageresonance: 0.79
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8899999856948853
+    shieldthermaldamageresonance: 0.89
     shielduniformity: 0.75
     signatureradius: 31.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 1.0
-    trackingspeed: 0.24650000035762787
+    trackingspeed: 0.2465
     volume: 24398.0
   29239:
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.8
     armorhp: 15.0
     armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 70.0
-    capacity: 45.0
-    damagemultiplier: 0.5416666865348816
+    damagemultiplier: 0.541666667
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.15000000596046448
-    entityarmorrepairdelaychancesmall: 0.15000000596046448
+    entityarmorrepairdelaychance: 0.15
+    entityarmorrepairdelaychancesmall: 0.15
     entityarmorrepairduration: 10000
     entityattackdelaymax: 30000
     entityattackdelaymin: 7500
     entityattackrange: 11875
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 7125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: -4
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 4750.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 10.0
-    entityshieldboostdelaychance: 0.15000000596046448
-    entityshieldboostdelaychancesmall: 0.15000000596046448
+    entityshieldboostdelaychance: 0.15
+    entityshieldboostdelaychancesmall: 0.15
     entityshieldboostduration: 5000
     entitystrength: 1
     falloff: 3000.0
@@ -124,7 +121,7 @@ types:
     maxdirectionalvelocity: 3000
     maxrange: 4000.0
     maxvelocity: 440.0
-    mintargetveldmgmultiplier: 0.05000000074505806
+    mintargetveldmgmultiplier: 0.05
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -134,7 +131,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Frigate Vessel
     optimalsigradius: 40
-    packagedVolume: 15001.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -144,49 +140,48 @@ types:
     scanresolution: 1050.0
     scanspeed: 4000
     shieldcapacity: 20.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.8
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 33.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.12999999523162842
+    trackingspeed: 0.13
     volume: 15001.0
   29242:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.7
     armorhp: 15.0
     armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 70.0
-    capacity: 60.0
-    damagemultiplier: 0.5416666865348816
+    damagemultiplier: 0.541666667
     disallowassistance: 1
     entityarmorrepairamount: 20.0
-    entityarmorrepairdelaychancesmall: 0.15000000596046448
+    entityarmorrepairdelaychancesmall: 0.15
     entityarmorrepairduration: 10000
     entityattackdelaymax: 30000
     entityattackdelaymin: 7500
     entityattackrange: 4125
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 2750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: -4
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 1375.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -216,7 +211,6 @@ types:
     modifytargetspeedrange: 20000
     name: Gallente Frigate Vessel
     optimalsigradius: 40
-    packagedVolume: 24500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -225,29 +219,28 @@ types:
     scanmagnetometricstrength: 8.0
     scanresolution: 1200.0
     shieldcapacity: 20.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.7
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 24500.0
   29245:
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 25.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.8999999761581421
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
+    armoruniformity: 0.9
     capacitorcapacity: 50.0
-    capacity: 100.0
-    damagemultiplier: 0.5416666865348816
+    damagemultiplier: 0.541666667
     disallowassistance: 1
     emdamage: 2.0
     entityarmorrepairamount: 20.0
@@ -264,15 +257,15 @@ types:
     entitycruisespeed: 275.0
     entityequipmentmax: 2
     entityequipmentmin: -4
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 1800.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 10.0
-    entityshieldboostdelaychance: 0.17499999701976776
-    entityshieldboostdelaychancesmall: 0.10000000149011612
+    entityshieldboostdelaychance: 0.175
+    entityshieldboostdelaychancesmall: 0.1
     entityshieldboostduration: 5000
     entitystrength: 1
     falloff: 4000.0
@@ -285,7 +278,7 @@ types:
     maxdirectionalvelocity: 3000
     maxrange: 800.0
     maxvelocity: 550.0
-    mintargetveldmgmultiplier: 0.05000000074505806
+    mintargetveldmgmultiplier: 0.05
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -295,39 +288,37 @@ types:
     modifytargetspeedrange: 20000
     name: Minmatar Frigate Vessel
     optimalsigradius: 40
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 38.400001525878906
+    radius: 38.4
     rechargerate: 500000.0
     scanladarstrength: 6.0
     scanresolution: 1500.0
     scanspeed: 4000
     shieldcapacity: 20.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 30.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.39500001072883606
+    trackingspeed: 0.395
     volume: 21120.0
   32786:
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 25.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
-    armoruniformity: 0.8999999761581421
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
+    armoruniformity: 0.9
     capacitorcapacity: 50.0
-    capacity: 100.0
-    damagemultiplier: 0.5416666865348816
+    damagemultiplier: 0.541666667
     disallowassistance: 1
     emdamage: 2.0
     entityarmorrepairamount: 20.0
@@ -344,15 +335,15 @@ types:
     entitycruisespeed: 275.0
     entityequipmentmax: 2
     entityequipmentmin: -4
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 1800.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 10.0
-    entityshieldboostdelaychance: 0.17499999701976776
-    entityshieldboostdelaychancesmall: 0.10000000149011612
+    entityshieldboostdelaychance: 0.175
+    entityshieldboostdelaychancesmall: 0.1
     entityshieldboostduration: 5000
     entitystrength: 1
     falloff: 4000.0
@@ -365,7 +356,7 @@ types:
     maxdirectionalvelocity: 3000
     maxrange: 800.0
     maxvelocity: 550.0
-    mintargetveldmgmultiplier: 0.05000000074505806
+    mintargetveldmgmultiplier: 0.05
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -375,11 +366,10 @@ types:
     modifytargetspeedrange: 20000
     name: Patrikia Noirild's Reaper
     optimalsigradius: 40
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 38.400001525878906
+    radius: 38.4
     rechargerate: 500000.0
     scanladarstrength: 6.0
     scanresolution: 1500.0
@@ -396,5 +386,5 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.39500001072883606
+    trackingspeed: 0.395
     volume: 21120.0

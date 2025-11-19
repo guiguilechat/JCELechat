@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde;
 
 import java.lang.reflect.Field;
+import java.math.BigDecimal;
 import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
@@ -8,13 +9,14 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 public abstract class EveType {
     public int id;
     public int marketGroup;
-    public double mass;
+    public BigDecimal mass;
     public String name;
-    public double packagedVolume;
+    public BigDecimal packagedVolume;
     public int portionSize;
-    public double price;
+    public BigDecimal price;
     public boolean published;
-    public double volume;
+    public BigDecimal radius;
+    public BigDecimal volume;
 
     public abstract IMetaGroup<?> getGroup();
 

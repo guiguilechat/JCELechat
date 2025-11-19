@@ -1,11 +1,11 @@
 types:
   45470:
-    agility: 0.015187500044703484
+    agility: 0.0151875
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 211250.0
     armorkineticdamageresonance: 0.375
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     behaviorarmorrepaireramount: 30912
     behaviorarmorrepairerdischarge: 2500
     behaviorarmorrepairerduration: 19125
@@ -13,13 +13,13 @@ types:
     behaviorenergynosferatufalloff: 12000
     behaviorenergynosferaturange: 24000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
@@ -28,15 +28,14 @@ types:
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 30000.0
     capacitorcapacity: 107000.0
-    capacity: 2400.0
-    damagemultiplier: 8.798173904418945
+    damagemultiplier: 8.798174011
     emdamage: 72.0
-    emdamageresonance: 0.6700000166893005
-    entityfactionloss: 0.009999999776482582
+    emdamageresonance: 0.67
+    entityfactionloss: 0.01
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
-    explosivedamageresonance: 0.6700000166893005
-    falloff: 28171.775390625
+    explosivedamageresonance: 0.67
+    falloff: 28171.77591
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     gfxboosterid: 397
@@ -44,11 +43,11 @@ types:
     hp: 211250.0
     id: 45470
     iscapitalsize: 1
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.29E9
+    kineticdamageresonance: 0.67
+    mass: 1290000000.0
     maximumrangecap: 300000
     maxlockedtargets: 7
-    maxrange: 87582.8828125
+    maxrange: 87582.88546
     maxtargetrange: 158437.5
     maxvelocity: 100.0
     missiledamagemultiplier: 1.0
@@ -60,35 +59,34 @@ types:
     name: ♦ Chemosh
     nosoverride: 1
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 420
     published: false
     radius: 1700.0
     rechargerate: 3300000.0
-    scanradarstrength: 79.91999816894531
-    scanresolution: 214.3251190185547
+    scanradarstrength: 79.92
+    scanresolution: 214.325119
     shieldcapacity: 147500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 11800.0
-    speed: 3477.224853515625
+    speed: 3477.224825
     speedfactor: -55.0
     thermaldamage: 16.0
-    thermaldamageresonance: 0.6700000166893005
-    trackingspeed: 1.750332236289978
-    volume: 1.85E7
+    thermaldamageresonance: 0.67
+    trackingspeed: 1.750332257
+    volume: 18500000.0
     warpspeedmultiplier: 3.0
   45474:
-    agility: 0.015187500044703484
+    agility: 0.0151875
     armoremdamageresonance: 0.359375
-    armorexplosivedamageresonance: 0.3022240102291107
+    armorexplosivedamageresonance: 0.302224002
     armorhp: 211250.0
-    armorkineticdamageresonance: 0.28333500027656555
-    armorthermaldamageresonance: 0.4671874940395355
+    armorkineticdamageresonance: 0.283335002
+    armorthermaldamageresonance: 0.4671875
     behaviorarmorrepaireramount: 26880
     behaviorarmorrepairerdischarge: 2500
     behaviorarmorrepairerduration: 22500
@@ -96,26 +94,25 @@ types:
     behaviorenergynosferatufalloff: 12000
     behaviorenergynosferaturange: 24000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 131500.0
-    capacity: 2400.0
-    damagemultiplier: 52.22547149658203
+    damagemultiplier: 52.22547103
     emdamage: 40.0
-    emdamageresonance: 0.6700000166893005
-    entityfactionloss: 0.009999999776482582
+    emdamageresonance: 0.67
+    entityfactionloss: 0.01
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 52500.0
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
@@ -124,8 +121,8 @@ types:
     hp: 211250.0
     id: 45474
     iscapitalsize: 1
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.29E9
+    kineticdamageresonance: 0.67
+    mass: 1290000000.0
     maximumrangecap: 500000
     maxlockedtargets: 7
     maxrange: 311850.0
@@ -140,7 +137,6 @@ types:
     name: ♦ Chemosh
     nosoverride: 1
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 420
     published: false
@@ -151,25 +147,25 @@ types:
     shieldcapacity: 140125.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 11800.0
-    speed: 8147.44921875
+    speed: 8147.449447
     speedfactor: 1.0
     thermaldamage: 24.0
-    thermaldamageresonance: 0.6700000166893005
-    trackingspeed: 0.007159789092838764
-    volume: 1.85E7
+    thermaldamageresonance: 0.67
+    trackingspeed: 0.007159789
+    volume: 18500000.0
     warpspeedmultiplier: 3.0
   46653:
-    agility: 0.017085937783122063
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.017085938
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 150000.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
-    behaviorenergynosferatudischarge: -70.4448013305664
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
+    behaviorenergynosferatudischarge: -70.44480043
     behaviorenergynosferatuduration: 10000
     behaviorenergynosferatufalloff: 10000
     behaviorenergynosferaturange: 20000
@@ -177,44 +173,42 @@ types:
     behaviorshieldboosterdischarge: 2250
     behaviorshieldboosterduration: 10000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 154980.0
-    capacity: 2750.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    entityfactionloss: 0.10000000149011612
+    emdamageresonance: 0.402
+    entityfactionloss: 0.1
     entitymissiletypeid: 27355
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     hp: 187500.0
     id: 46653
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.27E9
+    kineticdamageresonance: 0.402
+    mass: 1270000000.0
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxtargetrange: 143750.0
     maxvelocity: 87.5
-    missiledamagemultiplier: 6.377999782562256
-    missileentityaoecloudsizemultiplier: 0.6679999828338623
-    missileentityaoevelocitymultiplier: 1.6729999780654907
-    missileentityflighttimemultiplier: 1.6729999780654907
-    missileentityvelocitymultiplier: 4.080999851226807
-    missilelaunchduration: 3046.527099609375
+    missiledamagemultiplier: 6.378
+    missileentityaoecloudsizemultiplier: 0.668
+    missileentityaoevelocitymultiplier: 1.673
+    missileentityflighttimemultiplier: 1.673
+    missileentityvelocitymultiplier: 4.081
+    missilelaunchduration: 3046.527065
     name: ♦ Caiman
     optimalsigradius: 1000
-    packagedVolume: 1.625E7
     portionSize: 1
     powertransferamount: 120
     published: false
@@ -223,24 +217,24 @@ types:
     scangravimetricstrength: 66.0
     scanresolution: 150.0
     shieldcapacity: 187500.0
-    shieldemdamageresonance: 0.23946692049503326
+    shieldemdamageresonance: 0.239466923
     shieldexplosivedamageresonance: 0.21875
-    shieldkineticdamageresonance: 0.26249998807907104
+    shieldkineticdamageresonance: 0.2625
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.19157354533672333
+    shieldthermaldamageresonance: 0.191573538
     signatureradius: 11200.0
     speedfactor: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.625E7
+    thermaldamageresonance: 0.402
+    volume: 16250000.0
     warpspeedmultiplier: 3.0
   46654:
-    agility: 0.017085937783122063
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.017085938
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 150000.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
-    behaviorenergynosferatudischarge: -454.9464111328125
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
+    behaviorenergynosferatudischarge: -454.9464024
     behaviorenergynosferatuduration: 20000
     behaviorenergynosferatufalloff: 15000
     behaviorenergynosferaturange: 30000
@@ -248,64 +242,62 @@ types:
     behaviorshieldboosterdischarge: 2250
     behaviorshieldboosterduration: 10000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 105875.0
-    capacity: 2750.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    entityfactionloss: 0.10000000149011612
+    emdamageresonance: 0.402
+    entityfactionloss: 0.1
     entitymissiletypeid: 2182
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     hp: 187500.0
     id: 46654
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.27E9
+    kineticdamageresonance: 0.402
+    mass: 1270000000.0
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxtargetrange: 300000.0
     maxvelocity: 87.5
-    missiledamagemultiplier: 6.377999782562256
-    missileentityaoecloudsizemultiplier: 0.6679999828338623
-    missileentityaoevelocitymultiplier: 1.6729999780654907
-    missileentityflighttimemultiplier: 1.6729999780654907
-    missileentityvelocitymultiplier: 1.9589999914169312
-    missilelaunchduration: 18307.486328125
+    missiledamagemultiplier: 6.378
+    missileentityaoecloudsizemultiplier: 0.668
+    missileentityaoevelocitymultiplier: 1.673
+    missileentityflighttimemultiplier: 1.673
+    missileentityvelocitymultiplier: 1.959
+    missilelaunchduration: 18307.48728
     name: ♦ Caiman
     optimalsigradius: 1000
-    packagedVolume: 1.625E7
     portionSize: 1
     powertransferamount: 750
     published: false
     radius: 1700.0
     rechargerate: 2887500.0
-    scangravimetricstrength: 97.68000030517578
+    scangravimetricstrength: 97.68
     scanresolution: 121.875
     shieldcapacity: 178125.0
-    shieldemdamageresonance: 0.2949100136756897
-    shieldexplosivedamageresonance: 0.14745500683784485
-    shieldkineticdamageresonance: 0.1769459992647171
+    shieldemdamageresonance: 0.294910003
+    shieldexplosivedamageresonance: 0.147455002
+    shieldkineticdamageresonance: 0.176946002
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.2359279990196228
+    shieldthermaldamageresonance: 0.235928003
     signatureradius: 11200.0
     speedfactor: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.625E7
+    thermaldamageresonance: 0.402
+    volume: 16250000.0
     warpspeedmultiplier: 3.0
   60942:
-    agility: 0.019999999552965164
+    agility: 0.02
     armoremdamageresonance: 0.25
     armorexplosivedamageresonance: 0.25
     armorhp: 141000.0
@@ -319,13 +311,13 @@ types:
     behaviorenergynosferatufalloff: 8000
     behaviorenergynosferaturange: 16000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
@@ -345,7 +337,7 @@ types:
     id: 60942
     iscapitalsize: 1
     kineticdamageresonance: 1.0
-    mass: 1.237500032E9
+    mass: 1237500000.0
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -360,7 +352,6 @@ types:
     missilelaunchduration: 20000.0
     name: Starwight Rakshasa
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 550
     propulsiongraphicid: 394
@@ -371,20 +362,20 @@ types:
     scanresolution: 60.0
     shieldcapacity: 92700.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 11100.0
     speed: 3500.0
     speedfactor: 1.0
     thermaldamage: 28.0
     thermaldamageresonance: 1.0
     trackingspeed: 1000.0
-    volume: 1.85E7
+    volume: 18500000.0
     warpspeedmultiplier: 25.0
   60943:
-    agility: 0.019999999552965164
+    agility: 0.02
     armoremdamageresonance: 0.25
     armorexplosivedamageresonance: 0.25
     armorhp: 141000.0
@@ -398,13 +389,13 @@ types:
     behaviorenergynosferatufalloff: 8000
     behaviorenergynosferaturange: 16000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
@@ -424,7 +415,7 @@ types:
     id: 60943
     iscapitalsize: 1
     kineticdamageresonance: 1.0
-    mass: 1.237500032E9
+    mass: 1237500000.0
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -439,7 +430,6 @@ types:
     missilelaunchduration: 20000.0
     name: Moonwight Rakshasa
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 550
     propulsiongraphicid: 394
@@ -450,25 +440,25 @@ types:
     scanresolution: 60.0
     shieldcapacity: 92700.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 11100.0
     speed: 8000.0
     speedfactor: 1.0
     thermaldamage: 28.0
     thermaldamageresonance: 1.0
     trackingspeed: 1000.0
-    volume: 1.85E7
+    volume: 18500000.0
     warpspeedmultiplier: 25.0
   61292:
-    agility: 0.019999999552965164
-    armoremdamageresonance: 0.17100000381469727
-    armorexplosivedamageresonance: 0.22200000286102295
+    agility: 0.02
+    armoremdamageresonance: 0.171
+    armorexplosivedamageresonance: 0.222
     armorhp: 235000.0
-    armorkineticdamageresonance: 0.25699999928474426
-    armorthermaldamageresonance: 0.27399998903274536
+    armorkineticdamageresonance: 0.257
+    armorthermaldamageresonance: 0.274
     behaviorarmorrepaireramount: 5280
     behaviorarmorrepairerdischarge: 1920
     behaviorarmorrepairerduration: 30000
@@ -477,13 +467,13 @@ types:
     behaviorenergynosferatufalloff: 8000
     behaviorenergynosferaturange: 16000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
@@ -491,10 +481,10 @@ types:
     capacitorcapacity: 500000.0
     damagemultiplier: 54.0
     emdamage: 28.0
-    emdamageresonance: 0.41999998688697815
+    emdamageresonance: 0.42
     entitykillbounty: 60000000
     entitysecuritymaxgain: 5.0
-    explosivedamageresonance: 0.41999998688697815
+    explosivedamageresonance: 0.42
     falloff: 75000.0
     fighterabilityanticapitalmissileresistance: 1
     gfxboosterid: 394
@@ -502,8 +492,8 @@ types:
     hp: 141250.0
     id: 61292
     iscapitalsize: 1
-    kineticdamageresonance: 0.41999998688697815
-    mass: 1.237500032E9
+    kineticdamageresonance: 0.42
+    mass: 1237500000.0
     maxattacktargets: 1
     maximumrangecap: 300000
     maxlockedtargets: 7
@@ -518,7 +508,6 @@ types:
     missilelaunchduration: 20000.0
     name: Darkwight Rakshasa
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 550
     propulsiongraphicid: 394
@@ -529,26 +518,26 @@ types:
     scanresolution: 60.0
     shieldcapacity: 97625.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.43799999356269836
+    shieldthermaldamageresonance: 0.438
     signatureradius: 11100.0
     speed: 6500.0
     speedfactor: 1.0
     thermaldamage: 28.0
-    thermaldamageresonance: 0.41999998688697815
+    thermaldamageresonance: 0.42
     trackingspeed: 1000.0
-    volume: 1.85E7
+    volume: 18500000.0
     warpspeedmultiplier: 25.0
   63154:
-    agility: 0.017085937783122063
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.017085938
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 150000.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
-    behaviorenergynosferatudischarge: -70.4448013305664
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
+    behaviorenergynosferatudischarge: -70.44480043
     behaviorenergynosferatuduration: 10000
     behaviorenergynosferatufalloff: 10000
     behaviorenergynosferaturange: 20000
@@ -556,45 +545,43 @@ types:
     behaviorshieldboosterdischarge: 2250
     behaviorshieldboosterduration: 10000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 154980.0
-    capacity: 2750.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    entityfactionloss: 0.10000000149011612
+    emdamageresonance: 0.402
+    entityfactionloss: 0.1
     entitykillbounty: 150000000
     entitymissiletypeid: 27355
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     hp: 187500.0
     id: 63154
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.27E9
+    kineticdamageresonance: 0.402
+    mass: 1270000000.0
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxtargetrange: 143750.0
     maxvelocity: 87.5
-    missiledamagemultiplier: 6.377999782562256
-    missileentityaoecloudsizemultiplier: 0.6679999828338623
-    missileentityaoevelocitymultiplier: 1.6729999780654907
-    missileentityflighttimemultiplier: 1.6729999780654907
-    missileentityvelocitymultiplier: 4.080999851226807
-    missilelaunchduration: 3046.527099609375
+    missiledamagemultiplier: 6.378
+    missileentityaoecloudsizemultiplier: 0.668
+    missileentityaoevelocitymultiplier: 1.673
+    missileentityflighttimemultiplier: 1.673
+    missileentityvelocitymultiplier: 4.081
+    missilelaunchduration: 3046.527065
     name: ♦ Forgemaster Caiman
     optimalsigradius: 1000
-    packagedVolume: 1.625E7
     portionSize: 1
     powertransferamount: 120
     published: false
@@ -603,23 +590,23 @@ types:
     scangravimetricstrength: 66.0
     scanresolution: 150.0
     shieldcapacity: 187500.0
-    shieldemdamageresonance: 0.23946692049503326
+    shieldemdamageresonance: 0.239466923
     shieldexplosivedamageresonance: 0.21875
-    shieldkineticdamageresonance: 0.26249998807907104
+    shieldkineticdamageresonance: 0.2625
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.19157354533672333
+    shieldthermaldamageresonance: 0.191573538
     signatureradius: 11200.0
     speedfactor: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.625E7
+    thermaldamageresonance: 0.402
+    volume: 16250000.0
     warpspeedmultiplier: 3.0
   64346:
-    agility: 0.015187500044703484
+    agility: 0.0151875
     armoremdamageresonance: 0.359375
-    armorexplosivedamageresonance: 0.3022240102291107
+    armorexplosivedamageresonance: 0.302224002
     armorhp: 211250.0
-    armorkineticdamageresonance: 0.28333500027656555
-    armorthermaldamageresonance: 0.4671874940395355
+    armorkineticdamageresonance: 0.283335002
+    armorthermaldamageresonance: 0.4671875
     behaviorarmorrepaireramount: 26880
     behaviorarmorrepairerdischarge: 2500
     behaviorarmorrepairerduration: 22500
@@ -627,24 +614,23 @@ types:
     behaviorenergynosferatufalloff: 12000
     behaviorenergynosferaturange: 24000
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 131500.0
-    capacity: 2400.0
-    damagemultiplier: 52.22547149658203
+    damagemultiplier: 52.22547103
     emdamage: 40.0
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     entitykillbounty: 250000000
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 52500.0
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
@@ -653,8 +639,8 @@ types:
     hp: 211250.0
     id: 64346
     iscapitalsize: 1
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.29E9
+    kineticdamageresonance: 0.67
+    mass: 1290000000.0
     maximumrangecap: 300000
     maxlockedtargets: 7
     maxrange: 311850.0
@@ -669,7 +655,6 @@ types:
     name: ♦ Officer Chemosh
     nosoverride: 1
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
     powertransferamount: 420
     published: false
@@ -680,14 +665,14 @@ types:
     shieldcapacity: 140125.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.125E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 11800.0
-    speed: 8147.44921875
+    speed: 8147.449447
     speedfactor: 1.0
     thermaldamage: 24.0
-    thermaldamageresonance: 0.6700000166893005
-    trackingspeed: 0.007159789092838764
-    volume: 1.85E7
+    thermaldamageresonance: 0.67
+    trackingspeed: 0.007159789
+    volume: 18500000.0
     warpspeedmultiplier: 3.0

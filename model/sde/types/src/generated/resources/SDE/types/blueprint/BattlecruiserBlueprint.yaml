@@ -5,404 +5,339 @@ types:
     industryjobcostmultiplier: 1
     marketGroup: 589
     name: Oracle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.25E8
+    price: 625000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   4307:
     id: 4307
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 590
     name: Naga Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.15E8
+    price: 615000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   4309:
     id: 4309
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 591
     name: Talos Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.5E8
+    price: 650000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   4311:
     id: 4311
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 592
     name: Tornado Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.92E8
+    price: 592000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16228:
     id: 16228
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 590
     name: Ferox Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4E8
+    price: 540000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16230:
     id: 16230
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 591
     name: Brutix Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.7E8
+    price: 570000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16232:
     id: 16232
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 592
     name: Cyclone Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.25E8
+    price: 525000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16234:
     id: 16234
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 589
     name: Prophecy Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.55E8
+    price: 555000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22443:
     id: 22443
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 898
     name: Eos Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22445:
     id: 22445
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 899
     name: Sleipnir Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22447:
     id: 22447
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 897
     name: Vulture Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22449:
     id: 22449
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 896
     name: Absolution Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22467:
     id: 22467
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 898
     name: Astarte Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22469:
     id: 22469
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 899
     name: Claymore Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22471:
     id: 22471
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 897
     name: Nighthawk Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22475:
     id: 22475
     industryblueprintrank: 1000.0
     industryjobcostmultiplier: 1
     marketGroup: 896
     name: Damnation Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24697:
     id: 24697
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 589
     name: Harbinger Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.85E8
+    price: 585000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24699:
     id: 24699
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 590
     name: Drake Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E8
+    price: 580000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24701:
     id: 24701
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 591
     name: Myrmidon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24703:
     id: 24703
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     marketGroup: 592
     name: Hurricane Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.65E8
+    price: 565000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33152:
     id: 33152
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Brutix Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.7E8
+    price: 570000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33154:
     id: 33154
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Drake Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E8
+    price: 580000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33156:
     id: 33156
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Harbinger Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.85E8
+    price: 585000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33158:
     id: 33158
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Hurricane Fleet Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.65E8
+    price: 565000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33327:
     id: 33327
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Gnosis Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   49715:
     id: 49715
     industryjobcostmultiplier: 1
     name: Drekavac Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   72923:
     id: 72923
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Cyclone Fleet Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   72924:
     id: 72924
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Prophecy Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   72925:
     id: 72925
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Myrmidon Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   72926:
     id: 72926
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Ferox Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   78368:
     id: 78368
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Alligator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E8
+    price: 580000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   78370:
     id: 78370
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Khizriel Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.65E8
+    price: 565000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   85180:
     id: 85180
     industryblueprintrank: 50.0
     industryjobcostmultiplier: 1
     name: Cenotaph Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

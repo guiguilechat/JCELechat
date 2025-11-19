@@ -13,11 +13,9 @@ types:
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 150000
     name: Warp Core Stabilizer I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
     scanresolutionmultiplier: 0.5
@@ -39,14 +37,12 @@ types:
     metalevelold: 5
     modulereactivationdelay: 150000
     name: Warp Core Stabilizer II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 4
-    scanresolutionmultiplier: 0.6000000238418579
+    scanresolutionmultiplier: 0.6
     techlevel: 2
     volume: 5.0
     warpscramblestrength: -2
@@ -65,14 +61,12 @@ types:
     metalevelold: 1
     modulereactivationdelay: 150000
     name: '''Accord'' Core Compensation'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.5199999809265137
+    scanresolutionmultiplier: 0.52
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2
@@ -91,14 +85,12 @@ types:
     metalevelold: 2
     modulereactivationdelay: 150000
     name: '''Repose'' Core Compensation'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.5400000214576721
+    scanresolutionmultiplier: 0.54
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2
@@ -117,14 +109,12 @@ types:
     metalevelold: 3
     modulereactivationdelay: 150000
     name: '''Stoic'' Core Equalizer I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.5600000023841858
+    scanresolutionmultiplier: 0.56
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2
@@ -143,14 +133,12 @@ types:
     metalevelold: 4
     modulereactivationdelay: 150000
     name: '''Halcyon'' Core Equalizer I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.5799999833106995
+    scanresolutionmultiplier: 0.58
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2
@@ -170,14 +158,12 @@ types:
     metalevelold: 6
     modulereactivationdelay: 150000
     name: '''Aura'' Warp Core Stabilizer I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.5600000023841858
+    scanresolutionmultiplier: 0.56
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2
@@ -197,14 +183,12 @@ types:
     metalevelold: 7
     modulereactivationdelay: 150000
     name: '''Natura'' Warp Core Stabilizer I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 1
-    scanresolutionmultiplier: 0.6000000238418579
+    scanresolutionmultiplier: 0.6
     techlevel: 1
     volume: 5.0
     warpscramblestrength: -2

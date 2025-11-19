@@ -18,7 +18,7 @@ public class ShowShipWarpDistance {
 
 		public ShipEval(Ship ship) {
 			this.ship = ship;
-			range = ship.capacitorcapacity / ship.mass / ship.warpcapacitorneed;
+			range = ship.capacitorcapacity / ship.mass.doubleValue() / ship.warpcapacitorneed;
 		}
 	}
 

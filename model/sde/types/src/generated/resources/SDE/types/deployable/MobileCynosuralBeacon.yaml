@@ -8,7 +8,6 @@ types:
     mass: 10000.0
     metalevelold: 1
     name: Mobile Cynosural Beacon
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -35,7 +34,6 @@ types:
     mass: 10000.0
     metalevelold: 1
     name: Covert Mobile Cynosural Beacon
-    packagedVolume: 210.0
     portionSize: 1
     published: true
     radius: 100.0

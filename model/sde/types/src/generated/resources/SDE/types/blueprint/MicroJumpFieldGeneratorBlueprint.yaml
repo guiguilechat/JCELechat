@@ -3,17 +3,14 @@ types:
     id: 37621
     marketGroup: 2134
     name: Micro Jump Field Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.265504E7
+    price: 12655040.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   83641:
     id: 83641
     industryblueprintrank: 120.0
     name: Capital Micro Jump Field Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

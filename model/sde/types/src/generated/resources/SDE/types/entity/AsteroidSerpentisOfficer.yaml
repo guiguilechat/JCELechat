@@ -6,15 +6,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.18000000715255737
-    armorexplosivedamageresonance: 0.3199999928474426
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.18
+    armorexplosivedamageresonance: 0.32
     armorhp: 29155.0
-    armorkineticdamageresonance: 0.23000000417232513
-    armorthermaldamageresonance: 0.23000000417232513
+    armorkineticdamageresonance: 0.23
+    armorthermaldamageresonance: 0.23
     armoruniformity: 0.75
     capacitorcapacity: 4300.0
-    capacity: 480.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityattackdelaymax: 10000
@@ -29,22 +28,22 @@ types:
     entitycruisespeed: 178.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3937.0
     entitygrouprespawnchance: 1
     entitykillbounty: 33874512
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.2207000255584717
+    entitysecuritystatuskillbonus: 1.2207
     falloff: 12500.0
     gfxboosterid: 394
     gfxturretid: 571
     hp: 32812.0
     id: 13654
-    kineticdamage: 492.0299987792969
-    mass: 1.75E7
+    kineticdamage: 492.03
+    mass: 17500000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3937.0
@@ -54,7 +53,6 @@ types:
     modifytargetspeedrange: 13000
     name: Cormack Vaaja
     optimalsigradius: 400
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -63,18 +61,18 @@ types:
     scanmagnetometricstrength: 45.0
     scanresolution: 125.0
     shieldcapacity: 10868.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 4340.0
     speedfactor: -95.0
     structureuniformity: 1.0
-    thermaldamage: 351.45001220703125
-    trackingspeed: 0.07441999763250351
+    thermaldamage: 351.45
+    trackingspeed: 0.07442
     volume: 1140000.0
     warpscrambleduration: 5000
     warpscramblerange: 26000
@@ -86,15 +84,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20000000298023224
-    armorexplosivedamageresonance: 0.3700000047683716
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2
+    armorexplosivedamageresonance: 0.37
     armorhp: 29155.0
-    armorkineticdamageresonance: 0.25999999046325684
-    armorthermaldamageresonance: 0.25999999046325684
+    armorkineticdamageresonance: 0.26
+    armorthermaldamageresonance: 0.26
     armoruniformity: 0.75
     capacitorcapacity: 4100.0
-    capacity: 480.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityattackdelaymax: 10000
@@ -109,13 +106,13 @@ types:
     entitycruisespeed: 178.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3937.0
     entitygrouprespawnchance: 1
     entitykillbounty: 21679688
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8799999952316284
+    entityreactionfactor: 0.88
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.78125
     falloff: 12500.0
@@ -124,7 +121,7 @@ types:
     hp: 32812.0
     id: 13659
     kineticdamage: 436.0
-    mass: 1.75E7
+    mass: 17500000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3937.0
@@ -134,7 +131,6 @@ types:
     modifytargetspeedrange: 13000
     name: Tuvan Orth
     optimalsigradius: 400
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -143,18 +139,18 @@ types:
     scanmagnetometricstrength: 37.0
     scanresolution: 125.0
     shieldcapacity: 10868.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 4340.0
     speedfactor: -95.0
     structureuniformity: 1.0
     thermaldamage: 316.0
-    trackingspeed: 0.07441999763250351
+    trackingspeed: 0.07442
     volume: 1140000.0
     warpscrambleduration: 5000
     warpscramblerange: 26000
@@ -166,15 +162,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2199999988079071
-    armorexplosivedamageresonance: 0.38999998569488525
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.22
+    armorexplosivedamageresonance: 0.39
     armorhp: 24296.0
-    armorkineticdamageresonance: 0.2800000011920929
-    armorthermaldamageresonance: 0.2800000011920929
+    armorkineticdamageresonance: 0.28
+    armorthermaldamageresonance: 0.28
     armoruniformity: 0.75
     capacitorcapacity: 4000.0
-    capacity: 480.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityattackdelaymax: 10000
@@ -189,13 +184,13 @@ types:
     entitycruisespeed: 183.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 17343750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8700000047683716
+    entityreactionfactor: 0.87
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.625
     falloff: 25000.0
@@ -204,7 +199,7 @@ types:
     hp: 32812.0
     id: 13661
     kineticdamage: 247.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 25000.0
@@ -214,7 +209,6 @@ types:
     modifytargetspeedrange: 13000
     name: Brynn Jerdola
     optimalsigradius: 400
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -223,18 +217,18 @@ types:
     scanmagnetometricstrength: 33.0
     scanresolution: 125.0
     shieldcapacity: 10868.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 4030.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 179.0
-    trackingspeed: 0.028119999915361404
+    trackingspeed: 0.02812
     volume: 1010000.0
     warpscrambleduration: 5000
     warpscramblerange: 26000
@@ -246,15 +240,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.1899999976158142
-    armorexplosivedamageresonance: 0.3400000035762787
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.19
+    armorexplosivedamageresonance: 0.34
     armorhp: 24296.0
     armorkineticdamageresonance: 0.25
     armorthermaldamageresonance: 0.25
     armoruniformity: 0.75
     capacitorcapacity: 4200.0
-    capacity: 480.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityattackdelaymax: 10000
@@ -269,22 +262,22 @@ types:
     entitycruisespeed: 183.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 27000.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 27099608
+    entitykillbounty: 27099609
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8899999856948853
+    entityreactionfactor: 0.89
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.9765629768371582
+    entitysecuritystatuskillbonus: 0.976563
     falloff: 25000.0
     gfxboosterid: 394
     gfxturretid: 572
     hp: 32812.0
     id: 13667
-    kineticdamage: 275.7799987792969
-    mass: 1.9E7
+    kineticdamage: 275.78
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 27000.0
@@ -294,7 +287,6 @@ types:
     modifytargetspeedrange: 13000
     name: Setele Schellan
     optimalsigradius: 400
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -303,18 +295,18 @@ types:
     scanmagnetometricstrength: 41.0
     scanresolution: 125.0
     shieldcapacity: 10868.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 4030.0
     speedfactor: -55.0
     structureuniformity: 1.0
-    thermaldamage: 199.6999969482422
-    trackingspeed: 0.028119999915361404
+    thermaldamage: 199.7
+    trackingspeed: 0.02812
     volume: 1010000.0
     warpscrambleduration: 5000
     warpscramblerange: 26000

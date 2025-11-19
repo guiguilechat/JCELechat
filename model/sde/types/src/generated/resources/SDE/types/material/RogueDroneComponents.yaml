@@ -2,72 +2,64 @@ types:
   21815:
     id: 21815
     marketGroup: 1906
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Elite Drone AI
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   28361:
     id: 28361
     marketGroup: 1906
     mass: 0.5
     name: Drone Synaptic Relay Wiring
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   28362:
     id: 28362
     marketGroup: 1906
     mass: 1.0
     name: Drone Capillary Fluid
-    packagedVolume: 0.019999999552965164
     portionSize: 1
     published: true
-    volume: 0.019999999552965164
+    volume: 0.02
   28363:
     id: 28363
     marketGroup: 1906
     mass: 1.0
     name: Drone Cerebral Fragment
-    packagedVolume: 0.029999999329447746
     portionSize: 1
     published: true
-    volume: 0.029999999329447746
+    volume: 0.03
   28364:
     id: 28364
     marketGroup: 1906
     mass: 2.0
     name: Drone Tactical Limb
-    packagedVolume: 0.07000000029802322
     portionSize: 1
     published: true
-    volume: 0.07000000029802322
+    volume: 0.07
   28365:
     id: 28365
     marketGroup: 1906
     mass: 5.0
     name: Drone Epidermal Shielding Chunk
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   28366:
     id: 28366
     marketGroup: 1906
     mass: 2.0
     name: Drone Coronary Unit
-    packagedVolume: 0.07999999821186066
     portionSize: 1
     published: true
-    volume: 0.07999999821186066
+    volume: 0.08
   81945:
     id: 81945
     marketGroup: 1906
     mass: 0.5
     name: Drone Graviton Emitter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
@@ -27,10 +26,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritBonusYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -117,6 +117,14 @@ public class FrequencyMiningLaser
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamount;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritbonusyield;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double miningcritchance;
     /**
      * The probability of volume getting wasted every cycle
      */
@@ -194,7 +202,7 @@ public class FrequencyMiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, MiningAmount.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, SpecialtyMiningAmount.INSTANCE, RequiredSkill2Level.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, MiningAmount.INSTANCE, MiningCritChance.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, MiningCritBonusYield.INSTANCE, CanFitShipGroup01 .INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, SpecialtyMiningAmount.INSTANCE, RequiredSkill2Level.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final FrequencyMiningLaser.MetaGroup METAGROUP = new FrequencyMiningLaser.MetaGroup();
 
     @Override
@@ -239,6 +247,14 @@ public class FrequencyMiningLaser
             case  77 :
             {
                 return miningamount;
+            }
+            case  5969 :
+            {
+                return miningcritbonusyield;
+            }
+            case  5967 :
+            {
+                return miningcritchance;
             }
             case  3154 :
             {

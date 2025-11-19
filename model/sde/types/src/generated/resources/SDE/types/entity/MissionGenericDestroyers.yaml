@@ -4,19 +4,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.9
     armorhp: 2500000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 190.0
-    capacity: 120.0
     damagemultiplier: 9.0
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.20000000298023224
-    entityarmorrepairdelaychancesmall: 0.20000000298023224
+    entityarmorrepairdelaychance: 0.2
+    entityarmorrepairdelaychancesmall: 0.2
     entityarmorrepairduration: 10000
     entityattackdelaymax: 25800
     entityattackdelaymin: 6450
@@ -30,17 +29,17 @@ types:
     entitycruisespeed: 250.0
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 12734.0
     entitygrouprespawnchance: 1
     entitykillbounty: 21000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.38999998569488525
+    entityreactionfactor: 0.39
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.02250000089406967
+    entitysecuritystatuskillbonus: 0.0225
     entityshieldboostamount: 32.5
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     falloff: 10938.0
     gfxboosterid: 397
@@ -53,14 +52,13 @@ types:
     maxlockedtargets: 2
     maxrange: 10000.0
     maxvelocity: 2000.0
-    missileentityaoecloudsizemultiplier: 0.9427000284194946
-    missileentityaoevelocitymultiplier: 1.1145999431610107
-    missileentityflighttimemultiplier: 1.1145999431610107
-    missileentityvelocitymultiplier: 1.1145999431610107
+    missileentityaoecloudsizemultiplier: 0.9427
+    missileentityaoevelocitymultiplier: 1.1146
+    missileentityflighttimemultiplier: 1.1146
+    missileentityvelocitymultiplier: 1.1146
     missilelaunchduration: 1.0
     name: Angel Resilient Destroyer
     optimalsigradius: 40
-    packagedVolume: 16450.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -69,33 +67,32 @@ types:
     scanladarstrength: 12.0
     scanresolution: 550.0
     shieldcapacity: 2500000.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.8
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 3750.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.06599999964237213
+    trackingspeed: 0.066
     volume: 16450.0
   27296:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 300000.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 5.416666507720947
+    damagemultiplier: 5.416666667
     disallowassistance: 1
     emdamage: 5.0
     entityarmorrepairamount: 65.0
@@ -106,22 +103,22 @@ types:
     entityattackrange: 40000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdelaychance: 0.075
     entitychasemaxdistance: 24000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 16000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 19500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
+    entityreactionfactor: 0.38
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.021250000223517418
+    entitysecuritystatuskillbonus: 0.02125
     entityshieldboostdelaychancesmall: 0.25
     entityshieldboostduration: 10000
     falloff: 4000.0
@@ -134,14 +131,13 @@ types:
     maxlockedtargets: 1
     maxrange: 15000.0
     maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.9467999935150146
+    missileentityaoecloudsizemultiplier: 0.9468
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Blood Resilient Destroyer
     optimalsigradius: 40
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -150,55 +146,54 @@ types:
     scanradarstrength: 12.0
     scanresolution: 525.0
     shieldcapacity: 250000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 83.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 5.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 28600.0
   27297:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 250000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 220.0
-    capacity: 235.0
-    damagemultiplier: 6.650000095367432
+    damagemultiplier: 6.65
     disallowassistance: 1
     entityattackdelaymax: 25500
     entityattackdelaymin: 6375
     entityattackrange: 41250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdelaychance: 0.075
     entitychasemaxdistance: 24750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 22500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.023749999701976776
+    entitysecuritystatuskillbonus: 0.02375
     entityshieldboostamount: 32.5
     entityshieldboostdelaychancesmall: 0.25
     entityshieldboostduration: 5000
@@ -213,14 +208,13 @@ types:
     maxlockedtargets: 2
     maxrange: 15000.0
     maxvelocity: 1600.0
-    missileentityaoecloudsizemultiplier: 0.9386000037193298
-    missileentityaoevelocitymultiplier: 1.1227999925613403
-    missileentityflighttimemultiplier: 1.3070000410079956
-    missileentityvelocitymultiplier: 1.3070000410079956
+    missileentityaoecloudsizemultiplier: 0.9386
+    missileentityaoevelocitymultiplier: 1.1228
+    missileentityflighttimemultiplier: 1.307
+    missileentityvelocitymultiplier: 1.307
     missilelaunchduration: 1.0
     name: Guristas Resilient Destroyer
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -230,33 +224,32 @@ types:
     scanresolution: 475.0
     scanspeed: 2000
     shieldcapacity: 300000.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 89.0
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 5.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 16500.0
   27298:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.6
     armorhp: 275000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 6.599999904632568
+    damagemultiplier: 6.6
     disallowassistance: 1
     entityarmorrepairamount: 65.0
     entityarmorrepairdelaychance: 0.25
@@ -267,22 +260,22 @@ types:
     entityattackrange: 35938
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.07500000298023224
+    entitychasemaxdelaychance: 0.075
     entitychasemaxdistance: 21563
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 14375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 19500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
+    entityreactionfactor: 0.38
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.021250000223517418
+    entitysecuritystatuskillbonus: 0.02125
     entityshieldboostduration: 10000
     falloff: 7500.0
     gfxboosterid: 394
@@ -302,7 +295,6 @@ types:
     missilelaunchduration: 20000.0
     name: Serpentis Resilient Destroyer
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -311,15 +303,15 @@ types:
     scanmagnetometricstrength: 13.0
     scanresolution: 500.0
     shieldcapacity: 250000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 86.0
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.08749999850988388
+    trackingspeed: 0.0875
     volume: 26500.0

@@ -4,63 +4,55 @@ types:
     industryblueprintrank: 180.0
     marketGroup: 2248
     name: ECM Jammer Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41388:
     id: 41388
     marketGroup: 2248
     name: Sensor Dampening Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41390:
     id: 41390
     marketGroup: 2248
     name: Energy Neutralization Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41391:
     id: 41391
     marketGroup: 2248
     name: Target Illumination Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41392:
     id: 41392
     marketGroup: 2248
     name: Weapon Disruption Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41393:
     id: 41393
     marketGroup: 2248
     name: Stasis Webification Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41394:
     id: 41394
     marketGroup: 2248
     name: Warp Disruption Burst Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

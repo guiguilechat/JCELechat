@@ -2,16 +2,14 @@ types:
   21074:
     id: 21074
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.6000000238418579
+    inventionmemodifier: 0.6
     inventionpropabilitymultiplier: 3.5
-    inventiontemodifier: 0.6000000238418579
+    inventiontemodifier: 0.6
     marketGroup: 1903
     mass: 1.0
     name: Talocan Sketch Books
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21077:
     id: 21077
@@ -22,24 +20,20 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Info Shards
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21084:
     id: 21084
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.6000000238418579
+    inventionmemodifier: 0.6
     inventionpropabilitymultiplier: 4.0
     inventiontemodifier: 0.5
     marketGroup: 1903
     mass: 1.0
     name: Talocan Mathematical Schematics
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21085:
     id: 21085
@@ -50,22 +44,18 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Automation Accounts
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21087:
     id: 21087
     inventionmaxrunmodifier: 5.0
-    inventionmemodifier: 1.2000000476837158
+    inventionmemodifier: 1.2
     inventionpropabilitymultiplier: 1.5
-    inventiontemodifier: 1.2000000476837158
+    inventiontemodifier: 1.2
     marketGroup: 1903
     mass: 1.0
     name: Talocan Intricate Formulas
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

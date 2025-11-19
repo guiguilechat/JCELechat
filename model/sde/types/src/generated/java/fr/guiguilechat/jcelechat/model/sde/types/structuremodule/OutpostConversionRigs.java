@@ -27,13 +27,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeT1ShipManufacture
 import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeT2ShipManufactureTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeTEResearchTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConversionRigHPCapBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -145,13 +143,6 @@ public class OutpostConversionRigs
     @DefaultIntValue(0)
     public int canfitshipgroup01;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -195,13 +186,6 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int metalevelold;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
@@ -286,7 +270,7 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeResearchCosts.INSTANCE, AttributeInventionCosts.INSTANCE, Radius.INSTANCE, AttributeEngRigMatBonus.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeResearchCosts.INSTANCE, AttributeInventionCosts.INSTANCE, AttributeEngRigMatBonus.INSTANCE, StructureServiceRoleBonus.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
     public static final OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
 
     @Override
@@ -344,10 +328,6 @@ public class OutpostConversionRigs
             {
                 return canfitshipgroup01;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  2772 :
             {
                 return conversionrighpcapbonus;
@@ -367,10 +347,6 @@ public class OutpostConversionRigs
             case  633 :
             {
                 return metalevelold;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  717 :
             {

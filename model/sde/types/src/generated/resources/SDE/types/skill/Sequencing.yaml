@@ -4,242 +4,210 @@ types:
     id: 81364
     marketGroup: 3656
     name: Mass Sequencing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81375
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 6.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81365:
     cannotbetrainedontrial: 1
     id: 81365
     marketGroup: 3656
     name: Industrial Sequencing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81364
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 9.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81366:
     cannotbetrainedontrial: 1
     id: 81366
     marketGroup: 3656
     name: Parallel Sequencing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81367:
     cannotbetrainedontrial: 1
     id: 81367
     marketGroup: 3656
     name: Multi-thread Sequencing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81366
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 6.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81368:
     cannotbetrainedontrial: 1
     id: 81368
     marketGroup: 3656
     name: Hub Promotion
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81369:
     cannotbetrainedontrial: 1
     id: 81369
     marketGroup: 3656
     name: Hub Algorithm Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
+    price: 75000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81368
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81370:
     cannotbetrainedontrial: 1
     id: 81370
     marketGroup: 3656
     name: Studio Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81371:
     cannotbetrainedontrial: 1
     id: 81371
     marketGroup: 3656
     name: Advanced Studio Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81370
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81372:
     cannotbetrainedontrial: 1
     id: 81372
     marketGroup: 3656
     name: Induction Efficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81377
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81373:
     cannotbetrainedontrial: 1
     id: 81373
     marketGroup: 3656
     name: Advanced Induction Efficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81372
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81374:
     cannotbetrainedontrial: 1
     id: 81374
     marketGroup: 3656
     name: Peak Induction Acceleration
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.5E7
+    price: 45000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 81373
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81375:
     cannotbetrainedontrial: 1
     id: 81375
     marketGroup: 3656
     name: Batch Sequencing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81377:
     cannotbetrainedontrial: 1
     id: 81377
     marketGroup: 3656
     name: Basic Induction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   84217:
     cannotbetrainedontrial: 1
     id: 84217
     marketGroup: 3656
     name: Paragon Relations
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 167
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   84218:
     cannotbetrainedontrial: 1
     id: 84218
     marketGroup: 3656
     name: Paragon Partnership
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 84217
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 4.0
-    volume: 0.009999999776482582
+    volume: 0.01
   84220:
     cannotbetrainedontrial: 1
     id: 84220
     marketGroup: 3656
     name: Executive Paragon Partnership
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
+    price: 75000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 84218
     requiredskill1level: 4
     secondaryattribute: 167
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01

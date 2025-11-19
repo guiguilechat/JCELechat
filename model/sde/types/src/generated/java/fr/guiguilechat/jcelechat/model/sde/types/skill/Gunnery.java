@@ -18,13 +18,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisruptionLanceSkillBoostCapacitorCost;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -161,7 +159,7 @@ public class Gunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int turretspeebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, DisruptionLanceSkillBoostCapacitorCost.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, DisruptionLanceSkillBoostCapacitorCost.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
 
     @Override

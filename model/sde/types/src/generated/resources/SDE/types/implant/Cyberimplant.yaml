@@ -5,7 +5,7 @@ types:
     durationbonus: -1
     id: 19534
     implantness: 1
-    implantsetbloodraider: 1.149999976158142
+    implantsetbloodraider: 1.15
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -30,12 +30,10 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Talisman Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -49,7 +47,7 @@ types:
     durationbonus: -2
     id: 19535
     implantness: 2
-    implantsetbloodraider: 1.149999976158142
+    implantsetbloodraider: 1.15
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -75,11 +73,9 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Talisman Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -93,7 +89,7 @@ types:
     durationbonus: -3
     id: 19536
     implantness: 3
-    implantsetbloodraider: 1.149999976158142
+    implantsetbloodraider: 1.15
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -118,11 +114,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Talisman Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -137,7 +131,7 @@ types:
     durationbonus: -4
     id: 19537
     implantness: 4
-    implantsetbloodraider: 1.149999976158142
+    implantsetbloodraider: 1.15
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -163,11 +157,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Talisman Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -182,7 +174,7 @@ types:
     durationbonus: -5
     id: 19538
     implantness: 5
-    implantsetbloodraider: 1.149999976158142
+    implantsetbloodraider: 1.15
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -207,11 +199,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Talisman Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -249,11 +239,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Talisman Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -284,7 +272,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.149999976158142
+    implantsetserpentis: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -292,17 +280,15 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Snake Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.009999999776482582
+    smugglingchancebonus: 0.01
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.5
@@ -330,7 +316,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.149999976158142
+    implantsetserpentis: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -339,16 +325,14 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Snake Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.019999999552965164
+    smugglingchancebonus: 0.02
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.625
@@ -376,7 +360,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.149999976158142
+    implantsetserpentis: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -384,16 +368,14 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Snake Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.029999999329447746
+    smugglingchancebonus: 0.03
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.75
@@ -422,7 +404,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.149999976158142
+    implantsetserpentis: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -431,16 +413,14 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Snake Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.03999999910593033
+    smugglingchancebonus: 0.04
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.875
@@ -469,7 +449,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.149999976158142
+    implantsetserpentis: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -477,16 +457,14 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Snake Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.05000000074505806
+    smugglingchancebonus: 0.05
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 1.0
@@ -522,11 +500,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Snake Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -542,7 +518,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.149999976158142
+    implantsetguristas: 1.15
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -564,12 +540,10 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Crystal Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -586,7 +560,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.149999976158142
+    implantsetguristas: 1.15
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -609,11 +583,9 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Crystal Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -630,7 +602,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.149999976158142
+    implantsetguristas: 1.15
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -652,11 +624,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Crystal Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -674,7 +644,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.149999976158142
+    implantsetguristas: 1.15
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -697,11 +667,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Crystal Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -719,7 +687,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.149999976158142
+    implantsetguristas: 1.15
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -741,11 +709,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Crystal Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -784,11 +750,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Crystal Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -806,7 +770,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.149999976158142
+    implantsethalo: 1.15
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -826,11 +790,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Halo Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -845,7 +807,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 20499
     implantness: 1
-    implantsetamulet: 1.149999976158142
+    implantsetamulet: 1.15
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -871,11 +833,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Amulet Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -893,7 +853,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.149999976158142
+    implantsethalo: 1.15
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -914,10 +874,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Halo Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -932,7 +890,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 20501
     implantness: 2
-    implantsetamulet: 1.149999976158142
+    implantsetamulet: 1.15
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -959,10 +917,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Amulet Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -980,7 +936,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.149999976158142
+    implantsethalo: 1.15
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1001,10 +957,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Halo Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1019,7 +973,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 20503
     implantness: 4
-    implantsetamulet: 1.149999976158142
+    implantsetamulet: 1.15
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1046,10 +1000,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Amulet Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1068,7 +1020,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.149999976158142
+    implantsethalo: 1.15
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1088,10 +1040,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Halo Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -1107,7 +1057,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 20505
     implantness: 5
-    implantsetamulet: 1.149999976158142
+    implantsetamulet: 1.15
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1133,10 +1083,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Amulet Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -1154,7 +1102,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.149999976158142
+    implantsethalo: 1.15
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1174,10 +1122,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Halo Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1193,7 +1139,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 20507
     implantness: 3
-    implantsetamulet: 1.149999976158142
+    implantsetamulet: 1.15
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1219,10 +1165,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Amulet Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1261,10 +1205,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Halo Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -1303,10 +1245,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Amulet Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -1322,7 +1262,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -1344,11 +1284,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Crystal Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1365,7 +1303,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -1388,10 +1326,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Crystal Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1408,7 +1344,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -1431,10 +1367,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Crystal Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1452,7 +1386,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -1474,10 +1408,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Crystal Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -1494,7 +1426,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -1516,10 +1448,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Crystal Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1559,10 +1489,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Crystal Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -1580,7 +1508,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1600,11 +1528,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Halo Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1623,7 +1549,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1644,10 +1570,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Halo Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1666,7 +1590,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1687,10 +1611,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Halo Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1710,7 +1632,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1730,10 +1652,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Halo Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -1752,7 +1672,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -1772,10 +1692,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Halo Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1815,10 +1733,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Halo Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -1832,7 +1748,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 22119
     implantness: 1
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1858,11 +1774,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Amulet Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1876,7 +1790,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 22120
     implantness: 2
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1903,10 +1817,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Amulet Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -1920,7 +1832,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 22121
     implantness: 4
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1947,10 +1859,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Amulet Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -1965,7 +1875,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 22122
     implantness: 5
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -1991,10 +1901,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Amulet Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -2008,7 +1916,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 22123
     implantness: 3
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -2034,10 +1942,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Amulet Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -2077,10 +1983,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Amulet Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -2111,7 +2015,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.100000023841858
+    implantsetserpentis: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -2119,16 +2023,14 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Snake Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.009999999776482582
+    smugglingchancebonus: 0.01
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.5
@@ -2156,7 +2058,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.100000023841858
+    implantsetserpentis: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -2165,15 +2067,13 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Snake Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.019999999552965164
+    smugglingchancebonus: 0.02
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.625
@@ -2201,7 +2101,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.100000023841858
+    implantsetserpentis: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -2210,15 +2110,13 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Snake Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.029999999329447746
+    smugglingchancebonus: 0.03
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.875
@@ -2247,7 +2145,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.100000023841858
+    implantsetserpentis: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -2255,15 +2153,13 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Snake Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.05000000074505806
+    smugglingchancebonus: 0.05
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 1.0
@@ -2291,7 +2187,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.100000023841858
+    implantsetserpentis: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -2299,15 +2195,13 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Snake Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.029999999329447746
+    smugglingchancebonus: 0.03
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.75
@@ -2344,10 +2238,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Snake Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -2361,7 +2253,7 @@ types:
     durationbonus: -1
     id: 22131
     implantness: 1
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -2386,11 +2278,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Talisman Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -2404,7 +2294,7 @@ types:
     durationbonus: -2
     id: 22133
     implantness: 2
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -2430,10 +2320,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Talisman Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -2447,7 +2335,7 @@ types:
     durationbonus: -4
     id: 22134
     implantness: 4
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -2473,10 +2361,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Talisman Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -2491,7 +2377,7 @@ types:
     durationbonus: -5
     id: 22135
     implantness: 5
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -2516,10 +2402,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Talisman Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -2533,7 +2417,7 @@ types:
     durationbonus: -3
     id: 22136
     implantness: 3
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -2558,10 +2442,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Talisman Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -2600,10 +2482,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Talisman Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -2628,7 +2508,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -2641,11 +2521,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Centurion Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 1
     requiredskill1: 3411
     requiredskill1level: 2
@@ -2671,7 +2549,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -2685,10 +2563,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Centurion Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 2
     requiredskill1: 3411
     requiredskill1level: 2
@@ -2714,7 +2590,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -2728,10 +2604,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Centurion Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 4
     requiredskill1: 3411
     requiredskill1level: 3
@@ -2758,7 +2632,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -2771,10 +2645,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Centurion Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 5
     requiredskill1: 3411
     requiredskill1level: 4
@@ -2800,7 +2672,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -2813,10 +2685,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Centurion Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 3
     requiredskill1: 3411
     requiredskill1level: 3
@@ -2856,10 +2726,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Centurion Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -2893,16 +2761,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Nomad Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -2936,16 +2802,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     marketGroup: 619
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Nomad Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -2979,16 +2843,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     intelligencebonus: 3
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Nomad Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3023,15 +2885,13 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Nomad Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -3065,15 +2925,13 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Nomad Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3112,10 +2970,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Nomad Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -3142,7 +2998,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -3154,11 +3010,9 @@ types:
     maxrangebonus: 1.0
     metalevelold: 9
     name: Mid-grade Harvest Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -3185,7 +3039,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -3198,10 +3052,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Harvest Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -3228,7 +3080,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -3241,10 +3093,8 @@ types:
     maxrangebonus: 4.0
     metalevelold: 9
     name: Mid-grade Harvest Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3272,7 +3122,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -3284,10 +3134,8 @@ types:
     maxrangebonus: 5.0
     metalevelold: 9
     name: Mid-grade Harvest Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -3314,7 +3162,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -3326,10 +3174,8 @@ types:
     maxrangebonus: 3.0
     metalevelold: 9
     name: Mid-grade Harvest Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3368,10 +3214,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Harvest Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -3402,18 +3246,16 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Virtue Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanstrengthbonus: 1
@@ -3445,7 +3287,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
@@ -3453,10 +3295,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Virtue Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanstrengthbonus: 2
@@ -3488,7 +3328,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
@@ -3496,10 +3336,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Virtue Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanstrengthbonus: 4
@@ -3532,17 +3370,15 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Virtue Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanstrengthbonus: 5
@@ -3574,17 +3410,15 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Virtue Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanstrengthbonus: 3
@@ -3624,10 +3458,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Virtue Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -3660,17 +3492,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Edge Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -3703,17 +3533,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 619
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Edge Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -3746,17 +3574,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     intelligencebonus: 3
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Edge Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3790,16 +3616,14 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Edge Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -3832,16 +3656,14 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Edge Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -3880,10 +3702,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Edge Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -3903,7 +3723,7 @@ types:
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
-    implantsetimperialnavy: 1.149999976158142
+    implantsetimperialnavy: 1.15
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
@@ -3921,11 +3741,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Grail Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanradarstrengthpercent: 1
@@ -3946,7 +3764,7 @@ types:
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
-    implantsetimperialnavy: 1.149999976158142
+    implantsetimperialnavy: 1.15
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
@@ -3965,10 +3783,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Grail Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanradarstrengthpercent: 2
@@ -3989,7 +3805,7 @@ types:
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
-    implantsetimperialnavy: 1.149999976158142
+    implantsetimperialnavy: 1.15
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
@@ -4008,10 +3824,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Grail Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanradarstrengthpercent: 4
@@ -4033,7 +3847,7 @@ types:
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
-    implantsetimperialnavy: 1.149999976158142
+    implantsetimperialnavy: 1.15
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
@@ -4051,10 +3865,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Grail Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanradarstrengthpercent: 5
@@ -4075,7 +3887,7 @@ types:
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
-    implantsetimperialnavy: 1.149999976158142
+    implantsetimperialnavy: 1.15
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
@@ -4093,10 +3905,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Grail Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanradarstrengthpercent: 3
@@ -4136,10 +3946,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Grail Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -4153,7 +3961,7 @@ types:
     id: 31962
     implantness: 1
     implantsetbloodraider: 2.0
-    implantsetcaldarinavy: 1.149999976158142
+    implantsetcaldarinavy: 1.15
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
@@ -4177,11 +3985,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Talon Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scangravimetricstrengthpercent: 1
@@ -4196,7 +4002,7 @@ types:
     id: 31963
     implantness: 2
     implantsetbloodraider: 2.0
-    implantsetcaldarinavy: 1.149999976158142
+    implantsetcaldarinavy: 1.15
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
@@ -4221,10 +4027,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Talon Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scangravimetricstrengthpercent: 2
@@ -4239,7 +4043,7 @@ types:
     id: 31964
     implantness: 4
     implantsetbloodraider: 2.0
-    implantsetcaldarinavy: 1.149999976158142
+    implantsetcaldarinavy: 1.15
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
@@ -4264,10 +4068,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Talon Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scangravimetricstrengthpercent: 4
@@ -4283,7 +4085,7 @@ types:
     id: 31965
     implantness: 5
     implantsetbloodraider: 2.0
-    implantsetcaldarinavy: 1.149999976158142
+    implantsetcaldarinavy: 1.15
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
@@ -4307,10 +4109,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Talon Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scangravimetricstrengthpercent: 5
@@ -4325,7 +4125,7 @@ types:
     id: 31966
     implantness: 3
     implantsetbloodraider: 2.0
-    implantsetcaldarinavy: 1.149999976158142
+    implantsetcaldarinavy: 1.15
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
@@ -4349,10 +4149,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Talon Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scangravimetricstrengthpercent: 3
@@ -4392,10 +4190,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Talon Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -4410,7 +4206,7 @@ types:
     implantness: 1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
-    implantsetfederationnavy: 1.149999976158142
+    implantsetfederationnavy: 1.15
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
@@ -4433,11 +4229,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Spur Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanmagnetometricstrengthpercent: 1
@@ -4453,7 +4247,7 @@ types:
     implantness: 2
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
-    implantsetfederationnavy: 1.149999976158142
+    implantsetfederationnavy: 1.15
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
@@ -4477,10 +4271,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Spur Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanmagnetometricstrengthpercent: 2
@@ -4496,7 +4288,7 @@ types:
     implantness: 4
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
-    implantsetfederationnavy: 1.149999976158142
+    implantsetfederationnavy: 1.15
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
@@ -4520,10 +4312,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Spur Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanmagnetometricstrengthpercent: 4
@@ -4540,7 +4330,7 @@ types:
     implantness: 5
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
-    implantsetfederationnavy: 1.149999976158142
+    implantsetfederationnavy: 1.15
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
@@ -4563,10 +4353,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Spur Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanmagnetometricstrengthpercent: 5
@@ -4582,7 +4370,7 @@ types:
     implantness: 3
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
-    implantsetfederationnavy: 1.149999976158142
+    implantsetfederationnavy: 1.15
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
@@ -4605,10 +4393,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Spur Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanmagnetometricstrengthpercent: 3
@@ -4648,10 +4434,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Spur Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -4680,7 +4464,7 @@ types:
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
-    implantsetrepublicfleet: 1.149999976158142
+    implantsetrepublicfleet: 1.15
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
@@ -4689,11 +4473,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Jackal Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanladarstrengthpercent: 1
@@ -4723,7 +4505,7 @@ types:
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
-    implantsetrepublicfleet: 1.149999976158142
+    implantsetrepublicfleet: 1.15
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
@@ -4733,10 +4515,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Jackal Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanladarstrengthpercent: 2
@@ -4766,7 +4546,7 @@ types:
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
-    implantsetrepublicfleet: 1.149999976158142
+    implantsetrepublicfleet: 1.15
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
@@ -4776,10 +4556,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Jackal Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanladarstrengthpercent: 4
@@ -4810,7 +4588,7 @@ types:
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
-    implantsetrepublicfleet: 1.149999976158142
+    implantsetrepublicfleet: 1.15
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
@@ -4819,10 +4597,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Jackal Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanladarstrengthpercent: 5
@@ -4852,7 +4628,7 @@ types:
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
-    implantsetrepublicfleet: 1.149999976158142
+    implantsetrepublicfleet: 1.15
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
@@ -4861,10 +4637,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Jackal Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanladarstrengthpercent: 3
@@ -4904,10 +4678,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Jackal Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -4945,11 +4717,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Grail Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanradarstrengthmodifier: 1
@@ -4989,10 +4759,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Grail Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanradarstrengthmodifier: 1
@@ -5032,10 +4800,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Grail Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanradarstrengthmodifier: 1
@@ -5075,10 +4841,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Grail Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanradarstrengthmodifier: 1
@@ -5117,10 +4881,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Grail Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanradarstrengthmodifier: 1
@@ -5160,11 +4922,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Spur Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanmagnetometricstrengthmodifier: 1
@@ -5204,10 +4964,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Spur Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanmagnetometricstrengthmodifier: 1
@@ -5247,10 +5005,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Spur Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanmagnetometricstrengthmodifier: 1
@@ -5290,10 +5046,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Spur Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanmagnetometricstrengthmodifier: 1
@@ -5332,10 +5086,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Spur Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanmagnetometricstrengthmodifier: 1
@@ -5375,11 +5127,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Talon Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scangravimetricstrengthmodifier: 1
@@ -5419,10 +5169,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Talon Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scangravimetricstrengthmodifier: 1
@@ -5462,10 +5210,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Talon Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scangravimetricstrengthmodifier: 1
@@ -5505,10 +5251,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Talon Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scangravimetricstrengthmodifier: 1
@@ -5547,10 +5291,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Talon Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scangravimetricstrengthmodifier: 1
@@ -5590,11 +5332,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Jackal Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanladarstrengthmodifier: 1
@@ -5634,10 +5374,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Jackal Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanladarstrengthmodifier: 1
@@ -5677,10 +5415,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Jackal Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanladarstrengthmodifier: 1
@@ -5720,10 +5456,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Jackal Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanladarstrengthmodifier: 1
@@ -5762,10 +5496,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Jackal Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanladarstrengthmodifier: 1
@@ -5790,7 +5522,7 @@ types:
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
-    implantsetlgimperialnavy: 1.399999976158142
+    implantsetlgimperialnavy: 1.4
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
@@ -5805,10 +5537,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Grail Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -5832,7 +5562,7 @@ types:
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
-    implantsetlgrepublicfleet: 1.399999976158142
+    implantsetlgrepublicfleet: 1.4
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
@@ -5846,10 +5576,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Jackal Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -5871,7 +5599,7 @@ types:
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
-    implantsetlgfederationnavy: 1.399999976158142
+    implantsetlgfederationnavy: 1.4
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
@@ -5887,10 +5615,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Spur Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -5911,7 +5637,7 @@ types:
     implantsethalo: 1.0
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
-    implantsetlgcaldarinavy: 1.399999976158142
+    implantsetlgcaldarinavy: 1.4
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
@@ -5928,10 +5654,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Talon Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -5965,15 +5689,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.149999976158142
+    implantsetwarpspeed: 1.15
     marketGroup: 618
     metalevelold: 9
     name: High-grade Ascendancy Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6008,16 +5730,14 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.149999976158142
+    implantsetwarpspeed: 1.15
     marketGroup: 619
     memorybonus: 4
     metalevelold: 9
     name: High-grade Ascendancy Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6052,16 +5772,14 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.149999976158142
+    implantsetwarpspeed: 1.15
     intelligencebonus: 4
     marketGroup: 621
     metalevelold: 9
     name: High-grade Ascendancy Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6097,15 +5815,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.149999976158142
+    implantsetwarpspeed: 1.15
     marketGroup: 622
     metalevelold: 9
     name: High-grade Ascendancy Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -6140,15 +5856,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.149999976158142
+    implantsetwarpspeed: 1.15
     marketGroup: 620
     metalevelold: 9
     name: High-grade Ascendancy Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6184,15 +5898,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.7000000476837158
+    implantsetwarpspeed: 1.7
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Ascendancy Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -6226,15 +5938,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.100000023841858
+    implantsetwarpspeed: 1.1
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Ascendancy Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6269,16 +5979,14 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.100000023841858
+    implantsetwarpspeed: 1.1
     marketGroup: 619
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Ascendancy Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6313,16 +6021,14 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.100000023841858
+    implantsetwarpspeed: 1.1
     intelligencebonus: 3
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Ascendancy Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6358,15 +6064,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.100000023841858
+    implantsetwarpspeed: 1.1
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Ascendancy Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -6401,15 +6105,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.100000023841858
+    implantsetwarpspeed: 1.1
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Ascendancy Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6445,15 +6147,13 @@ types:
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
-    implantsetwarpspeed: 1.350000023841858
+    implantsetwarpspeed: 1.35
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Ascendancy Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -6478,7 +6178,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.024999976158142
+    implantsetmordus: 1.025
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6491,11 +6191,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Centurion Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 1
     requiredskill1: 3411
     requiredskill1level: 2
@@ -6521,7 +6219,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.024999976158142
+    implantsetmordus: 1.025
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6535,10 +6233,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Centurion Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 2
     requiredskill1: 3411
     requiredskill1level: 2
@@ -6564,7 +6260,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.024999976158142
+    implantsetmordus: 1.025
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6578,10 +6274,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Centurion Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 4
     requiredskill1: 3411
     requiredskill1level: 3
@@ -6608,7 +6302,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.024999976158142
+    implantsetmordus: 1.025
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6621,10 +6315,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Centurion Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 5
     requiredskill1: 3411
     requiredskill1level: 4
@@ -6650,7 +6342,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.024999976158142
+    implantsetmordus: 1.025
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6663,10 +6355,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Centurion Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 3
     requiredskill1: 3411
     requiredskill1level: 3
@@ -6693,7 +6383,7 @@ types:
     implantsetlgfederationnavy: 1.0
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
-    implantsetmordus: 1.100000023841858
+    implantsetmordus: 1.1
     implantsetnirvana: 1.0
     implantsetore: 1.0
     implantsetrapture: 1.0
@@ -6706,10 +6396,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Centurion Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -6725,7 +6413,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.024999976158142
+    implantsetguristas: 1.025
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6747,11 +6435,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Crystal Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6768,7 +6454,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.024999976158142
+    implantsetguristas: 1.025
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6791,10 +6477,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Crystal Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -6811,7 +6495,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.024999976158142
+    implantsetguristas: 1.025
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6834,10 +6518,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Crystal Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6855,7 +6537,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.024999976158142
+    implantsetguristas: 1.025
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6877,10 +6559,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Crystal Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -6897,7 +6577,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.024999976158142
+    implantsetguristas: 1.025
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6919,10 +6599,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Crystal Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -6940,7 +6618,7 @@ types:
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
-    implantsetguristas: 1.100000023841858
+    implantsetguristas: 1.1
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -6962,10 +6640,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Crystal Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -6998,17 +6674,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.024999976158142
+    implantsetsyndicate: 1.025
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Edge Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7041,17 +6715,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.024999976158142
+    implantsetsyndicate: 1.025
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 619
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Edge Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7084,17 +6756,15 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.024999976158142
+    implantsetsyndicate: 1.025
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     intelligencebonus: 2
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Edge Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7128,16 +6798,14 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.024999976158142
+    implantsetsyndicate: 1.025
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Edge Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -7170,16 +6838,14 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.024999976158142
+    implantsetsyndicate: 1.025
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Edge Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7212,16 +6878,14 @@ types:
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
-    implantsetsyndicate: 1.100000023841858
+    implantsetsyndicate: 1.1
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Edge Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -7239,7 +6903,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.024999976158142
+    implantsethalo: 1.025
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7259,11 +6923,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Halo Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7282,7 +6944,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.024999976158142
+    implantsethalo: 1.025
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7303,10 +6965,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Halo Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7325,7 +6985,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.024999976158142
+    implantsethalo: 1.025
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7346,10 +7006,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Halo Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7369,7 +7027,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.024999976158142
+    implantsethalo: 1.025
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7389,10 +7047,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Halo Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -7411,7 +7067,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.024999976158142
+    implantsethalo: 1.025
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7431,10 +7087,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Halo Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7454,7 +7108,7 @@ types:
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
-    implantsethalo: 1.100000023841858
+    implantsethalo: 1.1
     implantsethydra: 1.0
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
@@ -7474,10 +7128,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Halo Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -7504,7 +7156,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.024999976158142
+    implantsetore: 1.025
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7516,11 +7168,9 @@ types:
     maxrangebonus: 1.0
     metalevelold: 9
     name: Low-grade Harvest Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7547,7 +7197,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.024999976158142
+    implantsetore: 1.025
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7560,10 +7210,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Harvest Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7590,7 +7238,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.024999976158142
+    implantsetore: 1.025
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7603,10 +7251,8 @@ types:
     maxrangebonus: 4.0
     metalevelold: 9
     name: Low-grade Harvest Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7634,7 +7280,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.024999976158142
+    implantsetore: 1.025
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7646,10 +7292,8 @@ types:
     maxrangebonus: 5.0
     metalevelold: 9
     name: Low-grade Harvest Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -7676,7 +7320,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.024999976158142
+    implantsetore: 1.025
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7688,10 +7332,8 @@ types:
     maxrangebonus: 3.0
     metalevelold: 9
     name: Low-grade Harvest Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7719,7 +7361,7 @@ types:
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
-    implantsetore: 1.100000023841858
+    implantsetore: 1.1
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
@@ -7730,10 +7372,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Harvest Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -7767,16 +7407,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.024999976158142
+    implantsetthukker: 1.025
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Nomad Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7810,16 +7448,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.024999976158142
+    implantsetthukker: 1.025
     implantsetwarpspeed: 1.0
     marketGroup: 619
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Nomad Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -7853,16 +7489,14 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.024999976158142
+    implantsetthukker: 1.025
     implantsetwarpspeed: 1.0
     intelligencebonus: 2
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Nomad Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7897,15 +7531,13 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.024999976158142
+    implantsetthukker: 1.025
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Nomad Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -7939,15 +7571,13 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.024999976158142
+    implantsetthukker: 1.025
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Nomad Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -7981,15 +7611,13 @@ types:
     implantsetsavior: 1.0
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
-    implantsetthukker: 1.100000023841858
+    implantsetthukker: 1.1
     implantsetwarpspeed: 1.0
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Nomad Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -8003,7 +7631,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33953
     implantness: 1
-    implantsetamulet: 1.024999976158142
+    implantsetamulet: 1.025
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8029,11 +7657,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Amulet Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -8047,7 +7673,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33954
     implantness: 2
-    implantsetamulet: 1.024999976158142
+    implantsetamulet: 1.025
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8074,10 +7700,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Amulet Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -8091,7 +7715,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33955
     implantness: 4
-    implantsetamulet: 1.024999976158142
+    implantsetamulet: 1.025
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8118,10 +7742,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Amulet Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -8136,7 +7758,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33956
     implantness: 5
-    implantsetamulet: 1.024999976158142
+    implantsetamulet: 1.025
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8162,10 +7784,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Amulet Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -8179,7 +7799,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33957
     implantness: 3
-    implantsetamulet: 1.024999976158142
+    implantsetamulet: 1.025
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8205,10 +7825,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Amulet Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -8222,7 +7840,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33958
     implantness: 6
-    implantsetamulet: 1.100000023841858
+    implantsetamulet: 1.1
     implantsetbloodraider: 2.0
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
@@ -8248,10 +7866,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Amulet Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -8282,7 +7898,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.0499999523162842
+    implantsetserpentis: 1.05
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8290,16 +7906,14 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Snake Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.009999999776482582
+    smugglingchancebonus: 0.01
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.5
@@ -8327,7 +7941,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.0499999523162842
+    implantsetserpentis: 1.05
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8336,15 +7950,13 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Snake Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.019999999552965164
+    smugglingchancebonus: 0.02
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.625
@@ -8372,7 +7984,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.0499999523162842
+    implantsetserpentis: 1.05
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8381,15 +7993,13 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Snake Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.029999999329447746
+    smugglingchancebonus: 0.03
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.875
@@ -8418,7 +8028,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.0499999523162842
+    implantsetserpentis: 1.05
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8426,15 +8036,13 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Snake Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.05000000074505806
+    smugglingchancebonus: 0.05
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 1.0
@@ -8462,7 +8070,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 1.0499999523162842
+    implantsetserpentis: 1.05
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8470,15 +8078,13 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Snake Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
     shieldhpbonus: 1
-    smugglingchancebonus: 0.029999999329447746
+    smugglingchancebonus: 0.03
     techlevel: 2
     trackingspeedmultiplier: 1.0
     velocitybonus: 0.75
@@ -8507,7 +8113,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis: 2.0999999046325684
+    implantsetserpentis: 2.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -8515,10 +8121,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Snake Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -8532,7 +8136,7 @@ types:
     durationbonus: -1
     id: 33965
     implantness: 1
-    implantsetbloodraider: 1.024999976158142
+    implantsetbloodraider: 1.025
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8557,11 +8161,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Talisman Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -8575,7 +8177,7 @@ types:
     durationbonus: -2
     id: 33966
     implantness: 2
-    implantsetbloodraider: 1.024999976158142
+    implantsetbloodraider: 1.025
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8601,10 +8203,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Talisman Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -8618,7 +8218,7 @@ types:
     durationbonus: -4
     id: 33967
     implantness: 4
-    implantsetbloodraider: 1.024999976158142
+    implantsetbloodraider: 1.025
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8644,10 +8244,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Talisman Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -8662,7 +8260,7 @@ types:
     durationbonus: -5
     id: 33968
     implantness: 5
-    implantsetbloodraider: 1.024999976158142
+    implantsetbloodraider: 1.025
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8687,10 +8285,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Talisman Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -8704,7 +8300,7 @@ types:
     durationbonus: -3
     id: 33969
     implantness: 3
-    implantsetbloodraider: 1.024999976158142
+    implantsetbloodraider: 1.025
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8729,10 +8325,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Talisman Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -8746,7 +8340,7 @@ types:
     damagemultiplierbonuspercyclemodifier: 1.0
     id: 33970
     implantness: 6
-    implantsetbloodraider: 1.100000023841858
+    implantsetbloodraider: 1.1
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
@@ -8771,10 +8365,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Talisman Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -8805,18 +8397,16 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.024999976158142
+    implantsetsisters: 1.025
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Virtue Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanstrengthbonus: 1
@@ -8848,7 +8438,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.024999976158142
+    implantsetsisters: 1.025
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
@@ -8856,10 +8446,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Virtue Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     scanstrengthbonus: 2
@@ -8891,7 +8479,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.024999976158142
+    implantsetsisters: 1.025
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
@@ -8899,10 +8487,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Virtue Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanstrengthbonus: 4
@@ -8935,17 +8521,15 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.024999976158142
+    implantsetsisters: 1.025
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Virtue Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     scanstrengthbonus: 5
@@ -8977,17 +8561,15 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.024999976158142
+    implantsetsisters: 1.025
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Virtue Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanstrengthbonus: 3
@@ -9020,17 +8602,15 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetsisters: 1.100000023841858
+    implantsetsisters: 1.1
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
     implantsetwarpspeed: 1.0
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Virtue Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -9062,7 +8642,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.024999976158142
+    implantsetserpentis2: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9070,11 +8650,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Asklepian Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9106,7 +8684,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.024999976158142
+    implantsetserpentis2: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9115,10 +8693,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Asklepian Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9150,7 +8726,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.024999976158142
+    implantsetserpentis2: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9159,10 +8735,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Asklepian Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9195,7 +8769,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.024999976158142
+    implantsetserpentis2: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9203,10 +8777,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Asklepian Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -9238,7 +8810,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.024999976158142
+    implantsetserpentis2: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9246,10 +8818,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Asklepian Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9281,7 +8851,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9289,10 +8859,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Asklepian Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -9324,7 +8892,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9332,11 +8900,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Asklepian Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9368,7 +8934,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9377,10 +8943,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Asklepian Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9412,7 +8976,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9420,10 +8984,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Asklepian Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9456,7 +9018,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9465,10 +9027,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Asklepian Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9501,7 +9061,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.100000023841858
+    implantsetserpentis2: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9509,10 +9069,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Asklepian Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -9551,10 +9109,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Asklepian Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -9586,7 +9142,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.149999976158142
+    implantsetserpentis2: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9594,12 +9150,10 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Asklepian Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9631,7 +9185,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.149999976158142
+    implantsetserpentis2: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9640,11 +9194,9 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Asklepian Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -9676,7 +9228,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.149999976158142
+    implantsetserpentis2: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9684,11 +9236,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Asklepian Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9721,7 +9271,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.149999976158142
+    implantsetserpentis2: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9730,11 +9280,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Asklepian Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -9767,7 +9315,7 @@ types:
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
-    implantsetserpentis2: 1.149999976158142
+    implantsetserpentis2: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -9775,11 +9323,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Asklepian Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -9818,11 +9364,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Asklepian Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -9832,7 +9376,7 @@ types:
     volume: 1.0
   52674:
     damagemultiplierbonusmaxmodifier: 1.0
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52674
     implantness: 1
     implantsetbloodraider: 2.0
@@ -9860,22 +9404,20 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Mimesis Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52679:
     damagemultiplierbonusmaxmodifier: 1.5
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52679
     implantness: 2
     implantsetbloodraider: 2.0
@@ -9904,21 +9446,19 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Mimesis Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52680:
     damagemultiplierbonusmaxmodifier: 2.0
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52680
     implantness: 3
     implantsetbloodraider: 2.0
@@ -9946,13 +9486,11 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Mimesis Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -9960,7 +9498,7 @@ types:
     willpowerbonus: 2
   52681:
     damagemultiplierbonusmaxmodifier: 2.5
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52681
     implantness: 4
     implantsetbloodraider: 2.0
@@ -9989,13 +9527,11 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Mimesis Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10003,7 +9539,7 @@ types:
   52682:
     charismabonus: 2
     damagemultiplierbonusmaxmodifier: 3.0
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52682
     implantness: 5
     implantsetbloodraider: 2.0
@@ -10031,13 +9567,11 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Mimesis Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10072,10 +9606,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Mimesis Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.5
@@ -10085,7 +9617,7 @@ types:
     volume: 1.0
   52785:
     damagemultiplierbonusmaxmodifier: 1.25
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52785
     implantness: 1
     implantsetbloodraider: 2.0
@@ -10113,22 +9645,20 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Mimesis Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52786:
     damagemultiplierbonusmaxmodifier: 1.75
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52786
     implantness: 2
     implantsetbloodraider: 2.0
@@ -10157,21 +9687,19 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Mimesis Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52787:
     damagemultiplierbonusmaxmodifier: 2.25
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52787
     implantness: 3
     implantsetbloodraider: 2.0
@@ -10199,13 +9727,11 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Mimesis Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10213,7 +9739,7 @@ types:
     willpowerbonus: 3
   52788:
     damagemultiplierbonusmaxmodifier: 2.75
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52788
     implantness: 4
     implantsetbloodraider: 2.0
@@ -10242,13 +9768,11 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Mimesis Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10256,7 +9780,7 @@ types:
   52789:
     charismabonus: 3
     damagemultiplierbonusmaxmodifier: 3.25
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52789
     implantness: 5
     implantsetbloodraider: 2.0
@@ -10284,13 +9808,11 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Mimesis Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10325,20 +9847,18 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Mimesis Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    setbonusmimesis: 1.600000023841858
+    setbonusmimesis: 1.6
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52917:
     damagemultiplierbonusmaxmodifier: 1.5
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52917
     implantness: 1
     implantsetbloodraider: 2.0
@@ -10366,22 +9886,20 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Mimesis Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52918:
     damagemultiplierbonusmaxmodifier: 2.0
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52918
     implantness: 2
     implantsetbloodraider: 2.0
@@ -10410,21 +9928,19 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Mimesis Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52919:
     damagemultiplierbonusmaxmodifier: 3.0
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52919
     implantness: 4
     implantsetbloodraider: 2.0
@@ -10453,13 +9969,11 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Mimesis Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10467,7 +9981,7 @@ types:
   52920:
     charismabonus: 4
     damagemultiplierbonusmaxmodifier: 3.5
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52920
     implantness: 5
     implantsetbloodraider: 2.0
@@ -10495,20 +10009,18 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Mimesis Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
     volume: 1.0
   52921:
     damagemultiplierbonusmaxmodifier: 2.5
-    damagemultiplierbonuspercyclemodifier: -0.33000001311302185
+    damagemultiplierbonuspercyclemodifier: -0.33
     id: 52921
     implantness: 3
     implantsetbloodraider: 2.0
@@ -10536,13 +10048,11 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Mimesis Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
-    setbonusmimesis: 1.2000000476837158
+    setbonusmimesis: 1.2
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10578,13 +10088,11 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Mimesis Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
-    setbonusmimesis: 1.7999999523162842
+    setbonusmimesis: 1.8
     shieldhpbonus: 1
     techlevel: 2
     trackingspeedmultiplier: 1.0
@@ -10607,7 +10115,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10619,11 +10127,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Nirvana Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -10649,7 +10155,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10662,11 +10168,9 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Nirvana Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -10692,7 +10196,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10705,11 +10209,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Nirvana Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -10736,7 +10238,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10748,11 +10250,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Nirvana Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -10778,7 +10278,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10790,11 +10290,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Nirvana Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -10833,11 +10331,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Nirvana Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -10863,7 +10359,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.149999976158142
+    implantsetnirvana: 1.15
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10875,11 +10371,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Nirvana Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -10905,7 +10399,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.149999976158142
+    implantsetnirvana: 1.15
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10918,11 +10412,9 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Nirvana Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -10948,7 +10440,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.149999976158142
+    implantsetnirvana: 1.15
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -10961,11 +10453,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Nirvana Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -10992,7 +10482,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.149999976158142
+    implantsetnirvana: 1.15
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11004,11 +10494,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Nirvana Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -11046,11 +10534,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Nirvana Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -11076,7 +10562,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.149999976158142
+    implantsetnirvana: 1.15
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11088,11 +10574,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Nirvana Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -11119,7 +10603,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.100000023841858
+    implantsetnirvana: 1.1
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11131,11 +10615,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Nirvana Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -11161,7 +10643,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.024999976158142
+    implantsetnirvana: 1.025
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11173,11 +10655,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Nirvana Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -11203,7 +10683,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.024999976158142
+    implantsetnirvana: 1.025
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11216,11 +10696,9 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Nirvana Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -11246,7 +10724,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.024999976158142
+    implantsetnirvana: 1.025
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11258,11 +10736,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Nirvana Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -11289,7 +10765,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.024999976158142
+    implantsetnirvana: 1.025
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11302,11 +10778,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Nirvana Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -11333,7 +10807,7 @@ types:
     implantsetlgimperialnavy: 1.0
     implantsetlgrepublicfleet: 1.0
     implantsetmordus: 1.0
-    implantsetnirvana: 1.024999976158142
+    implantsetnirvana: 1.025
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
@@ -11345,11 +10819,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Nirvana Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -11379,7 +10851,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.149999976158142
+    implantsetsavior: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11387,11 +10859,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Savior Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.0
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11422,7 +10892,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.149999976158142
+    implantsetsavior: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11431,10 +10901,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Savior Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.5
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11465,7 +10933,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.149999976158142
+    implantsetsavior: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11473,10 +10941,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Savior Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.0
     requiredskill1: 3411
     requiredskill1level: 3
@@ -11508,7 +10974,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.149999976158142
+    implantsetsavior: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11517,10 +10983,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Savior Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.5
     requiredskill1: 3411
     requiredskill1level: 3
@@ -11552,7 +11016,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.149999976158142
+    implantsetsavior: 1.15
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11560,10 +11024,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Savior Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -3.0
     requiredskill1: 3411
     requiredskill1level: 4
@@ -11602,10 +11064,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Savior Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -11635,7 +11095,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11643,11 +11103,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Savior Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.0
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11678,7 +11136,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11687,10 +11145,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Savior Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.5
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11721,7 +11177,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11729,10 +11185,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Savior Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.0
     requiredskill1: 3411
     requiredskill1level: 3
@@ -11764,7 +11218,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11773,10 +11227,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Savior Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.5
     requiredskill1: 3411
     requiredskill1level: 3
@@ -11808,7 +11260,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11816,10 +11268,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Savior Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -3.0
     requiredskill1: 3411
     requiredskill1level: 4
@@ -11858,10 +11308,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Savior Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -11891,7 +11339,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.024999976158142
+    implantsetsavior: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11899,11 +11347,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Savior Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.0
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11934,7 +11380,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.024999976158142
+    implantsetsavior: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11943,10 +11389,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Savior Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -1.5
     requiredskill1: 3411
     requiredskill1level: 2
@@ -11977,7 +11421,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.024999976158142
+    implantsetsavior: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -11985,10 +11429,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Savior Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.0
     requiredskill1: 3411
     requiredskill1level: 3
@@ -12020,7 +11462,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.024999976158142
+    implantsetsavior: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -12029,10 +11471,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Savior Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -2.5
     requiredskill1: 3411
     requiredskill1level: 3
@@ -12064,7 +11504,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.024999976158142
+    implantsetsavior: 1.025
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -12072,10 +11512,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Savior Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     remoterepdurationcapbonus: -3.0
     requiredskill1: 3411
     requiredskill1level: 4
@@ -12106,7 +11544,7 @@ types:
     implantsetore: 1.0
     implantsetrapture: 1.0
     implantsetrepublicfleet: 1.0
-    implantsetsavior: 1.100000023841858
+    implantsetsavior: 1.1
     implantsetsisters: 1.0
     implantsetsyndicate: 1.0
     implantsetthukker: 1.0
@@ -12114,10 +11552,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Savior Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -12140,7 +11576,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.149999976158142
+    implantsethydra: 1.15
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12159,11 +11595,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Hydra Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12186,7 +11620,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.149999976158142
+    implantsethydra: 1.15
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12206,10 +11640,8 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Hydra Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12232,7 +11664,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.149999976158142
+    implantsethydra: 1.15
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12251,10 +11683,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Hydra Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12278,7 +11708,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.149999976158142
+    implantsethydra: 1.15
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12298,10 +11728,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Hydra Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12325,7 +11753,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.149999976158142
+    implantsethydra: 1.15
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12344,10 +11772,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Hydra Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -12385,10 +11811,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Hydra Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -12411,7 +11835,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12430,11 +11854,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Hydra Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12457,7 +11879,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12477,10 +11899,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Hydra Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12503,7 +11923,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12522,10 +11942,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Hydra Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12549,7 +11967,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12569,10 +11987,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Hydra Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12596,7 +12012,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12615,10 +12031,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Hydra Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -12656,10 +12070,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Hydra Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -12682,7 +12094,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.024999976158142
+    implantsethydra: 1.025
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12701,11 +12113,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Hydra Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12728,7 +12138,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.024999976158142
+    implantsethydra: 1.025
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12748,10 +12158,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Hydra Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -12774,7 +12182,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.024999976158142
+    implantsethydra: 1.025
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12793,10 +12201,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Hydra Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12820,7 +12226,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.024999976158142
+    implantsethydra: 1.025
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12840,10 +12246,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Hydra Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -12867,7 +12271,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.024999976158142
+    implantsethydra: 1.025
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12886,10 +12290,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Hydra Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -12908,7 +12310,7 @@ types:
     implantsetguristas: 1.0
     implantsethackingviruscoherenceomegasetbonus: 1.0
     implantsethalo: 1.0
-    implantsethydra: 1.100000023841858
+    implantsethydra: 1.1
     implantsetimperialnavy: 1.0
     implantsetlgcaldarinavy: 1.0
     implantsetlgfederationnavy: 1.0
@@ -12927,10 +12329,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Hydra Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -12959,7 +12359,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.024999976158142
+    implantsetrapture: 1.025
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -12969,11 +12369,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Rapture Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13002,7 +12400,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.024999976158142
+    implantsetrapture: 1.025
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13013,11 +12411,9 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Rapture Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13046,7 +12442,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.024999976158142
+    implantsetrapture: 1.025
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13056,11 +12452,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Rapture Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13090,7 +12484,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.024999976158142
+    implantsetrapture: 1.025
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13101,11 +12495,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Rapture Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13135,7 +12527,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.024999976158142
+    implantsetrapture: 1.025
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13145,11 +12537,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Rapture Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -13177,7 +12567,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13187,11 +12577,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Rapture Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -13220,7 +12608,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13230,11 +12618,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Rapture Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13263,7 +12649,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13274,11 +12660,9 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Rapture Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13307,7 +12691,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13317,11 +12701,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Rapture Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13351,7 +12733,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13362,11 +12744,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Rapture Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13396,7 +12776,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.100000023841858
+    implantsetrapture: 1.1
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13406,11 +12786,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Rapture Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -13448,11 +12826,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Rapture Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -13481,7 +12857,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.149999976158142
+    implantsetrapture: 1.15
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13491,11 +12867,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: High-grade Rapture Alpha
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13524,7 +12898,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.149999976158142
+    implantsetrapture: 1.15
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13535,11 +12909,9 @@ types:
     memorybonus: 4
     metalevelold: 9
     name: High-grade Rapture Beta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13568,7 +12940,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.149999976158142
+    implantsetrapture: 1.15
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13578,11 +12950,9 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: High-grade Rapture Gamma
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13612,7 +12982,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.149999976158142
+    implantsetrapture: 1.15
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13623,11 +12993,9 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: High-grade Rapture Delta
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     setbonusmimesis: 1.0
@@ -13657,7 +13025,7 @@ types:
     implantsetmordus: 1.0
     implantsetnirvana: 1.0
     implantsetore: 1.0
-    implantsetrapture: 1.149999976158142
+    implantsetrapture: 1.15
     implantsetrepublicfleet: 1.0
     implantsetsavior: 1.0
     implantsetsisters: 1.0
@@ -13667,11 +13035,9 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: High-grade Rapture Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     setbonusmimesis: 1.0
@@ -13709,11 +13075,9 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: High-grade Rapture Omega
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -13752,11 +13116,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Low-grade Wedge Alpha
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13796,10 +13158,8 @@ types:
     memorybonus: 2
     metalevelold: 9
     name: Low-grade Wedge Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13838,10 +13198,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Low-grade Wedge Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13882,10 +13240,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Low-grade Wedge Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13925,10 +13281,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Low-grade Wedge Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -13945,7 +13299,7 @@ types:
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
-    implantsethackingviruscoherenceomegasetbonus: 1.399999976158142
+    implantsethackingviruscoherenceomegasetbonus: 1.4
     implantsethackingviruscoherenceomegasetbonusfake: 40
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -13967,10 +13321,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Low-grade Wedge Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0
@@ -14009,11 +13361,9 @@ types:
     marketGroup: 618
     metalevelold: 9
     name: Mid-grade Wedge Alpha
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -14053,10 +13403,8 @@ types:
     memorybonus: 3
     metalevelold: 9
     name: Mid-grade Wedge Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -14095,10 +13443,8 @@ types:
     marketGroup: 620
     metalevelold: 9
     name: Mid-grade Wedge Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -14139,10 +13485,8 @@ types:
     marketGroup: 621
     metalevelold: 9
     name: Mid-grade Wedge Delta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -14182,10 +13526,8 @@ types:
     marketGroup: 622
     metalevelold: 9
     name: Mid-grade Wedge Epsilon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     setbonusmimesis: 1.0
@@ -14202,7 +13544,7 @@ types:
     implantsetcaldarinavy: 1.0
     implantsetfederationnavy: 1.0
     implantsetguristas: 1.0
-    implantsethackingviruscoherenceomegasetbonus: 1.600000023841858
+    implantsethackingviruscoherenceomegasetbonus: 1.6
     implantsethackingviruscoherenceomegasetbonusfake: 60
     implantsethalo: 1.0
     implantsethydra: 1.0
@@ -14224,10 +13566,8 @@ types:
     marketGroup: 1506
     metalevelold: 9
     name: Mid-grade Wedge Omega
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     setbonusmimesis: 1.0

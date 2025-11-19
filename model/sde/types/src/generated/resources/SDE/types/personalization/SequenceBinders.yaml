@@ -2,27 +2,24 @@ types:
   81348:
     id: 81348
     marketGroup: 3629
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Alignment Sequencer
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     published: true
-    volume: 0.0010000000474974513
+    volume: 0.001
   81349:
     id: 81349
     marketGroup: 3629
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Fermionic Sequencer
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     published: true
-    volume: 0.0010000000474974513
+    volume: 0.001
   81350:
     id: 81350
     marketGroup: 3629
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Kerr Sequencer
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     published: true
-    volume: 0.0010000000474974513
+    volume: 0.001

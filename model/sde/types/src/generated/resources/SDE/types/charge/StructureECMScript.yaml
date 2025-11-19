@@ -6,11 +6,9 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Gravimetric ECM Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scangravimetricstrengthbonusbonus: 100
     scanladarstrengthbonusbonus: -50
     scanmagnetometricstrengthbonusbonus: -50
@@ -24,11 +22,9 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Ladar ECM Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scangravimetricstrengthbonusbonus: -50
     scanladarstrengthbonusbonus: 100
     scanmagnetometricstrengthbonusbonus: -50
@@ -42,11 +38,9 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Magnetometric ECM Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scangravimetricstrengthbonusbonus: -50
     scanladarstrengthbonusbonus: -50
     scanmagnetometricstrengthbonusbonus: 100
@@ -60,11 +54,9 @@ types:
     marketGroup: 1094
     mass: 1.0
     name: Standup Radar ECM Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scangravimetricstrengthbonusbonus: -50
     scanladarstrengthbonusbonus: -50
     scanmagnetometricstrengthbonusbonus: -50

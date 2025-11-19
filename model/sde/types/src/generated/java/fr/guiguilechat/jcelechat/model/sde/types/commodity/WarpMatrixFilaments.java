@@ -11,12 +11,9 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentDescriptionMessageID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -28,21 +25,7 @@ public class WarpMatrixFilaments
     @Stackable(false)
     @DefaultIntValue(561098)
     public int filamentdescriptionmessageid;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, FilamentDescriptionMessageID.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FilamentDescriptionMessageID.INSTANCE })));
     public static final WarpMatrixFilaments.MetaGroup METAGROUP = new WarpMatrixFilaments.MetaGroup();
 
     @Override
@@ -51,14 +34,6 @@ public class WarpMatrixFilaments
             case  3026 :
             {
                 return filamentdescriptionmessageid;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

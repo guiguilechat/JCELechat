@@ -6,11 +6,9 @@ types:
     id: 52315
     marketGroup: 2539
     name: Rakovene
-    packagedVolume: 16.0
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
@@ -21,12 +19,10 @@ types:
     asteroidradiusunitsize: 1000
     id: 56629
     marketGroup: 2539
-    name: Abyssal Rakovene
-    packagedVolume: 16.0
+    name: Rakovene II-Grade
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
@@ -37,12 +33,10 @@ types:
     asteroidradiusunitsize: 1000
     id: 56630
     marketGroup: 2539
-    name: Hadal Rakovene
-    packagedVolume: 16.0
+    name: Rakovene III-Grade
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
@@ -54,47 +48,41 @@ types:
     id: 62579
     marketGroup: 2539
     name: Compressed Rakovene
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
-    volume: 0.1599999964237213
+    volume: 0.16
   62580:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62580
     marketGroup: 2539
-    name: Compressed Abyssal Rakovene
-    packagedVolume: 0.1599999964237213
+    name: Compressed Rakovene II-Grade
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
-    volume: 0.1599999964237213
+    volume: 0.16
   62581:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
     asteroidradiusunitsize: 1000
     id: 62581
     marketGroup: 2539
-    name: Compressed Hadal Rakovene
-    packagedVolume: 0.1599999964237213
+    name: Compressed Rakovene III-Grade
     portionSize: 100
     price: 401168.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1
-    volume: 0.1599999964237213
+    volume: 0.16
   76373:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 20.0
@@ -102,11 +90,9 @@ types:
     id: 76373
     marketGroup: 2539
     name: Nesosilicate Rakovene
-    packagedVolume: 0.5
     portionSize: 100
     price: 12000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60381
     requiredskill1: 3386
     requiredskill1level: 1

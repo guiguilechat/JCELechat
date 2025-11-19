@@ -5,9 +5,7 @@ types:
     marketGroup: 1103
     mass: 2500.0
     name: Nanite Repair Paste
-    packagedVolume: 0.009999999776482582
     portionSize: 10
     price: 6500.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

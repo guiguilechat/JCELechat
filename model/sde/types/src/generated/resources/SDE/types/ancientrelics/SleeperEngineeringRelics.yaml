@@ -4,28 +4,22 @@ types:
     industryblueprintrank: 2.0
     marketGroup: 1909
     name: Intact Power Cores
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 10.0
   30586:
     id: 30586
     industryblueprintrank: 2.0
     marketGroup: 1909
     name: Malfunctioning Power Cores
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 10.0
   30588:
     id: 30588
     industryblueprintrank: 2.0
     marketGroup: 1909
     name: Wrecked Power Cores
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 10.0

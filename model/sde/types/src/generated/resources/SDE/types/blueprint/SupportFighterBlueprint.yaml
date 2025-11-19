@@ -3,199 +3,171 @@ types:
     id: 41367
     marketGroup: 2238
     name: Cenobite I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41368:
     id: 41368
     name: Cenobite II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41369:
     id: 41369
     marketGroup: 2238
     name: Scarab I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41370:
     id: 41370
     name: Scarab II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41371:
     id: 41371
     marketGroup: 2238
     name: Siren I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41372:
     id: 41372
     name: Siren II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41373:
     id: 41373
     marketGroup: 2238
     name: Dromi I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41374:
     id: 41374
     name: Dromi II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   47224:
     id: 47224
     marketGroup: 2238
     name: Standup Cenobite I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47225:
     id: 47225
     name: Standup Cenobite II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47226:
     id: 47226
     marketGroup: 2238
     name: Standup Scarab I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47227:
     id: 47227
     name: Standup Scarab II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47228:
     id: 47228
     marketGroup: 2238
     name: Standup Siren I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47229:
     id: 47229
     name: Standup Siren II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47230:
     id: 47230
     marketGroup: 2238
     name: Standup Dromi I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47231:
     id: 47231
     name: Standup Dromi II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   83603:
     id: 83603
     industryblueprintrank: 40.0
     name: Imperial Navy Cenobite Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.00473408E8
+    price: 200473400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   83604:
     id: 83604
     industryblueprintrank: 40.0
     name: Caldari Navy Scarab Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.00473408E8
+    price: 200473400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   83605:
     id: 83605
     industryblueprintrank: 40.0
     name: Federation Navy Siren Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.00473408E8
+    price: 200473400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   83606:
     id: 83606
     industryblueprintrank: 40.0
     name: Republic Fleet Dromi Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.00473408E8
+    price: 200473400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AimedLaunch;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorPiercingChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DotDuration;
@@ -33,7 +32,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -200,7 +198,7 @@ public class SCARABBreacherPods
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DotDuration.INSTANCE, DotMaxDamagePerTick.INSTANCE, DotMaxHPPercentagePerTick.INSTANCE, DetonationRange.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, ArmorPiercingChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, AimedLaunch.INSTANCE, BaseShieldDamage.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, DotDuration.INSTANCE, DotMaxDamagePerTick.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DotMaxHPPercentagePerTick.INSTANCE, DetonationRange.INSTANCE, KineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ExplosionDelay.INSTANCE, MetaLevelOld.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final SCARABBreacherPods.MetaGroup METAGROUP = new SCARABBreacherPods.MetaGroup();
 
     @Override

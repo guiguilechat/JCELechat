@@ -15,12 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
@@ -37,13 +35,6 @@ public class StructureCapacitorBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int capacitorbonus;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -74,13 +65,6 @@ public class StructureCapacitorBattery
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
@@ -95,7 +79,7 @@ public class StructureCapacitorBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Cpu.INSTANCE, CapacitorBonus.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, CapacitorBonus.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureCapacitorBattery.MetaGroup METAGROUP = new StructureCapacitorBattery.MetaGroup();
 
     @Override
@@ -104,10 +88,6 @@ public class StructureCapacitorBattery
             case  67 :
             {
                 return capacitorbonus;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -124,10 +104,6 @@ public class StructureCapacitorBattery
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2334 :
             {

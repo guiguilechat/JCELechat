@@ -7,16 +7,14 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     capacitorcapacity: 100.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     hp: 5000000.0
     id: 79864
     kineticdamageresonance: 1.0
-    mass: 1.0E7
+    mass: 10000000.0
     maxvelocity: 300.0
     name: Test Towed Object (Do Not Translate)
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -30,38 +28,36 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   79909:
     agility: 1.5
-    armoremdamageresonance: 0.10000000149011612
-    armorexplosivedamageresonance: 0.10000000149011612
+    armoremdamageresonance: 0.1
+    armorexplosivedamageresonance: 0.1
     armorhp: 5000000.0
-    armorkineticdamageresonance: 0.10000000149011612
-    armorthermaldamageresonance: 0.10000000149011612
+    armorkineticdamageresonance: 0.1
+    armorthermaldamageresonance: 0.1
     armoruniformity: 1.0
     capacitorcapacity: 100.0
-    capacity: 10000.0
-    emdamageresonance: 0.10000000149011612
-    explosivedamageresonance: 0.10000000149011612
+    emdamageresonance: 0.1
+    explosivedamageresonance: 0.1
     hp: 5000000.0
     id: 79909
-    kineticdamageresonance: 0.10000000149011612
-    mass: 4.0E7
+    kineticdamageresonance: 0.1
+    mass: 40000000.0
     maxvelocity: 800.0
     name: Automated HISC-99 Tanker
-    packagedVolume: 1.0E8
     panicduration: 420000
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 100000.0
     shieldcapacity: 5000000.0
-    shieldemdamageresonance: 0.10000000149011612
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
+    shieldemdamageresonance: 0.1
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
     shieldrechargerate: 8640000.0
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldthermaldamageresonance: 0.1
     signatureradius: 1000.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.10000000149011612
-    volume: 1.0E8
+    thermaldamageresonance: 0.1
+    volume: 100000000.0

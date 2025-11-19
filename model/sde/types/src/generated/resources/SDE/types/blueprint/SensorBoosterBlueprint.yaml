@@ -4,116 +4,104 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1581
     name: Sensor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 98700.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11798:
     id: 11798
     industryblueprintrank: 6.0
     marketGroup: 1580
     name: Remote Sensor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 399680.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11799:
     id: 11799
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Remote Sensor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11803:
     id: 11803
     industryblueprintrank: 6.0
     marketGroup: 1576
     name: Remote Sensor Dampener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 499980.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11804:
     id: 11804
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Remote Sensor Dampener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11808:
     id: 11808
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Sensor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   17521:
     id: 17521
     industryblueprintrank: 6.0
     name: Federation Navy Sensor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22896:
     id: 22896
     industryblueprintrank: 6.0
     name: '''Shady'' Sensor Booster Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22926:
     id: 22926
     industryblueprintrank: 6.0
     name: '''Bootleg'' Remote Sensor Booster Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22946:
     id: 22946
     industryblueprintrank: 6.0
     name: '''Executive'' Remote Sensor Dampener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41412:
     id: 41412
     marketGroup: 1581
     name: Networked Sensor Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
+  90476:
+    id: 90476
+    marketGroup: 1581
+    name: Integrated Sensor Array Blueprint
+    portionSize: 1
+    price: 60000000.0
+    published: true
+    techlevel: 1
+    volume: 0.01

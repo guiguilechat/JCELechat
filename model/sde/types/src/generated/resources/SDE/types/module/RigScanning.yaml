@@ -7,7 +7,6 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Emission Scope Sharpener I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -24,7 +23,6 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Memetic Algorithm Bank I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -40,7 +38,6 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Gravity Capacitor Upgrade I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -56,7 +53,6 @@ types:
     marketGroup: 1788
     mass: 200.0
     name: Large Signal Focusing Kit I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -74,7 +70,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Emission Scope Sharpener II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -92,7 +87,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Memetic Algorithm Bank II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -109,7 +103,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Gravity Capacitor Upgrade II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -126,7 +119,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Signal Focusing Kit II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -143,7 +135,6 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Emission Scope Sharpener I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -160,7 +151,6 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Emission Scope Sharpener I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -177,7 +167,6 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Emission Scope Sharpener I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -195,7 +184,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Emission Scope Sharpener II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -213,7 +201,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Emission Scope Sharpener II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -231,7 +218,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Emission Scope Sharpener II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -247,7 +233,6 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Gravity Capacitor Upgrade I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -263,7 +248,6 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Gravity Capacitor Upgrade I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -279,7 +263,6 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Gravity Capacitor Upgrade I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -296,7 +279,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Gravity Capacitor Upgrade II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -313,7 +295,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Gravity Capacitor Upgrade II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -330,7 +311,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Gravity Capacitor Upgrade II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -347,7 +327,6 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Memetic Algorithm Bank I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -364,7 +343,6 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Memetic Algorithm Bank I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -381,7 +359,6 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Memetic Algorithm Bank I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -399,7 +376,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Memetic Algorithm Bank II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -417,7 +393,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Memetic Algorithm Bank II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -435,7 +410,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Memetic Algorithm Bank II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -451,7 +425,6 @@ types:
     marketGroup: 1786
     mass: 200.0
     name: Small Signal Focusing Kit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -467,7 +440,6 @@ types:
     marketGroup: 1787
     mass: 200.0
     name: Medium Signal Focusing Kit I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -483,7 +455,6 @@ types:
     marketGroup: 1789
     mass: 200.0
     name: Capital Signal Focusing Kit I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -500,7 +471,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Signal Focusing Kit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -517,7 +487,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Signal Focusing Kit II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -534,7 +503,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Signal Focusing Kit II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

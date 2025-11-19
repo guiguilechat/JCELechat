@@ -4,31 +4,25 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Ecategories;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaAttributes;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Egroups;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.EAttributes;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Ecategories;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Egroups;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma.EAttributes;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
 
-public class SDELoader {
-
-	@SuppressWarnings("unused")
-	private static final Logger logger = LoggerFactory.getLogger(SDELoader.class);
+public class Sde2Loader {
 
 	public static TypeHierarchy load() {
-		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.LOADER.load();
+		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.LOADER.yaml().load();
 		TypeHierarchy ret = new TypeHierarchy();
 		// categories
-		for (Entry<Integer, Ecategories> e : Ecategories.LOADER.load().entrySet()) {
+		for (Entry<Integer, Ecategories> e : Ecategories.LOADER.yaml().load().entrySet()) {
 			CatDetails det = new CatDetails();
 			det.id = e.getKey();
 			det.name = e.getValue().enName();
@@ -37,7 +31,7 @@ public class SDELoader {
 			ret.catID2GroupIDs.put(det.id, new HashSet<>());
 		}
 		// groups
-		for (Entry<Integer, Egroups> e : Egroups.LOADER.load().entrySet()) {
+		for (Entry<Integer, Egroups> e : Egroups.LOADER.yaml().load().entrySet()) {
 			GroupDetails det = new GroupDetails();
 			det.id = e.getKey();
 			det.catID = e.getValue().categoryID;
@@ -48,27 +42,30 @@ public class SDELoader {
 			ret.catID2GroupIDs.computeIfAbsent(e.getValue().categoryID, _ -> new HashSet<>()).add(e.getKey());
 		}
 		// types
-		for (Entry<Integer, Etypes> e : Etypes.LOADER.load().entrySet()) {
+		for (Entry<Integer, Etypes> e : Etypes.LOADER.yaml().load().entrySet()) {
 			TypeDetails det = new TypeDetails();
-			det.name = e.getValue().enName();
+			var sourceType = e.getValue();
+			det.name = sourceType.enName();
 			det.id = e.getKey();
-			det.basePrice = e.getValue().basePrice;
+			det.basePrice = sourceType.basePrice;
 			det.marketGroupID = e.getValue().marketGroupID;
 			det.groupID = e.getValue().groupID;
-			det.mass = e.getValue().mass;
+			det.mass = sourceType.mass;
 			// no packaged volume in sde ?
-			det.portionSize = e.getValue().portionSize;
-			det.published = e.getValue().published;
-			det.volume = e.getValue().volume;
+			// det.packagedVolume = BigDecimal.ZERO;
+			det.portionSize = sourceType.portionSize;
+			det.published = sourceType.published;
+			det.radius = sourceType.radius;
+			det.volume = sourceType.volume;
 			ret.typeID2Details.put(e.getKey(), det);
-			ret.groupID2TypeIDs.computeIfAbsent(e.getValue().groupID, _ -> new HashSet<>()).add(e.getKey());
+			ret.groupID2TypeIDs.computeIfAbsent(sourceType.groupID, _ -> new HashSet<>()).add(e.getKey());
 		}
 
 		// Attributes
 
 		HashSet<Integer> floatAttributeIds = new HashSet<>();
 		HashSet<Integer> allAttributesIds = new HashSet<>();
-		for (Entry<Integer, EtypeDogma> e : EtypeDogma.LOADER.load().entrySet()) {
+		for (Entry<Integer, EtypeDogma> e : EtypeDogma.LOADER.yaml().load().entrySet()) {
 			int typeID = e.getKey();
 			TypeDetails td = ret.typeID2Details.get(typeID);
 			if (td == null) {
@@ -80,10 +77,9 @@ public class SDELoader {
 			if (etd.dogmaAttributes != null) {
 				for (EAttributes tatt : etd.dogmaAttributes) {
 					int attId = tatt.attributeID;
-					float value = tatt.value.floatValue();
-					td.definition.put(attId, value);
+					td.definition.put(attId, tatt.value);
 					// add the attribute to the list of those with a float value
-					if ((int) value != value) {
+					if ((int) tatt.value.doubleValue() != tatt.value.doubleValue()) {
 						floatAttributeIds.add(attId);
 					}
 					allAttributesIds.add(attId);

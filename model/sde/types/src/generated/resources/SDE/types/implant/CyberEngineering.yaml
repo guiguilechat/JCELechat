@@ -5,11 +5,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -20,11 +18,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-804
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -35,11 +31,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-806
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -50,11 +44,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -65,11 +57,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -80,11 +70,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -95,11 +83,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -110,11 +96,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -125,11 +109,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -140,11 +122,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -155,11 +135,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -170,11 +148,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -185,11 +161,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -200,11 +174,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -215,11 +187,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -229,12 +199,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-602
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 2.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -244,12 +212,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-604
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 4.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -259,12 +225,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-606
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 6.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -275,11 +239,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -290,11 +252,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -305,11 +265,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -320,11 +278,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -335,11 +291,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -350,11 +304,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -365,11 +317,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -380,11 +330,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -395,11 +343,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -410,11 +356,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -425,11 +369,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -440,11 +382,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -454,12 +394,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-603
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 3.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -470,11 +408,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -485,11 +421,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-805
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -500,11 +434,9 @@ types:
     implantness: 8
     marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -515,11 +447,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -530,11 +460,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -545,11 +473,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -560,11 +486,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -575,11 +499,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -590,11 +512,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -605,11 +525,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -620,11 +538,9 @@ types:
     implantness: 7
     marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -634,12 +550,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-605
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 5.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -649,12 +563,10 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-601
-    packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 1.0
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -665,11 +577,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -680,11 +590,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -695,11 +603,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -710,11 +616,9 @@ types:
     implantness: 6
     marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1

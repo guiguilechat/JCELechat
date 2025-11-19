@@ -1,173 +1,141 @@
 types:
   12609:
     id: 12609
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Hail S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12626:
     id: 12626
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Barrage S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12632:
     id: 12632
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Quake S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12634:
     id: 12634
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Tremor S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12762:
     id: 12762
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Quake L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12766:
     id: 12766
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Tremor L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12768:
     id: 12768
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Quake M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12772:
     id: 12772
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Tremor M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12774:
     id: 12774
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Barrage M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12776:
     id: 12776
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Barrage L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12778:
     id: 12778
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Hail M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12780:
     id: 12780
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Hail L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41315:
     id: 41315
     name: Hail XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41317:
     id: 41317
     name: Barrage XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41319:
     id: 41319
     name: Tremor XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41321:
     id: 41321
     name: Quake XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

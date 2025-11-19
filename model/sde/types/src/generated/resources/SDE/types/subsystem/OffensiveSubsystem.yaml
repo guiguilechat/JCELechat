@@ -10,9 +10,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Legion Offensive - Liquid Crystal Magnifiers
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 400
+    poweroutput: 400.0
     published: true
     radius: 500.0
     requiredskill1: 30537
@@ -39,9 +38,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Legion Offensive - Assault Optimization
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 200
+    poweroutput: 200.0
     published: true
     radius: 500.0
     requiredskill1: 30537
@@ -67,9 +65,8 @@ types:
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Legion Offensive - Support Processor
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 75
+    poweroutput: 75.0
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150
@@ -97,9 +94,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Tengu Offensive - Accelerated Ejection Bay
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 190
+    poweroutput: 190.0
     published: true
     radius: 500.0
     requiredskill1: 30549
@@ -123,9 +119,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Tengu Offensive - Magnetic Infusion Basin
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 420
+    poweroutput: 420.0
     published: true
     radius: 500.0
     requiredskill1: 30549
@@ -152,9 +147,8 @@ types:
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Tengu Offensive - Support Processor
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 60
+    poweroutput: 60.0
     published: true
     radius: 500.0
     remoteshieldboosterfalloffbonus: 475
@@ -182,9 +176,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Proteus Offensive - Hybrid Encoding Platform
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 430
+    poweroutput: 430.0
     published: true
     radius: 500.0
     requiredskill1: 30550
@@ -210,9 +203,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Proteus Offensive - Drone Synthesis Projector
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 130
+    poweroutput: 130.0
     published: true
     radius: 500.0
     requiredskill1: 30550
@@ -239,9 +231,8 @@ types:
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Proteus Offensive - Support Processor
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 75
+    poweroutput: 75.0
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150
@@ -271,9 +262,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Loki Offensive - Projectile Scoping Array
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 300
+    poweroutput: 300.0
     published: true
     radius: 500.0
     requiredskill1: 30551
@@ -300,9 +290,8 @@ types:
     mass: 800000.0
     metalevelold: 1
     name: Loki Offensive - Launcher Efficiency Configuration
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 150
+    poweroutput: 150.0
     published: true
     radius: 500.0
     requiredskill1: 30551
@@ -329,9 +318,8 @@ types:
     maxlockedtargetsbonus: 1
     metalevelold: 1
     name: Loki Offensive - Support Processor
-    packagedVolume: 40.0
     portionSize: 1
-    poweroutput: 60
+    poweroutput: 60.0
     published: true
     radius: 500.0
     remotearmorrepairerfalloffbonus: 1150

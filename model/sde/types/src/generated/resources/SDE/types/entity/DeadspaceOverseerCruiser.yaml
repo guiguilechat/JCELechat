@@ -4,19 +4,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.5099999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.51
     armorhp: 1620.0
-    armorkineticdamageresonance: 0.4099999964237213
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.41
+    armorthermaldamageresonance: 0.31
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 120.0
-    damagemultiplier: 20.591999053955078
+    damagemultiplier: 20.592
     disallowassistance: 1
     emdamage: 10.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -28,23 +27,23 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22969.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1350000
     entitylootcountmin: 1
     entitymissiletypeid: 213
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostamount: 270.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 3500
     explosivedamage: 8.0
     falloff: 21875.0
@@ -53,7 +52,7 @@ types:
     hp: 3510.0
     id: 2846
     kineticdamage: 4.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -61,17 +60,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 360.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 4.298580169677734
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missiledamagemultiplier: 4.29858
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Domination Excavator
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -81,38 +79,37 @@ types:
     scanresolution: 220.0
     scanspeed: 4500
     shieldcapacity: 3060.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.4099999964237213
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.41
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.3100000023841858
+    shieldthermaldamageresonance: 0.31
     shielduniformity: 0.75
     signatureradius: 240.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.027499999850988388
+    trackingspeed: 0.0275
     volume: 109000.0
   2847:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.51
+    armorexplosivedamageresonance: 0.21
     armorhp: 3240.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.31
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 21.23550033569336
+    damagemultiplier: 21.2355
     disallowassistance: 1
     emdamage: 12.0
     entityarmorrepairamount: 540.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 7000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -124,18 +121,18 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1350000
     entitylootcountmin: 1
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -144,7 +141,7 @@ types:
     gfxturretid: 459
     hp: 4050.0
     id: 2847
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -153,16 +150,15 @@ types:
     maxvelocity: 288.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: True Sansha Foreman
     optimalsigradius: 125
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -172,39 +168,38 @@ types:
     scanresolution: 200.0
     scanspeed: 5000
     shieldcapacity: 1620.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.21
+    shieldkineticdamageresonance: 0.31
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.04125000163912773
+    trackingspeed: 0.04125
     volume: 100100.0
   3882:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.51
+    armorexplosivedamageresonance: 0.21
     armorhp: 3600.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.31
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 23.594999313354492
+    damagemultiplier: 23.595
     disallowassistance: 1
     emdamage: 12.0
     entityarmorrepairamount: 600.0
-    entityarmorrepairdelaychance: 0.6000000238418579
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.6
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 7000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -216,28 +211,28 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 5000
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 4500.0
     id: 3882
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -246,8 +241,8 @@ types:
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 1.0
@@ -255,7 +250,6 @@ types:
     modifytargetspeedrange: 20000
     name: Exsanguinator
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -265,37 +259,36 @@ types:
     scanresolution: 210.0
     scanspeed: 5000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.21
+    shieldkineticdamageresonance: 0.31
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 255.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.04125000163912773
+    trackingspeed: 0.04125
     volume: 118000.0
   3884:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.3100000023841858
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.31
     armorhp: 1725.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 10.725000381469727
+    damagemultiplier: 10.725
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -307,23 +300,23 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
     entitymissiletypeid: 209
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostamount: 300.0
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 3500
     falloff: 12000.0
     gfxboosterid: 395
@@ -331,7 +324,7 @@ types:
     hp: 3600.0
     id: 3884
     kineticdamage: 12.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -339,17 +332,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 3.4892001152038574
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.840000033378601
-    missileentityvelocitymultiplier: 1.840000033378601
+    missiledamagemultiplier: 3.4892
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.84
+    missileentityvelocitymultiplier: 1.84
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Guristas Distributor
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -359,39 +351,38 @@ types:
     scanresolution: 190.0
     scanspeed: 6000
     shieldcapacity: 3600.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.3100000023841858
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.31
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 285.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 101000.0
   3889:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.51
+    armorexplosivedamageresonance: 0.21
     armorhp: 3600.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.31
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 235.0
-    damagemultiplier: 23.594999313354492
+    damagemultiplier: 23.595
     disallowassistance: 1
     emdamage: 12.0
     entityarmorrepairamount: 600.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 7000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -403,18 +394,18 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -423,7 +414,7 @@ types:
     gfxturretid: 459
     hp: 4500.0
     id: 3889
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -432,16 +423,15 @@ types:
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Slave Ation09
     optimalsigradius: 125
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -451,37 +441,36 @@ types:
     scanresolution: 200.0
     scanspeed: 5000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.21
+    shieldkineticdamageresonance: 0.31
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.04125000163912773
+    trackingspeed: 0.04125
     volume: 100100.0
   3890:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.3100000023841858
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.31
+    armorexplosivedamageresonance: 0.21
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 480.0
-    damagemultiplier: 23.594999313354492
+    damagemultiplier: 23.595
     disallowassistance: 1
     entityarmorrepairamount: 600.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 7000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -493,21 +482,21 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 10000
     falloff: 3000.0
     gfxboosterid: 394
@@ -515,7 +504,7 @@ types:
     hp: 5400.0
     id: 3890
     kineticdamage: 8.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -533,7 +522,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarpati Family Enforcer
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -542,11 +530,11 @@ types:
     scanmagnetometricstrength: 21.0
     scanresolution: 200.0
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.3100000023841858
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.31
+    shieldexplosivedamageresonance: 0.21
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3000.0
@@ -560,19 +548,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.5099999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.51
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.4099999964237213
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.41
+    armorthermaldamageresonance: 0.31
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 120.0
-    damagemultiplier: 22.8799991607666
+    damagemultiplier: 22.88
     disallowassistance: 1
     emdamage: 10.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -584,23 +571,23 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22969.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
     entitymissiletypeid: 213
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
+    entitysecuritystatuskillbonus: 0.0825
     entitysensordampenduration: 30000
     entityshieldboostamount: 300.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 3500
     explosivedamage: 8.0
     falloff: 21875.0
@@ -609,7 +596,7 @@ types:
     hp: 3900.0
     id: 3891
     kineticdamage: 4.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -617,17 +604,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 4.776199817657471
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missiledamagemultiplier: 4.7762
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: 5/10 DED Angel Big Boss
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -637,73 +623,72 @@ types:
     scanresolution: 220.0
     scanspeed: 4500
     shieldcapacity: 3400.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.4099999964237213
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.41
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.3100000023841858
+    shieldthermaldamageresonance: 0.31
     shielduniformity: 0.75
     signatureradius: 240.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.027499999850988388
+    trackingspeed: 0.0275
     volume: 109000.0
   17165:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.32499998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.325
     armorexplosivedamageresonance: 0.5
     armorhp: 3100.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     capacitorcapacity: 1400.0
-    capacity: 120.0
     damagemultiplier: 9.375
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 25000
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
     entityattackrange: 25000
     entitybracketcolour: 1
     entitychasemaxdelay: 15000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 5000
     entityequipmentmax: 1
     entityequipmentmin: -3
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 2000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 90000
     entitylootcountmin: 5
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    entitywarpscramblechance: 0.20000000298023224
+    entitywarpscramblechance: 0.2
     falloff: 12000.0
     gfxboosterid: 397
     gfxturretid: 489
     hp: 12000.0
     id: 17165
     kineticdamage: 6.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -711,7 +696,7 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 875.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.2999999523162842
+    missiledamagemultiplier: 1.3
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
@@ -722,7 +707,6 @@ types:
     modifytargetspeedrange: 6000
     name: Control Headquarters
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -733,17 +717,17 @@ types:
     scanspeed: 4500
     shieldcapacity: 8000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 120000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 115.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.11999999731779099
+    trackingspeed: 0.12
     volume: 109000.0
     warpscramblerange: 10000
     warpscramblestrength: 1
@@ -752,56 +736,55 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.32499998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.325
     armorexplosivedamageresonance: 0.5
     armorhp: 3100.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     capacitorcapacity: 1400.0
-    capacity: 120.0
     damagemultiplier: 4.625
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 25000
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
     entityattackrange: 25000
     entitybracketcolour: 1
     entitychasemaxdelay: 15000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 5000
     entityequipmentmax: 1
     entityequipmentmin: -3
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 2000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 90000
     entitylootcountmin: 5
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    entitywarpscramblechance: 0.20000000298023224
+    entitywarpscramblechance: 0.2
     falloff: 12000.0
     gfxboosterid: 397
     gfxturretid: 489
     hp: 10000.0
     id: 17166
     kineticdamage: 6.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 2
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -809,7 +792,7 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 875.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.2999999523162842
+    missiledamagemultiplier: 1.3
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.5
@@ -820,7 +803,6 @@ types:
     modifytargetspeedrange: 6000
     name: Security Coordinator
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -831,17 +813,17 @@ types:
     scanspeed: 4000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 90000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 115.0
     speed: 2500.0
     speedfactor: -80.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.12999999523162842
+    trackingspeed: 0.13
     volume: 109000.0
     warpscramblerange: 10000
     warpscramblestrength: 1
@@ -850,15 +832,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 725.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 235.0
     damagemultiplier: 2.75
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -867,25 +848,25 @@ types:
     entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.03999999910593033
+    entitydefenderchance: 0.04
     entityequipmentgroupmax: 5000
     entityequipmentmax: 1
     entityequipmentmin: -5
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07500000298023224
+    entitysecuritystatuskillbonus: 0.075
     entitysensordampenduration: 30000
     entityshieldboostamount: 90.0
     entityshieldboostdelaychance: 0.5
@@ -914,7 +895,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guristas Scout Officer
     optimalsigradius: 125
-    packagedVolume: 92000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -928,14 +908,14 @@ types:
     shieldexplosivedamageresonance: 0.375
     shieldkineticdamageresonance: 0.625
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.550000011920929
+    shieldthermaldamageresonance: 0.55
     shielduniformity: 0.75
     signatureradius: 135.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.12099999934434891
+    trackingspeed: 0.121
     volume: 92000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -944,16 +924,15 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.574999988079071
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.575
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
-    damagemultiplier: 6.547618865966797
+    damagemultiplier: 6.547619048
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 12.0
@@ -965,24 +944,24 @@ types:
     entityattackrange: 35000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 12500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 5000
     entityequipmentmax: 1
     entityequipmentmin: -4
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 20000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -991,7 +970,7 @@ types:
     gfxturretid: 459
     hp: 1100.0
     id: 17615
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1009,7 +988,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corpus Crimson Commander
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1020,33 +998,32 @@ types:
     scanspeed: 5000
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 60000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 118000.0
   17616:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.574999988079071
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.575
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
-    damagemultiplier: 6.547618865966797
+    damagemultiplier: 6.547619048
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 12.0
@@ -1058,24 +1035,24 @@ types:
     entityattackrange: 35000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 12500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 5000
     entityequipmentmax: 1
     entityequipmentmin: -5
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 20000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -1084,7 +1061,7 @@ types:
     gfxturretid: 459
     hp: 1100.0
     id: 17616
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1102,7 +1079,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mul-Zatah Gatekeeper
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1113,32 +1089,31 @@ types:
     scanspeed: 5000
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 60000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 118000.0
   17823:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.375
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 1100.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.675000011920929
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     damagemultiplier: 5.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -1150,24 +1125,24 @@ types:
     entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 5000
     entityequipmentmax: 2
     entityequipmentmin: -1
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -1178,7 +1153,7 @@ types:
     hp: 1300.0
     id: 17823
     kineticdamage: 12.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1196,7 +1171,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Chief of Security
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1207,17 +1181,17 @@ types:
     scanspeed: 5500
     shieldcapacity: 1050.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.10999999940395355
+    trackingspeed: 0.11
     volume: 112000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1226,16 +1200,15 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.375
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 825.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.675000011920929
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
     capacitorcapacity: 900.0
-    capacity: 900.0
-    damagemultiplier: 2.6500000953674316
+    damagemultiplier: 2.65
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamount: 200.0
@@ -1246,25 +1219,25 @@ types:
     entityattackrange: 40000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 10000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.029999999329447746
+    entitydefenderchance: 0.03
     entityequipmentgroupmax: 5000
     entityequipmentmax: 2
     entityequipmentmin: -2
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 45000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -1275,7 +1248,7 @@ types:
     hp: 900.0
     id: 17824
     kineticdamage: 10.0
-    mass: 1.16E7
+    mass: 11600000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1293,7 +1266,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Refinery Headmaster
     optimalsigradius: 125
-    packagedVolume: 116000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1304,17 +1276,17 @@ types:
     scanspeed: 5500
     shieldcapacity: 725.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.029400000348687172
+    trackingspeed: 0.0294
     volume: 116000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1323,15 +1295,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     damagemultiplier: 5.03125
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -1340,28 +1311,28 @@ types:
     entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 15000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.07000000029802322
+    entitydefenderchance: 0.07
     entityequipmentgroupmax: 5000
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 2000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 550000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     entitysensordampenduration: 30000
     entityshieldboostamount: 150.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
     falloff: 9000.0
     gfxboosterid: 395
@@ -1369,7 +1340,7 @@ types:
     hp: 1100.0
     id: 18584
     kineticdamage: 10.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1387,7 +1358,6 @@ types:
     modifytargetspeedrange: 7500
     name: Intoxicated Commander
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1397,18 +1367,18 @@ types:
     scanresolution: 275.0
     scanspeed: 6000
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3499999940395355
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.35
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 135.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 14.0
-    trackingspeed: 0.13224999606609344
+    trackingspeed: 0.13225
     volume: 101000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1417,15 +1387,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     damagemultiplier: 5.03125
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -1434,28 +1403,28 @@ types:
     entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 15000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 5000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.07000000029802322
+    entitydefenderchance: 0.07
     entityequipmentgroupmax: 5000
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 2000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 550000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     entitysensordampenduration: 30000
     entityshieldboostamount: 150.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
     falloff: 9000.0
     gfxboosterid: 395
@@ -1463,7 +1432,7 @@ types:
     hp: 1100.0
     id: 18641
     kineticdamage: 10.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1481,7 +1450,6 @@ types:
     modifytargetspeedrange: 7500
     name: Guristas Harlot Procurer
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1491,18 +1459,18 @@ types:
     scanresolution: 275.0
     scanspeed: 6000
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3499999940395355
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.35
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 135.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 14.0
-    trackingspeed: 0.13224999606609344
+    trackingspeed: 0.13225
     volume: 101000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1511,16 +1479,15 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.375
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 825.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.675000011920929
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
     capacitorcapacity: 900.0
-    capacity: 900.0
-    damagemultiplier: 2.6500000953674316
+    damagemultiplier: 2.65
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamount: 200.0
@@ -1531,25 +1498,25 @@ types:
     entityattackrange: 40000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 10000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.029999999329447746
+    entitydefenderchance: 0.03
     entityequipmentgroupmax: 5000
     entityequipmentmax: 2
     entityequipmentmin: -2
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 45000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -1560,7 +1527,7 @@ types:
     hp: 900.0
     id: 24582
     kineticdamage: 10.0
-    mass: 1.16E7
+    mass: 11600000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1578,7 +1545,6 @@ types:
     modifytargetspeedrange: 20000
     name: The Negotiator
     optimalsigradius: 125
-    packagedVolume: 116000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1589,17 +1555,17 @@ types:
     scanspeed: 5500
     shieldcapacity: 725.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.029400000348687172
+    trackingspeed: 0.0294
     volume: 116000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1608,15 +1574,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.375
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 1100.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.675000011920929
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     damagemultiplier: 5.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -1628,24 +1593,24 @@ types:
     entityattackrange: 10000
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 5000
     entityequipmentmax: 2
     entityequipmentmin: -1
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 2500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -1656,7 +1621,7 @@ types:
     hp: 1300.0
     id: 24584
     kineticdamage: 12.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -1674,7 +1639,6 @@ types:
     modifytargetspeedrange: 20000
     name: Wiyrkomi Head Engineer
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1685,17 +1649,17 @@ types:
     scanspeed: 5500
     shieldcapacity: 1050.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.10999999940395355
+    trackingspeed: 0.11
     volume: 112000.0
     warpscramblerange: 7500
     warpscramblestrength: 1
@@ -1704,19 +1668,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.5
     armorhp: 1150.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 235.0
     damagemultiplier: 3.4375
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19200
     entityattackdelaymin: 4800
@@ -1732,20 +1695,20 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 150000
     entitylootcountmin: 1
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
+    entityreactionfactor: 0.61
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08124999701976776
+    entitysecuritystatuskillbonus: 0.08125
     entitysensordampenduration: 30000
     entityshieldboostamount: 188.0
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 5000
     falloff: 12500.0
     gfxboosterid: 395
@@ -1753,7 +1716,7 @@ types:
     hp: 1200.0
     id: 25306
     kineticdamage: 9.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -1761,17 +1724,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 2.119999885559082
-    missileentityaoecloudsizemultiplier: 0.6399999856948853
-    missileentityaoevelocitymultiplier: 1.6200000047683716
-    missileentityflighttimemultiplier: 1.7374999523162842
-    missileentityvelocitymultiplier: 1.7374999523162842
+    missiledamagemultiplier: 2.12
+    missileentityaoecloudsizemultiplier: 0.64
+    missileentityaoevelocitymultiplier: 1.62
+    missileentityflighttimemultiplier: 1.7375
+    missileentityvelocitymultiplier: 1.7375
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Pithatis Speaker
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1781,37 +1743,36 @@ types:
     scanresolution: 190.0
     scanspeed: 6000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.4
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 285.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 11.0
-    trackingspeed: 0.03375000134110451
+    trackingspeed: 0.03375
     volume: 101000.0
   25877:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.5
     armorhp: 1150.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 925.0
-    capacity: 235.0
     damagemultiplier: 1.0
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18300
     entityattackdelaymin: 4575
@@ -1823,47 +1784,46 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05624999850988388
+    entitydefenderchance: 0.05625
     entityequipmentgroupmax: 1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 165000
     entitylootcountmin: 1
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6399999856948853
+    entityreactionfactor: 0.64
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08624999970197678
+    entitysecuritystatuskillbonus: 0.08625
     entitysensordampenduration: 30000
     entityshieldboostamount: 188.0
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 5000
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 25877
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
     maxtargetrangemultiplier: 1.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 2.2699999809265137
-    missileentityaoecloudsizemultiplier: 0.6299999952316284
-    missileentityaoevelocitymultiplier: 1.649999976158142
-    missileentityflighttimemultiplier: 1.7990000247955322
-    missileentityvelocitymultiplier: 1.7990000247955322
+    missiledamagemultiplier: 2.27
+    missileentityaoecloudsizemultiplier: 0.63
+    missileentityaoevelocitymultiplier: 1.65
+    missileentityflighttimemultiplier: 1.799
+    missileentityvelocitymultiplier: 1.799
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: TestNPC001
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1873,11 +1833,11 @@ types:
     scanresolution: 190.0
     scanspeed: 6000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.4
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 285.0
     speedfactor: 1.0
@@ -1888,19 +1848,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.7
     armorhp: 1200.0
-    armorkineticdamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 120.0
     damagemultiplier: 8.0
     disallowassistance: 1
     emdamage: 10.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -1912,22 +1871,22 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 17227.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
     entitysensordampenduration: 30000
     entityshieldboostamount: 150.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     explosivedamage: 8.0
     falloff: 16406.0
@@ -1936,7 +1895,7 @@ types:
     hp: 1300.0
     id: 25990
     kineticdamage: 4.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -1944,17 +1903,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.6699999570846558
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missiledamagemultiplier: 1.67
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Republic Fleet Keeper
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1964,9 +1922,9 @@ types:
     scanresolution: 220.0
     scanspeed: 4500
     shieldcapacity: 1700.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -1974,25 +1932,24 @@ types:
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.02969999983906746
+    trackingspeed: 0.0297
     volume: 109000.0
   26117:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.7200000286102295
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.72
     armorhp: 1150.0
-    armorkineticdamageresonance: 0.6200000047683716
-    armorthermaldamageresonance: 0.5199999809265137
+    armorkineticdamageresonance: 0.62
+    armorthermaldamageresonance: 0.52
     armoruniformity: 0.75
     capacitorcapacity: 700.0
-    capacity: 120.0
     damagemultiplier: 9.375
     disallowassistance: 1
-    entityarmorrepairdelaychancemedium: 0.4300000071525574
+    entityarmorrepairdelaychancemedium: 0.43
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19800
     entityattackdelaymin: 4950
@@ -2004,24 +1961,24 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 225.0
-    entitydefenderchance: 0.02812499925494194
+    entitydefenderchance: 0.028125
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: -6
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 14531.0
     entitygrouprespawnchance: 1
     entitykillbounty: 88125
     entitylootcountmin: 1
     entitymissiletypeid: 206
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5899999737739563
+    entityreactionfactor: 0.59
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07249999791383743
+    entitysecuritystatuskillbonus: 0.0725
     entitysensordampenduration: 30000
     entityshieldboostamount: 125.0
-    entityshieldboostdelaychance: 0.6000000238418579
-    entityshieldboostdelaychancemedium: 0.4300000071525574
+    entityshieldboostdelaychance: 0.6
+    entityshieldboostdelaychancemedium: 0.43
     entityshieldboostduration: 5000
     falloff: 16406.0
     gfxboosterid: 397
@@ -2029,7 +1986,7 @@ types:
     hp: 1250.0
     id: 26117
     kineticdamage: 4.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -2038,16 +1995,15 @@ types:
     maxvelocity: 450.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.6499999761581421
-    missileentityaoevelocitymultiplier: 1.600000023841858
-    missileentityflighttimemultiplier: 1.2785999774932861
-    missileentityvelocitymultiplier: 1.2785999774932861
+    missileentityaoecloudsizemultiplier: 0.65
+    missileentityaoevelocitymultiplier: 1.6
+    missileentityflighttimemultiplier: 1.2786
+    missileentityvelocitymultiplier: 1.2786
     missilelaunchduration: 10800.0
     modifytargetspeedduration: 20000.0
     modifytargetspeedrange: 20000
     name: Thukker Informant
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -2057,18 +2013,18 @@ types:
     scanresolution: 270.0
     scanspeed: 4500
     shieldcapacity: 1600.0
-    shieldemdamageresonance: 0.41999998688697815
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.6200000047683716
+    shieldemdamageresonance: 0.42
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.62
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5199999809265137
+    shieldthermaldamageresonance: 0.52
     shielduniformity: 0.75
     signatureradius: 140.0
     speed: 5000.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.03712499886751175
+    trackingspeed: 0.037125
     volume: 109000.0
     warpscramblerange: 10000
     warpscramblestrength: 1
@@ -2077,44 +2033,43 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7300000190734863
-    armorexplosivedamageresonance: 0.4300000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.73
+    armorexplosivedamageresonance: 0.43
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.5299999713897705
-    armorthermaldamageresonance: 0.6299999952316284
+    armorkineticdamageresonance: 0.53
+    armorthermaldamageresonance: 0.63
     armoruniformity: 0.75
     capacitorcapacity: 775.0
-    capacity: 235.0
     damagemultiplier: 7.5
     disallowassistance: 1
     emdamage: 10.0
     entityarmorrepairamount: 238.0
-    entityarmorrepairdelaychancemedium: 0.4699999988079071
+    entityarmorrepairdelaychancemedium: 0.47
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20100
     entityattackdelaymin: 5025
     entityattackrange: 41250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 24750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 768750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5799999833106995
+    entityreactionfactor: 0.58
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.13500000536441803
+    entitysecuritystatuskillbonus: 0.135
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -2123,7 +2078,7 @@ types:
     gfxturretid: 457
     hp: 1500.0
     id: 26130
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2132,16 +2087,15 @@ types:
     maxvelocity: 1440.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.6499999761581421
-    missileentityaoevelocitymultiplier: 1.590000033378601
-    missileentityflighttimemultiplier: 1.270400047302246
-    missileentityvelocitymultiplier: 1.270400047302246
+    missileentityaoecloudsizemultiplier: 0.65
+    missileentityaoevelocitymultiplier: 1.59
+    missileentityflighttimemultiplier: 1.2704
+    missileentityvelocitymultiplier: 1.2704
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Sansha Infiltrator
     optimalsigradius: 125
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2150,36 +2104,35 @@ types:
     scanradarstrength: 15.0
     scanresolution: 265.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.7300000190734863
-    shieldexplosivedamageresonance: 0.4300000071525574
-    shieldkineticdamageresonance: 0.5299999713897705
+    shieldemdamageresonance: 0.73
+    shieldexplosivedamageresonance: 0.43
+    shieldkineticdamageresonance: 0.53
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6299999952316284
+    shieldthermaldamageresonance: 0.63
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.055687498301267624
+    trackingspeed: 0.0556875
     volume: 100100.0
   26678:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.46000000834465027
-    armorexplosivedamageresonance: 0.7599999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.46
+    armorexplosivedamageresonance: 0.76
     armorhp: 1050.0
-    armorkineticdamageresonance: 0.6600000262260437
-    armorthermaldamageresonance: 0.5600000023841858
+    armorkineticdamageresonance: 0.66
+    armorthermaldamageresonance: 0.56
     armoruniformity: 0.75
     capacitorcapacity: 600.0
-    capacity: 120.0
     damagemultiplier: 5.9375
     disallowassistance: 1
-    entityarmorrepairdelaychancemedium: 0.38999998569488525
+    entityarmorrepairdelaychancemedium: 0.39
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21000
     entityattackdelaymin: 5250
@@ -2195,20 +2148,20 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: -5
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 16406.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65625
     entitylootcountmin: 1
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.550000011920929
+    entityreactionfactor: 0.55
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.0625
     entitysensordampenduration: 30000
     entityshieldboostamount: 100.0
-    entityshieldboostdelaychance: 0.6000000238418579
-    entityshieldboostdelaychancemedium: 0.38999998569488525
+    entityshieldboostdelaychance: 0.6
+    entityshieldboostdelaychancemedium: 0.39
     entityshieldboostduration: 5000
     explosivedamage: 14.0
     falloff: 16406.0
@@ -2217,7 +2170,7 @@ types:
     hp: 1150.0
     id: 26678
     kineticdamage: 4.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 4
@@ -2226,17 +2179,16 @@ types:
     maxvelocity: 450.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.6600000262260437
-    missileentityaoevelocitymultiplier: 1.559999942779541
-    missileentityflighttimemultiplier: 1.2458000183105469
-    missileentityvelocitymultiplier: 1.2458000183105469
+    missileentityaoecloudsizemultiplier: 0.66
+    missileentityaoevelocitymultiplier: 1.56
+    missileentityflighttimemultiplier: 1.2458
+    missileentityvelocitymultiplier: 1.2458
     missilelaunchduration: 6000.0
-    modifytargetspeedchance: 0.11249999701976776
+    modifytargetspeedchance: 0.1125
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 10000
     name: Gistum Domination Racer
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -2246,17 +2198,17 @@ types:
     scanresolution: 230.0
     scanspeed: 4500
     shieldcapacity: 1400.0
-    shieldemdamageresonance: 0.46000000834465027
-    shieldexplosivedamageresonance: 0.7599999904632568
-    shieldkineticdamageresonance: 0.6600000262260437
+    shieldemdamageresonance: 0.46
+    shieldexplosivedamageresonance: 0.76
+    shieldkineticdamageresonance: 0.66
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5600000023841858
+    shieldthermaldamageresonance: 0.56
     shielduniformity: 0.75
     signatureradius: 175.0
     speed: 5000.0
     speedfactor: -37.5
     structureuniformity: 1.0
-    trackingspeed: 0.0455624982714653
+    trackingspeed: 0.0455625
     volume: 109000.0
     warpscramblerange: 10000
     warpscramblestrength: 1
@@ -2265,27 +2217,26 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.4099999964237213
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.41
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 825.0
-    capacity: 235.0
     damagemultiplier: 7.5
     disallowassistance: 1
     emdamage: 12.0
     entityarmorrepairamount: 263.0
-    entityarmorrepairdelaychancemedium: 0.49000000953674316
+    entityarmorrepairdelaychancemedium: 0.49
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19500
     entityattackdelaymin: 4875
     entityattackrange: 41250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 24750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -2294,15 +2245,15 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: -6
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 16500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 90938
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07374999672174454
+    entitysecuritystatuskillbonus: 0.07375
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -2311,7 +2262,7 @@ types:
     gfxturretid: 457
     hp: 1500.0
     id: 26682
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2329,7 +2280,6 @@ types:
     modifytargetspeedrange: 20000
     name: Dark Corpum Believer
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -2338,44 +2288,43 @@ types:
     scanradarstrength: 16.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.4099999964237213
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.41
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 145.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.055687498301267624
+    trackingspeed: 0.0556875
     volume: 118000.0
   26686:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4099999964237213
-    armorexplosivedamageresonance: 0.5099999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.41
+    armorexplosivedamageresonance: 0.51
     armorhp: 1150.0
-    armorkineticdamageresonance: 0.7099999785423279
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.71
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 825.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.49000000953674316
-    entityarmorrepairdelaychancemedium: 0.49000000953674316
+    entityarmorrepairdelaychance: 0.49
+    entityarmorrepairdelaychancemedium: 0.49
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19500
     entityattackdelaymin: 4875
     entityattackrange: 75000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 25875
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -2384,20 +2333,20 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: -6
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 17250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 90938
     entitylootcountmin: 1
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07374999672174454
+    entitysecuritystatuskillbonus: 0.07375
     entitysensordampenduration: 30000
     entityshieldboostamount: 131.0
-    entityshieldboostdelaychance: 0.49000000953674316
-    entityshieldboostdelaychancemedium: 0.49000000953674316
+    entityshieldboostdelaychance: 0.49
+    entityshieldboostdelaychancemedium: 0.49
     entityshieldboostduration: 5000
     falloff: 11250.0
     gfxboosterid: 395
@@ -2405,7 +2354,7 @@ types:
     hp: 1200.0
     id: 26686
     kineticdamage: 10.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -2414,16 +2363,15 @@ types:
     maxvelocity: 360.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.6399999856948853
-    missileentityaoevelocitymultiplier: 1.6100000143051147
-    missileentityflighttimemultiplier: 1.7170000076293945
-    missileentityvelocitymultiplier: 1.7170000076293945
+    missileentityaoecloudsizemultiplier: 0.64
+    missileentityaoevelocitymultiplier: 1.61
+    missileentityflighttimemultiplier: 1.717
+    missileentityvelocitymultiplier: 1.717
     missilelaunchduration: 6200.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Dread Pithum Vindicator
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -2433,63 +2381,62 @@ types:
     scanresolution: 240.0
     scanspeed: 6000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.4099999964237213
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.7099999785423279
+    shieldemdamageresonance: 0.41
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.71
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 155.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.03881249949336052
+    trackingspeed: 0.0388125
     volume: 101000.0
   26690:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.574999988079071
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.575
     armoruniformity: 0.75
     capacitorcapacity: 675.0
-    capacity: 235.0
     damagemultiplier: 5.9375
     disallowassistance: 1
     emdamage: 8.0
     entityarmorrepairamount: 312.5
     entityarmorrepairdelaychance: 0.5
-    entityarmorrepairdelaychancemedium: 0.4300000071525574
+    entityarmorrepairdelaychancemedium: 0.43
     entityarmorrepairduration: 25000
     entityattackdelaymax: 21300
     entityattackdelaymin: 5325
     entityattackrange: 35625
     entitybracketcolour: 1
     entitychasemaxdelay: 20000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 21375
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: -5
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 14250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 60000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5400000214576721
+    entityreactionfactor: 0.54
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05999999865889549
+    entitysecuritystatuskillbonus: 0.06
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -2499,7 +2446,7 @@ types:
     gfxturretid: 457
     hp: 1100.0
     id: 26690
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
@@ -2509,19 +2456,18 @@ types:
     maxvelocity: 375.0
     mintargetveldmgmultiplier: 0.25
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.6600000262260437
-    missileentityaoevelocitymultiplier: 1.5499999523162842
-    missileentityflighttimemultiplier: 1.2375999689102173
-    missileentityvelocitymultiplier: 1.2375999689102173
+    missileentityaoecloudsizemultiplier: 0.66
+    missileentityaoevelocitymultiplier: 1.55
+    missileentityflighttimemultiplier: 1.2376
+    missileentityvelocitymultiplier: 1.2376
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: True Centum General
-    npctrackingdisruptoractivationchance: 0.10000000149011612
+    npctrackingdisruptoractivationchance: 0.1
     npctrackingdisruptorduration: 30000.0
     npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2532,43 +2478,42 @@ types:
     scanspeed: 5000
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07087499648332596
+    trackingspeed: 0.070875
     volume: 100100.0
   26691:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.46000000834465027
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.46
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.7599999904632568
-    armorthermaldamageresonance: 0.6600000262260437
+    armorkineticdamageresonance: 0.76
+    armorthermaldamageresonance: 0.66
     armoruniformity: 0.75
     capacitorcapacity: 700.0
-    capacity: 480.0
     damagemultiplier: 4.8828125
     disallowassistance: 1
     entityarmorrepairamount: 200.0
-    entityarmorrepairdelaychancemedium: 0.4399999976158142
+    entityarmorrepairdelaychancemedium: 0.44
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21000
     entityattackdelaymin: 5250
     entityattackrange: 11531
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 7688
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -2577,17 +2522,17 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: -5
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 3844.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65625
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.550000011920929
+    entityreactionfactor: 0.55
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.0625
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.11249999701976776
+    entitysensordampendurationchance: 0.1125
     entitysensordampenfalloff: 37500
     entitysensordampenmaxrange: 18750
     entityshieldboostdelaychance: 1.0
@@ -2598,7 +2543,7 @@ types:
     hp: 1400.0
     id: 26691
     kineticdamage: 6.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2616,7 +2561,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelum Infantry
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2626,37 +2570,36 @@ types:
     scanresolution: 210.0
     scanresolutionmultiplier: 0.75
     shieldcapacity: 1050.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.46000000834465027
-    shieldkineticdamageresonance: 0.7599999904632568
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.46
+    shieldkineticdamageresonance: 0.76
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6600000262260437
+    shieldthermaldamageresonance: 0.66
     shielduniformity: 0.75
     signatureradius: 195.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.18562500178813934
+    trackingspeed: 0.185625
     volume: 112000.0
   26756:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.5
     armorhp: 1150.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -2672,20 +2615,20 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 172500
     entitylootcountmin: 1
     entitymissiletypeid: 209
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08874999731779099
+    entitysecuritystatuskillbonus: 0.08875
     entitysensordampenduration: 30000
     entityshieldboostamount: 188.0
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 5000
     falloff: 15000.0
     gfxboosterid: 395
@@ -2693,7 +2636,7 @@ types:
     hp: 1200.0
     id: 26756
     kineticdamage: 10.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 3
@@ -2701,17 +2644,16 @@ types:
     maxtargetrangemultiplier: 1.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missiledamagemultiplier: 1.5199999809265137
-    missileentityaoecloudsizemultiplier: 0.6200000047683716
-    missileentityaoevelocitymultiplier: 1.6699999570846558
-    missileentityflighttimemultiplier: 1.840000033378601
-    missileentityvelocitymultiplier: 1.840000033378601
+    missiledamagemultiplier: 1.52
+    missileentityaoecloudsizemultiplier: 0.62
+    missileentityaoevelocitymultiplier: 1.67
+    missileentityflighttimemultiplier: 1.84
+    missileentityvelocitymultiplier: 1.84
     missilelaunchduration: 5000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Gurista Special Acquirement Captain
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -2721,37 +2663,36 @@ types:
     scanresolution: 190.0
     scanspeed: 6000
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.4
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 285.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 101000.0
   26758:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 480.0
     damagemultiplier: 7.8125
     disallowassistance: 1
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19200
     entityattackdelaymin: 4800
@@ -2767,18 +2708,18 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 150000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
+    entityreactionfactor: 0.61
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08124999701976776
+    entitysecuritystatuskillbonus: 0.08125
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 10000
     falloff: 3125.0
     gfxboosterid: 394
@@ -2786,7 +2727,7 @@ types:
     hp: 1800.0
     id: 26758
     kineticdamage: 6.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -2804,7 +2745,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Drug Carrier
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2814,36 +2754,35 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.13750000298023224
+    trackingspeed: 0.1375
     volume: 112000.0
   26763:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 2000.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 950.0
-    capacity: 1200.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18000
     entityattackdelaymin: 4500
@@ -2855,7 +2794,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.04749999940395355
+    entitydefenderchance: 0.0475
     entityequipmentgroupmax: 100
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -2866,10 +2805,10 @@ types:
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysensordampenduration: 30000
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     entitystrength: 4
     falloff: 21875.0
@@ -2887,16 +2826,15 @@ types:
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8360999822616577
-    missileentityaoevelocitymultiplier: 1.3278000354766846
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
+    missileentityaoecloudsizemultiplier: 0.8361
+    missileentityaoevelocitymultiplier: 1.3278
+    missileentityflighttimemultiplier: 1.3278
+    missileentityvelocitymultiplier: 1.3278
     missilelaunchduration: 3000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Rogue Drone Logistic Overseer
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2907,38 +2845,37 @@ types:
     scanresolution: 200.0
     scanspeed: 2000
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.02199999988079071
+    trackingspeed: 0.022
     volume: 60.0
   26764:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 2000.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 1200.0
     damagemultiplier: 8.0
     disallowassistance: 1
     emdamage: 10.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -2950,7 +2887,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 100
     entityequipmentmax: 6
     entityequipmentmin: 3
@@ -2960,10 +2897,10 @@ types:
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysensordampenduration: 30000
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 8.0
@@ -2982,16 +2919,15 @@ types:
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8320000171661377
-    missileentityaoevelocitymultiplier: 1.3359999656677246
-    missileentityflighttimemultiplier: 1.3359999656677246
-    missileentityvelocitymultiplier: 1.3359999656677246
+    missileentityaoecloudsizemultiplier: 0.832
+    missileentityaoevelocitymultiplier: 1.336
+    missileentityflighttimemultiplier: 1.336
+    missileentityvelocitymultiplier: 1.336
     missilelaunchduration: 3000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Rogue Production Captain
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3002,36 +2938,35 @@ types:
     scanresolution: 200.0
     scanspeed: 2000
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.02199999988079071
+    trackingspeed: 0.022
     volume: 60.0
   26765:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 1700.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 1200.0
     damagemultiplier: 6.0
     disallowassistance: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19200
     entityattackdelaymin: 4800
@@ -3043,7 +2978,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.03750000149011612
+    entitydefenderchance: 0.0375
     entityequipmentgroupmax: 500
     entityequipmentmax: 8
     entityequipmentmin: 4
@@ -3053,10 +2988,10 @@ types:
     entitylootcountmin: 2
     entitymissiletypeid: 206
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
+    entityreactionfactor: 0.61
     entitysensordampenduration: 30000
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 14.0
@@ -3075,16 +3010,15 @@ types:
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8525000214576721
-    missileentityaoevelocitymultiplier: 1.2949999570846558
-    missileentityflighttimemultiplier: 1.2949999570846558
-    missileentityvelocitymultiplier: 1.2949999570846558
+    missileentityaoecloudsizemultiplier: 0.8525
+    missileentityaoevelocitymultiplier: 1.295
+    missileentityflighttimemultiplier: 1.295
+    missileentityvelocitymultiplier: 1.295
     missilelaunchduration: 6250.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Hive Overseer
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3095,36 +3029,35 @@ types:
     scanresolution: 200.0
     scanspeed: 2000
     shieldcapacity: 700.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.027000000700354576
+    trackingspeed: 0.027
     volume: 60.0
   26766:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 2000.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 950.0
-    capacity: 1200.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18000
     entityattackdelaymin: 4500
@@ -3136,7 +3069,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.04749999940395355
+    entitydefenderchance: 0.0475
     entityequipmentgroupmax: 700
     entityequipmentmax: 32
     entityequipmentmin: 16
@@ -3146,10 +3079,10 @@ types:
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysensordampenduration: 30000
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     entitystrength: 4
     falloff: 21875.0
@@ -3167,16 +3100,15 @@ types:
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8360999822616577
-    missileentityaoevelocitymultiplier: 1.3278000354766846
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
+    missileentityaoecloudsizemultiplier: 0.8361
+    missileentityaoevelocitymultiplier: 1.3278
+    missileentityflighttimemultiplier: 1.3278
+    missileentityvelocitymultiplier: 1.3278
     missilelaunchduration: 3000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Hive Logistic Captain
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3187,37 +3119,36 @@ types:
     scanresolution: 200.0
     scanspeed: 2000
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.02199999988079071
+    trackingspeed: 0.022
     volume: 60.0
   26768:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 2000.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 950.0
-    capacity: 1200.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18000
     entityattackdelaymin: 4500
@@ -3229,7 +3160,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.04749999940395355
+    entitydefenderchance: 0.0475
     entityequipmentgroupmax: 1000
     entityequipmentmax: 48
     entityequipmentmin: 24
@@ -3239,10 +3170,10 @@ types:
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysensordampenduration: 30000
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancemedium: 0.6000000238418579
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancemedium: 0.6
     entityshieldboostduration: 5000
     entitystrength: 4
     falloff: 21875.0
@@ -3260,16 +3191,15 @@ types:
     maxvelocity: 400.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8360999822616577
-    missileentityaoevelocitymultiplier: 1.3278000354766846
-    missileentityflighttimemultiplier: 1.3278000354766846
-    missileentityvelocitymultiplier: 1.3278000354766846
+    missileentityaoecloudsizemultiplier: 0.8361
+    missileentityaoevelocitymultiplier: 1.3278
+    missileentityflighttimemultiplier: 1.3278
+    missileentityvelocitymultiplier: 1.3278
     missilelaunchduration: 3000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Colony Captain
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3280,16 +3210,16 @@ types:
     scanresolution: 200.0
     scanspeed: 2000
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 275.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.02199999988079071
+    trackingspeed: 0.022
     volume: 60.0

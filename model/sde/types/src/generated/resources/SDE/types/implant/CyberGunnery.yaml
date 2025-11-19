@@ -5,10 +5,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -19,10 +17,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -33,10 +29,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -46,11 +40,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -61,11 +53,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -76,11 +66,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -92,11 +80,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -107,11 +93,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -122,11 +106,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -137,11 +119,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -152,11 +132,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -167,11 +145,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -182,11 +158,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -197,11 +171,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -212,11 +184,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -227,11 +197,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -242,11 +210,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -256,11 +222,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -272,11 +236,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -287,11 +249,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -302,11 +262,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -317,11 +275,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -331,11 +287,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -347,11 +301,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -362,11 +314,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -377,10 +327,8 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-606
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -391,10 +339,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-706
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -404,10 +350,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-906
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -419,10 +363,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -433,10 +375,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -446,11 +386,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     rangeskillbonus: 2
     requiredskill1: 3411
     requiredskill1level: 1
@@ -462,11 +400,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -477,10 +413,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-706
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -491,11 +425,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -506,11 +438,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -521,10 +451,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -535,11 +463,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -550,11 +476,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -565,10 +489,8 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-606
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -579,11 +501,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -594,11 +514,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -609,10 +527,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1006
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -623,11 +539,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -638,11 +552,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -653,10 +565,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -666,11 +576,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     rangeskillbonus: 4
     requiredskill1: 3411
     requiredskill1level: 2
@@ -681,10 +589,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-906
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 6
     requiredskill1: 3411
     requiredskill1level: 4
@@ -696,11 +602,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -710,11 +614,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -725,11 +627,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     rangeskillbonus: 3
     requiredskill1: 3411
     requiredskill1level: 2
@@ -740,11 +640,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -756,11 +654,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -771,11 +667,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -786,11 +680,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -801,11 +693,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -816,11 +706,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -831,11 +719,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -846,11 +732,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -861,11 +745,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -876,11 +758,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -891,11 +771,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     techlevel: 1
@@ -906,11 +784,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -921,11 +797,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -936,11 +810,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -951,10 +823,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1005
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -964,10 +834,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -979,10 +847,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -993,10 +859,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1007,10 +871,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1021,10 +883,8 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1035,10 +895,8 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-605
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1049,10 +907,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-705
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1062,10 +918,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-905
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1077,10 +931,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1091,10 +943,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1104,10 +954,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-905
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     rangeskillbonus: 5
     requiredskill1: 3411
     requiredskill1level: 4
@@ -1119,10 +967,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-705
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1133,10 +979,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1147,10 +991,8 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1161,10 +1003,8 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-605
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1174,10 +1014,8 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Ogdin's Eye Coordination Enhancer
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -1189,10 +1027,8 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Pashan's Turret Handling Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1202,10 +1038,8 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Pashan's Turret Customization Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -1216,11 +1050,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1231,11 +1063,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     rangeskillbonus: 1
     requiredskill1: 3411
     requiredskill1level: 1
@@ -1246,11 +1076,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1262,11 +1090,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1277,11 +1103,9 @@ types:
     implantness: 7
     marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1292,11 +1116,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1307,11 +1129,9 @@ types:
     implantness: 9
     marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1322,11 +1142,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1337,11 +1155,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1352,11 +1168,9 @@ types:
     implantness: 6
     marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1367,11 +1181,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1382,11 +1194,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1397,11 +1207,9 @@ types:
     implantness: 8
     marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1412,11 +1220,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1427,11 +1233,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -1442,11 +1246,9 @@ types:
     implantness: 10
     marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1

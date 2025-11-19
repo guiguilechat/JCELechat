@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
@@ -73,13 +71,6 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
@@ -160,13 +151,6 @@ public class StructureECMBattery
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * reload time (ms)
      */
     @HighIsGood(false)
@@ -223,7 +207,7 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, FalloffEffectiveness.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, FalloffEffectiveness.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureECMBattery.MetaGroup METAGROUP = new StructureECMBattery.MetaGroup();
 
     @Override
@@ -244,10 +228,6 @@ public class StructureECMBattery
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  604 :
             {
@@ -288,10 +268,6 @@ public class StructureECMBattery
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  1795 :
             {

@@ -6,14 +6,12 @@ types:
     asteroidradiusunitsize: 250
     id: 82016
     marketGroup: 3637
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Nocxite
     orebasictype: 82016
-    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
@@ -26,14 +24,12 @@ types:
     asteroidradiusunitsize: 250
     id: 82017
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Fragrant Nocxite
+    mass: 1.0E+35
+    name: Nocxite II-Grade
     orebasictype: 82016
-    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
@@ -46,14 +42,12 @@ types:
     asteroidradiusunitsize: 250
     id: 82018
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Intoxicating Nocxite
+    mass: 1.0E+35
+    name: Nocxite III-Grade
     orebasictype: 82016
-    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,14 +60,12 @@ types:
     asteroidradiusunitsize: 250
     id: 82019
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Ambrosial Nocxite
+    mass: 1.0E+35
+    name: Nocxite IV-Grade
     orebasictype: 82016
-    packagedVolume: 4.0
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 90
     id: 82304
     marketGroup: 3637
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Nocxite
     orebasictype: 82016
-    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.03999999910593033
+    volume: 0.04
   82305:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -106,19 +96,17 @@ types:
     asteroidradiusunitsize: 90
     id: 82305
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Compressed Fragrant Nocxite
+    mass: 1.0E+35
+    name: Compressed Nocxite II-Grade
     orebasictype: 82016
-    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.03999999910593033
+    volume: 0.04
   82306:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -126,19 +114,17 @@ types:
     asteroidradiusunitsize: 90
     id: 82306
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Compressed Intoxicating Nocxite
+    mass: 1.0E+35
+    name: Compressed Nocxite III-Grade
     orebasictype: 82016
-    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.03999999910593033
+    volume: 0.04
   82307:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -146,16 +132,14 @@ types:
     asteroidradiusunitsize: 90
     id: 82307
     marketGroup: 3637
-    mass: 1.0000000409184788E35
-    name: Compressed Ambrosial Nocxite
+    mass: 1.0E+35
+    name: Compressed Nocxite IV-Grade
     orebasictype: 82016
-    packagedVolume: 0.03999999910593033
     portionSize: 100
     price: 337408.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.03999999910593033
+    volume: 0.04

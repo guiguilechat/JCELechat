@@ -101,7 +101,7 @@ public class ShipMaxSpeed {
 				// max");
 				continue;
 			}
-			double speed = s.maxvelocity * 1.25 * 7.375 * 15000000 / (s.mass + 5000000);
+			double speed = s.maxvelocity * 1.25 * 7.375 * 15000000 / (s.mass.doubleValue() + 5000000);
 			int overdrives = 0;
 			for (int i = microAux + reactors; i < lowslots; i++) {
 				speed *= overdriveMultPerStacking[overdrives];

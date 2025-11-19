@@ -2,336 +2,288 @@ types:
   45681:
     id: 45681
     name: Legion Defensive - Covert Reconfiguration Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45682:
     id: 45682
     name: Legion Defensive - Augmented Plating Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45683:
     id: 45683
     name: Legion Defensive - Nanobot Injector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45684:
     id: 45684
     name: Tengu Defensive - Covert Reconfiguration Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45685:
     id: 45685
     name: Tengu Defensive - Supplemental Screening Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45686:
     id: 45686
     name: Tengu Defensive - Amplification Node Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45687:
     id: 45687
     name: Proteus Defensive - Covert Reconfiguration Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45688:
     id: 45688
     name: Proteus Defensive - Augmented Plating Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45689:
     id: 45689
     name: Proteus Defensive - Nanobot Injector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45690:
     id: 45690
     name: Loki Defensive - Covert Reconfiguration Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45691:
     id: 45691
     name: Loki Defensive - Augmented Durability Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45692:
     id: 45692
     name: Loki Defensive - Adaptive Defense Node Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45693:
     id: 45693
     name: Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45694:
     id: 45694
     name: Legion Offensive - Assault Optimization Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45695:
     id: 45695
     name: Legion Offensive - Support Processor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45696:
     id: 45696
     name: Tengu Offensive - Accelerated Ejection Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45697:
     id: 45697
     name: Tengu Offensive - Magnetic Infusion Basin Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45698:
     id: 45698
     name: Tengu Offensive - Support Processor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45699:
     id: 45699
     name: Proteus Offensive - Hybrid Encoding Platform Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45700:
     id: 45700
     name: Proteus Offensive - Drone Synthesis Projector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45701:
     id: 45701
     name: Proteus Offensive - Support Processor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45702:
     id: 45702
     name: Loki Offensive - Projectile Scoping Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45703:
     id: 45703
     name: Loki Offensive - Launcher Efficiency Configuration Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45704:
     id: 45704
     name: Loki Offensive - Support Processor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45705:
     id: 45705
     name: Legion Propulsion - Interdiction Nullifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45706:
     id: 45706
     name: Legion Propulsion - Intercalated Nanofibers Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45707:
     id: 45707
     name: Legion Propulsion - Wake Limiter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45708:
     id: 45708
     name: Tengu Propulsion - Interdiction Nullifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45709:
     id: 45709
     name: Tengu Propulsion - Chassis Optimization Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45710:
     id: 45710
     name: Tengu Propulsion - Fuel Catalyst Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45711:
     id: 45711
     name: Proteus Propulsion - Interdiction Nullifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45712:
     id: 45712
     name: Proteus Propulsion - Hyperspatial Optimization Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45713:
     id: 45713
     name: Proteus Propulsion - Localized Injectors Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45714:
     id: 45714
     name: Loki Propulsion - Interdiction Nullifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45715:
     id: 45715
     name: Loki Propulsion - Intercalated Nanofibers Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45716:
     id: 45716
     name: Loki Propulsion - Wake Limiter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45717:
     id: 45717
     name: Legion Core - Dissolution Sequencer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45718:
     id: 45718
     name: Legion Core - Augmented Antimatter Reactor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45719:
     id: 45719
     name: Legion Core - Energy Parasitic Complex Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45720:
     id: 45720
     name: Tengu Core - Electronic Efficiency Gate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45721:
     id: 45721
     name: Tengu Core - Augmented Graviton Reactor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45722:
     id: 45722
     name: Tengu Core - Obfuscation Manifold Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45723:
     id: 45723
     name: Proteus Core - Electronic Efficiency Gate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45724:
     id: 45724
     name: Proteus Core - Augmented Fusion Reactor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45725:
     id: 45725
     name: Proteus Core - Friction Extension Processor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45726:
     id: 45726
     name: Loki Core - Dissolution Sequencer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45727:
     id: 45727
     name: Loki Core - Augmented Nuclear Reactor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45728:
     id: 45728
     name: Loki Core - Immobility Drivers Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

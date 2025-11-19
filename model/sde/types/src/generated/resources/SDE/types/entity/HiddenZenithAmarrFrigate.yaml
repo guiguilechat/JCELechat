@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 300.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 180.0
-    capacity: 235.0
     damagemultiplier: 5.25
     disallowassistance: 1
     emdamage: 5.0
@@ -24,7 +23,7 @@ types:
     entityattackrange: 24000
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15000000596046448
+    entitychasemaxdelaychance: 0.15
     entitychasemaxdistance: 16000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -34,7 +33,7 @@ types:
     entityflyrange: 8000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.36000001430511475
+    entityreactionfactor: 0.36
     entitysecuritymaxgain: 5.0
     entityshieldboostdelaychancesmall: 0.25
     entityshieldboostduration: 5000
@@ -48,11 +47,10 @@ types:
     maxlockedtargets: 1
     maxrange: 7500.0
     maxvelocity: 400.0
-    missileentityaoecloudsizemultiplier: 0.9549999833106995
+    missileentityaoecloudsizemultiplier: 0.955
     missilelaunchduration: 1.0
     name: Cleansing Flame Amarr Frigate
     optimalsigradius: 40
-    packagedVolume: 24398.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -72,10 +70,10 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.19699999690055847
+    trackingspeed: 0.197
     volume: 24398.0
   50104:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
@@ -97,9 +95,9 @@ types:
     missilelaunchduration: 20000.0
     name: Imperial Escort Punisher
     optimalsigradius: 1000
-    packagedVolume: 24398.0
     portionSize: 1
     published: false
+    radius: 50.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

@@ -8,10 +8,8 @@ types:
     mass: 10000.0
     metalevelold: 1
     name: Mobile Scan Inhibitor
-    packagedVolume: 100.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11584
     requiredskill1level: 3
     scangravimetricstrength: 5.0

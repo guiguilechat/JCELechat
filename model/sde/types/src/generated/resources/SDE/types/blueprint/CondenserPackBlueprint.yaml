@@ -2,96 +2,84 @@ types:
   54861:
     id: 54861
     name: GalvaSurge Condenser Pack S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54862:
     id: 54862
     name: MesmerFlux Condenser Pack S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54863:
     id: 54863
     name: BlastShot Condenser Pack S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54864:
     id: 54864
     name: SlamBolt Condenser Pack S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54865:
     id: 54865
     name: GalvaSurge Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54866:
     id: 54866
     name: MesmerFlux Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54867:
     id: 54867
     name: BlastShot Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54868:
     id: 54868
     name: SlamBolt Condenser Pack M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54869:
     id: 54869
     name: GalvaSurge Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54870:
     id: 54870
     name: MesmerFlux Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54871:
     id: 54871
     name: BlastShot Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54872:
     id: 54872
     name: SlamBolt Condenser Pack L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

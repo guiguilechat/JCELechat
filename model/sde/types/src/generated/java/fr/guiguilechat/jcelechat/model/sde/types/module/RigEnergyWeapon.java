@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
@@ -23,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -114,7 +112,7 @@ public class RigEnergyWeapon
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, UpgradeCost.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, SpeedMultiplier.INSTANCE, Drawback.INSTANCE, TrackingSpeedMultiplier.INSTANCE, CpuNeedBonus.INSTANCE, MetaLevelOld.INSTANCE, FalloffBonus.INSTANCE, CapNeedBonus.INSTANCE, MaxRangeBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, UpgradeCost.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, SpeedMultiplier.INSTANCE, Drawback.INSTANCE, TrackingSpeedMultiplier.INSTANCE, CpuNeedBonus.INSTANCE, MetaLevelOld.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final RigEnergyWeapon.MetaGroup METAGROUP = new RigEnergyWeapon.MetaGroup();
 
     @Override

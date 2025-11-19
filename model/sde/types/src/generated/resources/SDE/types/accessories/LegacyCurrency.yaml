@@ -4,38 +4,30 @@ types:
     id: 2833
     marketGroup: 1427
     name: 1000 Aurum Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   32792:
     aurumconversionrate: 100
     id: 32792
     marketGroup: 1427
     name: 100 Aurum Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   32793:
     aurumconversionrate: 500
     id: 32793
     marketGroup: 1427
     name: 500 Aurum Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   44204:
     aurumconversionrate: 300
     id: 44204
     marketGroup: 1427
     name: 300 Aurum Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

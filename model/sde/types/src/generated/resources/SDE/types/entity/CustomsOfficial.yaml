@@ -1,12 +1,11 @@
 types:
   17286:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 270.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
     damagemultiplier: 3.125
@@ -19,7 +18,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 6000.0
@@ -45,7 +44,6 @@ types:
     modifytargetspeedrange: 80000
     name: Amarr Customs Captain
     optimalsigradius: 1
-    packagedVolume: 28700.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -58,10 +56,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -75,16 +73,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19365:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 7.142857074737549
+    damagemultiplier: 7.142857143
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 30000
@@ -108,7 +105,7 @@ types:
     gfxturretid: 464
     hp: 5500.0
     id: 19365
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -119,7 +116,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Customs General
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -132,10 +128,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -149,16 +145,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19366:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 7.142857074737549
+    damagemultiplier: 7.142857143
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 30000
@@ -182,7 +177,7 @@ types:
     gfxturretid: 464
     hp: 5500.0
     id: 19366
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -193,7 +188,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Customs General
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -206,10 +200,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -223,16 +217,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19367:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 7.142857074737549
+    damagemultiplier: 7.142857143
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 30000
@@ -256,7 +249,7 @@ types:
     hp: 5500.0
     id: 19367
     kineticdamage: 24.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -267,7 +260,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Customs Commissioner
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -280,10 +272,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -297,16 +289,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19368:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 7.142857074737549
+    damagemultiplier: 7.142857143
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 30000
@@ -330,7 +321,7 @@ types:
     gfxturretid: 464
     hp: 5500.0
     id: 19368
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -341,7 +332,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Customs General Major
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -354,10 +344,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -371,13 +361,12 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19369:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
     damagemultiplier: 12.5
@@ -404,7 +393,7 @@ types:
     hp: 5500.0
     id: 19369
     kineticdamage: 24.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -415,7 +404,6 @@ types:
     modifytargetspeedrange: 20000
     name: Gallente Customs Major
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -428,10 +416,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -445,13 +433,12 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19370:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
     damagemultiplier: 12.5
@@ -479,7 +466,7 @@ types:
     hp: 5500.0
     id: 19370
     kineticdamage: 15.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -490,7 +477,6 @@ types:
     modifytargetspeedrange: 20000
     name: Minmatar Customs Commander
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -503,10 +489,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -520,16 +506,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19371:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 7.142857074737549
+    damagemultiplier: 7.142857143
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 30000
@@ -553,7 +538,7 @@ types:
     gfxturretid: 464
     hp: 5500.0
     id: 19371
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -564,7 +549,6 @@ types:
     modifytargetspeedrange: 20000
     name: Amarr Customs General
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -577,10 +561,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -594,16 +578,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19372:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 275.0
-    capacity: 275.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -614,7 +597,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -639,7 +622,6 @@ types:
     modifytargetspeedrange: 80000
     name: Amarr Customs Surveillance Officer
     optimalsigradius: 100
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -656,10 +638,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -671,16 +653,15 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19383:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.95
+    armorthermaldamageresonance: 0.35
     capacitorcapacity: 160.0
-    capacity: 160.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 3.5714285373687744
+    damagemultiplier: 3.571428571
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -690,7 +671,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -716,7 +697,6 @@ types:
     modifytargetspeedrange: 80000
     name: Gallente Customs Official
     optimalsigradius: 100
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -733,10 +713,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -748,13 +728,12 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19384:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 200.0
-    capacity: 200.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
     damagemultiplier: 3.125
@@ -768,7 +747,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -793,7 +772,6 @@ types:
     modifytargetspeedrange: 80000
     name: Sarum Customs Surveillance Officer
     optimalsigradius: 100
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -810,10 +788,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -825,16 +803,15 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19385:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
-    armorkineticdamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 190.0
-    capacity: 190.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 3.7515006065368652
+    damagemultiplier: 3.7515006
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -845,7 +822,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -870,7 +847,6 @@ types:
     modifytargetspeedrange: 80000
     name: Caldari Customs Agent
     optimalsigradius: 100
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -887,10 +863,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -902,16 +878,15 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19386:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 200.0
-    capacity: 200.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -922,7 +897,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -947,7 +922,6 @@ types:
     modifytargetspeedrange: 80000
     name: Khanid Customs Surveillance Officer
     optimalsigradius: 100
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -964,10 +938,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -979,16 +953,15 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19387:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 200.0
-    capacity: 200.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -999,7 +972,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -1024,7 +997,6 @@ types:
     modifytargetspeedrange: 80000
     name: Ammatar Customs Surveillance Officer
     optimalsigradius: 100
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1041,10 +1013,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -1056,16 +1028,15 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19388:
-    armoremdamageresonance: 0.20000000298023224
-    armorexplosivedamageresonance: 1.100000023841858
+    armoremdamageresonance: 0.2
+    armorexplosivedamageresonance: 1.1
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 80.0
-    capacity: 80.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 3.7515006065368652
+    damagemultiplier: 3.7515006
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -1076,7 +1047,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -1102,7 +1073,6 @@ types:
     modifytargetspeedrange: 80000
     name: Minmatar Customs Patroller
     optimalsigradius: 100
-    packagedVolume: 12000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1119,10 +1089,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0
@@ -1134,13 +1104,12 @@ types:
     warpscrambleduration: 10000
     warpscramblestatus: -30
   19563:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1000.0
-    capacity: 14000.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
     damagemultiplier: 12.5
@@ -1169,7 +1138,7 @@ types:
     hp: 5500.0
     id: 19563
     kineticdamage: 24.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -1180,7 +1149,6 @@ types:
     modifytargetspeedrange: 20000
     name: CONCORD Customs Commander
     optimalsigradius: 100
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1193,10 +1161,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: 1.0
@@ -1210,16 +1178,15 @@ types:
     warpscramblestatus: -30
     warpscramblestrength: 5
   19564:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.95
+    armorthermaldamageresonance: 0.35
     capacitorcapacity: 160.0
-    capacity: 160.0
     contrabanddetectionchance: 0.75
     contrabandscanchance: 0.75
-    damagemultiplier: 3.5714285373687744
+    damagemultiplier: 3.571428571
     disallowassistance: 1
     duration: 3000.0
     ecmduration: 3000
@@ -1229,7 +1196,7 @@ types:
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.3499999940395355
+    entitydefenderchance: 0.35
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -1255,7 +1222,6 @@ types:
     modifytargetspeedrange: 80000
     name: CONCORD Customs Official
     optimalsigradius: 100
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1272,10 +1238,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     speedfactor: -100.0

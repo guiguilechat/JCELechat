@@ -4,10 +4,8 @@ types:
     implantness: 3
     marketGroup: 620
     name: Republic Special Ops Field Enhancer - Gamma
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -20,11 +18,9 @@ types:
     implantness: 1
     marketGroup: 618
     name: Imperial Special Ops Field Enhancer - Standard
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1

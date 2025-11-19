@@ -1,38 +1,37 @@
 types:
   28606:
     affectedbyindustrialinvulnmodule: 1
-    agility: 0.20000000298023224
+    agility: 0.2
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 7000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 8000.0
-    capacity: 30000.0
     cpuoutput: 550
     dronebandwidth: 50
     dronecapacity: 200
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fleethangarcapacity: 40000
     fwlpkill: 1000
     generalminingholdcapacity: 150000
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
+    heatattenuationhi: 0.76
     heatattenuationlow: 0.25
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.3499999940395355
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.35
     hislots: 6
     hp: 45000.0
     id: 28606
@@ -45,14 +44,15 @@ types:
     industrialcommandbonusgeneralminingholdcapacity: 5
     industrialcommandbonusminingforemanburstrange: 5
     industrialcommandbonusshipcargocapacity: 5
+    integratedminingscanner: 1
     iscarrierjumpconduitpassenger: 1
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     lowslots: 2
     maincolor: 16777215
     marketGroup: 2336
-    mass: 1.5E8
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 150000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 2
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -63,11 +63,10 @@ types:
     maxvelocity: 60.0
     medslots: 5
     name: Orca
-    packagedVolume: 500000.0
     portionSize: 1
-    poweroutput: 1200
+    poweroutput: 1200.0
     powertospeed: 1
-    price: 9.57100032E8
+    price: 957100000.0
     propulsiongraphicid: 397
     published: true
     radius: 550.0
@@ -77,18 +76,18 @@ types:
     rigsize: 3
     rigslots: 3
     rolebonuscommandburstaoerange: 50
-    rolebonussurveyscannerrange: 500
     rolebonustractorbeamrange: 250
     rolebonustractorbeamvelocity: 100
     scanmagnetometricstrength: 30.0
     scanresolution: 75.0
     scanspeed: 6750
+    sensordampenerresistance: 1.0
     shieldcapacity: 30000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 6000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusics2: 3
     shipbonusics3: 1
@@ -98,13 +97,13 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11346
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.025E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 10250000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 2.5
     weapondisruptionresistance: 1.0
   42244:
@@ -112,33 +111,32 @@ types:
     agility: 1.5
     allowedincapindustrialmaintenancebay: 1
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 3500.0
-    capacity: 500.0
     cpuoutput: 350
     dronebandwidth: 50
     dronecapacity: 125
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fleethangarcapacity: 5000
     generalminingholdcapacity: 50000
     gfxboosterid: 394
     hasfleethangars: 1
-    heatattenuationhi: 0.6299999952316284
+    heatattenuationhi: 0.63
     heatattenuationlow: 0.25
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 8000.0
@@ -150,16 +148,17 @@ types:
     industrialcommandbonusgeneralminingholdcapacity: 5
     industrialcommandbonusminingforemanburstrange: 5
     industrialcommandbonusshipcargocapacity: 5
+    integratedminingscanner: 1
     iscarrierjumpconduitpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     lowslots: 2
     maincolor: 16777215
     marketGroup: 2336
     mass: 4500000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 5
     maxoperationaldistance: 5000
@@ -170,11 +169,10 @@ types:
     maxvelocity: 100.0
     medslots: 4
     name: Porpoise
-    packagedVolume: 50000.0
     portionSize: 1
-    poweroutput: 420
+    poweroutput: 420.0
     powertospeed: 1
-    price: 6.47E7
+    price: 64700000.0
     propulsiongraphicid: 394
     published: true
     radius: 450.0
@@ -184,18 +182,18 @@ types:
     rigsize: 2
     rigslots: 3
     rolebonuscd: -90
-    rolebonussurveyscannerrange: 300
     rolebonustractorbeamrange: 100
     rolebonustractorbeamvelocity: 50
     scanmagnetometricstrength: 20.0
     scanresolution: 90.0
     scanspeed: 2500
+    sensordampenerresistance: 1.0
     shieldcapacity: 6000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1800000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusics1: 5
     shipbonusics2: 2
@@ -205,12 +203,12 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11347
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 400000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

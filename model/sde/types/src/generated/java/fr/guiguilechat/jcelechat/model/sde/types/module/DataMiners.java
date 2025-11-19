@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
@@ -28,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -194,7 +192,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill3Level.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, AccessDifficultyBonus.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, VirusStrength.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override

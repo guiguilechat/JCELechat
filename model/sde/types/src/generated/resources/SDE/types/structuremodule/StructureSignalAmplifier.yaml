@@ -11,11 +11,9 @@ types:
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 12.0
     name: Standup Signal Amplifier I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     scanresolutionbonus: 20.0
     structureitemvisualflag: 1
     techlevel: 1
@@ -33,11 +31,9 @@ types:
     maxtargetrangebonus: 15.0
     metalevelold: 5
     name: Standup Signal Amplifier II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     scanresolutionbonus: 25.0
     structureitemvisualflag: 1
     techlevel: 2

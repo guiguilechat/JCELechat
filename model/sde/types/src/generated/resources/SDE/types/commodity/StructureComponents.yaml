@@ -5,11 +5,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Construction Parts
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21949:
     id: 21949
@@ -17,11 +15,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Hangar Array
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 3.9375E7
+    price: 39375000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21951:
     id: 21951
@@ -29,11 +25,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Storage Bay
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21953:
     id: 21953
@@ -41,11 +35,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Laboratory
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21955:
     id: 21955
@@ -53,11 +45,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Factory
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 8.4375E7
+    price: 84375000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21957:
     id: 21957
@@ -65,11 +55,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Repair Facility
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 9.5625E7
+    price: 95625000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21959:
     id: 21959
@@ -77,11 +65,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Reprocessing Plant
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 9.5625E7
+    price: 95625000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21961:
     id: 21961
@@ -89,11 +75,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Docking Bay
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 8.4375E7
+    price: 84375000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21963:
     id: 21963
@@ -101,11 +85,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Market Network
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 1.425E8
+    price: 142500000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21965:
     id: 21965
@@ -113,11 +95,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Medical Center
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 5.625E7
+    price: 56250000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21967:
     id: 21967
@@ -125,11 +105,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Office Center
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 8.875E7
+    price: 88750000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   21969:
     id: 21969
@@ -137,11 +115,9 @@ types:
     mass: 10000.0
     moonminingamount: 100
     name: Structure Mission Network
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 7.25E7
+    price: 72500000.0
     published: true
-    radius: 1.0
     volume: 3000.0
   36956:
     id: 36956
@@ -149,9 +125,8 @@ types:
     mass: 10000.0
     moonminingamount: 1
     name: Structure Electromagnetic Sensor
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
     volume: 3000.0
   36957:
@@ -160,9 +135,8 @@ types:
     mass: 10000.0
     moonminingamount: 1
     name: Structure Acceleration Coils
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
     volume: 3000.0
   36958:
@@ -171,9 +145,8 @@ types:
     mass: 10000.0
     moonminingamount: 1
     name: Structure Advertisement Nexus
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
     volume: 3000.0
   49720:
@@ -182,8 +155,7 @@ types:
     mass: 10000.0
     moonminingamount: 1
     name: Structure EXERT Conduit Coupler
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
+    price: 22500000.0
     published: true
     volume: 3000.0

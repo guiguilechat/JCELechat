@@ -8,9 +8,9 @@ types:
     duration: 30000.0
     energyneutralizeramount: 10000.0
     energyneutralizersignatureresolution: 15000
-    entitycapacitorlevelmodifierlarge: 0.8999999761581421
-    entitycapacitorlevelmodifiermedium: 0.5799999833106995
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    entitycapacitorlevelmodifierlarge: 0.9
+    entitycapacitorlevelmodifiermedium: 0.58
+    entitycapacitorlevelmodifiersmall: 0.35
     falloffeffectiveness: 100000
     hp: 40.0
     id: 35924
@@ -18,11 +18,9 @@ types:
     mass: 1000.0
     maxrange: 150000.0
     name: Standup XL Energy Neutralizer I
-    packagedVolume: 8000.0
     portionSize: 1
     power: 200000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
@@ -34,9 +32,9 @@ types:
     cpu: 1000.0
     duration: 15000.0
     energyneutralizeramount: 1500.0
-    entitycapacitorlevelmodifierlarge: 0.8999999761581421
-    entitycapacitorlevelmodifiermedium: 0.5799999833106995
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    entitycapacitorlevelmodifierlarge: 0.9
+    entitycapacitorlevelmodifiermedium: 0.58
+    entitycapacitorlevelmodifiersmall: 0.35
     falloffeffectiveness: 100000
     hp: 40.0
     id: 35925
@@ -44,11 +42,9 @@ types:
     mass: 1000.0
     maxrange: 100000.0
     name: Standup Heavy Energy Neutralizer I
-    packagedVolume: 8000.0
     portionSize: 1
     power: 150000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
@@ -60,9 +56,9 @@ types:
     cpu: 1000.0
     duration: 15000.0
     energyneutralizeramount: 1900.0
-    entitycapacitorlevelmodifierlarge: 0.8999999761581421
-    entitycapacitorlevelmodifiermedium: 0.5799999833106995
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    entitycapacitorlevelmodifierlarge: 0.9
+    entitycapacitorlevelmodifiermedium: 0.58
+    entitycapacitorlevelmodifiersmall: 0.35
     falloffeffectiveness: 150000
     hp: 40.0
     id: 46575
@@ -72,11 +68,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Standup Heavy Energy Neutralizer
-    packagedVolume: 8000.0
     portionSize: 1
     power: 150000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 8000.0
@@ -89,9 +83,9 @@ types:
     duration: 30000.0
     energyneutralizeramount: 12000.0
     energyneutralizersignatureresolution: 15000
-    entitycapacitorlevelmodifierlarge: 0.8999999761581421
-    entitycapacitorlevelmodifiermedium: 0.5799999833106995
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    entitycapacitorlevelmodifierlarge: 0.9
+    entitycapacitorlevelmodifiermedium: 0.58
+    entitycapacitorlevelmodifiersmall: 0.35
     falloffeffectiveness: 120000
     hp: 40.0
     id: 47330
@@ -100,11 +94,9 @@ types:
     maxrange: 180000.0
     metalevelold: 2
     name: Standup XL Energy Neutralizer II
-    packagedVolume: 8000.0
     portionSize: 1
     power: 240000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 2
     volume: 8000.0
@@ -116,9 +108,9 @@ types:
     cpu: 1200.0
     duration: 15000.0
     energyneutralizeramount: 1800.0
-    entitycapacitorlevelmodifierlarge: 0.8999999761581421
-    entitycapacitorlevelmodifiermedium: 0.5799999833106995
-    entitycapacitorlevelmodifiersmall: 0.3499999940395355
+    entitycapacitorlevelmodifierlarge: 0.9
+    entitycapacitorlevelmodifiermedium: 0.58
+    entitycapacitorlevelmodifiersmall: 0.35
     falloffeffectiveness: 120000
     hp: 40.0
     id: 47332
@@ -127,11 +119,9 @@ types:
     maxrange: 120000.0
     metalevelold: 5
     name: Standup Heavy Energy Neutralizer II
-    packagedVolume: 8000.0
     portionSize: 1
     power: 180000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 2
     volume: 8000.0

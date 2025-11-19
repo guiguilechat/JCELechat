@@ -14,10 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryJobCostMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -25,13 +23,6 @@ import org.yaml.snakeyaml.Yaml;
 public class DreadnoughtBlueprint
     extends Blueprint
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
@@ -46,23 +37,12 @@ public class DreadnoughtBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int industryjobcostmultiplier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IndustryJobCostMultiplier.INSTANCE, Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IndustryJobCostMultiplier.INSTANCE, IndustryBlueprintRank.INSTANCE })));
     public static final DreadnoughtBlueprint.MetaGroup METAGROUP = new DreadnoughtBlueprint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1955 :
             {
                 return industryblueprintrank;
@@ -70,10 +50,6 @@ public class DreadnoughtBlueprint
             case  1954 :
             {
                 return industryjobcostmultiplier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

@@ -9,12 +9,10 @@ types:
     mjdshipjumpcap: 1
     mjfgradius: 6000
     name: Glorification-1 'Devana' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56066:
     filamentdescriptionmessageid: 569130
     filamentspooluptimeseconds: 90
@@ -25,11 +23,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Glorification-5 'Devana' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56067:
     filamentdescriptionmessageid: 569130
     filamentspooluptimeseconds: 150
@@ -40,11 +36,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Glorification-15 'Devana' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56068:
     filamentdescriptionmessageid: 569131
     filamentspooluptimeseconds: 120
@@ -55,11 +49,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Proximity-5 'Extraction' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56069:
     filamentdescriptionmessageid: 569131
     filamentspooluptimeseconds: 180
@@ -70,11 +62,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Proximity-15 'Extraction' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56070:
     filamentdescriptionmessageid: 569132
     filamentspooluptimeseconds: 30
@@ -85,11 +75,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Cladistic-5 'Krai Perun' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56071:
     filamentdescriptionmessageid: 569132
     filamentspooluptimeseconds: 60
@@ -100,11 +88,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Cladistic-15 'Krai Perun' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56072:
     filamentdescriptionmessageid: 569134
     filamentspooluptimeseconds: 30
@@ -115,11 +101,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Cladistic-5 'Krai Veles' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56073:
     filamentdescriptionmessageid: 569134
     filamentspooluptimeseconds: 60
@@ -130,11 +114,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Cladistic-15 'Krai Veles' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56074:
     filamentdescriptionmessageid: 569133
     filamentspooluptimeseconds: 30
@@ -145,11 +127,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Cladistic-5 'Krai Svarog' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56075:
     filamentdescriptionmessageid: 569133
     filamentspooluptimeseconds: 60
@@ -160,11 +140,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Cladistic-15 'Krai Svarog' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56076:
     filamentdescriptionmessageid: 569135
     filamentspooluptimeseconds: 30
@@ -175,11 +153,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Border-5 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56077:
     filamentdescriptionmessageid: 569135
     filamentspooluptimeseconds: 60
@@ -190,11 +166,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Border-15 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56078:
     filamentdescriptionmessageid: 569136
     filamentspooluptimeseconds: 30
@@ -205,11 +179,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Internal-5 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56079:
     filamentdescriptionmessageid: 569136
     filamentspooluptimeseconds: 60
@@ -220,11 +192,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Internal-15 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56080:
     filamentdescriptionmessageid: 569137
     filamentspooluptimeseconds: 30
@@ -235,11 +205,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Home-5 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   56081:
     filamentdescriptionmessageid: 569137
     filamentspooluptimeseconds: 60
@@ -250,8 +218,6 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Home-15 'Pochven' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

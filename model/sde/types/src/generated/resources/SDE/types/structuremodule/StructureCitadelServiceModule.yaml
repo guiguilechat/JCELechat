@@ -17,11 +17,9 @@ types:
     mass: 4000.0
     maxtypefitted: 1
     name: Standup Market Hub I
-    packagedVolume: 32000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 40
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 2880
@@ -39,11 +37,9 @@ types:
     mass: 500.0
     maxtypefitted: 1
     name: Standup Cloning Center I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 70000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 10
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 720

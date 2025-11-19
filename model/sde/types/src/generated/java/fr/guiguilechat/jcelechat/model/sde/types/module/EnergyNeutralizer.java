@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
@@ -32,7 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
@@ -178,7 +176,7 @@ public class EnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final EnergyNeutralizer.MetaGroup METAGROUP = new EnergyNeutralizer.MetaGroup();
 
     @Override

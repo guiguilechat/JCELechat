@@ -4,20 +4,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 145.0
-    capacity: 145.0
     damagemultiplier: 3.125
     disallowassistance: 1
     entityattackrange: 2000
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -41,11 +40,10 @@ types:
     missilelaunchduration: 20000.0
     name: Thukker Follower
     optimalsigradius: 1
-    packagedVolume: 15800.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 38.400001525878906
+    radius: 38.4
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -58,10 +56,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -73,14 +71,13 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 270.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 315.0
-    capacity: 130.0
     damagemultiplier: 1.0
     disallowassistance: 1
     entityattackdelaymax: 12500
@@ -89,7 +86,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -100,7 +97,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
+    entitysecuritystatuskillbonus: 0.01
     falloff: 1.0
     gfxboosterid: 394
     hp: 250.0
@@ -114,19 +111,18 @@ types:
     missilelaunchduration: 10000.0
     name: Thukker Mercenary Fighter
     optimalsigradius: 1000
-    packagedVolume: 27289.0
     portionSize: 1
     published: false
-    radius: 37.06999969482422
+    radius: 37.07
     rechargerate: 500000.0
     scangravimetricstrength: 10.0
     scanspeed: 3000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
@@ -136,14 +132,13 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 220.0
-    capacity: 120.0
     damagemultiplier: 2.96875
     disallowassistance: 1
     entityattackdelaymax: 17000
@@ -152,7 +147,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -160,9 +155,9 @@ types:
     entitykillbounty: 2000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entitysecuritymaxgain: 2.0
-    entitysecuritystatuskillbonus: 0.001500000013038516
+    entitysecuritystatuskillbonus: 0.0015
     entitystrength: 4
     explosivedamage: 2.0
     falloff: 1500.0
@@ -181,10 +176,9 @@ types:
     missilelaunchduration: 20000.0
     name: Thukker Mercenary Rookie
     optimalsigradius: 45
-    packagedVolume: 17400.0
     portionSize: 1
     published: false
-    radius: 32.88999938964844
+    radius: 32.89
     rechargerate: 500000.0
     scangravimetricstrength: 6.0
     scanladarstrength: 6.0
@@ -193,30 +187,29 @@ types:
     scanspeed: 3500
     shieldcapacity: 120.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.029999999329447746
+    trackingspeed: 0.03
     volume: 17400.0
   23959:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 315.0
-    capacity: 200.0
     damagemultiplier: 1.0
     disallowassistance: 1
     entityattackdelaymax: 12500
@@ -225,7 +218,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -236,7 +229,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.03999999910593033
+    entitysecuritystatuskillbonus: 0.04
     falloff: 1.0
     gfxboosterid: 394
     hp: 480.0
@@ -250,7 +243,6 @@ types:
     missilelaunchduration: 10000.0
     name: Thukker Mercenary Elite Fighter
     optimalsigradius: 1000
-    packagedVolume: 22500.0
     portionSize: 1
     published: false
     radius: 64.0
@@ -259,10 +251,10 @@ types:
     scanspeed: 3000
     shieldcapacity: 550.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0

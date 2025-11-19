@@ -4,205 +4,169 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Shield Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23524:
     id: 23524
     industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Armor Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23710:
     id: 23710
     industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Armor Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23712:
     id: 23712
     industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Armor Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23718:
     id: 23718
     industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Shield Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23720:
     id: 23720
     industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Shield Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28198:
     id: 28198
     industryblueprintrank: 15.0
     name: Heavy Armor Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28200:
     id: 28200
     industryblueprintrank: 15.0
     name: Heavy Shield Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28202:
     id: 28202
     industryblueprintrank: 5.0
     name: Light Armor Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28204:
     id: 28204
     industryblueprintrank: 5.0
     name: Light Shield Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28206:
     id: 28206
     industryblueprintrank: 10.0
     name: Medium Armor Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28208:
     id: 28208
     industryblueprintrank: 10.0
     name: Medium Shield Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33672:
     id: 33672
     industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Hull Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33705:
     id: 33705
     industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Hull Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33707:
     id: 33707
     industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Hull Maintenance Bot I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33709:
     id: 33709
     industryblueprintrank: 15.0
     name: Heavy Hull Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33711:
     id: 33711
     industryblueprintrank: 10.0
     name: Medium Hull Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33713:
     id: 33713
     industryblueprintrank: 5.0
     name: Light Hull Maintenance Bot II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

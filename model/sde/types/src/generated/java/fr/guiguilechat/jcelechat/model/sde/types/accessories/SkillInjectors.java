@@ -11,13 +11,10 @@ import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ContainedSkillPoints;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxCharacterSkillPointLimit;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Accessories;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -25,13 +22,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SkillInjectors
     extends Accessories
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * The amount of skill points contained in this item
      */
@@ -46,23 +36,12 @@ public class SkillInjectors
     @Stackable(true)
     @DefaultIntValue(0)
     public int maxcharacterskillpointlimit;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, MaxCharacterSkillPointLimit.INSTANCE, ContainedSkillPoints.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxCharacterSkillPointLimit.INSTANCE, ContainedSkillPoints.INSTANCE })));
     public static final SkillInjectors.MetaGroup METAGROUP = new SkillInjectors.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  2461 :
             {
                 return containedskillpoints;
@@ -70,10 +49,6 @@ public class SkillInjectors
             case  2459 :
             {
                 return maxcharacterskillpointlimit;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

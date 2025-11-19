@@ -1,55 +1,49 @@
 types:
   54973:
     cpu: 27.0
-    damagemultiplier: 1.0700000524520874
+    damagemultiplier: 1.07
     hp: 40.0
     id: 54973
     marketGroup: 2740
     name: Vorton Tuning System I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9200000166893005
+    speedmultiplier: 0.92
     techlevel: 1
     volume: 5.0
   54974:
     cpu: 25.0
-    damagemultiplier: 1.0800000429153442
+    damagemultiplier: 1.08
     hp: 40.0
     id: 54974
     marketGroup: 2740
     metalevelold: 1
     name: Compact Vorton Tuning System I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9049999713897705
+    speedmultiplier: 0.905
     techlevel: 1
     volume: 5.0
   54975:
     cpu: 30.0
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     hp: 40.0
     id: 54975
     marketGroup: 2740
     metalevelold: 5
     name: Vorton Tuning System II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.895
     techlevel: 2
     volume: 5.0
   78621:
@@ -57,11 +51,9 @@ types:
     id: 78621
     mass: 1.0
     name: Abyssal Vorton Tuning System
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
     speedmultiplier: 1.0
@@ -69,37 +61,33 @@ types:
     volume: 1.0
   78740:
     cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+    damagemultiplier: 1.12
     hp: 40.0
     id: 78740
     marketGroup: 2740
     metalevelold: 8
     name: Consortium Vorton Tuning System
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   78741:
     cpu: 24.0
-    damagemultiplier: 1.1349999904632568
+    damagemultiplier: 1.135
     hp: 40.0
     id: 78741
     marketGroup: 2740
     metalevelold: 13
     name: Kasiha's Modified Vorton Tuning System
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0

@@ -4,663 +4,545 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 359
     name: Wasp I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2174:
     id: 2174
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: Infiltrator I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2176:
     id: 2176
     industryblueprintrank: 10.0
     name: Infiltrator II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2184:
     id: 2184
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: Hammerhead I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1800000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2186:
     id: 2186
     industryblueprintrank: 10.0
     name: Hammerhead II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2194:
     id: 2194
     industryblueprintrank: 3.0
     marketGroup: 359
     name: Praetor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2196:
     id: 2196
     industryblueprintrank: 15.0
     name: Praetor II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2204:
     id: 2204
     industryblueprintrank: 1.0
     marketGroup: 1531
     name: Acolyte I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2206:
     id: 2206
     industryblueprintrank: 5.0
     name: Acolyte II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2437:
     id: 2437
     industryblueprintrank: 15.0
     name: Wasp II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2445:
     id: 2445
     industryblueprintrank: 3.0
     marketGroup: 359
     name: Ogre I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2447:
     id: 2447
     industryblueprintrank: 15.0
     name: Ogre II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2455:
     id: 2455
     industryblueprintrank: 1.0
     marketGroup: 1531
     name: Hobgoblin I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2457:
     id: 2457
     industryblueprintrank: 5.0
     name: Hobgoblin II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2465:
     id: 2465
     industryblueprintrank: 1.0
     marketGroup: 1531
     name: Hornet I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2467:
     id: 2467
     industryblueprintrank: 5.0
     name: Hornet II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2477:
     id: 2477
     industryblueprintrank: 3.0
     marketGroup: 359
     name: Berserker I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2479:
     id: 2479
     industryblueprintrank: 15.0
     name: Berserker II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2487:
     id: 2487
     industryblueprintrank: 1.0
     marketGroup: 1531
     name: Warrior I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2489:
     id: 2489
     industryblueprintrank: 5.0
     name: Warrior II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15509:
     id: 15509
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: Vespa I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15511:
     id: 15511
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: Valkyrie I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21639:
     id: 21639
     industryblueprintrank: 10.0
     name: Vespa II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   21641:
     id: 21641
     industryblueprintrank: 10.0
     name: Valkyrie II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   23526:
     id: 23526
     industryblueprintrank: 3.0
     marketGroup: 1533
     name: Curator I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23560:
     id: 23560
     industryblueprintrank: 3.0
     marketGroup: 1533
     name: Warden I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23562:
     id: 23562
     industryblueprintrank: 3.0
     marketGroup: 1533
     name: Garde I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23564:
     id: 23564
     industryblueprintrank: 3.0
     marketGroup: 1533
     name: Bouncer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28210:
     id: 28210
     industryblueprintrank: 15.0
     name: Warden II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28212:
     id: 28212
     industryblueprintrank: 15.0
     name: Garde II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28214:
     id: 28214
     industryblueprintrank: 15.0
     name: Curator II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28216:
     id: 28216
     industryblueprintrank: 15.0
     name: Bouncer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E7
+    price: 14000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28263:
     id: 28263
     industryblueprintrank: 1.0
     name: '''Integrated'' Acolyte Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28265:
     id: 28265
     industryblueprintrank: 1.0
     name: '''Augmented'' Acolyte Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28267:
     id: 28267
     industryblueprintrank: 3.0
     name: '''Integrated'' Berserker Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28269:
     id: 28269
     industryblueprintrank: 3.0
     name: '''Augmented'' Berserker Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28271:
     id: 28271
     industryblueprintrank: 2.0
     name: '''Integrated'' Hammerhead Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1800000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28273:
     id: 28273
     industryblueprintrank: 2.0
     name: '''Augmented'' Hammerhead Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28275:
     id: 28275
     industryblueprintrank: 1.0
     name: '''Integrated'' Hobgoblin Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28277:
     id: 28277
     industryblueprintrank: 1.0
     name: '''Augmented'' Hobgoblin Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28279:
     id: 28279
     industryblueprintrank: 1.0
     name: '''Integrated'' Hornet Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28281:
     id: 28281
     industryblueprintrank: 1.0
     name: '''Augmented'' Hornet Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28283:
     id: 28283
     industryblueprintrank: 2.0
     name: '''Integrated'' Infiltrator Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28285:
     id: 28285
     industryblueprintrank: 2.0
     name: '''Augmented'' Infiltrator Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28287:
     id: 28287
     industryblueprintrank: 3.0
     name: '''Integrated'' Ogre Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28289:
     id: 28289
     industryblueprintrank: 3.0
     name: '''Augmented'' Ogre Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28291:
     id: 28291
     industryblueprintrank: 3.0
     name: '''Integrated'' Praetor Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28293:
     id: 28293
     industryblueprintrank: 3.0
     name: '''Augmented'' Praetor Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28295:
     id: 28295
     industryblueprintrank: 2.0
     name: '''Integrated'' Valkyrie Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28297:
     id: 28297
     industryblueprintrank: 2.0
     name: '''Augmented'' Valkyrie Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28299:
     id: 28299
     industryblueprintrank: 2.0
     name: '''Integrated'' Vespa Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28301:
     id: 28301
     industryblueprintrank: 2.0
     name: '''Augmented'' Vespa Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28303:
     id: 28303
     industryblueprintrank: 1.0
     name: '''Integrated'' Warrior Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28305:
     id: 28305
     industryblueprintrank: 1.0
     name: '''Augmented'' Warrior Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28307:
     id: 28307
     industryblueprintrank: 3.0
     name: '''Integrated'' Wasp Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28309:
     id: 28309
     industryblueprintrank: 3.0
     name: '''Augmented'' Wasp Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33682:
     id: 33682
     industryblueprintrank: 40.0
     name: Gecko Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   48745:
     id: 48745
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: '''Subverted'' JVN-UC49 Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   60769:
     id: 60769
     industryblueprintrank: 2.0
     marketGroup: 1532
     name: Aralez Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

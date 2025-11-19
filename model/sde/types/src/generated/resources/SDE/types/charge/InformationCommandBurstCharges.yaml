@@ -3,18 +3,16 @@ types:
     id: 42835
     launchergroup: 1770
     marketGroup: 2299
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Sensor Optimization Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 20495
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 16
     warfarebuff1multiplier: 9
     warfarebuff2id: 26
@@ -23,36 +21,32 @@ types:
     id: 42836
     launchergroup: 1770
     marketGroup: 2299
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Electronic Superiority Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 20495
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 17
     warfarebuff1multiplier: 9
   42837:
     id: 42837
     launchergroup: 1770
     marketGroup: 2299
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Electronic Hardening Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 20495
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 18
     warfarebuff1multiplier: 18
     warfarebuff2id: 19

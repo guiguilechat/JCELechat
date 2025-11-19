@@ -8,13 +8,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 43704
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2349
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 40.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -28,20 +27,19 @@ types:
     volume: 40.0
   43705:
     attributeengrigcostbonus: 1
-    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigmatbonus: -2.4
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     hisecmodifier: 1.0
     hp: 40.0
     id: 43705
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2349
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 40.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -57,20 +55,19 @@ types:
     attributeengrigcostbonus: 1
     attributeengrigmatbonus: -2.0
     attributeengrigtimebonus: -20
-    attributethukkerengrigmatbonus: -3.700000047683716
+    attributethukkerengrigmatbonus: -3.7
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
-    hisecmodifier: 0.10000000149011612
+    hisecmodifier: 0.1
     hp: 40.0
     id: 45548
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2349
     mass: 200.0
     maxgroupfitted: 1
     metagroupid: 4
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
-    nullsecmodifier: 0.10000000149011612
-    packagedVolume: 40.0
+    nullsecmodifier: 0.1
     portionSize: 1
     published: true
     radius: 100.0

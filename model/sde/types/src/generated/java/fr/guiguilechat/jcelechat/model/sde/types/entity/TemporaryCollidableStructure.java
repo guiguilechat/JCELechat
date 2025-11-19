@@ -44,8 +44,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ECMDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ECMEntityChance;
@@ -74,7 +72,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
@@ -87,7 +84,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -342,20 +338,6 @@ public class TemporaryCollidableStructure
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
-    /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
@@ -527,13 +509,6 @@ public class TemporaryCollidableStructure
     @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -618,14 +593,6 @@ public class TemporaryCollidableStructure
     @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
-    /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
@@ -681,7 +648,7 @@ public class TemporaryCollidableStructure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BehaviorMicroJumpAttackRange.INSTANCE, BehaviorMicroJumpAttackJumpDistance.INSTANCE, BehaviorMicroJumpAttackDuration.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ECMRangeOptimal.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, ECMRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, EntityChaseMaxDelay.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, BehaviorWebifierDischarge.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSmartBombEntityDamageMultiplier.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, EnergyNeutralizerAmount.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, EmpFieldRange.INSTANCE, BehaviorECMRange.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, EntityLootCountMin.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, BehaviorSmartBombDuration.INSTANCE, BehaviorSmartBombDischarge.INSTANCE, BehaviorMicroJumpAttackDischarge.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BehaviorMicroJumpAttackRange.INSTANCE, BehaviorMicroJumpAttackJumpDistance.INSTANCE, BehaviorMicroJumpAttackDuration.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, ECMEntityChance.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, ECMRangeOptimal.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, ECMRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, EntityChaseMaxDelay.INSTANCE, BehaviorWebifierRange.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, BehaviorWebifierFalloff.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSmartBombEntityDamageMultiplier.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, EnergyNeutralizerAmount.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, EmpFieldRange.INSTANCE, BehaviorECMRange.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, EntityLootCountMin.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE, BehaviorSmartBombDuration.INSTANCE, BehaviorSmartBombDischarge.INSTANCE, BehaviorMicroJumpAttackDischarge.INSTANCE })));
     public static final TemporaryCollidableStructure.MetaGroup METAGROUP = new TemporaryCollidableStructure.MetaGroup();
 
     @Override
@@ -823,14 +790,6 @@ public class TemporaryCollidableStructure
             {
                 return capacitorcapacity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
-            }
             case  854 :
             {
                 return disallowassistance;
@@ -927,10 +886,6 @@ public class TemporaryCollidableStructure
             {
                 return maxvelocity;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -978,10 +933,6 @@ public class TemporaryCollidableStructure
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  271 :
             {

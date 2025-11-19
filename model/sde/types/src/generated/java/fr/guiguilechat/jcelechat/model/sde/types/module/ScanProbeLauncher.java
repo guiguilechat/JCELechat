@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -27,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -178,7 +176,7 @@ public class ScanProbeLauncher
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double speed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ScanStrengthBonus.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ScanStrengthBonus.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
     public static final ScanProbeLauncher.MetaGroup METAGROUP = new ScanProbeLauncher.MetaGroup();
 
     @Override

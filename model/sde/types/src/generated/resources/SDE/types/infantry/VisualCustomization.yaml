@@ -2,344 +2,301 @@ types:
   367600:
     id: 367600
     name: APEX 'Dominus' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367677:
     id: 367677
     name: APEX 'Shogun' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367679:
     id: 367679
     name: APEX 'Atlas' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367681:
     id: 367681
     name: APEX 'Warlord' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367685:
     id: 367685
     name: APEX 'Rasetsu' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367687:
     id: 367687
     name: APEX 'Spartan' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367689:
     id: 367689
     name: APEX 'Nomad' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367691:
     id: 367691
     name: APEX 'Opus' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367693:
     id: 367693
     name: APEX 'Kampo' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367695:
     id: 367695
     name: APEX 'Chiron' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367697:
     id: 367697
     name: APEX 'Shaman' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367699:
     id: 367699
     name: APEX 'Seraph' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367701:
     id: 367701
     name: APEX 'Hawk' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367703:
     id: 367703
     name: APEX 'Serpent' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367705:
     id: 367705
     name: APEX 'Tiger' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367707:
     id: 367707
     name: APEX 'Dragon' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367709:
     id: 367709
     name: APEX 'Samurai' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367711:
     id: 367711
     name: APEX 'Centurion' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367713:
     id: 367713
     name: APEX 'Renegade' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367715:
     id: 367715
     name: APEX 'Paladin' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367811:
     id: 367811
     name: State 'Shogun' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367854:
     id: 367854
     name: Imperial 'Opus' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367856:
     id: 367856
     name: Republic 'Shaman' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367863:
     id: 367863
     name: Federation 'Serpent' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367864:
     id: 367864
     name: Federation 'Centurion' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367948:
     id: 367948
     name: Federation 'Atlas' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367955:
     id: 367955
     name: State 'Rasetsu' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367959:
     id: 367959
     name: Imperial 'Seraph' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367960:
     id: 367960
     name: Republic 'Tiger' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367963:
     id: 367963
     name: Republic 'Renegade' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367987:
     id: 367987
     name: APEX 'Atlas' Sentinel vX.1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367988:
     id: 367988
     name: APEX 'Nomad' Assault vX.1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367989:
     id: 367989
     name: APEX 'Dragon' Scout vX.1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367998:
     id: 367998
     name: Republic 'Warlord' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367999:
     id: 367999
     name: Federation 'Spartan' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368000:
     id: 368000
     name: State 'Kampo' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368001:
     id: 368001
     name: Imperial 'Dragon' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368003:
     id: 368003
     name: Imperial 'Paladin' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368022:
     id: 368022
     name: Imperial 'Dominus' Sentinel
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368023:
     id: 368023
     name: Republic 'Nomad' Assault
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368024:
     id: 368024
     name: Federation 'Chiron' Logistics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368025:
     id: 368025
     name: State 'Hawk' Scout
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368026:
     id: 368026
     name: State 'Samurai' Commando
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -4,7 +4,7 @@ types:
     cpu: 16.0
     duration: 3600.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.25
     hp: 40.0
     id: 405
@@ -16,12 +16,10 @@ types:
     name: '''Micro'' Remote Shield Booster'
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 2.5
     portionSize: 1
     power: 2
     price: 1998.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -34,8 +32,8 @@ types:
     cpu: 95.0
     duration: 20000.0
     falloffeffectiveness: 15100
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 3544
     marketGroup: 600
@@ -46,12 +44,10 @@ types:
     name: CONCORD Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 92500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -64,8 +60,8 @@ types:
     cpu: 28.0
     duration: 4000.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 3586
     marketGroup: 603
@@ -74,12 +70,10 @@ types:
     name: Small Remote Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -92,8 +86,8 @@ types:
     cpu: 34.0
     duration: 4000.0
     falloffeffectiveness: 7800
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.4
     hp: 40.0
     id: 3588
     marketGroup: 603
@@ -103,12 +97,10 @@ types:
     name: Small Remote Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 38726.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 3
@@ -121,8 +113,8 @@ types:
     cpu: 50.0
     duration: 8000.0
     falloffeffectiveness: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 3596
     marketGroup: 602
@@ -131,12 +123,10 @@ types:
     name: Medium Remote Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 52
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -149,8 +139,8 @@ types:
     cpu: 61.0
     duration: 8000.0
     falloffeffectiveness: 9000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.8
     hp: 40.0
     id: 3598
     marketGroup: 602
@@ -160,12 +150,10 @@ types:
     name: Medium Remote Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 79936.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 4
@@ -178,8 +166,8 @@ types:
     cpu: 112.0
     duration: 8000.0
     falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 3606
     marketGroup: 601
@@ -188,12 +176,10 @@ types:
     name: Large Remote Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 208
     price: 31244.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -206,8 +192,8 @@ types:
     cpu: 123.0
     duration: 8000.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.8
     hp: 40.0
     id: 3608
     marketGroup: 601
@@ -217,12 +203,10 @@ types:
     name: Large Remote Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 250
     price: 139968.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 4
@@ -235,8 +219,8 @@ types:
     cpu: 112.0
     duration: 20000.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 3616
     marketGroup: 600
@@ -245,12 +229,10 @@ types:
     name: Capital Remote Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -263,8 +245,8 @@ types:
     cpu: 125.0
     duration: 20000.0
     falloffeffectiveness: 14400
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.8
     hp: 40.0
     id: 3618
     marketGroup: 600
@@ -274,12 +256,10 @@ types:
     name: Capital Remote Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 107500
     price: 155242.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 4
@@ -292,8 +272,8 @@ types:
     cpu: 22.0
     duration: 4000.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 8531
     marketGroup: 603
@@ -303,12 +283,10 @@ types:
     name: Small Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 56698.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -321,8 +299,8 @@ types:
     cpu: 28.0
     duration: 4000.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 8535
     marketGroup: 603
@@ -332,12 +310,10 @@ types:
     name: Small Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 56698.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -350,8 +326,8 @@ types:
     cpu: 28.0
     duration: 4000.0
     falloffeffectiveness: 7150
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 8537
     marketGroup: 603
@@ -361,12 +337,10 @@ types:
     name: Small S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 56698.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -379,8 +353,8 @@ types:
     cpu: 40.0
     duration: 8000.0
     falloffeffectiveness: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8579
     marketGroup: 602
@@ -390,12 +364,10 @@ types:
     name: Medium Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 45
     price: 12288.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -408,8 +380,8 @@ types:
     cpu: 50.0
     duration: 8000.0
     falloffeffectiveness: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8583
     marketGroup: 602
@@ -419,12 +391,10 @@ types:
     name: Medium Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 52
     price: 12288.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -437,8 +407,8 @@ types:
     cpu: 50.0
     duration: 8000.0
     falloffeffectiveness: 8250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8585
     marketGroup: 602
@@ -448,12 +418,10 @@ types:
     name: Medium S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 52
     price: 12288.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -466,8 +434,8 @@ types:
     cpu: 90.0
     duration: 8000.0
     falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8635
     marketGroup: 601
@@ -477,12 +445,10 @@ types:
     name: Large Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 185
     price: 575820.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -495,8 +461,8 @@ types:
     cpu: 112.0
     duration: 8000.0
     falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8639
     marketGroup: 601
@@ -506,12 +472,10 @@ types:
     name: Large Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 208
     price: 575820.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -524,8 +488,8 @@ types:
     cpu: 112.0
     duration: 8000.0
     falloffeffectiveness: 11000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 8641
     marketGroup: 601
@@ -535,12 +499,10 @@ types:
     name: Large S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 208
     price: 575820.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -553,7 +515,7 @@ types:
     cpu: 30.0
     duration: 3600.0
     falloffeffectiveness: 8775
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.25
     hp: 40.0
     id: 19129
@@ -565,12 +527,10 @@ types:
     name: Gistii C-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -583,7 +543,7 @@ types:
     cpu: 30.0
     duration: 3600.0
     falloffeffectiveness: 9100
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.25
     hp: 40.0
     id: 19131
@@ -595,12 +555,10 @@ types:
     name: Gistii B-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -613,7 +571,7 @@ types:
     cpu: 30.0
     duration: 3600.0
     falloffeffectiveness: 9425
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.25
     hp: 40.0
     id: 19133
@@ -625,12 +583,10 @@ types:
     name: Gistii A-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -643,8 +599,8 @@ types:
     cpu: 38.0
     duration: 4000.0
     falloffeffectiveness: 8775
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 19135
     marketGroup: 603
@@ -655,12 +611,10 @@ types:
     name: Pithi C-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -673,8 +627,8 @@ types:
     cpu: 40.0
     duration: 4000.0
     falloffeffectiveness: 9100
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 19137
     marketGroup: 603
@@ -685,12 +639,10 @@ types:
     name: Pithi B-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -703,8 +655,8 @@ types:
     cpu: 42.0
     duration: 4000.0
     falloffeffectiveness: 9425
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 19139
     marketGroup: 603
@@ -715,12 +667,10 @@ types:
     name: Pithi A-Type Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -733,7 +683,7 @@ types:
     cpu: 61.0
     duration: 7200.0
     falloffeffectiveness: 10125
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.5
     hp: 40.0
     id: 19141
@@ -745,12 +695,10 @@ types:
     name: Gistum C-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -763,7 +711,7 @@ types:
     cpu: 61.0
     duration: 7200.0
     falloffeffectiveness: 10500
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.5
     hp: 40.0
     id: 19143
@@ -775,12 +723,10 @@ types:
     name: Gistum B-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -793,7 +739,7 @@ types:
     cpu: 61.0
     duration: 7200.0
     falloffeffectiveness: 10875
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.5
     hp: 40.0
     id: 19145
@@ -805,12 +751,10 @@ types:
     name: Gistum A-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -823,8 +767,8 @@ types:
     cpu: 78.0
     duration: 8000.0
     falloffeffectiveness: 10125
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 19147
     marketGroup: 602
@@ -835,12 +779,10 @@ types:
     name: Pithum C-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -853,8 +795,8 @@ types:
     cpu: 80.0
     duration: 8000.0
     falloffeffectiveness: 10500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 19149
     marketGroup: 602
@@ -865,12 +807,10 @@ types:
     name: Pithum B-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -883,8 +823,8 @@ types:
     cpu: 83.0
     duration: 8000.0
     falloffeffectiveness: 10875
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 19151
     marketGroup: 602
@@ -895,12 +835,10 @@ types:
     name: Pithum A-Type Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -913,8 +851,8 @@ types:
     cpu: 56.0
     duration: 4000.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 32467
     maxrange: 4000.0
@@ -922,12 +860,10 @@ types:
     name: Civilian Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredthermodynamicsskill: 1
     shieldbonus: 32.0
@@ -938,8 +874,8 @@ types:
     cpu: 112.0
     duration: 20000.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41469
     marketGroup: 600
@@ -949,12 +885,10 @@ types:
     name: Capital Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -967,8 +901,8 @@ types:
     cpu: 90.0
     duration: 20000.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41470
     marketGroup: 600
@@ -978,12 +912,10 @@ types:
     name: Capital Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -996,8 +928,8 @@ types:
     cpu: 112.0
     duration: 20000.0
     falloffeffectiveness: 13200
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41471
     marketGroup: 600
@@ -1007,12 +939,10 @@ types:
     name: Capital S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -1025,7 +955,7 @@ types:
     cpu: 90.0
     duration: 17280.0
     falloffeffectiveness: 15100
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.5
     hp: 40.0
     id: 41472
@@ -1037,12 +967,10 @@ types:
     name: True Sansha Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -1055,8 +983,8 @@ types:
     cpu: 95.0
     duration: 20000.0
     falloffeffectiveness: 15100
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41473
     marketGroup: 600
@@ -1067,12 +995,10 @@ types:
     name: Dread Guristas Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 92500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -1085,7 +1011,7 @@ types:
     cpu: 90.0
     duration: 17280.0
     falloffeffectiveness: 15100
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.5
     hp: 40.0
     id: 41474
@@ -1097,12 +1023,10 @@ types:
     name: Domination Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 24571
     requiredskill1level: 1
@@ -1115,8 +1039,8 @@ types:
     cpu: 42.0
     duration: 4000.0
     falloffeffectiveness: 9750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 84994
     marketGroup: 603
@@ -1127,12 +1051,10 @@ types:
     name: Panola's Modified Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -1145,7 +1067,7 @@ types:
     cpu: 30.0
     duration: 3600.0
     falloffeffectiveness: 9750
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.25
     hp: 40.0
     id: 84995
@@ -1157,12 +1079,10 @@ types:
     name: Ramaku's Modified Small Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -1175,8 +1095,8 @@ types:
     cpu: 85.0
     duration: 8000.0
     falloffeffectiveness: 11250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 84996
     marketGroup: 602
@@ -1187,12 +1107,10 @@ types:
     name: Hanaruwa's Modified Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1
@@ -1205,8 +1123,8 @@ types:
     cpu: 61.0
     duration: 7200.0
     falloffeffectiveness: 11250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 84997
     marketGroup: 602
@@ -1217,12 +1135,10 @@ types:
     name: Sila's Modified Medium Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 65
     price: 12470.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2116
     requiredskill1: 3422
     requiredskill1level: 1

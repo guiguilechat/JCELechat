@@ -13,7 +13,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2412:
     cpuload: 200
     extractordepletionrange: 5
@@ -28,7 +27,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2413:
     cpuload: 200
     extractordepletionrange: 5
@@ -43,7 +41,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2414:
     cpuload: 200
     extractordepletionrange: 5
@@ -58,7 +55,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2415:
     cpuload: 200
     extractordepletionrange: 5
@@ -73,7 +69,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2416:
     cpuload: 200
     extractordepletionrange: 5
@@ -88,7 +83,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2417:
     cpuload: 200
     extractordepletionrange: 5
@@ -103,7 +97,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2418:
     cpuload: 200
     extractordepletionrange: 5
@@ -118,7 +111,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2419:
     cpuload: 200
     extractordepletionrange: 5
@@ -133,7 +125,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2422:
     cpuload: 200
     extractordepletionrange: 5
@@ -148,7 +139,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2423:
     cpuload: 200
     extractordepletionrange: 5
@@ -163,7 +153,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2424:
     cpuload: 200
     extractordepletionrange: 5
@@ -178,7 +167,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2425:
     cpuload: 200
     extractordepletionrange: 5
@@ -193,7 +181,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2426:
     cpuload: 200
     extractordepletionrange: 5
@@ -208,7 +195,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2427:
     cpuload: 200
     extractordepletionrange: 5
@@ -223,7 +209,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2428:
     cpuload: 200
     extractordepletionrange: 5
@@ -238,7 +223,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2429:
     cpuload: 200
     extractordepletionrange: 5
@@ -253,7 +237,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2430:
     cpuload: 200
     extractordepletionrange: 5
@@ -268,7 +251,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2431:
     cpuload: 200
     extractordepletionrange: 5
@@ -283,7 +265,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2432:
     cpuload: 200
     extractordepletionrange: 5
@@ -298,7 +279,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2433:
     cpuload: 200
     extractordepletionrange: 5
@@ -313,7 +293,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2434:
     cpuload: 200
     extractordepletionrange: 5
@@ -328,7 +307,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2435:
     cpuload: 200
     extractordepletionrange: 5
@@ -343,7 +321,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2438:
     cpuload: 200
     extractordepletionrange: 5
@@ -358,7 +335,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2439:
     cpuload: 200
     extractordepletionrange: 5
@@ -373,7 +349,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2440:
     cpuload: 200
     extractordepletionrange: 5
@@ -388,7 +363,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2441:
     cpuload: 200
     extractordepletionrange: 5
@@ -403,7 +377,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2442:
     cpuload: 200
     extractordepletionrange: 5
@@ -418,7 +391,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2443:
     cpuload: 200
     extractordepletionrange: 5
@@ -433,7 +405,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2448:
     cpuload: 200
     extractordepletionrange: 5
@@ -448,7 +419,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2449:
     cpuload: 200
     extractordepletionrange: 5
@@ -463,7 +433,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2450:
     cpuload: 200
     extractordepletionrange: 5
@@ -478,7 +447,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2451:
     cpuload: 200
     extractordepletionrange: 5
@@ -493,7 +461,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2452:
     cpuload: 200
     extractordepletionrange: 5
@@ -508,7 +475,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2453:
     cpuload: 200
     extractordepletionrange: 5
@@ -523,7 +489,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2458:
     cpuload: 200
     extractordepletionrange: 5
@@ -538,7 +503,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2459:
     cpuload: 200
     extractordepletionrange: 5
@@ -553,7 +517,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2460:
     cpuload: 200
     extractordepletionrange: 5
@@ -568,7 +531,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2461:
     cpuload: 200
     extractordepletionrange: 5
@@ -583,7 +545,6 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0
   2462:
     cpuload: 200
     extractordepletionrange: 5
@@ -598,4 +559,3 @@ types:
     powerload: 800
     price: 45000.0
     published: true
-    radius: 1.0

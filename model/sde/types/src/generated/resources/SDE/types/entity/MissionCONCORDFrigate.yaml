@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.45
     armorhp: 1200.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     capacitorcapacity: 350.0
-    capacity: 235.0
     damagemultiplier: 6.0
     disallowassistance: 1
     emdamage: 4.0
@@ -26,17 +25,17 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitylootcountmin: 2
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entityshieldboostamount: 40.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
     entitywarpscramblechance: 0.5
     explosivedamage: 4.0
@@ -60,7 +59,6 @@ types:
     modifytargetspeedrange: 10000
     name: SARO Frigate
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -70,18 +68,18 @@ types:
     scanresolution: 850.0
     scanspeed: 2000
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 27.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.08749999850988388
+    trackingspeed: 0.0875
     volume: 16500.0
     warpscramblerange: 20000
     warpscramblestrength: 1
@@ -90,15 +88,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 65.0
-    capacity: 65.0
     damagemultiplier: 1.75
     disallowassistance: 1
     emdamage: 2.0
@@ -114,12 +111,12 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0017500000540167093
+    entityfactionloss: 0.00175
     entityflyrange: 1000.0
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entityshieldboostamount: 24.0
-    entityshieldboostdelaychance: 0.17499999701976776
+    entityshieldboostdelaychance: 0.175
     entityshieldboostduration: 10000
     entitystrength: 4
     explosivedamage: 2.0
@@ -142,7 +139,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Soldier 3rd Class
     optimalsigradius: 40
-    packagedVolume: 20250.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -152,33 +148,32 @@ types:
     scanresolution: 850.0
     scanspeed: 3500
     shieldcapacity: 125.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 20250.0
   16106:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.9
     armorhp: 125.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 100.0
-    capacity: 235.0
     damagemultiplier: 2.5
     disallowassistance: 1
     emdamage: 3.0
@@ -194,13 +189,13 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 5000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entityshieldboostamount: 32.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     explosivedamage: 3.0
     falloff: 10000.0
@@ -222,7 +217,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Soldier 2nd Class
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -232,34 +226,33 @@ types:
     scanresolution: 850.0
     scanspeed: 3000
     shieldcapacity: 200.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 20400.0
   16107:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 130.0
-    damagemultiplier: 3.529411792755127
+    damagemultiplier: 3.529411765
     disallowassistance: 1
     emdamage: 3.0
     entityattackdelaymax: 11000
@@ -274,13 +267,13 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 7500.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entityshieldboostamount: 36.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     entitystrength: 12
     explosivedamage: 3.0
@@ -303,7 +296,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Soldier 1st Class
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -313,33 +305,32 @@ types:
     scanresolution: 850.0
     scanspeed: 2000
     shieldcapacity: 250.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 16500.0
   16108:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 250.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     damagemultiplier: 2.0
     disallowassistance: 1
     emdamage: 4.0
@@ -355,14 +346,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitylootcountmin: 1
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entityshieldboostamount: 40.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     explosivedamage: 4.0
     falloff: 6000.0
@@ -384,7 +375,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Special Ops Piranha
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -394,33 +384,32 @@ types:
     scanresolution: 850.0
     scanspeed: 2000
     shieldcapacity: 300.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 16500.0
   16109:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.45
     armorhp: 450.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     emdamage: 4.0
@@ -434,17 +423,17 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitylootcountmin: 2
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entityshieldboostamount: 80.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
     entitywarpscramblechance: 0.5
     explosivedamage: 4.0
@@ -468,7 +457,6 @@ types:
     modifytargetspeedrange: 10000
     name: DED Special Ops Panther
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -478,18 +466,18 @@ types:
     scanresolution: 850.0
     scanspeed: 2000
     shieldcapacity: 725.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 27.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.08749999850988388
+    trackingspeed: 0.0875
     volume: 16500.0
     warpscramblerange: 20000
     warpscramblestrength: 1

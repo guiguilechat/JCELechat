@@ -1,29 +1,28 @@
 types:
   43557:
-    agility: 0.2902500033378601
-    armoremdamageresonance: 0.29754000902175903
-    armorexplosivedamageresonance: 0.476065993309021
+    agility: 0.29025
+    armoremdamageresonance: 0.29754
+    armorexplosivedamageresonance: 0.476066
     armorhp: 6117.0
-    armorkineticdamageresonance: 0.4463123083114624
-    armorthermaldamageresonance: 0.3868040144443512
+    armorkineticdamageresonance: 0.4463123
+    armorthermaldamageresonance: 0.386804
     capacitorcapacity: 1844.0
-    capacity: 400.0
-    damagemultiplier: 7.4720001220703125
+    damagemultiplier: 7.472
     emdamage: 50.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 12368.0
     gfxboosterid: 394
     gfxturretid: 6963
     hp: 1875.0
     id: 43557
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.3E7
+    kineticdamageresonance: 0.4355
+    mass: 13000000.0
     maxlockedtargets: 6
     maxrange: 33458.0
     maxtargetrange: 68750.0
@@ -36,7 +35,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Omen
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 134.0
@@ -44,49 +42,48 @@ types:
     scanradarstrength: 18.0
     scanresolution: 375.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 115.0
     speed: 2690.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
-    thermaldamageresonance: 0.43549999594688416
-    trackingspeed: 14.699999809265137
+    thermaldamageresonance: 0.4355
+    trackingspeed: 14.7
     volume: 118000.0
     warpspeedmultiplier: 3.0
   43558:
-    agility: 0.3779999911785126
+    agility: 0.378
     armordamageamount: 1092.0
-    armoremdamageresonance: 0.29754000902175903
-    armorexplosivedamageresonance: 0.476065993309021
+    armoremdamageresonance: 0.29754
+    armorexplosivedamageresonance: 0.476066
     armorhp: 6939.0
-    armorkineticdamageresonance: 0.4463123083114624
-    armorthermaldamageresonance: 0.3868040144443512
+    armorkineticdamageresonance: 0.4463123
+    armorthermaldamageresonance: 0.386804
     behaviorremotearmorrepairdischarge: 234.0
     behaviorremotearmorrepairduration: 6000.0
     behaviorremotearmorrepairfalloff: 13250
     behaviorremotearmorrepairrange: 46375
     capacitorcapacity: 4188.0
-    capacity: 465.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.43549999594688416
-    energywarfareresistance: 0.6299999952316284
+    emdamageresonance: 0.4355
+    energywarfareresistance: 0.63
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 394
     hp: 1938.0
     id: 43558
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.287E7
+    kineticdamageresonance: 0.4355
+    mass: 12870000.0
     maxlockedtargets: 8
     maxtargetrange: 75000.0
     maxvelocity: 581.0
@@ -98,63 +95,61 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Augoror
     optimalsigradius: 1000
-    packagedVolume: 115000.0
     portionSize: 1
     published: false
     radius: 80.0
     rechargerate: 256500.0
-    scanradarstrength: 15.600000381469727
+    scanradarstrength: 15.6
     scanresolution: 375.0
     shieldcapacity: 1250.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 90.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 115000.0
     warpspeedmultiplier: 3.0
   43559:
-    agility: 0.3779999911785126
+    agility: 0.378
     aoecloudsizebonus: 18.90625
     aoevelocitybonus: -18.90625
-    armoremdamageresonance: 0.29754000902175903
-    armorexplosivedamageresonance: 0.476065993309021
+    armoremdamageresonance: 0.29754
+    armorexplosivedamageresonance: 0.476066
     armorhp: 10456.0
-    armorkineticdamageresonance: 0.4463123083114624
-    armorthermaldamageresonance: 0.3868040144443512
+    armorkineticdamageresonance: 0.4463123
+    armorthermaldamageresonance: 0.386804
     behaviortargetpainterdischarge: 7.5
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 123750.0
     behaviortargetpainterrange: 49500.0
     capacitorcapacity: 1718.0
-    capacity: 345.0
     damagemultiplier: 3.234375
     emdamage: 20.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitymissiletypeid: 212
     explosiondelaybonus: -14.609375
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1250.0
-    falloffbonus: -27.912500381469727
+    falloffbonus: -27.9125
     gfxboosterid: 394
     gfxturretid: 6761
     hp: 2000.0
     id: 43559
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.12E7
+    kineticdamageresonance: 0.4355
+    mass: 11200000.0
     maxlockedtargets: 7
     maxrange: 12000.0
-    maxrangebonus: -27.912500381469727
+    maxrangebonus: -27.9125
     maxtargetrange: 79375.0
     maxvelocity: 495.0
     missiledamagemultiplier: 2.75
@@ -174,19 +169,18 @@ types:
     npctrackingdisruptorfalloff: 33000.0
     npctrackingdisruptorrange: 66000.0
     optimalsigradius: 40000
-    packagedVolume: 120000.0
     portionSize: 1
     published: false
     radius: 172.0
     rechargerate: 367500.0
-    scanradarstrength: 25.920000076293945
+    scanradarstrength: 25.92
     scanresolution: 403.0
     shieldcapacity: 1375.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 130.0
     signatureradiusbonus: 34.375
@@ -194,18 +188,18 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    thermaldamageresonance: 0.43549999594688416
-    trackingspeed: 29.15999984741211
-    trackingspeedbonus: -27.912500381469727
+    thermaldamageresonance: 0.4355
+    trackingspeed: 29.16
+    trackingspeedbonus: -27.9125
     volume: 120000.0
     warpspeedmultiplier: 3.0
   43560:
-    agility: 0.2747114896774292
-    armoremdamageresonance: 0.2747114896774292
-    armorexplosivedamageresonance: 0.38085299730300903
+    agility: 0.2747115
+    armoremdamageresonance: 0.2747115
+    armorexplosivedamageresonance: 0.380853
     armorhp: 8175.0
-    armorkineticdamageresonance: 0.3570497930049896
-    armorthermaldamageresonance: 0.3094399869441986
+    armorkineticdamageresonance: 0.3570498
+    armorthermaldamageresonance: 0.30944
     behaviorenergyneutralizerdischarge: 337.5
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 4500.0
@@ -214,24 +208,23 @@ types:
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 10000.0
     capacitorcapacity: 3819.0
-    capacity: 480.0
     damagemultiplier: 4.3125
     emdamage: 20.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energyneutralizeramount: 495.0
-    energywarfareresistance: 0.7799999713897705
+    energywarfareresistance: 0.78
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 6809
     hp: 1913.0
     id: 43560
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.315E7
+    kineticdamageresonance: 0.4355
+    mass: 13150000.0
     maxlockedtargets: 6
     maxrange: 14175.0
     maxtargetrange: 59375.0
@@ -244,112 +237,108 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Maller
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 110.0
     rechargerate: 272025.0
-    scanradarstrength: 19.200000762939453
+    scanradarstrength: 19.2
     scanresolution: 350.0
     shieldcapacity: 1250.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 130.0
     speed: 2916.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     trackingspeed: 36.0
     volume: 118000.0
     warpspeedmultiplier: 3.0
   43568:
-    agility: 0.31725001335144043
+    agility: 0.31725
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1500.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.48124998807907104
+    armorthermaldamageresonance: 0.48125
     capacitorcapacity: 1563.0
-    capacity: 450.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitymissiletypeid: 209
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 8105
     hp: 1750.0
     id: 43568
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.191E7
+    kineticdamageresonance: 0.4355
+    mass: 11910000.0
     maxlockedtargets: 6
     maxtargetrange: 89844.0
     maxvelocity: 686.0
-    missiledamagemultiplier: 8.303000450134277
-    missileentityaoecloudsizemultiplier: 0.699999988079071
-    missileentityaoevelocitymultiplier: 1.600000023841858
-    missileentityflighttimemultiplier: 1.600000023841858
-    missileentityvelocitymultiplier: 1.600000023841858
+    missiledamagemultiplier: 8.303
+    missileentityaoecloudsizemultiplier: 0.7
+    missileentityaoevelocitymultiplier: 1.6
+    missileentityflighttimemultiplier: 1.6
+    missileentityvelocitymultiplier: 1.6
     missilelaunchduration: 5407.0
     name: ♦ Caracal
     optimalsigradius: 1000
-    packagedVolume: 92000.0
     portionSize: 1
     published: false
     radius: 202.0
     rechargerate: 333750.0
-    scangravimetricstrength: 19.200000762939453
+    scangravimetricstrength: 19.2
     scanresolution: 338.0
     shieldcapacity: 6125.0
-    shieldemdamageresonance: 0.5136600136756897
-    shieldexplosivedamageresonance: 0.25683000683784485
-    shieldkineticdamageresonance: 0.3081960082054138
+    shieldemdamageresonance: 0.51366
+    shieldexplosivedamageresonance: 0.25683
+    shieldkineticdamageresonance: 0.308196
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.41092801094055176
+    shieldthermaldamageresonance: 0.410928
     shielduniformity: 0.75
     signatureradius: 165.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 92000.0
     warpspeedmultiplier: 3.0
   43569:
-    agility: 0.4117499887943268
+    agility: 0.41175
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     behaviorremoteshieldboostdischarge: 351.0
     behaviorremoteshieldboostduration: 8000
     behaviorremoteshieldboostfalloff: 39750
     behaviorremoteshieldboostrange: 26500
     capacitorcapacity: 4818.0
-    capacity: 485.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 1.0
     gfxboosterid: 394
     hp: 1813.0
     id: 43569
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.11E7
+    kineticdamageresonance: 0.67
+    mass: 11100000.0
     maxlockedtargets: 8
     maxtargetrange: 78125.0
     maxvelocity: 645.0
@@ -361,7 +350,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Osprey
     optimalsigradius: 1000
-    packagedVolume: 107000.0
     portionSize: 1
     published: false
     radius: 174.0
@@ -370,47 +358,46 @@ types:
     scanresolution: 350.0
     shieldbonus: 1462.5
     shieldcapacity: 6950.0
-    shieldemdamageresonance: 0.5283359885215759
-    shieldexplosivedamageresonance: 0.26416799426078796
-    shieldkineticdamageresonance: 0.31700000166893005
+    shieldemdamageresonance: 0.528336
+    shieldexplosivedamageresonance: 0.264168
+    shieldkineticdamageresonance: 0.317
     shieldrechargerate: 793500.0
-    shieldthermaldamageresonance: 0.42266881465911865
+    shieldthermaldamageresonance: 0.4226688
     shielduniformity: 0.75
     signatureradius: 131.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 107000.0
     warpspeedmultiplier: 3.0
   43570:
-    agility: 0.35100001096725464
+    agility: 0.351
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1250.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.48124998807907104
+    armorthermaldamageresonance: 0.48125
     behaviortargetpainterdischarge: 7.5
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 123750.0
     behaviortargetpainterrange: 49500.0
     capacitorcapacity: 1938.0
-    capacity: 450.0
-    damagemultiplier: 8.655068397521973
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 8.655068007
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 15000.0
     gfxboosterid: 394
     gfxturretid: 7247
     hp: 1875.0
     id: 43570
     kineticdamage: 30.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.2E7
+    kineticdamageresonance: 0.4355
+    mass: 12000000.0
     maxlockedtargets: 8
     maxrange: 57600.0
     maxtargetrange: 87313.0
@@ -423,37 +410,36 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Moa
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 166.0
     rechargerate: 367500.0
-    scangravimetricstrength: 29.375999450683594
+    scangravimetricstrength: 29.376
     scanresolution: 367.0
     shieldcapacity: 8935.0
-    shieldemdamageresonance: 0.42266881465911865
-    shieldexplosivedamageresonance: 0.21133440732955933
-    shieldkineticdamageresonance: 0.25360000133514404
+    shieldemdamageresonance: 0.4226688
+    shieldexplosivedamageresonance: 0.2113344
+    shieldkineticdamageresonance: 0.2536
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.3381350040435791
+    shieldthermaldamageresonance: 0.338135
     shielduniformity: 0.75
     signatureradius: 130.0
     signatureradiusbonus: 34.375
-    speed: 3482.183349609375
+    speed: 3482.183456
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    thermaldamageresonance: 0.43549999594688416
-    trackingspeed: 8.199999809265137
+    thermaldamageresonance: 0.4355
+    trackingspeed: 8.2
     volume: 101000.0
     warpspeedmultiplier: 3.0
   43571:
-    agility: 0.3240000009536743
+    agility: 0.324
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1500.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.48124998807907104
+    armorthermaldamageresonance: 0.48125
     behaviorecmdischarge: 27.0
     behaviorecmduration: 20000
     behaviorecmfalloff: 56000.0
@@ -463,27 +449,26 @@ types:
     behaviortargetpainterfalloff: 123750.0
     behaviortargetpainterrange: 49500.0
     capacitorcapacity: 1563.0
-    capacity: 305.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitymissiletypeid: 209
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 8105
     hp: 1750.0
     id: 43571
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.319E7
+    kineticdamageresonance: 0.4355
+    mass: 13190000.0
     maxlockedtargets: 8
     maxtargetrange: 106250.0
     maxvelocity: 544.0
-    missiledamagemultiplier: 4.119999885559082
+    missiledamagemultiplier: 4.12
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 1.5
@@ -491,56 +476,54 @@ types:
     missilelaunchduration: 9180.0
     name: ♦ Blackbird
     optimalsigradius: 1000
-    packagedVolume: 96000.0
     portionSize: 1
     published: false
     radius: 139.0
     rechargerate: 333750.0
     scangravimetricstrength: 24.0
-    scangravimetricstrengthbonus: 6.300000190734863
-    scanladarstrengthbonus: 6.300000190734863
-    scanmagnetometricstrengthbonus: 6.300000190734863
-    scanradarstrengthbonus: 6.300000190734863
+    scangravimetricstrengthbonus: 6.3
+    scanladarstrengthbonus: 6.3
+    scanmagnetometricstrengthbonus: 6.3
+    scanradarstrengthbonus: 6.3
     scanresolution: 288.0
     shieldcapacity: 11026.0
     shieldemdamageresonance: 0.65625
     shieldexplosivedamageresonance: 0.328125
-    shieldkineticdamageresonance: 0.39375001192092896
+    shieldkineticdamageresonance: 0.39375
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.5249999761581421
+    shieldthermaldamageresonance: 0.525
     shielduniformity: 0.75
     signatureradius: 225.0
     signatureradiusbonus: 34.375
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 96000.0
     warpspeedmultiplier: 3.0
   43579:
-    agility: 0.3307499885559082
-    armoremdamageresonance: 0.3307499885559082
-    armorexplosivedamageresonance: 0.639843761920929
+    agility: 0.33075
+    armoremdamageresonance: 0.33075
+    armorexplosivedamageresonance: 0.63984375
     armorhp: 6844.0
-    armorkineticdamageresonance: 0.46209999918937683
-    armorthermaldamageresonance: 0.46209999918937683
+    armorkineticdamageresonance: 0.4621
+    armorthermaldamageresonance: 0.4621
     capacitorcapacity: 1813.0
-    capacity: 465.0
-    damagemultiplier: 5.520899772644043
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 5.5209
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 20015.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 2000.0
     id: 43579
     kineticdamage: 70.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.128E7
+    kineticdamageresonance: 0.4355
+    mass: 11280000.0
     maxlockedtargets: 6
     maxrange: 15110.0
     maxtargetrange: 65625.0
@@ -553,7 +536,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Thorax
     optimalsigradius: 40000
-    packagedVolume: 112000.0
     portionSize: 1
     published: false
     radius: 149.0
@@ -561,49 +543,48 @@ types:
     scanmagnetometricstrength: 18.0
     scanresolution: 350.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 120.0
     speed: 2663.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    thermaldamageresonance: 0.43549999594688416
-    trackingspeed: 15.399999618530273
+    thermaldamageresonance: 0.4355
+    trackingspeed: 15.4
     volume: 112000.0
     warpspeedmultiplier: 3.0
   43580:
-    agility: 0.4117499887943268
+    agility: 0.41175
     armordamageamount: 1092.0
-    armoremdamageresonance: 0.29754000902175903
-    armorexplosivedamageresonance: 0.5355700254440308
+    armoremdamageresonance: 0.29754
+    armorexplosivedamageresonance: 0.53557
     armorhp: 6464.0
-    armorkineticdamageresonance: 0.38679999113082886
-    armorthermaldamageresonance: 0.38679999113082886
+    armorkineticdamageresonance: 0.3868
+    armorthermaldamageresonance: 0.3868
     behaviorremotearmorrepairdischarge: 261.5625
     behaviorremotearmorrepairduration: 6000.0
     behaviorremotearmorrepairfalloff: 14575
     behaviorremotearmorrepairrange: 51013
     capacitorcapacity: 4403.0
-    capacity: 495.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.43549999594688416
-    energywarfareresistance: 0.7799999713897705
+    emdamageresonance: 0.4355
+    energywarfareresistance: 0.78
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 394
     hp: 418.75
     id: 43580
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.102E7
+    kineticdamageresonance: 0.4355
+    mass: 11020000.0
     maxlockedtargets: 8
     maxtargetrange: 68750.0
     maxvelocity: 630.0
@@ -615,33 +596,32 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Exequror
     optimalsigradius: 1000
-    packagedVolume: 113000.0
     portionSize: 1
     published: false
     radius: 224.0
     rechargerate: 179825.0
-    scanmagnetometricstrength: 16.799999237060547
+    scanmagnetometricstrength: 16.8
     scanresolution: 368.0
     shieldcapacity: 1313.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 80.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 113000.0
     warpspeedmultiplier: 3.0
   43581:
-    agility: 0.3408749997615814
-    armoremdamageresonance: 0.3553999960422516
-    armorexplosivedamageresonance: 0.3912999927997589
+    agility: 0.340875
+    armoremdamageresonance: 0.3554
+    armorexplosivedamageresonance: 0.3913
     armorhp: 6273.0
-    armorkineticdamageresonance: 0.2825999855995178
-    armorthermaldamageresonance: 0.46209999918937683
+    armorkineticdamageresonance: 0.2826
+    armorthermaldamageresonance: 0.4621
     behaviorsensordampenerdischarge: 45.0
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 113437.5
@@ -651,23 +631,22 @@ types:
     behaviortargetpainterfalloff: 123750.0
     behaviortargetpainterrange: 49500.0
     capacitorcapacity: 1625.0
-    capacity: 320.0
-    damagemultiplier: 3.8237500190734863
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 3.82375
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 12500.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 2125.0
     id: 43581
     kineticdamage: 18.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.207E7
+    kineticdamageresonance: 0.4355
+    mass: 12070000.0
     maxlockedtargets: 8
     maxrange: 37800.0
     maxtargetrange: 119531.0
@@ -681,67 +660,65 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Celestis
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 79.0
     rechargerate: 347250.0
-    scanmagnetometricstrength: 31.104000091552734
+    scanmagnetometricstrength: 31.104
     scanresolution: 462.1875
     scanresolutionbonus: -35.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 135.0
     signatureradiusbonus: 34.375
-    speed: 3207.60009765625
+    speed: 3207.6
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     trackingspeed: 10.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
   43582:
-    agility: 0.3779999911785126
+    agility: 0.378
     aoecloudsizebonus: 13.75
     aoevelocitybonus: -13.75
-    armoremdamageresonance: 0.3553999960422516
-    armorexplosivedamageresonance: 0.3913800120353699
+    armoremdamageresonance: 0.3554
+    armorexplosivedamageresonance: 0.39138
     armorhp: 7604.0
-    armorkineticdamageresonance: 0.28266438841819763
-    armorthermaldamageresonance: 0.46209999918937683
+    armorkineticdamageresonance: 0.2826644
+    armorthermaldamageresonance: 0.4621
     behaviorsensordampenerdischarge: 22.5
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 82500.0
     behaviorsensordampenerrange: 41250.0
     capacitorcapacity: 1813.0
-    capacity: 480.0
-    damagemultiplier: 4.779687404632568
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 4.7796875
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     explosiondelaybonus: -10.625
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 12500.0
-    falloffbonus: -20.299999237060547
+    falloffbonus: -20.3
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 2500.0
     id: 43582
     kineticdamage: 24.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.11E7
+    kineticdamageresonance: 0.4355
+    mass: 11100000.0
     maxlockedtargets: 6
     maxrange: 37800.0
-    maxrangebonus: -20.299999237060547
+    maxrangebonus: -20.3
     maxtargetrange: 65625.0
     maxtargetrangebonus: -18.125
     maxvelocity: 510.0
@@ -762,57 +739,55 @@ types:
     npctrackingdisruptorfalloff: 33000.0
     npctrackingdisruptorrange: 66000.0
     optimalsigradius: 40000
-    packagedVolume: 115000.0
     portionSize: 1
     published: false
     radius: 110.0
     rechargerate: 361875.0
-    scanmagnetometricstrength: 19.200000762939453
+    scanmagnetometricstrength: 19.2
     scanresolution: 350.0
     scanresolutionbonus: -18.125
     shieldcapacity: 1375.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 145.0
-    speed: 3207.60009765625
+    speed: 3207.6
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     trackingspeed: 10.0
-    trackingspeedbonus: -20.299999237060547
+    trackingspeedbonus: -20.3
     volume: 115000.0
     warpspeedmultiplier: 3.0
   43590:
-    agility: 0.3375000059604645
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7875000238418579
+    agility: 0.3375
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.7875
     armorhp: 2250.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.5687500238418579
+    armorthermaldamageresonance: 0.56875
     capacitorcapacity: 1593.75
-    capacity: 450.0
-    damagemultiplier: 20.768999099731445
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 20.769
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     explosivedamage: 80.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 28142.0
     gfxboosterid: 394
     gfxturretid: 9451
     hp: 1875.0
     id: 43590
     kineticdamage: 16.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.22E7
+    kineticdamageresonance: 0.4355
+    mass: 12200000.0
     maxlockedtargets: 6
     maxrange: 17084.0
     maxtargetrange: 62500.0
@@ -825,7 +800,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Rupture
     optimalsigradius: 40000
-    packagedVolume: 96000.0
     portionSize: 1
     published: false
     radius: 88.0
@@ -833,47 +807,46 @@ types:
     scanladarstrength: 18.0
     scanresolution: 363.0
     shieldcapacity: 7034.0
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3375000059604645
-    shieldkineticdamageresonance: 0.4050000011920929
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.3375
+    shieldkineticdamageresonance: 0.405
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 196.0
     speed: 7634.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     trackingspeed: 10.0
     volume: 96000.0
     warpspeedmultiplier: 3.0
   43591:
-    agility: 0.4050000011920929
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.7875000238418579
+    agility: 0.405
+    armoremdamageresonance: 0.35
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1375.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.5687500238418579
+    armorthermaldamageresonance: 0.56875
     behaviorremoteshieldboostdischarge: 391.5
     behaviorremoteshieldboostduration: 8000
     behaviorremoteshieldboostfalloff: 43725
     behaviorremoteshieldboostrange: 29150
     capacitorcapacity: 4068.0
-    capacity: 475.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 1.0
     gfxboosterid: 394
     hp: 1625.0
     id: 43591
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.111E7
+    kineticdamageresonance: 0.67
+    mass: 11110000.0
     maxlockedtargets: 8
     maxtargetrange: 65625.0
     maxvelocity: 767.0
@@ -885,60 +858,58 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Scythe
     optimalsigradius: 1000
-    packagedVolume: 89000.0
     portionSize: 1
     published: false
     radius: 134.0
     rechargerate: 159436.0
-    scanladarstrength: 14.399999618530273
+    scanladarstrength: 14.4
     scanresolution: 394.0
     shieldbonus: 1462.5
     shieldcapacity: 7810.0
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3375000059604645
-    shieldkineticdamageresonance: 0.4050000011920929
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.3375
+    shieldkineticdamageresonance: 0.405
     shieldrechargerate: 730020.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 112.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 89000.0
     warpspeedmultiplier: 3.0
   43592:
-    agility: 0.34424999356269836
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.7875000238418579
+    agility: 0.34425
+    armoremdamageresonance: 0.35
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1500.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.5687500238418579
+    armorthermaldamageresonance: 0.56875
     behaviortargetpainterdischarge: 15.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 123750.0
     behaviortargetpainterrange: 74250.0
     capacitorcapacity: 1500.0
-    capacity: 315.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitymissiletypeid: 206
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 8105
     hp: 1875.0
     id: 43592
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.155E7
+    kineticdamageresonance: 0.4355
+    mass: 11550000.0
     maxlockedtargets: 9
     maxtargetrange: 83301.0
     maxvelocity: 724.0
-    missiledamagemultiplier: 5.940000057220459
+    missiledamagemultiplier: 5.94
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 1.5
@@ -946,34 +917,33 @@ types:
     missilelaunchduration: 6231.0
     name: ♦ Bellicose
     optimalsigradius: 1000
-    packagedVolume: 85000.0
     portionSize: 1
     published: false
     radius: 113.0
     rechargerate: 320625.0
-    scanladarstrength: 33.439998626708984
-    scanresolution: 471.6000061035156
+    scanladarstrength: 33.44
+    scanresolution: 471.6
     shieldcapacity: 6844.0
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3375000059604645
-    shieldkineticdamageresonance: 0.4050000011920929
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.3375
+    shieldkineticdamageresonance: 0.405
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 163.0
     signatureradiusbonus: 70.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 85000.0
     warpspeedmultiplier: 3.0
   43593:
-    agility: 0.2843399941921234
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.7875000238418579
+    agility: 0.28434
+    armoremdamageresonance: 0.35
+    armorexplosivedamageresonance: 0.7875
     armorhp: 1625.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.5687500238418579
+    armorthermaldamageresonance: 0.56875
     behaviorenergyneutralizerdischarge: 225.0
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 4500.0
@@ -983,25 +953,24 @@ types:
     behaviorwarpdisruptrange: 20000
     behaviorwarpdisruptstrength: 1
     capacitorcapacity: 1500.0
-    capacity: 420.0
-    damagemultiplier: 3.9847500324249268
-    emdamageresonance: 0.43549999594688416
+    damagemultiplier: 3.98475
+    emdamageresonance: 0.4355
     energyneutralizeramount: 330.0
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     explosivedamage: 80.0
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     falloff: 17737.0
     gfxboosterid: 394
     gfxturretid: 9127
     hp: 1300.0
     id: 43593
     kineticdamage: 16.0
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.14E7
+    kineticdamageresonance: 0.4355
+    mass: 11400000.0
     maxlockedtargets: 5
     maxrange: 1350.0
     maxtargetrange: 59375.0
@@ -1014,60 +983,58 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Stabber
     optimalsigradius: 40000
-    packagedVolume: 80000.0
     portionSize: 1
     published: false
     radius: 110.0
     rechargerate: 133801.0
-    scanladarstrength: 15.600000381469727
+    scanladarstrength: 15.6
     scanresolution: 400.0
     shieldcapacity: 5462.5
-    shieldemdamageresonance: 0.675000011920929
-    shieldexplosivedamageresonance: 0.3375000059604645
-    shieldkineticdamageresonance: 0.4050000011920929
+    shieldemdamageresonance: 0.675
+    shieldexplosivedamageresonance: 0.3375
+    shieldkineticdamageresonance: 0.405
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 131.0
     speed: 2551.5
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
-    trackingspeed: 48.57600021362305
+    thermaldamageresonance: 0.4355
+    trackingspeed: 48.576
     volume: 80000.0
     warpspeedmultiplier: 3.0
   43601:
-    agility: 0.2902500033378601
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.3400000035762787
+    agility: 0.29025
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.34
     armorhp: 8193.75
-    armorkineticdamageresonance: 0.3187499940395355
-    armorthermaldamageresonance: 0.3867500126361847
+    armorkineticdamageresonance: 0.31875
+    armorthermaldamageresonance: 0.38675
     capacitorcapacity: 1843.75
-    capacity: 400.0
-    damagemultiplier: 5.564870834350586
+    damagemultiplier: 5.564870758
     emdamage: 55.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 500000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
-    explosivedamageresonance: 0.4020000100135803
-    falloff: 9749.423828125
+    entitysecuritystatuskillbonus: 0.05
+    explosivedamageresonance: 0.402
+    falloff: 9749.423975
     gfxboosterid: 397
     gfxturretid: 13799
     hp: 1875.0
     id: 43601
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.3E7
+    kineticdamageresonance: 0.402
+    mass: 13000000.0
     maxlockedtargets: 6
-    maxrange: 31310.583984375
+    maxrange: 31310.58433
     maxtargetrange: 68750.0
-    maxvelocity: 657.7870483398438
+    maxvelocity: 657.7870479
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1076,7 +1043,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Omen
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 134.0
@@ -1086,53 +1052,52 @@ types:
     shieldcapacity: 1500.0
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 115.0
-    speed: 2086.3349609375
+    speed: 2086.334895
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 33.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 19.65483856201172
+    thermaldamageresonance: 0.402
+    trackingspeed: 19.65483873
     volume: 118000.0
     warpspeedmultiplier: 3.0
   43602:
-    agility: 0.3779999911785126
+    agility: 0.378
     armordamageamount: 1092.0
-    armoremdamageresonance: 0.33335936069488525
-    armorexplosivedamageresonance: 0.2762826383113861
-    armorhp: 8138.79931640625
-    armorkineticdamageresonance: 0.25901496410369873
-    armorthermaldamageresonance: 0.3142715096473694
-    behaviorremotearmorrepairdischarge: 183.98489379882812
+    armoremdamageresonance: 0.333359375
+    armorexplosivedamageresonance: 0.276282641
+    armorhp: 8138.799316
+    armorkineticdamageresonance: 0.259014976
+    armorthermaldamageresonance: 0.314271505
+    behaviorremotearmorrepairdischarge: 183.9849
     behaviorremotearmorrepairduration: 4706.25
     behaviorremotearmorrepairfalloff: 13250
     behaviorremotearmorrepairrange: 46375
     capacitorcapacity: 4281.25
-    capacity: 465.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    energywarfareresistance: 0.606594979763031
+    emdamageresonance: 0.402
+    energywarfareresistance: 0.606595
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 430000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
-    explosivedamageresonance: 0.4020000100135803
+    entitysecuritystatuskillbonus: 0.05
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 397
     hp: 1937.5
     id: 43602
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.287E7
+    kineticdamageresonance: 0.402
+    mass: 12870000.0
     maxlockedtargets: 8
-    maxtargetrange: 111386.71875
-    maxvelocity: 717.560791015625
+    maxtargetrange: 111386.7188
+    maxvelocity: 717.5607672
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1141,63 +1106,61 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Augoror
     optimalsigradius: 1000
-    packagedVolume: 115000.0
     portionSize: 1
     published: false
     radius: 80.0
     rechargerate: 253125.0
-    scanradarstrength: 23.168437957763672
-    scanresolution: 465.966796875
+    scanradarstrength: 23.1684375
+    scanresolution: 465.9667969
     shieldcapacity: 1250.0
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 90.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 115000.0
     warpspeedmultiplier: 3.0
   43603:
-    agility: 0.3779999911785126
+    agility: 0.378
     aoecloudsizebonus: 20.625
     aoevelocitybonus: -20.625
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.3400000035762787
-    armorhp: 10456.015625
-    armorkineticdamageresonance: 0.3187499940395355
-    armorthermaldamageresonance: 0.5525000095367432
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.34
+    armorhp: 10456.01562
+    armorkineticdamageresonance: 0.31875
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 1718.75
-    capacity: 345.0
-    damagemultiplier: 3.767400026321411
+    damagemultiplier: 3.7674
     emdamage: 24.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 560000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
+    entitysecuritystatuskillbonus: 0.05
     explosiondelaybonus: -15.46875
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1250.0
-    falloffbonus: -29.545312881469727
+    falloffbonus: -29.5453125
     gfxboosterid: 397
     gfxturretid: 13819
     hp: 2000.0
     id: 43603
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.12E7
+    kineticdamageresonance: 0.402
+    mass: 11200000.0
     maxlockedtargets: 7
     maxrange: 20000.0
-    maxrangebonus: -29.545312881469727
+    maxrangebonus: -29.5453125
     maxtargetrange: 81250.0
-    maxvelocity: 517.4531860351562
+    maxvelocity: 517.4532065
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1215,35 +1178,34 @@ types:
     npctrackingdisruptorfalloff: 36000.0
     npctrackingdisruptorrange: 72000.0
     optimalsigradius: 40000
-    packagedVolume: 120000.0
     portionSize: 1
     published: false
     radius: 172.0
     rechargerate: 367500.0
-    scanradarstrength: 26.639999389648438
+    scanradarstrength: 26.64
     scanresolution: 463.125
     shieldcapacity: 1375.0
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 130.0
-    speed: 2018.52001953125
+    speed: 2018.52
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 29.15999984741211
+    thermaldamageresonance: 0.402
+    trackingspeed: 29.16
     volume: 120000.0
     warpspeedmultiplier: 3.0
   43604:
-    agility: 0.39149999618530273
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.3400000035762787
+    agility: 0.3915
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.34
     armorhp: 8253.125
-    armorkineticdamageresonance: 0.3187499940395355
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.31875
+    armorthermaldamageresonance: 0.5525
     behaviorenergyneutralizerdischarge: 225.0
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 6000.0
@@ -1252,31 +1214,30 @@ types:
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 30000.0
     capacitorcapacity: 3875.0
-    capacity: 430.0
-    damagemultiplier: 16.67683219909668
+    damagemultiplier: 16.67683314
     emdamage: 33.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energyneutralizeramount: 630.0
-    energywarfareresistance: 0.5870000123977661
+    energywarfareresistance: 0.587
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 540000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
-    explosivedamageresonance: 0.4020000100135803
+    entitysecuritystatuskillbonus: 0.05
+    explosivedamageresonance: 0.402
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 13805
     hp: 2906.25
     id: 43604
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.101E7
+    kineticdamageresonance: 0.402
+    mass: 11010000.0
     maxlockedtargets: 7
     maxrange: 31250.0
     maxtargetrange: 68750.0
-    maxvelocity: 657.62060546875
+    maxvelocity: 657.6206265
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1285,117 +1246,113 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Ashimmu
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 137.0
     rechargerate: 337875.0
-    scanradarstrength: 22.799999237060547
+    scanradarstrength: 22.8
     scanresolution: 425.0
     shieldcapacity: 2862.5
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 130.0
-    speed: 3477.224853515625
+    speed: 3477.224825
     speedfactor: -55.0
     structureuniformity: 1.0
-    thermaldamage: 19.799999237060547
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 11.880000114440918
+    thermaldamage: 19.8
+    thermaldamageresonance: 0.402
+    trackingspeed: 11.88
     volume: 118000.0
     warpspeedmultiplier: 3.0
   43622:
-    agility: 0.31725001335144043
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.31725
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     capacitorcapacity: 1562.5
-    capacity: 450.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 490000
     entitymissiletypeid: 27439
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     gfxturretid: 13922
     hp: 1750.0
     id: 43622
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.191E7
+    kineticdamageresonance: 0.402
+    mass: 11910000.0
     maxlockedtargets: 6
     maxtargetrange: 89843.75
-    maxvelocity: 717.857421875
-    missiledamagemultiplier: 9.085000038146973
-    missileentityaoecloudsizemultiplier: 0.6880999803543091
-    missileentityaoevelocitymultiplier: 1.6200000047683716
-    missileentityflighttimemultiplier: 1.5800000429153442
-    missileentityvelocitymultiplier: 2.373699903488159
+    maxvelocity: 717.8574069
+    missiledamagemultiplier: 9.085
+    missileentityaoecloudsizemultiplier: 0.6881
+    missileentityaoevelocitymultiplier: 1.62
+    missileentityflighttimemultiplier: 1.58
+    missileentityvelocitymultiplier: 2.3737
     missilelaunchduration: 4544.0
     name: ♦ Caracal
     optimalsigradius: 1000
-    packagedVolume: 92000.0
     portionSize: 1
     published: false
     radius: 202.0
     rechargerate: 333750.0
-    scangravimetricstrength: 19.200000762939453
+    scangravimetricstrength: 19.2
     scanresolution: 337.5
-    shieldcapacity: 10836.234375
-    shieldemdamageresonance: 0.39375001192092896
+    shieldcapacity: 10836.23437
+    shieldemdamageresonance: 0.39375
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
-    signatureradius: 191.73504638671875
+    signatureradius: 191.7350398
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 92000.0
     warpspeedmultiplier: 3.0
   43623:
-    agility: 0.4117499887943268
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.41175
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     behaviorremoteshieldboostdischarge: 351.0
     behaviorremoteshieldboostduration: 8000
     behaviorremoteshieldboostfalloff: 39750
     behaviorremoteshieldboostrange: 26500
     capacitorcapacity: 4864.78125
-    capacity: 485.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    energywarfareresistance: 0.7799999713897705
+    emdamageresonance: 0.402
+    energywarfareresistance: 0.78
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 530000
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     hp: 1812.5
     id: 43623
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.11E7
+    kineticdamageresonance: 0.402
+    mass: 11100000.0
     maxlockedtargets: 8
     maxtargetrange: 78125.0
-    maxvelocity: 675.2037963867188
+    maxvelocity: 675.2038043
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1404,61 +1361,59 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Osprey
     optimalsigradius: 1000
-    packagedVolume: 107000.0
     portionSize: 1
     published: false
     radius: 174.0
-    rechargerate: 224167.0
+    rechargerate: 224166.9938
     scangravimetricstrength: 18.0
     scanresolution: 350.0
     shieldbonus: 1462.5
-    shieldcapacity: 7745.923828125
-    shieldemdamageresonance: 0.26541900634765625
+    shieldcapacity: 7745.923828
+    shieldemdamageresonance: 0.265419003
     shieldexplosivedamageresonance: 0.2734375
     shieldkineticdamageresonance: 0.328125
     shieldrechargerate: 784898.4375
     shieldthermaldamageresonance: 0.4375
     shielduniformity: 1.0
-    signatureradius: 131.47544860839844
+    signatureradius: 131.4754559
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 107000.0
     warpspeedmultiplier: 3.0
   43624:
-    agility: 0.445499986410141
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.4455
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 2750.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     behaviorecmdischarge: 63.75
     behaviorecmduration: 20000
     behaviorecmfalloff: 35100.0
     behaviorecmrange: 31200
     capacitorcapacity: 1750.0
-    capacity: 440.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 950000
     entitymissiletypeid: 27445
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     gfxturretid: 13922
     hp: 3112.5
     id: 43624
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamageresonance: 0.402
     mass: 9600000.0
     maxlockedtargets: 7
     maxtargetrange: 72500.0
-    maxvelocity: 666.347412109375
-    missiledamagemultiplier: 10.199999809265137
+    maxvelocity: 666.3473887
+    missiledamagemultiplier: 10.2
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 1.5
@@ -1466,64 +1421,62 @@ types:
     missilelaunchduration: 6465.0
     name: ♦ Gila
     optimalsigradius: 1000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 166.0
     rechargerate: 367500.0
-    scangravimetricstrength: 26.399999618530273
+    scangravimetricstrength: 26.4
     scangravimetricstrengthbonus: 3.25
     scanladarstrengthbonus: 3.25
     scanmagnetometricstrengthbonus: 3.25
     scanradarstrengthbonus: 3.25
     scanresolution: 356.25
     shieldcapacity: 11026.34375
-    shieldemdamageresonance: 0.21233519911766052
+    shieldemdamageresonance: 0.212335202
     shieldexplosivedamageresonance: 0.21875
-    shieldkineticdamageresonance: 0.26249998807907104
+    shieldkineticdamageresonance: 0.2625
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.35
     shielduniformity: 1.0
-    signatureradius: 191.57064819335938
+    signatureradius: 191.5706481
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 101000.0
     warpspeedmultiplier: 3.0
   43625:
-    agility: 0.3240000009536743
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.324
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     behaviorecmdischarge: 63.75
     behaviorecmduration: 20000
     behaviorecmfalloff: 57037.5
     behaviorecmrange: 60617
     capacitorcapacity: 1562.5
-    capacity: 305.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 540000
     entitymissiletypeid: 27445
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     gfxturretid: 13922
     hp: 1750.0
     id: 43625
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.319E7
+    kineticdamageresonance: 0.402
+    mass: 13190000.0
     maxlockedtargets: 8
     maxtargetrange: 106250.0
-    maxvelocity: 567.9957885742188
-    missiledamagemultiplier: 4.11899995803833
+    maxvelocity: 567.9958081
+    missiledamagemultiplier: 4.119
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 1.5
@@ -1531,61 +1484,59 @@ types:
     missilelaunchduration: 8032.5
     name: ♦ Blackbird
     optimalsigradius: 1000
-    packagedVolume: 96000.0
     portionSize: 1
     published: false
     radius: 139.0
     rechargerate: 333750.0
     scangravimetricstrength: 24.0
-    scangravimetricstrengthbonus: 6.800000190734863
-    scanladarstrengthbonus: 6.800000190734863
-    scanmagnetometricstrengthbonus: 6.800000190734863
-    scanradarstrengthbonus: 6.800000190734863
+    scangravimetricstrengthbonus: 6.8
+    scanladarstrengthbonus: 6.8
+    scanmagnetometricstrengthbonus: 6.8
+    scanradarstrengthbonus: 6.8
     scanresolution: 287.5
     shieldcapacity: 12547.21875
-    shieldemdamageresonance: 0.39375001192092896
+    shieldemdamageresonance: 0.39375
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
-    signatureradius: 225.37722778320312
+    signatureradius: 225.377233
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 96000.0
     warpspeedmultiplier: 3.0
   43641:
-    agility: 0.30375000834465027
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.30375
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.765
     armorhp: 2875.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 1768.75
-    capacity: 400.0
-    damagemultiplier: 25.521955490112305
-    emdamageresonance: 0.4020000100135803
+    damagemultiplier: 25.52195519
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 960000
     explosivedamage: 96.0
-    explosivedamageresonance: 0.4020000100135803
-    falloff: 46949.546875
+    explosivedamageresonance: 0.402
+    falloff: 46949.54864
     gfxboosterid: 395
     gfxturretid: 13784
     hp: 2581.25
     id: 43641
-    kineticdamage: 19.200000762939453
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamage: 19.2
+    kineticdamageresonance: 0.402
     mass: 9047000.0
     maxlockedtargets: 7
-    maxrange: 18087.59375
+    maxrange: 18087.59469
     maxtargetrange: 58750.0
-    maxvelocity: 965.03466796875
+    maxvelocity: 965.0346604
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1594,55 +1545,53 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Cynabal
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 170.0
     rechargerate: 367500.0
-    scanladarstrength: 21.600000381469727
+    scanladarstrength: 21.6
     scanresolution: 487.5
     shieldcapacity: 12448.03125
-    shieldemdamageresonance: 0.3234280049800873
+    shieldemdamageresonance: 0.323428003
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.35
     shielduniformity: 1.0
-    signatureradius: 185.93621826171875
-    speed: 7433.8720703125
+    signatureradius: 185.9362173
+    speed: 7433.872022
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 9.995243072509766
+    thermaldamageresonance: 0.402
+    trackingspeed: 9.995242734
     volume: 101000.0
     warpspeedmultiplier: 3.0
   43642:
-    agility: 0.4050000011920929
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.405
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.765
     armorhp: 1375.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.5525
     behaviorremoteshieldboostdischarge: 130.5
     behaviorremoteshieldboostduration: 8000
     behaviorremoteshieldboostfalloff: 43725
     behaviorremoteshieldboostrange: 29150
     capacitorcapacity: 3328.171875
-    capacity: 1900.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
-    energywarfareresistance: 0.7799999713897705
+    emdamageresonance: 0.402
+    energywarfareresistance: 0.78
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 540000
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 397
     hp: 1625.0
     id: 43642
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamageresonance: 0.402
     mass: 9900000.0
     maxlockedtargets: 8
     maxtargetrange: 65625.0
@@ -1655,25 +1604,24 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Ixion
     optimalsigradius: 1000
-    packagedVolume: 99000.0
     portionSize: 1
     published: false
     radius: 150.0
-    rechargerate: 152829.140625
-    scanladarstrength: 14.399999618530273
+    rechargerate: 152829.1446
+    scanladarstrength: 14.4
     scanresolution: 393.75
     shieldbonus: 1462.5
-    shieldcapacity: 7654.79541015625
+    shieldcapacity: 7654.795313
     shieldemdamageresonance: 0.4375
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
-    shieldrechargerate: 754091.1875
-    shieldthermaldamageresonance: 0.37187498807907104
+    shieldkineticdamageresonance: 0.525
+    shieldrechargerate: 754091.1738
+    shieldthermaldamageresonance: 0.371875
     shielduniformity: 1.0
-    signatureradius: 109.56288146972656
+    signatureradius: 109.5628799
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 99000.0
     warpspeedmultiplier: 3.0
   43649:
@@ -1700,9 +1648,9 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Annihilator Drone
     optimalsigradius: 1000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
+    radius: 150.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1714,35 +1662,34 @@ types:
     volume: 60.0
     warpspeedmultiplier: 3.0
   43656:
-    agility: 0.41850000619888306
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.6800000071525574
+    agility: 0.4185
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.68
     armorhp: 2718.75
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 2250.0
-    capacity: 410.0
-    damagemultiplier: 22.27336883544922
+    damagemultiplier: 22.2733694
     emdamage: 33.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
     entitykillbounty: 910000
-    explosivedamageresonance: 0.4020000100135803
-    falloff: 13564.416015625
+    explosivedamageresonance: 0.402
+    falloff: 13564.41597
     gfxboosterid: 395
     gfxturretid: 13827
     hp: 2581.25
     id: 43656
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamageresonance: 0.402
     mass: 9600000.0
     maxlockedtargets: 7
-    maxrange: 36615.69921875
+    maxrange: 36615.69995
     maxtargetrange: 73750.0
-    maxvelocity: 1273.227783203125
+    maxvelocity: 1273.22774
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1751,7 +1698,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Phantasm
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 143.0
@@ -1759,57 +1705,56 @@ types:
     scanradarstrength: 24.0
     scanresolution: 343.75
     shieldcapacity: 13059.6875
-    shieldemdamageresonance: 0.4527992010116577
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.452799204
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     shielduniformity: 1.0
-    signatureradius: 186.25689697265625
-    speed: 3258.979736328125
+    signatureradius: 186.2568958
+    speed: 3258.979779
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 19.799999237060547
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 20.336280822753906
+    thermaldamage: 19.8
+    thermaldamageresonance: 0.402
+    trackingspeed: 20.33628043
     volume: 101000.0
     warpspeedmultiplier: 3.0
   46054:
-    agility: 0.5799999833106995
-    armoremdamageresonance: 0.3293749988079071
-    armorexplosivedamageresonance: 0.5270000100135803
-    armorhp: 12009.599609375
-    armorkineticdamageresonance: 0.49406251311302185
-    armorthermaldamageresonance: 0.4281874895095825
+    agility: 0.58
+    armoremdamageresonance: 0.329375
+    armorexplosivedamageresonance: 0.527
+    armorhp: 12009.6
+    armorkineticdamageresonance: 0.4940625
+    armorthermaldamageresonance: 0.4281875
     behaviorenergyneutralizerdischarge: 120.0
     behaviorenergyneutralizerduration: 12000
     behaviorenergyneutralizerfalloff: 5000.0
     behaviorenergyneutralizerrange: 10000.0
     capacitorcapacity: 3683.5
-    capacity: 430.0
-    damagemultiplier: 22.08527946472168
+    damagemultiplier: 22.08528
     disallowassistance: 1
-    emdamage: 9.600000381469727
-    emdamageresonance: 0.4020000100135803
+    emdamage: 9.6
+    emdamageresonance: 0.402
     energyneutralizeramount: 234.0
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamageresonance: 0.4020000100135803
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamageresonance: 0.402
     falloff: 8280.0
     gfxboosterid: 397
     gfxturretid: 13799
     hp: 2325.0
     id: 46054
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.101E7
+    kineticdamageresonance: 0.402
+    mass: 11010000.0
     maxlockedtargets: 7
     maxrange: 32921.875
     maxtargetrange: 55000.0
-    maxvelocity: 335.20166015625
+    maxvelocity: 335.2016725
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1818,128 +1763,124 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Ashimmu
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 137.0
-    rechargerate: 381854.40625
+    rechargerate: 381854.4
     scanradarstrength: 19.0
     scanresolution: 340.0
     shieldcapacity: 2404.5
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 1143750.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     signatureradius: 130.0
-    speed: 4015.679931640625
+    speed: 4015.68
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 4.800000190734863
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 13.910400390625
+    thermaldamage: 4.8
+    thermaldamageresonance: 0.402
+    trackingspeed: 13.9104
     volume: 118000.0
     warpspeedmultiplier: 3.0
   46056:
-    agility: 0.6600000262260437
+    agility: 0.66
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 2640.0
     armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.48124998807907104
+    armorthermaldamageresonance: 0.48125
     behaviorecmdischarge: 80.75
     behaviorecmduration: 20000
     behaviorecmfalloff: 23400.0
     behaviorecmrange: 20800
     capacitorcapacity: 1400.0
-    capacity: 440.0
     damagemultiplier: 1.0
     disallowassistance: 1
-    emdamageresonance: 0.43549999594688416
+    emdamageresonance: 0.4355
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
     entitymissiletypeid: 27449
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamageresonance: 0.43549999594688416
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamageresonance: 0.4355
     falloff: 1.0
     gfxboosterid: 395
     hp: 2490.0
     id: 46056
-    kineticdamageresonance: 0.43549999594688416
+    kineticdamageresonance: 0.4355
     mass: 9600000.0
     maxlockedtargets: 7
     maxtargetrange: 58000.0
-    maxvelocity: 445.4280700683594
-    missiledamagemultiplier: 4.927999973297119
-    missileentityaoecloudsizemultiplier: 0.9399999976158142
-    missileentityaoevelocitymultiplier: 1.059999942779541
-    missileentityflighttimemultiplier: 1.059999942779541
-    missileentityvelocitymultiplier: 1.059999942779541
-    missilelaunchduration: 10466.400390625
+    maxvelocity: 445.4280822
+    missiledamagemultiplier: 4.928
+    missileentityaoecloudsizemultiplier: 0.94
+    missileentityaoevelocitymultiplier: 1.06
+    missileentityflighttimemultiplier: 1.06
+    missileentityvelocitymultiplier: 1.06
+    missilelaunchduration: 10466.4
     name: ♦ Gila
     optimalsigradius: 1000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 166.0
     rechargerate: 313600.0
     scangravimetricstrength: 10.0
-    scangravimetricstrengthbonus: 2.5999999046325684
-    scanladarstrengthbonus: 2.5999999046325684
-    scanmagnetometricstrengthbonus: 2.5999999046325684
-    scanradarstrengthbonus: 2.5999999046325684
+    scangravimetricstrengthbonus: 2.6
+    scanladarstrengthbonus: 2.6
+    scanmagnetometricstrengthbonus: 2.6
+    scanradarstrengthbonus: 2.6
     scanresolution: 285.0
-    shieldcapacity: 10022.400390625
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.27000001072883606
-    shieldkineticdamageresonance: 0.3240000009536743
+    shieldcapacity: 10022.4
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.27
+    shieldkineticdamageresonance: 0.324
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.4320000112056732
-    signatureradius: 214.84979248046875
+    shieldthermaldamageresonance: 0.432
+    signatureradius: 214.8497912
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     volume: 101000.0
     warpspeedmultiplier: 3.0
   46059:
-    agility: 0.47999998927116394
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.46517014503479004
+    agility: 0.48
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.465170137
     armorhp: 10368.0
-    armorkineticdamageresonance: 0.3359562158584595
-    armorthermaldamageresonance: 0.3359562158584595
-    behaviorsensordampenerdischarge: 34.20000076293945
+    armorkineticdamageresonance: 0.33595621
+    armorthermaldamageresonance: 0.33595621
+    behaviorsensordampenerdischarge: 34.2
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 60000.0
     behaviorsensordampenerrange: 30000.0
     capacitorcapacity: 1545.0
-    capacity: 450.0
-    damagemultiplier: 27.93000030517578
+    damagemultiplier: 27.93
     disallowassistance: 1
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamageresonance: 0.4020000100135803
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamageresonance: 0.402
     falloff: 15180.0
     gfxboosterid: 395
     gfxturretid: 12346
     hp: 2625.0
     id: 46059
     kineticdamage: 8.0
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamageresonance: 0.402
     mass: 9830000.0
     maxlockedtargets: 7
     maxrange: 27864.0
     maxtargetrange: 49000.0
-    maxtargetrangebonus: -15.300000190734863
-    maxvelocity: 409.6372375488281
+    maxtargetrangebonus: -15.3
+    maxvelocity: 409.6372304
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1948,65 +1889,63 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Vigilant
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 149.0
     rechargerate: 392000.0
     scanmagnetometricstrength: 20.0
     scanresolution: 300.0
-    scanresolutionbonus: -15.300000190734863
+    scanresolutionbonus: -15.3
     shieldcapacity: 2175.0
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     signatureradius: 130.0
-    speed: 4187.7001953125
+    speed: 4187.7
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 9.199999809265137
+    thermaldamageresonance: 0.402
+    trackingspeed: 9.2
     volume: 101000.0
     warpspeedmultiplier: 3.0
   46062:
-    agility: 0.44999998807907104
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.45
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.765
     armorhp: 2760.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.5525
     behaviortargetpainterdischarge: 9.5
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 90000.0
     behaviortargetpainterrange: 36000.0
     capacitorcapacity: 1415.0
-    capacity: 400.0
-    damagemultiplier: 34.53370666503906
+    damagemultiplier: 34.53370643
     disallowassistance: 1
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamage: 4.800000190734863
-    explosivedamageresonance: 0.4020000100135803
-    falloff: 33052.48046875
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamage: 4.8
+    explosivedamageresonance: 0.402
+    falloff: 33052.48224
     gfxboosterid: 395
     gfxturretid: 2921
     hp: 2065.0
     id: 46062
-    kineticdamage: 14.399999618530273
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamage: 14.4
+    kineticdamageresonance: 0.402
     mass: 9047000.0
     maxlockedtargets: 7
-    maxrange: 23296.822265625
+    maxrange: 23296.82196
     maxtargetrange: 47000.0
-    maxvelocity: 614.0535888671875
+    maxvelocity: 614.0536058
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2015,59 +1954,57 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Cynabal
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 170.0
     rechargerate: 392000.0
     scanladarstrength: 18.0
     scanresolution: 390.0
-    shieldcapacity: 8519.0400390625
+    shieldcapacity: 8519.04
     shieldemdamageresonance: 0.4921875
     shieldexplosivedamageresonance: 0.24609375
-    shieldkineticdamageresonance: 0.2953124940395355
+    shieldkineticdamageresonance: 0.2953125
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.39375001192092896
-    signatureradius: 176.93511962890625
+    shieldthermaldamageresonance: 0.39375
+    signatureradius: 176.9351221
     signatureradiusbonus: 33.0
-    speed: 6511.64697265625
+    speed: 6511.646801
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 11.982813835144043
+    thermaldamageresonance: 0.402
+    trackingspeed: 11.98281349
     volume: 101000.0
     warpspeedmultiplier: 3.0
   46067:
-    agility: 0.4300000071525574
-    armoremdamageresonance: 0.39743998646736145
-    armorexplosivedamageresonance: 0.5175284147262573
-    armorhp: 4349.70263671875
-    armorkineticdamageresonance: 0.5961599946022034
-    armorthermaldamageresonance: 0.5166720151901245
+    agility: 0.43
+    armoremdamageresonance: 0.39744
+    armorexplosivedamageresonance: 0.517528389
+    armorhp: 4349.7025
+    armorkineticdamageresonance: 0.59616
+    armorthermaldamageresonance: 0.516672
     capacitorcapacity: 1975.0
-    capacity: 400.0
     damagemultiplier: 13.375
     emdamage: 10.0
-    emdamageresonance: 0.4690000116825104
+    emdamageresonance: 0.469
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    explosivedamageresonance: 0.4690000116825104
+    explosivedamageresonance: 0.469
     falloff: 6000.0
-    falloffbonus: -15.300000190734863
+    falloffbonus: -15.3
     gfxboosterid: 394
     gfxturretid: 457
     hp: 1500.0
     id: 46067
-    kineticdamageresonance: 0.4690000116825104
-    mass: 1.3E7
+    kineticdamageresonance: 0.469
+    mass: 13000000.0
     maxlockedtargets: 6
     maxrange: 17500.0
-    maxrangebonus: -15.300000190734863
+    maxrangebonus: -15.3
     maxtargetrange: 55000.0
-    maxvelocity: 390.86541748046875
+    maxvelocity: 390.8654276
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2080,7 +2017,6 @@ types:
     npctrackingdisruptorfalloff: 20000.0
     npctrackingdisruptorrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 118000.0
     portionSize: 1
     published: false
     radius: 134.0
@@ -2088,53 +2024,52 @@ types:
     scanradarstrength: 15.0
     scanresolution: 300.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.925000011920929
-    shieldexplosivedamageresonance: 0.4625000059604645
-    shieldkineticdamageresonance: 0.5550000071525574
+    shieldemdamageresonance: 0.925
+    shieldexplosivedamageresonance: 0.4625
+    shieldkineticdamageresonance: 0.555
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.7400000095367432
+    shieldthermaldamageresonance: 0.74
     signatureradius: 115.0
-    speed: 4327.68017578125
+    speed: 4327.68
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    thermaldamageresonance: 0.4690000116825104
-    trackingspeed: 12.095999717712402
-    trackingspeedbonus: -15.300000190734863
+    thermaldamageresonance: 0.469
+    trackingspeed: 12.096
+    trackingspeedbonus: -15.3
     volume: 118000.0
     warpspeedmultiplier: 3.0
   46071:
-    agility: 0.4699999988079071
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8100000023841858
+    agility: 0.47
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.81
     armorhp: 1320.0
-    armorkineticdamageresonance: 0.675000011920929
-    armorthermaldamageresonance: 0.4950000047683716
+    armorkineticdamageresonance: 0.675
+    armorthermaldamageresonance: 0.495
     behaviorecmdischarge: 72.0
     behaviorecmduration: 20000
     behaviorecmfalloff: 18000.0
     behaviorecmrange: 16000
     capacitorcapacity: 1250.0
-    capacity: 450.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4690000116825104
+    emdamageresonance: 0.469
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
     entitymissiletypeid: 209
-    explosivedamageresonance: 0.4690000116825104
+    explosivedamageresonance: 0.469
     falloff: 1.0
     gfxboosterid: 395
     hp: 1400.0
     id: 46071
-    kineticdamageresonance: 0.4690000116825104
-    mass: 1.191E7
+    kineticdamageresonance: 0.469
+    mass: 11910000.0
     maxlockedtargets: 6
     maxtargetrange: 57500.0
-    maxvelocity: 464.6244812011719
-    missiledamagemultiplier: 5.349999904632568
+    maxvelocity: 464.6244826
+    missiledamagemultiplier: 5.35
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -2142,7 +2077,6 @@ types:
     missilelaunchduration: 13800.0
     name: ♦ Caracal
     optimalsigradius: 1000
-    packagedVolume: 92000.0
     portionSize: 1
     published: false
     radius: 202.0
@@ -2154,51 +2088,50 @@ types:
     scanradarstrengthbonus: 2.0
     scanresolution: 270.0
     shieldcapacity: 3802.1875
-    shieldemdamageresonance: 0.6243749856948853
-    shieldexplosivedamageresonance: 0.4625000059604645
-    shieldkineticdamageresonance: 0.5550000071525574
+    shieldemdamageresonance: 0.624375
+    shieldexplosivedamageresonance: 0.4625
+    shieldkineticdamageresonance: 0.555
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.49950000643730164
-    signatureradius: 166.8245391845703
+    shieldthermaldamageresonance: 0.4995
+    signatureradius: 166.8245437
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4690000116825104
+    thermaldamageresonance: 0.469
     volume: 92000.0
     warpspeedmultiplier: 3.0
   46075:
-    agility: 0.49000000953674316
-    armoremdamageresonance: 0.414000004529953
-    armorexplosivedamageresonance: 0.6029447913169861
+    agility: 0.49
+    armoremdamageresonance: 0.414
+    armorexplosivedamageresonance: 0.60294482
     armorhp: 3636.875
-    armorkineticdamageresonance: 0.5382000207901001
-    armorthermaldamageresonance: 0.5382000207901001
+    armorkineticdamageresonance: 0.5382
+    armorthermaldamageresonance: 0.5382
     behaviorsensordampenerdischarge: 30.0
     behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 50000.0
     behaviorsensordampenerrange: 25000.0
     capacitorcapacity: 1450.0
-    capacity: 465.0
-    damagemultiplier: 13.535499572753906
-    emdamageresonance: 0.4690000116825104
+    damagemultiplier: 13.5355
+    emdamageresonance: 0.469
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    explosivedamageresonance: 0.4690000116825104
+    explosivedamageresonance: 0.469
     falloff: 10000.0
     gfxboosterid: 394
     gfxturretid: 12344
     hp: 1600.0
     id: 46075
     kineticdamage: 10.0
-    kineticdamageresonance: 0.4690000116825104
-    mass: 1.128E7
+    kineticdamageresonance: 0.469
+    mass: 11280000.0
     maxlockedtargets: 6
     maxrange: 18000.0
     maxtargetrange: 52500.0
-    maxtargetrangebonus: -13.699999809265137
-    maxvelocity: 401.8070373535156
+    maxtargetrangebonus: -13.7
+    maxvelocity: 401.8070382
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2207,62 +2140,60 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Thorax
     optimalsigradius: 40000
-    packagedVolume: 112000.0
     portionSize: 1
     published: false
     radius: 149.0
     rechargerate: 373532.5
     scanmagnetometricstrength: 15.0
     scanresolution: 280.0
-    scanresolutionbonus: -13.699999809265137
+    scanresolutionbonus: -13.7
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.925000011920929
-    shieldexplosivedamageresonance: 0.4625000059604645
-    shieldkineticdamageresonance: 0.5550000071525574
+    shieldemdamageresonance: 0.925
+    shieldexplosivedamageresonance: 0.4625
+    shieldkineticdamageresonance: 0.555
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.7400000095367432
+    shieldthermaldamageresonance: 0.74
     signatureradius: 120.0
-    speed: 4016.6279296875
+    speed: 4016.628
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    thermaldamageresonance: 0.4690000116825104
+    thermaldamageresonance: 0.469
     trackingspeed: 8.0
     volume: 112000.0
     warpspeedmultiplier: 3.0
   46079:
     agility: 0.5
-    armoremdamageresonance: 0.36000001430511475
-    armorexplosivedamageresonance: 0.8100000023841858
+    armoremdamageresonance: 0.36
+    armorexplosivedamageresonance: 0.81
     armorhp: 1980.0
-    armorkineticdamageresonance: 0.675000011920929
-    armorthermaldamageresonance: 0.5849999785423279
+    armorkineticdamageresonance: 0.675
+    armorthermaldamageresonance: 0.585
     behaviortargetpainterdischarge: 10.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 75000.0
     behaviortargetpainterrange: 30000.0
     capacitorcapacity: 1275.0
-    capacity: 450.0
-    damagemultiplier: 19.77359962463379
-    emdamageresonance: 0.4690000116825104
+    damagemultiplier: 19.7736
+    emdamageresonance: 0.469
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 2
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    explosivedamageresonance: 0.4690000116825104
+    explosivedamageresonance: 0.469
     falloff: 20037.5
     gfxboosterid: 397
     gfxturretid: 492
     hp: 1500.0
     id: 46079
     kineticdamage: 4.0
-    kineticdamageresonance: 0.4690000116825104
-    mass: 1.22E7
+    kineticdamageresonance: 0.469
+    mass: 12200000.0
     maxlockedtargets: 6
     maxrange: 8633.625
     maxtargetrange: 50000.0
-    maxvelocity: 420.6104736328125
+    maxvelocity: 420.6104651
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2271,7 +2202,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Rupture
     optimalsigradius: 40000
-    packagedVolume: 96000.0
     portionSize: 1
     published: false
     radius: 88.0
@@ -2279,105 +2209,102 @@ types:
     scanladarstrength: 15.0
     scanresolution: 290.0
     shieldcapacity: 3041.75
-    shieldemdamageresonance: 0.5068112015724182
-    shieldexplosivedamageresonance: 0.34687501192092896
-    shieldkineticdamageresonance: 0.41624999046325684
+    shieldemdamageresonance: 0.506811203
+    shieldexplosivedamageresonance: 0.346875
+    shieldkineticdamageresonance: 0.41625
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.5550000071525574
-    signatureradius: 166.8245391845703
+    shieldthermaldamageresonance: 0.555
+    signatureradius: 166.8245437
     signatureradiusbonus: 25.0
-    speed: 10345.8603515625
+    speed: 10345.86
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    thermaldamageresonance: 0.4690000116825104
-    trackingspeed: 8.936639785766602
+    thermaldamageresonance: 0.469
+    trackingspeed: 8.93664
     volume: 96000.0
     warpspeedmultiplier: 3.0
   46581:
-    agility: 0.31725001335144043
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.31725
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     capacitorcapacity: 1562.5
-    capacity: 450.0
     damagemultiplier: 1.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
     entitymissiletypeid: 27407
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 1.0
     gfxboosterid: 395
     hp: 1750.0
     id: 46581
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.191E7
+    kineticdamageresonance: 0.402
+    mass: 11910000.0
     maxlockedtargets: 6
     maxtargetrange: 71875.0
-    maxvelocity: 717.857421875
-    missiledamagemultiplier: 8.220000267028809
-    missileentityaoecloudsizemultiplier: 0.6520000100135803
-    missileentityaoevelocitymultiplier: 1.7079999446868896
-    missileentityflighttimemultiplier: 1.6660000085830688
-    missileentityvelocitymultiplier: 2.499000072479248
-    missilelaunchduration: 2613.21142578125
+    maxvelocity: 717.8574069
+    missiledamagemultiplier: 8.22
+    missileentityaoecloudsizemultiplier: 0.652
+    missileentityaoevelocitymultiplier: 1.708
+    missileentityflighttimemultiplier: 1.666
+    missileentityvelocitymultiplier: 2.499
+    missilelaunchduration: 2613.211457
     name: ♦ Caracal
     optimalsigradius: 1000
-    packagedVolume: 92000.0
     portionSize: 1
     published: false
     radius: 202.0
     rechargerate: 333750.0
-    scangravimetricstrength: 19.200000762939453
+    scangravimetricstrength: 19.2
     scanresolution: 337.5
-    shieldcapacity: 13117.546875
-    shieldemdamageresonance: 0.39375001192092896
+    shieldcapacity: 13117.54687
+    shieldemdamageresonance: 0.39375
     shieldexplosivedamageresonance: 0.4375
-    shieldkineticdamageresonance: 0.5249999761581421
+    shieldkineticdamageresonance: 0.525
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.699999988079071
-    signatureradius: 197.205078125
+    shieldthermaldamageresonance: 0.7
+    signatureradius: 197.2050789
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 92000.0
     warpspeedmultiplier: 3.0
   46760:
-    agility: 0.35100001096725464
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.351
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     capacitorcapacity: 2625.0
-    capacity: 450.0
-    damagemultiplier: 35.92040252685547
-    emdamageresonance: 0.4020000100135803
+    damagemultiplier: 35.92040358
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 500.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamageresonance: 0.4020000100135803
-    falloff: 19074.640625
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamageresonance: 0.402
+    falloff: 19074.63994
     gfxboosterid: 395
     gfxturretid: 12346
     hp: 1875.0
     id: 46760
-    kineticdamage: 16.799999237060547
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.2E7
+    kineticdamage: 16.8
+    kineticdamageresonance: 0.402
+    mass: 12000000.0
     maxlockedtargets: 7
-    maxrange: 16874.30859375
+    maxrange: 16874.30877
     maxtargetrange: 68750.0
-    maxvelocity: 564.9356689453125
+    maxvelocity: 564.9356618
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2386,41 +2313,39 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Moa
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 166.0
     rechargerate: 367500.0
-    scangravimetricstrength: 20.399999618530273
-    scangravimetricstrengthbonus: 2.5999999046325684
-    scanladarstrengthbonus: 2.5999999046325684
-    scanmagnetometricstrengthbonus: 2.5999999046325684
-    scanradarstrengthbonus: 2.5999999046325684
+    scangravimetricstrength: 20.4
+    scangravimetricstrengthbonus: 2.6
+    scanladarstrengthbonus: 2.6
+    scanmagnetometricstrengthbonus: 2.6
+    scanradarstrengthbonus: 2.6
     scanresolution: 325.0
     shieldcapacity: 8430.9375
-    shieldemdamageresonance: 0.36223936080932617
-    shieldexplosivedamageresonance: 0.24500000476837158
-    shieldkineticdamageresonance: 0.2939999997615814
+    shieldemdamageresonance: 0.362239363
+    shieldexplosivedamageresonance: 0.245
+    shieldkineticdamageresonance: 0.294
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.3919999897480011
-    signatureradius: 180.30178833007812
-    speed: 2608.819580078125
+    shieldthermaldamageresonance: 0.392
+    signatureradius: 180.3017864
+    speed: 2608.819505
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 10.949999809265137
+    thermaldamageresonance: 0.402
+    trackingspeed: 10.95
     volume: 101000.0
     warpspeedmultiplier: 3.0
   48583:
-    armoremdamageresonance: 0.0010000000474974513
-    armorexplosivedamageresonance: 0.0010000000474974513
+    armoremdamageresonance: 0.001
+    armorexplosivedamageresonance: 0.001
     armorhp: 1000000.0
-    armorkineticdamageresonance: 0.0010000000474974513
-    armorthermaldamageresonance: 0.0010000000474974513
+    armorkineticdamageresonance: 0.001
+    armorthermaldamageresonance: 0.001
     armoruniformity: 0.75
     capacitorcapacity: 100000.0
-    capacity: 900.0
     damagemultiplier: 250.0
     disallowassistance: 1
     emdamage: 75.0
@@ -2429,7 +2354,7 @@ types:
     entityattackrange: 250000
     entitychasemaxdistance: 20000
     entitycruisespeed: 800.0
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 10000.0
     explosivedamage: 75.0
     explosivedamageresonance: 1.0
@@ -2440,7 +2365,7 @@ types:
     id: 48583
     kineticdamage: 75.0
     kineticdamageresonance: 1.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxvelocity: 8000.0
@@ -2452,7 +2377,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ DED Special Operation Captain
     optimalsigradius: 100
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -2464,11 +2388,11 @@ types:
     scanradarstrength: 1000.0
     scanresolution: 1000.0
     shieldcapacity: 1000000.0
-    shieldemdamageresonance: 0.0010000000474974513
-    shieldexplosivedamageresonance: 0.0010000000474974513
-    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldemdamageresonance: 0.001
+    shieldexplosivedamageresonance: 0.001
+    shieldkineticdamageresonance: 0.001
     shieldrechargerate: 100000.0
-    shieldthermaldamageresonance: 0.0010000000474974513
+    shieldthermaldamageresonance: 0.001
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
@@ -2481,34 +2405,33 @@ types:
     warpscramblestatus: -1000
     warpspeedmultiplier: 15.0
   57584:
-    agility: 1.1799999475479126
-    armoremdamageresonance: 0.3190000057220459
-    armorexplosivedamageresonance: 0.3179999887943268
+    agility: 1.18
+    armoremdamageresonance: 0.319
+    armorexplosivedamageresonance: 0.318
     armorhp: 11339.0
-    armorkineticdamageresonance: 0.1550000011920929
-    armorthermaldamageresonance: 0.2590000033378601
+    armorkineticdamageresonance: 0.155
+    armorthermaldamageresonance: 0.259
     behaviorwarpdisruptdischarge: 15.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 56000
     behaviorwarpdisruptstrength: 1
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 10.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 15000.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 1400.0
     id: 57584
     kineticdamage: 6.0
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.25E7
+    kineticdamageresonance: 0.402
+    mass: 12500000.0
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -2521,7 +2444,6 @@ types:
     missilelaunchduration: 20000.0
     name: AEGIS Security Enforcer
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2530,48 +2452,47 @@ types:
     scanresolution: 540.0
     shieldcapacity: 1687.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.43799999356269836
-    shieldkineticdamageresonance: 0.19699999690055847
+    shieldexplosivedamageresonance: 0.438
+    shieldkineticdamageresonance: 0.197
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.43799999356269836
+    shieldthermaldamageresonance: 0.438
     signatureradius: 900.0
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     trackingspeed: 250.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
   59175:
-    agility: 0.41850000619888306
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.6800000071525574
+    agility: 0.4185
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.68
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 2250.0
-    capacity: 410.0
-    damagemultiplier: 5.599999904632568
+    damagemultiplier: 5.6
     emdamage: 33.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityflyrange: 500.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
-    explosivedamageresonance: 0.4020000100135803
+    entitysecuritystatuskillbonus: 0.01
+    explosivedamageresonance: 0.402
     falloff: 9000.0
     gfxboosterid: 395
     gfxturretid: 13827
     hp: 1720.0
     id: 59175
-    kineticdamageresonance: 0.4020000100135803
+    kineticdamageresonance: 0.402
     mass: 9600000.0
     maxlockedtargets: 7
     maxrange: 36600.0
     maxtargetrange: 73750.0
-    maxvelocity: 1273.227783203125
+    maxvelocity: 1273.22774
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -2580,7 +2501,6 @@ types:
     missilelaunchduration: 20000.0
     name: ♦ Phantasm
     optimalsigradius: 40000
-    packagedVolume: 101000.0
     portionSize: 1
     published: false
     radius: 143.0
@@ -2588,47 +2508,46 @@ types:
     scanradarstrength: 24.0
     scanresolution: 343.75
     shieldcapacity: 8700.0
-    shieldemdamageresonance: 0.4527992010116577
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.452799204
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     shielduniformity: 1.0
-    signatureradius: 186.25689697265625
-    speed: 3258.979736328125
+    signatureradius: 186.2568958
+    speed: 3258.979779
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 19.799999237060547
-    thermaldamageresonance: 0.4020000100135803
-    trackingspeed: 20.336280822753906
+    thermaldamage: 19.8
+    thermaldamageresonance: 0.402
+    trackingspeed: 20.33628043
     volume: 101000.0
     warpspeedmultiplier: 3.0
   59585:
-    agility: 1.1799999475479126
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.5699999928474426
+    agility: 1.18
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.57
     armorhp: 2250.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.5699999928474426
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.57
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 35.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
     explosivedamage: 25.0
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 35000.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 750.0
     id: 59585
     kineticdamage: 10.0
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.25E7
+    kineticdamageresonance: 0.402
+    mass: 12500000.0
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -2643,7 +2562,6 @@ types:
     npcdronebandwidth: 5
     npcdronecapacity: 15
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2651,50 +2569,49 @@ types:
     scangravimetricstrength: 42.0
     scanresolution: 400.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.4399999976158142
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.4399999976158142
+    shieldemdamageresonance: 0.44
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.44
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4399999976158142
+    shieldthermaldamageresonance: 0.44
     signatureradius: 145.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     trackingspeed: 1000.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60143:
-    agility: 1.1799999475479126
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.5699999928474426
+    agility: 1.18
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.57
     armorhp: 2250.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.5699999928474426
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.57
     behaviorenergyneutralizerdischarge: 150.0
     behaviorenergyneutralizerduration: 5000
     behaviorenergyneutralizerfalloff: 15000.0
     behaviorenergyneutralizerrange: 5000.0
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 25.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energyneutralizeramount: 180.0
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
     explosivedamage: 25.0
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 35000.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 750.0
     id: 60143
     kineticdamage: 10.0
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.25E7
+    kineticdamageresonance: 0.402
+    mass: 12500000.0
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -2709,7 +2626,6 @@ types:
     npcdronebandwidth: 5
     npcdronecapacity: 15
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2717,49 +2633,48 @@ types:
     scangravimetricstrength: 42.0
     scanresolution: 400.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.4399999976158142
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.4399999976158142
+    shieldemdamageresonance: 0.44
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.44
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4399999976158142
+    shieldthermaldamageresonance: 0.44
     signatureradius: 145.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     trackingspeed: 1000.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60153:
-    agility: 1.1799999475479126
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.5699999928474426
+    agility: 1.18
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.57
     armorhp: 2250.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.5699999928474426
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.57
     behaviorecmdischarge: 63.75
     behaviorecmduration: 20000
     behaviorecmfalloff: 35000.0
     behaviorecmrange: 30000
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 25.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     energywarfareresistance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
     explosivedamage: 25.0
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     falloff: 35000.0
     gfxboosterid: 394
     gfxturretid: 14272
     hp: 750.0
     id: 60153
     kineticdamage: 10.0
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.25E7
+    kineticdamageresonance: 0.402
+    mass: 12500000.0
     maxlockedtargets: 10
     maxrange: 65000.0
     maxtargetrange: 120000.0
@@ -2774,7 +2689,6 @@ types:
     npcdronebandwidth: 5
     npcdronecapacity: 15
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2782,28 +2696,27 @@ types:
     scangravimetricstrength: 42.0
     scanresolution: 400.0
     shieldcapacity: 5500.0
-    shieldemdamageresonance: 0.4399999976158142
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.4399999976158142
+    shieldemdamageresonance: 0.44
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.44
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4399999976158142
+    shieldthermaldamageresonance: 0.44
     signatureradius: 145.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     trackingspeed: 1000.0
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60323:
-    agility: 1.2999999523162842
-    armoremdamageresonance: 0.20000000298023224
+    agility: 1.3
+    armoremdamageresonance: 0.2
     armorexplosivedamageresonance: 0.5
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.25
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 20.0
     emdamageresonance: 0.5
     energywarfareresistance: 1.0
@@ -2818,7 +2731,7 @@ types:
     id: 60323
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
-    mass: 1.25E7
+    mass: 12500000.0
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -2831,7 +2744,6 @@ types:
     missilelaunchduration: 20000.0
     name: AEGIS Security Demilancer
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2840,10 +2752,10 @@ types:
     scanresolution: 540.0
     shieldcapacity: 3500.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.2
     shieldkineticdamageresonance: 0.25
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     signatureradius: 900.0
     speed: 4000.0
     speedfactor: 1.0
@@ -2854,18 +2766,17 @@ types:
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60324:
-    agility: 1.2999999523162842
-    armoremdamageresonance: 0.20000000298023224
+    agility: 1.3
+    armoremdamageresonance: 0.2
     armorexplosivedamageresonance: 0.5
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.25
     behaviorenergyneutralizerdischarge: 150.0
     behaviorenergyneutralizerduration: 5000
     behaviorenergyneutralizerfalloff: 15000.0
     behaviorenergyneutralizerrange: 5000.0
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 20.0
     emdamageresonance: 0.5
     energyneutralizeramount: 180.0
@@ -2881,7 +2792,7 @@ types:
     id: 60324
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
-    mass: 1.25E7
+    mass: 12500000.0
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -2894,7 +2805,6 @@ types:
     missilelaunchduration: 20000.0
     name: AEGIS Security Picador
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2903,10 +2813,10 @@ types:
     scanresolution: 540.0
     shieldcapacity: 3500.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.2
     shieldkineticdamageresonance: 0.25
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     signatureradius: 900.0
     speed: 4000.0
     speedfactor: 1.0
@@ -2917,18 +2827,17 @@ types:
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60325:
-    agility: 1.2999999523162842
-    armoremdamageresonance: 0.20000000298023224
+    agility: 1.3
+    armoremdamageresonance: 0.2
     armorexplosivedamageresonance: 0.5
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.25
     behaviorwarpdisruptdischarge: 15.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 56000
     behaviorwarpdisruptstrength: 1
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 20.0
     emdamageresonance: 0.5
     energywarfareresistance: 1.0
@@ -2943,7 +2852,7 @@ types:
     id: 60325
     kineticdamage: 15.0
     kineticdamageresonance: 0.5
-    mass: 1.25E7
+    mass: 12500000.0
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -2956,7 +2865,6 @@ types:
     missilelaunchduration: 20000.0
     name: AEGIS Security Gendarme
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -2965,10 +2873,10 @@ types:
     scanresolution: 540.0
     shieldcapacity: 3500.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.2
     shieldkineticdamageresonance: 0.25
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     signatureradius: 900.0
     speed: 4000.0
     speedfactor: 1.0
@@ -2979,14 +2887,13 @@ types:
     volume: 116000.0
     warpspeedmultiplier: 3.0
   60725:
-    agility: 1.2999999523162842
-    armoremdamageresonance: 0.4000000059604645
+    agility: 1.3
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 1666.0
-    armorkineticdamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
     armorthermaldamageresonance: 0.5
     capacitorcapacity: 1642.0
-    capacity: 300.0
     damagemultiplier: 30.0
     emdamageresonance: 1.0
     energywarfareresistance: 1.0
@@ -3001,7 +2908,7 @@ types:
     id: 60725
     kineticdamage: 15.0
     kineticdamageresonance: 1.0
-    mass: 1.25E7
+    mass: 12500000.0
     maxlockedtargets: 9
     maxrange: 72000.0
     maxtargetrange: 175000.0
@@ -3014,7 +2921,6 @@ types:
     missilelaunchduration: 20000.0
     name: AEGIS Fireteam Culverin
     optimalsigradius: 40000
-    packagedVolume: 116000.0
     portionSize: 1
     published: false
     radius: 200.0
@@ -3023,10 +2929,10 @@ types:
     scanresolution: 540.0
     shieldcapacity: 1666.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 3750000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 900.0
     speed: 4000.0
     speedfactor: 1.0

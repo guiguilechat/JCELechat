@@ -1,13 +1,12 @@
 types:
   85084:
     canfitshiptype1: 85087
-    capacity: 4.0
     chargegroup1: 4808
     chargerate: 1
     chargesize: 1
     cpu: 5.0
     disallowrepeatingactivation: 1
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 85084
@@ -15,12 +14,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Small Breacher Pod Launcher
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 30000.0
     requiredskill1: 86260
     requiredskill1level: 1
@@ -31,26 +28,23 @@ types:
     volume: 5.0
   85085:
     canfitshiptype1: 85086
-    capacity: 25.0
     chargegroup1: 4808
     chargerate: 1
     chargesize: 2
     cpu: 10.0
     disallowrepeatingactivation: 1
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.2
     hp: 40.0
     id: 85085
     marketGroup: 3726
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Medium Breacher Pod Launcher
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 30000.0
     requiredskill1: 86260
     requiredskill1level: 2

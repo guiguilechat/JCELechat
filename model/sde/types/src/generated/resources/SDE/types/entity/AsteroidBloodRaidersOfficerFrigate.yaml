@@ -6,26 +6,25 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.3
     armorhp: 2000.0
-    armorkineticdamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 500.0
-    capacity: 130.0
     damagemultiplier: 17.0
     disallowassistance: 1
-    emdamage: 8.899999618530273
-    emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 96.19999694824219
+    emdamage: 8.9
+    emdamageresonance: 0.67
+    energyneutralizeramount: 96.2
     energyneutralizerduration: 6000
     energyneutralizerentitychance: 1.0
     energyneutralizerrangefalloff: 2500
     energyneutralizerrangeoptimal: 5000
     entityarmorrepairamount: 80.0
-    entityarmorrepairdelaychancesmall: 0.17000000178813934
+    entityarmorrepairdelaychancesmall: 0.17
     entityarmorrepairduration: 5000
     entityattackdelaymax: 10000
     entityattackdelaymin: 5000
@@ -39,24 +38,24 @@ types:
     entitycruisespeed: 1107.0
     entityequipmentmax: 7
     entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3899.0
     entitygrouprespawnchance: 1
     entitykillbounty: 5000000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.8700000047683716
+    entityreactionfactor: 0.87
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.2750000059604645
-    entitywarpscramblechance: 0.800000011920929
-    explosivedamageresonance: 0.6700000166893005
+    entitysecuritystatuskillbonus: 0.275
+    entitywarpscramblechance: 0.8
+    explosivedamageresonance: 0.67
     falloff: 3125.0
     gfxboosterid: 397
     gfxturretid: 453
     hp: 825.0
     id: 84945
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 950000.0
     maxattacktargets: 1
     maxlockedtargets: 3
@@ -67,7 +66,6 @@ types:
     modifytargetspeedrange: 34000
     name: Makra Ozman
     optimalsigradius: 40000
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -76,9 +74,9 @@ types:
     scanradarstrength: 15.0
     scanresolution: 800.0
     shieldcapacity: 750.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -86,10 +84,10 @@ types:
     speed: 3000.0
     speedfactor: -55.0
     structureuniformity: 1.0
-    thermaldamage: 8.899999618530273
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamage: 8.9
+    thermaldamageresonance: 0.67
     trackingspeed: 1000.0
-    volume: 1.9E7
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1

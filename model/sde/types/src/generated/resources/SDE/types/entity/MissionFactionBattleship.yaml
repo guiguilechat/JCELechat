@@ -1,19 +1,18 @@
 types:
   29236:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.3
     armorhp: 4250.0
-    armorkineticdamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 235.0
     damagemultiplier: 6.25
     disallowassistance: 1
     emdamage: 16.0
     entityarmorrepairamount: 350.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairdelaychancelarge: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15600
     entityattackdelaymin: 3900
@@ -25,39 +24,38 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.10499999672174454
+    entitydefenderchance: 0.105
     entityequipmentmax: 4
     entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 14000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancelarge: 0.6499999761581421
+    entityshieldboostdelaychancelarge: 0.65
     entityshieldboostduration: 5000
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 460
     hp: 3975.0
     id: 29236
-    mass: 2.05E7
+    mass: 20500000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxrange: 12500.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
+    missileentityaoecloudsizemultiplier: 0.7869
+    missileentityaoevelocitymultiplier: 1.4262
+    missileentityflighttimemultiplier: 1.4262
+    missileentityvelocitymultiplier: 1.4262
     missilelaunchduration: 1.0
     name: Amarr Battleship Vessel
     optimalsigradius: 400
-    packagedVolume: 1100000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -67,9 +65,9 @@ types:
     scanresolution: 110.0
     scanspeed: 7500
     shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -77,23 +75,22 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.029999999329447746
+    trackingspeed: 0.03
     volume: 1100000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
   29237:
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.4
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 235.0
-    damagemultiplier: 3.3333332538604736
+    damagemultiplier: 3.333333333
     disallowassistance: 1
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancelarge: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 14400
     entityattackdelaymin: 3600
@@ -105,20 +102,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.10499999672174454
+    entitydefenderchance: 0.105
     entityequipmentmax: 4
     entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 27000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 175.0
-    entityshieldboostdelaychance: 0.6499999761581421
-    entityshieldboostdelaychancelarge: 0.6499999761581421
+    entityshieldboostdelaychance: 0.65
+    entityshieldboostdelaychancelarge: 0.65
     entityshieldboostduration: 5000
     falloff: 12000.0
     gfxboosterid: 395
@@ -126,20 +123,19 @@ types:
     hp: 3500.0
     id: 29237
     kineticdamage: 16.0
-    mass: 2.1E7
+    mass: 21000000.0
     maxdirectionalvelocity: 1000
     maxrange: 24000.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 2.065500020980835
-    missileentityvelocitymultiplier: 2.065500020980835
+    missileentityaoecloudsizemultiplier: 0.7869
+    missileentityaoevelocitymultiplier: 1.4262
+    missileentityflighttimemultiplier: 2.0655
+    missileentityvelocitymultiplier: 2.0655
     missilelaunchduration: 12000.0
     name: Caldari Battleship Vessel
     optimalsigradius: 400
-    packagedVolume: 1040000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -149,9 +145,9 @@ types:
     scanresolution: 100.0
     scanspeed: 9000
     shieldcapacity: 4250.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.3
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -159,7 +155,7 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.017500000074505806
+    trackingspeed: 0.0175
     volume: 1040000.0
     warpscramblerange: 22500
     warpscramblestrength: 2
@@ -167,18 +163,17 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.3
     armorhp: 3975.0
-    armorkineticdamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 480.0
-    damagemultiplier: 7.208333492279053
+    damagemultiplier: 7.208333333
     disallowassistance: 1
     entityarmorrepairamount: 350.0
-    entityarmorrepairdelaychancelarge: 0.6499999761581421
+    entityarmorrepairdelaychancelarge: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15600
     entityattackdelaymin: 3900
@@ -190,15 +185,15 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.20999999344348907
+    entitydefenderchance: 0.21
     entityequipmentmax: 4
     entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 5500.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -208,7 +203,7 @@ types:
     hp: 4250.0
     id: 29240
     kineticdamage: 12.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxrange: 4000.0
@@ -222,7 +217,6 @@ types:
     missilelaunchduration: 20000.0
     name: Gallente Battleship Vessel
     optimalsigradius: 400
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -231,9 +225,9 @@ types:
     scanmagnetometricstrength: 22.0
     scanresolution: 105.0
     shieldcapacity: 3500.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -241,17 +235,16 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 16.0
-    trackingspeed: 0.05000000074505806
+    trackingspeed: 0.05
     volume: 1010000.0
   29243:
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.6000000238418579
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.6
     armorhp: 3500.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 2500.0
-    capacity: 120.0
     damagemultiplier: 5.0
     disallowassistance: 1
     entityarmorrepairamount: 350.0
@@ -267,20 +260,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.10499999672174454
+    entitydefenderchance: 0.105
     entityequipmentmax: 4
     entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 7200.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 205
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 175.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancelarge: 0.6000000238418579
+    entityshieldboostdelaychancelarge: 0.6
     entityshieldboostduration: 5000
     explosivedamage: 32.0
     falloff: 16000.0
@@ -289,21 +282,20 @@ types:
     hp: 4500.0
     id: 29243
     kineticdamage: 8.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxrange: 3200.0
     maxvelocity: 350.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
+    missileentityaoecloudsizemultiplier: 0.7869
+    missileentityaoevelocitymultiplier: 1.4262
+    missileentityflighttimemultiplier: 1.4262
+    missileentityvelocitymultiplier: 1.4262
     missilelaunchduration: 1.0
     name: Minmatar Battleship Vessel
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -313,28 +305,27 @@ types:
     scanresolution: 115.0
     scanspeed: 6750
     shieldcapacity: 3975.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.3
+    shieldexplosivedamageresonance: 0.6
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
     signatureradius: 320.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.05400000140070915
-    volume: 1.9E7
+    trackingspeed: 0.054
+    volume: 19000000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
   32784:
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.6000000238418579
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.6
     armorhp: 3500.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 2500.0
-    capacity: 120.0
     damagemultiplier: 5.0
     disallowassistance: 1
     entityarmorrepairamount: 350.0
@@ -350,20 +341,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.10499999672174454
+    entitydefenderchance: 0.105
     entityequipmentmax: 4
     entityequipmentmin: -3
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 7200.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 205
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 175.0
     entityshieldboostdelaychance: 1.0
-    entityshieldboostdelaychancelarge: 0.6000000238418579
+    entityshieldboostdelaychancelarge: 0.6
     entityshieldboostduration: 5000
     explosivedamage: 32.0
     falloff: 16000.0
@@ -372,21 +363,20 @@ types:
     hp: 4500.0
     id: 32784
     kineticdamage: 8.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxrange: 3200.0
     maxvelocity: 350.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
+    missileentityaoecloudsizemultiplier: 0.7869
+    missileentityaoevelocitymultiplier: 1.4262
+    missileentityflighttimemultiplier: 1.4262
+    missileentityvelocitymultiplier: 1.4262
     missilelaunchduration: 1.0
     name: Karsten Lundham's Typhoon
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -405,7 +395,7 @@ types:
     signatureradius: 320.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.05400000140070915
-    volume: 1.9E7
+    trackingspeed: 0.054
+    volume: 19000000.0
     warpscramblerange: 20000
     warpscramblestrength: 2

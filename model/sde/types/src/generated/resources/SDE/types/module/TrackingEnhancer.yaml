@@ -10,11 +10,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Tracking Enhancer'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -29,11 +27,9 @@ types:
     mass: 20.0
     maxrangebonus: 7.25
     name: Tracking Enhancer I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -49,11 +45,9 @@ types:
     maxrangebonus: 10.0
     metalevelold: 5
     name: Tracking Enhancer II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
     techlevel: 2
@@ -69,11 +63,9 @@ types:
     maxrangebonus: 8.25
     metalevelold: 1
     name: Fourier Compact Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -90,11 +82,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -111,11 +101,9 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Mizuro's Modified Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -132,11 +120,9 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -153,11 +139,9 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Gotan's Modified Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -174,11 +158,9 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -195,11 +177,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Tracking Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1

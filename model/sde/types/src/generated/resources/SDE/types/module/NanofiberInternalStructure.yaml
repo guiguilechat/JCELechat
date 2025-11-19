@@ -9,13 +9,12 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Nanofiber Internal Structure'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3392
     requiredskill1level: 1
-    structurehpmultiplier: 0.949999988079071
+    structurehpmultiplier: 0.95
     techlevel: 1
     volume: 5.0
   2603:
@@ -26,13 +25,12 @@ types:
     marketGroup: 1196
     mass: 100.0
     name: Nanofiber Internal Structure I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0
   2605:
@@ -44,13 +42,12 @@ types:
     mass: 100.0
     metalevelold: 5
     name: Nanofiber Internal Structure II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 2
-    structurehpmultiplier: 0.800000011920929
+    structurehpmultiplier: 0.8
     techlevel: 2
     volume: 5.0
   5599:
@@ -62,13 +59,12 @@ types:
     mass: 100.0
     metalevelold: 1
     name: Type-D Restrained Nanofiber Structure
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8999999761581421
+    structurehpmultiplier: 0.9
     techlevel: 1
     volume: 5.0
   14127:
@@ -81,13 +77,12 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Nanofiber Structure
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0
   15813:
@@ -100,13 +95,12 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Nanofiber Structure
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0
   21500:
@@ -119,12 +113,11 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Synthetic Hull Conversion Nanofiber Structure
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 50.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8999999761581421
+    structurehpmultiplier: 0.9
     techlevel: 1
     volume: 5.0

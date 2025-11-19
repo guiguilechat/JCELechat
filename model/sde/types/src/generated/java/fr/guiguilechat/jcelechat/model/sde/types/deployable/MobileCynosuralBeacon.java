@@ -16,11 +16,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCovert;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -30,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -128,7 +125,7 @@ public class MobileCynosuralBeacon
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldUniformity.INSTANCE, IsCovert.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldUniformity.INSTANCE, IsCovert.INSTANCE, TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final MobileCynosuralBeacon.MetaGroup METAGROUP = new MobileCynosuralBeacon.MetaGroup();
 
     @Override

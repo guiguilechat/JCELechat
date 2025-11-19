@@ -4,21 +4,17 @@ types:
     industryblueprintrank: 9.0
     marketGroup: 1716
     name: Survey Probe Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33273:
     id: 33273
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Survey Probe Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

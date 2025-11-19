@@ -1,13 +1,12 @@
 types:
   1611:
     accuracymultiplier: 1.0
-    cpumultiplier: 0.800000011920929
+    cpumultiplier: 0.8
     id: 1611
     miningamountmultiplier: 1.0
     name: Computer Empathy Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1612:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0
@@ -42,24 +41,22 @@ types:
     published: false
   1616:
     accuracymultiplier: 1.0
-    blueprintmanufacturetimemultiplierbonus: -0.05000000074505806
+    blueprintmanufacturetimemultiplierbonus: -0.05
     cpumultiplier: 1.0
     id: 1616
     miningamountmultiplier: 1.0
     name: Structural Understanding Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1617:
     accuracymultiplier: 1.0
-    blueprintresearchtimemultiplierbonus: -0.05000000074505806
+    blueprintresearchtimemultiplierbonus: -0.05
     cpumultiplier: 1.0
     id: 1617
     miningamountmultiplier: 1.0
     name: Creative Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1618:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0
@@ -77,24 +74,22 @@ types:
     portionSize: 1
     published: false
   1620:
-    accuracymultiplier: 1.0199999809265137
+    accuracymultiplier: 1.02
     cpumultiplier: 1.0
     id: 1620
     miningamountmultiplier: 1.0
     name: Superior Motion Sense Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1621:
     accuracymultiplier: 1.0
-    agilitymultiplier: 1.0499999523162842
+    agilitymultiplier: 1.05
     cpumultiplier: 1.0
     id: 1621
     miningamountmultiplier: 1.0
     name: High-G Tolerance Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1622:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0
@@ -107,11 +102,10 @@ types:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0
     id: 1623
-    miningamountmultiplier: 1.100000023841858
+    miningamountmultiplier: 1.1
     name: Stratum Form Feel Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1624:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0
@@ -125,11 +119,10 @@ types:
     cpumultiplier: 1.0
     id: 1625
     miningamountmultiplier: 1.0
-    missiledamagemultiplierbonus: 0.05000000074505806
+    missiledamagemultiplierbonus: 0.05
     name: Three Dimensional Thinking Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1626:
     accuracymultiplier: 1.0
     cpumultiplier: 1.0

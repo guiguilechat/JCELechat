@@ -6,7 +6,7 @@ types:
     capacitorneed: 465.0
     cpu: 60.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 49770
@@ -17,14 +17,12 @@ types:
     name: Heavy Mutadaptive Remote Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 360
     price: 12470.0
     published: true
-    radius: 1.0
     repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
+    repairmultiplierbonuspercycle: 0.1
     requiredskill1: 16069
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
@@ -37,7 +35,7 @@ types:
     capacitorneed: 465.0
     cpu: 60.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 49771
@@ -49,14 +47,12 @@ types:
     name: Heavy Mutadaptive Scoped Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 360
     price: 12470.0
     published: true
-    radius: 1.0
     repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
+    repairmultiplierbonuspercycle: 0.1
     requiredskill1: 16069
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
@@ -69,7 +65,7 @@ types:
     capacitorneed: 465.0
     cpu: 48.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 49772
@@ -81,14 +77,12 @@ types:
     name: Heavy Mutadaptive Compact Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 330
     price: 12470.0
     published: true
-    radius: 1.0
     repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
+    repairmultiplierbonuspercycle: 0.1
     requiredskill1: 16069
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
@@ -101,7 +95,7 @@ types:
     capacitorneed: 513.0
     cpu: 72.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 49773
@@ -113,14 +107,12 @@ types:
     name: Heavy Mutadaptive Remote Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 396
     price: 12470.0
     published: true
-    radius: 1.0
     repairmultiplierbonusmax: 1.5
-    repairmultiplierbonuspercycle: 0.10000000149011612
+    repairmultiplierbonuspercycle: 0.1
     requiredskill1: 16069
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -133,7 +125,7 @@ types:
     capacitorneed: 513.0
     cpu: 72.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 49774
@@ -145,14 +137,12 @@ types:
     name: Perun Heavy Mutadaptive Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 396
     price: 12470.0
     published: true
-    radius: 1.0
-    repairmultiplierbonusmax: 1.7999999523162842
-    repairmultiplierbonuspercycle: 0.11999999731779099
+    repairmultiplierbonusmax: 1.8
+    repairmultiplierbonuspercycle: 0.12
     requiredskill1: 16069
     requiredskill1level: 2
     requiredthermodynamicsskill: 1

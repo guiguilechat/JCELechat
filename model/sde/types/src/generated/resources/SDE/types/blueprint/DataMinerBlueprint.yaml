@@ -3,120 +3,99 @@ types:
     id: 3582
     industryblueprintrank: 6.0
     name: Purloined Sansha Data Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3590:
     id: 3590
     industryblueprintrank: 1.0
     name: Mangled Sansha Data Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22176:
     id: 22176
     industryblueprintrank: 6.0
     marketGroup: 1809
     name: Data Analyzer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22178:
     id: 22178
     industryblueprintrank: 6.0
     marketGroup: 1809
     name: Relic Analyzer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27015:
     id: 27015
     industryblueprintrank: 6.0
     marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   30833:
     id: 30833
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Relic Analyzer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   30835:
     id: 30835
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Data Analyzer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41535:
     id: 41535
     industryblueprintrank: 6.0
     name: Ligature Integrated Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41536:
     id: 41536
     industryblueprintrank: 6.0
     name: Zeugma Integrated Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   49972:
     id: 49972
     name: Frostline 'Clavicula' Integrated Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   85751:
     id: 85751
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Deathless Circle Relic Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 332640.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

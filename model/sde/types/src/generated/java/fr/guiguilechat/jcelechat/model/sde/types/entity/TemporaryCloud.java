@@ -14,14 +14,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloudDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloudEffectDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -30,13 +28,6 @@ import org.yaml.snakeyaml.Yaml;
 public class TemporaryCloud
     extends Entity
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * Number of milliseconds a temporary cloud hangs around.
      */
@@ -80,29 +71,18 @@ public class TemporaryCloud
     @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CloudEffectDelay.INSTANCE, CloudDuration.INSTANCE, Radius.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, ThermalDamage.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CloudEffectDelay.INSTANCE, CloudDuration.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, DisallowAssistance.INSTANCE, ThermalDamage.INSTANCE })));
     public static final TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  545 :
             {
                 return cloudduration;
@@ -126,10 +106,6 @@ public class TemporaryCloud
             case  117 :
             {
                 return kineticdamage;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  118 :
             {

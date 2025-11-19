@@ -5,135 +5,119 @@ types:
     manufacturingtimebonus: -4
     marketGroup: 369
     name: Industry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     secondaryattribute: 165
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3387:
     cannotbetrainedontrial: 1
     id: 3387
     manufacturingslotbonus: 1
     marketGroup: 369
     name: Mass Production
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3380
     requiredskill1level: 3
     secondaryattribute: 165
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3388:
     advancedindustryskillindustryjobtimebonus: -3
     cannotbetrainedontrial: 1
     id: 3388
     marketGroup: 369
     name: Advanced Industry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3380
     requiredskill1level: 3
     secondaryattribute: 165
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3395:
     cannotbetrainedontrial: 1
     id: 3395
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Advanced Small Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3392
     requiredskill1level: 1
     requiredskill2: 3380
     requiredskill2level: 2
     secondaryattribute: 166
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3396:
     cannotbetrainedontrial: 1
     id: 3396
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Advanced Industrial Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3392
     requiredskill1level: 2
     requiredskill2: 3380
     requiredskill2level: 3
     secondaryattribute: 166
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3397:
     cannotbetrainedontrial: 1
     id: 3397
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Advanced Medium Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3392
     requiredskill1level: 3
     requiredskill2: 3395
     requiredskill2level: 4
     secondaryattribute: 166
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3398:
     cannotbetrainedontrial: 1
     id: 3398
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Advanced Large Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3397
     requiredskill1level: 4
     secondaryattribute: 166
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3400:
     cannotbetrainedontrial: 1
     id: 3400
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Outpost Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3392
     requiredskill1level: 5
     requiredskill2: 3380
@@ -142,18 +126,16 @@ types:
     requiredskill3level: 5
     secondaryattribute: 166
     skilltimeconstant: 16.0
-    volume: 0.009999999776482582
+    volume: 0.01
   22242:
     cannotbetrainedontrial: 1
     id: 22242
     marketGroup: 369
     name: Capital Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
+    price: 75000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3392
     requiredskill1level: 5
     requiredskill2: 3380
@@ -162,67 +144,59 @@ types:
     requiredskill3level: 5
     secondaryattribute: 166
     skilltimeconstant: 14.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24268:
     cannotbetrainedontrial: 1
     id: 24268
     marketGroup: 369
     name: Supply Chain Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7500000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3387
     requiredskill1level: 4
     secondaryattribute: 165
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24625:
     cannotbetrainedontrial: 1
     id: 24625
     manufacturingslotbonus: 1
     marketGroup: 369
     name: Advanced Mass Production
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3387
     requiredskill1level: 5
     secondaryattribute: 165
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   26224:
     cannotbetrainedontrial: 1
     durationskillbonus: 1
     id: 26224
     marketGroup: 369
     name: Drug Manufacturing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     secondaryattribute: 165
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77725:
     cannotbetrainedontrial: 1
     id: 77725
     manufacturetimeperlevel: -1
     marketGroup: 369
     name: Advanced Capital Ship Construction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 22242
     requiredskill1level: 4
     requiredskill2: 3398
@@ -231,4 +205,4 @@ types:
     requiredskill3level: 5
     secondaryattribute: 166
     skilltimeconstant: 16.0
-    volume: 0.009999999776482582
+    volume: 0.01

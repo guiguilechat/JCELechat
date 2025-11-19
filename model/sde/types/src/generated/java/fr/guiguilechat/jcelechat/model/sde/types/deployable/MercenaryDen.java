@@ -21,17 +21,14 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -168,7 +165,7 @@ public class MercenaryDen
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldUniformity.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, AnchoringDelay.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, MetaLevelOld.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final MercenaryDen.MetaGroup METAGROUP = new MercenaryDen.MetaGroup();
 
     @Override

@@ -1,23 +1,26 @@
 package fr.guiguilechat.jcelechat.model.sde.hierarchy;
 
+import java.math.BigDecimal;
 import java.util.HashMap;
 
 public class TypeDetails extends CommonDetails {
 
-	public double basePrice;
+	public BigDecimal basePrice;
 
-	public HashMap<Integer, Float> definition = new HashMap<>();
+	public HashMap<Integer, BigDecimal> definition = new HashMap<>();
 
 	public int groupID;
 
 	public int marketGroupID;
 
-	public double mass;
+	public BigDecimal mass;
 
-	public double packagedVolume;
+	public BigDecimal packagedVolume;
 
 	public int portionSize;
 
-	public double volume;
+	public BigDecimal radius;
+
+	public BigDecimal volume;
 
 }

@@ -1,9 +1,9 @@
 types:
   2621:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 567
-    aoedamagereductionfactor: 0.9079999923706055
+    aoedamagereductionfactor: 0.908
     aoefalloff: 1500
     aoevelocity: 58
     detonationrange: 35
@@ -19,7 +19,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Inferno Fury Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -33,13 +32,13 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 525.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   2637:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 297
-    aoedamagereductionfactor: 0.7350000143051147
+    aoedamagereductionfactor: 0.735
     aoefalloff: 1500
     aoevelocity: 83
     detonationrange: 35
@@ -55,7 +54,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Inferno Precision Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -69,20 +67,20 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 375.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   24531:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 567
-    aoedamagereductionfactor: 0.9079999923706055
+    aoedamagereductionfactor: 0.908
     aoefalloff: 1500
     aoevelocity: 58
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 10500
     explosivedamage: 525.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 240.0
     id: 24531
     kineticdamageresonance: 1.0
@@ -92,7 +90,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Nova Fury Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -106,12 +103,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   24533:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 567
-    aoedamagereductionfactor: 0.9079999923706055
+    aoedamagereductionfactor: 0.908
     aoefalloff: 1500
     aoevelocity: 58
     detonationrange: 35
@@ -121,14 +118,13 @@ types:
     hp: 240.0
     id: 24533
     kineticdamage: 525.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 506
     marketGroup: 925
     mass: 1250.0
     maxvelocity: 4700.0
     metalevelold: 5
     name: Scourge Fury Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -142,17 +138,17 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   24535:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 567
-    aoedamagereductionfactor: 0.9079999923706055
+    aoedamagereductionfactor: 0.908
     aoefalloff: 1500
     aoevelocity: 58
     detonationrange: 35
     emdamage: 525.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 10500
     explosivedamageresonance: 1.0
     hp: 240.0
@@ -164,7 +160,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Mjolnir Fury Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -178,19 +173,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   24537:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 297
-    aoedamagereductionfactor: 0.7350000143051147
+    aoedamagereductionfactor: 0.735
     aoefalloff: 1500
     aoevelocity: 83
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 7000
     explosivedamage: 375.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 240.0
     id: 24537
     kineticdamageresonance: 1.0
@@ -200,7 +195,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Nova Precision Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -214,17 +208,17 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   24539:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 297
-    aoedamagereductionfactor: 0.7350000143051147
+    aoedamagereductionfactor: 0.735
     aoefalloff: 1500
     aoevelocity: 83
     detonationrange: 35
     emdamage: 375.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 7000
     explosivedamageresonance: 1.0
     hp: 240.0
@@ -236,7 +230,6 @@ types:
     maxvelocity: 4700.0
     metalevelold: 5
     name: Mjolnir Precision Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -250,12 +243,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   24541:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 297
-    aoedamagereductionfactor: 0.7350000143051147
+    aoedamagereductionfactor: 0.735
     aoefalloff: 1500
     aoevelocity: 83
     detonationrange: 35
@@ -265,14 +258,13 @@ types:
     hp: 240.0
     id: 24541
     kineticdamage: 375.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 506
     marketGroup: 918
     mass: 1250.0
     maxvelocity: 4700.0
     metalevelold: 5
     name: Scourge Precision Cruise Missile
-    packagedVolume: 0.05000000074505806
     portionSize: 5000
     price: 837360.0
     published: true
@@ -286,4 +278,4 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05

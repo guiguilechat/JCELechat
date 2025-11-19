@@ -1,6 +1,6 @@
 types:
   27924:
-    agility: 2.5109991838689893E-5
+    agility: 2.51099909754E-5
     aimedlaunch: 1
     allowinfullycorruptedlowsec: 1
     aoecloudsize: 400
@@ -21,7 +21,6 @@ types:
     mass: 1000.0
     maxvelocity: 4000.0
     name: Void Bomb
-    packagedVolume: 75.0
     portionSize: 20
     price: 2500.0
     published: true
@@ -35,7 +34,7 @@ types:
     thermaldamage: 7.0
     volume: 75.0
   34264:
-    agility: 2.5109991838689893E-5
+    agility: 2.51099909754E-5
     aimedlaunch: 1
     allowinfullycorruptedlowsec: 1
     aoecloudsize: 5000
@@ -56,7 +55,6 @@ types:
     mass: 1000.0
     maxvelocity: 2000.0
     name: Focused Void Bomb
-    packagedVolume: 75.0
     portionSize: 20
     price: 2500.0
     published: true

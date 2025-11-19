@@ -2,18 +2,16 @@ types:
   1229:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 1229
     marketGroup: 525
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Gneiss
     orebasictype: 1229
-    packagedVolume: 5.0
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
@@ -22,18 +20,16 @@ types:
   17865:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 17865
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Iridescent Gneiss
+    mass: 1.0E+35
+    name: Gneiss II-Grade
     orebasictype: 1229
-    packagedVolume: 5.0
     portionSize: 100
     price: 420840.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
@@ -42,18 +38,16 @@ types:
   17866:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 17866
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Prismatic Gneiss
+    mass: 1.0E+35
+    name: Gneiss III-Grade
     orebasictype: 1229
-    packagedVolume: 5.0
     portionSize: 100
     price: 439672.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,19 +60,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28397
     marketGroup: 525
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Batch Compressed Gneiss
     orebasictype: 1229
-    packagedVolume: 1.7999999523162842
     portionSize: 1
     price: 3999260.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.7999999523162842
+    volume: 1.8
   28398:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28398
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Iridescent Gneiss
+    mass: 1.0E+35
+    name: Batch Compressed Gneiss II-Grade
     orebasictype: 1229
-    packagedVolume: 1.7999999523162842
     portionSize: 1
     price: 4208400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.7999999523162842
+    volume: 1.8
   28399:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -106,33 +96,29 @@ types:
     asteroidradiusunitsize: 90
     id: 28399
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Prismatic Gneiss
+    mass: 1.0E+35
+    name: Batch Compressed Gneiss III-Grade
     orebasictype: 1229
-    packagedVolume: 1.7999999523162842
     portionSize: 1
     price: 4396720.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.7999999523162842
+    volume: 1.8
   28622:
     asteroidmaxradius: 16255
     asteroidradiusgrowthfactor: 1.0
-    asteroidradiusunitsize: 90
+    asteroidradiusunitsize: 600
     id: 28622
     ignoreminingwaste: 1
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Green Arisite
     orebasictype: 1229
-    packagedVolume: 5.0
     portionSize: 1
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
@@ -141,18 +127,16 @@ types:
   46679:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.3499999940395355
+    asteroidradiusgrowthfactor: 0.35
     asteroidradiusunitsize: 650
     id: 46679
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Brilliant Gneiss
+    mass: 1.0E+35
+    name: Gneiss IV-Grade
     orebasictype: 46679
-    packagedVolume: 5.0
     portionSize: 100
     price: 1400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
@@ -166,18 +150,16 @@ types:
     id: 46695
     marketGroup: 525
     mass: 1.0
-    name: Batch Compressed Brilliant Gneiss
+    name: Batch Compressed Gneiss IV-Grade
     orebasictype: 46679
-    packagedVolume: 1.7999999523162842
     portionSize: 1
     price: 157500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.7999999523162842
+    volume: 1.8
   62552:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -185,19 +167,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62552
     marketGroup: 525
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Gneiss
     orebasictype: 1229
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 3999260.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   62553:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -205,19 +185,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62553
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Compressed Iridescent Gneiss
+    mass: 1.0E+35
+    name: Compressed Gneiss II-Grade
     orebasictype: 1229
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 4208400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   62554:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -225,19 +203,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62554
     marketGroup: 525
-    mass: 1.0000000409184788E35
-    name: Compressed Prismatic Gneiss
+    mass: 1.0E+35
+    name: Compressed Gneiss III-Grade
     orebasictype: 1229
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 4396720.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   62555:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -246,15 +222,13 @@ types:
     id: 62555
     marketGroup: 525
     mass: 1.0
-    name: Compressed Brilliant Gneiss
+    name: Compressed Gneiss (IV-Grade)
     orebasictype: 46679
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 157500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05

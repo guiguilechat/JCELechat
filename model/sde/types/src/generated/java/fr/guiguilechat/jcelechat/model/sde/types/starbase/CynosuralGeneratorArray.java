@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringSecurityLevelMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerMinimumDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
@@ -33,7 +32,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PosAnchoredPerSolarSystemAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiresIHubUpgrade;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -41,7 +39,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -175,7 +172,7 @@ public class CynosuralGeneratorArray
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, ShieldCharge.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, JumpHarmonics.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, PosAnchoredPerSolarSystemAmount.INSTANCE, AnchoringDelay.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Cpu.INSTANCE, ScanResolution.INSTANCE, RequiresIHubUpgrade.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, JumpHarmonics.INSTANCE, OnliningDelay.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, PosAnchoredPerSolarSystemAmount.INSTANCE, AnchoringDelay.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Cpu.INSTANCE, ScanResolution.INSTANCE, RequiresIHubUpgrade.INSTANCE })));
     public static final CynosuralGeneratorArray.MetaGroup METAGROUP = new CynosuralGeneratorArray.MetaGroup();
 
     @Override

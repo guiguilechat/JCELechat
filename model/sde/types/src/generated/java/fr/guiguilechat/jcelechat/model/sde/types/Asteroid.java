@@ -15,8 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
@@ -79,20 +77,6 @@ public abstract class Asteroid
     @DefaultRealValue(1.0)
     public double asteroidradiusgrowthfactor;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -106,7 +90,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -119,14 +103,6 @@ public abstract class Asteroid
             case  1980 :
             {
                 return asteroidradiusgrowthfactor;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

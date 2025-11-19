@@ -8,9 +8,8 @@ types:
     explosivedamageresonance: 1.0
     id: 48969
     kineticdamageresonance: 1.0
-    mass: 2.5E8
+    mass: 250000000.0
     name: November Hulk
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     shieldemdamageresonance: 1.0
@@ -25,7 +24,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -34,7 +32,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Convergent Accelerant Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -51,7 +48,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -60,7 +56,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Convergent Decelerant Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -77,7 +72,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -86,7 +80,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Mystery Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -103,7 +96,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -112,7 +104,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Mystery Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -129,7 +120,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -138,7 +128,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Proving Bonus Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -155,7 +144,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -164,7 +152,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Capsuleer Day Buff Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -181,7 +168,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -190,7 +176,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Capsuleer Day Debuff Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -207,7 +192,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -216,7 +200,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Proving Bonus Nexus
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -233,7 +216,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -242,7 +224,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Caldari Hacking Impediment Mine
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -259,7 +240,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -268,7 +248,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: Caldari Hacking Accelerant Tower
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -285,7 +264,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -294,7 +272,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: CD Accelerant Dungeon Effect
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -311,7 +288,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 1000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -320,7 +296,6 @@ types:
     kineticdamageresonance: 1.0
     mass: 1000.0
     name: CD Decelerant Dungeon Effect
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1000.0
@@ -344,7 +319,6 @@ types:
     name: CD Large Dungeon Slow Cloud
     portionSize: 1
     published: false
-    radius: 1.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

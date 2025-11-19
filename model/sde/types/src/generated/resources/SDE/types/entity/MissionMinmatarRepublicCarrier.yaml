@@ -4,32 +4,31 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.5099999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.51
     armorhp: 175000.0
-    armorkineticdamageresonance: 0.4099999964237213
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.41
+    armorthermaldamageresonance: 0.31
     armoruniformity: 0.75
     capacitorcapacity: 3700.0
-    capacity: 3375.0
     damagemultiplier: 1.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     energyneutralizeramount: 1200.0
     energyneutralizerduration: 30000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 150000
     entityattackrange: 250000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entityequipmentmax: 7
     entityequipmentmin: -5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
     entityoverviewshipgroupid: 547
     entityshieldboostamount: 1800.0
-    entityshieldboostdelaychancelarge: 0.7400000095367432
+    entityshieldboostdelaychancelarge: 0.74
     entityshieldboostduration: 10000
     falloff: 75000.0
     fighterabilityanticapitalmissileresistance: 1
@@ -37,13 +36,12 @@ types:
     hp: 100000.0
     id: 27721
     iscapitalsize: 1
-    mass: 9.22499968E8
+    mass: 922500000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 150000.0
     name: Republic Harkal
     optimalsigradius: 800
-    packagedVolume: 1.125E7
     portionSize: 1
     propulsiongraphicid: 397
     proximityrange: 250000
@@ -53,14 +51,14 @@ types:
     scanladarstrength: 72.0
     scanresolution: 55.0
     shieldcapacity: 175000.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.4099999964237213
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.41
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.3100000023841858
+    shieldthermaldamageresonance: 0.31
     shielduniformity: 0.75
     signatureradius: 1095.0
     speed: 3000.0
     structureuniformity: 1.0
-    trackingspeed: 0.4000000059604645
-    volume: 1.125E7
+    trackingspeed: 0.4
+    volume: 11250000.0

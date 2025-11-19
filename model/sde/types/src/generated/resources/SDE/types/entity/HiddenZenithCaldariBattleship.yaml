@@ -4,22 +4,21 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.25999999046325684
-    armorexplosivedamageresonance: 0.36000001430511475
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.26
+    armorexplosivedamageresonance: 0.36
     armorhp: 4250.0
-    armorkineticdamageresonance: 0.5600000023841858
-    armorthermaldamageresonance: 0.46000000834465027
+    armorkineticdamageresonance: 0.56
+    armorthermaldamageresonance: 0.46
     armoruniformity: 0.75
     capacitorcapacity: 3400.0
-    capacity: 235.0
     damagemultiplier: 2.75
     disallowassistance: 1
     ecmduration: 20000
     ecmentitychance: 1.0
     ecmrangeoptimal: 99500
-    entityarmorrepairdelaychance: 0.6899999976158142
-    entityarmorrepairdelaychancelarge: 0.6899999976158142
+    entityarmorrepairdelaychance: 0.69
+    entityarmorrepairdelaychancelarge: 0.69
     entityarmorrepairduration: 10000
     entityattackdelaymax: 13200
     entityattackdelaymin: 3300
@@ -39,11 +38,11 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8100000023841858
+    entityreactionfactor: 0.81
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 255.0
-    entityshieldboostdelaychance: 0.6899999976158142
-    entityshieldboostdelaychancelarge: 0.6899999976158142
+    entityshieldboostdelaychance: 0.69
+    entityshieldboostdelaychancelarge: 0.69
     entityshieldboostduration: 5000
     entitytargetjam: 1
     falloff: 35000.0
@@ -52,22 +51,21 @@ types:
     hp: 4750.0
     id: 42820
     kineticdamage: 16.0
-    mass: 2.05E7
+    mass: 20500000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 3
     maxrange: 20000.0
     maxvelocity: 280.0
     mintargetveldmgmultiplier: 0.5
-    missiledamagemultiplier: 1.3300000429153442
-    missileentityaoecloudsizemultiplier: 0.7705000042915344
-    missileentityaoevelocitymultiplier: 1.4589999914169312
-    missileentityflighttimemultiplier: 2.1475000381469727
-    missileentityvelocitymultiplier: 2.1475000381469727
+    missiledamagemultiplier: 1.33
+    missileentityaoecloudsizemultiplier: 0.7705
+    missileentityaoevelocitymultiplier: 1.459
+    missileentityflighttimemultiplier: 2.1475
+    missileentityvelocitymultiplier: 2.1475
     missilelaunchduration: 6650.0
     name: Black Edge Caldari Battleship
     optimalsigradius: 36000
-    packagedVolume: 2.2E7
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -91,5 +89,5 @@ types:
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.011669999919831753
-    volume: 2.2E7
+    trackingspeed: 0.01167
+    volume: 22000000.0

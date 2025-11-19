@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -38,7 +39,6 @@ import fr.lelouet.tools.compilation.inmemory.DynamicClassLoader;
 /**
  * translates sde into yaml files using compiled data. Also modifies the
  * compilation unit to add load functions.
- *
  */
 public class TypesTranslater {
 
@@ -89,11 +89,7 @@ public class TypesTranslater {
 				marketGroupField.set(item, td.marketGroupID);
 				Field massField = item.getClass().getField("mass");
 				massField.setAccessible(true);
-				if (massField.getType().equals(int.class)) {
-					massField.set(item, (int) td.mass);
-				} else {
-					massField.set(item, td.mass);
-				}
+				massField.set(item, td.mass);
 				Field nameField = item.getClass().getField("name");
 				nameField.setAccessible(true);
 				nameField.set(item, td.name);
@@ -109,19 +105,18 @@ public class TypesTranslater {
 				Field publishedfield = item.getClass().getField("published");
 				publishedfield.setAccessible(true);
 				publishedfield.set(item, td.published);
+				Field radiusField = item.getClass().getField("radius");
+				radiusField.setAccessible(true);
+				radiusField.set(item, td.radius);
 				Field volumeField = item.getClass().getField("volume");
 				volumeField.setAccessible(true);
-				if (volumeField.getType().equals(int.class)) {
-					volumeField.set(item, (int) td.volume);
-				} else {
-					volumeField.set(item, td.volume);
-				}
+				volumeField.set(item, td.volume);
 				// if (td.id == 24692) {
 				// System.err.println("type " + td.name + " mass is " +
 				// massField.getDouble(item) + " pre dynamic");
 				// }
-				for (Entry<Integer, Float> c : td.definition.entrySet()) {
-					if (c.getValue() == 0) {
+				for (Entry<Integer, BigDecimal> c : td.definition.entrySet()) {
+					if (c.getValue().doubleValue() == 0.0) {
 						continue;
 					}
 					String fieldName = classes.attID2FieldName.get(c.getKey());
@@ -133,28 +128,26 @@ public class TypesTranslater {
 						Field f = item.getClass().getField(fieldName);
 						f.setAccessible(true);
 						if (f.getType() == double.class) {
-							double value = c.getValue();
-							f.set(item, value);
+							f.set(item, c.getValue().doubleValue());
+						} else if (f.getType() == int.class) {
+							f.set(item, c.getValue().intValue());
 						} else {
-							int value = (int) (float) c.getValue();
-							f.set(item, value);
+							f.set(item, c.getValue());
 						}
 					} catch (Exception nsfe) {
-						throw new UnsupportedOperationException("can't find field " + fieldName + "(" + c.getKey() + ") in class "
-								+ item.getClass().getName() + " (gid=" + td.groupID + ") to value " + c.getValue() + " for type "
-								+ td.name
-								+ "(" + td.id
-								+ "), fields are "
-						    + Arrays.asList(item.getClass().getFields()).stream().map(Field::getName)
-								.sorted()
-								.collect(Collectors.toList()),
+						throw new UnsupportedOperationException(
+								"can't find field " + fieldName + "(" + c.getKey() + ") in class "
+										+ item.getClass().getName() + " (gid=" + td.groupID + ") to value "
+										+ c.getValue() + " for type "
+										+ td.name
+										+ "(" + td.id
+										+ "), fields are "
+										+ Arrays.asList(item.getClass().getFields()).stream().map(Field::getName)
+												.sorted()
+												.collect(Collectors.toList()),
 								nsfe);
 					}
 				}
-				// if (td.id == 24692) {
-				// System.err.println("type " + td.name + " mass is " +
-				// massField.getDouble(item) + " post dynamic");
-				// }
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
@@ -163,7 +156,8 @@ public class TypesTranslater {
 				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
 				JDefinedClass groupclass = cm._getClass(className);
-				JDefinedClass metagroup = groupclass.classes().stream().filter(jc -> jc.name().equals("MetaGroup")).findFirst()
+				JDefinedClass metagroup = groupclass.classes().stream().filter(jc -> jc.name().equals("MetaGroup"))
+						.findFirst()
 						.get();
 				makeLoadMethod(metagroup, groupclass, cm, resFolder + fileName, true);
 			}
@@ -209,7 +203,7 @@ public class TypesTranslater {
 		// meta informations. we need to be able to find an item class, from its id.
 		LinkedHashMap<String, ArrayList<Integer>> sortedName2Ids = new LinkedHashMap<>();
 		hierarchy.typeID2Details.values().stream().sorted(Comparator.comparing(t -> t.name))
-		.forEach(t -> sortedName2Ids.getOrDefault(t.name, new ArrayList<>()).add(t.id));
+				.forEach(t -> sortedName2Ids.getOrDefault(t.name, new ArrayList<>()).add(t.id));
 
 		ArrayList<Integer> sortedIds = new ArrayList<>(id2group.keySet());
 		Collections.sort(sortedIds);
@@ -250,7 +244,7 @@ public class TypesTranslater {
 			metagroup = loadedClass;
 		}
 		metagroup.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH")
-		.init(JExpr.lit(resPath));
+				.init(JExpr.lit(resPath));
 
 		if (container) {
 			// create a Container class that contains only a field
@@ -284,7 +278,8 @@ public class TypesTranslater {
 		JVar options = tryblock.body().decl(cm.ref(LoaderOptions.class), "options", cm.ref(LoaderOptions.class)._new());
 		tryblock.body().add(options.invoke("setCodePointLimit").arg(cm.ref(Integer.class).staticRef("MAX_VALUE")));
 		IJExpression class2cast = container ? JExpr.direct("Container.class") : loadedClass.dotclass();
-		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).arg(options).invoke("loadAs").arg(jtr.var()).arg(class2cast);
+		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).arg(options).invoke("loadAs").arg(jtr.var())
+				.arg(class2cast);
 		if (container) {
 			assign = assign.ref("types");
 		}

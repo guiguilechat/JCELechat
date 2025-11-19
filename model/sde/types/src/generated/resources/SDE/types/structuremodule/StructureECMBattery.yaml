@@ -4,7 +4,6 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     capacitorneed: 3000.0
-    capacity: 1.0
     chargegroup1: 1549
     chargesize: 1
     cpu: 4000.0
@@ -16,12 +15,10 @@ types:
     mass: 500.0
     maxrange: 75000.0
     name: Standup Variable Spectrum ECM I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     remoteresistanceid: 2253
     scangravimetricstrengthbonus: 30.0
     scanladarstrengthbonus: 30.0
@@ -35,7 +32,6 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     capacitorneed: 3000.0
-    capacity: 1.0
     chargegroup1: 1549
     chargesize: 1
     cpu: 4000.0
@@ -49,12 +45,10 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Standup Variable Spectrum ECM
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     remoteresistanceid: 2253
     scangravimetricstrengthbonus: 39.0
     scanladarstrengthbonus: 39.0
@@ -68,7 +62,6 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     capacitorneed: 3600.0
-    capacity: 1.0
     chargegroup1: 1549
     chargesize: 1
     cpu: 4800.0
@@ -81,12 +74,10 @@ types:
     maxrange: 90000.0
     metalevelold: 5
     name: Standup Variable Spectrum ECM II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     remoteresistanceid: 2253
     scangravimetricstrengthbonus: 36.0
     scanladarstrengthbonus: 36.0

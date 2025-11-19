@@ -3,7 +3,7 @@ types:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 500
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 60
     detonationrange: 35
@@ -18,7 +18,6 @@ types:
     mass: 1000.0
     maxvelocity: 9000.0
     name: Standup Cruise Missile
-    packagedVolume: 0.5
     portionSize: 100
     price: 325000.0
     published: true
@@ -31,7 +30,7 @@ types:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 200
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 100
     detonationrange: 35
@@ -46,7 +45,6 @@ types:
     mass: 1000.0
     maxvelocity: 10500.0
     name: Standup Heavy Missile
-    packagedVolume: 0.5
     portionSize: 100
     price: 325000.0
     published: true
@@ -59,7 +57,7 @@ types:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 100
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 200
     detonationrange: 35
@@ -74,7 +72,6 @@ types:
     mass: 1000.0
     maxvelocity: 15000.0
     name: Standup Light Missile
-    packagedVolume: 0.5
     portionSize: 100
     price: 325000.0
     published: true

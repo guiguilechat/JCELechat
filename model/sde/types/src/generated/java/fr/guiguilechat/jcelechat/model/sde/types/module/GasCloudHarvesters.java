@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
@@ -154,7 +152,7 @@ public class GasCloudHarvesters
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, MiningAmount.INSTANCE, Slots.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, MiningAmount.INSTANCE, Slots.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
     public static final GasCloudHarvesters.MetaGroup METAGROUP = new GasCloudHarvesters.MetaGroup();
 
     @Override

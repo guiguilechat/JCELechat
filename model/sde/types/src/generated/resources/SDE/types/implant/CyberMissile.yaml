@@ -5,11 +5,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -21,11 +19,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -37,11 +33,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -53,11 +47,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 2
     name: Zainou 'Deadeye' Missile Bombardment MB-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -69,11 +61,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 4
     name: Zainou 'Deadeye' Missile Bombardment MB-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -85,11 +75,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 6
     name: Zainou 'Deadeye' Missile Bombardment MB-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -100,11 +88,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 2.0
@@ -115,11 +101,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 4.0
@@ -130,11 +114,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 6.0
@@ -145,11 +127,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     rofbonus: -2
@@ -161,11 +141,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     rofbonus: -4
@@ -177,11 +155,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1006
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     rofbonus: -6
@@ -194,11 +170,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -210,11 +184,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -226,11 +198,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -242,10 +212,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-602
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -257,10 +225,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-604
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -272,10 +238,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-606
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -287,11 +251,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -303,11 +265,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -319,11 +279,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -335,11 +293,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 2.0
     name: Zainou 'Snapshot' Defender Missiles DM-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -351,11 +307,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 4.0
     name: Zainou 'Snapshot' Defender Missiles DM-804
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -367,11 +321,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 6.0
     name: Zainou 'Snapshot' Defender Missiles DM-806
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -383,11 +335,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -399,11 +349,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -415,11 +363,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -431,11 +377,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -447,11 +391,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -463,11 +405,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -479,11 +419,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -495,11 +433,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-704
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -511,11 +447,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -527,11 +461,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -543,11 +475,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -559,11 +489,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-906
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -575,11 +503,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-902
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -591,11 +517,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-904
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -607,11 +531,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-906
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -623,11 +545,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -639,11 +559,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -655,11 +573,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -671,11 +587,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -687,11 +601,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-604
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     speedfactor: 1.0
@@ -703,11 +615,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     speedfactor: 1.0
@@ -719,11 +629,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -735,11 +643,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 3.0
     name: Zainou 'Snapshot' Defender Missiles DM-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -751,11 +657,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -767,11 +671,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -783,11 +685,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -799,11 +699,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -815,11 +713,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 3
     name: Zainou 'Deadeye' Missile Bombardment MB-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -830,11 +726,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 3.0
@@ -845,11 +739,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1003
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     rofbonus: -3
@@ -862,11 +754,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -877,10 +767,8 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Whelan Machorin's Ballistic Smartlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     rofbonus: -5
@@ -893,11 +781,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -909,11 +795,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 5
     name: Zainou 'Deadeye' Missile Bombardment MB-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -924,11 +808,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 5.0
@@ -939,11 +821,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1005
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     rofbonus: -5
@@ -956,11 +836,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -972,11 +850,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -988,10 +864,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-603
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -1003,10 +877,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-605
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1018,10 +890,8 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-601
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1033,11 +903,9 @@ types:
     marketGroup: 1494
     maxflighttimebonus: 1
     name: Zainou 'Deadeye' Missile Bombardment MB-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1048,11 +916,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1064,11 +930,9 @@ types:
     implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1080,11 +944,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1095,11 +957,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     rofbonus: -1
@@ -1112,11 +972,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-903
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -1128,11 +986,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 2
     speedfactor: 1.0
@@ -1143,11 +999,9 @@ types:
     id: 27204
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1158,11 +1012,9 @@ types:
     id: 27205
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1173,11 +1025,9 @@ types:
     id: 27206
     implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1189,11 +1039,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 5.0
     name: Zainou 'Snapshot' Defender Missiles DM-805
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1205,11 +1053,9 @@ types:
     marketGroup: 1495
     missilevelocitybonus: 1.0
     name: Zainou 'Snapshot' Defender Missiles DM-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1221,11 +1067,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1237,11 +1081,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1253,11 +1095,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1269,11 +1109,9 @@ types:
     implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1285,11 +1123,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1301,11 +1137,9 @@ types:
     implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1317,11 +1151,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1333,11 +1165,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1349,11 +1179,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1365,11 +1193,9 @@ types:
     implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-901
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1381,11 +1207,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1397,11 +1221,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0
@@ -1413,11 +1235,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     speedfactor: 1.0
@@ -1429,11 +1249,9 @@ types:
     implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     speedfactor: 1.0

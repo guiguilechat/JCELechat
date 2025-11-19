@@ -4,430 +4,354 @@ types:
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Antimatter Reactor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29042:
     id: 29042
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Crystalline Carbonide Armor Plate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29044:
     id: 29044
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Deflection Shield Emitter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29046:
     id: 29046
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Electrolytic Capacitor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29048:
     id: 29048
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital EM Pulse Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29050:
     id: 29050
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Fernite Carbide Composite Armor Plate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29052:
     id: 29052
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Fusion Reactor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29054:
     id: 29054
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Fusion Thruster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29056:
     id: 29056
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Gravimetric Sensor Cluster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29058:
     id: 29058
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Graviton Pulse Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29060:
     id: 29060
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Graviton Reactor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29062:
     id: 29062
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Ion Thruster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29064:
     id: 29064
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Laser Focusing Crystals Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29066:
     id: 29066
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Ladar Sensor Cluster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29068:
     id: 29068
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Linear Shield Emitter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29070:
     id: 29070
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Magnetometric Sensor Cluster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29072:
     id: 29072
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Magpulse Thruster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29074:
     id: 29074
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Nanoelectrical Microprocessor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29076:
     id: 29076
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Nanomechanical Microprocessor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29078:
     id: 29078
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Nuclear Pulse Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29080:
     id: 29080
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Nuclear Reactor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29082:
     id: 29082
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Oscillator Capacitor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29084:
     id: 29084
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Particle Accelerator Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29086:
     id: 29086
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Photon Microprocessor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29088:
     id: 29088
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Plasma Pulse Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29090:
     id: 29090
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Plasma Thruster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29092:
     id: 29092
     industryblueprintrank: 4.0
     marketGroup: 1589
     name: Capital Pulse Shield Emitter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29094:
     id: 29094
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Quantum Microprocessor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29096:
     id: 29096
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Radar Sensor Cluster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29098:
     id: 29098
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Scalar Capacitor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29100:
     id: 29100
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Superconductor Rails Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29102:
     id: 29102
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Sustained Shield Emitter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29104:
     id: 29104
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Tesseract Capacitor Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29106:
     id: 29106
     industryblueprintrank: 4.0
     marketGroup: 1590
     name: Capital Thermonuclear Trigger Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29108:
     id: 29108
     industryblueprintrank: 4.0
     marketGroup: 1588
     name: Capital Titanium Diborite Armor Plate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29110:
     id: 29110
     industryblueprintrank: 4.0
     marketGroup: 1587
     name: Capital Tungsten Carbide Armor Plate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   57511:
     id: 57511
     marketGroup: 1587
     name: Radar-FTL Interlink Communicator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57512:
     id: 57512
     marketGroup: 1588
     name: Gravimetric-FTL Interlink Communicator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57513:
     id: 57513
     marketGroup: 1589
     name: Magnetometric-FTL Interlink Communicator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57514:
     id: 57514
     marketGroup: 1590
     name: Ladar-FTL Interlink Communicator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

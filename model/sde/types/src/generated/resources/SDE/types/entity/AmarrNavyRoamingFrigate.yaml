@@ -4,11 +4,11 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 5000.0
-    armorkineticdamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.625
     armoruniformity: 0.75
     capacitorcapacity: 220.0
@@ -28,13 +28,13 @@ types:
     entitycruisespeed: 250.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0020000000949949026
+    entityfactionloss: 0.002
     entityflyrange: 1000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entityshieldboostamount: 28.0
-    entityshieldboostdelaychance: 0.17499999701976776
+    entityshieldboostdelaychance: 0.175
     entityshieldboostduration: 10000
     falloff: 5000.0
     gfxboosterid: 397
@@ -60,14 +60,14 @@ types:
     scanspeed: 3500
     shieldcapacity: 3000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.0820000022649765
+    trackingspeed: 0.082

@@ -1,15 +1,14 @@
 types:
   561:
-    capacitorneed: 1.1690000295639038
-    capacity: 0.5
+    capacitorneed: 1.169
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 5.0
-    damagemultiplier: 1.649999976158142
+    damagemultiplier: 1.65
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 561
     maincolor: 8627698
@@ -19,7 +18,6 @@ types:
     name: 75mm Gatling Rail I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 2000.0
@@ -38,16 +36,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   562:
-    capacitorneed: 0.6565999984741211
-    capacity: 0.5
+    capacitorneed: 0.6566
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 8.0
-    damagemultiplier: 1.837499976158142
+    damagemultiplier: 1.8375
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 562
     maincolor: 8627698
@@ -57,7 +54,6 @@ types:
     name: Light Electron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 6000.0
@@ -76,16 +72,15 @@ types:
     typecolorscheme: 11331
     volume: 5.0
   563:
-    capacitorneed: 1.0927000045776367
-    capacity: 0.30000001192092896
+    capacitorneed: 1.0927
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 12.0
     damagemultiplier: 2.953125
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 563
     maincolor: 8627698
@@ -95,7 +90,6 @@ types:
     name: Light Ion Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 9000.0
@@ -110,20 +104,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11331
     volume: 5.0
   564:
-    capacitorneed: 1.416100025177002
-    capacity: 0.20000000298023224
+    capacitorneed: 1.4161
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 16.0
-    damagemultiplier: 3.674999952316284
+    damagemultiplier: 3.675
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 564
     maincolor: 8627698
@@ -133,7 +126,6 @@ types:
     name: Light Neutron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 12000.0
@@ -148,19 +140,18 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11331
     volume: 5.0
   565:
-    capacitorneed: 2.3380000591278076
-    capacity: 0.10000000149011612
+    capacitorneed: 2.338
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 24.0
-    damagemultiplier: 3.0250000953674316
+    damagemultiplier: 3.025
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 565
@@ -171,7 +162,6 @@ types:
     name: 150mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 15000.0
@@ -190,15 +180,14 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   566:
-    capacitorneed: 1.9600000381469727
-    capacity: 2.5
+    capacitorneed: 1.96
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 1.837499976158142
+    damagemultiplier: 1.8375
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 566
@@ -209,7 +198,6 @@ types:
     name: Heavy Electron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 60000.0
@@ -224,20 +212,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11331
     volume: 10.0
   567:
     capacitorneed: 3.5
-    capacity: 2.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 30.0
-    damagemultiplier: 1.899999976158142
+    damagemultiplier: 1.9
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 567
     maincolor: 8627698
@@ -247,7 +234,6 @@ types:
     name: Dual 150mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 20000.0
@@ -262,20 +248,19 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11324
     volume: 10.0
   568:
-    capacitorneed: 4.248300075531006
-    capacity: 1.0
+    capacitorneed: 4.2483
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 29.0
-    damagemultiplier: 3.674999952316284
+    damagemultiplier: 3.675
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 568
     maincolor: 8627698
@@ -285,7 +270,6 @@ types:
     name: Heavy Neutron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 25.0
     portionSize: 1
     power: 179
     price: 120000.0
@@ -300,20 +284,19 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11331
     volume: 25.0
   569:
-    capacitorneed: 3.2683000564575195
-    capacity: 1.5
+    capacitorneed: 3.2683
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 28.0
     damagemultiplier: 2.953125
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 569
     maincolor: 8627698
@@ -323,7 +306,6 @@ types:
     name: Heavy Ion Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 90000.0
@@ -338,19 +320,18 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   570:
     capacitorneed: 7.0
-    capacity: 0.5
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 38.0
-    damagemultiplier: 3.4800000190734863
+    damagemultiplier: 3.48
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 570
@@ -361,7 +342,6 @@ types:
     name: 250mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 198
     price: 150000.0
@@ -376,19 +356,18 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11324
     volume: 25.0
   571:
-    capacitorneed: 5.880000114440918
-    capacity: 5.0
+    capacitorneed: 5.88
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 1.837499976158142
+    damagemultiplier: 1.8375
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 571
@@ -399,7 +378,6 @@ types:
     name: Electron Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1100
     price: 600000.0
@@ -419,15 +397,14 @@ types:
     volume: 50.0
   572:
     capacitorneed: 10.5
-    capacity: 4.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 52.0
-    damagemultiplier: 1.649999976158142
+    damagemultiplier: 1.65
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 572
     maincolor: 8627698
@@ -437,7 +414,6 @@ types:
     name: Dual 250mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 200000.0
@@ -452,20 +428,19 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11324
     volume: 20.0
   573:
-    capacitorneed: 12.739999771118164
-    capacity: 2.0
+    capacitorneed: 12.74
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 52.0
-    damagemultiplier: 3.674999952316284
+    damagemultiplier: 3.675
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 573
     maincolor: 8627698
@@ -475,7 +450,6 @@ types:
     name: Neutron Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     price: 1200000.0
@@ -490,19 +464,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11323
     volume: 50.0
   574:
     capacitorneed: 21.0
-    capacity: 1.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 67.0
-    damagemultiplier: 3.0250000953674316
+    damagemultiplier: 3.025
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 574
@@ -513,7 +486,6 @@ types:
     name: 425mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 2200
     price: 1500000.0
@@ -528,20 +500,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11324
     volume: 50.0
   575:
-    capacitorneed: 9.800000190734863
-    capacity: 3.0
+    capacitorneed: 9.8
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 44.0
     damagemultiplier: 2.953125
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 575
     maincolor: 8627698
@@ -551,7 +522,6 @@ types:
     name: Ion Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1540
     price: 900000.0
@@ -566,20 +536,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11331
     volume: 50.0
   3074:
-    capacitorneed: 2.3380000591278076
-    capacity: 0.10000000149011612
+    capacitorneed: 2.338
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 27.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 3074
@@ -591,7 +560,6 @@ types:
     name: 150mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 183136.0
@@ -613,15 +581,14 @@ types:
     volume: 5.0
   3082:
     capacitorneed: 7.0
-    capacity: 0.5
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 42.0
-    damagemultiplier: 4.170000076293945
+    damagemultiplier: 4.17
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 3082
@@ -633,7 +600,6 @@ types:
     name: 250mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 208
     price: 505832.0
@@ -650,20 +616,19 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 2
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11325
     volume: 10.0
   3090:
     capacitorneed: 21.0
-    capacity: 1.0
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 3090
@@ -675,7 +640,6 @@ types:
     name: 425mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2310
     price: 930592.0
@@ -692,21 +656,20 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 2
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11325
     volume: 20.0
   3098:
-    capacitorneed: 1.1690000295639038
-    capacity: 0.5
+    capacitorneed: 1.169
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.6
     hp: 40.0
     id: 3098
     maincolor: 8627698
@@ -717,7 +680,6 @@ types:
     name: 75mm Gatling Rail II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 35028.0
@@ -739,16 +701,15 @@ types:
     volume: 5.0
   3106:
     capacitorneed: 3.5
-    capacity: 2.0
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.2799999713897705
+    damagemultiplier: 2.28
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.6
     hp: 40.0
     id: 3106
     maincolor: 8627698
@@ -759,7 +720,6 @@ types:
     name: Dual 150mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 74
     price: 253296.0
@@ -776,21 +736,20 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 2
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11325
     volume: 10.0
   3114:
     capacitorneed: 10.5
-    capacity: 4.0
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 3114
     maincolor: 8627698
@@ -801,7 +760,6 @@ types:
     name: Dual 250mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1155
     price: 583032.0
@@ -818,20 +776,19 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 2
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11325
     volume: 20.0
   3122:
-    capacitorneed: 5.880000114440918
-    capacity: 5.0
+    capacitorneed: 5.88
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 44.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 0.5
     hp: 40.0
     id: 3122
@@ -843,7 +800,6 @@ types:
     name: Electron Blaster Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1155
     price: 1147680.0
@@ -864,16 +820,15 @@ types:
     typecolorscheme: 11332
     volume: 20.0
   3130:
-    capacitorneed: 1.9600000381469727
-    capacity: 2.5
+    capacitorneed: 1.96
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 0.5
     hp: 40.0
     id: 3130
@@ -885,7 +840,6 @@ types:
     name: Heavy Electron Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 92
     price: 262752.0
@@ -902,21 +856,20 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 2
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11332
     volume: 10.0
   3138:
-    capacitorneed: 3.2683000564575195
-    capacity: 1.5
+    capacitorneed: 3.2683
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 31.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 3138
     maincolor: 8627698
@@ -927,7 +880,6 @@ types:
     name: Heavy Ion Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 139
     price: 370268.0
@@ -944,21 +896,20 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 2
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   3146:
-    capacitorneed: 4.248300075531006
-    capacity: 1.0
+    capacitorneed: 4.2483
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 3146
     maincolor: 8627698
@@ -969,7 +920,6 @@ types:
     name: Heavy Neutron Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 187
     price: 443112.0
@@ -986,21 +936,20 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 2
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11332
     volume: 10.0
   3154:
-    capacitorneed: 9.800000190734863
-    capacity: 3.0
+    capacitorneed: 9.8
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 53.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 3154
     maincolor: 8627698
@@ -1011,7 +960,6 @@ types:
     name: Ion Blaster Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1617
     price: 1475200.0
@@ -1028,21 +976,20 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 2
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11332
     volume: 20.0
   3162:
-    capacitorneed: 0.6565999984741211
-    capacity: 0.5
+    capacitorneed: 0.6566
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 8.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.6
     hp: 40.0
     id: 3162
     maincolor: 8627698
@@ -1053,7 +1000,6 @@ types:
     name: Light Electron Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 74064.0
@@ -1074,17 +1020,16 @@ types:
     typecolorscheme: 11332
     volume: 5.0
   3170:
-    capacitorneed: 0.9309999942779541
-    capacity: 0.30000001192092896
+    capacitorneed: 0.931
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 12.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 3170
     maincolor: 8627698
@@ -1095,7 +1040,6 @@ types:
     name: Light Ion Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 109676.0
@@ -1112,21 +1056,20 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 2
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11332
     volume: 5.0
   3178:
-    capacitorneed: 1.416100025177002
-    capacity: 0.20000000298023224
+    capacitorneed: 1.4161
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 18.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 3178
     maincolor: 8627698
@@ -1137,7 +1080,6 @@ types:
     name: Light Neutron Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 148538.0
@@ -1154,21 +1096,20 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 2
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11332
     volume: 5.0
   3186:
-    capacitorneed: 12.739999771118164
-    capacity: 2.0
+    capacitorneed: 12.74
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.9
     hp: 40.0
     id: 3186
     maincolor: 8627698
@@ -1179,7 +1120,6 @@ types:
     name: Neutron Blaster Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2079
     price: 1446592.0
@@ -1196,20 +1136,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 2
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11332
     volume: 20.0
   3546:
-    capacitorneed: 151.1999969482422
-    capacity: 10.0
+    capacitorneed: 151.2
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 6.404062271118164
+    damagemultiplier: 6.4040625
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 3546
@@ -1222,10 +1161,9 @@ types:
     name: CONCORD Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -1237,20 +1175,19 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.04588500037789345
+    trackingspeed: 0.045885
     typecolorscheme: 11331
     volume: 4000.0
   3550:
-    capacitorneed: 171.36000061035156
-    capacity: 5.0
+    capacitorneed: 171.36
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 4
     cpu: 103.5
-    damagemultiplier: 8.538818359375
+    damagemultiplier: 8.53881831
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 3550
@@ -1263,10 +1200,9 @@ types:
     name: CONCORD Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -1278,20 +1214,19 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.01920187473297119
+    trackingspeed: 0.019201875
     typecolorscheme: 11324
     volume: 4000.0
   7247:
-    capacitorneed: 0.9380000233650208
-    capacity: 0.5
+    capacitorneed: 0.938
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 4.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7247
     maincolor: 8627698
@@ -1302,7 +1237,6 @@ types:
     name: 75mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -1321,16 +1255,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7249:
-    capacitorneed: 1.0499999523162842
-    capacity: 0.5
+    capacitorneed: 1.05
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 4.0
-    damagemultiplier: 1.815000057220459
+    damagemultiplier: 1.815
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7249
     maincolor: 8627698
@@ -1341,7 +1274,6 @@ types:
     name: 75mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -1360,16 +1292,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7251:
-    capacitorneed: 1.1130000352859497
-    capacity: 0.5
+    capacitorneed: 1.113
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 4.0
-    damagemultiplier: 1.7324999570846558
+    damagemultiplier: 1.7325
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7251
     maincolor: 8627698
@@ -1380,7 +1311,6 @@ types:
     name: 75mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -1399,16 +1329,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7253:
-    capacitorneed: 0.9940000176429749
-    capacity: 0.5
+    capacitorneed: 0.994
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 4.0
-    damagemultiplier: 1.8975000381469727
+    damagemultiplier: 1.8975
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7253
     maincolor: 8627698
@@ -1419,7 +1348,6 @@ types:
     name: 75mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -1438,15 +1366,14 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7287:
-    capacitorneed: 1.86899995803833
-    capacity: 0.10000000149011612
+    capacitorneed: 1.869
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 20.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7287
@@ -1458,7 +1385,6 @@ types:
     name: 150mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 7496.0
@@ -1477,15 +1403,14 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7289:
-    capacitorneed: 2.0999999046325684
-    capacity: 0.10000000149011612
+    capacitorneed: 2.1
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 21.0
-    damagemultiplier: 3.327500104904175
+    damagemultiplier: 3.3275
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7289
@@ -1497,7 +1422,6 @@ types:
     name: 150mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 7496.0
@@ -1516,15 +1440,14 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7291:
-    capacitorneed: 2.2190001010894775
-    capacity: 0.10000000149011612
+    capacitorneed: 2.219
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 19.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7291
@@ -1536,7 +1459,6 @@ types:
     name: 150mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 7496.0
@@ -1555,15 +1477,14 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7293:
-    capacitorneed: 1.9880000352859497
-    capacity: 0.10000000149011612
+    capacitorneed: 1.988
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 22.0
-    damagemultiplier: 3.478749990463257
+    damagemultiplier: 3.47875
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7293
@@ -1575,7 +1496,6 @@ types:
     name: 150mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 7496.0
@@ -1594,16 +1514,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   7327:
-    capacitorneed: 2.799999952316284
-    capacity: 2.0
+    capacitorneed: 2.8
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 25.0
-    damagemultiplier: 2.2799999713897705
+    damagemultiplier: 2.28
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7327
     maincolor: 8627698
@@ -1614,7 +1533,6 @@ types:
     name: Dual 150mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -1629,20 +1547,19 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11324
     volume: 10.0
   7329:
-    capacitorneed: 3.1500000953674316
-    capacity: 2.0
+    capacitorneed: 3.15
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 2.0899999141693115
+    damagemultiplier: 2.09
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7329
     maincolor: 8627698
@@ -1653,7 +1570,6 @@ types:
     name: Dual 150mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -1668,20 +1584,19 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11324
     volume: 10.0
   7331:
-    capacitorneed: 3.325000047683716
-    capacity: 2.0
+    capacitorneed: 3.325
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 23.0
-    damagemultiplier: 1.9900000095367432
+    damagemultiplier: 1.99
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7331
     maincolor: 8627698
@@ -1692,7 +1607,6 @@ types:
     name: Dual 150mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -1707,20 +1621,19 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11324
     volume: 10.0
   7333:
-    capacitorneed: 2.9749999046325684
-    capacity: 2.0
+    capacitorneed: 2.975
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 2.180000066757202
+    damagemultiplier: 2.18
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7333
     maincolor: 8627698
@@ -1731,7 +1644,6 @@ types:
     name: Dual 150mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -1746,19 +1658,18 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11324
     volume: 10.0
   7367:
-    capacitorneed: 5.599999904632568
-    capacity: 0.5
+    capacitorneed: 5.6
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 32.0
-    damagemultiplier: 4.170000076293945
+    damagemultiplier: 4.17
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7367
@@ -1770,7 +1681,6 @@ types:
     name: 250mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -1785,19 +1695,18 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11324
     volume: 10.0
   7369:
-    capacitorneed: 6.300000190734863
-    capacity: 0.5
+    capacitorneed: 6.3
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 34.0
-    damagemultiplier: 3.8299999237060547
+    damagemultiplier: 3.83
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7369
@@ -1809,7 +1718,6 @@ types:
     name: 250mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -1824,19 +1732,18 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11324
     volume: 10.0
   7371:
-    capacitorneed: 6.650000095367432
-    capacity: 0.5
+    capacitorneed: 6.65
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 30.0
-    damagemultiplier: 3.6500000953674316
+    damagemultiplier: 3.65
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7371
@@ -1848,7 +1755,6 @@ types:
     name: 250mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -1863,19 +1769,18 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11324
     volume: 10.0
   7373:
-    capacitorneed: 5.949999809265137
-    capacity: 0.5
+    capacitorneed: 5.95
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 36.0
     damagemultiplier: 4.0
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7373
@@ -1887,7 +1792,6 @@ types:
     name: 250mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -1902,20 +1806,19 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11324
     volume: 10.0
   7407:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 43.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7407
     maincolor: 8627698
@@ -1926,7 +1829,6 @@ types:
     name: Dual 250mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -1941,20 +1843,19 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11324
     volume: 20.0
   7409:
-    capacitorneed: 9.449999809265137
-    capacity: 4.0
+    capacitorneed: 9.45
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 46.0
-    damagemultiplier: 1.815000057220459
+    damagemultiplier: 1.815
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7409
     maincolor: 8627698
@@ -1965,7 +1866,6 @@ types:
     name: Dual 250mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -1980,20 +1880,19 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11324
     volume: 20.0
   7411:
-    capacitorneed: 9.975000381469727
-    capacity: 4.0
+    capacitorneed: 9.975
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 41.0
-    damagemultiplier: 1.7324999570846558
+    damagemultiplier: 1.7325
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7411
     maincolor: 8627698
@@ -2004,7 +1903,6 @@ types:
     name: Dual 250mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -2019,20 +1917,19 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11324
     volume: 20.0
   7413:
-    capacitorneed: 8.925000190734863
-    capacity: 4.0
+    capacitorneed: 8.925
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 49.0
-    damagemultiplier: 1.8975000381469727
+    damagemultiplier: 1.8975
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7413
     maincolor: 8627698
@@ -2043,7 +1940,6 @@ types:
     name: Dual 250mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -2058,19 +1954,18 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11324
     volume: 20.0
   7447:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 56.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7447
@@ -2082,7 +1977,6 @@ types:
     name: 425mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -2097,19 +1991,18 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11324
     volume: 20.0
   7449:
-    capacitorneed: 18.899999618530273
-    capacity: 1.0
+    capacitorneed: 18.9
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 60.0
-    damagemultiplier: 3.327500104904175
+    damagemultiplier: 3.3275
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7449
@@ -2121,7 +2014,6 @@ types:
     name: 425mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -2136,19 +2028,18 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11324
     volume: 20.0
   7451:
-    capacitorneed: 19.950000762939453
-    capacity: 1.0
+    capacitorneed: 19.95
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 53.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7451
@@ -2160,7 +2051,6 @@ types:
     name: 425mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -2175,19 +2065,18 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11324
     volume: 20.0
   7453:
-    capacitorneed: 17.850000381469727
-    capacity: 1.0
+    capacitorneed: 17.85
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 3.478749990463257
+    damagemultiplier: 3.47875
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 7453
@@ -2199,7 +2088,6 @@ types:
     name: 425mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -2214,20 +2102,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11324
     volume: 20.0
   7487:
-    capacitorneed: 0.5242999792098999
-    capacity: 0.5
+    capacitorneed: 0.5243
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7487
     maincolor: 8627698
@@ -2238,7 +2125,6 @@ types:
     name: Modal Light Electron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -2257,16 +2143,15 @@ types:
     typecolorscheme: 11331
     volume: 5.0
   7489:
-    capacitorneed: 0.5879999995231628
-    capacity: 0.5
+    capacitorneed: 0.588
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 7.0
-    damagemultiplier: 2.021250009536743
+    damagemultiplier: 2.02125
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7489
     maincolor: 8627698
@@ -2277,7 +2162,6 @@ types:
     name: Limited Light Electron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -2296,16 +2180,15 @@ types:
     typecolorscheme: 11331
     volume: 5.0
   7491:
-    capacitorneed: 0.6223000288009644
-    capacity: 0.5
+    capacitorneed: 0.6223
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 1.9293750524520874
+    damagemultiplier: 1.929375
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7491
     maincolor: 8627698
@@ -2316,7 +2199,6 @@ types:
     name: Regulated Light Electron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -2335,16 +2217,15 @@ types:
     typecolorscheme: 11331
     volume: 5.0
   7493:
-    capacitorneed: 0.5586000084877014
-    capacity: 0.5
+    capacitorneed: 0.5586
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 7.0
-    damagemultiplier: 2.1131250858306885
+    damagemultiplier: 2.113125
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 7493
     maincolor: 8627698
@@ -2355,7 +2236,6 @@ types:
     name: Anode Light Electron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -2374,16 +2254,15 @@ types:
     typecolorscheme: 11331
     volume: 5.0
   7535:
-    capacitorneed: 0.8722000122070312
-    capacity: 0.30000001192092896
+    capacitorneed: 0.8722
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7535
     maincolor: 8627698
@@ -2394,7 +2273,6 @@ types:
     name: Modal Light Ion Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -2409,20 +2287,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11331
     volume: 5.0
   7537:
-    capacitorneed: 0.9800000190734863
-    capacity: 0.30000001192092896
+    capacitorneed: 0.98
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 3.2484374046325684
+    damagemultiplier: 3.2484375
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7537
     maincolor: 8627698
@@ -2433,7 +2310,6 @@ types:
     name: Limited Light Ion Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -2448,20 +2324,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11331
     volume: 5.0
   7539:
-    capacitorneed: 1.0339000225067139
-    capacity: 0.30000001192092896
+    capacitorneed: 1.0339
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 3.100781202316284
+    damagemultiplier: 3.10078125
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7539
     maincolor: 8627698
@@ -2472,7 +2347,6 @@ types:
     name: Regulated Light Ion Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -2487,20 +2361,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11331
     volume: 5.0
   7541:
-    capacitorneed: 0.9261000156402588
-    capacity: 0.30000001192092896
+    capacitorneed: 0.9261
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 11.0
-    damagemultiplier: 3.3960938453674316
+    damagemultiplier: 3.39609375
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7541
     maincolor: 8627698
@@ -2511,7 +2384,6 @@ types:
     name: Anode Light Ion Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -2526,20 +2398,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11331
     volume: 5.0
   7579:
-    capacitorneed: 1.1318999528884888
-    capacity: 0.20000000298023224
+    capacitorneed: 1.1319
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7579
     maincolor: 8627698
@@ -2550,7 +2421,6 @@ types:
     name: Modal Light Neutron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -2565,20 +2435,19 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11331
     volume: 5.0
   7581:
-    capacitorneed: 1.2740000486373901
-    capacity: 0.20000000298023224
+    capacitorneed: 1.274
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 14.0
-    damagemultiplier: 4.042500019073486
+    damagemultiplier: 4.0425
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7581
     maincolor: 8627698
@@ -2589,7 +2458,6 @@ types:
     name: Limited Light Neutron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -2604,20 +2472,19 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11331
     volume: 5.0
   7583:
-    capacitorneed: 1.3425999879837036
-    capacity: 0.20000000298023224
+    capacitorneed: 1.3426
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 3.858750104904175
+    damagemultiplier: 3.85875
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7583
     maincolor: 8627698
@@ -2628,7 +2495,6 @@ types:
     name: Regulated Light Neutron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -2643,20 +2509,19 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11331
     volume: 5.0
   7585:
-    capacitorneed: 1.2005000114440918
-    capacity: 0.20000000298023224
+    capacitorneed: 1.2005
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 15.0
-    damagemultiplier: 4.226250171661377
+    damagemultiplier: 4.22625
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7585
     maincolor: 8627698
@@ -2667,7 +2532,6 @@ types:
     name: Anode Light Neutron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -2682,19 +2546,18 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11331
     volume: 5.0
   7619:
-    capacitorneed: 1.5679999589920044
-    capacity: 2.5
+    capacitorneed: 1.568
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 19.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7619
@@ -2706,7 +2569,6 @@ types:
     name: Modal Electron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -2721,19 +2583,18 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11331
     volume: 10.0
   7621:
-    capacitorneed: 1.7640000581741333
-    capacity: 2.5
+    capacitorneed: 1.764
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 21.0
-    damagemultiplier: 2.021250009536743
+    damagemultiplier: 2.02125
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7621
@@ -2745,7 +2606,6 @@ types:
     name: Limited Electron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -2760,19 +2620,18 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11331
     volume: 10.0
   7623:
-    capacitorneed: 1.8619999885559082
-    capacity: 2.5
+    capacitorneed: 1.862
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 18.0
-    damagemultiplier: 1.9293750524520874
+    damagemultiplier: 1.929375
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7623
@@ -2784,7 +2643,6 @@ types:
     name: Regulated Electron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -2799,19 +2657,18 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11331
     volume: 10.0
   7625:
-    capacitorneed: 1.6660000085830688
-    capacity: 2.5
+    capacitorneed: 1.666
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 2.1131250858306885
+    damagemultiplier: 2.113125
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7625
@@ -2823,7 +2680,6 @@ types:
     name: Anode Electron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -2838,20 +2694,19 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11331
     volume: 10.0
   7663:
-    capacitorneed: 2.6166000366210938
-    capacity: 1.5
+    capacitorneed: 2.6166
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 23.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7663
     maincolor: 8627698
@@ -2862,7 +2717,6 @@ types:
     name: Modal Ion Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -2877,20 +2731,19 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   7665:
-    capacitorneed: 2.940000057220459
-    capacity: 1.5
+    capacitorneed: 2.94
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 3.2484374046325684
+    damagemultiplier: 3.2484375
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7665
     maincolor: 8627698
@@ -2901,7 +2754,6 @@ types:
     name: Limited Ion Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -2916,20 +2768,19 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   7667:
-    capacitorneed: 3.106600046157837
-    capacity: 1.5
+    capacitorneed: 3.1066
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 3.100781202316284
+    damagemultiplier: 3.10078125
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7667
     maincolor: 8627698
@@ -2940,7 +2791,6 @@ types:
     name: Regulated Ion Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -2955,20 +2805,19 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   7669:
-    capacitorneed: 2.7783000469207764
-    capacity: 1.5
+    capacitorneed: 2.7783
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 3.3960938453674316
+    damagemultiplier: 3.39609375
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7669
     maincolor: 8627698
@@ -2979,7 +2828,6 @@ types:
     name: Anode Ion Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -2994,20 +2842,19 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11331
     volume: 10.0
   7703:
-    capacitorneed: 3.395699977874756
-    capacity: 1.0
+    capacitorneed: 3.3957
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7703
     maincolor: 8627698
@@ -3018,7 +2865,6 @@ types:
     name: Modal Neutron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -3033,20 +2879,19 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11331
     volume: 10.0
   7705:
-    capacitorneed: 3.822000026702881
-    capacity: 1.0
+    capacitorneed: 3.822
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 4.042500019073486
+    damagemultiplier: 4.0425
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7705
     maincolor: 8627698
@@ -3057,7 +2902,6 @@ types:
     name: Limited Neutron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -3072,20 +2916,19 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11331
     volume: 10.0
   7707:
-    capacitorneed: 4.032700061798096
-    capacity: 1.0
+    capacitorneed: 4.0327
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 23.0
-    damagemultiplier: 3.858750104904175
+    damagemultiplier: 3.85875
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7707
     maincolor: 8627698
@@ -3096,7 +2939,6 @@ types:
     name: Regulated Neutron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -3111,20 +2953,19 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11331
     volume: 10.0
   7709:
-    capacitorneed: 3.611299991607666
-    capacity: 1.0
+    capacitorneed: 3.6113
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 4.226250171661377
+    damagemultiplier: 4.22625
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 7709
     maincolor: 8627698
@@ -3135,7 +2976,6 @@ types:
     name: Anode Neutron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -3150,19 +2990,18 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11331
     volume: 10.0
   7743:
-    capacitorneed: 4.703999996185303
-    capacity: 5.0
+    capacitorneed: 4.704
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 33.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7743
@@ -3174,7 +3013,6 @@ types:
     name: Modal Mega Electron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -3193,15 +3031,14 @@ types:
     typecolorscheme: 11331
     volume: 20.0
   7745:
-    capacitorneed: 5.291999816894531
-    capacity: 5.0
+    capacitorneed: 5.292
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 35.0
-    damagemultiplier: 2.021250009536743
+    damagemultiplier: 2.02125
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7745
@@ -3213,7 +3050,6 @@ types:
     name: Limited Electron Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -3232,15 +3068,14 @@ types:
     typecolorscheme: 11331
     volume: 20.0
   7747:
-    capacitorneed: 5.585999965667725
-    capacity: 5.0
+    capacitorneed: 5.586
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 31.0
-    damagemultiplier: 1.9293750524520874
+    damagemultiplier: 1.929375
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7747
@@ -3252,7 +3087,6 @@ types:
     name: Regulated Mega Electron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -3271,15 +3105,14 @@ types:
     typecolorscheme: 11331
     volume: 20.0
   7749:
-    capacitorneed: 4.998000144958496
-    capacity: 5.0
+    capacitorneed: 4.998
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 2.1131250858306885
+    damagemultiplier: 2.113125
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 7749
@@ -3291,7 +3124,6 @@ types:
     name: Anode Mega Electron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -3310,16 +3142,15 @@ types:
     typecolorscheme: 11331
     volume: 20.0
   7783:
-    capacitorneed: 10.192000389099121
-    capacity: 2.0
+    capacitorneed: 10.192
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 44.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 7783
     maincolor: 8627698
@@ -3330,7 +3161,6 @@ types:
     name: Modal Mega Neutron Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -3345,20 +3175,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11331
     volume: 20.0
   7785:
-    capacitorneed: 11.465999603271484
-    capacity: 2.0
+    capacitorneed: 11.466
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 46.0
-    damagemultiplier: 4.042500019073486
+    damagemultiplier: 4.0425
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 7785
     maincolor: 8627698
@@ -3369,7 +3198,6 @@ types:
     name: Limited Mega Neutron Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -3384,20 +3212,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11331
     volume: 20.0
   7787:
-    capacitorneed: 12.102999687194824
-    capacity: 2.0
+    capacitorneed: 12.103
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 41.0
-    damagemultiplier: 3.858750104904175
+    damagemultiplier: 3.85875
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 7787
     maincolor: 8627698
@@ -3408,7 +3235,6 @@ types:
     name: Regulated Mega Neutron Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -3423,20 +3249,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11331
     volume: 20.0
   7789:
-    capacitorneed: 10.829000473022461
-    capacity: 2.0
+    capacitorneed: 10.829
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 49.0
-    damagemultiplier: 4.226250171661377
+    damagemultiplier: 4.22625
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 7789
     maincolor: 8627698
@@ -3447,7 +3272,6 @@ types:
     name: Anode Mega Neutron Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -3462,20 +3286,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11331
     volume: 20.0
   7827:
-    capacitorneed: 7.840000152587891
-    capacity: 3.0
+    capacitorneed: 7.84
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7827
     maincolor: 8627698
@@ -3486,7 +3309,6 @@ types:
     name: Modal Mega Ion Particle Accelerator I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -3501,20 +3323,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11331
     volume: 20.0
   7829:
-    capacitorneed: 8.819999694824219
-    capacity: 3.0
+    capacitorneed: 8.82
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 43.0
-    damagemultiplier: 3.2484374046325684
+    damagemultiplier: 3.2484375
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7829
     maincolor: 8627698
@@ -3525,7 +3346,6 @@ types:
     name: Limited Mega Ion Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -3540,20 +3360,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11331
     volume: 20.0
   7831:
-    capacitorneed: 9.3100004196167
-    capacity: 3.0
+    capacitorneed: 9.31
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 38.0
-    damagemultiplier: 3.100781202316284
+    damagemultiplier: 3.10078125
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7831
     maincolor: 8627698
@@ -3564,7 +3383,6 @@ types:
     name: Regulated Mega Ion Phase Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -3579,20 +3397,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11331
     volume: 20.0
   7833:
-    capacitorneed: 8.329999923706055
-    capacity: 3.0
+    capacitorneed: 8.33
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 45.0
-    damagemultiplier: 3.3960938453674316
+    damagemultiplier: 3.39609375
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 7833
     maincolor: 8627698
@@ -3603,7 +3420,6 @@ types:
     name: Anode Mega Ion Particle Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -3618,20 +3434,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11331
     volume: 20.0
   10678:
-    capacitorneed: 1.5049999952316284
-    capacity: 0.20000000298023224
+    capacitorneed: 1.505
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 14.0
-    damagemultiplier: 2.200000047683716
+    damagemultiplier: 2.2
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 10678
     maincolor: 8627698
@@ -3641,7 +3456,6 @@ types:
     name: 125mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 9000.0
@@ -3660,17 +3474,16 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   10680:
-    capacitorneed: 1.5049999952316284
-    capacity: 0.20000000298023224
+    capacitorneed: 1.505
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 16.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 10680
     maincolor: 8627698
@@ -3681,7 +3494,6 @@ types:
     name: 125mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 110528.0
@@ -3702,16 +3514,15 @@ types:
     typecolorscheme: 11325
     volume: 5.0
   10688:
-    capacitorneed: 1.3509999513626099
-    capacity: 0.20000000298023224
+    capacitorneed: 1.351
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 12.0
-    damagemultiplier: 2.4200000762939453
+    damagemultiplier: 2.42
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 10688
     maincolor: 8627698
@@ -3722,7 +3533,6 @@ types:
     name: 125mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -3741,16 +3551,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   10690:
-    capacitorneed: 1.4279999732971191
-    capacity: 0.20000000298023224
+    capacitorneed: 1.428
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 11.0
-    damagemultiplier: 2.309999942779541
+    damagemultiplier: 2.31
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 10690
     maincolor: 8627698
@@ -3761,7 +3570,6 @@ types:
     name: 125mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -3780,16 +3588,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   10692:
-    capacitorneed: 1.281000018119812
-    capacity: 0.20000000298023224
+    capacitorneed: 1.281
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 2.5299999713897705
+    damagemultiplier: 2.53
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 10692
     maincolor: 8627698
@@ -3800,7 +3607,6 @@ types:
     name: 125mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -3819,16 +3625,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   10694:
-    capacitorneed: 1.2039999961853027
-    capacity: 0.20000000298023224
+    capacitorneed: 1.204
     chargegroup1: 85
     chargerate: 1
     chargesize: 1
     cpu: 11.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 10694
     maincolor: 8627698
@@ -3839,7 +3644,6 @@ types:
     name: 125mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -3858,16 +3662,15 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   12344:
-    capacitorneed: 4.514999866485596
-    capacity: 1.0
+    capacitorneed: 4.515
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.5299999713897705
+    damagemultiplier: 2.53
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 12344
     maincolor: 8627698
@@ -3877,7 +3680,6 @@ types:
     name: 200mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -3892,21 +3694,20 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11324
     volume: 10.0
   12346:
-    capacitorneed: 4.514999866485596
-    capacity: 1.0
+    capacitorneed: 4.515
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 37.0
-    damagemultiplier: 3.0399999618530273
+    damagemultiplier: 3.04
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 12346
     maincolor: 8627698
@@ -3917,7 +3718,6 @@ types:
     name: 200mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 166
     price: 243088.0
@@ -3934,20 +3734,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 2
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11325
     volume: 10.0
   12354:
-    capacitorneed: 15.399999618530273
-    capacity: 2.0
+    capacitorneed: 15.4
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 57.0
-    damagemultiplier: 2.200000047683716
+    damagemultiplier: 2.2
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 12354
     maincolor: 8627698
@@ -3957,7 +3756,6 @@ types:
     name: 350mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -3972,21 +3770,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11324
     volume: 50.0
   12356:
-    capacitorneed: 15.399999618530273
-    capacity: 2.0
+    capacitorneed: 15.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 12356
     maincolor: 8627698
@@ -3997,7 +3794,6 @@ types:
     name: 350mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1733
     price: 1172256.0
@@ -4014,12 +3810,11 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 2
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11325
     volume: 20.0
   13864:
-    capacitorneed: 1.2039999961853027
-    capacity: 0.20000000298023224
+    capacitorneed: 1.204
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -4027,8 +3822,8 @@ types:
     cpu: 16.0
     damagemultiplier: 2.75
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13864
     maincolor: 8627698
@@ -4040,7 +3835,6 @@ types:
     name: Shadow Serpentis 125mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -4059,17 +3853,16 @@ types:
     typecolorscheme: 11351
     volume: 5.0
   13865:
-    capacitorneed: 1.2039999961853027
-    capacity: 0.20000000298023224
+    capacitorneed: 1.204
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 16.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13865
     maincolor: 8627698
@@ -4081,7 +3874,6 @@ types:
     name: Dread Guristas 125mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 4484.0
@@ -4100,8 +3892,7 @@ types:
     typecolorscheme: 11335
     volume: 5.0
   13866:
-    capacitorneed: 1.86899995803833
-    capacity: 0.10000000149011612
+    capacitorneed: 1.869
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -4109,7 +3900,7 @@ types:
     cpu: 27.0
     damagemultiplier: 3.78125
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13866
@@ -4122,7 +3913,6 @@ types:
     name: Shadow Serpentis 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -4141,16 +3931,15 @@ types:
     typecolorscheme: 11351
     volume: 5.0
   13867:
-    capacitorneed: 1.86899995803833
-    capacity: 0.10000000149011612
+    capacitorneed: 1.869
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 27.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13867
@@ -4163,7 +3952,6 @@ types:
     name: Dread Guristas 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 7496.0
@@ -4182,17 +3970,16 @@ types:
     typecolorscheme: 11335
     volume: 5.0
   13868:
-    capacitorneed: 3.611999988555908
-    capacity: 1.0
+    capacitorneed: 3.612
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 37.0
-    damagemultiplier: 3.1600000858306885
+    damagemultiplier: 3.16
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13868
     maincolor: 8627698
@@ -4204,7 +3991,6 @@ types:
     name: Shadow Serpentis 200mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -4219,21 +4005,20 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11351
     volume: 10.0
   13870:
-    capacitorneed: 3.611999988555908
-    capacity: 1.0
+    capacitorneed: 3.612
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 37.0
-    damagemultiplier: 3.0399999618530273
+    damagemultiplier: 3.04
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13870
     maincolor: 8627698
@@ -4245,7 +4030,6 @@ types:
     name: Dread Guristas 200mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 143
     price: 100000.0
@@ -4260,20 +4044,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11335
     volume: 10.0
   13872:
-    capacitorneed: 5.599999904632568
-    capacity: 0.5
+    capacitorneed: 5.6
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 42.0
-    damagemultiplier: 4.349999904632568
+    damagemultiplier: 4.35
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13872
@@ -4286,7 +4069,6 @@ types:
     name: Shadow Serpentis 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -4301,20 +4083,19 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11351
     volume: 10.0
   13873:
-    capacitorneed: 5.599999904632568
-    capacity: 0.5
+    capacitorneed: 5.6
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 42.0
-    damagemultiplier: 4.170000076293945
+    damagemultiplier: 4.17
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13873
@@ -4327,7 +4108,6 @@ types:
     name: Dread Guristas 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 74980.0
@@ -4342,12 +4122,11 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11335
     volume: 10.0
   13874:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -4355,8 +4134,8 @@ types:
     cpu: 63.0
     damagemultiplier: 2.75
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13874
     maincolor: 8627698
@@ -4368,7 +4147,6 @@ types:
     name: Shadow Serpentis 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -4383,21 +4161,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11351
     volume: 20.0
   13876:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13876
     maincolor: 8627698
@@ -4409,7 +4186,6 @@ types:
     name: Dread Guristas 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1485
     price: 1000000.0
@@ -4424,12 +4200,11 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11335
     volume: 20.0
   13878:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -4437,7 +4212,7 @@ types:
     cpu: 74.0
     damagemultiplier: 3.78125
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13878
@@ -4450,7 +4225,6 @@ types:
     name: Shadow Serpentis 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -4465,20 +4239,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11351
     volume: 20.0
   13879:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13879
@@ -4491,7 +4264,6 @@ types:
     name: Dread Guristas 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 744812.0
@@ -4506,21 +4278,20 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11335
     volume: 20.0
   13880:
-    capacitorneed: 2.799999952316284
-    capacity: 2.0
+    capacitorneed: 2.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.369999885559082
+    damagemultiplier: 2.37
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 13880
     maincolor: 8627698
@@ -4532,7 +4303,6 @@ types:
     name: Shadow Serpentis Dual 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -4547,21 +4317,20 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11351
     volume: 10.0
   13881:
-    capacitorneed: 2.799999952316284
-    capacity: 2.0
+    capacitorneed: 2.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.2799999713897705
+    damagemultiplier: 2.28
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 13881
     maincolor: 8627698
@@ -4573,7 +4342,6 @@ types:
     name: Dread Guristas Dual 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 63
     price: 10000.0
@@ -4588,12 +4356,11 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11335
     volume: 10.0
   13882:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -4601,8 +4368,8 @@ types:
     cpu: 58.0
     damagemultiplier: 2.0625
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13882
     maincolor: 8627698
@@ -4614,7 +4381,6 @@ types:
     name: Shadow Serpentis Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -4629,21 +4395,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11351
     volume: 20.0
   13883:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13883
     maincolor: 8627698
@@ -4655,7 +4420,6 @@ types:
     name: Dread Guristas Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 990
     price: 98972.0
@@ -4670,12 +4434,11 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11335
     volume: 20.0
   13884:
-    capacitorneed: 1.5679999589920044
-    capacity: 2.5
+    capacitorneed: 1.568
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4683,7 +4446,7 @@ types:
     cpu: 26.0
     damagemultiplier: 2.296875
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 13884
@@ -4696,7 +4459,6 @@ types:
     name: Shadow Serpentis Heavy Electron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -4711,12 +4473,11 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11351
     volume: 10.0
   13885:
-    capacitorneed: 2.6166000366210938
-    capacity: 1.5
+    capacitorneed: 2.6166
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4724,8 +4485,8 @@ types:
     cpu: 31.0
     damagemultiplier: 3.69140625
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13885
     maincolor: 8627698
@@ -4737,7 +4498,6 @@ types:
     name: Shadow Serpentis Heavy Ion Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -4752,12 +4512,11 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11351
     volume: 10.0
   13886:
-    capacitorneed: 0.5242999792098999
-    capacity: 0.5
+    capacitorneed: 0.5243
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4765,8 +4524,8 @@ types:
     cpu: 8.0
     damagemultiplier: 2.296875
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 13886
     maincolor: 8627698
@@ -4778,7 +4537,6 @@ types:
     name: Shadow Serpentis Light Electron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -4797,8 +4555,7 @@ types:
     typecolorscheme: 11351
     volume: 5.0
   13887:
-    capacitorneed: 0.8722000122070312
-    capacity: 0.30000001192092896
+    capacitorneed: 0.8722
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4806,8 +4563,8 @@ types:
     cpu: 13.0
     damagemultiplier: 3.69140625
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13887
     maincolor: 8627698
@@ -4819,7 +4576,6 @@ types:
     name: Shadow Serpentis Light Ion Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 4484.0
@@ -4834,12 +4590,11 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11351
     volume: 5.0
   13888:
-    capacitorneed: 1.1318999528884888
-    capacity: 0.20000000298023224
+    capacitorneed: 1.1319
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4847,8 +4602,8 @@ types:
     cpu: 18.0
     damagemultiplier: 4.59375
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13888
     maincolor: 8627698
@@ -4860,7 +4615,6 @@ types:
     name: Shadow Serpentis Light Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -4875,12 +4629,11 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11351
     volume: 5.0
   13889:
-    capacitorneed: 4.703999996185303
-    capacity: 5.0
+    capacitorneed: 4.704
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4888,7 +4641,7 @@ types:
     cpu: 44.0
     damagemultiplier: 2.296875
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 13889
@@ -4901,7 +4654,6 @@ types:
     name: Shadow Serpentis Electron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -4920,8 +4672,7 @@ types:
     typecolorscheme: 11351
     volume: 20.0
   13890:
-    capacitorneed: 7.840000152587891
-    capacity: 3.0
+    capacitorneed: 7.84
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4929,8 +4680,8 @@ types:
     cpu: 53.0
     damagemultiplier: 3.69140625
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13890
     maincolor: 8627698
@@ -4942,7 +4693,6 @@ types:
     name: Shadow Serpentis Ion Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -4957,12 +4707,11 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11351
     volume: 20.0
   13891:
-    capacitorneed: 10.192000389099121
-    capacity: 2.0
+    capacitorneed: 10.192
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -4970,8 +4719,8 @@ types:
     cpu: 58.0
     damagemultiplier: 4.59375
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 13891
     maincolor: 8627698
@@ -4983,7 +4732,6 @@ types:
     name: Shadow Serpentis Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -4998,12 +4746,11 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11351
     volume: 20.0
   13892:
-    capacitorneed: 3.395699977874756
-    capacity: 1.0
+    capacitorneed: 3.3957
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -5011,8 +4758,8 @@ types:
     cpu: 33.0
     damagemultiplier: 4.59375
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13892
     maincolor: 8627698
@@ -5024,7 +4771,6 @@ types:
     name: Shadow Serpentis Heavy Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -5039,21 +4785,20 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11351
     volume: 10.0
   13893:
-    capacitorneed: 0.9380000233650208
-    capacity: 0.5
+    capacitorneed: 0.938
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 13893
     maincolor: 8627698
@@ -5065,7 +4810,6 @@ types:
     name: Dread Guristas 75mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -5084,8 +4828,7 @@ types:
     typecolorscheme: 11335
     volume: 5.0
   13894:
-    capacitorneed: 0.9380000233650208
-    capacity: 0.5
+    capacitorneed: 0.938
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -5093,8 +4836,8 @@ types:
     cpu: 6.0
     damagemultiplier: 2.0625
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 13894
     maincolor: 8627698
@@ -5106,7 +4849,6 @@ types:
     name: Shadow Serpentis 75mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -5125,16 +4867,15 @@ types:
     typecolorscheme: 11351
     volume: 5.0
   14272:
-    capacitorneed: 4.290999889373779
-    capacity: 1.0
+    capacitorneed: 4.291
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 2.6600000858306885
+    damagemultiplier: 2.66
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14272
     maincolor: 8627698
@@ -5145,7 +4886,6 @@ types:
     name: 200mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -5160,20 +4900,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11324
     volume: 10.0
   14274:
-    capacitorneed: 4.066999912261963
-    capacity: 1.0
+    capacitorneed: 4.067
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 29.0
-    damagemultiplier: 2.7799999713897705
+    damagemultiplier: 2.78
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14274
     maincolor: 8627698
@@ -5184,7 +4923,6 @@ types:
     name: 200mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -5199,20 +4937,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11324
     volume: 10.0
   14276:
-    capacitorneed: 3.8359999656677246
-    capacity: 1.0
+    capacitorneed: 3.836
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 31.0
-    damagemultiplier: 2.9100000858306885
+    damagemultiplier: 2.91
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14276
     maincolor: 8627698
@@ -5223,7 +4960,6 @@ types:
     name: 200mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -5238,20 +4974,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11324
     volume: 10.0
   14278:
-    capacitorneed: 3.611999988555908
-    capacity: 1.0
+    capacitorneed: 3.612
     chargegroup1: 85
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 3.0399999618530273
+    damagemultiplier: 3.04
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14278
     maincolor: 8627698
@@ -5262,7 +4997,6 @@ types:
     name: 200mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -5277,20 +5011,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11324
     volume: 10.0
   14280:
-    capacitorneed: 14.630000114440918
-    capacity: 2.0
+    capacitorneed: 14.63
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 45.0
-    damagemultiplier: 2.309999942779541
+    damagemultiplier: 2.31
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14280
     maincolor: 8627698
@@ -5301,7 +5034,6 @@ types:
     name: 350mm Carbide Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -5316,20 +5048,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11324
     volume: 20.0
   14282:
-    capacitorneed: 13.859999656677246
-    capacity: 2.0
+    capacitorneed: 13.86
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 51.0
-    damagemultiplier: 2.4200000762939453
+    damagemultiplier: 2.42
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14282
     maincolor: 8627698
@@ -5340,7 +5071,6 @@ types:
     name: 350mm 'Scout' Accelerator Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -5355,20 +5085,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11324
     volume: 20.0
   14284:
-    capacitorneed: 13.09000015258789
-    capacity: 2.0
+    capacitorneed: 13.09
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 54.0
-    damagemultiplier: 2.5299999713897705
+    damagemultiplier: 2.53
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14284
     maincolor: 8627698
@@ -5379,7 +5108,6 @@ types:
     name: 350mm Compressed Coil Gun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -5394,20 +5122,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11324
     volume: 20.0
   14286:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargerate: 1
     chargesize: 3
     cpu: 48.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14286
     maincolor: 8627698
@@ -5418,7 +5145,6 @@ types:
     name: 350mm Prototype Gauss Gun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -5433,20 +5159,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11324
     volume: 20.0
   14375:
-    capacitorneed: 4.85099983215332
-    capacity: 5.0
+    capacitorneed: 4.851
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 44.0
-    damagemultiplier: 2.526562452316284
+    damagemultiplier: 2.5265625
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 14375
@@ -5459,7 +5184,6 @@ types:
     name: Tuvan's Modified Electron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 600000.0
@@ -5478,16 +5202,15 @@ types:
     typecolorscheme: 11322
     volume: 20.0
   14377:
-    capacitorneed: 5.291999816894531
-    capacity: 5.0
+    capacitorneed: 5.292
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 44.0
-    damagemultiplier: 2.7562499046325684
+    damagemultiplier: 2.75625
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 14377
@@ -5500,7 +5223,6 @@ types:
     name: Cormack's Modified Electron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1210
     price: 600000.0
@@ -5519,8 +5241,7 @@ types:
     typecolorscheme: 11322
     volume: 20.0
   14379:
-    capacitorneed: 8.819999694824219
-    capacity: 3.0
+    capacitorneed: 8.82
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -5528,8 +5249,8 @@ types:
     cpu: 53.0
     damagemultiplier: 4.4296875
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14379
     maincolor: 8627698
@@ -5541,7 +5262,6 @@ types:
     name: Cormack's Modified Ion Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1694
     price: 900000.0
@@ -5556,12 +5276,11 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11322
     volume: 20.0
   14381:
-    capacitorneed: 8.085000038146973
-    capacity: 3.0
+    capacitorneed: 8.085
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -5569,8 +5288,8 @@ types:
     cpu: 53.0
     damagemultiplier: 4.060546875
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14381
     maincolor: 8627698
@@ -5582,7 +5301,6 @@ types:
     name: Tuvan's Modified Ion Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 900000.0
@@ -5597,21 +5315,20 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11322
     volume: 20.0
   14383:
-    capacitorneed: 10.510499954223633
-    capacity: 2.0
+    capacitorneed: 10.5105
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 5.053124904632568
+    damagemultiplier: 5.053125
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 14383
     maincolor: 8627698
@@ -5623,7 +5340,6 @@ types:
     name: Tuvan's Modified Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 1200000.0
@@ -5638,21 +5354,20 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11322
     volume: 20.0
   14385:
-    capacitorneed: 11.465999603271484
-    capacity: 2.0
+    capacitorneed: 11.466
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 5.512499809265137
+    damagemultiplier: 5.5125
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 14385
     maincolor: 8627698
@@ -5664,7 +5379,6 @@ types:
     name: Cormack's Modified Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2178
     price: 1200000.0
@@ -5679,21 +5393,20 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11322
     volume: 20.0
   14387:
-    capacitorneed: 12.704999923706055
-    capacity: 2.0
+    capacitorneed: 12.705
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 3.0250000953674316
+    damagemultiplier: 3.025
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14387
     maincolor: 8627698
@@ -5705,7 +5418,6 @@ types:
     name: Brynn's Modified 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1733
     price: 1000000.0
@@ -5720,21 +5432,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11322
     volume: 20.0
   14389:
-    capacitorneed: 13.859999656677246
-    capacity: 2.0
+    capacitorneed: 13.86
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 3.299999952316284
+    damagemultiplier: 3.3
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14389
     maincolor: 8627698
@@ -5746,7 +5457,6 @@ types:
     name: Setele's Modified 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1815
     price: 1000000.0
@@ -5761,21 +5471,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11322
     volume: 20.0
   14391:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 2.7720000743865967
+    damagemultiplier: 2.772
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14391
     maincolor: 8627698
@@ -5787,7 +5496,6 @@ types:
     name: Kaikka's Modified 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1485
     price: 1000000.0
@@ -5802,21 +5510,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11322
     volume: 20.0
   14393:
-    capacitorneed: 13.09000015258789
-    capacity: 2.0
+    capacitorneed: 13.09
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 2.9040000438690186
+    damagemultiplier: 2.904
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14393
     maincolor: 8627698
@@ -5828,7 +5535,6 @@ types:
     name: Vepas' Modified 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1559
     price: 1000000.0
@@ -5843,21 +5549,20 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11322
     volume: 20.0
   14395:
-    capacitorneed: 13.859999656677246
-    capacity: 2.0
+    capacitorneed: 13.86
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 77.0
-    damagemultiplier: 3.0360000133514404
+    damagemultiplier: 3.036
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14395
     maincolor: 8627698
@@ -5869,7 +5574,6 @@ types:
     name: Estamel's Modified 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1634
     price: 1000000.0
@@ -5884,20 +5588,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11322
     volume: 20.0
   14397:
-    capacitorneed: 17.325000762939453
-    capacity: 1.0
+    capacitorneed: 17.325
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 4.159375190734863
+    damagemultiplier: 4.159375
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 14397
@@ -5910,7 +5613,6 @@ types:
     name: Brynn's Modified 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2311
     price: 1500000.0
@@ -5925,20 +5627,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11322
     volume: 20.0
   14399:
-    capacitorneed: 18.899999618530273
-    capacity: 1.0
+    capacitorneed: 18.9
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 4.537499904632568
+    damagemultiplier: 4.5375
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 14399
@@ -5951,7 +5652,6 @@ types:
     name: Setele's Modified 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2420
     price: 1500000.0
@@ -5966,20 +5666,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11322
     volume: 20.0
   14401:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 3.811500072479248
+    damagemultiplier: 3.8115
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 14401
@@ -5992,7 +5691,6 @@ types:
     name: Kaikka's Modified 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 1500000.0
@@ -6007,20 +5705,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11322
     volume: 20.0
   14403:
-    capacitorneed: 17.850000381469727
-    capacity: 1.0
+    capacitorneed: 17.85
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 86.0
-    damagemultiplier: 3.993000030517578
+    damagemultiplier: 3.993
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 14403
@@ -6033,7 +5730,6 @@ types:
     name: Vepas' Modified 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2079
     price: 1500000.0
@@ -6048,20 +5744,19 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11322
     volume: 20.0
   14405:
-    capacitorneed: 18.899999618530273
-    capacity: 1.0
+    capacitorneed: 18.9
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 91.0
-    damagemultiplier: 4.174499988555908
+    damagemultiplier: 4.1745
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 14405
@@ -6074,7 +5769,6 @@ types:
     name: Estamel's Modified 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2178
     price: 1500000.0
@@ -6089,21 +5783,20 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11322
     volume: 20.0
   14407:
-    capacitorneed: 8.666000366210938
-    capacity: 4.0
+    capacitorneed: 8.666
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 2.268749952316284
+    damagemultiplier: 2.26875
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14407
     maincolor: 8627698
@@ -6115,7 +5808,6 @@ types:
     name: Brynn's Modified Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1155
     price: 200000.0
@@ -6130,21 +5822,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11322
     volume: 20.0
   14409:
-    capacitorneed: 9.449999809265137
-    capacity: 4.0
+    capacitorneed: 9.45
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14409
     maincolor: 8627698
@@ -6156,7 +5847,6 @@ types:
     name: Setele's Modified Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1210
     price: 200000.0
@@ -6171,21 +5861,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11322
     volume: 20.0
   14411:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 2.0789999961853027
+    damagemultiplier: 2.079
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14411
     maincolor: 8627698
@@ -6197,7 +5886,6 @@ types:
     name: Kaikka's Modified Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 990
     price: 200000.0
@@ -6212,21 +5900,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11322
     volume: 20.0
   14413:
-    capacitorneed: 8.925000190734863
-    capacity: 4.0
+    capacitorneed: 8.925
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 66.0
-    damagemultiplier: 2.177999973297119
+    damagemultiplier: 2.178
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14413
     maincolor: 8627698
@@ -6238,7 +5925,6 @@ types:
     name: Vepas' Modified Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1039
     price: 200000.0
@@ -6253,21 +5939,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11322
     volume: 20.0
   14415:
-    capacitorneed: 9.449999809265137
-    capacity: 4.0
+    capacitorneed: 9.45
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 70.0
-    damagemultiplier: 2.2769999504089355
+    damagemultiplier: 2.277
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14415
     maincolor: 8627698
@@ -6279,7 +5964,6 @@ types:
     name: Estamel's Modified Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1089
     price: 200000.0
@@ -6294,21 +5978,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11322
     volume: 20.0
   15814:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 58.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15814
     maincolor: 8627698
@@ -6320,7 +6003,6 @@ types:
     name: Caldari Navy Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 990
     price: 98972.0
@@ -6335,21 +6017,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11321
     volume: 20.0
   15815:
-    capacitorneed: 2.799999952316284
-    capacity: 2.0
+    capacitorneed: 2.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.2799999713897705
+    damagemultiplier: 2.28
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 15815
     maincolor: 8627698
@@ -6361,7 +6042,6 @@ types:
     name: Caldari Navy Dual 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 63
     price: 10000.0
@@ -6376,21 +6056,20 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11321
     volume: 10.0
   15816:
-    capacitorneed: 0.8259999752044678
-    capacity: 0.5
+    capacitorneed: 0.826
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 1.9800000190734863
+    damagemultiplier: 1.98
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 15816
     maincolor: 8627698
@@ -6402,7 +6081,6 @@ types:
     name: Caldari Navy 75mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -6421,16 +6099,15 @@ types:
     typecolorscheme: 11321
     volume: 5.0
   15817:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 74.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15817
@@ -6443,7 +6120,6 @@ types:
     name: Caldari Navy 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 744812.0
@@ -6458,21 +6134,20 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11321
     volume: 20.0
   15818:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 63.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15818
     maincolor: 8627698
@@ -6484,7 +6159,6 @@ types:
     name: Caldari Navy 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1485
     price: 1000000.0
@@ -6499,20 +6173,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11321
     volume: 20.0
   15820:
-    capacitorneed: 5.599999904632568
-    capacity: 0.5
+    capacitorneed: 5.6
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 42.0
-    damagemultiplier: 4.170000076293945
+    damagemultiplier: 4.17
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15820
@@ -6525,7 +6198,6 @@ types:
     name: Caldari Navy 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 74980.0
@@ -6540,21 +6212,20 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11321
     volume: 10.0
   15821:
-    capacitorneed: 3.611999988555908
-    capacity: 1.0
+    capacitorneed: 3.612
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 37.0
-    damagemultiplier: 3.0399999618530273
+    damagemultiplier: 3.04
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15821
     maincolor: 8627698
@@ -6566,7 +6237,6 @@ types:
     name: Caldari Navy 200mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 143
     price: 100000.0
@@ -6581,20 +6251,19 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11321
     volume: 10.0
   15823:
-    capacitorneed: 1.86899995803833
-    capacity: 0.10000000149011612
+    capacitorneed: 1.869
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 27.0
-    damagemultiplier: 3.630000114440918
+    damagemultiplier: 3.63
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15823
@@ -6607,7 +6276,6 @@ types:
     name: Caldari Navy 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 7496.0
@@ -6626,17 +6294,16 @@ types:
     typecolorscheme: 11321
     volume: 5.0
   15824:
-    capacitorneed: 1.2039999961853027
-    capacity: 0.20000000298023224
+    capacitorneed: 1.204
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 16.0
-    damagemultiplier: 2.640000104904175
+    damagemultiplier: 2.64
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15824
     maincolor: 8627698
@@ -6648,7 +6315,6 @@ types:
     name: Caldari Navy 125mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 4484.0
@@ -6667,8 +6333,7 @@ types:
     typecolorscheme: 11321
     volume: 5.0
   15825:
-    capacitorneed: 10.192000389099121
-    capacity: 2.0
+    capacitorneed: 10.192
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6676,8 +6341,8 @@ types:
     cpu: 58.0
     damagemultiplier: 4.59375
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 15825
     maincolor: 8627698
@@ -6689,7 +6354,6 @@ types:
     name: Federation Navy Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 595840.0
@@ -6704,12 +6368,11 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11328
     volume: 20.0
   15826:
-    capacitorneed: 1.1318999528884888
-    capacity: 0.20000000298023224
+    capacitorneed: 1.1319
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6717,8 +6380,8 @@ types:
     cpu: 18.0
     damagemultiplier: 4.59375
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15826
     maincolor: 8627698
@@ -6730,7 +6393,6 @@ types:
     name: Federation Navy Light Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 5996.0
@@ -6745,12 +6407,11 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11328
     volume: 5.0
   15827:
-    capacitorneed: 0.8722000122070312
-    capacity: 0.30000001192092896
+    capacitorneed: 0.8722
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6758,8 +6419,8 @@ types:
     cpu: 13.0
     damagemultiplier: 3.69140625
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15827
     maincolor: 8627698
@@ -6771,7 +6432,6 @@ types:
     name: Federation Navy Light Ion Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 4484.0
@@ -6786,12 +6446,11 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11328
     volume: 5.0
   15828:
-    capacitorneed: 0.5242999792098999
-    capacity: 0.5
+    capacitorneed: 0.5243
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6799,8 +6458,8 @@ types:
     cpu: 8.0
     damagemultiplier: 2.296875
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 15828
     maincolor: 8627698
@@ -6812,7 +6471,6 @@ types:
     name: Federation Navy Light Electron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 1976.0
@@ -6831,8 +6489,7 @@ types:
     typecolorscheme: 11328
     volume: 5.0
   15829:
-    capacitorneed: 7.840000152587891
-    capacity: 3.0
+    capacitorneed: 7.84
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6840,8 +6497,8 @@ types:
     cpu: 53.0
     damagemultiplier: 3.69140625
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15829
     maincolor: 8627698
@@ -6853,7 +6510,6 @@ types:
     name: Federation Navy Ion Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1540
     price: 448700.0
@@ -6868,12 +6524,11 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11328
     volume: 20.0
   15830:
-    capacitorneed: 3.395699977874756
-    capacity: 1.0
+    capacitorneed: 3.3957
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6881,8 +6536,8 @@ types:
     cpu: 33.0
     damagemultiplier: 4.59375
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15830
     maincolor: 8627698
@@ -6894,7 +6549,6 @@ types:
     name: Federation Navy Heavy Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 59676.0
@@ -6909,12 +6563,11 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11328
     volume: 10.0
   15831:
-    capacitorneed: 2.6166000366210938
-    capacity: 1.5
+    capacitorneed: 2.6166
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6922,8 +6575,8 @@ types:
     cpu: 31.0
     damagemultiplier: 3.69140625
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15831
     maincolor: 8627698
@@ -6935,7 +6588,6 @@ types:
     name: Federation Navy Heavy Ion Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     price: 44740.0
@@ -6950,12 +6602,11 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11328
     volume: 10.0
   15832:
-    capacitorneed: 1.5679999589920044
-    capacity: 2.5
+    capacitorneed: 1.568
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -6963,7 +6614,7 @@ types:
     cpu: 26.0
     damagemultiplier: 2.296875
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 15832
@@ -6976,7 +6627,6 @@ types:
     name: Federation Navy Heavy Electron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 25888.0
@@ -6991,12 +6641,11 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11328
     volume: 10.0
   15833:
-    capacitorneed: 4.703999996185303
-    capacity: 5.0
+    capacitorneed: 4.704
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
@@ -7004,7 +6653,7 @@ types:
     cpu: 44.0
     damagemultiplier: 2.296875
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 15833
@@ -7017,7 +6666,6 @@ types:
     name: Federation Navy Electron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 298716.0
@@ -7036,8 +6684,7 @@ types:
     typecolorscheme: 11328
     volume: 20.0
   15834:
-    capacitorneed: 8.399999618530273
-    capacity: 4.0
+    capacitorneed: 8.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7045,8 +6692,8 @@ types:
     cpu: 58.0
     damagemultiplier: 2.0625
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15834
     maincolor: 8627698
@@ -7058,7 +6705,6 @@ types:
     name: Federation Navy Dual 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1100
     price: 98972.0
@@ -7073,21 +6719,20 @@ types:
     slots: 1
     speed: 4973.0
     techlevel: 1
-    trackingspeed: 1.9017900228500366
+    trackingspeed: 1.90179
     typecolorscheme: 11328
     volume: 20.0
   15835:
-    capacitorneed: 2.799999952316284
-    capacity: 2.0
+    capacitorneed: 2.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 2.369999885559082
+    damagemultiplier: 2.37
     falloff: 5400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 15835
     maincolor: 8627698
@@ -7099,7 +6744,6 @@ types:
     name: Federation Navy Dual 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 70
     price: 10000.0
@@ -7114,12 +6758,11 @@ types:
     slots: 1
     speed: 3565.0
     techlevel: 1
-    trackingspeed: 10.800000190734863
+    trackingspeed: 10.8
     typecolorscheme: 11328
     volume: 10.0
   15836:
-    capacitorneed: 0.9380000233650208
-    capacity: 0.5
+    capacitorneed: 0.938
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7127,8 +6770,8 @@ types:
     cpu: 6.0
     damagemultiplier: 2.0625
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 15836
     maincolor: 8627698
@@ -7140,7 +6783,6 @@ types:
     name: Federation Navy 75mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1000.0
@@ -7159,8 +6801,7 @@ types:
     typecolorscheme: 11328
     volume: 5.0
   15837:
-    capacitorneed: 16.799999237060547
-    capacity: 1.0
+    capacitorneed: 16.8
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7168,7 +6809,7 @@ types:
     cpu: 74.0
     damagemultiplier: 3.78125
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15837
@@ -7181,7 +6822,6 @@ types:
     name: Federation Navy 425mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 744812.0
@@ -7196,12 +6836,11 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11328
     volume: 20.0
   15838:
-    capacitorneed: 12.319999694824219
-    capacity: 2.0
+    capacitorneed: 12.32
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7209,8 +6848,8 @@ types:
     cpu: 63.0
     damagemultiplier: 2.75
     falloff: 18000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15838
     maincolor: 8627698
@@ -7222,7 +6861,6 @@ types:
     name: Federation Navy 350mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1000000.0
@@ -7237,20 +6875,19 @@ types:
     slots: 1
     speed: 6216.0
     techlevel: 1
-    trackingspeed: 1.268280029296875
+    trackingspeed: 1.26828
     typecolorscheme: 11328
     volume: 20.0
   15840:
-    capacitorneed: 5.599999904632568
-    capacity: 0.5
+    capacitorneed: 5.6
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 42.0
-    damagemultiplier: 4.349999904632568
+    damagemultiplier: 4.35
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15840
@@ -7263,7 +6900,6 @@ types:
     name: Federation Navy 250mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 74980.0
@@ -7278,21 +6914,20 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11328
     volume: 10.0
   15841:
-    capacitorneed: 3.611999988555908
-    capacity: 1.0
+    capacitorneed: 3.612
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 37.0
-    damagemultiplier: 3.1600000858306885
+    damagemultiplier: 3.16
     falloff: 9000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 15841
     maincolor: 8627698
@@ -7304,7 +6939,6 @@ types:
     name: Federation Navy 200mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 158
     price: 100000.0
@@ -7319,12 +6953,11 @@ types:
     slots: 1
     speed: 4455.0
     techlevel: 1
-    trackingspeed: 7.199999809265137
+    trackingspeed: 7.2
     typecolorscheme: 11328
     volume: 10.0
   15843:
-    capacitorneed: 1.86899995803833
-    capacity: 0.10000000149011612
+    capacitorneed: 1.869
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7332,7 +6965,7 @@ types:
     cpu: 27.0
     damagemultiplier: 3.78125
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 15843
@@ -7345,7 +6978,6 @@ types:
     name: Federation Navy 150mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -7364,8 +6996,7 @@ types:
     typecolorscheme: 11328
     volume: 5.0
   15844:
-    capacitorneed: 1.2039999961853027
-    capacity: 0.20000000298023224
+    capacitorneed: 1.204
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
@@ -7373,8 +7004,8 @@ types:
     cpu: 16.0
     damagemultiplier: 2.75
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15844
     maincolor: 8627698
@@ -7386,7 +7017,6 @@ types:
     name: Federation Navy 125mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 4484.0
@@ -7406,14 +7036,13 @@ types:
     volume: 5.0
   20448:
     capacitorneed: 300.0
-    capacity: 5.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 115.0
-    damagemultiplier: 7.4250593185424805
+    damagemultiplier: 7.4250594
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 20448
@@ -7424,10 +7053,9 @@ types:
     name: Dual 1000mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -7439,19 +7067,18 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.018287500366568565
+    trackingspeed: 0.0182875
     typecolorscheme: 11324
     volume: 4000.0
   20450:
     capacitorneed: 100.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 105.0
-    damagemultiplier: 5.568749904632568
+    damagemultiplier: 5.56875
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 20450
@@ -7462,10 +7089,9 @@ types:
     name: Ion Siege Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -7477,20 +7103,19 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.043699998408555984
+    trackingspeed: 0.0437
     typecolorscheme: 11331
     volume: 4000.0
   20587:
-    capacitorneed: 2.0999999046325684
-    capacity: 0.10000000149011612
+    capacitorneed: 2.1
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 1
     cpu: 20.0
-    damagemultiplier: 3.299999952316284
+    damagemultiplier: 3.3
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 20587
@@ -7503,7 +7128,6 @@ types:
     name: 150mm 'Musket' Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 15000.0
@@ -7522,16 +7146,15 @@ types:
     typecolorscheme: 11323
     volume: 5.0
   20589:
-    capacitorneed: 6.300000190734863
-    capacity: 0.5
+    capacitorneed: 6.3
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 2
     cpu: 32.0
-    damagemultiplier: 3.799999952316284
+    damagemultiplier: 3.8
     falloff: 10800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 20589
@@ -7544,7 +7167,6 @@ types:
     name: 250mm 'Flintlock' Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 150000.0
@@ -7559,20 +7181,19 @@ types:
     slots: 1
     speed: 5825.0
     techlevel: 1
-    trackingspeed: 5.9039998054504395
+    trackingspeed: 5.904
     typecolorscheme: 11323
     volume: 10.0
   20591:
-    capacitorneed: 18.899999618530273
-    capacity: 1.0
+    capacitorneed: 18.9
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 3
     cpu: 57.0
-    damagemultiplier: 3.299999952316284
+    damagemultiplier: 3.3
     falloff: 21600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 20591
@@ -7585,7 +7206,6 @@ types:
     name: 425mm 'Popper' Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 1500000.0
@@ -7600,21 +7220,20 @@ types:
     slots: 1
     speed: 8129.0
     techlevel: 1
-    trackingspeed: 1.0459799766540527
+    trackingspeed: 1.04598
     typecolorscheme: 11323
     volume: 20.0
   22899:
-    capacitorneed: 0.6565999984741211
-    capacity: 0.5
+    capacitorneed: 0.6566
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 1500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.6000000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.6
     hp: 40.0
     id: 22899
     maincolor: 8627698
@@ -7626,7 +7245,6 @@ types:
     name: '''Corporate'' Light Electron Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 6000.0
@@ -7645,17 +7263,16 @@ types:
     typecolorscheme: 11323
     volume: 5.0
   22901:
-    capacitorneed: 1.0927000045776367
-    capacity: 0.30000001192092896
+    capacitorneed: 1.0927
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 22901
     maincolor: 8627698
@@ -7667,7 +7284,6 @@ types:
     name: '''Dealer'' Light Ion Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 9000.0
@@ -7682,21 +7298,20 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 403.20001220703125
+    trackingspeed: 403.2
     typecolorscheme: 11323
     volume: 5.0
   22903:
-    capacitorneed: 1.416100025177002
-    capacity: 0.20000000298023224
+    capacitorneed: 1.4161
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 22903
     maincolor: 8627698
@@ -7708,7 +7323,6 @@ types:
     name: '''Racket'' Light Neutron Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 12000.0
@@ -7723,20 +7337,19 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11323
     volume: 5.0
   22905:
-    capacitorneed: 1.9600000381469727
-    capacity: 2.5
+    capacitorneed: 1.96
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 18.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 22905
@@ -7749,7 +7362,6 @@ types:
     name: '''Slither'' Heavy Electron Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 79
     price: 60000.0
@@ -7764,21 +7376,20 @@ types:
     slots: 1
     speed: 3000.0
     techlevel: 1
-    trackingspeed: 46.08000183105469
+    trackingspeed: 46.08
     typecolorscheme: 11323
     volume: 10.0
   22907:
-    capacitorneed: 3.2683000564575195
-    capacity: 1.5
+    capacitorneed: 3.2683
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 22907
     maincolor: 8627698
@@ -7790,7 +7401,6 @@ types:
     name: '''Hooligan'' Heavy Ion Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 119
     price: 90000.0
@@ -7805,21 +7415,20 @@ types:
     slots: 1
     speed: 4500.0
     techlevel: 1
-    trackingspeed: 42.2400016784668
+    trackingspeed: 42.24
     typecolorscheme: 11323
     volume: 10.0
   22909:
-    capacitorneed: 4.248300075531006
-    capacity: 1.0
+    capacitorneed: 4.2483
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 22909
     maincolor: 8627698
@@ -7831,7 +7440,6 @@ types:
     name: '''Hustler'' Heavy Neutron Blaster I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 161
     price: 120000.0
@@ -7846,20 +7454,19 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11323
     volume: 10.0
   22911:
-    capacitorneed: 5.880000114440918
-    capacity: 5.0
+    capacitorneed: 5.88
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 31.0
-    damagemultiplier: 2.2049999237060547
+    damagemultiplier: 2.205
     falloff: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.5
     hp: 40.0
     id: 22911
@@ -7872,7 +7479,6 @@ types:
     name: '''Swindler'' Electron Blaster Cannon I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 990
     price: 600000.0
@@ -7891,17 +7497,16 @@ types:
     typecolorscheme: 11323
     volume: 20.0
   22913:
-    capacitorneed: 9.800000190734863
-    capacity: 3.0
+    capacitorneed: 9.8
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 38.0
-    damagemultiplier: 3.543750047683716
+    damagemultiplier: 3.54375
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 22913
     maincolor: 8627698
@@ -7913,7 +7518,6 @@ types:
     name: '''Felon'' Ion Blaster Cannon I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1386
     price: 900000.0
@@ -7928,21 +7532,20 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.519999980926514
+    trackingspeed: 5.52
     typecolorscheme: 11323
     volume: 20.0
   22915:
-    capacitorneed: 12.739999771118164
-    capacity: 2.0
+    capacitorneed: 12.74
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 41.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 22915
     maincolor: 8627698
@@ -7954,7 +7557,6 @@ types:
     name: '''Underhand'' Neutron Blaster Cannon I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1782
     price: 1200000.0
@@ -7969,21 +7571,20 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 5.196000099182129
+    trackingspeed: 5.196
     typecolorscheme: 11322
     volume: 20.0
   34278:
-    capacitorneed: 1.0620750188827515
-    capacity: 0.6000000238418579
+    capacitorneed: 1.062075
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 15.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 1600.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 34278
     maincolor: 8627698
@@ -7994,7 +7595,6 @@ types:
     name: Polarized Light Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     price: 148538.0
@@ -8013,21 +7613,20 @@ types:
     slots: 1
     speed: 2800.0
     techlevel: 2
-    trackingspeed: 436.7699890136719
+    trackingspeed: 436.77
     typecolorscheme: 11461
     volume: 5.0
   34280:
-    capacitorneed: 3.186224937438965
-    capacity: 3.0
+    capacitorneed: 3.186225
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 4000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 34280
     maincolor: 8627698
@@ -8038,7 +7637,6 @@ types:
     name: Polarized Heavy Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 179
     price: 443112.0
@@ -8057,21 +7655,20 @@ types:
     slots: 1
     speed: 4200.0
     techlevel: 2
-    trackingspeed: 44.15999984741211
+    trackingspeed: 44.16
     typecolorscheme: 11461
     volume: 10.0
   34282:
-    capacitorneed: 9.555000305175781
-    capacity: 6.0
+    capacitorneed: 9.555
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 3
     cpu: 49.0
-    damagemultiplier: 4.409999847412109
+    damagemultiplier: 4.41
     falloff: 8000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.9
     hp: 40.0
     id: 34282
     maincolor: 8627698
@@ -8082,7 +7679,6 @@ types:
     name: Polarized Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1980
     price: 1446592.0
@@ -8101,21 +7697,20 @@ types:
     slots: 1
     speed: 6300.0
     techlevel: 2
-    trackingspeed: 5.975399971008301
+    trackingspeed: 5.9754
     typecolorscheme: 11461
     volume: 20.0
   37291:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 0.8353151679039001
+    damagemultiplier: 0.835315173
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37291
@@ -8126,10 +7721,9 @@ types:
     name: Triple Neutron Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8143,22 +7737,21 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.299999952316284
+    trackingspeed: 2.3
     typecolorscheme: 11331
     volume: 4000.0
   37300:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 11.0
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 4
     cpu: 104.0
-    damagemultiplier: 0.9188466668128967
+    damagemultiplier: 0.91884669
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37300
@@ -8170,10 +7763,9 @@ types:
     name: Triple Neutron Blaster Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8189,21 +7781,20 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 2
-    trackingspeed: 2.299999952316284
+    trackingspeed: 2.3
     typecolorscheme: 11331
     volume: 4000.0
   37301:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 85.0
-    damagemultiplier: 0.8770809173583984
+    damagemultiplier: 0.877080932
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 37301
@@ -8215,10 +7806,9 @@ types:
     name: Regulated Compact Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 89100
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8232,20 +7822,19 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.299999952316284
+    trackingspeed: 2.3
     typecolorscheme: 11331
     volume: 4000.0
   37302:
     capacitorneed: 100.0
-    capacity: 10.0
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 4
     cpu: 115.0
-    damagemultiplier: 6.125625133514404
+    damagemultiplier: 6.125625
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 37302
@@ -8257,10 +7846,9 @@ types:
     name: Ion Siege Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8274,20 +7862,19 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 2
-    trackingspeed: 0.043699998408555984
+    trackingspeed: 0.0437
     typecolorscheme: 11331
     volume: 4000.0
   37303:
     capacitorneed: 300.0
-    capacity: 10.0
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 4
     cpu: 126.5
-    damagemultiplier: 8.16756534576416
+    damagemultiplier: 8.16756534
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 37303
@@ -8299,10 +7886,9 @@ types:
     name: Dual 1000mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8316,21 +7902,20 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 2
-    trackingspeed: 0.018287500366568565
+    trackingspeed: 0.0182875
     typecolorscheme: 11324
     volume: 4000.0
   41076:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 67.5
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 0.8770809173583984
+    damagemultiplier: 0.877080932
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41076
@@ -8342,10 +7927,9 @@ types:
     name: Modal Enduring Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8359,21 +7943,20 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.299999952316284
+    trackingspeed: 2.3
     typecolorscheme: 11331
     volume: 4000.0
   41077:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 0.8770809173583984
+    damagemultiplier: 0.877080932
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41077
@@ -8385,10 +7968,9 @@ types:
     name: Anode Scoped Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8402,21 +7984,20 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.299999952316284
+    trackingspeed: 2.3
     typecolorscheme: 11331
     volume: 4000.0
   41078:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 0.8770809173583984
+    damagemultiplier: 0.877080932
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41078
@@ -8428,10 +8009,9 @@ types:
     name: Limited Precise Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8445,22 +8025,21 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.4149999618530273
+    trackingspeed: 2.415
     typecolorscheme: 11331
     volume: 4000.0
   41079:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
     capacitorneed: 75.0
-    capacity: 11.5
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 4
     cpu: 85.0
-    damagemultiplier: 0.9606124758720398
+    damagemultiplier: 0.960612449
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41079
@@ -8473,10 +8052,9 @@ types:
     name: Shadow Serpentis Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8490,19 +8068,18 @@ types:
     slots: 1
     speed: 5000.0
     techlevel: 1
-    trackingspeed: 2.4149999618530273
+    trackingspeed: 2.415
     typecolorscheme: 11331
     volume: 4000.0
   41126:
     capacitorneed: 100.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 5.847187519073486
+    damagemultiplier: 5.8471875
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41126
@@ -8514,10 +8091,9 @@ types:
     name: Regulated Compact Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 89100
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8529,19 +8105,18 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.043699998408555984
+    trackingspeed: 0.0437
     typecolorscheme: 11331
     volume: 4000.0
   41127:
     capacitorneed: 90.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 105.0
-    damagemultiplier: 5.847187519073486
+    damagemultiplier: 5.8471875
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41127
@@ -8553,10 +8128,9 @@ types:
     name: Modal Enduring Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8568,19 +8142,18 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.043699998408555984
+    trackingspeed: 0.0437
     typecolorscheme: 11331
     volume: 4000.0
   41128:
     capacitorneed: 100.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 105.0
-    damagemultiplier: 5.847187519073486
+    damagemultiplier: 5.8471875
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41128
@@ -8592,10 +8165,9 @@ types:
     name: Anode Scoped Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8607,19 +8179,18 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.043699998408555984
+    trackingspeed: 0.0437
     typecolorscheme: 11331
     volume: 4000.0
   41129:
     capacitorneed: 100.0
-    capacity: 10.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 105.0
-    damagemultiplier: 5.847187519073486
+    damagemultiplier: 5.8471875
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41129
@@ -8631,10 +8202,9 @@ types:
     name: Limited Precise Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8646,20 +8216,19 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.04588500037789345
+    trackingspeed: 0.045885
     typecolorscheme: 11331
     volume: 4000.0
   41130:
     capacitorneed: 168.0
-    capacity: 10.0
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 4
     cpu: 95.0
-    damagemultiplier: 6.404062271118164
+    damagemultiplier: 6.4040625
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41130
@@ -8672,10 +8241,9 @@ types:
     name: Shadow Serpentis Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
-    price: 3.6286548E7
+    price: 36286548.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8687,19 +8255,18 @@ types:
     slots: 1
     speed: 10000.0
     techlevel: 1
-    trackingspeed: 0.04588500037789345
+    trackingspeed: 0.045885
     typecolorscheme: 11331
     volume: 4000.0
   41138:
     capacitorneed: 300.0
-    capacity: 5.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 103.5
-    damagemultiplier: 7.79631233215332
+    damagemultiplier: 7.79631237
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41138
@@ -8711,10 +8278,9 @@ types:
     name: Carbide Compact Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8726,19 +8292,18 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.018287500366568565
+    trackingspeed: 0.0182875
     typecolorscheme: 11324
     volume: 4000.0
   41139:
     capacitorneed: 270.0
-    capacity: 5.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 115.0
-    damagemultiplier: 7.79631233215332
+    damagemultiplier: 7.79631237
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41139
@@ -8750,10 +8315,9 @@ types:
     name: Compressed Enduring Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8765,19 +8329,18 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.018287500366568565
+    trackingspeed: 0.0182875
     typecolorscheme: 11324
     volume: 4000.0
   41140:
     capacitorneed: 300.0
-    capacity: 5.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 115.0
-    damagemultiplier: 7.79631233215332
+    damagemultiplier: 7.79631237
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41140
@@ -8789,10 +8352,9 @@ types:
     name: Scout Scoped Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8804,19 +8366,18 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.018287500366568565
+    trackingspeed: 0.0182875
     typecolorscheme: 11324
     volume: 4000.0
   41141:
     capacitorneed: 300.0
-    capacity: 5.0
     chargegroup1: 85
     chargerate: 1
     chargesize: 4
     cpu: 115.0
-    damagemultiplier: 7.79631233215332
+    damagemultiplier: 7.79631237
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41141
@@ -8828,10 +8389,9 @@ types:
     name: Prototype Precise Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8843,20 +8403,19 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.01920187473297119
+    trackingspeed: 0.019201875
     typecolorscheme: 11324
     volume: 4000.0
   41142:
-    capacitorneed: 190.39999389648438
-    capacity: 5.0
+    capacitorneed: 190.4
     chargegroup1: 85
     chargegroup2: 373
     chargerate: 1
     chargesize: 4
     cpu: 103.5
-    damagemultiplier: 8.538818359375
+    damagemultiplier: 8.53881831
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41142
@@ -8869,10 +8428,9 @@ types:
     name: Shadow Serpentis Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
-    price: 4.6052412E7
+    price: 46052412.0
     published: true
     radius: 1000.0
     reloadtime: 5000.0
@@ -8884,21 +8442,20 @@ types:
     slots: 1
     speed: 20000.0
     techlevel: 1
-    trackingspeed: 0.01920187473297119
+    trackingspeed: 0.019201875
     typecolorscheme: 11324
     volume: 4000.0
   85008:
-    capacitorneed: 1.416100025177002
-    capacity: 0.20000000298023224
+    capacitorneed: 1.4161
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 1
     cpu: 18.0
-    damagemultiplier: 5.144999980926514
+    damagemultiplier: 5.145
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 85008
     maincolor: 8627698
@@ -8909,7 +8466,6 @@ types:
     name: Asine's Modified Light Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 148538.0
@@ -8924,21 +8480,20 @@ types:
     slots: 1
     speed: 3500.0
     techlevel: 1
-    trackingspeed: 379.79998779296875
+    trackingspeed: 379.8
     typecolorscheme: 11332
     volume: 5.0
   85009:
     capacitorneed: 4.25
-    capacity: 1.0
     chargegroup1: 85
     chargegroup2: 377
     chargerate: 1
     chargesize: 2
     cpu: 33.0
-    damagemultiplier: 5.144999980926514
+    damagemultiplier: 5.145
     falloff: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 85009
     maincolor: 8627698
@@ -8950,7 +8505,6 @@ types:
     name: Gara's Modified Heavy Neutron Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 196
     price: 59676.0
@@ -8965,6 +8519,6 @@ types:
     slots: 1
     speed: 5250.0
     techlevel: 1
-    trackingspeed: 38.400001525878906
+    trackingspeed: 38.4
     typecolorscheme: 11328
     volume: 10.0

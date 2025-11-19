@@ -2,234 +2,201 @@ types:
   354643:
     id: 354643
     name: Active Booster (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354644:
     id: 354644
     name: Active Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355210:
     id: 355210
     name: Passive Booster (15-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355217:
     id: 355217
     name: Active Booster (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355218:
     id: 355218
     name: Passive Booster (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355219:
     id: 355219
     name: Passive Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355558:
     id: 355558
     name: Passive Booster (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355561:
     id: 355561
     name: Active Booster (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355976:
     id: 355976
     name: Universal Voice Transmitter (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355977:
     id: 355977
     name: Universal Voice Transmitter (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355978:
     id: 355978
     name: Universal Voice Transmitter (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355979:
     id: 355979
     name: Universal Voice Transmitter (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364094:
     id: 364094
     name: Active Omega-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364101:
     id: 364101
     name: Active Recruit-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364471:
     id: 364471
     name: Staff Recruiter Active Booster (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364472:
     id: 364472
     name: Staff Recruiter Active Booster (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364477:
     id: 364477
     name: Staff Recruiter Active Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364478:
     id: 364478
     name: Staff Recruiter Active Booster (15-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364479:
     id: 364479
     name: Staff Recruiter Active Booster (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365433:
     id: 365433
     name: Passive Omega-Booster (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365434:
     id: 365434
     name: Passive Omega-Booster (60-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365435:
     id: 365435
     name: Passive Omega-Booster (90-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365446:
     id: 365446
     name: Passive Booster (15-minute) [QA]
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365909:
     id: 365909
     name: Passive Omega-Booster (7-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365912:
     id: 365912
     name: Passive Omega-Booster (15-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365913:
     id: 365913
     name: Passive Omega-Booster (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365914:
     id: 365914
     name: Passive Omega-Booster (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365915:
     id: 365915
     name: Active Omega-Booster (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365916:
     id: 365916
     name: Active Omega-Booster (3-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365917:
     id: 365917
     name: Active Omega-Booster (15-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365918:
     id: 365918
     name: Active Omega-Booster (30-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365919:
     id: 365919
     name: Active Omega-Booster (60-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365920:
     id: 365920
     name: Active Omega-Booster (90-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365921:
     id: 365921
     name: Active Booster (15-Day)
@@ -238,24 +205,21 @@ types:
   365922:
     id: 365922
     name: Active Booster (60-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365923:
     id: 365923
     name: Active Booster (90-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365924:
     id: 365924
     name: Passive Booster (1-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365925:
     id: 365925
     name: Passive Booster (60-Day)
@@ -264,10 +228,9 @@ types:
   365926:
     id: 365926
     name: Passive Booster (90-Day)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366022:
     id: 366022
     name: Faction Booster Amarr (1-Day)

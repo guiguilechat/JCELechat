@@ -17,14 +17,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GasDecompressionBaseEfficiency;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldIce;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMoonOres;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMultiplier;
@@ -64,13 +62,6 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -86,7 +77,7 @@ public class StructureResourceProcessingServiceModule
     public int disallowinhighsec;
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.800000011920929)
+    @DefaultRealValue(0.8)
     public double gasdecompressionbaseefficiency;
     /**
      * 
@@ -113,13 +104,6 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * 
      */
@@ -190,7 +174,7 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, RefiningYieldNormalOres.INSTANCE, RefiningYieldMultiplier.INSTANCE, RefiningYieldMoonOres.INSTANCE, RefiningYieldIce.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, GasDecompressionBaseEfficiency.INSTANCE, MaxTypeFitted.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RefiningYieldNormalOres.INSTANCE, RefiningYieldMultiplier.INSTANCE, RefiningYieldMoonOres.INSTANCE, RefiningYieldIce.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, Power.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, GasDecompressionBaseEfficiency.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureResourceProcessingServiceModule.MetaGroup METAGROUP = new StructureResourceProcessingServiceModule.MetaGroup();
 
     @Override
@@ -207,10 +191,6 @@ public class StructureResourceProcessingServiceModule
             case  1300 :
             {
                 return canfitshipgroup03;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -235,10 +215,6 @@ public class StructureResourceProcessingServiceModule
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2448 :
             {

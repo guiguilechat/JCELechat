@@ -1,13 +1,12 @@
 types:
   83648:
-    agility: 1.9574999809265137
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 1.9575
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 665.0
-    capacity: 135.0
     gfxboosterid: 394
     hp: 500.0
     id: 83648
@@ -16,7 +15,6 @@ types:
     maxtargetrange: 31250.0
     maxvelocity: 1033.0
     name: Federal Boxcutter
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 34.0
@@ -24,23 +22,22 @@ types:
     scanradarstrength: 12.0
     scanresolution: 800.0
     shieldcapacity: 500.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     signatureradius: 37.0
     volume: 28600.0
     warpspeedmultiplier: 3.0
   83649:
-    agility: 2.4000000953674316
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 2.4
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 3200.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 700.0
-    capacity: 235.0
     gfxboosterid: 394
     hp: 800.0
     id: 83649
@@ -49,7 +46,6 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 832.0
     name: Federal Sorter
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 150.0
@@ -57,23 +53,22 @@ types:
     scanradarstrength: 12.0
     scanresolution: 656.0
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1200000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     signatureradius: 80.0
     volume: 28600.0
     warpspeedmultiplier: 3.0
   83650:
-    agility: 1.9574999809265137
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 1.9575
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 665.0
-    capacity: 135.0
     gfxboosterid: 394
     hp: 600.0
     id: 83650
@@ -82,7 +77,6 @@ types:
     maxtargetrange: 31250.0
     maxvelocity: 1033.0
     name: Federal Depositor
-    packagedVolume: 28100.0
     portionSize: 1
     published: false
     radius: 34.0
@@ -90,69 +84,65 @@ types:
     scanradarstrength: 12.0
     scanresolution: 800.0
     shieldcapacity: 400.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     signatureradius: 37.0
     volume: 28100.0
     warpspeedmultiplier: 3.0
   83652:
-    agility: 0.8500000238418579
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.85
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 800.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 550.0
-    capacity: 500.0
     gfxboosterid: 397
     hp: 2100.0
     id: 83652
-    mass: 1.0625E7
+    mass: 10625000.0
     maxvelocity: 130.0
     name: Thukker Hoarder
-    packagedVolume: 250000.0
     portionSize: 1
     published: false
     radius: 211.0
     rechargerate: 181875.0
     shieldcapacity: 840.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     signatureradius: 270.0
     volume: 250000.0
     warpspeedmultiplier: 10.0
   83653:
-    agility: 4.349999904632568
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 4.35
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 150.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 80.0
-    capacity: 145.0
     gfxboosterid: 397
     hp: 150.0
     id: 83653
     mass: 1157000.0
     maxvelocity: 310.0
     name: Thukker Reaper
-    packagedVolume: 15800.0
     portionSize: 1
     published: false
-    radius: 38.400001525878906
+    radius: 38.4
     rechargerate: 500000.0
     shieldcapacity: 175.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     signatureradius: 22.5
     volume: 15800.0
     warpspeedmultiplier: 10.0

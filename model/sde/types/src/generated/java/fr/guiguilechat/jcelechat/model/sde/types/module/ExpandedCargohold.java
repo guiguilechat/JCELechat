@@ -14,14 +14,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoCapacityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureHPMultiplier;
@@ -90,7 +88,7 @@ public class ExpandedCargohold
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structurehpmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocityModifier.INSTANCE, Radius.INSTANCE, RequiredSkill1Level.INSTANCE, CargoCapacityMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, StructureHPMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, CargoScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocityModifier.INSTANCE, CargoCapacityMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, StructureHPMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, CargoScanResistance.INSTANCE })));
     public static final ExpandedCargohold.MetaGroup METAGROUP = new ExpandedCargohold.MetaGroup();
 
     @Override

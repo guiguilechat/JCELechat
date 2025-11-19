@@ -4,11 +4,11 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.17000000178813934
-    armorexplosivedamageresonance: 0.17100000381469727
+    armoremdamageresonance: 0.17
+    armorexplosivedamageresonance: 0.171
     armorhp: 5600.0
-    armorkineticdamageresonance: 0.12800000607967377
-    armorthermaldamageresonance: 0.14399999380111694
+    armorkineticdamageresonance: 0.128
+    armorthermaldamageresonance: 0.144
     armoruniformity: 0.75
     capacitorcapacity: 1875.0
     entitybracketcolour: 2
@@ -18,11 +18,11 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 248.0
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 21000.0
     hp: 2500.0
     id: 35813
-    mass: 1.09E7
+    mass: 10900000.0
     maxlockedtargets: 1
     maxvelocity: 596.0
     name: Amarr Navy Guardian
@@ -31,17 +31,17 @@ types:
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 5000
     npcremotearmorrepairmaxtargets: 6
-    npcremotearmorrepairthreshold: 0.10000000149011612
+    npcremotearmorrepairthreshold: 0.1
     portionSize: 1
     published: false
-    radius: 91.58999633789062
+    radius: 91.59
     rechargerate: 251000.0
     scanradarstrength: 45.0
     scanresolution: 480.0
     shieldcapacity: 1318.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.3
     shieldrechargerate: 937000.0
     shieldthermaldamageresonance: 0.125
     shielduniformity: 0.75

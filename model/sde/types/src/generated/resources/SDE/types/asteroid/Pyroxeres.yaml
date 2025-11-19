@@ -6,19 +6,17 @@ types:
     asteroidradiusunitsize: 90
     id: 1224
     marketGroup: 515
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Pyroxeres
     orebasictype: 1224
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 11632.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   17459:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -26,19 +24,17 @@ types:
     asteroidradiusunitsize: 90
     id: 17459
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Solid Pyroxeres
+    mass: 1.0E+35
+    name: Pyroxeres II-Grade
     orebasictype: 1224
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 12444.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   17460:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -46,19 +42,17 @@ types:
     asteroidradiusunitsize: 90
     id: 17460
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Viscous Pyroxeres
+    mass: 1.0E+35
+    name: Pyroxeres III-Grade
     orebasictype: 1224
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 12744.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   28424:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -66,19 +60,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28424
     marketGroup: 515
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Batch Compressed Pyroxeres
     orebasictype: 1224
-    packagedVolume: 0.1599999964237213
     portionSize: 1
     price: 290800.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   28425:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28425
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Solid Pyroxeres
+    mass: 1.0E+35
+    name: Batch Compressed Pyroxeres II-Grade
     orebasictype: 1224
-    packagedVolume: 0.1599999964237213
     portionSize: 1
     price: 311100.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   28426:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -106,58 +96,52 @@ types:
     asteroidradiusunitsize: 90
     id: 28426
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Viscous Pyroxeres
+    mass: 1.0E+35
+    name: Batch Compressed Pyroxeres III-Grade
     orebasictype: 1224
-    packagedVolume: 0.1599999964237213
     portionSize: 1
     price: 318600.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   28618:
     asteroidmaxradius: 16255
     asteroidradiusgrowthfactor: 0.5
-    asteroidradiusunitsize: 90
+    asteroidradiusunitsize: 600
     id: 28618
     ignoreminingwaste: 1
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Augumene
     orebasictype: 1224
-    packagedVolume: 0.30000001192092896
     portionSize: 1
     price: 11632.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   46686:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.02250000089406967
+    asteroidradiusgrowthfactor: 0.0225
     asteroidradiusunitsize: 600
     id: 46686
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Opulent Pyroxeres
+    mass: 1.0E+35
+    name: Pyroxeres IV-Grade
     orebasictype: 46686
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 55.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   46702:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -166,18 +150,16 @@ types:
     id: 46702
     marketGroup: 515
     mass: 1.0
-    name: Batch Compressed Opulent Pyroxeres
+    name: Batch Compressed Pyroxeres IV-Grade
     orebasictype: 46686
-    packagedVolume: 0.1599999964237213
     portionSize: 1
     price: 6100.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62524:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -185,19 +167,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62524
     marketGroup: 515
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Pyroxeres
     orebasictype: 1224
-    packagedVolume: 0.003000000026077032
     portionSize: 100
     price: 290800.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.003000000026077032
+    volume: 0.003
   62525:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -205,19 +185,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62525
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Compressed Solid Pyroxeres
+    mass: 1.0E+35
+    name: Compressed Pyroxeres II-Grade
     orebasictype: 1224
-    packagedVolume: 0.003000000026077032
     portionSize: 100
     price: 311100.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.003000000026077032
+    volume: 0.003
   62526:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -225,19 +203,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62526
     marketGroup: 515
-    mass: 1.0000000409184788E35
-    name: Compressed Viscous Pyroxeres
+    mass: 1.0E+35
+    name: Compressed Pyroxeres III-Grade
     orebasictype: 1224
-    packagedVolume: 0.003000000026077032
     portionSize: 100
     price: 318600.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.003000000026077032
+    volume: 0.003
   62527:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -246,15 +222,13 @@ types:
     id: 62527
     marketGroup: 515
     mass: 1.0
-    name: Compressed Opulent Pyroxeres
+    name: Compressed Pyroxeres IV-Grade
     orebasictype: 46686
-    packagedVolume: 0.003000000026077032
     portionSize: 100
     price: 6100.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.003000000026077032
+    volume: 0.003

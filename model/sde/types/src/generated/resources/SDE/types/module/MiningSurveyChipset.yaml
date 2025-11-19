@@ -1,0 +1,79 @@
+types:
+  444:
+    cpu: 8.0
+    hp: 40.0
+    id: 444
+    marketGroup: 714
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    miningcritbonusyieldbonus: 12
+    miningcritchancebonus: 12
+    miningscannerupgrade: 1
+    miningwasteprobabilitybonus: -12
+    name: Mining Survey Chipset I
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3426
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  2333:
+    cpu: 12.0
+    hp: 40.0
+    id: 2333
+    marketGroup: 714
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    metalevelold: 5
+    miningcritbonusyieldbonus: 20
+    miningcritchancebonus: 20
+    miningscannerupgrade: 1
+    miningwasteprobabilitybonus: -20
+    name: Mining Survey Chipset II
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3426
+    requiredskill1level: 2
+    techlevel: 2
+    volume: 5.0
+  6569:
+    cpu: 6.0
+    hp: 40.0
+    id: 6569
+    marketGroup: 714
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    metalevelold: 1
+    miningcritbonusyieldbonus: 16
+    miningcritchancebonus: 16
+    miningscannerupgrade: 1
+    miningwasteprobabilitybonus: -16
+    name: ML-3 Compact Mining Survey Chipset
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3426
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0
+  6571:
+    cpu: 6.0
+    hp: 40.0
+    id: 6571
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    metalevelold: 1
+    miningcritbonusyieldbonus: 4
+    miningcritchancebonus: 4
+    miningscannerupgrade: 1
+    miningwasteprobabilitybonus: -4
+    name: Basic Mining Survey Chipset
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3426
+    requiredskill1level: 1
+    techlevel: 1
+    volume: 5.0

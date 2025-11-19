@@ -4,98 +4,84 @@ types:
     industryblueprintrank: 1.0
     marketGroup: 358
     name: Civilian Mining Drone Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1498600.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10247:
     id: 10247
     industryblueprintrank: 1.0
     marketGroup: 358
     name: Mining Drone I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9986E7
+    price: 19986000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10251:
     id: 10251
     industryblueprintrank: 5.0
     name: Mining Drone II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   43911:
     id: 43911
     marketGroup: 358
     name: Ice Harvesting Drone I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   43912:
     id: 43912
     name: Ice Harvesting Drone II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   43913:
     id: 43913
     name: '''Augmented'' Ice Harvesting Drone Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   43914:
     id: 43914
     name: '''Augmented'' Mining Drone Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   43915:
     id: 43915
     name: '''Excavator'' Mining Drone Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   43916:
     id: 43916
     name: '''Excavator'' Ice Harvesting Drone Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   43934:
     id: 43934
     name: Harvester Mining Drone Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

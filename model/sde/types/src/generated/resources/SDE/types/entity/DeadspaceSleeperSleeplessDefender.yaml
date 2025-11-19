@@ -4,15 +4,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.3499999940395355
+    armoremdamageresonance: 0.35
+    armorexplosivedamageresonance: 0.35
     armorhp: 28000.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.35
+    armorthermaldamageresonance: 0.35
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 9.800000190734863
+    damagemultiplier: 9.8
     disallowassistance: 1
     emdamage: 40.0
     energyneutralizerduration: 30000
@@ -23,7 +22,7 @@ types:
     entityattackrange: 60000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 20900
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -34,24 +33,24 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 4049
     hp: 14000.0
     id: 30192
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 40000.0
     maxvelocity: 920.0
-    missiledamagemultiplier: 9.800000190734863
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missiledamagemultiplier: 9.8
+    missileentityaoecloudsizemultiplier: 0.7541
+    missileentityaoevelocitymultiplier: 1.4918
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 18000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 30000
     name: Sleepless Defender
@@ -60,7 +59,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -76,28 +74,27 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.03999999910593033
-    volume: 1.9E7
+    trackingspeed: 0.04
+    volume: 19000000.0
     warpscrambleduration: 8000
   30193:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.3499999940395355
-    armorexplosivedamageresonance: 0.3499999940395355
+    armoremdamageresonance: 0.35
+    armorexplosivedamageresonance: 0.35
     armorhp: 16800.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.35
+    armorthermaldamageresonance: 0.35
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 23.799999237060547
+    damagemultiplier: 23.8
     disallowassistance: 1
     emdamage: 40.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 70000
     entityarmorrepairamount: 560.0
     entityarmorrepairduration: 15000
@@ -106,7 +103,7 @@ types:
     entityattackrange: 225000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 71500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -117,20 +114,20 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     falloff: 75000.0
     gfxboosterid: 397
     gfxturretid: 4049
     hp: 8400.0
     id: 30193
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 150000.0
     maxvelocity: 800.0
-    missiledamagemultiplier: 2.799999952316284
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missiledamagemultiplier: 2.8
+    missileentityaoecloudsizemultiplier: 0.7541
+    missileentityaoevelocitymultiplier: 1.4918
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 18000.0
@@ -142,7 +139,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -158,23 +154,22 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.017000000923871994
-    volume: 1.9E7
+    trackingspeed: 0.017
+    volume: 19000000.0
     warpscrambleduration: 8000
   30194:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.3
     armorhp: 22400.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 2.799999952316284
+    damagemultiplier: 2.8
     disallowassistance: 1
     emdamage: 40.0
     energyneutralizerduration: 30000
@@ -185,7 +180,7 @@ types:
     entityattackrange: 195000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 60500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -196,20 +191,20 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     falloff: 65000.0
     gfxboosterid: 397
     gfxturretid: 4049
     hp: 11200.0
     id: 30194
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 130000.0
     maxvelocity: 1080.0
-    missiledamagemultiplier: 12.600000381469727
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missiledamagemultiplier: 12.6
+    missileentityaoecloudsizemultiplier: 0.7541
+    missileentityaoevelocitymultiplier: 1.4918
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 18000.0
@@ -218,11 +213,10 @@ types:
     name: Sleepless Preserver
     npcassistancerange: 70000
     npcremotearmorrepairamount: 650
-    npcremotearmorrepairchance: 0.8999999761581421
+    npcremotearmorrepairchance: 0.9
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.5
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -238,8 +232,8 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.017000000923871994
-    volume: 1.9E7
+    trackingspeed: 0.017
+    volume: 19000000.0
     warpscrambleduration: 8000
   30195:
     aishoulduseeffectmultiplier: 1
@@ -250,16 +244,15 @@ types:
     armorexplosivedamageresonance: 0.25
     armorhp: 35000.0
     armorkineticdamageresonance: 0.25
-    armorthermaldamageresonance: 0.20000000298023224
+    armorthermaldamageresonance: 0.2
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
-    capacity: 120.0
-    damagemultiplier: 15.399999618530273
+    damagemultiplier: 15.4
     disallowassistance: 1
     emdamage: 40.0
     energyneutralizeramount: 200.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 25000
     entityarmorrepairamount: 560.0
     entityarmorrepairduration: 15000
@@ -268,7 +261,7 @@ types:
     entityattackrange: 255000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -279,25 +272,25 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
-    entitywarpscramblechance: 0.8999999761581421
+    entityreactionfactor: 0.85
+    entitywarpscramblechance: 0.9
     falloff: 85000.0
     gfxboosterid: 397
     gfxturretid: 4049
     hp: 17500.0
     id: 30195
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 170000.0
     maxvelocity: 1320.0
     missiledamagemultiplier: 14.0
-    missileentityaoecloudsizemultiplier: 0.7541000247001648
-    missileentityaoevelocitymultiplier: 1.4917999505996704
+    missileentityaoecloudsizemultiplier: 0.7541
+    missileentityaoevelocitymultiplier: 1.4918
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 18000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 30000
     name: Sleepless Safeguard
@@ -306,7 +299,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -322,8 +314,8 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.05000000074505806
-    volume: 1.9E7
+    trackingspeed: 0.05
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 24000
     warpscramblestrength: 1

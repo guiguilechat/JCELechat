@@ -2,18 +2,17 @@ types:
   60313:
     canfitshipgroup01: 543
     canfitshipgroup02: 463
-    capacitorneed: 15.0
+    capacitorneed: 7.0
     cpu: 60.0
     disallowearlydeactivation: 1
-    duration: 200000.0
+    duration: 100000.0
     hp: 40.0
     id: 60313
     marketGroup: 2795
     maxrange: 1500.0
-    miningamount: 100
+    miningamount: 50
     miningwastedvolumemultiplier: 1
     name: Gas Cloud Harvester I
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 3000000.0
@@ -28,19 +27,18 @@ types:
   60314:
     canfitshipgroup01: 543
     canfitshipgroup02: 463
-    capacitorneed: 20.0
+    capacitorneed: 10.0
     cpu: 66.0
     disallowearlydeactivation: 1
-    duration: 160000.0
+    duration: 80000.0
     hp: 40.0
     id: 60314
     marketGroup: 2795
     maxrange: 1500.0
-    miningamount: 200
+    miningamount: 100
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
     name: Gas Cloud Harvester II
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7200000.0
@@ -55,26 +53,42 @@ types:
   60315:
     canfitshipgroup01: 543
     canfitshipgroup02: 463
-    capacitorneed: 15.0
+    capacitorneed: 7.0
     cpu: 50.0
     disallowearlydeactivation: 1
-    duration: 160000.0
+    duration: 80000.0
     hp: 40.0
     id: 60315
     marketGroup: 2795
     maxrange: 1500.0
     metalevelold: 6
-    miningamount: 200
+    miningamount: 100
     miningwastedvolumemultiplier: 1
     name: ORE Gas Cloud Harvester
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
-    price: 1.5E7
+    price: 15000000.0
     published: true
     radius: 25.0
     requiredskill1: 25544
     requiredskill1level: 5
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  90593:
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    disallowearlydeactivation: 1
+    id: 90593
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Gas Cloud Harvester
+    portionSize: 1
+    price: 3000000.0
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
     slots: 1
     techlevel: 1
     typecolorscheme: 11346

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityDamage;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponRangeMultiplier;
@@ -168,7 +166,7 @@ public class FrequencyCrystal
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, CrystalsGetDamaged.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MainColor.INSTANCE, MetaGroupID.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Damage.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, EmDamage.INSTANCE, CrystalsGetDamaged.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MainColor.INSTANCE, MetaGroupID.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
 
     @Override

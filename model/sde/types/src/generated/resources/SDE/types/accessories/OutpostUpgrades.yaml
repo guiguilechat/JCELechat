@@ -2,24 +2,24 @@ types:
   28183:
     id: 28183
     name: Rank 1 Upgrade
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28184:
     id: 28184
     name: Rank 2 Upgrade
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28185:
     id: 28185
     name: Rank 3 Upgrade
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0

@@ -1,18 +1,18 @@
 types:
   40637:
     activationblockedstrenght: 1
-    agility: 0.10000000149011612
+    agility: 0.1
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
-    armoremdamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.3
     armorexplosivedamageresonance: 0.25
     armorhp: 420000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.35
     armoruniformity: 0.75
     capacitorcapacity: 4300.0
     damagemultiplier: 150.0
@@ -35,15 +35,15 @@ types:
     entitycruisespeed: 100.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 240000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 30
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.600000023841858
+    entitysecuritystatuskillbonus: 1.6
     entitywarpscramblechance: 1.0
     falloff: 300000.0
     fighterabilityanticapitalmissileresistance: 1
@@ -53,7 +53,7 @@ types:
     id: 40637
     iscapitalsize: 1
     kineticdamage: 65.0
-    mass: 2.379369984E9
+    mass: 2379370000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 100000.0
@@ -63,7 +63,6 @@ types:
     modifytargetspeedrange: 100000
     name: Shadow Serpentis Titan
     optimalsigradius: 2000
-    packagedVolume: 1.455E8
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -72,19 +71,19 @@ types:
     scanmagnetometricstrength: 200.0
     scanresolution: 60.0
     shieldcapacity: 390000.0
-    shieldemdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.3
     shieldexplosivedamageresonance: 0.25
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.35
     shielduniformity: 0.75
     signatureradius: 23205.0
     speed: 6000.0
     speedfactor: -85.0
     structureuniformity: 1.0
     thermaldamage: 55.0
-    trackingspeed: 0.10000000149011612
-    volume: 1.455E8
+    trackingspeed: 0.1
+    volume: 145500000.0
     warpscrambleduration: 5000
     warpscramblerange: 70000
     warpscramblestrength: 2

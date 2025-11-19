@@ -26,9 +26,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpDriveConsumptionAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpPassengerCount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitPassengerBonusPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -36,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnablePerformConduitJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisAssistanceImpedanceMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisDurationMultiplier;
@@ -68,6 +70,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCarrierJumpConduitPassenger;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsTitanJumpPortalPassenger;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpConduitPassengerRequiredAttributeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionType;
@@ -93,7 +96,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReclonerFuelType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
@@ -115,7 +117,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -192,12 +193,37 @@ public class Supercarrier
     @DefaultIntValue(0)
     public int canjump;
     /**
+     * Number of units needed to conduit jump
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int conduitjumpdriveconsumptionamount;
+    /**
+     * How many passengers can be carried in a Conduit Jump
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int conduitjumppassengercount;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int conduitpassengerbonuspercent;
+    /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinhighsec;
+    /**
+     * Grants the ability to perform conduit jumps
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int enableperformconduitjump;
     /**
      * 
      */
@@ -342,6 +368,13 @@ public class Supercarrier
     @Stackable(false)
     @DefaultIntValue(1)
     public int istitanjumpportalpassenger;
+    /**
+     * This attribute enables a ship to activate a Jump Conduit. Its value specifies a dogma attribute ID that a passenger ship must possess in order to be carried though that Jump Conduit.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int jumpconduitpassengerrequiredattributeid;
     /**
      * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
      */
@@ -546,13 +579,6 @@ public class Supercarrier
     @Stackable(false)
     @DefaultIntValue(0)
     public int scanspeed;
-    /**
-     * Resistance against Remote Sensor Dampeners.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double sensordampenerresistance;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
@@ -763,7 +789,7 @@ public class Supercarrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestatus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, ReclonerFuelType.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, ShipBonusSupercarrierA1 .INSTANCE, ShipBonusSupercarrierA2 .INSTANCE, ShipBonusSupercarrierA3 .INSTANCE, ShipBonusSupercarrierA4 .INSTANCE, ShipBonusSupercarrierA5 .INSTANCE, ShipBonusSupercarrierC1 .INSTANCE, MaxTargetRange.INSTANCE, ShipBonusSupercarrierC2 .INSTANCE, ShipBonusSupercarrierC3 .INSTANCE, ScanSpeed.INSTANCE, ShipBonusSupercarrierC4 .INSTANCE, ShipBonusSupercarrierC5 .INSTANCE, ShipBonusSupercarrierG1 .INSTANCE, ShipBonusSupercarrierG2 .INSTANCE, ShipBonusSupercarrierG3 .INSTANCE, ShipBonusSupercarrierG4 .INSTANCE, AdvancedAgility.INSTANCE, ShipBonusSupercarrierG5 .INSTANCE, ShipBonusSupercarrierM1 .INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShipBonusSupercarrierM2 .INSTANCE, ShipBonusSupercarrierM3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonusSupercarrierM4 .INSTANCE, ShipBonusSupercarrierM5 .INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, WarpScrambleStatus.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, ReclonerFuelType.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ConduitPassengerBonusPercent.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, EnablePerformConduitJump.INSTANCE, RechargeRate.INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ConduitJumpPassengerCount.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, ShipBonusSupercarrierA1 .INSTANCE, ShipBonusSupercarrierA2 .INSTANCE, ShipBonusSupercarrierA3 .INSTANCE, ShipBonusSupercarrierA4 .INSTANCE, ShipBonusSupercarrierA5 .INSTANCE, ShipBonusSupercarrierC1 .INSTANCE, MaxTargetRange.INSTANCE, ShipBonusSupercarrierC2 .INSTANCE, ShipBonusSupercarrierC3 .INSTANCE, ScanSpeed.INSTANCE, ShipBonusSupercarrierC4 .INSTANCE, ShipBonusSupercarrierC5 .INSTANCE, ShipBonusSupercarrierG1 .INSTANCE, ShipBonusSupercarrierG2 .INSTANCE, ShipBonusSupercarrierG3 .INSTANCE, ShipBonusSupercarrierG4 .INSTANCE, AdvancedAgility.INSTANCE, ShipBonusSupercarrierG5 .INSTANCE, ShipBonusSupercarrierM1 .INSTANCE, RemoteAssistanceImpedance.INSTANCE, ShipBonusSupercarrierM2 .INSTANCE, ShipBonusSupercarrierM3 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonusSupercarrierM4 .INSTANCE, ShipBonusSupercarrierM5 .INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, WarpScrambleStatus.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, JumpConduitPassengerRequiredAttributeID.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Supercarrier.MetaGroup METAGROUP = new Supercarrier.MetaGroup();
 
     @Override
@@ -781,9 +807,25 @@ public class Supercarrier
             {
                 return canjump;
             }
+            case  3131 :
+            {
+                return conduitjumpdriveconsumptionamount;
+            }
+            case  3133 :
+            {
+                return conduitjumppassengercount;
+            }
+            case  5681 :
+            {
+                return conduitpassengerbonuspercent;
+            }
             case  1970 :
             {
                 return disallowinhighsec;
+            }
+            case  3126 :
+            {
+                return enableperformconduitjump;
             }
             case  2754 :
             {
@@ -868,6 +910,10 @@ public class Supercarrier
             case  3319 :
             {
                 return istitanjumpportalpassenger;
+            }
+            case  3321 :
+            {
+                return jumpconduitpassengerrequiredattributeid;
             }
             case  898 :
             {
@@ -980,10 +1026,6 @@ public class Supercarrier
             case  79 :
             {
                 return scanspeed;
-            }
-            case  2112 :
-            {
-                return sensordampenerresistance;
             }
             case  2298 :
             {

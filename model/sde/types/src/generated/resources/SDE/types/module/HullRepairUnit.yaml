@@ -3,19 +3,17 @@ types:
     capacitorneed: 30.0
     cpu: 30.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 13.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 13.3
     hp: 40.0
     id: 524
     marketGroup: 1053
     mass: 1000.0
     name: Small Hull Repairer I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 12.5
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -28,8 +26,8 @@ types:
     capacitorneed: 30.0
     cpu: 33.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 13.300000190734863
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 13.3
     hp: 40.0
     id: 2355
     marketGroup: 1053
@@ -37,11 +35,9 @@ types:
     metalevelold: 5
     name: Small Hull Repairer II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 2
     requiredskill2: 3392
@@ -54,7 +50,7 @@ types:
     capacitorneed: 60.0
     cpu: 60.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 8.0
     hp: 40.0
     id: 3653
@@ -62,11 +58,9 @@ types:
     mass: 1000.0
     name: Medium Hull Repairer I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -79,7 +73,7 @@ types:
     capacitorneed: 60.0
     cpu: 66.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 8.0
     hp: 40.0
     id: 3655
@@ -88,11 +82,9 @@ types:
     metalevelold: 5
     name: Medium Hull Repairer II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 2
     requiredskill2: 3392
@@ -105,19 +97,17 @@ types:
     capacitorneed: 120.0
     cpu: 120.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.7
     hp: 40.0
     id: 3663
     marketGroup: 1055
     mass: 1000.0
     name: Large Hull Repairer I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -130,8 +120,8 @@ types:
     capacitorneed: 120.0
     cpu: 132.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 5.7
     hp: 40.0
     id: 3665
     marketGroup: 1055
@@ -139,11 +129,9 @@ types:
     metalevelold: 5
     name: Large Hull Repairer II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 2
     requiredskill2: 3392
@@ -156,8 +144,8 @@ types:
     capacitorneed: 60.0
     cpu: 54.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.4
     hp: 40.0
     id: 5683
     marketGroup: 1054
@@ -165,11 +153,9 @@ types:
     metalevelold: 4
     name: Medium Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -182,8 +168,8 @@ types:
     capacitorneed: 30.0
     cpu: 27.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 5693
     marketGroup: 1053
@@ -191,11 +177,9 @@ types:
     metalevelold: 4
     name: Small Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -208,8 +192,8 @@ types:
     capacitorneed: 120.0
     cpu: 108.0
     duration: 24000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 4.6
     hp: 40.0
     id: 5697
     marketGroup: 1055
@@ -217,11 +201,9 @@ types:
     metalevelold: 4
     name: Large Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -234,8 +216,8 @@ types:
     capacitorneed: 60.0
     cpu: 48.0
     duration: 25500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.800000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.8
     hp: 40.0
     id: 5719
     marketGroup: 1054
@@ -243,11 +225,9 @@ types:
     metalevelold: 3
     name: Medium 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -260,8 +240,8 @@ types:
     capacitorneed: 60.0
     cpu: 57.0
     duration: 28500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 7.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 7.6
     hp: 40.0
     id: 5721
     marketGroup: 1054
@@ -269,11 +249,9 @@ types:
     metalevelold: 1
     name: Medium Automated Structural Restoration
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -286,8 +264,8 @@ types:
     capacitorneed: 60.0
     cpu: 51.0
     duration: 27000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 7.199999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 7.2
     hp: 40.0
     id: 5723
     marketGroup: 1054
@@ -295,11 +273,9 @@ types:
     metalevelold: 2
     name: Medium I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 50
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -312,8 +288,8 @@ types:
     capacitorneed: 30.0
     cpu: 24.0
     duration: 25500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 11.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 11.3
     hp: 40.0
     id: 5743
     marketGroup: 1053
@@ -321,11 +297,9 @@ types:
     metalevelold: 3
     name: Small 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -338,8 +312,8 @@ types:
     capacitorneed: 30.0
     cpu: 28.0
     duration: 28500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 12.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 12.7
     hp: 40.0
     id: 5745
     marketGroup: 1053
@@ -347,11 +321,9 @@ types:
     metalevelold: 1
     name: Small Automated Structural Restoration
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -364,7 +336,7 @@ types:
     capacitorneed: 30.0
     cpu: 25.0
     duration: 27000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 12.0
     hp: 40.0
     id: 5747
@@ -373,11 +345,9 @@ types:
     metalevelold: 2
     name: Small I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -390,8 +360,8 @@ types:
     capacitorneed: 120.0
     cpu: 96.0
     duration: 25500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.900000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 4.9
     hp: 40.0
     id: 5755
     marketGroup: 1055
@@ -399,11 +369,9 @@ types:
     metalevelold: 3
     name: Large 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -416,8 +384,8 @@ types:
     capacitorneed: 120.0
     cpu: 114.0
     duration: 28500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 5757
     marketGroup: 1055
@@ -425,11 +393,9 @@ types:
     metalevelold: 1
     name: Large Automated Structural Restoration
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -442,8 +408,8 @@ types:
     capacitorneed: 120.0
     cpu: 102.0
     duration: 27000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.099999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.1
     hp: 40.0
     id: 5759
     marketGroup: 1055
@@ -451,11 +417,9 @@ types:
     metalevelold: 2
     name: Large I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 250
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -468,8 +432,8 @@ types:
     capacitorneed: 30.0
     cpu: 26.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 8.899999618530273
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 8.9
     hp: 40.0
     id: 21504
     marketGroup: 1053
@@ -478,11 +442,9 @@ types:
     metalevelold: 6
     name: Small 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -495,8 +457,8 @@ types:
     capacitorneed: 60.0
     cpu: 51.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 21506
     marketGroup: 1054
@@ -505,11 +467,9 @@ types:
     metalevelold: 6
     name: Medium 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 45
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -522,8 +482,8 @@ types:
     capacitorneed: 120.0
     cpu: 102.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.8
     hp: 40.0
     id: 21508
     marketGroup: 1055
@@ -532,11 +492,9 @@ types:
     metalevelold: 6
     name: Large 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 225
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -549,19 +507,17 @@ types:
     capacitorneed: 720.0
     cpu: 180.0
     duration: 60000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.7
     hp: 40.0
     id: 41511
     marketGroup: 2244
     mass: 1000.0
     name: Capital Hull Repairer I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 5
     requiredskill2: 3392
@@ -576,8 +532,8 @@ types:
     capacitorneed: 576.0
     cpu: 180.0
     duration: 60000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.7
     hp: 40.0
     id: 41512
     marketGroup: 2244
@@ -585,11 +541,9 @@ types:
     metalevelold: 1
     name: Capital I-b Enduring Hull Repairer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 5
     requiredskill2: 3392
@@ -604,8 +558,8 @@ types:
     capacitorneed: 720.0
     cpu: 144.0
     duration: 60000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.7
     hp: 40.0
     id: 41513
     marketGroup: 2244
@@ -613,11 +567,9 @@ types:
     metalevelold: 1
     name: Capital IEF Compact Hull Repairer
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 45000
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 5
     requiredskill2: 3392
@@ -632,8 +584,8 @@ types:
     capacitorneed: 864.0
     cpu: 198.0
     duration: 60000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.7
     hp: 40.0
     id: 41514
     marketGroup: 2244
@@ -641,11 +593,9 @@ types:
     metalevelold: 5
     name: Capital Hull Repairer II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 55000
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 5
     requiredskill2: 3392

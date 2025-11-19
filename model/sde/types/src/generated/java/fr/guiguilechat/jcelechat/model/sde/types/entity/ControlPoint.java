@@ -15,8 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -24,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
@@ -42,20 +39,6 @@ public class ControlPoint
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -106,13 +89,6 @@ public class ControlPoint
     @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -133,7 +109,7 @@ public class ControlPoint
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, KineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Charge.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EmDamageResonance.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, Hp.INSTANCE, KineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE })));
     public static final ControlPoint.MetaGroup METAGROUP = new ControlPoint.MetaGroup();
 
     @Override
@@ -142,14 +118,6 @@ public class ControlPoint
             case  482 :
             {
                 return capacitorcapacity;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  854 :
             {
@@ -178,10 +146,6 @@ public class ControlPoint
             case  109 :
             {
                 return kineticdamageresonance;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  55 :
             {

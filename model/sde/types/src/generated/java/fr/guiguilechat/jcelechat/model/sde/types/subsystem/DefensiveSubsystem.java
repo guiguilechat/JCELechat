@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHPBonusAdd;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoCapacityAdd;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingCpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CovertCloakCPUPenalty;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpPortalPassen
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
@@ -230,7 +228,7 @@ public class DefensiveSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrengthbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StructureHPBonusAdd.INSTANCE, SubsystemBonusMassAddition.INSTANCE, CargoCapacityAdd.INSTANCE, ShieldCapacity.INSTANCE, ArmorHPBonusAdd.INSTANCE, CloakingCpuNeedBonus.INSTANCE, Hp.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertCloakCPUPenalty.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrDefensive.INSTANCE, SubsystemBonusGallenteDefensive.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusAmarrDefensive2 .INSTANCE, SubsystemBonusCaldariDefensive.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusMinmatarDefensive.INSTANCE, SubsystemBonusCaldariDefensive2 .INSTANCE, SubsystemBonusGallenteDefensive2 .INSTANCE, SubsystemBonusMinmatarDefensive2 .INSTANCE, RequiredSkill1 .INSTANCE, SubsystemBonusAmarrDefensive3 .INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, MetaLevelOld.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, SubsystemBonusCaldariDefensive3 .INSTANCE, SubsystemBonusGallenteDefensive3 .INSTANCE, VirusStrengthBonus.INSTANCE, SubsystemBonusMinmatarDefensive3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StructureHPBonusAdd.INSTANCE, SubsystemBonusMassAddition.INSTANCE, CargoCapacityAdd.INSTANCE, ShieldCapacity.INSTANCE, ArmorHPBonusAdd.INSTANCE, CloakingCpuNeedBonus.INSTANCE, Hp.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertCloakCPUPenalty.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrDefensive.INSTANCE, SubsystemBonusGallenteDefensive.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, SubsystemBonusAmarrDefensive2 .INSTANCE, SubsystemBonusCaldariDefensive.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusMinmatarDefensive.INSTANCE, SubsystemBonusCaldariDefensive2 .INSTANCE, SubsystemBonusGallenteDefensive2 .INSTANCE, SubsystemBonusMinmatarDefensive2 .INSTANCE, RequiredSkill1 .INSTANCE, SubsystemBonusAmarrDefensive3 .INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, MetaLevelOld.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, SubsystemBonusCaldariDefensive3 .INSTANCE, SubsystemBonusGallenteDefensive3 .INSTANCE, VirusStrengthBonus.INSTANCE, SubsystemBonusMinmatarDefensive3 .INSTANCE })));
     public static final DefensiveSubsystem.MetaGroup METAGROUP = new DefensiveSubsystem.MetaGroup();
 
     @Override

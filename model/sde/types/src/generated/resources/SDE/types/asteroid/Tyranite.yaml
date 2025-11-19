@@ -7,13 +7,11 @@ types:
     mass: 6333.0
     name: Tyranite
     orebasictype: 88105
-    packagedVolume: 0.6000000238418579
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6

@@ -1,20 +1,19 @@
 types:
   40729:
-    agility: 0.03799999877810478
-    armoremdamageresonance: 0.4000000059604645
+    agility: 0.038
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.5
     armorhp: 100000.0
     armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 0.800000011920929
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 57800.0
-    capacity: 2750.0
     damagemultiplier: 1.0
     entityequipmentmax: 7
     entityequipmentmin: 5
     entitykillbounty: 2500000
     entitymissiletypeid: 32436
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
+    entitysecuritystatuskillbonus: 0.01
     entitysuperweaponfalloff: 250000
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
@@ -25,7 +24,7 @@ types:
     hp: 100000.0
     id: 40729
     iscapitalsize: 1
-    mass: 1.27E9
+    mass: 1270000000.0
     maxlockedtargets: 7
     maxtargetrange: 115000.0
     maxvelocity: 75.0
@@ -33,7 +32,6 @@ types:
     missilelaunchduration: 30000.0
     name: Kazue's Caiman
     optimalsigradius: 1000
-    packagedVolume: 1.625E7
     portionSize: 1
     published: true
     radius: 1700.0
@@ -42,16 +40,16 @@ types:
     scangravimetricstrength: 55.0
     scanresolution: 75.0
     shieldcapacity: 700000.0
-    shieldemdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.4
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 12000.0
-    volume: 1.625E7
+    volume: 16250000.0
     warpspeedmultiplier: 25.0
   87232:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 178125.0
@@ -86,12 +84,12 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     falloff: 1.0
     gfxboosterid: 397
     hp: 187500.0
     id: 87232
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -101,7 +99,6 @@ types:
     name: Response Valravn
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -122,7 +119,7 @@ types:
     volume: 1000.0
     warpspeedmultiplier: 3.0
   87243:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 150000.0
@@ -157,12 +154,12 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     falloff: 1.0
     gfxboosterid: 394
     hp: 187500.0
     id: 87243
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -172,7 +169,6 @@ types:
     name: Response Bane
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -193,7 +189,7 @@ types:
     volume: 1000.0
     warpspeedmultiplier: 3.0
   87244:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 178125.0
@@ -228,12 +224,12 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     falloff: 1.0
     gfxboosterid: 394
     hp: 187500.0
     id: 87244
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -243,7 +239,6 @@ types:
     name: Response Hubris
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -264,7 +259,7 @@ types:
     volume: 1000.0
     warpspeedmultiplier: 3.0
   87245:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 150000.0
@@ -299,12 +294,12 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     falloff: 1.0
     gfxboosterid: 395
     hp: 187500.0
     id: 87245
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -314,7 +309,6 @@ types:
     name: Response Karura
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -335,27 +329,26 @@ types:
     volume: 1000.0
     warpspeedmultiplier: 3.0
   88154:
-    agility: 0.10000000149011612
+    agility: 0.1
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 900000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 210
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 440
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 60000.0
-    capacity: 2000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 300.0
@@ -367,7 +360,7 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 100
     entitysuperweaponthermaldamage: 100000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     explosivedamage: 300.0
     falloff: 50000.0
     gfxboosterid: 397
@@ -375,7 +368,7 @@ types:
     hp: 100000.0
     id: 88154
     kineticdamage: 300.0
-    mass: 1.1E9
+    mass: 1100000000.0
     maxlockedtargets: 7
     maxrange: 150000.0
     maxtargetrange: 200000.0
@@ -384,9 +377,8 @@ types:
     missilelaunchduration: 20000.0
     name: Strategos Dreadnought
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
-    price: 1.539006848E9
+    price: 1539006890.0
     published: false
     radius: 1800.0
     rechargerate: 4400000.0
@@ -397,40 +389,39 @@ types:
     scanradarstrength: 50.0
     scanresolution: 100.0
     shieldcapacity: 200000.0
-    shieldemdamageresonance: 0.6499999761581421
-    shieldexplosivedamageresonance: 0.6499999761581421
-    shieldkineticdamageresonance: 0.6499999761581421
+    shieldemdamageresonance: 0.65
+    shieldexplosivedamageresonance: 0.65
+    shieldkineticdamageresonance: 0.65
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.6499999761581421
+    shieldthermaldamageresonance: 0.65
     shielduniformity: 1.0
     signatureradius: 10000.0
     speed: 15000.0
     thermaldamage: 300.0
     trackingspeed: 10.0
-    volume: 1.85E7
+    volume: 18500000.0
     warpspeedmultiplier: 3.0
   88613:
-    agility: 0.10000000149011612
+    agility: 0.1
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 900000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsiegedisallowtetheringmodifier: 1
-    behaviorsiegeecmresistancemodifier: 9.999999747378752E-6
+    behaviorsiegeecmresistancemodifier: 1.0E-5
     behaviorsiegelocallogisticsamountmodifier: 100
     behaviorsiegelocallogisticsdurationmodifier: -50
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 210
     behaviorsiegeremoteassistanceimpedancemodifier: -80
-    behaviorsiegeremoterepairimpedancemodifier: -99.9999008178711
+    behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 440
     behaviorsiegewarpscramblestatusmodifier: 100
     behaviorsiegeweapondisruptionresistancemodifier: -70
     capacitorcapacity: 60000.0
-    capacity: 2000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 300.0
@@ -442,7 +433,7 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 100
     entitysuperweaponthermaldamage: 100000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     explosivedamage: 300.0
     falloff: 50000.0
     gfxboosterid: 397
@@ -450,7 +441,7 @@ types:
     hp: 100000.0
     id: 88613
     kineticdamage: 300.0
-    mass: 1.1E9
+    mass: 1100000000.0
     maxlockedtargets: 7
     maxrange: 150000.0
     maxtargetrange: 200000.0
@@ -459,9 +450,8 @@ types:
     missilelaunchduration: 20000.0
     name: Strategos Dreadnought
     optimalsigradius: 40000
-    packagedVolume: 1.85E7
     portionSize: 1
-    price: 1.539006848E9
+    price: 1539006890.0
     published: false
     radius: 1800.0
     rechargerate: 4400000.0
@@ -472,15 +462,15 @@ types:
     scanradarstrength: 50.0
     scanresolution: 100.0
     shieldcapacity: 200000.0
-    shieldemdamageresonance: 0.6499999761581421
-    shieldexplosivedamageresonance: 0.6499999761581421
-    shieldkineticdamageresonance: 0.6499999761581421
+    shieldemdamageresonance: 0.65
+    shieldexplosivedamageresonance: 0.65
+    shieldkineticdamageresonance: 0.65
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.6499999761581421
+    shieldthermaldamageresonance: 0.65
     shielduniformity: 1.0
     signatureradius: 10000.0
     speed: 15000.0
     thermaldamage: 300.0
     trackingspeed: 10.0
-    volume: 1.85E7
+    volume: 18500000.0
     warpspeedmultiplier: 3.0

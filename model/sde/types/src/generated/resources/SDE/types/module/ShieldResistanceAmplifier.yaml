@@ -8,10 +8,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' EM Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3413
     requiredskill1level: 1
     techlevel: 1
@@ -24,10 +22,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Thermal Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3413
     requiredskill1level: 1
     techlevel: 1
@@ -42,10 +38,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Kinetic Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3413
     requiredskill1level: 1
     techlevel: 1
@@ -59,10 +53,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Explosive Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3413
     requiredskill1level: 1
     techlevel: 1
@@ -74,11 +66,9 @@ types:
     id: 1808
     marketGroup: 1691
     name: EM Shield Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -90,11 +80,9 @@ types:
     id: 2529
     marketGroup: 1690
     name: Explosive Shield Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -107,11 +95,9 @@ types:
     marketGroup: 1690
     metalevelold: 5
     name: Explosive Shield Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 2
@@ -122,11 +108,9 @@ types:
     id: 2537
     marketGroup: 1688
     name: Thermal Shield Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -139,11 +123,9 @@ types:
     marketGroup: 1688
     metalevelold: 5
     name: Thermal Shield Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 2
@@ -156,11 +138,9 @@ types:
     kineticdamageresistancebonus: -32.5
     marketGroup: 1689
     name: Kinetic Shield Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -173,11 +153,9 @@ types:
     marketGroup: 1689
     metalevelold: 5
     name: Kinetic Shield Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 2
@@ -190,11 +168,9 @@ types:
     marketGroup: 1691
     metalevelold: 5
     name: EM Shield Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 2
@@ -207,11 +183,9 @@ types:
     marketGroup: 1690
     metalevelold: 1
     name: Compact Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -223,11 +197,9 @@ types:
     marketGroup: 1688
     metalevelold: 1
     name: Compact Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -241,11 +213,9 @@ types:
     marketGroup: 1691
     metalevelold: 1
     name: Compact EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -258,11 +228,9 @@ types:
     marketGroup: 1689
     metalevelold: 1
     name: Compact Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -276,29 +244,25 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14031:
     cpu: 28.0
-    explosivedamageresistancebonus: -39.400001525878906
+    explosivedamageresistancebonus: -39.4
     hp: 40.0
     id: 14031
     marketGroup: 1690
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -311,11 +275,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -329,15 +291,13 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -39.400001525878906
+    thermaldamageresistancebonus: -39.4
     volume: 5.0
   14037:
     cpu: 17.0
@@ -348,11 +308,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -361,16 +319,14 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 14039
-    kineticdamageresistancebonus: -39.400001525878906
+    kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -384,65 +340,57 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14043:
     cpu: 28.0
-    emdamageresistancebonus: -39.400001525878906
+    emdamageresistancebonus: -39.4
     hp: 40.0
     id: 14043
     marketGroup: 1691
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14606:
     cpu: 27.0
-    explosivedamageresistancebonus: -41.709999084472656
+    explosivedamageresistancebonus: -41.71
     hp: 40.0
     id: 14606
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14610:
     cpu: 29.0
-    explosivedamageresistancebonus: -46.33000183105469
+    explosivedamageresistancebonus: -46.33
     hp: 40.0
     id: 14610
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -455,15 +403,13 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -41.709999084472656
+    thermaldamageresistancebonus: -41.71
     volume: 5.0
   14618:
     cpu: 29.0
@@ -473,30 +419,26 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -46.33000183105469
+    thermaldamageresistancebonus: -46.33
     volume: 5.0
   14622:
     cpu: 27.0
     hp: 40.0
     id: 14622
-    kineticdamageresistancebonus: -41.709999084472656
+    kineticdamageresistancebonus: -41.71
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -505,124 +447,110 @@ types:
     cpu: 29.0
     hp: 40.0
     id: 14626
-    kineticdamageresistancebonus: -46.33000183105469
+    kineticdamageresistancebonus: -46.33
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14630:
     cpu: 27.0
-    emdamageresistancebonus: -41.709999084472656
+    emdamageresistancebonus: -41.71
     hp: 40.0
     id: 14630
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14634:
     cpu: 29.0
-    emdamageresistancebonus: -46.33000183105469
+    emdamageresistancebonus: -46.33
     hp: 40.0
     id: 14634
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14716:
     cpu: 30.0
-    explosivedamageresistancebonus: -41.709999084472656
+    explosivedamageresistancebonus: -41.71
     hp: 40.0
     id: 14716
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14718:
     cpu: 34.0
-    explosivedamageresistancebonus: -44.02000045776367
+    explosivedamageresistancebonus: -44.02
     hp: 40.0
     id: 14718
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14720:
     cpu: 36.0
-    explosivedamageresistancebonus: -46.33000183105469
+    explosivedamageresistancebonus: -46.33
     hp: 40.0
     id: 14720
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 15
     name: Vepas' Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14722:
     cpu: 38.0
-    explosivedamageresistancebonus: -48.63999938964844
+    explosivedamageresistancebonus: -48.64
     hp: 40.0
     id: 14722
     marketGroup: 1690
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -635,15 +563,13 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -41.709999084472656
+    thermaldamageresistancebonus: -41.71
     volume: 5.0
   14726:
     cpu: 34.0
@@ -653,15 +579,13 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.02000045776367
+    thermaldamageresistancebonus: -44.02
     volume: 5.0
   14728:
     cpu: 36.0
@@ -671,15 +595,13 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vepas' Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -46.33000183105469
+    thermaldamageresistancebonus: -46.33
     volume: 5.0
   14730:
     cpu: 38.0
@@ -689,30 +611,26 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -48.63999938964844
+    thermaldamageresistancebonus: -48.64
     volume: 5.0
   14732:
     cpu: 30.0
     hp: 40.0
     id: 14732
-    kineticdamageresistancebonus: -41.709999084472656
+    kineticdamageresistancebonus: -41.71
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -721,16 +639,14 @@ types:
     cpu: 34.0
     hp: 40.0
     id: 14734
-    kineticdamageresistancebonus: -44.02000045776367
+    kineticdamageresistancebonus: -44.02
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -739,16 +655,14 @@ types:
     cpu: 36.0
     hp: 40.0
     id: 14736
-    kineticdamageresistancebonus: -46.33000183105469
+    kineticdamageresistancebonus: -46.33
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 15
     name: Vepas' Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -757,106 +671,94 @@ types:
     cpu: 38.0
     hp: 40.0
     id: 14738
-    kineticdamageresistancebonus: -48.63999938964844
+    kineticdamageresistancebonus: -48.64
     marketGroup: 1689
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14740:
     cpu: 30.0
-    emdamageresistancebonus: -41.709999084472656
+    emdamageresistancebonus: -41.71
     hp: 40.0
     id: 14740
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14742:
     cpu: 34.0
-    emdamageresistancebonus: -44.02000045776367
+    emdamageresistancebonus: -44.02
     hp: 40.0
     id: 14742
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14744:
     cpu: 36.0
-    emdamageresistancebonus: -46.33000183105469
+    emdamageresistancebonus: -46.33
     hp: 40.0
     id: 14744
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 15
     name: Vepas' Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   14746:
     cpu: 38.0
-    emdamageresistancebonus: -48.63999938964844
+    emdamageresistancebonus: -48.64
     hp: 40.0
     id: 14746
     marketGroup: 1691
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   15909:
     cpu: 28.0
-    emdamageresistancebonus: -39.400001525878906
+    emdamageresistancebonus: -39.4
     hp: 40.0
     id: 15909
     marketGroup: 1691
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -865,16 +767,14 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 15911
-    kineticdamageresistancebonus: -39.400001525878906
+    kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -887,30 +787,26 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -39.400001525878906
+    thermaldamageresistancebonus: -39.4
     volume: 5.0
   15915:
     cpu: 28.0
-    explosivedamageresistancebonus: -39.400001525878906
+    explosivedamageresistancebonus: -39.4
     hp: 40.0
     id: 15915
     marketGroup: 1690
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -924,11 +820,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -942,11 +836,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -959,11 +851,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -978,29 +868,25 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19209:
     cpu: 30.0
-    explosivedamageresistancebonus: -40.31999969482422
+    explosivedamageresistancebonus: -40.32
     hp: 40.0
     id: 19209
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 10
     name: Pithum C-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1013,66 +899,58 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Pithum C-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.31999969482422
+    thermaldamageresistancebonus: -40.32
     volume: 5.0
   19213:
     cpu: 30.0
     hp: 40.0
     id: 19213
-    kineticdamageresistancebonus: -40.31999969482422
+    kineticdamageresistancebonus: -40.32
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 10
     name: Pithum C-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19215:
     cpu: 30.0
-    emdamageresistancebonus: -40.31999969482422
+    emdamageresistancebonus: -40.32
     hp: 40.0
     id: 19215
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 10
     name: Pithum C-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19217:
     cpu: 34.0
-    explosivedamageresistancebonus: -42.630001068115234
+    explosivedamageresistancebonus: -42.63
     hp: 40.0
     id: 19217
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 12
     name: Pithum B-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1085,66 +963,58 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Pithum B-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -42.630001068115234
+    thermaldamageresistancebonus: -42.63
     volume: 5.0
   19221:
     cpu: 34.0
     hp: 40.0
     id: 19221
-    kineticdamageresistancebonus: -42.630001068115234
+    kineticdamageresistancebonus: -42.63
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 12
     name: Pithum B-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19223:
     cpu: 34.0
-    emdamageresistancebonus: -42.630001068115234
+    emdamageresistancebonus: -42.63
     hp: 40.0
     id: 19223
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 12
     name: Pithum B-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19225:
     cpu: 36.0
-    explosivedamageresistancebonus: -44.939998626708984
+    explosivedamageresistancebonus: -44.94
     hp: 40.0
     id: 19225
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 14
     name: Pithum A-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1157,84 +1027,74 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Pithum A-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -44.939998626708984
+    thermaldamageresistancebonus: -44.94
     volume: 5.0
   19229:
     cpu: 36.0
     hp: 40.0
     id: 19229
-    kineticdamageresistancebonus: -44.939998626708984
+    kineticdamageresistancebonus: -44.94
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 14
     name: Pithum A-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19231:
     cpu: 36.0
-    emdamageresistancebonus: -44.939998626708984
+    emdamageresistancebonus: -44.94
     hp: 40.0
     id: 19231
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 14
     name: Pithum A-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19233:
     cpu: 25.0
-    explosivedamageresistancebonus: -39.400001525878906
+    explosivedamageresistancebonus: -39.4
     hp: 40.0
     id: 19233
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 10
     name: Gistum C-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19235:
     cpu: 27.0
-    explosivedamageresistancebonus: -40.31999969482422
+    explosivedamageresistancebonus: -40.32
     hp: 40.0
     id: 19235
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 12
     name: Gistum B-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1247,15 +1107,13 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Gistum C-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -39.400001525878906
+    thermaldamageresistancebonus: -39.4
     volume: 5.0
   19239:
     cpu: 27.0
@@ -1265,30 +1123,26 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Gistum B-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.31999969482422
+    thermaldamageresistancebonus: -40.32
     volume: 5.0
   19241:
     cpu: 25.0
     hp: 40.0
     id: 19241
-    kineticdamageresistancebonus: -39.400001525878906
+    kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 10
     name: Gistum C-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1297,70 +1151,62 @@ types:
     cpu: 27.0
     hp: 40.0
     id: 19243
-    kineticdamageresistancebonus: -40.31999969482422
+    kineticdamageresistancebonus: -40.32
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 12
     name: Gistum B-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19245:
     cpu: 25.0
-    emdamageresistancebonus: -39.400001525878906
+    emdamageresistancebonus: -39.4
     hp: 40.0
     id: 19245
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 10
     name: Gistum C-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19247:
     cpu: 27.0
-    emdamageresistancebonus: -40.31999969482422
+    emdamageresistancebonus: -40.32
     hp: 40.0
     id: 19247
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 12
     name: Gistum B-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19249:
     cpu: 29.0
-    explosivedamageresistancebonus: -42.630001068115234
+    explosivedamageresistancebonus: -42.63
     hp: 40.0
     id: 19249
     marketGroup: 1690
     metagroupid: 6
     metalevelold: 14
     name: Gistum A-Type Explosive Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1373,48 +1219,42 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Gistum A-Type Thermal Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
-    thermaldamageresistancebonus: -42.630001068115234
+    thermaldamageresistancebonus: -42.63
     volume: 5.0
   19253:
     cpu: 29.0
     hp: 40.0
     id: 19253
-    kineticdamageresistancebonus: -42.630001068115234
+    kineticdamageresistancebonus: -42.63
     marketGroup: 1689
     metagroupid: 6
     metalevelold: 14
     name: Gistum A-Type Kinetic Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
   19255:
     cpu: 29.0
-    emdamageresistancebonus: -42.630001068115234
+    emdamageresistancebonus: -42.63
     hp: 40.0
     id: 19255
     marketGroup: 1691
     metagroupid: 6
     metalevelold: 14
     name: Gistum A-Type EM Shield Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1428,11 +1268,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Whiskey'' Explosive Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1445,11 +1283,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''High Noon'' Thermal Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1464,11 +1300,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Cactus'' Kinetic Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -1482,11 +1316,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Prospector'' EM Shield Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1

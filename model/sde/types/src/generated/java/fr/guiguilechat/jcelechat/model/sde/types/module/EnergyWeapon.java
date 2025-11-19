@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AmmoLoaded;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
@@ -40,7 +39,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadDamageModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRofBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -79,7 +77,7 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.699999988079071)
+    @DefaultRealValue(0.7)
     public double aitankingmodifierdrone;
     /**
      * A temporary attribute for projectile/hybrid weapons to indicate which charges they have loaded when created in newbie ships ala ammo.
@@ -362,7 +360,7 @@ public class EnergyWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Falloff.INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, OverloadRofBonus.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, AITankingModifierDrone.INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, TargetModule.INSTANCE, AmmoLoaded.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, ChargeSize.INSTANCE, ReloadTime.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ChargeGroup1 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, OverloadRofBonus.INSTANCE, KineticDamage.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, AITankingModifierDrone.INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, TargetModule.INSTANCE, AmmoLoaded.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE })));
     public static final EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
 
     @Override

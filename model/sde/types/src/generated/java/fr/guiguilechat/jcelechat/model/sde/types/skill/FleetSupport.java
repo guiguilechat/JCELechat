@@ -15,12 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AreaOfEffectBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CommandStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FleetCompressionLogisticsRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -96,7 +94,7 @@ public class FleetSupport
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, CommandStrengthBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, AreaOfEffectBonus.INSTANCE, FleetCompressionLogisticsRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, CommandStrengthBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, AreaOfEffectBonus.INSTANCE, FleetCompressionLogisticsRangeBonus.INSTANCE })));
     public static final FleetSupport.MetaGroup METAGROUP = new FleetSupport.MetaGroup();
 
     @Override

@@ -2,27 +2,23 @@ types:
   21573:
     id: 21573
     inventionmemodifier: 3.0
-    inventionpropabilitymultiplier: 1.100000023841858
+    inventionpropabilitymultiplier: 1.1
     inventiontemodifier: 6.0
     mass: 1.0
     name: Esoteric Process
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21574:
     id: 21574
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 1.2000000476837158
+    inventionpropabilitymultiplier: 1.2
     inventiontemodifier: 10.0
     mass: 1.0
     name: Esoteric Accelerant
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21575:
     id: 21575
@@ -32,36 +28,30 @@ types:
     inventiontemodifier: 8.0
     mass: 1.0
     name: Esoteric Symmetry
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21576:
     id: 21576
     inventionmaxrunmodifier: 9.0
     inventionmemodifier: -2.0
-    inventionpropabilitymultiplier: 0.6000000238418579
+    inventionpropabilitymultiplier: 0.6
     inventiontemodifier: 2.0
     mass: 1.0
     name: Esoteric Augmentation
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21577:
     id: 21577
     inventionmaxrunmodifier: 4.0
     inventionmemodifier: -1.0
-    inventionpropabilitymultiplier: 1.7999999523162842
+    inventionpropabilitymultiplier: 1.8
     inventiontemodifier: 4.0
     mass: 1.0
     name: Esoteric Attainment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33319:
     id: 33319
@@ -71,33 +61,27 @@ types:
     inventiontemodifier: -2.0
     mass: 1.0
     name: Esoteric Parity
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33322:
     id: 33322
     inventionmaxrunmodifier: 7.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 0.8999999761581421
+    inventionpropabilitymultiplier: 0.9
     mass: 1.0
     name: Optimized Esoteric Augmentation
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33325:
     id: 33325
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
-    inventionpropabilitymultiplier: 1.899999976158142
+    inventionpropabilitymultiplier: 1.9
     inventiontemodifier: -2.0
     mass: 1.0
     name: Optimized Esoteric Attainment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

@@ -10,7 +10,6 @@ types:
     moonrigfracturedelaybonus: 20
     moonrigspewradiusbonus: -20
     name: Standup M-Set Moon Drilling Stability I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -32,7 +31,6 @@ types:
     moonrigfracturedelaybonus: 24
     moonrigspewradiusbonus: -24
     name: Standup M-Set Moon Drilling Stability II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0

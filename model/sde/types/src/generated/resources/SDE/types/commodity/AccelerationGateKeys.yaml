@@ -3,818 +3,730 @@ types:
     id: 2076
     mass: 1.0
     name: Gate Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   4301:
     id: 4301
     mass: 1.0
     name: Outgrowth Rogue Drone Hive Pass Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17826:
     id: 17826
     mass: 1.0
     name: Traffic Management Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17827:
     id: 17827
     mass: 1.0
     name: Serpentis Staff Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17828:
     id: 17828
     mass: 1.0
     name: Security Corridor Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17829:
     id: 17829
     mass: 1.0
     name: Headmaster Administration Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17830:
     id: 17830
     mass: 1.0
     name: Inner Sanctum Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17853:
     id: 17853
     mass: 1.0
     name: Crimson Hand Level 3 Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17854:
     id: 17854
     mass: 1.0
     name: Crimson Hand Level 1 Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17855:
     id: 17855
     mass: 1.0
     name: Crimson Hand Level 2 Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17856:
     id: 17856
     mass: 1.0
     name: Crimson Hand Level 4 Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17892:
     id: 17892
     mass: 1.0
     name: Drugdealer Passcard to Storage Area
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17904:
     id: 17904
     mass: 1.0
     name: Sansha Outpost Securitycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17905:
     id: 17905
     mass: 1.0
     name: Creo-Synchronization Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17906:
     id: 17906
     mass: 1.0
     name: Factory Gatekey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17907:
     id: 17907
     mass: 1.0
     name: Dented Cipher
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17910:
     id: 17910
     mass: 1.0
     name: Ruined Stargate Cipher
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17911:
     id: 17911
     mass: 1.0
     name: Supply Ship Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17916:
     id: 17916
     mass: 1.0
     name: Tritan's Forked Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17974:
     id: 17974
     mass: 1.0
     name: Battlement Accesscard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17983:
     id: 17983
     mass: 1.0
     name: Armorer Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17984:
     id: 17984
     mass: 1.0
     name: The Repairer's Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17985:
     id: 17985
     mass: 1.0
     name: Scratched and Dented Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17986:
     id: 17986
     mass: 1.0
     name: Dusty Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17987:
     id: 17987
     mass: 1.0
     name: Command Relay Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17988:
     id: 17988
     mass: 1.0
     name: Gardan's Private Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17989:
     id: 17989
     mass: 1.0
     name: Thorak's Private Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17990:
     id: 17990
     mass: 1.0
     name: Security Cypher for Angel Prison
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17991:
     id: 17991
     mass: 1.0
     name: 9D Logic Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17992:
     id: 17992
     mass: 1.0
     name: Puxley's 9D Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17995:
     id: 17995
     mass: 1.0
     name: Stolen Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   17998:
     id: 17998
     mass: 1.0
     name: Sade's Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   18566:
     id: 18566
     mass: 1.0
     name: Shipyard Code Part (One half)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   18585:
     id: 18585
     mass: 1.0
     name: Weekend Pass for Sin Boulevard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   18644:
     id: 18644
     mass: 1.0
     name: High Roller's Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19585:
     id: 19585
     mass: 1.0
     name: Dewak's Level 1 Decoder
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19586:
     id: 19586
     mass: 1.0
     name: Dewak's Level 2 Decoder
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19587:
     id: 19587
     mass: 1.0
     name: Dewak's Level 3 Decoder
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19621:
     id: 19621
     mass: 1.0
     name: Perimeter Descramble Code
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19702:
     id: 19702
     mass: 1.0
     name: Repository Descramble Code
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19705:
     id: 19705
     mass: 1.0
     name: Outgrowth Hive Entrance Code
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19732:
     id: 19732
     mass: 1.0
     name: Sansha Supply Pit Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19954:
     id: 19954
     mass: 1.0
     name: Soran's Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20103:
     id: 20103
     mass: 1.0
     name: Product Park Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20104:
     id: 20104
     mass: 1.0
     name: Creations Central Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20105:
     id: 20105
     mass: 1.0
     name: '''True Creations'' Manufacture Passcard'
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20164:
     id: 20164
     mass: 1.0
     name: Drazin's Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20456:
     id: 20456
     mass: 1.0
     name: Alpha Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20457:
     id: 20457
     mass: 1.0
     name: Beta Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20458:
     id: 20458
     mass: 1.0
     name: Gamma Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   20517:
     id: 20517
     mass: 1.0
     name: Private Citizen Tsuna's Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21048:
     id: 21048
     mass: 1.0
     name: Kepheur's Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21839:
     id: 21839
     mass: 1.0
     name: Training Complex Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21879:
     id: 21879
     mass: 1.0
     name: Repaired Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   22157:
     id: 22157
     mass: 1.0
     name: Sispur Estate Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   22201:
     id: 22201
     mass: 1.0
     name: Uni-Dimensional Algorithm Code
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   22295:
     id: 22295
     mass: 1.0
     name: Ancient Ciphering Totem
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23236:
     id: 23236
     mass: 1.0
     name: Black Market Entry Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23907:
     id: 23907
     mass: 1.0
     name: Shiny Sentry Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23961:
     id: 23961
     mass: 1.0
     name: Serpentis Sentry Station Gate Crystal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24264:
     id: 24264
     mass: 1.0
     name: Bastion Master Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24308:
     id: 24308
     mass: 1.0
     name: Smuggler Knot Lock
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24352:
     id: 24352
     mass: 1.0
     name: Passkey to Yan Jung Relic Site
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24353:
     id: 24353
     mass: 1.0
     name: Gargoyle Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24462:
     id: 24462
     mass: 1.0
     name: Key of the Arcane
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24466:
     id: 24466
     mass: 1.0
     name: Museum Arcana Guest Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24482:
     id: 24482
     mass: 1.0
     name: Key to the Labyrinth
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   24762:
     id: 24762
     mass: 1.0
     name: Logut's Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25281:
     id: 25281
     mass: 1.0
     name: The Red Card
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25304:
     id: 25304
     mass: 1.0
     name: Pith Guristas Spa-Card
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25353:
     id: 25353
     mass: 1.0
     name: Serpentis Shipyard Cipher
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25378:
     id: 25378
     mass: 1.0
     name: Drone Modified Passcard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25386:
     id: 25386
     mass: 1.0
     name: Prison Area Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25550:
     id: 25550
     mass: 1.0
     name: Freebooter's Key Alpha
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25551:
     id: 25551
     mass: 1.0
     name: Blood Raider Shipyard Keycard
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25577:
     id: 25577
     mass: 1.0
     name: Freebooter's Key Beta
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25579:
     id: 25579
     mass: 1.0
     name: Freebooter's Key Gamma
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   25864:
     id: 25864
     mass: 1.0
     name: Rakogh Officer Gate Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26138:
     id: 26138
     mass: 1.0
     name: Research Tower Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26216:
     id: 26216
     mass: 1.0
     name: Packaging Center Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26228:
     id: 26228
     mass: 1.0
     name: Think Tank Security Pad
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26241:
     id: 26241
     mass: 1.0
     name: VIP Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26245:
     id: 26245
     mass: 1.0
     name: Coded Research Zone Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26278:
     id: 26278
     mass: 1.0
     name: Privileged Guest Pass
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26283:
     id: 26283
     mass: 1.0
     name: Master Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   26455:
     id: 26455
     mass: 1.0
     name: Administrative Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   28260:
     id: 28260
     mass: 1.0
     name: Zbikoki's Hacker Card
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   30975:
     id: 30975
     mass: 1.0
     name: FedNav F.O.F Identifier Tag AC-106V:FNSBR
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   32020:
     id: 32020
     mass: 1.0
     name: Rahsa's Security Card
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   32189:
     id: 32189
     mass: 1.0
     name: Shanty Town Gate Clearance
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   32198:
     id: 32198
     mass: 1.0
     name: Destablizer Datacore
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57568:
     id: 57568
     mass: 1.0
     name: AEGIS Coded Security Key CSSF-ENS
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60730:
     id: 60730
     mass: 1.0
     name: AEGIS Coded Security Key SCCF-FTS
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   63632:
     id: 63632
     mass: 1.0
     name: Hunt YC124 Acceleration Gate Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   78853:
     id: 78853
     mass: 1.0
     name: Guristas Pirates Warehouse Raid Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   78854:
     id: 78854
     mass: 1.0
     name: Angel Cartel Warehouse Raid Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   78855:
     id: 78855
     mass: 1.0
     name: DED AmaMin Warehouse Raid Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   78856:
     id: 78856
     mass: 1.0
     name: DED CalGal Warehouse Raid Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84482:
     id: 84482
     mass: 1.0
-    name: Tetrimon Base Shortcut Keypass
-    packagedVolume: 0.10000000149011612
+    name: Expired Tetrimon Base Shortcut Keypass
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84483:
     id: 84483
     mass: 1.0
-    name: Crimson Gauntlet Shortcut Keypass
-    packagedVolume: 0.10000000149011612
+    name: Expired Crimson Gauntlet Shortcut Keypass
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87179:
     id: 87179
     marketGroup: 3732
     mass: 1.0
     name: Obsolete Observatory Resonance Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   89156:
     id: 89156
     marketGroup: 3732
     mass: 1.0
     name: Vigilance Resonance Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
+  90117:
+    id: 90117
+    mass: 1.0
+    name: Tetrimon Base Shortcut Keypass
+    portionSize: 1
+    published: true
+    volume: 0.1
+  90118:
+    id: 90118
+    mass: 1.0
+    name: Crimson Gauntlet Shortcut Keypass
+    portionSize: 1
+    published: true
+    volume: 0.1

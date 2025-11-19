@@ -1,0 +1,10 @@
+types:
+  90039:
+    id: 90039
+    industryblueprintrank: 40.0
+    marketGroup: 3779
+    name: Mobile Phase Anchor Blueprint
+    portionSize: 1
+    price: 140000000.0
+    published: true
+    volume: 0.01

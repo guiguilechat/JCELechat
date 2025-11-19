@@ -4,7 +4,6 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Foundation Block
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -13,7 +12,6 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Split Cables
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -22,7 +20,6 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Molecule Binder
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -31,7 +28,6 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Reflective Sheets
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -40,7 +36,6 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Mechanical Gears
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -49,7 +44,6 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Partition Plates
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -58,7 +52,6 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Ignition Device
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -67,7 +60,6 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Micro Circuits
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -76,7 +68,6 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Cryo Batteries
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -85,7 +76,6 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Virtual Energizer
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -94,97 +84,86 @@ types:
     marketGroup: 1900
     mass: 1.0
     name: Electronic Link
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21588:
     id: 21588
     marketGroup: 1900
     mass: 1.0
     name: Spare Parts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21589:
     id: 21589
     marketGroup: 1900
     mass: 1.0
     name: Power Couplings
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21590:
     id: 21590
     marketGroup: 1900
     mass: 1.0
     name: Armor Blocks
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21591:
     id: 21591
     marketGroup: 1900
     mass: 1.0
     name: Computer Chips
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21592:
     id: 21592
     marketGroup: 1898
     mass: 1.0
     name: Electric Conduit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21593:
     id: 21593
     marketGroup: 1898
     mass: 1.0
     name: Mechanic Parts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21594:
     id: 21594
     marketGroup: 1898
     mass: 1.0
     name: Energy Cells
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21595:
     id: 21595
     marketGroup: 1898
     mass: 1.0
     name: Construction Alloy
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21596:
     id: 21596
     marketGroup: 1898
     mass: 1.0
     name: Data Processor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23138:
     id: 23138
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Null Shell
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -193,7 +172,6 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Glass Scale
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -202,7 +180,6 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Plenary Wire
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -211,7 +188,6 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Silk Armor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -220,7 +196,6 @@ types:
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Nano Fabric
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -229,7 +204,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Diamond Rod
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -238,7 +212,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Cohere Cord
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -247,7 +220,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Solid Mox
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -256,7 +228,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Magnetic Slab
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -265,7 +236,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Tri-polished Lens
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -274,96 +244,85 @@ types:
     marketGroup: 1899
     mass: 1.0
     name: Positron Cord
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23159:
     id: 23159
     marketGroup: 1899
     mass: 1.0
     name: Auxiliary Parts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23160:
     id: 23160
     marketGroup: 1899
     mass: 1.0
     name: Force Cable
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23161:
     id: 23161
     marketGroup: 1899
     mass: 1.0
     name: Elemental Crux
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23162:
     id: 23162
     marketGroup: 1899
     mass: 1.0
     name: Analog Panel
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23163:
     id: 23163
     marketGroup: 1901
     mass: 1.0
     name: Current Amplifier
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23164:
     id: 23164
     marketGroup: 1901
     mass: 1.0
     name: Second-hand Parts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23165:
     id: 23165
     marketGroup: 1901
     mass: 1.0
     name: Heat Depressor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23166:
     id: 23166
     marketGroup: 1901
     mass: 1.0
     name: Internal Bulkhead
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23167:
     id: 23167
     marketGroup: 1901
     mass: 1.0
     name: Mainframe Bit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   28867:
     id: 28867
     mass: 150.0
     name: Inexplicable Drone Junk
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     volume: 20.0

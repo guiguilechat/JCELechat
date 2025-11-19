@@ -4,350 +4,286 @@ types:
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Carbonized Lead S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   880:
     id: 880
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Nuclear S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   881:
     id: 881
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Proton S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   882:
     id: 882
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Depleted Uranium S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   883:
     id: 883
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Titanium Sabot S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   884:
     id: 884
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Fusion S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 70000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   885:
     id: 885
     industryblueprintrank: 1.0
     marketGroup: 313
     name: Phased Plasma S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   886:
     id: 886
     industryblueprintrank: 1.0
     marketGroup: 313
     name: EMP S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   887:
     id: 887
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Carbonized Lead M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   888:
     id: 888
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Nuclear M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   889:
     id: 889
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Proton M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 165000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   890:
     id: 890
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Depleted Uranium M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 205000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   891:
     id: 891
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Titanium Sabot M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 235000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   892:
     id: 892
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Fusion M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 275000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   893:
     id: 893
     industryblueprintrank: 2.0
     marketGroup: 312
     name: Phased Plasma M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 325000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   894:
     id: 894
     industryblueprintrank: 2.0
     marketGroup: 312
     name: EMP M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   895:
     id: 895
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Carbonized Lead L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   896:
     id: 896
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Nuclear L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   897:
     id: 897
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Proton L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   898:
     id: 898
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Depleted Uranium L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   899:
     id: 899
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Titanium Sabot L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   900:
     id: 900
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Fusion L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 700000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   901:
     id: 901
     industryblueprintrank: 3.0
     marketGroup: 309
     name: Phased Plasma L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   902:
     id: 902
     industryblueprintrank: 3.0
     marketGroup: 309
     name: EMP L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17665:
     id: 17665
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Carbonized Lead XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17667:
     id: 17667
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Depleted Uranium XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17669:
     id: 17669
     industryblueprintrank: 4.0
     marketGroup: 597
     name: EMP XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17671:
     id: 17671
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Fusion XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17673:
     id: 17673
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Nuclear XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17675:
     id: 17675
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Phased Plasma XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17677:
     id: 17677
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Proton XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17679:
     id: 17679
     industryblueprintrank: 4.0
     marketGroup: 597
     name: Titanium Sabot XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

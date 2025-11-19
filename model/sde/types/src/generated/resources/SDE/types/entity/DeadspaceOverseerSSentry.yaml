@@ -5,12 +5,11 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -44,7 +43,6 @@ types:
     modifytargetspeedrange: 50000
     name: Blood Raider Central Bastion
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -53,16 +51,16 @@ types:
     scanladarstrength: 60.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   3805:
     aishoulduseeffectmultiplier: 1
@@ -70,12 +68,11 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -109,7 +106,6 @@ types:
     modifytargetspeedrange: 50000
     name: Sansha's Nation Central Bastion
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -118,16 +114,16 @@ types:
     scanladarstrength: 60.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   3809:
     aishoulduseeffectmultiplier: 1
@@ -135,12 +131,11 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -174,7 +169,6 @@ types:
     modifytargetspeedrange: 50000
     name: Serpentis Administration Facility
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -183,29 +177,28 @@ types:
     scanladarstrength: 60.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   17993:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -237,7 +230,6 @@ types:
     modifytargetspeedrange: 50000
     name: Crimson Sentinel
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -246,29 +238,28 @@ types:
     scanradarstrength: 39.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 10000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   18630:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -302,7 +293,6 @@ types:
     modifytargetspeedrange: 50000
     name: Serpentis Fleet Stronghold
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -311,29 +301,28 @@ types:
     scanmagnetometricstrength: 85.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   18631:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -367,7 +356,6 @@ types:
     modifytargetspeedrange: 50000
     name: Angel Retention Facility
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -376,36 +364,35 @@ types:
     scanladarstrength: 60.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   19703:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 3.5
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityattackrange: 100000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 5000
     entityequipmentmax: 150
     entityequipmentmin: 100
@@ -427,7 +414,6 @@ types:
     modifytargetspeedrange: 20000
     name: Swarm Defense Battery
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -436,35 +422,34 @@ types:
     scanmagnetometricstrength: 39.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   19707:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 25.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 4.0
     entityarmorrepairamountpersecond: 5000.0
-    entityarmorrepairdelaychance: 0.4000000059604645
+    entityarmorrepairdelaychance: 0.4
     entityarmorrepairduration: 10000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -494,7 +479,6 @@ types:
     modifytargetspeedrange: 50000
     name: Outgrowth Strain Mother
     optimalsigradius: 400
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -504,29 +488,28 @@ types:
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6499999761581421
+    shieldkineticdamageresonance: 0.65
     shieldrechargerate: 20000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   19955:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -561,7 +544,6 @@ types:
     modifytargetspeedrange: 50000
     name: '''True Power'' Assembly Security HQ'
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -570,8 +552,8 @@ types:
     scanradarstrength: 65.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 100000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -579,25 +561,24 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   19961:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 12000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -628,7 +609,6 @@ types:
     modifytargetspeedrange: 50000
     name: Station Ultima
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -637,8 +617,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -646,27 +626,26 @@ types:
     speed: 120000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   25472:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 3.5
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityattackrange: 100000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 5000
     entityequipmentmax: 75
     entityequipmentmin: 50
@@ -688,7 +667,6 @@ types:
     modifytargetspeedrange: 20000
     name: Drone Creation Compound
     optimalsigradius: 100
-    packagedVolume: 1.0E8
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -697,27 +675,27 @@ types:
     scanmagnetometricstrength: 39.0
     shieldcapacity: 1250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 1.5E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
-    volume: 1.0E8
+    trackingspeed: 0.04
+    volume: 100000000.0
   25524:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 20000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
@@ -760,8 +738,8 @@ types:
     scanradarstrength: 65.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 100000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -769,24 +747,23 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
   25528:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 10000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -817,7 +794,6 @@ types:
     modifytargetspeedrange: 50000
     name: Guristas Fleet Stronghold
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -826,8 +802,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -835,25 +811,24 @@ types:
     speed: 30000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   25559:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 12000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -884,7 +859,6 @@ types:
     modifytargetspeedrange: 50000
     name: Blood Raider Fleet Stronghold
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -893,8 +867,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -902,26 +876,25 @@ types:
     speed: 30000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   25805:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 8600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 25.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 4.0
     entityarmorrepairamountpersecond: 1000.0
-    entityarmorrepairdelaychance: 0.4000000059604645
+    entityarmorrepairdelaychance: 0.4
     entityarmorrepairduration: 10000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -951,7 +924,6 @@ types:
     modifytargetspeedrange: 50000
     name: Outgrowth Strain Mother_00COSMOS
     optimalsigradius: 400
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -961,34 +933,33 @@ types:
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6499999761581421
+    shieldkineticdamageresonance: 0.65
     shieldrechargerate: 600000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   25809:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 30000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 12000
     entityattackrange: 50000
     entitybracketcolour: 1
@@ -1018,7 +989,6 @@ types:
     modifytargetspeedrange: 50000
     name: Kois City
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1027,8 +997,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -1036,20 +1006,19 @@ types:
     speed: 120000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.07999999821186066
+    trackingspeed: 0.08
     volume: 1000.0
   25866:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 9600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     entityarmorrepairamountpersecond: 5000.0
@@ -1083,7 +1052,6 @@ types:
     modifytargetspeedrange: 50000
     name: Rakogh Citadel
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 250000
     published: false
@@ -1095,29 +1063,28 @@ types:
     scanradarstrength: 100.0
     shieldcapacity: 2000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 5000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   26275:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 10975.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 250.0
-    capacity: 1000.0
     damagemultiplier: 1.25
     disallowassistance: 1
     emdamage: 1.0
@@ -1126,7 +1093,7 @@ types:
     entityattackrange: 250000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1000
     entityequipmentmax: 10
     entityequipmentmin: 6
@@ -1150,7 +1117,6 @@ types:
     modifytargetspeedrange: 20000
     name: Hive mother 2_Complex
     optimalsigradius: 30
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1162,37 +1128,36 @@ types:
     scanradarstrength: 100.0
     shieldcapacity: 12450.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.02500000037252903
+    trackingspeed: 0.025
     volume: 1000.0
   28508:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 2600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.5
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityattackrange: 100000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 5000
     entityequipmentmax: 150
     entityequipmentmin: 100
@@ -1214,7 +1179,6 @@ types:
     modifytargetspeedrange: 20000
     name: Swarm Defense Battery Deluxe
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1223,35 +1187,34 @@ types:
     scanmagnetometricstrength: 39.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   28510:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 15600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 31.25
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 4.0
     entityarmorrepairamountpersecond: 5000.0
-    entityarmorrepairdelaychance: 0.4000000059604645
+    entityarmorrepairdelaychance: 0.4
     entityarmorrepairduration: 10000
     entityattackrange: 200000
     entitybracketcolour: 1
@@ -1281,7 +1244,6 @@ types:
     modifytargetspeedrange: 50000
     name: Kuari Strain Mother
     optimalsigradius: 400
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1291,27 +1253,27 @@ types:
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6499999761581421
+    shieldkineticdamageresonance: 0.65
     shieldrechargerate: 20000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   28998:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 20000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
@@ -1354,8 +1316,8 @@ types:
     scanradarstrength: 65.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 100000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -1363,19 +1325,18 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
   29020:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 4.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -1409,7 +1370,6 @@ types:
     modifytargetspeedrange: 50000
     name: Serpentis Fleet Outpost
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1418,34 +1378,33 @@ types:
     scanmagnetometricstrength: 85.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 30000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 10000.0
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   29021:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 10000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -1476,7 +1435,6 @@ types:
     modifytargetspeedrange: 50000
     name: Guristas Fleet Outpost
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1485,8 +1443,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -1494,25 +1452,24 @@ types:
     speed: 30000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   29022:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 12000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -1543,7 +1500,6 @@ types:
     modifytargetspeedrange: 50000
     name: Blood Raider Fleet Outpost
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1552,8 +1508,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -1561,26 +1517,25 @@ types:
     speed: 30000.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0
   29023:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.8999999761581421
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.9
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 90.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 25.0
     entityarmorrepairamountpersecond: 3000.0
-    entityarmorrepairdelaychance: 0.10000000149011612
+    entityarmorrepairdelaychance: 0.1
     entityarmorrepairduration: 12000
     entityattackrange: 100000
     entitybracketcolour: 1
@@ -1613,7 +1568,6 @@ types:
     modifytargetspeedrange: 50000
     name: Sansha Fleet Outpost
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -1622,8 +1576,8 @@ types:
     scanradarstrength: 85.0
     shieldcapacity: 60000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.9
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
@@ -1631,5 +1585,5 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 1000.0

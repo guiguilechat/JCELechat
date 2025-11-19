@@ -18,15 +18,14 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27672
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1009
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     name: Energy Neutralizing Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
@@ -70,16 +69,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27855
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1009
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Sansha Energy Neutralizing Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
@@ -123,16 +121,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27856
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1009
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: True Sansha Energy Neutralizing Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
@@ -176,16 +173,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27857
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1009
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Blood Energy Neutralizing Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
@@ -229,16 +225,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27858
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1009
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Dark Blood Energy Neutralizing Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000

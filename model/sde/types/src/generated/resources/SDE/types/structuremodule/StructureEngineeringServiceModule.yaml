@@ -9,11 +9,9 @@ types:
     maxtypefitted: 1
     name: Standup Supercapital Shipyard I
     onlinemaxsecurityclass: 1
-    packagedVolume: 64000.0
     portionSize: 1
     power: 120000
     published: true
-    radius: 1.0
     requiresihubupgrade: 2009
     requiressovhubupgrade: 81623
     servicemodulefuelamount: 36
@@ -34,11 +32,9 @@ types:
     maxtypefitted: 1
     name: Standup Manufacturing Plant I
     onlinemaxsecurityclass: 2
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 12
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 864
@@ -65,11 +61,9 @@ types:
     maxtypefitted: 1
     name: Standup Capital Shipyard I
     onlinemaxsecurityclass: 1
-    packagedVolume: 32000.0
     portionSize: 1
     power: 80000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 24
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 1728
@@ -88,11 +82,9 @@ types:
     maxtypefitted: 1
     name: Standup Invention Lab I
     onlinemaxsecurityclass: 2
-    packagedVolume: 4000.0
     portionSize: 1
     power: 30000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 12
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 864
@@ -111,11 +103,9 @@ types:
     maxtypefitted: 1
     name: Standup Research Lab I
     onlinemaxsecurityclass: 2
-    packagedVolume: 4000.0
     portionSize: 1
     power: 30000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 12
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 864
@@ -135,11 +125,9 @@ types:
     metagroupid: 4
     name: Standup Hyasyoda Research Lab
     onlinemaxsecurityclass: 2
-    packagedVolume: 4000.0
     portionSize: 1
     power: 25000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 10
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 720

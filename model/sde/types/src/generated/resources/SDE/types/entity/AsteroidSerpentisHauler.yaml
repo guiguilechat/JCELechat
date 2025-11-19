@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -20,23 +19,22 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1000000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10000000149011612
+    entitysecuritystatuskillbonus: 0.1
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 6750.0
     id: 13702
-    mass: 1.75E7
+    mass: 17500000.0
     maxvelocity: 2000.0
     name: Serpentis Carrier
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -44,10 +42,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 4750.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -57,15 +55,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4750.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -73,23 +70,22 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 750000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 5500.0
     id: 13703
-    mass: 1.9E7
+    mass: 19000000.0
     maxvelocity: 1000.0
     name: Serpentis Convoy
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -97,10 +93,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 4250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -110,15 +106,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -126,23 +121,22 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 500000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 4800.0
     id: 13704
-    mass: 1.75E7
+    mass: 17500000.0
     maxvelocity: 1750.0
     name: Serpentis Trailer
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -150,10 +144,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 3975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -163,15 +157,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 3975.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -179,23 +172,22 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 250000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 4250.0
     id: 13705
-    mass: 1.9E7
+    mass: 19000000.0
     maxvelocity: 1000.0
     name: Serpentis Hauler
-    packagedVolume: 1010000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -203,10 +195,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 3500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -216,15 +208,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -232,23 +223,22 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 85000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
+    entitysecuritystatuskillbonus: 0.05
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 1800.0
     id: 13706
-    mass: 1.12E7
+    mass: 11200000.0
     maxvelocity: 1250.0
     name: Serpentis Bulker
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -256,10 +246,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -269,15 +259,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1425.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -285,23 +274,22 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
+    entitysecuritystatuskillbonus: 0.0475
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 1650.0
     id: 13707
-    mass: 1.12E7
+    mass: 11200000.0
     maxvelocity: 1250.0
     name: Serpentis Transporter
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -309,10 +297,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -322,15 +310,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1350.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -338,23 +325,22 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
+    entitysecuritystatuskillbonus: 0.045
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 1500.0
     id: 13708
-    mass: 1.12E7
+    mass: 11200000.0
     maxvelocity: 750.0
     name: Serpentis Trucker
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -362,10 +348,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -375,15 +361,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 480.0
-    capacity: 480.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -391,23 +376,22 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
     hp: 1400.0
     id: 13709
-    mass: 1.12E7
+    mass: 11200000.0
     maxvelocity: 1250.0
     name: Serpentis Courier
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -415,10 +399,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1050.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -428,15 +412,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -444,14 +427,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 15000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -460,7 +443,6 @@ types:
     mass: 2650000.0
     maxvelocity: 650.0
     name: Serpentis Loader
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -468,10 +450,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -481,15 +463,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 140.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -497,14 +478,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -513,7 +494,6 @@ types:
     mass: 2650000.0
     maxvelocity: 650.0
     name: Serpentis Ferrier
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -521,10 +501,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -534,15 +514,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 60.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -550,14 +529,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -566,7 +545,6 @@ types:
     mass: 2300000.0
     maxvelocity: 250.0
     name: Serpentis Gatherer
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -574,10 +552,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -587,15 +565,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 60.0
-    capacity: 60.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -603,14 +580,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -619,7 +596,6 @@ types:
     mass: 2300000.0
     maxvelocity: 250.0
     name: Serpentis Harvester
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -627,10 +603,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -640,15 +616,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 60.0
-    capacity: 60.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -656,14 +631,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -672,7 +647,6 @@ types:
     mass: 2300000.0
     maxvelocity: 250.0
     name: Mule Harvester
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -680,10 +654,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -693,15 +667,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 60.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -709,14 +682,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -725,7 +698,6 @@ types:
     mass: 2300000.0
     maxvelocity: 250.0
     name: Mule Gatherer
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -733,10 +705,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -746,15 +718,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 140.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -762,14 +733,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -778,7 +749,6 @@ types:
     mass: 2650000.0
     maxvelocity: 650.0
     name: Mule Ferrier
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -786,10 +756,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -799,15 +769,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -815,14 +784,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 15000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     falloff: 1.0
     gfxboosterid: 394
     gfxturretid: 483
@@ -831,7 +800,6 @@ types:
     mass: 2650000.0
     maxvelocity: 650.0
     name: Mule Loader
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -839,10 +807,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0

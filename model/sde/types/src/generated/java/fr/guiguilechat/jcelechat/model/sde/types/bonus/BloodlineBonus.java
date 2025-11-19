@@ -14,9 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningDurationMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RepairCostMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
@@ -34,26 +32,12 @@ public class BloodlineBonus
     @DefaultRealValue(1.0)
     public double accuracymultiplier;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Factor to scale mining laser durations by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double miningdurationmultiplier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Multiplier to adjust the cost of repairs.
      */
@@ -68,7 +52,7 @@ public class BloodlineBonus
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double speedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, MiningDurationMultiplier.INSTANCE, RepairCostMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, AccuracyMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningDurationMultiplier.INSTANCE, RepairCostMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, AccuracyMultiplier.INSTANCE })));
     public static final BloodlineBonus.MetaGroup METAGROUP = new BloodlineBonus.MetaGroup();
 
     @Override
@@ -78,17 +62,9 @@ public class BloodlineBonus
             {
                 return accuracymultiplier;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  203 :
             {
                 return miningdurationmultiplier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  187 :
             {

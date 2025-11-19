@@ -23,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidthPercentage;
@@ -35,7 +34,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionMultiplier;
@@ -207,7 +205,7 @@ public class InterdictionNullifier
     @Stackable(false)
     @DefaultIntValue(0)
     public int warpbubbleimmunebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DurationHighisGood.INSTANCE, WarpBubbleImmuneBonus.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, ScanResolutionMultiplier.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, DurationHighisGood.INSTANCE, WarpBubbleImmuneBonus.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final InterdictionNullifier.MetaGroup METAGROUP = new InterdictionNullifier.MetaGroup();
 
     @Override

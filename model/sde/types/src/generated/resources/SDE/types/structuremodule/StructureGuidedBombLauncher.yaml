@@ -11,7 +11,6 @@ types:
     canfitshiptype7: 47512
     canfitshiptype8: 47513
     canfitshiptype9: 47515
-    capacity: 300.0
     chargegroup1: 1548
     chargerate: 1
     cpu: 3000.0
@@ -25,11 +24,9 @@ types:
     maxgroupfitted: 1
     name: Standup Guided Bomb Launcher I
     onlinemaxsecurityclass: 1
-    packagedVolume: 8000.0
     portionSize: 1
     power: 275000
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     slots: 1
     speed: 60000.0
@@ -48,7 +45,6 @@ types:
     canfitshiptype7: 47512
     canfitshiptype8: 47513
     canfitshiptype9: 47515
-    capacity: 400.0
     chargegroup1: 1548
     chargerate: 1
     cpu: 3600.0
@@ -63,11 +59,9 @@ types:
     metalevelold: 5
     name: Standup Guided Bomb Launcher II
     onlinemaxsecurityclass: 1
-    packagedVolume: 8000.0
     portionSize: 1
     power: 330000
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     slots: 1
     speed: 48000.0

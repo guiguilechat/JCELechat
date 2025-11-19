@@ -24,8 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningMaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -37,7 +35,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -45,7 +42,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -132,20 +128,6 @@ public class NPCMiningExhumer
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
-    /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
@@ -225,13 +207,6 @@ public class NPCMiningExhumer
     @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -280,14 +255,6 @@ public class NPCMiningExhumer
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -344,7 +311,7 @@ public class NPCMiningExhumer
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanSpeed.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, SignatureRadius.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EntityFactionLoss.INSTANCE, BehaviorMiningDischarge.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ScanSpeed.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, SignatureRadius.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EntityFactionLoss.INSTANCE, BehaviorMiningDischarge.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE })));
     public static final NPCMiningExhumer.MetaGroup METAGROUP = new NPCMiningExhumer.MetaGroup();
 
     @Override
@@ -390,14 +357,6 @@ public class NPCMiningExhumer
             {
                 return capacitorcapacity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
-            }
             case  854 :
             {
                 return disallowassistance;
@@ -442,10 +401,6 @@ public class NPCMiningExhumer
             {
                 return maxvelocity;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -473,10 +428,6 @@ public class NPCMiningExhumer
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  271 :
             {

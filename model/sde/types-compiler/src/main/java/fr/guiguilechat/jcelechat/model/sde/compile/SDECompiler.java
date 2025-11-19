@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde.compile;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
@@ -18,23 +19,16 @@ import fr.guiguilechat.jcelechat.model.sde.hierarchy.AttributeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 /** stateful compiler */
+@Accessors(fluent = true)
 public class SDECompiler {
 
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(SDECompiler.class);
 
-	protected SDECache sde;
-
-	public SDECompiler() {
-		this(new SDECache());
-	}
-
-	public SDECompiler(SDECache sdeCache) {
-		sde = sdeCache;
-	}
 
 	protected JCodeModel cm;
 
@@ -91,7 +85,7 @@ public class SDECompiler {
 
 		for (Entry<Integer, CatDetails> cate : hierarchy.catID2Details.entrySet()) {
 			CatDetails details = cate.getValue();
-			String newName = formatName(details.name);
+			String newName = sanitize(details.name);
 			try {
 				JDefinedClass catClass = TypePackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(ret.eveTypeClass);
@@ -184,7 +178,7 @@ public class SDECompiler {
 				// "), can't resolve category " + gd.id);
 				continue;
 			}
-			String name = formatName(gd.name);
+			String name = sanitize(gd.name);
 			try {
 				JDefinedClass groupClass = TypePackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
@@ -455,13 +449,14 @@ public class SDECompiler {
 
 		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "id");
 		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "marketGroup");
-		JFieldVar massField = ret.eveTypeClass.field(JMod.PUBLIC, realType(), "mass");
+		JFieldVar massField = ret.eveTypeClass.field(JMod.PUBLIC, bigDecimalType(), "mass");
 		ret.eveTypeClass.field(JMod.PUBLIC, ret.model.ref(String.class), "name");
-		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "packagedVolume");
+		ret.eveTypeClass.field(JMod.PUBLIC, bigDecimalType(), "packagedVolume");
 		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "portionSize");
-		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "price");
+		ret.eveTypeClass.field(JMod.PUBLIC, bigDecimalType(), "price");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
-		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "volume");
+		ret.eveTypeClass.field(JMod.PUBLIC, bigDecimalType(), "radius");
+		ret.eveTypeClass.field(JMod.PUBLIC, bigDecimalType(), "volume");
 
 		ret.valueSetMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "valueSet");
 		{
@@ -534,17 +529,15 @@ public class SDECompiler {
 	 */
 	protected void assignCatGroupAttributes(TypeHierarchy hierarchy, HashMap<Integer, HashSet<Integer>> catID2AttIDs,
 			HashMap<Integer, HashSet<Integer>> groupID2AttIDs, HashSet<Integer> allAttributesIds) {
-		for (Entry<Integer, Set<Integer>> e : hierarchy.catID2GroupIDs.entrySet()) {
-			int catId = e.getKey();
+		for (Entry<Integer, Set<Integer>> catGroupEntry : hierarchy.catID2GroupIDs.entrySet()) {
+			int catId = catGroupEntry.getKey();
 			CatDetails cd = hierarchy.catID2Details.get(catId);
 			HashSet<Integer> catAttributes = null;
-			for (int groupid : e.getValue()) {
+			for (int groupid : catGroupEntry.getValue()) {
 				GroupDetails gd = hierarchy.groupID2Details.get(groupid);
 				if (hierarchy.groupID2TypeIDs.get(groupid).stream().map(i -> hierarchy.typeID2Details.get(i))
 						.filter(td -> !ignoreType(cd.published, gd.published, td.published)).findAny().isEmpty()) {
 					groupID2AttIDs.put(groupid, new HashSet<>());
-					// logger.debug("skip group id=" + groupid + " name=" + gd.name + " as
-					// it has no published type");
 					continue;
 				}
 				HashSet<Integer> groupAttributes = new HashSet<>();
@@ -558,14 +551,12 @@ public class SDECompiler {
 				} else {
 					catAttributes.retainAll(groupAttributes);
 				}
-				// logger.debug("group " + groupid + " has attributes " +
-				// groupAttributes);
 			}
 			if (catAttributes == null) {
 				catAttributes = new HashSet<>();
 			}
 			// second pass to remove all the attributes of the cat from the group
-			for (int groupid : e.getValue()) {
+			for (int groupid : catGroupEntry.getValue()) {
 				groupID2AttIDs.get(groupid).removeAll(catAttributes);
 			}
 			catID2AttIDs.put(catId, catAttributes);
@@ -580,6 +571,19 @@ public class SDECompiler {
 		return cm.INT;
 	}
 
+	@Getter(lazy = true)
+	private final AbstractJClass bigDecimalType = cm.ref(BigDecimal.class);
+
+	/**
+	 * fields that are all set at the root of the hierarchy (in the EveType)
+	 */
+	private static final Set<String> IGNORED_FIELD_NAMES = Set.of(
+			"mass",
+			"packagedVolume",
+			"price",
+			"radius",
+			"volume");
+
 	/**
 	 * create the attributes as java classes.
 	 *
@@ -593,12 +597,17 @@ public class SDECompiler {
 	 *          the map to store the class of an attribute.
 	 * @throws JCodeModelException
 	 */
-	protected void createAttributes(TypeHierarchy hierarchy, CompilationData compilation,
-			HashSet<Integer> allAttributesIds, Map<Integer, JDefinedClass> attID2Class) throws JCodeModelException {
+	protected void createAttributes(TypeHierarchy hierarchy,
+			CompilationData compilation,
+			HashSet<Integer> allAttributesIds,
+			Map<Integer, JDefinedClass> attID2Class) throws JCodeModelException {
 		for (int attId : allAttributesIds) {
 			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
-			String name = formatName(eattr.name);
+			String name = sanitize(eattr.name);
 			compilation.attID2FieldName.put(attId, name.toLowerCase());
+			if (IGNORED_FIELD_NAMES.contains(eattr.name.toLowerCase())) {
+				continue;
+			}
 			JDefinedClass attClass;
 			try {
 				attClass = attributesPackage()._class(name);
@@ -615,7 +624,7 @@ public class SDECompiler {
 				meth.body()._return(JExpr.lit(eattr.highIsGood));
 				meth = attClass.method(JMod.PUBLIC, cm._ref(Number.class), "getDefaultValue");
 				meth.annotate(cm.ref(Override.class));
-				meth.body()._return(JExpr.lit(eattr.defaultValue));
+				meth.body()._return(JExpr.lit(eattr.defaultValue.doubleValue()));
 				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getPublished");
 				meth.annotate(cm.ref(Override.class));
 				meth.body()._return(JExpr.lit(eattr.published));
@@ -720,13 +729,16 @@ public class SDECompiler {
 
 		for (Integer attributeID : sortedAttIds) {
 			AttributeDetails attr = hierarchy.attID2Details.get(attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? realType() : intType(), formatName(attr.name).toLowerCase());
+			if (IGNORED_FIELD_NAMES.contains(attr.name.toLowerCase())) {
+				continue;
+			}
+			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? realType() : intType(), sanitize(attr.name).toLowerCase());
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (attr.hasFloat) {
-				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue);
+				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue.doubleValue());
 			} else {
-				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
+				f.annotate(getDefaultIntValueAnnotation()).param("value", attr.defaultValue.intValue());
 			}
 			if (jsAttr == null) {
 				JMethod attrMeth = cl.method(JMod.PUBLIC, cm.ref(Number.class), "valueSet");
@@ -780,7 +792,10 @@ public class SDECompiler {
 		meth.body()._return(attField);
 	}
 
-	public static String formatName(String name) {
+	/**
+	 * sanitize a name to make it class-acceptable
+	 */
+	public static String sanitize(String name) {
 		if (name.equals("Abstract")) {
 			return "Abstrct";
 		}
@@ -799,7 +814,7 @@ public class SDECompiler {
 			}
 		}
 		String ret = new String(newName, 0, name.length() - skipped);
-		if (ret.charAt(0) >= 0 && ret.charAt(0) <= '9') {
+		if (ret.charAt(0) >= '0' && ret.charAt(0) <= '9') {
 			ret = "Max" + ret;
 		}
 		return ret;
@@ -810,7 +825,7 @@ public class SDECompiler {
 	}
 
 	public static boolean ignoreType(boolean catPublished, boolean groupPublished, boolean typePublished) {
-		return (groupPublished ? !typePublished : catPublished);
+		return groupPublished ? !typePublished : catPublished;
 	}
 
 }

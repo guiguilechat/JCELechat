@@ -13,10 +13,9 @@ types:
     armorexplosivedamageresonance: 0.25
     armorhp: 250000.0
     armorkineticdamageresonance: 0.25
-    armorthermaldamageresonance: 0.20000000298023224
+    armorthermaldamageresonance: 0.2
     armoruniformity: 0.75
     capacitorcapacity: 3300.0
-    capacity: 120.0
     damagemultiplier: 40.0
     disallowassistance: 1
     emdamage: 40.0
@@ -43,14 +42,14 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30426
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     entitywarpscramblechance: 1.0
     falloff: 110000.0
     gfxboosterid: 397
     gfxturretid: 4049
     hp: 150000.0
     id: 37472
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 6
     maxrange: 320000.0
@@ -66,7 +65,6 @@ types:
     modifytargetspeedrange: 100000
     name: Upgraded Avenger
     optimalsigradius: 10000
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -83,7 +81,7 @@ types:
     structureuniformity: 1.0
     thermaldamage: 40.0
     trackingspeed: 1.0
-    volume: 1.9E7
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 100000
     warpscramblestrength: 15

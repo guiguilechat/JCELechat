@@ -9,11 +9,9 @@ types:
     id: 442
     marketGroup: 711
     name: Cargo Scanner I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     techlevel: 1
@@ -29,11 +27,9 @@ types:
     marketGroup: 711
     metalevelold: 5
     name: Cargo Scanner II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 2
     techlevel: 2
@@ -49,11 +45,9 @@ types:
     marketGroup: 711
     metalevelold: 1
     name: Type-E Enduring Cargo Scanner
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     techlevel: 1
@@ -69,11 +63,9 @@ types:
     marketGroup: 711
     metalevelold: 1
     name: PL-0 Scoped Cargo Scanner
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     techlevel: 1

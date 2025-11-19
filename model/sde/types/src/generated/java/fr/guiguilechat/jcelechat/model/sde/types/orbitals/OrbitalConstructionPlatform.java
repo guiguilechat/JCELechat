@@ -16,14 +16,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConstructionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalUsers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
@@ -31,7 +29,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -116,7 +113,7 @@ public class OrbitalConstructionPlatform
     @Stackable(true)
     @DefaultIntValue(60000)
     public int unanchoringdelay;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, ShieldUniformity.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, SignatureRadius.INSTANCE, SpecialMaterialBayCapacity.INSTANCE, ConstructionType.INSTANCE, AnchoringDelay.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UnanchoringDelay.INSTANCE, ShieldUniformity.INSTANCE, OnliningDelay.INSTANCE, ShieldCapacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Uniformity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, SpecialMaterialBayCapacity.INSTANCE, MaxOperationalDistance.INSTANCE, ConstructionType.INSTANCE, AnchoringDelay.INSTANCE, MaxOperationalUsers.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final OrbitalConstructionPlatform.MetaGroup METAGROUP = new OrbitalConstructionPlatform.MetaGroup();
 
     @Override

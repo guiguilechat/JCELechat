@@ -4,92 +4,74 @@ types:
     industryblueprintrank: 20.0
     marketGroup: 416
     name: Caldari Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11130:
     id: 11130
     industryblueprintrank: 20.0
     marketGroup: 417
     name: Gallente Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11133:
     id: 11133
     industryblueprintrank: 20.0
     marketGroup: 418
     name: Minmatar Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11135:
     id: 11135
     industryblueprintrank: 20.0
     marketGroup: 415
     name: Amarr Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29267:
     id: 29267
     industryblueprintrank: 20.0
     name: Apotheosis Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30843:
     id: 30843
     industryblueprintrank: 20.0
     name: InterBus Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33514:
     id: 33514
     industryblueprintrank: 20.0
     name: Leopard Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   34497:
     id: 34497
     industryblueprintrank: 20.0
     name: Council Diplomatic Shuttle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   64035:
     id: 64035
     industryblueprintrank: 20.0
     name: Boobook Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

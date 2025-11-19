@@ -19,7 +19,6 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerrange: 100000.0
     capacitorcapacity: 7700.0
-    capacity: 120.0
     damagemultiplier: 15.0
     disallowassistance: 1
     emdamage: 80.0
@@ -40,7 +39,7 @@ types:
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     entitysecuritymaxgain: 5.0
     entitywarpscramblechance: 1.0
     explosivedamage: 80.0
@@ -50,7 +49,7 @@ types:
     hp: 150000.0
     id: 37473
     kineticdamage: 80.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 6
     maxrange: 250000.0
@@ -60,7 +59,6 @@ types:
     modifytargetspeedrange: 100000
     name: Drifter Response Battleship
     optimalsigradius: 10000
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -72,11 +70,11 @@ types:
     scanradarstrength: 500.0
     scanresolution: 100.0
     shieldcapacity: 800000.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 1.0E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 25000.0
     speed: 3000.0
@@ -93,7 +91,7 @@ types:
     activationblockedstrenght: 1
     agility: 0.5
     aipreferredsignatureradius: -1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     aitargetswitchtimer: 60000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 0.5
@@ -104,7 +102,6 @@ types:
     behaviorenergyneutralizerduration: 10000
     behaviorenergyneutralizerrange: 100000.0
     capacitorcapacity: 7700.0
-    capacity: 120.0
     damagemultiplier: 10.0
     disallowassistance: 1
     emdamage: 80.0
@@ -127,7 +124,7 @@ types:
     hp: 75000.0
     id: 86498
     kineticdamage: 80.0
-    mass: 1.09E7
+    mass: 10900000.0
     maxlockedtargets: 6
     maxrange: 250000.0
     maxvelocity: 3500.0
@@ -136,7 +133,6 @@ types:
     modifytargetspeedrange: 100000
     name: Drifter Recon Battleship
     optimalsigradius: 10000
-    packagedVolume: 109000.0
     portionSize: 1
     published: false
     radius: 350.0
@@ -147,11 +143,11 @@ types:
     scanradarstrength: 500.0
     scanresolution: 100.0
     shieldcapacity: 400000.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 6500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 25000.0
     speed: 3000.0

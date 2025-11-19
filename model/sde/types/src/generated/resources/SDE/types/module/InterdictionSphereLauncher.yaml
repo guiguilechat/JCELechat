@@ -2,7 +2,6 @@ types:
   22782:
     allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 541
-    capacity: 15.0
     chargegroup1: 548
     chargegroup2: 4088
     chargerate: 1
@@ -10,20 +9,18 @@ types:
     disallowinempirespace: 1
     disallowinhazardsystem: 1
     disallowrepeatingactivation: 1
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 22782
     marketGroup: 1937
     maxgroupfitted: 1
     name: Interdiction Sphere Launcher I
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1
     price: 1732868.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 11446
     requiredskill1level: 1

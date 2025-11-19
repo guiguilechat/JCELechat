@@ -6,15 +6,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.1899999976158142
-    armorexplosivedamageresonance: 0.4300000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.19
+    armorexplosivedamageresonance: 0.43
     armorhp: 11622.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.36
+    armorthermaldamageresonance: 0.31
     armoruniformity: 0.75
     capacitorcapacity: 3500.0
-    capacity: 120.0
     damagemultiplier: 7.0
     disallowassistance: 1
     emdamage: 362.0
@@ -22,8 +21,8 @@ types:
     energyneutralizerduration: 24000
     energyneutralizerentitychance: 0.25
     energyneutralizerrangefalloff: 25200
-    entityarmorrepairamount: 910.7999877929688
-    entityarmorrepairdelaychancelarge: 0.8999999761581421
+    entityarmorrepairamount: 910.8
+    entityarmorrepairdelaychancelarge: 0.9
     entityarmorrepairduration: 11250
     entityattackdelaymax: 10000
     entityattackdelaymin: 5000
@@ -37,13 +36,13 @@ types:
     entitycruisespeed: 761.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3899.0
     entitygrouprespawnchance: 1
     entitykillbounty: 17343750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8700000047683716
+    entityreactionfactor: 0.87
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.625
     entityshieldboostduration: 10000
@@ -54,7 +53,7 @@ types:
     hp: 10325.0
     id: 13536
     kineticdamage: 39.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3899.0
@@ -64,7 +63,6 @@ types:
     modifytargetspeedrange: 17000
     name: Mizuro Cybon
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -75,16 +73,16 @@ types:
     shieldcapacity: 11646.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 340.0
     speed: 3460.0
     speedfactor: -57.5
     structureuniformity: 1.0
-    trackingspeed: 0.07020000368356705
-    volume: 1.9E7
+    trackingspeed: 0.0702
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
@@ -95,15 +93,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7599999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.76
     armorhp: 11041.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 3600.0
-    capacity: 120.0
     damagemultiplier: 7.0
     disallowassistance: 1
     energyneutralizeramount: 375.0
@@ -122,16 +119,16 @@ types:
     entitycruisespeed: 832.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 111840.0
     entitygrouprespawnchance: 1
     entitykillbounty: 21679688
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8799999952316284
+    entityreactionfactor: 0.88
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.78125
-    entityshieldboostdelaychancelarge: 0.6800000071525574
+    entityshieldboostdelaychancelarge: 0.68
     entityshieldboostduration: 5000
     explosivedamage: 167.0
     falloff: 87281.0
@@ -140,7 +137,7 @@ types:
     hp: 25813.0
     id: 13538
     kineticdamage: 667.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 111840.0
@@ -150,7 +147,6 @@ types:
     modifytargetspeedrange: 18000
     name: Hakim Stormare
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -159,18 +155,18 @@ types:
     scanladarstrength: 35.0
     scanresolution: 187.0
     shieldcapacity: 11646.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 340.0
     speed: 15750.0
     speedfactor: -60.0
     structureuniformity: 1.0
-    trackingspeed: 0.013580000028014183
-    volume: 1.9E7
+    trackingspeed: 0.01358
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
@@ -181,15 +177,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.1599999964237213
-    armorexplosivedamageresonance: 0.36000001430511475
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.16
+    armorexplosivedamageresonance: 0.36
     armorhp: 11622.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.25999999046325684
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.26
     armoruniformity: 0.75
     capacitorcapacity: 3700.0
-    capacity: 120.0
     damagemultiplier: 7.0
     disallowassistance: 1
     emdamage: 404.0
@@ -197,8 +192,8 @@ types:
     energyneutralizerduration: 24000
     energyneutralizerentitychance: 0.25
     energyneutralizerrangeoptimal: 25200
-    entityarmorrepairamount: 1076.4000244140625
-    entityarmorrepairdelaychancelarge: 0.8999999761581421
+    entityarmorrepairamount: 1076.4
+    entityarmorrepairdelaychancelarge: 0.9
     entityarmorrepairduration: 11250
     entityattackdelaymax: 10000
     entityattackdelaymin: 5000
@@ -212,15 +207,15 @@ types:
     entitycruisespeed: 781.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3899.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 27099608
+    entitykillbounty: 27099609
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8899999856948853
+    entityreactionfactor: 0.89
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.9765629768371582
+    entitysecuritystatuskillbonus: 0.976563
     entityshieldboostduration: 10000
     explosivedamage: 92.0
     falloff: 25000.0
@@ -229,7 +224,7 @@ types:
     hp: 10325.0
     id: 13541
     kineticdamage: 43.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3899.0
@@ -239,7 +234,6 @@ types:
     modifytargetspeedrange: 19000
     name: Gotan Kreiss
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -250,16 +244,16 @@ types:
     shieldcapacity: 11646.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 340.0
     speed: 3460.0
     speedfactor: -55.0
     structureuniformity: 1.0
-    trackingspeed: 0.07020000368356705
-    volume: 1.9E7
+    trackingspeed: 0.0702
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1
@@ -270,15 +264,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.3400000035762787
-    armorexplosivedamageresonance: 0.7599999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.34
+    armorexplosivedamageresonance: 0.76
     armorhp: 11041.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
-    capacity: 120.0
     damagemultiplier: 7.0
     disallowassistance: 1
     energyneutralizeramount: 375.0
@@ -297,15 +290,15 @@ types:
     entitycruisespeed: 854.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 113280.0
     entitygrouprespawnchance: 1
     entitykillbounty: 33874512
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.2207000255584717
+    entitysecuritystatuskillbonus: 1.2207
     entityshieldboostduration: 10000
     explosivedamage: 187.0
     falloff: 89250.0
@@ -314,7 +307,7 @@ types:
     hp: 25813.0
     id: 13544
     kineticdamage: 748.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 113280.0
@@ -324,7 +317,6 @@ types:
     modifytargetspeedrange: 20000
     name: Tobias Kruzhor
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -333,18 +325,18 @@ types:
     scanladarstrength: 43.0
     scanresolution: 187.0
     shieldcapacity: 11646.0
-    shieldemdamageresonance: 0.8700000047683716
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.87
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1875000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 340.0
     speed: 15750.0
     speedfactor: -60.0
     structureuniformity: 1.0
-    trackingspeed: 0.01803000085055828
-    volume: 1.9E7
+    trackingspeed: 0.01803
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1

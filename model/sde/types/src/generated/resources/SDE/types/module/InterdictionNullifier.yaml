@@ -21,12 +21,10 @@ types:
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 100000
     name: Interdiction Nullifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 4
     scanresolutionmultiplier: 0.5
@@ -55,11 +53,9 @@ types:
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 130000
     name: Compact Interdiction Nullifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 4
     scanresolutionmultiplier: 0.5
@@ -88,11 +84,9 @@ types:
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 130000
     name: Enduring Interdiction Nullifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 4
     scanresolutionmultiplier: 0.5
@@ -121,11 +115,9 @@ types:
     maxtargetrangebonus: -50.0
     modulereactivationdelay: 150000
     name: Interdiction Nullifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3455
     requiredskill1level: 5
     scanresolutionmultiplier: 0.5

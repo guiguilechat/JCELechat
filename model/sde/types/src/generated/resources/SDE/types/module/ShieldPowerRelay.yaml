@@ -1,7 +1,7 @@
 types:
   1419:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.2000000476837158
+    capacitorrechargeratemultiplier: 1.2
     cpu: 10.0
     hp: 40.0
     id: 1419
@@ -10,7 +10,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Shield Power Relay'
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -23,7 +22,7 @@ types:
     volume: 5.0
   1422:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.350000023841858
+    capacitorrechargeratemultiplier: 1.35
     cpu: 25.0
     hp: 40.0
     id: 1422
@@ -31,7 +30,6 @@ types:
     mass: 20.0
     metalevelold: 5
     name: Shield Power Relay II
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -44,14 +42,13 @@ types:
     volume: 5.0
   2331:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.2999999523162842
+    capacitorrechargeratemultiplier: 1.3
     cpu: 20.0
     hp: 40.0
     id: 2331
     marketGroup: 688
     mass: 20.0
     name: Shield Power Relay I
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -64,7 +61,7 @@ types:
     volume: 5.0
   8335:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.2000000476837158
+    capacitorrechargeratemultiplier: 1.2
     cpu: 20.0
     hp: 40.0
     id: 8335
@@ -72,7 +69,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Shield Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -85,7 +81,7 @@ types:
     volume: 5.0
   8337:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.2999999523162842
+    capacitorrechargeratemultiplier: 1.3
     cpu: 15.0
     hp: 40.0
     id: 8337
@@ -93,7 +89,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Mark I Compact Shield Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -106,7 +101,7 @@ types:
     volume: 5.0
   37820:
     capacitorcapacitymultiplier: 1.0
-    capacitorrechargeratemultiplier: 1.2999999523162842
+    capacitorrechargeratemultiplier: 1.3
     cpu: 25.0
     hp: 40.0
     id: 37820
@@ -115,7 +110,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Shield Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true

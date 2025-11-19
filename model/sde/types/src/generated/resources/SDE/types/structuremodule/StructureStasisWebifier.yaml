@@ -17,11 +17,9 @@ types:
     maxrange: 200000.0
     modulereactivationdelay: 60000
     name: Standup Stasis Webifier I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     remoteresistanceid: 2115
     speedfactor: -70.0
     structureitemvisualflag: 1
@@ -46,11 +44,9 @@ types:
     metalevelold: 5
     modulereactivationdelay: 60000
     name: Standup Stasis Webifier II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     remoteresistanceid: 2115
     speedfactor: -75.0
     structureitemvisualflag: 1

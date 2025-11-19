@@ -2,14 +2,13 @@ types:
   33076:
     armordamageamount: 52.0
     capacitorneed: 40.0
-    capacity: 0.07999999821186066
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 1
     cpu: 5.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 33076
     marketGroup: 1049
@@ -20,11 +19,9 @@ types:
     name: Small Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1
@@ -36,14 +33,13 @@ types:
   33101:
     armordamageamount: 207.0
     capacitorneed: 160.0
-    capacity: 0.3199999928474426
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 4
     cpu: 25.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 33101
     marketGroup: 1050
@@ -54,11 +50,9 @@ types:
     name: Medium Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1
@@ -70,14 +64,13 @@ types:
   33103:
     armordamageamount: 518.0
     capacitorneed: 400.0
-    capacity: 0.6399999856948853
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 8
     cpu: 50.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 33103
     marketGroup: 1051
@@ -88,11 +81,9 @@ types:
     name: Large Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1
@@ -104,14 +95,13 @@ types:
   41503:
     armordamageamount: 4800.0
     capacitorneed: 1600.0
-    capacity: 1.2799999713897705
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 16
     cpu: 75.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 7.199999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 7.2
     hp: 40.0
     id: 41503
     marketGroup: 1052
@@ -122,11 +112,9 @@ types:
     name: Capital Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 21803
     requiredskill1level: 1
@@ -136,16 +124,13 @@ types:
     techlevel: 1
     volume: 4000.0
   47842:
-    capacity: 0.07999999821186066
     chargegroup2: 916
     chargerate: 1
     id: 47842
     mass: 500.0
     name: Small Abyssal Ancillary Armor Repairer
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3393
     requiredskill1level: 4
@@ -154,16 +139,13 @@ types:
     techlevel: 1
     volume: 5.0
   47844:
-    capacity: 0.3199999928474426
     chargegroup2: 916
     chargerate: 4
     id: 47844
     mass: 500.0
     name: Medium Abyssal Ancillary Armor Repairer
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3393
     requiredskill1level: 4
@@ -172,16 +154,13 @@ types:
     techlevel: 1
     volume: 10.0
   47846:
-    capacity: 0.6399999856948853
     chargegroup2: 916
     chargerate: 8
     id: 47846
     mass: 500.0
     name: Large Abyssal Ancillary Armor Repairer
-    packagedVolume: 50.0
     portionSize: 1
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3393
     requiredskill1level: 4
@@ -190,16 +169,13 @@ types:
     techlevel: 1
     volume: 50.0
   56308:
-    capacity: 1.2799999713897705
     chargegroup2: 916
     chargerate: 16
     id: 56308
     mass: 500.0
     name: Capital Abyssal Ancillary Armor Repairer
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 21803
     requiredskill1level: 1
@@ -210,14 +186,13 @@ types:
   88718:
     armordamageamount: 5760.0
     capacitorneed: 1280.0
-    capacity: 1.2799999713897705
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 16
     cpu: 57.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 7.199999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 7.2
     hp: 40.0
     id: 88718
     marketGroup: 1052
@@ -228,11 +203,9 @@ types:
     name: Xarasier Capital Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 21803
     requiredskill1level: 1
@@ -244,14 +217,13 @@ types:
   88719:
     armordamageamount: 621.0
     capacitorneed: 320.0
-    capacity: 0.6399999856948853
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 8
     cpu: 38.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 88719
     marketGroup: 1051
@@ -262,11 +234,9 @@ types:
     name: Xarasier Large Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1620
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1
@@ -278,14 +248,13 @@ types:
   88720:
     armordamageamount: 248.0
     capacitorneed: 128.0
-    capacity: 0.3199999928474426
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 4
     cpu: 19.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 88720
     marketGroup: 1050
@@ -296,11 +265,9 @@ types:
     name: Xarasier Medium Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1
@@ -312,14 +279,13 @@ types:
   88721:
     armordamageamount: 62.0
     capacitorneed: 32.0
-    capacity: 0.07999999821186066
     chargedarmordamagemultiplier: 3
     chargegroup2: 916
     chargerate: 1
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 88721
     marketGroup: 1049
@@ -330,11 +296,9 @@ types:
     name: Xarasier Small Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3393
     requiredskill1level: 1

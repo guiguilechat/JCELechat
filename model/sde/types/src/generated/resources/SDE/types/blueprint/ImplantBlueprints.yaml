@@ -3,949 +3,809 @@ types:
     id: 33536
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33543:
     id: 33543
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33545:
     id: 33545
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33546:
     id: 33546
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33547:
     id: 33547
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33548:
     id: 33548
     industryblueprintrank: 30.0
     name: High-grade Ascendancy Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33556:
     id: 33556
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33558:
     id: 33558
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33560:
     id: 33560
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33562:
     id: 33562
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33564:
     id: 33564
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33566:
     id: 33566
     industryblueprintrank: 20.0
     name: Mid-grade Ascendancy Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   52684:
     id: 52684
     name: Low-grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52685:
     id: 52685
     name: Low-grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52686:
     id: 52686
     name: Low-grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52687:
     id: 52687
     name: Low-grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52688:
     id: 52688
     name: Low-grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52689:
     id: 52689
     name: Low-grade Mimesis Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52791:
     id: 52791
     name: Mid-grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52792:
     id: 52792
     name: Mid-grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52793:
     id: 52793
     name: Mid-grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52794:
     id: 52794
     name: Mid-grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52795:
     id: 52795
     name: Mid-grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52796:
     id: 52796
     name: Mid-grade Mimesis Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52972:
     id: 52972
     name: High-grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52974:
     id: 52974
     name: High-grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52975:
     id: 52975
     name: High-grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52976:
     id: 52976
     name: High-grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52977:
     id: 52977
     name: High-grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   52978:
     id: 52978
     name: High-grade Mimesis Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53722:
     id: 53722
     name: Mid-grade Nirvana Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53723:
     id: 53723
     name: Mid-grade Nirvana Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53724:
     id: 53724
     name: Mid-grade Nirvana Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53725:
     id: 53725
     name: Mid-grade Nirvana Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53726:
     id: 53726
     name: Mid-grade Nirvana Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53727:
     id: 53727
     name: Mid-grade Nirvana Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53728:
     id: 53728
     name: High-grade Nirvana Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53729:
     id: 53729
     name: High-grade Nirvana Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53730:
     id: 53730
     name: High-grade Nirvana Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53731:
     id: 53731
     name: High-grade Nirvana Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53732:
     id: 53732
     name: High-grade Nirvana Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53733:
     id: 53733
     name: High-grade Nirvana Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53859:
     id: 53859
     name: Low-grade Nirvana Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53860:
     id: 53860
     name: Low-grade Nirvana Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53861:
     id: 53861
     name: Low-grade Nirvana Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53862:
     id: 53862
     name: Low-grade Nirvana Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53863:
     id: 53863
     name: Low-grade Nirvana Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53864:
     id: 53864
     name: Low-grade Nirvana Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53908:
     id: 53908
     name: High-grade Savior Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53909:
     id: 53909
     name: High-grade Savior Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53910:
     id: 53910
     name: High-grade Savior Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53911:
     id: 53911
     name: High-grade Savior Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53912:
     id: 53912
     name: High-grade Savior Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53913:
     id: 53913
     name: High-grade Savior Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53914:
     id: 53914
     name: Mid-grade Savior Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53915:
     id: 53915
     name: Mid-grade Savior Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53916:
     id: 53916
     name: Mid-grade Savior Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53917:
     id: 53917
     name: Mid-grade Savior Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53918:
     id: 53918
     name: Mid-grade Savior Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53919:
     id: 53919
     name: Mid-grade Savior Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53920:
     id: 53920
     name: Low-grade Savior Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53921:
     id: 53921
     name: Low-grade Savior Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53922:
     id: 53922
     name: Low-grade Savior Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53923:
     id: 53923
     name: Low-grade Savior Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53924:
     id: 53924
     name: Low-grade Savior Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   53925:
     id: 53925
     name: Low-grade Savior Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54410:
     id: 54410
     name: High-grade Hydra Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54411:
     id: 54411
     name: High-grade Hydra Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54412:
     id: 54412
     name: High-grade Hydra Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54413:
     id: 54413
     name: High-grade Hydra Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54414:
     id: 54414
     name: High-grade Hydra Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54415:
     id: 54415
     name: High-grade Hydra Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54416:
     id: 54416
     name: Mid-grade Hydra Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54417:
     id: 54417
     name: Mid-grade Hydra Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54418:
     id: 54418
     name: Mid-grade Hydra Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54419:
     id: 54419
     name: Mid-grade Hydra Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54420:
     id: 54420
     name: Mid-grade Hydra Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54421:
     id: 54421
     name: Mid-grade Hydra Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54422:
     id: 54422
     name: Low-grade Hydra Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54423:
     id: 54423
     name: Low-grade Hydra Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54424:
     id: 54424
     name: Low-grade Hydra Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54425:
     id: 54425
     name: Low-grade Hydra Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54426:
     id: 54426
     name: Low-grade Hydra Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   54427:
     id: 54427
     name: Low-grade Hydra Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57129:
     id: 57129
     name: Low-grade Rapture Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57130:
     id: 57130
     name: Low-grade Rapture Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57131:
     id: 57131
     name: Low-grade Rapture Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57132:
     id: 57132
     name: Low-grade Rapture Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57133:
     id: 57133
     name: Low-grade Rapture Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57134:
     id: 57134
     name: Mid-grade Rapture Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57135:
     id: 57135
     name: Mid-grade Rapture Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57136:
     id: 57136
     name: Mid-grade Rapture Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57137:
     id: 57137
     name: Mid-grade Rapture Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57138:
     id: 57138
     name: Mid-grade Rapture Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57139:
     id: 57139
     name: Mid-grade Rapture Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57140:
     id: 57140
     name: High-grade Rapture Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57142:
     id: 57142
     name: High-grade Rapture Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57143:
     id: 57143
     name: High-grade Rapture Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57144:
     id: 57144
     name: High-grade Rapture Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57145:
     id: 57145
     name: High-grade Rapture Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57146:
     id: 57146
     name: High-grade Rapture Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   57147:
     id: 57147
     name: Low-grade Rapture Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88135:
     id: 88135
     name: Low-grade Wedge Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88136:
     id: 88136
     name: Low-grade Wedge Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88137:
     id: 88137
     name: Low-grade Wedge Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88138:
     id: 88138
     name: Low-grade Wedge Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88139:
     id: 88139
     name: Low-grade Wedge Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88140:
     id: 88140
     name: Low-grade Wedge Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88141:
     id: 88141
     name: Mid-grade Wedge Alpha Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88142:
     id: 88142
     name: Mid-grade Wedge Beta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88143:
     id: 88143
     name: Mid-grade Wedge Gamma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88144:
     id: 88144
     name: Mid-grade Wedge Delta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88145:
     id: 88145
     name: Mid-grade Wedge Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88146:
     id: 88146
     name: Mid-grade Wedge Omega Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

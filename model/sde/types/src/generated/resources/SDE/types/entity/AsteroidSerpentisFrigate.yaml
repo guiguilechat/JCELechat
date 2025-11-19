@@ -4,33 +4,32 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.7
     armorhp: 55.0
     armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 0.8999999761581421
+    armorthermaldamageresonance: 0.9
     armoruniformity: 0.75
     capacitorcapacity: 70.0
-    capacity: 60.0
     damagemultiplier: 0.625
     disallowassistance: 1
     entityarmorrepairamount: 20.0
-    entityarmorrepairdelaychance: 0.15000000596046448
-    entityarmorrepairdelaychancesmall: 0.15000000596046448
+    entityarmorrepairdelaychance: 0.15
+    entityarmorrepairdelaychancesmall: 0.15
     entityarmorrepairduration: 10000
     entityattackdelaymax: 30000
     entityattackdelaymin: 7500
     entityattackrange: 4125
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 2750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 1
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entityflyrange: 1375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 4000
@@ -38,7 +37,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.004999999888241291
+    entitysecuritystatuskillbonus: 0.005
     entitysensordampenduration: 30000
     falloff: 1500.0
     gfxboosterid: 394
@@ -56,7 +55,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Initiate
     optimalsigradius: 40
-    packagedVolume: 24500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -65,18 +63,18 @@ types:
     scanmagnetometricstrength: 8.0
     scanresolution: 1200.0
     shieldcapacity: 50.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.7
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 24500.0
     warpscrambleduration: 8000
   2379:
@@ -84,42 +82,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7799999713897705
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.78
+    armorexplosivedamageresonance: 0.68
     armorhp: 100.0
-    armorkineticdamageresonance: 0.9800000190734863
-    armorthermaldamageresonance: 0.8799999952316284
+    armorkineticdamageresonance: 0.98
+    armorthermaldamageresonance: 0.88
     armoruniformity: 0.75
     capacitorcapacity: 90.0
-    capacity: 60.0
-    damagemultiplier: 1.850000023841858
+    damagemultiplier: 1.85
     disallowassistance: 1
     entityarmorrepairamount: 30.0
-    entityarmorrepairdelaychance: 0.17000000178813934
-    entityarmorrepairdelaychancesmall: 0.17000000178813934
+    entityarmorrepairdelaychance: 0.17
+    entityarmorrepairdelaychancesmall: 0.17
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29400
     entityattackdelaymin: 7350
     entityattackrange: 21875
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 13125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.001500000013038516
+    entityfactionloss: 0.0015
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 6000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.27000001072883606
+    entityreactionfactor: 0.27
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.007499999832361937
+    entitysecuritystatuskillbonus: 0.0075
     entitysensordampenduration: 30000
     falloff: 5000.0
     gfxboosterid: 394
@@ -137,7 +134,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Spy
     optimalsigradius: 40
-    packagedVolume: 25000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -146,18 +142,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 50.0
-    shieldemdamageresonance: 0.7799999713897705
-    shieldexplosivedamageresonance: 0.6800000071525574
-    shieldkineticdamageresonance: 0.9800000190734863
+    shieldemdamageresonance: 0.78
+    shieldexplosivedamageresonance: 0.68
+    shieldkineticdamageresonance: 0.98
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8799999952316284
+    shieldthermaldamageresonance: 0.88
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 25000.0
     warpscrambleduration: 8000
   10283:
@@ -165,41 +161,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7900000214576721
-    armorexplosivedamageresonance: 0.6899999976158142
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.79
+    armorexplosivedamageresonance: 0.69
     armorhp: 75.0
-    armorkineticdamageresonance: 0.9900000095367432
-    armorthermaldamageresonance: 0.8899999856948853
+    armorkineticdamageresonance: 0.99
+    armorthermaldamageresonance: 0.89
     armoruniformity: 0.75
     capacitorcapacity: 80.0
-    capacity: 125.0
-    damagemultiplier: 1.0416666269302368
+    damagemultiplier: 1.041666667
     disallowassistance: 1
     entityarmorrepairamount: 25.0
-    entityarmorrepairdelaychance: 0.1599999964237213
-    entityarmorrepairdelaychancesmall: 0.1599999964237213
+    entityarmorrepairdelaychance: 0.16
+    entityarmorrepairdelaychancesmall: 0.16
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29700
     entityattackdelaymin: 7425
     entityattackrange: 4125
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 2750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 1
     entityequipmentmin: 1
-    entityfactionloss: 0.0012499999720603228
+    entityfactionloss: 0.00125
     entityflyrange: 1375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 5000
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.25999999046325684
+    entityreactionfactor: 0.26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0062500000931322575
+    entitysecuritystatuskillbonus: 0.00625
     entitysensordampenduration: 30000
     falloff: 1500.0
     gfxboosterid: 394
@@ -217,7 +212,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Scout
     optimalsigradius: 40
-    packagedVolume: 22500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -226,18 +220,18 @@ types:
     scanmagnetometricstrength: 8.0
     scanresolution: 1200.0
     shieldcapacity: 50.0
-    shieldemdamageresonance: 0.7900000214576721
-    shieldexplosivedamageresonance: 0.6899999976158142
-    shieldkineticdamageresonance: 0.9900000095367432
+    shieldemdamageresonance: 0.79
+    shieldexplosivedamageresonance: 0.69
+    shieldkineticdamageresonance: 0.99
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8899999856948853
+    shieldthermaldamageresonance: 0.89
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 22500.0
     warpscrambleduration: 8000
   10284:
@@ -245,44 +239,43 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7599999904632568
-    armorexplosivedamageresonance: 0.6600000262260437
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.76
+    armorexplosivedamageresonance: 0.66
     armorhp: 125.0
-    armorkineticdamageresonance: 0.9599999785423279
-    armorthermaldamageresonance: 0.8600000143051147
+    armorkineticdamageresonance: 0.96
+    armorthermaldamageresonance: 0.86
     armoruniformity: 0.75
     capacitorcapacity: 110.0
-    capacity: 175.0
     damagemultiplier: 2.09375
     disallowassistance: 1
     entityarmorrepairamount: 40.0
-    entityarmorrepairdelaychance: 0.1899999976158142
-    entityarmorrepairdelaychancesmall: 0.1899999976158142
+    entityarmorrepairdelaychance: 0.19
+    entityarmorrepairdelaychancesmall: 0.19
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28800
     entityattackdelaymin: 7200
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0020000000949949026
+    entityfactionloss: 0.002
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.28999999165534973
+    entityreactionfactor: 0.29
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
+    entitysecuritystatuskillbonus: 0.01
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.05000000074505806
+    entitysensordampendurationchance: 0.05
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 25000
     falloff: 2000.0
@@ -295,13 +288,12 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1250.0
-    maxtargetrangemultiplier: 0.8500000238418579
+    maxtargetrangemultiplier: 0.85
     maxvelocity: 1760.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Serpentis Watchman
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -309,20 +301,20 @@ types:
     rechargerate: 500000.0
     scanmagnetometricstrength: 18.0
     scanresolution: 425.0
-    scanresolutionmultiplier: 0.8500000238418579
+    scanresolutionmultiplier: 0.85
     shieldcapacity: 125.0
-    shieldemdamageresonance: 0.7599999904632568
-    shieldexplosivedamageresonance: 0.6600000262260437
-    shieldkineticdamageresonance: 0.9599999785423279
+    shieldemdamageresonance: 0.76
+    shieldexplosivedamageresonance: 0.66
+    shieldkineticdamageresonance: 0.96
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8600000143051147
+    shieldthermaldamageresonance: 0.86
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   10285:
@@ -330,42 +322,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7400000095367432
-    armorexplosivedamageresonance: 0.6399999856948853
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.74
+    armorexplosivedamageresonance: 0.64
     armorhp: 250.0
-    armorkineticdamageresonance: 0.9399999976158142
-    armorthermaldamageresonance: 0.8399999737739563
+    armorkineticdamageresonance: 0.94
+    armorthermaldamageresonance: 0.84
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 60.0
     damagemultiplier: 4.0
     disallowassistance: 1
     entityarmorrepairamount: 50.0
-    entityarmorrepairdelaychance: 0.20999999344348907
-    entityarmorrepairdelaychancesmall: 0.20999999344348907
+    entityarmorrepairdelaychance: 0.21
+    entityarmorrepairdelaychancesmall: 0.21
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28200
     entityattackdelaymin: 7050
     entityattackrange: 28750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 17250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 11500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3100000023841858
+    entityreactionfactor: 0.31
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     entitysensordampenduration: 30000
     falloff: 6000.0
     gfxboosterid: 394
@@ -383,7 +374,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Patroller
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -392,18 +382,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 650.0
     shieldcapacity: 175.0
-    shieldemdamageresonance: 0.7400000095367432
-    shieldexplosivedamageresonance: 0.6399999856948853
-    shieldkineticdamageresonance: 0.9399999976158142
+    shieldemdamageresonance: 0.74
+    shieldexplosivedamageresonance: 0.64
+    shieldkineticdamageresonance: 0.94
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8399999737739563
+    shieldthermaldamageresonance: 0.84
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 23000.0
     warpscrambleduration: 8000
   10286:
@@ -411,42 +401,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7200000286102295
-    armorexplosivedamageresonance: 0.6200000047683716
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.72
+    armorexplosivedamageresonance: 0.62
     armorhp: 225.0
-    armorkineticdamageresonance: 0.9200000166893005
-    armorthermaldamageresonance: 0.8199999928474426
+    armorkineticdamageresonance: 0.92
+    armorthermaldamageresonance: 0.82
     armoruniformity: 0.75
     capacitorcapacity: 150.0
-    capacity: 140.0
     damagemultiplier: 4.0
     disallowassistance: 1
     entityarmorrepairamount: 60.0
-    entityarmorrepairdelaychance: 0.23000000417232513
-    entityarmorrepairdelaychancesmall: 0.23000000417232513
+    entityarmorrepairdelaychance: 0.23
+    entityarmorrepairdelaychancesmall: 0.23
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27600
     entityattackdelaymin: 6900
     entityattackrange: 28750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 17250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 11500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.33000001311302185
+    entityreactionfactor: 0.33
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     entitysensordampenduration: 30000
     falloff: 6000.0
     gfxboosterid: 394
@@ -464,7 +453,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Defender
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -473,18 +461,18 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 225.0
-    shieldemdamageresonance: 0.7200000286102295
-    shieldexplosivedamageresonance: 0.6200000047683716
-    shieldkineticdamageresonance: 0.9200000166893005
+    shieldemdamageresonance: 0.72
+    shieldexplosivedamageresonance: 0.62
+    shieldkineticdamageresonance: 0.92
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8199999928474426
+    shieldthermaldamageresonance: 0.82
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 26500.0
     warpscrambleduration: 8000
   11045:
@@ -492,42 +480,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7699999809265137
-    armorexplosivedamageresonance: 0.6700000166893005
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.77
+    armorexplosivedamageresonance: 0.67
     armorhp: 100.0
-    armorkineticdamageresonance: 0.9700000286102295
-    armorthermaldamageresonance: 0.8700000047683716
+    armorkineticdamageresonance: 0.97
+    armorthermaldamageresonance: 0.87
     armoruniformity: 0.75
     capacitorcapacity: 100.0
-    capacity: 235.0
-    damagemultiplier: 1.850000023841858
+    damagemultiplier: 1.85
     disallowassistance: 1
     entityarmorrepairamount: 35.0
-    entityarmorrepairdelaychance: 0.18000000715255737
-    entityarmorrepairdelaychancesmall: 0.18000000715255737
+    entityarmorrepairdelaychance: 0.18
+    entityarmorrepairdelaychancesmall: 0.18
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29100
     entityattackdelaymin: 7275
     entityattackrange: 21875
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 13125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0017500000540167093
+    entityfactionloss: 0.00175
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 7000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.2800000011920929
+    entityreactionfactor: 0.28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.008750000037252903
+    entitysecuritystatuskillbonus: 0.00875
     entitysensordampenduration: 30000
     falloff: 5000.0
     gfxboosterid: 394
@@ -545,7 +532,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Agent
     optimalsigradius: 40
-    packagedVolume: 22500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -554,18 +540,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 75.0
-    shieldemdamageresonance: 0.7699999809265137
-    shieldexplosivedamageresonance: 0.6700000166893005
-    shieldkineticdamageresonance: 0.9700000286102295
+    shieldemdamageresonance: 0.77
+    shieldexplosivedamageresonance: 0.67
+    shieldkineticdamageresonance: 0.97
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8700000047683716
+    shieldthermaldamageresonance: 0.87
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 22500.0
     warpscrambleduration: 8000
   11046:
@@ -573,44 +559,43 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.75
-    armorexplosivedamageresonance: 0.6499999761581421
+    armorexplosivedamageresonance: 0.65
     armorhp: 200.0
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.8500000238418579
+    armorkineticdamageresonance: 0.95
+    armorthermaldamageresonance: 0.85
     armoruniformity: 0.75
     capacitorcapacity: 120.0
-    capacity: 235.0
     damagemultiplier: 2.3125
     disallowassistance: 1
     entityarmorrepairamount: 45.0
-    entityarmorrepairdelaychance: 0.20000000298023224
-    entityarmorrepairdelaychancesmall: 0.20000000298023224
+    entityarmorrepairdelaychance: 0.2
+    entityarmorrepairdelaychancesmall: 0.2
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28500
     entityattackdelaymin: 7125
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 9000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
+    entityreactionfactor: 0.3
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.011250000447034836
+    entitysecuritystatuskillbonus: 0.01125
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.05999999865889549
+    entitysensordampendurationchance: 0.06
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 25000
     falloff: 2000.0
@@ -623,13 +608,12 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1250.0
-    maxtargetrangemultiplier: 0.8500000238418579
+    maxtargetrangemultiplier: 0.85
     maxvelocity: 1760.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Serpentis Patroller
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -637,20 +621,20 @@ types:
     rechargerate: 500000.0
     scanmagnetometricstrength: 19.0
     scanresolution: 425.0
-    scanresolutionmultiplier: 0.8500000238418579
+    scanresolutionmultiplier: 0.85
     shieldcapacity: 150.0
     shieldemdamageresonance: 0.75
-    shieldexplosivedamageresonance: 0.6499999761581421
-    shieldkineticdamageresonance: 0.949999988079071
+    shieldexplosivedamageresonance: 0.65
+    shieldkineticdamageresonance: 0.95
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   11047:
@@ -658,42 +642,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7300000190734863
-    armorexplosivedamageresonance: 0.6299999952316284
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.73
+    armorexplosivedamageresonance: 0.63
     armorhp: 225.0
-    armorkineticdamageresonance: 0.9300000071525574
-    armorthermaldamageresonance: 0.8299999833106995
+    armorkineticdamageresonance: 0.93
+    armorthermaldamageresonance: 0.83
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 235.0
     damagemultiplier: 3.5
     disallowassistance: 1
     entityarmorrepairamount: 55.0
-    entityarmorrepairdelaychance: 0.2199999988079071
-    entityarmorrepairdelaychancesmall: 0.2199999988079071
+    entityarmorrepairdelaychance: 0.22
+    entityarmorrepairdelaychancesmall: 0.22
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27900
     entityattackdelaymin: 6975
     entityattackrange: 6375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 4250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 2125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 11000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3199999928474426
+    entityreactionfactor: 0.32
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     entitysensordampenduration: 30000
     falloff: 2500.0
     gfxboosterid: 394
@@ -711,7 +694,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Safeguard
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -720,18 +702,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 650.0
     shieldcapacity: 200.0
-    shieldemdamageresonance: 0.7300000190734863
-    shieldexplosivedamageresonance: 0.6299999952316284
-    shieldkineticdamageresonance: 0.9300000071525574
+    shieldemdamageresonance: 0.73
+    shieldexplosivedamageresonance: 0.63
+    shieldkineticdamageresonance: 0.93
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8299999833106995
+    shieldthermaldamageresonance: 0.83
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 23000.0
     warpscrambleduration: 8000
   11048:
@@ -739,42 +721,41 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.6100000143051147
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.61
     armorhp: 275.0
-    armorkineticdamageresonance: 0.9100000262260437
-    armorthermaldamageresonance: 0.8100000023841858
+    armorkineticdamageresonance: 0.91
+    armorthermaldamageresonance: 0.81
     armoruniformity: 0.75
     capacitorcapacity: 160.0
-    capacity: 235.0
-    damagemultiplier: 3.575000047683716
+    damagemultiplier: 3.575
     disallowassistance: 1
     entityarmorrepairamount: 65.0
-    entityarmorrepairdelaychance: 0.23999999463558197
-    entityarmorrepairdelaychancesmall: 0.23999999463558197
+    entityarmorrepairdelaychance: 0.24
+    entityarmorrepairdelaychancesmall: 0.24
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27300
     entityattackdelaymin: 6825
     entityattackrange: 6375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 4250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 2125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 13000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3400000035762787
+    entityreactionfactor: 0.34
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.016249999403953552
+    entitysecuritystatuskillbonus: 0.01625
     entitysensordampenduration: 30000
     falloff: 2500.0
     gfxboosterid: 394
@@ -792,7 +773,6 @@ types:
     modifytargetspeedrange: 20000
     name: Serpentis Protector
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -801,18 +781,18 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 250.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.6100000143051147
-    shieldkineticdamageresonance: 0.9100000262260437
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.61
+    shieldkineticdamageresonance: 0.91
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8100000023841858
+    shieldthermaldamageresonance: 0.81
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 26500.0
     warpscrambleduration: 8000
   13049:
@@ -820,20 +800,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.45
     armorhp: 725.0
-    armorkineticdamageresonance: 0.8100000023841858
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.81
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 260.0
-    capacity: 235.0
-    damagemultiplier: 6.449999809265137
+    damagemultiplier: 6.45
     disallowassistance: 1
     entityarmorrepairamount: 85.0
-    entityarmorrepairdelaychance: 0.28999999165534973
-    entityarmorrepairdelaychancesmall: 0.28999999165534973
+    entityarmorrepairdelaychance: 0.29
+    entityarmorrepairdelaychancesmall: 0.29
     entityarmorrepairduration: 10000
     entityattackdelaymax: 24300
     entityattackdelaymin: 6075
@@ -845,20 +824,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 360.0
-    entitydefenderchance: 0.009999999776482582
+    entitydefenderchance: 0.01
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.004749999847263098
+    entityfactionloss: 0.00475
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 28500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4399999976158142
+    entityreactionfactor: 0.44
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.028750000521540642
+    entitysecuritystatuskillbonus: 0.02875
     entitysensordampenduration: 30000
-    entitywarpscramblechance: 0.3499999940395355
+    entitywarpscramblechance: 0.35
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 561
@@ -871,12 +850,11 @@ types:
     maxrange: 7500.0
     maxtargetrangemultiplier: 1.0
     maxvelocity: 2880.0
-    modifytargetspeedchance: 0.3499999940395355
+    modifytargetspeedchance: 0.35
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 10000
     name: Guardian Agent
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -885,18 +863,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 1200.0
     shieldcapacity: 325.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.8100000023841858
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.81
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 30.0
     speed: 2750.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 5.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 26500.0
     warpscrambleduration: 10000
     warpscramblerange: 20000
@@ -906,20 +884,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.45
     armorhp: 700.0
-    armorkineticdamageresonance: 0.8100000023841858
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.81
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 250.0
-    capacity: 140.0
     damagemultiplier: 5.75
     disallowassistance: 1
     entityarmorrepairamount: 80.0
-    entityarmorrepairdelaychance: 0.2800000011920929
-    entityarmorrepairdelaychancesmall: 0.2800000011920929
+    entityarmorrepairdelaychance: 0.28
+    entityarmorrepairdelaychancesmall: 0.28
     entityarmorrepairduration: 10000
     entityattackdelaymax: 24600
     entityattackdelaymin: 6150
@@ -931,20 +908,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 360.0
-    entitydefenderchance: 0.007499999832361937
+    entitydefenderchance: 0.0075
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 27000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4300000071525574
+    entityreactionfactor: 0.43
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.027499999850988388
+    entitysecuritystatuskillbonus: 0.0275
     entitysensordampenduration: 30000
-    entitywarpscramblechance: 0.3499999940395355
+    entitywarpscramblechance: 0.35
     falloff: 5000.0
     gfxboosterid: 394
     gfxturretid: 561
@@ -957,12 +934,11 @@ types:
     maxrange: 7500.0
     maxtargetrangemultiplier: 1.0
     maxvelocity: 2880.0
-    modifytargetspeedchance: 0.3499999940395355
+    modifytargetspeedchance: 0.35
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 10000
     name: Guardian Spy
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -971,18 +947,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 1200.0
     shieldcapacity: 300.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.8100000023841858
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.81
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 28.0
     speed: 2750.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 5.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 26500.0
     warpscrambleduration: 10000
     warpscramblerange: 20000
@@ -992,20 +968,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.45
     armorhp: 575.0
-    armorkineticdamageresonance: 0.8100000023841858
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.81
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 240.0
-    capacity: 235.0
-    damagemultiplier: 5.416666507720947
+    damagemultiplier: 5.416666667
     disallowassistance: 1
     entityarmorrepairamount: 75.0
-    entityarmorrepairdelaychance: 0.27000001072883606
-    entityarmorrepairdelaychancesmall: 0.27000001072883606
+    entityarmorrepairdelaychance: 0.27
+    entityarmorrepairdelaychancesmall: 0.27
     entityarmorrepairduration: 10000
     entityattackdelaymax: 24900
     entityattackdelaymin: 6225
@@ -1017,18 +992,18 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 360.0
-    entitydefenderchance: 0.004999999888241291
+    entitydefenderchance: 0.005
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.0042500002309679985
+    entityfactionloss: 0.00425
     entityflyrange: 1375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 25500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.41999998688697815
+    entityreactionfactor: 0.42
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.026249999180436134
+    entitysecuritystatuskillbonus: 0.02625
     entitysensordampenduration: 30000
     entitywarpscramblechance: 0.25
     falloff: 1500.0
@@ -1048,7 +1023,6 @@ types:
     modifytargetspeedrange: 10000
     name: Guardian Scout
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1057,18 +1031,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 225.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.8100000023841858
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.81
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 26.0
     speed: 2500.0
     speedfactor: -50.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 23000.0
     warpscrambleduration: 10000
     warpscramblerange: 7500
@@ -1078,20 +1052,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.45
     armorhp: 550.0
-    armorkineticdamageresonance: 0.8100000023841858
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.81
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 230.0
-    capacity: 60.0
-    damagemultiplier: 5.166666507720947
+    damagemultiplier: 5.166666667
     disallowassistance: 1
     entityarmorrepairamount: 70.0
-    entityarmorrepairdelaychance: 0.25999999046325684
-    entityarmorrepairdelaychancesmall: 0.25999999046325684
+    entityarmorrepairdelaychance: 0.26
+    entityarmorrepairdelaychancesmall: 0.26
     entityarmorrepairduration: 10000
     entityattackdelaymax: 25200
     entityattackdelaymin: 6300
@@ -1103,18 +1076,18 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 360.0
-    entitydefenderchance: 0.0024999999441206455
+    entitydefenderchance: 0.0025
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.004000000189989805
+    entityfactionloss: 0.004
     entityflyrange: 1375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 24000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4099999964237213
+    entityreactionfactor: 0.41
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.02500000037252903
+    entitysecuritystatuskillbonus: 0.025
     entitysensordampenduration: 30000
     entitywarpscramblechance: 0.25
     falloff: 1500.0
@@ -1134,7 +1107,6 @@ types:
     modifytargetspeedrange: 10000
     name: Guardian Initiate
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1143,18 +1115,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 200.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.8100000023841858
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.81
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 24.0
     speed: 2500.0
     speedfactor: -50.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 23000.0
     warpscrambleduration: 10000
     warpscramblerange: 7500
@@ -1164,43 +1136,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.38499999046325684
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.385
+    armorexplosivedamageresonance: 0.3
     armorhp: 200.0
-    armorkineticdamageresonance: 0.5849999785423279
-    armorthermaldamageresonance: 0.47999998927116394
+    armorkineticdamageresonance: 0.585
+    armorthermaldamageresonance: 0.48
     armoruniformity: 0.75
     capacitorcapacity: 270.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     entityarmorrepairamount: 90.0
-    entityarmorrepairdelaychance: 0.30000001192092896
-    entityarmorrepairdelaychancesmall: 0.30000001192092896
+    entityarmorrepairdelaychance: 0.3
+    entityarmorrepairdelaychancesmall: 0.3
     entityarmorrepairduration: 10000
     entityattackdelaymax: 24000
     entityattackdelaymin: 6000
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
-    entitydefenderchance: 0.012500000186264515
+    entitydefenderchance: 0.0125
     entityequipmentmax: 3
     entityequipmentmin: 2
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 30000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.44999998807907104
+    entityreactionfactor: 0.45
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.029999999329447746
+    entitysecuritystatuskillbonus: 0.03
     entitysensordampenduration: 10000
     entitysensordampendurationchance: 0.25
     entitysensordampenfalloff: 50000
@@ -1221,7 +1192,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Watchman
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1231,18 +1201,18 @@ types:
     scanresolution: 425.0
     scanresolutionmultiplier: 0.5
     shieldcapacity: 150.0
-    shieldemdamageresonance: 0.38499999046325684
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.5849999785423279
+    shieldemdamageresonance: 0.385
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.585
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.47999998927116394
+    shieldthermaldamageresonance: 0.48
     shielduniformity: 0.75
     signatureradius: 52.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   23430:
@@ -1250,45 +1220,44 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.38499999046325684
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.385
+    armorexplosivedamageresonance: 0.3
     armorhp: 200.0
-    armorkineticdamageresonance: 0.5849999785423279
-    armorthermaldamageresonance: 0.47999998927116394
+    armorkineticdamageresonance: 0.585
+    armorthermaldamageresonance: 0.48
     armoruniformity: 0.75
     capacitorcapacity: 280.0
-    capacity: 235.0
     damagemultiplier: 4.0625
     disallowassistance: 1
     entityarmorrepairamount: 95.0
-    entityarmorrepairdelaychance: 0.3100000023841858
-    entityarmorrepairdelaychancesmall: 0.3100000023841858
+    entityarmorrepairdelaychance: 0.31
+    entityarmorrepairdelaychancesmall: 0.31
     entityarmorrepairduration: 10000
     entityattackdelaymax: 23700
     entityattackdelaymin: 5925
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
-    entitydefenderchance: 0.014999999664723873
+    entitydefenderchance: 0.015
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 31500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.46000000834465027
+    entityreactionfactor: 0.46
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.03125
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.30000001192092896
+    entitysensordampendurationchance: 0.3
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 25000
     falloff: 2000.0
@@ -1307,7 +1276,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Patroller
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1317,18 +1285,18 @@ types:
     scanresolution: 425.0
     scanresolutionmultiplier: 0.5
     shieldcapacity: 150.0
-    shieldemdamageresonance: 0.38499999046325684
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.5849999785423279
+    shieldemdamageresonance: 0.385
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.585
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.47999998927116394
+    shieldthermaldamageresonance: 0.48
     shielduniformity: 0.75
     signatureradius: 52.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   23431:
@@ -1336,43 +1304,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.15
     armorhp: 250.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.2800000011920929
+    armorkineticdamageresonance: 0.36
+    armorthermaldamageresonance: 0.28
     armoruniformity: 0.75
     capacitorcapacity: 290.0
-    capacity: 60.0
     damagemultiplier: 7.25
     disallowassistance: 1
     entityarmorrepairamount: 100.0
-    entityarmorrepairdelaychance: 0.3199999928474426
-    entityarmorrepairdelaychancesmall: 0.3199999928474426
+    entityarmorrepairdelaychance: 0.32
+    entityarmorrepairdelaychancesmall: 0.32
     entityarmorrepairduration: 10000
     entityattackdelaymax: 23400
     entityattackdelaymin: 5850
     entityattackrange: 35938
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.08749999850988388
+    entitychasemaxdelaychance: 0.0875
     entitychasemaxdistance: 21563
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.017500000074505806
+    entitydefenderchance: 0.0175
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 14375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 33000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4699999988079071
+    entityreactionfactor: 0.47
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.032499998807907104
+    entitysecuritystatuskillbonus: 0.0325
     entitysensordampenduration: 30000
     falloff: 7500.0
     gfxboosterid: 394
@@ -1390,7 +1357,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Guard
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1399,18 +1365,18 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 175.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.15000000596046448
-    shieldkineticdamageresonance: 0.36000001430511475
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.15
+    shieldkineticdamageresonance: 0.36
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.2800000011920929
+    shieldthermaldamageresonance: 0.28
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 23000.0
     warpscrambleduration: 8000
   23432:
@@ -1418,43 +1384,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.15
     armorhp: 250.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.2800000011920929
+    armorkineticdamageresonance: 0.36
+    armorthermaldamageresonance: 0.28
     armoruniformity: 0.75
     capacitorcapacity: 300.0
-    capacity: 60.0
     damagemultiplier: 6.75
     disallowassistance: 1
     entityarmorrepairamount: 105.0
-    entityarmorrepairdelaychance: 0.33000001311302185
-    entityarmorrepairdelaychancesmall: 0.33000001311302185
+    entityarmorrepairdelaychance: 0.33
+    entityarmorrepairdelaychancesmall: 0.33
     entityarmorrepairduration: 10000
     entityattackdelaymax: 23100
     entityattackdelaymin: 5775
     entityattackrange: 7313
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 4875
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 2438.0
     entitygrouprespawnchance: 1
     entitykillbounty: 34500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.47999998927116394
+    entityreactionfactor: 0.48
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03375000134110451
+    entitysecuritystatuskillbonus: 0.03375
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -1472,7 +1437,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Safeguard
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1481,18 +1445,18 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 175.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.15000000596046448
-    shieldkineticdamageresonance: 0.36000001430511475
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.15
+    shieldkineticdamageresonance: 0.36
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.2800000011920929
+    shieldthermaldamageresonance: 0.28
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 23000.0
     warpscrambleduration: 8000
   23434:
@@ -1500,43 +1464,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.15
     armorhp: 225.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.2800000011920929
+    armorkineticdamageresonance: 0.36
+    armorthermaldamageresonance: 0.28
     armoruniformity: 0.75
     capacitorcapacity: 310.0
-    capacity: 140.0
     damagemultiplier: 8.0
     disallowassistance: 1
     entityarmorrepairamount: 110.0
-    entityarmorrepairdelaychance: 0.3400000035762787
-    entityarmorrepairdelaychancesmall: 0.3400000035762787
+    entityarmorrepairdelaychance: 0.34
+    entityarmorrepairdelaychancesmall: 0.34
     entityarmorrepairduration: 10000
     entityattackdelaymax: 22800
     entityattackdelaymin: 5700
     entityattackrange: 35938
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.08749999850988388
+    entitychasemaxdelaychance: 0.0875
     entitychasemaxdistance: 21563
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02250000089406967
+    entitydefenderchance: 0.0225
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 14375.0
     entitygrouprespawnchance: 1
     entitykillbounty: 36000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.49000000953674316
+    entityreactionfactor: 0.49
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03500000014901161
+    entitysecuritystatuskillbonus: 0.035
     entitysensordampenduration: 30000
     falloff: 7500.0
     gfxboosterid: 394
@@ -1554,7 +1517,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Defender
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1563,18 +1525,18 @@ types:
     scanmagnetometricstrength: 12.0
     scanresolution: 650.0
     shieldcapacity: 225.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.15000000596046448
-    shieldkineticdamageresonance: 0.36000001430511475
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.15
+    shieldkineticdamageresonance: 0.36
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.2800000011920929
+    shieldthermaldamageresonance: 0.28
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 26500.0
     warpscrambleduration: 8000
   23435:
@@ -1582,35 +1544,34 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.15
     armorhp: 225.0
-    armorkineticdamageresonance: 0.36000001430511475
-    armorthermaldamageresonance: 0.2800000011920929
+    armorkineticdamageresonance: 0.36
+    armorthermaldamageresonance: 0.28
     armoruniformity: 0.75
     capacitorcapacity: 320.0
-    capacity: 140.0
     damagemultiplier: 7.5
     disallowassistance: 1
     entityarmorrepairamount: 115.0
-    entityarmorrepairdelaychance: 0.3499999940395355
-    entityarmorrepairdelaychancesmall: 0.3499999940395355
+    entityarmorrepairdelaychance: 0.35
+    entityarmorrepairdelaychancesmall: 0.35
     entityarmorrepairduration: 10000
     entityattackdelaymax: 22500
     entityattackdelaymin: 5625
     entityattackrange: 7313
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 4875
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 2438.0
     entitygrouprespawnchance: 1
     entitykillbounty: 37500
@@ -1618,7 +1579,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.036249998956918716
+    entitysecuritystatuskillbonus: 0.03625
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -1636,7 +1597,6 @@ types:
     modifytargetspeedrange: 20000
     name: Guardian Protector
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1645,18 +1605,18 @@ types:
     scanmagnetometricstrength: 12.0
     scanresolution: 650.0
     shieldcapacity: 225.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.15000000596046448
-    shieldkineticdamageresonance: 0.36000001430511475
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.15
+    shieldkineticdamageresonance: 0.36
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.2800000011920929
+    shieldthermaldamageresonance: 0.28
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 26500.0
     warpscrambleduration: 8000
   24361:
@@ -1664,41 +1624,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7799999713897705
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.78
+    armorexplosivedamageresonance: 0.68
     armorhp: 100.0
-    armorkineticdamageresonance: 0.9800000190734863
-    armorthermaldamageresonance: 0.8799999952316284
+    armorkineticdamageresonance: 0.98
+    armorthermaldamageresonance: 0.88
     armoruniformity: 0.75
     capacitorcapacity: 90.0
-    capacity: 60.0
-    damagemultiplier: 1.850000023841858
+    damagemultiplier: 1.85
     disallowassistance: 1
     entityarmorrepairamount: 30.0
-    entityarmorrepairdelaychancesmall: 0.17000000178813934
+    entityarmorrepairdelaychancesmall: 0.17
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29400
     entityattackdelaymin: 7350
     entityattackrange: 21875
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 13125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.001500000013038516
+    entityfactionloss: 0.0015
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 6000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.27000001072883606
+    entityreactionfactor: 0.27
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.007499999832361937
+    entitysecuritystatuskillbonus: 0.0075
     entitysensordampenduration: 30000
     falloff: 5000.0
     gfxboosterid: 394
@@ -1716,7 +1675,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Spy
     optimalsigradius: 40
-    packagedVolume: 25000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1725,18 +1683,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 50.0
-    shieldemdamageresonance: 0.7799999713897705
-    shieldexplosivedamageresonance: 0.6800000071525574
-    shieldkineticdamageresonance: 0.9800000190734863
+    shieldemdamageresonance: 0.78
+    shieldexplosivedamageresonance: 0.68
+    shieldkineticdamageresonance: 0.98
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8799999952316284
+    shieldthermaldamageresonance: 0.88
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 25000.0
     warpscrambleduration: 8000
   24362:
@@ -1744,41 +1702,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7699999809265137
-    armorexplosivedamageresonance: 0.6700000166893005
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.77
+    armorexplosivedamageresonance: 0.67
     armorhp: 100.0
-    armorkineticdamageresonance: 0.9700000286102295
-    armorthermaldamageresonance: 0.8700000047683716
+    armorkineticdamageresonance: 0.97
+    armorthermaldamageresonance: 0.87
     armoruniformity: 0.75
     capacitorcapacity: 100.0
-    capacity: 235.0
-    damagemultiplier: 1.850000023841858
+    damagemultiplier: 1.85
     disallowassistance: 1
     entityarmorrepairamount: 35.0
-    entityarmorrepairdelaychancesmall: 0.18000000715255737
+    entityarmorrepairdelaychancesmall: 0.18
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29100
     entityattackdelaymin: 7275
     entityattackrange: 21875
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 13125
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0017500000540167093
+    entityfactionloss: 0.00175
     entityflyrange: 8750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 7000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.2800000011920929
+    entityreactionfactor: 0.28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.008750000037252903
+    entitysecuritystatuskillbonus: 0.00875
     entitysensordampenduration: 30000
     falloff: 5000.0
     gfxboosterid: 394
@@ -1796,7 +1753,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Agent
     optimalsigradius: 40
-    packagedVolume: 22500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1805,18 +1761,18 @@ types:
     scanmagnetometricstrength: 9.0
     scanresolution: 1200.0
     shieldcapacity: 75.0
-    shieldemdamageresonance: 0.7699999809265137
-    shieldexplosivedamageresonance: 0.6700000166893005
-    shieldkineticdamageresonance: 0.9700000286102295
+    shieldemdamageresonance: 0.77
+    shieldexplosivedamageresonance: 0.67
+    shieldkineticdamageresonance: 0.97
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8700000047683716
+    shieldthermaldamageresonance: 0.87
     shielduniformity: 0.75
     signatureradius: 32.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.08500000089406967
+    trackingspeed: 0.085
     volume: 22500.0
     warpscrambleduration: 8000
   24363:
@@ -1824,43 +1780,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7599999904632568
-    armorexplosivedamageresonance: 0.6600000262260437
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.76
+    armorexplosivedamageresonance: 0.66
     armorhp: 125.0
-    armorkineticdamageresonance: 0.9599999785423279
-    armorthermaldamageresonance: 0.8600000143051147
+    armorkineticdamageresonance: 0.96
+    armorthermaldamageresonance: 0.86
     armoruniformity: 0.75
     capacitorcapacity: 110.0
-    capacity: 175.0
     damagemultiplier: 2.09375
     disallowassistance: 1
     entityarmorrepairamount: 40.0
-    entityarmorrepairdelaychancesmall: 0.1899999976158142
+    entityarmorrepairdelaychancesmall: 0.19
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28800
     entityattackdelaymin: 7200
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0020000000949949026
+    entityfactionloss: 0.002
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.28999999165534973
+    entityreactionfactor: 0.29
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
+    entitysecuritystatuskillbonus: 0.01
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.05000000074505806
+    entitysensordampendurationchance: 0.05
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 25000
     falloff: 2000.0
@@ -1873,13 +1828,12 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1250.0
-    maxtargetrangemultiplier: 0.8500000238418579
+    maxtargetrangemultiplier: 0.85
     maxvelocity: 1760.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Crook Watchman
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1887,20 +1841,20 @@ types:
     rechargerate: 500000.0
     scanmagnetometricstrength: 18.0
     scanresolution: 425.0
-    scanresolutionmultiplier: 0.8500000238418579
+    scanresolutionmultiplier: 0.85
     shieldcapacity: 125.0
-    shieldemdamageresonance: 0.7599999904632568
-    shieldexplosivedamageresonance: 0.6600000262260437
-    shieldkineticdamageresonance: 0.9599999785423279
+    shieldemdamageresonance: 0.76
+    shieldexplosivedamageresonance: 0.66
+    shieldkineticdamageresonance: 0.96
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8600000143051147
+    shieldthermaldamageresonance: 0.86
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   24364:
@@ -1908,43 +1862,42 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.75
-    armorexplosivedamageresonance: 0.6499999761581421
+    armorexplosivedamageresonance: 0.65
     armorhp: 200.0
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.8500000238418579
+    armorkineticdamageresonance: 0.95
+    armorthermaldamageresonance: 0.85
     armoruniformity: 0.75
     capacitorcapacity: 120.0
-    capacity: 235.0
     damagemultiplier: 2.3125
     disallowassistance: 1
     entityarmorrepairamount: 45.0
-    entityarmorrepairdelaychancesmall: 0.20000000298023224
+    entityarmorrepairdelaychancesmall: 0.2
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28500
     entityattackdelaymin: 7125
     entityattackrange: 5250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 3500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 1750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 9000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
+    entityreactionfactor: 0.3
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.011250000447034836
+    entitysecuritystatuskillbonus: 0.01125
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.05999999865889549
+    entitysensordampendurationchance: 0.06
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 25000
     falloff: 2000.0
@@ -1957,13 +1910,12 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 1250.0
-    maxtargetrangemultiplier: 0.8500000238418579
+    maxtargetrangemultiplier: 0.85
     maxvelocity: 1760.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Crook Patroller
     optimalsigradius: 40
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1971,20 +1923,20 @@ types:
     rechargerate: 500000.0
     scanmagnetometricstrength: 19.0
     scanresolution: 425.0
-    scanresolutionmultiplier: 0.8500000238418579
+    scanresolutionmultiplier: 0.85
     shieldcapacity: 150.0
     shieldemdamageresonance: 0.75
-    shieldexplosivedamageresonance: 0.6499999761581421
-    shieldkineticdamageresonance: 0.949999988079071
+    shieldexplosivedamageresonance: 0.65
+    shieldkineticdamageresonance: 0.95
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 0.75
     signatureradius: 48.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 29500.0
     warpscrambleduration: 8000
   24365:
@@ -1992,41 +1944,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7400000095367432
-    armorexplosivedamageresonance: 0.6399999856948853
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.74
+    armorexplosivedamageresonance: 0.64
     armorhp: 250.0
-    armorkineticdamageresonance: 0.9399999976158142
-    armorthermaldamageresonance: 0.8399999737739563
+    armorkineticdamageresonance: 0.94
+    armorthermaldamageresonance: 0.84
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 60.0
     damagemultiplier: 4.0
     disallowassistance: 1
     entityarmorrepairamount: 50.0
-    entityarmorrepairdelaychancesmall: 0.20999999344348907
+    entityarmorrepairdelaychancesmall: 0.21
     entityarmorrepairduration: 10000
     entityattackdelaymax: 28200
     entityattackdelaymin: 7050
     entityattackrange: 28750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 17250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 11500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3100000023841858
+    entityreactionfactor: 0.31
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     entitysensordampenduration: 30000
     falloff: 6000.0
     gfxboosterid: 394
@@ -2044,7 +1995,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Guard
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2053,18 +2003,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 650.0
     shieldcapacity: 175.0
-    shieldemdamageresonance: 0.7400000095367432
-    shieldexplosivedamageresonance: 0.6399999856948853
-    shieldkineticdamageresonance: 0.9399999976158142
+    shieldemdamageresonance: 0.74
+    shieldexplosivedamageresonance: 0.64
+    shieldkineticdamageresonance: 0.94
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8399999737739563
+    shieldthermaldamageresonance: 0.84
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 23000.0
     warpscrambleduration: 8000
   24366:
@@ -2072,41 +2022,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7300000190734863
-    armorexplosivedamageresonance: 0.6299999952316284
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.73
+    armorexplosivedamageresonance: 0.63
     armorhp: 225.0
-    armorkineticdamageresonance: 0.9300000071525574
-    armorthermaldamageresonance: 0.8299999833106995
+    armorkineticdamageresonance: 0.93
+    armorthermaldamageresonance: 0.83
     armoruniformity: 0.75
     capacitorcapacity: 140.0
-    capacity: 235.0
     damagemultiplier: 3.5
     disallowassistance: 1
     entityarmorrepairamount: 55.0
-    entityarmorrepairdelaychancesmall: 0.2199999988079071
+    entityarmorrepairdelaychancesmall: 0.22
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27900
     entityattackdelaymin: 6975
     entityattackrange: 6375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 4250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 2125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 11000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3199999928474426
+    entityreactionfactor: 0.32
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     entitysensordampenduration: 30000
     falloff: 2500.0
     gfxboosterid: 394
@@ -2124,7 +2073,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Safeguard
     optimalsigradius: 40
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2133,18 +2081,18 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 650.0
     shieldcapacity: 200.0
-    shieldemdamageresonance: 0.7300000190734863
-    shieldexplosivedamageresonance: 0.6299999952316284
-    shieldkineticdamageresonance: 0.9300000071525574
+    shieldemdamageresonance: 0.73
+    shieldexplosivedamageresonance: 0.63
+    shieldkineticdamageresonance: 0.93
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8299999833106995
+    shieldthermaldamageresonance: 0.83
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 23000.0
     warpscrambleduration: 8000
   24367:
@@ -2152,41 +2100,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7200000286102295
-    armorexplosivedamageresonance: 0.6200000047683716
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.72
+    armorexplosivedamageresonance: 0.62
     armorhp: 225.0
-    armorkineticdamageresonance: 0.9200000166893005
-    armorthermaldamageresonance: 0.8199999928474426
+    armorkineticdamageresonance: 0.92
+    armorthermaldamageresonance: 0.82
     armoruniformity: 0.75
     capacitorcapacity: 150.0
-    capacity: 140.0
     damagemultiplier: 4.0
     disallowassistance: 1
     entityarmorrepairamount: 60.0
-    entityarmorrepairdelaychancesmall: 0.23000000417232513
+    entityarmorrepairdelaychancesmall: 0.23
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27600
     entityattackdelaymin: 6900
     entityattackrange: 28750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 17250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 11500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.33000001311302185
+    entityreactionfactor: 0.33
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     entitysensordampenduration: 30000
     falloff: 6000.0
     gfxboosterid: 394
@@ -2204,7 +2151,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Defender
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2213,18 +2159,18 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 225.0
-    shieldemdamageresonance: 0.7200000286102295
-    shieldexplosivedamageresonance: 0.6200000047683716
-    shieldkineticdamageresonance: 0.9200000166893005
+    shieldemdamageresonance: 0.72
+    shieldexplosivedamageresonance: 0.62
+    shieldkineticdamageresonance: 0.92
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8199999928474426
+    shieldthermaldamageresonance: 0.82
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 26500.0
     warpscrambleduration: 8000
   24368:
@@ -2232,41 +2178,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.6100000143051147
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.61
     armorhp: 275.0
-    armorkineticdamageresonance: 0.9100000262260437
-    armorthermaldamageresonance: 0.8100000023841858
+    armorkineticdamageresonance: 0.91
+    armorthermaldamageresonance: 0.81
     armoruniformity: 0.75
     capacitorcapacity: 160.0
-    capacity: 235.0
-    damagemultiplier: 3.575000047683716
+    damagemultiplier: 3.575
     disallowassistance: 1
     entityarmorrepairamount: 65.0
-    entityarmorrepairdelaychancesmall: 0.23999999463558197
+    entityarmorrepairdelaychancesmall: 0.24
     entityarmorrepairduration: 10000
     entityattackdelaymax: 27300
     entityattackdelaymin: 6825
     entityattackrange: 6375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 4250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 2125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 13000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3400000035762787
+    entityreactionfactor: 0.34
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.016249999403953552
+    entitysecuritystatuskillbonus: 0.01625
     entitysensordampenduration: 30000
     falloff: 2500.0
     gfxboosterid: 394
@@ -2284,7 +2229,6 @@ types:
     modifytargetspeedrange: 20000
     name: Crook Protector
     optimalsigradius: 40
-    packagedVolume: 26500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2293,17 +2237,17 @@ types:
     scanmagnetometricstrength: 11.0
     scanresolution: 650.0
     shieldcapacity: 250.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.6100000143051147
-    shieldkineticdamageresonance: 0.9100000262260437
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.61
+    shieldkineticdamageresonance: 0.91
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.8100000023841858
+    shieldthermaldamageresonance: 0.81
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.3165000081062317
+    trackingspeed: 0.3165
     volume: 26500.0
     warpscrambleduration: 8000

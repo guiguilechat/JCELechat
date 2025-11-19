@@ -19,7 +19,6 @@ types:
     maxvelocity: 900.0
     name: Salvage Drone I
     orbitrange: 100
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -61,7 +60,6 @@ types:
     maxvelocity: 900.0
     name: Salvage Drone II
     orbitrange: 100
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -105,7 +103,6 @@ types:
     maxvelocity: 1000.0
     name: '''Dunk'' Salvage Drone'
     orbitrange: 100
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true

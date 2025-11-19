@@ -22,9 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -53,14 +51,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -98,6 +95,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.ship.Destroyer;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Dreadnought;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.ElectronicAttackShip;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Exhumer;
+import fr.guiguilechat.jcelechat.model.sde.types.ship.ExpeditionCommandShip;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.ExpeditionFrigate;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.FlagCruiser;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.ForceAuxiliary;
@@ -191,26 +189,12 @@ public abstract class Ship
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Chance of being able to resist a cargo scan.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cargoscanresistance;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * CPU load of ship
      */
@@ -392,8 +376,8 @@ public abstract class Ship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int poweroutput;
+    @DefaultRealValue(0.0)
+    public double poweroutput;
     /**
      * tbd
      */
@@ -408,13 +392,6 @@ public abstract class Ship
     @Stackable(true)
     @DefaultIntValue(0)
     public int propulsiongraphicid;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -451,20 +428,19 @@ public abstract class Ship
     @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
+     * Resistance against Remote Sensor Dampeners.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double sensordampenerresistance;
+    /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -585,7 +561,7 @@ public abstract class Ship
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weapondisruptionresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, RechargeRate.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
@@ -627,17 +603,9 @@ public abstract class Ship
             {
                 return capacitorcapacity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  188 :
             {
                 return cargoscanresistance;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  49 :
             {
@@ -751,10 +719,6 @@ public abstract class Ship
             {
                 return propulsiongraphicid;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -775,13 +739,13 @@ public abstract class Ship
             {
                 return scanradarstrength;
             }
+            case  2112 :
+            {
+                return sensordampenerresistance;
+            }
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  271 :
             {
@@ -884,7 +848,7 @@ public abstract class Ship
 
         @Override
         public Collection<IMetaGroup<? extends Ship>> groups() {
-            return Arrays.asList(Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Hauler.METAGROUP, Capsule.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, LancerDreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP);
+            return Arrays.asList(Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Hauler.METAGROUP, Capsule.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, LancerDreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, ExpeditionCommandShip.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP);
         }
     }
 }

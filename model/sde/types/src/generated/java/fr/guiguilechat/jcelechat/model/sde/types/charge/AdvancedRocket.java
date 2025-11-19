@@ -21,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AoeDamageReductionFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorPiercingChance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
@@ -34,7 +33,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -257,7 +255,7 @@ public class AdvancedRocket
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DetonationRange.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, ArmorPiercingChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ExplosionDelay.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, DetonationRange.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final AdvancedRocket.MetaGroup METAGROUP = new AdvancedRocket.MetaGroup();
 
     @Override

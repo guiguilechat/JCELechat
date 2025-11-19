@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -23,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProbesInGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -144,7 +142,7 @@ public class SurveyProbe
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxScanRange.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ExplosionDelay.INSTANCE, ProbesInGroup.INSTANCE, ScanRange.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocity.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, MaxScanRange.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, ExplosionDelay.INSTANCE, ProbesInGroup.INSTANCE, ScanRange.INSTANCE })));
     public static final SurveyProbe.MetaGroup METAGROUP = new SurveyProbe.MetaGroup();
 
     @Override

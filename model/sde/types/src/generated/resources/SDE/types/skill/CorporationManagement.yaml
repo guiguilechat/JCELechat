@@ -6,27 +6,23 @@ types:
     id: 3363
     marketGroup: 365
     name: Corporation Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     secondaryattribute: 164
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3368:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
     id: 3368
     marketGroup: 365
     name: Diplomatic Relations
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3363
     requiredskill1level: 2
     requiredskill2: 3355
@@ -34,7 +30,7 @@ types:
     secondaryattribute: 164
     skillallycostmodifierbonus: -5
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3731:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
@@ -42,17 +38,15 @@ types:
     id: 3731
     marketGroup: 365
     name: Megacorp Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3363
     requiredskill1level: 5
     secondaryattribute: 164
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3732:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
@@ -60,17 +54,15 @@ types:
     id: 3732
     marketGroup: 365
     name: Empire Control
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3731
     requiredskill1level: 5
     secondaryattribute: 164
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12241:
     basedefenderallycost: 10000000
     cannotbetrainedontrial: 1
@@ -78,14 +70,12 @@ types:
     id: 12241
     marketGroup: 365
     name: Sovereignty
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     primaryattribute: 166
     published: true
-    radius: 1.0
     requiredskill1: 3732
     requiredskill1level: 5
     secondaryattribute: 164
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01

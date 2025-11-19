@@ -1,12 +1,11 @@
 types:
   1194:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -26,7 +25,6 @@ types:
     maxrange: 500000.0
     name: Amarr Sentry Gun
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -37,25 +35,24 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11313
     volume: 1000.0
   3739:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -75,7 +72,6 @@ types:
     maxrange: 500000.0
     name: Caldari Sentry Gun III
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -86,25 +82,24 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11324
     volume: 1000.0
   3740:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -124,7 +119,6 @@ types:
     maxrange: 500000.0
     name: Caldari Sentry Gun I
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -135,25 +129,24 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11324
     volume: 1000.0
   3741:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -173,7 +166,6 @@ types:
     maxrange: 500000.0
     name: Caldari Sentry Gun II
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -184,25 +176,24 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11324
     volume: 1000.0
   3742:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -222,7 +213,6 @@ types:
     maxrange: 500000.0
     name: Gallente Sentry Gun
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -233,25 +223,24 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11331
     volume: 1000.0
   3743:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 7200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1000.0
-    capacity: 1000.0
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 16.0
@@ -271,7 +260,6 @@ types:
     maxrange: 500000.0
     name: Minmatar Sentry Gun
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     proximityrange: 75000
     published: false
@@ -282,14 +270,14 @@ types:
     scanmagnetometricstrength: 1000.0
     scanradarstrength: 1000.0
     shieldcapacity: 4800.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.4000000059604645
+    trackingspeed: 0.4
     typecolorscheme: 11342
     volume: 1000.0

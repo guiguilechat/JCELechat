@@ -14,11 +14,9 @@ types:
     maxrange: 75000.0
     maxtargetrangebonus: -55.0
     name: Standup Remote Sensor Dampener I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     remoteresistanceid: 2112
     scanresolutionbonus: -55.0
     structureitemvisualflag: 1
@@ -44,11 +42,9 @@ types:
     maxrangebonus: -60.0
     missilevelocitybonus: -37.0
     name: Standup Weapon Disruptor I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     trackingspeedbonus: -60.0
@@ -67,11 +63,9 @@ types:
     mass: 500.0
     maxrange: 75000.0
     name: Standup Target Painter I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     remoteresistanceid: 2114
     signatureradiusbonus: 65.0
     structureitemvisualflag: 1
@@ -98,11 +92,9 @@ types:
     metalevelold: 5
     missilevelocitybonus: -41.0
     name: Standup Weapon Disruptor II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 2
     trackingspeedbonus: -66.0
@@ -122,11 +114,9 @@ types:
     maxrange: 90000.0
     metalevelold: 5
     name: Standup Target Painter II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     remoteresistanceid: 2114
     signatureradiusbonus: 72.0
     structureitemvisualflag: 1
@@ -148,11 +138,9 @@ types:
     maxtargetrangebonus: -61.0
     metalevelold: 5
     name: Standup Remote Sensor Dampener II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     remoteresistanceid: 2112
     scanresolutionbonus: -61.0
     structureitemvisualflag: 1

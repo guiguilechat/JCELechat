@@ -15,7 +15,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 8000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41040
@@ -24,7 +24,6 @@ types:
     maxrange: 1000.0
     name: Heavy Stasis Grappler I
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 200
     published: true
@@ -52,7 +51,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 8000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41054
@@ -62,7 +61,6 @@ types:
     metalevelold: 1
     name: Heavy Gunnar Compact Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 160
     published: true
@@ -90,7 +88,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41055
@@ -100,7 +98,6 @@ types:
     metalevelold: 1
     name: Heavy Karelin Scoped Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 200
     published: true
@@ -128,7 +125,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 8000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41056
@@ -138,7 +135,6 @@ types:
     metalevelold: 1
     name: Heavy Jigoro Enduring Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 200
     published: true
@@ -166,7 +162,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 5.0
     hp: 40.0
     id: 41057
@@ -176,7 +172,6 @@ types:
     metalevelold: 5
     name: Heavy Stasis Grappler II
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 220
     published: true
@@ -204,7 +199,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 11000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41058
@@ -215,7 +210,6 @@ types:
     metalevelold: 8
     name: Shadow Serpentis Heavy Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 130
     published: true
@@ -243,7 +237,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 41059
@@ -254,7 +248,6 @@ types:
     metalevelold: 8
     name: Domination Heavy Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 160
     published: true
@@ -282,7 +275,7 @@ types:
     duration: 2000.0
     falloff: 1.0
     falloffeffectiveness: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 5.0
     hp: 40.0
     id: 84743
@@ -293,7 +286,6 @@ types:
     metalevelold: 17
     name: Strategos' Modified Heavy Stasis Grappler
     overloadrangebonus: 300
-    packagedVolume: 50.0
     portionSize: 1
     power: 240
     published: true

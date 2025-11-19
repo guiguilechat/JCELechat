@@ -8,11 +8,9 @@ types:
     mass: 500.0
     maxtypefitted: 1
     name: Standup Moon Drill I
-    packagedVolume: 8000.0
     portionSize: 1
     power: 10000
     published: true
-    radius: 1.0
     servicemodulefuelamount: 5
     servicemodulefuelconsumptiongroup: 1136
     servicemodulefuelonlineamount: 360

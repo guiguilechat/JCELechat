@@ -2,18 +2,16 @@ types:
   74529:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 74529
     marketGroup: 3489
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Eifyrium
     orebasictype: 74529
-    packagedVolume: 16.0
     portionSize: 100
     price: 544768.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -22,18 +20,16 @@ types:
   74530:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 74530
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Doped Eifyrium
+    mass: 1.0E+35
+    name: Eifyrium II-Grade
     orebasictype: 74529
-    packagedVolume: 16.0
     portionSize: 100
     price: 571392.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -42,18 +38,16 @@ types:
   74531:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 74531
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Boosted Eifyrium
+    mass: 1.0E+35
+    name: Eifyrium III-Grade
     orebasictype: 74529
-    packagedVolume: 16.0
     portionSize: 100
     price: 600064.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,14 +60,12 @@ types:
     asteroidradiusunitsize: 600
     id: 74532
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Augmented Eifyrium
+    mass: 1.0E+35
+    name: Eifyrium IV-Grade
     orebasictype: 74529
-    packagedVolume: 16.0
     portionSize: 100
     price: 626688.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -82,63 +74,57 @@ types:
   75283:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 75283
     marketGroup: 3489
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Eifyrium
     orebasictype: 74529
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 544768.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   75284:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 75284
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Compressed Doped Eifyrium
+    mass: 1.0E+35
+    name: Compressed Eifyrium II-Grade
     orebasictype: 74529
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 571392.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   75285:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 75285
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Compressed Boosted Eifyrium
+    mass: 1.0E+35
+    name: Compressed Eifyrium III-Grade
     orebasictype: 74529
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 600064.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   75286:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
@@ -146,16 +132,14 @@ types:
     asteroidradiusunitsize: 600
     id: 75286
     marketGroup: 3489
-    mass: 1.0000000409184788E35
-    name: Compressed Augmented Eifyrium
+    mass: 1.0E+35
+    name: Compressed Eifyrium IV-Grade
     orebasictype: 74529
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 626688.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16

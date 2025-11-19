@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.6
     armorhp: 3500.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 2500.0
-    capacity: 120.0
     damagemultiplier: 5.0
     disallowassistance: 1
     entityarmorrepairamount: 350.0
@@ -28,7 +27,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.10499999672174454
+    entitydefenderchance: 0.105
     entityequipmentmax: 4
     entityequipmentmin: -3
     entityflyrange: 7200.0
@@ -36,10 +35,10 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 205
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.7699999809265137
+    entityreactionfactor: 0.77
     entitysecuritymaxgain: 5.0
     entityshieldboostamount: 175.0
-    entityshieldboostdelaychancelarge: 0.6000000238418579
+    entityshieldboostdelaychancelarge: 0.6
     entityshieldboostduration: 5000
     explosivedamage: 32.0
     falloff: 16000.0
@@ -48,7 +47,7 @@ types:
     hp: 4500.0
     id: 42826
     kineticdamage: 8.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 4
@@ -56,14 +55,13 @@ types:
     maxvelocity: 350.0
     mintargetveldmgmultiplier: 0.5
     missiledamagemultiplier: 1.25
-    missileentityaoecloudsizemultiplier: 0.786899983882904
-    missileentityaoevelocitymultiplier: 1.426200032234192
-    missileentityflighttimemultiplier: 1.426200032234192
-    missileentityvelocitymultiplier: 1.426200032234192
+    missileentityaoecloudsizemultiplier: 0.7869
+    missileentityaoevelocitymultiplier: 1.4262
+    missileentityflighttimemultiplier: 1.4262
+    missileentityvelocitymultiplier: 1.4262
     missilelaunchduration: 1.0
     name: Vengeful Blade Minmatar Battleship
     optimalsigradius: 400
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -82,7 +80,7 @@ types:
     signatureradius: 320.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.05400000140070915
-    volume: 1.9E7
+    trackingspeed: 0.054
+    volume: 19000000.0
     warpscramblerange: 20000
     warpscramblestrength: 2

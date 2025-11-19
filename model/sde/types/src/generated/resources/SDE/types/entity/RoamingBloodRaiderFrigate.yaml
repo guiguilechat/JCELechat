@@ -4,20 +4,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
-    armorkineticdamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.625
     armoruniformity: 0.75
     capacitorcapacity: 135.0
-    capacity: 235.0
     damagemultiplier: 7.5
     disallowassistance: 1
     emdamage: 5.0
     entityarmorrepairamount: 200.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 25000
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
@@ -29,17 +28,17 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.004749999847263098
+    entityfactionloss: 0.00475
     entityflyrange: 6000.0
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.027499999850988388
+    entitysecuritystatuskillbonus: 0.0275
     entitywarpscramblechance: 0.5
     falloff: 4000.0
     gfxboosterid: 397
@@ -58,7 +57,6 @@ types:
     modifytargetspeedrange: 10000
     name: Blood Raider Patroller
     optimalsigradius: 40
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -69,10 +67,10 @@ types:
     scanspeed: 2500
     shieldcapacity: 325.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 24.0
     speed: 2500.0

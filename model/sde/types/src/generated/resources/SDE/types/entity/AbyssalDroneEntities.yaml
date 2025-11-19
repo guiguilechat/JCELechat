@@ -1,12 +1,12 @@
 types:
   47847:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamage: 20.0
@@ -33,7 +33,6 @@ types:
     name: Sparkneedle Tessella
     npcbehaviormaximumcombatorbitrange: 5000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -43,9 +42,9 @@ types:
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -55,12 +54,12 @@ types:
     volume: 10.0
   47848:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -86,7 +85,6 @@ types:
     name: Emberneedle Tessella
     npcbehaviormaximumcombatorbitrange: 5000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -96,9 +94,9 @@ types:
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -109,12 +107,12 @@ types:
     volume: 10.0
   47849:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -141,7 +139,6 @@ types:
     name: Strikeneedle Tessella
     npcbehaviormaximumcombatorbitrange: 5000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -151,9 +148,9 @@ types:
     shieldcapacity: 550.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -163,7 +160,7 @@ types:
     volume: 10.0
   47850:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 300.0
@@ -194,7 +191,6 @@ types:
     maxvelocity: 900.0
     name: Fieldweaver Tessella
     optimalsigradius: 1000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 18.0
@@ -206,7 +202,7 @@ types:
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 8.9999998976E11
+    shieldrechargerate: 9.0E11
     shieldthermaldamageresonance: 1.0
     signatureradius: 75.0
     speedfactor: 1.0
@@ -215,12 +211,12 @@ types:
     volume: 10.0
   47851:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 10000.0
     capacitorcapacity: 1.0
@@ -250,7 +246,6 @@ types:
     name: Snarecaster Tessella
     npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 18.0
@@ -260,9 +255,9 @@ types:
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 4000.0
     speedfactor: -30.0
@@ -273,14 +268,14 @@ types:
     volume: 10.0
   47852:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     aoecloudsizebonus: 10.0
     aoevelocitybonus: -10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 350.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 1.0
     emdamage: 10.0
@@ -318,7 +313,6 @@ types:
     npctrackingdisruptorfalloff: 10000.0
     npctrackingdisruptorrange: 25000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 10.0
@@ -328,9 +322,9 @@ types:
     shieldcapacity: 350.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 4000.0
     speedfactor: 1.0
@@ -342,12 +336,12 @@ types:
     volume: 10.0
   47853:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 350.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     behaviorsensordampenerduration: 5000.0
     behaviorsensordampenerfalloff: 20000.0
     behaviorsensordampenerrange: 20000.0
@@ -379,7 +373,6 @@ types:
     name: Gazedimmer Tessella
     npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 14.0
@@ -390,9 +383,9 @@ types:
     shieldcapacity: 350.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 4000.0
     speedfactor: 1.0
@@ -403,12 +396,12 @@ types:
     volume: 10.0
   47854:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 350.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 20000.0
     behaviortargetpainterrange: 30000.0
@@ -439,7 +432,6 @@ types:
     name: Spotlighter Tessella
     npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 18.0
@@ -449,9 +441,9 @@ types:
     shieldcapacity: 350.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     signatureradiusbonus: 20.0
     speed: 4000.0
@@ -463,12 +455,12 @@ types:
     volume: 10.0
   47855:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -495,7 +487,6 @@ types:
     name: Blastneedle Tessella
     npcbehaviormaximumcombatorbitrange: 5000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -505,9 +496,9 @@ types:
     shieldcapacity: 550.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -517,12 +508,12 @@ types:
     volume: 10.0
   47856:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamage: 40.0
@@ -549,7 +540,6 @@ types:
     name: Sparklance Tessella
     npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -559,9 +549,9 @@ types:
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -571,12 +561,12 @@ types:
     volume: 10.0
   47857:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -602,7 +592,6 @@ types:
     name: Emberlance Tessella
     npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -612,9 +601,9 @@ types:
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -625,12 +614,12 @@ types:
     volume: 10.0
   47858:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -657,7 +646,6 @@ types:
     name: Strikelance Tessella
     npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -667,9 +655,9 @@ types:
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -679,12 +667,12 @@ types:
     volume: 10.0
   47859:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1.0
     damagemultiplier: 2.5
     emdamageresonance: 1.0
@@ -711,7 +699,6 @@ types:
     name: Blastlance Tessella
     npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 13.0
@@ -721,9 +708,9 @@ types:
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
     signatureradius: 50.0
     speed: 2000.0
     speedfactor: 1.0
@@ -733,7 +720,7 @@ types:
     volume: 10.0
   47860:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armordamageamount: 20.0
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -765,7 +752,6 @@ types:
     maxvelocity: 900.0
     name: Plateforger Tessella
     optimalsigradius: 1000
-    packagedVolume: 10.0
     portionSize: 1
     published: false
     radius: 18.0
@@ -776,7 +762,7 @@ types:
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 8.9999998976E11
+    shieldrechargerate: 9.0E11
     shieldthermaldamageresonance: 1.0
     signatureradius: 75.0
     speedfactor: 1.0
@@ -785,12 +771,12 @@ types:
     volume: 10.0
   48253:
     agility: 100.0
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 1.0
     damagemultiplier: 1.0
     emdamage: 4.0
@@ -817,7 +803,6 @@ types:
     name: Vila Swarmer
     npcbehaviormaximumcombatorbitrange: 2500.0
     optimalsigradius: 40000
-    packagedVolume: 5.0
     portionSize: 1
     published: false
     radius: 15.0
@@ -826,9 +811,9 @@ types:
     shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 25.0
     speed: 2000.0
@@ -840,14 +825,13 @@ types:
     volume: 5.0
   48262:
     agility: 50.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 2300.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     capacitorcapacity: 1.0
-    capacity: 1200.0
     damagemultiplier: 20.0
     emdamage: 50.0
     emdamageresonance: 1.0
@@ -871,7 +855,6 @@ types:
     name: Sparkgrip Tessera
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
     radius: 150.0
@@ -879,11 +862,11 @@ types:
     scanradarstrength: 30.0
     scanresolution: 2000.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.3
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.3
     signatureradius: 300.0
     speed: 5000.0
     speedfactor: 1.0
@@ -893,14 +876,13 @@ types:
     volume: 60.0
   48263:
     agility: 50.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 2300.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     capacitorcapacity: 1.0
-    capacity: 1200.0
     damagemultiplier: 20.0
     emdamageresonance: 1.0
     entitychasemaxdelay: 5000.0
@@ -923,7 +905,6 @@ types:
     name: Embergrip Tessera
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
     radius: 150.0
@@ -931,11 +912,11 @@ types:
     scanmagnetometricstrength: 30.0
     scanresolution: 2000.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.3
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.3
     signatureradius: 300.0
     speed: 5000.0
     speedfactor: 1.0
@@ -946,14 +927,13 @@ types:
     volume: 60.0
   48264:
     agility: 50.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 2300.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     capacitorcapacity: 1.0
-    capacity: 1200.0
     damagemultiplier: 20.0
     emdamageresonance: 1.0
     entitychasemaxdelay: 5000.0
@@ -977,7 +957,6 @@ types:
     name: Strikegrip Tessera
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
     radius: 150.0
@@ -985,11 +964,11 @@ types:
     scangravimetricstrength: 30.0
     scanresolution: 2000.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.3
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.3
     signatureradius: 300.0
     speed: 5000.0
     speedfactor: 1.0
@@ -999,14 +978,13 @@ types:
     volume: 60.0
   48265:
     agility: 50.0
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 2300.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     capacitorcapacity: 1.0
-    capacity: 1200.0
     damagemultiplier: 20.0
     emdamageresonance: 1.0
     entitychasemaxdelay: 5000.0
@@ -1030,7 +1008,6 @@ types:
     name: Blastgrip Tessera
     npcbehaviormaximumcombatorbitrange: 2000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
     radius: 150.0
@@ -1038,11 +1015,11 @@ types:
     scanladarstrength: 30.0
     scanresolution: 2000.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.4000000059604645
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.30000001192092896
-    shieldrechargerate: 8.9999998976E11
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.3
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.3
     signatureradius: 300.0
     speed: 5000.0
     speedfactor: 1.0
@@ -1055,12 +1032,12 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 140.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 1.0
     behaviortargetpainterduration: 5000.0
     behaviortargetpainterfalloff: 20000.0
@@ -1092,7 +1069,6 @@ types:
     name: Igniting Swarmer
     npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     published: false
     radius: 18.0
@@ -1103,9 +1079,9 @@ types:
     shieldcapacity: 140.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 6250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 120.0
     signatureradiusbonus: 20.0

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadShieldBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
@@ -138,7 +136,7 @@ public class ShieldBooster
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double shieldbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldBonus.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadShieldBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldBonus.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadShieldBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
 
     @Override

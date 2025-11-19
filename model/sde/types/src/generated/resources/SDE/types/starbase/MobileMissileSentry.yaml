@@ -4,7 +4,6 @@ types:
     anchoringdelay: 5000
     armorhp: 375000.0
     armoruniformity: 0.75
-    capacity: 3500.0
     chargegroup1: 386
     controltowerminimumdistance: 5000
     cpu: 40.0
@@ -18,10 +17,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 16696
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 1.0
@@ -32,7 +31,6 @@ types:
     missilelaunchduration: 24000.0
     name: Cruise Missile Battery
     onliningdelay: 120000
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 40000
@@ -62,7 +60,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 89
     controltowerminimumdistance: 5000
     cpu: 80.0
@@ -76,10 +73,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 16697
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 2.5
@@ -90,7 +87,6 @@ types:
     missilelaunchduration: 24000.0
     name: Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 80000
@@ -120,7 +116,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 476
     controltowerminimumdistance: 5000
     cpu: 160.0
@@ -134,10 +129,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 17773
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     missiledamagemultiplier: 2.5
@@ -148,11 +143,10 @@ types:
     missilelaunchduration: 24000.0
     name: XL Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 160000
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -178,7 +172,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 476
     controltowerminimumdistance: 5000
     cpu: 160.0
@@ -192,10 +185,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27560
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -207,11 +200,10 @@ types:
     missilelaunchduration: 24000.0
     name: Guristas XL Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 144000
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -237,7 +229,6 @@ types:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 476
     controltowerminimumdistance: 5000
     cpu: 160.0
@@ -251,10 +242,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27562
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -266,11 +257,10 @@ types:
     missilelaunchduration: 24000.0
     name: Dread Guristas XL Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 136000
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -296,7 +286,6 @@ types:
     anchoringdelay: 5000
     armorhp: 562500.0
     armoruniformity: 0.75
-    capacity: 3500.0
     chargegroup1: 386
     controltowerminimumdistance: 5000
     cpu: 40.0
@@ -310,14 +299,14 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27638
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
-    missiledamagemultiplier: 1.100000023841858
+    missiledamagemultiplier: 1.1
     missileentityaoecloudsizemultiplier: 0.25
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 2.5
@@ -325,7 +314,6 @@ types:
     missilelaunchduration: 24000.0
     name: Guristas Cruise Missile Battery
     onliningdelay: 120000
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 36000
@@ -355,7 +343,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 3500.0
     chargegroup1: 386
     controltowerminimumdistance: 5000
     cpu: 40.0
@@ -369,14 +356,14 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27640
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
-    missiledamagemultiplier: 1.2000000476837158
+    missiledamagemultiplier: 1.2
     missileentityaoecloudsizemultiplier: 0.25
     missileentityaoevelocitymultiplier: 1.5
     missileentityflighttimemultiplier: 2.5
@@ -384,7 +371,6 @@ types:
     missilelaunchduration: 24000.0
     name: Dread Guristas Cruise Missile Battery
     onliningdelay: 120000
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 32000
@@ -414,7 +400,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1125000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 89
     controltowerminimumdistance: 5000
     cpu: 80.0
@@ -428,10 +413,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27641
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -443,7 +428,6 @@ types:
     missilelaunchduration: 24000.0
     name: Guristas Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 72000
@@ -473,7 +457,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 4500.0
     chargegroup1: 89
     controltowerminimumdistance: 5000
     cpu: 80.0
@@ -487,10 +470,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27643
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 479
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
@@ -502,7 +485,6 @@ types:
     missilelaunchduration: 24000.0
     name: Dread Guristas Torpedo Battery
     onliningdelay: 120000
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 64000

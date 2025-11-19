@@ -3,18 +3,16 @@ types:
     id: 42838
     launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Evasive Maneuvers Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3349
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 20
     warfarebuff1multiplier: -6
     warfarebuff2id: 60
@@ -23,35 +21,31 @@ types:
     id: 42839
     launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Interdiction Maneuvers Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3349
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 21
     warfarebuff1multiplier: 12
   42840:
     id: 42840
     launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Rapid Deployment Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3349
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 22
     warfarebuff1multiplier: 12

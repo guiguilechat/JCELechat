@@ -7,7 +7,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Dynamic Fuel Valve I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -16,14 +15,13 @@ types:
     upgradecost: 50
     volume: 20.0
   26058:
-    agilitybonus: -11.699999809265137
+    agilitybonus: -11.7
     drawback: -10
     hp: 40.0
     id: 26058
     marketGroup: 1212
     mass: 200.0
     name: Large Low Friction Nozzle Joints I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -38,7 +36,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Auxiliary Thrusters I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -55,7 +52,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Engine Thermal Shielding I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -70,7 +66,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Warp Core Optimizer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -86,7 +81,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Hyperspatial Velocity Optimizer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -96,7 +90,7 @@ types:
     volume: 20.0
     warpsbonus: 20
   26070:
-    agilitybonus: -9.100000381469727
+    agilitybonus: -9.1
     drawback: -10
     hp: 40.0
     id: 26070
@@ -104,7 +98,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Polycarbon Engine Housing I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -120,7 +113,6 @@ types:
     marketGroup: 1212
     mass: 200.0
     name: Large Cargohold Optimization I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -137,7 +129,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Cargohold Optimization II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -154,7 +145,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Dynamic Fuel Valve II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -171,7 +161,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Engine Thermal Shielding II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -188,7 +177,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Low Friction Nozzle Joints II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -201,12 +189,11 @@ types:
     drawback: -10
     hp: 40.0
     id: 26312
-    implantbonusvelocity: 6.599999904632568
+    implantbonusvelocity: 6.6
     marketGroup: 1212
     mass: 200.0
     metalevelold: 5
     name: Large Polycarbon Engine Housing II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -222,7 +209,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Auxiliary Thrusters II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -239,7 +225,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Warp Core Optimizer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -256,7 +241,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Hyperspatial Velocity Optimizer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -272,7 +256,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Auxiliary Thrusters I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -288,7 +271,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Auxiliary Thrusters I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -304,7 +286,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Auxiliary Thrusters I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -321,7 +302,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Auxiliary Thrusters II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -338,7 +318,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Auxiliary Thrusters II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -355,7 +334,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Auxiliary Thrusters II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -372,7 +350,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Cargohold Optimization I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -388,7 +365,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Cargohold Optimization I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -404,7 +380,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Cargohold Optimization I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -421,7 +396,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Cargohold Optimization II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -438,7 +412,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Cargohold Optimization II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -455,7 +428,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Cargohold Optimization II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -471,7 +443,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Dynamic Fuel Valve I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -487,7 +458,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Dynamic Fuel Valve I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -503,7 +473,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Dynamic Fuel Valve I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -520,7 +489,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Dynamic Fuel Valve II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -537,7 +505,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Dynamic Fuel Valve II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -554,7 +521,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Dynamic Fuel Valve II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -570,7 +536,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Engine Thermal Shielding I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -586,7 +551,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Engine Thermal Shielding I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -602,7 +566,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Engine Thermal Shielding I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -619,7 +582,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Engine Thermal Shielding II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -636,7 +598,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Engine Thermal Shielding II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -653,7 +614,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Engine Thermal Shielding II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -662,14 +622,13 @@ types:
     upgradecost: 75
     volume: 40.0
   31153:
-    agilitybonus: -11.699999809265137
+    agilitybonus: -11.7
     drawback: -10
     hp: 40.0
     id: 31153
     marketGroup: 1210
     mass: 200.0
     name: Small Low Friction Nozzle Joints I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -678,14 +637,13 @@ types:
     upgradecost: 50
     volume: 5.0
   31155:
-    agilitybonus: -11.699999809265137
+    agilitybonus: -11.7
     drawback: -10
     hp: 40.0
     id: 31155
     marketGroup: 1211
     mass: 200.0
     name: Medium Low Friction Nozzle Joints I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -694,14 +652,13 @@ types:
     upgradecost: 50
     volume: 10.0
   31157:
-    agilitybonus: -11.699999809265137
+    agilitybonus: -11.7
     drawback: -10
     hp: 40.0
     id: 31157
     marketGroup: 1740
     mass: 200.0
     name: Capital Low Friction Nozzle Joints I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -716,7 +673,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Hyperspatial Velocity Optimizer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -732,7 +688,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Hyperspatial Velocity Optimizer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -748,7 +703,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Hyperspatial Velocity Optimizer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -765,7 +719,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Hyperspatial Velocity Optimizer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -782,7 +735,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Hyperspatial Velocity Optimizer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -799,7 +751,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Hyperspatial Velocity Optimizer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -817,7 +768,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Low Friction Nozzle Joints II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -834,7 +784,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Low Friction Nozzle Joints II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -851,7 +800,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Low Friction Nozzle Joints II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -860,7 +808,7 @@ types:
     upgradecost: 75
     volume: 40.0
   31177:
-    agilitybonus: -9.100000381469727
+    agilitybonus: -9.1
     drawback: -10
     hp: 40.0
     id: 31177
@@ -868,7 +816,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Polycarbon Engine Housing I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -877,7 +824,7 @@ types:
     upgradecost: 100
     volume: 5.0
   31179:
-    agilitybonus: -9.100000381469727
+    agilitybonus: -9.1
     drawback: -10
     hp: 40.0
     id: 31179
@@ -885,7 +832,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Polycarbon Engine Housing I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -894,7 +840,7 @@ types:
     upgradecost: 100
     volume: 10.0
   31181:
-    agilitybonus: -9.100000381469727
+    agilitybonus: -9.1
     drawback: -10
     hp: 40.0
     id: 31181
@@ -902,7 +848,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Polycarbon Engine Housing I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -915,12 +860,11 @@ types:
     drawback: -10
     hp: 40.0
     id: 31183
-    implantbonusvelocity: 6.599999904632568
+    implantbonusvelocity: 6.6
     marketGroup: 1210
     mass: 200.0
     metalevelold: 5
     name: Small Polycarbon Engine Housing II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -933,12 +877,11 @@ types:
     drawback: -10
     hp: 40.0
     id: 31185
-    implantbonusvelocity: 6.599999904632568
+    implantbonusvelocity: 6.6
     marketGroup: 1211
     mass: 200.0
     metalevelold: 5
     name: Medium Polycarbon Engine Housing II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -951,12 +894,11 @@ types:
     drawback: -10
     hp: 40.0
     id: 31187
-    implantbonusvelocity: 6.599999904632568
+    implantbonusvelocity: 6.6
     marketGroup: 1740
     mass: 200.0
     metalevelold: 5
     name: Capital Polycarbon Engine Housing II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -971,7 +913,6 @@ types:
     marketGroup: 1210
     mass: 200.0
     name: Small Warp Core Optimizer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -987,7 +928,6 @@ types:
     marketGroup: 1211
     mass: 200.0
     name: Medium Warp Core Optimizer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1003,7 +943,6 @@ types:
     marketGroup: 1740
     mass: 200.0
     name: Capital Warp Core Optimizer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1020,7 +959,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Warp Core Optimizer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1037,7 +975,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Warp Core Optimizer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1054,7 +991,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Warp Core Optimizer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

@@ -48,8 +48,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
@@ -87,7 +85,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.NosOverride;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerTransferAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -95,7 +92,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -353,20 +349,6 @@ public class NPCDreadnought
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * Damage multiplier.
      */
@@ -628,13 +610,6 @@ public class NPCDreadnought
     @DefaultIntValue(0)
     public int propulsiongraphicid;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -683,14 +658,6 @@ public class NPCDreadnought
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -775,7 +742,7 @@ public class NPCDreadnought
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, NosOverride.INSTANCE, MaximumRangeCap.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorShieldBoosterAmount.INSTANCE, BehaviorShieldBoosterDischarge.INSTANCE, MaxVelocity.INSTANCE, BehaviorShieldBoosterDuration.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorEnergyNosferatuDischarge.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorEnergyNosferatuDuration.INSTANCE, Agility.INSTANCE, BehaviorWebifierDischarge.INSTANCE, BehaviorEnergyNosferatuFalloff.INSTANCE, BehaviorEnergyNosferatuRange.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, ScanMagnetometricStrength.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, MissileDamageMultiplier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, WarpSpeedMultiplier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, PropulsionGraphicID.INSTANCE, PowerTransferAmount.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, IsCapitalSize.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, NosOverride.INSTANCE, MaximumRangeCap.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, BehaviorShieldBoosterAmount.INSTANCE, BehaviorShieldBoosterDischarge.INSTANCE, MaxVelocity.INSTANCE, BehaviorShieldBoosterDuration.INSTANCE, SignatureRadius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorEnergyNosferatuDischarge.INSTANCE, BehaviorWebifierFalloff.INSTANCE, Agility.INSTANCE, BehaviorEnergyNosferatuDuration.INSTANCE, BehaviorWebifierDischarge.INSTANCE, BehaviorEnergyNosferatuFalloff.INSTANCE, BehaviorEnergyNosferatuRange.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, ScanRadarStrength.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, ScanLadarStrength.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, ScanMagnetometricStrength.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, MissileDamageMultiplier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, WarpSpeedMultiplier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, PropulsionGraphicID.INSTANCE, PowerTransferAmount.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, IsCapitalSize.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final NPCDreadnought.MetaGroup METAGROUP = new NPCDreadnought.MetaGroup();
 
     @Override
@@ -916,14 +883,6 @@ public class NPCDreadnought
             case  482 :
             {
                 return capacitorcapacity;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  64 :
             {
@@ -1073,10 +1032,6 @@ public class NPCDreadnought
             {
                 return propulsiongraphicid;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -1104,10 +1059,6 @@ public class NPCDreadnought
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  271 :
             {

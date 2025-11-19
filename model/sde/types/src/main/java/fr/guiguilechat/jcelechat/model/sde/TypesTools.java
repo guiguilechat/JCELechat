@@ -63,7 +63,7 @@ public class TypesTools {
 	 */
 	public static <T extends TypeRef<?>> Predicate<T> makeTokenizedPredicate(String filtersWithSpace) {
 		if (filtersWithSpace == null || filtersWithSpace.isBlank()) {
-			return o->true;
+			return _ -> true;
 		}
 		Set<String> required = Stream.of(filtersWithSpace.split("\\s+")).map(String::toLowerCase)
 				.filter(s -> !s.startsWith(NEGATE_START)).collect(Collectors.toSet());

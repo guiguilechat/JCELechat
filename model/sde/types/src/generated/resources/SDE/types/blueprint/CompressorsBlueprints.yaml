@@ -4,130 +4,106 @@ types:
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Medium Asteroid Ore Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62669:
     id: 62669
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Large Asteroid Ore Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.21E8
+    price: 121000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62670:
     id: 62670
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Capital Asteroid Ore Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.43E8
+    price: 243000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62671:
     id: 62671
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Large Ice Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62672:
     id: 62672
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Capital Ice Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62673:
     id: 62673
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Medium Gas Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62674:
     id: 62674
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Large Gas Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62675:
     id: 62675
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Capital Gas Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.216999936E9
+    price: 1217000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62676:
     id: 62676
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Large Mercoxit Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.56E8
+    price: 456000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62677:
     id: 62677
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Capital Mercoxit Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.12750016E8
+    price: 912750000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62678:
     id: 62678
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Large Moon Ore Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.08499968E8
+    price: 608500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   62679:
     id: 62679
     industryblueprintrank: 180.0
     marketGroup: 2816
     name: Capital Moon Ore Compressor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.216999936E9
+    price: 1217000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

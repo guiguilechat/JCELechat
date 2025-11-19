@@ -3,134 +3,151 @@ types:
     id: 42874
     marketGroup: 2291
     name: Armor Energizing Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42875:
     id: 42875
     marketGroup: 2291
     name: Armor Reinforcement Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42876:
     id: 42876
     marketGroup: 2291
     name: Rapid Repair Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42877:
     id: 42877
     marketGroup: 2292
     name: Electronic Hardening Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42878:
     id: 42878
     marketGroup: 2292
     name: Electronic Superiority Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42879:
     id: 42879
     marketGroup: 2292
     name: Sensor Optimization Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42880:
     id: 42880
     marketGroup: 2293
     name: Mining Equipment Preservation Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42881:
     id: 42881
     marketGroup: 2293
     name: Mining Laser Field Enhancement Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42882:
     id: 42882
     marketGroup: 2293
     name: Mining Laser Optimization Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42883:
     id: 42883
     marketGroup: 2294
     name: Active Shielding Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42884:
     id: 42884
     marketGroup: 2294
     name: Shield Extension Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42885:
     id: 42885
     marketGroup: 2294
     name: Shield Harmonizing Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42886:
     id: 42886
     marketGroup: 2295
     name: Evasive Maneuvers Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42887:
     id: 42887
     marketGroup: 2295
     name: Interdiction Maneuvers Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42888:
     id: 42888
     marketGroup: 2295
     name: Rapid Deployment Charge Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
+  89634:
+    id: 89634
+    marketGroup: 3757
+    name: Expedition Strength Charge Blueprint
+    portionSize: 1
+    price: 10000000.0
+    published: true
+    volume: 0.01
+  89635:
+    id: 89635
+    marketGroup: 3757
+    name: Expedition Reach Charge Blueprint
+    portionSize: 1
+    price: 10000000.0
+    published: true
+    volume: 0.01
+  89636:
+    id: 89636
+    marketGroup: 3757
+    name: Expedition Pinpointing Charge Blueprint
+    portionSize: 1
+    price: 10000000.0
+    published: true
+    volume: 0.01
+  90734:
+    id: 90734
+    marketGroup: 2293
+    name: Mining Laser Efficiency Charge Blueprint
+    portionSize: 1
+    price: 10000000.0
+    published: true
+    volume: 0.01

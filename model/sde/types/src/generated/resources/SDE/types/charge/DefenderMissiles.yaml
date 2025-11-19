@@ -2,7 +2,7 @@ types:
   32782:
     aimedlaunch: 1
     aoecloudsize: 10
-    aoedamagereductionfactor: 0.10000000149011612
+    aoedamagereductionfactor: 0.1
     aoevelocity: 400
     emdamage: 200.0
     explosiondelay: 3000
@@ -15,7 +15,6 @@ types:
     mass: 700.0
     maxvelocity: 10000.0
     name: Defender Missile I
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
     radius: 300.0
@@ -24,4 +23,4 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 200.0
-    volume: 0.014999999664723873
+    volume: 0.015

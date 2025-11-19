@@ -5,149 +5,133 @@ types:
     asteroidradiusunitsize: 1000
     id: 81975
     marketGroup: 3640
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Griemeer
     orebasictype: 81975
-    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.800000011920929
+    volume: 0.8
   81976:
     asteroidmetalevel: 2
     asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 1000
     id: 81976
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Clear Griemeer
+    mass: 1.0E+35
+    name: Griemeer II-Grade
     orebasictype: 81975
-    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.800000011920929
+    volume: 0.8
   81977:
     asteroidmetalevel: 3
     asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 1000
     id: 81977
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Inky Griemeer
+    mass: 1.0E+35
+    name: Griemeer III-Grade
     orebasictype: 81975
-    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.800000011920929
+    volume: 0.8
   81978:
     asteroidmetalevel: 4
     asteroidradiusgrowthfactor: 0.75
     asteroidradiusunitsize: 1000
     id: 81978
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Opaque Griemeer
+    mass: 1.0E+35
+    name: Griemeer IV-Grade
     orebasictype: 81975
-    packagedVolume: 0.800000011920929
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.800000011920929
+    volume: 0.8
   82316:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 82316
     marketGroup: 3640
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Griemeer
     orebasictype: 81975
-    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.00800000037997961
+    volume: 0.008
   82317:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 82317
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Compressed Clear Griemeer
+    mass: 1.0E+35
+    name: Compressed Griemeer II-Grade
     orebasictype: 81975
-    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.00800000037997961
+    volume: 0.008
   82318:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 82318
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Compressed Inky Griemeer
+    mass: 1.0E+35
+    name: Compressed Griemeer III-Grade
     orebasictype: 81975
-    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.00800000037997961
+    volume: 0.008
   82319:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 90
     id: 82319
     marketGroup: 3640
-    mass: 1.0000000409184788E35
-    name: Compressed Opaque Griemeer
+    mass: 1.0E+35
+    name: Compressed Griemeer IV-Grade
     orebasictype: 81975
-    packagedVolume: 0.00800000037997961
     portionSize: 100
     price: 40894.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.00800000037997961
+    volume: 0.008

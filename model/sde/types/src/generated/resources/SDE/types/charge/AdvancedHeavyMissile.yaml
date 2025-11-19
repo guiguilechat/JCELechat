@@ -1,9 +1,9 @@
 types:
   2629:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 241
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 71
     detonationrange: 300
@@ -13,14 +13,13 @@ types:
     hp: 120.0
     id: 2629
     kineticdamage: 201.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 510
     marketGroup: 926
     mass: 1000.0
     maxvelocity: 4300.0
     metalevelold: 5
     name: Scourge Fury Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -34,19 +33,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03
   2655:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 125
-    aoedamagereductionfactor: 0.5830000042915344
+    aoedamagereductionfactor: 0.583
     aoefalloff: 1500
     aoevelocity: 102
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 3250
     explosivedamage: 149.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 120.0
     id: 2655
     kineticdamageresonance: 1.0
@@ -56,7 +55,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Nova Precision Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -70,19 +68,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03
   24507:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 241
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 71
     detonationrange: 300
     emdamageresonance: 1.0
     explosiondelay: 4875
     explosivedamage: 201.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 120.0
     id: 24507
     kineticdamageresonance: 1.0
@@ -92,7 +90,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Nova Fury Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -106,17 +103,17 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03
   24509:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 241
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 71
     detonationrange: 300
     emdamage: 201.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 4875
     explosivedamageresonance: 1.0
     hp: 120.0
@@ -128,7 +125,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Mjolnir Fury Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -142,12 +138,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03
   24511:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 241
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 71
     detonationrange: 300
@@ -163,7 +159,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Inferno Fury Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -177,13 +172,13 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 201.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.029999999329447746
+    thermaldamageresonance: 0.8
+    volume: 0.03
   24513:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 125
-    aoedamagereductionfactor: 0.5830000042915344
+    aoedamagereductionfactor: 0.583
     aoefalloff: 1500
     aoevelocity: 102
     detonationrange: 35
@@ -193,14 +188,13 @@ types:
     hp: 120.0
     id: 24513
     kineticdamage: 149.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 510
     marketGroup: 919
     mass: 1000.0
     maxvelocity: 4300.0
     metalevelold: 5
     name: Scourge Precision Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -214,12 +208,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03
   24515:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 125
-    aoedamagereductionfactor: 0.5830000042915344
+    aoedamagereductionfactor: 0.583
     aoefalloff: 1500
     aoevelocity: 102
     detonationrange: 35
@@ -235,7 +229,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Inferno Precision Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -249,18 +242,18 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 149.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.029999999329447746
+    thermaldamageresonance: 0.8
+    volume: 0.03
   24517:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 125
-    aoedamagereductionfactor: 0.5830000042915344
+    aoedamagereductionfactor: 0.583
     aoefalloff: 1500
     aoevelocity: 102
     detonationrange: 35
     emdamage: 149.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 3250
     explosivedamageresonance: 1.0
     hp: 120.0
@@ -272,7 +265,6 @@ types:
     maxvelocity: 4300.0
     metalevelold: 5
     name: Mjolnir Precision Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 5000
     price: 600080.0
     published: true
@@ -286,4 +278,4 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.029999999329447746
+    volume: 0.03

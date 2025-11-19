@@ -1,11 +1,10 @@
 types:
   3563:
-    capacity: 5.175000190734863
     chargegroup1: 1019
     chargegroup2: 1678
     chargerate: 1
     cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 3563
@@ -14,11 +13,9 @@ types:
     metalevelold: 8
     name: CONCORD XL Cruise Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 32435
     requiredskill1level: 1
@@ -31,22 +28,19 @@ types:
     typecolorscheme: 20115
     volume: 4000.0
   32444:
-    capacity: 4.5
     chargegroup1: 1019
     chargerate: 1
     cpu: 150.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 32444
     marketGroup: 777
     name: XL Cruise Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 32435
     requiredskill1level: 1
@@ -59,12 +53,11 @@ types:
     typecolorscheme: 11324
     volume: 4000.0
   37295:
-    capacity: 4.5
     chargegroup1: 1019
     chargegroup2: 1678
     chargerate: 1
     cpu: 165.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 37295
@@ -72,11 +65,9 @@ types:
     metalevelold: 5
     name: XL Cruise Missile Launcher II
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3319
     requiredskill1level: 5
@@ -91,12 +82,11 @@ types:
     typecolorscheme: 11324
     volume: 4000.0
   41174:
-    capacity: 5.175000190734863
     chargegroup1: 1019
     chargegroup2: 1678
     chargerate: 1
     cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41174
@@ -105,11 +95,9 @@ types:
     metalevelold: 8
     name: Dread Guristas XL Cruise Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 32435
     requiredskill1level: 1
@@ -122,11 +110,10 @@ types:
     typecolorscheme: 11324
     volume: 4000.0
   41175:
-    capacity: 4.5
     chargegroup1: 1019
     chargerate: 1
     cpu: 135.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41175
@@ -134,11 +121,9 @@ types:
     metalevelold: 1
     name: Arbalest Compact XL Cruise Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 32435
     requiredskill1level: 1
@@ -151,11 +136,10 @@ types:
     typecolorscheme: 11324
     volume: 4000.0
   41176:
-    capacity: 5.175000190734863
     chargegroup1: 1019
     chargerate: 1
     cpu: 150.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41176
@@ -163,11 +147,9 @@ types:
     metalevelold: 1
     name: TE-2100 Ample XL Cruise Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 32435
     requiredskill1level: 1

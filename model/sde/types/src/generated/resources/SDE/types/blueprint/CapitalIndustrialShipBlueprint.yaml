@@ -5,9 +5,7 @@ types:
     industryjobcostmultiplier: 1
     marketGroup: 1046
     name: Rorqual Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E9
+    price: 3000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

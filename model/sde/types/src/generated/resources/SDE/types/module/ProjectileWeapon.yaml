@@ -1,14 +1,13 @@
 types:
   484:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 3.0
     damagemultiplier: 2.0625
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 484
     marketGroup: 574
@@ -17,7 +16,6 @@ types:
     name: 125mm Gatling AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 2000.0
@@ -36,15 +34,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   485:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 485
     marketGroup: 574
@@ -53,7 +50,6 @@ types:
     name: 150mm Light AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 6000.0
@@ -72,14 +68,13 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   486:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 2.887500047683716
+    damagemultiplier: 2.8875
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 486
@@ -89,7 +84,6 @@ types:
     name: 200mm AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 9000.0
@@ -108,15 +102,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   487:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 12.0
-    damagemultiplier: 5.081999778747559
+    damagemultiplier: 5.082
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 487
     marketGroup: 577
@@ -125,7 +118,6 @@ types:
     name: 250mm Light Artillery Cannon I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 12000.0
@@ -144,15 +136,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   488:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 15.0
-    damagemultiplier: 7.043000221252441
+    damagemultiplier: 7.043
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 488
     marketGroup: 577
@@ -161,7 +152,6 @@ types:
     name: 280mm Howitzer Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 15000.0
@@ -180,15 +170,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   489:
-    capacity: 2.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 18.0
     damagemultiplier: 2.0625
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 489
     marketGroup: 575
@@ -197,7 +186,6 @@ types:
     name: Dual 180mm AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     price: 20000.0
@@ -212,19 +200,18 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11342
     volume: 10.0
   490:
-    capacity: 2.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 21.0
-    damagemultiplier: 2.309999942779541
+    damagemultiplier: 2.31
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 490
     marketGroup: 575
@@ -233,7 +220,6 @@ types:
     name: 220mm Vulcan AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 100
     price: 60000.0
@@ -248,19 +234,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11342
     volume: 10.0
   491:
-    capacity: 1.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 2.887500047683716
+    damagemultiplier: 2.8875
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 491
     marketGroup: 575
@@ -269,7 +254,6 @@ types:
     name: 425mm AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 90000.0
@@ -284,19 +268,18 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11342
     volume: 10.0
   492:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 27.0
-    damagemultiplier: 4.619999885559082
+    damagemultiplier: 4.62
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 492
     marketGroup: 578
@@ -305,7 +288,6 @@ types:
     name: 650mm Artillery Cannon I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 180
     price: 120000.0
@@ -320,19 +302,18 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11342
     volume: 25.0
   493:
-    capacity: 0.25
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 30.0
-    damagemultiplier: 7.96999979019165
+    damagemultiplier: 7.97
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 493
     marketGroup: 578
@@ -341,7 +322,6 @@ types:
     name: 720mm Howitzer Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 225
     price: 150000.0
@@ -356,19 +336,18 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11342
     volume: 25.0
   494:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 33.0
     damagemultiplier: 2.0625
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 494
     marketGroup: 576
@@ -377,7 +356,6 @@ types:
     name: Dual 425mm AutoCannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1250
     price: 200000.0
@@ -392,19 +370,18 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11342
     volume: 20.0
   495:
-    capacity: 4.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 36.0
-    damagemultiplier: 2.4442031383514404
+    damagemultiplier: 2.444203042
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 495
     marketGroup: 576
@@ -413,7 +390,6 @@ types:
     name: Dual 650mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     price: 600000.0
@@ -428,19 +404,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11342
     volume: 50.0
   496:
-    capacity: 3.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 39.0
-    damagemultiplier: 2.694999933242798
+    damagemultiplier: 2.695
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 496
     marketGroup: 576
@@ -449,7 +424,6 @@ types:
     name: 800mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 25.0
     portionSize: 1
     power: 2000
     price: 900000.0
@@ -464,19 +438,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11342
     volume: 25.0
   497:
-    capacity: 1.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 42.0
-    damagemultiplier: 5.081999778747559
+    damagemultiplier: 5.082
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 497
     marketGroup: 579
@@ -485,7 +458,6 @@ types:
     name: 1200mm Artillery Cannon I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 2750
     price: 1200000.0
@@ -504,15 +476,14 @@ types:
     typecolorscheme: 11342
     volume: 50.0
   498:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 45.0
-    damagemultiplier: 10.67199993133545
+    damagemultiplier: 10.672
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 498
     marketGroup: 579
@@ -521,7 +492,6 @@ types:
     name: 1400mm Howitzer Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 3250
     price: 1500000.0
@@ -536,20 +506,19 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11342
     volume: 50.0
   2865:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 44.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.1
     hp: 40.0
     id: 2865
     marketGroup: 579
@@ -559,7 +528,6 @@ types:
     name: 1200mm Artillery Cannon II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3025
     price: 1987540.0
@@ -580,16 +548,15 @@ types:
     typecolorscheme: 11343
     volume: 20.0
   2873:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 3.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 2873
     marketGroup: 574
@@ -599,7 +566,6 @@ types:
     name: 125mm Gatling AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 35400.0
@@ -620,16 +586,15 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   2881:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 2.9700000286102295
+    damagemultiplier: 2.97
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 2881
     marketGroup: 574
@@ -639,7 +604,6 @@ types:
     name: 150mm Light AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 74212.0
@@ -660,15 +624,14 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   2889:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 2889
@@ -679,7 +642,6 @@ types:
     name: 200mm AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 109744.0
@@ -700,16 +662,15 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   2897:
-    capacity: 2.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 2.7720000743865967
+    damagemultiplier: 2.772
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 2897
     marketGroup: 575
@@ -719,7 +680,6 @@ types:
     name: 220mm Vulcan AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 110
     price: 305136.0
@@ -736,20 +696,19 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 2
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11343
     volume: 10.0
   2905:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.2
     hp: 40.0
     id: 2905
     marketGroup: 577
@@ -759,7 +718,6 @@ types:
     name: 250mm Light Artillery Cannon II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 132664.0
@@ -780,16 +738,15 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   2913:
-    capacity: 1.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 25.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 2913
     marketGroup: 575
@@ -799,7 +756,6 @@ types:
     name: 425mm AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 154
     price: 373210.0
@@ -816,20 +772,19 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 2
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11343
     volume: 10.0
   2921:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 5.539999961853027
+    damagemultiplier: 5.54
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.9
     hp: 40.0
     id: 2921
     marketGroup: 578
@@ -839,7 +794,6 @@ types:
     name: 650mm Artillery Cannon II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 198
     price: 436976.0
@@ -856,20 +810,19 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 2
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11343
     volume: 10.0
   2929:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 41.0
-    damagemultiplier: 3.2339999675750732
+    damagemultiplier: 3.234
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.9
     hp: 40.0
     id: 2929
     marketGroup: 576
@@ -879,7 +832,6 @@ types:
     name: 800mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 1484776.0
@@ -896,20 +848,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 2
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11343
     volume: 20.0
   2937:
-    capacity: 2.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 19.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 2937
     marketGroup: 575
@@ -919,7 +870,6 @@ types:
     name: Dual 180mm AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 220508.0
@@ -936,20 +886,19 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 2
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11343
     volume: 10.0
   2945:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 35.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.7
     hp: 40.0
     id: 2945
     marketGroup: 576
@@ -959,7 +908,6 @@ types:
     name: Dual 425mm AutoCannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1375
     price: 605200.0
@@ -976,20 +924,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 2
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11343
     volume: 20.0
   2953:
-    capacity: 4.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 38.0
-    damagemultiplier: 2.9330437183380127
+    damagemultiplier: 2.93304365
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 2953
     marketGroup: 576
@@ -999,7 +946,6 @@ types:
     name: Dual 650mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 1109234.0
@@ -1016,20 +962,19 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 2
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11343
     volume: 20.0
   2961:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 47.0
-    damagemultiplier: 12.807000160217285
+    damagemultiplier: 12.807
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.6
     hp: 40.0
     id: 2961
     marketGroup: 579
@@ -1039,7 +984,6 @@ types:
     name: 1400mm Howitzer Artillery II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3575
     price: 2320888.0
@@ -1056,20 +1000,19 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 2
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11343
     volume: 20.0
   2969:
-    capacity: 0.25
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 32.0
-    damagemultiplier: 9.569999694824219
+    damagemultiplier: 9.57
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.4
     hp: 40.0
     id: 2969
     marketGroup: 578
@@ -1079,7 +1022,6 @@ types:
     name: 720mm Howitzer Artillery II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 248
     price: 517456.0
@@ -1096,20 +1038,19 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 2
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11343
     volume: 10.0
   2977:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 16.0
-    damagemultiplier: 8.45199966430664
+    damagemultiplier: 8.452
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.6
     hp: 40.0
     id: 2977
     marketGroup: 577
@@ -1119,7 +1060,6 @@ types:
     name: 280mm Howitzer Artillery II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 1976.0
@@ -1140,7 +1080,6 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   3571:
-    capacity: 5.75
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
@@ -1148,7 +1087,7 @@ types:
     cpu: 63.0
     damagemultiplier: 11.859375
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 3571
@@ -1160,10 +1099,9 @@ types:
     name: CONCORD Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -1175,20 +1113,19 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017954999580979347
+    trackingspeed: 0.017955
     typecolorscheme: 11342
     volume: 4000.0
   3573:
-    capacity: 10.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 4.743750095367432
+    damagemultiplier: 4.74375
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 3573
     marketGroup: 776
@@ -1199,10 +1136,9 @@ types:
     name: CONCORD Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -1214,19 +1150,18 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04359075054526329
+    trackingspeed: 0.04359075
     typecolorscheme: 11342
     volume: 4000.0
   8759:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 2.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8759
     marketGroup: 574
@@ -1236,7 +1171,6 @@ types:
     name: 125mm Light 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -1255,15 +1189,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8785:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 2.0
-    damagemultiplier: 2.166450023651123
+    damagemultiplier: 2.16645
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8785
     marketGroup: 574
@@ -1273,7 +1206,6 @@ types:
     name: 125mm Light Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -1292,15 +1224,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8787:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 2.0
-    damagemultiplier: 2.268749952316284
+    damagemultiplier: 2.26875
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8787
     marketGroup: 574
@@ -1310,7 +1241,6 @@ types:
     name: 125mm Light Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -1329,15 +1259,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8789:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 2.0
-    damagemultiplier: 2.3726999759674072
+    damagemultiplier: 2.3727
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8789
     marketGroup: 574
@@ -1347,7 +1276,6 @@ types:
     name: 125mm Light Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -1366,15 +1294,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8815:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 5.0
-    damagemultiplier: 2.9700000286102295
+    damagemultiplier: 2.97
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8815
     marketGroup: 574
@@ -1384,7 +1311,6 @@ types:
     name: 150mm Light 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -1403,15 +1329,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8817:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 4.0
-    damagemultiplier: 2.598750114440918
+    damagemultiplier: 2.59875
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8817
     marketGroup: 574
@@ -1421,7 +1346,6 @@ types:
     name: 150mm Light Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -1440,15 +1364,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8819:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 5.0
-    damagemultiplier: 2.7225000858306885
+    damagemultiplier: 2.7225
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8819
     marketGroup: 574
@@ -1458,7 +1381,6 @@ types:
     name: 150mm Light Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -1477,15 +1399,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8821:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 5.0
-    damagemultiplier: 2.846250057220459
+    damagemultiplier: 2.84625
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 8821
     marketGroup: 574
@@ -1495,7 +1416,6 @@ types:
     name: 150mm Light Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -1514,14 +1434,13 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8863:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 8.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 8863
@@ -1532,7 +1451,6 @@ types:
     name: 200mm Light 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -1551,14 +1469,13 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8865:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 7.0
-    damagemultiplier: 3.0327000617980957
+    damagemultiplier: 3.0327
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 8865
@@ -1569,7 +1486,6 @@ types:
     name: 200mm Light Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -1588,14 +1504,13 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8867:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 8.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 8867
@@ -1606,7 +1521,6 @@ types:
     name: 200mm Light Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -1625,14 +1539,13 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8869:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 7.0
-    damagemultiplier: 3.3214499950408936
+    damagemultiplier: 3.32145
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 8869
@@ -1643,7 +1556,6 @@ types:
     name: 200mm Light Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -1662,15 +1574,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8903:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 8903
     marketGroup: 577
@@ -1680,7 +1591,6 @@ types:
     name: 250mm Light 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 5996.0
@@ -1699,15 +1609,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8905:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 5.335999965667725
+    damagemultiplier: 5.336
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 8905
     marketGroup: 577
@@ -1717,7 +1626,6 @@ types:
     name: 250mm Light Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 5996.0
@@ -1736,15 +1644,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8907:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 11.0
-    damagemultiplier: 5.590000152587891
+    damagemultiplier: 5.59
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 8907
     marketGroup: 577
@@ -1754,7 +1661,6 @@ types:
     name: 250mm Light Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 5996.0
@@ -1773,15 +1679,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   8909:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 5.843999862670898
+    damagemultiplier: 5.844
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 8909
     marketGroup: 577
@@ -1791,7 +1696,6 @@ types:
     name: 250mm Light Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 5996.0
@@ -1810,15 +1714,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   9071:
-    capacity: 2.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 16.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9071
     marketGroup: 575
@@ -1828,7 +1731,6 @@ types:
     name: Dual 180mm 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     price: 10000.0
@@ -1843,19 +1745,18 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11342
     volume: 10.0
   9073:
-    capacity: 2.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 14.0
-    damagemultiplier: 2.166450023651123
+    damagemultiplier: 2.16645
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9073
     marketGroup: 575
@@ -1865,7 +1766,6 @@ types:
     name: Dual 180mm Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     price: 10000.0
@@ -1880,19 +1780,18 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11342
     volume: 10.0
   9091:
-    capacity: 2.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 17.0
-    damagemultiplier: 2.268749952316284
+    damagemultiplier: 2.26875
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9091
     marketGroup: 575
@@ -1902,7 +1801,6 @@ types:
     name: Dual 180mm Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     price: 10000.0
@@ -1917,19 +1815,18 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11342
     volume: 10.0
   9093:
-    capacity: 2.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 15.0
-    damagemultiplier: 2.3726999759674072
+    damagemultiplier: 2.3727
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9093
     marketGroup: 575
@@ -1939,7 +1836,6 @@ types:
     name: Dual 180mm Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     price: 10000.0
@@ -1954,19 +1850,18 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11342
     volume: 10.0
   9127:
-    capacity: 2.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 18.0
-    damagemultiplier: 2.7720000743865967
+    damagemultiplier: 2.772
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9127
     marketGroup: 575
@@ -1976,7 +1871,6 @@ types:
     name: 220mm Medium 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 100
     price: 25888.0
@@ -1991,19 +1885,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11342
     volume: 10.0
   9129:
-    capacity: 2.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 16.0
-    damagemultiplier: 2.42549991607666
+    damagemultiplier: 2.4255
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9129
     marketGroup: 575
@@ -2013,7 +1906,6 @@ types:
     name: 220mm Medium Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 100
     price: 25888.0
@@ -2028,19 +1920,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11342
     volume: 10.0
   9131:
-    capacity: 2.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 19.0
-    damagemultiplier: 2.5409998893737793
+    damagemultiplier: 2.541
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9131
     marketGroup: 575
@@ -2050,7 +1941,6 @@ types:
     name: 220mm Medium Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 100
     price: 25888.0
@@ -2065,19 +1955,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11342
     volume: 10.0
   9133:
-    capacity: 2.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 17.0
-    damagemultiplier: 2.6565001010894775
+    damagemultiplier: 2.6565
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9133
     marketGroup: 575
@@ -2087,7 +1976,6 @@ types:
     name: 220mm Medium Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 100
     price: 25888.0
@@ -2102,19 +1990,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11342
     volume: 10.0
   9135:
-    capacity: 1.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 21.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9135
     marketGroup: 575
@@ -2124,7 +2011,6 @@ types:
     name: 425mm Medium 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 44740.0
@@ -2139,19 +2025,18 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11342
     volume: 10.0
   9137:
-    capacity: 1.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 19.0
-    damagemultiplier: 3.0327000617980957
+    damagemultiplier: 3.0327
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9137
     marketGroup: 575
@@ -2161,7 +2046,6 @@ types:
     name: 425mm Medium Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 44740.0
@@ -2176,19 +2060,18 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11342
     volume: 10.0
   9139:
-    capacity: 1.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9139
     marketGroup: 575
@@ -2198,7 +2081,6 @@ types:
     name: 425mm Medium Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 44740.0
@@ -2213,19 +2095,18 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11342
     volume: 10.0
   9141:
-    capacity: 1.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 20.0
-    damagemultiplier: 3.3214499950408936
+    damagemultiplier: 3.32145
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9141
     marketGroup: 575
@@ -2235,7 +2116,6 @@ types:
     name: 425mm Medium Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 44740.0
@@ -2250,19 +2130,18 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11342
     volume: 10.0
   9207:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 5.539999961853027
+    damagemultiplier: 5.54
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 9207
     marketGroup: 578
@@ -2272,7 +2151,6 @@ types:
     name: 650mm Medium 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -2287,19 +2165,18 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11342
     volume: 10.0
   9209:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 21.0
-    damagemultiplier: 4.849999904632568
+    damagemultiplier: 4.85
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 9209
     marketGroup: 578
@@ -2309,7 +2186,6 @@ types:
     name: 650mm Medium Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -2324,19 +2200,18 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11342
     volume: 10.0
   9211:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 25.0
-    damagemultiplier: 5.079999923706055
+    damagemultiplier: 5.08
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 9211
     marketGroup: 578
@@ -2346,7 +2221,6 @@ types:
     name: 650mm Medium Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -2361,19 +2235,18 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11342
     volume: 10.0
   9213:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 22.0
-    damagemultiplier: 5.309999942779541
+    damagemultiplier: 5.31
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 9213
     marketGroup: 578
@@ -2383,7 +2256,6 @@ types:
     name: 650mm Medium Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -2398,19 +2270,18 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11342
     volume: 10.0
   9247:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 29.0
-    damagemultiplier: 2.4749999046325684
+    damagemultiplier: 2.475
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9247
     marketGroup: 576
@@ -2420,7 +2291,6 @@ types:
     name: Dual 425mm 'Scout' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1250
     price: 98972.0
@@ -2435,19 +2305,18 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11342
     volume: 20.0
   9249:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 26.0
-    damagemultiplier: 2.166450023651123
+    damagemultiplier: 2.16645
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9249
     marketGroup: 576
@@ -2457,7 +2326,6 @@ types:
     name: Dual 425mm Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1250
     price: 98972.0
@@ -2472,19 +2340,18 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11342
     volume: 20.0
   9251:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 31.0
-    damagemultiplier: 2.268749952316284
+    damagemultiplier: 2.26875
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9251
     marketGroup: 576
@@ -2494,7 +2361,6 @@ types:
     name: Dual 425mm Gallium Machine Gun
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1250
     price: 98972.0
@@ -2509,19 +2375,18 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11342
     volume: 20.0
   9253:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 2.3726999759674072
+    damagemultiplier: 2.3727
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 9253
     marketGroup: 576
@@ -2531,7 +2396,6 @@ types:
     name: Dual 425mm Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1250
     price: 98972.0
@@ -2546,19 +2410,18 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11342
     volume: 20.0
   9287:
-    capacity: 4.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 32.0
-    damagemultiplier: 2.9330437183380127
+    damagemultiplier: 2.93304365
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9287
     marketGroup: 576
@@ -2568,7 +2431,6 @@ types:
     name: Dual 650mm 'Scout' Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1500
     price: 298716.0
@@ -2583,19 +2445,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11342
     volume: 20.0
   9289:
-    capacity: 4.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 2.566413164138794
+    damagemultiplier: 2.566413194
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9289
     marketGroup: 576
@@ -2605,7 +2466,6 @@ types:
     name: Dual 650mm Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1500
     price: 298716.0
@@ -2620,19 +2480,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11342
     volume: 20.0
   9291:
-    capacity: 4.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 34.0
-    damagemultiplier: 2.6886234283447266
+    damagemultiplier: 2.688623346
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9291
     marketGroup: 576
@@ -2642,7 +2501,6 @@ types:
     name: Dual 650mm Gallium Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1500
     price: 298716.0
@@ -2657,19 +2515,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11342
     volume: 20.0
   9293:
-    capacity: 4.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 30.0
-    damagemultiplier: 2.81083345413208
+    damagemultiplier: 2.810833498
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 9293
     marketGroup: 576
@@ -2679,7 +2536,6 @@ types:
     name: Dual 650mm Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1500
     price: 298716.0
@@ -2694,19 +2550,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11342
     volume: 20.0
   9327:
-    capacity: 3.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 35.0
-    damagemultiplier: 3.2339999675750732
+    damagemultiplier: 3.234
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 9327
     marketGroup: 576
@@ -2716,7 +2571,6 @@ types:
     name: 800mm Heavy 'Scout' Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2000
     price: 448700.0
@@ -2731,19 +2585,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11342
     volume: 20.0
   9329:
-    capacity: 3.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 31.0
-    damagemultiplier: 2.830519914627075
+    damagemultiplier: 2.83052
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 9329
     marketGroup: 576
@@ -2753,7 +2606,6 @@ types:
     name: 800mm Heavy Carbine Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2000
     price: 448700.0
@@ -2768,19 +2620,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11342
     volume: 20.0
   9331:
-    capacity: 3.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 2.9644999504089355
+    damagemultiplier: 2.9645
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 9331
     marketGroup: 576
@@ -2790,7 +2641,6 @@ types:
     name: 800mm Heavy Gallium Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2000
     price: 448700.0
@@ -2805,19 +2655,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11342
     volume: 20.0
   9333:
-    capacity: 3.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 33.0
-    damagemultiplier: 3.100019931793213
+    damagemultiplier: 3.10002
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 9333
     marketGroup: 576
@@ -2827,7 +2676,6 @@ types:
     name: 800mm Heavy Prototype Automatic Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2000
     price: 448700.0
@@ -2842,19 +2690,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11342
     volume: 20.0
   9367:
-    capacity: 1.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 9367
     marketGroup: 579
@@ -2864,7 +2711,6 @@ types:
     name: 1200mm Heavy 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -2883,15 +2729,14 @@ types:
     typecolorscheme: 11342
     volume: 20.0
   9369:
-    capacity: 1.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 33.0
-    damagemultiplier: 5.335999965667725
+    damagemultiplier: 5.336
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 9369
     marketGroup: 579
@@ -2901,7 +2746,6 @@ types:
     name: 1200mm Heavy Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -2920,15 +2764,14 @@ types:
     typecolorscheme: 11342
     volume: 20.0
   9371:
-    capacity: 1.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 39.0
-    damagemultiplier: 5.590000152587891
+    damagemultiplier: 5.59
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 9371
     marketGroup: 579
@@ -2938,7 +2781,6 @@ types:
     name: 1200mm Heavy Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -2957,15 +2799,14 @@ types:
     typecolorscheme: 11342
     volume: 20.0
   9377:
-    capacity: 1.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 35.0
-    damagemultiplier: 5.843999862670898
+    damagemultiplier: 5.844
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 9377
     marketGroup: 579
@@ -2975,7 +2816,6 @@ types:
     name: 1200mm Heavy Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -2994,15 +2834,14 @@ types:
     typecolorscheme: 11342
     volume: 20.0
   9411:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 8.45199966430664
+    damagemultiplier: 8.452
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9411
     marketGroup: 577
@@ -3012,7 +2851,6 @@ types:
     name: 280mm 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -3031,15 +2869,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   9413:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 12.0
-    damagemultiplier: 7.395999908447266
+    damagemultiplier: 7.396
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9413
     marketGroup: 577
@@ -3049,7 +2886,6 @@ types:
     name: 280mm Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -3068,15 +2904,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   9415:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 14.0
-    damagemultiplier: 7.748000144958496
+    damagemultiplier: 7.748
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9415
     marketGroup: 577
@@ -3086,7 +2921,6 @@ types:
     name: 280mm Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -3105,15 +2939,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   9417:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargerate: 1
     chargesize: 1
     cpu: 12.0
-    damagemultiplier: 8.100000381469727
+    damagemultiplier: 8.1
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9417
     marketGroup: 577
@@ -3123,7 +2956,6 @@ types:
     name: 280mm Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 7496.0
@@ -3142,15 +2974,14 @@ types:
     typecolorscheme: 11342
     volume: 5.0
   9451:
-    capacity: 0.25
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 27.0
-    damagemultiplier: 9.569999694824219
+    damagemultiplier: 9.57
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 9451
     marketGroup: 578
@@ -3160,7 +2991,6 @@ types:
     name: 720mm 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -3175,19 +3005,18 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11342
     volume: 10.0
   9453:
-    capacity: 0.25
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 8.369999885559082
+    damagemultiplier: 8.37
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 9453
     marketGroup: 578
@@ -3197,7 +3026,6 @@ types:
     name: 720mm Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -3212,19 +3040,18 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11342
     volume: 10.0
   9455:
-    capacity: 0.25
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 28.0
-    damagemultiplier: 8.770000457763672
+    damagemultiplier: 8.77
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 9455
     marketGroup: 578
@@ -3234,7 +3061,6 @@ types:
     name: 720mm Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -3249,19 +3075,18 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11342
     volume: 10.0
   9457:
-    capacity: 0.25
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
     cpu: 25.0
-    damagemultiplier: 9.170000076293945
+    damagemultiplier: 9.17
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 9457
     marketGroup: 578
@@ -3271,7 +3096,6 @@ types:
     name: 720mm Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -3286,19 +3110,18 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11342
     volume: 10.0
   9491:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 12.807000160217285
+    damagemultiplier: 12.807
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9491
     marketGroup: 579
@@ -3308,7 +3131,6 @@ types:
     name: 1400mm 'Scout' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -3323,19 +3145,18 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11342
     volume: 20.0
   9493:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 36.0
-    damagemultiplier: 11.206999778747559
+    damagemultiplier: 11.207
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9493
     marketGroup: 579
@@ -3345,7 +3166,6 @@ types:
     name: 1400mm Carbine Howitzer I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -3360,19 +3180,18 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11342
     volume: 20.0
   9495:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 42.0
-    damagemultiplier: 11.73900032043457
+    damagemultiplier: 11.739
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9495
     marketGroup: 579
@@ -3382,7 +3201,6 @@ types:
     name: 1400mm Gallium Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -3397,19 +3215,18 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11342
     volume: 20.0
   9497:
-    capacity: 0.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
     cpu: 38.0
-    damagemultiplier: 12.27400016784668
+    damagemultiplier: 12.274
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 9497
     marketGroup: 579
@@ -3419,7 +3236,6 @@ types:
     name: 1400mm Prototype Siege Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -3434,20 +3250,19 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11342
     volume: 20.0
   13773:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 1.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13773
     marketGroup: 574
@@ -3458,7 +3273,6 @@ types:
     name: Domination 125mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -3477,15 +3291,14 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13774:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 13774
@@ -3497,7 +3310,6 @@ types:
     name: Domination 1200mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -3516,16 +3328,15 @@ types:
     typecolorscheme: 11318
     volume: 20.0
   13775:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 12.807000160217285
+    damagemultiplier: 12.807
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 13775
     marketGroup: 579
@@ -3536,7 +3347,6 @@ types:
     name: Domination 1400mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -3551,11 +3361,10 @@ types:
     slots: 1
     speed: 38155.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11318
     volume: 20.0
   13776:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
@@ -3563,8 +3372,8 @@ types:
     cpu: 4.0
     damagemultiplier: 3.09375
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13776
     marketGroup: 574
@@ -3575,7 +3384,6 @@ types:
     name: Domination 150mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -3594,15 +3402,14 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13777:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 3.6101999282836914
+    damagemultiplier: 3.6102
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 13777
@@ -3614,7 +3421,6 @@ types:
     name: Domination 200mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -3633,16 +3439,15 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13778:
-    capacity: 2.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 14.0
-    damagemultiplier: 2.887500047683716
+    damagemultiplier: 2.8875
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13778
     marketGroup: 575
@@ -3653,7 +3458,6 @@ types:
     name: Domination 220mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 110
     price: 25888.0
@@ -3668,19 +3472,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11318
     volume: 10.0
   13779:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 13779
@@ -3692,7 +3495,6 @@ types:
     name: Domination 250mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 5996.0
@@ -3711,16 +3513,15 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13781:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 8.45199966430664
+    damagemultiplier: 8.452
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 13781
     marketGroup: 577
@@ -3731,7 +3532,6 @@ types:
     name: Domination 280mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 7496.0
@@ -3750,16 +3550,15 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13782:
-    capacity: 1.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 17.0
-    damagemultiplier: 3.6101999282836914
+    damagemultiplier: 3.6102
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13782
     marketGroup: 575
@@ -3770,7 +3569,6 @@ types:
     name: Domination 425mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 154
     price: 44740.0
@@ -3785,20 +3583,19 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11318
     volume: 10.0
   13783:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 5.539999961853027
+    damagemultiplier: 5.54
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.8
     hp: 40.0
     id: 13783
     marketGroup: 578
@@ -3809,7 +3606,6 @@ types:
     name: Domination 650mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -3824,20 +3620,19 @@ types:
     slots: 1
     speed: 10902.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11318
     volume: 10.0
   13784:
-    capacity: 0.25
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 27.0
-    damagemultiplier: 9.569999694824219
+    damagemultiplier: 9.57
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 13784
     marketGroup: 578
@@ -3848,7 +3643,6 @@ types:
     name: Domination 720mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -3863,20 +3657,19 @@ types:
     slots: 1
     speed: 17103.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11318
     volume: 10.0
   13785:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 3.3695199489593506
+    damagemultiplier: 3.36952
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 13785
     marketGroup: 576
@@ -3887,7 +3680,6 @@ types:
     name: Domination 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 448700.0
@@ -3902,20 +3694,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11318
     volume: 20.0
   13786:
-    capacity: 2.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 13.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13786
     marketGroup: 575
@@ -3926,7 +3717,6 @@ types:
     name: Domination Dual 180mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 10000.0
@@ -3941,20 +3731,19 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11318
     volume: 10.0
   13787:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 23.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 13787
     marketGroup: 576
@@ -3965,7 +3754,6 @@ types:
     name: Domination Dual 425mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1375
     price: 98972.0
@@ -3980,20 +3768,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11318
     volume: 20.0
   13788:
-    capacity: 4.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 26.0
-    damagemultiplier: 3.055253744125366
+    damagemultiplier: 3.055253802
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13788
     marketGroup: 576
@@ -4004,7 +3791,6 @@ types:
     name: Domination Dual 650mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 298716.0
@@ -4019,20 +3805,19 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11318
     volume: 20.0
   14457:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 3.70524001121521
+    damagemultiplier: 3.70524
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 14457
     marketGroup: 576
@@ -4043,7 +3828,6 @@ types:
     name: Mizuro's Modified 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2310
     price: 900000.0
@@ -4058,20 +3842,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11340
     volume: 20.0
   14459:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 4.042500019073486
+    damagemultiplier: 4.0425
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 14459
     marketGroup: 576
@@ -4082,7 +3865,6 @@ types:
     name: Gotan's Modified 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2420
     price: 900000.0
@@ -4097,19 +3879,18 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11340
     volume: 20.0
   14461:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 6.708000183105469
+    damagemultiplier: 6.708
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 14461
@@ -4121,7 +3902,6 @@ types:
     name: Hakim's Modified 1200mm Artillery Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2888
     price: 1200000.0
@@ -4140,15 +3920,14 @@ types:
     typecolorscheme: 11340
     volume: 20.0
   14463:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 7.317999839782715
+    damagemultiplier: 7.318
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 14463
@@ -4160,7 +3939,6 @@ types:
     name: Tobias' Modified 1200mm Artillery Cannon
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3025
     price: 1200000.0
@@ -4179,16 +3957,15 @@ types:
     typecolorscheme: 11340
     volume: 20.0
   14465:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 14.086999893188477
+    damagemultiplier: 14.087
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 14465
     marketGroup: 579
@@ -4199,7 +3976,6 @@ types:
     name: Hakim's Modified 1400mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3413
     price: 1500000.0
@@ -4214,20 +3990,19 @@ types:
     slots: 1
     speed: 38155.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11340
     volume: 20.0
   14467:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 15.368000030517578
+    damagemultiplier: 15.368
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 14467
     marketGroup: 579
@@ -4238,7 +4013,6 @@ types:
     name: Tobias' Modified 1400mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3575
     price: 1500000.0
@@ -4253,20 +4027,19 @@ types:
     slots: 1
     speed: 38155.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11340
     volume: 20.0
   14469:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 23.0
-    damagemultiplier: 2.8363499641418457
+    damagemultiplier: 2.83635
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14469
     marketGroup: 576
@@ -4277,7 +4050,6 @@ types:
     name: Mizuro's Modified Dual 425mm AutoCannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1444
     price: 200000.0
@@ -4292,11 +4064,10 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11340
     volume: 20.0
   14471:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
@@ -4304,8 +4075,8 @@ types:
     cpu: 23.0
     damagemultiplier: 3.09375
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 14471
     marketGroup: 576
@@ -4316,7 +4087,6 @@ types:
     name: Gotan's Modified Dual 425mm AutoCannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1513
     price: 200000.0
@@ -4331,20 +4101,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11340
     volume: 20.0
   14473:
-    capacity: 4.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 26.0
-    damagemultiplier: 3.3615939617156982
+    damagemultiplier: 3.361593917
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14473
     marketGroup: 576
@@ -4355,7 +4124,6 @@ types:
     name: Mizuro's Modified Dual 650mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1733
     price: 600000.0
@@ -4370,20 +4138,19 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11340
     volume: 20.0
   14475:
-    capacity: 4.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 26.0
-    damagemultiplier: 3.666304588317871
+    damagemultiplier: 3.666304563
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 14475
     marketGroup: 576
@@ -4394,7 +4161,6 @@ types:
     name: Gotan's Modified Dual 650mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1815
     price: 600000.0
@@ -4409,20 +4175,19 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11340
     volume: 20.0
   16046:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 1.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 4300.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16046
     marketGroup: 574
@@ -4433,7 +4198,6 @@ types:
     name: Republic Fleet 125mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 1000.0
@@ -4452,15 +4216,14 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   16047:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 37.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 16047
@@ -4472,7 +4235,6 @@ types:
     name: Republic Fleet 1200mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2750
     price: 595840.0
@@ -4491,16 +4253,15 @@ types:
     typecolorscheme: 11339
     volume: 20.0
   16048:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 40.0
-    damagemultiplier: 12.807000160217285
+    damagemultiplier: 12.807
     falloff: 35000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 16048
     marketGroup: 579
@@ -4511,7 +4272,6 @@ types:
     name: Republic Fleet 1400mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 3250
     price: 744812.0
@@ -4526,11 +4286,10 @@ types:
     slots: 1
     speed: 38155.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11339
     volume: 20.0
   16049:
-    capacity: 0.4000000059604645
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
@@ -4538,8 +4297,8 @@ types:
     cpu: 4.0
     damagemultiplier: 3.09375
     falloff: 4730.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16049
     marketGroup: 574
@@ -4550,7 +4309,6 @@ types:
     name: Republic Fleet 150mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 1976.0
@@ -4569,15 +4327,14 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   16050:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 6.0
-    damagemultiplier: 3.6101999282836914
+    damagemultiplier: 3.6102
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 16050
@@ -4589,7 +4346,6 @@ types:
     name: Republic Fleet 200mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 4484.0
@@ -4608,16 +4364,15 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   16051:
-    capacity: 2.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 14.0
-    damagemultiplier: 2.887500047683716
+    damagemultiplier: 2.8875
     falloff: 9933.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 16051
     marketGroup: 575
@@ -4628,7 +4383,6 @@ types:
     name: Republic Fleet 220mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 110
     price: 25888.0
@@ -4643,19 +4397,18 @@ types:
     slots: 1
     speed: 4583.0
     techlevel: 1
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11339
     volume: 10.0
   16052:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 6.0980000495910645
+    damagemultiplier: 6.098
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 16052
@@ -4667,7 +4420,6 @@ types:
     name: Republic Fleet 250mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 5996.0
@@ -4686,16 +4438,15 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   16053:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 8.45199966430664
+    damagemultiplier: 8.452
     falloff: 8750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 16053
     marketGroup: 577
@@ -4706,7 +4457,6 @@ types:
     name: Republic Fleet 280mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 7496.0
@@ -4725,16 +4475,15 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   16054:
-    capacity: 1.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 17.0
-    damagemultiplier: 3.6101999282836914
+    damagemultiplier: 3.6102
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16054
     marketGroup: 575
@@ -4745,7 +4494,6 @@ types:
     name: Republic Fleet 425mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 154
     price: 44740.0
@@ -4760,20 +4508,19 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11339
     volume: 10.0
   16055:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 24.0
-    damagemultiplier: 5.539999961853027
+    damagemultiplier: 5.54
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.8
     hp: 40.0
     id: 16055
     marketGroup: 578
@@ -4784,7 +4531,6 @@ types:
     name: Republic Fleet 650mm Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 59676.0
@@ -4799,20 +4545,19 @@ types:
     slots: 1
     speed: 10902.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11339
     volume: 10.0
   16056:
-    capacity: 0.25
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 27.0
-    damagemultiplier: 9.569999694824219
+    damagemultiplier: 9.57
     falloff: 17500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 16056
     marketGroup: 578
@@ -4823,7 +4568,6 @@ types:
     name: Republic Fleet 720mm Howitzer Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 225
     price: 74980.0
@@ -4838,20 +4582,19 @@ types:
     slots: 1
     speed: 17103.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11339
     volume: 10.0
   16057:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 28.0
-    damagemultiplier: 3.3695199489593506
+    damagemultiplier: 3.36952
     falloff: 20640.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 16057
     marketGroup: 576
@@ -4862,7 +4605,6 @@ types:
     name: Republic Fleet 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2200
     price: 448700.0
@@ -4877,20 +4619,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11339
     volume: 20.0
   16058:
-    capacity: 2.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 13.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 9030.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 16058
     marketGroup: 575
@@ -4901,7 +4642,6 @@ types:
     name: Republic Fleet Dual 180mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     price: 10000.0
@@ -4916,20 +4656,19 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 1
-    trackingspeed: 44.689918518066406
+    trackingspeed: 44.68992
     typecolorscheme: 11339
     volume: 10.0
   16059:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 23.0
-    damagemultiplier: 2.5789499282836914
+    damagemultiplier: 2.57895
     falloff: 17200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.699999988079071
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.7
     hp: 40.0
     id: 16059
     marketGroup: 576
@@ -4940,7 +4679,6 @@ types:
     name: Republic Fleet Dual 425mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1375
     price: 98972.0
@@ -4955,20 +4693,19 @@ types:
     slots: 1
     speed: 6750.0
     techlevel: 1
-    trackingspeed: 5.713200092315674
+    trackingspeed: 5.7132
     typecolorscheme: 11339
     volume: 20.0
   16060:
-    capacity: 4.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 26.0
-    damagemultiplier: 3.055253744125366
+    damagemultiplier: 3.055253802
     falloff: 18920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16060
     marketGroup: 576
@@ -4979,7 +4716,6 @@ types:
     name: Republic Fleet Dual 650mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1650
     price: 298716.0
@@ -4994,19 +4730,18 @@ types:
     slots: 1
     speed: 7500.0
     techlevel: 1
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11339
     volume: 20.0
   20452:
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 55.0
     damagemultiplier: 4.125
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 20452
     marketGroup: 776
@@ -5015,10 +4750,9 @@ types:
     name: Hexa 2500mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5030,18 +4764,17 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04151500016450882
+    trackingspeed: 0.041515
     typecolorscheme: 11342
     volume: 4000.0
   20454:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 70.0
     damagemultiplier: 10.3125
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 20454
@@ -5051,10 +4784,9 @@ types:
     name: Quad 3500mm Siege Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -5066,19 +4798,18 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017100000753998756
+    trackingspeed: 0.0171
     typecolorscheme: 11342
     volume: 4000.0
   21545:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 8.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 5676.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 21545
@@ -5090,7 +4821,6 @@ types:
     name: 200mm Light 'Jolt' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 9000.0
@@ -5109,16 +4839,15 @@ types:
     typecolorscheme: 11341
     volume: 5.0
   21547:
-    capacity: 0.10000000149011612
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 10.0
-    damagemultiplier: 5.590000152587891
+    damagemultiplier: 5.59
     falloff: 9625.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 21547
     marketGroup: 577
@@ -5129,7 +4858,6 @@ types:
     name: 250mm Light 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 12000.0
@@ -5148,16 +4876,15 @@ types:
     typecolorscheme: 11341
     volume: 5.0
   21549:
-    capacity: 0.05000000074505806
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 1
     cpu: 13.0
-    damagemultiplier: 7.748000144958496
+    damagemultiplier: 7.748
     falloff: 9625.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 21549
     marketGroup: 577
@@ -5168,7 +4895,6 @@ types:
     name: 280mm 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 15000.0
@@ -5187,16 +4913,15 @@ types:
     typecolorscheme: 11341
     volume: 5.0
   21551:
-    capacity: 1.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 20.0
-    damagemultiplier: 3.1762499809265137
+    damagemultiplier: 3.17625
     falloff: 11920.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 21551
     marketGroup: 575
@@ -5207,7 +4932,6 @@ types:
     name: 425mm Medium 'Jolt' Autocannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 126
     price: 90000.0
@@ -5222,20 +4946,19 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11341
     volume: 10.0
   21553:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 23.0
-    damagemultiplier: 5.079999923706055
+    damagemultiplier: 5.08
     falloff: 19250.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.899999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
     hp: 40.0
     id: 21553
     marketGroup: 578
@@ -5246,7 +4969,6 @@ types:
     name: 650mm Medium 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 162
     price: 120000.0
@@ -5261,20 +4983,19 @@ types:
     slots: 1
     speed: 11475.0
     techlevel: 1
-    trackingspeed: 8.35200023651123
+    trackingspeed: 8.352
     typecolorscheme: 11341
     volume: 10.0
   21555:
-    capacity: 0.25
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 2
     cpu: 26.0
-    damagemultiplier: 8.770000457763672
+    damagemultiplier: 8.77
     falloff: 19250.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.4
     hp: 40.0
     id: 21555
     marketGroup: 578
@@ -5285,7 +5006,6 @@ types:
     name: 720mm 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 203
     price: 150000.0
@@ -5300,20 +5020,19 @@ types:
     slots: 1
     speed: 18003.0
     techlevel: 1
-    trackingspeed: 6.688000202178955
+    trackingspeed: 6.688
     typecolorscheme: 11341
     volume: 10.0
   21557:
-    capacity: 3.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 33.0
-    damagemultiplier: 2.9644999504089355
+    damagemultiplier: 2.9645
     falloff: 22704.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 21557
     marketGroup: 576
@@ -5324,7 +5043,6 @@ types:
     name: 800mm Heavy 'Jolt' Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 1800
     price: 900000.0
@@ -5339,20 +5057,19 @@ types:
     slots: 1
     speed: 7875.0
     techlevel: 1
-    trackingspeed: 4.320000171661377
+    trackingspeed: 4.32
     typecolorscheme: 11341
     volume: 20.0
   21559:
-    capacity: 1.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 36.0
-    damagemultiplier: 5.590000152587891
+    damagemultiplier: 5.59
     falloff: 38500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.0999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
     hp: 40.0
     id: 21559
     marketGroup: 579
@@ -5362,7 +5079,6 @@ types:
     name: 1200mm Heavy 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2475
     price: 1200000.0
@@ -5381,16 +5097,15 @@ types:
     typecolorscheme: 11341
     volume: 20.0
   21561:
-    capacity: 0.5
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
     chargesize: 3
     cpu: 38.0
-    damagemultiplier: 11.73900032043457
+    damagemultiplier: 11.739
     falloff: 38500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.5999999046325684
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.6
     hp: 40.0
     id: 21561
     marketGroup: 579
@@ -5401,7 +5116,6 @@ types:
     name: 1400mm 'Jolt' Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2925
     price: 1500000.0
@@ -5416,19 +5130,18 @@ types:
     slots: 1
     speed: 40163.0
     techlevel: 1
-    trackingspeed: 0.8999999761581421
+    trackingspeed: 0.9
     typecolorscheme: 11341
     volume: 20.0
   34284:
-    capacity: 0.8999999761581421
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 7.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 4128.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 34284
@@ -5439,7 +5152,6 @@ types:
     name: Polarized 200mm AutoCannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 109744.0
@@ -5462,16 +5174,15 @@ types:
     typecolorscheme: 11461
     volume: 5.0
   34286:
-    capacity: 4.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 20.0
-    damagemultiplier: 3.4649999141693115
+    damagemultiplier: 3.465
     falloff: 8669.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 34286
     marketGroup: 575
@@ -5481,7 +5192,6 @@ types:
     name: Polarized 425mm AutoCannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 140
     price: 373210.0
@@ -5500,20 +5210,19 @@ types:
     slots: 1
     speed: 4365.0
     techlevel: 2
-    trackingspeed: 38.860801696777344
+    trackingspeed: 38.8608
     typecolorscheme: 11461
     volume: 10.0
   34288:
-    capacity: 9.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 3
     cpu: 33.0
-    damagemultiplier: 3.2339999675750732
+    damagemultiplier: 3.234
     falloff: 16512.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.9
     hp: 40.0
     id: 34288
     marketGroup: 576
@@ -5523,7 +5232,6 @@ types:
     name: Polarized 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 20.0
     portionSize: 1
     power: 2000
     price: 1484776.0
@@ -5542,21 +5250,20 @@ types:
     slots: 1
     speed: 6300.0
     techlevel: 2
-    trackingspeed: 4.9679999351501465
+    trackingspeed: 4.968
     typecolorscheme: 11461
     volume: 20.0
   37289:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 0.6187475323677063
+    damagemultiplier: 0.618747525
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 37289
     marketGroup: 776
@@ -5565,10 +5272,9 @@ types:
     name: Quad 800mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5582,22 +5288,21 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 1.9199999570846558
+    trackingspeed: 1.92
     typecolorscheme: 11342
     volume: 4000.0
   37304:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 10.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 4
     cpu: 54.0
-    damagemultiplier: 0.6806222796440125
+    damagemultiplier: 0.680622278
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 37304
     marketGroup: 776
@@ -5607,10 +5312,9 @@ types:
     name: Quad 800mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5626,21 +5330,20 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 2
-    trackingspeed: 1.9199999570846558
+    trackingspeed: 1.92
     typecolorscheme: 11342
     volume: 4000.0
   37305:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 45.0
-    damagemultiplier: 0.6496849060058594
+    damagemultiplier: 0.649684901
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 37305
     marketGroup: 776
@@ -5650,10 +5353,9 @@ types:
     name: Compact Carbine Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5667,20 +5369,19 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 1.9199999570846558
+    trackingspeed: 1.92
     typecolorscheme: 11342
     volume: 4000.0
   37306:
-    capacity: 10.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 4
     cpu: 60.0
-    damagemultiplier: 4.537499904632568
+    damagemultiplier: 4.5375
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 37306
     marketGroup: 776
@@ -5690,10 +5391,9 @@ types:
     name: Hexa 2500mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5707,11 +5407,10 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 2
-    trackingspeed: 0.04151500016450882
+    trackingspeed: 0.041515
     typecolorscheme: 11342
     volume: 4000.0
   37307:
-    capacity: 5.0
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
@@ -5719,7 +5418,7 @@ types:
     cpu: 77.0
     damagemultiplier: 11.34375
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 37307
@@ -5730,10 +5429,9 @@ types:
     name: Quad 3500mm Siege Artillery II
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5747,21 +5445,20 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 2
-    trackingspeed: 0.017100000753998756
+    trackingspeed: 0.0171
     typecolorscheme: 11342
     volume: 4000.0
   41080:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 11.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 0.6496849060058594
+    damagemultiplier: 0.649684901
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 41080
     marketGroup: 776
@@ -5771,10 +5468,9 @@ types:
     name: Ample Gallium Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5788,21 +5484,20 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 1.9199999570846558
+    trackingspeed: 1.92
     typecolorscheme: 11342
     volume: 4000.0
   41081:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 0.6496849060058594
+    damagemultiplier: 0.649684901
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 41081
     marketGroup: 776
@@ -5812,10 +5507,9 @@ types:
     name: Scout Scoped Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5829,21 +5523,20 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 1.9199999570846558
+    trackingspeed: 1.92
     typecolorscheme: 11342
     volume: 4000.0
   41082:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 0.6496849060058594
+    damagemultiplier: 0.649684901
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 41082
     marketGroup: 776
@@ -5853,10 +5546,9 @@ types:
     name: Prototype Precise Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5870,22 +5562,21 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 2.0160000324249268
+    trackingspeed: 2.016
     typecolorscheme: 11342
     volume: 4000.0
   41083:
     canfitshipgroup01: 485
     canfitshipgroup02: 4594
-    capacity: 11.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 4
     cpu: 45.0
-    damagemultiplier: 0.7115596532821655
+    damagemultiplier: 0.711559654
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 41083
     marketGroup: 776
@@ -5896,10 +5587,9 @@ types:
     name: Domination Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5913,19 +5603,18 @@ types:
     slots: 1
     speed: 4000.0
     techlevel: 1
-    trackingspeed: 2.0160000324249268
+    trackingspeed: 2.016
     typecolorscheme: 11342
     volume: 4000.0
   41150:
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 4.331250190734863
+    damagemultiplier: 4.33125
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 41150
     marketGroup: 776
@@ -5935,10 +5624,9 @@ types:
     name: Carbine Compact Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5950,19 +5638,18 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04151500016450882
+    trackingspeed: 0.041515
     typecolorscheme: 11342
     volume: 4000.0
   41151:
-    capacity: 11.5
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 55.0
-    damagemultiplier: 4.331250190734863
+    damagemultiplier: 4.33125
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 41151
     marketGroup: 776
@@ -5972,10 +5659,9 @@ types:
     name: Gallium Ample Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -5987,19 +5673,18 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04151500016450882
+    trackingspeed: 0.041515
     typecolorscheme: 11342
     volume: 4000.0
   41152:
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 55.0
-    damagemultiplier: 4.331250190734863
+    damagemultiplier: 4.33125
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 41152
     marketGroup: 776
@@ -6009,10 +5694,9 @@ types:
     name: Scout Scoped Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -6024,19 +5708,18 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04151500016450882
+    trackingspeed: 0.041515
     typecolorscheme: 11342
     volume: 4000.0
   41153:
-    capacity: 10.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 55.0
-    damagemultiplier: 4.331250190734863
+    damagemultiplier: 4.33125
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 41153
     marketGroup: 776
@@ -6046,10 +5729,9 @@ types:
     name: Prototype Precise Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -6061,20 +5743,19 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04359075054526329
+    trackingspeed: 0.04359075
     typecolorscheme: 11342
     volume: 4000.0
   41154:
-    capacity: 10.0
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 4
     cpu: 50.0
-    damagemultiplier: 4.743750095367432
+    damagemultiplier: 4.74375
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.600000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.6
     hp: 40.0
     id: 41154
     marketGroup: 776
@@ -6085,10 +5766,9 @@ types:
     name: Domination Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
-    price: 3.269487E7
+    price: 32694870.0
     published: true
     radius: 200.0
     reloadtime: 10000.0
@@ -6100,18 +5780,17 @@ types:
     slots: 1
     speed: 8000.0
     techlevel: 1
-    trackingspeed: 0.04359075054526329
+    trackingspeed: 0.04359075
     typecolorscheme: 11342
     volume: 4000.0
   41156:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 63.0
     damagemultiplier: 10.828125
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41156
@@ -6122,10 +5801,9 @@ types:
     name: Carbide Compact Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -6137,18 +5815,17 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017100000753998756
+    trackingspeed: 0.0171
     typecolorscheme: 11342
     volume: 4000.0
   41157:
-    capacity: 5.75
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 70.0
     damagemultiplier: 10.828125
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41157
@@ -6159,10 +5836,9 @@ types:
     name: Gallium Ample Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -6174,18 +5850,17 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017100000753998756
+    trackingspeed: 0.0171
     typecolorscheme: 11342
     volume: 4000.0
   41158:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 70.0
     damagemultiplier: 10.828125
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41158
@@ -6196,10 +5871,9 @@ types:
     name: Scout Scoped Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -6211,18 +5885,17 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017100000753998756
+    trackingspeed: 0.0171
     typecolorscheme: 11342
     volume: 4000.0
   41159:
-    capacity: 5.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
     cpu: 70.0
     damagemultiplier: 10.828125
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41159
@@ -6233,10 +5906,9 @@ types:
     name: Prototype Precise Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -6248,11 +5920,10 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017954999580979347
+    trackingspeed: 0.017955
     typecolorscheme: 11342
     volume: 4000.0
   41160:
-    capacity: 5.75
     chargegroup1: 83
     chargegroup2: 376
     chargerate: 1
@@ -6260,7 +5931,7 @@ types:
     cpu: 63.0
     damagemultiplier: 11.859375
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 41160
@@ -6272,10 +5943,9 @@ types:
     name: Domination Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
-    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
     radius: 2000.0
     reloadtime: 10000.0
@@ -6287,19 +5957,18 @@ types:
     slots: 1
     speed: 30000.0
     techlevel: 1
-    trackingspeed: 0.017954999580979347
+    trackingspeed: 0.017955
     typecolorscheme: 11342
     volume: 4000.0
   85010:
-    capacity: 0.30000001192092896
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 1
     cpu: 9.0
-    damagemultiplier: 4.0432000160217285
+    damagemultiplier: 4.0432
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 85010
@@ -6310,7 +5979,6 @@ types:
     name: Ramaku's Modified 200mm AutoCannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 109744.0
@@ -6329,16 +5997,15 @@ types:
     typecolorscheme: 11343
     volume: 5.0
   85011:
-    capacity: 1.5
     chargegroup1: 83
     chargegroup2: 372
     chargerate: 1
     chargesize: 2
     cpu: 17.0
-    damagemultiplier: 4.0432000160217285
+    damagemultiplier: 4.0432
     falloff: 10836.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 85011
     marketGroup: 575
@@ -6349,7 +6016,6 @@ types:
     name: Sila's Modified 425mm Autocannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
-    packagedVolume: 10.0
     portionSize: 1
     power: 162
     price: 44740.0
@@ -6364,6 +6030,6 @@ types:
     slots: 1
     speed: 5456.0
     techlevel: 1
-    trackingspeed: 33.79199981689453
+    trackingspeed: 33.792
     typecolorscheme: 11318
     volume: 10.0

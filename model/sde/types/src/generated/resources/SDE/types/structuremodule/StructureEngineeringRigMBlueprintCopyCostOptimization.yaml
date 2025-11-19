@@ -8,13 +8,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 43890
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2347
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Blueprint Copy Cost Optimization II
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 10.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -35,13 +34,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 43891
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2347
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Blueprint Copy Cost Optimization I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 10.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0

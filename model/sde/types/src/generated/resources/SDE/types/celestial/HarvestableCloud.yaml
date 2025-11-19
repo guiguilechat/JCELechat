@@ -3,71 +3,70 @@ types:
     id: 25268
     marketGroup: 983
     name: Amber Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25273:
     id: 25273
     marketGroup: 983
     name: Golden Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25274:
     id: 25274
     marketGroup: 983
     name: Viridian Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25275:
     id: 25275
     marketGroup: 983
     name: Celadon Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25276:
     id: 25276
     marketGroup: 983
     name: Malachite Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25277:
     id: 25277
     marketGroup: 983
     name: Lime Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25278:
     id: 25278
     marketGroup: 983
     name: Vermillion Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   25279:
     id: 25279
     marketGroup: 983
     name: Azure Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28629:
     id: 28629
     ignoreminingwaste: 1
     name: Gamboge Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     price: 2000.0
     published: true
@@ -77,7 +76,6 @@ types:
     id: 28630
     ignoreminingwaste: 1
     name: Chartreuse Cytoserocin
-    packagedVolume: 10.0
     portionSize: 1
     price: 2000.0
     published: true
@@ -87,143 +85,143 @@ types:
     id: 28694
     marketGroup: 983
     name: Amber Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28695:
     id: 28695
     marketGroup: 983
     name: Azure Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28696:
     id: 28696
     marketGroup: 983
     name: Celadon Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28697:
     id: 28697
     marketGroup: 983
     name: Golden Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28698:
     id: 28698
     marketGroup: 983
     name: Lime Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28699:
     id: 28699
     marketGroup: 983
     name: Malachite Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28700:
     id: 28700
     marketGroup: 983
     name: Vermillion Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   28701:
     id: 28701
     marketGroup: 983
     name: Viridian Mykoserocin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   30370:
     id: 30370
     marketGroup: 1859
     name: Fullerite-C50
-    packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 1.0
   30371:
     id: 30371
     marketGroup: 1859
     name: Fullerite-C60
-    packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 1.0
   30372:
     id: 30372
     marketGroup: 1859
     name: Fullerite-C70
-    packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 1.0
   30373:
     id: 30373
     marketGroup: 1859
     name: Fullerite-C72
-    packagedVolume: 2.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 2.0
   30374:
     id: 30374
     marketGroup: 1859
     name: Fullerite-C84
-    packagedVolume: 2.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 2.0
   30375:
     id: 30375
     marketGroup: 1859
     name: Fullerite-C28
-    packagedVolume: 2.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 2.0
   30376:
     id: 30376
     marketGroup: 1859
     name: Fullerite-C32
-    packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 5.0
   30377:
     id: 30377
     marketGroup: 1859
     name: Fullerite-C320
-    packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 5.0
   30378:
     id: 30378
     marketGroup: 1859
     name: Fullerite-C540
-    packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
     volume: 10.0
   49787:
     id: 49787
     marketGroup: 518
     name: Hiemal Tricarboxyl Vapor
-    packagedVolume: 10.0
     portionSize: 15
     published: true
+    radius: 100.0
     volume: 10.0

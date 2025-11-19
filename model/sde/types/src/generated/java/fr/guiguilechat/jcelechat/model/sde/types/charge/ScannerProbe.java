@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseMaxScanDeviation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseScanRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseSensorStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProbeCanScanShips;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -184,7 +182,7 @@ public class ScannerProbe
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MaxVelocity.INSTANCE, ProbeCanScanShips.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ExplosionDelay.INSTANCE, BaseScanRange.INSTANCE, BaseSensorStrength.INSTANCE, MetaGroupID.INSTANCE, BaseMaxScanDeviation.INSTANCE, RangeFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocity.INSTANCE, ProbeCanScanShips.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ExplosionDelay.INSTANCE, BaseScanRange.INSTANCE, BaseSensorStrength.INSTANCE, BaseMaxScanDeviation.INSTANCE, MetaGroupID.INSTANCE, RangeFactor.INSTANCE })));
     public static final ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
 
     @Override

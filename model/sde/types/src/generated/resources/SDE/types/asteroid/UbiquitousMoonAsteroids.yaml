@@ -9,11 +9,9 @@ types:
     mass: 4000.0
     name: Zeolites
     orebasictype: 45490
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -29,11 +27,9 @@ types:
     mass: 4000.0
     name: Sylvite
     orebasictype: 45491
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -49,11 +45,9 @@ types:
     mass: 4000.0
     name: Bitumens
     orebasictype: 45492
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -69,11 +63,9 @@ types:
     mass: 4000.0
     name: Coesite
     orebasictype: 45493
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -89,11 +81,9 @@ types:
     mass: 4000.0
     name: Brimful Zeolites
     orebasictype: 45490
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -109,11 +99,9 @@ types:
     mass: 4000.0
     name: Glistening Zeolites
     orebasictype: 45490
-    packagedVolume: 10.0
     portionSize: 100
     price: 3000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -129,11 +117,9 @@ types:
     mass: 4000.0
     name: Brimful Sylvite
     orebasictype: 45491
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -149,11 +135,9 @@ types:
     mass: 4000.0
     name: Glistening Sylvite
     orebasictype: 45491
-    packagedVolume: 10.0
     portionSize: 100
     price: 3000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -169,11 +153,9 @@ types:
     mass: 4000.0
     name: Brimful Bitumens
     orebasictype: 45492
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -189,11 +171,9 @@ types:
     mass: 4000.0
     name: Glistening Bitumens
     orebasictype: 45492
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -209,11 +189,9 @@ types:
     mass: 4000.0
     name: Brimful Coesite
     orebasictype: 45493
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -229,11 +207,9 @@ types:
     mass: 4000.0
     name: Glistening Coesite
     orebasictype: 45493
-    packagedVolume: 10.0
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
@@ -249,16 +225,14 @@ types:
     mass: 4000.0
     name: Compressed Bitumens
     orebasictype: 45492
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62455:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -269,16 +243,14 @@ types:
     mass: 4000.0
     name: Compressed Brimful Bitumens
     orebasictype: 45492
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62456:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -289,16 +261,14 @@ types:
     mass: 4000.0
     name: Compressed Glistening Bitumens
     orebasictype: 45492
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62457:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -309,16 +279,14 @@ types:
     mass: 4000.0
     name: Compressed Coesite
     orebasictype: 45493
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62458:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -329,16 +297,14 @@ types:
     mass: 4000.0
     name: Compressed Brimful Coesite
     orebasictype: 45493
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62459:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -349,16 +315,14 @@ types:
     mass: 4000.0
     name: Compressed Glistening Coesite
     orebasictype: 45493
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62460:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -369,16 +333,14 @@ types:
     mass: 4000.0
     name: Compressed Sylvite
     orebasictype: 45491
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62461:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -389,16 +351,14 @@ types:
     mass: 4000.0
     name: Compressed Brimful Sylvite
     orebasictype: 45491
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62463:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -409,16 +369,14 @@ types:
     mass: 4000.0
     name: Compressed Zeolites
     orebasictype: 45490
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62464:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -429,16 +387,14 @@ types:
     mass: 4000.0
     name: Compressed Brimful Zeolites
     orebasictype: 45490
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 1500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62466:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -449,16 +405,14 @@ types:
     mass: 4000.0
     name: Compressed Glistening Sylvite
     orebasictype: 45491
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62467:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -469,13 +423,11 @@ types:
     mass: 4000.0
     name: Compressed Glistening Zeolites
     orebasictype: 45490
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46152
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

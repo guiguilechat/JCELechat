@@ -4,350 +4,286 @@ types:
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Radio S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1155:
     id: 1155
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Microwave S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1156:
     id: 1156
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Infrared S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1157:
     id: 1157
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Standard S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12500.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1158:
     id: 1158
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Ultraviolet S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 15000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1159:
     id: 1159
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Xray S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1160:
     id: 1160
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Gamma S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 35000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1161:
     id: 1161
     industryblueprintrank: 1.0
     marketGroup: 302
     name: Multifrequency S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1162:
     id: 1162
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Radio M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1163:
     id: 1163
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Microwave M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1164:
     id: 1164
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Infrared M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1165:
     id: 1165
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Standard M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1166:
     id: 1166
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Ultraviolet M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1167:
     id: 1167
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Xray M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1168:
     id: 1168
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Gamma M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 350000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1169:
     id: 1169
     industryblueprintrank: 2.0
     marketGroup: 303
     name: Multifrequency M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1170:
     id: 1170
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Radio L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1171:
     id: 1171
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Microwave L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1172:
     id: 1172
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Infrared L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1173:
     id: 1173
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Standard L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1250000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1174:
     id: 1174
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Ultraviolet L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1175:
     id: 1175
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Xray L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1176:
     id: 1176
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Gamma L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   1177:
     id: 1177
     industryblueprintrank: 3.0
     marketGroup: 305
     name: Multifrequency L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17681:
     id: 17681
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Gamma XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E7
+    price: 35000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17683:
     id: 17683
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Infrared XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17685:
     id: 17685
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Microwave XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17687:
     id: 17687
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Multifrequency XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17689:
     id: 17689
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Radio XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17691:
     id: 17691
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Standard XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E7
+    price: 12500000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17693:
     id: 17693
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Ultraviolet XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17695:
     id: 17695
     industryblueprintrank: 4.0
     marketGroup: 599
     name: Xray XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

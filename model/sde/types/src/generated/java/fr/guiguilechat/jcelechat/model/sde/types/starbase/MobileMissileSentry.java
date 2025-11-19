@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AmmoCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerMinimumDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -46,7 +45,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PosPlayerControlStructure;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
@@ -55,7 +53,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -303,7 +300,7 @@ public class MobileMissileSentry
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AmmoCapacity.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, PosPlayerControlStructure.INSTANCE, RequiredSkill1Level.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, TargetSwitchDelay.INSTANCE, ScanResolution.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, ChargeGroup1 .INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MissileLaunchDuration.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, AmmoCapacity.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, MaxTargetRange.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, PosPlayerControlStructure.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, ProximityRange.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, IncapacitationRatio.INSTANCE, EntityAttackDelayMax.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, EntityFlyRange.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, AnchoringDelay.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Cpu.INSTANCE, TargetSwitchDelay.INSTANCE, ScanResolution.INSTANCE, RequiredSkill1 .INSTANCE, MissileLaunchDuration.INSTANCE })));
     public static final MobileMissileSentry.MetaGroup METAGROUP = new MobileMissileSentry.MetaGroup();
 
     @Override

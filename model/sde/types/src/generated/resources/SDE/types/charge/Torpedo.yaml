@@ -1,9 +1,9 @@
 types:
   267:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -13,13 +13,12 @@ types:
     hp: 360.0
     id: 267
     kineticdamage: 450.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 508
     marketGroup: 923
     mass: 1500.0
     maxvelocity: 1800.0
     name: Scourge Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 30000.0
     published: true
@@ -31,17 +30,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   2506:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamage: 450.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
@@ -52,7 +51,6 @@ types:
     mass: 1500.0
     maxvelocity: 1800.0
     name: Mjolnir Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 35000.0
     published: true
@@ -64,19 +62,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   2508:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 7200
     explosivedamage: 450.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 360.0
     id: 2508
     kineticdamageresonance: 1.0
@@ -85,7 +83,6 @@ types:
     mass: 1500.0
     maxvelocity: 1800.0
     name: Nova Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 25000.0
     published: true
@@ -97,12 +94,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   2510:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -117,7 +114,6 @@ types:
     mass: 1500.0
     maxvelocity: 1800.0
     name: Inferno Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 32500.0
     published: true
@@ -129,18 +125,18 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 450.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   27337:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamage: 495.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 480.0
@@ -153,7 +149,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Mjolnir Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 35000.0
     published: true
@@ -165,17 +160,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27339:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamage: 517.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
@@ -188,7 +183,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Mjolnir Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 35000.0
     published: true
@@ -200,17 +194,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27341:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamage: 540.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
@@ -223,7 +217,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Mjolnir Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 35000.0
     published: true
@@ -235,12 +228,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27343:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -250,7 +243,7 @@ types:
     hp: 480.0
     id: 27343
     kineticdamage: 495.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 508
     marketGroup: 1000
     mass: 1500.0
@@ -258,7 +251,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Scourge Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 30000.0
     published: true
@@ -270,12 +262,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27345:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -285,7 +277,7 @@ types:
     hp: 360.0
     id: 27345
     kineticdamage: 517.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 508
     marketGroup: 1000
     mass: 1500.0
@@ -293,7 +285,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Scourge Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 30000.0
     published: true
@@ -305,12 +296,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27347:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -320,7 +311,7 @@ types:
     hp: 360.0
     id: 27347
     kineticdamage: 540.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 508
     marketGroup: 1000
     mass: 1500.0
@@ -328,7 +319,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Scourge Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 30000.0
     published: true
@@ -340,12 +330,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27349:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -362,7 +352,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Inferno Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 32500.0
     published: true
@@ -374,13 +363,13 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 495.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   27351:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -397,7 +386,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Inferno Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 32500.0
     published: true
@@ -409,13 +397,13 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 517.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   27355:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
@@ -432,7 +420,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Inferno Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 32500.0
     published: true
@@ -444,20 +431,20 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 540.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.05000000074505806
+    thermaldamageresonance: 0.8
+    volume: 0.05
   27357:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 7200
     explosivedamage: 495.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 480.0
     id: 27357
     kineticdamageresonance: 1.0
@@ -468,7 +455,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Nova Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 25000.0
     published: true
@@ -480,19 +466,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27359:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 7200
     explosivedamage: 517.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 360.0
     id: 27359
     kineticdamageresonance: 1.0
@@ -503,7 +489,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Nova Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 25000.0
     published: true
@@ -515,19 +500,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   27363:
-    agility: 5.220125675201416
+    agility: 5.22012569356
     aimedlaunch: 1
     aoecloudsize: 405
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 7200
     explosivedamage: 540.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 360.0
     id: 27363
     kineticdamageresonance: 1.0
@@ -538,7 +523,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Nova Torpedo
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 25000.0
     published: true
@@ -550,4 +534,4 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05

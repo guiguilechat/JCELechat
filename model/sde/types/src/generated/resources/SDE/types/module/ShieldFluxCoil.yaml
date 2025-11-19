@@ -10,15 +10,14 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Shield Flux Coil'
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 1
-    shieldcapacitymultiplier: 0.949999988079071
-    shieldrechargeratemultiplier: 0.8100000023841858
+    shieldcapacitymultiplier: 0.95
+    shieldrechargeratemultiplier: 0.81
     techlevel: 1
     volume: 5.0
   1254:
@@ -30,15 +29,14 @@ types:
     marketGroup: 687
     mass: 20.0
     name: Shield Flux Coil I
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 2
-    shieldcapacitymultiplier: 0.8500000238418579
-    shieldrechargeratemultiplier: 0.7200000286102295
+    shieldcapacitymultiplier: 0.85
+    shieldrechargeratemultiplier: 0.72
     techlevel: 1
     volume: 5.0
   1256:
@@ -51,15 +49,14 @@ types:
     mass: 20.0
     metalevelold: 5
     name: Shield Flux Coil II
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 4
-    shieldcapacitymultiplier: 0.8500000238418579
-    shieldrechargeratemultiplier: 0.699999988079071
+    shieldcapacitymultiplier: 0.85
+    shieldrechargeratemultiplier: 0.7
     techlevel: 2
     volume: 5.0
   8295:
@@ -72,14 +69,13 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Shield Flux Coil
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 2
-    shieldcapacitymultiplier: 0.8999999761581421
+    shieldcapacitymultiplier: 0.9
     shieldrechargeratemultiplier: 0.75
     techlevel: 1
     volume: 5.0
@@ -93,15 +89,14 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Mark I Compact Shield Flux Coil
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 2
-    shieldcapacitymultiplier: 0.8500000238418579
-    shieldrechargeratemultiplier: 0.7099999785423279
+    shieldcapacitymultiplier: 0.85
+    shieldrechargeratemultiplier: 0.71
     techlevel: 1
     volume: 5.0
   37825:
@@ -115,14 +110,13 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Shield Flux Coil
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
     radius: 500.0
     requiredskill1: 3424
     requiredskill1level: 2
-    shieldcapacitymultiplier: 0.8500000238418579
-    shieldrechargeratemultiplier: 0.6899999976158142
+    shieldcapacitymultiplier: 0.85
+    shieldrechargeratemultiplier: 0.69
     techlevel: 1
     volume: 5.0

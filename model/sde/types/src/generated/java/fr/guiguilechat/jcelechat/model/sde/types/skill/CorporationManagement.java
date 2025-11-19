@@ -15,12 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseDefenderAllyCost;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CorporationMemberBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -123,7 +121,7 @@ public class CorporationManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ResearchGangSizeBonus.INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, BaseDefenderAllyCost.INSTANCE, SkillAllyCostModifierBonus.INSTANCE, CorporationMemberBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, ResearchGangSizeBonus.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, BaseDefenderAllyCost.INSTANCE, SkillAllyCostModifierBonus.INSTANCE, CorporationMemberBonus.INSTANCE })));
     public static final CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
 
     @Override

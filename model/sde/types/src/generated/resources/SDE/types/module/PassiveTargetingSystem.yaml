@@ -8,11 +8,9 @@ types:
     marketGroup: 672
     mass: 2000.0
     name: Passive Targeter I
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     techlevel: 1
@@ -27,11 +25,9 @@ types:
     mass: 2000.0
     metalevelold: 5
     name: Passive Targeter II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 2
     techlevel: 2
@@ -46,11 +42,9 @@ types:
     mass: 2000.0
     metalevelold: 2
     name: Indirect Target Acquisition I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     techlevel: 1
@@ -65,11 +59,9 @@ types:
     mass: 2000.0
     metalevelold: 4
     name: Passive Targeting Array I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     techlevel: 1
@@ -84,11 +76,9 @@ types:
     mass: 2000.0
     metalevelold: 1
     name: Suppressed Targeting System I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     techlevel: 1
@@ -103,11 +93,9 @@ types:
     mass: 2000.0
     metalevelold: 3
     name: 41F Veiled Targeting Unit
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     techlevel: 1

@@ -4,14 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.625
     capacitorcapacity: 480.0
-    damagemultiplier: 2.299999952316284
+    damagemultiplier: 2.3
     emdamage: 120.0
     entityarmorrepairamount: 2000.0
     entityarmorrepairduration: 12000
@@ -20,28 +20,28 @@ types:
     entityattackrange: 100000
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.30000001192092896
+    entitychasemaxdelaychance: 0.3
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 0.699999988079071
+    entitychasemaxdurationchance: 0.7
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentmax: 5
     entityequipmentmin: 2
     entityflyrange: 3500.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entityshieldboostduration: 10000
     entitystrength: 20
-    entitywarpscramblechance: 0.6499999761581421
+    entitywarpscramblechance: 0.65
     falloff: 50000.0
     gfxboosterid: 394
     gfxturretid: 460
     hp: 10000.0
     id: 35812
-    mass: 9.71E7
+    mass: 97100000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1
     maxlockedtargets: 1
@@ -54,12 +54,11 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
-    modifytargetspeedchance: 0.6499999761581421
+    modifytargetspeedchance: 0.65
     modifytargetspeedduration: 20000.0
     modifytargetspeedrange: 10000
     name: Amarr Navy Apocalypse
     optimalsigradius: 100
-    packagedVolume: 495000.0
     portionSize: 1
     published: false
     radius: 400.0
@@ -69,17 +68,17 @@ types:
     scanspeed: 8250
     shieldcapacity: 8000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 350000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 4000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 64.0
-    trackingspeed: 0.0820000022649765
+    trackingspeed: 0.082
     volume: 495000.0
     warpscramblerange: 12500
     warpscramblestrength: 2
@@ -88,19 +87,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.51
+    armorexplosivedamageresonance: 0.21
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.3100000023841858
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.31
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 3900.0
     damagemultiplier: 20.0
     emdamage: 24.0
     entityarmorrepairamount: 2000.0
     entityarmorrepairdelaychance: 0.75
-    entityarmorrepairdelaychancelarge: 0.7400000095367432
+    entityarmorrepairdelaychancelarge: 0.74
     entityarmorrepairduration: 12000
     entityattackdelaymax: 12900
     entityattackdelaymin: 3225
@@ -112,25 +111,25 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentmax: 6
     entityequipmentmin: -4
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 49000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8600000143051147
+    entityreactionfactor: 0.86
     entitysecuritymaxgain: 5.0
-    entityshieldboostdelaychancelarge: 0.7400000095367432
+    entityshieldboostdelaychancelarge: 0.74
     entityshieldboostduration: 5000
     falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 464
     hp: 10000.0
     id: 35816
-    mass: 2.05E7
+    mass: 20500000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 1000
     maxlockedtargets: 1
@@ -147,7 +146,6 @@ types:
     modifytargetspeedrange: 20000
     name: Amarr Navy Armageddon
     optimalsigradius: 100
-    packagedVolume: 1100000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -157,16 +155,16 @@ types:
     scanresolution: 100.0
     scanspeed: 7500
     shieldcapacity: 8000.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.20999999344348907
-    shieldkineticdamageresonance: 0.3100000023841858
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.21
+    shieldkineticdamageresonance: 0.31
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.4099999964237213
+    shieldthermaldamageresonance: 0.41
     shielduniformity: 0.75
     signatureradius: 370.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.0820000022649765
+    trackingspeed: 0.082
     volume: 1100000.0

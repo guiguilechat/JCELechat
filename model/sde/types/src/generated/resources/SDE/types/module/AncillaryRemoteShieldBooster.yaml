@@ -1,14 +1,13 @@
 types:
   41480:
     capacitorneed: 135.0
-    capacity: 7.0
     chargegroup1: 87
     chargerate: 1
     cpu: 28.0
     duration: 4000.0
     falloffeffectiveness: 6500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 41480
     marketGroup: 603
@@ -19,12 +18,10 @@ types:
     name: Small Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 4996.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 3422
@@ -35,15 +32,14 @@ types:
     volume: 5.0
   41481:
     capacitorneed: 700.0
-    capacity: 14.0
     chargegroup1: 87
     chargerate: 1
     chargesize: 1
     cpu: 50.0
     duration: 8000.0
     falloffeffectiveness: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41481
     marketGroup: 602
@@ -54,12 +50,10 @@ types:
     name: Medium Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 52
     price: 12470.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 3422
@@ -70,15 +64,14 @@ types:
     volume: 10.0
   41482:
     capacitorneed: 1475.0
-    capacity: 42.0
     chargegroup1: 87
     chargerate: 1
     chargesize: 2
     cpu: 112.0
     duration: 8000.0
     falloffeffectiveness: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41482
     marketGroup: 601
@@ -89,12 +82,10 @@ types:
     name: Large Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 208
     price: 31244.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 3422
@@ -105,15 +96,14 @@ types:
     volume: 25.0
   41483:
     capacitorneed: 7200.0
-    capacity: 900.0
     chargegroup1: 87
     chargerate: 1
     chargesize: 4
     cpu: 112.0
     duration: 16000.0
     falloffeffectiveness: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 41483
     marketGroup: 600
@@ -124,12 +114,10 @@ types:
     name: Capital Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
-    price: 2.465951E7
+    price: 24659510.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 24571

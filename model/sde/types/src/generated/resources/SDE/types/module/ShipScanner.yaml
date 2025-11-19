@@ -8,11 +8,9 @@ types:
     id: 443
     marketGroup: 713
     name: Ship Scanner I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     shipscanfalloff: 30000
@@ -30,11 +28,9 @@ types:
     marketGroup: 713
     metalevelold: 5
     name: Ship Scanner II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 2
     shipscanfalloff: 36000
@@ -52,11 +48,9 @@ types:
     marketGroup: 713
     metalevelold: 1
     name: Ta3 Compact Ship Scanner
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     shipscanfalloff: 33000

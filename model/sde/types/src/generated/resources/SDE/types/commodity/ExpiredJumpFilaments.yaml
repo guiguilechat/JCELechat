@@ -6,42 +6,34 @@ types:
     mjdshipjumpcap: 10
     mjfgradius: 6000
     name: Expired Capsuleer Day Signal-10 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   54803:
     filamentdescriptionmessageid: 561098
     id: 54803
     mjdshipjumpcap: 10
     mjfgradius: 6000
     name: Expired Capsuleer Day Noise-10 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   59307:
     filamentdescriptionmessageid: 561098
     id: 59307
     mjdshipjumpcap: 1
     name: Expired Serenity Capsuleer Day Noise-18 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   59308:
     filamentdescriptionmessageid: 561098
     id: 59308
     mjdshipjumpcap: 1
     name: Expired Serenity Capsuleer Day Signal-18 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88202:
     filamentdescriptionmessageid: 1011870
     filamentspooluptimeseconds: 60
@@ -51,11 +43,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Expired Sanctified Vidette Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88203:
     filamentdescriptionmessageid: 1011870
     filamentspooluptimeseconds: 60
@@ -65,11 +55,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Expired Azdaja Redoubt Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88204:
     filamentdescriptionmessageid: 1011870
     filamentspooluptimeseconds: 60
@@ -79,11 +67,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Expired Sentinel MZ Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88205:
     filamentdescriptionmessageid: 1011870
     filamentspooluptimeseconds: 60
@@ -93,11 +79,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Expired Liberated Barbican Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88206:
     filamentdescriptionmessageid: 1011870
     filamentspooluptimeseconds: 60
@@ -107,8 +91,6 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Expired Conflux Eyrie Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

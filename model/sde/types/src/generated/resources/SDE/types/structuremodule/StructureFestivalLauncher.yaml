@@ -3,7 +3,6 @@ types:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
-    capacity: 5.0
     chargegroup1: 1976
     chargerate: 1
     cpu: 1.0
@@ -11,11 +10,9 @@ types:
     id: 47303
     marketGroup: 1663
     name: Standup Large Festival Launcher
-    packagedVolume: 20.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     reloadtime: 200.0
     slots: 1
     speed: 4000.0

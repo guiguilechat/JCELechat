@@ -4,64 +4,52 @@ types:
     marketGroup: 3736
     mass: 1000.0
     name: Power Monitoring Division 1
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 8000.0
   87710:
     id: 87710
     marketGroup: 3736
     mass: 1000.0
     name: Workforce Mecha-Tooling 1
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 8000.0
   88221:
     id: 88221
     marketGroup: 3736
     mass: 1000.0
     name: Power Monitoring Division 2
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     volume: 8000.0
   88227:
     id: 88227
     marketGroup: 3736
     mass: 1000.0
     name: Power Monitoring Division 3
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     volume: 8000.0
   88228:
     id: 88228
     marketGroup: 3736
     mass: 1000.0
     name: Workforce Mecha-Tooling 2
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     volume: 8000.0
   88229:
     id: 88229
     marketGroup: 3736
     mass: 1000.0
     name: Workforce Mecha-Tooling 3
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     volume: 8000.0

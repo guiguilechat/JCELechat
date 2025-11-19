@@ -9,11 +9,9 @@ types:
     mass: 30.0
     maxlockedtargetsbonus: 2
     name: Auto Targeting System I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     targethostilerange: 50000
@@ -30,11 +28,9 @@ types:
     maxlockedtargetsbonus: 3
     metalevelold: 5
     name: Auto Targeting System II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 4
     targethostilerange: 60000
@@ -50,11 +46,9 @@ types:
     maxlockedtargetsbonus: 2
     metalevelold: 1
     name: Hostile Target Acquisition I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     targethostilerange: 50000
@@ -70,11 +64,9 @@ types:
     maxlockedtargetsbonus: 2
     metalevelold: 2
     name: '''Recusant'' Hostile Targeting Array I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     targethostilerange: 50000
@@ -90,11 +82,9 @@ types:
     maxlockedtargetsbonus: 2
     metalevelold: 3
     name: Responsive Auto-Targeting System I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     targethostilerange: 50000
@@ -110,11 +100,9 @@ types:
     maxlockedtargetsbonus: 2
     metalevelold: 4
     name: Automated Targeting Unit I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3429
     requiredskill1level: 1
     targethostilerange: 50000

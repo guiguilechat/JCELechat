@@ -36,9 +36,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow
-    packagedVolume: 1800.0
     portionSize: 1
-    price: 2.0336332E7
+    price: 20336332.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -100,9 +99,8 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 741.0
     name: Cyclops I
-    packagedVolume: 1800.0
     portionSize: 1
-    price: 2.1394992E7
+    price: 21394992.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -164,9 +162,8 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 864.0
     name: Malleus I
-    packagedVolume: 1800.0
     portionSize: 1
-    price: 2.004734E7
+    price: 20047340.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -228,9 +225,8 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 906.0
     name: Tyrfing I
-    packagedVolume: 1800.0
     portionSize: 1
-    price: 2.000134E7
+    price: 20001340.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -292,9 +288,8 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 781.5
     name: Mantis I
-    packagedVolume: 1800.0
     portionSize: 1
-    price: 2.0336332E7
+    price: 20336332.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -349,7 +344,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 555.0
     name: Ametat I
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -405,7 +399,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 502.0
     name: Termite I
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -461,7 +454,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 476.0
     name: Antaeus I
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -517,7 +509,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 582.0
     name: Gungnir I
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -574,7 +565,6 @@ types:
     maxvelocity: 578.0
     metalevelold: 5
     name: Ametat II
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -588,8 +578,8 @@ types:
     scanresolution: 450.0
     shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -638,7 +628,6 @@ types:
     maxvelocity: 900.0
     metalevelold: 5
     name: Malleus II
-    packagedVolume: 1800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -652,8 +641,8 @@ types:
     scanresolution: 520.0
     shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -695,7 +684,6 @@ types:
     maxvelocity: 495.0
     metalevelold: 5
     name: Antaeus II
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -710,9 +698,9 @@ types:
     shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -759,7 +747,6 @@ types:
     maxvelocity: 771.0
     metalevelold: 5
     name: Cyclops II
-    packagedVolume: 1800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -774,9 +761,9 @@ types:
     shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -816,7 +803,6 @@ types:
     maxvelocity: 605.0
     metalevelold: 5
     name: Gungnir II
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -829,11 +815,11 @@ types:
     scanladarstrength: 8.0
     scanresolution: 450.0
     shieldcapacity: 4158.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -880,7 +866,6 @@ types:
     maxvelocity: 942.0
     metalevelold: 5
     name: Tyrfing II
-    packagedVolume: 1800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -893,11 +878,11 @@ types:
     scanladarstrength: 8.0
     scanresolution: 520.0
     shieldcapacity: 4433.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -937,7 +922,6 @@ types:
     maxvelocity: 523.0
     metalevelold: 5
     name: Termite II
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -952,9 +936,9 @@ types:
     shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -1001,7 +985,6 @@ types:
     maxvelocity: 814.5
     metalevelold: 5
     name: Mantis II
-    packagedVolume: 1800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1016,9 +999,9 @@ types:
     shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0

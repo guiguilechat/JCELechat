@@ -3,29 +3,23 @@ types:
     id: 33515
     industryblueprintrank: 40.0
     name: Small Mobile Siphon Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33582:
     id: 33582
     industryblueprintrank: 40.0
     name: Small Mobile 'Hybrid' Siphon Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33584:
     id: 33584
     industryblueprintrank: 40.0
     name: Small Mobile 'Rote' Siphon Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E8
+    price: 120000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

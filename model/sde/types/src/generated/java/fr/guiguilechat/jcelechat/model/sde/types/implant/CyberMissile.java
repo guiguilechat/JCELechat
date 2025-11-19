@@ -16,13 +16,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxFlightTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RofBonus;
@@ -106,7 +104,7 @@ public class CyberMissile
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MissileVelocityBonus.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Implantness.INSTANCE, MaxFlightTimeBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AoeCloudSizeBonus.INSTANCE, MissileVelocityBonus.INSTANCE, DamageMultiplierBonus.INSTANCE, SpeedFactor.INSTANCE, RofBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, MaxFlightTimeBonus.INSTANCE, AoeVelocityBonus.INSTANCE })));
     public static final CyberMissile.MetaGroup METAGROUP = new CyberMissile.MetaGroup();
 
     @Override

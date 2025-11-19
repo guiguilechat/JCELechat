@@ -4,711 +4,633 @@ types:
     id: 3300
     marketGroup: 364
     name: Gunnery
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     secondaryattribute: 168
     skilltimeconstant: 1.0
     turretspeebonus: -2
-    volume: 0.009999999776482582
+    volume: 0.01
   3301:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3302:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3303:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3304:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 3
     requiredskill2: 3301
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3305:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 3
     requiredskill2: 3302
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3306:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 3
     requiredskill2: 3303
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3307:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3304
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3308:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3305
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3309:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3306
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3310:
     cannotbetrainedontrial: 1
     id: 3310
     marketGroup: 364
     name: Rapid Firing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 2
     rofbonus: -4
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3311:
     cannotbetrainedontrial: 1
     id: 3311
     marketGroup: 364
     name: Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     rangeskillbonus: 5
     requiredskill1: 3300
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3312:
     cannotbetrainedontrial: 1
     id: 3312
     marketGroup: 364
     name: Motion Prediction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 90000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
     trackingspeedbonus: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3315:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 3.0
     id: 3315
     marketGroup: 364
     name: Surgical Strike
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 4.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3316:
     cannotbetrainedontrial: 1
     capneedbonus: -5
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3317:
     cannotbetrainedontrial: 1
     falloffbonus: 5.0
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11082:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 3
     requiredskill2: 3301
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11083:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 3
     requiredskill2: 3303
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11084:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 3
     requiredskill2: 3302
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12201:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 3
     requiredskill2: 3302
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12202:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 4
     requiredskill2: 3305
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12203:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 3308
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12204:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 4
     requiredskill2: 3306
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12205:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 3309
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12206:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 4
     requiredskill2: 3304
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12207:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 3307
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12208:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 4
     requiredskill2: 3305
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12209:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 3308
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12210:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 3
     requiredskill2: 3301
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12211:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 4
     requiredskill2: 3304
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12212:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 3307
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12213:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 3
     requiredskill2: 3303
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12214:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 4
     requiredskill2: 3306
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12215:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 3309
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20327:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3309
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 7.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21666:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3307
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 7.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21667:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 3308
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 7.0
-    volume: 0.009999999776482582
+    volume: 0.01
   22043:
     cannotbetrainedontrial: 1
     consumptionquantitybonus: 25
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 11207
     requiredskill1level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24563:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 10.0
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 5
     requiredskill2: 3421
@@ -717,362 +639,324 @@ types:
     requiredskill3level: 5
     secondaryattribute: 165
     skilltimeconstant: 14.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41403:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 21667
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41404:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 21667
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41405:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 21666
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41406:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 21666
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41407:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 20327
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41408:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3311
     requiredskill1level: 5
     requiredskill2: 20327
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41537:
     cannotbetrainedontrial: 1
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 24563
     requiredskill1level: 2
     rofbonus: -4
     secondaryattribute: 165
     skilltimeconstant: 14.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47870:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47871:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 3
     requiredskill2: 47870
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47872:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8E7
+    price: 18000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 47871
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47873:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 3
     requiredskill2: 47870
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47874:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 4
     requiredskill2: 47871
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   47875:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3312
     requiredskill1level: 5
     requiredskill2: 47872
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   52998:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3300
     requiredskill1level: 5
     requiredskill2: 47872
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 7.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54826:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 54826
     marketGroup: 364
     name: Large Vorton Projector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 55033
     requiredskill1level: 5
     requiredskill2: 55035
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54827:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 54827
     marketGroup: 364
     name: Small Vorton Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 54841
     requiredskill1level: 3
     requiredskill2: 55034
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54828:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 54828
     marketGroup: 364
     name: Medium Vorton Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 54841
     requiredskill1level: 4
     requiredskill2: 55035
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54829:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
     id: 54829
     marketGroup: 364
     name: Large Vorton Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 54841
     requiredskill1level: 5
     requiredskill2: 54826
     requiredskill2level: 5
     secondaryattribute: 168
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54840:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 3.0
     id: 54840
     marketGroup: 364
     name: Vorton Power Amplification
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.5E7
+    price: 45000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 55033
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 4.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54841:
     aoecloudsizebonus: -5.0
     aoevelocitybonus: 10.0
@@ -1080,97 +964,85 @@ types:
     id: 54841
     marketGroup: 364
     name: Vorton Arc Guidance
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.1E7
+    price: 31000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 55033
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   55033:
     cannotbetrainedontrial: 1
     id: 55033
     marketGroup: 364
     name: Vorton Projector Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.03E7
+    price: 20300000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     secondaryattribute: 168
     skilltimeconstant: 1.0
     turretspeebonus: -2
-    volume: 0.009999999776482582
+    volume: 0.01
   55034:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 55034
     marketGroup: 364
     name: Small Vorton Projector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.03E7
+    price: 20300000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 55033
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   55035:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 55035
     marketGroup: 364
     name: Medium Vorton Projector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.125E7
+    price: 31250000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 55033
     requiredskill1level: 3
     requiredskill2: 55034
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   55511:
     cannotbetrainedontrial: 1
     id: 55511
     marketGroup: 364
     name: Vorton Arc Extension
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.09E7
+    price: 30900000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     rangeskillbonus: 5
     requiredskill1: 55033
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77739:
     cannotbetrainedontrial: 1
     disruptionlanceskillboostcapacitorcost: -5
     id: 77739
     marketGroup: 364
     name: Disruptive Lance Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 11433
     requiredskill1level: 4
     requiredskill2: 3421
@@ -1179,21 +1051,19 @@ types:
     requiredskill3level: 5
     secondaryattribute: 165
     skilltimeconstant: 14.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88377:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 7.5
     id: 88377
     marketGroup: 364
     name: Advanced Doomsday Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 24563
     requiredskill1level: 5
     secondaryattribute: 165
     skilltimeconstant: 14.0
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -14,7 +14,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DefenderVelocityBonus;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RofBonus;
@@ -138,7 +136,7 @@ public class RigDrones
     @Stackable(true)
     @DefaultIntValue(0)
     public int webspeedfactorbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DroneRangeBonus.INSTANCE, SpeedFactorBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, DefenderVelocityBonus.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, WebSpeedFactorBonus.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, DroneRangeBonus.INSTANCE, SpeedFactorBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, DefenderVelocityBonus.INSTANCE, Drawback.INSTANCE, MiningAmountBonus.INSTANCE, WebSpeedFactorBonus.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final RigDrones.MetaGroup METAGROUP = new RigDrones.MetaGroup();
 
     @Override

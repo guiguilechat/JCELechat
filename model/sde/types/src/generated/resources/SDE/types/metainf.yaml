@@ -134,7 +134,7 @@ id2group:
   440: module/PropulsionModule
   442: module/CargoScanner
   443: module/ShipScanner
-  444: module/SurveyScanner
+  444: module/MiningSurveyChipset
   447: module/WarpScrambler
   448: module/WarpScrambler
   450: module/EnergyWeapon
@@ -409,7 +409,7 @@ id2group:
   1073: blueprint/PropulsionModuleBlueprint
   1074: blueprint/CargoScannerBlueprint
   1075: blueprint/ShipScannerBlueprint
-  1076: blueprint/SurveyScannerBlueprint
+  1076: blueprint/MiningSurveyChipsetBlueprint
   1079: blueprint/WarpScramblerBlueprint
   1080: blueprint/WarpScramblerBlueprint
   1095: blueprint/GunneryUpgradeBlueprint
@@ -937,8 +937,8 @@ id2group:
   2329: planetarycommodities/RefinedCommoditiesTier2
   2331: module/ShieldPowerRelay
   2332: blueprint/PowerManagerBlueprint
-  2333: module/SurveyScanner
-  2334: blueprint/SurveyScannerBlueprint
+  2333: module/MiningSurveyChipset
+  2334: blueprint/MiningSurveyChipsetBlueprint
   2341: module/PassiveTargetingSystem
   2342: blueprint/PassiveTargetingSystemBlueprint
   2344: planetarycommodities/SpecializedCommoditiesTier3
@@ -2629,7 +2629,8 @@ id2group:
   6441: module/ShieldBooster
   6485: module/ShieldRecharger
   6527: module/ShipScanner
-  6569: module/SurveyScanner
+  6569: module/MiningSurveyChipset
+  6571: module/MiningSurveyChipset
   6631: module/EnergyWeapon
   6633: module/EnergyWeapon
   6635: module/EnergyWeapon
@@ -15803,6 +15804,8 @@ id2group:
   33988: commodity/Commodities
   33989: apparel/Bottoms
   33990: deployable/MobileMicroJumpUnit
+  34005: apparel/Tattoos
+  34016: apparel/Tattoos
   34017: apparel/Prosthetics
   34018: apparel/Prosthetics
   34019: apparel/Prosthetics
@@ -32356,8 +32359,16 @@ id2group:
   89119: skins/PermanentSKIN
   89120: skins/PermanentSKIN
   89121: skins/PermanentSKIN
+  89132: entity/IrregularMiningFrigate
+  89133: entity/IrregularFrigate
+  89135: entity/IrregularFrigate
+  89140: entity/IrregularIndustrial
   89156: commodity/AccelerationGateKeys
   89219: commodity/StabilityTelemetry
+  89220: entity/IrregularCruiser
+  89221: entity/IrregularFrigate
+  89240: ship/Destroyer
+  89241: skill/SpaceshipCommand
   89261: personalization/ShipSKINDesignElement
   89262: personalization/ShipSKINDesignElement
   89263: personalization/ShipSKINDesignElement
@@ -32368,6 +32379,14 @@ id2group:
   89268: personalization/ShipSKINDesignElement
   89327: personalization/ShipSKINDesignElement
   89328: specialeditionassets/SpecialEditionCommodities
+  89360: entity/LargeCollidableStructure
+  89452: entity/IrregularShuttle
+  89485: blueprint/DestroyerBlueprint
+  89487: personalization/ShipEmblems
+  89488: personalization/ShipEmblems
+  89489: entity/IrregularBattleship
+  89490: entity/IrregularBattleship
+  89507: expertsystems/StandardExpertSystems
   89508: skins/PermanentSKIN
   89509: skins/PermanentSKIN
   89510: skins/PermanentSKIN
@@ -32375,6 +32394,80 @@ id2group:
   89512: skins/PermanentSKIN
   89513: skins/PermanentSKIN
   89514: skins/PermanentSKIN
+  89515: entity/DeadspaceOverseerSStructure
+  89516: entity/DeadspaceOverseerSStructure
+  89519: entity/LargeCollidableStructure
+  89527: entity/IrregularMiningFrigate
+  89528: entity/IrregularFrigate
+  89529: entity/IrregularFrigate
+  89530: entity/IrregularFrigate
+  89531: entity/IrregularCruiser
+  89532: entity/IrregularIndustrial
+  89533: entity/IrregularShuttle
+  89539: entity/IrregularIndustrial
+  89540: entity/IrregularShuttle
+  89546: entity/IrregularFrigate
+  89547: entity/IrregularMiningFrigate
+  89548: entity/IrregularFrigate
+  89557: implant/Booster
+  89558: implant/Booster
+  89559: implant/Booster
+  89560: implant/Booster
+  89561: implant/Booster
+  89562: implant/Booster
+  89563: implant/Booster
+  89564: implant/Booster
+  89573: implant/Booster
+  89574: implant/Booster
+  89576: implant/Booster
+  89577: implant/Booster
+  89581: implant/Booster
+  89585: implant/Booster
+  89586: implant/Booster
+  89587: implant/Booster
+  89588: implant/Booster
+  89589: implant/Booster
+  89590: implant/Booster
+  89591: implant/Booster
+  89592: implant/Booster
+  89593: implant/Booster
+  89594: implant/Booster
+  89595: implant/Booster
+  89596: implant/Booster
+  89597: implant/Booster
+  89598: implant/Booster
+  89599: implant/Booster
+  89600: implant/Booster
+  89601: implant/Booster
+  89602: implant/Booster
+  89603: implant/Booster
+  89604: implant/Booster
+  89605: implant/Booster
+  89606: implant/Booster
+  89607: ship/ExpeditionCommandShip
+  89608: module/CommandBurst
+  89609: skill/SpaceshipCommand
+  89610: skill/FleetSupport
+  89611: skill/FleetSupport
+  89612: charge/ExpeditionCommandBurstCharges
+  89613: charge/ExpeditionCommandBurstCharges
+  89614: charge/ExpeditionCommandBurstCharges
+  89615: module/CommandBurst
+  89616: module/CommandBurst
+  89617: implant/CyberLeadership
+  89618: implant/CyberLeadership
+  89632: blueprint/CommandBurstBlueprint
+  89633: blueprint/CommandBurstBlueprint
+  89634: blueprint/CommandBurstChargeBlueprint
+  89635: blueprint/CommandBurstChargeBlueprint
+  89636: blueprint/CommandBurstChargeBlueprint
+  89637: blueprint/ExpeditionCommandShipBlueprint
+  89640: personalization/ShipEmblems
+  89641: personalization/ShipEmblems
+  89647: ship/Destroyer
+  89648: ship/Frigate
+  89649: ship/CommandDestroyer
+  89652: blueprint/CommandDestroyerBlueprint
   89653: skins/PermanentSKIN
   89654: skins/PermanentSKIN
   89655: skins/PermanentSKIN
@@ -32388,6 +32481,8 @@ id2group:
   89663: skins/PermanentSKIN
   89664: skins/PermanentSKIN
   89665: skins/PermanentSKIN
+  89666: personalization/ShipEmblems
+  89667: personalization/ShipEmblems
   89668: skins/PermanentSKIN
   89669: skins/PermanentSKIN
   89670: skins/PermanentSKIN
@@ -32395,6 +32490,12 @@ id2group:
   89672: skins/PermanentSKIN
   89673: skins/PermanentSKIN
   89674: skins/PermanentSKIN
+  89675: blueprint/DestroyerBlueprint
+  89676: blueprint/FrigateBlueprint
+  89677: personalization/ShipEmblems
+  89678: personalization/ShipEmblems
+  89679: personalization/ShipEmblems
+  89681: personalization/ShipEmblems
   89687: personalization/ShipSKINDesignElement
   89688: personalization/ShipSKINDesignElement
   89689: skill/Armor
@@ -32422,7 +32523,69 @@ id2group:
   89712: skins/PermanentSKIN
   89782: entity/VanguardEntities
   89784: commodity/Miscellaneous
+  89863: entity/LargeCollidableStructure
+  89864: entity/LargeCollidableStructure
+  89934: personalization/ShipSKINDesignElement
+  89935: personalization/ShipSKINDesignElement
+  89937: personalization/ShipSKINDesignElement
+  89938: personalization/ShipSKINDesignElement
+  89941: personalization/ShipSKINDesignElement
+  89942: personalization/ShipSKINDesignElement
+  89943: personalization/ShipSKINDesignElement
+  89945: personalization/ShipSKINDesignElement
+  89946: personalization/ShipSKINDesignElement
+  89947: personalization/ShipSKINDesignElement
+  89948: personalization/ShipSKINDesignElement
+  89949: personalization/ShipSKINDesignElement
+  89953: personalization/ShipSKINDesignElement
+  89954: personalization/ShipSKINDesignElement
+  89955: personalization/ShipSKINDesignElement
   89956: accessories/Services
+  89966: entity/IrregularBattleship
+  89991: entity/LargeCollidableStructure
+  90004: entity/NPCFrigate
+  90005: entity/NPCIndustrialCommandShip
+  90006: entity/NPCMiningBarge
+  90007: entity/NPCFrigate
+  90008: skins/PermanentSKIN
+  90009: skins/PermanentSKIN
+  90010: skins/PermanentSKIN
+  90011: skins/PermanentSKIN
+  90012: skins/PermanentSKIN
+  90013: skins/PermanentSKIN
+  90014: skins/PermanentSKIN
+  90015: skins/PermanentSKIN
+  90016: skins/PermanentSKIN
+  90017: skins/PermanentSKIN
+  90018: skins/PermanentSKIN
+  90019: skins/PermanentSKIN
+  90020: skins/PermanentSKIN
+  90021: skins/PermanentSKIN
+  90022: skins/PermanentSKIN
+  90023: entity/LargeCollidableStructure
+  90024: entity/IrregularBattleship
+  90028: entity/IrregularShuttle
+  90037: deployable/MobilePhaseAnchor
+  90039: blueprint/MobilePhaseAnchorBlueprint
+  90040: skill/ResourceProcessing
+  90041: material/Prismaticite
+  90043: entity/SpawnContainer
+  90044: entity/SpawnContainer
+  90045: charge/MiningCrystal
+  90046: charge/MiningCrystal
+  90047: charge/MiningCrystal
+  90048: charge/MiningCrystal
+  90049: charge/MiningCrystal
+  90050: charge/MiningCrystal
+  90054: blueprint/MiningCrystalBlueprint
+  90055: blueprint/MiningCrystalBlueprint
+  90056: blueprint/MiningCrystalBlueprint
+  90057: blueprint/MiningCrystalBlueprint
+  90058: blueprint/MiningCrystalBlueprint
+  90059: blueprint/MiningCrystalBlueprint
+  90072: commodity/LimitedRarities
+  90117: commodity/AccelerationGateKeys
+  90118: commodity/AccelerationGateKeys
   90120: skins/PermanentSKIN
   90121: skins/PermanentSKIN
   90122: skins/PermanentSKIN
@@ -32430,8 +32593,205 @@ id2group:
   90124: skins/PermanentSKIN
   90125: skins/PermanentSKIN
   90126: skins/PermanentSKIN
+  90134: specialeditionassets/SpecialEditionCommodities
+  90135: specialeditionassets/SpecialEditionCommodities
+  90136: specialeditionassets/SpecialEditionCommodities
+  90137: specialeditionassets/SpecialEditionCommodities
+  90139: entity/DeadspaceOverseerSStructure
   90140: personalization/ShipSKINDesignElement
   90141: personalization/ShipSKINDesignElement
+  90180: commodity/Miscellaneous
+  90274: blueprint/CompositeReactionFormulas
+  90275: blueprint/CompositeReactionFormulas
+  90276: blueprint/CompositeReactionFormulas
+  90277: blueprint/CompositeReactionFormulas
+  90278: blueprint/CompositeReactionFormulas
+  90279: blueprint/CompositeReactionFormulas
+  90280: implant/Booster
+  90281: blueprint/CompositeReactionFormulas
+  90282: blueprint/CompositeReactionFormulas
+  90283: material/UnrefinedMineral
+  90284: material/UnrefinedMineral
+  90285: implant/Booster
+  90286: material/UnrefinedMineral
+  90289: material/UnrefinedMineral
+  90290: implant/Booster
+  90292: material/UnrefinedMineral
+  90293: implant/Booster
+  90294: material/UnrefinedMineral
+  90295: implant/Booster
+  90296: material/UnrefinedMineral
+  90297: implant/Booster
+  90298: material/UnrefinedMineral
+  90301: implant/Booster
+  90302: implant/Booster
+  90303: implant/Booster
+  90304: entity/NPCFrigate
+  90305: implant/Booster
+  90306: implant/Booster
+  90307: material/Prismaticite
+  90315: skins/PermanentSKIN
+  90316: skins/PermanentSKIN
+  90317: skins/PermanentSKIN
+  90318: skins/PermanentSKIN
+  90319: skins/PermanentSKIN
+  90320: skins/PermanentSKIN
+  90321: skins/PermanentSKIN
+  90322: skins/PermanentSKIN
+  90323: skins/PermanentSKIN
+  90324: implant/Booster
+  90327: entity/SpawnContainer
+  90333: entity/SpawnContainer
+  90358: qaanddevgroups/QAPhasedAsteroids
+  90396: specialeditionassets/SpecialEditionCommodities
+  90398: skill/ResourceProcessing
+  90402: skins/PermanentSKIN
+  90403: skins/PermanentSKIN
+  90404: skins/PermanentSKIN
+  90405: skins/PermanentSKIN
+  90406: skins/PermanentSKIN
+  90410: skins/PermanentSKIN
+  90411: skins/PermanentSKIN
+  90412: skins/PermanentSKIN
+  90413: skins/PermanentSKIN
+  90414: skins/PermanentSKIN
+  90415: skins/PermanentSKIN
+  90416: skins/PermanentSKIN
+  90417: skins/PermanentSKIN
+  90418: skins/PermanentSKIN
+  90419: skins/PermanentSKIN
+  90423: entity/IrregularExpeditionCommandShip
+  90424: entity/LargeCollidableStructure
+  90427: entity/IrregularDestroyer
+  90428: entity/LargeCollidableStructure
+  90453: entity/IrregularMiningBarge
+  90454: entity/IrregularDestroyer
+  90455: entity/IrregularFrigate
+  90456: entity/IrregularIndustrialCommandShip
+  90457: commodity/Mutaplasmids
+  90458: commodity/Mutaplasmids
+  90459: commodity/Mutaplasmids
+  90460: module/MiningLaser
+  90466: commodity/Mutaplasmids
+  90467: module/FrequencyMiningLaser
+  90468: commodity/Mutaplasmids
+  90469: commodity/Mutaplasmids
+  90470: commodity/Mutaplasmids
+  90471: commodity/Mutaplasmids
+  90472: commodity/Mutaplasmids
+  90474: module/FrequencyMiningLaser
+  90475: module/CapitalSensorArray
+  90476: blueprint/SensorBoosterBlueprint
+  90480: commodity/Mutaplasmids
+  90481: commodity/Mutaplasmids
+  90482: commodity/Mutaplasmids
+  90483: module/MiningLaser
+  90484: commodity/Mutaplasmids
+  90485: commodity/Mutaplasmids
+  90486: commodity/Mutaplasmids
+  90487: module/FrequencyMiningLaser
+  90489: commodity/Mutaplasmids
+  90490: commodity/Mutaplasmids
+  90491: commodity/Mutaplasmids
+  90493: module/StripMiner
+  90495: commodity/Mutaplasmids
+  90496: commodity/Mutaplasmids
+  90497: commodity/Mutaplasmids
+  90498: module/StripMiner
+  90499: commodity/Mutaplasmids
+  90500: commodity/Mutaplasmids
+  90501: commodity/Mutaplasmids
+  90502: module/MiningLaser
+  90521: commodity/Mutaplasmids
+  90522: commodity/Mutaplasmids
+  90523: commodity/Mutaplasmids
+  90524: module/StripMiner
+  90526: commodity/Mutaplasmids
+  90527: commodity/Mutaplasmids
+  90528: commodity/Mutaplasmids
+  90529: module/GasCloudScoops
+  90560: entity/SpawnContainer
+  90561: entity/SpawnContainer
+  90563: personalization/ShipSKINDesignElement
+  90564: personalization/ShipSKINDesignElement
+  90565: commodity/Miscellaneous
+  90566: commodity/Miscellaneous
+  90590: commodity/Mutaplasmids
+  90591: commodity/Mutaplasmids
+  90592: commodity/Mutaplasmids
+  90593: module/GasCloudHarvesters
+  90594: personalization/ShipSKINDesignElement
+  90595: personalization/ShipSKINDesignElement
+  90596: personalization/ShipSKINDesignElement
+  90597: personalization/ShipSKINDesignElement
+  90598: personalization/ShipSKINDesignElement
+  90599: personalization/ShipSKINDesignElement
+  90600: personalization/ShipSKINDesignElement
+  90601: personalization/ShipSKINDesignElement
+  90602: personalization/ShipSKINDesignElement
+  90603: personalization/ShipSKINDesignElement
+  90604: personalization/ShipSKINDesignElement
+  90605: personalization/ShipSKINDesignElement
+  90606: personalization/ShipSKINDesignElement
+  90607: personalization/ShipSKINDesignElement
+  90608: personalization/ShipSKINDesignElement
+  90609: commodity/Mutaplasmids
+  90610: personalization/ShipSKINDesignElement
+  90611: commodity/Mutaplasmids
+  90612: personalization/ShipSKINDesignElement
+  90613: personalization/ShipSKINDesignElement
+  90614: drone/MiningDrone
+  90615: personalization/ShipSKINDesignElement
+  90616: personalization/ShipSKINDesignElement
+  90618: drone/MiningDrone
+  90619: commodity/Mutaplasmids
+  90620: commodity/Mutaplasmids
+  90621: drone/MiningDrone
+  90622: drone/MiningDrone
+  90634: personalization/ShipSKINDesignElement
+  90635: personalization/ShipSKINDesignElement
+  90636: personalization/ShipSKINDesignElement
+  90637: personalization/ShipSKINDesignElement
+  90638: personalization/ShipSKINDesignElement
+  90639: personalization/ShipSKINDesignElement
+  90640: personalization/ShipSKINDesignElement
+  90641: personalization/ShipSKINDesignElement
+  90642: personalization/ShipSKINDesignElement
+  90643: personalization/ShipSKINDesignElement
+  90647: personalization/ShipSKINDesignElement
+  90648: personalization/ShipSKINDesignElement
+  90649: personalization/ShipSKINDesignElement
+  90650: personalization/ShipSKINDesignElement
+  90651: personalization/ShipSKINDesignElement
+  90652: personalization/ShipSKINDesignElement
+  90653: personalization/ShipSKINDesignElement
+  90654: personalization/ShipSKINDesignElement
+  90659: specialeditionassets/SpecialEditionCommodities
+  90660: specialeditionassets/SpecialEditionCommodities
+  90661: specialeditionassets/SpecialEditionCommodities
+  90662: specialeditionassets/SpecialEditionCommodities
+  90663: specialeditionassets/SpecialEditionCommodities
+  90664: specialeditionassets/SpecialEditionCommodities
+  90721: personalization/ShipSKINDesignElement
+  90722: personalization/ShipSKINDesignElement
+  90727: skill/ResourceProcessing
+  90728: skill/ResourceProcessing
+  90733: charge/MiningForemanBurstCharges
+  90734: blueprint/CommandBurstChargeBlueprint
+  90813: skins/PermanentSKIN
+  90885: specialeditionassets/SpecialEditionCommodities
+  90892: specialeditionassets/SpecialEditionCommodities
+  90893: specialeditionassets/SpecialEditionCommodities
+  91023: specialeditionassets/SpecialEditionCommodities
+  91096: skins/PermanentSKIN
+  91097: skins/PermanentSKIN
+  91098: skins/PermanentSKIN
+  91099: skins/PermanentSKIN
+  91100: skins/PermanentSKIN
+  91102: skins/PermanentSKIN
+  91103: skins/PermanentSKIN
+  91104: skins/PermanentSKIN
+  91108: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

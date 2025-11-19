@@ -4,28 +4,26 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 1948
     marketGroup: 715
     maxrange: 28800.0
     name: Magnetometric ECM I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.100000023841858
-    scanladarstrengthbonus: 1.100000023841858
-    scanmagnetometricstrengthbonus: 3.299999952316284
-    scanradarstrengthbonus: 1.100000023841858
+    scangravimetricstrengthbonus: 1.1
+    scanladarstrengthbonus: 1.1
+    scanmagnetometricstrengthbonus: 3.3
+    scanradarstrengthbonus: 1.1
     techlevel: 1
     volume: 5.0
   1955:
@@ -33,28 +31,26 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 1955
     marketGroup: 717
     maxrange: 28800.0
     name: Gravimetric ECM I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.299999952316284
-    scanladarstrengthbonus: 1.100000023841858
-    scanmagnetometricstrengthbonus: 1.100000023841858
-    scanradarstrengthbonus: 1.100000023841858
+    scangravimetricstrengthbonus: 3.3
+    scanladarstrengthbonus: 1.1
+    scanmagnetometricstrengthbonus: 1.1
+    scanradarstrengthbonus: 1.1
     techlevel: 1
     volume: 5.0
   1956:
@@ -62,28 +58,26 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 1956
     marketGroup: 718
     maxrange: 28800.0
     name: Radar ECM I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.100000023841858
-    scanladarstrengthbonus: 1.100000023841858
-    scanmagnetometricstrengthbonus: 1.100000023841858
-    scanradarstrengthbonus: 3.299999952316284
+    scangravimetricstrengthbonus: 1.1
+    scanladarstrengthbonus: 1.1
+    scanmagnetometricstrengthbonus: 1.1
+    scanradarstrengthbonus: 3.3
     techlevel: 1
     volume: 5.0
   1957:
@@ -91,28 +85,26 @@ types:
     cpu: 50.0
     duration: 20000.0
     falloffeffectiveness: 18000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 1957
     marketGroup: 719
     maxrange: 19200.0
     name: Multispectral ECM I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.200000047683716
-    scanladarstrengthbonus: 2.200000047683716
-    scanmagnetometricstrengthbonus: 2.200000047683716
-    scanradarstrengthbonus: 2.200000047683716
+    scangravimetricstrengthbonus: 2.2
+    scanladarstrengthbonus: 2.2
+    scanmagnetometricstrengthbonus: 2.2
+    scanradarstrengthbonus: 2.2
     techlevel: 1
     volume: 5.0
   1958:
@@ -120,28 +112,26 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 1958
     marketGroup: 716
     maxrange: 28800.0
     name: Ladar ECM I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.100000023841858
-    scanladarstrengthbonus: 3.299999952316284
-    scanmagnetometricstrengthbonus: 1.100000023841858
-    scanradarstrengthbonus: 1.100000023841858
+    scangravimetricstrengthbonus: 1.1
+    scanladarstrengthbonus: 3.3
+    scanmagnetometricstrengthbonus: 1.1
+    scanradarstrengthbonus: 1.1
     techlevel: 1
     volume: 5.0
   2559:
@@ -149,8 +139,8 @@ types:
     cpu: 48.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 2559
     marketGroup: 716
@@ -158,20 +148,18 @@ types:
     metalevelold: 5
     name: Ladar ECM II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 193826.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
     scanladarstrengthbonus: 4.0
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 2
     volume: 5.0
   2563:
@@ -179,8 +167,8 @@ types:
     cpu: 48.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 2563
     marketGroup: 715
@@ -188,20 +176,18 @@ types:
     metalevelold: 5
     name: Magnetometric ECM II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 194778.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
     scanmagnetometricstrengthbonus: 4.0
-    scanradarstrengthbonus: 1.2999999523162842
+    scanradarstrengthbonus: 1.3
     techlevel: 2
     volume: 5.0
   2567:
@@ -209,8 +195,8 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 21600
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 2567
     marketGroup: 719
@@ -218,20 +204,18 @@ types:
     metalevelold: 5
     name: Multispectral ECM II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 232064.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.5999999046325684
-    scanladarstrengthbonus: 2.5999999046325684
-    scanmagnetometricstrengthbonus: 2.5999999046325684
-    scanradarstrengthbonus: 2.5999999046325684
+    scangravimetricstrengthbonus: 2.6
+    scanladarstrengthbonus: 2.6
+    scanmagnetometricstrengthbonus: 2.6
+    scanradarstrengthbonus: 2.6
     techlevel: 2
     volume: 5.0
   2571:
@@ -239,8 +223,8 @@ types:
     cpu: 48.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 2571
     marketGroup: 717
@@ -248,20 +232,18 @@ types:
     metalevelold: 5
     name: Gravimetric ECM II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 184600.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
     scangravimetricstrengthbonus: 4.0
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 2
     volume: 5.0
   2575:
@@ -269,8 +251,8 @@ types:
     cpu: 48.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 2575
     marketGroup: 718
@@ -278,19 +260,17 @@ types:
     metalevelold: 5
     name: Radar ECM II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 192450.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
     scanradarstrengthbonus: 4.0
     techlevel: 2
     volume: 5.0
@@ -299,8 +279,8 @@ types:
     cpu: 50.0
     duration: 20000.0
     falloffeffectiveness: 18000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 9521
     marketGroup: 719
@@ -308,20 +288,18 @@ types:
     metalevelold: 1
     name: Initiated Enduring Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 14848.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.4000000953674316
-    scanladarstrengthbonus: 2.4000000953674316
-    scanmagnetometricstrengthbonus: 2.4000000953674316
-    scanradarstrengthbonus: 2.4000000953674316
+    scangravimetricstrengthbonus: 2.4
+    scanladarstrengthbonus: 2.4
+    scanmagnetometricstrengthbonus: 2.4
+    scanradarstrengthbonus: 2.4
     techlevel: 1
     volume: 5.0
   19923:
@@ -329,8 +307,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19923
     marketGroup: 715
@@ -338,20 +316,18 @@ types:
     metalevelold: 1
     name: Morpheus Enduring Magnetometric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 3.5999999046325684
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 3.6
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19925:
@@ -359,8 +335,8 @@ types:
     cpu: 32.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19925
     marketGroup: 715
@@ -368,20 +344,18 @@ types:
     metalevelold: 1
     name: Aergia Compact Magnetometric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 3.5999999046325684
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 3.6
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19927:
@@ -389,8 +363,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 29700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19927
     marketGroup: 715
@@ -398,20 +372,18 @@ types:
     metalevelold: 1
     name: Hypnos Scoped Magnetometric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 3.5999999046325684
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 3.6
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19929:
@@ -419,8 +391,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 18000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19929
     marketGroup: 719
@@ -428,20 +400,18 @@ types:
     metalevelold: 1
     name: Induced Compact Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.4000000953674316
-    scanladarstrengthbonus: 2.4000000953674316
-    scanmagnetometricstrengthbonus: 2.4000000953674316
-    scanradarstrengthbonus: 2.4000000953674316
+    scangravimetricstrengthbonus: 2.4
+    scanladarstrengthbonus: 2.4
+    scanmagnetometricstrengthbonus: 2.4
+    scanradarstrengthbonus: 2.4
     techlevel: 1
     volume: 5.0
   19931:
@@ -449,8 +419,8 @@ types:
     cpu: 50.0
     duration: 20000.0
     falloffeffectiveness: 19800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19931
     marketGroup: 719
@@ -458,20 +428,18 @@ types:
     metalevelold: 1
     name: Compulsive Scoped Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.4000000953674316
-    scanladarstrengthbonus: 2.4000000953674316
-    scanmagnetometricstrengthbonus: 2.4000000953674316
-    scanradarstrengthbonus: 2.4000000953674316
+    scangravimetricstrengthbonus: 2.4
+    scanladarstrengthbonus: 2.4
+    scanmagnetometricstrengthbonus: 2.4
+    scanradarstrengthbonus: 2.4
     techlevel: 1
     volume: 5.0
   19935:
@@ -479,8 +447,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19935
     marketGroup: 716
@@ -488,20 +456,18 @@ types:
     metalevelold: 1
     name: Languid Enduring Ladar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 3.5999999046325684
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 3.6
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19937:
@@ -509,8 +475,8 @@ types:
     cpu: 32.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19937
     marketGroup: 716
@@ -518,20 +484,18 @@ types:
     metalevelold: 1
     name: Halting Compact Ladar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 3.5999999046325684
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 3.6
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19939:
@@ -539,8 +503,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 29700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19939
     marketGroup: 716
@@ -548,20 +512,18 @@ types:
     metalevelold: 1
     name: Enfeebling Scoped Ladar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 3.5999999046325684
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 3.6
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19942:
@@ -569,8 +531,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19942
     marketGroup: 717
@@ -578,20 +540,18 @@ types:
     metalevelold: 1
     name: FZ-3a Enduring Gravimetric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.5999999046325684
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 3.6
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19944:
@@ -599,8 +559,8 @@ types:
     cpu: 32.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19944
     marketGroup: 717
@@ -608,20 +568,18 @@ types:
     metalevelold: 1
     name: CZ-4 Compact Gravimetric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.5999999046325684
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 3.6
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19946:
@@ -629,8 +587,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 29700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19946
     marketGroup: 717
@@ -638,20 +596,18 @@ types:
     metalevelold: 1
     name: BZ-5 Scoped Gravimetric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.5999999046325684
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 1.2000000476837158
+    scangravimetricstrengthbonus: 3.6
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 1.2
     techlevel: 1
     volume: 5.0
   19948:
@@ -659,8 +615,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19948
     marketGroup: 718
@@ -668,20 +624,18 @@ types:
     metalevelold: 1
     name: Gloom Enduring Radar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 3.5999999046325684
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 3.6
     techlevel: 1
     volume: 5.0
   19950:
@@ -689,8 +643,8 @@ types:
     cpu: 32.0
     duration: 20000.0
     falloffeffectiveness: 27000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19950
     marketGroup: 718
@@ -698,20 +652,18 @@ types:
     metalevelold: 1
     name: Shade Compact Radar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 3.5999999046325684
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 3.6
     techlevel: 1
     volume: 5.0
   19952:
@@ -719,8 +671,8 @@ types:
     cpu: 40.0
     duration: 20000.0
     falloffeffectiveness: 29700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 19952
     marketGroup: 718
@@ -728,20 +680,18 @@ types:
     metalevelold: 1
     name: Umbra Scoped Radar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2000000476837158
-    scanladarstrengthbonus: 1.2000000476837158
-    scanmagnetometricstrengthbonus: 1.2000000476837158
-    scanradarstrengthbonus: 3.5999999046325684
+    scangravimetricstrengthbonus: 1.2
+    scanladarstrengthbonus: 1.2
+    scanmagnetometricstrengthbonus: 1.2
+    scanradarstrengthbonus: 3.6
     techlevel: 1
     volume: 5.0
   20199:
@@ -749,8 +699,8 @@ types:
     cpu: 58.0
     duration: 20000.0
     falloffeffectiveness: 23400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20199
     marketGroup: 719
@@ -759,20 +709,18 @@ types:
     metalevelold: 8
     name: Dread Guristas Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.9000000953674316
-    scanladarstrengthbonus: 2.9000000953674316
-    scanmagnetometricstrengthbonus: 2.9000000953674316
-    scanradarstrengthbonus: 2.9000000953674316
+    scangravimetricstrengthbonus: 2.9
+    scanladarstrengthbonus: 2.9
+    scanmagnetometricstrengthbonus: 2.9
+    scanradarstrengthbonus: 2.9
     techlevel: 1
     volume: 5.0
   20201:
@@ -780,8 +728,8 @@ types:
     cpu: 65.0
     duration: 20000.0
     falloffeffectiveness: 26100
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20201
     marketGroup: 719
@@ -790,20 +738,18 @@ types:
     metalevelold: 11
     name: Kaikka's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.0999999046325684
-    scanladarstrengthbonus: 3.0999999046325684
-    scanmagnetometricstrengthbonus: 3.0999999046325684
-    scanradarstrengthbonus: 3.0999999046325684
+    scangravimetricstrengthbonus: 3.1
+    scanladarstrengthbonus: 3.1
+    scanmagnetometricstrengthbonus: 3.1
+    scanradarstrengthbonus: 3.1
     techlevel: 1
     volume: 5.0
   20203:
@@ -811,8 +757,8 @@ types:
     cpu: 70.0
     duration: 20000.0
     falloffeffectiveness: 28800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20203
     marketGroup: 719
@@ -821,20 +767,18 @@ types:
     metalevelold: 13
     name: Thon's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.200000047683716
-    scanladarstrengthbonus: 3.200000047683716
-    scanmagnetometricstrengthbonus: 3.200000047683716
-    scanradarstrengthbonus: 3.200000047683716
+    scangravimetricstrengthbonus: 3.2
+    scanladarstrengthbonus: 3.2
+    scanmagnetometricstrengthbonus: 3.2
+    scanradarstrengthbonus: 3.2
     techlevel: 1
     volume: 5.0
   20205:
@@ -842,8 +786,8 @@ types:
     cpu: 75.0
     duration: 20000.0
     falloffeffectiveness: 31500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20205
     marketGroup: 719
@@ -852,20 +796,18 @@ types:
     metalevelold: 15
     name: Vepas' Modified Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.4000000953674316
-    scanladarstrengthbonus: 3.4000000953674316
-    scanmagnetometricstrengthbonus: 3.4000000953674316
-    scanradarstrengthbonus: 3.4000000953674316
+    scangravimetricstrengthbonus: 3.4
+    scanladarstrengthbonus: 3.4
+    scanmagnetometricstrengthbonus: 3.4
+    scanradarstrengthbonus: 3.4
     techlevel: 1
     volume: 5.0
   20207:
@@ -873,8 +815,8 @@ types:
     cpu: 80.0
     duration: 20000.0
     falloffeffectiveness: 34200
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20207
     marketGroup: 719
@@ -883,12 +825,10 @@ types:
     metalevelold: 17
     name: Estamel's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
@@ -904,8 +844,8 @@ types:
     cpu: 30.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20573
     marketGroup: 715
@@ -914,20 +854,18 @@ types:
     metalevelold: 6
     name: '''Marshall'' Magnetometric ECM'
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 3.799999952316284
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 3.8
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   20575:
@@ -935,8 +873,8 @@ types:
     cpu: 30.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20575
     marketGroup: 716
@@ -945,20 +883,18 @@ types:
     metalevelold: 6
     name: '''Gambler'' Ladar ECM'
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 3.799999952316284
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 3.8
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   20577:
@@ -966,8 +902,8 @@ types:
     cpu: 30.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20577
     marketGroup: 717
@@ -976,20 +912,18 @@ types:
     metalevelold: 6
     name: '''Plunderer'' Gravimetric ECM'
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 3.799999952316284
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 3.8
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   20579:
@@ -997,8 +931,8 @@ types:
     cpu: 30.0
     duration: 20000.0
     falloffeffectiveness: 32400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 20579
     marketGroup: 718
@@ -1007,20 +941,18 @@ types:
     metalevelold: 6
     name: '''Heist'' Radar ECM'
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 3.799999952316284
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 3.8
     techlevel: 1
     volume: 5.0
   28729:
@@ -1028,8 +960,8 @@ types:
     cpu: 43.0
     duration: 20000.0
     falloffeffectiveness: 33750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 28729
     marketGroup: 715
@@ -1038,20 +970,18 @@ types:
     metalevelold: 8
     name: Legion Magnetometric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 4.099999904632568
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 4.1
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   28731:
@@ -1059,8 +989,8 @@ types:
     cpu: 50.0
     duration: 20000.0
     falloffeffectiveness: 25200
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 28731
     marketGroup: 719
@@ -1069,20 +999,18 @@ types:
     metalevelold: 8
     name: Legion Multispectral ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 2.799999952316284
-    scanladarstrengthbonus: 2.799999952316284
-    scanmagnetometricstrengthbonus: 2.799999952316284
-    scanradarstrengthbonus: 2.799999952316284
+    scangravimetricstrengthbonus: 2.8
+    scanladarstrengthbonus: 2.8
+    scanmagnetometricstrengthbonus: 2.8
+    scanradarstrengthbonus: 2.8
     techlevel: 1
     volume: 5.0
   28733:
@@ -1090,8 +1018,8 @@ types:
     cpu: 43.0
     duration: 20000.0
     falloffeffectiveness: 33750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 28733
     marketGroup: 716
@@ -1100,20 +1028,18 @@ types:
     metalevelold: 8
     name: Legion Ladar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 4.099999904632568
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 4.1
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   28735:
@@ -1121,8 +1047,8 @@ types:
     cpu: 43.0
     duration: 20000.0
     falloffeffectiveness: 33750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 28735
     marketGroup: 717
@@ -1131,20 +1057,18 @@ types:
     metalevelold: 8
     name: Legion Gravimetric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 4.099999904632568
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 1.2999999523162842
+    scangravimetricstrengthbonus: 4.1
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 1.3
     techlevel: 1
     volume: 5.0
   28737:
@@ -1152,8 +1076,8 @@ types:
     cpu: 43.0
     duration: 20000.0
     falloffeffectiveness: 33750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 28737
     marketGroup: 718
@@ -1162,20 +1086,18 @@ types:
     metalevelold: 8
     name: Legion Radar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 1.2999999523162842
-    scanladarstrengthbonus: 1.2999999523162842
-    scanmagnetometricstrengthbonus: 1.2999999523162842
-    scanradarstrengthbonus: 4.099999904632568
+    scangravimetricstrengthbonus: 1.3
+    scanladarstrengthbonus: 1.3
+    scanmagnetometricstrengthbonus: 1.3
+    scanradarstrengthbonus: 4.1
     techlevel: 1
     volume: 5.0
   85002:
@@ -1183,8 +1105,8 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 85002
     marketGroup: 716
@@ -1193,12 +1115,10 @@ types:
     metalevelold: 15
     name: Panola's Modified Ladar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 20000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
@@ -1214,8 +1134,8 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 85003
     marketGroup: 718
@@ -1223,12 +1143,10 @@ types:
     metalevelold: 15
     name: Panola's Modified Radar ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 192450.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
@@ -1244,8 +1162,8 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 85004
     marketGroup: 715
@@ -1253,12 +1171,10 @@ types:
     metalevelold: 15
     name: Panola's Modified Magnetometric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 194778.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1
@@ -1274,8 +1190,8 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.6
     hp: 40.0
     id: 85005
     marketGroup: 717
@@ -1283,12 +1199,10 @@ types:
     metalevelold: 15
     name: Panola's Modified Gravimetric ECM
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 184600.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 3427
     requiredskill1level: 1

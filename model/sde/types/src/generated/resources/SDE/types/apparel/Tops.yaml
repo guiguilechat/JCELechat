@@ -5,1914 +5,1610 @@ types:
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4058:
     gender: 1
     id: 4058
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (navy)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4059:
     gender: 1
     id: 4059
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (dust)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4060:
     gender: 1
     id: 4060
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (olive)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4061:
     gender: 3
     id: 4061
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4062:
     gender: 3
     id: 4062
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (navy)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4063:
     gender: 3
     id: 4063
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (dust)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4064:
     gender: 3
     id: 4064
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (olive)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4065:
     gender: 3
     id: 4065
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (platinum)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4066:
     gender: 3
     id: 4066
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 113
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4067:
     gender: 1
     id: 4067
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 113
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4068:
     gender: 1
     id: 4068
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (Ishukone Special Edition)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4155:
     gender: 3
     id: 4155
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black leather)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4156:
     gender: 3
     id: 4156
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (black/white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4157:
     gender: 3
     id: 4157
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (gold)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4158:
     gender: 3
     id: 4158
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (graphite)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4159:
     gender: 3
     id: 4159
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (green satin)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4160:
     gender: 3
     id: 4160
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4161:
     gender: 3
     id: 4161
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4162:
     gender: 3
     id: 4162
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (matte olive)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4163:
     gender: 3
     id: 4163
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (orange satin)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4164:
     gender: 3
     id: 4164
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (red satin)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4180:
     gender: 1
     id: 4180
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4181:
     gender: 1
     id: 4181
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4182:
     gender: 1
     id: 4182
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (brown)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4183:
     gender: 1
     id: 4183
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4184:
     gender: 1
     id: 4184
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4185:
     gender: 1
     id: 4185
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (khaki)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4186:
     gender: 1
     id: 4186
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (light gray)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4187:
     gender: 1
     id: 4187
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (olive)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4188:
     gender: 1
     id: 4188
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (dark camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4189:
     gender: 1
     id: 4189
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (desert camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4190:
     gender: 1
     id: 4190
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Form' T-shirt (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4191:
     gender: 1
     id: 4191
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4192:
     gender: 1
     id: 4192
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4193:
     gender: 1
     id: 4193
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (brown)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4194:
     gender: 1
     id: 4194
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (gray)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4195:
     gender: 1
     id: 4195
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (green)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4196:
     gender: 1
     id: 4196
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (gray urban camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4197:
     gender: 1
     id: 4197
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (brown camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4198:
     gender: 1
     id: 4198
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (urban camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4199:
     gender: 1
     id: 4199
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (green camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4200:
     gender: 1
     id: 4200
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Street' Shirt (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4201:
     gender: 3
     id: 4201
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4202:
     gender: 3
     id: 4202
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4203:
     gender: 3
     id: 4203
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (brown)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4204:
     gender: 3
     id: 4204
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (cream)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4205:
     gender: 3
     id: 4205
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4206:
     gender: 3
     id: 4206
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4207:
     gender: 3
     id: 4207
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (gray)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4208:
     gender: 3
     id: 4208
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (green)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4209:
     gender: 3
     id: 4209
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (khaki)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4210:
     gender: 3
     id: 4210
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (olive)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4211:
     gender: 3
     id: 4211
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (orange)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4212:
     gender: 3
     id: 4212
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (dark camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4213:
     gender: 3
     id: 4213
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (desert camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4214:
     gender: 3
     id: 4214
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4215:
     gender: 3
     id: 4215
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Function' T-shirt (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4216:
     gender: 3
     id: 4216
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4217:
     gender: 3
     id: 4217
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black leather)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4218:
     gender: 3
     id: 4218
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4219:
     gender: 3
     id: 4219
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (brown)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4220:
     gender: 3
     id: 4220
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (gray)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4221:
     gender: 3
     id: 4221
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (green)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4222:
     gender: 3
     id: 4222
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (orange)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4223:
     gender: 3
     id: 4223
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (gray camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4224:
     gender: 3
     id: 4224
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (orange camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4225:
     gender: 3
     id: 4225
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (red patterned)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4226:
     gender: 3
     id: 4226
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4227:
     gender: 3
     id: 4227
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (lined brown)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4228:
     gender: 3
     id: 4228
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (purple mesh)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4229:
     gender: 3
     id: 4229
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (black and dark red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4230:
     gender: 3
     id: 4230
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (pink camo)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4231:
     gender: 3
     id: 4231
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4232:
     gender: 3
     id: 4232
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Avenue' Shirt (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4240:
     gender: 1
     id: 4240
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gold leather)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4241:
     gender: 1
     id: 4241
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (gray)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4242:
     gender: 1
     id: 4242
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (red/black leather)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4243:
     gender: 1
     id: 4243
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white/blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4365:
     gender: 1
     id: 4365
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 114
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4366:
     gender: 3
     id: 4366
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 114
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4367:
     gender: 1
     id: 4367
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sterling' Dress Shirt (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4368:
     gender: 3
     id: 4368
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sterling' Dress Blouse (white)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33062:
     gender: 1
     id: 33062
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Red Star' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33063:
     gender: 3
     id: 33063
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Red Star' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33107:
     gender: 2
     id: 33107
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 115
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   33109:
     gender: 2
     id: 33109
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 115
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   33487:
     gender: 3
     id: 33487
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Luxury' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33488:
     gender: 1
     id: 33488
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Luxury' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33578:
     gender: 1
     id: 33578
     marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 115
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33579:
     gender: 3
     id: 33579
     marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 115
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33767:
     gender: 3
     id: 33767
     marketGroup: 1662
     mass: 0.5
     name: Women's 'New Eden Open I' T-shirt YC 114
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33768:
     gender: 3
     id: 33768
     marketGroup: 1662
     mass: 0.5
     name: Women's 'New Eden Open II' T-shirt YC 116
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33769:
     gender: 1
     id: 33769
     marketGroup: 1662
     mass: 0.5
     name: Men's 'New Eden Open I' T-shirt YC 114
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33770:
     gender: 1
     id: 33770
     marketGroup: 1662
     mass: 0.5
     name: Men's 'New Eden Open II' T-shirt YC 116
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33812:
     gender: 1
     id: 33812
     marketGroup: 1662
     mass: 0.5
     name: Men's 'Quafe' T-shirt YC 116
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33813:
     gender: 3
     id: 33813
     marketGroup: 1662
     mass: 0.5
     name: Women's 'Quafe' T-shirt YC 116
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34210:
     gender: 1
     id: 34210
     marketGroup: 1662
     mass: 0.5
     name: Men's 'Quafethron' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34211:
     gender: 3
     id: 34211
     marketGroup: 1662
     mass: 0.5
     name: Women's 'Quafethron' T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34824:
     gender: 1
     id: 34824
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Emergent Threats' T-shirt YC 117
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34825:
     gender: 3
     id: 34825
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Emergent Threats' T-shirt YC 117
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   35681:
     gender: 1
     id: 35681
     marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 117
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   35682:
     gender: 3
     id: 35682
     marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 117
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36480:
     gender: 1
     id: 36480
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36481:
     gender: 1
     id: 36481
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (white/red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36482:
     gender: 1
     id: 36482
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (desert)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36483:
     gender: 1
     id: 36483
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (cyan)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36484:
     gender: 1
     id: 36484
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (green)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36485:
     gender: 1
     id: 36485
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Hephaestus' Shirt (gray/orange)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36486:
     gender: 3
     id: 36486
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (blue)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36487:
     gender: 3
     id: 36487
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (white/red)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36488:
     gender: 3
     id: 36488
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (desert)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36489:
     gender: 3
     id: 36489
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (cyan)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36490:
     gender: 3
     id: 36490
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (green)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   36491:
     gender: 3
     id: 36491
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Hephaestus' Shirt (gray/orange)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   37808:
     gender: 3
     id: 37808
     marketGroup: 1406
     mass: 0.5
     name: Women's CONCORD Test Pilot T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   37809:
     gender: 1
     id: 37809
     marketGroup: 1398
     mass: 0.5
     name: Men's CONCORD Test Pilot T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   37865:
     gender: 3
     id: 37865
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Serpentis' T-shirt (olive/black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   37866:
     gender: 1
     id: 37866
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Serpentis' T-shirt (olive/black)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   40526:
     gender: 1
     id: 40526
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Mirelle' T-Shirt (Upwell)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   40527:
     gender: 3
     id: 40527
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Mirelle' T-Shirt (Upwell)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   42700:
     gender: 3
     id: 42700
     marketGroup: 1406
     name: Women's 'Function' T-shirt (Blood Raiders)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   42704:
     gender: 1
     id: 42704
     marketGroup: 1398
     name: Men's 'Form' T-shirt (Blood Raiders)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   42707:
     gender: 3
     id: 42707
     marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (Blood Raider)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   44120:
     gender: 3
     id: 44120
     marketGroup: 1406
     mass: 0.5
     name: Women's YC119 Yoiul Festival T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   44123:
     gender: 1
     id: 44123
     marketGroup: 1398
     mass: 0.5
     name: Men's YC119 Yoiul Festival T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   45734:
     gender: 2
     id: 45734
     marketGroup: 1406
     mass: 0.5
     name: Women's Exoplanets Hunter T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   45743:
     gender: 2
     id: 45743
     marketGroup: 1398
     mass: 0.5
     name: Men's Exoplanets Hunter T-shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47182:
     gender: 2
     id: 47182
     marketGroup: 1398
     mass: 0.5
     name: Men's Amarr 'Loyalist' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47183:
     gender: 2
     id: 47183
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Liberator' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47184:
     gender: 2
     id: 47184
     marketGroup: 1398
     mass: 0.5
     name: Men's Gallente 'Defender' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47185:
     gender: 2
     id: 47185
     marketGroup: 1406
     mass: 0.5
     name: Women's Gallente 'Defender' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47186:
     gender: 2
     id: 47186
     marketGroup: 1406
     mass: 0.5
     name: Women's Amarr 'Loyalist' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47187:
     gender: 2
     id: 47187
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Liberator' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47188:
     gender: 2
     id: 47188
     marketGroup: 1398
     mass: 0.5
     name: Men's Caldari 'Patriot' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47189:
     gender: 2
     id: 47189
     marketGroup: 1406
     mass: 0.5
     name: Women's Caldari 'Patriot' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47190:
     gender: 2
     id: 47190
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Elite XV T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47192:
     gender: 2
     id: 47192
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Elite XV T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47479:
     gender: 2
     id: 47479
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Networker XV T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   47480:
     gender: 2
     id: 47480
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Networker XV T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   50130:
     gender: 2
     id: 50130
     marketGroup: 1406
     mass: 0.5
     name: Women's Permaband Tour T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   50131:
     gender: 2
     id: 50131
     marketGroup: 1398
     mass: 0.5
     name: Men's Permaband Tour T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52198:
     gender: 2
     id: 52198
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Day XVI T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52200:
     gender: 2
     id: 52200
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Day XVI T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   53380:
     gender: 2
     id: 53380
     marketGroup: 1406
     mass: 0.5
     name: Women's Aurora Universalis T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   53383:
     gender: 2
     id: 53383
     marketGroup: 1398
     mass: 0.5
     name: Men's Aurora Universalis T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54193:
     gender: 2
     id: 54193
     marketGroup: 1406
     mass: 0.5
     name: Women's Frontier Safeguarder T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54194:
     gender: 2
     id: 54194
     marketGroup: 1398
     mass: 0.5
     name: Men's Frontier Safeguarder T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54320:
     gender: 2
     id: 54320
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Day XVII T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54328:
     gender: 2
     id: 54328
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Day XVII T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54943:
     gender: 2
     id: 54943
     marketGroup: 1398
     mass: 0.5
     name: Men's Project Discovery Cytometry T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54944:
     gender: 2
     id: 54944
     marketGroup: 1406
     mass: 0.5
     name: Women's Project Discovery Cytometry T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56146:
     gender: 2
     id: 56146
     marketGroup: 1406
     mass: 0.5
     name: Women's EDENCOM 'Reliant' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56147:
     gender: 2
     id: 56147
     marketGroup: 1398
     mass: 0.5
     name: Men's EDENCOM 'Reliant' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56211:
     gender: 2
     id: 56211
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Kybernaut Clade' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56212:
     gender: 2
     id: 56212
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Kybernaut Clade' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56636:
     gender: 2
     id: 56636
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Crimson Harvest' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56639:
     gender: 2
     id: 56639
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Crimson Harvest' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56845:
     gender: 2
     id: 56845
     marketGroup: 1406
     mass: 0.5
     name: Women's Jita 4-4 Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56848:
     gender: 2
     id: 56848
     marketGroup: 1398
     mass: 0.5
     name: Men's Jita 4-4 Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57073:
     gender: 2
     id: 57073
     marketGroup: 1398
     mass: 0.5
     name: Men's Yoiul Stormchasers T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57077:
     gender: 2
     id: 57077
     marketGroup: 1406
     mass: 0.5
     name: Women's Yoiul Stormchasers T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58757:
     gender: 2
     id: 58757
     marketGroup: 1398
     mass: 0.5
     name: Men's Capsuleer Day XVIII T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58768:
     gender: 2
     id: 58768
     marketGroup: 1406
     mass: 0.5
     name: Women's Capsuleer Day XVIII T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58809:
     gender: 2
     id: 58809
     marketGroup: 1406
     mass: 0.5
     name: Women's Imperial Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58810:
     gender: 2
     id: 58810
     marketGroup: 1406
     mass: 0.5
     name: Women's State Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58811:
     gender: 2
     id: 58811
     marketGroup: 1406
     mass: 0.5
     name: Women's Federation Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58812:
     gender: 2
     id: 58812
     marketGroup: 1406
     mass: 0.5
     name: Women's Republic Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58813:
     gender: 2
     id: 58813
     marketGroup: 1398
     mass: 0.5
     name: Men's Imperial Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58814:
     gender: 2
     id: 58814
     marketGroup: 1398
     mass: 0.5
     name: Men's State Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58815:
     gender: 2
     id: 58815
     marketGroup: 1398
     mass: 0.5
     name: Men's Federation Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   58816:
     gender: 2
     id: 58816
     marketGroup: 1398
     mass: 0.5
     name: Men's Republic Stargate Crew Top
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60435:
     gender: 2
     id: 60435
     marketGroup: 1398
     mass: 0.5
     name: Men's 'Sanguine Harvest' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60436:
     gender: 2
     id: 60436
     marketGroup: 1406
     mass: 0.5
     name: Women's 'Sanguine Harvest' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   61532:
     gender: 2
     id: 61532
     marketGroup: 1406
     mass: 0.5
     name: Women's Interstellar Convergence T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   61533:
     gender: 2
     id: 61533
     marketGroup: 1398
     mass: 0.5
     name: Men's Interstellar Convergence T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   64203:
     gender: 2
     id: 64203
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Rebellion' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   64204:
     gender: 2
     id: 64204
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Rebellion' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   64268:
     gender: 2
     id: 64268
     marketGroup: 1398
     mass: 0.5
     name: Men's Minmatar 'Freedom Fighter' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   64269:
     gender: 2
     id: 64269
     marketGroup: 1406
     mass: 0.5
     name: Women's Minmatar 'Freedom Fighter' T-Shirt
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

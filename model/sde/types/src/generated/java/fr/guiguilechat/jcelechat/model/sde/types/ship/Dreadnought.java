@@ -26,9 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -92,7 +90,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
@@ -114,7 +111,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -541,13 +537,6 @@ public class Dreadnought
     @Stackable(false)
     @DefaultIntValue(0)
     public int scanspeed;
-    /**
-     * Resistance against Remote Sensor Dampeners.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double sensordampenerresistance;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(1.0)
@@ -770,7 +759,7 @@ public class Dreadnought
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ShipBonusDreadnoughtPC2 .INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ShipBonusDreadnoughtPC1 .INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShipBonusDreadnoughtPC3 .INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, ShipBonusDreadnoughtA4 .INSTANCE, ShipBonusDreadnoughtG4 .INSTANCE, ShipBonusDreadnoughtG5 .INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, ShipBonusDreadnoughtM4 .INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, ShipBonusSiegeSpeedMultiplier.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, ShipBloodRaiderCapitalNosSignatureReductionMultiplyer.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusDreadnoughtA1 .INSTANCE, ShipBonusDreadnoughtA2 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusDreadnoughtA3 .INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusDreadnoughtC1 .INSTANCE, ShipBonusDreadnoughtC2 .INSTANCE, ShipBonusDreadnoughtC3 .INSTANCE, ShipBonusDreadnoughtG1 .INSTANCE, ShipBonusDreadnoughtG2 .INSTANCE, ShipBonusDreadnoughtG3 .INSTANCE, ShipBonusDreadnoughtM1 .INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonusDreadnoughtM2 .INSTANCE, ShipBonusDreadnoughtM3 .INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ShipBonusDreadnoughtPC2 .INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ShipBonusDreadnoughtPC1 .INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShipBonusDreadnoughtPC3 .INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, ShipBonusDreadnoughtA4 .INSTANCE, ShipBonusDreadnoughtG4 .INSTANCE, ShipBonusDreadnoughtG5 .INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, ShipBonusDreadnoughtM4 .INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, UpgradeSlotsLeft.INSTANCE, ShipBonusSiegeSpeedMultiplier.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, ShipBloodRaiderCapitalNosSignatureReductionMultiplyer.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, ShipBonusDreadnoughtA1 .INSTANCE, ShipBonusDreadnoughtA2 .INSTANCE, HeatAttenuationMed.INSTANCE, ShipBonusDreadnoughtA3 .INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusDreadnoughtC1 .INSTANCE, ShipBonusDreadnoughtC2 .INSTANCE, ShipBonusDreadnoughtC3 .INSTANCE, ShipBonusDreadnoughtG1 .INSTANCE, ShipBonusDreadnoughtG2 .INSTANCE, ShipBonusDreadnoughtG3 .INSTANCE, ShipBonusDreadnoughtM1 .INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, ShipBonusDreadnoughtM2 .INSTANCE, ShipBonusDreadnoughtM3 .INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Dreadnought.MetaGroup METAGROUP = new Dreadnought.MetaGroup();
 
     @Override
@@ -983,10 +972,6 @@ public class Dreadnought
             case  79 :
             {
                 return scanspeed;
-            }
-            case  2112 :
-            {
-                return sensordampenerresistance;
             }
             case  5787 :
             {

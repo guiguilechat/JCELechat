@@ -1,18 +1,17 @@
 types:
   42533:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 219.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     behaviorminingamount: 16.0
     behaviorminingdischarge: 40
     behaviorminingduration: 1920000
     behaviorminingmaxrange: 11000
     capacitorcapacity: 313.0
-    capacity: 50.0
     disallowassistance: 1
-    entityfactionloss: 0.0010000000474974513
+    entityfactionloss: 0.001
     entitykillbounty: 50000
     entityoverviewshipgroupid: 25
     gfxboosterid: 394
@@ -24,20 +23,19 @@ types:
     maxtargetrange: 18750.0
     maxvelocity: 420.0
     name: ♦ Venture
-    packagedVolume: 5000.0
     portionSize: 1
     published: false
     radius: 41.0
     rechargerate: 93750.0
-    scanmagnetometricstrength: 4.800000190734863
+    scanmagnetometricstrength: 4.8
     scanresolution: 937.0
     scanspeed: 2500
     shieldcapacity: 3849.0
     shieldemdamageresonance: 0.75
     shieldexplosivedamageresonance: 0.375
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 60.0
     structureuniformity: 1.0

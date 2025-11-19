@@ -16,17 +16,14 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -83,13 +80,6 @@ public abstract class Starbase
     @DefaultRealValue(0.0)
     public double armoruniformity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      */
     @HighIsGood(true)
@@ -110,13 +100,6 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int onliningdelay;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Gravimetric strength.
      */
@@ -153,14 +136,6 @@ public abstract class Starbase
     @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
-    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
@@ -188,7 +163,7 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int unanchoringdelay;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, DisallowOffensiveModifiers.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, DisallowOffensiveModifiers.INSTANCE })));
     public static final Starbase.MetaCat METACAT = new Starbase.MetaCat();
 
     @Override
@@ -206,10 +181,6 @@ public abstract class Starbase
             {
                 return armoruniformity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  872 :
             {
                 return disallowoffensivemodifiers;
@@ -221,10 +192,6 @@ public abstract class Starbase
             case  677 :
             {
                 return onliningdelay;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  211 :
             {
@@ -245,10 +212,6 @@ public abstract class Starbase
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  479 :
             {

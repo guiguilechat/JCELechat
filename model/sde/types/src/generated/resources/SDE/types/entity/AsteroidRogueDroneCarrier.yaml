@@ -1,17 +1,17 @@
 types:
   37470:
-    agility: 0.05000000074505806
+    agility: 0.05
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.4099999964237213
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.41
     armorhp: 120000.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
     damagemultiplier: 80.0
@@ -19,7 +19,7 @@ types:
     emdamage: 40.0
     energyneutralizeramount: 500.0
     energyneutralizerduration: 30000
-    energyneutralizerentitychance: 0.800000011920929
+    energyneutralizerentitychance: 0.8
     energyneutralizerrangeoptimal: 60000
     entityattackdelaymax: 10000
     entityattackdelaymin: 5000
@@ -37,9 +37,9 @@ types:
     entitykillbounty: 60000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.2999999523162842
+    entitysecuritystatuskillbonus: 1.3
     entityshieldboostamountpersecond: 1600.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 1.0
@@ -52,7 +52,7 @@ types:
     id: 37470
     iscapitalsize: 1
     kineticdamage: 20.0
-    mass: 1.163250048E9
+    mass: 1163250000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0
@@ -62,7 +62,6 @@ types:
     modifytargetspeedrange: 70000
     name: Infested Carrier
     optimalsigradius: 2000
-    packagedVolume: 1.3095E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -71,35 +70,35 @@ types:
     scanladarstrength: 150.0
     scanresolution: 50.0
     shieldcapacity: 130000.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.4099999964237213
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.41
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 9960.0
     speed: 6000.0
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 30.0
-    trackingspeed: 0.07999999821186066
-    volume: 1.3095E7
+    trackingspeed: 0.08
+    volume: 13095000.0
     warpscrambleduration: 5000
     warpscramblerange: 80000
     warpscramblestrength: 1
   41401:
-    agility: 0.05000000074505806
+    agility: 0.05
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.4099999964237213
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.41
     armorhp: 150000.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
     damagemultiplier: 100.0
@@ -125,9 +124,9 @@ types:
     entitykillbounty: 120000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.399999976158142
+    entitysecuritystatuskillbonus: 1.4
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 1.0
@@ -140,7 +139,7 @@ types:
     id: 41401
     iscapitalsize: 1
     kineticdamage: 20.0
-    mass: 1.163250048E9
+    mass: 1163250000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0
@@ -150,7 +149,6 @@ types:
     modifytargetspeedrange: 70000
     name: Sentient Infested Carrier
     optimalsigradius: 2000
-    packagedVolume: 1.3095E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -159,19 +157,19 @@ types:
     scanladarstrength: 150.0
     scanresolution: 60.0
     shieldcapacity: 160000.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.4099999964237213
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.41
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 9960.0
     speed: 6000.0
     speedfactor: -65.0
     structureuniformity: 1.0
     thermaldamage: 30.0
-    trackingspeed: 0.09000000357627869
-    volume: 1.3095E7
+    trackingspeed: 0.09
+    volume: 13095000.0
     warpscrambleduration: 5000
     warpscramblerange: 80000
     warpscramblestrength: 1

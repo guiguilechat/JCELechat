@@ -4,20 +4,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 480.0
     damagemultiplier: 6.25
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19200
     entityattackdelaymin: 4800
@@ -29,19 +28,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5125.0
     entitykillbounty: 131250
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
+    entityreactionfactor: 0.61
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07500000298023224
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.075
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
@@ -50,7 +49,7 @@ types:
     id: 24003
     kineticdamage: 6.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -59,7 +58,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis Wing Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -69,10 +67,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 2500.0
@@ -80,27 +78,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.10999999940395355
+    trackingspeed: 0.11
     volume: 112000.0
   24024:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 480.0
     damagemultiplier: 6.78125
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18900
     entityattackdelaymin: 4725
@@ -112,19 +109,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.07999999821186066
+    entitydefenderchance: 0.08
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5125.0
     entitykillbounty: 135000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6200000047683716
+    entityreactionfactor: 0.62
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07625000178813934
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.07625
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
@@ -133,7 +130,7 @@ types:
     id: 24024
     kineticdamage: 6.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 4500.0
@@ -142,7 +139,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis Squad Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -152,10 +148,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 2500.0
@@ -163,27 +159,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.10999999940395355
+    trackingspeed: 0.11
     volume: 112000.0
   24025:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 900.0
-    capacity: 480.0
     damagemultiplier: 9.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18600
     entityattackdelaymin: 4650
@@ -195,19 +190,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.08500000089406967
+    entitydefenderchance: 0.085
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitykillbounty: 138750
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6299999952316284
+    entityreactionfactor: 0.63
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07750000059604645
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.0775
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 12000.0
     gfxboosterid: 394
@@ -216,7 +211,7 @@ types:
     id: 24025
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -225,7 +220,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis Platoon Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -235,10 +229,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3500.0
@@ -246,27 +240,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.023000000044703484
+    trackingspeed: 0.023
     volume: 112000.0
   24026:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 925.0
-    capacity: 480.0
     damagemultiplier: 9.5
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18300
     entityattackdelaymin: 4575
@@ -278,19 +271,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.09000000357627869
+    entitydefenderchance: 0.09
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitykillbounty: 142500
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6399999856948853
+    entityreactionfactor: 0.64
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07874999940395355
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.07875
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 12000.0
     gfxboosterid: 394
@@ -299,7 +292,7 @@ types:
     id: 24026
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -308,7 +301,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis Captain
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -318,10 +310,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3500.0
@@ -329,27 +321,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.023000000044703484
+    trackingspeed: 0.023
     volume: 112000.0
   24027:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 950.0
-    capacity: 480.0
-    damagemultiplier: 7.824999809265137
+    damagemultiplier: 7.825
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18000
     entityattackdelaymin: 4500
@@ -361,19 +352,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.0949999988079071
+    entitydefenderchance: 0.095
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitykillbounty: 146250
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.08
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3000.0
     gfxboosterid: 394
@@ -382,7 +373,7 @@ types:
     id: 24027
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -391,7 +382,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis Captain Sentry
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -401,10 +391,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3000.0
@@ -412,27 +402,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 14.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 112000.0
   24028:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 480.0
     damagemultiplier: 8.25
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -444,19 +433,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitykillbounty: 153750
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.0825
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3000.0
     gfxboosterid: 394
@@ -465,7 +454,7 @@ types:
     id: 24028
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5250.0
@@ -474,7 +463,6 @@ types:
     modifytargetspeedrange: 20000
     name: Corelatis High Captain
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -484,10 +472,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3000.0
@@ -495,27 +483,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 14.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 112000.0
   24199:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 850.0
-    capacity: 480.0
     damagemultiplier: 7.8125
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19200
     entityattackdelaymin: 4800
@@ -530,16 +517,16 @@ types:
     entitydefenderchance: 0.09375
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5125.0
     entitykillbounty: 150000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6100000143051147
+    entityreactionfactor: 0.61
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08124999701976776
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.08125
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3125.0
     gfxboosterid: 394
@@ -548,7 +535,7 @@ types:
     id: 24199
     kineticdamage: 6.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -557,7 +544,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis Wing Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -567,10 +553,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 2500.0
@@ -578,27 +564,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.13750000298023224
+    trackingspeed: 0.1375
     volume: 112000.0
   24200:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 480.0
     damagemultiplier: 8.4765625
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18900
     entityattackdelaymin: 4725
@@ -610,19 +595,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5125.0
     entitykillbounty: 157500
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6200000047683716
+    entityreactionfactor: 0.62
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08375000208616257
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.08375
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3125.0
     gfxboosterid: 394
@@ -631,7 +616,7 @@ types:
     id: 24200
     kineticdamage: 6.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -640,7 +625,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis Squad Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -650,10 +634,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 2500.0
@@ -661,27 +645,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.13750000298023224
+    trackingspeed: 0.1375
     volume: 112000.0
   24201:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 900.0
-    capacity: 480.0
     damagemultiplier: 11.25
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18600
     entityattackdelaymin: 4650
@@ -693,19 +676,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.10625000298023224
+    entitydefenderchance: 0.10625
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitykillbounty: 161250
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6299999952316284
+    entityreactionfactor: 0.63
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08500000089406967
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.085
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 15000.0
     gfxboosterid: 394
@@ -714,7 +697,7 @@ types:
     id: 24201
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -723,7 +706,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis Platoon Leader
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -733,10 +715,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3500.0
@@ -744,27 +726,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 112000.0
   24202:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 925.0
-    capacity: 480.0
     damagemultiplier: 11.875
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18300
     entityattackdelaymin: 4575
@@ -776,19 +757,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.11249999701976776
+    entitydefenderchance: 0.1125
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 23000.0
     entitykillbounty: 165000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6399999856948853
+    entityreactionfactor: 0.64
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08624999970197678
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.08625
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 15000.0
     gfxboosterid: 394
@@ -797,7 +778,7 @@ types:
     id: 24202
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -806,7 +787,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis Captain
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -816,10 +796,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3500.0
@@ -827,27 +807,26 @@ types:
     structureuniformity: 1.0
     thermaldamage: 12.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 112000.0
   24203:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 950.0
-    capacity: 480.0
     damagemultiplier: 9.78125
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18000
     entityattackdelaymin: 4500
@@ -859,19 +838,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.11874999850988388
+    entitydefenderchance: 0.11875
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitykillbounty: 168750
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08749999850988388
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.0875
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
@@ -880,7 +859,7 @@ types:
     id: 24203
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -889,7 +868,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis Captain Sentry
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -899,10 +877,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3000.0
@@ -917,20 +895,19 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 975.0
-    capacity: 480.0
     damagemultiplier: 10.3125
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 375.0
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -945,16 +922,16 @@ types:
     entitydefenderchance: 0.125
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitykillbounty: 172500
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08874999731779099
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.08875
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 3750.0
     gfxboosterid: 394
@@ -963,7 +940,7 @@ types:
     id: 24204
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -972,7 +949,6 @@ types:
     modifytargetspeedrange: 20000
     name: Shadow Corelatis High Captain
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -982,10 +958,10 @@ types:
     scanresolution: 200.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 3000.0
@@ -1003,20 +979,19 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 2.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 2000.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     behaviorarmorrepairerduration: 10000
     capacitorcapacity: 975.0
-    capacity: 480.0
-    damagemultiplier: 10.300000190734863
+    damagemultiplier: 10.3
     disallowassistance: 1
     emdamageresonance: 1.0
     entityarmorrepairamount: 360.0
-    entityarmorrepairdelaychance: 0.6499999761581421
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.65
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17700
     entityattackdelaymin: 4425
@@ -1028,19 +1003,19 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentmax: 6
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 20000.0
     entitykillbounty: 550000
     entitylootcountmin: 1
     entitymaxvelocitysignatureradiusmultiplier: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6600000262260437
+    entityreactionfactor: 0.66
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.08250000327825546
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.0825
+    entityshieldboostdelaychancemedium: 0.65
     explosivedamageresonance: 1.0
     falloff: 20000.0
     gfxboosterid: 394
@@ -1049,7 +1024,7 @@ types:
     id: 83637
     kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 5
     maxrange: 40000.0
@@ -1059,7 +1034,6 @@ types:
     modifytargetspeedrange: 12000
     name: Corelatis Group Captain
     optimalsigradius: 100
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1069,10 +1043,10 @@ types:
     scanresolution: 400.0
     shieldcapacity: 1375.0
     shieldemdamageresonance: 0.5
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 3000.0
@@ -1080,5 +1054,5 @@ types:
     structureuniformity: 1.0
     thermaldamage: 14.0
     thermaldamageresonance: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 112000.0

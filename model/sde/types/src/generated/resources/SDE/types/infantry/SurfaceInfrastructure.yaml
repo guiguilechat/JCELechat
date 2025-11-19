@@ -1,28 +1,25 @@
 types:
   364205:
     id: 364205
-    mass: 1.1E8
+    mass: 110000000.0
     name: Cargo Hub
-    packagedVolume: 4000.0
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: false
     volume: 4000.0
   364206:
     id: 364206
-    mass: 1.1E8
+    mass: 110000000.0
     name: Surface Research Lab
-    packagedVolume: 4000.0
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: false
     volume: 4000.0
   364207:
     id: 364207
-    mass: 1.1E8
+    mass: 110000000.0
     name: Production Facility
-    packagedVolume: 4000.0
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: false
     volume: 4000.0

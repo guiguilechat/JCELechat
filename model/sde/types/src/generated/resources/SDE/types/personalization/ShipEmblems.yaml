@@ -3999,3 +3999,53 @@ types:
     name: Babaroga Corporation Emblem
     portionSize: 1
     published: true
+  89487:
+    id: 89487
+    name: Pioneer Corporation Emblem
+    portionSize: 1
+    published: true
+  89488:
+    id: 89488
+    name: Pioneer Alliance Emblem
+    portionSize: 1
+    published: true
+  89640:
+    id: 89640
+    name: Odysseus Alliance Emblem
+    portionSize: 1
+    published: true
+  89641:
+    id: 89641
+    name: Odysseus Corporation Emblem
+    portionSize: 1
+    published: true
+  89666:
+    id: 89666
+    name: Outrider Corporation Emblem
+    portionSize: 1
+    published: true
+  89667:
+    id: 89667
+    name: Outrider Alliance Emblem
+    portionSize: 1
+    published: true
+  89677:
+    id: 89677
+    name: Pioneer Consortium Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  89678:
+    id: 89678
+    name: Pioneer Consortium Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  89679:
+    id: 89679
+    name: Venture Consortium Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  89681:
+    id: 89681
+    name: Venture Consortium Issue Alliance Emblem
+    portionSize: 1
+    published: true

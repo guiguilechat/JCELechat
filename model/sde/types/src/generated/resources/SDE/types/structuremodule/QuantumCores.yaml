@@ -4,9 +4,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Astrahus Upwell Quantum Core
-    packagedVolume: 500.0
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
     volume: 500.0
   56202:
@@ -14,9 +13,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Athanor Upwell Quantum Core
-    packagedVolume: 500.0
     portionSize: 1
-    price: 7.0E8
+    price: 700000000.0
     published: true
     volume: 500.0
   56203:
@@ -24,9 +22,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Raitaru Upwell Quantum Core
-    packagedVolume: 500.0
     portionSize: 1
-    price: 8.0E8
+    price: 800000000.0
     published: true
     volume: 500.0
   56204:
@@ -34,9 +31,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Fortizar Upwell Quantum Core
-    packagedVolume: 50000.0
     portionSize: 1
-    price: 4.0E9
+    price: 4000000000.0
     published: true
     volume: 50000.0
   56205:
@@ -44,9 +40,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Tatara Upwell Quantum Core
-    packagedVolume: 50000.0
     portionSize: 1
-    price: 3.5E9
+    price: 3500000000.0
     published: true
     volume: 50000.0
   56206:
@@ -54,9 +49,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Azbel Upwell Quantum Core
-    packagedVolume: 50000.0
     portionSize: 1
-    price: 3.0E9
+    price: 3000000000.0
     published: true
     volume: 50000.0
   56207:
@@ -64,9 +58,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Keepstar Upwell Quantum Core
-    packagedVolume: 95000.0
     portionSize: 1
-    price: 3.0000001024E10
+    price: 30000000000.0
     published: true
     volume: 95000.0
   56208:
@@ -74,9 +67,8 @@ types:
     marketGroup: 2749
     mass: 4000.0
     name: Sotiyo Upwell Quantum Core
-    packagedVolume: 95000.0
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
     volume: 95000.0
   81920:
@@ -84,8 +76,7 @@ types:
     marketGroup: 1865
     mass: 4000.0
     name: Integrated Moon Drill Armature
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     volume: 3000.0

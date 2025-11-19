@@ -4,45 +4,44 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5799999833106995
-    armorexplosivedamageresonance: 0.47999998927116394
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.58
+    armorexplosivedamageresonance: 0.48
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.7799999713897705
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.78
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 650.0
-    capacity: 235.0
     damagemultiplier: 5.125
     disallowassistance: 1
     entityarmorrepairamount: 175.0
-    entityarmorrepairdelaychance: 0.41999998688697815
-    entityarmorrepairdelaychancemedium: 0.41999998688697815
+    entityarmorrepairdelaychance: 0.42
+    entityarmorrepairdelaychancemedium: 0.42
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21600
     entityattackdelaymin: 5400
     entityattackrange: 43750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 26250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.01875000074505806
+    entitydefenderchance: 0.01875
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 487500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5299999713897705
+    entityreactionfactor: 0.53
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10999999940395355
+    entitysecuritystatuskillbonus: 0.11
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.08749999850988388
+    entitysensordampendurationchance: 0.0875
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 30000
     falloff: 12500.0
@@ -51,15 +50,14 @@ types:
     hp: 1000.0
     id: 13637
     kineticdamage: 6.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 18750.0
-    maxtargetrangemultiplier: 0.800000011920929
+    maxtargetrangemultiplier: 0.8
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Watchman
     optimalsigradius: 125
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -67,64 +65,63 @@ types:
     rechargerate: 1000000.0
     scanmagnetometricstrength: 22.0
     scanresolution: 230.0
-    scanresolutionmultiplier: 0.800000011920929
+    scanresolutionmultiplier: 0.8
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.5799999833106995
-    shieldexplosivedamageresonance: 0.47999998927116394
-    shieldkineticdamageresonance: 0.7799999713897705
+    shieldemdamageresonance: 0.58
+    shieldexplosivedamageresonance: 0.48
+    shieldkineticdamageresonance: 0.78
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 170.0
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.03500000014901161
+    trackingspeed: 0.035
     volume: 115000.0
   13638:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.4699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.47
     armorhp: 1100.0
-    armorkineticdamageresonance: 0.7699999809265137
-    armorthermaldamageresonance: 0.6700000166893005
+    armorkineticdamageresonance: 0.77
+    armorthermaldamageresonance: 0.67
     armoruniformity: 0.75
     capacitorcapacity: 675.0
-    capacity: 480.0
     damagemultiplier: 5.53125
     disallowassistance: 1
     entityarmorrepairamount: 188.0
-    entityarmorrepairdelaychance: 0.4300000071525574
-    entityarmorrepairdelaychancemedium: 0.4300000071525574
+    entityarmorrepairdelaychance: 0.43
+    entityarmorrepairdelaychancemedium: 0.43
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21300
     entityattackdelaymin: 5325
     entityattackrange: 43750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 26250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 17500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 543750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5400000214576721
+    entityreactionfactor: 0.54
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.11500000208616257
+    entitysecuritystatuskillbonus: 0.115
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.10000000149011612
+    entitysensordampendurationchance: 0.1
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 30000
     falloff: 12500.0
@@ -133,15 +130,14 @@ types:
     hp: 1300.0
     id: 13638
     kineticdamage: 6.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 18750.0
-    maxtargetrangemultiplier: 0.800000011920929
+    maxtargetrangemultiplier: 0.8
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Patroller
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -149,62 +145,61 @@ types:
     rechargerate: 1000000.0
     scanmagnetometricstrength: 23.0
     scanresolution: 230.0
-    scanresolutionmultiplier: 0.800000011920929
+    scanresolutionmultiplier: 0.8
     shieldcapacity: 1050.0
-    shieldemdamageresonance: 0.5699999928474426
-    shieldexplosivedamageresonance: 0.4699999988079071
-    shieldkineticdamageresonance: 0.7699999809265137
+    shieldemdamageresonance: 0.57
+    shieldexplosivedamageresonance: 0.47
+    shieldkineticdamageresonance: 0.77
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6700000166893005
+    shieldthermaldamageresonance: 0.67
     shielduniformity: 0.75
     signatureradius: 170.0
     speed: 2750.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.03500000014901161
+    trackingspeed: 0.035
     volume: 112000.0
   13639:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
     armorexplosivedamageresonance: 0.5
     armorhp: 750.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 600.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
     entityarmorrepairamount: 150.0
-    entityarmorrepairdelaychance: 0.4000000059604645
-    entityarmorrepairdelaychancemedium: 0.4000000059604645
+    entityarmorrepairdelaychance: 0.4
+    entityarmorrepairdelaychancemedium: 0.4
     entityarmorrepairduration: 10000
     entityattackdelaymax: 22200
     entityattackdelaymin: 5550
     entityattackrange: 8250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.0062500000931322575
+    entitydefenderchance: 0.00625
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.004000000189989805
+    entityfactionloss: 0.004
     entityflyrange: 2750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 375000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5099999904632568
+    entityreactionfactor: 0.51
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10000000149011612
+    entitysecuritystatuskillbonus: 0.1
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -212,7 +207,7 @@ types:
     hp: 700.0
     id: 13639
     kineticdamage: 6.0
-    mass: 1.13E7
+    mass: 11300000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2500.0
@@ -220,7 +215,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Scout
     optimalsigradius: 125
-    packagedVolume: 113000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -229,60 +223,59 @@ types:
     scanmagnetometricstrength: 15.0
     scanresolution: 280.0
     shieldcapacity: 575.0
-    shieldemdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.6
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.8
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 110.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.15000000596046448
+    trackingspeed: 0.15
     volume: 113000.0
   13641:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5899999737739563
-    armorexplosivedamageresonance: 0.49000000953674316
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.59
+    armorexplosivedamageresonance: 0.49
     armorhp: 825.0
-    armorkineticdamageresonance: 0.7900000214576721
-    armorthermaldamageresonance: 0.6899999976158142
+    armorkineticdamageresonance: 0.79
+    armorthermaldamageresonance: 0.69
     armoruniformity: 0.75
     capacitorcapacity: 625.0
-    capacity: 900.0
-    damagemultiplier: 5.364583492279053
+    damagemultiplier: 5.364583333
     disallowassistance: 1
     entityarmorrepairamount: 163.0
-    entityarmorrepairdelaychance: 0.4099999964237213
-    entityarmorrepairdelaychancemedium: 0.4099999964237213
+    entityarmorrepairdelaychance: 0.41
+    entityarmorrepairdelaychancemedium: 0.41
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21900
     entityattackdelaymin: 5475
     entityattackrange: 8250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.012500000186264515
+    entitydefenderchance: 0.0125
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 2750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 431250
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5199999809265137
+    entityreactionfactor: 0.52
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10499999672174454
+    entitysecuritystatuskillbonus: 0.105
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -290,7 +283,7 @@ types:
     hp: 900.0
     id: 13641
     kineticdamage: 6.0
-    mass: 1.16E7
+    mass: 11600000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 2500.0
@@ -298,7 +291,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Spy
     optimalsigradius: 125
-    packagedVolume: 116000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -307,60 +299,59 @@ types:
     scanmagnetometricstrength: 15.0
     scanresolution: 280.0
     shieldcapacity: 725.0
-    shieldemdamageresonance: 0.5899999737739563
-    shieldexplosivedamageresonance: 0.49000000953674316
-    shieldkineticdamageresonance: 0.7900000214576721
+    shieldemdamageresonance: 0.59
+    shieldexplosivedamageresonance: 0.49
+    shieldkineticdamageresonance: 0.79
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6899999976158142
+    shieldthermaldamageresonance: 0.69
     shielduniformity: 0.75
     signatureradius: 110.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.15000000596046448
+    trackingspeed: 0.15
     volume: 116000.0
   13651:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5299999713897705
-    armorexplosivedamageresonance: 0.4300000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.53
+    armorexplosivedamageresonance: 0.43
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.7300000190734863
-    armorthermaldamageresonance: 0.6299999952316284
+    armorkineticdamageresonance: 0.73
+    armorthermaldamageresonance: 0.63
     armoruniformity: 0.75
     capacitorcapacity: 775.0
-    capacity: 480.0
     damagemultiplier: 7.5
     disallowassistance: 1
     entityarmorrepairamount: 238.0
-    entityarmorrepairdelaychance: 0.4699999988079071
-    entityarmorrepairdelaychancemedium: 0.4699999988079071
+    entityarmorrepairdelaychance: 0.47
+    entityarmorrepairdelaychancemedium: 0.47
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20100
     entityattackdelaymin: 5025
     entityattackrange: 18000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 12000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 768750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5799999833106995
+    entityreactionfactor: 0.58
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.13500000536441803
+    entitysecuritystatuskillbonus: 0.135
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -368,7 +359,7 @@ types:
     hp: 1800.0
     id: 13651
     kineticdamage: 8.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -376,7 +367,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Protector
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -385,11 +375,11 @@ types:
     scanmagnetometricstrength: 16.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.5299999713897705
-    shieldexplosivedamageresonance: 0.4300000071525574
-    shieldkineticdamageresonance: 0.7300000190734863
+    shieldemdamageresonance: 0.53
+    shieldexplosivedamageresonance: 0.43
+    shieldkineticdamageresonance: 0.73
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6299999952316284
+    shieldthermaldamageresonance: 0.63
     shielduniformity: 0.75
     signatureradius: 130.0
     speed: 3000.0
@@ -402,27 +392,26 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5099999904632568
-    armorexplosivedamageresonance: 0.4099999964237213
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.51
+    armorexplosivedamageresonance: 0.41
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.7099999785423279
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.71
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 825.0
-    capacity: 480.0
     damagemultiplier: 7.5
     disallowassistance: 1
     entityarmorrepairamount: 263.0
-    entityarmorrepairdelaychance: 0.49000000953674316
-    entityarmorrepairdelaychancemedium: 0.49000000953674316
+    entityarmorrepairdelaychance: 0.49
+    entityarmorrepairdelaychancemedium: 0.49
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19500
     entityattackdelaymin: 4875
     entityattackrange: 18000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 12000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -430,15 +419,15 @@ types:
     entitydefenderchance: 0.0625
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 6000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 881250
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14499999582767487
+    entitysecuritystatuskillbonus: 0.145
     entitysensordampenduration: 30000
     falloff: 3750.0
     gfxboosterid: 394
@@ -446,7 +435,7 @@ types:
     hp: 1800.0
     id: 13656
     kineticdamage: 8.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6563.0
@@ -454,7 +443,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Sentinel
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -463,11 +451,11 @@ types:
     scanmagnetometricstrength: 17.0
     scanresolution: 250.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.5099999904632568
-    shieldexplosivedamageresonance: 0.4099999964237213
-    shieldkineticdamageresonance: 0.7099999785423279
+    shieldemdamageresonance: 0.51
+    shieldexplosivedamageresonance: 0.41
+    shieldkineticdamageresonance: 0.71
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 150.0
     speed: 3000.0
@@ -480,41 +468,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.550000011920929
-    armorexplosivedamageresonance: 0.44999998807907104
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.55
+    armorexplosivedamageresonance: 0.45
     armorhp: 1350.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 480.0
     damagemultiplier: 5.234375
     disallowassistance: 1
     entityarmorrepairamount: 213.0
-    entityarmorrepairdelaychance: 0.44999998807907104
-    entityarmorrepairdelaychancemedium: 0.44999998807907104
+    entityarmorrepairdelaychance: 0.45
+    entityarmorrepairdelaychancemedium: 0.45
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20700
     entityattackdelaymin: 5175
     entityattackrange: 15375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 10250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.03750000149011612
+    entitydefenderchance: 0.0375
     entityequipmentmax: 5
     entityequipmentmin: 2
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 5125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 656250
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5600000023841858
+    entityreactionfactor: 0.56
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.125
     entitysensordampenduration: 10000
@@ -527,7 +514,7 @@ types:
     hp: 1500.0
     id: 13663
     kineticdamage: 6.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -535,7 +522,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Safeguard
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -545,44 +531,43 @@ types:
     scanresolution: 210.0
     scanresolutionmultiplier: 0.75
     shieldcapacity: 1100.0
-    shieldemdamageresonance: 0.550000011920929
-    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.55
+    shieldexplosivedamageresonance: 0.45
     shieldkineticdamageresonance: 0.75
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6499999761581421
+    shieldthermaldamageresonance: 0.65
     shielduniformity: 0.75
     signatureradius: 195.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.13750000298023224
+    trackingspeed: 0.1375
     volume: 112000.0
   13664:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5600000023841858
-    armorexplosivedamageresonance: 0.46000000834465027
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.56
+    armorexplosivedamageresonance: 0.46
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.7599999904632568
-    armorthermaldamageresonance: 0.6600000262260437
+    armorkineticdamageresonance: 0.76
+    armorthermaldamageresonance: 0.66
     armoruniformity: 0.75
     capacitorcapacity: 700.0
-    capacity: 480.0
     damagemultiplier: 4.8828125
     disallowassistance: 1
     entityarmorrepairamount: 200.0
-    entityarmorrepairdelaychance: 0.4399999976158142
-    entityarmorrepairdelaychancemedium: 0.4399999976158142
+    entityarmorrepairdelaychance: 0.44
+    entityarmorrepairdelaychancemedium: 0.44
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21000
     entityattackdelaymin: 5250
     entityattackrange: 15375
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 10250
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -590,17 +575,17 @@ types:
     entitydefenderchance: 0.03125
     entityequipmentmax: 5
     entityequipmentmin: 2
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 5125.0
     entitygrouprespawnchance: 1
     entitykillbounty: 600000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.550000011920929
+    entityreactionfactor: 0.55
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.11999999731779099
+    entitysecuritystatuskillbonus: 0.12
     entitysensordampenduration: 10000
-    entitysensordampendurationchance: 0.11249999701976776
+    entitysensordampendurationchance: 0.1125
     entitysensordampenfalloff: 50000
     entitysensordampenmaxrange: 30000
     falloff: 3125.0
@@ -609,7 +594,7 @@ types:
     hp: 1400.0
     id: 13664
     kineticdamage: 6.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5625.0
@@ -617,7 +602,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Guard
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -627,60 +611,59 @@ types:
     scanresolution: 210.0
     scanresolutionmultiplier: 0.75
     shieldcapacity: 1050.0
-    shieldemdamageresonance: 0.5600000023841858
-    shieldexplosivedamageresonance: 0.46000000834465027
-    shieldkineticdamageresonance: 0.7599999904632568
+    shieldemdamageresonance: 0.56
+    shieldexplosivedamageresonance: 0.46
+    shieldkineticdamageresonance: 0.76
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6600000262260437
+    shieldthermaldamageresonance: 0.66
     shielduniformity: 0.75
     signatureradius: 195.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.13750000298023224
+    trackingspeed: 0.1375
     volume: 112000.0
   13668:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.4399999976158142
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.54
+    armorexplosivedamageresonance: 0.44
     armorhp: 1425.0
-    armorkineticdamageresonance: 0.7400000095367432
-    armorthermaldamageresonance: 0.6399999856948853
+    armorkineticdamageresonance: 0.74
+    armorthermaldamageresonance: 0.64
     armoruniformity: 0.75
     capacitorcapacity: 750.0
-    capacity: 480.0
     damagemultiplier: 8.125
     disallowassistance: 1
     entityarmorrepairamount: 225.0
-    entityarmorrepairdelaychance: 0.46000000834465027
-    entityarmorrepairdelaychancemedium: 0.46000000834465027
+    entityarmorrepairdelaychance: 0.46
+    entityarmorrepairdelaychancemedium: 0.46
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20400
     entityattackdelaymin: 5100
     entityattackrange: 57500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 34500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.04374999925494194
+    entitydefenderchance: 0.04375
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 23000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 712500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5699999928474426
+    entityreactionfactor: 0.57
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.12999999523162842
+    entitysecuritystatuskillbonus: 0.13
     entitysensordampenduration: 30000
     falloff: 15000.0
     gfxboosterid: 394
@@ -688,7 +671,7 @@ types:
     hp: 1650.0
     id: 13668
     kineticdamage: 8.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -696,7 +679,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Defender
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -705,60 +687,59 @@ types:
     scanmagnetometricstrength: 16.0
     scanresolution: 260.0
     shieldcapacity: 1150.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.7400000095367432
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.74
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6399999856948853
+    shieldthermaldamageresonance: 0.64
     shielduniformity: 0.75
     signatureradius: 130.0
     speed: 3500.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 112000.0
   13669:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.5199999809265137
-    armorexplosivedamageresonance: 0.41999998688697815
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.52
+    armorexplosivedamageresonance: 0.42
     armorhp: 1425.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.6200000047683716
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.62
     armoruniformity: 0.75
     capacitorcapacity: 800.0
-    capacity: 480.0
     damagemultiplier: 8.3125
     disallowassistance: 1
     entityarmorrepairamount: 250.0
-    entityarmorrepairdelaychance: 0.47999998927116394
-    entityarmorrepairdelaychancemedium: 0.47999998927116394
+    entityarmorrepairdelaychance: 0.48
+    entityarmorrepairdelaychancemedium: 0.48
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19800
     entityattackdelaymin: 4950
     entityattackrange: 57500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 34500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.05624999850988388
+    entitydefenderchance: 0.05625
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 23000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 825000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5899999737739563
+    entityreactionfactor: 0.59
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.14000000059604645
+    entitysecuritystatuskillbonus: 0.14
     entitysensordampenduration: 30000
     falloff: 15000.0
     gfxboosterid: 394
@@ -766,7 +747,7 @@ types:
     hp: 1650.0
     id: 13669
     kineticdamage: 8.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 25000.0
@@ -774,7 +755,6 @@ types:
     maxvelocity: 1440.0
     name: Shadow Serpentis Chief Infantry
     optimalsigradius: 125
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -783,15 +763,15 @@ types:
     scanmagnetometricstrength: 17.0
     scanresolution: 250.0
     shieldcapacity: 1150.0
-    shieldemdamageresonance: 0.5199999809265137
-    shieldexplosivedamageresonance: 0.41999998688697815
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.52
+    shieldexplosivedamageresonance: 0.42
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6200000047683716
+    shieldthermaldamageresonance: 0.62
     shielduniformity: 0.75
     signatureradius: 150.0
     speed: 3500.0
     structureuniformity: 1.0
     thermaldamage: 14.0
-    trackingspeed: 0.028750000521540642
+    trackingspeed: 0.02875
     volume: 112000.0

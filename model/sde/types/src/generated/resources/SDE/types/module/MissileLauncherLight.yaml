@@ -1,23 +1,20 @@
 types:
   499:
-    capacity: 0.6000000238418579
     chargegroup1: 384
     chargegroup2: 394
     chargerate: 1
     cpu: 21.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 499
     marketGroup: 640
     name: Light Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -30,26 +27,23 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   2404:
-    capacity: 0.7950000166893005
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 24.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.200000047683716
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 3.2
     hp: 40.0
     id: 2404
     marketGroup: 640
     metalevelold: 5
     name: Light Missile Launcher II
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     price: 72806.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3319
     requiredskill1level: 3
@@ -62,25 +56,22 @@ types:
     typecolorscheme: 11325
     volume: 5.0
   8089:
-    capacity: 0.6000000238418579
     chargegroup1: 384
     chargegroup2: 394
     chargerate: 1
     cpu: 16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 8089
     marketGroup: 640
     metalevelold: 1
     name: Arbalest Compact Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -93,25 +84,22 @@ types:
     typecolorscheme: 20123
     volume: 5.0
   8091:
-    capacity: 0.7200000286102295
     chargegroup1: 384
     chargegroup2: 394
     chargerate: 1
     cpu: 21.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 8091
     marketGroup: 640
     metalevelold: 1
     name: TE-2100 Ample Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -124,14 +112,13 @@ types:
     typecolorscheme: 20115
     volume: 5.0
   13925:
-    capacity: 0.8999999761581421
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 13925
     marketGroup: 640
@@ -139,12 +126,10 @@ types:
     metalevelold: 8
     name: Domination Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -157,14 +142,13 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13926:
-    capacity: 0.8999999761581421
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 13926
     marketGroup: 640
@@ -172,12 +156,10 @@ types:
     metalevelold: 8
     name: Dread Guristas Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -190,14 +172,13 @@ types:
     typecolorscheme: 11335
     volume: 5.0
   16068:
-    capacity: 0.8999999761581421
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 16068
     marketGroup: 640
@@ -205,12 +186,10 @@ types:
     metalevelold: 8
     name: Caldari Navy Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -223,14 +202,13 @@ types:
     typecolorscheme: 11321
     volume: 5.0
   17491:
-    capacity: 0.8999999761581421
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 17491
     marketGroup: 640
@@ -238,12 +216,10 @@ types:
     metalevelold: 8
     name: Republic Fleet Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -256,14 +232,13 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   20595:
-    capacity: 0.7950000166893005
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 14.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.2
     hp: 40.0
     id: 20595
     marketGroup: 640
@@ -271,12 +246,10 @@ types:
     metalevelold: 6
     name: '''Gallows'' Light Missile Launcher'
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -289,14 +262,13 @@ types:
     typecolorscheme: 20122
     volume: 5.0
   22565:
-    capacity: 0.8999999761581421
     chargegroup1: 384
     chargegroup2: 394
     chargegroup4: 653
     chargerate: 1
     cpu: 16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
     hp: 40.0
     id: 22565
     marketGroup: 640
@@ -304,12 +276,10 @@ types:
     metalevelold: 8
     name: True Sansha Light Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3321
     requiredskill1level: 1
@@ -322,21 +292,18 @@ types:
     typecolorscheme: 11349
     volume: 5.0
   32461:
-    capacity: 0.6000000238418579
     chargegroup1: 384
     chargegroup2: 394
     chargerate: 1
     cpu: 21.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 32461
     name: Civilian Light Missile Launcher
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     slots: 1
     speed: 21000.0

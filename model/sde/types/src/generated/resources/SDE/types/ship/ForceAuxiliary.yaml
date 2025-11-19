@@ -2,26 +2,25 @@ types:
   37604:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.041999999433755875
+    agility: 0.042
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 114500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 75000.0
-    capacity: 2175.0
     cpuoutput: 675
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 600
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -30,34 +29,34 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.7900000214576721
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.79
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 124000.0
     id: 37604
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 7
     maincolor: 16777215
     marketGroup: 2272
-    mass: 1.31E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1310000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -67,11 +66,10 @@ types:
     maxvelocity: 80.0
     medslots: 4
     name: Apostle
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 825000
+    poweroutput: 825000.0
     powertospeed: 1
-    price: 3.742000128E9
+    price: 3742000000.0
     propulsiongraphicid: 394
     published: true
     radius: 3000.0
@@ -92,9 +90,9 @@ types:
     shieldcapacity: 62000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliarya1: 5
     shipbonusforceauxiliarya2: -4
@@ -106,43 +104,42 @@ types:
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10500.0
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.8135E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 18135000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   37605:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.0430000014603138
+    agility: 0.043
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 80000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 63750.0
-    capacity: 2600.0
     cpuoutput: 925
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 500
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -151,34 +148,34 @@ types:
     gfxboosterid: 395
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7900000214576721
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.79
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 110000.0
     id: 37605
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17888
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2273
-    mass: 1.3E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1300000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -188,11 +185,10 @@ types:
     maxvelocity: 75.0
     medslots: 7
     name: Minokawa
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 475000
+    poweroutput: 475000.0
     powertospeed: 1
-    price: 3.821900032E9
+    price: 3821900000.0
     propulsiongraphicid: 395
     published: true
     radius: 3000.0
@@ -213,9 +209,9 @@ types:
     shieldcapacity: 105000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliaryc1: 5
     shipbonusforceauxiliaryc2: -4
@@ -227,43 +223,42 @@ types:
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10700.0
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.55E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 15500000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   37606:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.041999999433755875
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.042
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 90000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 65000.0
-    capacity: 3000.0
     cpuoutput: 800
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 500
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -272,34 +267,34 @@ types:
     gfxboosterid: 397
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 100000.0
     id: 37606
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17889
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 2275
-    mass: 1.26E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1260000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -309,11 +304,10 @@ types:
     maxvelocity: 85.0
     medslots: 6
     name: Lif
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 630000
+    poweroutput: 630000.0
     powertospeed: 1
-    price: 3.634200064E9
+    price: 3634200000.0
     propulsiongraphicid: 397
     published: true
     radius: 3000.0
@@ -334,9 +328,9 @@ types:
     shieldcapacity: 100000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliarym1: -5
     shipbonusforceauxiliarym2: 7.5
@@ -348,43 +342,42 @@ types:
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10400.0
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.4625E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 14625000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   37607:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.041999999433755875
+    agility: 0.042
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 105000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 67500.0
-    capacity: 2800.0
     cpuoutput: 775
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 600
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -393,34 +386,34 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 135000.0
     id: 37607
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 2274
-    mass: 1.25E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1250000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -430,11 +423,10 @@ types:
     maxvelocity: 80.0
     medslots: 5
     name: Ninazu
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 760000
+    poweroutput: 760000.0
     powertospeed: 1
-    price: 3.672E9
+    price: 3672000000.0
     propulsiongraphicid: 394
     published: true
     radius: 3000.0
@@ -455,9 +447,9 @@ types:
     shieldcapacity: 73000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliaryg1: -5
     shipbonusforceauxiliaryg2: 7.5
@@ -469,43 +461,42 @@ types:
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 10600.0
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.702E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 17020000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   42242:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.03799999877810478
+    agility: 0.038
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 126000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 82500.0
-    capacity: 2400.0
     cpuoutput: 540
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 600
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -514,34 +505,34 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.8199999928474426
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.82
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 190000.0
     id: 42242
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 16274
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 8
     maincolor: 16777215
     marketGroup: 2357
-    mass: 1.31E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1310000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -554,11 +545,10 @@ types:
     metalevelold: 8
     name: Dagon
     nosoverride: 1
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 660000
+    poweroutput: 660000.0
     powertospeed: 1
-    price: 4.696200192E9
+    price: 4696200000.0
     propulsiongraphicid: 394
     published: true
     radius: 3000.0
@@ -581,9 +571,9 @@ types:
     shieldcapacity: 90000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliarya1: 30
     shipbonusforceauxiliarym1: -5
@@ -597,43 +587,42 @@ types:
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11500.0
     specialcorpseholdcapacity: 1000
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
-    volume: 1.8135E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 18135000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0
   45645:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.03799999877810478
+    agility: 0.038
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 120000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     capacitorcapacity: 90000.0
-    capacity: 2600.0
     cpuoutput: 1020
     disallowinhighsec: 1
     dronebandwidth: 50
     dronecapacity: 250
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 10000
@@ -642,34 +631,34 @@ types:
     gfxboosterid: 395
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.8199999928474426
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.82
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.4000000059604645
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.4
     hislots: 6
     hp: 160000.0
     id: 45645
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 3000
     jumpdriveconsumptiontype: 17888
     jumpdriveduration: 300000
     jumpdriverange: 3.5
     jumpdrivetargetbeacontypelistid: 341
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2357
-    mass: 1.3E9
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 1300000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 1
     maxlockedtargets: 7
     maxoperationaldistance: 5000
@@ -681,11 +670,10 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Loggerhead
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 530000
+    poweroutput: 530000.0
     powertospeed: 1
-    price: 4.711399936E9
+    price: 4711400000.0
     propulsiongraphicid: 395
     published: true
     radius: 3000.0
@@ -708,9 +696,9 @@ types:
     shieldcapacity: 150000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliaryc2: -4
     shipbonusforceauxiliaryg1: 5
@@ -720,17 +708,17 @@ types:
     shipbonusrole7: 1.0
     shipmaintenancebaycapacity: 1000000
     signatureradius: 11700.0
-    specialfuelbaycapacity: 3000
+    specialfuelbaycapacity: 6000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     targetpainterresistance: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
-    volume: 1.55E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 15500000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

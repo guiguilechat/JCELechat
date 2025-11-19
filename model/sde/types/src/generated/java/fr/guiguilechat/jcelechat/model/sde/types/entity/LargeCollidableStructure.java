@@ -27,8 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningMaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusPerCycle;
@@ -75,7 +73,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMul
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -86,7 +83,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -211,20 +207,6 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * Damage multiplier.
      */
@@ -544,13 +526,6 @@ public class LargeCollidableStructure
     @DefaultIntValue(0)
     public int proximityrange;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -620,14 +595,6 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -761,7 +728,7 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, Untargetable.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, Hackable.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, ShieldCharge.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, HasLongAnimationWhenAddedToSpaceScene.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityEquipmentMin.INSTANCE, AgentID.INSTANCE, EntityEquipmentMax.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, EmpFieldRange.INSTANCE, ShieldUniformity.INSTANCE, WarpScrambleRange.INSTANCE, DisallowOffensiveModifiers.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EmDamage.INSTANCE, BehaviorMiningDischarge.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, Untargetable.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, HasLongAnimationWhenAddedToSpaceScene.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, ECMEntityChance.INSTANCE, SignatureRadius.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, EntityEquipmentMin.INSTANCE, AgentID.INSTANCE, EntityEquipmentMax.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, EmpFieldRange.INSTANCE, ShieldUniformity.INSTANCE, WarpScrambleRange.INSTANCE, DisallowOffensiveModifiers.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EmDamage.INSTANCE, BehaviorMiningDischarge.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TierDifficulty.INSTANCE })));
     public static final LargeCollidableStructure.MetaGroup METAGROUP = new LargeCollidableStructure.MetaGroup();
 
     @Override
@@ -822,14 +789,6 @@ public class LargeCollidableStructure
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  64 :
             {
@@ -1011,10 +970,6 @@ public class LargeCollidableStructure
             {
                 return proximityrange;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -1054,10 +1009,6 @@ public class LargeCollidableStructure
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  271 :
             {

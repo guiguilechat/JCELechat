@@ -3,50 +3,50 @@ types:
     affectedbyindustrialinvulnmodule: 1
     agility: 3.0
     allowedincapindustrialmaintenancebay: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 300.0
-    capacity: 150.0
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 20000
     cpuoutput: 290
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
     expeditionfrigatebonusoreminingyield: 5
     expeditionfrigatebonussignatureradius: -5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 25
     generalminingholdcapacity: 12500
     gfxboosterid: 394
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.6299999952316284
+    heatattenuationlow: 0.63
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hislots: 3
     hp: 600.0
     id: 33697
     ignorecloakvelocitypenalty: 1
+    integratedminingscanner: 1
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1924
     mass: 1400000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 6
     maxpassengers: 2
@@ -57,13 +57,12 @@ types:
     miningamountmultiplier: 2.0
     miningfrigatebonusgascloudharvestingduration: -5
     miningfrigatesbonusoreminingyield: 5
-    mintargetveldmgmultiplier: 0.05000000074505806
+    mintargetveldmgmultiplier: 0.05
     name: Prospect
-    packagedVolume: 2500.0
     portionSize: 1
-    poweroutput: 45
+    poweroutput: 45.0
     powertospeed: 1
-    price: 1.27E7
+    price: 12700000.0
     propulsiongraphicid: 394
     published: true
     radius: 41.0
@@ -77,12 +76,13 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 750.0
     scanspeed: 2500
+    sensordampenerresistance: 1.0
     shieldcapacity: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusrole7: -100.0
     shiprolebonusgasharvestingyield: 100
@@ -91,66 +91,66 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 2
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 50000.0
-    warpcapacitorneed: 1.3500000477506546E-6
+    warpcapacitorneed: 1.35E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   37135:
     affectedbyindustrialinvulnmodule: 1
-    agility: 2.4000000953674316
+    agility: 2.4
     allowedincapindustrialmaintenancebay: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 400.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 300.0
-    capacity: 200.0
     covertopsandreconopscloakmoduledelay: 5000
     covertopsstealthbombertargettingdelay: 5000
     cpuoutput: 280
     dronebandwidth: 15
     dronecapacity: 30
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
     expeditionfrigatebonusiceharvestingduration: -5
     expeditionfrigatebonusshieldresistance: -4
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 25
     generalminingholdcapacity: 19000
     gfxboosterid: 394
     heatattenuationhi: 0.5
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hislots: 3
     hp: 500.0
     id: 37135
     ignorecloakvelocitypenalty: 1
+    integratedminingscanner: 1
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
     isindustrialjumpconduitpassenger: 1
     isindustrialjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1924
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 3000
     maxlockedtargets: 4
     maxpassengers: 2
@@ -161,13 +161,12 @@ types:
     miningamountmultiplier: 1.0
     miningfrigatebonusiceharvestingduration: -5
     miningfrigatesbonusoreminingyield: 5
-    mintargetveldmgmultiplier: 0.05000000074505806
+    mintargetveldmgmultiplier: 0.05
     name: Endurance
-    packagedVolume: 2500.0
     portionSize: 1
-    poweroutput: 40
+    poweroutput: 40.0
     powertospeed: 1
-    price: 1.27E7
+    price: 12700000.0
     propulsiongraphicid: 394
     published: true
     radius: 41.0
@@ -181,12 +180,13 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 750.0
     scanspeed: 2500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusrole7: -50.0
     shiprolebonusiceharvestingduration: -50.0
@@ -195,13 +195,13 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 1
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 2
     volume: 50000.0
-    warpcapacitorneed: 1.3500000477506546E-6
+    warpcapacitorneed: 1.35E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0

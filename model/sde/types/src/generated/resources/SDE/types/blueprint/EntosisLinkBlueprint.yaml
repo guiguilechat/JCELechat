@@ -3,55 +3,48 @@ types:
     id: 34594
     marketGroup: 2020
     name: Entosis Link I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34596:
     id: 34596
     name: Entosis Link II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   40311:
     id: 40311
     name: Noir. Modified Entosis Link Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40312:
     id: 40312
     name: Spectre Fleet's Modified Entosis Link Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40313:
     id: 40313
     name: Affirmative. Modified Entosis Link Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40314:
     id: 40314
     name: Pandemic SPHERE Modified Entosis Link Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

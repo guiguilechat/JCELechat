@@ -16,14 +16,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorRechargeRateMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutputMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityMultiplier;
@@ -114,7 +112,7 @@ public class ReactorControlUnit
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double shieldrechargeratemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldRechargeRateMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, PowerOutputMultiplier.INSTANCE, ShieldCapacityMultiplier.INSTANCE, Cpu.INSTANCE, CapacitorCapacityMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldRechargeRateMultiplier.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, PowerOutputMultiplier.INSTANCE, Cpu.INSTANCE, ShieldCapacityMultiplier.INSTANCE, CapacitorCapacityMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final ReactorControlUnit.MetaGroup METAGROUP = new ReactorControlUnit.MetaGroup();
 
     @Override

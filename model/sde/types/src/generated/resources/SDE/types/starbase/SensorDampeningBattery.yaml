@@ -17,17 +17,16 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 17180
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
     maxtargetrangebonus: -50.0
     name: Sensor Dampening Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 12500
@@ -72,10 +71,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27778
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -83,7 +82,6 @@ types:
     metagroupid: 4
     name: Serpentis Sensor Dampening Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 12500
@@ -128,10 +126,10 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27779
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxrange: 150000.0
     maxtargetrange: 500000.0
@@ -139,7 +137,6 @@ types:
     metagroupid: 4
     name: Shadow Sensor Dampening Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 12500

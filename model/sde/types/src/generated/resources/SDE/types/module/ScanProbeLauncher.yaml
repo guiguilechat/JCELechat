@@ -1,7 +1,6 @@
 types:
   2083:
     canfitshipgroup01: 1022
-    capacity: 0.800000011920929
     chargegroup1: 479
     disallowrepeatingactivation: 1
     duration: 10000.0
@@ -12,11 +11,9 @@ types:
     maxgroupfitted: 1
     metalevelold: 4
     name: Prototype Iris Probe Launcher
-    packagedVolume: 5.0
     portionSize: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 1
@@ -25,7 +22,6 @@ types:
     techlevel: 1
     volume: 5.0
   4258:
-    capacity: 0.800000011920929
     chargegroup1: 479
     cpu: 20.0
     disallowrepeatingactivation: 1
@@ -37,12 +33,10 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Core Probe Launcher II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 5
@@ -52,7 +46,6 @@ types:
     techlevel: 2
     volume: 5.0
   4260:
-    capacity: 8.0
     chargegroup1: 479
     cpu: 242.0
     disallowrepeatingactivation: 1
@@ -64,12 +57,10 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Expanded Probe Launcher II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 5
@@ -79,7 +70,6 @@ types:
     techlevel: 2
     volume: 5.0
   17938:
-    capacity: 0.800000011920929
     chargegroup1: 479
     cpu: 15.0
     disallowrepeatingactivation: 1
@@ -90,12 +80,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Core Probe Launcher I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 1
@@ -104,7 +92,6 @@ types:
     techlevel: 1
     volume: 5.0
   18639:
-    capacity: 8.0
     chargegroup1: 479
     cpu: 220.0
     disallowrepeatingactivation: 1
@@ -115,12 +102,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Expanded Probe Launcher I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 2
@@ -129,7 +114,6 @@ types:
     techlevel: 1
     volume: 5.0
   28756:
-    capacity: 8.0
     chargegroup1: 479
     cpu: 210.0
     disallowrepeatingactivation: 1
@@ -142,12 +126,10 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Sisters Expanded Probe Launcher
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 2
@@ -157,7 +139,6 @@ types:
     techlevel: 1
     volume: 5.0
   28758:
-    capacity: 0.800000011920929
     chargegroup1: 479
     cpu: 10.0
     disallowrepeatingactivation: 1
@@ -170,12 +151,10 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Sisters Core Probe Launcher
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 6000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3412
     requiredskill1level: 1

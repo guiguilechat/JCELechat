@@ -4,141 +4,118 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1558
     name: Small Cap Battery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2019:
     id: 2019
     industryblueprintrank: 6.0
     marketGroup: 1558
     name: Medium Cap Battery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2021:
     id: 2021
     industryblueprintrank: 6.0
     marketGroup: 1558
     name: Large Cap Battery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 624500.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3489:
     id: 3489
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Cap Battery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3497:
     id: 3497
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Cap Battery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3505:
     id: 3505
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Large Cap Battery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   23802:
     id: 23802
     industryblueprintrank: 3.0
     name: '''Crucible'' Small Cap Battery Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23804:
     id: 23804
     industryblueprintrank: 6.0
     name: '''Censer'' Medium Cap Battery Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23806:
     id: 23806
     industryblueprintrank: 6.0
     name: '''Thurifer'' Large Cap Battery Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41639:
     id: 41639
     marketGroup: 1558
     name: Capital Cap Battery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4E7
+    price: 24000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41640:
     id: 41640
     marketGroup: 1558
     name: Capital Compact Pb-Acid Cap Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8E7
+    price: 48000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41641:
     id: 41641
     name: Capital Cap Battery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41642:
     id: 41642
     name: Domination Capital Cap Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41643:
     id: 41643
     name: Dark Blood Capital Cap Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -1,40 +1,38 @@
 types:
   4395:
-    cpuoutputbonus2: 7.099999904632568
+    cpuoutputbonus2: 7.1
     hp: 40.0
     id: 4395
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
     name: Medium Processor Overclocking Unit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    shieldrechargeratemultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 1.05
     techlevel: 1
     upgradecost: 150
     volume: 5.0
   4397:
-    cpuoutputbonus2: 7.099999904632568
+    cpuoutputbonus2: 7.1
     hp: 40.0
     id: 4397
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
     name: Large Processor Overclocking Unit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    shieldrechargeratemultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 1.05
     techlevel: 1
     upgradecost: 150
     volume: 5.0
   4399:
-    cpuoutputbonus2: 9.600000381469727
+    cpuoutputbonus2: 9.6
     hp: 40.0
     id: 4399
     marketGroup: 1223
@@ -42,17 +40,16 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Processor Overclocking Unit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    shieldrechargeratemultiplier: 1.100000023841858
+    shieldrechargeratemultiplier: 1.1
     techlevel: 2
     upgradecost: 300
     volume: 5.0
   4401:
-    cpuoutputbonus2: 9.600000381469727
+    cpuoutputbonus2: 9.6
     hp: 40.0
     id: 4401
     marketGroup: 1224
@@ -60,12 +57,11 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Processor Overclocking Unit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    shieldrechargeratemultiplier: 1.100000023841858
+    shieldrechargeratemultiplier: 1.1
     techlevel: 2
     upgradecost: 300
     volume: 5.0
@@ -77,7 +73,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Liquid Cooled Electronics I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -94,7 +89,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Capacitor Control Circuit I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -111,7 +105,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Egress Port Maximizer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -128,7 +121,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Powergrid Subroutine Maximizer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -145,7 +137,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Semiconductor Memory Cell I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -161,7 +152,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Large Ancillary Current Router I
-    packagedVolume: 20.0
     portionSize: 1
     powerengineeringoutputbonus: 10.0
     published: true
@@ -180,7 +170,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Liquid Cooled Electronics II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -198,7 +187,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Egress Port Maximizer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -215,7 +203,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Ancillary Current Router II
-    packagedVolume: 20.0
     portionSize: 1
     powerengineeringoutputbonus: 15.0
     published: true
@@ -234,7 +221,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Powergrid Subroutine Maximizer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -252,7 +238,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Capacitor Control Circuit II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -270,7 +255,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Large Semiconductor Memory Cell II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -280,24 +264,23 @@ types:
     upgradecost: 150
     volume: 20.0
   26929:
-    cpuoutputbonus2: 7.099999904632568
+    cpuoutputbonus2: 7.1
     hp: 40.0
     id: 26929
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
     name: Small Processor Overclocking Unit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    shieldrechargeratemultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 1.05
     techlevel: 1
     upgradecost: 150
     volume: 5.0
   26931:
-    cpuoutputbonus2: 9.600000381469727
+    cpuoutputbonus2: 9.6
     hp: 40.0
     id: 26931
     marketGroup: 1222
@@ -305,12 +288,11 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Processor Overclocking Unit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    shieldrechargeratemultiplier: 1.100000023841858
+    shieldrechargeratemultiplier: 1.1
     techlevel: 2
     upgradecost: 300
     volume: 5.0
@@ -322,7 +304,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Liquid Cooled Electronics I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -339,7 +320,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Liquid Cooled Electronics I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -356,7 +336,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Liquid Cooled Electronics I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -374,7 +353,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Liquid Cooled Electronics II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -392,7 +370,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Liquid Cooled Electronics II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -410,7 +387,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Liquid Cooled Electronics II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -426,7 +402,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Ancillary Current Router I
-    packagedVolume: 5.0
     portionSize: 1
     powerengineeringoutputbonus: 10.0
     published: true
@@ -443,7 +418,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Ancillary Current Router I
-    packagedVolume: 10.0
     portionSize: 1
     powerengineeringoutputbonus: 10.0
     published: true
@@ -460,7 +434,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Ancillary Current Router I
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 10.0
     published: true
@@ -478,7 +451,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Ancillary Current Router II
-    packagedVolume: 5.0
     portionSize: 1
     powerengineeringoutputbonus: 15.0
     published: true
@@ -496,7 +468,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Ancillary Current Router II
-    packagedVolume: 10.0
     portionSize: 1
     powerengineeringoutputbonus: 15.0
     published: true
@@ -514,7 +485,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Ancillary Current Router II
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 15.0
     published: true
@@ -532,7 +502,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Capacitor Control Circuit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -549,7 +518,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Capacitor Control Circuit I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -566,7 +534,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Capacitor Control Circuit I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -584,7 +551,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Capacitor Control Circuit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -602,7 +568,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Capacitor Control Circuit II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -620,7 +585,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Capacitor Control Circuit II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -637,7 +601,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Egress Port Maximizer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -654,7 +617,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Egress Port Maximizer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -671,7 +633,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Egress Port Maximizer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -689,7 +650,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Egress Port Maximizer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -707,7 +667,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Egress Port Maximizer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -725,7 +684,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Egress Port Maximizer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -742,7 +700,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Powergrid Subroutine Maximizer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -759,7 +716,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Powergrid Subroutine Maximizer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -776,7 +732,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Powergrid Subroutine Maximizer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -794,7 +749,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Powergrid Subroutine Maximizer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -812,7 +766,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Powergrid Subroutine Maximizer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -830,7 +783,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Powergrid Subroutine Maximizer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -847,7 +799,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Small Semiconductor Memory Cell I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -864,7 +815,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Medium Semiconductor Memory Cell I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -881,7 +831,6 @@ types:
     mass: 200.0
     maxgangmodules: 3
     name: Capital Semiconductor Memory Cell I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -899,7 +848,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Small Semiconductor Memory Cell II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -917,7 +865,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Medium Semiconductor Memory Cell II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -935,7 +882,6 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Semiconductor Memory Cell II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -945,24 +891,23 @@ types:
     upgradecost: 150
     volume: 40.0
   33303:
-    cpuoutputbonus2: 7.099999904632568
+    cpuoutputbonus2: 7.1
     hp: 40.0
     id: 33303
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
     name: Capital Processor Overclocking Unit I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    shieldrechargeratemultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 1.05
     techlevel: 1
     upgradecost: 150
     volume: 40.0
   33305:
-    cpuoutputbonus2: 9.600000381469727
+    cpuoutputbonus2: 9.6
     hp: 40.0
     id: 33305
     marketGroup: 1736
@@ -970,12 +915,11 @@ types:
     maxgangmodules: 3
     metalevelold: 5
     name: Capital Processor Overclocking Unit II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    shieldrechargeratemultiplier: 1.100000023841858
+    shieldrechargeratemultiplier: 1.1
     techlevel: 2
     upgradecost: 300
     volume: 40.0
@@ -986,7 +930,6 @@ types:
     mass: 200.0
     maxgangmodules: 1
     name: Small Command Processor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1002,7 +945,6 @@ types:
     mass: 200.0
     maxgangmodules: 1
     name: Medium Command Processor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1018,7 +960,6 @@ types:
     mass: 200.0
     maxgangmodules: 1
     name: Large Command Processor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1034,7 +975,6 @@ types:
     mass: 200.0
     maxgangmodules: 1
     name: Capital Command Processor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

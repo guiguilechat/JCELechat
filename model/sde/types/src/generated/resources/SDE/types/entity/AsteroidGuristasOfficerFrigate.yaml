@@ -6,21 +6,20 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.4
     armorhp: 750.0
-    armorkineticdamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 500.0
-    capacity: 130.0
     damagemultiplier: 10.0
     disallowassistance: 1
     ecmduration: 20000
     ecmentitychance: 1.0
     ecmrangeoptimal: 28000
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energyneutralizeramount: 55.0
     energyneutralizerduration: 6000
     energyneutralizerentitychance: 1.0
@@ -38,7 +37,7 @@ types:
     entitycruisespeed: 1084.0
     entityequipmentmax: 7
     entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3899.0
     entitygrouprespawnchance: 1
     entitykillbounty: 5000000
@@ -46,22 +45,22 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 2613
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.8700000047683716
+    entityreactionfactor: 0.87
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.2750000059604645
+    entitysecuritystatuskillbonus: 0.275
     entityshieldboostamount: 80.0
-    entityshieldboostdelaychancesmall: 0.17000000178813934
+    entityshieldboostdelaychancesmall: 0.17
     entityshieldboostduration: 5000
     entitytargetjam: 1
-    entitywarpscramblechance: 0.800000011920929
-    explosivedamageresonance: 0.6700000166893005
+    entitywarpscramblechance: 0.8
+    explosivedamageresonance: 0.67
     falloff: 7500.0
     gfxboosterid: 395
     gfxturretid: 10678
     hp: 825.0
     id: 84946
-    kineticdamage: 8.899999618530273
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamage: 8.9
+    kineticdamageresonance: 0.67
     mass: 950000.0
     maxattacktargets: 1
     maxlockedtargets: 3
@@ -78,7 +77,6 @@ types:
     modifytargetspeedrange: 17000
     name: Panola Paatama
     optimalsigradius: 40000
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -91,9 +89,9 @@ types:
     scanradarstrengthbonus: 5.25
     scanresolution: 800.0
     shieldcapacity: 2000.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.3
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -101,10 +99,10 @@ types:
     speed: 3000.0
     speedfactor: -55.0
     structureuniformity: 1.0
-    thermaldamage: 8.899999618530273
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamage: 8.9
+    thermaldamageresonance: 0.67
     trackingspeed: 1000.0
-    volume: 1.9E7
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1

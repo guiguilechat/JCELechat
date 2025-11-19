@@ -1,25 +1,23 @@
 types:
   81080:
     armordamagelimit: 5000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
     armorhp: 4800000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
     armoruniformity: 1.0
-    capacity: 35000.0
-    ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
-    energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
+    ecmresistance: 1.0E-5
+    emdamageresonance: 0.8
+    energywarfareresistance: 1.0E-5
+    explosivedamageresonance: 0.8
     fighterabilityanticapitalmissileresistance: 1
     hp: 1200000.0
     id: 81080
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     marketGroup: 1410
-    mass: 5.0E9
+    mass: 5000000000.0
     name: Orbital Skyhook
-    packagedVolume: 8000.0
     pausearmorrepairdpsthreshold: 500
     pausehullrepairdpsthreshold: 500
     pauseshieldrepairdpsthreshold: 500
@@ -28,26 +26,26 @@ types:
     radius: 45000.0
     reinforcementduration: 86400
     reinforcementvariance: 10800
-    remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
+    remoteassistanceimpedance: 1.0E-5
+    remoterepairimpedance: 1.0E-5
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
-    sensordampenerresistance: 9.999999747378752E-6
+    sensordampenerresistance: 1.0E-5
     shieldcapacity: 2400000.0
     shielddamagelimit: 50000000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldrechargerate: 9.99999999999E11
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 32000.0
-    stasiswebifierresistance: 9.999999747378752E-6
+    stasiswebifierresistance: 1.0E-5
     structuredamagelimit: 5000
     structureuniformity: 1.0
-    thermaldamageresonance: 0.800000011920929
+    thermaldamageresonance: 0.8
     uniformity: 1.0
     volume: 8000.0
-    weapondisruptionresistance: 9.999999747378752E-6
+    weapondisruptionresistance: 1.0E-5

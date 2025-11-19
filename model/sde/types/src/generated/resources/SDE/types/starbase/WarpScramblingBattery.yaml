@@ -17,15 +17,14 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 17181
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     name: Warp Disruption Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 100000
@@ -71,15 +70,14 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 17182
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     name: Warp Scrambling Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 25000
@@ -125,16 +123,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27563
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Serpentis Warp Disruption Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 90000
@@ -180,16 +177,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27565
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Shadow Warp Disruption Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 80000
@@ -235,16 +231,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27567
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Serpentis Warp Scrambling Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 25000
@@ -290,16 +285,15 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27569
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 481
-    mass: 1.0E8
+    mass: 100000000.0
     maxlockedtargets: 1
     maxtargetrange: 500000.0
     metagroupid: 4
     name: Shadow Warp Scrambling Battery
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 25000

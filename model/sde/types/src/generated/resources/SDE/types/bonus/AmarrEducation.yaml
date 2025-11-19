@@ -3,41 +3,36 @@ types:
     cpumultiplier: 1.0
     id: 1650
     name: Amarr Military Academy Pilot Bonus
-    perceptionskilltrainingtimemultiplierbonus: -0.05000000074505806
+    perceptionskilltrainingtimemultiplierbonus: -0.05
     portionSize: 1
     published: false
-    radius: 1.0
   1651:
-    capacitorneedmultiplier: 0.949999988079071
+    capacitorneedmultiplier: 0.95
     cpumultiplier: 1.0
     id: 1651
     name: Amarr Military Academy Gunner Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1652:
     cpumultiplier: 1.0
     id: 1652
-    memoryskilltrainingtimemultiplierbonus: -0.05000000074505806
+    memoryskilltrainingtimemultiplierbonus: -0.05
     name: Amarr Technical School Engineering Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1653:
-    cpumultiplier: 0.949999988079071
+    cpumultiplier: 0.95
     id: 1653
     name: Amarr Technical School Electronics Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1654:
-    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
+    charismaskilltrainingtimemultiplierbonus: -0.05
     cpumultiplier: 1.0
     id: 1654
     name: Amarr Business School Commerce Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1655:
     cpumultiplier: 1.0
     id: 1655

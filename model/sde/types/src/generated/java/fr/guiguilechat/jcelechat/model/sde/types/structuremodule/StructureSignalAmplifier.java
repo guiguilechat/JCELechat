@@ -17,14 +17,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -56,13 +54,6 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup03;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -107,13 +98,6 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
@@ -135,7 +119,7 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MaxLockedTargetsBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxTargetRangeBonus.INSTANCE, TechLevel.INSTANCE, ScanResolutionBonus.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MaxLockedTargetsBonus.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
 
     @Override
@@ -152,10 +136,6 @@ public class StructureSignalAmplifier
             case  1300 :
             {
                 return canfitshipgroup03;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -180,10 +160,6 @@ public class StructureSignalAmplifier
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  566 :
             {

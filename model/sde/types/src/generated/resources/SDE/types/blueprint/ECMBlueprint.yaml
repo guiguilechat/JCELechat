@@ -4,153 +4,125 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1567
     name: Magnetometric ECM I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11629:
     id: 11629
     industryblueprintrank: 6.0
     marketGroup: 1567
     name: Multispectral ECM I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 296960.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11630:
     id: 11630
     industryblueprintrank: 6.0
     marketGroup: 1567
     name: Ladar ECM I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11631:
     id: 11631
     industryblueprintrank: 6.0
     marketGroup: 1567
     name: Gravimetric ECM I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11632:
     id: 11632
     industryblueprintrank: 6.0
     marketGroup: 1567
     name: Radar ECM I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11775:
     id: 11775
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Magnetometric ECM II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11779:
     id: 11779
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Multispectral ECM II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11783:
     id: 11783
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Ladar ECM II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11787:
     id: 11787
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Gravimetric ECM II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   11791:
     id: 11791
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Radar ECM II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20574:
     id: 20574
     industryblueprintrank: 6.0
     name: '''Marshall'' Magnetometric ECM Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20576:
     id: 20576
     industryblueprintrank: 6.0
     name: '''Gambler'' Ladar ECM Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20578:
     id: 20578
     industryblueprintrank: 6.0
     name: '''Plunderer'' Gravimetric ECM Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20580:
     id: 20580
     industryblueprintrank: 6.0
     name: '''Heist'' Radar ECM Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -2,96 +2,84 @@ types:
   48097:
     id: 48097
     name: Tetryon Exotic Plasma S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48098:
     id: 48098
     name: Baryon Exotic Plasma S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48099:
     id: 48099
     name: Meson Exotic Plasma S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48102:
     id: 48102
     name: Tetryon Exotic Plasma M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48103:
     id: 48103
     name: Baryon Exotic Plasma M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 175000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48104:
     id: 48104
     name: Meson Exotic Plasma M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48107:
     id: 48107
     name: Tetryon Exotic Plasma L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48108:
     id: 48108
     name: Baryon Exotic Plasma L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 175000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48109:
     id: 48109
     name: Meson Exotic Plasma L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53031:
     id: 53031
     name: Baryon Exotic Plasma XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53303:
     id: 53303
     name: Tetryon Exotic Plasma XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53304:
     id: 53304
     name: Meson Exotic Plasma XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

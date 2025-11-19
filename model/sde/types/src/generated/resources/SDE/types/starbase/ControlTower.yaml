@@ -3,7 +3,6 @@ types:
     anchoringdelay: 1800000
     armorhp: 1.0E7
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -13,24 +12,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 8000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 12235
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Amarr Control Tower
     onliningdelay: 1800000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 5000000
-    price: 4.0E8
+    poweroutput: 5000000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -56,7 +54,6 @@ types:
     anchoringdelay: 1800000
     armorhp: 8000000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -65,24 +62,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1.0E7
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 12236
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Gallente Control Tower
     onliningdelay: 1800000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 3750000
-    price: 4.0E8
+    poweroutput: 3750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -108,7 +104,6 @@ types:
     anchoringdelay: 1800000
     armorhp: 4000000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -118,24 +113,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 16213
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Caldari Control Tower
     onliningdelay: 1800000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2750000
-    price: 4.0E8
+    poweroutput: 2750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -161,7 +155,6 @@ types:
     anchoringdelay: 1800000
     armorhp: 6000000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -171,24 +164,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 6000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 16214
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Minmatar Control Tower
     onliningdelay: 1800000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 4375000
-    price: 4.0E8
+    poweroutput: 4375000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -214,7 +206,6 @@ types:
     anchoringdelay: 900000
     armorhp: 5000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -224,24 +215,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20059
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Amarr Control Tower Medium
     onliningdelay: 900000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2500000
-    price: 2.0E8
+    poweroutput: 2500000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -267,7 +257,6 @@ types:
     anchoringdelay: 450000
     armorhp: 2500000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -277,24 +266,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20060
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Amarr Control Tower Small
     onliningdelay: 450000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1250000
-    price: 1.0E8
+    poweroutput: 1250000.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -320,7 +308,6 @@ types:
     anchoringdelay: 900000
     armorhp: 2000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -330,24 +317,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20061
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Caldari Control Tower Medium
     onliningdelay: 900000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1375000
-    price: 2.0E8
+    poweroutput: 1375000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -373,7 +359,6 @@ types:
     anchoringdelay: 450000
     armorhp: 1000000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -383,24 +368,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20062
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Caldari Control Tower Small
     onliningdelay: 450000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 687500
-    price: 1.0E8
+    poweroutput: 687500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -426,7 +410,6 @@ types:
     anchoringdelay: 900000
     armorhp: 4000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -435,24 +418,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 5000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20063
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Gallente Control Tower Medium
     onliningdelay: 900000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1875000
-    price: 2.0E8
+    poweroutput: 1875000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -478,7 +460,6 @@ types:
     anchoringdelay: 450000
     armorhp: 2000000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -487,24 +468,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20064
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Gallente Control Tower Small
     onliningdelay: 450000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 937500
-    price: 1.0E8
+    poweroutput: 937500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -530,7 +510,6 @@ types:
     anchoringdelay: 900000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -540,24 +519,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 3000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20065
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Minmatar Control Tower Medium
     onliningdelay: 900000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2187500
-    price: 2.0E8
+    poweroutput: 2187500.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -583,7 +561,6 @@ types:
     anchoringdelay: 450000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -593,24 +570,23 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 20066
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     moonanchordistance: 100000
     name: Minmatar Control Tower Small
     onliningdelay: 450000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1093750
-    price: 1.0E8
+    poweroutput: 1093750.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -636,7 +612,6 @@ types:
     anchoringdelay: 1620000
     armorhp: 1.1E7
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -646,25 +621,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 8000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27530
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Blood Control Tower
     onliningdelay: 1620000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 5000000
-    price: 4.0E8
+    poweroutput: 5000000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -690,7 +664,6 @@ types:
     anchoringdelay: 1440000
     armorhp: 1.2E7
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -700,25 +673,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 8000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27532
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dark Blood Control Tower
     onliningdelay: 1440000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 5000000
-    price: 4.0E8
+    poweroutput: 5000000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -744,7 +716,6 @@ types:
     anchoringdelay: 1620000
     armorhp: 4400000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -754,25 +725,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27533
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Guristas Control Tower
     onliningdelay: 1620000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2750000
-    price: 4.0E8
+    poweroutput: 2750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -798,7 +768,6 @@ types:
     anchoringdelay: 1440000
     armorhp: 4800000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -808,25 +777,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27535
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dread Guristas Control Tower
     onliningdelay: 1440000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2750000
-    price: 4.0E8
+    poweroutput: 2750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -852,7 +820,6 @@ types:
     anchoringdelay: 1620000
     armorhp: 8800000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -861,25 +828,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1.0E7
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27536
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Serpentis Control Tower
     onliningdelay: 1620000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 3750000
-    price: 4.0E8
+    poweroutput: 3750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -905,7 +871,6 @@ types:
     anchoringdelay: 1440000
     armorhp: 9600000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -914,25 +879,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1.0E7
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27538
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Shadow Control Tower
     onliningdelay: 1440000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 3750000
-    price: 4.0E8
+    poweroutput: 3750000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -958,7 +922,6 @@ types:
     anchoringdelay: 1620000
     armorhp: 6600000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -968,25 +931,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 6000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27539
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Angel Control Tower
     onliningdelay: 1620000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 4375000
-    price: 4.0E8
+    poweroutput: 4375000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1012,7 +974,6 @@ types:
     anchoringdelay: 1440000
     armorhp: 7200000.0
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -1022,25 +983,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 6000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27540
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Domination Control Tower
     onliningdelay: 1440000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 4375000
-    price: 4.0E8
+    poweroutput: 4375000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1066,7 +1026,6 @@ types:
     anchoringdelay: 810000
     armorhp: 5500000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1076,25 +1035,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27589
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Blood Control Tower Medium
     onliningdelay: 810000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2500000
-    price: 2.0E8
+    poweroutput: 2500000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1120,7 +1078,6 @@ types:
     anchoringdelay: 720000
     armorhp: 6000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1130,25 +1087,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27591
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dark Blood Control Tower Medium
     onliningdelay: 720000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2500000
-    price: 2.0E8
+    poweroutput: 2500000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1174,7 +1130,6 @@ types:
     anchoringdelay: 405000
     armorhp: 2750000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1184,25 +1139,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27592
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Blood Control Tower Small
     onliningdelay: 405000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1250000
-    price: 1.0E8
+    poweroutput: 1250000.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1228,7 +1182,6 @@ types:
     anchoringdelay: 360000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1238,25 +1191,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27594
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dark Blood Control Tower Small
     onliningdelay: 360000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1250000
-    price: 1.0E8
+    poweroutput: 1250000.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1282,7 +1234,6 @@ types:
     anchoringdelay: 810000
     armorhp: 2200000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -1292,25 +1243,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27595
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Guristas Control Tower Medium
     onliningdelay: 810000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1375000
-    price: 2.0E8
+    poweroutput: 1375000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1336,7 +1286,6 @@ types:
     anchoringdelay: 720000
     armorhp: 2400000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -1346,25 +1295,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27597
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dread Guristas Control Tower Medium
     onliningdelay: 720000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1375000
-    price: 2.0E8
+    poweroutput: 1375000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1390,7 +1338,6 @@ types:
     anchoringdelay: 405000
     armorhp: 1100000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -1400,25 +1347,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27598
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Guristas Control Tower Small
     onliningdelay: 405000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 687500
-    price: 1.0E8
+    poweroutput: 687500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1444,7 +1390,6 @@ types:
     anchoringdelay: 360000
     armorhp: 1200000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerewtargetswitchdelaybonus: -75
     controltowermissilerofbonus: -25
@@ -1454,25 +1399,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27600
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Dread Guristas Control Tower Small
     onliningdelay: 360000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 687500
-    price: 1.0E8
+    poweroutput: 687500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1498,7 +1442,6 @@ types:
     anchoringdelay: 810000
     armorhp: 4400000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -1507,25 +1450,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 5000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27601
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Serpentis Control Tower Medium
     onliningdelay: 810000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1875000
-    price: 2.0E8
+    poweroutput: 1875000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1551,7 +1493,6 @@ types:
     anchoringdelay: 720000
     armorhp: 4800000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -1560,25 +1501,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 5000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27603
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Shadow Control Tower Medium
     onliningdelay: 720000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1875000
-    price: 2.0E8
+    poweroutput: 1875000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1604,7 +1544,6 @@ types:
     anchoringdelay: 405000
     armorhp: 2200000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -1613,25 +1552,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27604
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Serpentis Control Tower Small
     onliningdelay: 405000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 937500
-    price: 1.0E8
+    poweroutput: 937500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1657,7 +1595,6 @@ types:
     anchoringdelay: 360000
     armorhp: 2400000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerhybriddamagebonus: 25
     controltowersilocapacitybonus: 100
@@ -1666,25 +1603,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27606
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Shadow Control Tower Small
     onliningdelay: 360000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 937500
-    price: 1.0E8
+    poweroutput: 937500.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1710,7 +1646,6 @@ types:
     anchoringdelay: 810000
     armorhp: 3300000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -1720,25 +1655,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 3000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27607
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Angel Control Tower Medium
     onliningdelay: 810000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2187500
-    price: 2.0E8
+    poweroutput: 2187500.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1764,7 +1698,6 @@ types:
     anchoringdelay: 720000
     armorhp: 3600000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -1774,25 +1707,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 3000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27609
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Domination Control Tower Medium
     onliningdelay: 720000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2187500
-    price: 2.0E8
+    poweroutput: 2187500.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1818,7 +1750,6 @@ types:
     anchoringdelay: 405000
     armorhp: 1650000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -1828,25 +1759,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27610
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Angel Control Tower Small
     onliningdelay: 405000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1093750
-    price: 1.0E8
+    poweroutput: 1093750.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1872,7 +1802,6 @@ types:
     anchoringdelay: 360000
     armorhp: 1800000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerprojectilefalloffbonus: 50
     controltowerprojectileoptimalbonus: 50
@@ -1882,25 +1811,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 1500000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27612
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Domination Control Tower Small
     onliningdelay: 360000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1093750
-    price: 1.0E8
+    poweroutput: 1093750.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1926,7 +1854,6 @@ types:
     anchoringdelay: 1620000
     armorhp: 1.1E7
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1936,25 +1863,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 8000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27780
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Sansha Control Tower
     onliningdelay: 1620000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 5000000
-    price: 4.0E8
+    poweroutput: 5000000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1980,7 +1906,6 @@ types:
     anchoringdelay: 810000
     armorhp: 5500000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -1990,25 +1915,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27782
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Sansha Control Tower Medium
     onliningdelay: 810000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2500000
-    price: 2.0E8
+    poweroutput: 2500000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2034,7 +1958,6 @@ types:
     anchoringdelay: 405000
     armorhp: 2750000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -2044,25 +1967,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27784
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: Sansha Control Tower Small
     onliningdelay: 405000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1250000
-    price: 1.0E8
+    poweroutput: 1250000.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2088,7 +2010,6 @@ types:
     anchoringdelay: 1440000
     armorhp: 1.2E7
     armoruniformity: 0.75
-    capacity: 140000.0
     capacitysecondary: 50000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -2098,25 +2019,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 8000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27786
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 65000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: True Sansha Control Tower
     onliningdelay: 1440000
-    packagedVolume: 8000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 5000000
-    price: 4.0E8
+    poweroutput: 5000000.0
+    price: 400000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2142,7 +2062,6 @@ types:
     anchoringdelay: 720000
     armorhp: 6000000.0
     armoruniformity: 0.75
-    capacity: 70000.0
     capacitysecondary: 25000
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -2152,25 +2071,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 4000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27788
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 60000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: True Sansha Control Tower Medium
     onliningdelay: 720000
-    packagedVolume: 4000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 2500000
-    price: 2.0E8
+    poweroutput: 2500000.0
+    price: 200000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2196,7 +2114,6 @@ types:
     anchoringdelay: 360000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 35000.0
     capacitysecondary: 12500
     controltowerlaserdamagebonus: 25
     controltowerlaseroptimalbonus: 50
@@ -2206,25 +2123,24 @@ types:
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 2000000.0
-    hullemdamageresonance: 0.009999999776482582
-    hullexplosivedamageresonance: 0.009999999776482582
-    hullkineticdamageresonance: 0.009999999776482582
-    hullthermaldamageresonance: 0.009999999776482582
+    hullemdamageresonance: 0.01
+    hullexplosivedamageresonance: 0.01
+    hullkineticdamageresonance: 0.01
+    hullthermaldamageresonance: 0.01
     id: 27790
     marketGroup: 478
-    mass: 2.0E8
+    mass: 200000000.0
     maxstructuredistance: 55000
     maxtargetrange: 500000.0
     metagroupid: 4
     moonanchordistance: 100000
     name: True Sansha Control Tower Small
     onliningdelay: 360000
-    packagedVolume: 2000.0
     portionSize: 1
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
-    poweroutput: 1250000
-    price: 1.0E8
+    poweroutput: 1250000.0
+    price: 100000000.0
     prototypingbonus: 250000
     proximityrange: 250000
     published: true

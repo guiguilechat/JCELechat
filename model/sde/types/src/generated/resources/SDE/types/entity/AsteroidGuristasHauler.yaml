@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -20,14 +19,14 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1000000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10000000149011612
+    entitysecuritystatuskillbonus: 0.1
     falloff: 1.0
     gfxboosterid: 395
     hp: 4750.0
@@ -35,7 +34,6 @@ types:
     mass: 1080000.0
     maxvelocity: 1000.0
     name: Guristas Carrier
-    packagedVolume: 2.2E7
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -43,28 +41,27 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 6750.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
-    volume: 2.2E7
+    volume: 22000000.0
   13715:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -72,22 +69,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 750000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     falloff: 1.0
     gfxboosterid: 395
     hp: 4250.0
     id: 13715
-    mass: 2.1E7
+    mass: 21000000.0
     maxvelocity: 1000.0
     name: Guristas Convoy
-    packagedVolume: 1040000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -95,10 +91,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 5500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -108,15 +104,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 3975.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -124,22 +119,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 500000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     falloff: 1.0
     gfxboosterid: 395
     hp: 3975.0
     id: 13716
-    mass: 2.2E7
+    mass: 22000000.0
     maxvelocity: 1000.0
     name: Guristas Trailer
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -147,10 +141,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 4800.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -160,15 +154,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 3500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -176,22 +169,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 250000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 28
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     falloff: 1.0
     gfxboosterid: 395
     hp: 3500.0
     id: 13717
-    mass: 2.1E7
+    mass: 21000000.0
     maxvelocity: 1000.0
     name: Guristas Hauler
-    packagedVolume: 1040000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -199,10 +191,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 4250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -212,15 +204,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1150.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -228,22 +219,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 85000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
+    entitysecuritystatuskillbonus: 0.05
     falloff: 1.0
     gfxboosterid: 395
     hp: 1200.0
     id: 13718
-    mass: 1.01E7
+    mass: 10100000.0
     maxvelocity: 750.0
     name: Guristas Bulker
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -251,10 +241,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1800.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -264,15 +254,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -280,22 +269,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
+    entitysecuritystatuskillbonus: 0.0475
     falloff: 1.0
     gfxboosterid: 395
     hp: 1150.0
     id: 13719
-    mass: 1.01E7
+    mass: 10100000.0
     maxvelocity: 750.0
     name: Guristas Transporter
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -303,10 +291,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -316,15 +304,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -332,22 +319,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
+    entitysecuritystatuskillbonus: 0.045
     falloff: 1.0
     gfxboosterid: 395
     hp: 1100.0
     id: 13720
-    mass: 1.01E7
+    mass: 10100000.0
     maxvelocity: 1250.0
     name: Guristas Trucker
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -355,10 +341,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -368,15 +354,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -384,22 +369,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     falloff: 1.0
     gfxboosterid: 395
     hp: 1050.0
     id: 13721
-    mass: 1.01E7
+    mass: 10100000.0
     maxvelocity: 750.0
     name: Guristas Courier
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -407,10 +391,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1400.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -420,15 +404,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -436,14 +419,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 15000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     falloff: 1.0
     gfxboosterid: 395
     hp: 225.0
@@ -451,7 +434,6 @@ types:
     mass: 1650000.0
     maxvelocity: 650.0
     name: Guristas Loader
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -459,10 +441,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -472,15 +454,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 125.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -488,14 +469,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     falloff: 1.0
     gfxboosterid: 395
     hp: 200.0
@@ -503,7 +484,6 @@ types:
     mass: 1970000.0
     maxvelocity: 650.0
     name: Guristas Ferrier
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -511,10 +491,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 275.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -524,15 +504,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 130.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -540,14 +519,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     falloff: 1.0
     gfxboosterid: 395
     hp: 200.0
@@ -555,7 +534,6 @@ types:
     mass: 1650000.0
     maxvelocity: 650.0
     name: Guristas Gatherer
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -563,10 +541,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -576,15 +554,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 175.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 125.0
-    capacity: 125.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -592,14 +569,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     falloff: 1.0
     gfxboosterid: 395
     hp: 150.0
@@ -607,7 +584,6 @@ types:
     mass: 1970000.0
     maxvelocity: 250.0
     name: Guristas Harvester
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -615,10 +591,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -628,15 +604,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 130.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -644,14 +619,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     falloff: 1.0
     gfxboosterid: 395
     hp: 200.0
@@ -659,7 +634,6 @@ types:
     mass: 1650000.0
     maxvelocity: 650.0
     name: Bandit Gatherer
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -667,10 +641,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -680,15 +654,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 125.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -696,14 +669,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     falloff: 1.0
     gfxboosterid: 395
     hp: 200.0
@@ -711,7 +684,6 @@ types:
     mass: 1970000.0
     maxvelocity: 650.0
     name: Bandit Ferrier
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -719,10 +691,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 275.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -732,15 +704,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -748,14 +719,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 15000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     falloff: 1.0
     gfxboosterid: 395
     hp: 225.0
@@ -763,7 +734,6 @@ types:
     mass: 1650000.0
     maxvelocity: 650.0
     name: Bandit Loader
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -771,10 +741,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -784,15 +754,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 450.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -800,22 +769,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     falloff: 1.0
     gfxboosterid: 395
     hp: 1050.0
     id: 22004
-    mass: 1.01E7
+    mass: 10100000.0
     maxvelocity: 750.0
     name: Bandit Courier
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -823,10 +791,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1400.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -836,15 +804,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 175.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 125.0
-    capacity: 125.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -852,14 +819,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     falloff: 1.0
     gfxboosterid: 395
     hp: 150.0
@@ -867,7 +834,6 @@ types:
     mass: 1970000.0
     maxvelocity: 250.0
     name: Bandit Harvester
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -875,10 +841,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0

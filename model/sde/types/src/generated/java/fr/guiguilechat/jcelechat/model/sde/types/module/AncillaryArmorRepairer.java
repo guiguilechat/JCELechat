@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargedArmorDamageMultiplier;
@@ -31,7 +30,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -186,7 +184,7 @@ public class AncillaryArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredthermodynamicsskill;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadArmorDamageAmount.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, ChargedArmorDamageMultiplier.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadArmorDamageAmount.INSTANCE, Cpu.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, OverloadSelfDurationBonus.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, ChargedArmorDamageMultiplier.INSTANCE })));
     public static final AncillaryArmorRepairer.MetaGroup METAGROUP = new AncillaryArmorRepairer.MetaGroup();
 
     @Override

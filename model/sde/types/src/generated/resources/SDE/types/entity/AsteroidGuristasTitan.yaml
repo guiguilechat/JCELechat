@@ -1,7 +1,7 @@
 types:
   37466:
     activationblockedstrenght: 1
-    agility: 0.10000000149011612
+    agility: 0.1
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
@@ -9,10 +9,10 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
     armoremdamageresonance: 0.25
-    armorexplosivedamageresonance: 0.30000001192092896
+    armorexplosivedamageresonance: 0.3
     armorhp: 360000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.35
     armoruniformity: 0.75
     capacitorcapacity: 4300.0
     disallowassistance: 1
@@ -32,16 +32,16 @@ types:
     entitycruisespeed: 100.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 240000000
     entitylootcountmin: 1
     entitymissiletypeid: 27347
     entityoverviewshipgroupid: 30
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.600000023841858
+    entitysecuritystatuskillbonus: 1.6
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 1.0
@@ -51,14 +51,14 @@ types:
     hp: 390000.0
     id: 37466
     iscapitalsize: 1
-    mass: 2.430000128E9
+    mass: 2430000000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0
     maxvelocity: 100.0
     missiledamagemultiplier: 21.0
-    missileentityaoecloudsizemultiplier: 0.8999999761581421
-    missileentityaoevelocitymultiplier: 1.100000023841858
+    missileentityaoecloudsizemultiplier: 0.9
+    missileentityaoevelocitymultiplier: 1.1
     missileentityflighttimemultiplier: 20.0
     missileentityvelocitymultiplier: 5.0
     missilelaunchduration: 4000.0
@@ -67,7 +67,6 @@ types:
     modifytargetspeedrange: 80000
     name: Dread Guristas Titan
     optimalsigradius: 2000
-    packagedVolume: 1.325E8
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -77,15 +76,15 @@ types:
     scanresolution: 60.0
     shieldcapacity: 450000.0
     shieldemdamageresonance: 0.25
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.35
     shielduniformity: 0.75
     signatureradius: 23590.0
     speedfactor: -70.0
     structureuniformity: 1.0
-    volume: 1.325E8
+    volume: 132500000.0
     warpscrambleduration: 5000
     warpscramblerange: 110000
     warpscramblestrength: 2

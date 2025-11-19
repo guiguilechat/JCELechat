@@ -2,48 +2,42 @@ types:
   48100:
     id: 48100
     name: Occult S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48101:
     id: 48101
     name: Mystic S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48105:
     id: 48105
     name: Occult M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48106:
     id: 48106
     name: Mystic M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48110:
     id: 48110
     name: Occult L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48111:
     id: 48111
     name: Mystic L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -4,183 +4,151 @@ types:
     marketGroup: 499
     moonminingamount: 10000
     name: Crystalline Carbonide
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   16671:
     id: 16671
     marketGroup: 499
     moonminingamount: 10000
     name: Titanium Carbide
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   16672:
     id: 16672
     marketGroup: 499
     moonminingamount: 10000
     name: Tungsten Carbide
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   16673:
     id: 16673
     marketGroup: 499
     moonminingamount: 10000
     name: Fernite Carbide
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   16678:
     id: 16678
     marketGroup: 499
     moonminingamount: 6000
     name: Sylramic Fibers
-    packagedVolume: 0.05000000074505806
     portionSize: 1
     price: 20.0
     published: true
-    radius: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   16679:
     id: 16679
     marketGroup: 499
     moonminingamount: 3000
     name: Fullerides
-    packagedVolume: 0.15000000596046448
     portionSize: 1
     price: 230.0
     published: true
-    radius: 1.0
-    volume: 0.15000000596046448
+    volume: 0.15
   16680:
     id: 16680
     marketGroup: 499
     moonminingamount: 2200
     name: Phenolic Composites
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 600.0
     published: true
-    radius: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   16681:
     id: 16681
     marketGroup: 499
     moonminingamount: 1500
     name: Nanotransistors
-    packagedVolume: 0.25
     portionSize: 1
     price: 700.0
     published: true
-    radius: 1.0
     volume: 0.25
   16682:
     id: 16682
     marketGroup: 499
     moonminingamount: 750
     name: Hypersynaptic Fibers
-    packagedVolume: 0.6000000238418579
     portionSize: 1
     price: 2560.0
     published: true
-    radius: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6
   16683:
     id: 16683
     marketGroup: 499
     moonminingamount: 400
     name: Ferrogel
-    packagedVolume: 1.0
     portionSize: 1
     price: 5500.0
     published: true
-    radius: 1.0
     volume: 1.0
   17317:
     id: 17317
     marketGroup: 499
     moonminingamount: 200
     name: Fermionic Condensates
-    packagedVolume: 1.2999999523162842
     portionSize: 1
     price: 12000.0
     published: true
-    radius: 1.0
-    volume: 1.2999999523162842
+    volume: 1.3
   33359:
     id: 33359
     marketGroup: 499
     moonminingamount: 300
     name: Photonic Metamaterials
-    packagedVolume: 1.0
     portionSize: 1
     price: 3500.0
     published: true
-    radius: 1.0
     volume: 1.0
   33360:
     id: 33360
     marketGroup: 499
     moonminingamount: 300
     name: Terahertz Metamaterials
-    packagedVolume: 1.0
     portionSize: 1
     price: 3500.0
     published: true
-    radius: 1.0
     volume: 1.0
   33361:
     id: 33361
     marketGroup: 499
     moonminingamount: 300
     name: Plasmonic Metamaterials
-    packagedVolume: 1.0
     portionSize: 1
     price: 3500.0
     published: true
-    radius: 1.0
     volume: 1.0
   33362:
     id: 33362
     marketGroup: 499
     moonminingamount: 300
     name: Nonlinear Metamaterials
-    packagedVolume: 1.0
     portionSize: 1
     price: 3500.0
     published: true
-    radius: 1.0
     volume: 1.0
   57456:
     id: 57456
     marketGroup: 499
     moonminingamount: 1
     name: Pressurized Oxidizers
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 250000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57457:
     id: 57457
     marketGroup: 499
     moonminingamount: 1
     name: Reinforced Carbon Fiber
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 250000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

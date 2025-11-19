@@ -1,14 +1,12 @@
 types:
   32458:
-    capacity: 10000.0
     id: 32458
     marketGroup: 1275
     mass: 1000000.0
     name: Sovereignty Hub
-    packagedVolume: 60000.0
     planetanchordistance: 100000
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
     radius: 45000.0
     scangravimetricstrength: 25.0

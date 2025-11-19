@@ -17,11 +17,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintManufactureTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintResearchTimeMultiplierBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplierBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -58,13 +56,6 @@ public class PhysicalBenefit
     @DefaultRealValue(0.0)
     public double blueprintresearchtimemultiplierbonus;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
@@ -85,14 +76,7 @@ public class PhysicalBenefit
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double missiledamagemultiplierbonus;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, CpuMultiplier.INSTANCE, BlueprintResearchTimeMultiplierBonus.INSTANCE, AccuracyMultiplier.INSTANCE, BlueprintManufactureTimeMultiplierBonus.INSTANCE, MiningAmountMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileDamageMultiplierBonus.INSTANCE, AgilityMultiplier.INSTANCE, CpuMultiplier.INSTANCE, BlueprintResearchTimeMultiplierBonus.INSTANCE, AccuracyMultiplier.INSTANCE, BlueprintManufactureTimeMultiplierBonus.INSTANCE, MiningAmountMultiplier.INSTANCE })));
     public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
@@ -114,10 +98,6 @@ public class PhysicalBenefit
             {
                 return blueprintresearchtimemultiplierbonus;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  202 :
             {
                 return cpumultiplier;
@@ -129,10 +109,6 @@ public class PhysicalBenefit
             case  213 :
             {
                 return missiledamagemultiplierbonus;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

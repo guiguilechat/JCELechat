@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResistanceBonus;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadHardeningBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PassiveExplosiveDamageResonanceMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
@@ -162,7 +160,7 @@ public class ShieldHardener
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double thermaldamageresistancebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, PassiveExplosiveDamageResonanceMultiplier.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadHardeningBonus.INSTANCE, EmDamageResistanceBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, HeatDamage.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, TechLevel.INSTANCE, PassiveExplosiveDamageResonanceMultiplier.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, EmDamageResistanceBonus.INSTANCE, OverloadHardeningBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final ShieldHardener.MetaGroup METAGROUP = new ShieldHardener.MetaGroup();
 
     @Override

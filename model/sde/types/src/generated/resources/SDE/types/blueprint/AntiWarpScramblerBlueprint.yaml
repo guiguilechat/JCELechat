@@ -4,40 +4,32 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 332
     name: Warp Core Stabilizer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99940.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11641:
     id: 11641
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Warp Core Stabilizer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22876:
     id: 22876
     industryblueprintrank: 3.0
     name: '''Aura'' Warp Core Stabilizer I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22878:
     id: 22878
     industryblueprintrank: 3.0
     name: '''Natura'' Warp Core Stabilizer I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

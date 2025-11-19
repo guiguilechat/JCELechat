@@ -7,7 +7,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Drone Control Range Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -23,7 +22,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Drone Repair Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -38,7 +36,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Drone Scope Chip I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -55,7 +52,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Drone Speed Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -71,7 +67,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Drone Durability Enhancer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -87,7 +82,6 @@ types:
     mass: 200.0
     miningamountbonus: 10
     name: Large Drone Mining Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -104,7 +98,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Sentry Damage Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -119,7 +112,6 @@ types:
     marketGroup: 1215
     mass: 200.0
     name: Large Stasis Drone Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -137,7 +129,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Drone Control Range Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -154,7 +145,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Drone Durability Enhancer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -171,7 +161,6 @@ types:
     metalevelold: 5
     miningamountbonus: 15
     name: Large Drone Mining Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -189,7 +178,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Drone Repair Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -205,7 +193,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Drone Scope Chip II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -223,7 +210,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Drone Speed Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -241,7 +227,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Sentry Damage Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -257,7 +242,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Stasis Drone Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -274,7 +258,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Drone Control Range Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -290,7 +273,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Drone Control Range Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -307,7 +289,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Drone Control Range Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -324,7 +305,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Drone Control Range Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -340,7 +320,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Drone Durability Enhancer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -356,7 +335,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Drone Durability Enhancer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -373,7 +351,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Drone Durability Enhancer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -390,7 +367,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Drone Durability Enhancer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -406,7 +382,6 @@ types:
     mass: 200.0
     miningamountbonus: 10
     name: Small Drone Mining Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -423,7 +398,6 @@ types:
     mass: 200.0
     miningamountbonus: 10
     name: Medium Drone Mining Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -441,7 +415,6 @@ types:
     metalevelold: 5
     miningamountbonus: 15
     name: Small Drone Mining Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -459,7 +432,6 @@ types:
     metalevelold: 5
     miningamountbonus: 15
     name: Medium Drone Mining Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -476,7 +448,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Drone Repair Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -492,7 +463,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Drone Repair Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -509,7 +479,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Drone Repair Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -526,7 +495,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Drone Repair Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -542,7 +510,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Drone Speed Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -558,7 +525,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Drone Speed Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -575,7 +541,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Drone Speed Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -593,7 +558,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Drone Speed Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -609,7 +573,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Drone Scope Chip I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -625,7 +588,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Drone Scope Chip I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -642,7 +604,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Drone Scope Chip II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -659,7 +620,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Drone Scope Chip II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -676,7 +636,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Sentry Damage Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -692,7 +651,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Sentry Damage Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -709,7 +667,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Sentry Damage Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -726,7 +683,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Sentry Damage Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -741,7 +697,6 @@ types:
     marketGroup: 1213
     mass: 200.0
     name: Small Stasis Drone Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -757,7 +712,6 @@ types:
     marketGroup: 1214
     mass: 200.0
     name: Medium Stasis Drone Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -774,7 +728,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Stasis Drone Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -791,7 +744,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Stasis Drone Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -808,7 +760,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Drone Control Range Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -825,7 +776,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Drone Control Range Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -841,7 +791,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Drone Durability Enhancer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -858,7 +807,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Drone Durability Enhancer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -874,7 +822,6 @@ types:
     mass: 200.0
     miningamountbonus: 10
     name: Capital Drone Mining Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -892,7 +839,6 @@ types:
     metalevelold: 5
     miningamountbonus: 15
     name: Capital Drone Mining Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -909,7 +855,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Drone Repair Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -926,7 +871,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Drone Repair Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -941,7 +885,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Drone Scope Chip I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -958,7 +901,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Drone Scope Chip II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -975,7 +917,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Drone Speed Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -992,7 +933,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Drone Speed Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1008,7 +948,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Sentry Damage Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1025,7 +964,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Sentry Damage Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1040,7 +978,6 @@ types:
     marketGroup: 1739
     mass: 200.0
     name: Capital Stasis Drone Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1057,7 +994,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Stasis Drone Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

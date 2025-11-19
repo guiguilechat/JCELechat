@@ -22,11 +22,9 @@ types:
     maxtypefitted: 1
     name: Standup Energy Neutralization Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 200000
     published: true
-    radius: 1.0
     remoteresistanceid: 2045
     speedfactor: 1.0
     structureitemvisualflag: 1
@@ -54,11 +52,9 @@ types:
     maxtypefitted: 1
     name: Standup ECM Jammer Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     scangravimetricstrengthbonus: 10.0
     scanladarstrengthbonus: 10.0
@@ -91,11 +87,9 @@ types:
     maxtypefitted: 1
     name: Standup Sensor Dampening Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 160000
     published: true
-    radius: 1.0
     remoteresistanceid: 2112
     scanresolutionbonus: -36.0
     speedfactor: 1.0
@@ -124,11 +118,9 @@ types:
     maxtypefitted: 1
     name: Standup Stasis Webification Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 170000
     published: true
-    radius: 1.0
     remoteresistanceid: 2115
     speedfactor: -55.0
     structureitemvisualflag: 1
@@ -156,11 +148,9 @@ types:
     maxtypefitted: 1
     name: Standup Target Illumination Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 180000
     published: true
-    radius: 1.0
     remoteresistanceid: 2114
     signatureradiusbonus: 50.0
     speedfactor: 1.0
@@ -190,11 +180,9 @@ types:
     maxtypefitted: 1
     name: Standup Warp Disruption Burst Projector
     onlinemaxsecurityclass: 2
-    packagedVolume: 4000.0
     portionSize: 1
     power: 190000
     published: true
-    radius: 1.0
     speedfactor: 1.0
     structureitemvisualflag: 1
     techlevel: 1
@@ -227,11 +215,9 @@ types:
     missilevelocitybonus: -22.0
     name: Standup Weapon Disruption Burst Projector
     onlinemaxsecurityclass: 1
-    packagedVolume: 4000.0
     portionSize: 1
     power: 170000
     published: true
-    radius: 1.0
     remoteresistanceid: 2113
     speedfactor: 1.0
     structureitemvisualflag: 1

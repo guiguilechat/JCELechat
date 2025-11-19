@@ -3,339 +3,292 @@ types:
     id: 2949
     metagroupid: 4
     name: Shadow Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32326:
     id: 32326
     industryblueprintrank: 40.0
     marketGroup: 1313
     name: Cyclops I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32341:
     id: 32341
     industryblueprintrank: 40.0
     marketGroup: 1313
     name: Malleus I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32343:
     id: 32343
     industryblueprintrank: 40.0
     marketGroup: 1313
     name: Tyrfing I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32345:
     id: 32345
     industryblueprintrank: 40.0
     marketGroup: 1313
     name: Mantis I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41351:
     id: 41351
     name: Cyclops II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41352:
     id: 41352
     name: Malleus II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41353:
     id: 41353
     name: Mantis II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41354:
     id: 41354
     name: Tyrfing II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41355:
     id: 41355
     marketGroup: 1313
     name: Ametat I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41356:
     id: 41356
     name: Ametat II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41361:
     id: 41361
     marketGroup: 1313
     name: Termite I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41362:
     id: 41362
     name: Termite II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41363:
     id: 41363
     marketGroup: 1313
     name: Antaeus I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41364:
     id: 41364
     name: Antaeus II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41365:
     id: 41365
     marketGroup: 1313
     name: Gungnir I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41366:
     id: 41366
     name: Gungnir II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   47232:
     id: 47232
     name: Standup Shadow Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47233:
     id: 47233
     marketGroup: 1313
     name: Standup Cyclops I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47234:
     id: 47234
     marketGroup: 1313
     name: Standup Malleus I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47235:
     id: 47235
     marketGroup: 1313
     name: Standup Tyrfing I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47236:
     id: 47236
     marketGroup: 1313
     name: Standup Mantis I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47237:
     id: 47237
     name: Standup Cyclops II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47238:
     id: 47238
     name: Standup Malleus II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47239:
     id: 47239
     name: Standup Mantis II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47240:
     id: 47240
     name: Standup Tyrfing II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47241:
     id: 47241
     marketGroup: 1313
     name: Standup Ametat I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47242:
     id: 47242
     name: Standup Ametat II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47243:
     id: 47243
     marketGroup: 1313
     name: Standup Termite I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47244:
     id: 47244
     name: Standup Termite II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47245:
     id: 47245
     marketGroup: 1313
     name: Standup Antaeus I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47246:
     id: 47246
     name: Standup Antaeus II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47247:
     id: 47247
     marketGroup: 1313
     name: Standup Gungnir I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   47248:
     id: 47248
     name: Standup Gungnir II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

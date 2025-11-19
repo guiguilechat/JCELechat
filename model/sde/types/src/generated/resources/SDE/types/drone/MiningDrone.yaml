@@ -24,7 +24,6 @@ types:
     miningwastedvolumemultiplier: 1
     name: Civilian Mining Drone
     orbitrange: 200
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -78,7 +77,6 @@ types:
     miningwasteprobability: 34
     name: Harvester Mining Drone
     orbitrange: 200
-    packagedVolume: 10.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -129,7 +127,6 @@ types:
     miningwastedvolumemultiplier: 1
     name: Mining Drone I
     orbitrange: 200
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -182,7 +179,6 @@ types:
     miningwasteprobability: 34
     name: Mining Drone II
     orbitrange: 200
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -211,11 +207,11 @@ types:
     uniformity: 0.75
     volume: 5.0
   41030:
-    armoremdamageresonance: 0.3199999928474426
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5199999809265137
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     damagemultiplier: 1.0
@@ -238,7 +234,6 @@ types:
     miningwasteprobability: 60
     name: '''Excavator'' Mining Drone'
     orbitrange: 200
-    packagedVolume: 1100.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -254,11 +249,11 @@ types:
     requiredskill4level: 1
     scanmagnetometricstrength: 1.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.47999998927116394
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6399999856948853
+    shieldthermaldamageresonance: 0.64
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -267,11 +262,11 @@ types:
     uniformity: 0.75
     volume: 1100.0
   43681:
-    armoremdamageresonance: 0.3199999928474426
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.5199999809265137
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     damagemultiplier: 1.0
@@ -294,7 +289,6 @@ types:
     miningwasteprobability: 60
     name: '''Excavator'' Ice Harvesting Drone'
     orbitrange: 200
-    packagedVolume: 1100.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -310,11 +304,11 @@ types:
     requiredskill4level: 1
     scanmagnetometricstrength: 1.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.47999998927116394
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.6399999856948853
+    shieldthermaldamageresonance: 0.64
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -350,7 +344,6 @@ types:
     miningwasteprobability: 40
     name: '''Augmented'' Mining Drone'
     orbitrange: 200
-    packagedVolume: 5.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -403,7 +396,6 @@ types:
     miningwastedvolumemultiplier: 1
     name: Ice Harvesting Drone I
     orbitrange: 200
-    packagedVolume: 50.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -456,7 +448,6 @@ types:
     miningwasteprobability: 34
     name: Ice Harvesting Drone II
     orbitrange: 200
-    packagedVolume: 50.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -512,7 +503,6 @@ types:
     miningwasteprobability: 40
     name: '''Augmented'' Ice Harvesting Drone'
     orbitrange: 200
-    packagedVolume: 50.0
     portionSize: 1
     proximityrange: 250
     published: true
@@ -540,3 +530,200 @@ types:
     thermaldamageresonance: 1.0
     uniformity: 0.75
     volume: 50.0
+  90614:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 20.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 40.0
+    id: 90614
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 8
+    miningwastedvolumemultiplier: 1
+    name: Mutated Mining Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 3438
+    requiredskill1level: 1
+    requiredskill2: 3386
+    requiredskill2level: 2
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 60515
+    requiredskill4level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 30.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 5.0
+  90618:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 50
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 200.0
+    id: 90618
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 8
+    miningwastedvolumemultiplier: 1
+    name: Mutated Ice Harvesting Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 43702
+    requiredskill1level: 1
+    requiredskill2: 16281
+    requiredskill2level: 2
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 60515
+    requiredskill4level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 150.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 50.0
+  90621:
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
+    armorhp: 1000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 1500.0
+    id: 90621
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 8
+    metagroupid: 4
+    metalevelold: 8
+    miningwastedvolumemultiplier: 1
+    name: Mutated 'Excavator' Mining Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 3438
+    requiredskill1level: 1
+    requiredskill2: 3386
+    requiredskill2level: 2
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 22541
+    requiredskill4level: 1
+    requiredskill5: 60515
+    requiredskill5level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.64
+    shielduniformity: 0.75
+    signatureradius: 200.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 1100.0
+  90622:
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
+    armorhp: 1000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 1500.0
+    id: 90622
+    kineticdamageresonance: 1.0
+    marketGroup: 158
+    maxlockedtargets: 8
+    metagroupid: 4
+    metalevelold: 8
+    miningwastedvolumemultiplier: 1
+    name: Mutated 'Excavator' Ice Harvesting Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 43702
+    requiredskill1level: 5
+    requiredskill2: 16281
+    requiredskill2level: 4
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 43703
+    requiredskill4level: 1
+    requiredskill5: 60515
+    requiredskill5level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.64
+    shielduniformity: 0.75
+    signatureradius: 200.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 1100.0

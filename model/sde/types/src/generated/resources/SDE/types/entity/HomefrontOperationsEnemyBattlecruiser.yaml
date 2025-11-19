@@ -1,14 +1,13 @@
 types:
   77261:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.5400000214576721
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.54
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.45
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     explosivedamage: 36.0
@@ -17,14 +16,13 @@ types:
     gfxturretid: 458
     hp: 4500.0
     id: 77261
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Grand Oracle
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -32,28 +30,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.5400000214576721
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.54
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 60.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77543:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.57
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
     entitykillbounty: 462500
@@ -62,14 +59,13 @@ types:
     gfxturretid: 458
     hp: 4500.0
     id: 77543
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Proselytizer Oracle
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -77,28 +73,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77544:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     falloff: 12000.0
@@ -107,14 +102,13 @@ types:
     hp: 4500.0
     id: 77544
     kineticdamage: 60.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Eraser Naga
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -122,28 +116,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77545:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     falloff: 12000.0
@@ -152,14 +145,13 @@ types:
     hp: 4500.0
     id: 77545
     kineticdamage: 60.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Grim Naga
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -167,28 +159,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77546:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     falloff: 12000.0
@@ -197,14 +188,13 @@ types:
     hp: 4500.0
     id: 77546
     kineticdamage: 36.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Tycoon Talos
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -212,28 +202,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 60.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77547:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     explosivedamage: 60.0
@@ -243,14 +232,13 @@ types:
     hp: 4500.0
     id: 77547
     kineticdamage: 36.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Sundering Tornado
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -258,27 +246,26 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77548:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.57
+    armoremdamageresonance: 0.54
+    armorexplosivedamageresonance: 0.45
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.9
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
     entitykillbounty: 462500
@@ -288,14 +275,13 @@ types:
     gfxturretid: 570
     hp: 4500.0
     id: 77548
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Instigator Naga
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -303,27 +289,26 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77549:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.57
+    armoremdamageresonance: 0.54
+    armorexplosivedamageresonance: 0.45
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.8999999761581421
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.9
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
     entitykillbounty: 462500
@@ -333,14 +318,13 @@ types:
     gfxturretid: 570
     hp: 4500.0
     id: 77549
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Supreme Talos
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -348,27 +332,26 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.8999999761581421
+    shieldthermaldamageresonance: 0.9
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77550:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.57
+    armoremdamageresonance: 0.54
+    armorexplosivedamageresonance: 0.9
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.45
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 36.0
     entitykillbounty: 462500
@@ -377,14 +360,13 @@ types:
     gfxturretid: 493
     hp: 4500.0
     id: 77550
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Ulfhednar Tornado
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -392,28 +374,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 60.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77551:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.57
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
     entitykillbounty: 462500
@@ -422,14 +403,13 @@ types:
     gfxturretid: 390
     hp: 4500.0
     id: 77551
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Vitiator Stainer
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -437,30 +417,29 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77552:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
+    damagemultiplierbonuspercycle: 0.05
     entitykillbounty: 462500
     explosivedamage: 36.0
     falloff: 12000.0
@@ -468,14 +447,13 @@ types:
     gfxturretid: 47918
     hp: 4500.0
     id: 77552
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Dominant Drekavac
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -483,28 +461,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 6050.0
     structureuniformity: 1.0
     thermaldamage: 60.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77553:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     falloff: 12000.0
@@ -513,14 +490,13 @@ types:
     hp: 4500.0
     id: 77553
     kineticdamage: 60.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Veritas Talos
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -528,28 +504,27 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77554:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 0.57
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     entitykillbounty: 462500
     explosivedamage: 60.0
@@ -559,14 +534,13 @@ types:
     hp: 4500.0
     id: 77554
     kineticdamage: 36.0
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Spymaster Tornado
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -574,27 +548,26 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0
   77555:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.57
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 4000.0
-    capacity: 235.0
-    damagemultiplier: 4.699999809265137
+    damagemultiplier: 4.7
     damagemultiplierbonusmax: 0.5
     emdamage: 60.0
     entitykillbounty: 462500
@@ -603,14 +576,13 @@ types:
     gfxturretid: 458
     hp: 4500.0
     id: 77555
-    mass: 1.53E7
+    mass: 15300000.0
     maxlockedtargets: 7
     maxrange: 30000.0
     maxtargetrange: 65000.0
     maxvelocity: 450.0
     name: Venerated Oracle
     optimalsigradius: 40000
-    packagedVolume: 1100000.0
     portionSize: 1
     published: false
     radius: 173.0
@@ -618,15 +590,15 @@ types:
     scanradarstrength: 17.0
     scanresolution: 210.0
     shieldcapacity: 3000.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 1400000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     speed: 5500.0
     structureuniformity: 1.0
     thermaldamage: 36.0
-    trackingspeed: 11.78495979309082
+    trackingspeed: 11.78496
     volume: 1100000.0

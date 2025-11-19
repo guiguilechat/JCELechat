@@ -4,735 +4,605 @@ types:
     industryblueprintrank: 9.0
     marketGroup: 296
     name: 125mm Gatling AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   820:
     id: 820
     industryblueprintrank: 3.0
     marketGroup: 296
     name: 150mm Light AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   821:
     id: 821
     industryblueprintrank: 3.0
     marketGroup: 296
     name: 200mm AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 90000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   822:
     id: 822
     industryblueprintrank: 3.0
     marketGroup: 296
     name: 250mm Light Artillery Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 120000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   823:
     id: 823
     industryblueprintrank: 3.0
     marketGroup: 296
     name: 280mm Howitzer Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   824:
     id: 824
     industryblueprintrank: 6.0
     marketGroup: 297
     name: Dual 180mm AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   825:
     id: 825
     industryblueprintrank: 6.0
     marketGroup: 297
     name: 220mm Vulcan AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   826:
     id: 826
     industryblueprintrank: 6.0
     marketGroup: 297
     name: 425mm AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   827:
     id: 827
     industryblueprintrank: 6.0
     marketGroup: 297
     name: 650mm Artillery Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   828:
     id: 828
     industryblueprintrank: 6.0
     marketGroup: 297
     name: 720mm Howitzer Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   829:
     id: 829
     industryblueprintrank: 9.0
     marketGroup: 298
     name: Dual 425mm AutoCannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   830:
     id: 830
     industryblueprintrank: 9.0
     marketGroup: 298
     name: Dual 650mm Repeating Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   831:
     id: 831
     industryblueprintrank: 9.0
     marketGroup: 298
     name: 800mm Repeating Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   832:
     id: 832
     industryblueprintrank: 9.0
     marketGroup: 298
     name: 1200mm Artillery Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E7
+    price: 12000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   833:
     id: 833
     industryblueprintrank: 9.0
     marketGroup: 298
     name: 1400mm Howitzer Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2866:
     id: 2866
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 1200mm Artillery Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2874:
     id: 2874
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 125mm Gatling AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2890:
     id: 2890
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 200mm AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2898:
     id: 2898
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 220mm Vulcan AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2906:
     id: 2906
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 250mm Light Artillery Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2914:
     id: 2914
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 425mm AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2922:
     id: 2922
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 650mm Artillery Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2938:
     id: 2938
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Dual 180mm AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2946:
     id: 2946
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Dual 425mm AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2954:
     id: 2954
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Dual 650mm Repeating Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2962:
     id: 2962
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 1400mm Howitzer Artillery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2970:
     id: 2970
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 720mm Howitzer Artillery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2978:
     id: 2978
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 280mm Howitzer Artillery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3572:
     id: 3572
     industryblueprintrank: 400.0
     metagroupid: 4
     name: CONCORD Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3574:
     id: 3574
     industryblueprintrank: 400.0
     metagroupid: 4
     name: CONCORD Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16029:
     id: 16029
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 800mm Repeating Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   16032:
     id: 16032
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 150mm Light AutoCannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20453:
     id: 20453
     industryblueprintrank: 120.0
     marketGroup: 793
     name: Hexa 2500mm Repeating Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20455:
     id: 20455
     industryblueprintrank: 120.0
     marketGroup: 793
     name: Quad 3500mm Siege Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21546:
     id: 21546
     industryblueprintrank: 3.0
     name: 200mm Light 'Jolt' Autocannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21548:
     id: 21548
     industryblueprintrank: 3.0
     name: 250mm Light 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21550:
     id: 21550
     industryblueprintrank: 3.0
     name: 280mm 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21552:
     id: 21552
     industryblueprintrank: 6.0
     name: 425mm Medium 'Jolt' Autocannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21554:
     id: 21554
     industryblueprintrank: 6.0
     name: 650mm Medium 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21556:
     id: 21556
     industryblueprintrank: 6.0
     name: 720mm 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21558:
     id: 21558
     industryblueprintrank: 9.0
     name: 800mm Heavy 'Jolt' Repeating Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21560:
     id: 21560
     industryblueprintrank: 9.0
     name: 1200mm Heavy 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21562:
     id: 21562
     industryblueprintrank: 9.0
     name: 1400mm 'Jolt' Artillery I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34285:
     id: 34285
     name: Polarized 200mm AutoCannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   34287:
     id: 34287
     name: Polarized 425mm AutoCannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   34289:
     id: 34289
     name: Polarized 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41092:
     id: 41092
     industryblueprintrank: 120.0
     marketGroup: 793
     name: Quad 800mm Repeating Cannon I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.4E7
+    price: 34000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41093:
     id: 41093
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Compact Carbine Quad 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.8E7
+    price: 68000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41094:
     id: 41094
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Ample Gallium Quad 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.8E7
+    price: 68000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41095:
     id: 41095
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Scout Scoped Quad 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.8E7
+    price: 68000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41096:
     id: 41096
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Prototype Precise Quad 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.8E7
+    price: 68000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41097:
     id: 41097
     industryblueprintrank: 300.0
     name: Quad 800mm Repeating Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41098:
     id: 41098
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Domination Quad 800mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41161:
     id: 41161
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Carbine Compact Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.53E7
+    price: 65300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41162:
     id: 41162
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Gallium Ample Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.53E7
+    price: 65300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41163:
     id: 41163
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Scout Scoped Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.53E7
+    price: 65300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41165:
     id: 41165
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Prototype Precise Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.53E7
+    price: 65300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41166:
     id: 41166
     industryblueprintrank: 300.0
     name: Hexa 2500mm Repeating Cannon II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41167:
     id: 41167
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Domination Hexa 2500mm Repeating Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.269487E7
+    price: 32694870.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41168:
     id: 41168
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Carbide Compact Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.44E7
+    price: 74400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41169:
     id: 41169
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Gallium Ample Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.44E7
+    price: 74400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41170:
     id: 41170
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Scout Scoped Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.44E7
+    price: 74400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41171:
     id: 41171
     industryblueprintrank: 200.0
     marketGroup: 793
     name: Prototype Precise Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.44E7
+    price: 74400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41172:
     id: 41172
     industryblueprintrank: 300.0
     name: Quad 3500mm Siege Artillery II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41173:
     id: 41173
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Domination Quad 3500mm Siege Artillery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692952E7
+    price: 37692954.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

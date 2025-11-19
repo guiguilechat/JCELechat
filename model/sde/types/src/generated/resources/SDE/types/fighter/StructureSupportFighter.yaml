@@ -20,7 +20,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1430.0
     name: Standup Siren I
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -65,7 +64,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1430.0
     name: Standup Cenobite I
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -93,10 +91,10 @@ types:
     fighterabilityecmduration: 10000
     fighterabilityecmrangefalloff: 5625.0
     fighterabilityecmrangeoptimal: 5000
-    fighterabilityecmstrengthgravimetric: 1.600000023841858
-    fighterabilityecmstrengthladar: 1.600000023841858
-    fighterabilityecmstrengthmagnetometric: 1.600000023841858
-    fighterabilityecmstrengthradar: 1.600000023841858
+    fighterabilityecmstrengthgravimetric: 1.6
+    fighterabilityecmstrengthladar: 1.6
+    fighterabilityecmstrengthmagnetometric: 1.6
+    fighterabilityecmstrengthradar: 1.6
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 495
     fighterabilitymicrowarpdrivespeedbonus: 500
@@ -113,7 +111,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1430.0
     name: Standup Scarab I
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -158,7 +155,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1430.0
     name: Standup Dromi I
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -204,7 +200,6 @@ types:
     maxvelocity: 1488.0
     metalevelold: 5
     name: Standup Cenobite II
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -214,8 +209,8 @@ types:
     scanresolution: 650.0
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 2200000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -232,10 +227,10 @@ types:
     fighterabilityecmduration: 10000
     fighterabilityecmrangefalloff: 8400.0
     fighterabilityecmrangeoptimal: 7500
-    fighterabilityecmstrengthgravimetric: 2.299999952316284
-    fighterabilityecmstrengthladar: 2.299999952316284
-    fighterabilityecmstrengthmagnetometric: 2.299999952316284
-    fighterabilityecmstrengthradar: 2.299999952316284
+    fighterabilityecmstrengthgravimetric: 2.3
+    fighterabilityecmstrengthladar: 2.3
+    fighterabilityecmstrengthmagnetometric: 2.3
+    fighterabilityecmstrengthradar: 2.3
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 505
     fighterabilitymicrowarpdrivespeedbonus: 500
@@ -253,7 +248,6 @@ types:
     maxvelocity: 1488.0
     metalevelold: 5
     name: Standup Scarab II
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -264,9 +258,9 @@ types:
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1
@@ -296,7 +290,6 @@ types:
     maxvelocity: 1488.0
     metalevelold: 5
     name: Standup Siren II
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -307,9 +300,9 @@ types:
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1
@@ -342,7 +335,6 @@ types:
     maxvelocity: 1488.0
     metalevelold: 5
     name: Standup Dromi II
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -351,11 +343,11 @@ types:
     scanladarstrength: 12.0
     scanresolution: 650.0
     shieldcapacity: 15000.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1

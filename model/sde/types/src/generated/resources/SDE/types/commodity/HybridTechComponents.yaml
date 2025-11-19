@@ -5,11 +5,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Optimized Nano-Engines
-    packagedVolume: 10.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 10.0
   29994:
     id: 29994
@@ -17,11 +15,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Warfare Computation Core
-    packagedVolume: 10.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 10.0
   29996:
     id: 29996
@@ -29,11 +25,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Emergent Neurovisual Interface
-    packagedVolume: 20.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 20.0
   30002:
     id: 30002
@@ -41,11 +35,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fullerene Intercalated Sheets
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   30008:
     id: 30008
@@ -53,11 +45,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Reinforced Metallofullerene Alloys
-    packagedVolume: 10.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 10.0
   30464:
     id: 30464
@@ -65,11 +55,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Metallofullerene Plating
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   30466:
     id: 30466
@@ -77,11 +65,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Electromechanical Interface Nexus
-    packagedVolume: 10.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 10.0
   30470:
     id: 30470
@@ -89,11 +75,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Neurovisual Output Analyzer
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   30474:
     id: 30474
@@ -101,11 +85,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Nanowire Composites
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   30476:
     id: 30476
@@ -113,11 +95,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fulleroferrocene Power Conduits
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   30478:
     id: 30478
@@ -125,11 +105,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Reconfigured Subspace Calibrator
-    packagedVolume: 10.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 10.0
   34396:
     id: 34396
@@ -137,11 +115,9 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Self-Assembling Nanolattice
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     volume: 5.0
   45652:
     id: 45652
@@ -149,7 +125,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Superconducting Magnetometric Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
@@ -160,7 +135,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Superconducting Gravimetric Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
@@ -171,7 +145,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Superconducting Radar Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true
@@ -182,7 +155,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Superconducting Ladar Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     price: 400000.0
     published: true

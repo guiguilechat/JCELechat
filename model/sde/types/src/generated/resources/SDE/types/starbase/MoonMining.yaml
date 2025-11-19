@@ -1,10 +1,9 @@
 types:
   16221:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 10000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -12,10 +11,9 @@ types:
     hp: 10000.0
     id: 16221
     marketGroup: 488
-    mass: 2.0E8
+    mass: 200000000.0
     name: Moon Harvesting Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 10000
     price: 5000000.0

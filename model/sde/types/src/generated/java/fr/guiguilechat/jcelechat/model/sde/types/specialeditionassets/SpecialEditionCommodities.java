@@ -14,9 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterLastInjectionDatetime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.SpecialEditionAssets;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -32,27 +30,13 @@ public class SpecialEditionCommodities
     @DefaultRealValue(0.0)
     public double boosterlastinjectiondatetime;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double cpumultiplier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, CpuMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BoosterLastInjectionDatetime.INSTANCE, CpuMultiplier.INSTANCE })));
     public static final SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
 
     @Override
@@ -62,17 +46,9 @@ public class SpecialEditionCommodities
             {
                 return boosterlastinjectiondatetime;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  202 :
             {
                 return cpumultiplier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

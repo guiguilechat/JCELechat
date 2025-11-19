@@ -1,0 +1,53 @@
+types:
+  89612:
+    id: 89612
+    launchergroup: 1770
+    marketGroup: 3756
+    mass: 0.01
+    name: Expedition Strength Charge
+    portionSize: 500
+    price: 1000.0
+    published: true
+    requiredskill1: 89611
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
+    volume: 0.01
+    warfarebuff1id: 2464
+    warfarebuff1multiplier: 8
+    warfarebuff2id: 2468
+    warfarebuff2multiplier: 8
+  89613:
+    id: 89613
+    launchergroup: 1770
+    marketGroup: 3756
+    mass: 0.01
+    name: Expedition Reach Charge
+    portionSize: 500
+    price: 1000.0
+    published: true
+    requiredskill1: 89611
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
+    volume: 0.01
+    warfarebuff1id: 2465
+    warfarebuff1multiplier: 20
+  89614:
+    id: 89614
+    launchergroup: 1770
+    marketGroup: 3756
+    mass: 0.01
+    name: Expedition Pinpointing Charge
+    portionSize: 500
+    price: 1000.0
+    published: true
+    requiredskill1: 89611
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
+    volume: 0.01
+    warfarebuff1id: 2466
+    warfarebuff1multiplier: -8
+    warfarebuff2id: 2481
+    warfarebuff2multiplier: -8

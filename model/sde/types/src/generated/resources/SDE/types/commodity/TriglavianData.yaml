@@ -4,17 +4,15 @@ types:
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Survey Database
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   55830:
     id: 55830
     marketGroup: 2480
     mass: 20.0
     name: Triglavian Sublight Telemeter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -23,7 +21,6 @@ types:
     marketGroup: 2480
     mass: 20.0
     name: Triglavian Transconduit Datacaster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -32,17 +29,15 @@ types:
     marketGroup: 2480
     mass: 20.0
     name: Triglavian Holographic Transcriber
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80873:
     id: 80873
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Encrypted Conduit Data
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

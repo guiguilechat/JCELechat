@@ -3,7 +3,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityenergyneutralizeramount: 60
+    fighterabilityenergyneutralizeramount: 70
     fighterabilityenergyneutralizerduration: 6000
     fighterabilityenergyneutralizerfalloffrange: 2500
     fighterabilityenergyneutralizeroptimalrange: 5000
@@ -23,7 +23,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 715.0
     name: Cenobite I
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -54,10 +53,10 @@ types:
     fighterabilityecmduration: 10000
     fighterabilityecmrangefalloff: 5625.0
     fighterabilityecmrangeoptimal: 5000
-    fighterabilityecmstrengthgravimetric: 1.600000023841858
-    fighterabilityecmstrengthladar: 1.600000023841858
-    fighterabilityecmstrengthmagnetometric: 1.600000023841858
-    fighterabilityecmstrengthradar: 1.600000023841858
+    fighterabilityecmstrengthgravimetric: 2.4
+    fighterabilityecmstrengthladar: 2.4
+    fighterabilityecmstrengthmagnetometric: 2.4
+    fighterabilityecmstrengthradar: 2.4
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 495
     fighterabilitymicrowarpdrivespeedbonus: 500
@@ -74,7 +73,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 715.0
     name: Scarab I
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -119,7 +117,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 715.0
     name: Siren I
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -167,7 +164,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 715.0
     name: Dromi I
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -195,7 +191,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityenergyneutralizeramount: 80
+    fighterabilityenergyneutralizeramount: 90
     fighterabilityenergyneutralizerduration: 6000
     fighterabilityenergyneutralizerfalloffrange: 5000
     fighterabilityenergyneutralizeroptimalrange: 10000
@@ -216,7 +212,6 @@ types:
     maxvelocity: 744.0
     metalevelold: 5
     name: Cenobite II
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -230,8 +225,8 @@ types:
     scanresolution: 650.0
     shieldcapacity: 7500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 2200000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -247,10 +242,10 @@ types:
     fighterabilityecmduration: 10000
     fighterabilityecmrangefalloff: 8400.0
     fighterabilityecmrangeoptimal: 7500
-    fighterabilityecmstrengthgravimetric: 2.299999952316284
-    fighterabilityecmstrengthladar: 2.299999952316284
-    fighterabilityecmstrengthmagnetometric: 2.299999952316284
-    fighterabilityecmstrengthradar: 2.299999952316284
+    fighterabilityecmstrengthgravimetric: 3.0
+    fighterabilityecmstrengthladar: 3.0
+    fighterabilityecmstrengthmagnetometric: 3.0
+    fighterabilityecmstrengthradar: 3.0
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 505
     fighterabilitymicrowarpdrivespeedbonus: 500
@@ -268,7 +263,6 @@ types:
     maxvelocity: 744.0
     metalevelold: 5
     name: Scarab II
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -283,9 +277,9 @@ types:
     shieldcapacity: 7500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -314,7 +308,6 @@ types:
     maxvelocity: 744.0
     metalevelold: 5
     name: Siren II
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -329,9 +322,9 @@ types:
     shieldcapacity: 7500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -363,7 +356,6 @@ types:
     maxvelocity: 744.0
     metalevelold: 5
     name: Dromi II
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -376,11 +368,11 @@ types:
     scanladarstrength: 8.0
     scanresolution: 650.0
     shieldcapacity: 7500.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 2200000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureuniformity: 1.0
@@ -391,7 +383,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityenergyneutralizeramount: 70
+    fighterabilityenergyneutralizeramount: 80
     fighterabilityenergyneutralizerduration: 6000
     fighterabilityenergyneutralizerfalloffrange: 3750
     fighterabilityenergyneutralizeroptimalrange: 7500
@@ -413,7 +405,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Cenobite
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -444,10 +435,10 @@ types:
     fighterabilityecmduration: 10000
     fighterabilityecmrangefalloff: 7012.5
     fighterabilityecmrangeoptimal: 6250
-    fighterabilityecmstrengthgravimetric: 1.9500000476837158
-    fighterabilityecmstrengthladar: 1.9500000476837158
-    fighterabilityecmstrengthmagnetometric: 1.9500000476837158
-    fighterabilityecmstrengthradar: 1.9500000476837158
+    fighterabilityecmstrengthgravimetric: 2.7
+    fighterabilityecmstrengthladar: 2.7
+    fighterabilityecmstrengthmagnetometric: 2.7
+    fighterabilityecmstrengthradar: 2.7
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 505
     fighterabilitymicrowarpdrivespeedbonus: 500
@@ -466,7 +457,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Scarab
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -513,7 +503,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Siren
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -563,7 +552,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Dromi
-    packagedVolume: 3000.0
     portionSize: 1
     published: true
     radius: 35.0

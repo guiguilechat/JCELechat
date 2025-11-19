@@ -12,7 +12,6 @@ types:
     canfitshiptype8: 47513
     canfitshiptype9: 47514
     capacitorneed: 1500.0
-    capacity: 600.0
     chargegroup1: 4186
     chargerate: 200
     chargesize: 3
@@ -31,11 +30,9 @@ types:
     maxgrouponline: 1
     name: Standup Point Defense Battery I
     onlinemaxsecurityclass: 1
-    packagedVolume: 8000.0
     portionSize: 1
     power: 150000
     published: true
-    radius: 1.0
     reloadtime: 180000.0
     structureitemvisualflag: 1
     techlevel: 1
@@ -53,7 +50,6 @@ types:
     canfitshiptype8: 47513
     canfitshiptype9: 47514
     capacitorneed: 1800.0
-    capacity: 1000.0
     chargegroup1: 4186
     chargerate: 200
     chargesize: 3
@@ -73,11 +69,9 @@ types:
     metalevelold: 5
     name: Standup Point Defense Battery II
     onlinemaxsecurityclass: 1
-    packagedVolume: 8000.0
     portionSize: 1
     power: 180000
     published: true
-    radius: 1.0
     reloadtime: 180000.0
     structureitemvisualflag: 1
     techlevel: 2

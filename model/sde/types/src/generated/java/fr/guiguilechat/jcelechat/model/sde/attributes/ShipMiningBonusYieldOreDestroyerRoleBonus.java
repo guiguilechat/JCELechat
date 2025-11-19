@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * The cargo space allowed
+ * Role bonus for the Pioneer and Pioneer Executive Issue for mining yield amount. 
  */
-public class Capacity
-    extends RealAttribute
+public class ShipMiningBonusYieldOreDestroyerRoleBonus
+    extends IntAttribute
 {
-    public static final Capacity INSTANCE = new Capacity();
+    public static final ShipMiningBonusYieldOreDestroyerRoleBonus INSTANCE = new ShipMiningBonusYieldOreDestroyerRoleBonus();
 
     @Override
     public int getId() {
-        return  38;
+        return  5986;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Capacity
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class Capacity
 
     @Override
     public String toString() {
-        return "Capacity";
+        return "ShipMiningBonusYieldOreDestroyerRoleBonus";
     }
 }

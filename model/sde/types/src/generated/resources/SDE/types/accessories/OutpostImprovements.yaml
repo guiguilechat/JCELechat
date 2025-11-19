@@ -2,480 +2,480 @@ types:
   28076:
     id: 28076
     name: Amarr Advanced Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28077:
     id: 28077
     name: Amarr Advanced Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28078:
     id: 28078
     name: Amarr Advanced Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28079:
     id: 28079
     name: Amarr Advanced Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28080:
     id: 28080
     name: Amarr Advanced Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28081:
     id: 28081
     name: Amarr Basic Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
+    price: 425551432.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28082:
     id: 28082
     name: Amarr Basic Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
+    price: 1702171823.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28083:
     id: 28083
     name: Amarr Basic Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
+    price: 425551432.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28084:
     id: 28084
     name: Amarr Basic Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
+    price: 425551432.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28085:
     id: 28085
     name: Amarr Basic Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
+    price: 425551432.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28086:
     id: 28086
     name: Amarr Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
+    price: 851100171.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28087:
     id: 28087
     name: Amarr Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
+    price: 851100171.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28088:
     id: 28088
     name: Amarr Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
+    price: 851100171.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28089:
     id: 28089
     name: Amarr Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
+    price: 851100171.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28090:
     id: 28090
     name: Amarr Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
+    price: 851100171.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28091:
     id: 28091
     name: Caldari Advanced Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
+    price: 1683617576.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28092:
     id: 28092
     name: Caldari Advanced Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
+    price: 1683617576.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28093:
     id: 28093
     name: Caldari Advanced Outpost Research Facility
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
+    price: 1683617576.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28094:
     id: 28094
     name: Caldari Advanced Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
+    price: 1683617576.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28095:
     id: 28095
     name: Caldari Advanced Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
+    price: 1683617576.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28096:
     id: 28096
     name: Caldari Basic Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
+    price: 420921150.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28097:
     id: 28097
     name: Caldari Basic Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
+    price: 420921150.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28098:
     id: 28098
     name: Caldari Basic Outpost Research Facility
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
+    price: 420921150.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28099:
     id: 28099
     name: Caldari Basic Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
+    price: 420921150.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28100:
     id: 28100
     name: Caldari Basic Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
+    price: 420921150.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28101:
     id: 28101
     name: Caldari Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
+    price: 841842300.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28102:
     id: 28102
     name: Caldari Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
+    price: 841842300.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28103:
     id: 28103
     name: Caldari Outpost Research Facility
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
+    price: 841842300.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28104:
     id: 28104
     name: Caldari Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
+    price: 841842300.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28105:
     id: 28105
     name: Caldari Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
+    price: 841842300.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28106:
     id: 28106
     name: Gallente Advanced Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
+    price: 1403018549.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28107:
     id: 28107
     name: Gallente Advanced Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
+    price: 1403018549.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28108:
     id: 28108
     name: Gallente Advanced Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
+    price: 1403018549.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28109:
     id: 28109
     name: Gallente Advanced Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
+    price: 1403018549.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28110:
     id: 28110
     name: Gallente Advanced Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
+    price: 1403018549.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28111:
     id: 28111
     name: Gallente Basic Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
+    price: 350760372.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28112:
     id: 28112
     name: Gallente Basic Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
+    price: 350760372.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28113:
     id: 28113
     name: Gallente Basic Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
+    price: 350760372.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28114:
     id: 28114
     name: Gallente Basic Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
+    price: 350760372.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28115:
     id: 28115
     name: Gallente Basic Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
+    price: 350760372.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28116:
     id: 28116
     name: Gallente Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
+    price: 701515024.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28117:
     id: 28117
     name: Gallente Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
+    price: 701515024.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28118:
     id: 28118
     name: Gallente Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
+    price: 701515024.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28119:
     id: 28119
     name: Gallente Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
+    price: 701515024.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28120:
     id: 28120
     name: Gallente Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
+    price: 701515024.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28121:
     id: 28121
     name: Minmatar Advanced Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
+    price: 1983932072.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28122:
     id: 28122
     name: Minmatar Advanced Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
+    price: 1983932072.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28123:
     id: 28123
     name: Minmatar Advanced Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
+    price: 1983932072.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28124:
     id: 28124
     name: Minmatar Advanced Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
+    price: 1983932072.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28125:
     id: 28125
     name: Minmatar Advanced Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
+    price: 1983932072.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28126:
     id: 28126
     name: Minmatar Basic Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
+    price: 495994559.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28127:
     id: 28127
     name: Minmatar Basic Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
+    price: 495994559.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28128:
     id: 28128
     name: Minmatar Basic Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
+    price: 495994559.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28129:
     id: 28129
     name: Minmatar Basic Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
+    price: 495994559.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28130:
     id: 28130
     name: Minmatar Basic Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
+    price: 495994559.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28131:
     id: 28131
     name: Minmatar Outpost Factory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
+    price: 991974185.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28132:
     id: 28132
     name: Minmatar Outpost Plant
-    packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
+    price: 991974185.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28133:
     id: 28133
     name: Minmatar Outpost Laboratory
-    packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
+    price: 991974185.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28134:
     id: 28134
     name: Minmatar Outpost Office
-    packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
+    price: 991974185.0
     published: true
+    radius: 19079.0
     volume: 1.0
   28135:
     id: 28135
     name: Minmatar Outpost Refinery
-    packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
+    price: 991974185.0
     published: true
+    radius: 19079.0
     volume: 1.0

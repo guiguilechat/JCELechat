@@ -11,8 +11,8 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1774
     chargerate: 1
     cpu: 50.0
@@ -27,11 +27,9 @@ types:
     maxgrouponline: 1
     maxrange: 15000.0
     name: Armor Command Burst I
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 1
@@ -55,8 +53,8 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1773
     chargerate: 1
     cpu: 50.0
@@ -71,11 +69,9 @@ types:
     maxgrouponline: 1
     maxrange: 15000.0
     name: Information Command Burst I
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 1
@@ -99,8 +95,8 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1771
     chargerate: 1
     cpu: 50.0
@@ -115,11 +111,9 @@ types:
     maxgrouponline: 1
     maxrange: 15000.0
     name: Mining Foreman Burst I
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 1
@@ -143,8 +137,8 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1769
     chargerate: 1
     cpu: 50.0
@@ -159,11 +153,9 @@ types:
     maxgrouponline: 1
     maxrange: 15000.0
     name: Shield Command Burst I
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 1
@@ -187,8 +179,8 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1772
     chargerate: 1
     cpu: 50.0
@@ -203,11 +195,9 @@ types:
     maxgrouponline: 1
     maxrange: 15000.0
     name: Skirmish Command Burst I
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 1
@@ -231,10 +221,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1771
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -248,11 +239,9 @@ types:
     maxrange: 15000.0
     metalevelold: 5
     name: Mining Foreman Burst II
-    packagedVolume: 60.0
     portionSize: 1
     power: 110
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -278,10 +267,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1774
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -295,11 +285,9 @@ types:
     maxrange: 15000.0
     metalevelold: 5
     name: Armor Command Burst II
-    packagedVolume: 60.0
     portionSize: 1
     power: 110
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -325,10 +313,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1773
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -342,11 +331,9 @@ types:
     maxrange: 15000.0
     metalevelold: 5
     name: Information Command Burst II
-    packagedVolume: 60.0
     portionSize: 1
     power: 110
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -372,10 +359,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1769
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -389,11 +377,9 @@ types:
     maxrange: 15000.0
     metalevelold: 5
     name: Shield Command Burst II
-    packagedVolume: 60.0
     portionSize: 1
     power: 110
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -419,10 +405,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1772
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 55.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -436,11 +423,9 @@ types:
     maxrange: 15000.0
     metalevelold: 5
     name: Skirmish Command Burst II
-    packagedVolume: 60.0
     portionSize: 1
     power: 110
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -466,10 +451,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1769
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 50.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -483,11 +469,9 @@ types:
     maxrange: 18000.0
     metalevelold: 8
     name: ‘Vigilant’ Shield Command Burst
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
@@ -513,10 +497,11 @@ types:
     canfitshipgroup08: 1538
     canfitshipgroup09: 659
     canfitshipgroup10: 30
+    canfitshipgroup11: 4902
     capacitorneed: 25.0
-    capacity: 3.0
     chargegroup1: 1774
     chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
     cpu: 50.0
     disallowactivateinforcefield: 1
     disallowdocking: 1
@@ -530,17 +515,149 @@ types:
     maxrange: 18000.0
     metalevelold: 8
     name: ‘Tyrannos’ Armor Command Burst
-    packagedVolume: 60.0
     portionSize: 1
     power: 100
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     requiredskill1: 3348
     requiredskill1level: 5
     requiredskill2: 20494
     requiredskill2level: 5
     requiredskill3: 11569
+    requiredskill3level: 1
+    techlevel: 1
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  89608:
+    buffduration: 60000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    capacitorneed: 25.0
+    chargegroup1: 4905
+    chargerate: 1
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 89608
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 15000.0
+    name: Expedition Command Burst I
+    portionSize: 1
+    power: 100
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 1
+    requiredskill2: 89611
+    requiredskill2level: 1
+    techlevel: 1
+    volume: 60.0
+    warfarebuff1value: 1.0
+    warfarebuff2value: 1.0
+    warfarebuff3value: 1.0
+    warfarebuff4value: 1.0
+  89615:
+    buffduration: 60000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    capacitorneed: 25.0
+    chargegroup1: 4905
+    chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
+    cpu: 55.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 89615
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 15000.0
+    metalevelold: 5
+    name: Expedition Command Burst II
+    portionSize: 1
+    power: 110
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 89611
+    requiredskill2level: 5
+    requiredskill3: 89610
+    requiredskill3level: 1
+    techlevel: 2
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  89616:
+    buffduration: 80000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    capacitorneed: 25.0
+    chargegroup1: 4905
+    chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 89616
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 18000.0
+    metalevelold: 8
+    name: Sisters Expedition Command Burst
+    portionSize: 1
+    power: 100
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 89611
+    requiredskill2level: 5
+    requiredskill3: 89610
     requiredskill3level: 1
     techlevel: 1
     volume: 60.0

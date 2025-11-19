@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
@@ -90,7 +88,7 @@ public class RigAnchor
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpbubbleimmunemodifier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, Drawback.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Drawback.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, TechLevel.INSTANCE, AgilityBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE, MassBonusPercentage.INSTANCE, RigSize.INSTANCE })));
     public static final RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
 
     @Override

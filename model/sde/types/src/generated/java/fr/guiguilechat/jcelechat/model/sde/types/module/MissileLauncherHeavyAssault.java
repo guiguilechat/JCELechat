@@ -14,7 +14,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRofBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -194,7 +192,7 @@ public class MissileLauncherHeavyAssault
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, ChargeGroup1 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
     public static final MissileLauncherHeavyAssault.MetaGroup METAGROUP = new MissileLauncherHeavyAssault.MetaGroup();
 
     @Override

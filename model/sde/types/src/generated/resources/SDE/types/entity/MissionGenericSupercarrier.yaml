@@ -4,7 +4,7 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.5
     armorhp: 5000000.0
@@ -12,7 +12,6 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 3700.0
-    capacity: 3475.0
     damagemultiplier: 1.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -21,7 +20,7 @@ types:
     entitychasemaxdistance: 2500
     entityequipmentmax: 7
     entityequipmentmin: -5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 500.0
     entityoverviewshipgroupid: 26
     entityshieldboostamount: 1800.0
@@ -33,13 +32,12 @@ types:
     hp: 5000000.0
     id: 36848
     iscapitalsize: 1
-    mass: 1.65E9
+    mass: 1650000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 125000.0
     name: Burner Antero
     optimalsigradius: 800
-    packagedVolume: 5.3E7
     portionSize: 1
     propulsiongraphicid: 395
     proximityrange: 250000
@@ -53,10 +51,10 @@ types:
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 900000.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 1095.0
     speed: 3000.0
     structureuniformity: 1.0
-    trackingspeed: 0.4000000059604645
-    volume: 5.3E7
+    trackingspeed: 0.4
+    volume: 53000000.0

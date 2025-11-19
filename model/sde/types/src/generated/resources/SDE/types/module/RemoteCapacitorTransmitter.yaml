@@ -3,8 +3,8 @@ types:
     capacitorneed: 38.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 529
     marketGroup: 695
@@ -12,7 +12,6 @@ types:
     maxrange: 3500.0
     name: Small Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 30
@@ -29,8 +28,8 @@ types:
     capacitorneed: 41.0
     cpu: 32.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 2.2
     hp: 40.0
     id: 1190
     marketGroup: 695
@@ -39,7 +38,6 @@ types:
     metalevelold: 5
     name: Small Remote Capacitor Transmitter II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     powertransferamount: 39
@@ -56,7 +54,7 @@ types:
     capacitorneed: 2500.0
     cpu: 90.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.5
     hp: 40.0
     id: 3575
@@ -67,11 +65,10 @@ types:
     metalevelold: 8
     name: CONCORD Capital Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1300
-    price: 2.677384E7
+    price: 26773840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -86,8 +83,8 @@ types:
     capacitorneed: 38.0
     cpu: 24.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 5091
     marketGroup: 695
@@ -96,7 +93,6 @@ types:
     metalevelold: 1
     name: Small Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 35
@@ -113,8 +109,8 @@ types:
     capacitorneed: 38.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 5093
     marketGroup: 695
@@ -123,7 +119,6 @@ types:
     metalevelold: 1
     name: Small Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 35
@@ -140,7 +135,7 @@ types:
     capacitorneed: 366.0
     cpu: 53.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 12102
@@ -150,7 +145,6 @@ types:
     metalevelold: 5
     name: Large Remote Capacitor Transmitter II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 352
     powertransferamount: 351
@@ -167,8 +161,8 @@ types:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 12217
     marketGroup: 696
@@ -176,7 +170,6 @@ types:
     maxrange: 5000.0
     name: Medium Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     powertransferamount: 90
@@ -193,7 +186,7 @@ types:
     capacitorneed: 2500.0
     cpu: 100.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.5
     hp: 40.0
     id: 12219
@@ -202,11 +195,10 @@ types:
     maxrange: 16000.0
     name: Capital Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1000
-    price: 2.677384E7
+    price: 26773840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -221,8 +213,8 @@ types:
     capacitorneed: 122.0
     cpu: 42.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.3
     hp: 40.0
     id: 12221
     marketGroup: 696
@@ -231,7 +223,6 @@ types:
     metalevelold: 5
     name: Medium Remote Capacitor Transmitter II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     powertransferamount: 117
@@ -248,7 +239,7 @@ types:
     capacitorneed: 2700.0
     cpu: 110.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.5
     hp: 40.0
     id: 12223
@@ -258,7 +249,6 @@ types:
     metalevelold: 5
     name: Capital Remote Capacitor Transmitter II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     powertransferamount: 1300
@@ -277,7 +267,7 @@ types:
     capacitorneed: 338.0
     cpu: 50.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 12225
@@ -286,7 +276,6 @@ types:
     maxrange: 7500.0
     name: Large Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 320
     powertransferamount: 270
@@ -303,7 +292,7 @@ types:
     capacitorneed: 338.0
     cpu: 50.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 16481
@@ -313,7 +302,6 @@ types:
     metalevelold: 1
     name: Large Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 320
     powertransferamount: 311
@@ -330,7 +318,7 @@ types:
     capacitorneed: 338.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 16487
@@ -340,7 +328,6 @@ types:
     metalevelold: 1
     name: Large Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 288
     powertransferamount: 311
@@ -357,8 +344,8 @@ types:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 16489
     marketGroup: 696
@@ -367,7 +354,6 @@ types:
     metalevelold: 1
     name: Medium Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     powertransferamount: 104
@@ -384,8 +370,8 @@ types:
     capacitorneed: 113.0
     cpu: 32.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 16495
     marketGroup: 696
@@ -394,7 +380,6 @@ types:
     metalevelold: 1
     name: Medium Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 72
     powertransferamount: 104
@@ -411,8 +396,8 @@ types:
     capacitorneed: 40.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19065
     marketGroup: 695
@@ -422,7 +407,6 @@ types:
     metalevelold: 10
     name: Corpii C-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     powertransferamount: 41
@@ -439,8 +423,8 @@ types:
     capacitorneed: 42.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19067
     marketGroup: 695
@@ -450,7 +434,6 @@ types:
     metalevelold: 12
     name: Corpii B-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     powertransferamount: 42
@@ -467,8 +450,8 @@ types:
     capacitorneed: 44.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19069
     marketGroup: 695
@@ -478,7 +461,6 @@ types:
     metalevelold: 14
     name: Corpii A-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     powertransferamount: 44
@@ -495,8 +477,8 @@ types:
     capacitorneed: 38.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19071
     marketGroup: 695
@@ -506,7 +488,6 @@ types:
     metalevelold: 10
     name: Centii C-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 38
@@ -523,8 +504,8 @@ types:
     capacitorneed: 38.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19073
     marketGroup: 695
@@ -534,7 +515,6 @@ types:
     metalevelold: 12
     name: Centii B-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 39
@@ -551,8 +531,8 @@ types:
     capacitorneed: 38.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 19075
     marketGroup: 695
@@ -562,7 +542,6 @@ types:
     metalevelold: 14
     name: Centii A-Type Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     powertransferamount: 41
@@ -579,8 +558,8 @@ types:
     capacitorneed: 119.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19077
     marketGroup: 696
@@ -590,7 +569,6 @@ types:
     metalevelold: 10
     name: Corpum C-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     powertransferamount: 122
@@ -607,8 +585,8 @@ types:
     capacitorneed: 124.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19079
     marketGroup: 696
@@ -618,7 +596,6 @@ types:
     metalevelold: 12
     name: Corpum B-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 112
     powertransferamount: 126
@@ -635,8 +612,8 @@ types:
     capacitorneed: 130.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19081
     marketGroup: 696
@@ -646,7 +623,6 @@ types:
     metalevelold: 14
     name: Corpum A-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 116
     powertransferamount: 131
@@ -663,8 +639,8 @@ types:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19083
     marketGroup: 696
@@ -674,7 +650,6 @@ types:
     metalevelold: 10
     name: Centum C-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     powertransferamount: 113
@@ -691,8 +666,8 @@ types:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19085
     marketGroup: 696
@@ -702,7 +677,6 @@ types:
     metalevelold: 12
     name: Centum B-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     powertransferamount: 117
@@ -719,8 +693,8 @@ types:
     capacitorneed: 113.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 19087
     marketGroup: 696
@@ -730,7 +704,6 @@ types:
     metalevelold: 14
     name: Centum A-Type Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 80
     powertransferamount: 122
@@ -747,8 +720,8 @@ types:
     capacitorneed: 49.0
     cpu: 22.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 23852
     marketGroup: 695
@@ -758,7 +731,6 @@ types:
     metalevelold: 6
     name: '''Squire'' Small Remote Capacitor Transmitter'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     powertransferamount: 39
@@ -775,8 +747,8 @@ types:
     capacitorneed: 146.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 23854
     marketGroup: 696
@@ -786,7 +758,6 @@ types:
     metalevelold: 6
     name: '''Knight'' Medium Remote Capacitor Transmitter'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 68
     powertransferamount: 117
@@ -803,7 +774,7 @@ types:
     capacitorneed: 439.0
     cpu: 37.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 23856
@@ -814,7 +785,6 @@ types:
     metalevelold: 6
     name: '''Chivalry'' Large Remote Capacitor Transmitter'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 272
     powertransferamount: 351
@@ -831,7 +801,7 @@ types:
     capacitorneed: 366.0
     cpu: 48.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 31946
@@ -842,7 +812,6 @@ types:
     metalevelold: 8
     name: Imperial Navy Large Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 352
     powertransferamount: 351
@@ -859,8 +828,8 @@ types:
     capacitorneed: 122.0
     cpu: 38.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 31948
     marketGroup: 696
@@ -870,7 +839,6 @@ types:
     metalevelold: 8
     name: Imperial Navy Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 88
     powertransferamount: 117
@@ -887,8 +855,8 @@ types:
     capacitorneed: 41.0
     cpu: 29.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 31950
     marketGroup: 695
@@ -898,7 +866,6 @@ types:
     metalevelold: 8
     name: Imperial Navy Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     powertransferamount: 39
@@ -915,7 +882,7 @@ types:
     capacitorneed: 2500.0
     cpu: 100.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.5
     hp: 40.0
     id: 41565
@@ -925,11 +892,10 @@ types:
     metalevelold: 1
     name: Capital Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1100
-    price: 2.677384E7
+    price: 26773840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -944,7 +910,7 @@ types:
     capacitorneed: 2500.0
     cpu: 80.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.5
     hp: 40.0
     id: 41566
@@ -954,11 +920,10 @@ types:
     metalevelold: 1
     name: Capital Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     powertransferamount: 1100
-    price: 2.677384E7
+    price: 26773840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -973,8 +938,8 @@ types:
     capacitorneed: 46.0
     cpu: 30.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 2.200000047683716
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.2
     hp: 40.0
     id: 85033
     marketGroup: 695
@@ -984,7 +949,6 @@ types:
     metalevelold: 15
     name: Usaras' Modified Small Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     powertransferamount: 46
@@ -1001,8 +965,8 @@ types:
     capacitorneed: 138.0
     cpu: 40.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 85034
     marketGroup: 696
@@ -1012,7 +976,6 @@ types:
     metalevelold: 15
     name: Nija's Modified Medium Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     powertransferamount: 140

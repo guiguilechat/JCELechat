@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
@@ -30,7 +29,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MinRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -186,7 +184,7 @@ public class WarpScrambler
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, OverloadRangeBonus.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MinRange.INSTANCE, WarpScrambleStrength.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Falloff.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, OverloadRangeBonus.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, MinRange.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Falloff.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final WarpScrambler.MetaGroup METAGROUP = new WarpScrambler.MetaGroup();
 
     @Override

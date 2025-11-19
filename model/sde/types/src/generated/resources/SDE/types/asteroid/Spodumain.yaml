@@ -2,18 +2,16 @@ types:
   19:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 19
     marketGroup: 517
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Spodumain
     orebasictype: 19
-    packagedVolume: 16.0
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -22,18 +20,16 @@ types:
   17466:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 17466
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Bright Spodumain
+    mass: 1.0E+35
+    name: Spodumain II-Grade
     orebasictype: 19
-    packagedVolume: 16.0
     portionSize: 100
     price: 1206870.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -42,18 +38,16 @@ types:
   17467:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 17467
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Gleaming Spodumain
+    mass: 1.0E+35
+    name: Spodumain III-Grade
     orebasictype: 19
-    packagedVolume: 16.0
     portionSize: 100
     price: 1264340.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,14 +60,12 @@ types:
     asteroidradiusunitsize: 90
     id: 28418
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Bright Spodumain
+    mass: 1.0E+35
+    name: Batch Compressed Spodumain II-Grade
     orebasictype: 19
-    packagedVolume: 28.0
     portionSize: 1
     price: 6034350.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -86,14 +78,12 @@ types:
     asteroidradiusunitsize: 90
     id: 28419
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Gleaming Spodumain
+    mass: 1.0E+35
+    name: Batch Compressed Spodumain III-Grade
     orebasictype: 19
-    packagedVolume: 28.0
     portionSize: 1
     price: 6321700.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -106,14 +96,12 @@ types:
     asteroidradiusunitsize: 90
     id: 28420
     marketGroup: 517
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Batch Compressed Spodumain
     orebasictype: 19
-    packagedVolume: 28.0
     portionSize: 1
     price: 5747000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -126,14 +114,12 @@ types:
     asteroidradiusunitsize: 800
     id: 46688
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Dazzling Spodumain
+    mass: 1.0E+35
+    name: Spodumain IV-Grade
     orebasictype: 46688
-    packagedVolume: 16.0
     portionSize: 100
     price: 4200.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -147,13 +133,11 @@ types:
     id: 46704
     marketGroup: 517
     mass: 1.0
-    name: Batch Compressed Dazzling Spodumain
+    name: Batch Compressed Spodumain IV-Grade
     orebasictype: 46688
-    packagedVolume: 28.0
     portionSize: 1
     price: 463000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -166,19 +150,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62572
     marketGroup: 517
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Spodumain
     orebasictype: 19
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 5747000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62573:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -186,19 +168,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62573
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Compressed Bright Spodumain
+    mass: 1.0E+35
+    name: Compressed Spodumain II-Grade
     orebasictype: 19
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 6034350.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62574:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -206,19 +186,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62574
     marketGroup: 517
-    mass: 1.0000000409184788E35
-    name: Compressed Gleaming Spodumain
+    mass: 1.0E+35
+    name: Compressed Spodumain III-Grade
     orebasictype: 19
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 6321700.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62575:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -227,15 +205,13 @@ types:
     id: 62575
     marketGroup: 517
     mass: 1.0
-    name: Compressed Dazzling Spodumain
+    name: Compressed Spodumain IV-Grade
     orebasictype: 46688
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 463000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16

@@ -14,11 +14,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonusAbsolutePercent;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanDeviationModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -99,7 +97,7 @@ public class Scanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int viruscoherencebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MaxScanDeviationModifier.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, ScanStrengthBonus.INSTANCE, SkillTimeConstant.INSTANCE, ScanspeedBonus.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, VirusCoherenceBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, MaxScanDeviationModifier.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, ScanStrengthBonus.INSTANCE, SkillTimeConstant.INSTANCE, ScanspeedBonus.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SkillLevel.INSTANCE, VirusCoherenceBonus.INSTANCE })));
     public static final Scanning.MetaGroup METAGROUP = new Scanning.MetaGroup();
 
     @Override

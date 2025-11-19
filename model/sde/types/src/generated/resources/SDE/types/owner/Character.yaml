@@ -3,8 +3,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -32,18 +32,16 @@ types:
     modulerepairrate: 10
     name: CharacterType
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -56,8 +54,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -85,18 +83,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy10
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -109,8 +105,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -138,18 +134,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy3
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -162,8 +156,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -191,18 +185,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy4
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -215,8 +207,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -244,18 +236,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy5
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -268,8 +258,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -297,18 +287,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy6
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -321,8 +309,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -350,18 +338,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy11
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -374,8 +360,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -403,18 +389,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy2
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -427,8 +411,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -456,18 +440,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy12
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -480,8 +462,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -509,18 +491,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy9
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -533,8 +513,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -562,18 +542,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy1
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -586,8 +564,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -615,18 +593,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy7
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -639,8 +615,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -668,18 +644,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy8
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100
@@ -692,8 +666,8 @@ types:
     barterdiscount: 1
     battleshipconstructioncost: 100
     bountymultiplier: 1
-    contrabanddetectionchance: 0.8999999761581421
-    contrabandfencingchance: 0.44999998807907104
+    contrabanddetectionchance: 0.9
+    contrabandfencingchance: 0.45
     copyspeedpercent: 1
     cruisemissilevelocitypercent: 1
     cruiserconstructioncost: 100
@@ -721,18 +695,16 @@ types:
     modulerepairrate: 10
     name: CharacterLegacy13
     negotiationpercentage: 1
-    packagedVolume: 1.0
     portionSize: 1
     published: false
-    radius: 1.0
     reactionslotlimit: 1
     refiningtimepercentage: 1
     refiningyieldpercentage: 1
-    repaircostmultiplier: 0.10000000149011612
+    repaircostmultiplier: 0.1
     repaircostpercent: 1
     rocketvelocitypercent: 1
     shipbrokenmodulerepaircostmultiplier: 0.5
-    smugglingchance: 0.10000000149011612
+    smugglingchance: 0.1
     socialbonus: 1
     stationconstructiontime: 100
     titanconstructiontime: 100

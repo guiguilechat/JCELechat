@@ -23,7 +23,7 @@ public class FighterAbilityAntiCapitalMissileResistance
 
     @Override
     public Number getDefaultValue() {
-        return  0.10000000149011612;
+        return  0.1;
     }
 
     @Override

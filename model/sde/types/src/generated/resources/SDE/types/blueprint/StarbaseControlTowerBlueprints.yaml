@@ -4,400 +4,316 @@ types:
     industryblueprintrank: 300.0
     marketGroup: 1339
     name: Amarr Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2775:
     id: 2775
     industryblueprintrank: 200.0
     marketGroup: 1339
     name: Amarr Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2776:
     id: 2776
     industryblueprintrank: 100.0
     marketGroup: 1339
     name: Amarr Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
+    price: 125000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2777:
     id: 2777
     industryblueprintrank: 300.0
     marketGroup: 1339
     name: Caldari Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2778:
     id: 2778
     industryblueprintrank: 200.0
     marketGroup: 1339
     name: Caldari Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2779:
     id: 2779
     industryblueprintrank: 100.0
     marketGroup: 1339
     name: Caldari Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
+    price: 125000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2780:
     id: 2780
     industryblueprintrank: 300.0
     marketGroup: 1339
     name: Gallente Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2781:
     id: 2781
     industryblueprintrank: 200.0
     marketGroup: 1339
     name: Gallente Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2782:
     id: 2782
     industryblueprintrank: 100.0
     marketGroup: 1339
     name: Gallente Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
+    price: 125000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2783:
     id: 2783
     industryblueprintrank: 300.0
     marketGroup: 1339
     name: Minmatar Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2784:
     id: 2784
     industryblueprintrank: 200.0
     marketGroup: 1339
     name: Minmatar Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2785:
     id: 2785
     industryblueprintrank: 100.0
     marketGroup: 1339
     name: Minmatar Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
+    price: 125000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27677:
     id: 27677
     industryblueprintrank: 300.0
     name: Angel Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27680:
     id: 27680
     industryblueprintrank: 200.0
     name: Angel Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27681:
     id: 27681
     industryblueprintrank: 100.0
     name: Angel Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27682:
     id: 27682
     industryblueprintrank: 300.0
     name: Blood Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27684:
     id: 27684
     industryblueprintrank: 200.0
     name: Blood Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27685:
     id: 27685
     industryblueprintrank: 100.0
     name: Blood Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27688:
     id: 27688
     industryblueprintrank: 300.0
     name: Dark Blood Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27689:
     id: 27689
     industryblueprintrank: 200.0
     name: Dark Blood Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27690:
     id: 27690
     industryblueprintrank: 100.0
     name: Dark Blood Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27694:
     id: 27694
     industryblueprintrank: 200.0
     name: Domination Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27695:
     id: 27695
     industryblueprintrank: 300.0
     name: Domination Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27696:
     id: 27696
     industryblueprintrank: 100.0
     name: Domination Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27697:
     id: 27697
     industryblueprintrank: 100.0
     name: Guristas Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27698:
     id: 27698
     industryblueprintrank: 200.0
     name: Guristas Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27699:
     id: 27699
     industryblueprintrank: 300.0
     name: Guristas Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27703:
     id: 27703
     industryblueprintrank: 100.0
     name: Dread Guristas Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27704:
     id: 27704
     industryblueprintrank: 200.0
     name: Dread Guristas Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27705:
     id: 27705
     industryblueprintrank: 300.0
     name: Dread Guristas Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27706:
     id: 27706
     industryblueprintrank: 300.0
     name: Serpentis Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27707:
     id: 27707
     industryblueprintrank: 200.0
     name: Serpentis Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27708:
     id: 27708
     industryblueprintrank: 100.0
     name: Serpentis Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27712:
     id: 27712
     industryblueprintrank: 200.0
     name: Shadow Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27713:
     id: 27713
     industryblueprintrank: 300.0
     name: Shadow Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27714:
     id: 27714
     industryblueprintrank: 100.0
     name: Shadow Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27781:
     id: 27781
     industryblueprintrank: 300.0
     name: Sansha Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27783:
     id: 27783
     industryblueprintrank: 200.0
     name: Sansha Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27785:
     id: 27785
     industryblueprintrank: 100.0
     name: Sansha Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27787:
     id: 27787
     industryblueprintrank: 300.0
     name: True Sansha Control Tower Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27789:
     id: 27789
     industryblueprintrank: 200.0
     name: True Sansha Control Tower Medium Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27791:
     id: 27791
     industryblueprintrank: 100.0
     name: True Sansha Control Tower Small Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

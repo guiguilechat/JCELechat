@@ -4,21 +4,17 @@ types:
     industryblueprintrank: 7.0
     marketGroup: 338
     name: Gas Cloud Harvester I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   60339:
     id: 60339
-    industryblueprintrank: 18.200000762939453
+    industryblueprintrank: 18.2
     name: Gas Cloud Harvester II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

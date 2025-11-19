@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
@@ -23,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
@@ -111,7 +109,7 @@ public class TrackingScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int trackingspeedbonusbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, MaxRangeBonusBonus.INSTANCE, TrackingSpeedBonusBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, FalloffBonusBonus.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, MaxRangeBonusBonus.INSTANCE, TrackingSpeedBonusBonus.INSTANCE, FalloffBonusBonus.INSTANCE, TechLevel.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MainColor.INSTANCE })));
     public static final TrackingScript.MetaGroup METAGROUP = new TrackingScript.MetaGroup();
 
     @Override

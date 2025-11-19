@@ -14,12 +14,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaSkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemorySkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionSkillTrainingTimeMultiplierBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -34,13 +32,6 @@ public class GallenteEducation
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneedmultiplier;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
@@ -69,14 +60,7 @@ public class GallenteEducation
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double perceptionskilltrainingtimemultiplierbonus;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, Capacity.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, CpuMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, CpuMultiplier.INSTANCE })));
     public static final GallenteEducation.MetaGroup METAGROUP = new GallenteEducation.MetaGroup();
 
     @Override
@@ -85,10 +69,6 @@ public class GallenteEducation
             case  216 :
             {
                 return capacitorneedmultiplier;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  228 :
             {
@@ -105,10 +85,6 @@ public class GallenteEducation
             case  231 :
             {
                 return perceptionskilltrainingtimemultiplierbonus;
-            }
-            case  162 :
-            {
-                return radius;
             }
             default:
             {

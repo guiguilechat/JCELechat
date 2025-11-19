@@ -2,40 +2,35 @@ types:
   366967:
     id: 366967
     name: Mangled Coil Assembly
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366968:
     id: 366968
     name: Crushed Magazine Housing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366969:
     id: 366969
     name: Broken Optronic Sight
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366970:
     id: 366970
     name: Shattered Heat Shield
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366971:
     id: 366971
     name: Melted Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

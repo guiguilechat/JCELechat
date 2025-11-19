@@ -1,97 +1,89 @@
 types:
   11136:
-    armoremdamageresonance: 0.10000000149011612
-    armorexplosivedamageresonance: 0.10000000149011612
+    armoremdamageresonance: 0.1
+    armorexplosivedamageresonance: 0.1
     armorhp: 48000.0
-    armorkineticdamageresonance: 0.10000000149011612
-    armorthermaldamageresonance: 0.10000000149011612
-    capacity: 1000.0
+    armorkineticdamageresonance: 0.1
+    armorthermaldamageresonance: 0.1
     disallowassistance: 1
     hp: 480000.0
     id: 11136
     mass: 100.0
     name: CONCORD Billboard
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 644.0
     shieldcapacity: 48000.0
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
     shieldrechargerate: 5000.0
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
   41339:
-    armoremdamageresonance: 0.10000000149011612
-    armorexplosivedamageresonance: 0.10000000149011612
+    armoremdamageresonance: 0.1
+    armorexplosivedamageresonance: 0.1
     armorhp: 48000.0
-    armorkineticdamageresonance: 0.10000000149011612
-    armorthermaldamageresonance: 0.10000000149011612
-    capacity: 1000.0
+    armorkineticdamageresonance: 0.1
+    armorthermaldamageresonance: 0.1
     disallowassistance: 1
     hp: 480000.0
     id: 41339
     mass: 100.0
     name: Small CONCORD Billboard
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 644.0
     shieldcapacity: 48000.0
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
     shieldrechargerate: 5000.0
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
   41340:
-    armoremdamageresonance: 0.10000000149011612
-    armorexplosivedamageresonance: 0.10000000149011612
+    armoremdamageresonance: 0.1
+    armorexplosivedamageresonance: 0.1
     armorhp: 48000.0
-    armorkineticdamageresonance: 0.10000000149011612
-    armorthermaldamageresonance: 0.10000000149011612
-    capacity: 1000.0
+    armorkineticdamageresonance: 0.1
+    armorthermaldamageresonance: 0.1
     disallowassistance: 1
     hp: 480000.0
     id: 41340
     mass: 100.0
     name: Medium CONCORD Billboard
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 644.0
     shieldcapacity: 48000.0
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
     shieldrechargerate: 5000.0
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0
   41341:
-    armoremdamageresonance: 0.10000000149011612
-    armorexplosivedamageresonance: 0.10000000149011612
+    armoremdamageresonance: 0.1
+    armorexplosivedamageresonance: 0.1
     armorhp: 48000.0
-    armorkineticdamageresonance: 0.10000000149011612
-    armorthermaldamageresonance: 0.10000000149011612
-    capacity: 1000.0
+    armorkineticdamageresonance: 0.1
+    armorthermaldamageresonance: 0.1
     disallowassistance: 1
     hp: 480000.0
     id: 41341
     mass: 100.0
     name: Large CONCORD Billboard
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 644.0
     shieldcapacity: 48000.0
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
     shieldrechargerate: 5000.0
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     structureuniformity: 1.0
     volume: 1.0

@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -87,7 +85,7 @@ public class GuidanceDisruptionScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, MissileVelocityBonusBonus.INSTANCE, ExplosionDelayBonusBonus.INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, TechLevel.INSTANCE, AoeCloudSizeBonusBonus.INSTANCE, AoeVelocityBonusBonus.INSTANCE, LauncherGroup.INSTANCE, MissileVelocityBonusBonus.INSTANCE, ExplosionDelayBonusBonus.INSTANCE, MainColor.INSTANCE })));
     public static final GuidanceDisruptionScript.MetaGroup METAGROUP = new GuidanceDisruptionScript.MetaGroup();
 
     @Override

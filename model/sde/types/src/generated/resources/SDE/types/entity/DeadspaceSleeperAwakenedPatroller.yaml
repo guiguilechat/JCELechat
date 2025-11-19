@@ -4,14 +4,13 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.3
     armorhp: 5000.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
     damagemultiplier: 2.5
     disallowassistance: 1
     emdamage: 20.0
@@ -23,39 +22,38 @@ types:
     entityattackrange: 30000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 170.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.0017761000199243426
+    entityfactionloss: 0.0017761
     entityflyrange: 15000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 2500.0
     id: 30200
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 20000.0
     maxvelocity: 1190.0
     missiledamagemultiplier: 2.0
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
     name: Awakened Patroller
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -70,7 +68,7 @@ types:
     speed: 5000.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 109000.0
   30201:
     aishoulduseeffectmultiplier: 1
@@ -84,13 +82,12 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
     damagemultiplier: 2.5
     disallowassistance: 1
     emdamage: 20.0
     energyneutralizeramount: 60.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.800000011920929
+    energyneutralizerentitychance: 0.8
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 160.0
     entityarmorrepairduration: 12000
@@ -99,7 +96,7 @@ types:
     entityattackrange: 52500
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -111,26 +108,25 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 17500.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 1750.0
     id: 30201
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 35000.0
     maxvelocity: 1400.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
     name: Awakened Watchman
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -145,21 +141,20 @@ types:
     speed: 5000.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.05000000074505806
+    trackingspeed: 0.05
     volume: 109000.0
   30202:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 4000.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
     damagemultiplier: 5.5
     disallowassistance: 1
     emdamage: 20.0
@@ -171,7 +166,7 @@ types:
     entityattackrange: 67500
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 49500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -183,26 +178,25 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 22500.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 2000.0
     id: 30202
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 45000.0
     maxvelocity: 980.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
     name: Awakened Escort
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -217,5 +211,5 @@ types:
     speed: 5000.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 109000.0

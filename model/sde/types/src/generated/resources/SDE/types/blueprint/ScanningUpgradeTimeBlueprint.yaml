@@ -4,43 +4,35 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1707
     name: Scan Acquisition Array I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33198:
     id: 33198
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Scan Acquisition Array II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   87327:
     id: 87327
     industryblueprintrank: 6.0
     name: Navy Scan Acquisition Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88148:
     id: 88148
     industryblueprintrank: 6.0
     name: Triplot Scan Acquisition Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

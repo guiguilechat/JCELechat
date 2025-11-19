@@ -8,13 +8,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37150
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2347
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Ammunition Manufacturing Time Efficiency I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 10.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -24,7 +23,7 @@ types:
     securitymodifier: 1
     structureitemvisualflag: 1
     structurerigbonus1: 32
-    structurerigbonus2: 3.200000047683716
+    structurerigbonus2: 3.2
     techlevel: 1
     upgradecost: 100
     volume: 10.0
@@ -37,13 +36,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37151
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2347
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Ammunition Manufacturing Time Efficiency II
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 10.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0

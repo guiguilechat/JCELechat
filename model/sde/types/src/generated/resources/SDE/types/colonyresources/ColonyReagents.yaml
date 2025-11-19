@@ -4,17 +4,15 @@ types:
     marketGroup: 3596
     mass: 3000.0
     name: Magmatic Gas
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   81144:
     id: 81144
     marketGroup: 3596
     mass: 3000.0
     name: Superionic Ice
-    packagedVolume: 1.5
     portionSize: 1
     price: 3500.0
     published: true

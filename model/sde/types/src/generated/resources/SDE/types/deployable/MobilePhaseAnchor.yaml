@@ -1,0 +1,39 @@
+types:
+  90037:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 0.75
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    hp: 10000.0
+    id: 90037
+    kineticdamageresonance: 1.0
+    marketGroup: 3781
+    mass: 10000.0
+    metalevelold: 1
+    name: Mobile Phase Anchor
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    radius: 50.0
+    requiredskill1: 11584
+    requiredskill1level: 3
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 30000.0
+    shieldemdamageresonance: 0.25
+    shieldexplosivedamageresonance: 0.25
+    shieldkineticdamageresonance: 0.25
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.25
+    shielduniformity: 0.75
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    volume: 50.0

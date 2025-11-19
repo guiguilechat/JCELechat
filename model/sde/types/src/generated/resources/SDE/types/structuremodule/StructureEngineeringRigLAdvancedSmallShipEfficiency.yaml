@@ -9,13 +9,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 43707
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2348
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Advanced Small Ship Manufacturing Efficiency I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 20.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -29,7 +28,7 @@ types:
     volume: 20.0
   43708:
     attributeengrigcostbonus: 1
-    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigmatbonus: -2.4
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
@@ -37,13 +36,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 43708
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2348
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Advanced Small Ship Manufacturing Efficiency II
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 20.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0

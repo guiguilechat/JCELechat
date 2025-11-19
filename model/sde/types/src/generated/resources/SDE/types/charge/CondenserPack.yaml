@@ -8,15 +8,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
-    mass: 0.009999999776482582
+    mass: 0.01
     name: GalvaSurge Condenser Pack S
-    packagedVolume: 0.0024999999441206455
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.75
   54770:
     chargesize: 1
@@ -27,15 +25,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
-    mass: 0.009999999776482582
+    mass: 0.01
     name: MesmerFlux Condenser Pack S
-    packagedVolume: 0.0024999999441206455
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 1.5
   54771:
     chargesize: 1
@@ -46,15 +42,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
-    mass: 0.009999999776482582
+    mass: 0.01
     name: BlastShot Condenser Pack S
-    packagedVolume: 0.0024999999441206455
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.75
   54772:
     chargesize: 1
@@ -65,15 +59,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
-    mass: 0.009999999776482582
+    mass: 0.01
     name: SlamBolt Condenser Pack S
-    packagedVolume: 0.0024999999441206455
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 1.5
   54773:
     chargesize: 2
@@ -84,15 +76,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
-    mass: 0.009999999776482582
+    mass: 0.01
     name: GalvaSurge Condenser Pack M
-    packagedVolume: 0.012500000186264515
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.75
   54774:
     chargesize: 2
@@ -103,15 +93,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
-    mass: 0.009999999776482582
+    mass: 0.01
     name: MesmerFlux Condenser Pack M
-    packagedVolume: 0.012500000186264515
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 1.5
   54775:
     chargesize: 2
@@ -122,15 +110,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
-    mass: 0.009999999776482582
+    mass: 0.01
     name: BlastShot Condenser Pack M
-    packagedVolume: 0.012500000186264515
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.75
   54776:
     chargesize: 2
@@ -141,15 +127,13 @@ types:
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
-    mass: 0.009999999776482582
+    mass: 0.01
     name: SlamBolt Condenser Pack M
-    packagedVolume: 0.012500000186264515
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 1.5
   54777:
     chargesize: 3
@@ -160,15 +144,13 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
-    mass: 0.009999999776482582
+    mass: 0.01
     name: GalvaSurge Condenser Pack L
-    packagedVolume: 0.02500000037252903
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.75
   54778:
     chargesize: 3
@@ -179,15 +161,13 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
-    mass: 0.009999999776482582
+    mass: 0.01
     name: MesmerFlux Condenser Pack L
-    packagedVolume: 0.02500000037252903
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 1.5
   54779:
     chargesize: 3
@@ -198,15 +178,13 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
-    mass: 0.009999999776482582
+    mass: 0.01
     name: BlastShot Condenser Pack L
-    packagedVolume: 0.02500000037252903
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.75
   54780:
     chargesize: 3
@@ -217,13 +195,11 @@ types:
     launchergroup: 4060
     maincolor: 16764120
     marketGroup: 2736
-    mass: 0.009999999776482582
+    mass: 0.01
     name: SlamBolt Condenser Pack L
-    packagedVolume: 0.02500000037252903
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 1.5

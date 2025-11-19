@@ -4,40 +4,39 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.4
     armorhp: 1400.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.5249999761581421
+    armorthermaldamageresonance: 0.525
     capacitorcapacity: 450.0
-    capacity: 235.0
-    damagemultiplier: 5.952381134033203
+    damagemultiplier: 5.952380952
     disallowassistance: 1
     emdamage: 10.0
     entityarmorrepairamount: 275.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 25000
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
     entityattackrange: 20000
     entitybracketcolour: 1
     entitychasemaxdelay: 15000.0
-    entitychasemaxdelaychance: 0.6499999761581421
+    entitychasemaxdelaychance: 0.65
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
-    entitydefenderchance: 0.05999999865889549
+    entitydefenderchance: 0.06
     entityequipmentmax: 6
     entityequipmentmin: 2
     entityflyrange: 6250.0
     entitykillbounty: 120000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     explosivedamage: 6.0
     falloff: 4000.0
     gfxboosterid: 397
@@ -45,7 +44,7 @@ types:
     hp: 1250.0
     id: 42235
     kineticdamage: 4.0
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6250.0
@@ -54,27 +53,26 @@ types:
     missileentityvelocitymultiplier: 1.5
     name: Blood Raider Patroller
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scanradarstrength: 20.0
     scanresolution: 275.0
     scanspeed: 5000
     shieldcapacity: 1050.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     volume: 118000.0
     warpscramblerange: 10000
     warpscramblestrength: 1

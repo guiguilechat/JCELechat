@@ -16,14 +16,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FactionID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -49,13 +46,6 @@ public class FWInfrastructureHub
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double armoruniformity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * current structure damage dealt to module
      */
@@ -85,27 +75,12 @@ public class FWInfrastructureHub
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -134,7 +109,7 @@ public class FWInfrastructureHub
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Damage.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, DisallowAssistance.INSTANCE, FactionID.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Damage.INSTANCE, ShieldUniformity.INSTANCE, DisallowAssistance.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, FactionID.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final FWInfrastructureHub.MetaGroup METAGROUP = new FWInfrastructureHub.MetaGroup();
 
     @Override
@@ -147,10 +122,6 @@ public class FWInfrastructureHub
             case  524 :
             {
                 return armoruniformity;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  3 :
             {
@@ -168,17 +139,9 @@ public class FWInfrastructureHub
             {
                 return hp;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  479 :
             {

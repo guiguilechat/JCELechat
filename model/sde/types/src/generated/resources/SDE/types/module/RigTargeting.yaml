@@ -6,7 +6,6 @@ types:
     marketGroup: 1792
     mass: 200.0
     name: Large Targeting System Subcontroller I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -23,7 +22,6 @@ types:
     mass: 200.0
     maxtargetrangebonus: 25.0
     name: Large Ionic Field Projector I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -40,7 +38,6 @@ types:
     maxtargetrangebonus: 30.0
     metalevelold: 5
     name: Large Ionic Field Projector II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -56,7 +53,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Targeting System Subcontroller II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -73,7 +69,6 @@ types:
     mass: 200.0
     maxtargetrangebonus: 25.0
     name: Small Ionic Field Projector I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -89,7 +84,6 @@ types:
     mass: 200.0
     maxtargetrangebonus: 25.0
     name: Medium Ionic Field Projector I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -105,7 +99,6 @@ types:
     mass: 200.0
     maxtargetrangebonus: 25.0
     name: Capital Ionic Field Projector I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -122,7 +115,6 @@ types:
     maxtargetrangebonus: 30.0
     metalevelold: 5
     name: Small Ionic Field Projector II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -139,7 +131,6 @@ types:
     maxtargetrangebonus: 30.0
     metalevelold: 5
     name: Medium Ionic Field Projector II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -156,7 +147,6 @@ types:
     maxtargetrangebonus: 30.0
     metalevelold: 5
     name: Capital Ionic Field Projector II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -171,7 +161,6 @@ types:
     marketGroup: 1790
     mass: 200.0
     name: Small Targeting System Subcontroller I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -187,7 +176,6 @@ types:
     marketGroup: 1791
     mass: 200.0
     name: Medium Targeting System Subcontroller I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -203,7 +191,6 @@ types:
     marketGroup: 1793
     mass: 200.0
     name: Capital Targeting System Subcontroller I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -220,7 +207,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Targeting System Subcontroller II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -237,7 +223,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Targeting System Subcontroller II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -254,7 +239,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Targeting System Subcontroller II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

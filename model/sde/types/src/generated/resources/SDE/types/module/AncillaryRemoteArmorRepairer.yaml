@@ -2,14 +2,13 @@ types:
   41476:
     armordamageamount: 37.0
     capacitorneed: 38.0
-    capacity: 0.07999999821186066
     chargedarmordamagemultiplier: 3
     chargegroup1: 916
     chargerate: 1
     cpu: 10.0
     duration: 3000.0
     falloffeffectiveness: 2500
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 41476
@@ -22,12 +21,10 @@ types:
     name: Small Ancillary Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     price: 4996.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 16069
@@ -38,14 +35,13 @@ types:
   41477:
     armordamageamount: 145.0
     capacitorneed: 155.0
-    capacity: 0.3199999928474426
     chargedarmordamagemultiplier: 3
     chargegroup1: 916
     chargerate: 4
     cpu: 20.0
     duration: 6000.0
     falloffeffectiveness: 2500
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41477
@@ -58,12 +54,10 @@ types:
     name: Medium Ancillary Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     price: 12470.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 16069
@@ -74,14 +68,13 @@ types:
   41478:
     armordamageamount: 290.0
     capacitorneed: 330.0
-    capacity: 0.6399999856948853
     chargedarmordamagemultiplier: 3
     chargegroup1: 916
     chargerate: 8
     cpu: 40.0
     duration: 6000.0
     falloffeffectiveness: 3500
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41478
@@ -94,12 +87,10 @@ types:
     name: Large Ancillary Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 600
     price: 31244.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 16069
@@ -110,14 +101,13 @@ types:
   41479:
     armordamageamount: 530.0
     capacitorneed: 1770.0
-    capacity: 1.2799999713897705
     chargedarmordamagemultiplier: 3
     chargegroup1: 916
     chargerate: 16
     cpu: 40.0
     duration: 12000.0
     falloffeffectiveness: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 2.0
     hp: 40.0
     id: 41479
@@ -130,12 +120,10 @@ types:
     name: Capital Ancillary Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 150000
-    price: 2.4200788E7
+    price: 24200788.0
     published: true
-    radius: 1.0
     reloadtime: 60000.0
     remoteresistanceid: 2116
     requiredskill1: 24568

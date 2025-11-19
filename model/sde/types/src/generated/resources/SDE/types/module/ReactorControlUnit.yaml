@@ -10,9 +10,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Reactor Control Unit'
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.0499999523162842
+    poweroutputmultiplier: 1.05
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -30,9 +29,8 @@ types:
     marketGroup: 659
     mass: 20.0
     name: Reactor Control Unit I
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.100000023841858
+    poweroutputmultiplier: 1.1
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -51,9 +49,8 @@ types:
     mass: 20.0
     metalevelold: 5
     name: Reactor Control Unit II
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.149999976158142
+    poweroutputmultiplier: 1.15
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -72,9 +69,8 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Mark I Compact Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1200000047683716
+    poweroutputmultiplier: 1.12
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -94,9 +90,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1549999713897705
+    poweroutputmultiplier: 1.155
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -116,9 +111,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1549999713897705
+    poweroutputmultiplier: 1.155
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -138,9 +132,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1549999713897705
+    poweroutputmultiplier: 1.155
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -160,9 +153,8 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.162750005722046
+    poweroutputmultiplier: 1.16275
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -182,9 +174,8 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.162750005722046
+    poweroutputmultiplier: 1.16275
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -204,9 +195,8 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1705000400543213
+    poweroutputmultiplier: 1.1705
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -226,9 +216,8 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1705000400543213
+    poweroutputmultiplier: 1.1705
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -248,9 +237,8 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1782499551773071
+    poweroutputmultiplier: 1.17825
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -270,9 +258,8 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1782499551773071
+    poweroutputmultiplier: 1.17825
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -292,9 +279,8 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1859999895095825
+    poweroutputmultiplier: 1.186
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -314,9 +300,8 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1859999895095825
+    poweroutputmultiplier: 1.186
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -336,9 +321,8 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.162750005722046
+    poweroutputmultiplier: 1.16275
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -358,9 +342,8 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Tuvan's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1705000400543213
+    poweroutputmultiplier: 1.1705
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -380,9 +363,8 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Setele's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1782499551773071
+    poweroutputmultiplier: 1.17825
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -402,9 +384,8 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Cormack's Modified Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1859999895095825
+    poweroutputmultiplier: 1.186
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -424,9 +405,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1549999713897705
+    poweroutputmultiplier: 1.155
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -446,9 +426,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Portcullis'' Reactor Control Unit I'
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.149999976158142
+    poweroutputmultiplier: 1.15
     published: true
     radius: 500.0
     requiredskill1: 3424
@@ -468,9 +447,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate Reactor Control Unit
-    packagedVolume: 5.0
     portionSize: 1
-    poweroutputmultiplier: 1.1549999713897705
+    poweroutputmultiplier: 1.155
     published: true
     radius: 500.0
     requiredskill1: 3424

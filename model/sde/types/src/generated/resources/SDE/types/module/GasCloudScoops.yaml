@@ -11,7 +11,6 @@ types:
     miningamount: 10
     miningwastedvolumemultiplier: 1
     name: Gas Cloud Scoop I
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 9272.0
@@ -37,7 +36,6 @@ types:
     miningwastedvolumemultiplier: 2
     miningwasteprobability: 100
     name: '''Crop'' Gas Cloud Scoop'
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 9272.0
@@ -63,7 +61,6 @@ types:
     miningwastedvolumemultiplier: 4
     miningwasteprobability: 100
     name: '''Plow'' Gas Cloud Scoop'
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 9272.0
@@ -89,7 +86,6 @@ types:
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
     name: Gas Cloud Scoop II
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 9272.0
@@ -115,7 +111,6 @@ types:
     miningamount: 20
     miningwastedvolumemultiplier: 1
     name: Syndicate Gas Cloud Scoop
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 9272.0
@@ -126,4 +121,19 @@ types:
     slots: 1
     techlevel: 1
     typecolorscheme: 11353
+    volume: 5.0
+  90529:
+    disallowearlydeactivation: 1
+    id: 90529
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Gas Cloud Scoop
+    portionSize: 1
+    price: 9272.0
+    published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0

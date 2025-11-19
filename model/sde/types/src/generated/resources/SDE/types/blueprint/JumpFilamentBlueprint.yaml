@@ -2,161 +2,138 @@ types:
   53988:
     id: 53988
     name: Noise-15 'Needlejack' Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53989:
     id: 53989
     name: Signal-15 'Needlejack' Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53990:
     id: 53990
     name: Noise-25 'Needlejack' Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53991:
     id: 53991
     name: Signal-25 'Needlejack' Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62058:
     id: 62058
     name: Expired Curious Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62059:
     id: 62059
     name: Expired Enigmatic Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62060:
     id: 62060
     name: Expired Mysterious Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62061:
     id: 62061
     name: Expired Precarious Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62062:
     id: 62062
     name: Expired Hazardous Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62063:
     id: 62063
     name: Expired Dangerous Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   62064:
     id: 62064
     name: Expired Perilous Warp Matrix Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80003:
     id: 80003
     name: Sinister Exotic Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80004:
     id: 80004
     name: Ruined Electrical Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80005:
     id: 80005
     name: Vicious Electrical Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80006:
     id: 80006
     name: Devastated Electrical Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80007:
     id: 80007
     name: Disastrous Gamma Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80008:
     id: 80008
     name: Annihilated Electrical Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   80009:
     id: 80009
     name: Calamitous Firestorm Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88214:
     id: 88214
     name: Liberated Barbican Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88215:
     id: 88215
     name: Conflux Eyrie Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88216:
     id: 88216
     name: Sanctified Vidette Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88217:
     id: 88217
     name: Azdaja Redoubt Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88218:
     id: 88218
     name: Sentinel MZ Filament Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

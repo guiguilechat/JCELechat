@@ -7,7 +7,6 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
-    capacity: 3000.0
     fighterabilityanticapitalmissileresistance: 1
     hp: 500000.0
     id: 85230
@@ -15,7 +14,6 @@ types:
     mass: 10000.0
     metalevelold: 1
     name: Mercenary Den
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 9000.0
@@ -42,7 +40,6 @@ types:
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
-    capacity: 3000.0
     fighterabilityanticapitalmissileresistance: 1
     hp: 550000.0
     id: 85980
@@ -50,7 +47,6 @@ types:
     mass: 10000.0
     metalevelold: 4
     name: '''Seneschal'' Mercenary Den'
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 2500.0

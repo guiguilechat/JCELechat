@@ -7,7 +7,6 @@ types:
     marketGroup: 1784
     mass: 200.0
     name: Large Salvage Tackle I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -24,7 +23,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Salvage Tackle II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -40,7 +38,6 @@ types:
     marketGroup: 1782
     mass: 200.0
     name: Small Salvage Tackle I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -56,7 +53,6 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Salvage Tackle I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -72,7 +68,6 @@ types:
     marketGroup: 1785
     mass: 200.0
     name: Capital Salvage Tackle I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -89,7 +84,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Salvage Tackle II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -106,7 +100,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Salvage Tackle II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -123,7 +116,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Salvage Tackle II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -139,7 +131,6 @@ types:
     mass: 200.0
     miningamountbonus: 16
     name: Medium Deep Core Mining Optimization I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -155,7 +146,6 @@ types:
     marketGroup: 1783
     mass: 200.0
     name: Medium Ice Harvester Accelerator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0

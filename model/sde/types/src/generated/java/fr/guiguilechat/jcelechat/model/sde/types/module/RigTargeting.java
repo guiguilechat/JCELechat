@@ -14,13 +14,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
@@ -90,7 +88,7 @@ public class RigTargeting
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE })));
     public static final RigTargeting.MetaGroup METAGROUP = new RigTargeting.MetaGroup();
 
     @Override

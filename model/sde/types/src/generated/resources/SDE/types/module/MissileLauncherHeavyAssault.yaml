@@ -1,22 +1,19 @@
 types:
   20138:
-    capacity: 0.75
     chargegroup1: 772
     chargerate: 1
     cpu: 45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.2
     hp: 40.0
     id: 20138
     marketGroup: 974
     name: Heavy Assault Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -29,11 +26,10 @@ types:
     typecolorscheme: 11324
     volume: 10.0
   25707:
-    capacity: 0.8999999761581421
     chargegroup1: 772
     chargerate: 1
     cpu: 39.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 25707
@@ -41,12 +37,10 @@ types:
     metalevelold: 4
     name: Prototype 'Arbalest' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -59,24 +53,21 @@ types:
     typecolorscheme: 20113
     volume: 10.0
   25709:
-    capacity: 0.7799999713897705
     chargegroup1: 772
     chargerate: 1
     cpu: 36.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 25709
     marketGroup: 974
     metalevelold: 1
     name: Upgraded 'Malkuth' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -89,24 +80,21 @@ types:
     typecolorscheme: 20123
     volume: 10.0
   25711:
-    capacity: 0.824999988079071
     chargegroup1: 772
     chargerate: 1
     cpu: 41.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 25711
     marketGroup: 974
     metalevelold: 2
     name: Limited 'Limos' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -119,11 +107,10 @@ types:
     typecolorscheme: 20115
     volume: 10.0
   25713:
-    capacity: 0.8550000190734863
     chargegroup1: 772
     chargerate: 1
     cpu: 43.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 25713
@@ -131,12 +118,10 @@ types:
     metalevelold: 3
     name: Experimental XT-2800 Heavy Assault Missile Launcher I
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -149,12 +134,11 @@ types:
     typecolorscheme: 20116
     volume: 10.0
   25715:
-    capacity: 0.9900000095367432
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 50.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 25715
@@ -162,12 +146,10 @@ types:
     metalevelold: 5
     name: Heavy Assault Missile Launcher II
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 113
     price: 174120.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3319
     requiredskill1level: 4
@@ -180,13 +162,12 @@ types:
     typecolorscheme: 11325
     volume: 10.0
   28375:
-    capacity: 1.0049999952316284
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 36.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 28375
     marketGroup: 974
@@ -194,12 +175,10 @@ types:
     metalevelold: 7
     name: Republic Fleet Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -212,13 +191,12 @@ types:
     typecolorscheme: 11339
     volume: 10.0
   28377:
-    capacity: 1.125
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 49.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8500000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.85
     hp: 40.0
     id: 28377
     marketGroup: 974
@@ -226,12 +204,10 @@ types:
     metalevelold: 8
     name: Caldari Navy Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 97
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -244,13 +220,12 @@ types:
     typecolorscheme: 11321
     volume: 10.0
   28379:
-    capacity: 1.0049999952316284
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 36.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 28379
     marketGroup: 974
@@ -258,12 +233,10 @@ types:
     metalevelold: 7
     name: Domination Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -276,13 +249,12 @@ types:
     typecolorscheme: 11318
     volume: 10.0
   28381:
-    capacity: 1.125
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 49.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8500000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.85
     hp: 40.0
     id: 28381
     marketGroup: 974
@@ -290,12 +262,10 @@ types:
     metalevelold: 8
     name: Dread Guristas Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 97
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -308,13 +278,12 @@ types:
     typecolorscheme: 11335
     volume: 10.0
   28383:
-    capacity: 1.0049999952316284
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 36.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 28383
     marketGroup: 974
@@ -322,12 +291,10 @@ types:
     metalevelold: 7
     name: True Sansha Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -340,13 +307,12 @@ types:
     typecolorscheme: 11349
     volume: 10.0
   28565:
-    capacity: 1.125
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 42.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8500000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.85
     hp: 40.0
     id: 28565
     marketGroup: 974
@@ -354,12 +320,10 @@ types:
     metalevelold: 8
     name: Khanid Navy Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 113
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1
@@ -372,12 +336,11 @@ types:
     typecolorscheme: 11337
     volume: 10.0
   34292:
-    capacity: 2.9700000286102295
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 43.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 34292
@@ -385,12 +348,10 @@ types:
     metalevelold: 9
     name: Polarized Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     price: 174120.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3319
     requiredskill1level: 4
@@ -405,13 +366,12 @@ types:
     typecolorscheme: 11461
     volume: 10.0
   85023:
-    capacity: 1.125
     chargegroup1: 772
     chargegroup2: 654
     chargerate: 1
     cpu: 50.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8500000238418579
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.85
     hp: 40.0
     id: 85023
     marketGroup: 974
@@ -419,12 +379,10 @@ types:
     metalevelold: 15
     name: Hanaruwa's Modified Heavy Assault Missile Launcher
     overloadrofbonus: -15
-    packagedVolume: 10.0
     portionSize: 1
     power: 119
     price: 34096.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 25719
     requiredskill1level: 1

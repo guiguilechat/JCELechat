@@ -13,13 +13,11 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SensorStrengthBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -87,7 +85,7 @@ public class SensorBoosterScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, MaxTargetRangeBonusBonus.INSTANCE, ScanResolutionBonusBonus.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, SensorStrengthBonusBonus.INSTANCE, LauncherGroup2 .INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, MaxTargetRangeBonusBonus.INSTANCE, ScanResolutionBonusBonus.INSTANCE, TechLevel.INSTANCE, LauncherGroup.INSTANCE, LauncherGroup2 .INSTANCE, SensorStrengthBonusBonus.INSTANCE, MainColor.INSTANCE })));
     public static final SensorBoosterScript.MetaGroup METAGROUP = new SensorBoosterScript.MetaGroup();
 
     @Override

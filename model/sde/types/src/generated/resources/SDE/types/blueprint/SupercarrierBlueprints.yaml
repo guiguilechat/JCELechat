@@ -3,60 +3,49 @@ types:
     id: 3515
     industryblueprintrank: 400.0
     name: Revenant Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8499999744E10
+    price: 18500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   22853:
     id: 22853
     industryblueprintrank: 400.0
     marketGroup: 891
     name: Hel Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9000000512E10
+    price: 19000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   23914:
     id: 23914
     industryblueprintrank: 400.0
     marketGroup: 890
     name: Nyx Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
+    price: 20000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   23918:
     id: 23918
     industryblueprintrank: 400.0
     marketGroup: 889
     name: Wyvern Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.7999998976E10
+    price: 18000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   23920:
     id: 23920
     industryblueprintrank: 400.0
     marketGroup: 888
     name: Aeon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8499999744E10
+    price: 18500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   42137:
     id: 42137
     name: Vendetta Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

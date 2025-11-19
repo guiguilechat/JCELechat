@@ -8,20 +8,18 @@ types:
     id: 35959
     marketGroup: 2234
     mass: 500.0
-    missiledamagemultiplierbonus: 1.0700000524520874
+    missiledamagemultiplierbonus: 1.07
     name: Standup Ballistic Control System I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
-    speedmultiplier: 0.9200000166893005
+    speedmultiplier: 0.92
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
   35962:
-    aoecloudsizebonus: -4.400000095367432
-    aoevelocitybonus: 4.400000095367432
+    aoecloudsizebonus: -4.4
+    aoevelocitybonus: 4.4
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -33,11 +31,9 @@ types:
     mass: 500.0
     missilevelocitybonus: 4.5
     name: Standup Missile Guidance Enhancer I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
     speedmultiplier: 1.0
     structureitemvisualflag: 1
     techlevel: 1
@@ -57,11 +53,9 @@ types:
     metalevelold: 5
     missilevelocitybonus: 6.0
     name: Standup Missile Guidance Enhancer II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
     speedmultiplier: 1.0
     structureitemvisualflag: 1
     techlevel: 2
@@ -76,14 +70,12 @@ types:
     marketGroup: 2234
     mass: 500.0
     metalevelold: 5
-    missiledamagemultiplierbonus: 1.100000023841858
+    missiledamagemultiplierbonus: 1.1
     name: Standup Ballistic Control System II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.895
     structureitemvisualflag: 1
     techlevel: 2
     volume: 4000.0

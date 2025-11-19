@@ -5,13 +5,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37272
-    lowsecmodifier: 1.2000000476837158
+    lowsecmodifier: 1.2
     marketGroup: 2346
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set EW and Emissions Co-ordinator I
-    nullsecmodifier: 1.2000000476837158
-    packagedVolume: 40.0
+    nullsecmodifier: 1.2
     portionSize: 1
     published: true
     radius: 100.0
@@ -32,13 +31,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37273
-    lowsecmodifier: 1.2000000476837158
+    lowsecmodifier: 1.2
     marketGroup: 2346
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set EW and Emissions Co-ordinator II
-    nullsecmodifier: 1.2000000476837158
-    packagedVolume: 40.0
+    nullsecmodifier: 1.2
     portionSize: 1
     published: true
     radius: 100.0

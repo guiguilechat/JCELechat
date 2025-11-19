@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
@@ -28,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteArmorRepairerFalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteArmorRepairerOptimalBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteShieldBoosterFalloffBonus;
@@ -112,8 +110,8 @@ public class OffensiveSubsystem
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int poweroutput;
+    @DefaultRealValue(0.0)
+    public double poweroutput;
     /**
      * 
      */
@@ -289,7 +287,7 @@ public class OffensiveSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int warfarelinkcpupenalty;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SubsystemCommandBurstFittingReduction.INSTANCE, RemoteShieldBoosterFalloffBonus.INSTANCE, RemoteArmorRepairerFalloffBonus.INSTANCE, RemoteArmorRepairerOptimalBonus.INSTANCE, Hp.INSTANCE, PowerOutput.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, TurretHardPointModifier.INSTANCE, LauncherHardPointModifier.INSTANCE, SubsystemBonusAmarrOffensive.INSTANCE, DroneCapacity.INSTANCE, WarfareLinkCPUPenalty.INSTANCE, HiSlotModifier.INSTANCE, SubsystemBonusGallenteOffensive.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusCaldariOffensive.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariOffensive2 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SubsystemBonusAmarrOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive.INSTANCE, SubsystemMHTFittingReduction.INSTANCE, MaxLockedTargetsBonus.INSTANCE, SubsystemMPTFittingReduction.INSTANCE, SubsystemMETFittingReduction.INSTANCE, SubsystemMMissileFittingReduction.INSTANCE, SubsystemMRSBFittingReduction.INSTANCE, SubsystemMRARFittingReduction.INSTANCE, CpuOutput.INSTANCE, SubsystemBonusGallenteOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive2 .INSTANCE, RequiredSkill1 .INSTANCE, DroneBandwidth.INSTANCE, MetaLevelOld.INSTANCE, SubsystemBonusAmarrOffensive3 .INSTANCE, SubsystemBonusGallenteOffensive3 .INSTANCE, SubsystemBonusCaldariOffensive3 .INSTANCE, SubsystemBonusMinmatarOffensive3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SubsystemCommandBurstFittingReduction.INSTANCE, RemoteShieldBoosterFalloffBonus.INSTANCE, RemoteArmorRepairerFalloffBonus.INSTANCE, RemoteArmorRepairerOptimalBonus.INSTANCE, Hp.INSTANCE, PowerOutput.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, TurretHardPointModifier.INSTANCE, LauncherHardPointModifier.INSTANCE, SubsystemBonusAmarrOffensive.INSTANCE, DroneCapacity.INSTANCE, WarfareLinkCPUPenalty.INSTANCE, HiSlotModifier.INSTANCE, SubsystemBonusGallenteOffensive.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, SubsystemBonusCaldariOffensive.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariOffensive2 .INSTANCE, TechLevel.INSTANCE, SubsystemBonusAmarrOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive.INSTANCE, SubsystemMHTFittingReduction.INSTANCE, MaxLockedTargetsBonus.INSTANCE, SubsystemMPTFittingReduction.INSTANCE, SubsystemMETFittingReduction.INSTANCE, SubsystemMMissileFittingReduction.INSTANCE, SubsystemMRSBFittingReduction.INSTANCE, SubsystemMRARFittingReduction.INSTANCE, CpuOutput.INSTANCE, SubsystemBonusGallenteOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive2 .INSTANCE, RequiredSkill1 .INSTANCE, DroneBandwidth.INSTANCE, MetaLevelOld.INSTANCE, SubsystemBonusAmarrOffensive3 .INSTANCE, SubsystemBonusGallenteOffensive3 .INSTANCE, SubsystemBonusCaldariOffensive3 .INSTANCE, SubsystemBonusMinmatarOffensive3 .INSTANCE })));
     public static final OffensiveSubsystem.MetaGroup METAGROUP = new OffensiveSubsystem.MetaGroup();
 
     @Override

@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeDamageReductionFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
@@ -29,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
@@ -159,7 +157,7 @@ public class StructureAntiSubcapitalMissile
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, DetonationRange.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, AoeDamageReductionFactor.INSTANCE, DetonationRange.INSTANCE, StructureUniformity.INSTANCE, AoeVelocity.INSTANCE, AoeCloudSize.INSTANCE, AoeFalloff.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureAntiSubcapitalMissile.MetaGroup METAGROUP = new StructureAntiSubcapitalMissile.MetaGroup();
 
     @Override

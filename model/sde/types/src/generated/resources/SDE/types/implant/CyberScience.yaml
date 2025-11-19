@@ -5,11 +5,9 @@ types:
     marketGroup: 1485
     mineralneedresearchbonus: -3
     name: Zainou 'Beancounter' Metallurgy MY-703
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -20,11 +18,9 @@ types:
     implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -35,11 +31,9 @@ types:
     implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -50,11 +44,9 @@ types:
     implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -65,11 +57,9 @@ types:
     implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -80,11 +70,9 @@ types:
     marketGroup: 1485
     mineralneedresearchbonus: -5
     name: Zainou 'Beancounter' Metallurgy MY-705
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -95,11 +83,9 @@ types:
     marketGroup: 1485
     mineralneedresearchbonus: -1
     name: Zainou 'Beancounter' Metallurgy MY-701
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -110,11 +96,9 @@ types:
     implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -125,11 +109,9 @@ types:
     implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1

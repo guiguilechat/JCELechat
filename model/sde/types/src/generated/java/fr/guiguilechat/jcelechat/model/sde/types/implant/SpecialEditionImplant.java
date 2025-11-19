@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHpBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapRechargeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FollowsJumpClones;
@@ -31,7 +30,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityBonus;
@@ -179,7 +177,7 @@ public class SpecialEditionImplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, TechLevel.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
     public static final SpecialEditionImplant.MetaGroup METAGROUP = new SpecialEditionImplant.MetaGroup();
 
     @Override

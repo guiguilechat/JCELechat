@@ -4,19 +4,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.49000000953674316
-    armorexplosivedamageresonance: 0.7900000214576721
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.49
+    armorexplosivedamageresonance: 0.79
     armorhp: 800.0
-    armorkineticdamageresonance: 0.6899999976158142
-    armorthermaldamageresonance: 0.5899999737739563
+    armorkineticdamageresonance: 0.69
+    armorthermaldamageresonance: 0.59
     armoruniformity: 0.75
     capacitorcapacity: 525.0
-    capacity: 120.0
     damagemultiplier: 3.75
     disallowassistance: 1
     entityarmorrepairamount: 130.0
-    entityarmorrepairdelaychancemedium: 0.36000001430511475
+    entityarmorrepairdelaychancemedium: 0.36
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21900
     entityattackdelaymin: 5475
@@ -28,20 +27,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 225.0
-    entitydefenderchance: 0.004999999888241291
+    entitydefenderchance: 0.005
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 3800.0
     entitygrouprespawnchance: 1
     entitykillbounty: 250000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5199999809265137
+    entityreactionfactor: 0.52
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05249999836087227
+    entitysecuritystatuskillbonus: 0.0525
     entityshieldboostamount: 65.0
-    entityshieldboostdelaychancemedium: 0.36000001430511475
+    entityshieldboostdelaychancemedium: 0.36
     entityshieldboostduration: 5000
     explosivedamage: 4.0
     falloff: 8000.0
@@ -55,14 +54,13 @@ types:
     maxlockedtargets: 3
     maxrange: 1800.0
     maxvelocity: 1800.0
-    missileentityaoecloudsizemultiplier: 0.8894000053405762
-    missileentityaoevelocitymultiplier: 1.2211999893188477
-    missileentityflighttimemultiplier: 1.2211999893188477
-    missileentityvelocitymultiplier: 1.2211999893188477
+    missileentityaoecloudsizemultiplier: 0.8894
+    missileentityaoevelocitymultiplier: 1.2212
+    missileentityflighttimemultiplier: 1.2212
+    missileentityvelocitymultiplier: 1.2212
     missilelaunchduration: 1.0
     name: Angel Cartel Guard
     optimalsigradius: 125
-    packagedVolume: 99000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -71,14 +69,14 @@ types:
     scanladarstrength: 13.0
     scanresolution: 300.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.49000000953674316
-    shieldexplosivedamageresonance: 0.7900000214576721
-    shieldkineticdamageresonance: 0.6899999976158142
+    shieldemdamageresonance: 0.49
+    shieldexplosivedamageresonance: 0.79
+    shieldkineticdamageresonance: 0.69
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5899999737739563
+    shieldthermaldamageresonance: 0.59
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.11749999970197678
+    trackingspeed: 0.1175
     volume: 99000.0

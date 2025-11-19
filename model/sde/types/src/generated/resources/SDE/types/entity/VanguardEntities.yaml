@@ -1,23 +1,22 @@
 types:
   89782:
-    agility: 0.800000011920929
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.8
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.85
     armorhp: 500.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 1250.0
-    capacity: 3000.0
     disallowassistance: 1
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     entitycruisespeed: 175.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 395
     hp: 1000.0
     id: 89782
-    kineticdamageresonance: 0.6700000166893005
-    mass: 1.28E7
+    kineticdamageresonance: 0.67
+    mass: 12800000.0
     maxvelocity: 1050.0
     name: Unlisted Squall
     portionSize: 1
@@ -26,12 +25,12 @@ types:
     rechargerate: 500000.0
     scangravimetricstrength: 11.0
     shieldcapacity: 20000.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.5
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 195.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     warpspeedmultiplier: 5.0

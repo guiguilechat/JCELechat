@@ -3,7 +3,6 @@ types:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
-    capacity: 15.0
     chargegroup1: 1546
     chargerate: 1
     cpu: 1500.0
@@ -12,11 +11,9 @@ types:
     marketGroup: 2230
     mass: 500.0
     name: Standup Anticapital Missile Launcher I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     slots: 1
     speed: 15000.0
@@ -27,7 +24,6 @@ types:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
-    capacity: 20.0
     chargegroup1: 1546
     chargerate: 1
     cpu: 1800.0
@@ -37,11 +33,9 @@ types:
     mass: 500.0
     metalevelold: 5
     name: Standup Anticapital Missile Launcher II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 180000
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     slots: 1
     speed: 12000.0

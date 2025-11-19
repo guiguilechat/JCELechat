@@ -4,72 +4,59 @@ types:
     industryblueprintrank: 600.0
     marketGroup: 886
     name: Erebus Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.2500002816E10
+    price: 72500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3765:
     id: 3765
     industryblueprintrank: 600.0
     marketGroup: 885
     name: Leviathan Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0000001024E10
+    price: 70000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   11568:
     id: 11568
     industryblueprintrank: 600.0
     marketGroup: 884
     name: Avatar Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.4999996416E10
+    price: 75000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   23774:
     id: 23774
     industryblueprintrank: 600.0
     marketGroup: 887
     name: Ragnarok Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.7499999232E10
+    price: 67500000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   42138:
     id: 42138
     name: Vanquisher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45045:
     id: 45045
     name: Molok Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45648:
     id: 45648
     name: Komodo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   79326:
     id: 79326
     industryblueprintrank: 600.0
     name: Azariel Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

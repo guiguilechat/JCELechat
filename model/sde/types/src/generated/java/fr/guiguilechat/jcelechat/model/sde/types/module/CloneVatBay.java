@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AllowsCloneJumpsWhenActive
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -32,7 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReclonerFuelQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReclonerFuelType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -202,7 +200,7 @@ public class CloneVatBay
     @Stackable(true)
     @DefaultIntValue(-99)
     public int speedfactorfloor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, SpeedFactorFloor.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, SpeedFactorFloor.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, TechLevel.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
     @Override

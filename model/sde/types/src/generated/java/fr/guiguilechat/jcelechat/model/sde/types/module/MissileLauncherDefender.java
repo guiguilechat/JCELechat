@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -33,7 +32,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -202,7 +200,7 @@ public class MissileLauncherDefender
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, ChargeGroup1 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, Speed.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final MissileLauncherDefender.MetaGroup METAGROUP = new MissileLauncherDefender.MetaGroup();
 
     @Override

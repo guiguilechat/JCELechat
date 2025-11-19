@@ -5,13 +5,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37274
-    lowsecmodifier: 1.2000000476837158
+    lowsecmodifier: 1.2
     marketGroup: 2346
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Extinction Level Weapons Suite I
-    nullsecmodifier: 1.2000000476837158
-    packagedVolume: 40.0
+    nullsecmodifier: 1.2
     portionSize: 1
     published: true
     radius: 100.0
@@ -20,7 +19,7 @@ types:
     rigsize: 4
     securitymodifier: 1
     structureitemvisualflag: 1
-    structurerigdoomsdaydamagelosstargetbonus: 0.019999999552965164
+    structurerigdoomsdaydamagelosstargetbonus: 0.02
     structurerigdoomsdaytargetamountbonus: 3
     structurerigmaxtargetbonus: 2
     structurerigmaxtargetrangebonus: 10
@@ -36,13 +35,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37275
-    lowsecmodifier: 1.2000000476837158
+    lowsecmodifier: 1.2
     marketGroup: 2346
     mass: 200.0
     maxgroupfitted: 1
     name: Standup XL-Set Extinction Level Weapons Suite II
-    nullsecmodifier: 1.2000000476837158
-    packagedVolume: 40.0
+    nullsecmodifier: 1.2
     portionSize: 1
     published: true
     radius: 100.0
@@ -51,7 +49,7 @@ types:
     rigsize: 4
     securitymodifier: 1
     structureitemvisualflag: 1
-    structurerigdoomsdaydamagelosstargetbonus: 0.05000000074505806
+    structurerigdoomsdaydamagelosstargetbonus: 0.05
     structurerigdoomsdaytargetamountbonus: 5
     structurerigmaxtargetbonus: 5
     structurerigmaxtargetrangebonus: 15

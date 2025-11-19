@@ -25,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -37,7 +36,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
@@ -128,13 +126,6 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(0)
     public int canfitshiptype9;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
@@ -217,13 +208,6 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * reload time (ms)
      */
     @HighIsGood(false)
@@ -259,7 +243,7 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Slots.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType6 .INSTANCE, ChargeRate.INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, TechLevel.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, Speed.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, ChargeRate.INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
@@ -309,10 +293,6 @@ public class StructureGuidedBombLauncher
             {
                 return canfitshiptype9;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  604 :
             {
                 return chargegroup1;
@@ -356,10 +336,6 @@ public class StructureGuidedBombLauncher
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  1795 :
             {

@@ -3,521 +3,527 @@ types:
     id: 46166
     marketGroup: 2403
     name: Caesarium Cadmide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46167:
     id: 46167
     marketGroup: 2403
     name: Carbon Polymers Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46168:
     id: 46168
     marketGroup: 2403
     name: Ceramic Powder Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46169:
     id: 46169
     marketGroup: 2403
     name: Crystallite Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46170:
     id: 46170
     marketGroup: 2403
     name: Dysporite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46171:
     id: 46171
     marketGroup: 2403
     name: Fernite Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46172:
     id: 46172
     marketGroup: 2403
     name: Ferrofluid Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46173:
     id: 46173
     marketGroup: 2403
     name: Fluxed Condensates Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46174:
     id: 46174
     marketGroup: 2403
     name: Hexite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46175:
     id: 46175
     marketGroup: 2403
     name: Hyperflurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46176:
     id: 46176
     marketGroup: 2403
     name: Neo Mercurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46177:
     id: 46177
     marketGroup: 2403
     name: Platinum Technite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46178:
     id: 46178
     marketGroup: 2403
     name: Rolled Tungsten Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46179:
     id: 46179
     marketGroup: 2403
     name: Silicon Diborite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46180:
     id: 46180
     marketGroup: 2403
     name: Solerium Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46181:
     id: 46181
     marketGroup: 2403
     name: Sulfuric Acid Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46182:
     id: 46182
     marketGroup: 2403
     name: Titanium Chromide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46183:
     id: 46183
     marketGroup: 2403
     name: Vanadium Hafnite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46184:
     id: 46184
     marketGroup: 2403
     name: Prometium Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46185:
     id: 46185
     marketGroup: 2403
     name: Thulium Hafnite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46186:
     id: 46186
     marketGroup: 2403
     name: Promethium Mercurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46187:
     id: 46187
     marketGroup: 2403
     name: Unrefined Vanadium Hafnite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46188:
     id: 46188
     marketGroup: 2403
     name: Unrefined Platinum Technite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46189:
     id: 46189
     marketGroup: 2403
     name: Unrefined Solerium Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46190:
     id: 46190
     marketGroup: 2403
     name: Unrefined Caesarium Cadmide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46191:
     id: 46191
     marketGroup: 2403
     name: Unrefined Hexite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46192:
     id: 46192
     marketGroup: 2403
     name: Unrefined Rolled Tungsten Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46193:
     id: 46193
     marketGroup: 2403
     name: Unrefined Titanium Chromide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46194:
     id: 46194
     marketGroup: 2403
     name: Unrefined Fernite Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46195:
     id: 46195
     marketGroup: 2403
     name: Unrefined Crystallite Alloy Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46196:
     id: 46196
     marketGroup: 2403
     name: Unrefined Hyperflurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46197:
     id: 46197
     marketGroup: 2403
     name: Unrefined Ferrofluid Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46198:
     id: 46198
     marketGroup: 2403
     name: Unrefined Prometium Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46199:
     id: 46199
     marketGroup: 2403
     name: Unrefined Neo Mercurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46200:
     id: 46200
     marketGroup: 2403
     name: Unrefined Dysporite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46201:
     id: 46201
     marketGroup: 2403
     name: Unrefined Fluxed Condensates Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46202:
     id: 46202
     marketGroup: 2403
     name: Unrefined Thulium Hafnite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46203:
     id: 46203
     marketGroup: 2403
     name: Unrefined Promethium Mercurite Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46204:
     id: 46204
     marketGroup: 2403
     name: Titanium Carbide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46205:
     id: 46205
     marketGroup: 2403
     name: Crystalline Carbonide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46206:
     id: 46206
     marketGroup: 2403
     name: Fernite Carbide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46207:
     id: 46207
     marketGroup: 2403
     name: Tungsten Carbide Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46208:
     id: 46208
     marketGroup: 2403
     name: Sylramic Fibers Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46209:
     id: 46209
     marketGroup: 2403
-    name: Fulleride Reaction Formula
-    packagedVolume: 0.009999999776482582
+    name: Fullerides Reaction Formula
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46210:
     id: 46210
     marketGroup: 2403
     name: Phenolic Composites Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46211:
     id: 46211
     marketGroup: 2403
     name: Nanotransistors Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46212:
     id: 46212
     marketGroup: 2403
     name: Hypersynaptic Fibers Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46213:
     id: 46213
     marketGroup: 2403
     name: Ferrogel Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46214:
     id: 46214
     marketGroup: 2403
     name: Fermionic Condensates Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46215:
     id: 46215
     marketGroup: 2403
     name: Plasmonic Metamaterials Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46216:
     id: 46216
     marketGroup: 2403
     name: Terahertz Metamaterials Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46217:
     id: 46217
     marketGroup: 2403
     name: Photonic Metamaterials Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   46218:
     id: 46218
     marketGroup: 2403
     name: Nonlinear Metamaterials Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57490:
     id: 57490
     marketGroup: 2403
     name: Carbon Fiber Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57491:
     id: 57491
     marketGroup: 2403
     name: Oxy-Organic Solvents Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57492:
     id: 57492
     marketGroup: 2403
     name: Pressurized Oxidizers Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57493:
     id: 57493
     marketGroup: 2403
     name: Reinforced Carbon Fiber Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57494:
     id: 57494
     marketGroup: 2403
     name: Thermosetting Polymer Reaction Formula
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
+  90274:
+    id: 90274
+    marketGroup: 3782
+    name: Unrefined Tritanium Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90275:
+    id: 90275
+    marketGroup: 3782
+    name: Unrefined Pyerite Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90276:
+    id: 90276
+    marketGroup: 3782
+    name: Unrefined Mexallon Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90277:
+    id: 90277
+    marketGroup: 3782
+    name: Unrefined Isogen Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90278:
+    id: 90278
+    marketGroup: 3782
+    name: Unrefined Nocxium Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90279:
+    id: 90279
+    marketGroup: 3782
+    name: Unrefined Zydrine Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90281:
+    id: 90281
+    marketGroup: 3782
+    name: Unrefined Megacyte Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01
+  90282:
+    id: 90282
+    marketGroup: 3782
+    name: Unrefined Morphite Formula
+    portionSize: 1
+    price: 50000000.0
+    published: true
+    volume: 0.01

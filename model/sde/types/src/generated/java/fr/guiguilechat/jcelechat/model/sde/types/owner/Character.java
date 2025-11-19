@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BarterDiscount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BattleshipConstructionCost;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BountyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BountyMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charisma;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConnectionsBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ContrabandDetectionChance;
@@ -60,7 +59,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MissileStandardVelocityPec
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleRepairRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NegotiationPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Perception;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionSlotLimit;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningTimePercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldPercentage;
@@ -113,13 +111,6 @@ public class Character
     @Stackable(true)
     @DefaultIntValue(1)
     public int bountymultiplier;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * The charisma of a character.
      */
@@ -408,13 +399,6 @@ public class Character
     @DefaultIntValue(0)
     public int perception;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Maximum amount of Reactions slots that can be used at a time
      */
     @HighIsGood(true)
@@ -534,7 +518,7 @@ public class Character
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpower;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingTimeResearchSpeed.INSTANCE, CopySpeedPercent.INSTANCE, FrigateConstructionCost.INSTANCE, CruiserConstructionCost.INSTANCE, IndustrialConstructionCost.INSTANCE, BattleshipConstructionCost.INSTANCE, TitanConstructionTime.INSTANCE, DamageCloudChance.INSTANCE, StationConstructionTime.INSTANCE, RepairCostPercent.INSTANCE, ReverseEngineeringChance.INSTANCE, MineralNeedResearchSpeed.INSTANCE, DuplicatingChance.INSTANCE, MissileStandardVelocityPecent.INSTANCE, CruiseMissileVelocityPercent.INSTANCE, HeavyMissileSpeedPercent.INSTANCE, TorpedoVelocityPercent.INSTANCE, MissileFOFVelocityPercent.INSTANCE, MaxNonRaceCorporationMembers.INSTANCE, Radius.INSTANCE, Charisma.INSTANCE, Intelligence.INSTANCE, Memory.INSTANCE, Capacity.INSTANCE, Perception.INSTANCE, InventionReverseEngineeringResearchSpeed.INSTANCE, RocketVelocityPercent.INSTANCE, Willpower.INSTANCE, CustomCharismaBonus.INSTANCE, HeavyDroneDamagePercent.INSTANCE, CustomWillpowerBonus.INSTANCE, CustomPerceptionBonus.INSTANCE, MiningDroneAmountPercent.INSTANCE, CustomMemoryBonus.INSTANCE, CustomIntelligenceBonus.INSTANCE, MaxGangModules.INSTANCE, BarterDiscount.INSTANCE, RepairCostMultiplier.INSTANCE, TradePremium.INSTANCE, ContrabandFencingChance.INSTANCE, SmugglingChance.INSTANCE, MaxLockedTargets.INSTANCE, ManufactureSlotLimit.INSTANCE, DroneControlDistance.INSTANCE, MaxLaborotorySlots.INSTANCE, ContrabandDetectionChance.INSTANCE, MissileDamageMultiplier.INSTANCE, ManufactureTimeMultiplier.INSTANCE, NegotiationPercentage.INSTANCE, DiplomacyBonus.INSTANCE, FastTalkPercentage.INSTANCE, ReactionSlotLimit.INSTANCE, ConnectionsBonus.INSTANCE, CriminalConnectionsBonus.INSTANCE, SocialBonus.INSTANCE, RefiningTimePercentage.INSTANCE, BountyBonus.INSTANCE, ManufactureCostMultiplier.INSTANCE, BountyMultiplier.INSTANCE, ModuleRepairRate.INSTANCE, RefiningYieldPercentage.INSTANCE, ShipBrokenModuleRepairCostMultiplier.INSTANCE, WarpAccuracyMaxRange.INSTANCE, WarpAccuracyFactor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingTimeResearchSpeed.INSTANCE, CopySpeedPercent.INSTANCE, FrigateConstructionCost.INSTANCE, CruiserConstructionCost.INSTANCE, IndustrialConstructionCost.INSTANCE, BattleshipConstructionCost.INSTANCE, TitanConstructionTime.INSTANCE, DamageCloudChance.INSTANCE, StationConstructionTime.INSTANCE, RepairCostPercent.INSTANCE, ReverseEngineeringChance.INSTANCE, MineralNeedResearchSpeed.INSTANCE, DuplicatingChance.INSTANCE, MissileStandardVelocityPecent.INSTANCE, CruiseMissileVelocityPercent.INSTANCE, HeavyMissileSpeedPercent.INSTANCE, TorpedoVelocityPercent.INSTANCE, MissileFOFVelocityPercent.INSTANCE, MaxNonRaceCorporationMembers.INSTANCE, Charisma.INSTANCE, Intelligence.INSTANCE, Memory.INSTANCE, Perception.INSTANCE, RocketVelocityPercent.INSTANCE, InventionReverseEngineeringResearchSpeed.INSTANCE, Willpower.INSTANCE, CustomCharismaBonus.INSTANCE, HeavyDroneDamagePercent.INSTANCE, CustomWillpowerBonus.INSTANCE, CustomPerceptionBonus.INSTANCE, MiningDroneAmountPercent.INSTANCE, CustomMemoryBonus.INSTANCE, CustomIntelligenceBonus.INSTANCE, MaxGangModules.INSTANCE, BarterDiscount.INSTANCE, RepairCostMultiplier.INSTANCE, TradePremium.INSTANCE, ContrabandFencingChance.INSTANCE, SmugglingChance.INSTANCE, MaxLockedTargets.INSTANCE, ManufactureSlotLimit.INSTANCE, DroneControlDistance.INSTANCE, MaxLaborotorySlots.INSTANCE, ContrabandDetectionChance.INSTANCE, MissileDamageMultiplier.INSTANCE, ManufactureTimeMultiplier.INSTANCE, NegotiationPercentage.INSTANCE, DiplomacyBonus.INSTANCE, FastTalkPercentage.INSTANCE, ConnectionsBonus.INSTANCE, ReactionSlotLimit.INSTANCE, CriminalConnectionsBonus.INSTANCE, SocialBonus.INSTANCE, RefiningTimePercentage.INSTANCE, ManufactureCostMultiplier.INSTANCE, BountyBonus.INSTANCE, BountyMultiplier.INSTANCE, ModuleRepairRate.INSTANCE, RefiningYieldPercentage.INSTANCE, WarpAccuracyMaxRange.INSTANCE, ShipBrokenModuleRepairCostMultiplier.INSTANCE, WarpAccuracyFactor.INSTANCE })));
     public static final Character.MetaGroup METAGROUP = new Character.MetaGroup();
 
     @Override
@@ -555,10 +539,6 @@ public class Character
             case  626 :
             {
                 return bountymultiplier;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  164 :
             {
@@ -723,10 +703,6 @@ public class Character
             case  167 :
             {
                 return perception;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2664 :
             {

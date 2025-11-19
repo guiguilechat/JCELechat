@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
@@ -29,10 +28,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EwCapacitorNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaximumRangeCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NetworkedSensorArrayDisallowCapitalMicroJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthPercent;
@@ -40,6 +40,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeLocalLogisticsCapacitorNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeLocalLogisticsDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
@@ -141,6 +143,20 @@ public class CapitalSensorArray
     @DefaultIntValue(0)
     public int maxgroupfitted;
     /**
+     * Scales the max target range of a ships electronics.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double maxtargetrangemultiplier;
+    /**
+     * The maximum possible target range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300000)
+    public int maximumrangecap;
+    /**
      * For use with the Networked Sensor Array dogma effect, moduleBonusNetworkedSensorArray [6567]. If this value is set to 1, prevent activation of a Capital Micro Jump Drive or Capital Micro Jump Field Generator.
      */
     @HighIsGood(false)
@@ -204,13 +220,27 @@ public class CapitalSensorArray
     @DefaultRealValue(0.0)
     public double scanresolutionbonus;
     /**
+     * Armor Repairer / Shield Booster Capacitor Need Bonus
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int siegelocallogisticscapacitorneedbonus;
+    /**
+     * Armor Repairer / Shield Booster Duration Bonus
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int siegelocallogisticsdurationbonus;
+    /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, NetworkedSensorArrayDisallowCapitalMicroJump.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, Radius.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, WarpScrambleStrength.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, NetworkedSensorArrayDisallowCapitalMicroJump.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, DisallowActivateOnWarp.INSTANCE, MaximumRangeCap.INSTANCE, Power.INSTANCE, SiegeLocalLogisticsCapacitorNeedBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, WarpScrambleStrength.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
 
     @Override
@@ -268,6 +298,14 @@ public class CapitalSensorArray
             {
                 return maxgroupfitted;
             }
+            case  237 :
+            {
+                return maxtargetrangemultiplier;
+            }
+            case  797 :
+            {
+                return maximumrangecap;
+            }
             case  5700 :
             {
                 return networkedsensorarraydisallowcapitalmicrojump;
@@ -303,6 +341,14 @@ public class CapitalSensorArray
             case  566 :
             {
                 return scanresolutionbonus;
+            }
+            case  5988 :
+            {
+                return siegelocallogisticscapacitorneedbonus;
+            }
+            case  2346 :
+            {
+                return siegelocallogisticsdurationbonus;
             }
             case  105 :
             {

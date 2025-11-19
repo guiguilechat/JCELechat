@@ -9,14 +9,13 @@ types:
     canfitshipgroup07: 4594
     canfitshiptype1: 81040
     capacitorneed: 3000.0
-    capacity: 1.0
     chargegroup1: 1702
     chargesize: 1
     cpu: 40.0
     duration: 60000.0
     emdamageresistancebonus: -16.0
     explosivedamageresistancebonus: -16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41516
@@ -26,13 +25,11 @@ types:
     maxgroupfitted: 1
     name: Capital Flex Shield Hardener I
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 7500
     price: 75000.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3420
     requiredskill1level: 3
     requiredskill2: 32797
@@ -51,14 +48,13 @@ types:
     canfitshipgroup07: 4594
     canfitshiptype1: 81040
     capacitorneed: 3600.0
-    capacity: 1.0
     chargegroup1: 1702
     chargesize: 1
     cpu: 48.0
     duration: 60000.0
     emdamageresistancebonus: -19.0
     explosivedamageresistancebonus: -19.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41528
@@ -69,13 +65,11 @@ types:
     metalevelold: 5
     name: Capital Flex Shield Hardener II
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 9000
     price: 75000.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3420
     requiredskill1level: 3
     requiredskill2: 32797
@@ -94,14 +88,13 @@ types:
     canfitshipgroup07: 4594
     canfitshiptype1: 81040
     capacitorneed: 2400.0
-    capacity: 1.0
     chargegroup1: 1702
     chargesize: 1
     cpu: 32.0
     duration: 60000.0
     emdamageresistancebonus: -20.0
     explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41529
@@ -113,13 +106,11 @@ types:
     metalevelold: 8
     name: True Sansha Capital Flex Shield Hardener
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 6750
     price: 75000.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3420
     requiredskill1level: 3
     requiredskill2: 32797
@@ -138,14 +129,13 @@ types:
     canfitshipgroup07: 4594
     canfitshiptype1: 81040
     capacitorneed: 2400.0
-    capacity: 1.0
     chargegroup1: 1702
     chargesize: 1
     cpu: 32.0
     duration: 60000.0
     emdamageresistancebonus: -20.0
     explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41530
@@ -157,13 +147,11 @@ types:
     metalevelold: 8
     name: Dread Guristas Capital Flex Shield Hardener
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 6750
     price: 75000.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3420
     requiredskill1level: 3
     requiredskill2: 32797
@@ -182,14 +170,13 @@ types:
     canfitshipgroup07: 4594
     canfitshiptype1: 81040
     capacitorneed: 2400.0
-    capacity: 1.0
     chargegroup1: 1702
     chargesize: 1
     cpu: 32.0
     duration: 60000.0
     emdamageresistancebonus: -20.0
     explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 41531
@@ -201,13 +188,11 @@ types:
     metalevelold: 8
     name: Domination Capital Flex Shield Hardener
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 6750
     price: 75000.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3420
     requiredskill1level: 3
     requiredskill2: 32797

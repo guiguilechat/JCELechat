@@ -14,14 +14,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
@@ -90,7 +88,7 @@ public class FestivalLauncher
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, Speed.INSTANCE, ReloadTime.INSTANCE, TechLevel.INSTANCE, ChargeRate.INSTANCE, TypeColorScheme.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, Slots.INSTANCE })));
     public static final FestivalLauncher.MetaGroup METAGROUP = new FestivalLauncher.MetaGroup();
 
     @Override

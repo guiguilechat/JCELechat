@@ -1,7 +1,7 @@
 types:
   42692:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -14,7 +14,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -23,7 +23,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -50,21 +50,21 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 135.0
     structureuniformity: 1.0
   42693:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 40.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 125.0
-    damagemultiplier: 0.4000000059604645
+    damagemultiplier: 0.4
     disallowassistance: 1
     emdamage: 2.0
     entityattackdelaymax: 12500
@@ -73,7 +73,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -84,7 +84,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 4000.0
     gfxboosterid: 395
@@ -95,7 +95,7 @@ types:
     maxlockedtargets: 2
     maxrange: 50000.0
     maxvelocity: 450.0
-    missiledamagemultiplier: 0.20000000298023224
+    missiledamagemultiplier: 0.2
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -112,19 +112,19 @@ types:
     scanspeed: 3000
     shieldcapacity: 40.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.30000001192092896
+    trackingspeed: 0.3
   46261:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 80.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -147,7 +147,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -157,7 +157,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 250.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -174,10 +174,10 @@ types:
     scanspeed: 3000
     shieldcapacity: 80.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
@@ -196,7 +196,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -206,7 +206,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -216,7 +216,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 350.0
-    missiledamagemultiplier: 0.029999999329447746
+    missiledamagemultiplier: 0.03
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -255,7 +255,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -265,7 +265,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -275,7 +275,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -314,7 +314,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -324,7 +324,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -334,7 +334,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -365,7 +365,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     capacitorcapacity: 125.0
-    damagemultiplier: 0.30000001192092896
+    damagemultiplier: 0.3
     disallowassistance: 1
     emdamage: 2.0
     entityattackdelaymax: 12500
@@ -374,7 +374,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 350.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -384,7 +384,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 4000.0
     gfxboosterid: 395
@@ -395,7 +395,7 @@ types:
     maxlockedtargets: 2
     maxrange: 50000.0
     maxvelocity: 400.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.07
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -421,7 +421,7 @@ types:
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.30000001192092896
+    trackingspeed: 0.3
   47542:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -437,7 +437,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -447,7 +447,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -457,7 +457,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -496,7 +496,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -506,7 +506,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -516,7 +516,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -541,13 +541,13 @@ types:
     signatureradius: 135.0
     structureuniformity: 1.0
   48545:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 125.0
-    damagemultiplier: 0.05000000074505806
+    damagemultiplier: 0.05
     disallowassistance: 1
     emdamage: 2.0
     entityattackdelaymax: 12500
@@ -556,7 +556,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 250.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -567,7 +567,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 4000.0
     gfxboosterid: 395
@@ -578,7 +578,7 @@ types:
     maxlockedtargets: 2
     maxrange: 50000.0
     maxvelocity: 250.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -595,19 +595,19 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 60.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.30000001192092896
+    trackingspeed: 0.3
   48567:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -620,7 +620,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -631,7 +631,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -641,7 +641,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.07
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -658,16 +658,16 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
   48568:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 15.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -680,7 +680,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -691,7 +691,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -701,7 +701,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 280.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -718,21 +718,21 @@ types:
     scanspeed: 3000
     shieldcapacity: 15.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 60.0
     structureuniformity: 1.0
   48569:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 125.0
-    damagemultiplier: 0.4000000059604645
+    damagemultiplier: 0.4
     disallowassistance: 1
     emdamage: 2.0
     entityattackdelaymax: 12500
@@ -741,7 +741,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 250.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -752,7 +752,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 4000.0
     gfxboosterid: 395
@@ -763,7 +763,7 @@ types:
     maxlockedtargets: 2
     maxrange: 50000.0
     maxvelocity: 290.0
-    missiledamagemultiplier: 0.10000000149011612
+    missiledamagemultiplier: 0.1
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -780,19 +780,19 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     structureuniformity: 1.0
     thermaldamage: 2.0
-    trackingspeed: 0.30000001192092896
+    trackingspeed: 0.3
   48570:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -805,7 +805,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 190.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -816,7 +816,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -826,7 +826,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.07
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -843,19 +843,19 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 60.0
     structureuniformity: 1.0
   48571:
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.3
     armorhp: 20.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     capacitorcapacity: 125.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -865,7 +865,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -876,7 +876,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -886,7 +886,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 250.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -902,20 +902,20 @@ types:
     scanradarstrength: 8.0
     scanspeed: 3000
     shieldcapacity: 20.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldemdamageresonance: 0.3
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.3
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.3
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
   48572:
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
     armorhp: 20.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
     capacitorcapacity: 125.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -925,7 +925,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -936,7 +936,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -946,7 +946,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 250.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -962,20 +962,20 @@ types:
     scanradarstrength: 8.0
     scanspeed: 3000
     shieldcapacity: 20.0
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
   48573:
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.6000000238418579
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
     armorhp: 25.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     capacitorcapacity: 125.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -985,7 +985,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 90.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -996,7 +996,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1006,7 +1006,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 150.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1022,17 +1022,17 @@ types:
     scanradarstrength: 8.0
     scanspeed: 3000
     shieldcapacity: 35.0
-    shieldemdamageresonance: 0.6000000238418579
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 65.0
     structureuniformity: 1.0
   48575:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 35.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -1045,7 +1045,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 90.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1056,7 +1056,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1066,7 +1066,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 150.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1083,16 +1083,16 @@ types:
     scanspeed: 3000
     shieldcapacity: 40.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 65.0
     structureuniformity: 1.0
   48640:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 20.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -1105,7 +1105,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 250.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1116,7 +1116,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1126,7 +1126,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 350.0
-    missiledamagemultiplier: 0.03999999910593033
+    missiledamagemultiplier: 0.04
     missileentityflighttimemultiplier: 0.5
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1143,16 +1143,16 @@ types:
     scanspeed: 3000
     shieldcapacity: 20.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     structureuniformity: 1.0
   48647:
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 30.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
@@ -1165,7 +1165,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1176,7 +1176,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1186,7 +1186,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1203,10 +1203,10 @@ types:
     scanspeed: 3000
     shieldcapacity: 30.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 70.0
     structureuniformity: 1.0
@@ -1225,7 +1225,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1236,7 +1236,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1246,7 +1246,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.15000000596046448
+    missiledamagemultiplier: 0.15
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1285,7 +1285,7 @@ types:
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1296,7 +1296,7 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 3.0
-    entitysecuritystatuskillbonus: 0.0035000001080334187
+    entitysecuritystatuskillbonus: 0.0035
     entitystrength: 9
     falloff: 1.0
     gfxboosterid: 395
@@ -1306,7 +1306,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.05
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -1352,6 +1352,7 @@ types:
     optimalsigradius: 1000
     portionSize: 1
     published: false
+    radius: 50.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1380,6 +1381,7 @@ types:
     optimalsigradius: 1000
     portionSize: 1
     published: false
+    radius: 50.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

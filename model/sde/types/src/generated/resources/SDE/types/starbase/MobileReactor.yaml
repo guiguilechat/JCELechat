@@ -1,23 +1,21 @@
 types:
   16869:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 3000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 16869
     marketGroup: 490
-    mass: 1.0E8
+    mass: 100000000.0
     name: Complex Reactor Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 250000
-    price: 2.5E7
+    price: 25000000.0
     published: true
     radius: 937.0
     reactiongroup1: 436
@@ -38,23 +36,21 @@ types:
     volume: 4000.0
   20175:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 1500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 20175
     marketGroup: 490
-    mass: 1.0E8
+    mass: 100000000.0
     name: Simple Reactor Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 125000
-    price: 1.25E7
+    price: 12500000.0
     published: true
     radius: 937.0
     reactiongroup1: 436
@@ -74,23 +70,21 @@ types:
     volume: 4000.0
   22634:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 750.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 22634
     marketGroup: 490
-    mass: 1.0E8
+    mass: 100000000.0
     name: Medium Biochemical Reactor Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 250000
-    price: 1.25E7
+    price: 12500000.0
     published: true
     radius: 937.0
     reactiongroup1: 661
@@ -110,23 +104,21 @@ types:
     volume: 4000.0
   24684:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 1250.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 24684
     marketGroup: 490
-    mass: 1.0E8
+    mass: 100000000.0
     name: Biochemical Reactor Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 250000
-    price: 2.5E7
+    price: 25000000.0
     published: true
     radius: 937.0
     reactiongroup1: 662
@@ -146,23 +138,21 @@ types:
     volume: 4000.0
   30656:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0
     cpu: 1500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 30656
     marketGroup: 490
-    mass: 1.0E8
+    mass: 100000000.0
     name: Polymer Reactor Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 125000
-    price: 1.25E7
+    price: 12500000.0
     published: true
     radius: 937.0
     reactiongroup1: 977

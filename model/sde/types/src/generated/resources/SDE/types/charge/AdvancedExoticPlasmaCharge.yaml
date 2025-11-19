@@ -11,17 +11,15 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Occult S
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47873
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 72.0
     trackingspeedmultiplier: 0.75
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.6000000238418579
+    volume: 0.01
+    weaponrangemultiplier: 0.6
   47927:
     chargesize: 1
     entityflyrangemultiplier: 0.5
@@ -34,16 +32,14 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Mystic S
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47873
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 63.0
     trackingspeedmultiplier: 0.5
-    volume: 0.009999999776482582
+    volume: 0.01
     weaponrangemultiplier: 1.5
   47930:
     chargesize: 2
@@ -57,17 +53,15 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Occult M
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47874
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 240.0
     trackingspeedmultiplier: 0.75
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.6000000238418579
+    volume: 0.01
+    weaponrangemultiplier: 0.6
   47931:
     chargesize: 2
     entityflyrangemultiplier: 0.5
@@ -80,16 +74,14 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Mystic M
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47874
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 200.0
     trackingspeedmultiplier: 0.5
-    volume: 0.009999999776482582
+    volume: 0.01
     weaponrangemultiplier: 1.5
   47934:
     chargesize: 3
@@ -103,17 +95,15 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Occult L
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47875
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 630.0
     trackingspeedmultiplier: 0.75
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.6000000238418579
+    volume: 0.01
+    weaponrangemultiplier: 0.6
   47935:
     chargesize: 3
     entityflyrangemultiplier: 0.5
@@ -126,14 +116,12 @@ types:
     mass: 1.0
     metagroupid: 2
     name: Mystic L
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     requiredskill1: 47875
     requiredskill1level: 1
     techlevel: 2
     thermaldamage: 518.0
     trackingspeedmultiplier: 0.5
-    volume: 0.009999999776482582
+    volume: 0.01
     weaponrangemultiplier: 1.5

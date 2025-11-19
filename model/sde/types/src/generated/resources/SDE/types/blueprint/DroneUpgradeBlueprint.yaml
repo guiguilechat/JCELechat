@@ -4,129 +4,106 @@ types:
     industryblueprintrank: 9.0
     marketGroup: 939
     name: Drone Link Augmentor I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2130000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23534:
     id: 23534
     industryblueprintrank: 6.0
     marketGroup: 939
     name: Omnidirectional Tracking Link I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24284:
     id: 24284
     industryblueprintrank: 120.0
     marketGroup: 939
     name: Fighter Support Unit I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
+    price: 55000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24396:
     id: 24396
     industryblueprintrank: 6.0
     marketGroup: 939
     name: Drone Navigation Computer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1400000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24418:
     id: 24418
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Drone Navigation Computer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24428:
     id: 24428
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Drone Link Augmentor II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24439:
     id: 24439
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Omnidirectional Tracking Link II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33823:
     id: 33823
     industryblueprintrank: 3.0
     marketGroup: 939
     name: Omnidirectional Tracking Enhancer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 144000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33825:
     id: 33825
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Omnidirectional Tracking Enhancer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 144000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41413:
     id: 41413
     marketGroup: 939
     name: Hermes Compact Fighter Support Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
+    price: 55000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41416:
     id: 41416
     name: Fighter Support Unit II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41418:
     id: 41418
     metagroupid: 4
     name: Sentient Fighter Support Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
+    price: 55000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

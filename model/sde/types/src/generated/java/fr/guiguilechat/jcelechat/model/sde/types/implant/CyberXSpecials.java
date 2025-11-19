@@ -15,12 +15,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHpBonus2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -90,7 +88,7 @@ public class CyberXSpecials
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, Radius.INSTANCE, WillpowerBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, ArmorHpBonus2 .INSTANCE, VelocityBonus2 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, ArmorHpBonus2 .INSTANCE, VelocityBonus2 .INSTANCE })));
     public static final CyberXSpecials.MetaGroup METAGROUP = new CyberXSpecials.MetaGroup();
 
     @Override

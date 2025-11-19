@@ -22,12 +22,10 @@ types:
     maxvelocitylimited: 1
     modulereactivationdelay: 30000
     name: Cynosural Field Generator I
-    packagedVolume: 50.0
     portionSize: 1
     power: 20
     price: 3137264.0
     published: true
-    radius: 1.0
     requiredskill1: 21603
     requiredskill1level: 1
     siegemodewarpstatus: 100
@@ -65,12 +63,10 @@ types:
     maxvelocitylimited: 1
     modulereactivationdelay: 30000
     name: Covert Cynosural Field Generator I
-    packagedVolume: 25.0
     portionSize: 1
     power: 10
-    price: 1.5626524E7
+    price: 15626524.0
     published: true
-    radius: 1.0
     requiredskill1: 21603
     requiredskill1level: 5
     siegemodewarpstatus: 100
@@ -84,6 +80,7 @@ types:
     canfitshipgroup02: 1202
     canfitshipgroup03: 380
     canfitshiptype1: 32880
+    canfitshiptype2: 89648
     consumptionquantity: 800
     consumptiontype: 16273
     cpu: 50.0
@@ -103,12 +100,10 @@ types:
     maxvelocitylimited: 1
     modulereactivationdelay: 30000
     name: Industrial Cynosural Field Generator
-    packagedVolume: 25.0
     portionSize: 1
     power: 20
-    price: 1.5626524E7
+    price: 15626524.0
     published: true
-    radius: 1.0
     requiredskill1: 21603
     requiredskill1level: 1
     siegemodewarpstatus: 100

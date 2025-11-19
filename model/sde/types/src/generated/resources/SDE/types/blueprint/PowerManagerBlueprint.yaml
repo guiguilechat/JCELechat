@@ -4,226 +4,184 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1556
     name: Capacitor Flux Coil I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 41600.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1249:
     id: 1249
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Capacitor Flux Coil II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1255:
     id: 1255
     industryblueprintrank: 3.0
     marketGroup: 1547
     name: Shield Flux Coil I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 41600.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1257:
     id: 1257
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Shield Flux Coil II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1354:
     id: 1354
     industryblueprintrank: 3.0
     marketGroup: 1561
     name: Reactor Control Unit I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1356:
     id: 1356
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Reactor Control Unit II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1423:
     id: 1423
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Shield Power Relay II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1446:
     id: 1446
     industryblueprintrank: 3.0
     marketGroup: 1557
     name: Capacitor Power Relay I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97440.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1448:
     id: 1448
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Capacitor Power Relay II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1540:
     id: 1540
     industryblueprintrank: 3.0
     marketGroup: 1560
     name: Power Diagnostic System I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1542:
     id: 1542
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Power Diagnostic System II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2332:
     id: 2332
     industryblueprintrank: 3.0
     marketGroup: 1550
     name: Shield Power Relay I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97440.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17511:
     id: 17511
     industryblueprintrank: 3.0
     name: Ammatar Navy Capacitor Power Relay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17523:
     id: 17523
     industryblueprintrank: 3.0
     name: Ammatar Navy Reactor Control Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17525:
     id: 17525
     industryblueprintrank: 3.0
     name: Ammatar Navy Power Diagnostic System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17529:
     id: 17529
     industryblueprintrank: 3.0
     name: Imperial Navy Capacitor Power Relay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22954:
     id: 22954
     industryblueprintrank: 3.0
     name: '''Cartel'' Power Diagnostic System I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23895:
     id: 23895
     industryblueprintrank: 3.0
     name: '''Page'' Capacitor Flux Coil I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23897:
     id: 23897
     industryblueprintrank: 3.0
     name: '''Motte'' Capacitor Power Relay I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23899:
     id: 23899
     industryblueprintrank: 3.0
     name: '''Portcullis'' Reactor Control Unit I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28533:
     id: 28533
     industryblueprintrank: 3.0
     name: Khanid Navy Capacitor Power Relay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

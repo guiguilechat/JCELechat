@@ -16,12 +16,10 @@ types:
     metalevelold: 1
     modulereactivationdelay: 180000
     name: Large Micro Jump Drive
-    packagedVolume: 10.0
     portionSize: 1
     power: 800
     price: 1340852.0
     published: true
-    radius: 1.0
     requiredskill1: 4385
     requiredskill1level: 1
     signatureradiusbonuspercent: 150
@@ -33,6 +31,7 @@ types:
     canfitshipgroup03: 540
     canfitshipgroup04: 380
     canfitshipgroup05: 1201
+    canfitshipgroup06: 4902
     canfitshiptype1: 85229
     capacitorneed: 197.0
     cpu: 51.0
@@ -47,12 +46,10 @@ types:
     metalevelold: 1
     modulereactivationdelay: 180000
     name: Medium Micro Jump Drive
-    packagedVolume: 10.0
     portionSize: 1
     power: 165
     price: 340852.0
     published: true
-    radius: 1.0
     requiredskill1: 4385
     requiredskill1level: 1
     signatureradiusbonuspercent: 150
@@ -75,12 +72,10 @@ types:
     metalevelold: 6
     modulereactivationdelay: 150000
     name: Xarasier Large Micro Jump Drive
-    packagedVolume: 10.0
     portionSize: 1
     power: 720
     price: 1340852.0
     published: true
-    radius: 1.0
     requiredskill1: 4385
     requiredskill1level: 1
     signatureradiusbonuspercent: 120
@@ -92,6 +87,7 @@ types:
     canfitshipgroup03: 540
     canfitshipgroup04: 380
     canfitshipgroup05: 1201
+    canfitshipgroup06: 4902
     canfitshiptype1: 85229
     capacitorneed: 158.0
     cpu: 39.0
@@ -106,12 +102,10 @@ types:
     metalevelold: 6
     modulereactivationdelay: 150000
     name: Xarasier Medium Micro Jump Drive
-    packagedVolume: 10.0
     portionSize: 1
     power: 149
     price: 340852.0
     published: true
-    radius: 1.0
     requiredskill1: 4385
     requiredskill1level: 1
     signatureradiusbonuspercent: 120

@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 220.0
-    capacity: 1200.0
     damagemultiplier: 11.25
     disallowassistance: 1
     emdamage: 5.0
@@ -38,11 +37,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
+    entitysecuritystatuskillbonus: 0.0475
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 4.0
@@ -58,14 +57,13 @@ types:
     maxrange: 14063.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.699999988079071
-    missileentityaoevelocitymultiplier: 1.399999976158142
-    missileentityflighttimemultiplier: 1.1227999925613403
-    missileentityvelocitymultiplier: 1.1227999925613403
+    missileentityaoecloudsizemultiplier: 0.7
+    missileentityaoevelocitymultiplier: 1.4
+    missileentityflighttimemultiplier: 1.1228
+    missileentityvelocitymultiplier: 1.1228
     missilelaunchduration: 1.0
     name: Sentient Dismantler Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -76,31 +74,30 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 3750.0
     structureuniformity: 1.0
-    trackingspeed: 0.08250000327825546
+    trackingspeed: 0.0825
     volume: 60.0
   27749:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 210.0
-    capacity: 1200.0
     damagemultiplier: 11.25
     disallowassistance: 1
     entityarmorrepairamount: 81.0
@@ -125,11 +122,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.38999998569488525
+    entityreactionfactor: 0.39
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
+    entitysecuritystatuskillbonus: 0.045
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     falloff: 13672.0
@@ -144,14 +141,13 @@ types:
     maxrange: 15625.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3899999856948853
-    missileentityflighttimemultiplier: 1.1145999431610107
-    missileentityvelocitymultiplier: 1.1145999431610107
+    missileentityaoecloudsizemultiplier: 0.71
+    missileentityaoevelocitymultiplier: 1.39
+    missileentityflighttimemultiplier: 1.1146
+    missileentityvelocitymultiplier: 1.1146
     missilelaunchduration: 1.0
     name: Sentient Marauder Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -162,32 +158,31 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 3750.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.08250000327825546
+    trackingspeed: 0.0825
     volume: 60.0
   27750:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 1200.0
     damagemultiplier: 11.25
     disallowassistance: 1
     entityarmorrepairamount: 81.0
@@ -212,11 +207,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3799999952316284
+    entityreactionfactor: 0.38
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 7.0
@@ -232,14 +227,13 @@ types:
     maxrange: 11563.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3799999952316284
-    missileentityflighttimemultiplier: 1.1064000129699707
-    missileentityvelocitymultiplier: 1.1064000129699707
+    missileentityaoecloudsizemultiplier: 0.71
+    missileentityaoevelocitymultiplier: 1.38
+    missileentityflighttimemultiplier: 1.1064
+    missileentityvelocitymultiplier: 1.1064
     missilelaunchduration: 1.0
     name: Sentient Predator Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -250,31 +244,30 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 3750.0
     structureuniformity: 1.0
-    trackingspeed: 0.10249999910593033
+    trackingspeed: 0.1025
     volume: 60.0
   27751:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 180.0
-    capacity: 1200.0
     damagemultiplier: 6.25
     disallowassistance: 1
     entityarmorrepairamount: 81.0
@@ -299,11 +292,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.36000001430511475
+    entityreactionfactor: 0.36
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03750000149011612
+    entitysecuritystatuskillbonus: 0.0375
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 7.0
@@ -319,14 +312,13 @@ types:
     maxrange: 1563.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7200000286102295
-    missileentityaoevelocitymultiplier: 1.3600000143051147
-    missileentityflighttimemultiplier: 1.090000033378601
-    missileentityvelocitymultiplier: 1.090000033378601
+    missileentityaoecloudsizemultiplier: 0.72
+    missileentityaoevelocitymultiplier: 1.36
+    missileentityflighttimemultiplier: 1.09
+    missileentityvelocitymultiplier: 1.09
     missilelaunchduration: 1.0
     name: Sentient Ripper Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -337,31 +329,30 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.39375001192092896
+    trackingspeed: 0.39375
     volume: 60.0
   27752:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 170.0
-    capacity: 1200.0
     damagemultiplier: 6.25
     disallowassistance: 1
     entityarmorrepairamount: 81.0
@@ -386,11 +377,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3499999940395355
+    entityreactionfactor: 0.35
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03500000014901161
+    entitysecuritystatuskillbonus: 0.035
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 2.0
@@ -406,14 +397,13 @@ types:
     maxrange: 1563.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7200000286102295
-    missileentityaoevelocitymultiplier: 1.350000023841858
-    missileentityflighttimemultiplier: 1.0817999839782715
-    missileentityvelocitymultiplier: 1.0817999839782715
+    missileentityaoecloudsizemultiplier: 0.72
+    missileentityaoevelocitymultiplier: 1.35
+    missileentityflighttimemultiplier: 1.0818
+    missileentityvelocitymultiplier: 1.0818
     missilelaunchduration: 1.0
     name: Sentient Shatter Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -424,31 +414,30 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.39375001192092896
+    trackingspeed: 0.39375
     volume: 60.0
   27753:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 650.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.8
     armoruniformity: 0.75
     capacitorcapacity: 190.0
-    capacity: 1200.0
     damagemultiplier: 11.25
     disallowassistance: 1
     entityarmorrepairamount: 81.0
@@ -473,11 +462,11 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3700000047683716
+    entityreactionfactor: 0.37
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.03999999910593033
+    entitysecuritystatuskillbonus: 0.04
     entityshieldboostdelaychance: 0.25
-    entityshieldboostdelaychancesmall: 0.20000000298023224
+    entityshieldboostdelaychancesmall: 0.2
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 2.0
@@ -493,14 +482,13 @@ types:
     maxrange: 12500.0
     maxvelocity: 500.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.7099999785423279
-    missileentityaoevelocitymultiplier: 1.3700000047683716
-    missileentityflighttimemultiplier: 1.0981999635696411
-    missileentityvelocitymultiplier: 1.0981999635696411
+    missileentityaoecloudsizemultiplier: 0.71
+    missileentityaoevelocitymultiplier: 1.37
+    missileentityflighttimemultiplier: 1.0982
+    missileentityvelocitymultiplier: 1.0982
     missilelaunchduration: 1.0
     name: Sentient Shredder Alvior
     optimalsigradius: 40
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -511,14 +499,14 @@ types:
     scanresolution: 500.0
     scanspeed: 2000
     shieldcapacity: 275.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.6000000238418579
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 80.0
     speed: 3750.0
     structureuniformity: 1.0
-    trackingspeed: 0.10249999910593033
+    trackingspeed: 0.1025
     volume: 60.0

@@ -4,10 +4,8 @@ types:
     id: 25
     mass: 80.0
     name: Corpse Male
-    packagedVolume: 2.0
     portionSize: 1
     published: true
-    radius: 1.0
     signatureradius: 50.0
     volume: 2.0
   29148:
@@ -15,9 +13,7 @@ types:
     id: 29148
     mass: 80.0
     name: Corpse Female
-    packagedVolume: 2.0
     portionSize: 1
     published: true
-    radius: 1.0
     signatureradius: 50.0
     volume: 2.0

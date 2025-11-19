@@ -35,11 +35,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Pirate Detection Array 1
-    packagedVolume: 5000.0
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     volume: 5000.0
   2027:
     devindexmilitary: 2
@@ -77,11 +75,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Pirate Detection Array 2
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2026
     volume: 10000.0
   2028:
@@ -120,11 +116,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Pirate Detection Array 3
-    packagedVolume: 20000.0
     portionSize: 1
-    price: 1.5E8
+    price: 150000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2027
     volume: 20000.0
   2029:
@@ -163,11 +157,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Pirate Detection Array 4
-    packagedVolume: 40000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2028
     volume: 40000.0
   2030:
@@ -206,11 +198,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Pirate Detection Array 5
-    packagedVolume: 60000.0
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2029
     volume: 60000.0
   2031:
@@ -225,11 +215,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Entrapment Array 1
-    packagedVolume: 5000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2028
     volume: 5000.0
   2034:
@@ -244,11 +232,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Entrapment Array 2
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2031
     volume: 10000.0
   2035:
@@ -263,11 +249,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Entrapment Array 3
-    packagedVolume: 20000.0
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2034
     volume: 20000.0
   2036:
@@ -282,11 +266,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Entrapment Array 4
-    packagedVolume: 40000.0
     portionSize: 1
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2035
     volume: 40000.0
   2037:
@@ -301,11 +283,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Entrapment Array 5
-    packagedVolume: 60000.0
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2036
     volume: 60000.0
   2058:
@@ -315,11 +295,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Quantum Flux Generator 1
-    packagedVolume: 5000.0
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     volume: 5000.0
   2059:
     devindexmilitary: 3
@@ -328,11 +306,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Quantum Flux Generator 2
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2058
     volume: 10000.0
   2060:
@@ -342,11 +318,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Quantum Flux Generator 3
-    packagedVolume: 20000.0
     portionSize: 1
-    price: 1.5E8
+    price: 150000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2059
     volume: 20000.0
   2061:
@@ -356,11 +330,9 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Quantum Flux Generator 4
-    packagedVolume: 40000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2060
     volume: 40000.0
   2062:
@@ -370,10 +342,8 @@ types:
     marketGroup: 1284
     mass: 1000.0
     name: Deprecated Quantum Flux Generator 5
-    packagedVolume: 60000.0
     portionSize: 1
-    price: 2.5E8
+    price: 250000000.0
     published: true
-    radius: 1.0
     sovupgraderequiredupgradeid: 2061
     volume: 60000.0

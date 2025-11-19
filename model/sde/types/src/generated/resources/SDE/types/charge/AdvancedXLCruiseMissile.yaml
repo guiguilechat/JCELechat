@@ -1,9 +1,9 @@
 types:
   41286:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 5455
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 48
     detonationrange: 35
@@ -16,7 +16,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Inferno Precision XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 325000.0
     published: true
@@ -30,12 +29,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 4750.0
-    volume: 0.30000001192092896
+    volume: 0.3
   41287:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 10200
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 34
     detonationrange: 35
@@ -48,7 +47,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Inferno Fury XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 325000.0
     published: true
@@ -62,12 +60,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 5700.0
-    volume: 0.30000001192092896
+    volume: 0.3
   41290:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 5455
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 48
     detonationrange: 35
@@ -81,7 +79,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Scourge Precision XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 300000.0
     published: true
@@ -94,12 +91,12 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3
   41291:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 10200
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 34
     detonationrange: 35
@@ -113,7 +110,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Scourge Fury XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 300000.0
     published: true
@@ -126,12 +122,12 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3
   41294:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 10200
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 34
     detonationrange: 35
@@ -145,7 +141,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Nova Fury XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 250000.0
     published: true
@@ -158,12 +153,12 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3
   41295:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 5455
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 48
     detonationrange: 35
@@ -177,7 +172,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Nova Precision XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 250000.0
     published: true
@@ -190,12 +184,12 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3
   41298:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 5455
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 48
     detonationrange: 35
@@ -209,7 +203,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Mjolnir Precision XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 350000.0
     published: true
@@ -222,12 +215,12 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3
   41299:
-    agility: 4.363462267065188E-6
+    agility: 4.36346225818E-6
     aimedlaunch: 1
     aoecloudsize: 10200
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1500
     aoevelocity: 34
     detonationrange: 35
@@ -241,7 +234,6 @@ types:
     maxvelocity: 7000.0
     metalevelold: 5
     name: Mjolnir Fury XL Cruise Missile
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 350000.0
     published: true
@@ -254,4 +246,4 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    volume: 0.30000001192092896
+    volume: 0.3

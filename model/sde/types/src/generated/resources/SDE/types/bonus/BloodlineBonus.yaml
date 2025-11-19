@@ -16,12 +16,11 @@ types:
     repaircostmultiplier: 1.0
     speedmultiplier: 1.0
   1603:
-    accuracymultiplier: 1.0299999713897705
+    accuracymultiplier: 1.03
     id: 1603
     name: Civire Bonus
     portionSize: 1
     published: false
-    radius: 1.0
     repaircostmultiplier: 1.0
     speedmultiplier: 1.0
   1604:
@@ -35,11 +34,10 @@ types:
   1605:
     accuracymultiplier: 1.0
     id: 1605
-    miningdurationmultiplier: 0.8999999761581421
+    miningdurationmultiplier: 0.9
     name: Gallente Bonus
     portionSize: 1
     published: false
-    radius: 1.0
     repaircostmultiplier: 1.0
     speedmultiplier: 1.0
   1606:
@@ -56,8 +54,7 @@ types:
     name: Sebiestor Bonus
     portionSize: 1
     published: false
-    radius: 1.0
-    repaircostmultiplier: 0.800000011920929
+    repaircostmultiplier: 0.8
     speedmultiplier: 1.0
   1608:
     accuracymultiplier: 1.0
@@ -65,6 +62,5 @@ types:
     name: Brutor Bonus
     portionSize: 1
     published: false
-    radius: 1.0
     repaircostmultiplier: 1.0
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9

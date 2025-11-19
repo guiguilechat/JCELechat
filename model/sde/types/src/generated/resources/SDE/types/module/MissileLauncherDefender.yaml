@@ -6,26 +6,23 @@ types:
     canfitshipgroup03: 1534
     canfitshipgroup04: 1305
     capacitorneed: 50.0
-    capacity: 0.15000000596046448
     chargegroup1: 88
     chargerate: 1
     cpu: 10.0
     disallowactivateinforcefield: 1
     disallowinempirespace: 1
     disallowrepeatingactivation: 1
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 44102
     marketGroup: 2351
     maxgroupfitted: 1
     modulereactivationdelay: 120000
     name: Defender Launcher I
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 200000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3323
     requiredskill1level: 1

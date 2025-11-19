@@ -2,48 +2,42 @@ types:
   54884:
     id: 54884
     name: ElectroPunch Ultra S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54885:
     id: 54885
     name: StrikeSnipe Ultra S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54886:
     id: 54886
     name: ElectroPunch Ultra M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54887:
     id: 54887
     name: StrikeSnipe Ultra M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54888:
     id: 54888
     name: ElectroPunch Ultra L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54889:
     id: 54889
     name: StrikeSnipe Ultra L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

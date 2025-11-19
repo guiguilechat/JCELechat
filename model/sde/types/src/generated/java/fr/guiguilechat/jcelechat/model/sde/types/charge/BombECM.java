@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AimedLaunch;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AllowInFullyCorruptedLowSec;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
@@ -32,7 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -249,7 +247,7 @@ public class BombECM
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, LauncherGroup.INSTANCE, StructureUniformity.INSTANCE, AoeCloudSize.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ArmorHP.INSTANCE, StructureUniformity.INSTANCE, AoeCloudSize.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, RemoteResistanceID.INSTANCE, AllowInFullyCorruptedLowSec.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamage.INSTANCE, DisallowInEmpireSpace.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final BombECM.MetaGroup METAGROUP = new BombECM.MetaGroup();
 
     @Override

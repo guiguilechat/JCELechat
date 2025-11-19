@@ -6,7 +6,6 @@ types:
     id: 11561
     marketGroup: 613
     name: Shield Boost Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -25,7 +24,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -44,7 +42,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -63,7 +60,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Hakim's Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -82,7 +78,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Tobias' Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -101,7 +96,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Kaikka's Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -120,7 +114,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Thon's Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -139,7 +132,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vepas' Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -158,7 +150,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Estamel's Modified Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -177,7 +168,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -196,7 +186,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -214,7 +203,6 @@ types:
     marketGroup: 613
     metalevelold: 1
     name: Stalwart Restrained Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -232,7 +220,6 @@ types:
     marketGroup: 613
     metalevelold: 1
     name: Copasetic Compact Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -251,7 +238,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Pith C-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -270,7 +256,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Gist A-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -289,7 +274,6 @@ types:
     metagroupid: 6
     metalevelold: 16
     name: Pith X-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -308,7 +292,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Gist C-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -327,7 +310,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Gist B-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -346,7 +328,6 @@ types:
     metagroupid: 6
     metalevelold: 16
     name: Gist X-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -365,7 +346,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Pith B-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -384,7 +364,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Pith A-Type Shield Boost Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -403,7 +382,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Glycerine'' Shield Boost Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -421,7 +399,6 @@ types:
     marketGroup: 613
     metalevelold: 5
     name: Shield Boost Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true

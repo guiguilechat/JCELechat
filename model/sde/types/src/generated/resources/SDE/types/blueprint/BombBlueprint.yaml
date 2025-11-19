@@ -5,69 +5,57 @@ types:
     marketGroup: 1016
     mass: 1.0
     name: Concussion Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27917:
     id: 27917
     industryblueprintrank: 2.0
     marketGroup: 1016
     mass: 1.0
     name: Scorch Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27919:
     id: 27919
     industryblueprintrank: 2.0
     marketGroup: 1016
     mass: 1.0
     name: Shrapnel Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27921:
     id: 27921
     industryblueprintrank: 2.0
     marketGroup: 1016
     mass: 1.0
     name: Electron Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27923:
     id: 27923
     industryblueprintrank: 2.0
     marketGroup: 1016
     mass: 1.0
     name: Lockbreaker Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E8
+    price: 150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27925:
     id: 27925
     industryblueprintrank: 2.0
     marketGroup: 1016
     mass: 1.0
     name: Void Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E8
+    price: 150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

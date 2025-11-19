@@ -7,11 +7,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Noise-5 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53983:
     activesystemjump: 1
     filamentdescriptionmessageid: 561098
@@ -21,11 +19,9 @@ types:
     mjdshipjumpcap: 25
     mjfgradius: 6000
     name: Signal-25 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53984:
     activesystemjump: 1
     filamentdescriptionmessageid: 561098
@@ -35,11 +31,9 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: Signal-5 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53985:
     filamentdescriptionmessageid: 561098
     filamentspooluptimeseconds: 60
@@ -48,11 +42,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Noise-15 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53986:
     activesystemjump: 1
     filamentdescriptionmessageid: 561098
@@ -62,11 +54,9 @@ types:
     mjdshipjumpcap: 15
     mjfgradius: 6000
     name: Signal-15 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53987:
     filamentdescriptionmessageid: 561098
     filamentspooluptimeseconds: 90
@@ -75,11 +65,9 @@ types:
     mjdshipjumpcap: 25
     mjfgradius: 6000
     name: Noise-25 'Needlejack' Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85281:
     filamentdescriptionmessageid: 554513
     filamentspooluptimeseconds: 30
@@ -88,12 +76,10 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: DNCR-05H Highsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85282:
     filamentdescriptionmessageid: 554512
     filamentspooluptimeseconds: 15
@@ -102,12 +88,10 @@ types:
     mjdshipjumpcap: 1
     mjfgradius: 6000
     name: DSHR-01H Highsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85283:
     filamentdescriptionmessageid: 554514
     filamentspooluptimeseconds: 60
@@ -116,12 +100,10 @@ types:
     mjdshipjumpcap: 10
     mjfgradius: 6000
     name: PRNCR-10H Highsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85284:
     filamentdescriptionmessageid: 554520
     filamentspooluptimeseconds: 60
@@ -130,12 +112,10 @@ types:
     mjdshipjumpcap: 10
     mjfgradius: 6000
     name: RDLF-10L Lowsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85285:
     filamentdescriptionmessageid: 554515
     filamentspooluptimeseconds: 15
@@ -144,12 +124,10 @@ types:
     mjdshipjumpcap: 1
     mjfgradius: 6000
     name: VXN-01N Nullsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85286:
     filamentdescriptionmessageid: 554519
     filamentspooluptimeseconds: 30
@@ -158,12 +136,10 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: BLTZN-05L Lowsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85287:
     filamentdescriptionmessageid: 554516
     filamentspooluptimeseconds: 30
@@ -172,12 +148,10 @@ types:
     mjdshipjumpcap: 5
     mjfgradius: 6000
     name: CMT-05N Nullsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85288:
     filamentdescriptionmessageid: 554517
     filamentspooluptimeseconds: 60
@@ -186,12 +160,10 @@ types:
     mjdshipjumpcap: 10
     mjfgradius: 6000
     name: CPD-10N Nullsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85289:
     filamentdescriptionmessageid: 554518
     filamentspooluptimeseconds: 15
@@ -200,9 +172,7 @@ types:
     mjdshipjumpcap: 1
     mjfgradius: 6000
     name: DNNR-01L Lowsec Ice Storm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

@@ -5,11 +5,9 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Navigation
-    packagedVolume: 200000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     sovbillsystemcostdeprecated: 5000000
     volume: 200000.0
   81619:
@@ -18,11 +16,9 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Cynosural Suppression
-    packagedVolume: 200000.0
     portionSize: 1
-    price: 2.0E8
+    price: 200000000.0
     published: true
-    radius: 1.0
     sovbillsystemcostdeprecated: 30000000
     volume: 200000.0
   81621:
@@ -31,11 +27,9 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Advanced Logistics Network
-    packagedVolume: 200000.0
     portionSize: 1
-    price: 1.5E8
+    price: 150000000.0
     published: true
-    radius: 1.0
     sovbillsystemcostdeprecated: 20000000
     volume: 200000.0
   81623:
@@ -44,10 +38,8 @@ types:
     marketGroup: 1282
     mass: 1000.0
     name: Supercapital Construction Facilities
-    packagedVolume: 200000.0
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     sovbillsystemcostdeprecated: 40000000
     volume: 200000.0

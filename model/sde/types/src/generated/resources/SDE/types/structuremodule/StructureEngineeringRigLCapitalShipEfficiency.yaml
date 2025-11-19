@@ -1,7 +1,7 @@
 types:
   37172:
     attributeengrigcostbonus: 1
-    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigmatbonus: -2.4
     attributeengrigtimebonus: -24
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
@@ -9,13 +9,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37172
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2348
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Capital Ship Manufacturing Efficiency II
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 20.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -25,7 +24,7 @@ types:
     securitymodifier: 1
     structureitemvisualflag: 1
     structurerigbonus1: 32
-    structurerigbonus2: 3.200000047683716
+    structurerigbonus2: 3.2
     techlevel: 2
     upgradecost: 150
     volume: 20.0
@@ -39,13 +38,12 @@ types:
     hisecmodifier: 1.0
     hp: 40.0
     id: 37173
-    lowsecmodifier: 1.899999976158142
+    lowsecmodifier: 1.9
     marketGroup: 2348
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Capital Ship Manufacturing Efficiency I
-    nullsecmodifier: 2.0999999046325684
-    packagedVolume: 20.0
+    nullsecmodifier: 2.1
     portionSize: 1
     published: true
     radius: 100.0

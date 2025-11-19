@@ -9,7 +9,6 @@ types:
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Small Higgs Anchor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -28,7 +27,6 @@ types:
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Medium Higgs Anchor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -47,7 +45,6 @@ types:
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Large Higgs Anchor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -66,7 +63,6 @@ types:
     massbonuspercentage: 100
     maxgroupfitted: 1
     name: Capital Higgs Anchor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

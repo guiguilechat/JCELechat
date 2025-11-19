@@ -2,10 +2,10 @@ types:
   22572:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 25
@@ -34,7 +34,6 @@ types:
     maxvelocity: 2000.0
     name: Praetor EV-900
     optimalsigradius: 25
-    packagedVolume: 25.0
     portionSize: 1
     price: 60000.0
     proximityrange: 7000
@@ -51,10 +50,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -65,10 +64,10 @@ types:
   23659:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 5
@@ -97,7 +96,6 @@ types:
     maxvelocity: 3200.0
     name: Acolyte EV-300
     optimalsigradius: 25
-    packagedVolume: 5.0
     portionSize: 1
     price: 2000.0
     proximityrange: 3500
@@ -114,10 +112,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     structureuniformity: 1.0
@@ -128,10 +126,10 @@ types:
   23702:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 150.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 10
@@ -160,7 +158,6 @@ types:
     maxvelocity: 2750.0
     name: Infiltrator EV-600
     optimalsigradius: 25
-    packagedVolume: 10.0
     portionSize: 1
     price: 17000.0
     proximityrange: 5000
@@ -177,10 +174,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 75.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 75.0
     structureuniformity: 1.0

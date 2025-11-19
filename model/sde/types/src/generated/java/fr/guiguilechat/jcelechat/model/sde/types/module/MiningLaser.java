@@ -16,9 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalsGetDamaged;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -26,10 +24,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritBonusYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbability;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWastedVolumeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -69,13 +68,6 @@ public class MiningLaser
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cpu;
-    /**
-     * Whether this tool causes damage to crystals with each use of them.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int crystalsgetdamaged;
     /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      */
@@ -119,6 +111,14 @@ public class MiningLaser
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamount;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritbonusyield;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double miningcritchance;
     /**
      * The probability of volume getting wasted every cycle
      */
@@ -210,7 +210,7 @@ public class MiningLaser
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DamageCloudChance.INSTANCE, MiningAmount.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup01 .INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DamageCloudChance.INSTANCE, MiningAmount.INSTANCE, MiningCritChance.INSTANCE, MiningWastedVolumeMultiplier.INSTANCE, MiningCritBonusYield.INSTANCE, MiningWasteProbability.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final MiningLaser.MetaGroup METAGROUP = new MiningLaser.MetaGroup();
 
     @Override
@@ -227,10 +227,6 @@ public class MiningLaser
             case  50 :
             {
                 return cpu;
-            }
-            case  786 :
-            {
-                return crystalsgetdamaged;
             }
             case  522 :
             {
@@ -251,6 +247,14 @@ public class MiningLaser
             case  77 :
             {
                 return miningamount;
+            }
+            case  5969 :
+            {
+                return miningcritbonusyield;
+            }
+            case  5967 :
+            {
+                return miningcritchance;
             }
             case  3154 :
             {

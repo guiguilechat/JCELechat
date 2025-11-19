@@ -1,7 +1,6 @@
 types:
   2103:
     capacitorneed: 20.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 30.0
@@ -9,7 +8,7 @@ types:
     duration: 12000.0
     falloffbonus: 12.0
     falloffeffectiveness: 20000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 2103
@@ -18,13 +17,11 @@ types:
     maxrangebonus: 6.0
     name: Remote Tracking Computer I
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 23900.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -33,7 +30,6 @@ types:
     volume: 25.0
   2104:
     capacitorneed: 24.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 36.0
@@ -41,7 +37,7 @@ types:
     duration: 12000.0
     falloffbonus: 15.0
     falloffeffectiveness: 24000
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 2104
@@ -51,13 +47,11 @@ types:
     metalevelold: 5
     name: Remote Tracking Computer II
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 130220.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -66,7 +60,6 @@ types:
     volume: 5.0
   5339:
     capacitorneed: 20.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 30.0
@@ -74,7 +67,7 @@ types:
     duration: 12000.0
     falloffbonus: 13.5
     falloffeffectiveness: 22000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 5339
@@ -84,13 +77,11 @@ types:
     metalevelold: 1
     name: F-293 Scoped Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9964.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -99,7 +90,6 @@ types:
     volume: 5.0
   5340:
     capacitorneed: 20.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 24.0
@@ -107,7 +97,7 @@ types:
     duration: 12000.0
     falloffbonus: 13.5
     falloffeffectiveness: 20000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 5340
@@ -117,13 +107,11 @@ types:
     metalevelold: 1
     name: P-S Compact Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9964.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -132,7 +120,6 @@ types:
     volume: 5.0
   5342:
     capacitorneed: 16.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 30.0
@@ -140,7 +127,7 @@ types:
     duration: 12000.0
     falloffbonus: 13.5
     falloffeffectiveness: 20000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 5342
@@ -150,13 +137,11 @@ types:
     metalevelold: 1
     name: Alfven Enduring Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9964.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -165,7 +150,6 @@ types:
     volume: 5.0
   14240:
     capacitorneed: 20.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 30.0
@@ -173,7 +157,7 @@ types:
     duration: 12000.0
     falloffbonus: 16.0
     falloffeffectiveness: 28000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 14240
@@ -184,13 +168,11 @@ types:
     metalevelold: 8
     name: Shadow Serpentis Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29994.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -199,7 +181,6 @@ types:
     volume: 5.0
   15967:
     capacitorneed: 20.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 30.0
@@ -207,7 +188,7 @@ types:
     duration: 12000.0
     falloffbonus: 16.0
     falloffeffectiveness: 28000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 15967
@@ -218,13 +199,11 @@ types:
     metalevelold: 8
     name: Federation Navy Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29994.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -233,7 +212,6 @@ types:
     volume: 5.0
   22937:
     capacitorneed: 14.0
-    capacity: 1.0
     chargegroup1: 907
     chargesize: 1
     cpu: 22.0
@@ -241,7 +219,7 @@ types:
     duration: 12000.0
     falloffbonus: 15.0
     falloffeffectiveness: 24000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 4.0
     hp: 40.0
     id: 22937
@@ -252,13 +230,11 @@ types:
     metalevelold: 6
     name: '''Enterprise'' Remote Tracking Computer'
     overloadtrackingmodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29994.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3433
     requiredskill1level: 1
     requiredthermodynamicsskill: 1

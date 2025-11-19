@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
@@ -32,7 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjfgRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonusPercent;
@@ -170,7 +168,7 @@ public class MicroJumpFieldGenerators
     @Stackable(false)
     @DefaultIntValue(0)
     public int signatureradiusbonuspercent;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, MjdShipJumpCap.INSTANCE, MjdJumpRange.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, MjfgRadius.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, MjdShipJumpCap.INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, MjdJumpRange.INSTANCE, CanFitShipGroup02 .INSTANCE, MjfgRadius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
     public static final MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
 
     @Override

@@ -16,8 +16,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
@@ -28,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBoostFactorBonus;
@@ -56,6 +55,13 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup01;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype1;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -154,7 +160,7 @@ public class MassEntanglers
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, MaxVelocityBonus.INSTANCE, MassBonusPercentage.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, RequiredSkill2Level.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, WarpScrambleStrength.INSTANCE, Hp.INSTANCE, MassBonusPercentage.INSTANCE, MaxVelocityBonus.INSTANCE, SpeedFactorBonus.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill2Level.INSTANCE, SpeedBoostFactorBonus.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final MassEntanglers.MetaGroup METAGROUP = new MassEntanglers.MetaGroup();
 
     @Override
@@ -167,6 +173,10 @@ public class MassEntanglers
             case  1298 :
             {
                 return canfitshipgroup01;
+            }
+            case  1302 :
+            {
+                return canfitshiptype1;
             }
             case  6 :
             {

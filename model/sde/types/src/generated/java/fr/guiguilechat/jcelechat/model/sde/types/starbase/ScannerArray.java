@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
@@ -30,7 +29,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningRequiresSovereigntyLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PosAnchoredPerSolarSystemAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
@@ -39,7 +37,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -151,7 +148,7 @@ public class ScannerArray
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, MinScanDeviation.INSTANCE, ScanGravimetricStrength.INSTANCE, MaxScanDeviation.INSTANCE, RequiredSkill1Level.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, OnliningRequiresSovereigntyLevel.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, PosAnchoredPerSolarSystemAmount.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, ScanRange.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, MinScanDeviation.INSTANCE, ScanGravimetricStrength.INSTANCE, MaxScanDeviation.INSTANCE, RequiredSkill1Level.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, OnliningRequiresSovereigntyLevel.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, PosAnchoredPerSolarSystemAmount.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, ScanRange.INSTANCE })));
     public static final ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
 
     @Override

@@ -3,7 +3,6 @@ types:
     id: 44992
     marketGroup: 1923
     name: PLEX
-    packagedVolume: 1.9999999494757503E-4
     portionSize: 1
     published: true
-    volume: 1.9999999494757503E-4
+    volume: 0.0002

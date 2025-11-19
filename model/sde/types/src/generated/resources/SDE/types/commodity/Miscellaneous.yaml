@@ -8,11 +8,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Zazzmatazz
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   2075:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -20,13 +19,12 @@ types:
     exporttaxmultiplier: 1
     id: 2075
     importtaxmultiplier: 1
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Consolidated Holdings Commander Access Key
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2100:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -36,11 +34,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Phenod's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   2197:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -50,7 +47,6 @@ types:
     importtaxmultiplier: 1
     mass: 70.0
     name: Environmentally-friendly Mining Equipment
-    packagedVolume: 32.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -64,7 +60,6 @@ types:
     importtaxmultiplier: 1
     mass: 210.0
     name: Crate of Environmentally-friendly Mining Equipment
-    packagedVolume: 450.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -78,7 +73,6 @@ types:
     importtaxmultiplier: 1
     mass: 50.0
     name: Prototype Body Armor Fabric
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -92,7 +86,6 @@ types:
     importtaxmultiplier: 1
     mass: 5000.0
     name: Crate of Prototype Body Armor Fabric
-    packagedVolume: 2000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -106,7 +99,6 @@ types:
     importtaxmultiplier: 1
     mass: 30.0
     name: Riot Interdiction Team
-    packagedVolume: 30.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -120,7 +112,6 @@ types:
     importtaxmultiplier: 1
     mass: 500.0
     name: Riot Interdiction Teams
-    packagedVolume: 300.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -134,7 +125,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Amarr TIL-1A Nexus Chips
-    packagedVolume: 12.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -148,7 +138,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Amarr TIL-1A Nexus Chips
-    packagedVolume: 120.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -162,7 +151,6 @@ types:
     importtaxmultiplier: 1
     mass: 110.0
     name: Large Group of Civilian Workers and Dependents
-    packagedVolume: 125.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -176,7 +164,6 @@ types:
     importtaxmultiplier: 1
     mass: 11.0
     name: Civilian Workers and Dependents
-    packagedVolume: 12.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -190,7 +177,6 @@ types:
     importtaxmultiplier: 1
     mass: 25.0
     name: Manportable Electromagnetic Pulse Weapons
-    packagedVolume: 25.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -204,11 +190,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Neurowave Pattern Scanner
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   2368:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -218,11 +203,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Organic Mortar Applicators
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2369:
@@ -234,11 +217,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Sterile Conduits
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2371:
@@ -250,11 +231,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Nano-Factory
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2373:
@@ -266,11 +245,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Self-Harmonizing Power Core
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2374:
@@ -282,11 +259,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Recursive Computing Module
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2375:
@@ -298,11 +273,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Broadcast Node
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2376:
@@ -314,11 +287,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Integrity Response Drones
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2377:
@@ -330,11 +301,9 @@ types:
     importtaxmultiplier: 250
     marketGroup: 20
     name: Broken Wetware Mainframe
-    packagedVolume: 100.0
     portionSize: 1
     price: 25000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   2595:
@@ -346,11 +315,10 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Encoded Data Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   2596:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -360,7 +328,6 @@ types:
     importtaxmultiplier: 1
     mass: 60000.0
     name: Crates of Clothing
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -374,7 +341,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Command Reports
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -388,7 +354,6 @@ types:
     importtaxmultiplier: 1
     mass: 80000.0
     name: Crates of Coolant
-    packagedVolume: 80.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -402,7 +367,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Corporate Documents
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -416,7 +380,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Data Sheets
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -430,7 +393,6 @@ types:
     importtaxmultiplier: 1
     mass: 90000.0
     name: Crates of Drill Parts
-    packagedVolume: 90.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -444,7 +406,6 @@ types:
     importtaxmultiplier: 1
     mass: 80000.0
     name: Crates of Fertilizer
-    packagedVolume: 80.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -458,7 +419,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Frozen Food
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -472,7 +432,6 @@ types:
     importtaxmultiplier: 1
     mass: 90000.0
     name: Crates of Garbage
-    packagedVolume: 90.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -486,7 +445,6 @@ types:
     importtaxmultiplier: 1
     mass: 800000.0
     name: Large Crates of Coolant
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -500,7 +458,6 @@ types:
     importtaxmultiplier: 1
     mass: 100000.0
     name: Crates of Guidance Systems
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -514,7 +471,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Harroule Dryweed
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -528,7 +484,6 @@ types:
     importtaxmultiplier: 1
     mass: 80000.0
     name: Crates of High-Tech Small Arms
-    packagedVolume: 80.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -542,7 +497,6 @@ types:
     importtaxmultiplier: 1
     mass: 100000.0
     name: Crates of Liparer Cheese
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -556,7 +510,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Listening Post Recordings
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -570,7 +523,6 @@ types:
     importtaxmultiplier: 1
     mass: 100000.0
     name: Crates of Mechanical Parts
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -584,7 +536,6 @@ types:
     importtaxmultiplier: 1
     mass: 90000.0
     name: Crates of Missile Guidance Systems
-    packagedVolume: 90.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -598,7 +549,6 @@ types:
     importtaxmultiplier: 1
     mass: 80000.0
     name: Crates of Mono-Cell Batteries
-    packagedVolume: 80.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -612,7 +562,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Odd Data Crystals
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -626,7 +575,6 @@ types:
     importtaxmultiplier: 1
     mass: 60000.0
     name: Crates of OP Insecticide
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -640,7 +588,6 @@ types:
     importtaxmultiplier: 1
     mass: 70000.0
     name: Crates of Oxygen
-    packagedVolume: 70.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -654,7 +601,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Planetary Vehicles
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -668,7 +614,6 @@ types:
     importtaxmultiplier: 1
     mass: 70000.0
     name: Crates of Protein Delicacies
-    packagedVolume: 70.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -682,7 +627,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Raggy Dolls
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -696,7 +640,6 @@ types:
     importtaxmultiplier: 1
     mass: 70000.0
     name: Crates of Repair Parts
-    packagedVolume: 70.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -710,7 +653,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Replacement Parts
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -724,7 +666,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Reports
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -738,7 +679,6 @@ types:
     importtaxmultiplier: 1
     mass: 70000.0
     name: Crates of Robotics
-    packagedVolume: 70.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -752,7 +692,6 @@ types:
     importtaxmultiplier: 1
     mass: 60000.0
     name: Crates of Small Arms
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -766,7 +705,6 @@ types:
     importtaxmultiplier: 1
     mass: 50000.0
     name: Crates of Soil
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -780,7 +718,6 @@ types:
     importtaxmultiplier: 1
     mass: 90000.0
     name: Crates of Spiced Wine
-    packagedVolume: 90.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -794,7 +731,6 @@ types:
     importtaxmultiplier: 1
     mass: 60000.0
     name: Crates of Synthetic Oil
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -808,7 +744,6 @@ types:
     importtaxmultiplier: 1
     mass: 90000.0
     name: Crates of Vaccine Injectors
-    packagedVolume: 90.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -822,7 +757,6 @@ types:
     importtaxmultiplier: 1
     mass: 80000.0
     name: Crates of Viral Agent
-    packagedVolume: 80.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -836,7 +770,6 @@ types:
     importtaxmultiplier: 1
     mass: 70000.0
     name: Crates of Vitoc
-    packagedVolume: 70.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -850,7 +783,6 @@ types:
     importtaxmultiplier: 1
     mass: 60000.0
     name: Crates of Water
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -864,7 +796,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Zemnar
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -878,7 +809,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Data Sheets
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -892,7 +822,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Large Crates of Galeptos Medicine
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -906,7 +835,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Large Crates of Guidance Systems
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -920,7 +848,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Harroule Dryweed
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -934,7 +861,6 @@ types:
     importtaxmultiplier: 1
     mass: 100000.0
     name: Large Crates of Holoreels
-    packagedVolume: 500.0
     portionSize: 1
     price: 250.0
     published: true
@@ -949,7 +875,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Large Crates of Liparer Cheese
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -963,7 +888,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Large Crates of Mechanical Parts
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -977,7 +901,6 @@ types:
     importtaxmultiplier: 1
     mass: 800000.0
     name: Large Crates of Mono-Cell Batteries
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -991,7 +914,6 @@ types:
     importtaxmultiplier: 1
     mass: 700000.0
     name: Large Crates of Oxygen
-    packagedVolume: 700.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1005,7 +927,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Planetary Vehicles
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1019,7 +940,6 @@ types:
     importtaxmultiplier: 1
     mass: 500000.0
     name: Large Crates of Polytextiles
-    packagedVolume: 500.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1033,7 +953,6 @@ types:
     importtaxmultiplier: 1
     mass: 700000.0
     name: Large Crates of Protein Delicacies
-    packagedVolume: 700.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1047,7 +966,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Reports
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1061,7 +979,6 @@ types:
     importtaxmultiplier: 1
     mass: 600000.0
     name: Large Crates of Small Arms
-    packagedVolume: 600.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1075,7 +992,6 @@ types:
     importtaxmultiplier: 1
     mass: 500000.0
     name: Large Crates of Soil
-    packagedVolume: 500.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1089,7 +1005,6 @@ types:
     importtaxmultiplier: 1
     mass: 250000.0
     name: Large Crates of Spirits
-    packagedVolume: 600.0
     portionSize: 1
     price: 455.0
     published: true
@@ -1104,7 +1019,6 @@ types:
     importtaxmultiplier: 1
     mass: 600000.0
     name: Large Crates of Synthetic Oil
-    packagedVolume: 600.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1118,7 +1032,6 @@ types:
     importtaxmultiplier: 1
     mass: 700000.0
     name: Large Crates of Vitoc
-    packagedVolume: 700.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1130,9 +1043,8 @@ types:
     exporttaxmultiplier: 1
     id: 2710
     importtaxmultiplier: 1
-    mass: 1.0E7
+    mass: 10000000.0
     name: Large Crates of Construction Blocks
-    packagedVolume: 700.0
     portionSize: 1
     price: 500.0
     published: true
@@ -1147,7 +1059,6 @@ types:
     importtaxmultiplier: 1
     mass: 900000.0
     name: Large Crates of Drill Parts
-    packagedVolume: 900.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1161,7 +1072,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Electronic Parts
-    packagedVolume: 400.0
     portionSize: 1
     price: 750.0
     published: true
@@ -1176,7 +1086,6 @@ types:
     importtaxmultiplier: 1
     mass: 800000.0
     name: Large Crates of Fertilizer
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1190,7 +1099,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Frozen Food
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1204,7 +1112,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Large Crates of Frozen Plant Seeds
-    packagedVolume: 500.0
     portionSize: 1
     price: 75.0
     published: true
@@ -1219,7 +1126,6 @@ types:
     importtaxmultiplier: 1
     mass: 900000.0
     name: Large Crates of Garbage
-    packagedVolume: 900.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1233,7 +1139,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Long-limb Roes
-    packagedVolume: 1000.0
     portionSize: 1
     price: 2400.0
     published: true
@@ -1248,7 +1153,6 @@ types:
     importtaxmultiplier: 1
     mass: 400000.0
     name: Large Crates of Raggy Dolls
-    packagedVolume: 400.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1262,7 +1166,6 @@ types:
     importtaxmultiplier: 1
     mass: 50000.0
     name: Large Crates of Rocket Fuel
-    packagedVolume: 400.0
     portionSize: 1
     price: 505.0
     published: true
@@ -1277,7 +1180,6 @@ types:
     importtaxmultiplier: 1
     mass: 2500000.0
     name: Large Crates of Tobacco
-    packagedVolume: 400.0
     portionSize: 1
     price: 48.0
     published: true
@@ -1292,7 +1194,6 @@ types:
     importtaxmultiplier: 1
     mass: 650000.0
     name: Large Crates of Transmitters
-    packagedVolume: 600.0
     portionSize: 1
     price: 313.0
     published: true
@@ -1307,7 +1208,6 @@ types:
     importtaxmultiplier: 1
     mass: 800000.0
     name: Large Crates of Viral Agent
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1321,7 +1221,6 @@ types:
     importtaxmultiplier: 1
     mass: 600000.0
     name: Large Crates of Water
-    packagedVolume: 600.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1335,7 +1234,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Consumer Electronics
-    packagedVolume: 40.0
     portionSize: 1
     price: 750.0
     published: true
@@ -1350,7 +1248,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Crates of Enriched Uranium
-    packagedVolume: 70.0
     portionSize: 1
     price: 500.0
     published: true
@@ -1365,7 +1262,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Crates of Silicon
-    packagedVolume: 50.0
     portionSize: 1
     price: 500.0
     published: true
@@ -1380,7 +1276,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Crates of Silicate Glass
-    packagedVolume: 50.0
     portionSize: 1
     price: 500.0
     published: true
@@ -1395,7 +1290,6 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Incriminating Evidence
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1409,7 +1303,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Salvaged Electronics
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1423,7 +1316,6 @@ types:
     importtaxmultiplier: 1
     mass: 250.0
     name: Crate of Manportable Electromagnetic Pulse Weapons
-    packagedVolume: 250.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1437,7 +1329,6 @@ types:
     importtaxmultiplier: 1
     mass: 25.0
     name: Special Forces Weapons and Equipment
-    packagedVolume: 25.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1451,7 +1342,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Unknown Dead
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1465,7 +1355,6 @@ types:
     importtaxmultiplier: 1
     mass: 50.0
     name: Acceleration Gate Authentication Matrix
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1479,7 +1368,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Damning Evidence
-    packagedVolume: 1.0
     portionSize: 1
     price: 150.0
     published: true
@@ -1494,12 +1382,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Custom Circuitry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   2900:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -1509,11 +1396,9 @@ types:
     importtaxmultiplier: 50
     mass: 1.0
     name: Recovered Data Core
-    packagedVolume: 1.0
     portionSize: 1
     price: 1.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 1.0
   2904:
@@ -1525,7 +1410,6 @@ types:
     importtaxmultiplier: 1
     mass: 400.0
     name: Quantum Entanglement
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1539,7 +1423,6 @@ types:
     importtaxmultiplier: 1
     mass: 50.0
     name: Survivors
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1553,7 +1436,6 @@ types:
     importtaxmultiplier: 1
     mass: 250.0
     name: Crate of Special Forces Weapons and Equipment
-    packagedVolume: 250.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1567,7 +1449,6 @@ types:
     importtaxmultiplier: 1
     mass: 20.0
     name: Counterfeit Voluval Tattoo Chemicals
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1581,7 +1462,6 @@ types:
     importtaxmultiplier: 1
     mass: 28.0
     name: Hybrid Slaver Hounds
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1595,7 +1475,6 @@ types:
     importtaxmultiplier: 1
     mass: 280.0
     name: Kennel of Hybrid Slaver Hounds
-    packagedVolume: 200.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1609,7 +1488,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Improved Inertial Compensation Systems
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1623,7 +1501,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Unidentified Fibrous Compound
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1637,7 +1514,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Unidentified Fibrous Compound
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1651,7 +1527,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Refurbished Mining Drones
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1665,7 +1540,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Refurbished Mining Drones
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1679,7 +1553,6 @@ types:
     importtaxmultiplier: 1
     mass: 300.0
     name: Spools of Quantrium Wiring
-    packagedVolume: 300.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1693,7 +1566,6 @@ types:
     importtaxmultiplier: 1
     mass: 30.0
     name: Quantrium Wiring
-    packagedVolume: 30.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1707,7 +1579,6 @@ types:
     importtaxmultiplier: 1
     mass: 30.0
     name: Aerogel Counteragent
-    packagedVolume: 30.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1721,7 +1592,6 @@ types:
     importtaxmultiplier: 1
     mass: 300.0
     name: Crate of Aerogel Counteragent
-    packagedVolume: 300.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1735,7 +1605,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Target Painter Deflection Plating
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1749,7 +1618,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Target Painter Deflection Plating
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1763,7 +1631,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000.0
     name: Group of Haakar's Striking Hawks
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1777,7 +1644,6 @@ types:
     importtaxmultiplier: 1
     mass: 30.0
     name: Ditanium Metal Plates
-    packagedVolume: 30.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1791,7 +1657,6 @@ types:
     importtaxmultiplier: 1
     mass: 300.0
     name: Pallet of Ditanium Metal Plates
-    packagedVolume: 300.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1805,7 +1670,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Group of The Hooded Men
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1819,7 +1683,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Industrial-Grade Tritanium-Alloy Scraps
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1833,7 +1696,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Industrial-Grade Tritanium-Alloy Scraps
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1847,7 +1709,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Architectural-Quality Plagioclase Paneling
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1861,7 +1722,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Architectural-Quality Plagioclase Paneling
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1875,7 +1735,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Harvester Components
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1889,7 +1748,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Harvester Components
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1903,7 +1761,6 @@ types:
     importtaxmultiplier: 1
     mass: 60.0
     name: Decoy Prototype Cloaking Devices
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1917,7 +1774,6 @@ types:
     importtaxmultiplier: 1
     mass: 500.0
     name: Crate of Decoy Prototype Cloaking Devices
-    packagedVolume: 500.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1931,7 +1787,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Amarr Scripture Educational Study Packages (Matari translation)
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1945,7 +1800,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Amarr Scripture Educational Study Packages (Matari translation)
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1959,7 +1813,6 @@ types:
     importtaxmultiplier: 1
     mass: 60.0
     name: Blue Paradise
-    packagedVolume: 60.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1973,7 +1826,6 @@ types:
     importtaxmultiplier: 1
     mass: 500.0
     name: Crate of Blue Paradise
-    packagedVolume: 500.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -1987,7 +1839,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Refined C-86 Epoxy Resin
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2001,7 +1852,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Group of Angel Cartel VIPs
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2015,7 +1865,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Group of Angel Cartel VIPs
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2029,7 +1878,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Feille d'Marnne Champagne
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2043,7 +1891,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Feille d'Marnne Champagne
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2057,7 +1904,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Bootleg Holoreels
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2071,7 +1917,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Suspicious Holoreels
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2085,7 +1930,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Amarr Religious Holoreels
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2099,7 +1943,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Crate of Amarr Religious Holoreels
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2113,7 +1956,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Cryo-Stored Luminaire Skippers
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2127,7 +1969,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Cryo-Stored Luminaire Skippers
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2141,7 +1982,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Unidentified Ancient Technology
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2155,7 +1995,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Talocan Station Life-Support Cores
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2169,7 +2008,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Portable Emergency Heating Units
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2183,7 +2021,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Portable Emergency Heating Units
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2197,7 +2034,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Archaeological Lot GV87-426-D Artifacts
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2211,7 +2047,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Archaeological Lot GV87-426-E Artifacts
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2225,7 +2060,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Contained Cerrocentite
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2239,7 +2073,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Contained Mesarchonite
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2253,7 +2086,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Group of Coriault Couture Collective Display Employees
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2267,7 +2099,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Group of Mannar Textile Institute International Representatives
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2281,7 +2112,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Exclusive Simo Reshar Fitness Holoreels
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2295,7 +2125,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Exclusive Simo Reshar Fitness Holoreels
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2309,7 +2138,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Crate of Experimental ECM Hybrid Rounds
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2323,7 +2151,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Large Crate of Experimental ECM Hybrid Rounds
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2337,7 +2164,6 @@ types:
     importtaxmultiplier: 1
     mass: 7500.0
     name: CONCORD MTAC
-    packagedVolume: 7500.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2351,7 +2177,6 @@ types:
     importtaxmultiplier: 1
     mass: 700.0
     name: Badly Mangled Components
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2365,7 +2190,6 @@ types:
     importtaxmultiplier: 1
     mass: 700.0
     name: True Slave Decryption Node
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2379,7 +2203,6 @@ types:
     importtaxmultiplier: 1
     mass: 1650.0
     name: Mangled Sansha Data Analyzer
-    packagedVolume: 5.0
     portionSize: 1
     price: 33264.0
     published: true
@@ -2394,7 +2217,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Construction Materials
-    packagedVolume: 70.0
     portionSize: 1
     price: 500.0
     published: true
@@ -2409,11 +2231,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Certification Results
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   3837:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2423,11 +2244,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Token of Submission
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   3838:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2437,11 +2257,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Clearance Documents
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   3843:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2451,11 +2270,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Tribal Sponsorship
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   3844:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2465,11 +2283,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Freedom of Operation License
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4089:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2479,11 +2296,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Clearance Papers
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   4390:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2493,12 +2309,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Pax Ammaria
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3328.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   10646:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2508,11 +2323,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Training Certificate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11013:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2522,11 +2336,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Drug Contact List
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11066:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2536,11 +2349,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Trinary Data
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11067:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2550,12 +2362,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Nugoeihuvi Data Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11068:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2565,12 +2376,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Special Delivery
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11069:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2581,11 +2391,10 @@ types:
     marketGroup: 492
     mass: 1.0
     name: Criminal Dog Tag
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11070:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2595,11 +2404,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Religious Artifact
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11071:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2609,11 +2417,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Battery Cartridge
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11508:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2623,11 +2430,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Cross of the Sacred Throne Order
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11509:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2637,11 +2443,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Onyx Heart of Valor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11510:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2651,11 +2456,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Aidonis Honorary Fellow Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11511:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2665,11 +2469,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Liberty Tattoo of the Minmatar Nation
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11512:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2679,11 +2482,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Enlightened Soul Silver Shield
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11528:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2693,11 +2495,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Jovian Delegates
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11585:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2708,12 +2509,11 @@ types:
     marketGroup: 492
     mass: 1.0
     name: Pax Amarria
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3328.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11586:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2723,11 +2523,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Signed Copy of Pax Amarria
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11587:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2737,11 +2536,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Temple Stone
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11588:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2752,11 +2550,10 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Defunct Drone Sensor Module
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11602:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2766,7 +2563,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Gallente Federation Transaction And Salary Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2780,11 +2576,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Shiez Kuzaks Ship Database
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11604:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2794,7 +2589,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Caldari State Transaction And Salary Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2808,7 +2602,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Amarr Empire Transaction And Salary Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2822,7 +2615,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Minmatar Republic Transaction And Salary Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2836,7 +2628,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ammatar Transaction and salary logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2850,7 +2641,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Personal Information Data
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2864,7 +2654,6 @@ types:
     importtaxmultiplier: 1
     mass: 82.0
     name: Korim Kor-Azor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2878,7 +2667,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Transaction And Salary Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2892,11 +2680,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Angel Cartel Plans
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   11707:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2906,7 +2693,6 @@ types:
     importtaxmultiplier: 1
     mass: 2500.0
     name: Strange Mechanical Device
-    packagedVolume: 2.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -2920,7 +2706,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Design Documents
-    packagedVolume: 0.5
     portionSize: 1
     price: 100.0
     published: true
@@ -2935,7 +2720,6 @@ types:
     importtaxmultiplier: 1
     mass: 10000.0
     name: Foundation Stone
-    packagedVolume: 180.0
     portionSize: 1
     price: 100.0
     published: true
@@ -2951,11 +2735,10 @@ types:
     marketGroup: 492
     mass: 2500.0
     name: Synthetic Coffee
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   12250:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2966,11 +2749,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Criminal DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   12302:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -2981,7 +2763,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Test Dummies
-    packagedVolume: 2.0
     portionSize: 1
     price: 100.0
     published: true
@@ -2996,7 +2777,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Unassembled Energy Weapons
-    packagedVolume: 5.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3012,12 +2792,11 @@ types:
     marketGroup: 492
     mass: 2.0
     name: Khumaak
-    packagedVolume: 0.30000001192092896
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   12994:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3028,11 +2807,10 @@ types:
     marketGroup: 492
     mass: 500.0
     name: Quafe Ultra Special Edition
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   12995:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3043,7 +2821,6 @@ types:
     marketGroup: 492
     mass: 100.0
     name: Ultra! Promotional Holoreel
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3057,11 +2834,10 @@ types:
     importtaxmultiplier: 1
     mass: 2500.0
     name: Smurgleblaster
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   13204:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3071,11 +2847,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Sacred Bricks
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13205:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3085,11 +2860,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Heart Stone
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13206:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3099,11 +2873,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Defiled Relics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13210:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3113,11 +2886,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Cerebral Slice
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13211:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3127,11 +2899,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Epidermis Sliver
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13212:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3141,11 +2912,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Liver Bile
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13213:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3155,11 +2925,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Blood Drop
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13214:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3169,11 +2938,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Bone Splinter
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13215:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3183,7 +2951,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Complex Fullerene Shard
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3198,11 +2965,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: DNA Sample
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13328:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3212,12 +2978,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Star Charts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   13918:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3228,11 +2993,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Korrani's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   14292:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3243,11 +3007,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Kruul's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   14293:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3257,7 +3020,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: X-Rated Holoreel
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3272,12 +3034,11 @@ types:
     marketGroup: 492
     mass: 5.0
     name: Zemnar
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   14483:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3288,11 +3049,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Drezin's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   15316:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3303,7 +3063,6 @@ types:
     marketGroup: 492
     mass: 5.0
     name: Galeptos Medicine
-    packagedVolume: 1.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3318,7 +3077,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Top-Secret Design Documents
-    packagedVolume: 1.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3333,7 +3091,6 @@ types:
     importtaxmultiplier: 1
     mass: 800.0
     name: Large Special Delivery
-    packagedVolume: 1000.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3349,7 +3106,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Research Tools
-    packagedVolume: 1.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3365,11 +3121,10 @@ types:
     marketGroup: 492
     mass: 1.0
     name: Neophite
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   16041:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3379,7 +3134,6 @@ types:
     importtaxmultiplier: 1
     mass: 10000.0
     name: Colossal Sealed Cargo Containers
-    packagedVolume: 1000.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3394,7 +3148,6 @@ types:
     importtaxmultiplier: 1
     mass: 500.0
     name: Medium Sized Sealed Cargo Containers
-    packagedVolume: 50.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3409,7 +3162,6 @@ types:
     importtaxmultiplier: 1
     mass: 5000.0
     name: Giant Sealed Cargo Containers
-    packagedVolume: 500.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3424,7 +3176,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Small Sealed Cargo Containers
-    packagedVolume: 10.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3439,7 +3190,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000.0
     name: Large Sealed Cargo Containers
-    packagedVolume: 100.0
     portionSize: 1
     price: 100.0
     published: true
@@ -3454,11 +3204,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Message from the Governor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   16686:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3470,10 +3219,8 @@ types:
     marketGroup: 20
     mass: 10.0
     name: Manufacturing Tools
-    packagedVolume: 100.0
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 100.0
   16712:
@@ -3484,13 +3231,12 @@ types:
     id: 16712
     importtaxmultiplier: 1
     marketGroup: 492
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Novice Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   16713:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3499,13 +3245,12 @@ types:
     id: 16713
     importtaxmultiplier: 1
     marketGroup: 492
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Intermediate Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   16714:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3514,13 +3259,12 @@ types:
     id: 16714
     importtaxmultiplier: 1
     marketGroup: 492
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Legends Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   16832:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3530,7 +3274,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Sansha Data Sheets
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3545,7 +3288,6 @@ types:
     marketGroup: 492
     mass: 2500.0
     name: Gallentean Planetary Vehicles
-    packagedVolume: 2.0
     portionSize: 1
     price: 10000.0
     published: true
@@ -3560,11 +3302,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ulamon's Data Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17423:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3575,7 +3316,6 @@ types:
     marketGroup: 492
     mass: 100.0
     name: Gallente 106 Election Holoreel
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3590,12 +3330,11 @@ types:
     marketGroup: 492
     mass: 1000.0
     name: Amarrian Wheat
-    packagedVolume: 1.149999976158142
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 1.149999976158142
+    volume: 1.15
   17624:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3606,11 +3345,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Elena Gazky's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17640:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3621,11 +3359,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Mordur's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17643:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3636,12 +3373,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari AZ-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17646:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3652,12 +3388,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari CU-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17647:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3668,12 +3403,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Caldari BY-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17755:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3684,11 +3418,10 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Pro-Trade Pamphlets
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17756:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3699,7 +3432,6 @@ types:
     marketGroup: 754
     mass: 1000.0
     name: Virgin Forest Pulp
-    packagedVolume: 2.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3713,7 +3445,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Bronze Sculpture
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3727,7 +3458,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Silver Sculpture
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3741,7 +3471,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Gold Sculpture
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -3756,12 +3485,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr TIL-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17794:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3772,12 +3500,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr KIU-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17795:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3788,12 +3515,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Amarr MIY-1 Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17814:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3804,12 +3530,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUC Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17815:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3820,12 +3545,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUA Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17816:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3836,12 +3560,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Minmatar UUB Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17840:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3852,11 +3575,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Zor's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17848:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3867,12 +3589,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Gamma Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17849:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3883,12 +3604,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Beta Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17850:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3899,12 +3619,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Gallente Alpha Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   17893:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3915,12 +3634,11 @@ types:
     marketGroup: 20
     mass: 1.0
     name: High-Tech Data Chip
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17894:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3931,12 +3649,11 @@ types:
     marketGroup: 20
     mass: 2500.0
     name: High-Tech Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17895:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3948,13 +3665,11 @@ types:
     marketGroup: 20
     mass: 10.0
     name: High-Tech Manufacturing Tools
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   17897:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3965,12 +3680,11 @@ types:
     marketGroup: 20
     mass: 1.0
     name: High-Tech Small Arms
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   18583:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3980,11 +3694,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ornamental Necklace
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   18655:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -3995,11 +3708,10 @@ types:
     marketGroup: 752
     mass: 1.0
     name: Olufami's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   19382:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4009,11 +3721,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Luther Veron's Head
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   19399:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4023,7 +3734,6 @@ types:
     importtaxmultiplier: 1
     mass: 800.0
     name: Confiscated Vitoc
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4038,7 +3748,6 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Blaque Voucher
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4053,7 +3762,6 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Foiritan Voucher
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4068,7 +3776,6 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Autrech Voucher
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4082,7 +3789,6 @@ types:
     importtaxmultiplier: 1
     mass: 2500.0
     name: Arms Cache
-    packagedVolume: 2.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4097,11 +3803,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Guristas Research Data
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   19730:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4111,11 +3816,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Communications Logs
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   20328:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4125,11 +3829,10 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Insorum
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   20362:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4138,7 +3841,6 @@ types:
     id: 20362
     importtaxmultiplier: 1
     name: Foiritan Sculpture
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4152,11 +3854,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Whelan Machorin's Head
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   20541:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4166,7 +3867,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000.0
     name: Drill Parts
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4180,11 +3880,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Manchura's Logs
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   21624:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4194,11 +3893,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Encoded Lai Dai Reports
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   22222:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4208,11 +3906,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Classified Report - Station Defenses
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   22730:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4222,7 +3919,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Amarr Training Certification Results
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4236,7 +3932,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Minmatar Training Certification Results
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4250,7 +3945,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.5
     name: Nidupadian Yorak Eggs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4264,7 +3958,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Keron's Head
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4278,7 +3971,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Standard Decoding Device
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4292,7 +3984,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Komni History (1 of 2)
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4306,7 +3997,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Komni History (2 of 2)
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4320,7 +4010,6 @@ types:
     importtaxmultiplier: 1
     mass: 400.0
     name: Native Freshfood Special
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4334,11 +4023,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Havatiah's Ship Database
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   25382:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4348,12 +4036,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Guristas War Plans
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   26270:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4363,11 +4050,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Federal Star of Justice
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   26707:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4377,7 +4063,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Hidden Data Sheets
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4391,7 +4076,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Long-limb Roes
-    packagedVolume: 100.0
     portionSize: 1
     price: 2400.0
     published: true
@@ -4406,7 +4090,6 @@ types:
     importtaxmultiplier: 1
     mass: 2000000.0
     name: Barrels of Soil
-    packagedVolume: 8000.0
     portionSize: 1
     price: 80.0
     published: true
@@ -4421,7 +4104,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000.0
     name: Crates of Holoreels
-    packagedVolume: 50.0
     portionSize: 1
     price: 250.0
     published: true
@@ -4436,7 +4118,6 @@ types:
     importtaxmultiplier: 1
     mass: 40000.0
     name: Crates of Electronic Parts
-    packagedVolume: 40.0
     portionSize: 1
     price: 750.0
     published: true
@@ -4451,7 +4132,6 @@ types:
     importtaxmultiplier: 1
     mass: 65000.0
     name: Crates of Transmitters
-    packagedVolume: 60.0
     portionSize: 1
     price: 313.0
     published: true
@@ -4466,7 +4146,6 @@ types:
     importtaxmultiplier: 1
     mass: 9000000.0
     name: Barrels of Fertilizer
-    packagedVolume: 6000.0
     portionSize: 1
     price: 200.0
     published: true
@@ -4479,9 +4158,8 @@ types:
     exporttaxmultiplier: 1
     id: 26784
     importtaxmultiplier: 1
-    mass: 2.5E7
+    mass: 25000000.0
     name: Heap-Load of Garbage
-    packagedVolume: 2500.0
     portionSize: 1
     price: 20.0
     published: true
@@ -4496,7 +4174,6 @@ types:
     importtaxmultiplier: 1
     mass: 4000.0
     name: Crates of Frozen Plant Seeds
-    packagedVolume: 50.0
     portionSize: 1
     price: 75.0
     published: true
@@ -4511,7 +4188,6 @@ types:
     importtaxmultiplier: 1
     mass: 25000.0
     name: Crates of Spirits
-    packagedVolume: 60.0
     portionSize: 1
     price: 455.0
     published: true
@@ -4526,7 +4202,6 @@ types:
     importtaxmultiplier: 1
     mass: 5000.0
     name: Crates of Rocket Fuel
-    packagedVolume: 40.0
     portionSize: 1
     price: 505.0
     published: true
@@ -4541,7 +4216,6 @@ types:
     importtaxmultiplier: 1
     mass: 250000.0
     name: Crates of Tobacco
-    packagedVolume: 40.0
     portionSize: 1
     price: 48.0
     published: true
@@ -4556,7 +4230,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000000.0
     name: Crates of Construction Blocks
-    packagedVolume: 70.0
     portionSize: 1
     price: 500.0
     published: true
@@ -4569,9 +4242,8 @@ types:
     exporttaxmultiplier: 1
     id: 26792
     importtaxmultiplier: 1
-    mass: 2.5E7
+    mass: 25000000.0
     name: Barrels of Water
-    packagedVolume: 2500.0
     portionSize: 1
     price: 35.0
     published: true
@@ -4586,12 +4258,11 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Antiviral Drugs
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     price: 325.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   27803:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4601,7 +4272,6 @@ types:
     importtaxmultiplier: 1
     mass: 20000.0
     name: Massive Sealed Cargo Containers
-    packagedVolume: 2000.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4616,11 +4286,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Alliance Tournament Cup
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28257:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4630,11 +4299,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Alliance Tournament Gold Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28359:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4644,11 +4312,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Alliance Tournament Silver Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28360:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4658,11 +4325,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Alliance Tournament Bronze Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28827:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4672,7 +4338,6 @@ types:
     importtaxmultiplier: 1
     mass: 50.0
     name: Encrypted Data Crystals
-    packagedVolume: 1.0
     portionSize: 1
     price: 80.0
     published: true
@@ -4687,12 +4352,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Quafe Unleashed formula
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 30.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28829:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4702,11 +4366,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ancient Amarrian Relic
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28830:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4716,11 +4379,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Brutor Tribe Roster
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   28833:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4730,11 +4392,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ishukone Corporate Records
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28834:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4744,7 +4405,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Federation Court Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4758,7 +4418,6 @@ types:
     importtaxmultiplier: 1
     mass: 25.0
     name: Letters of Bishop Dalamaid
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4772,11 +4431,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Altered Datacore - Mechanical Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28865:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4787,10 +4445,8 @@ types:
     importtaxmultiplier: 1
     mass: 70.0
     name: Hive Mind CPU
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 5.0
   28866:
@@ -4800,13 +4456,12 @@ types:
     exporttaxmultiplier: 1
     id: 28866
     importtaxmultiplier: 1
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Rogue Drone A.I. Core
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   28868:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4816,7 +4471,6 @@ types:
     importtaxmultiplier: 1
     mass: 75.0
     name: Small Warded Container
-    packagedVolume: 5.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4831,7 +4485,6 @@ types:
     importtaxmultiplier: 1
     mass: 5000.0
     name: AIMEDs
-    packagedVolume: 25.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4846,11 +4499,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Router Encryption Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28897:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4860,11 +4512,10 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Food-Borne Toxin
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   28972:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4874,7 +4525,6 @@ types:
     importtaxmultiplier: 1
     mass: 400.0
     name: Cryogenic Stasis Capsule
-    packagedVolume: 25.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4889,11 +4539,10 @@ types:
     importtaxmultiplier: 1
     mass: 2.0
     name: Dem's Galactical Botanical
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   28975:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4903,7 +4552,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Cargo Manifest
-    packagedVolume: 3.0
     portionSize: 1
     price: 100.0
     published: true
@@ -4918,12 +4566,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Fraudulent Pax Amarria
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3328.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29026:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4933,7 +4580,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Insta-Lock
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4947,11 +4593,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Caldari Traitor's DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29162:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -4961,7 +4606,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Privateer Commander's Head
-    packagedVolume: 0.25
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -4975,7 +4619,6 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Modified Augumene Antidote
-    packagedVolume: 5.0
     portionSize: 1
     price: 325.0
     published: true
@@ -4990,11 +4633,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Minmatar DNA
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29205:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5004,12 +4646,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Corporations for the Rest of Us
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3328.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29211:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5019,11 +4660,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Faulty Suntendi Virtu-Real Implant
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29272:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5033,11 +4673,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Air Show Entrance Badge
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29278:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5047,7 +4686,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Physical Samples
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5061,7 +4699,6 @@ types:
     importtaxmultiplier: 1
     mass: 3500.0
     name: Central Data Core
-    packagedVolume: 5.0
     portionSize: 1
     price: 100.0
     published: true
@@ -5076,7 +4713,6 @@ types:
     importtaxmultiplier: 1
     mass: 700.0
     name: Broken Mining Equipment
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5090,7 +4726,6 @@ types:
     importtaxmultiplier: 1
     mass: 400.0
     name: Runaway Daughter
-    packagedVolume: 25.0
     portionSize: 1
     price: 100.0
     published: true
@@ -5105,11 +4740,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ancient Painblade
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29474:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5119,11 +4753,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Singing Staff
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29475:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5133,11 +4766,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Intaki Clackers
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29476:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5147,11 +4779,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.5
     name: Folkloric Painting
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   29477:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5161,11 +4792,10 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Number Box
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   29478:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5175,11 +4805,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.5
     name: Traditional Board Game
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29480:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5189,11 +4818,10 @@ types:
     importtaxmultiplier: 1
     mass: 5.0
     name: Antique Vheriokor Statue
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.20000000298023224
+    volume: 0.2
   29531:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5203,11 +4831,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Old Map
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29607:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5217,7 +4844,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Gallentean Viral Agent
-    packagedVolume: 0.5
     portionSize: 1
     price: 850.0
     published: true
@@ -5232,7 +4858,6 @@ types:
     importtaxmultiplier: 1
     mass: 32000.0
     name: Sareko's Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5246,11 +4871,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Victor Emblem
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29934:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5260,7 +4884,6 @@ types:
     importtaxmultiplier: 1
     mass: 34000.0
     name: Splinter Bodyguard
-    packagedVolume: 25.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5274,7 +4897,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Cartel Holovids
-    packagedVolume: 1.0
     portionSize: 1
     price: 250.0
     published: true
@@ -5289,7 +4911,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Accounting Records
-    packagedVolume: 1.0
     portionSize: 1
     price: 10000.0
     published: true
@@ -5304,7 +4925,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Inquest Drone
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5318,7 +4938,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Cipher Router
-    packagedVolume: 2.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5332,7 +4951,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ottin Holoreels Case
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5346,11 +4964,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Advisory Notes
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29941:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5360,7 +4977,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Dysfunctional Fluid Router
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5374,11 +4990,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Research Data Fragment
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29943:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5388,11 +5003,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Demographic Analyses
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29944:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5402,11 +5016,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ardorele Heirloom
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29945:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5416,11 +5029,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Network Decryption Analyzer
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29946:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5430,11 +5042,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ekala's Design Documents
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29947:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5444,11 +5055,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Enigmatic Reports
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29948:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5458,11 +5068,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Insorum Booster Prototype
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29949:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5472,11 +5081,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: SARO Emblem
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29950:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5486,11 +5094,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Customs Patrol Schedule
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29951:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5500,11 +5107,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: DisX Stash
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29952:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5514,7 +5120,6 @@ types:
     importtaxmultiplier: 1
     mass: 1000.0
     name: Rebellion Cache
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5528,11 +5133,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: PDW-09FX Data Shell
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29954:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5542,11 +5146,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: PDW-09FX Tactical Subroutines
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   29955:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5556,11 +5159,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Address #298 Audio Fragment'
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30755:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5570,11 +5172,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Strange Datacore
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30756:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5584,7 +5185,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Red
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5598,7 +5198,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: A Lot of Money
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5612,7 +5211,6 @@ types:
     importtaxmultiplier: 1
     mass: 2.0
     name: Mizara's Doll
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5626,7 +5224,6 @@ types:
     importtaxmultiplier: 1
     mass: 2.0
     name: Mysterious Statuette
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5640,11 +5237,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Strange Coded Document
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30782:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5654,7 +5250,6 @@ types:
     importtaxmultiplier: 1
     mass: 2.0
     name: Corrupted Drone Components
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5668,11 +5263,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Dr. Castille's Data Core (Property of CreoDron)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30794:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5682,7 +5276,6 @@ types:
     importtaxmultiplier: 1
     mass: 50000.0
     name: Farming Supplies
-    packagedVolume: 150.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5696,7 +5289,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Wolf Burgan's Body Double
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5710,7 +5302,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Wolf Burgan's DNA
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5724,7 +5315,6 @@ types:
     importtaxmultiplier: 1
     mass: 80.0
     name: Drone Tracking Data
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5738,7 +5328,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Medical Supplies
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5752,7 +5341,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Smuggler's Warning About Sister Alitura
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5766,7 +5354,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Verification Key
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5780,11 +5367,10 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Dossier - Author Unknown
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30954:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5794,11 +5380,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Hyasyoda Captain
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30955:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5808,11 +5393,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: S.I Formula Sheet
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   30964:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5822,7 +5406,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: 'CPF.HYA LogInt Facility POI-26: Data Cache'
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5836,7 +5419,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Questionable Cargo
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5851,12 +5433,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Olfei Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32106:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5866,7 +5447,6 @@ types:
     importtaxmultiplier: 1
     mass: 40.0
     name: Sansha Command Signal Receiver
-    packagedVolume: 1.0
     portionSize: 1
     price: 750.0
     published: true
@@ -5881,7 +5461,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Covert Recording Device
-    packagedVolume: 1.0
     portionSize: 1
     price: 58624.0
     published: true
@@ -5896,11 +5475,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Archives Passkey
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32202:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5910,11 +5488,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Hauteker Memoirs
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32204:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5924,12 +5501,11 @@ types:
     importtaxmultiplier: 1
     mass: 2.0
     name: Wildfire Khumaak
-    packagedVolume: 0.30000001192092896
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.30000001192092896
+    volume: 0.3
   32218:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5939,11 +5515,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Encrypted Data Fragment
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32220:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5953,7 +5528,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ralie Ardanne's Belongings
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -5967,11 +5541,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Kidnapping Evidence
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32225:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5981,11 +5554,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Encoded Message
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32229:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -5995,11 +5567,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Singed Datapad
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32234:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6009,11 +5580,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Encrypted Transmission
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32235:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6023,7 +5593,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Tattered Doll
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6037,7 +5606,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Octomet Dog Tags
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6051,11 +5619,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Drive Cluster EDF-285
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32252:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6065,7 +5632,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Amphere 9
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6079,11 +5645,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Report R:081-9560
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32258:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6093,11 +5658,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Report R:081-9568
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32259:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6107,11 +5671,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Operation Stillwater: Synopsis'
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32265:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6121,7 +5684,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Spintric Coin
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6135,11 +5697,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ishukone Operational Reports
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32277:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6149,11 +5710,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Deteis Family
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32280:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6163,11 +5723,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Blood Obsidian Orb
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32283:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6177,11 +5736,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Engraved Blood Obsidian tablet
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32284:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6191,11 +5749,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: St. Arzad
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32285:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6205,11 +5762,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: The Benevolent
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32286:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6219,11 +5775,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: The Education of the Starkmanir
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32287:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6233,11 +5788,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Hand of Arzad
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32288:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6247,11 +5801,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: The Fire in Our Hearts
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32289:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6261,7 +5814,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: 'Holoreel: Wanted for Love'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6275,11 +5827,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Obsidian Datacore
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32294:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6289,11 +5840,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Book of St. Arzad
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32350:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6303,7 +5853,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Proof of Discovery: Anomalies'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6317,7 +5866,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Proof of Discovery: Ore'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6331,7 +5879,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Ore Passkey
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6345,7 +5892,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Proof of Discovery: Relic'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6359,7 +5905,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Proof of Discovery: Data'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6373,11 +5918,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Capital Ship Design - "Dictator"
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32375:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6387,7 +5931,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Gas Passkey
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6401,7 +5944,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: 'Proof of Discovery: Gas'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6415,11 +5957,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Guristas 'Dirty' Explosive System
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32393:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6429,7 +5970,6 @@ types:
     importtaxmultiplier: 1
     mass: 10.0
     name: Sealed Research Cache
-    packagedVolume: 2.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6443,11 +5983,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Caldari Navy Overlay Transponder
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32407:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6457,7 +5996,6 @@ types:
     importtaxmultiplier: 1
     mass: 100.0
     name: Holoreel - Torture Log I15B
-    packagedVolume: 0.5
     portionSize: 1
     price: 250.0
     published: true
@@ -6472,7 +6010,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Correspondence Log KL-513
-    packagedVolume: 0.5
     portionSize: 1
     price: 100.0
     published: true
@@ -6487,7 +6024,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Boundless Creations Security Codes
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6499,13 +6035,12 @@ types:
     exporttaxmultiplier: 1
     id: 32885
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Empire Emissary Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32886:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6513,13 +6048,12 @@ types:
     exporttaxmultiplier: 1
     id: 32886
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Republic Emissary Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32887:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6527,13 +6061,12 @@ types:
     exporttaxmultiplier: 1
     id: 32887
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Federation Emissary Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32888:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6541,13 +6074,12 @@ types:
     exporttaxmultiplier: 1
     id: 32888
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: State Emissary Medallion
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   32889:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6557,7 +6089,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Empire Diplomatic Documents
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6571,7 +6102,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Republic Diplomatic Documents
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6585,7 +6115,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Federation Diplomatic Documents
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6599,7 +6128,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: State Diplomatic Documents
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6613,11 +6141,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: New Eden Open Gold Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33071:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6627,11 +6154,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: New Eden Open Silver Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33072:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6641,11 +6167,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: New Eden Open Bronze Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33073:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6655,11 +6180,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: New Eden Open Fourth Place Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33117:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6667,13 +6191,12 @@ types:
     exporttaxmultiplier: 1
     id: 33117
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Bronze Order of the Mountain
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33118:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6681,13 +6204,12 @@ types:
     exporttaxmultiplier: 1
     id: 33118
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Iron Order of the Storm
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33119:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6695,13 +6217,12 @@ types:
     exporttaxmultiplier: 1
     id: 33119
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Steel Order of the Cold
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33120:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6711,11 +6232,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Badge of Prophet Kuria
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33121:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6725,11 +6245,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Star of the Sefrim
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33122:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6737,9 +6256,8 @@ types:
     exporttaxmultiplier: 1
     id: 33122
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Senatorial Silver Star
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6751,9 +6269,8 @@ types:
     exporttaxmultiplier: 1
     id: 33123
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Gold Medallion of Liberty
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6765,9 +6282,8 @@ types:
     exporttaxmultiplier: 1
     id: 33124
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Platinum Medallion of Freedom
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -6781,11 +6297,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Dagger of Coricia
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33126:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6795,11 +6310,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Spear of Matar
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33127:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6809,11 +6323,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Sword of Pator
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33128:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6821,13 +6334,12 @@ types:
     exporttaxmultiplier: 1
     id: 33128
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Defense of Caldari Prime Ribbon
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33129:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6835,13 +6347,12 @@ types:
     exporttaxmultiplier: 1
     id: 33129
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Assault on Caldari Prime Ribbon
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33577:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6852,12 +6363,11 @@ types:
     marketGroup: 1840
     mass: 1.0
     name: Covert Research Tools
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33618:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6868,12 +6378,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 46-X Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33619:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6884,12 +6393,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 43-X Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33620:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6900,12 +6408,11 @@ types:
     marketGroup: 738
     mass: 1.0
     name: Rogue Drone 42-X Nexus Chip
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34311:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6915,11 +6422,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Honorary Fabricator-General Baton
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34312:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6929,11 +6435,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Honorary Brigadier of Engineers Insignia
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34313:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6943,11 +6448,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Honorary Federal Harbormaster Pennon
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34314:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6957,11 +6461,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Honorary Fleet Architect Badge
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34381:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6971,11 +6474,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: X-Axis Calibration Coordinate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34382:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6985,11 +6487,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Y-Axis Calibration Coordinate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34383:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -6999,11 +6500,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Z-Axis Calibration Coordinate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34400:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7013,12 +6513,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Gamma Ray Modulate Disc
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34401:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7028,12 +6527,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Infrared Ray Modulate Disc
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34402:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7043,12 +6541,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Radio Ray Modulate Disc
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34450:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7058,11 +6555,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Intravenous Oscillation Fluid
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34451:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7072,11 +6568,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Nanoplastic Membrane Patch
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34452:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7086,11 +6581,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Self-regulating Machine Gears
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   40456:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7101,7 +6595,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Research Component
-    packagedVolume: 1.0
     portionSize: 1
     price: 100.0
     published: true
@@ -7117,12 +6610,11 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Medium 'Astrahus' Citadel BPC Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   40549:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7133,12 +6625,11 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Large 'Fortizar' Citadel BPC Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   40701:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7149,12 +6640,11 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Subcompact TEBS Interface
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   46278:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7164,11 +6654,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Corrupted Trinary Relics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   47025:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7178,12 +6667,11 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Recovered Navigation Telemetry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   47026:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7193,7 +6681,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Recovered Radioactive Materials
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7207,11 +6694,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Biomechanical Interface Data
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   47041:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7221,11 +6707,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: New Eden Genome Amalgam
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   53476:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7236,7 +6721,6 @@ types:
     marketGroup: 20
     mass: 1.0
     name: Subcranial Nanocontrollers
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7250,7 +6734,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Test crate 1
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7264,7 +6747,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Test crate 2
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7277,14 +6759,13 @@ types:
     id: 56788
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Warclone Blanks
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57213:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7294,7 +6775,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Rookie DLI Day 1 Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7308,7 +6788,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Rookie DLI Day 3 Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7322,7 +6801,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Rookie DLI Day 2 Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7336,7 +6814,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Rookie DLI Day 4 Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7350,11 +6827,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123 New Year Event Medal
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57279:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7364,7 +6840,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Festival Copper Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7378,7 +6853,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Festival Silver Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7392,7 +6866,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Festival Gold Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7406,7 +6879,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Festival-only 'Longbow' Energy Turrets Dose Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7420,7 +6892,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Festival-only 'Longbow' Projectile Turrets Dose Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7434,7 +6905,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Festival-only 'Longbow' HybridTurrets Dose Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7448,7 +6918,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Festival-only 'Longbow' Missile Dose Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7462,7 +6931,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Spring Festival Mystery Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7476,7 +6944,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Spring Festival ZhenPin Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7490,7 +6957,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Spring Festival SKIN Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7504,7 +6970,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Anniversary Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7518,7 +6983,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Anniversary SKIN Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7532,11 +6996,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123.4 Serenity Season Medal - Amarr
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57825:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7546,11 +7009,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123.4 Serenity Season Medal - Caldari
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57826:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7560,11 +7022,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123.4 Serenity Season Medal - Gallente
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57827:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7574,11 +7035,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123.4 Serenity Season Medal - Minmatar
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   57828:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7588,11 +7048,10 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: YC123.4 Serenity Season Medal - New Eden
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   59317:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7602,7 +7061,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Ship Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7616,7 +7074,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Imp/Whiptail Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7630,7 +7087,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity 618 Event Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7645,12 +7101,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Liberation Games Reward Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   59755:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7660,7 +7115,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity July Season Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7674,7 +7128,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 Event Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7688,7 +7141,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 Event SKIN Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7702,7 +7154,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 Event Manufacturing Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7716,7 +7167,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 Event Skill Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7730,7 +7180,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 Triglavian Recon Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7744,7 +7193,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 PotT SKIN Crate Small
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7758,7 +7206,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.7 PotT SKIN Crate Large
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7772,7 +7219,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.8 Season Ship Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7786,7 +7232,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.8 Season Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7800,7 +7245,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Autumn Zakura Shumyu SKIN Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7814,7 +7258,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Autumn Event Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7828,7 +7271,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.9 Season Ship Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7842,7 +7284,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.9 Season Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7856,11 +7297,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Intercepted Rogue Drone Communications Fragment 0KQC
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60455:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7870,11 +7310,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Intercepted Rogue Drone Communications Fragment GQ35
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60456:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7884,11 +7323,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Intercepted Rogue Drone Communications Fragment 55EG
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60457:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7898,11 +7336,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Intercepted Rogue Drone Communications Fragment 52B7
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60458:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7912,11 +7349,10 @@ types:
     importtaxmultiplier: 1
     mass: 0.75
     name: Intercepted Rogue Drone Communications Fragment JQH0
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60486:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7926,7 +7362,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity YC123.10 DLI Firework Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7940,7 +7375,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Cold Iron SKINs Crate S/M
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7954,7 +7388,6 @@ types:
     importtaxmultiplier: 1
     mass: 1.0
     name: Serenity Cold Iron SKINs Crate L
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
@@ -7969,12 +7402,11 @@ types:
     marketGroup: 2801
     mass: 1.0
     name: AEGIS Security Patrol Reports
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 50000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60751:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -7985,12 +7417,11 @@ types:
     marketGroup: 2801
     mass: 1.0
     name: AEGIS Personnel File Backups
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60752:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8001,12 +7432,11 @@ types:
     marketGroup: 2801
     mass: 1.0
     name: AEGIS Fortification Schematics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   60753:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8017,12 +7447,11 @@ types:
     marketGroup: 2801
     mass: 1.0
     name: AEGIS Covert Operations Reports
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62709:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8032,12 +7461,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: ORE Research Data Fragment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   63699:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8047,12 +7475,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Classified Caldari Databank
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   63704:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8063,11 +7490,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-001
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63705:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8078,11 +7504,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-004
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63706:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8093,11 +7518,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-005
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63707:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8108,11 +7532,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-006
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63708:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8123,11 +7546,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-007
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63709:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8138,11 +7560,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-008
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63710:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8153,11 +7574,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-009
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63711:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8168,11 +7588,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-010
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63712:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8183,11 +7602,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-002
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   63713:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8198,11 +7616,10 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-003
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   64033:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8211,14 +7628,13 @@ types:
     id: 64033
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Smuggler Lockbox
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   72258:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8229,12 +7645,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Operation Center Reward Token
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   72373:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8243,11 +7658,10 @@ types:
     id: 72373
     importtaxmultiplier: 1
     name: Encrypted Stellar Research Data
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73041:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8255,14 +7669,13 @@ types:
     exporttaxmultiplier: 1
     id: 73041
     importtaxmultiplier: 1
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Triglavian Encrypted Relay Data
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73248:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8273,12 +7686,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Caldari Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   73249:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8289,12 +7701,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Gallente Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   73250:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8305,12 +7716,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Amarr Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   73251:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8321,12 +7731,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Minmatar Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   74001:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8335,14 +7744,13 @@ types:
     id: 74001
     importtaxmultiplier: 1
     marketGroup: 20
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Military Navigation Telemetry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76203:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8353,12 +7761,11 @@ types:
     marketGroup: 1661
     mass: 0.75
     name: Stellar Transmuter Datacore
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 4000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   76204:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8369,12 +7776,11 @@ types:
     marketGroup: 1661
     mass: 0.75
     name: Transport Relay Datacore
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 4000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   76207:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8384,12 +7790,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Stellar Transmuter Research Index File
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76208:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8399,12 +7804,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Stellar Transmuter Research Data Fragment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76209:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8414,12 +7818,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Stellar Transmuter Research Encryption Key
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76210:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8429,12 +7832,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Transport Relay Research Index File
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76211:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8444,12 +7846,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Transport Relay Research Data Fragment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76212:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8459,12 +7860,11 @@ types:
     importtaxmultiplier: 1
     marketGroup: 1661
     name: Transport Relay Research Encryption Key
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   76375:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8475,11 +7875,9 @@ types:
     marketGroup: 1865
     mass: 1.0
     name: Mutadaptive Construction Component
-    packagedVolume: 1.0
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
     volume: 1.0
   78848:
@@ -8492,12 +7890,11 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Encrypted Upwell Consortium Data Cache
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 4000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   78857:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8508,12 +7905,11 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Guristas Insurgency Data Sequence
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 4000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   78858:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8524,12 +7920,11 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Scorched Guristas Navigation Logs
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   78860:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8540,9 +7935,8 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Guristas Cargo Concealment Unit Remains
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 3000.0
@@ -8556,12 +7950,11 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Angel Insurgency Data Sequence
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 4000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   78864:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8572,12 +7965,11 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Scorched Angel Navigation Logs
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   78866:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8588,9 +7980,8 @@ types:
     marketGroup: 3734
     mass: 0.75
     name: Angel Cargo Concealment Unit Remains
-    packagedVolume: 3000.0
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 3000.0
@@ -8604,12 +7995,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Deathless Circle Reward Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   79192:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8620,12 +8010,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Deathless Circle Insurgents Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   79785:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8639,13 +8028,11 @@ types:
     mass: 4000.0
     name: Compressed Dense Polycrase
     orebasictype: 72902
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   81953:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8656,12 +8043,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Upwell Consortium Loyalty Token
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 100000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   85178:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8670,14 +8056,13 @@ types:
     id: 85178
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Tetrimonic Warclone Blanks
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85179:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8686,14 +8071,13 @@ types:
     id: 85179
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Overseer Sabik Vial
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85242:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8702,14 +8086,13 @@ types:
     id: 85242
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Hypercatabolic Clone Tissue
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85712:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8720,12 +8103,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.05.29 - Arceho. Student Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85713:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8736,12 +8118,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.06.09 - Asst. Archeo. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85714:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8752,12 +8133,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.08.20 - Asst. Archeo. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85715:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8768,12 +8148,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.11.30 - Asst. Archeo. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85716:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8784,12 +8163,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.12.04 - Asst. Archeo. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85717:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8800,12 +8178,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC110.12.10 - Asst. Archeo. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85718:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8816,12 +8193,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC113.01.15 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85719:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8832,12 +8208,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC113.04.15 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85720:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8848,12 +8223,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC113.05.01 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85721:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8864,12 +8238,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC113.05.24 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85722:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8880,12 +8253,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC113.11.09 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85723:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8896,12 +8268,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC114.01.19 - Dr. Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85724:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8912,12 +8283,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC115.08.19 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85725:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8928,12 +8298,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.02.06 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85726:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8944,12 +8313,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.02.20 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85727:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8960,12 +8328,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.10.15 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85728:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8976,12 +8343,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.10.30 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85729:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -8992,12 +8358,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.11.01 - Yosef Okada Journal entry
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85730:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9008,12 +8373,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.11.06 - dictated record
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85731:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9024,12 +8388,11 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: YC117.11.08 - dictated record
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85757:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9040,12 +8403,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Eradicator Datacore
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   85758:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9056,12 +8418,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Observatory Spectrography
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   85759:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9072,12 +8433,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Authority Datacore
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   85849:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9088,12 +8448,11 @@ types:
     marketGroup: 754
     mass: 1.0
     name: Deathless Research Honorarium
-    packagedVolume: 0.0010000000474974513
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.0010000000474974513
+    volume: 0.001
   86413:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9104,12 +8463,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: PDN Passkey
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87217:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9120,13 +8478,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Military Stasis Pods
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87222:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9137,12 +8493,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Restricted Hyperspace Telemetry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87226:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9153,12 +8508,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Simulated Baseliner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87258:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9169,12 +8523,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Unrestricted Hyperspace Telemetry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87263:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9185,12 +8538,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Jailer Datacore
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87264:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9201,12 +8553,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Fragmented Observations
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87265:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9217,12 +8568,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Gleaned Static
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87266:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9233,12 +8583,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Gleaned Correspondence
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87267:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9249,12 +8598,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Gleaned Directive
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87268:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9265,12 +8613,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Modified Sleeper Corpse
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87269:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9281,12 +8628,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Tekton Forked Packet
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87273:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9297,12 +8643,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Breaking Point Parameters
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87354:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9313,12 +8658,11 @@ types:
     marketGroup: 1863
     mass: 1.0
     name: Beacon Datacore
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87374:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9327,14 +8671,12 @@ types:
     id: 87374
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Matar
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87389:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9343,14 +8685,12 @@ types:
     id: 87389
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Gallente Prime
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87390:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9359,14 +8699,12 @@ types:
     id: 87390
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Torment
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87391:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9375,14 +8713,12 @@ types:
     id: 87391
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Annihilation
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87392:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9391,14 +8727,12 @@ types:
     id: 87392
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Amarr
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87393:
     aspectratioheight: 9
     aspectratiowidth: 16
@@ -9407,14 +8741,12 @@ types:
     id: 87393
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Reconstructed Spectral Vision Jita
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87618:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9423,14 +8755,13 @@ types:
     id: 87618
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Warden Connection Harmonics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   87982:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9439,14 +8770,13 @@ types:
     id: 87982
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Gratuity for Warden Connection Harmonic
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 5000000.0
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88172:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9455,13 +8785,12 @@ types:
     id: 88172
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Narrowband Emission Amplifier
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88173:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9470,13 +8799,12 @@ types:
     id: 88173
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Narrowband Emission Limiter
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88174:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9485,13 +8813,12 @@ types:
     id: 88174
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Midband Emission Amplifier
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88175:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9500,13 +8827,12 @@ types:
     id: 88175
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Midband Emission Limiter
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88176:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9515,13 +8841,12 @@ types:
     id: 88176
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Wideband Emission Amplifier
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   88177:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9530,13 +8855,12 @@ types:
     id: 88177
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Wideband Emission Limiter
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   89784:
     aspectratioheight: 1
     aspectratiowidth: 1
@@ -9545,10 +8869,50 @@ types:
     id: 89784
     importtaxmultiplier: 1
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Sealed Projects Container
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
+  90180:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 90180
+    importtaxmultiplier: 1
+    marketGroup: 754
+    mass: 1.0
+    name: Pioneer Redemption Token
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.001
+  90565:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 90565
+    importtaxmultiplier: 1
+    mass: 0.1
+    name: Proof of Destruction
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.1
+  90566:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 90566
+    importtaxmultiplier: 1
+    mass: 0.1
+    name: Proof of Transmission
+    portionSize: 1
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.1

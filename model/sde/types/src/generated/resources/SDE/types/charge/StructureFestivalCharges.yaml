@@ -13,14 +13,12 @@ types:
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Capsuleer Dawn Firework (Large)
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
-    radius: 1.0
     speedmultiplier: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   47301:
     agility: 3000.0
     aimedlaunch: 1
@@ -35,11 +33,9 @@ types:
     maxvelocity: 2000.0
     missileneverdoesdamage: 1
     name: Crimson Helix Firework (Large)
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
-    radius: 1.0
     speedmultiplier: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.10000000149011612
+    volume: 0.1

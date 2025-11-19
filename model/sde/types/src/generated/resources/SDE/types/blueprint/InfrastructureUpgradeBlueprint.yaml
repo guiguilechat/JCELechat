@@ -4,482 +4,394 @@ types:
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Navigation Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81620:
     id: 81620
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Suppression Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.15E9
+    price: 1150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81622:
     id: 81622
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Advanced Logistics Network Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.15E9
+    price: 1150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   81625:
     id: 81625
     industryblueprintrank: 200.0
     marketGroup: 2017
     name: Supercapital Construction Facilities Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.3E8
+    price: 430000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82501:
     id: 82501
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Major Threat Detection Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.9E8
+    price: 290000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82502:
     id: 82502
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Major Threat Detection Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.15E9
+    price: 1150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82503:
     id: 82503
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Major Threat Detection Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.724999936E9
+    price: 1725000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82504:
     id: 82504
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Minor Threat Detection Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.9E8
+    price: 290000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82505:
     id: 82505
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Minor Threat Detection Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.15E9
+    price: 1150000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82506:
     id: 82506
     industryblueprintrank: 200.0
     marketGroup: 2016
     name: Minor Threat Detection Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.724999936E9
+    price: 1725000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82594:
     id: 82594
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Megacyte Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82595:
     id: 82595
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Megacyte Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82596:
     id: 82596
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Zydrine Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82597:
     id: 82597
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Zydrine Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82598:
     id: 82598
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Nocxium Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82599:
     id: 82599
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Nocxium Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82600:
     id: 82600
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Isogen Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82601:
     id: 82601
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Isogen Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82602:
     id: 82602
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Mexallon Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82603:
     id: 82603
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Mexallon Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82604:
     id: 82604
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Pyerite Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82605:
     id: 82605
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Pyerite Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82606:
     id: 82606
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Tritanium Prospecting Array 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E8
+    price: 350000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   82607:
     id: 82607
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Tritanium Prospecting Array 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.75E8
+    price: 575000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87735:
     id: 87735
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Tritanium Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87736:
     id: 87736
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Pyerite Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87737:
     id: 87737
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Mexallon Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87738:
     id: 87738
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Isogen Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87739:
     id: 87739
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Nocxium Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87740:
     id: 87740
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Zydrine Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87741:
     id: 87741
     industryblueprintrank: 200.0
     marketGroup: 2014
     name: Megacyte Prospecting Array 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88012:
     id: 88012
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Power Monitoring Division 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88014:
     id: 88014
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Workforce Mecha-Tooling 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88020:
     id: 88020
     industryblueprintrank: 200.0
     marketGroup: 3742
     name: Exploration Detector 1 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E8
+    price: 600000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88029:
     id: 88029
     industryblueprintrank: 200.0
     marketGroup: 3742
     name: Exploration Detector 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88036:
     id: 88036
     industryblueprintrank: 200.0
     marketGroup: 3742
     name: Exploration Detector 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88075:
     id: 88075
     industryblueprintrank: 200.0
     marketGroup: 3740
     name: Gamma Stability Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
+    price: 750000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88076:
     id: 88076
     industryblueprintrank: 200.0
     marketGroup: 3740
     name: Plasma Stability Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
+    price: 750000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88077:
     id: 88077
     industryblueprintrank: 200.0
     marketGroup: 3740
     name: Electric Stability Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
+    price: 750000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88078:
     id: 88078
     industryblueprintrank: 200.0
     marketGroup: 3740
     name: Exotic Stability Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
+    price: 750000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88230:
     id: 88230
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Power Monitoring Division 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88231:
     id: 88231
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Power Monitoring Division 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E9
+    price: 1200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88232:
     id: 88232
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Workforce Mecha-Tooling 2 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
+    price: 1000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88233:
     id: 88233
     industryblueprintrank: 200.0
     marketGroup: 3738
     name: Workforce Mecha-Tooling 3 Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E9
+    price: 1200000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

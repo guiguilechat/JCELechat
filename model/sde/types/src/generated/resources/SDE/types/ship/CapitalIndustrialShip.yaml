@@ -2,18 +2,17 @@ types:
   28352:
     advancedagility: 1
     advancedcapitalagility: 1
-    agility: 0.07000000029802322
+    agility: 0.07
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 60000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
     canreceiveclonejumps: 1
     capacitorcapacity: 67500.0
-    capacity: 40000.0
     capitalindustrialcommandbonusdronedamage: 10
     capitalindustrialshipbonusdronehitpoints: 10
     capitalindustrialshipbonusdroneicecycletime: -6
@@ -25,11 +24,11 @@ types:
     disallowinhighsec: 1
     dronebandwidth: 125
     dronecapacity: 8800
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    entosisassistanceimpedancemultiplier: 9.999999747378752E-6
+    entosisassistanceimpedancemultiplier: 1.0E-5
     entosisdurationmultiplier: 5
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     fleethangarcapacity: 40000
@@ -39,36 +38,37 @@ types:
     gfxboosterid: 394
     hasfleethangars: 1
     hasshipmaintenancebay: 1
-    heatattenuationhi: 0.8199999928474426
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7900000214576721
+    heatattenuationhi: 0.82
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.79
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
-    heatgenerationmultiplier: 0.3499999940395355
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.35
     hislots: 8
     hp: 300000.0
     id: 28352
     industrialcommandbonusminingforemanburstrange: 5
+    integratedminingscanner: 1
     iscapitalsize: 1
     iscarrierjumpconduitpassenger: 1
     istitanjumpportalpassenger: 1
-    jumpdrivecapacitorneed: 0.949999988079071
+    jumpdrivecapacitorneed: 0.95
     jumpdriveconsumptionamount: 4000
     jumpdriveconsumptiontype: 17887
     jumpdriveduration: 300000
     jumpdriverange: 5.0
     jumpdrivetargetbeacontypelistid: 348
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1048
-    mass: 8.0E8
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 800000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxgangmodules: 2
     maxjumpclones: 6
     maxlockedtargets: 7
@@ -80,11 +80,10 @@ types:
     maxvelocity: 60.0
     medslots: 7
     name: Rorqual
-    packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 420000
+    poweroutput: 420000.0
     powertospeed: 1
-    price: 4.336999936E9
+    price: 4337000000.0
     propulsiongraphicid: 397
     published: true
     radius: 1100.0
@@ -101,12 +100,13 @@ types:
     scanmagnetometricstrength: 115.0
     scanresolution: 75.0
     scanspeed: 6750
+    sensordampenerresistance: 1.0
     shieldcapacity: 90000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.44E7
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusorecapital1: -5
     shipbonusorecapital2: 5
@@ -116,14 +116,13 @@ types:
     specialfuelbaycapacity: 10000
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
-    surveyscannerrangebonus: 900
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11346
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
-    volume: 1.45E7
-    warpcapacitorneed: 1.38000002536387E-8
+    volume: 14500000.0
+    warpcapacitorneed: 1.38E-8
     warpspeedmultiplier: 1.5
     weapondisruptionresistance: 1.0

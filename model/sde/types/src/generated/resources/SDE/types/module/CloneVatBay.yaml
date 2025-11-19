@@ -16,12 +16,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Clone Vat Bay I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
-    price: 5.983288E7
+    price: 59832880.0
     published: true
-    radius: 1.0
     requiredskill1: 24606
     requiredskill1level: 1
     siegemodewarpstatus: 100
@@ -43,12 +41,10 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Tactical Capsuleer Recloner
-    packagedVolume: 4000.0
     portionSize: 1
     power: 105000
-    price: 5.983288E7
+    price: 59832880.0
     published: true
-    radius: 1.0
     reclonerfuelquantity: 10
     requiredskill1: 24606
     requiredskill1level: 3

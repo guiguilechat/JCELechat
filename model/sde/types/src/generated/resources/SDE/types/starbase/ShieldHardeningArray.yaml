@@ -12,13 +12,12 @@ types:
     id: 17184
     kineticdamageresonancemultiplier: 0.75
     marketGroup: 485
-    mass: 1.0E8
+    mass: 100000000.0
     name: Ballistic Deflection Array
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 750.0
     requiredskill1: 11584
@@ -49,13 +48,12 @@ types:
     id: 17185
     kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
+    mass: 100000000.0
     name: Explosion Dampening Array
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 750.0
     requiredskill1: 11584
@@ -86,13 +84,12 @@ types:
     id: 17186
     kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
+    mass: 100000000.0
     name: Heat Dissipation Array
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 750.0
     requiredskill1: 11584
@@ -123,13 +120,12 @@ types:
     id: 17187
     kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
+    mass: 100000000.0
     name: Photon Scattering Array
     onliningdelay: 120000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 150000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 750.0
     requiredskill1: 11584

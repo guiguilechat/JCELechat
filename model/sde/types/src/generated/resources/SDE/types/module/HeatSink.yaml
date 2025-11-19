@@ -1,7 +1,7 @@
 types:
   1893:
     cpu: 16.0
-    damagemultiplier: 1.0700000524520874
+    damagemultiplier: 1.07
     hp: 40.0
     id: 1893
     marketGroup: 647
@@ -9,75 +9,67 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Heat Sink'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9300000071525574
+    speedmultiplier: 0.93
     techlevel: 1
     volume: 5.0
   2363:
     cpu: 27.0
-    damagemultiplier: 1.0700000524520874
+    damagemultiplier: 1.07
     hp: 40.0
     id: 2363
     marketGroup: 647
     mass: 1.0
     name: Heat Sink I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9200000166893005
+    speedmultiplier: 0.92
     techlevel: 1
     volume: 5.0
   2364:
     cpu: 30.0
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     hp: 40.0
     id: 2364
     marketGroup: 647
     mass: 1.0
     metalevelold: 5
     name: Heat Sink II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.895
     techlevel: 2
     volume: 5.0
   5849:
     cpu: 25.0
-    damagemultiplier: 1.0800000429153442
+    damagemultiplier: 1.08
     hp: 40.0
     id: 5849
     marketGroup: 647
     mass: 1.0
     metalevelold: 1
     name: Extruded Compact Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9049999713897705
+    speedmultiplier: 0.905
     techlevel: 1
     volume: 5.0
   13941:
     cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+    damagemultiplier: 1.12
     hp: 40.0
     id: 13941
     marketGroup: 647
@@ -85,19 +77,17 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   13943:
     cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+    damagemultiplier: 1.12
     hp: 40.0
     id: 13943
     marketGroup: 647
@@ -105,19 +95,17 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14800:
     cpu: 22.0
-    damagemultiplier: 1.1299999952316284
+    damagemultiplier: 1.13
     hp: 40.0
     id: 14800
     marketGroup: 647
@@ -125,19 +113,17 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14802:
     cpu: 22.0
-    damagemultiplier: 1.1299999952316284
+    damagemultiplier: 1.13
     hp: 40.0
     id: 14802
     marketGroup: 647
@@ -145,19 +131,17 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14804:
     cpu: 24.0
-    damagemultiplier: 1.1349999904632568
+    damagemultiplier: 1.135
     hp: 40.0
     id: 14804
     marketGroup: 647
@@ -165,19 +149,17 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14806:
     cpu: 24.0
-    damagemultiplier: 1.1349999904632568
+    damagemultiplier: 1.135
     hp: 40.0
     id: 14806
     marketGroup: 647
@@ -185,19 +167,17 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14808:
     cpu: 26.0
-    damagemultiplier: 1.1399999856948853
+    damagemultiplier: 1.14
     hp: 40.0
     id: 14808
     marketGroup: 647
@@ -205,19 +185,17 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14810:
     cpu: 26.0
-    damagemultiplier: 1.1399999856948853
+    damagemultiplier: 1.14
     hp: 40.0
     id: 14810
     marketGroup: 647
@@ -225,19 +203,17 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14812:
     cpu: 28.0
-    damagemultiplier: 1.1449999809265137
+    damagemultiplier: 1.145
     hp: 40.0
     id: 14812
     marketGroup: 647
@@ -245,19 +221,17 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   14814:
     cpu: 28.0
-    damagemultiplier: 1.1449999809265137
+    damagemultiplier: 1.145
     hp: 40.0
     id: 14814
     marketGroup: 647
@@ -265,19 +239,17 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   15808:
     cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+    damagemultiplier: 1.12
     hp: 40.0
     id: 15808
     marketGroup: 647
@@ -285,19 +257,17 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   15810:
     cpu: 20.0
-    damagemultiplier: 1.1200000047683716
+    damagemultiplier: 1.12
     hp: 40.0
     id: 15810
     marketGroup: 647
@@ -305,19 +275,17 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0
   23902:
     cpu: 18.0
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     hp: 40.0
     id: 23902
     marketGroup: 647
@@ -325,19 +293,17 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Trebuchet'' Heat Sink I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8949999809265137
+    speedmultiplier: 0.895
     techlevel: 1
     volume: 5.0
   44111:
     cpu: 29.0
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     hp: 40.0
     id: 44111
     marketGroup: 647
@@ -345,14 +311,12 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Tahron's Custom Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     volume: 5.0
   49726:
@@ -360,11 +324,9 @@ types:
     id: 49726
     mass: 1.0
     name: Abyssal Heat Sink
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
     speedmultiplier: 1.0
@@ -372,7 +334,7 @@ types:
     volume: 1.0
   88265:
     cpu: 26.0
-    damagemultiplier: 1.1399999856948853
+    damagemultiplier: 1.14
     hp: 40.0
     id: 88265
     marketGroup: 647
@@ -380,13 +342,11 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Strategos' Modified Heat Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.8899999856948853
+    speedmultiplier: 0.89
     techlevel: 1
     volume: 5.0

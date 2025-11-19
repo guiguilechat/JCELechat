@@ -3,53 +3,41 @@ types:
     id: 4384
     industryblueprintrank: 9.0
     name: Large Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33916:
     id: 33916
     industryblueprintrank: 6.0
     name: Medium Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   83640:
     id: 83640
     industryblueprintrank: 9.0
     name: Capital Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88722:
     id: 88722
     industryblueprintrank: 9.0
     name: Xarasier Large Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88731:
     id: 88731
     industryblueprintrank: 6.0
     name: Xarasier Medium Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88734:
     id: 88734
     industryblueprintrank: 9.0
     name: Xarasier Capital Micro Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -6,15 +6,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.68
     armorhp: 10868.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 4000.0
-    capacity: 235.0
     damagemultiplier: 4.0
     disallowassistance: 1
     emdamage: 671.0
@@ -34,13 +33,13 @@ types:
     entitycruisespeed: 157.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 17250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 17343750
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8899999856948853
+    entityreactionfactor: 0.89
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.625
     falloff: 13000.0
@@ -48,7 +47,7 @@ types:
     gfxturretid: 460
     hp: 25812.0
     id: 13609
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 17250.0
@@ -58,7 +57,6 @@ types:
     modifytargetspeedrange: 15000
     name: Brokara Ryver
     optimalsigradius: 400
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -67,18 +65,18 @@ types:
     scanradarstrength: 40.0
     scanresolution: 125.0
     shieldcapacity: 26973.0
-    shieldemdamageresonance: 0.3499999940395355
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.27000001072883606
+    shieldemdamageresonance: 0.35
+    shieldexplosivedamageresonance: 0.23
+    shieldkineticdamageresonance: 0.27
     shieldrechargerate: 2004000.0
-    shieldthermaldamageresonance: 0.36000001430511475
+    shieldthermaldamageresonance: 0.36
     shielduniformity: 0.75
     signatureradius: 507.0
     speed: 4340.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 486.0
-    trackingspeed: 0.06351999938488007
+    trackingspeed: 0.06352
     volume: 100100.0
     warpscrambleduration: 5000
     warpscramblerange: 28000
@@ -90,15 +88,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.68
     armorhp: 10868.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 4100.0
-    capacity: 235.0
     damagemultiplier: 4.0
     disallowassistance: 1
     emdamage: 1020.0
@@ -118,13 +115,13 @@ types:
     entitycruisespeed: 157.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 33000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 21679688
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.78125
     falloff: 25000.0
@@ -132,7 +129,7 @@ types:
     gfxturretid: 461
     hp: 25812.0
     id: 13615
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 33000.0
@@ -142,7 +139,6 @@ types:
     modifytargetspeedrange: 15000
     name: Selynne Mardakar
     optimalsigradius: 400
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -151,18 +147,18 @@ types:
     scanradarstrength: 44.0
     scanresolution: 125.0
     shieldcapacity: 26973.0
-    shieldemdamageresonance: 0.3499999940395355
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.27000001072883606
+    shieldemdamageresonance: 0.35
+    shieldexplosivedamageresonance: 0.23
+    shieldkineticdamageresonance: 0.27
     shieldrechargerate: 2004000.0
-    shieldthermaldamageresonance: 0.36000001430511475
+    shieldthermaldamageresonance: 0.36
     shielduniformity: 0.75
     signatureradius: 507.0
     speed: 6880.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 739.0
-    trackingspeed: 0.031099999323487282
+    trackingspeed: 0.0311
     volume: 100100.0
     warpscrambleduration: 5000
     warpscramblerange: 28000
@@ -174,15 +170,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.68
     armorhp: 10868.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 4200.0
-    capacity: 235.0
     damagemultiplier: 4.0
     disallowassistance: 1
     emdamage: 752.0
@@ -202,21 +197,21 @@ types:
     entitycruisespeed: 157.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 17250.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 27099608
+    entitykillbounty: 27099609
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8899999856948853
+    entityreactionfactor: 0.89
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.9765629768371582
+    entitysecuritystatuskillbonus: 0.976563
     falloff: 13000.0
     gfxboosterid: 394
     gfxturretid: 460
     hp: 25812.0
     id: 13622
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 17250.0
@@ -226,7 +221,6 @@ types:
     modifytargetspeedrange: 15000
     name: Vizan Ankonin
     optimalsigradius: 400
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -235,18 +229,18 @@ types:
     scanradarstrength: 40.0
     scanresolution: 125.0
     shieldcapacity: 26973.0
-    shieldemdamageresonance: 0.3499999940395355
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.27000001072883606
+    shieldemdamageresonance: 0.35
+    shieldexplosivedamageresonance: 0.23
+    shieldkineticdamageresonance: 0.27
     shieldrechargerate: 2004000.0
-    shieldthermaldamageresonance: 0.36000001430511475
+    shieldthermaldamageresonance: 0.36
     shielduniformity: 0.75
     signatureradius: 507.0
     speed: 4340.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 545.0
-    trackingspeed: 0.06351999938488007
+    trackingspeed: 0.06352
     volume: 100100.0
     warpscrambleduration: 5000
     warpscramblerange: 28000
@@ -258,15 +252,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.6800000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.68
     armorhp: 10868.0
-    armorkineticdamageresonance: 0.6399999856948853
-    armorthermaldamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.64
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 4300.0
-    capacity: 235.0
     damagemultiplier: 4.0
     disallowassistance: 1
     emdamage: 1144.0
@@ -286,21 +279,21 @@ types:
     entitycruisespeed: 157.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 33000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 33874512
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.2207000255584717
+    entitysecuritystatuskillbonus: 1.2207
     falloff: 25000.0
     gfxboosterid: 394
     gfxturretid: 461
     hp: 25812.0
     id: 13635
-    mass: 1.001E7
+    mass: 10010000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 33000.0
@@ -310,7 +303,6 @@ types:
     modifytargetspeedrange: 15000
     name: Chelm Soran
     optimalsigradius: 400
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -319,18 +311,18 @@ types:
     scanradarstrength: 44.0
     scanresolution: 125.0
     shieldcapacity: 26973.0
-    shieldemdamageresonance: 0.3499999940395355
-    shieldexplosivedamageresonance: 0.23000000417232513
-    shieldkineticdamageresonance: 0.27000001072883606
+    shieldemdamageresonance: 0.35
+    shieldexplosivedamageresonance: 0.23
+    shieldkineticdamageresonance: 0.27
     shieldrechargerate: 2004000.0
-    shieldthermaldamageresonance: 0.36000001430511475
+    shieldthermaldamageresonance: 0.36
     shielduniformity: 0.75
     signatureradius: 507.0
     speed: 6880.0
     speedfactor: -55.0
     structureuniformity: 1.0
     thermaldamage: 828.0
-    trackingspeed: 0.031099999323487282
+    trackingspeed: 0.0311
     volume: 100100.0
     warpscrambleduration: 5000
     warpscramblerange: 28000

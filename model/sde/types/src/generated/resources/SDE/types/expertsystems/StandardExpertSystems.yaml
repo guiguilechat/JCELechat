@@ -3,7 +3,6 @@ types:
     id: 57203
     mass: 1.0
     name: Amarr HS Space Exploration Expert System
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -11,7 +10,6 @@ types:
     id: 57204
     mass: 1.0
     name: Caldari HS Space Exploration Expert System
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -19,7 +17,6 @@ types:
     id: 57205
     mass: 1.0
     name: Gallente HS Space Exploration Expert System
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -27,7 +24,6 @@ types:
     id: 57206
     mass: 1.0
     name: Minmatar HS Space Exploration Expert System
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -36,7 +32,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Mining Barge Operations
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -45,7 +40,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Core Ship Operations
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -54,7 +48,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Space Exploration
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -63,7 +56,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Faction Warfare
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -72,7 +64,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Hauler Operations
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -81,7 +72,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Enforcer Operations
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -90,7 +80,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Gas Harvesting
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -99,7 +88,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Logistics Pilot
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -108,7 +96,6 @@ types:
     marketGroup: 3745
     mass: 1.0
     name: Brand Manager
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -116,7 +103,6 @@ types:
     id: 86393
     mass: 1.0
     name: Deathless Expert System
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -124,7 +110,13 @@ types:
     id: 88856
     mass: 1.0
     name: Kikimora Pilot
-    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  89507:
+    id: 89507
+    mass: 1.0
+    name: Mining Destroyer Operations
     portionSize: 1
     published: true
     volume: 1.0

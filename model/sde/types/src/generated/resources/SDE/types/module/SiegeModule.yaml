@@ -15,7 +15,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 999999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -28,14 +28,12 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Siege Module II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 105000
-    price: 4.7022756E7
+    price: 47022756.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 5
     sensordampenerresistancebonus: -70
@@ -73,7 +71,7 @@ types:
     disallowtethering: 1
     dronedamagebonus: -100.0
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     ewcapacitorneedbonus: 900000000
     hp: 999999.0
     hullemdamageresonance: 1.0
@@ -88,14 +86,12 @@ types:
     maxlockedtargetsbonus: 5
     metalevelold: 5
     name: Triage Module II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 105000
-    price: 4.7022756E7
+    price: 47022756.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 27906
     requiredskill1level: 5
     scanresolutionmultiplier: 10.0
@@ -131,7 +127,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 999999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -143,14 +139,12 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Siege Module I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 4.7022756E7
+    price: 47022756.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 1
     sensordampenerresistancebonus: -60
@@ -188,7 +182,7 @@ types:
     disallowtethering: 1
     dronedamagebonus: -100.0
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     ewcapacitorneedbonus: 900000000
     hp: 999999.0
     hullemdamageresonance: 1.0
@@ -202,14 +196,12 @@ types:
     maxgroupfitted: 1
     maxlockedtargetsbonus: 4
     name: Triage Module I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 4.7022756E7
+    price: 47022756.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 27906
     requiredskill1level: 1
     scanresolutionmultiplier: 10.0
@@ -244,7 +236,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 999999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -266,14 +258,12 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Capital Industrial Core I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 28585
     requiredskill1level: 1
     scanresolutionmultiplier: 2.0
@@ -291,10 +281,10 @@ types:
   33400:
     activationblockedstrenght: 1
     armordamageamountbonus: 60
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.699999988079071
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.7
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     bastionmissilerofbonus: -50
     bastionmodearmorrepairandshieldboostercapdurationbonus: -20
     bastionturretrofbonus: -50
@@ -309,10 +299,10 @@ types:
     ecmresistance: 1.0
     falloffbonus: 25.0
     hp: 999999.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
+    hullemdamageresonance: 0.7
+    hullexplosivedamageresonance: 0.7
+    hullkineticdamageresonance: 0.7
+    hullthermaldamageresonance: 0.7
     id: 33400
     marketGroup: 801
     mass: 1.0
@@ -321,14 +311,12 @@ types:
     maxrangebonus: 25.0
     missilevelocitybonus: 25.0
     name: Bastion Module I
-    packagedVolume: 200.0
     portionSize: 1
     power: 100
     price: 5000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -95
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5
     requiredskill2: 3424
@@ -338,10 +326,10 @@ types:
     scanmagnetometricstrengthpercent: 100
     scanradarstrengthpercent: 100
     shieldboostmultiplier: 60.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.699999988079071
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.7
+    shieldthermaldamageresonance: 0.7
     siegemodewarpstatus: 100
     speedfactor: -100.0
     speedfactorfloor: -100
@@ -363,7 +351,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 999999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -386,17 +374,15 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Capital Industrial Core II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 150000
-    price: 2.08E8
+    price: 208000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -100
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 28585
     requiredskill1level: 5
-    scanresolutionmultiplier: 2.200000047683716
+    scanresolutionmultiplier: 2.2
     sensordampenerresistancebonus: -80
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -424,10 +410,8 @@ types:
     id: 56313
     mass: 1.0
     name: Abyssal Siege Module
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 22043
     requiredskill1level: 5
     shieldemdamageresonance: 1.0
@@ -453,7 +437,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 150000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 99999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -466,21 +450,19 @@ types:
     industrialcorebonusdronemining: 25
     industrialcorebonusdronevelocity: 10.0
     industrialcorebonusminingburststrength: 10.0
-    industrialcorelocallogisticsamountbonus: 20
-    industrialcorelocallogisticsdurationbonus: -30
+    industrialcorelocallogisticsamountbonus: 40
+    industrialcorelocallogisticsdurationbonus: -40
     marketGroup: 801
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Large Industrial Core I
-    packagedVolume: 3500.0
     portionSize: 1
     power: 100
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 1
     sensordampenerresistancebonus: -75
@@ -509,7 +491,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 150000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 99999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -522,21 +504,19 @@ types:
     industrialcorebonusdronemining: 75
     industrialcorebonusdronevelocity: 12.5
     industrialcorebonusminingburststrength: 15.0
-    industrialcorelocallogisticsamountbonus: 30
-    industrialcorelocallogisticsdurationbonus: -30
+    industrialcorelocallogisticsamountbonus: 50
+    industrialcorelocallogisticsdurationbonus: -40
     marketGroup: 801
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Large Industrial Core II
-    packagedVolume: 3500.0
     portionSize: 1
     power: 150
-    price: 1.56E8
+    price: 156000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 5
     sensordampenerresistancebonus: -80
@@ -565,7 +545,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 75000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 99999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -578,21 +558,19 @@ types:
     industrialcorebonusdronemining: 20
     industrialcorebonusdronevelocity: 5.0
     industrialcorebonusminingburststrength: 5.0
-    industrialcorelocallogisticsamountbonus: 10
-    industrialcorelocallogisticsdurationbonus: -15
+    industrialcorelocallogisticsamountbonus: 20
+    industrialcorelocallogisticsdurationbonus: -20
     marketGroup: 801
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Medium Industrial Core I
-    packagedVolume: 3500.0
     portionSize: 1
     power: 53
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 1
     sensordampenerresistancebonus: -75
@@ -621,7 +599,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 75000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 99999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -634,21 +612,19 @@ types:
     industrialcorebonusdronemining: 50
     industrialcorebonusdronevelocity: 10.0
     industrialcorebonusminingburststrength: 7.5
-    industrialcorelocallogisticsamountbonus: 15
-    industrialcorelocallogisticsdurationbonus: -15
+    industrialcorelocallogisticsamountbonus: 25
+    industrialcorelocallogisticsdurationbonus: -20
     marketGroup: 801
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Medium Industrial Core II
-    packagedVolume: 3500.0
     portionSize: 1
     power: 80
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 4
     sensordampenerresistancebonus: -80
@@ -678,7 +654,7 @@ types:
     disallowearlydeactivation: 1
     disallowtethering: 1
     duration: 300000.0
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     hp: 999999.0
     hullemdamageresonance: 1.0
     hullexplosivedamageresonance: 1.0
@@ -691,13 +667,11 @@ types:
     maxgroupfitted: 1
     metalevelold: 5
     name: Strategos' Modified Siege Module
-    packagedVolume: 1000.0
     portionSize: 1
     power: 120000
     published: true
-    radius: 1.0
     remoteassistanceimpedancebonus: -80
-    remoterepairimpedancebonus: -99.9999008178711
+    remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 5
     sensordampenerresistancebonus: -75

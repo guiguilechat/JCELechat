@@ -5,11 +5,9 @@ types:
     marketGroup: 1505
     mindlinkbonus: 25
     name: Armored Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 11569
@@ -22,10 +20,8 @@ types:
     marketGroup: 1505
     mindlinkbonus: 25
     name: Shield Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 3351
@@ -38,10 +34,8 @@ types:
     marketGroup: 1505
     mindlinkbonus: 25
     name: Information Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 3352
@@ -54,10 +48,8 @@ types:
     marketGroup: 1505
     mindlinkbonus: 25
     name: Skirmish Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 11572
@@ -70,10 +62,8 @@ types:
     marketGroup: 1505
     mindlinkbonus: 25
     name: Mining Foreman Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 22552
@@ -87,11 +77,9 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: Imperial Navy Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 11569
@@ -107,11 +95,9 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: Federation Navy Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 11569
@@ -127,10 +113,8 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: Republic Fleet Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 3351
@@ -146,10 +130,8 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: Caldari Navy Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 3351
@@ -165,11 +147,9 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: ORE Mining Director Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 22552
@@ -185,10 +165,8 @@ types:
     metagroupid: 4
     mindlinkbonus: 25
     name: Guri Malakim Command Mindlink
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     requiredskill2: 11572
@@ -196,4 +174,35 @@ types:
     requiredskill3: 3352
     requiredskill3level: 5
     techlevel: 1
+    volume: 1.0
+  89617:
+    id: 89617
+    implantness: 10
+    marketGroup: 1505
+    mindlinkbonus: 25
+    name: Expedition Command Mindlink
+    portionSize: 1
+    published: true
+    requiredskill1: 3411
+    requiredskill1level: 5
+    requiredskill2: 89610
+    requiredskill2level: 5
+    techlevel: 2
+    volume: 1.0
+  89618:
+    id: 89618
+    implantness: 10
+    marketGroup: 1505
+    metagroupid: 4
+    mindlinkbonus: 25
+    name: Sisters Expedition Command Mindlink
+    portionSize: 1
+    published: true
+    requiredskill1: 3411
+    requiredskill1level: 5
+    requiredskill2: 89610
+    requiredskill2level: 5
+    requiredskill3: 11569
+    requiredskill3level: 5
+    techlevel: 2
     volume: 1.0

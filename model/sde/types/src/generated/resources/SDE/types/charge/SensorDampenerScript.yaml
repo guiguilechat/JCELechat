@@ -8,11 +8,9 @@ types:
     mass: 1.0
     maxtargetrangebonusbonus: -100
     name: Scan Resolution Dampening Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scanresolutionbonusbonus: 100
     techlevel: 1
     volume: 1.0
@@ -25,11 +23,9 @@ types:
     mass: 1.0
     maxtargetrangebonusbonus: 100
     name: Targeting Range Dampening Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     scanresolutionbonusbonus: -100
     techlevel: 1
     volume: 1.0

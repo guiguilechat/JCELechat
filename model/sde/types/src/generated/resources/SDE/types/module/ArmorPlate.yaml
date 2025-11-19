@@ -7,11 +7,9 @@ types:
     marketGroup: 1676
     massaddition: 3500000
     name: 1600mm Steel Plates I
-    packagedVolume: 20.0
     portionSize: 1
     power: 500
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -24,11 +22,9 @@ types:
     marketGroup: 1672
     massaddition: 35000
     name: 100mm Steel Plates I
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -41,11 +37,9 @@ types:
     marketGroup: 1673
     massaddition: 140000
     name: 200mm Steel Plates I
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -58,11 +52,9 @@ types:
     marketGroup: 1674
     massaddition: 350000
     name: 400mm Steel Plates I
-    packagedVolume: 10.0
     portionSize: 1
     power: 30
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -75,11 +67,9 @@ types:
     marketGroup: 1675
     massaddition: 1350000
     name: 800mm Steel Plates I
-    packagedVolume: 20.0
     portionSize: 1
     power: 200
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -93,11 +83,9 @@ types:
     massaddition: 350000
     metalevelold: 1
     name: 400mm Rolled Tungsten Compact Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 28
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -111,11 +99,9 @@ types:
     massaddition: 300000
     metalevelold: 1
     name: 400mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 30
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -129,11 +115,9 @@ types:
     massaddition: 1350000
     metalevelold: 1
     name: 800mm Rolled Tungsten Compact Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 190
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -147,11 +131,9 @@ types:
     massaddition: 1200000
     metalevelold: 1
     name: 800mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 200
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -165,11 +147,9 @@ types:
     massaddition: 3500000
     metalevelold: 1
     name: 1600mm Rolled Tungsten Compact Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 480
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -183,11 +163,9 @@ types:
     massaddition: 3000000
     metalevelold: 1
     name: 1600mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 500
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -201,11 +179,9 @@ types:
     massaddition: 35000
     metalevelold: 1
     name: 100mm Rolled Tungsten Compact Plates
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -219,11 +195,9 @@ types:
     massaddition: 32500
     metalevelold: 1
     name: 100mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -237,11 +211,9 @@ types:
     massaddition: 140000
     metalevelold: 1
     name: 200mm Rolled Tungsten Compact Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 9
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -255,11 +227,9 @@ types:
     massaddition: 120000
     metalevelold: 1
     name: 200mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -273,11 +243,9 @@ types:
     massaddition: 37500
     metalevelold: 5
     name: 100mm Steel Plates II
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 2
@@ -291,11 +259,9 @@ types:
     massaddition: 150000
     metalevelold: 5
     name: 200mm Steel Plates II
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 2
@@ -309,11 +275,9 @@ types:
     massaddition: 375000
     metalevelold: 5
     name: 400mm Steel Plates II
-    packagedVolume: 10.0
     portionSize: 1
     power: 35
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 2
@@ -327,11 +291,9 @@ types:
     massaddition: 1450000
     metalevelold: 5
     name: 800mm Steel Plates II
-    packagedVolume: 20.0
     portionSize: 1
     power: 230
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 2
@@ -345,11 +307,9 @@ types:
     massaddition: 3750000
     metalevelold: 5
     name: 1600mm Steel Plates II
-    packagedVolume: 20.0
     portionSize: 1
     power: 550
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 2
@@ -364,11 +324,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Abatis'' 100mm Steel Plates'
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -383,11 +341,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Bailey'' 1600mm Steel Plates'
-    packagedVolume: 20.0
     portionSize: 1
     power: 470
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -402,11 +358,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Chainmail'' 200mm Steel Plates'
-    packagedVolume: 10.0
     portionSize: 1
     power: 8
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -421,11 +375,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Bastion'' 400mm Steel Plates'
-    packagedVolume: 10.0
     portionSize: 1
     power: 27
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -440,11 +392,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Citadella'' 100mm Steel Plates'
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -459,11 +409,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Barbican'' 800mm Steel Plates'
-    packagedVolume: 20.0
     portionSize: 1
     power: 185
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -478,11 +426,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate 100mm Steel Plates
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -497,11 +443,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate 1600mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 495
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -516,11 +460,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate 200mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 9
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -535,11 +477,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate 400mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 29
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -554,11 +494,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate 800mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 195
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -573,11 +511,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 100mm Steel Plates
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -592,11 +528,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 100mm Steel Plates
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     techlevel: 1
@@ -611,11 +545,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 1600mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 575
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -630,11 +562,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 1600mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 550
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -649,11 +579,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 200mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 13
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -668,11 +596,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 200mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 11
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -687,11 +613,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 400mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 40
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -706,11 +630,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 400mm Steel Plates
-    packagedVolume: 10.0
     portionSize: 1
     power: 35
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 2
     techlevel: 1
@@ -725,11 +647,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy 800mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 245
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -744,11 +664,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy 800mm Steel Plates
-    packagedVolume: 20.0
     portionSize: 1
     power: 230
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
@@ -761,11 +679,9 @@ types:
     marketGroup: 2240
     massaddition: 80000000
     name: 25000mm Steel Plates I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -779,11 +695,9 @@ types:
     massaddition: 68000000
     metalevelold: 1
     name: 25000mm Crystalline Carbonide Restrained Plates
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -797,11 +711,9 @@ types:
     massaddition: 80000000
     metalevelold: 1
     name: 25000mm Rolled Tungsten Compact Plates
-    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -815,11 +727,9 @@ types:
     massaddition: 88000000
     metalevelold: 5
     name: 25000mm Steel Plates II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 2
@@ -834,11 +744,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: CONCORD 25000mm Steel Plates
-    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -853,11 +761,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood 25000mm Steel Plates
-    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -872,11 +778,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis 25000mm Steel Plates
-    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -884,10 +788,8 @@ types:
   47812:
     id: 47812
     name: Small Abyssal Armor Plates
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 4
     techlevel: 1
@@ -895,10 +797,8 @@ types:
   47817:
     id: 47817
     name: Medium Abyssal Armor Plates
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 1
@@ -907,10 +807,8 @@ types:
     id: 47820
     mass: 1.0
     name: Large Abyssal Armor Plates
-    packagedVolume: 20.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 1

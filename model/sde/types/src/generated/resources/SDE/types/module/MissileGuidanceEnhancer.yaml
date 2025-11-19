@@ -1,7 +1,7 @@
 types:
   35770:
-    aoecloudsizebonus: -4.400000095367432
-    aoevelocitybonus: 4.400000095367432
+    aoecloudsizebonus: -4.4
+    aoevelocitybonus: 4.4
     cpu: 10.0
     explosiondelaybonus: 4.5
     hp: 40.0
@@ -10,11 +10,9 @@ types:
     mass: 20.0
     missilevelocitybonus: 4.5
     name: Missile Guidance Enhancer I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1
@@ -31,11 +29,9 @@ types:
     metalevelold: 5
     missilevelocitybonus: 6.0
     name: Missile Guidance Enhancer II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
     techlevel: 2
@@ -52,11 +48,9 @@ types:
     metalevelold: 1
     missilevelocitybonus: 5.5
     name: Pro-Nav Compact Missile Guidance Enhancer
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
     techlevel: 1

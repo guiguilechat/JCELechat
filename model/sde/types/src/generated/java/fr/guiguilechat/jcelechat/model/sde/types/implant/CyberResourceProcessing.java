@@ -14,13 +14,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningUpgradeCPUReductionBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -82,7 +80,7 @@ public class CyberResourceProcessing
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningAmountBonus.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, RefiningYieldMutator.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningAmountBonus.INSTANCE, DurationBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, RefiningYieldMutator.INSTANCE, IceHarvestCycleBonus.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
     public static final CyberResourceProcessing.MetaGroup METAGROUP = new CyberResourceProcessing.MetaGroup();
 
     @Override

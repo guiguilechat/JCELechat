@@ -8,11 +8,9 @@ types:
     marketGroup: 967
     mass: 1.0
     name: Signal Distortion Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 3
     techlevel: 1
@@ -27,11 +25,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Signal Distortion Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
     techlevel: 2
@@ -46,11 +42,9 @@ types:
     mass: 1.0
     metalevelold: 1
     name: Hypnos Compact Signal Distortion Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 3
     techlevel: 1
@@ -65,11 +59,9 @@ types:
     mass: 1.0
     metalevelold: 8
     name: Dread Guristas Signal Distortion Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 3
     techlevel: 1
@@ -84,11 +76,9 @@ types:
     mass: 1.0
     metalevelold: 15
     name: Hanaruwa's Modified Signal Distortion Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 3
     techlevel: 1

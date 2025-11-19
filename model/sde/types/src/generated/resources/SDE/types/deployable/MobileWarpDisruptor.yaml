@@ -12,7 +12,6 @@ types:
     id: 12198
     marketGroup: 405
     name: Mobile Small Warp Disruptor I
-    packagedVolume: 65.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -44,7 +43,6 @@ types:
     id: 12199
     marketGroup: 405
     name: Mobile Medium Warp Disruptor I
-    packagedVolume: 195.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -76,7 +74,6 @@ types:
     id: 12200
     marketGroup: 405
     name: Mobile Large Warp Disruptor I
-    packagedVolume: 585.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -109,7 +106,6 @@ types:
     marketGroup: 405
     metalevelold: 5
     name: Mobile Large Warp Disruptor II
-    packagedVolume: 585.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -142,7 +138,6 @@ types:
     marketGroup: 405
     metalevelold: 5
     name: Mobile Medium Warp Disruptor II
-    packagedVolume: 195.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -175,7 +170,6 @@ types:
     marketGroup: 405
     metalevelold: 5
     name: Mobile Small Warp Disruptor II
-    packagedVolume: 65.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -209,7 +203,6 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Syndicate Mobile Large Warp Disruptor
-    packagedVolume: 585.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -243,7 +236,6 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Syndicate Mobile Medium Warp Disruptor
-    packagedVolume: 195.0
     portionSize: 1
     published: true
     radius: 70.0
@@ -277,7 +269,6 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Syndicate Mobile Small Warp Disruptor
-    packagedVolume: 65.0
     portionSize: 1
     published: true
     radius: 70.0

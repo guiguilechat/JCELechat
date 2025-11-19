@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRangeMultiplier;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -153,7 +151,7 @@ public class AdvancedCondenserPack
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, FallofMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, AoeVelocityBonus.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, FallofMultiplier.INSTANCE, TechLevel.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, AoeVelocityBonus.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, ThermalDamage.INSTANCE, RequiredSkill1 .INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final AdvancedCondenserPack.MetaGroup METAGROUP = new AdvancedCondenserPack.MetaGroup();
 
     @Override

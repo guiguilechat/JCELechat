@@ -4,7 +4,6 @@ types:
     anchoringdelay: 5000
     armorhp: 375000.0
     armoruniformity: 0.75
-    capacity: 50.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -22,17 +21,16 @@ types:
     gfxturretid: 488
     hp: 100000.0
     id: 16631
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 187500.0
     maxtargetrange: 500000.0
     name: Small Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 101250
@@ -55,7 +53,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.007040000054985285
+    trackingspeed: 0.00704
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -65,7 +63,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 65.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -83,17 +80,16 @@ types:
     gfxturretid: 493
     hp: 100000.0
     id: 16688
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 280500.0
     maxtargetrange: 500000.0
     name: Medium Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 202500
@@ -116,7 +112,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0025668449234217405
+    trackingspeed: 0.002566845
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -126,7 +122,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 165.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -144,21 +139,20 @@ types:
     gfxturretid: 20454
     hp: 100000.0
     id: 16689
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
     name: Large Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 1000
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 405000
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -177,7 +171,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0012000000569969416
+    trackingspeed: 0.0012
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -187,7 +181,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 2500.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -205,21 +198,20 @@ types:
     gfxturretid: 20452
     hp: 100000.0
     id: 17770
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
     name: Large AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 1000
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 270000
-    price: 1.0E7
+    price: 10000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -238,7 +230,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.006171429064124823
+    trackingspeed: 0.006171429
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -248,7 +240,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 1000.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -266,17 +257,16 @@ types:
     gfxturretid: 489
     hp: 100000.0
     id: 17771
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 15000.0
     maxtargetrange: 500000.0
     name: Medium AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 135000
@@ -299,7 +289,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.03455999866127968
+    trackingspeed: 0.03456
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -309,7 +299,6 @@ types:
     anchoringdelay: 5000
     armorhp: 375000.0
     armoruniformity: 0.75
-    capacity: 750.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -327,17 +316,16 @@ types:
     gfxturretid: 486
     hp: 100000.0
     id: 17772
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 10500.0
     maxtargetrange: 500000.0
     name: Small AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 67500
@@ -360,7 +348,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.040228571742773056
+    trackingspeed: 0.040228571
     typecolorscheme: 11342
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -370,7 +358,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
-    capacity: 2500.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -388,10 +375,10 @@ types:
     gfxturretid: 20452
     hp: 100000.0
     id: 27554
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
@@ -399,11 +386,10 @@ types:
     name: Angel Large AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 243000
-    price: 1.0E7
+    price: 10000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -422,7 +408,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.006171429064124823
+    trackingspeed: 0.006171429
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -432,7 +418,6 @@ types:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 2500.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -450,10 +435,10 @@ types:
     gfxturretid: 20452
     hp: 100000.0
     id: 27556
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 21000.0
     maxtargetrange: 500000.0
@@ -461,11 +446,10 @@ types:
     name: Domination Large AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 216000
-    price: 1.0E7
+    price: 10000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -484,7 +468,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.006171429064124823
+    trackingspeed: 0.006171429
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -494,7 +478,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2250000.0
     armoruniformity: 0.75
-    capacity: 165.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -512,10 +495,10 @@ types:
     gfxturretid: 20454
     hp: 100000.0
     id: 27557
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
@@ -523,11 +506,10 @@ types:
     name: Angel Large Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 364500
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -546,7 +528,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0012000000569969416
+    trackingspeed: 0.0012
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -556,7 +538,6 @@ types:
     anchoringdelay: 5000
     armorhp: 3000000.0
     armoruniformity: 0.75
-    capacity: 165.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 4
@@ -574,10 +555,10 @@ types:
     gfxturretid: 20454
     hp: 100000.0
     id: 27559
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 300000.0
     maxtargetrange: 500000.0
@@ -585,11 +566,10 @@ types:
     name: Domination Large Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 400
-    packagedVolume: 5000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 324000
-    price: 1.25E7
+    price: 12500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -608,7 +588,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0012000000569969416
+    trackingspeed: 0.0012
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -618,7 +598,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1125000.0
     armoruniformity: 0.75
-    capacity: 65.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -636,10 +615,10 @@ types:
     gfxturretid: 493
     hp: 100000.0
     id: 27644
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 280500.0
     maxtargetrange: 500000.0
@@ -647,7 +626,6 @@ types:
     name: Angel Medium Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 182250
@@ -670,7 +648,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0025668449234217405
+    trackingspeed: 0.002566845
     typecolorscheme: 27644
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -680,7 +658,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 65.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -698,10 +675,10 @@ types:
     gfxturretid: 493
     hp: 100000.0
     id: 27646
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 280500.0
     maxtargetrange: 500000.0
@@ -709,7 +686,6 @@ types:
     name: Domination Medium Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 162000
@@ -732,7 +708,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.0025668449234217405
+    trackingspeed: 0.002566845
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -742,7 +718,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1125000.0
     armoruniformity: 0.75
-    capacity: 1000.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -760,10 +735,10 @@ types:
     gfxturretid: 489
     hp: 100000.0
     id: 27647
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 15000.0
     maxtargetrange: 500000.0
@@ -771,7 +746,6 @@ types:
     name: Angel Medium AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 121500
@@ -794,7 +768,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.03455999866127968
+    trackingspeed: 0.03456
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -804,7 +778,6 @@ types:
     anchoringdelay: 5000
     armorhp: 1500000.0
     armoruniformity: 0.75
-    capacity: 1000.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 3
@@ -822,10 +795,10 @@ types:
     gfxturretid: 489
     hp: 100000.0
     id: 27649
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 15000.0
     maxtargetrange: 500000.0
@@ -833,7 +806,6 @@ types:
     name: Domination Medium AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 125
-    packagedVolume: 1000.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 108000
@@ -856,7 +828,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.03455999866127968
+    trackingspeed: 0.03456
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -866,7 +838,6 @@ types:
     anchoringdelay: 5000
     armorhp: 562500.0
     armoruniformity: 0.75
-    capacity: 50.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -884,10 +855,10 @@ types:
     gfxturretid: 488
     hp: 100000.0
     id: 27650
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 187500.0
     maxtargetrange: 500000.0
@@ -895,7 +866,6 @@ types:
     name: Angel Small Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 40
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 91125
@@ -918,7 +888,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.007040000054985285
+    trackingspeed: 0.00704
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -928,7 +898,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 50.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -946,10 +915,10 @@ types:
     gfxturretid: 488
     hp: 100000.0
     id: 27652
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 187500.0
     maxtargetrange: 500000.0
@@ -957,7 +926,6 @@ types:
     name: Domination Small Artillery Battery
     onliningdelay: 120000
     optimalsigradius: 40
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 81000
@@ -980,7 +948,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.007040000054985285
+    trackingspeed: 0.00704
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -990,7 +958,6 @@ types:
     anchoringdelay: 5000
     armorhp: 562500.0
     armoruniformity: 0.75
-    capacity: 750.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -1008,10 +975,10 @@ types:
     gfxturretid: 11163
     hp: 100000.0
     id: 27653
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 10500.0
     maxtargetrange: 500000.0
@@ -1019,7 +986,6 @@ types:
     name: Angel Small AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 40
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 60750
@@ -1042,7 +1008,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.040228571742773056
+    trackingspeed: 0.040228571
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0
@@ -1052,7 +1018,6 @@ types:
     anchoringdelay: 5000
     armorhp: 750000.0
     armoruniformity: 0.75
-    capacity: 750.0
     chargegroup1: 83
     chargerate: 1
     chargesize: 2
@@ -1070,10 +1035,10 @@ types:
     gfxturretid: 486
     hp: 100000.0
     id: 27655
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 594
-    mass: 5.0E7
+    mass: 50000000.0
     maxlockedtargets: 1
     maxrange: 10500.0
     maxtargetrange: 500000.0
@@ -1081,7 +1046,6 @@ types:
     name: Domination Small AutoCannon Battery
     onliningdelay: 120000
     optimalsigradius: 40
-    packagedVolume: 500.0
     portionSize: 1
     posplayercontrolstructure: 1
     power: 54000
@@ -1104,7 +1068,7 @@ types:
     structureuniformity: 1.0
     targetswitchdelay: 60000
     thermaldamageresonance: 1.0
-    trackingspeed: 0.040228571742773056
+    trackingspeed: 0.040228571
     typecolorscheme: 11318
     unanchoringdelay: 5000
     uniformity: 1.0

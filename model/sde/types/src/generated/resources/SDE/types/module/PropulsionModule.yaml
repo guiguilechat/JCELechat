@@ -5,7 +5,7 @@ types:
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 434
@@ -14,12 +14,10 @@ types:
     maxgroupactive: 1
     name: 5MN Microwarpdrive I
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -33,8 +31,8 @@ types:
     capacitorneed: 22.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 438
     marketGroup: 542
@@ -43,12 +41,10 @@ types:
     metalevelold: 5
     name: 1MN Afterburner II
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 40566.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -61,8 +57,8 @@ types:
     capacitorneed: 20.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 439
     marketGroup: 542
@@ -70,12 +66,10 @@ types:
     maxgroupactive: 1
     name: 1MN Afterburner I
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -84,12 +78,12 @@ types:
     techlevel: 1
     volume: 5.0
   440:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 50.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 440
@@ -99,12 +93,10 @@ types:
     metalevelold: 5
     name: 5MN Microwarpdrive II
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 17
     price: 134084.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
@@ -119,8 +111,8 @@ types:
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 5945
     marketGroup: 131
@@ -129,12 +121,10 @@ types:
     metalevelold: 1
     name: 500MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -148,8 +138,8 @@ types:
     capacitorneed: 250.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 5955
     marketGroup: 542
@@ -158,12 +148,10 @@ types:
     metalevelold: 1
     name: 100MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -177,7 +165,7 @@ types:
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 5971
@@ -187,12 +175,10 @@ types:
     metalevelold: 1
     name: 5MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -207,7 +193,7 @@ types:
     cpu: 21.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 5973
@@ -217,12 +203,10 @@ types:
     metalevelold: 1
     name: 5MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 14
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -237,8 +221,8 @@ types:
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 5975
     marketGroup: 131
@@ -247,12 +231,10 @@ types:
     metalevelold: 1
     name: 50MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -266,8 +248,8 @@ types:
     capacitorneed: 20.0
     cpu: 13.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 6001
     marketGroup: 542
@@ -276,12 +258,10 @@ types:
     metalevelold: 1
     name: 1MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 3952.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -294,8 +274,8 @@ types:
     capacitorneed: 15.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 6003
     marketGroup: 542
@@ -304,12 +284,10 @@ types:
     metalevelold: 1
     name: 1MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 3952.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -322,8 +300,8 @@ types:
     capacitorneed: 60.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 6005
     marketGroup: 542
@@ -332,12 +310,10 @@ types:
     metalevelold: 1
     name: 10MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 3952.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -351,8 +327,8 @@ types:
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 12052
     marketGroup: 131
@@ -360,12 +336,10 @@ types:
     maxgroupactive: 1
     name: 50MN Microwarpdrive I
     overloadspeedfactorbonus: 50
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -380,8 +354,8 @@ types:
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 12054
     marketGroup: 131
@@ -389,12 +363,10 @@ types:
     maxgroupactive: 1
     name: 500MN Microwarpdrive I
     overloadspeedfactorbonus: 50
-    packagedVolume: 50.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -408,8 +380,8 @@ types:
     capacitorneed: 80.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 12056
     marketGroup: 542
@@ -417,12 +389,10 @@ types:
     maxgroupactive: 1
     name: 10MN Afterburner I
     overloadspeedfactorbonus: 50
-    packagedVolume: 25.0
     portionSize: 1
     power: 50
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -435,8 +405,8 @@ types:
     capacitorneed: 90.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 12058
     marketGroup: 542
@@ -445,12 +415,10 @@ types:
     metalevelold: 5
     name: 10MN Afterburner II
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 55
     price: 103248.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -463,8 +431,8 @@ types:
     capacitorneed: 320.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 12066
     marketGroup: 542
@@ -472,12 +440,10 @@ types:
     maxgroupactive: 1
     name: 100MN Afterburner I
     overloadspeedfactorbonus: 50
-    packagedVolume: 50.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -490,8 +456,8 @@ types:
     capacitorneed: 350.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 12068
     marketGroup: 542
@@ -500,12 +466,10 @@ types:
     metalevelold: 5
     name: 100MN Afterburner II
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 688
     price: 315952.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -514,13 +478,13 @@ types:
     techlevel: 2
     volume: 5.0
   12076:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 200.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 12076
     marketGroup: 131
@@ -529,12 +493,10 @@ types:
     metalevelold: 5
     name: 50MN Microwarpdrive II
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 165
     price: 381304.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -544,13 +506,13 @@ types:
     techlevel: 2
     volume: 10.0
   12084:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 350.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 12084
     marketGroup: 131
@@ -559,12 +521,10 @@ types:
     metalevelold: 5
     name: 500MN Microwarpdrive II
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1375
     price: 1340852.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -578,8 +538,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14102
     marketGroup: 542
@@ -589,12 +549,10 @@ types:
     metalevelold: 8
     name: Domination 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 688
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -607,8 +565,8 @@ types:
     capacitorneed: 290.0
     cpu: 55.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14104
     marketGroup: 542
@@ -618,12 +576,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -636,8 +592,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 14106
     marketGroup: 542
@@ -647,12 +603,10 @@ types:
     metalevelold: 8
     name: Domination 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 55
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -665,8 +619,8 @@ types:
     capacitorneed: 70.0
     cpu: 28.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 14108
     marketGroup: 542
@@ -676,12 +630,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -694,8 +646,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 14110
     marketGroup: 542
@@ -705,12 +657,10 @@ types:
     metalevelold: 8
     name: Domination 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -723,8 +673,8 @@ types:
     capacitorneed: 18.0
     cpu: 17.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 14112
     marketGroup: 542
@@ -734,12 +684,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -748,13 +696,13 @@ types:
     techlevel: 1
     volume: 5.0
   14114:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14114
     marketGroup: 131
@@ -764,12 +712,10 @@ types:
     metalevelold: 8
     name: Domination 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1375
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -779,13 +725,13 @@ types:
     techlevel: 1
     volume: 10.0
   14116:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 280.0
     cpu: 83.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14116
     marketGroup: 131
@@ -795,12 +741,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -810,13 +754,13 @@ types:
     techlevel: 1
     volume: 10.0
   14118:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 14118
     marketGroup: 131
@@ -826,12 +770,10 @@ types:
     metalevelold: 8
     name: Domination 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 165
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -841,13 +783,13 @@ types:
     techlevel: 1
     volume: 10.0
   14120:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 160.0
     cpu: 55.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 14120
     marketGroup: 131
@@ -857,12 +799,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -872,12 +812,12 @@ types:
     techlevel: 1
     volume: 10.0
   14122:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 14122
@@ -888,12 +828,10 @@ types:
     metalevelold: 8
     name: Domination 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 17
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -903,12 +841,12 @@ types:
     techlevel: 1
     volume: 10.0
   14124:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 40.0
     cpu: 28.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 14124
@@ -919,12 +857,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -938,8 +874,8 @@ types:
     capacitorneed: 290.0
     cpu: 45.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14484
     marketGroup: 542
@@ -949,12 +885,10 @@ types:
     metalevelold: 11
     name: Mizuro's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 647
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -967,8 +901,8 @@ types:
     capacitorneed: 290.0
     cpu: 45.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14486
     marketGroup: 542
@@ -978,12 +912,10 @@ types:
     metalevelold: 13
     name: Hakim's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 675
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -996,8 +928,8 @@ types:
     capacitorneed: 290.0
     cpu: 45.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14488
     marketGroup: 542
@@ -1007,12 +939,10 @@ types:
     metalevelold: 15
     name: Gotan's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 703
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1025,8 +955,8 @@ types:
     capacitorneed: 290.0
     cpu: 45.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14490
     marketGroup: 542
@@ -1036,12 +966,10 @@ types:
     metalevelold: 17
     name: Tobias' Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 732
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1050,13 +978,13 @@ types:
     techlevel: 1
     volume: 5.0
   14492:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 320.0
     cpu: 68.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14492
     marketGroup: 131
@@ -1066,12 +994,10 @@ types:
     metalevelold: 11
     name: Mizuro's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1294
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1081,13 +1007,13 @@ types:
     techlevel: 1
     volume: 10.0
   14494:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 320.0
     cpu: 68.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14494
     marketGroup: 131
@@ -1097,12 +1023,10 @@ types:
     metalevelold: 13
     name: Hakim's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1350
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1112,13 +1036,13 @@ types:
     techlevel: 1
     volume: 10.0
   14496:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 320.0
     cpu: 68.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14496
     marketGroup: 131
@@ -1128,12 +1052,10 @@ types:
     metalevelold: 15
     name: Gotan's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1407
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1148,8 +1070,8 @@ types:
     cpu: 68.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14498
     marketGroup: 131
@@ -1159,12 +1081,10 @@ types:
     metalevelold: 17
     name: Tobias' Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1463
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1178,8 +1098,8 @@ types:
     capacitorneed: 290.0
     cpu: 52.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14500
     marketGroup: 542
@@ -1189,12 +1109,10 @@ types:
     metalevelold: 11
     name: Brynn's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1207,8 +1125,8 @@ types:
     capacitorneed: 290.0
     cpu: 54.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14502
     marketGroup: 542
@@ -1218,12 +1136,10 @@ types:
     metalevelold: 13
     name: Tuvan's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1236,8 +1152,8 @@ types:
     capacitorneed: 290.0
     cpu: 57.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14504
     marketGroup: 542
@@ -1247,12 +1163,10 @@ types:
     metalevelold: 15
     name: Setele's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1265,8 +1179,8 @@ types:
     capacitorneed: 290.0
     cpu: 59.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 14506
     marketGroup: 542
@@ -1276,12 +1190,10 @@ types:
     metalevelold: 17
     name: Cormack's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1290,13 +1202,13 @@ types:
     techlevel: 1
     volume: 5.0
   14508:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 280.0
     cpu: 77.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14508
     marketGroup: 131
@@ -1306,12 +1218,10 @@ types:
     metalevelold: 11
     name: Brynn's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1321,13 +1231,13 @@ types:
     techlevel: 1
     volume: 10.0
   14510:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 280.0
     cpu: 81.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14510
     marketGroup: 131
@@ -1337,12 +1247,10 @@ types:
     metalevelold: 13
     name: Tuvan's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1352,13 +1260,13 @@ types:
     techlevel: 1
     volume: 10.0
   14512:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 280.0
     cpu: 85.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14512
     marketGroup: 131
@@ -1368,12 +1276,10 @@ types:
     metalevelold: 15
     name: Setele's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1388,8 +1294,8 @@ types:
     cpu: 88.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 14514
     marketGroup: 131
@@ -1399,12 +1305,10 @@ types:
     metalevelold: 17
     name: Cormack's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1414,12 +1318,12 @@ types:
     techlevel: 1
     volume: 10.0
   15747:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 15747
@@ -1430,12 +1334,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 17
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1449,8 +1351,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 15749
     marketGroup: 542
@@ -1460,12 +1362,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1474,13 +1374,13 @@ types:
     techlevel: 1
     volume: 5.0
   15751:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 15751
     marketGroup: 131
@@ -1490,12 +1390,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 165
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1509,8 +1407,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 15753
     marketGroup: 542
@@ -1520,12 +1418,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 55
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1534,13 +1430,13 @@ types:
     techlevel: 1
     volume: 5.0
   15755:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 15755
     marketGroup: 131
@@ -1550,12 +1446,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1375
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1569,8 +1463,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 15757
     marketGroup: 542
@@ -1580,12 +1474,10 @@ types:
     metalevelold: 8
     name: Republic Fleet 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 688
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1594,12 +1486,12 @@ types:
     techlevel: 1
     volume: 5.0
   15759:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 40.0
     cpu: 28.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 15759
@@ -1610,12 +1502,10 @@ types:
     metalevelold: 8
     name: Federation Navy 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1629,8 +1519,8 @@ types:
     capacitorneed: 18.0
     cpu: 17.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 15761
     marketGroup: 542
@@ -1640,12 +1530,10 @@ types:
     metalevelold: 8
     name: Federation Navy 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1654,13 +1542,13 @@ types:
     techlevel: 1
     volume: 5.0
   15764:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 160.0
     cpu: 55.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 15764
     marketGroup: 131
@@ -1670,12 +1558,10 @@ types:
     metalevelold: 8
     name: Federation Navy 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1689,8 +1575,8 @@ types:
     capacitorneed: 70.0
     cpu: 28.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 15766
     marketGroup: 542
@@ -1700,12 +1586,10 @@ types:
     metalevelold: 8
     name: Federation Navy 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1714,13 +1598,13 @@ types:
     techlevel: 1
     volume: 5.0
   15768:
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 280.0
     cpu: 83.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 15768
     marketGroup: 131
@@ -1730,12 +1614,10 @@ types:
     metalevelold: 8
     name: Federation Navy 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1749,8 +1631,8 @@ types:
     capacitorneed: 290.0
     cpu: 55.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 15770
     marketGroup: 542
@@ -1760,12 +1642,10 @@ types:
     metalevelold: 8
     name: Federation Navy 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1778,8 +1658,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18658
     marketGroup: 542
@@ -1789,12 +1669,10 @@ types:
     metalevelold: 10
     name: Gistii C-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 12
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1807,8 +1685,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18660
     marketGroup: 542
@@ -1818,12 +1696,10 @@ types:
     metalevelold: 10
     name: Gistum C-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 58
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1836,8 +1712,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18662
     marketGroup: 542
@@ -1847,12 +1723,10 @@ types:
     metalevelold: 10
     name: Gist C-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 719
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1865,8 +1739,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18664
     marketGroup: 542
@@ -1876,12 +1750,10 @@ types:
     metalevelold: 12
     name: Gistii B-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 12
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1894,8 +1766,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18666
     marketGroup: 542
@@ -1905,12 +1777,10 @@ types:
     metalevelold: 12
     name: Gistum B-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 60
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1923,8 +1793,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18668
     marketGroup: 542
@@ -1934,12 +1804,10 @@ types:
     metalevelold: 12
     name: Gist B-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 750
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1952,8 +1820,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18670
     marketGroup: 542
@@ -1963,12 +1831,10 @@ types:
     metalevelold: 14
     name: Gistii A-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 13
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -1981,8 +1847,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18672
     marketGroup: 542
@@ -1992,12 +1858,10 @@ types:
     metalevelold: 14
     name: Gistum A-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 63
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2010,8 +1874,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18674
     marketGroup: 542
@@ -2021,12 +1885,10 @@ types:
     metalevelold: 14
     name: Gist A-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 781
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2039,8 +1901,8 @@ types:
     capacitorneed: 290.0
     cpu: 50.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18676
     marketGroup: 542
@@ -2050,12 +1912,10 @@ types:
     metalevelold: 16
     name: Gist X-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 813
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2068,8 +1928,8 @@ types:
     capacitorneed: 18.0
     cpu: 17.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18680
     marketGroup: 542
@@ -2079,12 +1939,10 @@ types:
     metalevelold: 10
     name: Coreli C-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2097,8 +1955,8 @@ types:
     capacitorneed: 70.0
     cpu: 29.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18682
     marketGroup: 542
@@ -2108,12 +1966,10 @@ types:
     metalevelold: 10
     name: Corelum C-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2126,8 +1982,8 @@ types:
     capacitorneed: 290.0
     cpu: 58.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18684
     marketGroup: 542
@@ -2137,12 +1993,10 @@ types:
     metalevelold: 10
     name: Core C-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2155,8 +2009,8 @@ types:
     capacitorneed: 18.0
     cpu: 18.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18686
     marketGroup: 542
@@ -2166,12 +2020,10 @@ types:
     metalevelold: 12
     name: Coreli B-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2184,8 +2036,8 @@ types:
     capacitorneed: 70.0
     cpu: 30.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18688
     marketGroup: 542
@@ -2195,12 +2047,10 @@ types:
     metalevelold: 12
     name: Corelum B-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2213,8 +2063,8 @@ types:
     capacitorneed: 290.0
     cpu: 60.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18690
     marketGroup: 542
@@ -2224,12 +2074,10 @@ types:
     metalevelold: 12
     name: Core B-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2242,8 +2090,8 @@ types:
     capacitorneed: 18.0
     cpu: 19.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 18692
     marketGroup: 542
@@ -2253,12 +2101,10 @@ types:
     metalevelold: 14
     name: Coreli A-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2271,8 +2117,8 @@ types:
     capacitorneed: 70.0
     cpu: 32.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 18694
     marketGroup: 542
@@ -2282,12 +2128,10 @@ types:
     metalevelold: 14
     name: Corelum A-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 50
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2300,8 +2144,8 @@ types:
     capacitorneed: 290.0
     cpu: 63.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18696
     marketGroup: 542
@@ -2311,12 +2155,10 @@ types:
     metalevelold: 14
     name: Core A-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2329,8 +2171,8 @@ types:
     capacitorneed: 290.0
     cpu: 65.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 18698
     marketGroup: 542
@@ -2340,12 +2182,10 @@ types:
     metalevelold: 16
     name: Core X-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 625
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2354,12 +2194,12 @@ types:
     techlevel: 1
     volume: 5.0
   19313:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 40.0
     cpu: 29.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19313
@@ -2370,12 +2210,10 @@ types:
     metalevelold: 10
     name: Coreli C-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2385,13 +2223,13 @@ types:
     techlevel: 1
     volume: 10.0
   19315:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 160.0
     cpu: 58.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19315
     marketGroup: 131
@@ -2401,12 +2239,10 @@ types:
     metalevelold: 10
     name: Corelum C-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2416,13 +2252,13 @@ types:
     techlevel: 1
     volume: 10.0
   19317:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 280.0
     cpu: 86.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19317
     marketGroup: 131
@@ -2432,12 +2268,10 @@ types:
     metalevelold: 10
     name: Core C-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2447,12 +2281,12 @@ types:
     techlevel: 1
     volume: 10.0
   19319:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 40.0
     cpu: 30.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19319
@@ -2463,12 +2297,10 @@ types:
     metalevelold: 12
     name: Coreli B-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2478,13 +2310,13 @@ types:
     techlevel: 1
     volume: 10.0
   19321:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 160.0
     cpu: 60.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19321
     marketGroup: 131
@@ -2494,12 +2326,10 @@ types:
     metalevelold: 12
     name: Corelum B-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2509,13 +2339,13 @@ types:
     techlevel: 1
     volume: 10.0
   19323:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 280.0
     cpu: 90.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19323
     marketGroup: 131
@@ -2525,12 +2355,10 @@ types:
     metalevelold: 12
     name: Core B-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2540,12 +2368,12 @@ types:
     techlevel: 1
     volume: 10.0
   19325:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 40.0
     cpu: 31.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19325
@@ -2556,12 +2384,10 @@ types:
     metalevelold: 14
     name: Coreli A-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2571,13 +2397,13 @@ types:
     techlevel: 1
     volume: 10.0
   19327:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 160.0
     cpu: 63.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19327
     marketGroup: 131
@@ -2587,12 +2413,10 @@ types:
     metalevelold: 14
     name: Corelum A-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2602,13 +2426,13 @@ types:
     techlevel: 1
     volume: 10.0
   19329:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 280.0
     cpu: 94.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19329
     marketGroup: 131
@@ -2618,12 +2442,10 @@ types:
     metalevelold: 14
     name: Core A-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2638,8 +2460,8 @@ types:
     cpu: 98.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19335
     marketGroup: 131
@@ -2649,12 +2471,10 @@ types:
     metalevelold: 16
     name: Core X-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2664,12 +2484,12 @@ types:
     techlevel: 1
     volume: 10.0
   19337:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19337
@@ -2680,12 +2500,10 @@ types:
     metalevelold: 10
     name: Gistii C-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 17
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2695,13 +2513,13 @@ types:
     techlevel: 1
     volume: 10.0
   19339:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19339
     marketGroup: 131
@@ -2711,12 +2529,10 @@ types:
     metalevelold: 10
     name: Gistum C-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 173
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2726,13 +2542,13 @@ types:
     techlevel: 1
     volume: 10.0
   19341:
-    capacitorcapacitymultiplier: 0.9300000071525574
+    capacitorcapacitymultiplier: 0.93
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19341
     marketGroup: 131
@@ -2742,12 +2558,10 @@ types:
     metalevelold: 10
     name: Gist C-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1438
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2757,12 +2571,12 @@ types:
     techlevel: 1
     volume: 10.0
   19343:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19343
@@ -2773,12 +2587,10 @@ types:
     metalevelold: 12
     name: Gistii B-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 18
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2788,13 +2600,13 @@ types:
     techlevel: 1
     volume: 10.0
   19345:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19345
     marketGroup: 131
@@ -2804,12 +2616,10 @@ types:
     metalevelold: 12
     name: Gistum B-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2819,13 +2629,13 @@ types:
     techlevel: 1
     volume: 10.0
   19347:
-    capacitorcapacitymultiplier: 0.949999988079071
+    capacitorcapacitymultiplier: 0.95
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19347
     marketGroup: 131
@@ -2835,12 +2645,10 @@ types:
     metalevelold: 12
     name: Gist B-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1500
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2850,12 +2658,12 @@ types:
     techlevel: 1
     volume: 10.0
   19349:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 19349
@@ -2866,12 +2674,10 @@ types:
     metalevelold: 14
     name: Gistii A-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 19
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2881,13 +2687,13 @@ types:
     techlevel: 1
     volume: 10.0
   19351:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 19351
     marketGroup: 131
@@ -2897,12 +2703,10 @@ types:
     metalevelold: 14
     name: Gistum A-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 188
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2912,13 +2716,13 @@ types:
     techlevel: 1
     volume: 10.0
   19353:
-    capacitorcapacitymultiplier: 0.9700000286102295
+    capacitorcapacitymultiplier: 0.97
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19353
     marketGroup: 131
@@ -2928,12 +2732,10 @@ types:
     metalevelold: 14
     name: Gist A-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1563
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2948,8 +2750,8 @@ types:
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 19359
     marketGroup: 131
@@ -2959,12 +2761,10 @@ types:
     metalevelold: 16
     name: Gist X-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1625
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2978,8 +2778,8 @@ types:
     capacitorneed: 15.0
     cpu: 13.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 21470
     marketGroup: 542
@@ -2989,12 +2789,10 @@ types:
     metalevelold: 6
     name: 1MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 9
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3007,8 +2805,8 @@ types:
     capacitorneed: 60.0
     cpu: 21.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 21472
     marketGroup: 542
@@ -3018,12 +2816,10 @@ types:
     metalevelold: 6
     name: 10MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 45
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3036,8 +2832,8 @@ types:
     capacitorneed: 250.0
     cpu: 43.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 21474
     marketGroup: 542
@@ -3047,12 +2843,10 @@ types:
     metalevelold: 6
     name: 100MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3061,12 +2855,12 @@ types:
     techlevel: 1
     volume: 5.0
   21476:
-    capacitorcapacitymultiplier: 0.8500000238418579
+    capacitorcapacitymultiplier: 0.85
     capacitorneed: 35.0
     cpu: 21.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 21476
@@ -3077,12 +2871,10 @@ types:
     metalevelold: 6
     name: 5MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 14
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3092,13 +2884,13 @@ types:
     techlevel: 1
     volume: 10.0
   21478:
-    capacitorcapacitymultiplier: 0.8500000238418579
+    capacitorcapacitymultiplier: 0.85
     capacitorneed: 140.0
     cpu: 43.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 21478
     marketGroup: 131
@@ -3108,12 +2900,10 @@ types:
     metalevelold: 6
     name: 50MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 135
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3123,13 +2913,13 @@ types:
     techlevel: 1
     volume: 10.0
   21480:
-    capacitorcapacitymultiplier: 0.8500000238418579
+    capacitorcapacitymultiplier: 0.85
     capacitorneed: 260.0
     cpu: 64.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 21480
     marketGroup: 131
@@ -3139,12 +2929,10 @@ types:
     metalevelold: 6
     name: 500MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3158,8 +2946,8 @@ types:
     capacitorneed: 5.0
     cpu: 2.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 21857
     marketGroup: 542
@@ -3167,11 +2955,9 @@ types:
     maxgroupactive: 1
     name: 1MN Civilian Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredthermodynamicsskill: 1
     speedboostfactor: 1500000
     speedfactor: 60.0
@@ -3182,8 +2968,8 @@ types:
     capacitorneed: 80.0
     cpu: 21.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 35656
     marketGroup: 542
@@ -3192,12 +2978,10 @@ types:
     metalevelold: 1
     name: 10MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 45
     price: 3952.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3210,8 +2994,8 @@ types:
     capacitorneed: 320.0
     cpu: 43.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 4.099999904632568
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 4.1
     hp: 40.0
     id: 35657
     marketGroup: 542
@@ -3220,12 +3004,10 @@ types:
     metalevelold: 1
     name: 100MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 563
     price: 161280.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3234,12 +3016,12 @@ types:
     techlevel: 1
     volume: 5.0
   35658:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 35658
@@ -3249,12 +3031,10 @@ types:
     metalevelold: 1
     name: 5MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3269,8 +3049,8 @@ types:
     cpu: 43.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 35659
     marketGroup: 131
@@ -3279,12 +3059,10 @@ types:
     metalevelold: 1
     name: 50MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 135
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3294,13 +3072,13 @@ types:
     techlevel: 1
     volume: 10.0
   35660:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 35660
     marketGroup: 131
@@ -3309,12 +3087,10 @@ types:
     metalevelold: 1
     name: 50MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 150
     price: 37748.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3329,8 +3105,8 @@ types:
     cpu: 64.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 35661
     marketGroup: 131
@@ -3339,12 +3115,10 @@ types:
     metalevelold: 1
     name: 500MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1125
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3354,13 +3128,13 @@ types:
     techlevel: 1
     volume: 10.0
   35662:
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 320.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 8.199999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 8.2
     hp: 40.0
     id: 35662
     marketGroup: 131
@@ -3369,12 +3143,10 @@ types:
     metalevelold: 1
     name: 500MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 10.0
     portionSize: 1
     power: 1250
     price: 790940.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3395,8 +3167,8 @@ types:
     capacitorneed: 8000.0
     cpu: 75.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41236
     marketGroup: 542
@@ -3405,12 +3177,10 @@ types:
     maxgroupactive: 1
     name: 10000MN Afterburner I
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3430,8 +3200,8 @@ types:
     capacitorneed: 8000.0
     cpu: 43.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41237
     marketGroup: 542
@@ -3441,12 +3211,10 @@ types:
     metalevelold: 1
     name: 10000MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 30000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3466,8 +3234,8 @@ types:
     capacitorneed: 7200.0
     cpu: 43.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41238
     marketGroup: 542
@@ -3477,12 +3245,10 @@ types:
     metalevelold: 1
     name: 10000MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3502,8 +3268,8 @@ types:
     capacitorneed: 8000.0
     cpu: 75.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41239
     marketGroup: 542
@@ -3513,12 +3279,10 @@ types:
     metalevelold: 5
     name: 10000MN Afterburner II
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 40000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -3538,8 +3302,8 @@ types:
     capacitorneed: 8000.0
     cpu: 75.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41240
     marketGroup: 542
@@ -3550,12 +3314,10 @@ types:
     metalevelold: 8
     name: Domination 10000MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 40000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3575,8 +3337,8 @@ types:
     capacitorneed: 8000.0
     cpu: 83.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 2.799999952316284
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 2.8
     hp: 40.0
     id: 41241
     marketGroup: 542
@@ -3587,12 +3349,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 10000MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3613,7 +3373,7 @@ types:
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41249
@@ -3623,12 +3383,10 @@ types:
     maxgroupactive: 1
     name: 50000MN Microwarpdrive I
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3650,7 +3408,7 @@ types:
     cpu: 85.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41250
@@ -3661,12 +3419,10 @@ types:
     metalevelold: 1
     name: 50000MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 60000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3683,12 +3439,12 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 10000.0
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41251
@@ -3699,12 +3455,10 @@ types:
     metalevelold: 1
     name: 50000MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3726,7 +3480,7 @@ types:
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41252
@@ -3737,12 +3491,10 @@ types:
     metalevelold: 1
     name: 50000MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3759,12 +3511,12 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
-    capacitorcapacitymultiplier: 0.800000011920929
+    capacitorcapacitymultiplier: 0.8
     capacitorneed: 11000.0
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41253
@@ -3775,11 +3527,9 @@ types:
     metalevelold: 5
     name: 50000MN Microwarpdrive II
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -3796,12 +3546,12 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 10000.0
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41254
@@ -3813,12 +3563,10 @@ types:
     metalevelold: 8
     name: Domination 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3835,12 +3583,12 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
-    capacitorcapacitymultiplier: 0.8999999761581421
+    capacitorcapacitymultiplier: 0.9
     capacitorneed: 10000.0
     cpu: 110.0
     deadspaceunsafe: 1
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 6.0
     hp: 40.0
     id: 41255
@@ -3852,12 +3600,10 @@ types:
     metalevelold: 8
     name: Shadow Serpentis 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
-    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -3871,10 +3617,8 @@ types:
     id: 47408
     mass: 1.0
     name: 50MN Abyssal Microwarpdrive
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3885,10 +3629,8 @@ types:
     id: 47740
     mass: 1.0
     name: 5MN Abyssal Microwarpdrive
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 3
     speedfactor: 1.0
@@ -3899,10 +3641,8 @@ types:
     id: 47745
     mass: 1.0
     name: 500MN Abyssal Microwarpdrive
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3913,10 +3653,8 @@ types:
     id: 47749
     mass: 1.0
     name: 1MN Abyssal Afterburner
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3927,10 +3665,8 @@ types:
     id: 47753
     mass: 1.0
     name: 10MN Abyssal Afterburner
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3941,10 +3677,8 @@ types:
     id: 47757
     mass: 1.0
     name: 100MN Abyssal Afterburner
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3955,10 +3689,8 @@ types:
     id: 56305
     mass: 1000.0
     name: 10000MN Abyssal Afterburner
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 4
     speedfactor: 1.0
@@ -3969,22 +3701,20 @@ types:
     id: 56306
     mass: 1000.0
     name: 50000MN Abyssal Microwarpdrive
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 4
     speedfactor: 1.0
     techlevel: 1
     volume: 4000.0
   84962:
-    capacitorcapacitymultiplier: 0.9900000095367432
+    capacitorcapacitymultiplier: 0.99
     capacitorneed: 40.0
     cpu: 32.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 84962
@@ -3994,12 +3724,10 @@ types:
     metalevelold: 15
     name: Asine's Modified 5MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 15
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4009,12 +3737,12 @@ types:
     techlevel: 1
     volume: 10.0
   84963:
-    capacitorcapacitymultiplier: 0.9900000095367432
+    capacitorcapacitymultiplier: 0.99
     capacitorneed: 45.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
+    heatabsorbtionratemodifier: 0.04
     heatdamage: 19.0
     hp: 40.0
     id: 84963
@@ -4024,12 +3752,10 @@ types:
     metalevelold: 15
     name: Ramaku's Modified 5MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 10.0
     portionSize: 1
     power: 20
     price: 31636.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4039,13 +3765,13 @@ types:
     techlevel: 1
     volume: 10.0
   84964:
-    capacitorcapacitymultiplier: 0.9900000095367432
+    capacitorcapacitymultiplier: 0.99
     capacitorneed: 180.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 84964
     marketGroup: 131
@@ -4054,12 +3780,10 @@ types:
     metalevelold: 15
     name: Sila's Modified 50MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 25.0
     portionSize: 1
     power: 195
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4069,13 +3793,13 @@ types:
     techlevel: 1
     volume: 25.0
   84965:
-    capacitorcapacitymultiplier: 0.9900000095367432
+    capacitorcapacitymultiplier: 0.99
     capacitorneed: 160.0
     cpu: 66.0
     deadspaceunsafe: 1
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 11.399999618530273
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 11.4
     hp: 40.0
     id: 84965
     marketGroup: 131
@@ -4084,12 +3808,10 @@ types:
     metalevelold: 15
     name: Gara's Modified 50MN Microwarpdrive
     overloadspeedfactorbonus: 60
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     price: 158188.0
     published: true
-    radius: 1.0
     requiredskill1: 3454
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4103,8 +3825,8 @@ types:
     capacitorneed: 18.0
     cpu: 20.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 84966
     marketGroup: 542
@@ -4113,12 +3835,10 @@ types:
     metalevelold: 15
     name: Asine's Modified 1MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4131,8 +3851,8 @@ types:
     capacitorneed: 18.0
     cpu: 15.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 84967
     marketGroup: 542
@@ -4141,12 +3861,10 @@ types:
     metalevelold: 15
     name: Ramaku's Modified 1MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 14
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4159,8 +3877,8 @@ types:
     capacitorneed: 70.0
     cpu: 34.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 84968
     marketGroup: 542
@@ -4169,12 +3887,10 @@ types:
     metalevelold: 15
     name: Gara's Modified 10MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 25.0
     portionSize: 1
     power: 50
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4187,8 +3903,8 @@ types:
     capacitorneed: 70.0
     cpu: 25.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 84969
     marketGroup: 542
@@ -4197,12 +3913,10 @@ types:
     metalevelold: 15
     name: Sila's Modified 10MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 25.0
     portionSize: 1
     power: 65
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4215,8 +3929,8 @@ types:
     capacitorneed: 24.0
     cpu: 20.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 85025
     marketGroup: 542
@@ -4225,12 +3939,10 @@ types:
     metalevelold: 15
     name: Usaras' Modified 1MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 5.0
     portionSize: 1
     power: 14
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4243,8 +3955,8 @@ types:
     capacitorneed: 100.0
     cpu: 34.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 85026
     marketGroup: 542
@@ -4253,12 +3965,10 @@ types:
     metalevelold: 15
     name: Nija's Modified 10MN Afterburner
     overloadspeedfactorbonus: 60
-    packagedVolume: 25.0
     portionSize: 1
     power: 65
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4271,8 +3981,8 @@ types:
     capacitorneed: 18.0
     cpu: 17.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 9.600000381469727
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 9.6
     hp: 40.0
     id: 85031
     marketGroup: 542
@@ -4282,12 +3992,10 @@ types:
     metalevelold: 8
     name: True Sansha 1MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 11
     price: 6450.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -4300,8 +4008,8 @@ types:
     capacitorneed: 70.0
     cpu: 28.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.03999999910593033
-    heatdamage: 5.699999809265137
+    heatabsorbtionratemodifier: 0.04
+    heatdamage: 5.7
     hp: 40.0
     id: 85032
     marketGroup: 542
@@ -4311,12 +4019,10 @@ types:
     metalevelold: 8
     name: True Sansha 10MN Afterburner
     overloadspeedfactorbonus: 50
-    packagedVolume: 5.0
     portionSize: 1
     power: 55
     price: 32256.0
     published: true
-    radius: 1.0
     requiredskill1: 3450
     requiredskill1level: 1
     requiredthermodynamicsskill: 1

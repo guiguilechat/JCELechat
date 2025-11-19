@@ -48,7 +48,6 @@ types:
     missilelaunchduration: 20000.0
     name: Longshot Relay
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3346.0
@@ -60,7 +59,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   77126:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -82,7 +81,7 @@ types:
     portionSize: 1
     published: false
     radius: 5000.0
-    remoterepairimpedance: 0.800000011920929
+    remoterepairimpedance: 0.8
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -110,7 +109,6 @@ types:
     missilelaunchduration: 20000.0
     name: Quantum-Override Broadcaster
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3346.0
@@ -122,7 +120,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   77199:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -143,7 +141,6 @@ types:
     missilelaunchduration: 20000.0
     name: Sacred Exploiter
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3346.0
@@ -155,7 +152,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   77200:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -176,7 +173,6 @@ types:
     missilelaunchduration: 20000.0
     name: Megafinance Siphoner
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3346.0
@@ -188,7 +184,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   77251:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -297,7 +293,7 @@ types:
     portionSize: 1
     published: false
     radius: 5000.0
-    remoterepairimpedance: 0.800000011920929
+    remoterepairimpedance: 0.8
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -326,7 +322,7 @@ types:
     portionSize: 1
     published: false
     radius: 5000.0
-    remoterepairimpedance: 0.800000011920929
+    remoterepairimpedance: 0.8
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -355,7 +351,7 @@ types:
     portionSize: 1
     published: false
     radius: 5000.0
-    remoterepairimpedance: 0.800000011920929
+    remoterepairimpedance: 0.8
     shieldcapacity: 15000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -368,7 +364,6 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -384,7 +379,6 @@ types:
     missilelaunchduration: 20000.0
     name: Faulty Triglavian Cache
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -394,7 +388,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   81402:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -415,7 +409,6 @@ types:
     missilelaunchduration: 20000.0
     name: Destabilizing Array
     optimalsigradius: 1000
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 241.0
@@ -426,18 +419,18 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
-    volume: 1.0E8
+    volume: 100000000.0
   83590:
     armordamage: 30000
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 37500.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 1000.0
-    damagemultiplier: 0.800000011920929
+    damagemultiplier: 0.8
     damagemultiplierbonusmax: 2.0
-    damagemultiplierbonuspercycle: 0.05000000074505806
+    damagemultiplierbonuspercycle: 0.05
     emdamage: 200.0
     explosivedamage: 200.0
     falloff: 50000.0
@@ -456,7 +449,6 @@ types:
     missilelaunchduration: 20000.0
     name: Malfunctioning Werpost
     optimalsigradius: 100
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1359.0
@@ -470,11 +462,11 @@ types:
     scanradarstrength: 100.0
     scanresolution: 180.0
     shieldcapacity: 18000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     signatureradius: 400.0
     speed: 5000.0
     thermaldamage: 200.0
@@ -488,7 +480,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     capacitorcapacity: 1875.0
-    capacity: 650.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     entitymissiletypeid: 44260
@@ -497,7 +488,7 @@ types:
     gfxturretid: 19660
     hp: 1.0E7
     id: 83635
-    mass: 1.272E7
+    mass: 12720000.0
     maxlockedtargets: 7
     maxtargetrange: 64000.0
     missileentityaoecloudsizemultiplier: 1.0

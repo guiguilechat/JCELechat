@@ -8,7 +8,6 @@ types:
     marketGroup: 1941
     mass: 50.0
     name: Limited Jump Drive Economizer
-    packagedVolume: 3500.0
     portionSize: 1
     power: 1
     published: true
@@ -26,7 +25,6 @@ types:
     marketGroup: 1941
     mass: 50.0
     name: Experimental Jump Drive Economizer
-    packagedVolume: 3500.0
     portionSize: 1
     power: 1
     published: true
@@ -44,7 +42,6 @@ types:
     marketGroup: 1941
     mass: 50.0
     name: Prototype Jump Drive Economizer
-    packagedVolume: 3500.0
     portionSize: 1
     power: 1
     published: true

@@ -10,9 +10,10 @@ types:
     marketGroup: 1038
     maxrange: 10000.0
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Ice Harvester I
-    packagedVolume: 25.0
     portionSize: 1
     power: 10
     price: 1500368.0
@@ -26,23 +27,26 @@ types:
   17482:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
-    capacitorneed: 90.0
+    capacitorneed: 23.0
     cpu: 60.0
-    duration: 180000.0
+    duration: 45000.0
     hp: 40.0
     id: 17482
     marketGroup: 1040
     maxrange: 15000.0
-    miningamount: 600
+    miningamount: 150
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Strip Miner I
-    packagedVolume: 25.0
     portionSize: 1
     power: 10
     published: true
     radius: 25.0
     requiredskill1: 3386
     requiredskill1level: 4
+    requiredskill2: 3410
+    requiredskill2level: 1
     techlevel: 1
     typecolorscheme: 11346
     volume: 25.0
@@ -58,10 +62,11 @@ types:
     maxrange: 10000.0
     metalevelold: 5
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
     name: Ice Harvester II
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
@@ -84,9 +89,10 @@ types:
     metagroupid: 4
     metalevelold: 6
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Ice Harvester
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     price: 1500368.0
@@ -100,44 +106,48 @@ types:
   28754:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
-    capacitorneed: 90.0
+    capacitorneed: 23.0
     cpu: 50.0
-    duration: 180000.0
+    duration: 45000.0
     hp: 40.0
     id: 28754
     marketGroup: 1040
     maxrange: 18750.0
     metagroupid: 4
     metalevelold: 6
-    miningamount: 800
+    miningamount: 200
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Strip Miner
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
     radius: 25.0
     requiredskill1: 3386
     requiredskill1level: 4
+    requiredskill2: 3410
+    requiredskill2level: 1
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
   87562:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
-    capacitorneed: 90.0
+    capacitorneed: 23.0
     cpu: 50.0
-    duration: 180000.0
+    duration: 45000.0
     hp: 40.0
     id: 87562
     marketGroup: 1040
     maxrange: 18750.0
     metagroupid: 4
     metalevelold: 6
-    miningamount: 532
+    miningamount: 133
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Deep Core Strip Miner
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
@@ -149,3 +159,50 @@ types:
     techlevel: 1
     typecolorscheme: 11346
     volume: 5.0
+  90493:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    id: 90493
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Strip Miner
+    portionSize: 1
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 25.0
+  90498:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    id: 90498
+    metagroupid: 4
+    metalevelold: 6
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Deep Core Strip Miner
+    portionSize: 1
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    requiredskill2: 11395
+    requiredskill2level: 2
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  90524:
+    canfitshipgroup01: 463
+    canfitshipgroup02: 543
+    id: 90524
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Ice Harvester
+    portionSize: 1
+    price: 1500368.0
+    published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 25.0

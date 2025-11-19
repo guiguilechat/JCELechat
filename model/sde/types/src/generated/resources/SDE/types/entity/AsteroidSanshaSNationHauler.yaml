@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 6750.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -20,22 +19,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1000000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10000000149011612
+    entitysecuritystatuskillbonus: 0.1
     falloff: 1.0
     gfxboosterid: 394
     hp: 5250.0
     id: 13726
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1000.0
     name: Sansha's Carrier
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -43,10 +41,10 @@ types:
     rechargerate: 1.5E7
     shieldcapacity: 4250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -56,15 +54,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -72,22 +69,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 750000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     falloff: 1.0
     gfxboosterid: 394
     hp: 4750.0
     id: 13727
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1500.0
     name: Sansha's Convoy
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -95,10 +91,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 3975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -108,15 +104,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4800.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -124,22 +119,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 500000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 26
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07999999821186066
+    entitysecuritystatuskillbonus: 0.08
     falloff: 1.0
     gfxboosterid: 394
     hp: 4250.0
     id: 13728
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1000.0
     name: Sansha's Trailer
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -147,10 +141,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 3500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -160,15 +154,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 4250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -176,22 +169,21 @@ types:
     entitycruisespeed: 145.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 250000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 27
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     falloff: 1.0
     gfxboosterid: 394
     hp: 3975.0
     id: 13729
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1500.0
     name: Sansha's Hauler
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -199,10 +191,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 3250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     structureuniformity: 1.0
@@ -212,15 +204,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1800.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -228,22 +219,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 85000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
+    entitysecuritystatuskillbonus: 0.05
     falloff: 1.0
     gfxboosterid: 394
     hp: 1500.0
     id: 13730
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 750.0
     name: Sansha's Bulker
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -251,10 +241,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -264,15 +254,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1650.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -280,22 +269,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 75000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04749999940395355
+    entitysecuritystatuskillbonus: 0.0475
     falloff: 1.0
     gfxboosterid: 394
     hp: 1425.0
     id: 13731
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1000.0
     name: Sansha's Transporter
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -303,10 +291,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -316,15 +304,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -332,22 +319,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.04500000178813934
+    entitysecuritystatuskillbonus: 0.045
     falloff: 1.0
     gfxboosterid: 394
     hp: 1350.0
     id: 13732
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 750.0
     name: Sansha's Trucker
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -355,10 +341,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -368,15 +354,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1400.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -384,22 +369,21 @@ types:
     entitycruisespeed: 175.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 55000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.042500000447034836
+    entitysecuritystatuskillbonus: 0.0425
     falloff: 1.0
     gfxboosterid: 394
     hp: 1250.0
     id: 13733
-    mass: 1.001E7
+    mass: 10010000.0
     maxvelocity: 1000.0
     name: Sansha's Courier
-    packagedVolume: 100100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -407,10 +391,10 @@ types:
     rechargerate: 1000000.0
     shieldcapacity: 1050.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 200.0
     structureuniformity: 1.0
@@ -420,15 +404,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -436,14 +419,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 15000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     falloff: 1.0
     gfxboosterid: 394
     hp: 250.0
@@ -451,7 +434,6 @@ types:
     mass: 2112000.0
     maxvelocity: 650.0
     name: Sansha's Loader
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -459,10 +441,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -472,15 +454,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 200.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -488,14 +469,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 12500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.014999999664723873
+    entitysecuritystatuskillbonus: 0.015
     falloff: 1.0
     gfxboosterid: 394
     hp: 200.0
@@ -503,7 +484,6 @@ types:
     mass: 2112000.0
     maxvelocity: 650.0
     name: Sansha's Ferrier
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -511,10 +491,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -524,15 +504,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 200.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -540,14 +519,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     falloff: 1.0
     gfxboosterid: 394
     hp: 200.0
@@ -555,7 +534,6 @@ types:
     mass: 2112000.0
     maxvelocity: 250.0
     name: Sansha's Gatherer
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -563,10 +541,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0
@@ -576,15 +554,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 315.0
-    capacity: 235.0
     disallowassistance: 1
     entityattackrange: 15000
     entitybracketcolour: 1
@@ -592,14 +569,14 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0024999999441206455
+    entityfactionloss: 0.0025
     entityflyrange: 200000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 8500
     entitylootcountmin: 2
     entityoverviewshipgroupid: 25
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.012500000186264515
+    entitysecuritystatuskillbonus: 0.0125
     falloff: 1.0
     gfxboosterid: 394
     hp: 250.0
@@ -607,7 +584,6 @@ types:
     mass: 2112000.0
     maxvelocity: 250.0
     name: Sansha's Harvester
-    packagedVolume: 21120.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -615,10 +591,10 @@ types:
     rechargerate: 500000.0
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     structureuniformity: 1.0

@@ -4,8 +4,7 @@ types:
     marketGroup: 2480
     mass: 1.0
     name: Stability Telemetry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

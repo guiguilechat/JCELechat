@@ -2,240 +2,199 @@ types:
   1237:
     hp: 1.0
     id: 1237
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Overdrive Injector System II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1245:
     id: 1245
     industryblueprintrank: 3.0
     marketGroup: 332
     name: Overdrive Injector System I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1318:
     id: 1318
     industryblueprintrank: 3.0
     marketGroup: 335
     name: Expanded Cargohold I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1320:
     hp: 1.0
     id: 1320
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Expanded Cargohold II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1334:
     id: 1334
     industryblueprintrank: 3.0
     marketGroup: 335
     name: Reinforced Bulkheads I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1336:
     hp: 1.0
     id: 1336
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Reinforced Bulkheads II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1404:
     id: 1404
     industryblueprintrank: 3.0
     marketGroup: 332
     name: Inertial Stabilizers I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 54380.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1406:
     hp: 1.0
     id: 1406
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Inertial Stabilizers II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2604:
     id: 2604
     industryblueprintrank: 3.0
     marketGroup: 335
     name: Nanofiber Internal Structure I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16640.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2606:
     hp: 1.0
     id: 2606
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Nanofiber Internal Structure II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   21492:
     id: 21492
     industryblueprintrank: 3.0
     name: Synthetic Hull Conversion Overdrive Injector Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21494:
     id: 21494
     industryblueprintrank: 3.0
     name: Limited Expanded 'Archiver' Cargo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21497:
     id: 21497
     industryblueprintrank: 3.0
     name: Synthetic Hull Conversion Reinforced Bulkheads Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21499:
     id: 21499
     industryblueprintrank: 3.0
     name: Synthetic Hull Conversion Inertial Stabilizers Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21501:
     id: 21501
     industryblueprintrank: 3.0
     name: Synthetic Hull Conversion Nanofiber Structure Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21856:
     id: 21856
     industryblueprintrank: 3.0
     name: Civilian Expanded Cargohold Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33982:
     id: 33982
     industryblueprintrank: 3.0
     name: Limited Hyperspatial Accelerator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33984:
     id: 33984
     industryblueprintrank: 3.0
     name: Experimental Hyperspatial Accelerator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33986:
     id: 33986
     industryblueprintrank: 3.0
     name: Prototype Hyperspatial Accelerator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34123:
     id: 34123
     name: Limited Jump Drive Economizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34125:
     id: 34125
     name: Experimental Jump Drive Economizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34127:
     id: 34127
     name: Prototype Jump Drive Economizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 249980.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

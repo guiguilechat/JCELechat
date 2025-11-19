@@ -4,50 +4,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.800000011920929
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.8
     armorexplosivedamageresonance: 0.5
     armorhp: 850.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 600.0
-    capacity: 465.0
     damagemultiplier: 3.4375
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 120.0
-    entityarmorrepairdelaychancemedium: 0.4000000059604645
+    entityarmorrepairdelaychancemedium: 0.4
     entityarmorrepairduration: 10000
     entityattackdelaymax: 22200
     entityattackdelaymin: 5550
     entityattackrange: 17250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.0024999999441206455
+    entitydefenderchance: 0.0025
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.004000000189989805
+    entityfactionloss: 0.004
     entityflyrange: 5750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5099999904632568
+    entityreactionfactor: 0.51
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05000000074505806
+    entitysecuritystatuskillbonus: 0.05
     falloff: 1000.0
     gfxboosterid: 397
     gfxturretid: 455
     hp: 850.0
     id: 10281
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5500.0
@@ -58,7 +57,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Arch Reaver
     optimalsigradius: 125
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -67,18 +65,18 @@ types:
     scanradarstrength: 14.0
     scanresolution: 290.0
     shieldcapacity: 550.0
-    shieldemdamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 105.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.08100000023841858
+    trackingspeed: 0.081
     trackingspeedmultiplier: 1.0
     volume: 115000.0
     warpscrambleduration: 8000
@@ -87,50 +85,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7900000214576721
-    armorexplosivedamageresonance: 0.49000000953674316
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.79
+    armorexplosivedamageresonance: 0.49
     armorhp: 875.0
-    armorkineticdamageresonance: 0.5899999737739563
-    armorthermaldamageresonance: 0.6899999976158142
+    armorkineticdamageresonance: 0.59
+    armorthermaldamageresonance: 0.69
     armoruniformity: 0.75
     capacitorcapacity: 625.0
-    capacity: 450.0
     damagemultiplier: 3.75
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 130.0
-    entityarmorrepairdelaychancemedium: 0.4099999964237213
+    entityarmorrepairdelaychancemedium: 0.41
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21900
     entityattackdelaymin: 5475
     entityattackrange: 17250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.004999999888241291
+    entitydefenderchance: 0.005
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 0.0044999998062849045
+    entityfactionloss: 0.0045
     entityflyrange: 5750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 57500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5199999809265137
+    entityreactionfactor: 0.52
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05249999836087227
+    entitysecuritystatuskillbonus: 0.0525
     falloff: 1000.0
     gfxboosterid: 397
     gfxturretid: 455
     hp: 875.0
     id: 10282
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5500.0
@@ -141,7 +138,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Arch Engraver
     optimalsigradius: 125
-    packagedVolume: 120000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -150,18 +146,18 @@ types:
     scanradarstrength: 14.0
     scanresolution: 290.0
     shieldcapacity: 700.0
-    shieldemdamageresonance: 0.7900000214576721
-    shieldexplosivedamageresonance: 0.49000000953674316
-    shieldkineticdamageresonance: 0.5899999737739563
+    shieldemdamageresonance: 0.79
+    shieldexplosivedamageresonance: 0.49
+    shieldkineticdamageresonance: 0.59
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6899999976158142
+    shieldthermaldamageresonance: 0.69
     shielduniformity: 0.75
     signatureradius: 105.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.08100000023841858
+    trackingspeed: 0.081
     trackingspeedmultiplier: 1.0
     volume: 120000.0
     warpscrambleduration: 8000
@@ -170,22 +166,21 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7799999713897705
-    armorexplosivedamageresonance: 0.47999998927116394
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.78
+    armorexplosivedamageresonance: 0.48
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.5799999833106995
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.58
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 650.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 0.25
     entityarmorrepairamount: 140.0
-    entityarmorrepairdelaychancemedium: 0.41999998688697815
+    entityarmorrepairdelaychancemedium: 0.42
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21600
     entityattackdelaymin: 5400
@@ -194,30 +189,30 @@ types:
     entitycapacitordrainamount: 50
     entitycapacitordrainmaxrange: 10000
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.007499999832361937
+    entitydefenderchance: 0.0075
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 65000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5299999713897705
+    entityreactionfactor: 0.53
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.054999999701976776
+    entitysecuritystatuskillbonus: 0.055
     falloff: 3000.0
     falloffbonus: -20.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1000.0
     id: 11043
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -228,11 +223,10 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Blood Arch Templar
-    npctrackingdisruptoractivationchance: 0.07000000029802322
+    npctrackingdisruptoractivationchance: 0.07
     npctrackingdisruptorduration: 30000.0
     npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -241,18 +235,18 @@ types:
     scanradarstrength: 21.0
     scanresolution: 240.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.7799999713897705
-    shieldexplosivedamageresonance: 0.47999998927116394
-    shieldkineticdamageresonance: 0.5799999833106995
+    shieldemdamageresonance: 0.78
+    shieldexplosivedamageresonance: 0.48
+    shieldkineticdamageresonance: 0.58
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 160.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -261,51 +255,50 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7699999809265137
-    armorexplosivedamageresonance: 0.4699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.77
+    armorexplosivedamageresonance: 0.47
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.6700000166893005
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.67
     armoruniformity: 0.75
     capacitorcapacity: 675.0
-    capacity: 235.0
     damagemultiplier: 4.75
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 150.0
-    entityarmorrepairdelaychancemedium: 0.4300000071525574
+    entityarmorrepairdelaychancemedium: 0.43
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21300
     entityattackdelaymin: 5325
     entityattackrange: 47500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 28500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.009999999776482582
+    entitydefenderchance: 0.01
     entityequipmentmax: 4
     entityequipmentmin: 2
-    entityfactionloss: 0.005499999970197678
+    entityfactionloss: 0.0055
     entityflyrange: 19000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 72500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5400000214576721
+    entityreactionfactor: 0.54
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.057500001043081284
+    entitysecuritystatuskillbonus: 0.0575
     falloff: 6000.0
     falloffbonus: -25.0
     gfxboosterid: 397
     gfxturretid: 457
     hp: 1100.0
     id: 11044
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 17500.0
@@ -316,11 +309,10 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Blood Revenant
-    npctrackingdisruptoractivationchance: 0.07999999821186066
+    npctrackingdisruptoractivationchance: 0.08
     npctrackingdisruptorduration: 30000.0
     npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -329,18 +321,18 @@ types:
     scanradarstrength: 22.0
     scanresolution: 240.0
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.7699999809265137
-    shieldexplosivedamageresonance: 0.4699999988079071
-    shieldkineticdamageresonance: 0.5699999928474426
+    shieldemdamageresonance: 0.77
+    shieldexplosivedamageresonance: 0.47
+    shieldkineticdamageresonance: 0.57
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6700000166893005
+    shieldthermaldamageresonance: 0.67
     shielduniformity: 0.75
     signatureradius: 160.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.041999999433755875
+    trackingspeed: 0.042
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -349,15 +341,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7599999904632568
-    armorexplosivedamageresonance: 0.46000000834465027
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.76
+    armorexplosivedamageresonance: 0.46
     armorhp: 1400.0
-    armorkineticdamageresonance: 0.5600000023841858
-    armorthermaldamageresonance: 0.6600000262260437
+    armorkineticdamageresonance: 0.56
+    armorthermaldamageresonance: 0.66
     armoruniformity: 0.75
     capacitorcapacity: 700.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     emdamage: 10.0
@@ -366,36 +357,36 @@ types:
     energyneutralizerentitychance: 0.25
     energyneutralizerrangeoptimal: 10000
     entityarmorrepairamount: 160.0
-    entityarmorrepairdelaychancemedium: 0.4399999976158142
+    entityarmorrepairdelaychancemedium: 0.44
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21000
     entityattackdelaymin: 5250
     entityattackrange: 21750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.012500000186264515
+    entitydefenderchance: 0.0125
     entityequipmentmax: 5
     entityequipmentmin: 2
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 80000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.550000011920929
+    entityreactionfactor: 0.55
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05999999865889549
+    entitysecuritystatuskillbonus: 0.06
     falloff: 3000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1250.0
     id: 11901
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -406,7 +397,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -415,18 +405,18 @@ types:
     scanradarstrength: 23.0
     scanresolution: 220.0
     shieldcapacity: 1050.0
-    shieldemdamageresonance: 0.7599999904632568
-    shieldexplosivedamageresonance: 0.46000000834465027
-    shieldkineticdamageresonance: 0.5600000023841858
+    shieldemdamageresonance: 0.76
+    shieldexplosivedamageresonance: 0.46
+    shieldkineticdamageresonance: 0.56
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6600000262260437
+    shieldthermaldamageresonance: 0.66
     shielduniformity: 0.75
     signatureradius: 185.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -435,15 +425,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.75
-    armorexplosivedamageresonance: 0.44999998807907104
+    armorexplosivedamageresonance: 0.45
     armorhp: 1500.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 235.0
     damagemultiplier: 4.75
     disallowassistance: 1
     emdamage: 10.0
@@ -452,28 +441,28 @@ types:
     energyneutralizerentitychance: 0.25
     energyneutralizerrangeoptimal: 10000
     entityarmorrepairamount: 170.0
-    entityarmorrepairdelaychancemedium: 0.44999998807907104
+    entityarmorrepairdelaychancemedium: 0.45
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20700
     entityattackdelaymin: 5175
     entityattackrange: 18125
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 10875
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.014999999664723873
+    entitydefenderchance: 0.015
     entityequipmentmax: 5
     entityequipmentmin: 2
-    entityfactionloss: 0.007000000216066837
+    entityfactionloss: 0.007
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 87500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5600000023841858
+    entityreactionfactor: 0.56
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.0625
     falloff: 3000.0
@@ -481,7 +470,7 @@ types:
     gfxturretid: 456
     hp: 1350.0
     id: 11902
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -492,7 +481,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -502,17 +490,17 @@ types:
     scanresolution: 220.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 0.75
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.550000011920929
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.55
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6499999761581421
+    shieldthermaldamageresonance: 0.65
     shielduniformity: 0.75
     signatureradius: 185.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -521,50 +509,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7400000095367432
-    armorexplosivedamageresonance: 0.4399999976158142
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.74
+    armorexplosivedamageresonance: 0.44
     armorhp: 1650.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.6399999856948853
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.64
     armoruniformity: 0.75
     capacitorcapacity: 750.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 180.0
-    entityarmorrepairdelaychancemedium: 0.46000000834465027
+    entityarmorrepairdelaychancemedium: 0.46
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20400
     entityattackdelaymin: 5100
     entityattackrange: 28500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 19000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.017500000074505806
+    entitydefenderchance: 0.0175
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.00800000037997961
+    entityfactionloss: 0.008
     entityflyrange: 9500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 95000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5699999928474426
+    entityreactionfactor: 0.57
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.06499999761581421
+    entitysecuritystatuskillbonus: 0.065
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1425.0
     id: 11903
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8500.0
@@ -575,7 +562,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Arch Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -584,18 +570,18 @@ types:
     scanradarstrength: 15.0
     scanresolution: 270.0
     shieldcapacity: 1150.0
-    shieldemdamageresonance: 0.7400000095367432
-    shieldexplosivedamageresonance: 0.4399999976158142
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.74
+    shieldexplosivedamageresonance: 0.44
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6399999856948853
+    shieldthermaldamageresonance: 0.64
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.06499999761581421
+    trackingspeed: 0.065
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -604,50 +590,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7300000190734863
-    armorexplosivedamageresonance: 0.4300000071525574
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.73
+    armorexplosivedamageresonance: 0.43
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.5299999713897705
-    armorthermaldamageresonance: 0.6299999952316284
+    armorkineticdamageresonance: 0.53
+    armorthermaldamageresonance: 0.63
     armoruniformity: 0.75
     capacitorcapacity: 775.0
-    capacity: 235.0
     damagemultiplier: 6.0
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 190.0
-    entityarmorrepairdelaychancemedium: 0.4699999988079071
+    entityarmorrepairdelaychancemedium: 0.47
     entityarmorrepairduration: 10000
     entityattackdelaymax: 20100
     entityattackdelaymin: 5025
     entityattackrange: 55000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 102500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5799999833106995
+    entityreactionfactor: 0.58
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.06750000268220901
+    entitysecuritystatuskillbonus: 0.0675
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 11904
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -658,7 +643,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Arch Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -667,18 +651,18 @@ types:
     scanradarstrength: 15.0
     scanresolution: 270.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.7300000190734863
-    shieldexplosivedamageresonance: 0.4300000071525574
-    shieldkineticdamageresonance: 0.5299999713897705
+    shieldemdamageresonance: 0.73
+    shieldexplosivedamageresonance: 0.43
+    shieldkineticdamageresonance: 0.53
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6299999952316284
+    shieldthermaldamageresonance: 0.63
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -687,50 +671,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7200000286102295
-    armorexplosivedamageresonance: 0.41999998688697815
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.72
+    armorexplosivedamageresonance: 0.42
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.5199999809265137
-    armorthermaldamageresonance: 0.6200000047683716
+    armorkineticdamageresonance: 0.52
+    armorthermaldamageresonance: 0.62
     armoruniformity: 0.75
     capacitorcapacity: 800.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
     emdamage: 12.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 200.0
-    entityarmorrepairdelaychancemedium: 0.47999998927116394
+    entityarmorrepairdelaychancemedium: 0.48
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19800
     entityattackdelaymin: 4950
     entityattackrange: 28500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 19000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02250000089406967
+    entitydefenderchance: 0.0225
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 9500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 110000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5899999737739563
+    entityreactionfactor: 0.59
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07000000029802322
+    entitysecuritystatuskillbonus: 0.07
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 23257
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 8500.0
@@ -741,7 +724,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Shadow Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -750,18 +732,18 @@ types:
     scanradarstrength: 16.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.7200000286102295
-    shieldexplosivedamageresonance: 0.41999998688697815
-    shieldkineticdamageresonance: 0.5199999809265137
+    shieldemdamageresonance: 0.72
+    shieldexplosivedamageresonance: 0.42
+    shieldkineticdamageresonance: 0.52
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6200000047683716
+    shieldthermaldamageresonance: 0.62
     shielduniformity: 0.75
     signatureradius: 145.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.06499999761581421
+    trackingspeed: 0.065
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -770,50 +752,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7099999785423279
-    armorexplosivedamageresonance: 0.4099999964237213
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.71
+    armorexplosivedamageresonance: 0.41
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.6100000143051147
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.61
     armoruniformity: 0.75
     capacitorcapacity: 825.0
-    capacity: 235.0
     damagemultiplier: 6.0
     disallowassistance: 1
     emdamage: 12.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 210.0
-    entityarmorrepairdelaychancemedium: 0.49000000953674316
+    entityarmorrepairdelaychancemedium: 0.49
     entityarmorrepairduration: 10000
     entityattackdelaymax: 19500
     entityattackdelaymin: 4875
     entityattackrange: 55000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.02500000037252903
+    entitydefenderchance: 0.025
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 117500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07249999791383743
+    entitysecuritystatuskillbonus: 0.0725
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 23258
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
@@ -824,7 +805,6 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Dark Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -833,18 +813,18 @@ types:
     scanradarstrength: 16.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.7099999785423279
-    shieldexplosivedamageresonance: 0.4099999964237213
-    shieldkineticdamageresonance: 0.5099999904632568
+    shieldemdamageresonance: 0.71
+    shieldexplosivedamageresonance: 0.41
+    shieldkineticdamageresonance: 0.51
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6100000143051147
+    shieldthermaldamageresonance: 0.61
     shielduniformity: 0.75
     signatureradius: 145.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -853,15 +833,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6299999952316284
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.63
+    armorexplosivedamageresonance: 0.3
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5099999904632568
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.51
     armoruniformity: 0.75
     capacitorcapacity: 1000.0
-    capacity: 235.0
     damagemultiplier: 4.5
     disallowassistance: 1
     emdamage: 8.0
@@ -877,29 +856,29 @@ types:
     entitycapacitordrainamount: 125
     entitycapacitordrainmaxrange: 10000
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.05249999836087227
+    entitydefenderchance: 0.0525
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 240000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6700000166893005
+    entityreactionfactor: 0.67
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09000000357627869
+    entitysecuritystatuskillbonus: 0.09
     falloff: 1000.0
     gfxboosterid: 397
     gfxturretid: 455
     hp: 1500.0
     id: 23281
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5500.0
@@ -910,7 +889,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Reaver
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -919,18 +897,18 @@ types:
     scanradarstrength: 14.0
     scanresolution: 290.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.6299999952316284
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.63
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5099999904632568
+    shieldthermaldamageresonance: 0.51
     shielduniformity: 0.75
     signatureradius: 115.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.08100000023841858
+    trackingspeed: 0.081
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -939,22 +917,21 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6299999952316284
-    armorexplosivedamageresonance: 0.30000001192092896
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.63
+    armorexplosivedamageresonance: 0.3
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.5099999904632568
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.51
     armoruniformity: 0.75
     capacitorcapacity: 1025.0
-    capacity: 235.0
     damagemultiplier: 5.125
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 0.5
     entityarmorrepairamount: 230.0
-    entityarmorrepairdelaychancemedium: 0.5099999904632568
+    entityarmorrepairdelaychancemedium: 0.51
     entityarmorrepairduration: 10000
     entityattackdelaymax: 17100
     entityattackdelaymin: 4275
@@ -963,29 +940,29 @@ types:
     entitycapacitordrainamount: 150
     entitycapacitordrainmaxrange: 10000
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 11500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.054999999701976776
+    entitydefenderchance: 0.055
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 5750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 255000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6800000071525574
+    entityreactionfactor: 0.68
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0925000011920929
+    entitysecuritystatuskillbonus: 0.0925
     falloff: 1000.0
     gfxboosterid: 397
     gfxturretid: 455
     hp: 1500.0
     id: 23282
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5500.0
@@ -996,7 +973,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Engraver
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1005,18 +981,18 @@ types:
     scanradarstrength: 14.0
     scanresolution: 290.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.6299999952316284
-    shieldexplosivedamageresonance: 0.30000001192092896
-    shieldkineticdamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.63
+    shieldexplosivedamageresonance: 0.3
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.5099999904632568
+    shieldthermaldamageresonance: 0.51
     shielduniformity: 0.75
     signatureradius: 115.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.08100000023841858
+    trackingspeed: 0.081
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1025,50 +1001,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2800000011920929
-    armorexplosivedamageresonance: 0.10000000149011612
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.28
+    armorexplosivedamageresonance: 0.1
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.15000000596046448
-    armorthermaldamageresonance: 0.20999999344348907
+    armorkineticdamageresonance: 0.15
+    armorthermaldamageresonance: 0.21
     armoruniformity: 0.75
     capacitorcapacity: 1150.0
-    capacity: 235.0
     damagemultiplier: 5.90625
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 280.0
-    entityarmorrepairdelaychancemedium: 0.5600000023841858
+    entityarmorrepairdelaychancemedium: 0.56
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15600
     entityattackdelaymin: 3900
     entityattackrange: 41250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 27500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.06750000268220901
+    entitydefenderchance: 0.0675
     entityequipmentmax: 6
     entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 13750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 330000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.7300000190734863
+    entityreactionfactor: 0.73
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10499999672174454
+    entitysecuritystatuskillbonus: 0.105
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 458
     hp: 1500.0
     id: 23283
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 12750.0
@@ -1079,7 +1054,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1088,18 +1062,18 @@ types:
     scanradarstrength: 17.0
     scanresolution: 270.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.2800000011920929
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.28
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.15
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.20999999344348907
+    shieldthermaldamageresonance: 0.21
     shielduniformity: 0.75
     signatureradius: 135.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.06499999761581421
+    trackingspeed: 0.065
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1108,50 +1082,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2800000011920929
-    armorexplosivedamageresonance: 0.10000000149011612
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.28
+    armorexplosivedamageresonance: 0.1
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.15000000596046448
-    armorthermaldamageresonance: 0.20999999344348907
+    armorkineticdamageresonance: 0.15
+    armorthermaldamageresonance: 0.21
     armoruniformity: 0.75
     capacitorcapacity: 1175.0
-    capacity: 235.0
-    damagemultiplier: 7.349999904632568
+    damagemultiplier: 7.35
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 290.0
-    entityarmorrepairdelaychancemedium: 0.5699999928474426
+    entityarmorrepairdelaychancemedium: 0.57
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15300
     entityattackdelaymin: 3825
     entityattackrange: 80000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 48000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.07000000029802322
+    entitydefenderchance: 0.07
     entityequipmentmax: 6
     entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 32000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 345000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.7400000095367432
+    entityreactionfactor: 0.74
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10750000178813934
+    entitysecuritystatuskillbonus: 0.1075
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 23284
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 30000.0
@@ -1162,7 +1135,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1171,18 +1143,18 @@ types:
     scanradarstrength: 17.0
     scanresolution: 270.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.2800000011920929
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.28
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.15
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.20999999344348907
+    shieldthermaldamageresonance: 0.21
     shielduniformity: 0.75
     signatureradius: 135.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1191,36 +1163,35 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2800000011920929
-    armorexplosivedamageresonance: 0.10000000149011612
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.28
+    armorexplosivedamageresonance: 0.1
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.15000000596046448
-    armorthermaldamageresonance: 0.20999999344348907
+    armorkineticdamageresonance: 0.15
+    armorthermaldamageresonance: 0.21
     armoruniformity: 0.75
     capacitorcapacity: 1200.0
-    capacity: 235.0
     damagemultiplier: 5.8125
     disallowassistance: 1
     emdamage: 12.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychancemedium: 0.5799999833106995
+    entityarmorrepairdelaychancemedium: 0.58
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15000
     entityattackdelaymin: 3750
     entityattackrange: 41250
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 27500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.07249999791383743
+    entitydefenderchance: 0.0725
     entityequipmentmax: 6
     entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 13750.0
     entitygrouprespawnchance: 1
     entitykillbounty: 360000
@@ -1228,13 +1199,13 @@ types:
     entityoverviewshipgroupid: 26
     entityreactionfactor: 0.75
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10999999940395355
+    entitysecuritystatuskillbonus: 0.11
     falloff: 4000.0
     gfxboosterid: 397
     gfxturretid: 458
     hp: 1500.0
     id: 23285
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 12750.0
@@ -1245,7 +1216,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Shadow Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1254,18 +1224,18 @@ types:
     scanradarstrength: 18.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.2800000011920929
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.28
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.15
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.20999999344348907
+    shieldthermaldamageresonance: 0.21
     shielduniformity: 0.75
     signatureradius: 155.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.06499999761581421
+    trackingspeed: 0.065
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1274,50 +1244,49 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.2800000011920929
-    armorexplosivedamageresonance: 0.10000000149011612
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.28
+    armorexplosivedamageresonance: 0.1
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.15000000596046448
-    armorthermaldamageresonance: 0.20999999344348907
+    armorkineticdamageresonance: 0.15
+    armorthermaldamageresonance: 0.21
     armoruniformity: 0.75
     capacitorcapacity: 1225.0
-    capacity: 235.0
     damagemultiplier: 7.25
     disallowassistance: 1
     emdamage: 12.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 310.0
-    entityarmorrepairdelaychancemedium: 0.5899999737739563
+    entityarmorrepairdelaychancemedium: 0.59
     entityarmorrepairduration: 10000
     entityattackdelaymax: 14700
     entityattackdelaymin: 3675
     entityattackrange: 80000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 48000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.07500000298023224
+    entitydefenderchance: 0.075
     entityequipmentmax: 6
     entityequipmentmin: 5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 32000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 375000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.7599999904632568
+    entityreactionfactor: 0.76
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.11249999701976776
+    entitysecuritystatuskillbonus: 0.1125
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 23286
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 30000.0
@@ -1328,7 +1297,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Dark Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1337,18 +1305,18 @@ types:
     scanradarstrength: 18.0
     scanresolution: 260.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.2800000011920929
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.28
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.15
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.20999999344348907
+    shieldthermaldamageresonance: 0.21
     shielduniformity: 0.75
     signatureradius: 155.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1357,15 +1325,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 1800.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1050.0
-    capacity: 235.0
     damagemultiplier: 5.125
     disallowassistance: 1
     emdamage: 8.0
@@ -1374,37 +1341,37 @@ types:
     energyneutralizerentitychance: 0.5
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 240.0
-    entityarmorrepairdelaychancemedium: 0.5199999809265137
+    entityarmorrepairdelaychancemedium: 0.52
     entityarmorrepairduration: 10000
     entityattackdelaymax: 16800
     entityattackdelaymin: 4200
     entityattackrange: 21750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.057500001043081284
+    entitydefenderchance: 0.0575
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 270000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6899999976158142
+    entityreactionfactor: 0.69
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0949999988079071
+    entitysecuritystatuskillbonus: 0.095
     falloff: 3000.0
     falloffbonus: -30.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 23643
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -1415,11 +1382,10 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Templar
-    npctrackingdisruptoractivationchance: 0.3499999940395355
+    npctrackingdisruptoractivationchance: 0.35
     npctrackingdisruptorduration: 30000.0
     npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1428,18 +1394,18 @@ types:
     scanradarstrength: 33.0
     scanresolution: 240.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 170.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1448,15 +1414,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 1800.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1075.0
-    capacity: 235.0
     damagemultiplier: 6.25
     disallowassistance: 1
     emdamage: 8.0
@@ -1465,37 +1430,37 @@ types:
     energyneutralizerentitychance: 0.5
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 250.0
-    entityarmorrepairdelaychancemedium: 0.5299999713897705
+    entityarmorrepairdelaychancemedium: 0.53
     entityarmorrepairduration: 10000
     entityattackdelaymax: 16500
     entityattackdelaymin: 4125
     entityattackrange: 47500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 28500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.05999999865889549
+    entitydefenderchance: 0.06
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 19000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 285000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.09749999642372131
+    entitysecuritystatuskillbonus: 0.0975
     falloff: 6000.0
     falloffbonus: -35.0
     gfxboosterid: 397
     gfxturretid: 457
     hp: 1500.0
     id: 23644
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 17500.0
@@ -1506,11 +1471,10 @@ types:
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Elder Blood Revenant
-    npctrackingdisruptoractivationchance: 0.4000000059604645
+    npctrackingdisruptoractivationchance: 0.4
     npctrackingdisruptorduration: 30000.0
     npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1519,18 +1483,18 @@ types:
     scanradarstrength: 34.0
     scanresolution: 240.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 170.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.041999999433755875
+    trackingspeed: 0.042
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1539,15 +1503,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 1800.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1100.0
-    capacity: 235.0
     damagemultiplier: 4.6875
     disallowassistance: 1
     emdamage: 10.0
@@ -1556,14 +1519,14 @@ types:
     energyneutralizerentitychance: 0.75
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 260.0
-    entityarmorrepairdelaychancemedium: 0.5400000214576721
+    entityarmorrepairdelaychancemedium: 0.54
     entityarmorrepairduration: 10000
     entityattackdelaymax: 16200
     entityattackdelaymin: 4050
     entityattackrange: 21750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -1571,21 +1534,21 @@ types:
     entitydefenderchance: 0.0625
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.7099999785423279
+    entityreactionfactor: 0.71
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10000000149011612
+    entitysecuritystatuskillbonus: 0.1
     falloff: 3000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 23645
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -1596,7 +1559,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Sage
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1605,18 +1567,18 @@ types:
     scanradarstrength: 35.0
     scanresolution: 220.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 195.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1625,16 +1587,15 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 1800.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1125.0
-    capacity: 235.0
-    damagemultiplier: 5.650000095367432
+    damagemultiplier: 5.65
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizeramount: 275.0
@@ -1642,36 +1603,36 @@ types:
     energyneutralizerentitychance: 0.75
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 270.0
-    entityarmorrepairdelaychancemedium: 0.550000011920929
+    entityarmorrepairdelaychancemedium: 0.55
     entityarmorrepairduration: 10000
     entityattackdelaymax: 15900
     entityattackdelaymin: 3975
     entityattackrange: 47500
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.17499999701976776
+    entitychasemaxdelaychance: 0.175
     entitychasemaxdistance: 28500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.06499999761581421
+    entitydefenderchance: 0.065
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 19000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 315000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.7200000286102295
+    entityreactionfactor: 0.72
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.10249999910593033
+    entitysecuritystatuskillbonus: 0.1025
     falloff: 6000.0
     gfxboosterid: 397
     gfxturretid: 457
     hp: 1500.0
     id: 23646
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 17500.0
@@ -1682,7 +1643,6 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Priest
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1691,18 +1651,18 @@ types:
     scanradarstrength: 36.0
     scanresolution: 220.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 195.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.041999999433755875
+    trackingspeed: 0.042
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1711,14 +1671,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.7599999904632568
-    armorexplosivedamageresonance: 0.46000000834465027
+    armoremdamageresonance: 0.76
+    armorexplosivedamageresonance: 0.46
     armorhp: 1400.0
-    armorkineticdamageresonance: 0.5600000023841858
-    armorthermaldamageresonance: 0.6600000262260437
+    armorkineticdamageresonance: 0.56
+    armorthermaldamageresonance: 0.66
     armoruniformity: 0.75
     capacitorcapacity: 700.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     emdamage: 10.0
@@ -1727,36 +1686,36 @@ types:
     energyneutralizerentitychance: 0.25
     energyneutralizerrangeoptimal: 10000
     entityarmorrepairamount: 160.0
-    entityarmorrepairdelaychancemedium: 0.4399999976158142
+    entityarmorrepairdelaychancemedium: 0.44
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21000
     entityattackdelaymin: 5250
     entityattackrange: 21750
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.20000000298023224
+    entitychasemaxdelaychance: 0.2
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 180.0
-    entitydefenderchance: 0.012500000186264515
+    entitydefenderchance: 0.0125
     entityequipmentmax: 5
     entityequipmentmin: 2
-    entityfactionloss: 0.006000000052154064
+    entityfactionloss: 0.006
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 80000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.550000011920929
+    entityreactionfactor: 0.55
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.05999999865889549
+    entitysecuritystatuskillbonus: 0.06
     falloff: 3000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1250.0
     id: 24630
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 6500.0
@@ -1767,7 +1726,6 @@ types:
     modifytargetspeedrange: 20000
     name: TEST DRAINER
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1776,18 +1734,18 @@ types:
     scanradarstrength: 23.0
     scanresolution: 220.0
     shieldcapacity: 1050.0
-    shieldemdamageresonance: 0.7599999904632568
-    shieldexplosivedamageresonance: 0.46000000834465027
-    shieldkineticdamageresonance: 0.5600000023841858
+    shieldemdamageresonance: 0.76
+    shieldexplosivedamageresonance: 0.46
+    shieldkineticdamageresonance: 0.56
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6600000262260437
+    shieldthermaldamageresonance: 0.66
     shielduniformity: 0.75
     signatureradius: 185.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
+    trackingspeed: 0.072
     trackingspeedmultiplier: 1.0
     volume: 118000.0
     warpscrambleduration: 8000
@@ -1796,15 +1754,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 1800.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1050.0
-    capacity: 235.0
     damagemultiplier: 5.625
     disallowassistance: 1
     emdamage: 8.0
@@ -1816,40 +1773,39 @@ types:
     entityattackrange: 200000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.057500001043081284
+    entitydefenderchance: 0.0575
     entityequipmentmax: 5
     entityequipmentmin: -4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6899999976158142
+    entityreactionfactor: 0.69
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.20000000298023224
+    entitysecuritystatuskillbonus: 0.2
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1500.0
     id: 33135
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 90000.0
-    maxrangemultiplier: 0.699999988079071
+    maxrangemultiplier: 0.7
     maxvelocity: 460.0
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Blood Clone Soldier Trainer
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     powertransferamount: 175
     propulsiongraphicid: 397
@@ -1859,19 +1815,19 @@ types:
     scanradarstrength: 33.0
     scanresolution: 240.0
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 90.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
-    trackingspeedmultiplier: 0.699999988079071
+    trackingspeed: 0.072
+    trackingspeedmultiplier: 0.7
     volume: 118000.0
     warpscrambleduration: 8000
   33144:
@@ -1879,15 +1835,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 2160.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1050.0
-    capacity: 235.0
     damagemultiplier: 16.875
     disallowassistance: 1
     emdamage: 8.0
@@ -1899,40 +1854,39 @@ types:
     entityattackrange: 200000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.057500001043081284
+    entitydefenderchance: 0.0575
     entityequipmentmax: 5
     entityequipmentmin: -4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1250000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6899999976158142
+    entityreactionfactor: 0.69
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.30000001192092896
+    entitysecuritystatuskillbonus: 0.3
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 1800.0
     id: 33144
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 90000.0
-    maxrangemultiplier: 0.699999988079071
+    maxrangemultiplier: 0.7
     maxvelocity: 460.0
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Blood Clone Soldier Recruiter
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     powertransferamount: 175
     propulsiongraphicid: 397
@@ -1942,19 +1896,19 @@ types:
     scanradarstrength: 33.0
     scanresolution: 240.0
     shieldcapacity: 1440.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 90.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
-    trackingspeedmultiplier: 0.699999988079071
+    trackingspeed: 0.072
+    trackingspeedmultiplier: 0.7
     volume: 118000.0
     warpscrambleduration: 8000
   33172:
@@ -1962,53 +1916,52 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 2592.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1050.0
-    capacity: 235.0
     damagemultiplier: 21.9375
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 30000
-    entityarmorrepairamountpersecond: 27.299999237060547
+    entityarmorrepairamountpersecond: 27.3
     entityarmorrepairduration: 10000
     entityattackdelaymax: 16800
     entityattackdelaymin: 4200
     entityattackrange: 200000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 176.0
-    entitydefenderchance: 0.057500001043081284
+    entitydefenderchance: 0.0575
     entityequipmentmax: 5
     entityequipmentmin: -4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1500000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6899999976158142
+    entityreactionfactor: 0.69
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.4000000059604645
+    entitysecuritystatuskillbonus: 0.4
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 456
     hp: 2160.0
     id: 33172
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 90000.0
-    maxrangemultiplier: 0.699999988079071
+    maxrangemultiplier: 0.7
     maxvelocity: 560.0
     missilelaunchduration: 20000.0
     modifytargetspeedchance: 1.0
@@ -2016,7 +1969,6 @@ types:
     modifytargetspeedrange: 10000
     name: Blood Clone Soldier Transporter
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     powertransferamount: 175
     propulsiongraphicid: 397
@@ -2026,19 +1978,19 @@ types:
     scanradarstrength: 33.0
     scanresolution: 240.0
     shieldcapacity: 1728.0
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 90.0
     speed: 2500.0
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
-    trackingspeedmultiplier: 0.699999988079071
+    trackingspeed: 0.072
+    trackingspeedmultiplier: 0.7
     volume: 118000.0
     warpscrambleduration: 8000
   33182:
@@ -2046,41 +1998,40 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.26249998807907104
-    armorexplosivedamageresonance: 0.15000000596046448
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2625
+    armorexplosivedamageresonance: 0.15
     armorhp: 3110.0
     armorkineticdamageresonance: 0.1875
-    armorthermaldamageresonance: 0.22499999403953552
+    armorthermaldamageresonance: 0.225
     armoruniformity: 0.75
     capacitorcapacity: 1050.0
-    capacity: 235.0
-    damagemultiplier: 30.712499618530273
+    damagemultiplier: 30.7125
     disallowassistance: 1
     emdamage: 8.0
     energyneutralizerduration: 30000
-    entityarmorrepairamountpersecond: 32.7599983215332
+    entityarmorrepairamountpersecond: 32.76
     entityarmorrepairduration: 10000
     entityattackdelaymax: 16800
     entityattackdelaymin: 4200
     entityattackrange: 200000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.3499999940395355
+    entitychasemaxdelaychance: 0.35
     entitychasemaxdistance: 14500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 193.0
-    entitydefenderchance: 0.057500001043081284
+    entitydefenderchance: 0.0575
     entityequipmentmax: 5
     entityequipmentmin: -4
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 7250.0
     entitygrouprespawnchance: 1
     entitykillbounty: 1750000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6899999976158142
+    entityreactionfactor: 0.69
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
     entitywarpscramblechance: 1.0
@@ -2089,18 +2040,17 @@ types:
     gfxturretid: 456
     hp: 2592.0
     id: 33182
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 90000.0
-    maxrangemultiplier: 0.699999988079071
+    maxrangemultiplier: 0.7
     maxvelocity: 710.0
     missilelaunchduration: 20000.0
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 20000
     name: Blood Clone Soldier Negotiator
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     powertransferamount: 175
     propulsiongraphicid: 397
@@ -2109,20 +2059,20 @@ types:
     rechargerate: 1000000.0
     scanradarstrength: 33.0
     scanresolution: 240.0
-    shieldcapacity: 2073.60009765625
-    shieldemdamageresonance: 0.26249998807907104
-    shieldexplosivedamageresonance: 0.15000000596046448
+    shieldcapacity: 2073.6
+    shieldemdamageresonance: 0.2625
+    shieldexplosivedamageresonance: 0.15
     shieldkineticdamageresonance: 0.1875
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.22499999403953552
+    shieldthermaldamageresonance: 0.225
     shielduniformity: 0.75
     signatureradius: 90.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.07199999690055847
-    trackingspeedmultiplier: 0.699999988079071
+    trackingspeed: 0.072
+    trackingspeedmultiplier: 0.7
     volume: 118000.0
     warpscrambleduration: 10000
     warpscramblerange: 24000

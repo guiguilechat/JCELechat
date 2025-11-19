@@ -4,76 +4,66 @@ types:
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 2406
     requiredskill1level: 4
     secondaryattribute: 166
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2406:
     cannotbetrainedontrial: 1
     id: 2406
     marketGroup: 1823
     name: Planetology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 13279
     requiredskill1level: 3
     requiredskill2: 3402
     requiredskill2level: 4
     secondaryattribute: 166
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2495:
     cannotbetrainedontrial: 1
     id: 2495
     marketGroup: 1823
     name: Interplanetary Consolidation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 165
     skilltimeconstant: 4.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2505:
     cannotbetrainedontrial: 1
     id: 2505
     marketGroup: 1823
     name: Command Center Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 165
     skilltimeconstant: 4.0
-    volume: 0.009999999776482582
+    volume: 0.01
   13279:
     cannotbetrainedontrial: 1
     id: 13279
     marketGroup: 1823
     name: Remote Sensing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 3
     secondaryattribute: 166
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

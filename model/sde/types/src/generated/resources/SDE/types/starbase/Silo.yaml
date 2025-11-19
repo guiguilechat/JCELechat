@@ -3,20 +3,18 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 20000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 14343
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Silo
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
-    price: 1.5E7
+    price: 15000000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -35,17 +33,15 @@ types:
     anchoringdelay: 5000
     armorhp: 10000.0
     armoruniformity: 0.75
-    capacity: 1500.0
     cpu: 155.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 17982
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Coupling Array
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 10000
     price: 2500000.0
@@ -67,7 +63,6 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 20000.0
     cargogroup: 711
     cpu: 250.0
     disallowoffensivemodifiers: 1
@@ -75,13 +70,12 @@ types:
     hp: 10000.0
     id: 25270
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Biochemical Silo
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
-    price: 2.0E7
+    price: 20000000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -100,7 +94,6 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 20000.0
     cargogroup: 284
     cpu: 250.0
     disallowoffensivemodifiers: 1
@@ -108,10 +101,9 @@ types:
     hp: 10000.0
     id: 25271
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Catalyst Silo
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     price: 7500000.0
@@ -133,7 +125,6 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 20000.0
     cargogroup: 712
     cpu: 250.0
     disallowoffensivemodifiers: 1
@@ -141,13 +132,12 @@ types:
     hp: 10000.0
     id: 25280
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Hazardous Chemical Silo
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
-    price: 2.5E7
+    price: 25000000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -166,7 +156,6 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 20000.0
     cargogroup: 280
     cargogroup2: 1042
     cpu: 250.0
@@ -175,10 +164,9 @@ types:
     hp: 10000.0
     id: 25821
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: General Storage
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     price: 7500000.0
@@ -200,7 +188,6 @@ types:
     anchoringdelay: 5000
     armorhp: 15000.0
     armoruniformity: 0.75
-    capacity: 40000.0
     cargogroup: 974
     cpu: 250.0
     disallowoffensivemodifiers: 1
@@ -208,10 +195,9 @@ types:
     hp: 10000.0
     id: 30655
     marketGroup: 483
-    mass: 1.0E8
+    mass: 100000000.0
     name: Hybrid Polymer Silo
     onliningdelay: 3000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     price: 7500000.0

@@ -16,11 +16,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonusModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanDeviationModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonus;
@@ -98,7 +96,7 @@ public class CyberScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrengthbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MaxScanDeviationModifier.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Implantness.INSTANCE, ScanStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, VirusCoherenceBonus.INSTANCE, VirusStrengthBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, MaxScanDeviationModifier.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, RequiredSkill1 .INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Implantness.INSTANCE, VirusCoherenceBonus.INSTANCE, ScanStrengthBonus.INSTANCE, VirusStrengthBonus.INSTANCE })));
     public static final CyberScanning.MetaGroup METAGROUP = new CyberScanning.MetaGroup();
 
     @Override

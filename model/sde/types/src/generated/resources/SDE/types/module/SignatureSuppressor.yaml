@@ -7,7 +7,7 @@ types:
     cpu: 50.0
     disallowrepeatingactivation: 1
     durationhighisgood: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 4409
     marketGroup: 1426
@@ -16,16 +16,14 @@ types:
     metalevelold: 1
     modulereactivationdelay: 150000
     name: Signature Radius Suppressor I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
-    signaturesuppressorsignatureradiusbonusactive: 0.30000001192092896
-    signaturesuppressorsignatureradiusbonuspassive: 0.8999999761581421
+    signaturesuppressorsignatureradiusbonusactive: 0.3
+    signaturesuppressorsignatureradiusbonuspassive: 0.9
     techlevel: 1
     volume: 5.0
   83643:
@@ -36,7 +34,7 @@ types:
     cpu: 50.0
     disallowrepeatingactivation: 1
     durationhighisgood: 14000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 83643
     marketGroup: 1426
@@ -46,12 +44,10 @@ types:
     metalevelold: 8
     modulereactivationdelay: 150000
     name: Domination Signature Radius Suppressor
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
     signaturesuppressorsignatureradiusbonusactive: 0.25
@@ -66,7 +62,7 @@ types:
     cpu: 40.0
     disallowrepeatingactivation: 1
     durationhighisgood: 14000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 83644
     marketGroup: 1426
@@ -76,15 +72,13 @@ types:
     metalevelold: 8
     modulereactivationdelay: 150000
     name: Dread Guristas Signature Radius Suppressor
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
-    signaturesuppressorsignatureradiusbonusactive: 0.2750000059604645
+    signaturesuppressorsignatureradiusbonusactive: 0.275
     signaturesuppressorsignatureradiusbonuspassive: 0.875
     techlevel: 1
     volume: 5.0
@@ -96,7 +90,7 @@ types:
     cpu: 70.0
     disallowrepeatingactivation: 1
     durationhighisgood: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 83660
     marketGroup: 1426
@@ -106,16 +100,14 @@ types:
     metalevelold: 14
     modulereactivationdelay: 150000
     name: Zohar's Modified Signature Radius Suppressor
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
-    signaturesuppressorsignatureradiusbonusactive: 0.20000000298023224
-    signaturesuppressorsignatureradiusbonuspassive: 0.8500000238418579
+    signaturesuppressorsignatureradiusbonusactive: 0.2
+    signaturesuppressorsignatureradiusbonuspassive: 0.85
     techlevel: 1
     volume: 5.0
   83661:
@@ -126,7 +118,7 @@ types:
     cpu: 56.0
     disallowrepeatingactivation: 1
     durationhighisgood: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     hp: 40.0
     id: 83661
     marketGroup: 1426
@@ -136,15 +128,13 @@ types:
     metalevelold: 14
     modulereactivationdelay: 150000
     name: Hakuzosu's Modified Signature Radius Suppressor
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 29696.0
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
-    signaturesuppressorsignatureradiusbonusactive: 0.22499999403953552
-    signaturesuppressorsignatureradiusbonuspassive: 0.8500000238418579
+    signaturesuppressorsignatureradiusbonusactive: 0.225
+    signaturesuppressorsignatureradiusbonuspassive: 0.85
     techlevel: 1
     volume: 5.0

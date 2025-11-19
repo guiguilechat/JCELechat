@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
@@ -24,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthPercent;
@@ -154,7 +152,7 @@ public class RigElectronicSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, RangeSkillBonus.INSTANCE, ScanRadarStrengthPercent.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, RangeSkillBonus.INSTANCE, ScanRadarStrengthPercent.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Drawback.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigElectronicSystems.MetaGroup METAGROUP = new RigElectronicSystems.MetaGroup();
 
     @Override

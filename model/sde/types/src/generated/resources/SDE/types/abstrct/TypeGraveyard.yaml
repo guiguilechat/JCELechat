@@ -4,171 +4,145 @@ types:
     id: 54790
     marketGroup: 377
     name: EDENCOM Frigate (old)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     primaryattribute: 167
     published: false
-    radius: 1.0
     requiredskill1: 3327
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54793:
     cannotbetrainedontrial: 1
     id: 54793
     marketGroup: 377
     name: EDENCOM Cruiser (old)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     primaryattribute: 167
     published: false
-    radius: 1.0
     requiredskill1: 3327
     requiredskill1level: 2
     requiredskill2: 54790
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54824:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 54824
     marketGroup: 364
     name: Small Vorton Projector (old)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320000.0
     primaryattribute: 167
     published: false
-    radius: 1.0
     requiredskill1: 54839
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54825:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
     id: 54825
     marketGroup: 364
     name: Medium Vorton Projector (old)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 167
     published: false
-    radius: 1.0
     requiredskill1: 54839
     requiredskill1level: 3
     requiredskill2: 54824
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54839:
     cannotbetrainedontrial: 1
     id: 54839
     marketGroup: 364
     name: Vorton Projector Operation (old)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: false
-    radius: 1.0
     secondaryattribute: 168
     skilltimeconstant: 1.0
     turretspeebonus: -2
-    volume: 0.009999999776482582
+    volume: 0.01
   73411:
     cannotbetrainedontrial: 1
     id: 73411
     industryblueprintrank: 40.0
     name: Amarr Propaganda Broadcast Structure Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73412:
     cannotbetrainedontrial: 1
     id: 73412
     industryblueprintrank: 40.0
     name: Minmatar Propaganda Broadcast Structure Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73413:
     cannotbetrainedontrial: 1
     id: 73413
     industryblueprintrank: 40.0
     name: Caldari Propaganda Broadcast Structure Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73414:
     cannotbetrainedontrial: 1
     id: 73414
     industryblueprintrank: 40.0
     name: Gallente Propaganda Broadcast Structure Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73419:
     cannotbetrainedontrial: 1
     id: 73419
     industryblueprintrank: 40.0
     name: Amarr Listening Outpost Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73420:
     cannotbetrainedontrial: 1
     id: 73420
     industryblueprintrank: 40.0
     name: Minmatar Listening Outpost Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73421:
     cannotbetrainedontrial: 1
     id: 73421
     industryblueprintrank: 40.0
     name: Caldari Listening Outpost Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73422:
     cannotbetrainedontrial: 1
     id: 73422
     industryblueprintrank: 40.0
     name: Gallente Listening Outpost Blueprint (unused)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: false
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

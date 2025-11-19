@@ -3,41 +3,36 @@ types:
     cpumultiplier: 1.0
     id: 1669
     name: Minmatar Military Academy Pilot Bonus
-    perceptionskilltrainingtimemultiplierbonus: -0.05000000074505806
+    perceptionskilltrainingtimemultiplierbonus: -0.05
     portionSize: 1
     published: false
-    radius: 1.0
   1670:
-    capacitorneedmultiplier: 0.949999988079071
+    capacitorneedmultiplier: 0.95
     cpumultiplier: 1.0
     id: 1670
     name: Minmatar Military Academy Gunner Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1671:
     cpumultiplier: 1.0
     id: 1671
-    memoryskilltrainingtimemultiplierbonus: -0.05000000074505806
+    memoryskilltrainingtimemultiplierbonus: -0.05
     name: Minmatar Technical School Engineering Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1672:
-    cpumultiplier: 0.949999988079071
+    cpumultiplier: 0.95
     id: 1672
     name: Minmatar Technical School Electronic Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1673:
-    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
+    charismaskilltrainingtimemultiplierbonus: -0.05
     cpumultiplier: 1.0
     id: 1673
     name: Minmatar Business School Commerce Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1674:
     cpumultiplier: 1.0
     id: 1674

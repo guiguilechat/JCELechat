@@ -5,1436 +5,1202 @@ types:
     marketGroup: 1526
     mass: 1.0
     name: Mjolnir Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   804:
     id: 804
     industryblueprintrank: 3.0
     marketGroup: 1526
     mass: 1.0
     name: Scourge Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   805:
     id: 805
     industryblueprintrank: 3.0
     marketGroup: 1526
     mass: 1.0
     name: Inferno Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   806:
     id: 806
     industryblueprintrank: 3.0
     marketGroup: 1526
     mass: 1.0
     name: Nova Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   807:
     id: 807
     industryblueprintrank: 2.0
     marketGroup: 1527
     mass: 1.0
     name: Nova Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   808:
     id: 808
     industryblueprintrank: 2.0
     marketGroup: 1527
     mass: 1.0
     name: Mjolnir Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   809:
     id: 809
     industryblueprintrank: 2.0
     marketGroup: 1527
     mass: 1.0
     name: Inferno Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   810:
     id: 810
     industryblueprintrank: 2.0
     marketGroup: 1527
     mass: 1.0
     name: Scourge Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   811:
     id: 811
     industryblueprintrank: 1.0
     marketGroup: 1528
     mass: 1.0
     name: Scourge Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   812:
     id: 812
     industryblueprintrank: 1.0
     marketGroup: 1528
     mass: 1.0
     name: Inferno Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   813:
     id: 813
     industryblueprintrank: 1.0
     marketGroup: 1528
     mass: 1.0
     name: Mjolnir Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   814:
     id: 814
     industryblueprintrank: 1.0
     marketGroup: 1528
     mass: 1.0
     name: Nova Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 140000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1216:
     id: 1216
     industryblueprintrank: 1.0
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Light Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1220:
     id: 1220
     industryblueprintrank: 1.0
     marketGroup: 318
     mass: 1.0
     name: Scourge Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1221:
     id: 1221
     industryblueprintrank: 3.0
     marketGroup: 390
     mass: 1.0
     name: Scourge Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1811:
     id: 1811
     industryblueprintrank: 1.0
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Light Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 150000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1815:
     id: 1815
     industryblueprintrank: 1.0
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Light Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 140000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1817:
     id: 1817
     industryblueprintrank: 1.0
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Light Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1819:
     id: 1819
     industryblueprintrank: 2.0
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Heavy Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1821:
     id: 1821
     industryblueprintrank: 2.0
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Heavy Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1823:
     id: 1823
     industryblueprintrank: 2.0
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Heavy Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1825:
     id: 1825
     industryblueprintrank: 2.0
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Heavy Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1827:
     id: 1827
     industryblueprintrank: 3.0
     marketGroup: 315
     mass: 1.0
     name: Scourge Auto-Targeting Cruise Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1829:
     id: 1829
     industryblueprintrank: 3.0
     marketGroup: 315
     mass: 1.0
     name: Mjolnir Auto-Targeting Cruise Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1831:
     id: 1831
     industryblueprintrank: 3.0
     marketGroup: 315
     mass: 1.0
     name: Nova Auto-Targeting Cruise Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1833:
     id: 1833
     industryblueprintrank: 3.0
     marketGroup: 315
     mass: 1.0
     name: Inferno Auto-Targeting Cruise Missile I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2179:
     id: 2179
     industryblueprintrank: 3.0
     mass: 1.0
     name: Sansha Wrath Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2211:
     id: 2211
     industryblueprintrank: 3.0
     mass: 1.0
     name: Sansha Juggernaut Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2507:
     id: 2507
     industryblueprintrank: 3.0
     marketGroup: 390
     mass: 1.0
     name: Mjolnir Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2509:
     id: 2509
     industryblueprintrank: 3.0
     marketGroup: 390
     mass: 1.0
     name: Nova Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2511:
     id: 2511
     industryblueprintrank: 3.0
     marketGroup: 390
     mass: 1.0
     name: Inferno Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2513:
     id: 2513
     industryblueprintrank: 1.0
     marketGroup: 318
     mass: 1.0
     name: Mjolnir Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 35000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2515:
     id: 2515
     industryblueprintrank: 1.0
     marketGroup: 318
     mass: 1.0
     name: Inferno Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2517:
     id: 2517
     industryblueprintrank: 1.0
     marketGroup: 318
     mass: 1.0
     name: Nova Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 50000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2614:
     id: 2614
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Mjolnir Fury Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2622:
     id: 2622
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Inferno Fury Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2630:
     id: 2630
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Scourge Fury Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2638:
     id: 2638
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Inferno Precision Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2648:
     id: 2648
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Inferno Precision Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2656:
     id: 2656
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Nova Precision Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2680:
     id: 2680
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Scourge Rage Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2802:
     id: 2802
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Nova Javelin Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2812:
     id: 2812
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Inferno Rage Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2818:
     id: 2818
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Mjolnir Rage Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   17858:
     id: 17858
     industryblueprintrank: 4.0
     marketGroup: 617
     mass: 1.0
     name: Mjolnir XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17860:
     id: 17860
     industryblueprintrank: 4.0
     marketGroup: 617
     mass: 1.0
     name: Scourge XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17862:
     id: 17862
     industryblueprintrank: 4.0
     marketGroup: 617
     mass: 1.0
     name: Inferno XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17864:
     id: 17864
     industryblueprintrank: 4.0
     marketGroup: 617
     mass: 1.0
     name: Nova XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21868:
     id: 21868
     industryblueprintrank: 2.0
     marketGroup: 975
     mass: 1.0
     name: Nova Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24472:
     id: 24472
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Scourge Rage Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24474:
     id: 24474
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Nova Rage Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24476:
     id: 24476
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Inferno Rage Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24487:
     id: 24487
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Inferno Rage Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24489:
     id: 24489
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Nova Rage Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24491:
     id: 24491
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Mjolnir Rage Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24496:
     id: 24496
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Scourge Fury Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24498:
     id: 24498
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Nova Fury Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24500:
     id: 24500
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Inferno Fury Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24502:
     id: 24502
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Scourge Precision Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24504:
     id: 24504
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Nova Precision Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24506:
     id: 24506
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Mjolnir Precision Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24508:
     id: 24508
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Nova Fury Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24510:
     id: 24510
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Mjolnir Fury Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24512:
     id: 24512
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Inferno Fury Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24514:
     id: 24514
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Scourge Precision Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24516:
     id: 24516
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Inferno Precision Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24518:
     id: 24518
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Mjolnir Precision Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24520:
     id: 24520
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Nova Rage Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24522:
     id: 24522
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Scourge Rage Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24524:
     id: 24524
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Mjolnir Rage Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24526:
     id: 24526
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Inferno Javelin Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24528:
     id: 24528
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Mjolnir Javelin Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24530:
     id: 24530
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Scourge Javelin Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24532:
     id: 24532
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Nova Fury Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24534:
     id: 24534
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Scourge Fury Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24536:
     id: 24536
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Mjolnir Fury Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24538:
     id: 24538
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Nova Precision Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24540:
     id: 24540
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Mjolnir Precision Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24542:
     id: 24542
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     mass: 1.0
     name: Scourge Precision Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24543:
     id: 24543
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Inferno Javelin Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24544:
     id: 24544
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Mjolnir Javelin Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24604:
     id: 24604
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Nova Javelin Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24605:
     id: 24605
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     mass: 1.0
     name: Scourge Javelin Rocket Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24614:
     id: 24614
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Scourge Javelin Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24615:
     id: 24615
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Inferno Javelin Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24616:
     id: 24616
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Nova Javelin Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   24617:
     id: 24617
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     mass: 1.0
     name: Mjolnir Javelin Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   26760:
     id: 26760
     industryblueprintrank: 2.0
     marketGroup: 975
     mass: 1.0
     name: Mjolnir Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   26761:
     id: 26761
     industryblueprintrank: 2.0
     marketGroup: 975
     mass: 1.0
     name: Inferno Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   26762:
     id: 26762
     industryblueprintrank: 2.0
     marketGroup: 975
     mass: 1.0
     name: Scourge Heavy Assault Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32437:
     id: 32437
     industryblueprintrank: 3.0
     marketGroup: 1286
     mass: 1.0
     name: Scourge XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32439:
     id: 32439
     industryblueprintrank: 3.0
     marketGroup: 1286
     mass: 1.0
     name: Nova XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32441:
     id: 32441
     industryblueprintrank: 3.0
     marketGroup: 1286
     mass: 1.0
     name: Inferno XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32443:
     id: 32443
     industryblueprintrank: 3.0
     marketGroup: 1286
     mass: 1.0
     name: Mjolnir XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37852:
     id: 37852
     marketGroup: 2191
     mass: 1.0
     name: Standup Super-heavy Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37853:
     id: 37853
     marketGroup: 2191
     mass: 1.0
     name: Standup XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37855:
     id: 37855
     marketGroup: 2192
     mass: 1.0
     name: Standup Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37856:
     id: 37856
     marketGroup: 2192
     mass: 1.0
     name: Standup Heavy Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37857:
     id: 37857
     marketGroup: 2192
     mass: 1.0
     name: Standup Light Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37858:
     id: 37858
     marketGroup: 2193
     mass: 1.0
     name: Standup Heavy Guided Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   37859:
     id: 37859
     marketGroup: 2193
     mass: 1.0
     name: Standup Light Guided Bomb Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
+    price: 20000000.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41278:
     id: 41278
     mass: 1.0
     name: Scourge Javelin XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41279:
     id: 41279
     mass: 1.0
     name: Scourge Rage XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41280:
     id: 41280
     mass: 1.0
     name: Nova Javelin XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41281:
     id: 41281
     mass: 1.0
     name: Nova Rage XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41282:
     id: 41282
     mass: 1.0
     name: Mjolnir Javelin XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41283:
     id: 41283
     mass: 1.0
     name: Mjolnir Rage XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41284:
     id: 41284
     mass: 1.0
     name: Inferno Javelin XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41285:
     id: 41285
     mass: 1.0
     name: Inferno Rage XL Torpedo Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41288:
     id: 41288
     mass: 1.0
     name: Inferno Precision XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41289:
     id: 41289
     mass: 1.0
     name: Inferno Fury XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
+    price: 90000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41292:
     id: 41292
     mass: 1.0
     name: Scourge Precision XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41293:
     id: 41293
     mass: 1.0
     name: Scourge Fury XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41296:
     id: 41296
     mass: 1.0
     name: Nova Fury XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41297:
     id: 41297
     mass: 1.0
     name: Nova Precision XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
+    price: 70000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41300:
     id: 41300
     mass: 1.0
     name: Mjolnir Precision XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41301:
     id: 41301
     mass: 1.0
     name: Mjolnir Fury XL Cruise Missile Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

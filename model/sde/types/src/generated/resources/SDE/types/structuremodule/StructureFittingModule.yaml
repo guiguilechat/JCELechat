@@ -3,18 +3,16 @@ types:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
-    cpumultiplier: 1.0800000429153442
+    cpumultiplier: 1.08
     hp: 40.0
     id: 35963
     marketGroup: 2218
     mass: 500.0
     name: Standup Co-Processor Array I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 5000
     poweroutputmultiplier: 1.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
@@ -29,11 +27,9 @@ types:
     marketGroup: 2222
     mass: 500.0
     name: Standup Reactor Control Unit I
-    packagedVolume: 4000.0
     portionSize: 1
-    poweroutputmultiplier: 1.100000023841858
+    poweroutputmultiplier: 1.1
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
@@ -41,19 +37,17 @@ types:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
-    cpumultiplier: 1.100000023841858
+    cpumultiplier: 1.1
     hp: 40.0
     id: 47344
     marketGroup: 2218
     mass: 500.0
     metalevelold: 5
     name: Standup Co-Processor Array II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 6000
     poweroutputmultiplier: 1.0
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 2
     volume: 4000.0
@@ -69,11 +63,9 @@ types:
     mass: 500.0
     metalevelold: 5
     name: Standup Reactor Control Unit II
-    packagedVolume: 4000.0
     portionSize: 1
-    poweroutputmultiplier: 1.149999976158142
+    poweroutputmultiplier: 1.15
     published: true
-    radius: 1.0
     structureitemvisualflag: 1
     techlevel: 2
     volume: 4000.0

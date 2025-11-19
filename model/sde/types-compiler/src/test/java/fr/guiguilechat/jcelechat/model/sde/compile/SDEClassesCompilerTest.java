@@ -7,9 +7,9 @@ public class SDEClassesCompilerTest {
 
 	@Test
 	public void testFormatName() {
-		Assert.assertEquals(SDECompiler.formatName("ta ta ta"), "TaTaTa");
-		Assert.assertEquals(SDECompiler.formatName("Ta ta ta"), "TaTaTa");
-		Assert.assertEquals(SDECompiler.formatName("tatata"), "Tatata");
-		Assert.assertEquals(SDECompiler.formatName("TATATA"), "TATATA");
+		Assert.assertEquals(SDECompiler.sanitize("ta ta ta"), "TaTaTa");
+		Assert.assertEquals(SDECompiler.sanitize("Ta ta ta"), "TaTaTa");
+		Assert.assertEquals(SDECompiler.sanitize("tatata"), "Tatata");
+		Assert.assertEquals(SDECompiler.sanitize("TATATA"), "TATATA");
 	}
 }

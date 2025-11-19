@@ -15,14 +15,18 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritBonusYieldBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritChanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningScannerUpgrade;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbabilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SurveyScanRange;
@@ -31,7 +35,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class SurveyScanner
+public class MiningSurveyChipset
     extends Module
 {
     /**
@@ -63,6 +67,36 @@ public class SurveyScanner
     @DefaultRealValue(0.0)
     public double duration;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int maxgroupfitted;
+    /**
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int maxgrouponline;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritbonusyieldbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritchancebonus;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int miningscannerupgrade;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningwasteprobabilitybonus;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -90,8 +124,8 @@ public class SurveyScanner
     @Stackable(true)
     @DefaultIntValue(0)
     public int surveyscanrange;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SurveyScanRange.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
-    public static final SurveyScanner.MetaGroup METAGROUP = new SurveyScanner.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningCritChanceBonus.INSTANCE, MiningCritBonusYieldBonus.INSTANCE, SurveyScanRange.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MiningScannerUpgrade.INSTANCE, Power.INSTANCE })));
+    public static final MiningSurveyChipset.MetaGroup METAGROUP = new MiningSurveyChipset.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -111,6 +145,30 @@ public class SurveyScanner
             case  73 :
             {
                 return duration;
+            }
+            case  1544 :
+            {
+                return maxgroupfitted;
+            }
+            case  978 :
+            {
+                return maxgrouponline;
+            }
+            case  6050 :
+            {
+                return miningcritbonusyieldbonus;
+            }
+            case  6049 :
+            {
+                return miningcritchancebonus;
+            }
+            case  5979 :
+            {
+                return miningscannerupgrade;
+            }
+            case  6053 :
+            {
+                return miningwasteprobabilitybonus;
             }
             case  30 :
             {
@@ -141,18 +199,18 @@ public class SurveyScanner
     }
 
     @Override
-    public IMetaGroup<SurveyScanner> getGroup() {
+    public IMetaGroup<MiningSurveyChipset> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<SurveyScanner>
+        implements IMetaGroup<MiningSurveyChipset>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/SurveyScanner.yaml";
-        private Map<Integer, SurveyScanner> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/MiningSurveyChipset.yaml";
+        private Map<Integer, MiningSurveyChipset> cache = (null);
 
         @Override
-        public IMetaCategory<? super SurveyScanner> category() {
+        public IMetaCategory<? super MiningSurveyChipset> category() {
             return Module.METACAT;
         }
 
@@ -163,13 +221,13 @@ public class SurveyScanner
 
         @Override
         public String getName() {
-            return "SurveyScanner";
+            return "MiningSurveyChipset";
         }
 
         @Override
-        public synchronized Map<Integer, SurveyScanner> load() {
+        public synchronized Map<Integer, MiningSurveyChipset> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(SurveyScanner.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(MiningSurveyChipset.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -181,7 +239,7 @@ public class SurveyScanner
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, SurveyScanner> types;
+            public LinkedHashMap<Integer, MiningSurveyChipset> types;
         }
     }
 }

@@ -14,7 +14,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3060:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -30,7 +29,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3061:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -46,7 +44,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3062:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -62,7 +59,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3063:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -78,7 +74,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3064:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -94,7 +89,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3067:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -110,7 +104,6 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0
   3068:
     cpuload: 400
     ecuextractorheadcpu: 110
@@ -126,4 +119,3 @@ types:
     powerload: 2600
     price: 45000.0
     published: true
-    radius: 1.0

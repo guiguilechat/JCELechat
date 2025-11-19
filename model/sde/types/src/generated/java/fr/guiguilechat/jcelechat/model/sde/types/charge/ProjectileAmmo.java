@@ -14,7 +14,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRangeMultiplier;
@@ -23,7 +22,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedMultiplier;
@@ -128,7 +126,7 @@ public class ProjectileAmmo
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MainColor.INSTANCE, MetaGroupID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, TechLevel.INSTANCE, WeaponRangeMultiplier.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, MainColor.INSTANCE, MetaGroupID.INSTANCE })));
     public static final ProjectileAmmo.MetaGroup METAGROUP = new ProjectileAmmo.MetaGroup();
 
     @Override

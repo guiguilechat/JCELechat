@@ -2,27 +2,24 @@ types:
   351252:
     id: 351252
     name: Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351253:
     id: 351253
     name: Methana
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351278:
     id: 351278
     name: Gunnlogi C-I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351321:
     id: 351321
     name: Colima
@@ -31,82 +28,72 @@ types:
   351352:
     id: 351352
     name: Bolas
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351354:
     id: 351354
     name: Myron
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351355:
     id: 351355
     name: Grimsnes
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351824:
     id: 351824
     name: Madrugar G-I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353089:
     id: 353089
     name: Sagaris
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1227600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353486:
     id: 353486
     name: Onikuma
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18330.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353808:
     id: 353808
     name: Baloch
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18330.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353832:
     id: 353832
     name: Surya
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1227600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353879:
     id: 353879
     name: Eryx
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 301395.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353881:
     id: 353881
     name: DUST Prometheus
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 301395.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353884:
     id: 353884
     name: Python
@@ -122,294 +109,257 @@ types:
   353900:
     id: 353900
     name: Charybdis
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 84000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353904:
     id: 353904
     name: Limbus
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 84000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354741:
     id: 354741
     name: Cestus
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354742:
     id: 354742
     name: Charron
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354927:
     id: 354927
     name: '[TEST] Onikuma Boost'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 27600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355249:
     id: 355249
     name: Cestus
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355250:
     id: 355250
     name: Charron
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355374:
     id: 355374
     name: Sica
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 59565.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355423:
     id: 355423
     name: Onikuma - Impact
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355424:
     id: 355424
     name: Baloch - Impact
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355470:
     id: 355470
     name: Soma
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 59565.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355471:
     id: 355471
     name: Gorgon - Hatch
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 151840.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355472:
     id: 355472
     name: Viper
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 27495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355473:
     id: 355473
     name: Gorgon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 27495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355474:
     id: 355474
     name: Viper - Hatch
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 151840.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355475:
     id: 355475
     name: Sica - Tension
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 138040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355479:
     id: 355479
     name: Soma - Tension
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 138040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355772:
     id: 355772
     name: Guristas Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356068:
     id: 356068
     name: '''AG-01'' Grimsnes'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356069:
     id: 356069
     name: '''CD-41'' Myron'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356072:
     id: 356072
     name: '''AI-102'' Madrugar'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356073:
     id: 356073
     name: '''HC-130'' Gunnlogi'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356075:
     id: 356075
     name: '''LC-217'' Saga'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356077:
     id: 356077
     name: '''LG-88'' Methana'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356207:
     id: 356207
     name: Chakram
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2682480.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356211:
     id: 356211
     name: Kubera
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2682480.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356841:
     id: 356841
     name: Ishukone Watch Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356842:
     id: 356842
     name: Blood Raiders Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356871:
     id: 356871
     name: Viper Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356872:
     id: 356872
     name: Gorgon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356873:
     id: 356873
     name: Sica Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356874:
     id: 356874
     name: Soma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356875:
     id: 356875
     name: Onikuma Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356876:
     id: 356876
     name: Baloch Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356909:
     id: 356909
     name: HAV
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363354:
     id: 363354
     name: Angel Cartel Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364121:
     id: 364121
     name: CreoDron Methana
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364171:
     id: 364171
     name: Kaalakiota Tactical HAV
@@ -425,19 +375,17 @@ types:
   364246:
     id: 364246
     name: CreoDron Transport Dropship
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364247:
     id: 364247
     name: Kaalakiota Recon Dropship
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364344:
     id: 364344
     name: Falchion
@@ -475,11 +423,10 @@ types:
   364490:
     id: 364490
     name: Senior Recruiter Light Assault Vehicle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365364:
     id: 365364
     name: Estoc
@@ -488,239 +435,209 @@ types:
   365420:
     id: 365420
     name: '''LC-225'' Saga-II'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 49110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365428:
     id: 365428
     name: Saga-II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 49110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365943:
     id: 365943
     name: '''Praetorian VII'' Madrugar'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365944:
     id: 365944
     name: '''Nullarbor'' Myron'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 112500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365945:
     id: 365945
     name: '''Greyscale'' Saga'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366382:
     id: 366382
     name: Federation Grimsnes
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366383:
     id: 366383
     name: Federation Madrugar
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366384:
     id: 366384
     name: Federation Methana
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366507:
     id: 366507
     name: State Myron
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366508:
     id: 366508
     name: State Gunnlogi
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366509:
     id: 366509
     name: State Saga
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368518:
     id: 368518
     name: CreoDron Methana vX.1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368531:
     id: 368531
     name: '''Quafe'' Gunnlogi'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368532:
     id: 368532
     name: '''Quafe'' Madrugar'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368533:
     id: 368533
     name: '''Quafe'' Grimsnes'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368534:
     id: 368534
     name: '''Quafe'' Myron'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368537:
     id: 368537
     name: '''Quafe'' Saga'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368539:
     id: 368539
     name: '''Quafe'' Methana'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368546:
     id: 368546
     name: '''Quafe'' Saga Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368547:
     id: 368547
     name: '''Quafe'' Methana Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368880:
     id: 368880
     name: Marduk G-I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368881:
     id: 368881
     name: Madrugar G/1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 195000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368882:
     id: 368882
     name: Madrugar Gv.0
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 682500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368884:
     id: 368884
     name: Marduk G/1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 195000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368885:
     id: 368885
     name: Marduk Gv.0
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 682500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368887:
     id: 368887
     name: Gladius C-I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368888:
     id: 368888
     name: Gunnlogi C/1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 195000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368889:
     id: 368889
     name: Gunnlogi Cv.0
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 682500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368890:
     id: 368890
     name: Gladius C/1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 195000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368891:
     id: 368891
     name: Gladius Cv.0
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 682500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

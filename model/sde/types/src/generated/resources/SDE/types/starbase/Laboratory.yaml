@@ -3,7 +3,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2000.0
     armoruniformity: 0.75
-    capacity: 25000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -11,15 +10,14 @@ types:
     id: 16216
     isramcompatible: 1
     marketGroup: 933
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Research Laboratory
     onliningdelay: 3000
-    packagedVolume: 3000.0
     portionSize: 1
     power: 100000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 782.0
     requiredskill1: 11584
@@ -38,7 +36,6 @@ types:
   24567:
     anchoringdelay: 5000
     armorhp: 2000.0
-    capacity: 25000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -46,14 +43,13 @@ types:
     id: 24567
     isramcompatible: 1
     marketGroup: 933
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     name: Experimental Laboratory
     onliningdelay: 3000
-    packagedVolume: 3000.0
     portionSize: 1
     power: 100000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 782.0
     requiredskill1: 11584
@@ -73,7 +69,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2000.0
     armoruniformity: 0.75
-    capacity: 25000.0
     cpu: 600.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -81,15 +76,14 @@ types:
     id: 28351
     isramcompatible: 1
     marketGroup: 933
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Design Laboratory
     onliningdelay: 3000
-    packagedVolume: 3000.0
     portionSize: 1
     power: 120000
-    price: 1.5E8
+    price: 150000000.0
     published: true
     radius: 782.0
     requiredskill1: 11584
@@ -109,7 +103,6 @@ types:
     anchoringdelay: 5000
     armorhp: 2000.0
     armoruniformity: 0.75
-    capacity: 25000.0
     cpu: 600.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -117,15 +110,14 @@ types:
     id: 32245
     isramcompatible: 1
     marketGroup: 933
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Hyasyoda Research Laboratory
     onliningdelay: 3000
-    packagedVolume: 3000.0
     portionSize: 1
     power: 110000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 782.0
     requiredskill1: 11584

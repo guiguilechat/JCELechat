@@ -1,14 +1,14 @@
 types:
   2613:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 69
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 143
     detonationrange: 35
     emdamage: 116.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 3750
     explosivedamageresonance: 1.0
     hp: 60.0
@@ -20,7 +20,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Mjolnir Fury Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -34,12 +33,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   2647:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 25
-    aoedamagereductionfactor: 0.5609999895095825
+    aoedamagereductionfactor: 0.561
     aoefalloff: 1500
     aoevelocity: 204
     detonationrange: 35
@@ -55,7 +54,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Inferno Precision Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -69,13 +67,13 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 83.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   24495:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 69
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 143
     detonationrange: 35
@@ -85,14 +83,13 @@ types:
     hp: 60.0
     id: 24495
     kineticdamage: 116.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 927
     mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Scourge Fury Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -106,19 +103,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   24497:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 69
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 143
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 3750
     explosivedamage: 116.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 60.0
     id: 24497
     kineticdamageresonance: 1.0
@@ -128,7 +125,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Nova Fury Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -142,12 +138,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   24499:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 69
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 143
     detonationrange: 35
@@ -163,7 +159,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Inferno Fury Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -177,13 +172,13 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 116.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   24501:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 25
-    aoedamagereductionfactor: 0.5609999895095825
+    aoedamagereductionfactor: 0.561
     aoefalloff: 1500
     aoevelocity: 204
     detonationrange: 35
@@ -193,14 +188,13 @@ types:
     hp: 60.0
     id: 24501
     kineticdamage: 83.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 917
     mass: 700.0
     maxvelocity: 3750.0
     metalevelold: 5
     name: Scourge Precision Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -214,19 +208,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   24503:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 25
-    aoedamagereductionfactor: 0.5609999895095825
+    aoedamagereductionfactor: 0.561
     aoefalloff: 1500
     aoevelocity: 204
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2500
     explosivedamage: 83.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 60.0
     id: 24503
     kineticdamageresonance: 1.0
@@ -236,7 +230,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Nova Precision Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -250,17 +243,17 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   24505:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 25
-    aoedamagereductionfactor: 0.5609999895095825
+    aoedamagereductionfactor: 0.561
     aoefalloff: 1500
     aoevelocity: 204
     detonationrange: 35
     emdamage: 83.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 2500
     explosivedamageresonance: 1.0
     hp: 60.0
@@ -272,7 +265,6 @@ types:
     maxvelocity: 3750.0
     metalevelold: 5
     name: Mjolnir Precision Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 5000
     price: 101160.0
     published: true
@@ -286,4 +278,4 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015

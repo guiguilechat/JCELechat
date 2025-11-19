@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 7250.0
-    armorkineticdamageresonance: 0.637499988079071
-    armorthermaldamageresonance: 0.4675000011920929
+    armorkineticdamageresonance: 0.6375
+    armorthermaldamageresonance: 0.4675
     armoruniformity: 0.75
     capacitorcapacity: 7500.0
-    capacity: 450.0
     disallowassistance: 1
     entityattackdelaymax: 12900
     entityattackdelaymin: 3225
@@ -24,15 +23,15 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 150.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 1
-    entityfactionloss: 0.003000000026077032
+    entityfactionloss: 0.003
     entityflyrange: 9000.0
     entitygrouprespawnchance: 1
     entitylootcountmax: 1
     entitymissiletypeid: 203
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     entityshieldboostamountpersecond: 150.0
     entityshieldboostduration: 3200
     entitywarpscramblechance: 1.0
@@ -40,12 +39,12 @@ types:
     gfxturretid: 561
     hp: 8000.0
     id: 33866
-    mass: 9.93E7
+    mass: 99300000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 93000.0
     maxvelocity: 380.0
-    missiledamagemultiplier: 9.800000190734863
+    missiledamagemultiplier: 9.8
     missileentityflighttimemultiplier: 2.0
     missileentityvelocitymultiplier: 3.0
     missilelaunchduration: 7000.0
@@ -54,7 +53,6 @@ types:
     modifytargetspeedrange: 10000
     name: Mordu’s Special Warfare Unit Commander
     optimalsigradius: 400
-    packagedVolume: 486000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -64,11 +62,11 @@ types:
     scanresolution: 350.0
     scanspeed: 3000
     shieldcapacity: 16000.0
-    shieldemdamageresonance: 0.45249998569488525
-    shieldexplosivedamageresonance: 0.2264000028371811
-    shieldkineticdamageresonance: 0.27140000462532043
+    shieldemdamageresonance: 0.4525
+    shieldexplosivedamageresonance: 0.2264
+    shieldkineticdamageresonance: 0.2714
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.362199991941452
+    shieldthermaldamageresonance: 0.3622
     shielduniformity: 0.75
     signatureradius: 410.0
     speedfactor: -60.0

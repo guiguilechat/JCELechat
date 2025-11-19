@@ -21,10 +21,17 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorArmorRepairerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpDisruptDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpDisruptDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpDisruptRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpDisruptStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMin;
@@ -52,9 +59,13 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityWarpScrambleChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
@@ -62,13 +73,14 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeCloudSizeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -77,7 +89,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
@@ -88,7 +99,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -149,6 +162,55 @@ public class IrregularIndustrial
     @DefaultRealValue(0.0)
     public double armoruniformity;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepaireramount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepairerdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorarmorrepairerduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorwarpdisruptdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorwarpdisruptduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorwarpdisruptrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorwarpdisruptstrength;
+    /**
      * Capacitor capacity
      */
     @HighIsGood(true)
@@ -156,19 +218,12 @@ public class IrregularIndustrial
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
+     * Damage multiplier.
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double damagemultiplier;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -176,6 +231,13 @@ public class IrregularIndustrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowassistance;
+    /**
+     * EM damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double emdamage;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
@@ -369,12 +431,26 @@ public class IrregularIndustrial
     @DefaultRealValue(0.0)
     public double entitywarpscramblechance;
     /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double explosivedamage;
+    /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double explosivedamageresonance;
+    /**
+     * distance from maximum range at which accuracy has fallen by half
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double falloff;
     /**
      * Graphic ID of the boosters for drone type ships.
      */
@@ -383,12 +459,26 @@ public class IrregularIndustrial
     @DefaultIntValue(0)
     public int gfxboosterid;
     /**
+     * Graphic ID of the turrets for drone type ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gfxturretid;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double kineticdamage;
     /**
      * damage multiplier vs. kinetic damagers.
      */
@@ -439,6 +529,20 @@ public class IrregularIndustrial
     @DefaultRealValue(1.0)
     public double missiledamagemultiplier;
     /**
+     * Affects the signature radius of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoecloudsizemultiplier;
+    /**
+     * Affects the velocity of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoevelocitymultiplier;
+    /**
      * Multiplier for the missile's flight time.
      */
     @HighIsGood(true)
@@ -480,13 +584,6 @@ public class IrregularIndustrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int propulsiongraphicid;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -543,14 +640,6 @@ public class IrregularIndustrial
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * EM resistance bonus for shields
      */
@@ -622,12 +711,26 @@ public class IrregularIndustrial
     @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double thermaldamage;
+    /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
+    /**
+     * Weapon accuracy
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double trackingspeed;
     /**
      * Maximum range objects can be warp scrambled from.
      */
@@ -649,7 +752,7 @@ public class IrregularIndustrial
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamageResonance.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, MissileLaunchDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, Falloff.INSTANCE, EntityFlyRange.INSTANCE, TrackingSpeed.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, EntityLootCountMin.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final IrregularIndustrial.MetaGroup METAGROUP = new IrregularIndustrial.MetaGroup();
 
     @Override
@@ -683,21 +786,49 @@ public class IrregularIndustrial
             {
                 return armoruniformity;
             }
+            case  2635 :
+            {
+                return behaviorarmorrepaireramount;
+            }
+            case  2634 :
+            {
+                return behaviorarmorrepairerdischarge;
+            }
+            case  2633 :
+            {
+                return behaviorarmorrepairerduration;
+            }
+            case  2505 :
+            {
+                return behaviorwarpdisruptdischarge;
+            }
+            case  2503 :
+            {
+                return behaviorwarpdisruptduration;
+            }
+            case  2504 :
+            {
+                return behaviorwarpdisruptrange;
+            }
+            case  2510 :
+            {
+                return behaviorwarpdisruptstrength;
+            }
             case  482 :
             {
                 return capacitorcapacity;
             }
-            case  38 :
+            case  64 :
             {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
+                return damagemultiplier;
             }
             case  854 :
             {
                 return disallowassistance;
+            }
+            case  114 :
+            {
+                return emdamage;
             }
             case  113 :
             {
@@ -807,17 +938,33 @@ public class IrregularIndustrial
             {
                 return entitywarpscramblechance;
             }
+            case  116 :
+            {
+                return explosivedamage;
+            }
             case  111 :
             {
                 return explosivedamageresonance;
+            }
+            case  158 :
+            {
+                return falloff;
             }
             case  246 :
             {
                 return gfxboosterid;
             }
+            case  245 :
+            {
+                return gfxturretid;
+            }
             case  9 :
             {
                 return hp;
+            }
+            case  117 :
+            {
+                return kineticdamage;
             }
             case  109 :
             {
@@ -847,6 +994,14 @@ public class IrregularIndustrial
             {
                 return missiledamagemultiplier;
             }
+            case  858 :
+            {
+                return missileentityaoecloudsizemultiplier;
+            }
+            case  859 :
+            {
+                return missileentityaoevelocitymultiplier;
+            }
             case  646 :
             {
                 return missileentityflighttimemultiplier;
@@ -870,10 +1025,6 @@ public class IrregularIndustrial
             case  217 :
             {
                 return propulsiongraphicid;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  55 :
             {
@@ -906,10 +1057,6 @@ public class IrregularIndustrial
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  1489 :
             {
@@ -951,9 +1098,17 @@ public class IrregularIndustrial
             {
                 return structureuniformity;
             }
+            case  118 :
+            {
+                return thermaldamage;
+            }
             case  110 :
             {
                 return thermaldamageresonance;
+            }
+            case  160 :
+            {
+                return trackingspeed;
             }
             case  103 :
             {

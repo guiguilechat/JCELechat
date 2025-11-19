@@ -8,11 +8,9 @@ types:
     mass: 4000.0
     name: Amperum Mutanite
     orebasictype: 1230
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0
@@ -25,11 +23,9 @@ types:
     mass: 4000.0
     name: Peregrinus Mutanite
     orebasictype: 1230
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0
@@ -42,11 +38,9 @@ types:
     mass: 4000.0
     name: Conflagrati Mutanite
     orebasictype: 1230
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0
@@ -59,11 +53,9 @@ types:
     mass: 4000.0
     name: Solis Mutanite
     orebasictype: 1230
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0
@@ -76,11 +68,9 @@ types:
     mass: 4000.0
     name: Tenebraet Mutanite
     orebasictype: 1230
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0
@@ -93,11 +83,9 @@ types:
     mass: 4000.0
     name: Admixti Mutanite
     orebasictype: 52315
-    packagedVolume: 4.0
     portionSize: 100
     price: 5000.0
     published: true
-    radius: 1.0
     requiredskill1: 3386
     requiredskill1level: 1
     volume: 4.0

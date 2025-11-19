@@ -1,193 +1,181 @@
 types:
   73443:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73443
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Amarr Control Zone A
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73444:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73444
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Minmatar Control Zone A
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73445:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73445
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Caldari Control Zone A
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73446:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73446
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Gallente Control Zone A
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73854:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73854
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Amarr Control Zone B
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73855:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73855
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Amarr Control Zone C
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73856:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73856
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Minmatar Control Zone B
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73857:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73857
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Minmatar Control Zone C
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73858:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73858
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Caldari Control Zone B
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73859:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73859
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Caldari Control Zone C
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73860:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73860
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Gallente Control Zone B
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0
   73861:
     disallowassistance: 1
-    emdamageresonance: 0.0010000000474974513
-    explosivedamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
     hp: 1.0E9
     id: 73861
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     mass: 1000000.0
     name: Gallente Control Zone C
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 231.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
+    thermaldamageresonance: 0.001
     volume: 1.0

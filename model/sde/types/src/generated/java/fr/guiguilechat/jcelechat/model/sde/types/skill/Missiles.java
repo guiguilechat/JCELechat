@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DotMaxDamagePerTickBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DotMaxHPPercentagePerTickBonus;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxFlightTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReactivationDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -142,7 +140,7 @@ public class Missiles
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double speedfactor;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, Capacity.INSTANCE, MaxFlightTimeBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, SpeedFactor.INSTANCE, PrimaryAttribute.INSTANCE, DotMaxHPPercentagePerTickBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, DotMaxDamagePerTickBonus.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, ReactivationDelayBonus.INSTANCE, SkillLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, MissileVelocityBonus.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, SpeedFactor.INSTANCE, PrimaryAttribute.INSTANCE, DotMaxHPPercentagePerTickBonus.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DotMaxDamagePerTickBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, ReactivationDelayBonus.INSTANCE, SkillLevel.INSTANCE })));
     public static final Missiles.MetaGroup METAGROUP = new Missiles.MetaGroup();
 
     @Override

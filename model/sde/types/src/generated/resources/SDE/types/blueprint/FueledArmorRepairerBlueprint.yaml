@@ -3,75 +3,61 @@ types:
     id: 33077
     industryblueprintrank: 3.0
     name: Small Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33102:
     id: 33102
     industryblueprintrank: 6.0
     name: Medium Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33104:
     id: 33104
     industryblueprintrank: 9.0
     name: Large Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41620:
     id: 41620
     name: Capital Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88728:
     id: 88728
     industryblueprintrank: 3.0
     name: Xarasier Small Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88729:
     id: 88729
     industryblueprintrank: 6.0
     name: Xarasier Medium Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88730:
     id: 88730
     industryblueprintrank: 9.0
     name: Xarasier Large Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   88732:
     id: 88732
     name: Xarasier Capital Ancillary Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -4,112 +4,93 @@ types:
     industryblueprintrank: 200.0
     marketGroup: 788
     name: Providence Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E9
+    price: 1900000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20186:
     id: 20186
     industryblueprintrank: 200.0
     marketGroup: 789
     name: Charon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20188:
     id: 20188
     industryblueprintrank: 200.0
     marketGroup: 790
     name: Obelisk Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.95E9
+    price: 1950000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20190:
     id: 20190
     industryblueprintrank: 200.0
     marketGroup: 791
     name: Fenrir Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.85E9
+    price: 1850000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28845:
     id: 28845
     industryblueprintrank: 4000.0
     name: Rhea Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28847:
     id: 28847
     industryblueprintrank: 4000.0
     name: Nomad Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.85E9
+    price: 1850000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28849:
     id: 28849
     industryblueprintrank: 4000.0
     name: Anshar Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.95E9
+    price: 1950000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   28851:
     id: 28851
     industryblueprintrank: 4000.0
     name: Ark Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E9
+    price: 1900000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   34329:
     id: 34329
     marketGroup: 1949
     name: Bowhead Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.55E9
+    price: 1550000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   81054:
     id: 81054
     industryblueprintrank: 200.0
     marketGroup: 3591
     name: Avalanche Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

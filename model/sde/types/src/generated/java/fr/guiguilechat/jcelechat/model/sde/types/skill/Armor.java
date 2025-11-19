@@ -17,13 +17,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HardeningBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassPenaltyReduction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -124,7 +122,7 @@ public class Armor
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MassPenaltyReduction.INSTANCE, HullHpBonus.INSTANCE, ArmorHpBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, DurationSkillBonus.INSTANCE, RequiredSkill3 .INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
     public static final Armor.MetaGroup METAGROUP = new Armor.MetaGroup();
 
     @Override

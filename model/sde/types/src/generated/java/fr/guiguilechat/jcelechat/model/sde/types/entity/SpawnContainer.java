@@ -20,9 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AllowRefills;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
@@ -42,12 +40,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.IsArcheology;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsHacking;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LootRespawnTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpawnWithoutGuardsToo;
@@ -106,26 +102,12 @@ public class SpawnContainer
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Chance of being able to resist a cargo scan.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cargoscanresistance;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -261,13 +243,6 @@ public class SpawnContainer
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -295,14 +270,6 @@ public class SpawnContainer
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -359,7 +326,7 @@ public class SpawnContainer
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMax.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, Charge.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, AllowOnlyFwAttackers.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, AllowRefills.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, EntityFactionLoss.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, CargoScanResistance.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AccessDifficulty.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, Hackable.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, RequiredSkill1Level.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, AllowOnlyFwAttackers.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, AllowRefills.INSTANCE, SignatureRadius.INSTANCE, SpecialTutorialLootRespawnTime.INSTANCE, EntityFactionLoss.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, EntityAttackRange.INSTANCE, RechargeRate.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, CargoScanResistance.INSTANCE, SpewContainerLifeExtension.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
@@ -389,17 +356,9 @@ public class SpawnContainer
             {
                 return capacitorcapacity;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  188 :
             {
                 return cargoscanresistance;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  854 :
             {
@@ -477,10 +436,6 @@ public class SpawnContainer
             {
                 return maxrange;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -496,10 +451,6 @@ public class SpawnContainer
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  479 :
             {

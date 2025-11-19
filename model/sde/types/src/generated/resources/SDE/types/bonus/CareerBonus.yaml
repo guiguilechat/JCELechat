@@ -1,43 +1,37 @@
 types:
   1675:
     id: 1675
-    memoryskilltrainingtimemultiplierbonus: 0.05000000074505806
+    memoryskilltrainingtimemultiplierbonus: 0.05
     name: Bounty Hunter Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1676:
     id: 1676
     name: Scientist Bonus
-    perceptionskilltrainingtimemultiplierbonus: 0.05000000074505806
+    perceptionskilltrainingtimemultiplierbonus: 0.05
     portionSize: 1
     published: false
-    radius: 1.0
   1677:
     id: 1677
     name: Industrialist Bonus
-    perceptionskilltrainingtimemultiplierbonus: 0.05000000074505806
+    perceptionskilltrainingtimemultiplierbonus: 0.05
     portionSize: 1
     published: false
-    radius: 1.0
   1678:
     id: 1678
     name: Corporate Magnate Bonus
     portionSize: 1
     published: false
-    radius: 1.0
-    willpowerskilltrainingtimemultiplierbonus: 0.05000000074505806
+    willpowerskilltrainingtimemultiplierbonus: 0.05
   1679:
     id: 1679
-    intelligenceskilltrainingtimemultiplierbonus: 0.05000000074505806
+    intelligenceskilltrainingtimemultiplierbonus: 0.05
     name: Covert-op Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1680:
-    charismaskilltrainingtimemultiplierbonus: 0.05000000074505806
+    charismaskilltrainingtimemultiplierbonus: 0.05
     id: 1680
     name: Navy Captain Bonus
     portionSize: 1
     published: false
-    radius: 1.0

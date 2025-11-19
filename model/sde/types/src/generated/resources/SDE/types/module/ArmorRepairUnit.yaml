@@ -4,8 +4,8 @@ types:
     capacitorneed: 40.0
     cpu: 5.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 523
     marketGroup: 1049
@@ -13,11 +13,9 @@ types:
     name: Small Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -30,8 +28,8 @@ types:
     capacitorneed: 40.0
     cpu: 6.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 5.4
     hp: 40.0
     id: 1183
     marketGroup: 1049
@@ -40,11 +38,9 @@ types:
     name: Small Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 3
     requiredskill2: 3392
@@ -57,8 +53,8 @@ types:
     capacitorneed: 160.0
     cpu: 25.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 3528
     marketGroup: 1050
@@ -66,11 +62,9 @@ types:
     name: Medium Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -83,8 +77,8 @@ types:
     capacitorneed: 160.0
     cpu: 28.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 5.3
     hp: 40.0
     id: 3530
     marketGroup: 1050
@@ -93,11 +87,9 @@ types:
     name: Medium Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 138
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 4
     requiredskill2: 3392
@@ -110,8 +102,8 @@ types:
     capacitorneed: 2400.0
     cpu: 65.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 3534
     marketGroup: 1052
@@ -121,11 +113,9 @@ types:
     name: CONCORD Capital Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 118750
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -136,8 +126,8 @@ types:
     capacitorneed: 400.0
     cpu: 50.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 3538
     marketGroup: 1051
@@ -145,11 +135,9 @@ types:
     name: Large Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -162,8 +150,8 @@ types:
     capacitorneed: 400.0
     cpu: 55.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 5.4
     hp: 40.0
     id: 3540
     marketGroup: 1051
@@ -172,11 +160,9 @@ types:
     name: Large Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2070
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 4
     requiredskill2: 3392
@@ -189,8 +175,8 @@ types:
     capacitorneed: 36.0
     cpu: 5.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 4529
     marketGroup: 1049
@@ -199,11 +185,9 @@ types:
     name: Small I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -216,8 +200,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 4533
     marketGroup: 1049
@@ -226,11 +210,9 @@ types:
     name: Small ACM Compact Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -243,8 +225,8 @@ types:
     capacitorneed: 144.0
     cpu: 22.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 4569
     marketGroup: 1050
@@ -253,11 +235,9 @@ types:
     name: Medium I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -270,8 +250,8 @@ types:
     capacitorneed: 160.0
     cpu: 20.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 4573
     marketGroup: 1050
@@ -280,11 +260,9 @@ types:
     name: Medium ACM Compact Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -297,8 +275,8 @@ types:
     capacitorneed: 360.0
     cpu: 49.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 4609
     marketGroup: 1051
@@ -307,11 +285,9 @@ types:
     name: Large I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -324,8 +300,8 @@ types:
     capacitorneed: 400.0
     cpu: 40.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 4613
     marketGroup: 1051
@@ -334,11 +310,9 @@ types:
     name: Large ACM Compact Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1620
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -351,8 +325,8 @@ types:
     capacitorneed: 360.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13955
     marketGroup: 1051
@@ -362,11 +336,9 @@ types:
     name: Domination Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -379,8 +351,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13956
     marketGroup: 1051
@@ -390,11 +362,9 @@ types:
     name: True Sansha Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -407,8 +377,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13957
     marketGroup: 1051
@@ -418,11 +388,9 @@ types:
     name: Dark Blood Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -435,8 +403,8 @@ types:
     capacitorneed: 144.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 13958
     marketGroup: 1050
@@ -446,11 +414,9 @@ types:
     name: Domination Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -463,8 +429,8 @@ types:
     capacitorneed: 180.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 13959
     marketGroup: 1050
@@ -474,11 +440,9 @@ types:
     name: True Sansha Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -491,8 +455,8 @@ types:
     capacitorneed: 180.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 13960
     marketGroup: 1050
@@ -502,11 +466,9 @@ types:
     name: Dark Blood Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -519,8 +481,8 @@ types:
     capacitorneed: 36.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13962
     marketGroup: 1049
@@ -530,11 +492,9 @@ types:
     name: Domination Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -547,8 +507,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13963
     marketGroup: 1049
@@ -558,11 +518,9 @@ types:
     name: True Sansha Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -575,8 +533,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 13964
     marketGroup: 1049
@@ -586,11 +544,9 @@ types:
     name: Dark Blood Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -603,8 +559,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14067
     marketGroup: 1051
@@ -614,11 +570,9 @@ types:
     name: Shadow Serpentis Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -631,8 +585,8 @@ types:
     capacitorneed: 160.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 14068
     marketGroup: 1050
@@ -642,11 +596,9 @@ types:
     name: Shadow Serpentis Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -659,8 +611,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14069
     marketGroup: 1049
@@ -670,11 +622,9 @@ types:
     name: Shadow Serpentis Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -687,8 +637,8 @@ types:
     capacitorneed: 360.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14552
     marketGroup: 1051
@@ -698,11 +648,9 @@ types:
     name: Mizuro's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1890
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -715,8 +663,8 @@ types:
     capacitorneed: 360.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14554
     marketGroup: 1051
@@ -726,11 +674,9 @@ types:
     name: Gotan's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2070
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -743,8 +689,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14848
     marketGroup: 1051
@@ -754,11 +700,9 @@ types:
     name: Brokara's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -771,8 +715,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14849
     marketGroup: 1051
@@ -782,11 +726,9 @@ types:
     name: Tairei's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -799,8 +741,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14850
     marketGroup: 1051
@@ -810,11 +752,9 @@ types:
     name: Selynne's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -827,8 +767,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14851
     marketGroup: 1051
@@ -838,11 +778,9 @@ types:
     name: Raysere's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -855,8 +793,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14852
     marketGroup: 1051
@@ -866,11 +804,9 @@ types:
     name: Vizan's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -883,8 +819,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14853
     marketGroup: 1051
@@ -894,11 +830,9 @@ types:
     name: Ahremen's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -911,8 +845,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14854
     marketGroup: 1051
@@ -922,11 +856,9 @@ types:
     name: Chelm's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -939,8 +871,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 14855
     marketGroup: 1051
@@ -950,11 +882,9 @@ types:
     name: Draclira's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -967,8 +897,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15160
     marketGroup: 1051
@@ -978,11 +908,9 @@ types:
     name: Brynn's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -995,8 +923,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15161
     marketGroup: 1051
@@ -1006,11 +934,9 @@ types:
     name: Tuvan's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1023,8 +949,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15162
     marketGroup: 1051
@@ -1034,11 +960,9 @@ types:
     name: Setele's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1051,8 +975,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15163
     marketGroup: 1051
@@ -1062,11 +986,9 @@ types:
     name: Cormack's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1079,8 +1001,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15741
     marketGroup: 1049
@@ -1090,11 +1012,9 @@ types:
     name: Ammatar Navy Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1107,8 +1027,8 @@ types:
     capacitorneed: 180.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 15742
     marketGroup: 1050
@@ -1118,11 +1038,9 @@ types:
     name: Ammatar Navy Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1135,8 +1053,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15743
     marketGroup: 1051
@@ -1146,11 +1064,9 @@ types:
     name: Ammatar Navy Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1163,8 +1079,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15744
     marketGroup: 1049
@@ -1174,11 +1090,9 @@ types:
     name: Federation Navy Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1191,8 +1105,8 @@ types:
     capacitorneed: 160.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 15745
     marketGroup: 1050
@@ -1202,11 +1116,9 @@ types:
     name: Federation Navy Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1219,8 +1131,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 15746
     marketGroup: 1051
@@ -1230,11 +1142,9 @@ types:
     name: Federation Navy Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1247,8 +1157,8 @@ types:
     capacitorneed: 360.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 17492
     marketGroup: 1051
@@ -1258,11 +1168,9 @@ types:
     name: Republic Fleet Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1275,8 +1183,8 @@ types:
     capacitorneed: 144.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 17493
     marketGroup: 1050
@@ -1286,11 +1194,9 @@ types:
     name: Republic Fleet Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1303,8 +1209,8 @@ types:
     capacitorneed: 36.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 17494
     marketGroup: 1049
@@ -1314,11 +1220,9 @@ types:
     name: Republic Fleet Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1331,8 +1235,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 17546
     marketGroup: 1051
@@ -1342,11 +1246,9 @@ types:
     name: Imperial Navy Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1359,8 +1261,8 @@ types:
     capacitorneed: 180.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 17547
     marketGroup: 1050
@@ -1370,11 +1272,9 @@ types:
     name: Imperial Navy Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1387,8 +1287,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 17548
     marketGroup: 1049
@@ -1398,11 +1298,9 @@ types:
     name: Imperial Navy Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1415,8 +1313,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 18999
     marketGroup: 1049
@@ -1426,11 +1324,9 @@ types:
     name: Corpii C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1443,8 +1339,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19001
     marketGroup: 1049
@@ -1454,11 +1350,9 @@ types:
     name: Corpii B-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1471,8 +1365,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19003
     marketGroup: 1049
@@ -1482,11 +1376,9 @@ types:
     name: Corpii A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1499,8 +1391,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19005
     marketGroup: 1049
@@ -1510,11 +1402,9 @@ types:
     name: Centii C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1527,8 +1417,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19007
     marketGroup: 1049
@@ -1538,11 +1428,9 @@ types:
     name: Centii B-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1555,8 +1443,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19009
     marketGroup: 1049
@@ -1566,11 +1454,9 @@ types:
     name: Centii A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1583,8 +1469,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19011
     marketGroup: 1049
@@ -1594,11 +1480,9 @@ types:
     name: Coreli C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1611,8 +1495,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19013
     marketGroup: 1049
@@ -1622,11 +1506,9 @@ types:
     name: Coreli B-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1639,8 +1521,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19015
     marketGroup: 1049
@@ -1650,11 +1532,9 @@ types:
     name: Coreli A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1667,8 +1547,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19017
     marketGroup: 1050
@@ -1678,11 +1558,9 @@ types:
     name: Corpum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1695,8 +1573,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19019
     marketGroup: 1050
@@ -1706,11 +1584,9 @@ types:
     name: Corpum B-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 144
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1723,8 +1599,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19021
     marketGroup: 1050
@@ -1734,11 +1610,9 @@ types:
     name: Corpum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 156
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1751,8 +1625,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19023
     marketGroup: 1050
@@ -1762,11 +1636,9 @@ types:
     name: Centum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1779,8 +1651,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19025
     marketGroup: 1050
@@ -1790,11 +1662,9 @@ types:
     name: Centum B-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 144
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1807,8 +1677,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19027
     marketGroup: 1050
@@ -1818,11 +1688,9 @@ types:
     name: Centum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 156
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1835,8 +1703,8 @@ types:
     capacitorneed: 160.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19029
     marketGroup: 1050
@@ -1846,11 +1714,9 @@ types:
     name: Corelum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 132
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1863,8 +1729,8 @@ types:
     capacitorneed: 160.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19031
     marketGroup: 1050
@@ -1874,11 +1740,9 @@ types:
     name: Corelum B-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 144
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1891,8 +1755,8 @@ types:
     capacitorneed: 160.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 19033
     marketGroup: 1050
@@ -1902,11 +1766,9 @@ types:
     name: Corelum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 156
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1919,8 +1781,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19035
     marketGroup: 1051
@@ -1930,11 +1792,9 @@ types:
     name: Core C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1947,8 +1807,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19036
     marketGroup: 1051
@@ -1958,11 +1818,9 @@ types:
     name: Core B-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -1975,8 +1833,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19037
     marketGroup: 1051
@@ -1986,11 +1844,9 @@ types:
     name: Core A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2003,8 +1859,8 @@ types:
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19038
     marketGroup: 1051
@@ -2014,11 +1870,9 @@ types:
     name: Core X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2031,8 +1885,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19039
     marketGroup: 1051
@@ -2042,11 +1896,9 @@ types:
     name: Corpus C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2059,8 +1911,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19040
     marketGroup: 1051
@@ -2070,11 +1922,9 @@ types:
     name: Centus C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1980
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2087,8 +1937,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19041
     marketGroup: 1051
@@ -2098,11 +1948,9 @@ types:
     name: Corpus B-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2115,8 +1963,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19042
     marketGroup: 1051
@@ -2126,11 +1974,9 @@ types:
     name: Centus B-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2160
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2143,8 +1989,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19043
     marketGroup: 1051
@@ -2154,11 +2000,9 @@ types:
     name: Corpus A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2171,8 +2015,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19044
     marketGroup: 1051
@@ -2182,11 +2026,9 @@ types:
     name: Centus A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2340
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2199,8 +2041,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19045
     marketGroup: 1051
@@ -2210,11 +2052,9 @@ types:
     name: Corpus X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2227,8 +2067,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 19046
     marketGroup: 1051
@@ -2238,11 +2078,9 @@ types:
     name: Centus X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2520
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2255,8 +2093,8 @@ types:
     capacitorneed: 2400.0
     cpu: 75.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 20701
     marketGroup: 1052
@@ -2264,11 +2102,9 @@ types:
     name: Capital Armor Repairer I
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2279,7 +2115,7 @@ types:
     capacitorneed: 3.0
     cpu: 1.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 8.0
     hp: 40.0
     id: 21853
@@ -2288,12 +2124,10 @@ types:
     name: Civilian Armor Repairer
     overloadarmordamageamount: 3
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2304,7 +2138,7 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6750.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 22887
@@ -2315,11 +2149,9 @@ types:
     name: '''Harmony'' Small Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2332,7 +2164,7 @@ types:
     capacitorneed: 160.0
     cpu: 20.0
     duration: 13500.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 22889
@@ -2343,11 +2175,9 @@ types:
     name: '''Meditation'' Medium Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2360,7 +2190,7 @@ types:
     capacitorneed: 400.0
     cpu: 40.0
     duration: 16875.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.0
     hp: 40.0
     id: 22891
@@ -2371,11 +2201,9 @@ types:
     name: '''Protest'' Large Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1620
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2388,8 +2216,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 23795
     marketGroup: 1049
@@ -2399,11 +2227,9 @@ types:
     name: '''Gorget'' Small Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2416,8 +2242,8 @@ types:
     capacitorneed: 160.0
     cpu: 20.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 23797
     marketGroup: 1050
@@ -2427,11 +2253,9 @@ types:
     name: '''Greaves'' Medium Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 108
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2444,8 +2268,8 @@ types:
     capacitorneed: 400.0
     cpu: 40.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 23799
     marketGroup: 1051
@@ -2455,11 +2279,9 @@ types:
     name: '''Hauberk'' Large Armor Repairer I'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1620
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2472,8 +2294,8 @@ types:
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 28544
     marketGroup: 1051
@@ -2483,11 +2305,9 @@ types:
     name: Khanid Navy Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1800
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2500,8 +2320,8 @@ types:
     capacitorneed: 180.0
     cpu: 21.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 28549
     marketGroup: 1050
@@ -2511,11 +2331,9 @@ types:
     name: Khanid Navy Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 120
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2528,8 +2346,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 28556
     marketGroup: 1049
@@ -2539,11 +2357,9 @@ types:
     name: Khanid Navy Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2556,8 +2372,8 @@ types:
     capacitorneed: 1920.0
     cpu: 75.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 41498
     marketGroup: 1052
@@ -2566,11 +2382,9 @@ types:
     name: Capital I-a Enduring Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2581,8 +2395,8 @@ types:
     capacitorneed: 2400.0
     cpu: 60.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 41499
     marketGroup: 1052
@@ -2591,11 +2405,9 @@ types:
     name: Capital ACM Compact Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2606,8 +2418,8 @@ types:
     capacitorneed: 2880.0
     cpu: 83.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 41500
     marketGroup: 1052
@@ -2616,11 +2428,9 @@ types:
     name: Capital Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -2631,8 +2441,8 @@ types:
     capacitorneed: 2500.0
     cpu: 65.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 41501
     marketGroup: 1052
@@ -2642,11 +2452,9 @@ types:
     name: Dark Blood Capital Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 118750
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2657,8 +2465,8 @@ types:
     capacitorneed: 1900.0
     cpu: 60.0
     duration: 30000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 10.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 10.7
     hp: 40.0
     id: 41502
     marketGroup: 1052
@@ -2668,11 +2476,9 @@ types:
     name: Shadow Serpentis Capital Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -2682,10 +2488,8 @@ types:
     id: 47769
     mass: 1.0
     name: Small Abyssal Armor Repairer
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 3
     requiredskill2: 3392
@@ -2696,10 +2500,8 @@ types:
     id: 47773
     mass: 1.0
     name: Medium Abyssal Armor Repairer
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 4
     requiredskill2: 3392
@@ -2710,10 +2512,8 @@ types:
     id: 47777
     mass: 1.0
     name: Large Abyssal Armor Repairer
-    packagedVolume: 50.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 4
     requiredskill2: 3392
@@ -2724,10 +2524,8 @@ types:
     id: 56307
     mass: 500.0
     name: Capital Abyssal Armor Repairer
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 21803
     requiredskill1level: 4
     techlevel: 1
@@ -2737,8 +2535,8 @@ types:
     capacitorneed: 40.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 84970
     marketGroup: 1049
@@ -2747,11 +2545,9 @@ types:
     name: Asine's Modified Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2764,8 +2560,8 @@ types:
     capacitorneed: 45.0
     cpu: 4.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.400000095367432
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.4
     hp: 40.0
     id: 84971
     marketGroup: 1049
@@ -2774,11 +2570,9 @@ types:
     name: Makra's Modified Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2791,8 +2585,8 @@ types:
     capacitorneed: 160.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 84972
     marketGroup: 1050
@@ -2801,11 +2595,9 @@ types:
     name: Gara's Modified Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 168
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392
@@ -2818,8 +2610,8 @@ types:
     capacitorneed: 180.0
     cpu: 23.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 5.300000190734863
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 5.3
     hp: 40.0
     id: 84973
     marketGroup: 1050
@@ -2828,11 +2620,9 @@ types:
     name: Ryhad's Modified Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 168
     published: true
-    radius: 1.0
     requiredskill1: 3393
     requiredskill1level: 1
     requiredskill2: 3392

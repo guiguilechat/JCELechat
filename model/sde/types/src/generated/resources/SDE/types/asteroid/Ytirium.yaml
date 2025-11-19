@@ -6,19 +6,17 @@ types:
     asteroidradiusunitsize: 600
     id: 74525
     marketGroup: 3488
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Ytirium
     orebasictype: 74525
-    packagedVolume: 0.6000000238418579
     portionSize: 100
     price: 30720.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6
   74526:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -26,19 +24,17 @@ types:
     asteroidradiusunitsize: 600
     id: 74526
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Bootleg Ytirium
+    mass: 1.0E+35
+    name: Ytirium II-Grade
     orebasictype: 74525
-    packagedVolume: 0.6000000238418579
     portionSize: 100
     price: 32256.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6
   74527:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -46,39 +42,35 @@ types:
     asteroidradiusunitsize: 600
     id: 74527
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Firewater Ytirium
+    mass: 1.0E+35
+    name: Ytirium III-Grade
     orebasictype: 74525
-    packagedVolume: 0.6000000238418579
     portionSize: 100
     price: 33792.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6
   74528:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.04500000178813934
+    asteroidradiusgrowthfactor: 0.045
     asteroidradiusunitsize: 600
     id: 74528
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Moonshine Ytirium
+    mass: 1.0E+35
+    name: Ytirium IV-Grade
     orebasictype: 74525
-    packagedVolume: 0.6000000238418579
     portionSize: 100
     price: 35328.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.6000000238418579
+    volume: 0.6
   75279:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 600
     id: 75279
     marketGroup: 3488
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Ytirium
     orebasictype: 74525
-    packagedVolume: 0.006000000052154064
     portionSize: 100
     price: 30720.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.006000000052154064
+    volume: 0.006
   75280:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -106,19 +96,17 @@ types:
     asteroidradiusunitsize: 600
     id: 75280
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Compressed Bootleg Ytirium
+    mass: 1.0E+35
+    name: Compressed Ytirium II-Grade
     orebasictype: 74525
-    packagedVolume: 0.006000000052154064
     portionSize: 100
     price: 32256.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.006000000052154064
+    volume: 0.006
   75281:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -126,36 +114,32 @@ types:
     asteroidradiusunitsize: 600
     id: 75281
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Compressed Firewater Ytirium
+    mass: 1.0E+35
+    name: Compressed Ytirium III-Grade
     orebasictype: 74525
-    packagedVolume: 0.006000000052154064
     portionSize: 100
     price: 33792.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.006000000052154064
+    volume: 0.006
   75282:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.04500000178813934
+    asteroidradiusgrowthfactor: 0.045
     asteroidradiusunitsize: 600
     id: 75282
     marketGroup: 3488
-    mass: 1.0000000409184788E35
-    name: Compressed Moonshine Ytirium
+    mass: 1.0E+35
+    name: Compressed Ytirium IV-Grade
     orebasictype: 74525
-    packagedVolume: 0.006000000052154064
     portionSize: 100
     price: 35328.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60378
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.006000000052154064
+    volume: 0.006

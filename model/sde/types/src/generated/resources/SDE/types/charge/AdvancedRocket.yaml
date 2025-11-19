@@ -1,15 +1,15 @@
 types:
   2817:
-    agility: 5.220125675201416
+    agility: 5.220125693558398
     aimedlaunch: 1
     aoecloudsize: 34
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1000
     aoevelocity: 129
     armorpiercingchance: 1
     detonationrange: 35
-    emdamage: 51.29999923706055
-    emdamageresonance: 0.800000011920929
+    emdamage: 51.3
+    emdamageresonance: 0.8
     explosiondelay: 2000
     explosivedamageresonance: 1.0
     hp: 90.0
@@ -21,7 +21,6 @@ types:
     maxvelocity: 1875.0
     metalevelold: 5
     name: Mjolnir Rage Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -35,17 +34,17 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   13119:
-    agility: 0.0019947297405451536
+    agility: 0.001994729721510602
     aoecloudsize: 20
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 3000
     aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
-    emdamage: 29.700000762939453
-    emdamageresonance: 0.800000011920929
+    emdamage: 29.7
+    emdamageresonance: 0.8
     explosiondelay: 2000
     explosivedamageresonance: 1.0
     hp: 90.0
@@ -57,7 +56,6 @@ types:
     maxvelocity: 3375.0
     metalevelold: 5
     name: Mjolnir Javelin Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -71,12 +69,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   24471:
-    agility: 5.220125675201416
+    agility: 5.220125693558398
     aimedlaunch: 1
     aoecloudsize: 34
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1000
     aoevelocity: 129
     armorpiercingchance: 1
@@ -86,15 +84,14 @@ types:
     explosivedamageresonance: 1.0
     hp: 90.0
     id: 24471
-    kineticdamage: 51.29999923706055
-    kineticdamageresonance: 0.800000011920929
+    kineticdamage: 51.3
+    kineticdamageresonance: 0.8
     launchergroup: 507
     marketGroup: 930
     mass: 100.0
     maxvelocity: 1875.0
     metalevelold: 5
     name: Scourge Rage Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -108,20 +105,20 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   24473:
-    agility: 5.220125675201416
+    agility: 5.220125693558398
     aimedlaunch: 1
     aoecloudsize: 34
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1000
     aoevelocity: 129
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2000
-    explosivedamage: 51.29999923706055
-    explosivedamageresonance: 0.800000011920929
+    explosivedamage: 51.3
+    explosivedamageresonance: 0.8
     hp: 90.0
     id: 24473
     kineticdamageresonance: 1.0
@@ -131,7 +128,6 @@ types:
     maxvelocity: 1875.0
     metalevelold: 5
     name: Nova Rage Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -145,12 +141,12 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   24475:
-    agility: 5.220125675201416
+    agility: 5.220125693558398
     aimedlaunch: 1
     aoecloudsize: 34
-    aoedamagereductionfactor: 0.8820000290870667
+    aoedamagereductionfactor: 0.882
     aoefalloff: 1000
     aoevelocity: 129
     armorpiercingchance: 1
@@ -167,7 +163,6 @@ types:
     maxvelocity: 1875.0
     metalevelold: 5
     name: Inferno Rage Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -180,13 +175,13 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamage: 51.29999923706055
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.004999999888241291
+    thermaldamage: 51.3
+    thermaldamageresonance: 0.8
+    volume: 0.005
   24477:
-    agility: 0.0019947297405451536
+    agility: 0.001994729721510602
     aoecloudsize: 20
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 3000
     aoevelocity: 150
     armorpiercingchance: 1
@@ -196,15 +191,14 @@ types:
     explosivedamageresonance: 1.0
     hp: 90.0
     id: 24477
-    kineticdamage: 29.700000762939453
-    kineticdamageresonance: 0.800000011920929
+    kineticdamage: 29.7
+    kineticdamageresonance: 0.8
     launchergroup: 507
     marketGroup: 928
     mass: 100.0
     maxvelocity: 3375.0
     metalevelold: 5
     name: Scourge Javelin Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -218,19 +212,19 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   24478:
-    agility: 0.0019947297405451536
+    agility: 0.001994729721510602
     aoecloudsize: 20
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 3000
     aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2000
-    explosivedamage: 29.700000762939453
-    explosivedamageresonance: 0.800000011920929
+    explosivedamage: 29.7
+    explosivedamageresonance: 0.8
     hp: 90.0
     id: 24478
     kineticdamageresonance: 1.0
@@ -240,7 +234,6 @@ types:
     maxvelocity: 3375.0
     metalevelold: 5
     name: Nova Javelin Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -254,11 +247,11 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
-    volume: 0.004999999888241291
+    volume: 0.005
   24479:
-    agility: 0.0019947297405451536
+    agility: 0.001994729721510602
     aoecloudsize: 20
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 3000
     aoevelocity: 150
     armorpiercingchance: 1
@@ -275,7 +268,6 @@ types:
     maxvelocity: 3375.0
     metalevelold: 5
     name: Inferno Javelin Rocket
-    packagedVolume: 0.004999999888241291
     portionSize: 5000
     price: 62340.0
     published: true
@@ -288,6 +280,6 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamage: 29.700000762939453
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.004999999888241291
+    thermaldamage: 29.7
+    thermaldamageresonance: 0.8
+    volume: 0.005

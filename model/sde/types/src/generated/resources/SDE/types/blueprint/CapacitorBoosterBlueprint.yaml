@@ -4,231 +4,190 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1563
     name: Medium Capacitor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281240.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2025:
     id: 2025
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Capacitor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3567:
     id: 3567
     industryblueprintrank: 3.0
     marketGroup: 1563
     name: Small Capacitor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 112500.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3569:
     id: 3569
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Capacitor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3577:
     id: 3577
     industryblueprintrank: 9.0
     marketGroup: 1563
     name: Heavy Capacitor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 702580.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3579:
     id: 3579
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Heavy Capacitor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15773:
     id: 15773
     industryblueprintrank: 3.0
     name: Ammatar Navy Small Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15777:
     id: 15777
     industryblueprintrank: 6.0
     name: Ammatar Navy Medium Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15779:
     id: 15779
     industryblueprintrank: 9.0
     name: Ammatar Navy Heavy Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15781:
     id: 15781
     industryblueprintrank: 3.0
     name: Imperial Navy Small Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15785:
     id: 15785
     industryblueprintrank: 6.0
     name: Imperial Navy Medium Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15787:
     id: 15787
     industryblueprintrank: 9.0
     name: Imperial Navy Heavy Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20556:
     id: 20556
     industryblueprintrank: 3.0
     name: Small 'Siesta' Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20558:
     id: 20558
     industryblueprintrank: 6.0
     name: Medium 'Gattotte' Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20560:
     id: 20560
     industryblueprintrank: 9.0
     name: Heavy 'Brave' Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23808:
     id: 23808
     industryblueprintrank: 3.0
     name: '''Saddle'' Small Capacitor Booster I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23810:
     id: 23810
     industryblueprintrank: 6.0
     name: '''Harness'' Medium Capacitor Booster I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23812:
     id: 23812
     industryblueprintrank: 9.0
     name: '''Plough'' Heavy Capacitor Booster I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41644:
     id: 41644
     marketGroup: 1563
     name: Capital Capacitor Booster I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E7
+    price: 12000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41645:
     id: 41645
     marketGroup: 1563
     name: Capital F-RX Compact Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4E7
+    price: 24000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41646:
     id: 41646
     name: Capital Capacitor Booster II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41647:
     id: 41647
     name: Dark Blood Capital Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41648:
     id: 41648
     name: True Sansha Capital Capacitor Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

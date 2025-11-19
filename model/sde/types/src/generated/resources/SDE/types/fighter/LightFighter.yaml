@@ -39,9 +39,8 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 833.0
     name: Templar I
-    packagedVolume: 1000.0
     portionSize: 1
-    price: 2.004734E7
+    price: 20047340.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -104,9 +103,8 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 753.0
     name: Dragonfly I
-    packagedVolume: 1000.0
     portionSize: 1
-    price: 2.0336332E7
+    price: 20336332.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -169,9 +167,8 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 714.0
     name: Firbolg I
-    packagedVolume: 1000.0
     portionSize: 1
-    price: 2.1394992E7
+    price: 21394992.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -234,9 +231,8 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 873.0
     name: Einherji I
-    packagedVolume: 1000.0
     portionSize: 1
-    price: 2.000134E7
+    price: 20001340.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -295,7 +291,6 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 1000.0
     name: Equite I
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -355,7 +350,6 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 905.0
     name: Locust I
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -415,7 +409,6 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 857.0
     name: Satyr I
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -475,7 +468,6 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 1048.0
     name: Gram I
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -536,7 +528,6 @@ types:
     maxvelocity: 1040.0
     metalevelold: 5
     name: Equite II
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -550,8 +541,8 @@ types:
     scanresolution: 950.0
     shieldcapacity: 1760.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -597,7 +588,6 @@ types:
     maxvelocity: 1090.0
     metalevelold: 5
     name: Gram II
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -610,11 +600,11 @@ types:
     scanladarstrength: 8.0
     scanresolution: 950.0
     shieldcapacity: 1760.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 88.0
     structureuniformity: 1.0
@@ -658,7 +648,6 @@ types:
     maxvelocity: 941.0
     metalevelold: 5
     name: Locust II
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -673,9 +662,9 @@ types:
     shieldcapacity: 1760.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 88.0
     structureuniformity: 1.0
@@ -719,7 +708,6 @@ types:
     maxvelocity: 892.0
     metalevelold: 5
     name: Satyr II
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -734,9 +722,9 @@ types:
     shieldcapacity: 1760.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 88.0
     structureuniformity: 1.0
@@ -784,7 +772,6 @@ types:
     maxvelocity: 867.0
     metalevelold: 5
     name: Templar II
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -798,8 +785,8 @@ types:
     scanresolution: 800.0
     shieldcapacity: 2420.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -849,7 +836,6 @@ types:
     maxvelocity: 785.0
     metalevelold: 5
     name: Dragonfly II
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -864,9 +850,9 @@ types:
     shieldcapacity: 2420.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 700000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -914,7 +900,6 @@ types:
     maxvelocity: 743.0
     metalevelold: 5
     name: Firbolg II
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -929,9 +914,9 @@ types:
     shieldcapacity: 2420.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 700000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -979,7 +964,6 @@ types:
     maxvelocity: 908.0
     metalevelold: 5
     name: Einherji II
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -992,11 +976,11 @@ types:
     scanladarstrength: 7.0
     scanresolution: 800.0
     shieldcapacity: 2420.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 700000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -1045,7 +1029,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Templar
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1111,7 +1094,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Dragonfly
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1177,7 +1159,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Firbolg
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1243,7 +1224,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Einherji
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1305,7 +1285,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Equite
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1367,7 +1346,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Locust
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1429,7 +1407,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Satyr
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -1491,7 +1468,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Gram
-    packagedVolume: 800.0
     portionSize: 1
     published: true
     radius: 35.0

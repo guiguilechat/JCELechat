@@ -38,9 +38,8 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1563.0
     name: Standup Mantis I
-    packagedVolume: 3600.0
     portionSize: 1
-    price: 2.0336332E7
+    price: 20336332.0
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -92,7 +91,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 1164.0
     name: Standup Gungnir I
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -152,7 +150,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1728.0
     name: Standup Malleus I
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -212,7 +209,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1482.0
     name: Standup Cyclops I
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -272,7 +268,6 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 1812.0
     name: Standup Tyrfing I
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -333,7 +328,6 @@ types:
     maxvelocity: 1800.0
     metalevelold: 5
     name: Standup Malleus II
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -343,8 +337,8 @@ types:
     scanresolution: 520.0
     shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -394,7 +388,6 @@ types:
     maxvelocity: 1629.0
     metalevelold: 5
     name: Standup Mantis II
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -405,9 +398,9 @@ types:
     shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 110.0
     structureitemvisualflag: 1
@@ -455,7 +448,6 @@ types:
     maxvelocity: 1542.0
     metalevelold: 5
     name: Standup Cyclops II
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -466,9 +458,9 @@ types:
     shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureitemvisualflag: 1
@@ -516,7 +508,6 @@ types:
     maxvelocity: 1884.0
     metalevelold: 5
     name: Standup Tyrfing II
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -525,11 +516,11 @@ types:
     scanladarstrength: 12.0
     scanresolution: 520.0
     shieldcapacity: 7093.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 110.0
     structureitemvisualflag: 1
@@ -574,7 +565,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Standup Shadow
-    packagedVolume: 3600.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -627,7 +617,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 1110.0
     name: Standup Ametat I
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -680,7 +669,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 1004.0
     name: Standup Termite I
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -733,7 +721,6 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 952.0
     name: Standup Antaeus I
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -787,7 +774,6 @@ types:
     maxvelocity: 1156.0
     metalevelold: 5
     name: Standup Ametat II
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -797,8 +783,8 @@ types:
     scanresolution: 450.0
     shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.699999988079071
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
@@ -841,7 +827,6 @@ types:
     maxvelocity: 1046.0
     metalevelold: 5
     name: Standup Termite II
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -852,9 +837,9 @@ types:
     shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.8500000238418579
+    shieldkineticdamageresonance: 0.85
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1
@@ -895,7 +880,6 @@ types:
     maxvelocity: 990.0
     metalevelold: 5
     name: Standup Antaeus II
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -906,9 +890,9 @@ types:
     shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1
@@ -949,7 +933,6 @@ types:
     maxvelocity: 1210.0
     metalevelold: 5
     name: Standup Gungnir II
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 35.0
@@ -958,11 +941,11 @@ types:
     scanladarstrength: 12.0
     scanresolution: 450.0
     shieldcapacity: 6653.0
-    shieldemdamageresonance: 0.699999988079071
+    shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.8500000238418579
+    shieldthermaldamageresonance: 0.85
     shielduniformity: 1.0
     signatureradius: 120.0
     structureitemvisualflag: 1

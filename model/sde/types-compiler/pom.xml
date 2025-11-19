@@ -10,8 +10,8 @@
 	<artifactId>types-compiler</artifactId>
 	<name>SDE-Types-compiler</name>
 	<description>Generate classes corresponding to the dogma structure of the Static Data Export from CCP.
-This module is designed to be used pre-compile time in order to load the SDE from CCP and generate both the classes and the corresponding classes data.
-At the moment it creates classes for items in the SDE, considering their attributes.</description>
+		This module is designed to be used pre-compile time in order to load the SDE from CCP and generate both the classes and the corresponding classes data.
+		At the moment it creates classes for items in the SDE, considering their attributes.</description>
 	<dependencies>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -19,12 +19,12 @@ At the moment it creates classes for items in the SDE, considering their attribu
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>jcesi</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>cache</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>raw</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.lelouet.tools</groupId>
@@ -33,6 +33,11 @@ At the moment it creates classes for items in the SDE, considering their attribu
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>

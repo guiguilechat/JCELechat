@@ -2,7 +2,6 @@ types:
   3457:
     armorhp: 50.0
     capacitorcapacity: 1200.0
-    capacity: 1200.0
     damagemultiplier: 1.25
     disallowassistance: 1
     emdamage: 2.0
@@ -18,7 +17,6 @@ types:
     maxvelocity: 350.0
     name: Test LCO Drone
     orbitrange: 25
-    packagedVolume: 60.0
     portionSize: 1
     proximityrange: 3000
     published: false

@@ -1,0 +1,26 @@
+types:
+  90423:
+    agility: 0.675
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorhp: 6750.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
+    capacitorcapacity: 2900.0
+    gfxboosterid: 395
+    hp: 6500.0
+    id: 90423
+    mass: 15000000.0
+    maxvelocity: 150.0
+    name: SOE Odysseus
+    portionSize: 1
+    published: false
+    radius: 143.0
+    rechargerate: 725000.0
+    shieldcapacity: 5250.0
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.4
+    signatureradius: 300.0

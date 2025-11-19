@@ -9,11 +9,9 @@ types:
     mass: 4000.0
     name: Cobaltite
     orebasictype: 45494
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -29,11 +27,9 @@ types:
     mass: 4000.0
     name: Euxenite
     orebasictype: 45495
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -49,11 +45,9 @@ types:
     mass: 4000.0
     name: Titanite
     orebasictype: 45496
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -69,11 +63,9 @@ types:
     mass: 4000.0
     name: Scheelite
     orebasictype: 45497
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -89,11 +81,9 @@ types:
     mass: 4000.0
     name: Copious Cobaltite
     orebasictype: 45494
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -109,11 +99,9 @@ types:
     mass: 4000.0
     name: Twinkling Cobaltite
     orebasictype: 45494
-    packagedVolume: 10.0
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -129,11 +117,9 @@ types:
     mass: 4000.0
     name: Copious Euxenite
     orebasictype: 45495
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -149,11 +135,9 @@ types:
     mass: 4000.0
     name: Twinkling Euxenite
     orebasictype: 45495
-    packagedVolume: 10.0
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -169,11 +153,9 @@ types:
     mass: 4000.0
     name: Copious Titanite
     orebasictype: 45496
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -189,11 +171,9 @@ types:
     mass: 4000.0
     name: Twinkling Titanite
     orebasictype: 45496
-    packagedVolume: 10.0
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -209,11 +189,9 @@ types:
     mass: 4000.0
     name: Copious Scheelite
     orebasictype: 45497
-    packagedVolume: 10.0
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -229,11 +207,9 @@ types:
     mass: 4000.0
     name: Twinkling Scheelite
     orebasictype: 45497
-    packagedVolume: 10.0
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
@@ -249,16 +225,14 @@ types:
     mass: 4000.0
     name: Compressed Scheelite
     orebasictype: 45497
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62469:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -269,16 +243,14 @@ types:
     mass: 4000.0
     name: Compressed Copious Scheelite
     orebasictype: 45497
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62470:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -289,16 +261,14 @@ types:
     mass: 4000.0
     name: Compressed Twinkling Scheelite
     orebasictype: 45497
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62471:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -309,16 +279,14 @@ types:
     mass: 4000.0
     name: Compressed Euxenite
     orebasictype: 45495
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62472:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -329,16 +297,14 @@ types:
     mass: 4000.0
     name: Compressed Copious Euxenite
     orebasictype: 45495
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62473:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -349,16 +315,14 @@ types:
     mass: 4000.0
     name: Compressed Twinkling Euxenite
     orebasictype: 45495
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62474:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -369,16 +333,14 @@ types:
     mass: 4000.0
     name: Compressed Cobaltite
     orebasictype: 45494
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62475:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -389,16 +351,14 @@ types:
     mass: 4000.0
     name: Compressed Copious Cobaltite
     orebasictype: 45494
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62476:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -409,16 +369,14 @@ types:
     mass: 4000.0
     name: Compressed Twinkling Cobaltite
     orebasictype: 45494
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62477:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -429,16 +387,14 @@ types:
     mass: 4000.0
     name: Compressed Titanite
     orebasictype: 45496
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62478:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -449,16 +405,14 @@ types:
     mass: 4000.0
     name: Compressed Copious Titanite
     orebasictype: 45496
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62479:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -469,13 +423,11 @@ types:
     mass: 4000.0
     name: Compressed Twinkling Titanite
     orebasictype: 45496
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46153
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

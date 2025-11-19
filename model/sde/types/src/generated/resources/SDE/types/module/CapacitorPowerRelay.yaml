@@ -1,6 +1,6 @@
 types:
   506:
-    capacitorrechargeratemultiplier: 0.8999999761581421
+    capacitorrechargeratemultiplier: 0.9
     cpu: 1.0
     hp: 40.0
     id: 506
@@ -9,7 +9,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Capacitor Power Relay'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -19,14 +18,13 @@ types:
     techlevel: 1
     volume: 5.0
   1445:
-    capacitorrechargeratemultiplier: 0.800000011920929
+    capacitorrechargeratemultiplier: 0.8
     cpu: 4.0
     hp: 40.0
     id: 1445
     marketGroup: 667
     mass: 20.0
     name: Capacitor Power Relay I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -36,7 +34,7 @@ types:
     techlevel: 1
     volume: 5.0
   1447:
-    capacitorrechargeratemultiplier: 0.7599999904632568
+    capacitorrechargeratemultiplier: 0.76
     cpu: 8.0
     hp: 40.0
     id: 1447
@@ -44,7 +42,6 @@ types:
     mass: 20.0
     metalevelold: 5
     name: Capacitor Power Relay II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -54,7 +51,7 @@ types:
     techlevel: 2
     volume: 5.0
   8175:
-    capacitorrechargeratemultiplier: 0.7799999713897705
+    capacitorrechargeratemultiplier: 0.78
     cpu: 4.0
     hp: 40.0
     id: 8175
@@ -62,7 +59,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -72,7 +68,7 @@ types:
     techlevel: 1
     volume: 5.0
   8177:
-    capacitorrechargeratemultiplier: 0.7799999713897705
+    capacitorrechargeratemultiplier: 0.78
     cpu: 2.0
     hp: 40.0
     id: 8177
@@ -80,7 +76,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Mark I Compact Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -99,7 +94,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -118,7 +112,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -128,7 +121,7 @@ types:
     techlevel: 1
     volume: 5.0
   15080:
-    capacitorrechargeratemultiplier: 0.731249988079071
+    capacitorrechargeratemultiplier: 0.73125
     cpu: 8.0
     hp: 40.0
     id: 15080
@@ -137,7 +130,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -147,7 +139,7 @@ types:
     techlevel: 1
     volume: 5.0
   15082:
-    capacitorrechargeratemultiplier: 0.731249988079071
+    capacitorrechargeratemultiplier: 0.73125
     cpu: 8.0
     hp: 40.0
     id: 15082
@@ -156,7 +148,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -166,7 +157,7 @@ types:
     techlevel: 1
     volume: 5.0
   15084:
-    capacitorrechargeratemultiplier: 0.7124999761581421
+    capacitorrechargeratemultiplier: 0.7125
     cpu: 12.0
     hp: 40.0
     id: 15084
@@ -175,7 +166,6 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Selynne's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -185,7 +175,7 @@ types:
     techlevel: 1
     volume: 5.0
   15086:
-    capacitorrechargeratemultiplier: 0.7124999761581421
+    capacitorrechargeratemultiplier: 0.7125
     cpu: 12.0
     hp: 40.0
     id: 15086
@@ -194,7 +184,6 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Raysere's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -204,7 +193,7 @@ types:
     techlevel: 1
     volume: 5.0
   15088:
-    capacitorrechargeratemultiplier: 0.6937500238418579
+    capacitorrechargeratemultiplier: 0.69375
     cpu: 16.0
     hp: 40.0
     id: 15088
@@ -213,7 +202,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Vizan's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -223,7 +211,7 @@ types:
     techlevel: 1
     volume: 5.0
   15090:
-    capacitorrechargeratemultiplier: 0.6937500238418579
+    capacitorrechargeratemultiplier: 0.69375
     cpu: 16.0
     hp: 40.0
     id: 15090
@@ -232,7 +220,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Ahremen's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -242,7 +229,7 @@ types:
     techlevel: 1
     volume: 5.0
   15092:
-    capacitorrechargeratemultiplier: 0.675000011920929
+    capacitorrechargeratemultiplier: 0.675
     cpu: 20.0
     hp: 40.0
     id: 15092
@@ -251,7 +238,6 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Chelm's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -261,7 +247,7 @@ types:
     techlevel: 1
     volume: 5.0
   15094:
-    capacitorrechargeratemultiplier: 0.675000011920929
+    capacitorrechargeratemultiplier: 0.675
     cpu: 20.0
     hp: 40.0
     id: 15094
@@ -270,7 +256,6 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Draclira's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -280,7 +265,7 @@ types:
     techlevel: 1
     volume: 5.0
   15437:
-    capacitorrechargeratemultiplier: 0.6937500238418579
+    capacitorrechargeratemultiplier: 0.69375
     cpu: 16.0
     hp: 40.0
     id: 15437
@@ -289,7 +274,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Makur's Modified Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -308,7 +292,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -327,7 +310,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -346,7 +328,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Motte'' Capacitor Power Relay I'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -365,7 +346,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Capacitor Power Relay
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 500.0

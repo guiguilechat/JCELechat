@@ -1,38 +1,37 @@
 types:
   670:
     agility: 2.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 125.0
     cpuoutput: 1
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 150.0
     id: 670
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     mass: 32000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 1
     maxvelocity: 150.0
     name: Capsule
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 1
+    poweroutput: 1.0
     powertospeed: 1
     propulsiongraphicid: 395
     published: true
@@ -40,60 +39,60 @@ types:
     rechargerate: 187500.0
     scanladarstrength: 3.0
     scanspeed: 2500
+    sensordampenerresistance: 1.0
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     uniformity: 1.0
     volume: 1000.0
-    warpcapacitorneed: 2.1645000742864795E-6
+    warpcapacitorneed: 2.1645E-6
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   33328:
     agility: 2.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 125.0
     cpuoutput: 1
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 150.0
     id: 33328
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     mass: 32000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 1
     maxtargetrange: 60000.0
     maxvelocity: 150.0
     metagroupid: 4
     metalevelold: 9
     name: Capsule - Genolution 'Auroral' 197-variant
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 1
+    poweroutput: 1.0
     powertospeed: 1
     propulsiongraphicid: 395
     published: true
@@ -101,20 +100,21 @@ types:
     rechargerate: 187500.0
     scanladarstrength: 3.0
     scanspeed: 2500
+    sensordampenerresistance: 1.0
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     uniformity: 1.0
     volume: 1000.0
-    warpcapacitorneed: 2.1645000742864795E-6
+    warpcapacitorneed: 2.1645E-6
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0

@@ -1,9 +1,9 @@
 types:
   1818:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -17,7 +17,6 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     name: Scourge Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2500.0
     published: true
@@ -30,12 +29,12 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03
   1820:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -49,7 +48,6 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     name: Mjolnir Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3500.0
     published: true
@@ -62,12 +60,12 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03
   1822:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -81,7 +79,6 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     name: Nova Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0
     published: true
@@ -94,12 +91,12 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03
   1824:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -112,7 +109,6 @@ types:
     maxfoftargetrange: 150000
     maxvelocity: 4300.0
     name: Inferno Auto-Targeting Heavy Missile I
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
     published: true
@@ -126,12 +122,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 107.0
-    volume: 0.029999999329447746
+    volume: 0.03
   27483:
-    agility: 1.4449800073634833E-4
+    agility: 1.44498003785E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -146,7 +142,6 @@ types:
     maxvelocity: 4300.0
     metagroupid: 4
     name: Legion Mjolnir Auto-Targeting Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3500.0
     published: true
@@ -159,12 +154,12 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03
   27489:
-    agility: 1.4449800073634833E-4
+    agility: 1.44498003785E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -179,7 +174,6 @@ types:
     maxvelocity: 4300.0
     metagroupid: 4
     name: Legion Scourge Auto-Targeting Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2500.0
     published: true
@@ -192,12 +186,12 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03
   27495:
-    agility: 1.4449800073634833E-4
+    agility: 1.44498003785E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -211,7 +205,6 @@ types:
     maxvelocity: 4300.0
     metagroupid: 4
     name: Legion Inferno Auto-Targeting Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 3000.0
     published: true
@@ -225,12 +218,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 122.0
-    volume: 0.029999999329447746
+    volume: 0.03
   27501:
-    agility: 1.4449800073634833E-4
+    agility: 1.44498003785E-4
     aimedlaunch: 1
     aoecloudsize: 140
-    aoedamagereductionfactor: 0.6819999814033508
+    aoedamagereductionfactor: 0.682
     aoefalloff: 1500
     aoevelocity: 81
     detonationrange: 35
@@ -245,7 +238,6 @@ types:
     maxvelocity: 4300.0
     metagroupid: 4
     name: Legion Nova Auto-Targeting Heavy Missile
-    packagedVolume: 0.029999999329447746
     portionSize: 100
     price: 2000.0
     published: true
@@ -258,4 +250,4 @@ types:
     requiredskill3level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.029999999329447746
+    volume: 0.03

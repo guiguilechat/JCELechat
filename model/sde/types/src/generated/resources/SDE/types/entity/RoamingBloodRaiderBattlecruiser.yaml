@@ -4,21 +4,20 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.699999988079071
-    armorexplosivedamageresonance: 0.4000000059604645
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.4
     armorhp: 1800.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 875.0
-    capacity: 235.0
-    damagemultiplier: 8.149999618530273
+    damagemultiplier: 8.15
     disallowassistance: 1
     emdamage: 10.0
     entityarmorrepairamount: 300.0
-    entityarmorrepairdelaychance: 0.6000000238418579
-    entityarmorrepairdelaychancemedium: 0.6499999761581421
+    entityarmorrepairdelaychance: 0.6
+    entityarmorrepairdelaychancemedium: 0.65
     entityarmorrepairduration: 10000
     entityattackdelaymax: 18900
     entityattackdelaymin: 4725
@@ -30,38 +29,37 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.03999999910593033
+    entitydefenderchance: 0.04
     entityequipmentmax: 5
     entityequipmentmin: -5
-    entityfactionloss: 0.008999999612569809
+    entityfactionloss: 0.009
     entityflyrange: 22000.0
     entitykillbounty: 250000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6200000047683716
+    entityreactionfactor: 0.62
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.07625000178813934
-    entityshieldboostdelaychancemedium: 0.6499999761581421
+    entitysecuritystatuskillbonus: 0.07625
+    entityshieldboostdelaychancemedium: 0.65
     entityshieldboostduration: 5000
     falloff: 8000.0
     gfxboosterid: 397
     gfxturretid: 459
     hp: 1500.0
     id: 42237
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 1
     maxdirectionalvelocity: 2000
     maxlockedtargets: 1
     maxrange: 20000.0
     maxvelocity: 320.0
     mintargetveldmgmultiplier: 0.25
-    missileentityaoecloudsizemultiplier: 0.8483999967575073
-    missileentityaoevelocitymultiplier: 1.3032000064849854
+    missileentityaoecloudsizemultiplier: 0.8484
+    missileentityaoevelocitymultiplier: 1.3032
     missilelaunchduration: 1.0
     modifytargetspeedduration: 5000.0
     name: Blood Raider Patroller
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -71,16 +69,16 @@ types:
     scanresolution: 210.0
     scanspeed: 5000
     shieldcapacity: 1200.0
-    shieldemdamageresonance: 0.699999988079071
-    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.4
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.6000000238418579
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 255.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 8.0
-    trackingspeed: 0.032999999821186066
+    trackingspeed: 0.033
     volume: 118000.0

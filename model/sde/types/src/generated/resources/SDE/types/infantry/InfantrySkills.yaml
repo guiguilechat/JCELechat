@@ -2,843 +2,738 @@ types:
   352887:
     id: 352887
     name: Corporations
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352888:
     id: 352888
     name: Megacorp Control
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352890:
     id: 352890
     name: Transstellar Empire Control
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353317:
     id: 353317
     name: Large Blaster Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353318:
     id: 353318
     name: Large Blaster Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353322:
     id: 353322
     name: Large Missile Launcher Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353323:
     id: 353323
     name: Large Missile Launcher Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353326:
     id: 353326
     name: Small Blaster Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353327:
     id: 353327
     name: Small Blaster Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353330:
     id: 353330
     name: Small Missile Launcher Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353331:
     id: 353331
     name: Small Missile Launcher Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353335:
     id: 353335
     name: Turret Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353336:
     id: 353336
     name: Vehicle Turret Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353352:
     id: 353352
     name: Dropsuit Electronics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353353:
     id: 353353
     name: Vehicle Electronics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353357:
     id: 353357
     name: Profile Analysis
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353363:
     id: 353363
     name: Drop Uplink Deployment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353365:
     id: 353365
     name: Long Range Scanning
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353366:
     id: 353366
     name: Dropsuit Engineering
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353368:
     id: 353368
     name: Vehicle Engineering
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353369:
     id: 353369
     name: Active Shield Enhancement
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353370:
     id: 353370
     name: Dropsuit Shield Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353371:
     id: 353371
     name: Shield Boost Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353372:
     id: 353372
     name: Remote Shield Modulation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353373:
     id: 353373
     name: Shield Recharging
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353375:
     id: 353375
     name: Dropsuit Armor Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353376:
     id: 353376
     name: Armor Repair Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353377:
     id: 353377
     name: Remote Armor Repair
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353378:
     id: 353378
     name: Active Armor Enhancement
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353379:
     id: 353379
     name: Armor Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353381:
     id: 353381
     name: Vehicle Command
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353382:
     id: 353382
     name: Piloting
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 90000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353386:
     id: 353386
     name: LAV Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353387:
     id: 353387
     name: HAV Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353388:
     id: 353388
     name: Dropship Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353389:
     id: 353389
     name: Gallente HAV
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 957000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353390:
     id: 353390
     name: Gallente Dropship
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 957000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353391:
     id: 353391
     name: Gallente LAV
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 123000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353399:
     id: 353399
     name: Caldari Marauder
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4919000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353405:
     id: 353405
     name: Core Grid Management
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353408:
     id: 353408
     name: Dropsuit Command
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353413:
     id: 353413
     name: Minmatar Medium Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353426:
     id: 353426
     name: Kinetic Catalyzation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353427:
     id: 353427
     name: Cardiac Regulation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353428:
     id: 353428
     name: Infantry Skill Endurance
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353435:
     id: 353435
     name: Weaponry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353436:
     id: 353436
     name: Sidearm Weapon Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 192000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353437:
     id: 353437
     name: Sidearm Weapon Upgrade Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 795000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353438:
     id: 353438
     name: Light Weapon Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353440:
     id: 353440
     name: Light Weapon Upgrade Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1115000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353441:
     id: 353441
     name: Heavy Weapon Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 378000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353443:
     id: 353443
     name: Sidearm Weapon Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353444:
     id: 353444
     name: Sidearm Weapon Rapid Reload Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 417000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353445:
     id: 353445
     name: Light Weapon Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353446:
     id: 353446
     name: Light Weapon Rapid Reload Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 851000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353447:
     id: 353447
     name: Heavy Weapon Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353448:
     id: 353448
     name: Heavy Weapon Rapid Reload Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1161000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353449:
     id: 353449
     name: Sidearm Weapon Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353450:
     id: 353450
     name: Sidearm Weapon Sharpshooter Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 417000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353451:
     id: 353451
     name: Light Weapon Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353452:
     id: 353452
     name: Light Weapon Sharpshooter Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 851000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353453:
     id: 353453
     name: Heavy Weapon Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353454:
     id: 353454
     name: Heavy Weapon Sharpshooting Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1161000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353455:
     id: 353455
     name: Sidearm Weapon Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353456:
     id: 353456
     name: Sidearm Weapon Capacity Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 417000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353457:
     id: 353457
     name: Light Weapon Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353458:
     id: 353458
     name: Light Weapon Capacity Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 851000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353459:
     id: 353459
     name: Heavy Weapon Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353460:
     id: 353460
     name: Heavy Weapon Capacity Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1161000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353461:
     id: 353461
     name: Assault Rifle Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353462:
     id: 353462
     name: Assault Rifle Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353463:
     id: 353463
     name: Forge Gun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353464:
     id: 353464
     name: Forge Gun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353465:
     id: 353465
     name: Laser Rifle Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353466:
     id: 353466
     name: Laser Rifle Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353467:
     id: 353467
     name: Heavy Machine Gun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353468:
     id: 353468
     name: Heavy Machine Gun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353469:
     id: 353469
     name: Mass Driver Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353470:
     id: 353470
     name: Mass Driver Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353471:
     id: 353471
     name: Swarm Launcher Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353472:
     id: 353472
     name: Swarm Launcher Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353473:
     id: 353473
     name: Scrambler Pistol Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353474:
     id: 353474
     name: Scrambler Pistol Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353475:
     id: 353475
     name: Sniper Rifle Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353476:
     id: 353476
     name: Sniper Rifle Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353477:
     id: 353477
     name: Submachine Gun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353478:
     id: 353478
     name: Submachine Gun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353479:
     id: 353479
     name: Hand-to-Hand Combat
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353482:
     id: 353482
     name: Demolitions
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353484:
     id: 353484
     name: Grenadier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 378000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353485:
     id: 353485
     name: Heavy Weapon Upgrade Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1560000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353685:
     id: 353685
     name: Amarr Heavy Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353686:
     id: 353686
     name: Caldari Medium Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353687:
     id: 353687
     name: Gallente Light Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355212:
     id: 355212
     name: Shotgun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355213:
     id: 355213
     name: Shotgun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355280:
     id: 355280
     name: Nanocircuitry
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355932:
     id: 355932
     name: Systems Hacking
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356658:
     id: 356658
     name: Nova Knife Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356701:
     id: 356701
     name: Nova Knife Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356724:
     id: 356724
     name: Profile Dampening
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356725:
     id: 356725
     name: Sensor Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356915:
     id: 356915
     name: Neural Trainer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363360:
     id: 363360
     name: Plasma Cannon Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363362:
     id: 363362
     name: Plasma Cannon Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363788:
     id: 363788
     name: Flaylock Pistol Operation
@@ -920,11 +815,10 @@ types:
   364570:
     id: 364570
     name: Amarr Light Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364571:
     id: 364571
     name: Amarr Medium Dropsuits
@@ -934,11 +828,10 @@ types:
   364573:
     id: 364573
     name: Caldari Light Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 229000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364575:
     id: 364575
     name: Caldari Heavy Dropsuits
@@ -1021,11 +914,10 @@ types:
   364602:
     id: 364602
     name: Amarr Commando Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 787000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364603:
     id: 364603
     name: Caldari Commando Dropsuits
@@ -1047,11 +939,10 @@ types:
   364606:
     id: 364606
     name: Gallente Commando Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 787000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364607:
     id: 364607
     name: Minmatar Sentinel Dropsuits
@@ -1061,11 +952,10 @@ types:
   364608:
     id: 364608
     name: Minmatar Commando Dropsuits
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 787000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364609:
     id: 364609
     name: Amarr Assault Dropsuits
@@ -1147,11 +1037,10 @@ types:
   364641:
     id: 364641
     name: Vehicle Shield Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 66000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364656:
     id: 364656
     name: Assault Rifle Ammo Capacity
@@ -1473,35 +1362,31 @@ types:
   364748:
     id: 364748
     name: Caldari Logistics LAV
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 638000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364749:
     id: 364749
     name: Gallente Logistics LAV
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 638000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364750:
     id: 364750
     name: Gallente Logistics Dropship
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1772000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364751:
     id: 364751
     name: Caldari Logistics Dropship
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1772000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364761:
     id: 364761
     name: Vehicle Armor Repair Systems
@@ -1517,19 +1402,17 @@ types:
   364769:
     id: 364769
     name: Vehicle Armor Composition
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364773:
     id: 364773
     name: Engine Core Calibration
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364775:
     id: 364775
     name: Chassis Modification
@@ -1539,19 +1422,17 @@ types:
   364776:
     id: 364776
     name: Shield Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364777:
     id: 364777
     name: Vehicle Shield Regeneration
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 99000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364916:
     id: 364916
     name: Range Amplification
@@ -1615,451 +1496,395 @@ types:
   365386:
     id: 365386
     name: Rail Rifle Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365388:
     id: 365388
     name: Rail Rifle Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365389:
     id: 365389
     name: Rail Rifle Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365391:
     id: 365391
     name: Rail Rifle Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365392:
     id: 365392
     name: Rail Rifle Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365393:
     id: 365393
     name: Combat Rifle Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365395:
     id: 365395
     name: Combat Rifle Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365396:
     id: 365396
     name: Combat Rifle Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365397:
     id: 365397
     name: Combat Rifle Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365399:
     id: 365399
     name: Combat Rifle Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365400:
     id: 365400
     name: Combat Rifle Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365401:
     id: 365401
     name: Magsec SMG Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365404:
     id: 365404
     name: Magsec SMG Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365405:
     id: 365405
     name: Magsec SMG Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365406:
     id: 365406
     name: Magsec SMG Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365407:
     id: 365407
     name: Magsec SMG Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365408:
     id: 365408
     name: Magsec SMG Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365832:
     id: 365832
     name: Armor Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365844:
     id: 365844
     name: Large Railgun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365845:
     id: 365845
     name: Small Railgun Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365848:
     id: 365848
     name: Small Blaster Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365850:
     id: 365850
     name: Small Blaster Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365851:
     id: 365851
     name: Small Blaster Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365853:
     id: 365853
     name: Small Missile Launcher Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365854:
     id: 365854
     name: Small Missile Launcher Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365855:
     id: 365855
     name: Small Missile Launcher Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365857:
     id: 365857
     name: Small Railgun Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365859:
     id: 365859
     name: Small Railgun Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365860:
     id: 365860
     name: Small Railgun Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365861:
     id: 365861
     name: Small Railgun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365864:
     id: 365864
     name: Large Railgun Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365865:
     id: 365865
     name: Large Railgun Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365866:
     id: 365866
     name: Large Railgun Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365868:
     id: 365868
     name: Large Railgun Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365870:
     id: 365870
     name: Large Blaster Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365872:
     id: 365872
     name: Large Blaster Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365873:
     id: 365873
     name: Large Blaster Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365875:
     id: 365875
     name: Large Missile Launcher Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365876:
     id: 365876
     name: Large Missile Launcher Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365877:
     id: 365877
     name: Large Missile Launcher Reload Systems
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365878:
     id: 365878
     name: Large Turret Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365879:
     id: 365879
     name: Small Turret Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 72000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365893:
     id: 365893
     name: Damage Amplifier Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366228:
     id: 366228
     name: Assault Dropships
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366587:
     id: 366587
     name: Bolt Pistol Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366589:
     id: 366589
     name: Bolt Pistol Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366590:
     id: 366590
     name: Bolt Pistol Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366591:
     id: 366591
     name: Bolt Pistol Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366592:
     id: 366592
     name: Bolt Pistol Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366595:
     id: 366595
     name: Ion Pistol Fitting Optimization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 774000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366596:
     id: 366596
     name: Ion Pistol Sharpshooter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366597:
     id: 366597
     name: Ion Pistol Ammo Capacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366598:
     id: 366598
     name: Ion Pistol Proficiency
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 567000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366599:
     id: 366599
     name: Ion Pistol Rapid Reload
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 203000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366600:
     id: 366600
     name: Ion Pistol Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366760:
     id: 366760
     name: Cloak Field Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 149000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367382:
     id: 367382
     name: Nova Knife Fitting Optimization

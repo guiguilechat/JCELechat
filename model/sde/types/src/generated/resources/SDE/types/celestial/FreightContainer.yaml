@@ -1,12 +1,10 @@
 types:
   24445:
-    capacity: 120000.0
     hp: 10.0
     id: 24445
     marketGroup: 1653
     mass: 1000000.0
     name: Giant Freight Container
-    packagedVolume: 1200.0
     portionSize: 1
     price: 110000.0
     published: true
@@ -14,13 +12,11 @@ types:
     structureuniformity: 1.0
     volume: 120000.0
   33003:
-    capacity: 250000.0
     hp: 10.0
     id: 33003
     marketGroup: 1653
     mass: 1000000.0
     name: Enormous Freight Container
-    packagedVolume: 2500.0
     portionSize: 1
     price: 110000.0
     published: true
@@ -28,13 +24,11 @@ types:
     structureuniformity: 1.0
     volume: 250000.0
   33005:
-    capacity: 50000.0
     hp: 10.0
     id: 33005
     marketGroup: 1653
     mass: 1000000.0
     name: Huge Freight Container
-    packagedVolume: 500.0
     portionSize: 1
     price: 110000.0
     published: true
@@ -42,13 +36,11 @@ types:
     structureuniformity: 1.0
     volume: 50000.0
   33007:
-    capacity: 10000.0
     hp: 10.0
     id: 33007
     marketGroup: 1653
     mass: 1000000.0
     name: Large Freight Container
-    packagedVolume: 100.0
     portionSize: 1
     price: 110000.0
     published: true
@@ -56,13 +48,11 @@ types:
     structureuniformity: 1.0
     volume: 10000.0
   33009:
-    capacity: 5000.0
     hp: 10.0
     id: 33009
     marketGroup: 1653
     mass: 1000000.0
     name: Medium Freight Container
-    packagedVolume: 50.0
     portionSize: 1
     price: 110000.0
     published: true
@@ -70,13 +60,11 @@ types:
     structureuniformity: 1.0
     volume: 5000.0
   33011:
-    capacity: 1000.0
     hp: 10.0
     id: 33011
     marketGroup: 1653
     mass: 1000000.0
     name: Small Freight Container
-    packagedVolume: 10.0
     portionSize: 1
     price: 110000.0
     published: true

@@ -2,10 +2,10 @@ types:
   23473:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 150.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 100.0
     capacitorneed: 1.0
@@ -35,7 +35,6 @@ types:
     maxvelocity: 2000.0
     name: Wasp EC-900
     optimalsigradius: 25
-    packagedVolume: 25.0
     portionSize: 1
     price: 50000.0
     proximityrange: 7000
@@ -56,10 +55,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -70,10 +69,10 @@ types:
   23506:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 25
@@ -102,7 +101,6 @@ types:
     maxvelocity: 2000.0
     name: Ogre SD-900
     optimalsigradius: 25
-    packagedVolume: 25.0
     portionSize: 1
     price: 70000.0
     proximityrange: 7000
@@ -121,10 +119,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -135,10 +133,10 @@ types:
   23510:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 25
@@ -168,7 +166,6 @@ types:
     maxvelocity: 2000.0
     name: Praetor TD-900
     optimalsigradius: 25
-    packagedVolume: 25.0
     portionSize: 1
     price: 60000.0
     proximityrange: 7000
@@ -186,10 +183,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 110.0
     structureuniformity: 1.0
@@ -200,11 +197,11 @@ types:
     volume: 25.0
   23512:
     agility: 100.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 150.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 25
@@ -232,7 +229,6 @@ types:
     maxvelocity: 2000.0
     name: Berserker TP-900
     optimalsigradius: 25
-    packagedVolume: 25.0
     portionSize: 1
     price: 40000.0
     proximityrange: 7000
@@ -250,10 +246,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 110.0
     signatureradiusbonus: 20.0
@@ -265,10 +261,10 @@ types:
   23705:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 100.0
     capacitorneed: 1.0
@@ -298,7 +294,6 @@ types:
     maxvelocity: 2750.0
     name: Vespa EC-600
     optimalsigradius: 25
-    packagedVolume: 10.0
     portionSize: 1
     price: 16000.0
     proximityrange: 5000
@@ -319,10 +314,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 150.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 75.0
     structureuniformity: 1.0
@@ -333,10 +328,10 @@ types:
   23707:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 50.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 100.0
     capacitorneed: 1.0
@@ -366,7 +361,6 @@ types:
     maxvelocity: 3200.0
     name: Hornet EC-300
     optimalsigradius: 25
-    packagedVolume: 5.0
     portionSize: 1
     price: 3000.0
     proximityrange: 3500
@@ -387,10 +381,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     structureuniformity: 1.0
@@ -401,10 +395,10 @@ types:
   23713:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 125.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 10
@@ -433,7 +427,6 @@ types:
     maxvelocity: 2750.0
     name: Hammerhead SD-600
     optimalsigradius: 25
-    packagedVolume: 10.0
     portionSize: 1
     price: 18000.0
     proximityrange: 5000
@@ -452,10 +445,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 75.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 75.0
     structureuniformity: 1.0
@@ -466,10 +459,10 @@ types:
   23715:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 5
@@ -498,7 +491,6 @@ types:
     maxvelocity: 3200.0
     name: Hobgoblin SD-300
     optimalsigradius: 25
-    packagedVolume: 5.0
     portionSize: 1
     price: 2500.0
     proximityrange: 3500
@@ -517,10 +509,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     structureuniformity: 1.0
@@ -530,11 +522,11 @@ types:
     volume: 5.0
   23721:
     agility: 100.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 10
@@ -562,7 +554,6 @@ types:
     maxvelocity: 2750.0
     name: Valkyrie TP-600
     optimalsigradius: 25
-    packagedVolume: 10.0
     portionSize: 1
     price: 15000.0
     proximityrange: 5000
@@ -580,10 +571,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 75.0
     signatureradiusbonus: 8.0
@@ -594,11 +585,11 @@ types:
     volume: 10.0
   23723:
     agility: 100.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 50.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 5
@@ -626,7 +617,6 @@ types:
     maxvelocity: 3200.0
     name: Warrior TP-300
     optimalsigradius: 25
-    packagedVolume: 5.0
     portionSize: 1
     price: 4000.0
     proximityrange: 3500
@@ -644,10 +634,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 75.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     signatureradiusbonus: 4.0
@@ -659,10 +649,10 @@ types:
   23725:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 150.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 10
@@ -692,7 +682,6 @@ types:
     maxvelocity: 2750.0
     name: Infiltrator TD-600
     optimalsigradius: 25
-    packagedVolume: 10.0
     portionSize: 1
     price: 17000.0
     proximityrange: 5000
@@ -710,10 +699,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 75.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 75.0
     structureuniformity: 1.0
@@ -725,10 +714,10 @@ types:
   23727:
     agility: 100.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1.0
     dronebandwidthused: 5
@@ -758,7 +747,6 @@ types:
     maxvelocity: 3200.0
     name: Acolyte TD-300
     optimalsigradius: 25
-    packagedVolume: 5.0
     portionSize: 1
     price: 2000.0
     proximityrange: 3500
@@ -776,10 +764,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     structureuniformity: 1.0

@@ -6,7 +6,6 @@ types:
     mass: 50.0
     maxgroupfitted: 3
     name: Limited Hyperspatial Accelerator
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -15,7 +14,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-    warpspeedadd: 0.20000000298023224
+    warpspeedadd: 0.2
   33983:
     hp: 40.0
     id: 33983
@@ -23,7 +22,6 @@ types:
     mass: 50.0
     maxgroupfitted: 3
     name: Experimental Hyperspatial Accelerator
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -40,7 +38,6 @@ types:
     mass: 50.0
     maxgroupfitted: 3
     name: Prototype Hyperspatial Accelerator
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -49,4 +46,4 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
-    warpspeedadd: 0.30000001192092896
+    warpspeedadd: 0.3

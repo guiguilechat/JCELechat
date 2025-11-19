@@ -2,7 +2,6 @@ types:
   4256:
     allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 834
-    capacity: 300.0
     chargegroup1: 90
     chargegroup2: 863
     chargegroup3: 864
@@ -20,12 +19,10 @@ types:
     minvelocityactivationlimit: 1
     modulereactivationdelay: 135000
     name: Bomb Launcher II
-    packagedVolume: 50.0
     portionSize: 1
     power: 10
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 28073
     requiredskill1level: 5
@@ -38,7 +35,6 @@ types:
   27914:
     allowinfullycorruptedlowsec: 1
     canfitshipgroup01: 834
-    capacity: 150.0
     chargegroup1: 90
     chargegroup2: 863
     chargegroup3: 864
@@ -55,12 +51,10 @@ types:
     minvelocityactivationlimit: 1
     modulereactivationdelay: 160000
     name: Bomb Launcher I
-    packagedVolume: 50.0
     portionSize: 1
     power: 10
     price: 80118.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 28073
     requiredskill1level: 1

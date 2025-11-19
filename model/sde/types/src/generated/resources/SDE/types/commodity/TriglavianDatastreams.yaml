@@ -4,268 +4,241 @@ types:
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA1
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48765:
     id: 48765
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA2
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48767:
     id: 48767
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV1
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48768:
     id: 48768
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV2
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48769:
     id: 48769
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV3
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48770:
     id: 48770
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN1
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48771:
     id: 48771
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN2
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48772:
     id: 48772
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN3
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48774:
     id: 48774
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN2
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48775:
     id: 48775
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN3
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48777:
     id: 48777
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA3
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48778:
     id: 48778
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN1
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52190:
     id: 52190
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA4
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52191:
     id: 52191
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN4
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52192:
     id: 52192
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV4
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52195:
     id: 52195
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA5
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52196:
     id: 52196
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN5
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52197:
     id: 52197
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV5
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52408:
     id: 52408
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AEA6
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52409:
     id: 52409
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream AFN6
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52410:
     id: 52410
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream DAV6
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52411:
     id: 52411
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN4
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52412:
     id: 52412
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN5
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   52413:
     id: 52413
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream HFN6
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54804:
     id: 54804
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream XCZ1
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54805:
     id: 54805
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream XCZ2
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54806:
     id: 54806
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Trinary Datastream XCZ3
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

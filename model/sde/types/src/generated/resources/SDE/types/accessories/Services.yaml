@@ -3,30 +3,26 @@ types:
     id: 34132
     marketGroup: 1942
     name: Pilot's Body Resculpt Certificate
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34133:
     id: 34133
     marketGroup: 1942
     name: Multiple Pilot Training Certificate
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   40519:
     id: 40519
     marketGroup: 2358
     name: Skill Extractor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   89956:
     id: 89956
     name: Pilot's Body Resculpt Certificate (Untradeable)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

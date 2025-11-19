@@ -16,14 +16,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonusModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
@@ -138,7 +136,7 @@ public class RigScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int viruscoherencebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, ScanStrengthBonus.INSTANCE, Drawback.INSTANCE, ScanspeedBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, VirusCoherenceBonus.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, RangeSkillBonus.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CloakingTargetingDelayBonus.INSTANCE, ScanStrengthBonus.INSTANCE, Drawback.INSTANCE, ScanspeedBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, VirusCoherenceBonus.INSTANCE, ScanSkillEwStrengthBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
 
     @Override

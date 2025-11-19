@@ -4,386 +4,309 @@ types:
     id: 25588
     marketGroup: 1863
     name: Scorched Telemetry Processor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25589:
     hp: 20.0
     id: 25589
     marketGroup: 1863
     name: Malfunctioning Shield Emitter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25590:
     hp: 20.0
     id: 25590
     marketGroup: 1863
     name: Contaminated Nanite Compound
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25591:
     hp: 20.0
     id: 25591
     marketGroup: 1863
     name: Contaminated Lorentz Fluid
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25592:
     hp: 20.0
     id: 25592
     marketGroup: 1863
     name: Defective Current Pump
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25593:
     hp: 20.0
     id: 25593
     marketGroup: 1863
     name: Smashed Trigger Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25594:
     hp: 20.0
     id: 25594
     marketGroup: 1863
     name: Tangled Power Conduit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25595:
     hp: 20.0
     id: 25595
     marketGroup: 1863
     name: Alloyed Tritanium Bar
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25596:
     hp: 20.0
     id: 25596
     marketGroup: 1863
     name: Broken Drone Transceiver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25597:
     hp: 20.0
     id: 25597
     marketGroup: 1863
     name: Damaged Artificial Neural Network
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25598:
     hp: 20.0
     id: 25598
     marketGroup: 1863
     name: Tripped Power Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25599:
     hp: 20.0
     id: 25599
     marketGroup: 1863
     name: Charred Micro Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25600:
     hp: 20.0
     id: 25600
     marketGroup: 1863
     name: Burned Logic Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25601:
     hp: 20.0
     id: 25601
     marketGroup: 1863
     name: Fried Interface Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25602:
     hp: 20.0
     id: 25602
     marketGroup: 1863
     name: Thruster Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25603:
     hp: 20.0
     id: 25603
     marketGroup: 1863
     name: Melted Capacitor Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25604:
     hp: 20.0
     id: 25604
     marketGroup: 1863
     name: Conductive Polymer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25605:
     hp: 20.0
     id: 25605
     marketGroup: 1863
     name: Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25606:
     hp: 20.0
     id: 25606
     marketGroup: 1863
     name: Ward Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25607:
     hp: 20.0
     id: 25607
     marketGroup: 1863
     name: Telemetry Processor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25608:
     hp: 20.0
     id: 25608
     marketGroup: 1863
     name: Intact Shield Emitter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25609:
     hp: 20.0
     id: 25609
     marketGroup: 1863
     name: Nanite Compound
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25610:
     hp: 20.0
     id: 25610
     marketGroup: 1863
     name: Lorentz Fluid
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25611:
     hp: 20.0
     id: 25611
     marketGroup: 1863
     name: Current Pump
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25612:
     hp: 20.0
     id: 25612
     marketGroup: 1863
     name: Trigger Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25613:
     hp: 20.0
     id: 25613
     marketGroup: 1863
     name: Power Conduit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25614:
     hp: 20.0
     id: 25614
     marketGroup: 1863
     name: Single-crystal Superalloy I-beam
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25615:
     hp: 20.0
     id: 25615
     marketGroup: 1863
     name: Drone Transceiver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25616:
     hp: 20.0
     id: 25616
     marketGroup: 1863
     name: Artificial Neural Network
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25617:
     hp: 20.0
     id: 25617
     marketGroup: 1863
     name: Power Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25618:
     hp: 20.0
     id: 25618
     marketGroup: 1863
     name: Micro Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25619:
     hp: 20.0
     id: 25619
     marketGroup: 1863
     name: Logic Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25620:
     hp: 20.0
     id: 25620
     marketGroup: 1863
     name: Interface Circuit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25621:
     hp: 20.0
     id: 25621
     marketGroup: 1863
     name: Impetus Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25622:
     hp: 20.0
     id: 25622
     marketGroup: 1863
     name: Capacitor Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25623:
     hp: 20.0
     id: 25623
     marketGroup: 1863
     name: Conductive Thermoplastic
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25624:
     hp: 20.0
     id: 25624
     marketGroup: 1863
     name: Intact Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25625:
     hp: 20.0
     id: 25625
     marketGroup: 1863
     name: Enhanced Ward Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   54970:
     id: 54970
     marketGroup: 1863
     name: Electromagnetic Metaprismatic Sheeting
-    packagedVolume: 0.25
     portionSize: 1
     price: 100000.0
     published: true
@@ -392,7 +315,6 @@ types:
     id: 54971
     marketGroup: 1863
     name: Hyperbolic Metatransistor Array
-    packagedVolume: 0.25
     portionSize: 1
     price: 100000.0
     published: true
@@ -401,7 +323,6 @@ types:
     id: 54972
     marketGroup: 1863
     name: Ultraconducting Ablative Nanocable
-    packagedVolume: 0.25
     portionSize: 1
     price: 100000.0
     published: true

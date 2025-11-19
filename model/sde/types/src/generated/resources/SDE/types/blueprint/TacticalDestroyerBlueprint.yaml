@@ -3,43 +3,35 @@ types:
     id: 34318
     industryblueprintrank: 600.0
     name: Confessor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   34563:
     id: 34563
     industryblueprintrank: 600.0
     name: Svipul Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   34829:
     id: 34829
     industryblueprintrank: 600.0
     name: Jackdaw Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   35684:
     id: 35684
     industryblueprintrank: 600.0
     name: Hecate Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01

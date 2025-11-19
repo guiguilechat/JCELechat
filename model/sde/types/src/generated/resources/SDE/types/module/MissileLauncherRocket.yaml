@@ -1,22 +1,19 @@
 types:
   10629:
-    capacity: 0.1875
     chargegroup1: 387
     chargerate: 1
     cpu: 15.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 10629
     marketGroup: 639
     name: Rocket Launcher I
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -29,25 +26,22 @@ types:
     typecolorscheme: 11324
     volume: 5.0
   10631:
-    capacity: 0.25
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 17.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 10631
     marketGroup: 639
     metalevelold: 5
     name: Rocket Launcher II
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 36040.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3319
     requiredskill1level: 2
@@ -60,13 +54,12 @@ types:
     typecolorscheme: 11325
     volume: 5.0
   13931:
-    capacity: 0.2531000077724457
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 12.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13931
     marketGroup: 639
@@ -74,12 +67,10 @@ types:
     metalevelold: 7
     name: Domination Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -92,13 +83,12 @@ types:
     typecolorscheme: 11318
     volume: 5.0
   13933:
-    capacity: 0.28130000829696655
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 17.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13933
     marketGroup: 639
@@ -106,12 +96,10 @@ types:
     metalevelold: 8
     name: Dread Guristas Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -124,13 +112,12 @@ types:
     typecolorscheme: 11335
     volume: 5.0
   16065:
-    capacity: 0.28130000829696655
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 17.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16065
     marketGroup: 639
@@ -138,12 +125,10 @@ types:
     metalevelold: 8
     name: Caldari Navy Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -156,11 +141,10 @@ types:
     typecolorscheme: 11321
     volume: 5.0
   16521:
-    capacity: 0.20000000298023224
     chargegroup1: 387
     chargerate: 1
     cpu: 12.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 16521
@@ -168,12 +152,10 @@ types:
     metalevelold: 1
     name: '''Malkuth'' Rocket Launcher I'
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -186,11 +168,10 @@ types:
     typecolorscheme: 20123
     volume: 5.0
   16523:
-    capacity: 0.20630000531673431
     chargegroup1: 387
     chargerate: 1
     cpu: 14.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 16523
@@ -198,12 +179,10 @@ types:
     metalevelold: 2
     name: '''Limos'' Rocket Launcher I'
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -216,24 +195,21 @@ types:
     typecolorscheme: 20115
     volume: 5.0
   16525:
-    capacity: 0.21879999339580536
     chargegroup1: 387
     chargerate: 1
     cpu: 14.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16525
     marketGroup: 639
     metalevelold: 3
     name: OE-5200 Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -246,24 +222,21 @@ types:
     typecolorscheme: 20116
     volume: 5.0
   16527:
-    capacity: 0.22499999403953552
     chargegroup1: 387
     chargerate: 1
     cpu: 13.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 16527
     marketGroup: 639
     metalevelold: 4
     name: '''Arbalest'' Rocket Launcher I'
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -276,13 +249,12 @@ types:
     typecolorscheme: 20113
     volume: 5.0
   17488:
-    capacity: 0.2531000077724457
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 12.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 17488
     marketGroup: 639
@@ -290,12 +262,10 @@ types:
     metalevelold: 7
     name: Republic Fleet Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -308,12 +278,11 @@ types:
     typecolorscheme: 11339
     volume: 5.0
   20593:
-    capacity: 0.1875
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 13.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 20593
@@ -322,12 +291,10 @@ types:
     metalevelold: 6
     name: '''Balefire'' Rocket Launcher'
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -340,12 +307,11 @@ types:
     typecolorscheme: 20119
     volume: 5.0
   21542:
-    capacity: 0.1875
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 13.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 21542
@@ -354,12 +320,10 @@ types:
     metalevelold: 6
     name: N-1 Neon Type Rocket Bay
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -372,13 +336,12 @@ types:
     typecolorscheme: 20120
     volume: 5.0
   22564:
-    capacity: 0.2531000077724457
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 12.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 22564
     marketGroup: 639
@@ -386,12 +349,10 @@ types:
     metalevelold: 7
     name: True Sansha Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -404,13 +365,12 @@ types:
     typecolorscheme: 11349
     volume: 5.0
   28511:
-    capacity: 0.28130000829696655
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 17.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 28511
     marketGroup: 639
@@ -418,12 +378,10 @@ types:
     metalevelold: 8
     name: Khanid Navy Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1
@@ -436,20 +394,18 @@ types:
     typecolorscheme: 11337
     volume: 5.0
   34290:
-    capacity: 0.75
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 14.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 34290
     marketGroup: 639
     metalevelold: 9
     name: Polarized Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     price: 36040.0
@@ -469,13 +425,12 @@ types:
     typecolorscheme: 11461
     volume: 5.0
   85021:
-    capacity: 0.28130000829696655
     chargegroup1: 387
     chargegroup3: 648
     chargerate: 1
     cpu: 17.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 85021
     marketGroup: 639
@@ -483,12 +438,10 @@ types:
     metalevelold: 15
     name: Panola's Modified Rocket Launcher
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     price: 3000.0
     published: true
-    radius: 1.0
     reloadtime: 10000.0
     requiredskill1: 3320
     requiredskill1level: 1

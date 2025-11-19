@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAfterburnerDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAfterburnerSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
@@ -55,7 +54,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
@@ -64,7 +62,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -219,7 +216,7 @@ public class StructureSupportFighter
     /**
      * Maximum Velocity Bonus
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double fighterabilitystasiswebifierspeedpenalty;
@@ -272,7 +269,7 @@ public class StructureSupportFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityStasisWebifierDuration.INSTANCE, ShieldCapacity.INSTANCE, FighterAbilityStasisWebifierSpeedPenalty.INSTANCE, ShieldCharge.INSTANCE, FighterAbilityStasisWebifierSpeedPenaltyInterim.INSTANCE, Hp.INSTANCE, FighterAbilityStasisWebifierOptimalRange.INSTANCE, FighterAbilityStasisWebifierFalloffRange.INSTANCE, FighterAbilityStasisWebifierResistanceID.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityWarpDisruptionDuration.INSTANCE, FighterAbilityWarpDisruptionRange.INSTANCE, FighterAbilityWarpDisruptionPointStrength.INSTANCE, FighterAbilityWarpDisruptionPointStrengthInterim.INSTANCE, StructureItemVisualFlag.INSTANCE, FighterAbilityEnergyNeutralizerDuration.INSTANCE, FighterAbilityEnergyNeutralizerOptimalRange.INSTANCE, FighterAbilityEnergyNeutralizerFalloffRange.INSTANCE, Radius.INSTANCE, FighterAbilityEnergyNeutralizerAmount.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityECMDuration.INSTANCE, FighterAbilityECMRangeOptimal.INSTANCE, FighterAbilityECMRangeFalloff.INSTANCE, FighterSquadronOrbitRange.INSTANCE, ScanResolution.INSTANCE, FighterSquadronIsStandupSupport.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityECMStrengthGravimetric.INSTANCE, Agility.INSTANCE, FighterAbilityECMStrengthLadar.INSTANCE, FighterAbilityECMStrengthMagnetometric.INSTANCE, FighterAbilityECMStrengthRadar.INSTANCE, FighterAbilityECMTargetSuccess.INSTANCE, FighterAbilityECMTargetJam.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterRefuelingTime.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityStasisWebifierDuration.INSTANCE, ShieldCapacity.INSTANCE, FighterAbilityStasisWebifierSpeedPenalty.INSTANCE, FighterAbilityStasisWebifierSpeedPenaltyInterim.INSTANCE, Hp.INSTANCE, FighterAbilityStasisWebifierOptimalRange.INSTANCE, FighterAbilityStasisWebifierFalloffRange.INSTANCE, FighterAbilityStasisWebifierResistanceID.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FighterAbilityWarpDisruptionDuration.INSTANCE, FighterAbilityWarpDisruptionRange.INSTANCE, FighterAbilityWarpDisruptionPointStrength.INSTANCE, FighterAbilityWarpDisruptionPointStrengthInterim.INSTANCE, StructureItemVisualFlag.INSTANCE, FighterAbilityEnergyNeutralizerDuration.INSTANCE, FighterAbilityEnergyNeutralizerOptimalRange.INSTANCE, FighterAbilityEnergyNeutralizerFalloffRange.INSTANCE, FighterAbilityEnergyNeutralizerAmount.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, FighterSquadronMaxSize.INSTANCE, SignatureRadius.INSTANCE, FighterAbilityECMDuration.INSTANCE, FighterAbilityECMRangeOptimal.INSTANCE, FighterAbilityECMRangeFalloff.INSTANCE, FighterSquadronOrbitRange.INSTANCE, ScanResolution.INSTANCE, FighterSquadronIsStandupSupport.INSTANCE, MaxLockedTargets.INSTANCE, RemoteRepairImpedance.INSTANCE, FighterAbilityECMStrengthGravimetric.INSTANCE, Agility.INSTANCE, FighterAbilityECMStrengthLadar.INSTANCE, FighterAbilityECMStrengthMagnetometric.INSTANCE, FighterAbilityECMStrengthRadar.INSTANCE, FighterAbilityECMTargetSuccess.INSTANCE, FighterAbilityECMTargetJam.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, FighterSquadronRole.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, FighterAbilityAfterburnerSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSpeedBonus.INSTANCE, FighterAbilityMicroWarpDriveSignatureRadiusBonus.INSTANCE, FighterAbilityMicroWarpDriveDuration.INSTANCE, FighterAbilityAfterburnerDuration.INSTANCE, MetaLevelOld.INSTANCE, FighterRefuelingTime.INSTANCE })));
     public static final StructureSupportFighter.MetaGroup METAGROUP = new StructureSupportFighter.MetaGroup();
 
     @Override

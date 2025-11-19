@@ -9,8 +9,7 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reactor Efficiency I
-    nullsecmodifier: 1.100000023841858
-    packagedVolume: 20.0
+    nullsecmodifier: 1.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -34,12 +33,11 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup L-Set Reactor Efficiency II
-    nullsecmodifier: 1.100000023841858
-    packagedVolume: 20.0
+    nullsecmodifier: 1.1
     portionSize: 1
     published: true
     radius: 100.0
-    refrigmatbonus: -2.4000000953674316
+    refrigmatbonus: -2.4
     refrigtimebonus: -24
     requiredskill1: 26252
     requiredskill1level: 1

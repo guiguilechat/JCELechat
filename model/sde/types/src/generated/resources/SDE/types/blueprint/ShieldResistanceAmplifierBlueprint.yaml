@@ -4,210 +4,170 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1554
     name: EM Shield Amplifier I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 187420.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2530:
     id: 2530
     industryblueprintrank: 6.0
     marketGroup: 1554
     name: Explosive Shield Amplifier I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 187420.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2532:
     id: 2532
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Explosive Shield Amplifier II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2538:
     id: 2538
     industryblueprintrank: 6.0
     marketGroup: 1554
     name: Thermal Shield Amplifier I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 187420.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2540:
     id: 2540
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Thermal Shield Amplifier II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2546:
     id: 2546
     industryblueprintrank: 6.0
     marketGroup: 1554
     name: Kinetic Shield Amplifier I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 187420.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2548:
     id: 2548
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Kinetic Shield Amplifier II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2554:
     id: 2554
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: EM Shield Amplifier II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15910:
     id: 15910
     industryblueprintrank: 6.0
     name: Caldari Navy EM Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15912:
     id: 15912
     industryblueprintrank: 6.0
     name: Caldari Navy Kinetic Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15914:
     id: 15914
     industryblueprintrank: 6.0
     name: Caldari Navy Thermal Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15916:
     id: 15916
     industryblueprintrank: 6.0
     name: Caldari Navy Explosive Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15918:
     id: 15918
     industryblueprintrank: 6.0
     name: Republic Fleet EM Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15920:
     id: 15920
     industryblueprintrank: 6.0
     name: Republic Fleet Kinetic Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15922:
     id: 15922
     industryblueprintrank: 6.0
     name: Republic Fleet Thermal Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15924:
     id: 15924
     industryblueprintrank: 6.0
     name: Republic Fleet Explosive Shield Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20606:
     id: 20606
     industryblueprintrank: 6.0
     name: '''Whiskey'' Explosive Shield Amplifier Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20608:
     id: 20608
     industryblueprintrank: 6.0
     name: '''High Noon'' Thermal Shield Amplifier Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20610:
     id: 20610
     industryblueprintrank: 6.0
     name: '''Cactus'' Kinetic Shield Amplifier Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20612:
     id: 20612
     industryblueprintrank: 6.0
     name: '''Prospector'' EM Shield Amplifier Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

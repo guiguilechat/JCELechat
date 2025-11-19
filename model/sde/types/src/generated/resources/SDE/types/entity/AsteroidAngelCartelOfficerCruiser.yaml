@@ -6,18 +6,17 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.6000000238418579
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.6
     armorhp: 6000.0
     armorkineticdamageresonance: 0.5
-    armorthermaldamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 3000.0
-    capacity: 130.0
     damagemultiplier: 10.0
     disallowassistance: 1
-    emdamageresonance: 0.46000000834465027
+    emdamageresonance: 0.46
     energyneutralizeramount: 180.0
     energyneutralizerduration: 12000
     energyneutralizerentitychance: 1.0
@@ -35,7 +34,7 @@ types:
     entitycruisespeed: 921.0
     entityequipmentmax: 8
     entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 3899.0
     entitygrouprespawnchance: 1
     entitykillbounty: 10000000
@@ -43,26 +42,26 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 24511
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.8700000047683716
+    entityreactionfactor: 0.87
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.30000001192092896
+    entitysecuritystatuskillbonus: 0.3
     entityshieldboostamount: 320.0
-    entityshieldboostdelaychancemedium: 0.17000000178813934
+    entityshieldboostdelaychancemedium: 0.17
     entityshieldboostduration: 10000
     entitytargetpaintduration: 10000
     entitytargetpaintdurationchance: 1.0
     entitytargetpaintfalloff: 90000
     entitytargetpaintmaxrange: 45000
     entitywarpscramblechance: 1.0
-    explosivedamage: 55.599998474121094
-    explosivedamageresonance: 0.46000000834465027
+    explosivedamage: 55.6
+    explosivedamageresonance: 0.46
     falloff: 21900.0
     gfxboosterid: 397
     gfxturretid: 492
     hp: 4000.0
     id: 84950
-    kineticdamage: 15.199999809265137
-    kineticdamageresonance: 0.46000000834465027
+    kineticdamage: 15.2
+    kineticdamageresonance: 0.46
     mass: 9047000.0
     maxattacktargets: 1
     maxlockedtargets: 7
@@ -79,7 +78,6 @@ types:
     modifytargetspeedrange: 17000
     name: Sila Aajai
     optimalsigradius: 40000
-    packagedVolume: 1.9E7
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -88,20 +86,20 @@ types:
     scanladarstrength: 30.0
     scanresolution: 400.0
     shieldcapacity: 9000.0
-    shieldemdamageresonance: 0.30000001192092896
-    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldemdamageresonance: 0.3
+    shieldexplosivedamageresonance: 0.6
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.4000000059604645
+    shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
     signatureradius: 115.0
     signatureradiusbonus: 45.0
     speed: 6000.0
     speedfactor: -55.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.46000000834465027
+    thermaldamageresonance: 0.46
     trackingspeed: 100.0
-    volume: 1.9E7
+    volume: 19000000.0
     warpscrambleduration: 5000
     warpscramblerange: 30000
     warpscramblestrength: 1

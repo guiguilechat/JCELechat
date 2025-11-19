@@ -1,13 +1,12 @@
 types:
   1952:
     capacitorneed: 12.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 16.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 3.4
     hp: 40.0
     id: 1952
     marketGroup: 671
@@ -15,13 +14,11 @@ types:
     metalevelold: 5
     name: Sensor Booster II
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 76244.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
@@ -34,26 +31,23 @@ types:
     volume: 5.0
   1973:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 12.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 1973
     marketGroup: 671
     maxtargetrangebonus: 25.0
     name: Sensor Booster I
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -66,13 +60,12 @@ types:
     volume: 5.0
   6159:
     capacitorneed: 6.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 12.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 6159
     marketGroup: 671
@@ -80,13 +73,11 @@ types:
     metalevelold: 1
     name: Alumel-Wired Enduring Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 2460.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -99,13 +90,12 @@ types:
     volume: 5.0
   6160:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 10.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 6160
     marketGroup: 671
@@ -113,13 +103,11 @@ types:
     metalevelold: 1
     name: F-90 Compact Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 2460.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -132,13 +120,12 @@ types:
     volume: 5.0
   14236:
     capacitorneed: 9.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 9.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 14236
     marketGroup: 671
@@ -147,13 +134,11 @@ types:
     metalevelold: 8
     name: Shadow Serpentis Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -166,13 +151,12 @@ types:
     volume: 5.0
   15276:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 16.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 15276
     marketGroup: 671
@@ -181,13 +165,11 @@ types:
     metalevelold: 11
     name: Brynn's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -200,13 +182,12 @@ types:
     volume: 5.0
   15278:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 18.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 15278
     marketGroup: 671
@@ -215,13 +196,11 @@ types:
     metalevelold: 13
     name: Tuvan's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -234,13 +213,12 @@ types:
     volume: 5.0
   15280:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 20.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 15280
     marketGroup: 671
@@ -249,13 +227,11 @@ types:
     metalevelold: 15
     name: Setele's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -268,13 +244,12 @@ types:
     volume: 5.0
   15282:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 22.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 15282
     marketGroup: 671
@@ -283,13 +258,11 @@ types:
     metalevelold: 17
     name: Cormack's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -302,13 +275,12 @@ types:
     volume: 5.0
   17520:
     capacitorneed: 9.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 9.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 17520
     marketGroup: 671
@@ -317,13 +289,11 @@ types:
     metalevelold: 8
     name: Federation Navy Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -336,13 +306,12 @@ types:
     volume: 5.0
   22895:
     capacitorneed: 5.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 9.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 22895
     marketGroup: 671
@@ -351,12 +320,10 @@ types:
     metalevelold: 6
     name: '''Shady'' Sensor Booster'
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -369,13 +336,12 @@ types:
     volume: 5.0
   41191:
     capacitorneed: 9.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 9.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 41191
     marketGroup: 671
@@ -384,13 +350,11 @@ types:
     metalevelold: 8
     name: Sentient Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -403,13 +367,12 @@ types:
     volume: 5.0
   41192:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 16.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 41192
     marketGroup: 671
@@ -418,13 +381,11 @@ types:
     metalevelold: 11
     name: Unit D-34343's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -437,13 +398,12 @@ types:
     volume: 5.0
   41193:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 18.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 41193
     marketGroup: 671
@@ -452,13 +412,11 @@ types:
     metalevelold: 13
     name: Unit F-435454's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -471,13 +429,12 @@ types:
     volume: 5.0
   41194:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 20.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 41194
     marketGroup: 671
@@ -486,13 +443,11 @@ types:
     metalevelold: 15
     name: Unit P-343554's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -505,13 +460,12 @@ types:
     volume: 5.0
   41195:
     capacitorneed: 10.0
-    capacity: 1.0
     chargegroup1: 910
     chargesize: 1
     cpu: 22.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.4
     hp: 40.0
     id: 41195
     marketGroup: 671
@@ -520,13 +474,11 @@ types:
     metalevelold: 17
     name: Unit W-634's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 9870.0
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3428
     requiredskill1level: 1
     requiredthermodynamicsskill: 1

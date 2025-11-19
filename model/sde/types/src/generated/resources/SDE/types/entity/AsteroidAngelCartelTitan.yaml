@@ -1,7 +1,7 @@
 types:
   37462:
     activationblockedstrenght: 1
-    agility: 0.10000000149011612
+    agility: 0.1
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
@@ -9,10 +9,10 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
     armoremdamageresonance: 0.25
-    armorexplosivedamageresonance: 0.44999998807907104
+    armorexplosivedamageresonance: 0.45
     armorhp: 400000.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.35
+    armorthermaldamageresonance: 0.3
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
     damagemultiplier: 150.0
@@ -34,15 +34,15 @@ types:
     entitycruisespeed: 100.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 30000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 240000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 30
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.600000023841858
+    entitysecuritystatuskillbonus: 1.6
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 1.0
@@ -55,7 +55,7 @@ types:
     id: 37462
     iscapitalsize: 1
     kineticdamage: 35.0
-    mass: 2.07562496E9
+    mass: 2075625000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 60000.0
@@ -65,7 +65,6 @@ types:
     modifytargetspeedrange: 150000
     name: Domination Titan
     optimalsigradius: 2000
-    packagedVolume: 1.0E8
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -75,18 +74,18 @@ types:
     scanresolution: 60.0
     shieldcapacity: 430000.0
     shieldemdamageresonance: 0.25
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.3499999940395355
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.35
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.30000001192092896
+    shieldthermaldamageresonance: 0.3
     shielduniformity: 0.75
     signatureradius: 22430.0
     speed: 6000.0
     speedfactor: -70.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.10000000149011612
-    volume: 1.0E8
+    trackingspeed: 0.1
+    volume: 100000000.0
     warpscrambleduration: 5000
     warpscramblerange: 125000
     warpscramblestrength: 2

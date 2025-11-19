@@ -1,64 +1,63 @@
 types:
   37534:
     armordamagelimit: 5000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
     armorhp: 1000000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
     armoruniformity: 1.0
     capacitorcapacity: 200000.0
     cargodeliveryrange: 10000
     cpuoutput: 10000
-    ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
-    energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
+    ecmresistance: 1.0E-5
+    emdamageresonance: 0.8
+    energywarfareresistance: 1.0E-5
+    explosivedamageresonance: 0.8
     fighterabilityanticapitalmissileresistance: 1
     hackable: 1
     hiddenarmorhpmultiplier: 1
     hp: 4000000.0
     id: 37534
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     marketGroup: 2511
-    mass: 3.0E9
+    mass: 3000000000.0
     maximumrangecap: 300000
     name: Tenebrex Cyno Jammer
-    packagedVolume: 5000.0
     pausearmorrepairdpsthreshold: 500
     pausehullrepairdpsthreshold: 500
     pauseshieldrepairdpsthreshold: 500
     portionSize: 1
-    poweroutput: 20000
+    poweroutput: 20000.0
     prefitserviceslot0: 35914
     published: true
     radius: 11000.0
     rechargerate: 3600000.0
-    remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
+    remoteassistanceimpedance: 1.0E-5
+    remoterepairimpedance: 1.0E-5
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
     scanresolution: 40.0
     scanspeed: 2500
-    sensordampenerresistance: 9.999999747378752E-6
+    sensordampenerresistance: 1.0E-5
     serviceslots: 1
     shieldcapacity: 1000000.0
     shielddamagelimit: 5000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldrechargerate: 9.99999999999E11
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 20000.0
-    stasiswebifierresistance: 9.999999747378752E-6
+    stasiswebifierresistance: 1.0E-5
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
     structureuniformity: 1.0
-    thermaldamageresonance: 0.800000011920929
+    thermaldamageresonance: 0.8
     tierdifficulty: 3
     uniformity: 1.0
     volume: 5000.0
-    weapondisruptionresistance: 9.999999747378752E-6
+    weapondisruptionresistance: 1.0E-5

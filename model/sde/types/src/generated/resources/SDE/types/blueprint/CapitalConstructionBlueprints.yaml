@@ -4,258 +4,214 @@ types:
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Propulsion Engine Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.253961984E9
+    price: 1253962000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21012:
     id: 21012
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Turret Hardpoint Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.462601984E9
+    price: 1462602000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21014:
     id: 21014
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Sensor Cluster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.202763264E9
+    price: 1202763200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21018:
     id: 21018
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Armor Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.291210752E9
+    price: 1291210800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21020:
     id: 21020
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Capacitor Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.146936064E9
+    price: 1146936000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21022:
     id: 21022
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Power Generator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.360063232E9
+    price: 1360063200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21024:
     id: 21024
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Shield Emitter Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.306727936E9
+    price: 1306728000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21026:
     id: 21026
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Jump Drive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6639648E9
+    price: 1663964800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21028:
     id: 21028
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Cargo Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.337024E8
+    price: 833702400.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21030:
     id: 21030
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Drone Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.72279616E8
+    price: 872279600.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21036:
     id: 21036
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Computer System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.228398848E9
+    price: 1228398800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21038:
     id: 21038
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Construction Parts Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.005494016E9
+    price: 1005494000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21040:
     id: 21040
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Siege Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5433664E9
+    price: 1543366400.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21042:
     id: 21042
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Launcher Hardpoint Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368064E9
+    price: 1393368000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24546:
     id: 24546
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Jump Bridge Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.14134272E9
+    price: 3141342800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24548:
     id: 24548
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Clone Vat Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.683418368E9
+    price: 1683418400.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24557:
     id: 24557
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Doomsday Weapon Mount Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.146886784E9
+    price: 2146886800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24559:
     id: 24559
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Ship Maintenance Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.697361152E9
+    price: 1697361200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24561:
     id: 24561
     industryblueprintrank: 60.0
     marketGroup: 796
     name: Capital Corporate Hangar Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.670784768E9
+    price: 1670784800.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   53032:
     id: 53032
     name: Capital Ultratidal Entropic Mounting Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368064E9
+    price: 1393368000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53033:
     id: 53033
     name: Capital Radiation Conversion Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368064E9
+    price: 1393368000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53034:
     id: 53034
     name: Capital Absorption Thruster Array Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368064E9
+    price: 1393368000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57524:
     id: 57524
     marketGroup: 796
     name: Capital Core Temperature Regulator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57525:
     id: 57525
     marketGroup: 796
     name: Neurolink Protection Cell Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
+    price: 1500000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   57526:
     id: 57526
     marketGroup: 796
     name: Enhanced Neurolink Protection Cell Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E9
+    price: 3000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

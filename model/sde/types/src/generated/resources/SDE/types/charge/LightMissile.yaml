@@ -1,9 +1,9 @@
 types:
   210:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -13,13 +13,12 @@ types:
     hp: 60.0
     id: 210
     kineticdamage: 83.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 920
     mass: 700.0
     maxvelocity: 3750.0
     name: Scourge Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 500.0
     published: true
@@ -31,12 +30,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   211:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -51,7 +50,6 @@ types:
     mass: 700.0
     maxvelocity: 3750.0
     name: Inferno Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 624.0
     published: true
@@ -63,18 +61,18 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 83.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   212:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamage: 83.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 5000
     explosivedamageresonance: 1.0
     hp: 60.0
@@ -85,7 +83,6 @@ types:
     mass: 700.0
     maxvelocity: 3750.0
     name: Mjolnir Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 750.0
     published: true
@@ -97,19 +94,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   213:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 5000
     explosivedamage: 83.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 60.0
     id: 213
     kineticdamageresonance: 1.0
@@ -118,7 +115,6 @@ types:
     mass: 700.0
     maxvelocity: 3750.0
     name: Nova Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 370.0
     published: true
@@ -130,12 +126,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27353:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -145,7 +141,7 @@ types:
     hp: 80.0
     id: 27353
     kineticdamage: 90.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 998
     mass: 700.0
@@ -153,7 +149,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Scourge Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 500.0
     published: true
@@ -165,12 +160,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27361:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -180,7 +175,7 @@ types:
     hp: 60.0
     id: 27361
     kineticdamage: 95.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 998
     mass: 700.0
@@ -188,7 +183,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Scourge Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 500.0
     published: true
@@ -200,12 +194,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27365:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -215,7 +209,7 @@ types:
     hp: 60.0
     id: 27365
     kineticdamage: 99.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     marketGroup: 998
     mass: 700.0
@@ -223,7 +217,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Scourge Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 500.0
     published: true
@@ -235,12 +228,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27367:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -257,7 +250,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Inferno Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 624.0
     published: true
@@ -269,13 +261,13 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 90.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   27369:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -292,7 +284,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Inferno Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 624.0
     published: true
@@ -304,13 +295,13 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 99.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   27371:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -327,7 +318,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Inferno Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 624.0
     published: true
@@ -339,20 +329,20 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 95.0
-    thermaldamageresonance: 0.800000011920929
-    volume: 0.014999999664723873
+    thermaldamageresonance: 0.8
+    volume: 0.015
   27375:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 5000
     explosivedamage: 99.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 60.0
     id: 27375
     kineticdamageresonance: 1.0
@@ -363,7 +353,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Nova Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 370.0
     published: true
@@ -375,19 +364,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27379:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 5000
     explosivedamage: 90.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 80.0
     id: 27379
     kineticdamageresonance: 1.0
@@ -398,7 +387,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Nova Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 370.0
     published: true
@@ -410,19 +398,19 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27381:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 5000
     explosivedamage: 95.0
-    explosivedamageresonance: 0.800000011920929
+    explosivedamageresonance: 0.8
     hp: 60.0
     id: 27381
     kineticdamageresonance: 1.0
@@ -433,7 +421,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Nova Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 370.0
     published: true
@@ -445,17 +432,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27383:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamage: 90.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 5000
     explosivedamageresonance: 1.0
     hp: 80.0
@@ -468,7 +455,6 @@ types:
     metagroupid: 4
     metalevelold: 1
     name: Guristas Mjolnir Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 750.0
     published: true
@@ -480,17 +466,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27385:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamage: 99.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 5000
     explosivedamageresonance: 1.0
     hp: 60.0
@@ -503,7 +489,6 @@ types:
     metagroupid: 4
     metalevelold: 3
     name: Dread Guristas Mjolnir Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 750.0
     published: true
@@ -515,17 +500,17 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   27387:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
     emdamage: 95.0
-    emdamageresonance: 0.800000011920929
+    emdamageresonance: 0.8
     explosiondelay: 5000
     explosivedamageresonance: 1.0
     hp: 60.0
@@ -538,7 +523,6 @@ types:
     metagroupid: 4
     metalevelold: 2
     name: Caldari Navy Mjolnir Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 750.0
     published: true
@@ -550,12 +534,12 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015
   32463:
-    agility: 1.4449800073634833E-4
+    agility: 1.4449800378457667E-4
     aimedlaunch: 1
     aoecloudsize: 40
-    aoedamagereductionfactor: 0.6039999723434448
+    aoedamagereductionfactor: 0.604
     aoefalloff: 1500
     aoevelocity: 170
     detonationrange: 35
@@ -565,12 +549,11 @@ types:
     hp: 60.0
     id: 32463
     kineticdamage: 55.0
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launchergroup: 509
     mass: 700.0
     maxvelocity: 3750.0
     name: Civilian Scourge Light Missile
-    packagedVolume: 0.014999999664723873
     portionSize: 100
     price: 500.0
     published: true
@@ -578,4 +561,4 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.014999999664723873
+    volume: 0.015

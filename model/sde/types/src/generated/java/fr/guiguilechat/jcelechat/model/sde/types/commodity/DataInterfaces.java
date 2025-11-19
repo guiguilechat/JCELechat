@@ -14,10 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DecryptorID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -27,13 +25,6 @@ import org.yaml.snakeyaml.Yaml;
 public class DataInterfaces
     extends Commodity
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * Used to show usable decryptors when starting reverse engineering based on data interface
      */
@@ -49,13 +40,6 @@ public class DataInterfaces
     @DefaultRealValue(0.0)
     public double hp;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -69,16 +53,12 @@ public class DataInterfaces
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RequiredSkill1Level.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Hp.INSTANCE, DecryptorID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Hp.INSTANCE, DecryptorID.INSTANCE })));
     public static final DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1115 :
             {
                 return decryptorid;
@@ -86,10 +66,6 @@ public class DataInterfaces
             case  9 :
             {
                 return hp;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

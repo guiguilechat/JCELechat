@@ -4,19 +4,18 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.3100000023841858
-    armorexplosivedamageresonance: 0.20999999344348907
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.31
+    armorexplosivedamageresonance: 0.21
     armorhp: 5250.0
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.4099999964237213
+    armorkineticdamageresonance: 0.51
+    armorthermaldamageresonance: 0.41
     armoruniformity: 0.75
     capacitorcapacity: 3900.0
-    capacity: 675.0
     damagemultiplier: 20.0
     disallowassistance: 1
     entityarmorrepairamount: 710.0
-    entityarmorrepairdelaychancelarge: 0.7400000095367432
+    entityarmorrepairdelaychancelarge: 0.74
     entityarmorrepairduration: 10000
     entityattackdelaymax: 12900
     entityattackdelaymin: 3225
@@ -28,12 +27,12 @@ types:
     entitychasemaxduration: 20000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 250.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentmax: 6
     entityequipmentmin: -4
     entityflyrange: 8500.0
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.8600000143051147
+    entityreactionfactor: 0.86
     entitysecuritymaxgain: 5.0
     falloff: 13500.0
     gfxboosterid: 394
@@ -41,14 +40,13 @@ types:
     hp: 6750.0
     id: 42823
     kineticdamage: 16.0
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 20000.0
     maxvelocity: 1120.0
     name: Liberty Spear Gallente Battleship
     optimalsigradius: 400
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -67,5 +65,5 @@ types:
     speed: 3000.0
     structureuniformity: 1.0
     thermaldamage: 28.0
-    trackingspeed: 0.05412499979138374
+    trackingspeed: 0.054125
     volume: 1140000.0

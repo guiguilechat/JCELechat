@@ -11,13 +11,12 @@ types:
     id: 27675
     incapacitationratio: 0.75
     marketGroup: 1010
-    mass: 1.0E8
+    mass: 100000000.0
     maxscandeviation: 1000000.0
     minscandeviation: 15000
     name: System Scanning Array
     onliningdelay: 300000
     onliningrequiressovereigntylevel: 2
-    packagedVolume: 4000.0
     portionSize: 1
     posanchoredpersolarsystemamount: 1
     power: 25000

@@ -4,15 +4,14 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 75000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 12709
     marketGroup: 757
     maxrange: 30000.0
     name: Target Painter I
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -29,8 +28,8 @@ types:
     cpu: 24.0
     duration: 5000.0
     falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.7
     hp: 40.0
     id: 19806
     marketGroup: 757
@@ -38,7 +37,6 @@ types:
     metalevelold: 5
     name: Target Painter II
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -55,8 +53,8 @@ types:
     cpu: 16.0
     duration: 5000.0
     falloffeffectiveness: 75000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 19810
     marketGroup: 757
@@ -64,7 +62,6 @@ types:
     metalevelold: 1
     name: Peripheral Compact Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -81,8 +78,8 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 75000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 19812
     marketGroup: 757
@@ -90,7 +87,6 @@ types:
     metalevelold: 1
     name: Parallel Enduring Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -107,8 +103,8 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 82500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 19814
     marketGroup: 757
@@ -116,7 +112,6 @@ types:
     metalevelold: 1
     name: Phased Scoped Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -133,8 +128,8 @@ types:
     cpu: 14.0
     duration: 5000.0
     falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 21540
     marketGroup: 757
@@ -143,7 +138,6 @@ types:
     metalevelold: 6
     name: '''Inception'' Target Painter'
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -160,8 +154,8 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 31944
     marketGroup: 757
@@ -170,7 +164,6 @@ types:
     metalevelold: 8
     name: Republic Fleet Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -187,8 +180,8 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 90000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 32414
     marketGroup: 757
@@ -197,7 +190,6 @@ types:
     metalevelold: 8
     name: Domination Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -214,8 +206,8 @@ types:
     cpu: 20.0
     duration: 5000.0
     falloffeffectiveness: 97500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.7000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.7
     hp: 40.0
     id: 84742
     marketGroup: 757
@@ -224,7 +216,6 @@ types:
     metalevelold: 17
     name: Tisiphone's Modified Target Painter
     overloadpainterstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true

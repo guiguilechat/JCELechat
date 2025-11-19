@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
@@ -24,8 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningMaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -37,7 +36,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
@@ -46,7 +44,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -55,6 +52,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStatus;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -62,6 +60,13 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCMiningBarge
     extends Entity
 {
+    /**
+     * The agility of the object.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -132,20 +137,6 @@ public class NPCMiningBarge
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
-     * charge of module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int charge;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -226,13 +217,6 @@ public class NPCMiningBarge
     @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
@@ -289,14 +273,6 @@ public class NPCMiningBarge
     @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
-    /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
@@ -352,12 +328,23 @@ public class NPCMiningBarge
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanSpeed.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, Charge.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, SignatureRadius.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EntityFactionLoss.INSTANCE, BehaviorMiningDischarge.INSTANCE, ScanResolution.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE })));
+    /**
+     * Warp ability of a ship.  If greater than zero than the ship cannot warp.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int warpscramblestatus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ScanSpeed.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, SignatureRadius.INSTANCE, WarpScrambleStatus.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EntityFactionLoss.INSTANCE, BehaviorMiningDischarge.INSTANCE, ScanResolution.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE })));
     public static final NPCMiningBarge.MetaGroup METAGROUP = new NPCMiningBarge.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  70 :
+            {
+                return agility;
+            }
             case  267 :
             {
                 return armoremdamageresonance;
@@ -397,14 +384,6 @@ public class NPCMiningBarge
             case  482 :
             {
                 return capacitorcapacity;
-            }
-            case  38 :
-            {
-                return capacity;
-            }
-            case  18 :
-            {
-                return charge;
             }
             case  854 :
             {
@@ -450,10 +429,6 @@ public class NPCMiningBarge
             {
                 return maxvelocity;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  55 :
             {
                 return rechargerate;
@@ -486,10 +461,6 @@ public class NPCMiningBarge
             {
                 return shieldcapacity;
             }
-            case  264 :
-            {
-                return shieldcharge;
-            }
             case  271 :
             {
                 return shieldemdamageresonance;
@@ -521,6 +492,10 @@ public class NPCMiningBarge
             case  525 :
             {
                 return structureuniformity;
+            }
+            case  104 :
+            {
+                return warpscramblestatus;
             }
             default:
             {

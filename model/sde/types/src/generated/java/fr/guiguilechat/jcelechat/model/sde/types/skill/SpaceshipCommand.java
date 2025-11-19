@@ -16,11 +16,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -148,7 +146,7 @@ public class SpaceshipCommand
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystemslot;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, Radius.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, Capacity.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, AgilityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxAttackTargets.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, RequiredSkill5 .INSTANCE, ShipPowerBonus.INSTANCE, IsSkillIObsolete.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, SubSystemSlot.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, AgilityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE })));
     public static final SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
 
     @Override

@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRate;
@@ -22,7 +21,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PinCycleTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PinExtractionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -86,7 +84,7 @@ public class Extractors
     @Stackable(true)
     @DefaultIntValue(0)
     public int powerload;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, HarvesterType.INSTANCE, Capacity.INSTANCE, PinExtractionQuantity.INSTANCE, PinCycleTime.INSTANCE, ExtractorDepletionRange.INSTANCE, ExtractorDepletionRate.INSTANCE, PowerLoad.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, HarvesterType.INSTANCE, PinExtractionQuantity.INSTANCE, PinCycleTime.INSTANCE, ExtractorDepletionRange.INSTANCE, ExtractorDepletionRate.INSTANCE, PowerLoad.INSTANCE })));
     public static final Extractors.MetaGroup METAGROUP = new Extractors.MetaGroup();
 
     @Override

@@ -1,14 +1,13 @@
 types:
   9959:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 275.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -49,7 +48,6 @@ types:
     modifytargetspeedrange: 30000
     name: Amarr Surveillance Officer
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -60,9 +58,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -73,15 +71,14 @@ types:
     volume: 18100.0
     warpscrambleduration: 8000
   9960:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 1750.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -114,7 +111,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 9960
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -124,11 +121,10 @@ types:
     modifytargetspeedrange: 30000
     name: Amarr Surveillance Sergeant Major
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrengthbonus: 5.0
@@ -139,16 +135,16 @@ types:
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 118000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
@@ -158,14 +154,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 875.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1775.0
-    capacity: 1775.0
-    damagemultiplier: 2.2058823108673096
+    damagemultiplier: 2.205882353
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -192,7 +187,7 @@ types:
     hp: 875.0
     id: 9962
     kineticdamage: 4.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 11250.0
@@ -202,11 +197,10 @@ types:
     modifytargetspeedrange: 20000
     name: Amarr Surveillance Sergeant
     optimalsigradius: 100
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 91.58999633789062
+    radius: 91.59
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -219,10 +213,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -233,15 +227,14 @@ types:
     volume: 115000.0
     warpscrambleduration: 8000
   9965:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 1050.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -273,7 +266,7 @@ types:
     hp: 1775.0
     id: 9965
     kineticdamage: 30.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -284,11 +277,10 @@ types:
     modifytargetspeedrange: 30000
     name: Caldari Police Vice Commissioner
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 199.86000061035156
+    radius: 199.86
     rechargerate: 1000000.0
     scangravimetricstrength: 15.0
     scangravimetricstrengthbonus: 5.0
@@ -299,30 +291,29 @@ types:
     shieldcapacity: 2375.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 101000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
     warpscramblestrength: 1
   9970:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 190.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -363,7 +354,6 @@ types:
     modifytargetspeedrange: 30000
     name: Caldari Police 3rd Lieutenant
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -374,9 +364,9 @@ types:
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -391,14 +381,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 850.0
-    armorkineticdamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 1200.0
-    capacity: 1200.0
-    damagemultiplier: 3.5714285373687744
+    damagemultiplier: 3.571428571
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 8.0
@@ -435,11 +424,10 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Police 1st Lieutenant
     optimalsigradius: 100
-    packagedVolume: 92000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 221.0500030517578
+    radius: 221.05
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -452,10 +440,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -470,13 +458,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.20000000298023224
-    armorexplosivedamageresonance: 1.100000023841858
+    armoremdamageresonance: 0.2
+    armorexplosivedamageresonance: 1.1
     armorhp: 775.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 1250.0
-    capacity: 1250.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -514,7 +501,6 @@ types:
     modifytargetspeedrange: 20000
     name: Minmatar Security Officer 2nd Rank
     optimalsigradius: 100
-    packagedVolume: 89000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -531,10 +517,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 800.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -545,15 +531,14 @@ types:
     volume: 89000.0
     warpscrambleduration: 8000
   9978:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 825.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -598,11 +583,10 @@ types:
     modifytargetspeedrange: 30000
     name: Minmatar Security Officer 1st Rank
     optimalsigradius: 125
-    packagedVolume: 80000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 123.02999877929688
+    radius: 123.03
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrength: 15.0
@@ -613,16 +597,16 @@ types:
     shieldcapacity: 2375.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 80000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
@@ -632,14 +616,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 825.0
-    armorkineticdamageresonance: 0.949999988079071
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.95
+    armorthermaldamageresonance: 0.35
     capacitorcapacity: 1935.0
-    capacity: 1935.0
-    damagemultiplier: 2.6789541244506836
+    damagemultiplier: 2.678954136
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 8.0
@@ -666,7 +649,7 @@ types:
     gfxturretid: 569
     hp: 825.0
     id: 9983
-    mass: 1.13E7
+    mass: 11300000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 4000.0
@@ -676,7 +659,6 @@ types:
     modifytargetspeedrange: 20000
     name: Gallente Police Master Sergeant
     optimalsigradius: 100
-    packagedVolume: 113000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -693,10 +675,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 750.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -707,15 +689,14 @@ types:
     volume: 113000.0
     warpscrambleduration: 8000
   9984:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 1735.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -748,7 +729,7 @@ types:
     hp: 2375.0
     id: 9984
     kineticdamage: 15.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -759,11 +740,10 @@ types:
     modifytargetspeedrange: 30000
     name: Gallente Police Captain
     optimalsigradius: 125
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 140.14999389648438
+    radius: 140.15
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrengthbonus: 5.0
@@ -774,30 +754,29 @@ types:
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 30.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 115000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
     warpscramblestrength: 1
   9987:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 200.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -839,7 +818,6 @@ types:
     modifytargetspeedrange: 30000
     name: Khanid Surveillance Officer
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -850,9 +828,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -867,13 +845,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 875.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 500.0
-    capacity: 500.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -901,7 +878,7 @@ types:
     hp: 875.0
     id: 9988
     kineticdamage: 10.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 10000.0
@@ -911,11 +888,10 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Surveillance Sergeant
     optimalsigradius: 100
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 91.58999633789062
+    radius: 91.59
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -928,10 +904,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -942,15 +918,14 @@ types:
     volume: 115000.0
     warpscrambleduration: 8000
   9989:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 80.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -993,7 +968,6 @@ types:
     modifytargetspeedrange: 30000
     name: Minmatar Security Officer 3rd Rank
     optimalsigradius: 40
-    packagedVolume: 12000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1004,9 +978,9 @@ types:
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1022,13 +996,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 160.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1070,7 +1043,6 @@ types:
     modifytargetspeedrange: 30000
     name: Gallente Police Sergeant
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1081,9 +1053,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1094,15 +1066,14 @@ types:
     volume: 20400.0
     warpscrambleduration: 8000
   10035:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 550.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 300.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1146,7 +1117,6 @@ types:
     modifytargetspeedrange: 30000
     name: CONCORD SWAT Officer
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1160,9 +1130,9 @@ types:
     shieldcapacity: 500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1173,15 +1143,14 @@ types:
     volume: 20400.0
     warpscrambleduration: 8000
   10036:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 2000.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 900.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -1216,7 +1185,7 @@ types:
     hp: 2000.0
     id: 10036
     kineticdamage: 11.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -1227,11 +1196,10 @@ types:
     modifytargetspeedrange: 30000
     name: CONCORD SWAT Captain
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 199.86000061035156
+    radius: 199.86
     rechargerate: 1000000.0
     scangravimetricstrength: 15.0
     scangravimetricstrengthbonus: 5.0
@@ -1245,30 +1213,29 @@ types:
     shieldcapacity: 2000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 11.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 101000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
     warpscramblestrength: 1
   10097:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 200.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1310,7 +1277,6 @@ types:
     modifytargetspeedrange: 30000
     name: Ammatar Surveillance Officer
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1321,9 +1287,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1334,15 +1300,14 @@ types:
     volume: 18100.0
     warpscrambleduration: 8000
   10099:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 550.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -1375,7 +1340,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10099
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -1386,11 +1351,10 @@ types:
     modifytargetspeedrange: 30000
     name: Ammatar Surveillance Sergeant Major
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrengthbonus: 5.0
@@ -1401,16 +1365,16 @@ types:
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 118000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
@@ -1420,14 +1384,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 875.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 500.0
-    capacity: 500.0
-    damagemultiplier: 4.220438003540039
+    damagemultiplier: 4.220438175
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -1454,7 +1417,7 @@ types:
     hp: 875.0
     id: 10100
     kineticdamage: 10.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 10000.0
@@ -1464,11 +1427,10 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Surveillance Sergeant
     optimalsigradius: 100
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 91.58999633789062
+    radius: 91.59
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1481,10 +1443,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1500,13 +1462,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 200.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1548,7 +1509,6 @@ types:
     modifytargetspeedrange: 30000
     name: Sarum Surveillance Officer
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1559,9 +1519,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1577,13 +1537,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 550.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -1616,7 +1575,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10104
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -1627,11 +1586,10 @@ types:
     modifytargetspeedrange: 30000
     name: Sarum Surveillance Sergeant Major
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrengthbonus: 5.0
@@ -1643,16 +1601,16 @@ types:
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 118000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
@@ -1662,14 +1620,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 875.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     capacitorcapacity: 500.0
-    capacity: 500.0
-    damagemultiplier: 4.220438003540039
+    damagemultiplier: 4.220438175
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -1696,7 +1653,7 @@ types:
     hp: 875.0
     id: 10105
     kineticdamage: 10.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 8000.0
@@ -1706,11 +1663,10 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Surveillance Sergeant
     optimalsigradius: 100
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 91.58999633789062
+    radius: 91.59
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1723,10 +1679,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1741,14 +1697,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 675.0
-    armorkineticdamageresonance: 0.550000011920929
+    armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.75
     capacitorcapacity: 485.0
-    capacity: 485.0
-    damagemultiplier: 2.2058823108673096
+    damagemultiplier: 2.205882353
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -1775,7 +1730,7 @@ types:
     hp: 725.0
     id: 10660
     kineticdamage: 4.0
-    mass: 1.07E7
+    mass: 10700000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 5250.0
@@ -1785,11 +1740,10 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Police 2nd Lieutenant
     optimalsigradius: 100
-    packagedVolume: 107000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 221.89999389648438
+    radius: 221.9
     rechargerate: 400000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1802,10 +1756,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 900.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1816,15 +1770,14 @@ types:
     volume: 107000.0
     warpscrambleduration: 8000
   10674:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 450.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 10000
@@ -1857,7 +1810,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10674
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -1868,11 +1821,10 @@ types:
     modifytargetspeedrange: 30000
     name: Khanid Surveillance Sergeant Major
     optimalsigradius: 125
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scangravimetricstrengthbonus: 5.0
     scanladarstrengthbonus: 5.0
@@ -1883,33 +1835,32 @@ types:
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -90.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 118000.0
     warpscrambleduration: 10000
     warpscramblerange: 30000
     warpscramblestrength: 1
   11126:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 8000.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.20000000298023224
+    dronebandwidthmultiplier: 0.2
     ecmduration: 30000
     emdamage: 30.0
     energyneutralizeramount: 500.0
@@ -1956,7 +1907,6 @@ types:
     modifytargetspeedrange: 20000
     name: CONCORD SWAT Commander
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -1971,33 +1921,32 @@ types:
     shieldcapacity: 8100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   11515:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.20000000298023224
+    dronebandwidthmultiplier: 0.2
     ecmduration: 30000
     emdamage: 100.0
     energyneutralizeramount: 500.0
@@ -2032,7 +1981,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 11515
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2042,7 +1991,6 @@ types:
     modifytargetspeedrange: 20000
     name: Amarr Surveillance General Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2054,16 +2002,16 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
@@ -2074,16 +2022,15 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.4000000059604645
+    dronebandwidthmultiplier: 0.4
     ecmduration: 30000
     emdamage: 100.0
     energyneutralizeramount: 500.0
@@ -2118,7 +2065,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 11516
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2128,7 +2075,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Surveillance General Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2140,33 +2086,32 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   11517:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.20000000298023224
+    dronebandwidthmultiplier: 0.2
     ecmduration: 30000
     emdamage: 100.0
     energyneutralizeramount: 500.0
@@ -2201,7 +2146,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 11517
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2211,7 +2156,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Surveillance General Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2223,33 +2167,32 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   11518:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.20000000298023224
+    dronebandwidthmultiplier: 0.2
     ecmduration: 30000
     emdamage: 100.0
     energyneutralizeramount: 500.0
@@ -2284,7 +2227,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 11518
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2294,7 +2237,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Surveillance General Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2306,16 +2248,16 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
@@ -2327,16 +2269,15 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 8500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.4000000059604645
+    dronebandwidthmultiplier: 0.4
     ecmduration: 30000
     emdamage: 50.0
     energyneutralizeramount: 500.0
@@ -2372,7 +2313,7 @@ types:
     hp: 9000.0
     id: 11519
     kineticdamage: 100.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2382,7 +2323,6 @@ types:
     modifytargetspeedrange: 20000
     name: Gallente Police Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2394,32 +2334,31 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   11520:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 9000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.4000000059604645
+    dronebandwidthmultiplier: 0.4
     ecmduration: 30000
     emdamage: 25.0
     energyneutralizeramount: 500.0
@@ -2455,7 +2394,7 @@ types:
     hp: 7100.0
     id: 11520
     kineticdamage: 25.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2465,7 +2404,6 @@ types:
     modifytargetspeedrange: 20000
     name: Minmatar Security High Captain
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -2477,33 +2415,32 @@ types:
     shieldcapacity: 8500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   11521:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 8500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.4000000059604645
+    dronebandwidthmultiplier: 0.4
     ecmduration: 30000
     energyneutralizeramount: 500.0
     energyneutralizerduration: 10000
@@ -2537,7 +2474,7 @@ types:
     hp: 7100.0
     id: 11521
     kineticdamage: 100.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2547,7 +2484,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Police Commissioner
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -2559,33 +2495,32 @@ types:
     shieldcapacity: 9000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   32380:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 8500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 20.0
     disallowassistance: 1
-    dronebandwidthmultiplier: 0.4000000059604645
+    dronebandwidthmultiplier: 0.4
     ecmduration: 30000
     emdamage: 50.0
     energyneutralizeramount: 500.0
@@ -2621,7 +2556,7 @@ types:
     hp: 9000.0
     id: 32380
     kineticdamage: 100.0
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2631,7 +2566,6 @@ types:
     modifytargetspeedrange: 20000
     name: Roden Police Major
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2643,29 +2577,28 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
     warpscrambleduration: 10000
     warpscramblerange: 75000
     warpscramblestrength: 1
   32381:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 160.0
     damagemultiplier: 20.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2707,7 +2640,6 @@ types:
     modifytargetspeedrange: 30000
     name: Roden Police Sergeant
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2718,9 +2650,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0

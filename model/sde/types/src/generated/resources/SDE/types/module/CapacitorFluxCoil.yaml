@@ -1,7 +1,7 @@
 types:
   509:
-    capacitorcapacitymultiplier: 0.800000011920929
-    capacitorrechargeratemultiplier: 0.6600000262260437
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.66
     cpu: 5.0
     hp: 40.0
     id: 509
@@ -10,7 +10,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Capacitor Flux Coil'
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -22,15 +21,14 @@ types:
     techlevel: 1
     volume: 5.0
   1246:
-    capacitorcapacitymultiplier: 0.800000011920929
-    capacitorrechargeratemultiplier: 0.6399999856948853
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.64
     cpu: 10.0
     hp: 40.0
     id: 1246
     marketGroup: 666
     mass: 20.0
     name: Capacitor Flux Coil I
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -42,8 +40,8 @@ types:
     techlevel: 1
     volume: 5.0
   1248:
-    capacitorcapacitymultiplier: 0.800000011920929
-    capacitorrechargeratemultiplier: 0.6100000143051147
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.61
     cpu: 14.0
     hp: 40.0
     id: 1248
@@ -51,7 +49,6 @@ types:
     mass: 20.0
     metalevelold: 5
     name: Capacitor Flux Coil II
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -63,8 +60,8 @@ types:
     techlevel: 2
     volume: 5.0
   8133:
-    capacitorcapacitymultiplier: 0.800000011920929
-    capacitorrechargeratemultiplier: 0.6299999952316284
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.63
     cpu: 8.0
     hp: 40.0
     id: 8133
@@ -72,7 +69,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Mark I Compact Capacitor Flux Coil
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -84,8 +80,8 @@ types:
     techlevel: 1
     volume: 5.0
   8135:
-    capacitorcapacitymultiplier: 0.8999999761581421
-    capacitorrechargeratemultiplier: 0.7200000286102295
+    capacitorcapacitymultiplier: 0.9
+    capacitorrechargeratemultiplier: 0.72
     cpu: 10.0
     hp: 40.0
     id: 8135
@@ -93,7 +89,6 @@ types:
     mass: 20.0
     metalevelold: 1
     name: Type-D Restrained Capacitor Flux Coil
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true
@@ -105,8 +100,8 @@ types:
     techlevel: 1
     volume: 5.0
   23894:
-    capacitorcapacitymultiplier: 0.800000011920929
-    capacitorrechargeratemultiplier: 0.6100000143051147
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.61
     cpu: 8.0
     hp: 40.0
     id: 23894
@@ -115,7 +110,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Page'' Capacitor Flux Coil I'
-    packagedVolume: 5.0
     portionSize: 1
     poweroutputmultiplier: 1.0
     published: true

@@ -31,7 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
@@ -62,7 +61,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
@@ -200,13 +198,6 @@ public class StructureBurstProjector
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -426,13 +417,6 @@ public class StructureBurstProjector
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
@@ -510,7 +494,7 @@ public class StructureBurstProjector
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, CanFitShipType8 .INSTANCE, ScanResolutionBonus.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, DurationTargetWarpableBeacon.INSTANCE, CanFitShipType11 .INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ExplosionDelayBonus.INSTANCE, DoomsdayWarningDuration.INSTANCE, RemoteResistanceID.INSTANCE, IsPointTargeted.INSTANCE, DurationWeaponDisruptionBurstProjector.INSTANCE, FalloffBonus.INSTANCE, DurationECMJammerBurstProjector.INSTANCE, MaxRangeBonus.INSTANCE, DurationSensorDampeningBurstProjector.INSTANCE, DurationTargetIlluminationBurstProjector.INSTANCE, EnergyNeutralizerAmount.INSTANCE, DoomsdayAOERange.INSTANCE, DoomsdayAOEDuration.INSTANCE, DoomsdayAOESignatureRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, SpeedFactor.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, CanFitShipType8 .INSTANCE, ScanResolutionBonus.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, DurationTargetWarpableBeacon.INSTANCE, CanFitShipType11 .INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ExplosionDelayBonus.INSTANCE, DoomsdayWarningDuration.INSTANCE, RemoteResistanceID.INSTANCE, IsPointTargeted.INSTANCE, FalloffBonus.INSTANCE, DurationWeaponDisruptionBurstProjector.INSTANCE, DurationECMJammerBurstProjector.INSTANCE, MaxRangeBonus.INSTANCE, DurationSensorDampeningBurstProjector.INSTANCE, DurationTargetIlluminationBurstProjector.INSTANCE, EnergyNeutralizerAmount.INSTANCE, DoomsdayAOERange.INSTANCE, DoomsdayAOEDuration.INSTANCE, DoomsdayAOESignatureRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final StructureBurstProjector.MetaGroup METAGROUP = new StructureBurstProjector.MetaGroup();
 
     @Override
@@ -583,10 +567,6 @@ public class StructureBurstProjector
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -707,10 +687,6 @@ public class StructureBurstProjector
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2138 :
             {

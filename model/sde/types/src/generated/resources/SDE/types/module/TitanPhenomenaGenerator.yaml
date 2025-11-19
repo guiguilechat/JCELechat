@@ -19,12 +19,10 @@ types:
     maxgroupfitted: 1
     maxrange: 2.0E7
     name: Amarr Phenomena Generator
-    packagedVolume: 8000.0
     portionSize: 1
     power: 100000
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     requiredskill1: 43728
     requiredskill1level: 1
     techlevel: 1
@@ -57,12 +55,10 @@ types:
     maxgroupfitted: 1
     maxrange: 2.0E7
     name: Caldari Phenomena Generator
-    packagedVolume: 8000.0
     portionSize: 1
     power: 100000
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     requiredskill1: 43728
     requiredskill1level: 1
     techlevel: 1
@@ -97,12 +93,10 @@ types:
     maxgroupfitted: 1
     maxrange: 2.0E7
     name: Gallente Phenomena Generator
-    packagedVolume: 8000.0
     portionSize: 1
     power: 100000
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     requiredskill1: 43728
     requiredskill1level: 1
     techlevel: 1
@@ -137,12 +131,10 @@ types:
     maxgroupfitted: 1
     maxrange: 2.0E7
     name: Minmatar Phenomena Generator
-    packagedVolume: 8000.0
     portionSize: 1
     power: 100000
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     requiredskill1: 43728
     requiredskill1level: 1
     techlevel: 1

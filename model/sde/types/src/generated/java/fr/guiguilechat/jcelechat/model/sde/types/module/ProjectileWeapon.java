@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
@@ -36,7 +35,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadDamageModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRofBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -314,7 +312,7 @@ public class ProjectileWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Falloff.INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, AccuracyBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, ChargeSize.INSTANCE, ReloadTime.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ChargeGroup1 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, AccuracyBonus.INSTANCE })));
     public static final ProjectileWeapon.MetaGroup METAGROUP = new ProjectileWeapon.MetaGroup();
 
     @Override

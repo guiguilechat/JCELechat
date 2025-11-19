@@ -1,0 +1,33 @@
+types:
+  90041:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.425
+    asteroidradiusunitsize: 600
+    id: 90041
+    marketGroup: 3776
+    name: Prismaticite
+    orebasictype: 90041
+    portionSize: 100
+    price: 1000.0
+    published: true
+    reprocessingskilltype: 90040
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 40.0
+  90307:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.425
+    asteroidradiusunitsize: 600
+    id: 90307
+    marketGroup: 3776
+    name: Compressed Prismaticite
+    orebasictype: 90041
+    portionSize: 100
+    price: 1000.0
+    published: true
+    reprocessingskilltype: 90040
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.4

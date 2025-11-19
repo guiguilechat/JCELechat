@@ -17,14 +17,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AimedLaunch;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorPiercingChance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DetonationRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileNeverDoesDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -128,7 +126,7 @@ public class FestivalCharges
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final FestivalCharges.MetaGroup METAGROUP = new FestivalCharges.MetaGroup();
 
     @Override

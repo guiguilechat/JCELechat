@@ -4,14 +4,13 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.30000001192092896
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.3
     armorhp: 7000.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.30000001192092896
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.3
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
     damagemultiplier: 3.5
     disallowassistance: 1
     emdamage: 20.0
@@ -23,7 +22,7 @@ types:
     entityattackrange: 45000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 16500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -35,20 +34,20 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 15000.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 3500.0
     id: 30203
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 30000.0
     maxvelocity: 1480.0
-    missiledamagemultiplier: 2.799999952316284
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missiledamagemultiplier: 2.8
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
@@ -60,7 +59,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -76,7 +74,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 109000.0
   30204:
     aishoulduseeffectmultiplier: 1
@@ -90,13 +88,12 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
     damagemultiplier: 3.5
     disallowassistance: 1
     emdamage: 20.0
     energyneutralizeramount: 60.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 40000
     entityarmorrepairamount: 224.0
     entityarmorrepairduration: 12000
@@ -105,7 +102,7 @@ types:
     entityattackrange: 78750
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 33000
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -117,24 +114,24 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 26250.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 2450.0
     id: 30204
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 52500.0
     maxvelocity: 1728.0
-    missiledamagemultiplier: 1.399999976158142
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missiledamagemultiplier: 1.4
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 40000
     name: Awakened Upholder
@@ -143,7 +140,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -159,22 +155,21 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.05000000074505806
+    trackingspeed: 0.05
     volume: 109000.0
   30205:
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 5600.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 725.0
-    capacity: 120.0
-    damagemultiplier: 7.699999809265137
+    damagemultiplier: 7.7
     disallowassistance: 1
     emdamage: 20.0
     energyneutralizerduration: 30000
@@ -185,7 +180,7 @@ types:
     entityattackrange: 101250
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.05000000074505806
+    entitychasemaxdelaychance: 0.05
     entitychasemaxdistance: 49500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -197,20 +192,20 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30428
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.6000000238418579
+    entityreactionfactor: 0.6
     falloff: 33750.0
     gfxboosterid: 397
     gfxturretid: 4045
     hp: 2800.0
     id: 30205
-    mass: 1.09E7
+    mass: 10900000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 67500.0
     maxvelocity: 1240.0
-    missiledamagemultiplier: 1.399999976158142
-    missileentityaoecloudsizemultiplier: 0.8565999865531921
-    missileentityaoevelocitymultiplier: 1.2868000268936157
+    missiledamagemultiplier: 1.4
+    missileentityaoecloudsizemultiplier: 0.8566
+    missileentityaoevelocitymultiplier: 1.2868
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 15000.0
@@ -219,11 +214,10 @@ types:
     name: Awakened Preserver
     npcassistancerange: 50000
     npcremotearmorrepairamount: 520
-    npcremotearmorrepairchance: 0.8999999761581421
+    npcremotearmorrepairchance: 0.9
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.5
     optimalsigradius: 125
-    packagedVolume: 109000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -239,5 +233,5 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.03999999910593033
+    trackingspeed: 0.04
     volume: 109000.0

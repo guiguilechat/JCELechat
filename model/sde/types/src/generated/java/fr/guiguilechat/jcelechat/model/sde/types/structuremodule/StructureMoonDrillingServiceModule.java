@@ -16,11 +16,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringSecurityLevelMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelConsumptionGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelOnlineAmount;
@@ -49,13 +47,6 @@ public class StructureMoonDrillingServiceModule
     @DefaultIntValue(0)
     public int canfitshipgroup01;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -76,13 +67,6 @@ public class StructureMoonDrillingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
@@ -125,7 +109,7 @@ public class StructureMoonDrillingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, MaxTypeFitted.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, Power.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
 
     @Override
@@ -139,10 +123,6 @@ public class StructureMoonDrillingServiceModule
             {
                 return canfitshipgroup01;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  50 :
             {
                 return cpu;
@@ -154,10 +134,6 @@ public class StructureMoonDrillingServiceModule
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2109 :
             {

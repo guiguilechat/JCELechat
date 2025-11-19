@@ -6,17 +6,15 @@ types:
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     rofbonus: -2
     secondaryattribute: 168
     skilltimeconstant: 1.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3320:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -25,18 +23,16 @@ types:
     id: 3320
     marketGroup: 373
     name: Rockets
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3321:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -45,18 +41,16 @@ types:
     id: 3321
     marketGroup: 373
     name: Light Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3322:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -65,18 +59,16 @@ types:
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 37500.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3323:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -85,16 +77,14 @@ types:
     marketGroup: 373
     missilevelocitybonus: 10.0
     name: Defender Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     secondaryattribute: 168
     skilltimeconstant: 2.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3324:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -103,12 +93,10 @@ types:
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 3
     requiredskill2: 3321
@@ -116,7 +104,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3325:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -125,12 +113,10 @@ types:
     id: 3325
     marketGroup: 373
     name: Torpedoes
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 4
     requiredskill2: 3324
@@ -138,7 +124,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 4.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3326:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -147,12 +133,10 @@ types:
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 5
     requiredskill2: 3324
@@ -160,7 +144,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12441:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -169,18 +153,16 @@ types:
     marketGroup: 373
     maxflighttimebonus: 10
     name: Missile Bombardment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 2.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   12442:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -188,18 +170,16 @@ types:
     id: 12442
     marketGroup: 373
     name: Missile Projection
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 3
     secondaryattribute: 168
     skilltimeconstant: 4.0
     speedfactor: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20209:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -207,12 +187,10 @@ types:
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 3320
@@ -221,7 +199,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20210:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -229,12 +207,10 @@ types:
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 3321
@@ -243,7 +219,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20211:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -251,12 +227,10 @@ types:
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 3324
@@ -265,7 +239,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20212:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -273,12 +247,10 @@ types:
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 3326
@@ -287,7 +259,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 8.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20213:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -295,12 +267,10 @@ types:
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 3325
@@ -309,7 +279,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 8.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20312:
     aoecloudsizebonus: -5.0
     cannotbetrainedontrial: 1
@@ -318,18 +288,16 @@ types:
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20314:
     aoevelocitybonus: 10.0
     cannotbetrainedontrial: 1
@@ -338,18 +306,16 @@ types:
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 90000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 2
     secondaryattribute: 168
     skilltimeconstant: 2.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   20315:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2.0
@@ -358,18 +324,16 @@ types:
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21071:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -377,19 +341,17 @@ types:
     id: 21071
     marketGroup: 373
     name: Rapid Launch
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 2
     rofbonus: -3
     secondaryattribute: 168
     skilltimeconstant: 2.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   21668:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -398,12 +360,10 @@ types:
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 5
     requiredskill2: 3325
@@ -411,7 +371,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 7.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25718:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -419,12 +379,10 @@ types:
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 25719
@@ -433,7 +391,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25719:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -442,12 +400,10 @@ types:
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 125000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 3
     requiredskill2: 3321
@@ -455,7 +411,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   28073:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -463,19 +419,17 @@ types:
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     reactivationdelaybonus: -10
     requiredskill1: 12441
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 4.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   32435:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 5.0
@@ -484,12 +438,10 @@ types:
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 5
     requiredskill2: 3326
@@ -497,7 +449,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 7.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41409:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -505,12 +457,10 @@ types:
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 21668
@@ -519,7 +469,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 10.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41410:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -527,12 +477,10 @@ types:
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     primaryattribute: 167
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 1
     requiredskill2: 32435
@@ -541,7 +489,7 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 10.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   86260:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -549,12 +497,10 @@ types:
     id: 86260
     marketGroup: 373
     name: Breacher Pod Launcher Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 3319
     requiredskill1level: 3
     requiredskill2: 24242
@@ -562,7 +508,7 @@ types:
     secondaryattribute: 164
     skilltimeconstant: 3.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   86261:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 5
@@ -570,18 +516,16 @@ types:
     id: 86261
     marketGroup: 373
     name: Breacher Pod Clone Efficacity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 86260
     requiredskill1level: 1
     secondaryattribute: 164
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   86262:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -590,18 +534,16 @@ types:
     id: 86262
     marketGroup: 373
     name: Breacher Pod Clone Longevity
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 86260
     requiredskill1level: 3
     secondaryattribute: 164
     skilltimeconstant: 7.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   86263:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -609,18 +551,16 @@ types:
     id: 86263
     marketGroup: 373
     name: Breacher Pod Projection
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 86260
     requiredskill1level: 2
     secondaryattribute: 164
     skilltimeconstant: 5.0
     speedfactor: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   86264:
     cannotbetrainedontrial: 1
     dotmaxdamagepertickbonus: 1
@@ -628,16 +568,14 @@ types:
     id: 86264
     marketGroup: 373
     name: Breacher Pod Rapid Firing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 250000.0
     primaryattribute: 168
     published: true
-    radius: 1.0
     requiredskill1: 86260
     requiredskill1level: 2
     rofbonus: -10
     secondaryattribute: 164
     skilltimeconstant: 5.0
     speedfactor: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

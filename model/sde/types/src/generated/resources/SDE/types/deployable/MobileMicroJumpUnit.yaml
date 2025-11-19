@@ -2,17 +2,14 @@ types:
   33591:
     armorhp: 1000.0
     armoruniformity: 0.75
-    capacity: 27000.0
     hp: 3000.0
     id: 33591
     marketGroup: 1844
     mass: 10000.0
     metalevelold: 1
     name: Mobile Micro Jump Unit
-    packagedVolume: 50.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11584
     requiredskill1level: 1
     scangravimetricstrength: 5.0
@@ -34,26 +31,23 @@ types:
   33990:
     armorhp: 1000.0
     armoruniformity: 0.75
-    capacity: 27000.0
     hp: 3000.0
     id: 33990
     mass: 10000.0
     metalevelold: 1
     name: Tournament Micro Jump Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     scangravimetricstrength: 5.0
     scanladarstrength: 5.0
     scanmagnetometricstrength: 5.0
     scanradarstrength: 5.0
     shieldcapacity: 10000.0
-    shieldemdamageresonance: 0.009999999776482582
-    shieldexplosivedamageresonance: 0.009999999776482582
-    shieldkineticdamageresonance: 0.009999999776482582
+    shieldemdamageresonance: 0.01
+    shieldexplosivedamageresonance: 0.01
+    shieldkineticdamageresonance: 0.01
     shieldrechargerate: 1000.0
-    shieldthermaldamageresonance: 0.009999999776482582
+    shieldthermaldamageresonance: 0.01
     shielduniformity: 0.75
     signatureradius: 50.0
     signatureradiusbonuspercent: 150

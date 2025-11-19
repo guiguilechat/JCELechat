@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -86,7 +84,7 @@ public class CapacitorBoosterCharge
     @Stackable(true)
     @DefaultIntValue(0)
     public int metagroupid;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, CapacitorBonus.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MetaGroupID.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, CapacitorBonus.INSTANCE, LauncherGroup.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MetaGroupID.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final CapacitorBoosterCharge.MetaGroup METAGROUP = new CapacitorBoosterCharge.MetaGroup();
 
     @Override

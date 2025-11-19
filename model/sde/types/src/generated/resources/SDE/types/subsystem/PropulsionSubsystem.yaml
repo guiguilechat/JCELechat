@@ -1,6 +1,6 @@
 types:
   45610:
-    agilitybonusadd: 0.10000000149011612
+    agilitybonusadd: 0.1
     fitstoshiptype: 29986
     hp: 40.0
     id: 45610
@@ -10,10 +10,8 @@ types:
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Legion Propulsion - Interdiction Nullifier
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30538
     requiredskill1level: 1
     shipbonusrole1: -80.0
@@ -33,10 +31,8 @@ types:
     mass: 1400000.0
     metalevelold: 1
     name: Legion Propulsion - Intercalated Nanofibers
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30538
     requiredskill1level: 1
     signatureradius: 100.0
@@ -55,10 +51,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Propulsion - Wake Limiter
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30538
     requiredskill1level: 1
     signatureradius: 100.0
@@ -68,7 +62,7 @@ types:
     techlevel: 3
     volume: 40.0
   45613:
-    agilitybonusadd: 0.10000000149011612
+    agilitybonusadd: 0.1
     fitstoshiptype: 29984
     hp: 40.0
     id: 45613
@@ -78,10 +72,8 @@ types:
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Tengu Propulsion - Interdiction Nullifier
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30552
     requiredskill1level: 1
     shipbonusrole1: -80.0
@@ -102,10 +94,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Tengu Propulsion - Chassis Optimization
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30552
     requiredskill1level: 1
     signatureradius: 100.0
@@ -123,10 +113,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Propulsion - Fuel Catalyst
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30552
     requiredskill1level: 1
     signatureradius: 100.0
@@ -136,7 +124,7 @@ types:
     techlevel: 3
     volume: 40.0
   45616:
-    agilitybonusadd: 0.10000000149011612
+    agilitybonusadd: 0.1
     fitstoshiptype: 29988
     hp: 40.0
     id: 45616
@@ -146,10 +134,8 @@ types:
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Proteus Propulsion - Interdiction Nullifier
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30553
     requiredskill1level: 1
     shipbonusrole1: -80.0
@@ -169,10 +155,8 @@ types:
     mass: 1400000.0
     metalevelold: 1
     name: Proteus Propulsion - Hyperspatial Optimization
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30553
     requiredskill1level: 1
     signatureradius: 100.0
@@ -191,10 +175,8 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Proteus Propulsion - Localized Injectors
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30553
     requiredskill1level: 1
     signatureradius: 100.0
@@ -204,7 +186,7 @@ types:
     techlevel: 3
     volume: 40.0
   45619:
-    agilitybonusadd: 0.10000000149011612
+    agilitybonusadd: 0.1
     fitstoshiptype: 29990
     hp: 40.0
     id: 45619
@@ -214,10 +196,8 @@ types:
     maxtargetrange: -20000.0
     metalevelold: 1
     name: Loki Propulsion - Interdiction Nullifier
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30554
     requiredskill1level: 1
     shipbonusrole1: -80.0
@@ -237,10 +217,8 @@ types:
     mass: 1400000.0
     metalevelold: 1
     name: Loki Propulsion - Intercalated Nanofibers
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30554
     requiredskill1level: 1
     signatureradius: 100.0
@@ -258,10 +236,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Propulsion - Wake Limiter
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30554
     requiredskill1level: 1
     signatureradius: 100.0

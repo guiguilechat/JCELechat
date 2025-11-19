@@ -9,11 +9,10 @@ types:
     hp: 10000.0
     id: 17701
     incapacitationratio: 0.75
-    mass: 1.0E8
+    mass: 100000000.0
     maxrangebonus2: 10
     name: Tracking Array
     onliningdelay: 300000
-    packagedVolume: 4000.0
     portionSize: 1
     power: 25000
     price: 5000000.0

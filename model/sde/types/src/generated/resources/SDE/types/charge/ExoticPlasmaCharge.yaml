@@ -10,15 +10,13 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Tetryon Exotic Plasma S
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 72.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.699999988079071
+    volume: 0.01
+    weaponrangemultiplier: 0.7
   47886:
     chargesize: 2
     entityflyrangemultiplier: 0.5
@@ -30,15 +28,13 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Tetryon Exotic Plasma M
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 230.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.699999988079071
+    volume: 0.01
+    weaponrangemultiplier: 0.7
   47887:
     chargesize: 3
     entityflyrangemultiplier: 0.5
@@ -50,15 +46,13 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Tetryon Exotic Plasma L
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 602.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.699999988079071
+    volume: 0.01
+    weaponrangemultiplier: 0.7
   47924:
     chargesize: 1
     entityflyrangemultiplier: 0.5
@@ -70,15 +64,13 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Baryon Exotic Plasma S
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 57.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.100000023841858
+    volume: 0.01
+    weaponrangemultiplier: 1.1
   47925:
     chargesize: 1
     entityflyrangemultiplier: 0.5
@@ -90,15 +82,13 @@ types:
     marketGroup: 2465
     mass: 1.0
     name: Meson Exotic Plasma S
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 45.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.01
+    weaponrangemultiplier: 1.8
   47928:
     chargesize: 2
     entityflyrangemultiplier: 0.5
@@ -110,15 +100,13 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Baryon Exotic Plasma M
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 190.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.100000023841858
+    volume: 0.01
+    weaponrangemultiplier: 1.1
   47929:
     chargesize: 2
     entityflyrangemultiplier: 0.5
@@ -130,15 +118,13 @@ types:
     marketGroup: 2466
     mass: 1.0
     name: Meson Exotic Plasma M
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 150.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.01
+    weaponrangemultiplier: 1.8
   47932:
     chargesize: 3
     entityflyrangemultiplier: 0.5
@@ -150,15 +136,13 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Baryon Exotic Plasma L
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 490.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.100000023841858
+    volume: 0.01
+    weaponrangemultiplier: 1.1
   47933:
     chargesize: 3
     entityflyrangemultiplier: 0.5
@@ -170,15 +154,13 @@ types:
     marketGroup: 2467
     mass: 1.0
     name: Meson Exotic Plasma L
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 378.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.01
+    weaponrangemultiplier: 1.8
   52916:
     chargesize: 4
     entityflyrangemultiplier: 0.5
@@ -190,15 +172,13 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Baryon Exotic Plasma XL
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 2450.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.100000023841858
+    volume: 0.01
+    weaponrangemultiplier: 1.1
   53301:
     chargesize: 4
     entityflyrangemultiplier: 0.5
@@ -210,15 +190,13 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Tetryon Exotic Plasma XL
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 3010.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 0.699999988079071
+    volume: 0.01
+    weaponrangemultiplier: 0.7
   53302:
     chargesize: 4
     entityflyrangemultiplier: 0.5
@@ -230,12 +208,10 @@ types:
     marketGroup: 2692
     mass: 1.0
     name: Meson Exotic Plasma XL
-    packagedVolume: 0.009999999776482582
     portionSize: 5000
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 1890.0
     trackingspeedmultiplier: 1.0
-    volume: 0.009999999776482582
-    weaponrangemultiplier: 1.7999999523162842
+    volume: 0.01
+    weaponrangemultiplier: 1.8

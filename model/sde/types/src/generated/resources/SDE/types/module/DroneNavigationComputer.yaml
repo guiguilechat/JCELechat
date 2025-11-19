@@ -6,7 +6,6 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Drone Navigation Computer I
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -25,7 +24,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Drone Navigation Computer II
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     published: true
@@ -44,7 +42,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Unit D-34343's Modified Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -64,7 +61,6 @@ types:
     metagroupid: 5
     metalevelold: 12
     name: Unit F-435454's Modified Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -84,7 +80,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Unit P-343554's Modified Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -104,7 +99,6 @@ types:
     metagroupid: 5
     metalevelold: 14
     name: Unit W-634's Modified Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -124,7 +118,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0
@@ -144,7 +137,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Sentient Drone Navigation Computer
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     price: 139232.0

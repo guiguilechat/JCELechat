@@ -8,7 +8,6 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Ambit Extension I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -27,7 +26,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Large Projectile Locus Coordinator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -45,7 +43,6 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Metastasis Adjuster I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -64,25 +61,23 @@ types:
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Burst Aerator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 20.0
   26048:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 26048
     marketGroup: 1239
     mass: 200.0
     name: Large Projectile Collision Accelerator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -93,7 +88,7 @@ types:
     upgradecost: 200
     volume: 20.0
   26424:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 26424
@@ -101,7 +96,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Projectile Collision Accelerator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -121,7 +115,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Projectile Ambit Extension II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -140,12 +133,11 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Projectile Burst Aerator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
@@ -160,7 +152,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Large Projectile Locus Coordinator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -179,7 +170,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Projectile Metastasis Adjuster II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -199,7 +189,6 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Ambit Extension I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -218,7 +207,6 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Ambit Extension I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -237,7 +225,6 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Ambit Extension I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -257,7 +244,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Projectile Ambit Extension II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -277,7 +263,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Projectile Ambit Extension II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -297,7 +282,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Projectile Ambit Extension II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -315,12 +299,11 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Burst Aerator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -333,12 +316,11 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Burst Aerator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -351,12 +333,11 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Burst Aerator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -370,12 +351,11 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Projectile Burst Aerator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
@@ -389,12 +369,11 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Projectile Burst Aerator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
@@ -408,25 +387,23 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Projectile Burst Aerator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 40.0
   31680:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31680
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Collision Accelerator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -437,14 +414,13 @@ types:
     upgradecost: 200
     volume: 5.0
   31682:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31682
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Collision Accelerator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -455,14 +431,13 @@ types:
     upgradecost: 200
     volume: 10.0
   31684:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31684
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Collision Accelerator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -473,7 +448,7 @@ types:
     upgradecost: 200
     volume: 40.0
   31686:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31686
@@ -481,7 +456,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Projectile Collision Accelerator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -492,7 +466,7 @@ types:
     upgradecost: 300
     volume: 5.0
   31688:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31688
@@ -500,7 +474,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Projectile Collision Accelerator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -511,7 +484,7 @@ types:
     upgradecost: 300
     volume: 10.0
   31690:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31690
@@ -519,7 +492,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Projectile Collision Accelerator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -538,7 +510,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Small Projectile Locus Coordinator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -557,7 +528,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Medium Projectile Locus Coordinator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -576,7 +546,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Capital Projectile Locus Coordinator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -596,7 +565,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Small Projectile Locus Coordinator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -616,7 +584,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Medium Projectile Locus Coordinator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -636,7 +603,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Capital Projectile Locus Coordinator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -654,7 +620,6 @@ types:
     marketGroup: 1237
     mass: 200.0
     name: Small Projectile Metastasis Adjuster I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -673,7 +638,6 @@ types:
     marketGroup: 1238
     mass: 200.0
     name: Medium Projectile Metastasis Adjuster I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -692,7 +656,6 @@ types:
     marketGroup: 1731
     mass: 200.0
     name: Capital Projectile Metastasis Adjuster I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -712,7 +675,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Projectile Metastasis Adjuster II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -732,7 +694,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Projectile Metastasis Adjuster II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -752,7 +713,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Projectile Metastasis Adjuster II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

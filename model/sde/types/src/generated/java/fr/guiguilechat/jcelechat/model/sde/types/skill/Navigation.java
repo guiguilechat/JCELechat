@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalMJDCapReductionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveCapacitorNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -161,7 +159,7 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpcapacitorneedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, JumpDriveRangeBonus.INSTANCE, Capacity.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, CapitalMJDCapReductionBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, JumpDriveRangeBonus.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, CapitalMJDCapReductionBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
 
     @Override

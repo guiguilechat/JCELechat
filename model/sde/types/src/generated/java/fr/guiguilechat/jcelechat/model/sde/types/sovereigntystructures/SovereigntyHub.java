@@ -13,9 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetAnchorDistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
@@ -43,7 +41,7 @@ public class SovereigntyHub
     @Stackable(true)
     @DefaultIntValue(0)
     public int tierdifficulty;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, PlanetAnchorDistance.INSTANCE, ScanLadarStrength.INSTANCE, Radius.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, TierDifficulty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanRadarStrength.INSTANCE, PlanetAnchorDistance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, SignatureRadius.INSTANCE, TierDifficulty.INSTANCE })));
     public static final SovereigntyHub.MetaGroup METAGROUP = new SovereigntyHub.MetaGroup();
 
     @Override

@@ -5,7 +5,6 @@ types:
     armorhp: 93000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -27,7 +26,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Stargate under construction and repair
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 5991.0
@@ -40,14 +38,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17179:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -69,7 +66,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 713.0
@@ -82,14 +78,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17273:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -111,7 +106,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Biodome Gardens
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4974.0
@@ -124,14 +118,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17275:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -153,7 +146,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Oofus's Repair Shop
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 372.0
@@ -166,14 +158,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17388:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -195,7 +186,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 834.0
@@ -208,14 +198,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17390:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 9300.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -237,7 +226,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gardan's Fantasy Complex
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4737.0
@@ -250,14 +238,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17422:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -280,7 +267,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angels Retirement Home
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -293,14 +279,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17563:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 530.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -322,7 +307,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_CargoRig_LCS_DL1_DCP1
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1255.0
@@ -335,14 +319,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17613:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -364,7 +347,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Inner Sanctum
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 971.0
@@ -377,14 +359,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17614:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -406,7 +387,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Thorak's Biodome Garden
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4974.0
@@ -419,14 +399,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17631:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -448,7 +427,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deadspace Synchronization HQ
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4737.0
@@ -461,14 +439,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17632:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 200.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -490,7 +467,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: CreoCorp Main Factory
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4007.0
@@ -503,14 +479,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17633:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -532,7 +507,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: UNUSED_HabMod_Residential_LCS
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -545,7 +519,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17645:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -572,7 +546,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deadspace Control Station
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 9213.0
@@ -592,7 +565,6 @@ types:
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -613,7 +585,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Docked & Loaded Mammoth
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 660.0
@@ -626,14 +597,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17748:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -655,7 +625,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Megathron under frantic repair
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 539.0
@@ -668,14 +637,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17799:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -697,7 +665,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Non-Secured Asteroid Colony
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4737.0
@@ -710,14 +677,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17818:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -739,7 +705,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Supply Stronghold
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 8380.0
@@ -752,14 +717,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17820:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -781,7 +745,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Supply Traffic Management
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -794,14 +757,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17821:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -822,7 +784,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Slaver Rig Control Tower
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3394.0
@@ -835,14 +796,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17822:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -864,7 +824,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Staff Quarters
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -877,14 +836,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17891:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -906,7 +864,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gate Security
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2313.0
@@ -919,7 +876,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   17979:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -947,7 +904,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Scramble Wave Generator
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 1263.0
@@ -967,7 +923,6 @@ types:
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -988,7 +943,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Assembly Management HQ
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3394.0
@@ -1001,14 +955,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   18632:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1030,7 +983,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Radiating Telescope
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -1043,14 +995,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   18633:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1072,7 +1023,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Sansha Outpost Administration Building
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1239.0
@@ -1085,14 +1035,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   18634:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1114,7 +1063,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Narcotics Storage
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 738.0
@@ -1127,14 +1075,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   18645:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1155,7 +1102,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Captive Fighting Arena
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2495.0
@@ -1168,14 +1114,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19426:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 200.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1197,7 +1142,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Strain Operation Bunker
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 717.0
@@ -1210,14 +1154,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19427:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1239,7 +1182,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Hive Under Construction
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 50752.0
@@ -1252,14 +1194,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19487:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1280,7 +1221,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Battlestation
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 6185.0
@@ -1293,14 +1233,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19501:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1321,7 +1260,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Prison
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -1334,14 +1272,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19502:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1362,7 +1299,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Brothel
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -1375,14 +1311,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19504:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 9000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1403,7 +1338,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Pirate Headquarters
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4737.0
@@ -1416,14 +1350,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19557:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 300.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1444,7 +1377,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Low-Tech Deadspace Energy Harvester
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 120.0
@@ -1457,14 +1389,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19558:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1485,7 +1416,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Radiating Telescope
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -1498,14 +1428,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19559:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1526,7 +1455,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -1539,14 +1467,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19560:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1568,7 +1495,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deserted Starbase Storage Facility
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -1588,7 +1514,6 @@ types:
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1609,7 +1534,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -1622,14 +1546,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19562:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1650,7 +1573,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -1663,14 +1585,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19565:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1691,7 +1612,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Guristas Bunker_MISSION
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 949.0
@@ -1704,14 +1624,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19588:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1732,7 +1651,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gas/Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -1745,14 +1663,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19590:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1774,7 +1691,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Dewak's First Officer's HQ
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -1787,14 +1703,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19622:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1815,7 +1730,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Starbase Storage Facility
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -1835,7 +1749,6 @@ types:
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -1857,7 +1770,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Industrial Derelict
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 553.0
@@ -1870,14 +1782,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19708:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1898,7 +1809,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Metal Scraps In Storage
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -1918,7 +1828,6 @@ types:
     armorhp: 900.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1939,7 +1848,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -1952,14 +1860,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19715:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -1980,7 +1887,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -1993,14 +1899,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19716:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2021,7 +1926,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -2034,14 +1938,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19738:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2062,7 +1965,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Subspace Data Miner
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -2075,14 +1977,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19742:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 15000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2103,7 +2004,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Infested station ruins
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 5858.0
@@ -2116,14 +2016,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19795:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 15000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2144,7 +2043,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Radio Telescope
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -2157,14 +2055,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   19957:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -2186,7 +2083,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Centus Reprocessing Station
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 1218.0
@@ -2206,7 +2102,6 @@ types:
     armorhp: 100000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2227,7 +2122,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Guristas War Installation
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 11451.0
@@ -2240,14 +2134,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20162:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2268,7 +2161,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Asteroid Colony
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4007.0
@@ -2281,14 +2173,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20166:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2309,7 +2200,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -2322,14 +2212,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20196:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1200.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2350,7 +2239,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Blood Raider Chapel
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 971.0
@@ -2363,14 +2251,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20282:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2391,7 +2278,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2404,14 +2290,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20283:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2432,7 +2317,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2445,14 +2329,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20284:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2473,7 +2356,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2486,14 +2368,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20285:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2514,7 +2395,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2527,14 +2407,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20325:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2555,7 +2434,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Bunker
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 738.0
@@ -2568,14 +2446,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20326:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2596,7 +2473,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Guristas Starbase Control Tower
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 3275.0
@@ -2616,7 +2492,6 @@ types:
     armorhp: 800.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2637,7 +2512,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Radio Telescope
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -2650,14 +2524,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20523:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 6000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2678,7 +2551,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Habitation Module - Tsuna's Science Labs
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -2691,7 +2563,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   20542:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -2717,7 +2589,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Lephny's Mining Post
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 9213.0
@@ -2737,7 +2608,6 @@ types:
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2758,7 +2628,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: COSMOS Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2771,14 +2640,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21519:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2799,7 +2667,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Dry River Warehouse
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -2812,14 +2679,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21600:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2840,7 +2706,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Officers Quarters
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -2853,14 +2718,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21617:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2881,7 +2745,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Barricaded Warehouse
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -2894,14 +2757,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21622:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2922,7 +2784,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Kazka Brothel
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -2935,14 +2796,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21627:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -2963,7 +2823,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gas/Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -2976,14 +2835,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21635:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3003,7 +2861,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Rent-A-Dream Pleasure Gardens
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4974.0
@@ -3016,7 +2873,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21861:
     agentid: 3018460
     armoremdamageresonance: 1.0
@@ -3024,7 +2881,6 @@ types:
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3045,7 +2901,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: General Lafema
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 660.0
@@ -3058,14 +2913,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   21884:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3086,7 +2940,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Old Nefantar Bunker
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 713.0
@@ -3099,14 +2952,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22031:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3127,7 +2979,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: ComLink Scanner
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 70.0
@@ -3140,14 +2991,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22039:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3168,7 +3018,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Hiding Hole
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -3181,14 +3030,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22047:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3209,7 +3057,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Special Forces Command Post
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 471.0
@@ -3222,14 +3069,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22059:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3250,7 +3096,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Small Rebel Base
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 713.0
@@ -3263,14 +3108,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22098:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3291,7 +3135,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Bastion Museum
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -3304,14 +3147,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22145:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3332,7 +3174,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Refitted Bestower
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 660.0
@@ -3345,14 +3186,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22156:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3373,7 +3213,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Sispur Estate Control Tower
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 3346.0
@@ -3393,7 +3232,6 @@ types:
     armorhp: 93000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3414,7 +3252,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Damaged Portal
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 890.0
@@ -3427,14 +3264,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22161:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3455,7 +3291,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gisti Repair Station
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1045.0
@@ -3468,7 +3303,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22182:
     agentid: 3018459
     armoremdamageresonance: 1.0
@@ -3476,7 +3311,6 @@ types:
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3497,7 +3331,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Barou Lardoss's Iteron
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 553.0
@@ -3510,14 +3343,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22184:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 600.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 500.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3538,7 +3370,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Gallente Miner
-    packagedVolume: 22500.0
     portionSize: 1
     published: false
     radius: 31.0
@@ -3558,7 +3389,6 @@ types:
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3577,7 +3407,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Angel Information Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4974.0
@@ -3590,14 +3419,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22241:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3618,7 +3446,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Deserted Nefantar Bunker
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 713.0
@@ -3631,14 +3458,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22289:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3659,7 +3485,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Scanner Tower
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -3672,14 +3497,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22320:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3700,7 +3524,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Brothel
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -3713,7 +3536,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22704:
     agentid: 3018529
     armoremdamageresonance: 1.0
@@ -3721,7 +3544,6 @@ types:
     armorhp: 50000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 7250.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3738,11 +3560,10 @@ types:
     id: 22704
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
-    mass: 1.124999936E9
+    mass: 1125000000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: General Minas Iksan
-    packagedVolume: 1.85E7
     portionSize: 1
     published: false
     radius: 1700.0
@@ -3755,14 +3576,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.85E7
+    volume: 18500000.0
   22709:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3783,7 +3603,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 3346.0
@@ -3803,7 +3622,6 @@ types:
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3824,7 +3642,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Minmatar Command Post
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 471.0
@@ -3837,14 +3654,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22725:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3865,7 +3681,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Oggiin Kalda's Residence
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -3878,14 +3693,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22739:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3906,7 +3720,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Caldari Broadcasting Unit
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 70.0
@@ -3919,14 +3732,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22750:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3947,7 +3759,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Kameira Quarters
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4737.0
@@ -3960,14 +3771,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22757:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -3988,7 +3798,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Scanner Post
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 70.0
@@ -4001,14 +3810,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   22794:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4029,7 +3837,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Habitation Module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 416.0
@@ -4042,14 +3849,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23240:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4071,7 +3877,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Drug Storage Facility
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -4091,7 +3896,6 @@ types:
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4112,7 +3916,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pend Insurance Storage Bin
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -4132,7 +3935,6 @@ types:
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4153,7 +3955,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Elere Febre's Habitation module
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 379.0
@@ -4166,14 +3967,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23520:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 20000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4194,7 +3994,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Stronghold
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 8380.0
@@ -4207,7 +4006,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23522:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -4233,7 +4032,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Deadspace Mining Post
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 9213.0
@@ -4253,7 +4051,6 @@ types:
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4274,7 +4071,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Serpentis Narcotics Storage
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 738.0
@@ -4287,14 +4083,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23593:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4315,7 +4110,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Wiyrkomi Surveillance Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 300.0
@@ -4328,14 +4122,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23600:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4356,7 +4149,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Runner's Relay Station
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 738.0
@@ -4369,14 +4161,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23617:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4397,7 +4188,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: FON Operation Station
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -4410,7 +4200,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23642:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -4454,7 +4244,6 @@ types:
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4475,7 +4264,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cracked Hive Mind Cage
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 717.0
@@ -4488,14 +4276,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23689:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 200.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4516,7 +4303,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Dysfunctional Raid Drone
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 222.0
@@ -4529,14 +4315,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23691:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4557,7 +4342,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shattered Hive Mind Cage
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 717.0
@@ -4570,14 +4354,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23695:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4598,7 +4381,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Repackaging Factory
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 8380.0
@@ -4611,14 +4393,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23696:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4639,7 +4420,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Command Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -4652,14 +4432,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23908:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 40000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4680,7 +4459,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Core Serpentis Sentry
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -4693,14 +4471,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23960:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4721,7 +4498,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sentry Station Alpha/Beta
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -4734,14 +4510,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   23964:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4762,7 +4537,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Kernel
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 711.0
@@ -4775,14 +4549,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24243:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4803,7 +4576,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Altar of the Blessed
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2787.0
@@ -4816,14 +4588,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24256:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4844,7 +4615,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Generator Building
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 3394.0
@@ -4857,14 +4627,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24257:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 12500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4885,7 +4654,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Temple of the Revelation
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 971.0
@@ -4898,14 +4666,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24262:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4926,7 +4693,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Asteroid Station
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2617.0
@@ -4939,14 +4705,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24351:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -4967,7 +4732,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Force Repeller Relic
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 15000.0
@@ -4981,14 +4745,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24356:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5009,7 +4772,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Yan Jung Gargoyle
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 70.0
@@ -5022,14 +4784,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24579:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamageresonance: 1.0
@@ -5051,7 +4812,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Core Serpentis Operational Headquarters
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 8380.0
@@ -5064,14 +4824,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24670:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5092,7 +4851,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Major Assembly Array
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1672.0
@@ -5105,14 +4863,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24671:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5133,7 +4890,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Starbase Major Assembly Array
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1672.0
@@ -5146,14 +4902,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24751:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5174,7 +4929,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Storage Silo
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -5187,14 +4941,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24761:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5215,7 +4968,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blasted Neon Sign_mission
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1348.0
@@ -5228,14 +4980,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   24771:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5256,7 +5007,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Overseer's Stash
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 753.0
@@ -5269,7 +5019,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   25360:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -5313,7 +5063,6 @@ types:
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5334,7 +5083,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Akkeshu's Storage Facility
-    packagedVolume: 1150.0
     portionSize: 1
     published: false
     radius: 911.0
@@ -5373,7 +5121,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Shielded Prison Facility
-    packagedVolume: 1.0
     portionSize: 1
     published: false
     radius: 1263.0
@@ -5393,7 +5140,6 @@ types:
     armorhp: 930.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5414,7 +5160,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas_Small Armory
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1045.0
@@ -5427,14 +5172,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   25402:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5455,7 +5199,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Expeditionary Storage Facility
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1226.0
@@ -5468,14 +5211,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   25717:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5496,7 +5238,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas War Installation
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 11451.0
@@ -5509,7 +5250,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   25734:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -5553,7 +5294,6 @@ types:
     armorhp: 10000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5573,7 +5313,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Okelle's Pleasure Hub
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4974.0
@@ -5586,14 +5325,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26247:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5614,7 +5352,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Raider Control Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 703.0
@@ -5627,14 +5364,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26248:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5655,7 +5391,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Control Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 949.0
@@ -5668,14 +5403,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26249:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5696,7 +5430,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Control Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 753.0
@@ -5709,14 +5442,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26250:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5737,7 +5469,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Control Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 738.0
@@ -5750,14 +5481,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26251:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5778,7 +5508,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Angel Control Center
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 834.0
@@ -5791,14 +5520,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26606:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5819,7 +5547,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Deadspace Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 1239.0
@@ -5832,14 +5559,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26731:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5860,7 +5586,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Cartel Research Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -5873,14 +5598,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26733:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5901,7 +5625,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Blood Research Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -5914,14 +5637,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26735:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5942,7 +5664,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Guristas Research Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -5955,14 +5676,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26736:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -5983,7 +5703,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Sansha Research Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -5996,14 +5715,13 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   26738:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6024,7 +5742,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Serpentis Research Outpost
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 918.0
@@ -6037,7 +5754,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   27279:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6045,7 +5762,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 8850.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6066,7 +5782,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Flimsy Pirate Base
-    packagedVolume: 150.0
     portionSize: 1
     published: false
     radius: 782.0
@@ -6086,7 +5801,6 @@ types:
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6107,7 +5821,6 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     name: Unstable Particle Acceleration Superstructure
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 4553.0
@@ -6120,7 +5833,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   33910:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6128,7 +5841,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 20000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6149,7 +5861,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Thukker Component Assembly Facility
-    packagedVolume: 4000.0
     portionSize: 1
     published: false
     radius: 937.0
@@ -6170,7 +5881,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6190,7 +5900,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Transmission Relay
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 7684.0
@@ -6203,7 +5912,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   54998:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6211,7 +5920,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 20000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6233,7 +5941,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Backup Storage Vault
-    packagedVolume: 4000.0
     portionSize: 1
     published: false
     radius: 937.0
@@ -6254,7 +5961,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 20000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6276,7 +5982,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Infested Fluid Router Relay
-    packagedVolume: 4000.0
     portionSize: 1
     published: false
     radius: 937.0
@@ -6297,7 +6002,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6317,7 +6021,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Dark Blood Transmission Relay
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -6330,7 +6033,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   56747:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6338,7 +6041,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6358,7 +6060,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Decloaked Tetrimon Transmission Relay
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -6371,112 +6072,109 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   57042:
-    armoremdamageresonance: 0.0010000000474974513
-    armorexplosivedamageresonance: 0.0010000000474974513
+    armoremdamageresonance: 0.001
+    armorexplosivedamageresonance: 0.001
     armorhp: 100000.0
-    armorkineticdamageresonance: 0.0010000000474974513
-    armorthermaldamageresonance: 0.0010000000474974513
-    emdamageresonance: 0.0010000000474974513
+    armorkineticdamageresonance: 0.001
+    armorthermaldamageresonance: 0.001
+    emdamageresonance: 0.001
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
-    explosivedamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.001
     falloff: 1.0
     hp: 100000.0
     id: 57042
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     lootrespawntime: 600000.0
-    mass: 1.5E8
+    mass: 150000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Faded Volatile Ice Processor
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
     shieldcapacity: 100000.0
-    shieldemdamageresonance: 0.0010000000474974513
-    shieldexplosivedamageresonance: 0.0010000000474974513
-    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldemdamageresonance: 0.001
+    shieldexplosivedamageresonance: 0.001
+    shieldkineticdamageresonance: 0.001
     shieldrechargerate: 1000.0
-    shieldthermaldamageresonance: 0.0010000000474974513
+    shieldthermaldamageresonance: 0.001
     signatureradius: 1000.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
-    volume: 1.025E7
+    thermaldamageresonance: 0.001
+    volume: 10250000.0
   57047:
-    armoremdamageresonance: 0.0010000000474974513
-    armorexplosivedamageresonance: 0.0010000000474974513
+    armoremdamageresonance: 0.001
+    armorexplosivedamageresonance: 0.001
     armorhp: 100000.0
-    armorkineticdamageresonance: 0.0010000000474974513
-    armorthermaldamageresonance: 0.0010000000474974513
-    emdamageresonance: 0.0010000000474974513
+    armorkineticdamageresonance: 0.001
+    armorthermaldamageresonance: 0.001
+    emdamageresonance: 0.001
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
-    explosivedamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.001
     falloff: 1.0
     hp: 100000.0
     id: 57047
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     lootrespawntime: 600000.0
-    mass: 1.5E8
+    mass: 150000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Friable Volatile Ice Processor
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
     shieldcapacity: 100000.0
-    shieldemdamageresonance: 0.0010000000474974513
-    shieldexplosivedamageresonance: 0.0010000000474974513
-    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldemdamageresonance: 0.001
+    shieldexplosivedamageresonance: 0.001
+    shieldkineticdamageresonance: 0.001
     shieldrechargerate: 1000.0
-    shieldthermaldamageresonance: 0.0010000000474974513
+    shieldthermaldamageresonance: 0.001
     signatureradius: 1000.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
-    volume: 1.025E7
+    thermaldamageresonance: 0.001
+    volume: 10250000.0
   57048:
-    armoremdamageresonance: 0.0010000000474974513
-    armorexplosivedamageresonance: 0.0010000000474974513
+    armoremdamageresonance: 0.001
+    armorexplosivedamageresonance: 0.001
     armorhp: 100000.0
-    armorkineticdamageresonance: 0.0010000000474974513
-    armorthermaldamageresonance: 0.0010000000474974513
-    emdamageresonance: 0.0010000000474974513
+    armorkineticdamageresonance: 0.001
+    armorthermaldamageresonance: 0.001
+    emdamageresonance: 0.001
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
-    explosivedamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 0.001
     falloff: 1.0
     hp: 100000.0
     id: 57048
-    kineticdamageresonance: 0.0010000000474974513
+    kineticdamageresonance: 0.001
     lootrespawntime: 600000.0
-    mass: 1.5E8
+    mass: 150000000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: ORE Fresh Volatile Ice Processor
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
     shieldcapacity: 100000.0
-    shieldemdamageresonance: 0.0010000000474974513
-    shieldexplosivedamageresonance: 0.0010000000474974513
-    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldemdamageresonance: 0.001
+    shieldexplosivedamageresonance: 0.001
+    shieldkineticdamageresonance: 0.001
     shieldrechargerate: 1000.0
-    shieldthermaldamageresonance: 0.0010000000474974513
+    shieldthermaldamageresonance: 0.001
     signatureradius: 1000.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.0010000000474974513
-    volume: 1.025E7
+    thermaldamageresonance: 0.001
+    volume: 10250000.0
   58753:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6484,7 +6182,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6504,7 +6201,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable EoM Rogue Capital Shipyard
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -6517,7 +6213,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   58803:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6525,7 +6221,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6545,7 +6240,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable EoM Rogue Capital Shipyard
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -6558,7 +6252,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   58804:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6566,7 +6260,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6586,7 +6279,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable EoM Rogue Capital Shipyard
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 2636.0
@@ -6599,7 +6291,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76195:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6607,7 +6299,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6627,20 +6318,19 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Amarr Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
     shieldcapacity: 50000.0
-    shieldemdamageresonance: 9.999999747378752E-5
-    shieldexplosivedamageresonance: 9.999999747378752E-5
-    shieldkineticdamageresonance: 9.999999747378752E-5
+    shieldemdamageresonance: 1.0E-4
+    shieldexplosivedamageresonance: 1.0E-4
+    shieldkineticdamageresonance: 1.0E-4
     shieldrechargerate: 100000.0
-    shieldthermaldamageresonance: 9.999999747378752E-5
+    shieldthermaldamageresonance: 1.0E-4
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76196:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6648,7 +6338,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6668,7 +6357,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable Amarr Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
@@ -6681,7 +6369,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76197:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6689,7 +6377,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6709,20 +6396,19 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Caldari Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
     shieldcapacity: 50000.0
-    shieldemdamageresonance: 9.999999747378752E-5
-    shieldexplosivedamageresonance: 9.999999747378752E-5
-    shieldkineticdamageresonance: 9.999999747378752E-5
+    shieldemdamageresonance: 1.0E-4
+    shieldexplosivedamageresonance: 1.0E-4
+    shieldkineticdamageresonance: 1.0E-4
     shieldrechargerate: 100000.0
-    shieldthermaldamageresonance: 9.999999747378752E-5
+    shieldthermaldamageresonance: 1.0E-4
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76198:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6730,7 +6416,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6750,7 +6435,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable Caldari Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
@@ -6763,7 +6447,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76199:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6771,7 +6455,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6791,20 +6474,19 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Gallente Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
     shieldcapacity: 50000.0
-    shieldemdamageresonance: 9.999999747378752E-5
-    shieldexplosivedamageresonance: 9.999999747378752E-5
-    shieldkineticdamageresonance: 9.999999747378752E-5
+    shieldemdamageresonance: 1.0E-4
+    shieldexplosivedamageresonance: 1.0E-4
+    shieldkineticdamageresonance: 1.0E-4
     shieldrechargerate: 100000.0
-    shieldthermaldamageresonance: 9.999999747378752E-5
+    shieldthermaldamageresonance: 1.0E-4
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76200:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6812,7 +6494,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6832,7 +6513,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable Gallente Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
@@ -6845,7 +6525,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76201:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6853,7 +6533,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6873,20 +6552,19 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Reinforced Minmatar Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
     shieldcapacity: 50000.0
-    shieldemdamageresonance: 9.999999747378752E-5
-    shieldexplosivedamageresonance: 9.999999747378752E-5
-    shieldkineticdamageresonance: 9.999999747378752E-5
+    shieldemdamageresonance: 1.0E-4
+    shieldexplosivedamageresonance: 1.0E-4
+    shieldkineticdamageresonance: 1.0E-4
     shieldrechargerate: 100000.0
-    shieldthermaldamageresonance: 9.999999747378752E-5
+    shieldthermaldamageresonance: 1.0E-4
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   76202:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6894,7 +6572,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
@@ -6914,7 +6591,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Vulnerable Minmatar Research Lab
-    packagedVolume: 1.0E8
     portionSize: 1
     published: false
     radius: 24000.0
@@ -6927,7 +6603,7 @@ types:
     signatureradius: 20000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 1.0E8
+    volume: 100000000.0
   81151:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6935,7 +6611,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -6958,7 +6633,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Angel Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -6978,7 +6652,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7001,7 +6674,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Guristas Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -7021,7 +6693,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7044,7 +6715,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Sansha Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -7064,7 +6734,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7087,7 +6756,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Serpentis Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -7107,7 +6775,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7130,7 +6797,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Rogue Drone Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -7150,7 +6816,6 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
-    capacity: 10000.0
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -7173,7 +6838,6 @@ types:
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     name: Pirate Blood Tower
-    packagedVolume: 100000.0
     portionSize: 1
     published: false
     radius: 4000.0
@@ -7186,3 +6850,115 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000.0
+  89515:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 89515
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Decloaked Tetrimon Transmission Relay
+    portionSize: 1
+    published: false
+    radius: 2636.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 20000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+  89516:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 89516
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Decloaked Dark Blood Transmission Relay
+    portionSize: 1
+    published: false
+    radius: 2636.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 20000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+  90139:
+    armoremdamageresonance: 0.001
+    armorexplosivedamageresonance: 0.001
+    armorhp: 100000.0
+    armorkineticdamageresonance: 0.001
+    armorthermaldamageresonance: 0.001
+    emdamageresonance: 0.001
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    explosivedamageresonance: 0.001
+    falloff: 1.0
+    hp: 100000.0
+    id: 90139
+    kineticdamageresonance: 0.001
+    lootrespawntime: 600000.0
+    mass: 150000000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Elias' Orca
+    portionSize: 1
+    published: false
+    radius: 550.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 0.001
+    shieldexplosivedamageresonance: 0.001
+    shieldkineticdamageresonance: 0.001
+    shieldrechargerate: 1000.0
+    shieldthermaldamageresonance: 0.001
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 10250000.0

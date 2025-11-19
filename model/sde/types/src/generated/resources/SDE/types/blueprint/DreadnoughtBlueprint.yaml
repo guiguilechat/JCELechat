@@ -5,166 +5,137 @@ types:
     industryjobcostmultiplier: 1
     marketGroup: 783
     name: Revelation Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   19723:
     id: 19723
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     marketGroup: 786
     name: Naglfar Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.85E9
+    price: 1850000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   19725:
     id: 19725
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     marketGroup: 785
     name: Moros Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E9
+    price: 1900000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   19727:
     id: 19727
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     marketGroup: 784
     name: Phoenix Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.95E9
+    price: 1950000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   42136:
     id: 42136
     industryjobcostmultiplier: 1
     name: Vehement Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45044:
     id: 45044
     industryjobcostmultiplier: 1
     name: Chemosh Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45646:
     id: 45646
     industryjobcostmultiplier: 1
     name: Caiman Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   53029:
     id: 53029
     industryjobcostmultiplier: 1
     name: Zirnitra Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   73995:
     id: 73995
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Phoenix Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73996:
     id: 73996
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Moros Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73999:
     id: 73999
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Naglfar Fleet Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   74000:
     id: 74000
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Revelation Navy Issue Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77414:
     id: 77414
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Hubris Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77415:
     id: 77415
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Karura Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77416:
     id: 77416
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Valravn Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   77417:
     id: 77417
     industryblueprintrank: 200.0
     industryjobcostmultiplier: 1
     name: Bane Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   87383:
     id: 87383
     industryjobcostmultiplier: 1
     name: Sarathiel Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

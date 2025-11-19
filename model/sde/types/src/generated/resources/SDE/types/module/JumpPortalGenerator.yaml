@@ -13,19 +13,17 @@ types:
     enableopenjumpportal: 1
     hp: 99999.0
     id: 23953
-    jumpportalconsumptionmassfactor: 1.500000013088254E-9
+    jumpportalconsumptionmassfactor: 1.5E-9
     jumpportalduration: 60000
     jumpportalpassengerrequiredattributeid: 3319
     marketGroup: 1640
     mass: 1.0
     maxgroupactive: 1
     name: Jump Portal Generator I
-    packagedVolume: 10000.0
     portionSize: 1
     power: 100000
-    price: 4.81455744E8
+    price: 481455760.0
     published: true
-    radius: 1.0
     requiredskill1: 24562
     requiredskill1level: 1
     siegemodewarpstatus: 100

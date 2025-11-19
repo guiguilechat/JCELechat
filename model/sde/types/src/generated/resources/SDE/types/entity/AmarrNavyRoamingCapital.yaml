@@ -1,15 +1,15 @@
 types:
   35819:
-    agility: 0.045499999076128006
+    agility: 0.0455
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.21699999272823334
-    armorexplosivedamageresonance: 0.28200000524520874
+    armoremdamageresonance: 0.217
+    armorexplosivedamageresonance: 0.282
     armorhp: 172000.0
-    armorkineticdamageresonance: 0.32600000500679016
-    armorthermaldamageresonance: 0.3479999899864197
+    armorkineticdamageresonance: 0.326
+    armorthermaldamageresonance: 0.348
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 81000.0
@@ -22,12 +22,12 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 88.0
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 20000.0
     hp: 172000.0
     id: 35819
     iscapitalsize: 1
-    mass: 1.012499968E9
+    mass: 1012500000.0
     maxlockedtargets: 1
     maxvelocity: 88.0
     name: Amarr Navy Archon
@@ -36,7 +36,7 @@ types:
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 5000
     npcremotearmorrepairmaxtargets: 3
-    npcremotearmorrepairthreshold: 0.10000000149011612
+    npcremotearmorrepairthreshold: 0.1
     portionSize: 1
     published: false
     radius: 1650.0
@@ -45,8 +45,8 @@ types:
     scanresolution: 688.0
     shieldcapacity: 110000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.05E7
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
@@ -65,7 +65,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entityflyrange: 500.0
     id: 50100
-    mass: 1.012499968E9
+    mass: 1012500000.0
     name: Imperial Escort Aeon
     npcassistancerange: 5000
     npcremotearmorrepairchance: 1.0
@@ -74,6 +74,7 @@ types:
     npcremotearmorrepairthreshold: 0.25
     portionSize: 1
     published: false
+    radius: 1650.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

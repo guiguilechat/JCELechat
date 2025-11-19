@@ -1,0 +1,34 @@
+types:
+  90453:
+    agility: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorhp: 3000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
+    behaviorminingdischarge: 40
+    behaviorminingduration: 60000
+    behaviorminingmaxrange: 15000
+    capacitorcapacity: 350.0
+    gfxboosterid: 397
+    gfxturretid: 17482
+    hp: 4000.0
+    id: 90453
+    mass: 17500000.0
+    maxlockedtargets: 6
+    maxtargetrange: 40000.0
+    maxvelocity: 125.0
+    name: ORE Retriever
+    portionSize: 1
+    published: false
+    radius: 202.0
+    rechargerate: 187500.0
+    scanmagnetometricstrength: 9.0
+    scanresolution: 550.0
+    shieldcapacity: 4000.0
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
+    shieldrechargerate: 1500000.0
+    shieldthermaldamageresonance: 0.4
+    signatureradius: 200.0

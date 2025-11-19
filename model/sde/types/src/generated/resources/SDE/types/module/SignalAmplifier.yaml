@@ -9,11 +9,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Signal Amplifier'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     scangravimetricstrengthpercent: 36
@@ -31,11 +29,9 @@ types:
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 25.0
     name: Signal Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3432
     requiredskill1level: 1
     scangravimetricstrengthpercent: 40
@@ -54,11 +50,9 @@ types:
     maxtargetrangebonus: 30.0
     metalevelold: 5
     name: Signal Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3432
     requiredskill1level: 5
     scangravimetricstrengthpercent: 48
@@ -77,11 +71,9 @@ types:
     maxtargetrangebonus: 27.0
     metalevelold: 1
     name: F-89 Compact Signal Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3432
     requiredskill1level: 1
     scangravimetricstrengthpercent: 44
@@ -101,11 +93,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Firewall'' Signal Amplifier'
-    packagedVolume: 20.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     scangravimetricstrengthpercent: 48
@@ -125,11 +115,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Sentient Signal Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     scangravimetricstrengthpercent: 52
@@ -149,11 +137,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate Signal Amplifier
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3426
     requiredskill1level: 1
     scangravimetricstrengthpercent: 52

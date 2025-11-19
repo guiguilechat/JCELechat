@@ -1,18 +1,18 @@
 types:
   40671:
     activationblockedstrenght: 1
-    agility: 0.10000000149011612
+    agility: 0.1
     aiignoredronesbelowsignatureradius: 125
     aishoulduseeffectmultiplier: 1
     aishoulduseevasivemaneuver: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 1.0
-    armoremdamageresonance: 0.44999998807907104
+    armoremdamageresonance: 0.45
     armorexplosivedamageresonance: 0.25
     armorhp: 400000.0
-    armorkineticdamageresonance: 0.30000001192092896
-    armorthermaldamageresonance: 0.3499999940395355
+    armorkineticdamageresonance: 0.3
+    armorthermaldamageresonance: 0.35
     armoruniformity: 0.75
     capacitorcapacity: 4300.0
     damagemultiplier: 150.0
@@ -34,15 +34,15 @@ types:
     entitycruisespeed: 100.0
     entityequipmentmax: 9
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 35000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 240000000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 659
-    entityreactionfactor: 0.8999999761581421
+    entityreactionfactor: 0.9
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 1.600000023841858
+    entitysecuritystatuskillbonus: 1.6
     entityshieldboostamountpersecond: 2000.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 1.0
@@ -53,7 +53,7 @@ types:
     hp: 410000.0
     id: 40671
     iscapitalsize: 1
-    mass: 1.546875008E9
+    mass: 1546875000.0
     maxattacktargets: 6
     maxlockedtargets: 6
     maxrange: 300000.0
@@ -63,7 +63,6 @@ types:
     modifytargetspeedrange: 50000
     name: True Sansha's Supercarrier
     optimalsigradius: 2000
-    packagedVolume: 6.2E7
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -72,19 +71,19 @@ types:
     scanradarstrength: 200.0
     scanresolution: 60.0
     shieldcapacity: 410000.0
-    shieldemdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.45
     shieldexplosivedamageresonance: 0.25
-    shieldkineticdamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.3
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.3499999940395355
+    shieldthermaldamageresonance: 0.35
     shielduniformity: 0.75
     signatureradius: 18870.0
     speed: 6000.0
     speedfactor: -70.0
     structureuniformity: 1.0
     thermaldamage: 45.0
-    trackingspeed: 0.09000000357627869
-    volume: 6.2E7
+    trackingspeed: 0.09
+    volume: 62000000.0
     warpscrambleduration: 5000
     warpscramblerange: 100000
     warpscramblestrength: 2

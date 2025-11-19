@@ -1,0 +1,20 @@
+types:
+  1076:
+    id: 1076
+    industryblueprintrank: 6.0
+    marketGroup: 325
+    name: Mining Survey Chipset I Blueprint
+    portionSize: 1
+    price: 20000.0
+    published: true
+    techlevel: 1
+    volume: 0.01
+  2334:
+    id: 2334
+    industryblueprintrank: 15.6
+    name: Mining Survey Chipset II Blueprint
+    portionSize: 1
+    price: 9999999.0
+    published: true
+    techlevel: 2
+    volume: 0.01

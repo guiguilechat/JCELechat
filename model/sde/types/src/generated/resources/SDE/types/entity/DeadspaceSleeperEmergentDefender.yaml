@@ -5,15 +5,14 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 1400.0
-    armorkineticdamageresonance: 0.4000000059604645
-    armorthermaldamageresonance: 0.4000000059604645
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 0.75
     capacitorcapacity: 110.0
-    capacity: 120.0
-    damagemultiplier: 2.799999952316284
+    damagemultiplier: 2.8
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizerduration: 30000
@@ -24,7 +23,7 @@ types:
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.019999999552965164
+    entitychasemaxdelaychance: 0.02
     entitychasemaxdistance: 7150
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -36,7 +35,7 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30430
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3100000023841858
+    entityreactionfactor: 0.31
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 4044
@@ -47,13 +46,13 @@ types:
     maxlockedtargets: 2
     maxrange: 10000.0
     maxvelocity: 2160.0
-    missiledamagemultiplier: 1.399999976158142
-    missileentityaoecloudsizemultiplier: 0.9754999876022339
-    missileentityaoevelocitymultiplier: 1.0490000247955322
+    missiledamagemultiplier: 1.4
+    missileentityaoecloudsizemultiplier: 0.9755
+    missileentityaoevelocitymultiplier: 1.049
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 9000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 10000
     name: Emergent Defender
@@ -62,7 +61,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 40
-    packagedVolume: 19100.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -78,7 +76,7 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.3100000023841858
+    trackingspeed: 0.31
     volume: 19100.0
     warpscrambleduration: 8000
   30213:
@@ -94,13 +92,12 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     capacitorcapacity: 110.0
-    capacity: 120.0
-    damagemultiplier: 1.399999976158142
+    damagemultiplier: 1.4
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizeramount: 30.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 7000
     entityarmorrepairamount: 56.0
     entityarmorrepairduration: 6000
@@ -109,7 +106,7 @@ types:
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.019999999552965164
+    entitychasemaxdelaychance: 0.02
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -121,7 +118,7 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30430
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3100000023841858
+    entityreactionfactor: 0.31
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 4044
@@ -132,9 +129,9 @@ types:
     maxlockedtargets: 2
     maxrange: 10000.0
     maxvelocity: 2400.0
-    missiledamagemultiplier: 1.399999976158142
-    missileentityaoecloudsizemultiplier: 0.9754999876022339
-    missileentityaoevelocitymultiplier: 1.0490000247955322
+    missiledamagemultiplier: 1.4
+    missileentityaoecloudsizemultiplier: 0.9755
+    missileentityaoevelocitymultiplier: 1.049
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 9000.0
@@ -143,11 +140,10 @@ types:
     name: Emergent Upholder
     npcassistancerange: 40000
     npcremotearmorrepairamount: 190
-    npcremotearmorrepairchance: 0.8999999761581421
+    npcremotearmorrepairchance: 0.9
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.5
     optimalsigradius: 40
-    packagedVolume: 19100.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -163,7 +159,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.3100000023841858
+    trackingspeed: 0.31
     volume: 19100.0
     warpscrambleduration: 8000
   30214:
@@ -172,20 +168,19 @@ types:
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.6000000238418579
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
     armorhp: 840.0
-    armorkineticdamageresonance: 0.6000000238418579
-    armorthermaldamageresonance: 0.6000000238418579
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
     capacitorcapacity: 110.0
-    capacity: 120.0
     damagemultiplier: 3.5
     disallowassistance: 1
     emdamage: 10.0
     energyneutralizeramount: 30.0
     energyneutralizerduration: 10000
-    energyneutralizerentitychance: 0.8999999761581421
+    energyneutralizerentitychance: 0.9
     energyneutralizerrangeoptimal: 7000
     entityarmorrepairamount: 56.0
     entityarmorrepairduration: 6000
@@ -194,7 +189,7 @@ types:
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdelay: 5000.0
-    entitychasemaxdelaychance: 0.019999999552965164
+    entitychasemaxdelaychance: 0.02
     entitychasemaxdistance: 5500
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -206,8 +201,8 @@ types:
     entitylootcountmin: 1
     entitymissiletypeid: 30430
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.3100000023841858
-    entitywarpscramblechance: 0.8999999761581421
+    entityreactionfactor: 0.31
+    entitywarpscramblechance: 0.9
     falloff: 5000.0
     gfxboosterid: 397
     gfxturretid: 4044
@@ -218,13 +213,13 @@ types:
     maxlockedtargets: 2
     maxrange: 10000.0
     maxvelocity: 2600.0
-    missiledamagemultiplier: 2.0999999046325684
-    missileentityaoecloudsizemultiplier: 0.9754999876022339
-    missileentityaoevelocitymultiplier: 1.0490000247955322
+    missiledamagemultiplier: 2.1
+    missileentityaoecloudsizemultiplier: 0.9755
+    missileentityaoevelocitymultiplier: 1.049
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 9000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 5000.0
     modifytargetspeedrange: 10000
     name: Emergent Preserver
@@ -233,7 +228,6 @@ types:
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     optimalsigradius: 40
-    packagedVolume: 19100.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -249,7 +243,7 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 10.0
-    trackingspeed: 0.3100000023841858
+    trackingspeed: 0.31
     volume: 19100.0
     warpscrambleduration: 5000
     warpscramblerange: 24000

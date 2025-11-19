@@ -1,21 +1,20 @@
 types:
   54233:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54233
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Orange Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -27,30 +26,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   54240:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54240
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Red Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -62,30 +60,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   54241:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54241
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Teal Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -97,30 +94,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   54242:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54242
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious White Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -132,30 +128,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   54243:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54243
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Pink Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -167,30 +162,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   54244:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 54244
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Green Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -202,30 +196,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   63156:
     agility: 5.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 150.0
     id: 63156
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 150.0
     name: Mysterious Golden Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -237,30 +230,29 @@ types:
     shieldcapacity: 63.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 25.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 10.0
   63157:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63157
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 1500.0
     name: Hijacked Red Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -272,30 +264,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63158:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63158
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 1600.0
     name: Hijacked Pink Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -307,30 +298,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63159:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63159
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 1700.0
     name: Hijacked White Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -342,30 +332,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63160:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63160
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 1800.0
     name: Hijacked Teal Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -377,30 +366,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63161:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63161
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 1900.0
     name: Hijacked Orange Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -412,30 +400,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63162:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63162
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 2000.0
     name: Hijacked Green Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -447,30 +434,29 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0
   63163:
     agility: 10.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1560.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
-    emdamageresonance: 0.6700000166893005
-    explosivedamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.65
+    emdamageresonance: 0.67
+    explosivedamageresonance: 0.67
     gfxboosterid: 396
     hp: 1500.0
     id: 63163
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 32000.0
     maxvelocity: 2100.0
     name: Hijacked Golden Capsule
-    packagedVolume: 1000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -482,10 +468,10 @@ types:
     shieldcapacity: 630.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     signatureradius: 3.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     volume: 1000.0
     warpspeedmultiplier: 4.0

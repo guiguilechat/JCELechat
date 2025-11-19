@@ -6,19 +6,17 @@ types:
     asteroidradiusunitsize: 90
     id: 1228
     marketGroup: 519
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Scordite
     orebasictype: 1228
-    packagedVolume: 0.15000000596046448
     portionSize: 100
     price: 4994.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
+    volume: 0.15
   17463:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -26,19 +24,17 @@ types:
     asteroidradiusunitsize: 90
     id: 17463
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Condensed Scordite
+    mass: 1.0E+35
+    name: Scordite II-Grade
     orebasictype: 1228
-    packagedVolume: 0.15000000596046448
     portionSize: 100
     price: 5246.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
+    volume: 0.15
   17464:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -46,19 +42,17 @@ types:
     asteroidradiusunitsize: 90
     id: 17464
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Massive Scordite
+    mass: 1.0E+35
+    name: Scordite III-Grade
     orebasictype: 1228
-    packagedVolume: 0.15000000596046448
     portionSize: 100
     price: 5496.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
+    volume: 0.15
   28427:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -66,19 +60,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28427
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Condensed Scordite
+    mass: 1.0E+35
+    name: Batch Compressed Scordite II-Grade
     orebasictype: 1228
-    packagedVolume: 0.1899999976158142
     portionSize: 1
     price: 131150.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1899999976158142
+    volume: 0.19
   28428:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28428
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Massive Scordite
+    mass: 1.0E+35
+    name: Batch Compressed Scordite III-Grade
     orebasictype: 1228
-    packagedVolume: 0.1899999976158142
     portionSize: 1
     price: 137400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1899999976158142
+    volume: 0.19
   28429:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -106,39 +96,35 @@ types:
     asteroidradiusunitsize: 90
     id: 28429
     marketGroup: 519
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Batch Compressed Scordite
     orebasictype: 1228
-    packagedVolume: 0.1899999976158142
     portionSize: 1
     price: 124850.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1899999976158142
+    volume: 0.19
   46687:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
-    asteroidradiusgrowthfactor: 0.010999999940395355
+    asteroidradiusgrowthfactor: 0.011
     asteroidradiusunitsize: 600
     id: 46687
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Glossy Scordite
+    mass: 1.0E+35
+    name: Scordite IV-Grade
     orebasictype: 46687
-    packagedVolume: 0.15000000596046448
     portionSize: 100
     price: 23.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.15000000596046448
+    volume: 0.15
   46703:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -147,18 +133,16 @@ types:
     id: 46703
     marketGroup: 519
     mass: 1.0
-    name: Batch Compressed Glossy Scordite
+    name: Batch Compressed Scordite IV-Grade
     orebasictype: 46687
-    packagedVolume: 0.1899999976158142
     portionSize: 1
     price: 2500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1899999976158142
+    volume: 0.19
   62520:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -166,19 +150,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62520
     marketGroup: 519
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Scordite
     orebasictype: 1228
-    packagedVolume: 0.001500000013038516
     portionSize: 100
     price: 124850.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.001500000013038516
+    volume: 0.0015
   62521:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -186,19 +168,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62521
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Compressed Condensed Scordite
+    mass: 1.0E+35
+    name: Compressed Scordite II-Grade
     orebasictype: 1228
-    packagedVolume: 0.001500000013038516
     portionSize: 100
     price: 131150.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.001500000013038516
+    volume: 0.0015
   62522:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -206,19 +186,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62522
     marketGroup: 519
-    mass: 1.0000000409184788E35
-    name: Compressed Massive Scordite
+    mass: 1.0E+35
+    name: Compressed Scordite III-Grade
     orebasictype: 1228
-    packagedVolume: 0.001500000013038516
     portionSize: 100
     price: 137400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.001500000013038516
+    volume: 0.0015
   62523:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -227,15 +205,13 @@ types:
     id: 62523
     marketGroup: 519
     mass: 1.0
-    name: Compressed Glossy Scordite
+    name: Compressed Scordite IV-Grade
     orebasictype: 46687
-    packagedVolume: 0.001500000013038516
     portionSize: 100
     price: 2500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60377
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.001500000013038516
+    volume: 0.0015

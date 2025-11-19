@@ -4,653 +4,539 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 340
     name: Light Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   788:
     id: 788
     industryblueprintrank: 6.0
     marketGroup: 340
     name: Heavy Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   790:
     id: 790
     industryblueprintrank: 9.0
     marketGroup: 340
     name: Torpedo Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 999960.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1876:
     id: 1876
     industryblueprintrank: 6.0
     marketGroup: 340
     name: Rapid Light Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 90000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1878:
     id: 1878
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Rapid Light Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2405:
     id: 2405
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Light Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2411:
     id: 2411
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Heavy Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2421:
     id: 2421
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Torpedo Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   3564:
     id: 3564
     industryblueprintrank: 400.0
     metagroupid: 4
     name: CONCORD XL Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   3570:
     id: 3570
     industryblueprintrank: 400.0
     metagroupid: 4
     name: CONCORD XL Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   4257:
     id: 4257
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Bomb Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E7
+    price: 19000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   10630:
     id: 10630
     industryblueprintrank: 3.0
     marketGroup: 340
     name: Rocket Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   10632:
     id: 10632
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Rocket Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   13321:
     id: 13321
     industryblueprintrank: 9.0
     marketGroup: 340
     name: Cruise Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 749970.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16063:
     id: 16063
     industryblueprintrank: 9.0
     name: Caldari Navy Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   16066:
     id: 16066
     industryblueprintrank: 3.0
     name: Caldari Navy Rocket Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17486:
     id: 17486
     industryblueprintrank: 9.0
     name: Republic Fleet Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17489:
     id: 17489
     industryblueprintrank: 3.0
     name: Republic Fleet Rocket Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   19740:
     id: 19740
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Cruise Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20540:
     id: 20540
     industryblueprintrank: 120.0
     marketGroup: 340
     name: XL Torpedo Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20594:
     id: 20594
     industryblueprintrank: 3.0
     name: '''Balefire'' Rocket Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20596:
     id: 20596
     industryblueprintrank: 3.0
     name: '''Gallows'' Light Missile Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20598:
     id: 20598
     industryblueprintrank: 6.0
     name: '''Pickaxe'' Rapid Light Missile Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20600:
     id: 20600
     industryblueprintrank: 6.0
     name: '''Undertaker'' Heavy Missile Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20602:
     id: 20602
     industryblueprintrank: 9.0
     name: '''Noose'' Cruise Missile Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20604:
     id: 20604
     industryblueprintrank: 9.0
     name: '''Barrage'' Torpedo Launcher Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21543:
     id: 21543
     industryblueprintrank: 3.0
     name: N-1 Neon Type Rocket Bay Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22783:
     id: 22783
     industryblueprintrank: 12.0
     marketGroup: 1940
     name: Interdiction Sphere Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.732868E7
+    price: 17328680.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   25716:
     id: 25716
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Heavy Assault Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   26759:
     id: 26759
     industryblueprintrank: 6.0
     marketGroup: 340
     name: Heavy Assault Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27915:
     id: 27915
     industryblueprintrank: 12.0
     marketGroup: 1019
     name: Bomb Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E7
+    price: 19000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28376:
     id: 28376
     industryblueprintrank: 6.0
     name: Republic Fleet Heavy Assault Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28378:
     id: 28378
     industryblueprintrank: 6.0
     name: Caldari Navy Heavy Assault Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28512:
     id: 28512
     industryblueprintrank: 3.0
     name: Khanid Navy Rocket Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28566:
     id: 28566
     industryblueprintrank: 6.0
     name: Khanid Navy Heavy Assault Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 300000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   32445:
     id: 32445
     industryblueprintrank: 120.0
     marketGroup: 340
     name: XL Cruise Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33447:
     id: 33447
     industryblueprintrank: 9.0
     name: Caldari Navy Rapid Heavy Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33449:
     id: 33449
     industryblueprintrank: 9.0
     marketGroup: 340
     name: Rapid Heavy Missile Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 749970.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33451:
     id: 33451
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Rapid Heavy Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   33460:
     id: 33460
     industryblueprintrank: 9.0
     name: Republic Fleet Rapid Heavy Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   34291:
     id: 34291
     name: Polarized Rocket Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
     radius: 50.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   34293:
     id: 34293
     name: Polarized Heavy Assault Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 50.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   34295:
     id: 34295
     name: Polarized Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
     radius: 50.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41177:
     id: 41177
     industryblueprintrank: 200.0
     marketGroup: 340
     name: Arbalest Compact XL Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.087E8
+    price: 108700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41178:
     id: 41178
     industryblueprintrank: 200.0
     marketGroup: 340
     name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.087E8
+    price: 108700000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41179:
     id: 41179
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Dread Guristas XL Cruise Missile Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41183:
     id: 41183
     industryblueprintrank: 200.0
     marketGroup: 340
     name: Arbalest Compact XL Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0874E8
+    price: 108740000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41184:
     id: 41184
     industryblueprintrank: 200.0
     marketGroup: 340
     name: TE-2100 Ample XL Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0874E8
+    price: 108740000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41185:
     id: 41185
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Dread Guristas XL Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41187:
     id: 41187
     industryblueprintrank: 300.0
     name: XL Cruise Missile Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41190:
     id: 41190
     industryblueprintrank: 300.0
     name: XL Torpedo Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41225:
     id: 41225
     industryblueprintrank: 120.0
     marketGroup: 340
     name: Rapid Torpedo Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.837E7
+    price: 48370000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41226:
     id: 41226
     industryblueprintrank: 200.0
     marketGroup: 340
     name: Arbalest Compact Rapid Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9740000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41227:
     id: 41227
     industryblueprintrank: 200.0
     marketGroup: 340
     name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9740000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41228:
     id: 41228
     industryblueprintrank: 300.0
     name: Rapid Torpedo Launcher II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41229:
     id: 41229
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Dread Guristas Rapid Torpedo Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
+    price: 54371388.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   44103:
     id: 44103
     marketGroup: 340
     name: Defender Launcher I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   86178:
     id: 86178
     industryblueprintrank: 3.0
     marketGroup: 340
     name: Medium Breacher Pod Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   86179:
     id: 86179
     industryblueprintrank: 3.0
     marketGroup: 340
     name: Small Breacher Pod Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 60000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

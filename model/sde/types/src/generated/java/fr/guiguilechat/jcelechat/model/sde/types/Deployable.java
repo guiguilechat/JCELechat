@@ -14,12 +14,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -33,6 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynosuralBeaco
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileDepot;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileMicroJumpUnit;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileObservatory;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobilePhaseAnchor;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileScanInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileSiphonUnit;
 import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileTractorUnit;
@@ -49,26 +47,12 @@ public abstract class Deployable
     @DefaultRealValue(0.0)
     public double armorhp;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Ladar strength.
      */
@@ -83,14 +67,6 @@ public abstract class Deployable
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -113,7 +89,7 @@ public abstract class Deployable
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ScanLadarStrength.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TechLevel.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ScanLadarStrength.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final Deployable.MetaCat METACAT = new Deployable.MetaCat();
 
     @Override
@@ -123,17 +99,9 @@ public abstract class Deployable
             {
                 return armorhp;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  9 :
             {
                 return hp;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  209 :
             {
@@ -142,10 +110,6 @@ public abstract class Deployable
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  479 :
             {
@@ -192,7 +156,7 @@ public abstract class Deployable
 
         @Override
         public Collection<IMetaGroup<? extends Deployable>> groups() {
-            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, FWPropagandaBroadcastStructure.METAGROUP, FWListeningOutpost.METAGROUP, MercenaryDen.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
+            return Arrays.asList(MobileObservatory.METAGROUP, MobileAnalysisBeacon.METAGROUP, MobileWarpDisruptor.METAGROUP, FWPropagandaBroadcastStructure.METAGROUP, FWListeningOutpost.METAGROUP, MercenaryDen.METAGROUP, MobilePhaseAnchor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP, MobileCynosuralBeacon.METAGROUP);
         }
     }
 }

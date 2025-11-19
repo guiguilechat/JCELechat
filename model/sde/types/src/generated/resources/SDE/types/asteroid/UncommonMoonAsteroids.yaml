@@ -9,11 +9,9 @@ types:
     mass: 4000.0
     name: Otavite
     orebasictype: 45498
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -29,11 +27,9 @@ types:
     mass: 4000.0
     name: Sperrylite
     orebasictype: 45499
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -49,11 +45,9 @@ types:
     mass: 4000.0
     name: Vanadinite
     orebasictype: 45500
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -69,11 +63,9 @@ types:
     mass: 4000.0
     name: Chromite
     orebasictype: 45501
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -89,11 +81,9 @@ types:
     mass: 4000.0
     name: Lavish Otavite
     orebasictype: 45498
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -109,11 +99,9 @@ types:
     mass: 4000.0
     name: Shimmering Otavite
     orebasictype: 45498
-    packagedVolume: 10.0
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -129,11 +117,9 @@ types:
     mass: 4000.0
     name: Lavish Sperrylite
     orebasictype: 45499
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -149,11 +135,9 @@ types:
     mass: 4000.0
     name: Shimmering Sperrylite
     orebasictype: 45499
-    packagedVolume: 10.0
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -169,11 +153,9 @@ types:
     mass: 4000.0
     name: Lavish Vanadinite
     orebasictype: 45500
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -189,11 +171,9 @@ types:
     mass: 4000.0
     name: Shimmering Vanadinite
     orebasictype: 45500
-    packagedVolume: 10.0
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -209,11 +189,9 @@ types:
     mass: 4000.0
     name: Lavish Chromite
     orebasictype: 45501
-    packagedVolume: 10.0
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -229,11 +207,9 @@ types:
     mass: 4000.0
     name: Shimmering Chromite
     orebasictype: 45501
-    packagedVolume: 10.0
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
@@ -249,16 +225,14 @@ types:
     mass: 4000.0
     name: Compressed Chromite
     orebasictype: 45501
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62481:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -269,16 +243,14 @@ types:
     mass: 4000.0
     name: Compressed Lavish Chromite
     orebasictype: 45501
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62482:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -289,16 +261,14 @@ types:
     mass: 4000.0
     name: Compressed Shimmering Chromite
     orebasictype: 45501
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62483:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -309,16 +279,14 @@ types:
     mass: 4000.0
     name: Compressed Otavite
     orebasictype: 45498
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62484:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -329,16 +297,14 @@ types:
     mass: 4000.0
     name: Compressed Lavish Otavite
     orebasictype: 45498
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62485:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -349,16 +315,14 @@ types:
     mass: 4000.0
     name: Compressed Shimmering Otavite
     orebasictype: 45498
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62486:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -369,16 +333,14 @@ types:
     mass: 4000.0
     name: Compressed Sperrylite
     orebasictype: 45499
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62487:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -389,16 +351,14 @@ types:
     mass: 4000.0
     name: Compressed Lavish Sperrylite
     orebasictype: 45499
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62488:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -409,16 +369,14 @@ types:
     mass: 4000.0
     name: Compressed Shimmering Sperrylite
     orebasictype: 45499
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62489:
     asteroidmaxradius: 5000
     asteroidmetalevel: 1
@@ -429,16 +387,14 @@ types:
     mass: 4000.0
     name: Compressed Vanadinite
     orebasictype: 45500
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62490:
     asteroidmaxradius: 5000
     asteroidmetalevel: 3
@@ -449,16 +405,14 @@ types:
     mass: 4000.0
     name: Compressed Lavish Vanadinite
     orebasictype: 45500
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 3500.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   62491:
     asteroidmaxradius: 5000
     asteroidmetalevel: 5
@@ -469,13 +423,11 @@ types:
     mass: 4000.0
     name: Compressed Shimmering Vanadinite
     orebasictype: 45500
-    packagedVolume: 0.10000000149011612
     portionSize: 100
     price: 7000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 46154
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

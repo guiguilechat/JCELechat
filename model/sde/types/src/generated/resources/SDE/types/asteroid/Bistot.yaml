@@ -2,18 +2,16 @@ types:
   1223:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 1223
     marketGroup: 514
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Bistot
     orebasictype: 1223
-    packagedVolume: 16.0
     portionSize: 100
     price: 2092368.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -22,18 +20,16 @@ types:
   17428:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 17428
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Triclinic Bistot
+    mass: 1.0E+35
+    name: Bistot II-Grade
     orebasictype: 1223
-    packagedVolume: 16.0
     portionSize: 100
     price: 2200984.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -42,18 +38,16 @@ types:
   17429:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 17429
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Monoclinic Bistot
+    mass: 1.0E+35
+    name: Bistot III-Grade
     orebasictype: 1223
-    packagedVolume: 16.0
     portionSize: 100
     price: 2301400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,19 +60,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28388
     marketGroup: 514
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Batch Compressed Bistot
     orebasictype: 1223
-    packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.046184E7
+    price: 10461840.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 4.400000095367432
+    volume: 4.4
   28389:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -86,19 +78,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28389
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Monoclinic Bistot
+    mass: 1.0E+35
+    name: Batch Compressed Bistot III-Grade
     orebasictype: 1223
-    packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.1507E7
+    price: 11507000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 4.400000095367432
+    volume: 4.4
   28390:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -106,19 +96,17 @@ types:
     asteroidradiusunitsize: 90
     id: 28390
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Batch Compressed Triclinic Bistot
+    mass: 1.0E+35
+    name: Batch Compressed Bistot II-Grade
     orebasictype: 1223
-    packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.100492E7
+    price: 11004920.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 4.400000095367432
+    volume: 4.4
   46676:
     asteroidmaxradius: 5000
     asteroidmetalevel: 4
@@ -126,14 +114,12 @@ types:
     asteroidradiusunitsize: 800
     id: 46676
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Cubic Bistot
+    mass: 1.0E+35
+    name: Bistot IV-Grade
     orebasictype: 1223
-    packagedVolume: 16.0
     portionSize: 100
     price: 4700.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -147,18 +133,16 @@ types:
     id: 46692
     marketGroup: 514
     mass: 1.0
-    name: Batch Compressed Cubic Bistot
+    name: Batch Compressed Bistot IV-Grade
     orebasictype: 46676
-    packagedVolume: 4.400000095367432
     portionSize: 1
     price: 520000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 4.400000095367432
+    volume: 4.4
   62564:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
@@ -166,19 +150,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62564
     marketGroup: 514
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Bistot
     orebasictype: 1223
-    packagedVolume: 0.1599999964237213
     portionSize: 100
-    price: 1.046184E7
+    price: 10461840.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62565:
     asteroidmaxradius: 16255
     asteroidmetalevel: 2
@@ -186,19 +168,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62565
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Compressed Triclinic Bistot
+    mass: 1.0E+35
+    name: Compressed Bistot II-Grade
     orebasictype: 1223
-    packagedVolume: 0.1599999964237213
     portionSize: 100
-    price: 1.100492E7
+    price: 11004920.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62566:
     asteroidmaxradius: 16255
     asteroidmetalevel: 3
@@ -206,19 +186,17 @@ types:
     asteroidradiusunitsize: 90
     id: 62566
     marketGroup: 514
-    mass: 1.0000000409184788E35
-    name: Compressed Monoclinic Bistot
+    mass: 1.0E+35
+    name: Compressed Bistot III-Grade
     orebasictype: 1223
-    packagedVolume: 0.1599999964237213
     portionSize: 100
-    price: 1.1507E7
+    price: 11507000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16
   62567:
     asteroidmaxradius: 16255
     asteroidmetalevel: 4
@@ -227,15 +205,13 @@ types:
     id: 62567
     marketGroup: 514
     mass: 1.0
-    name: Compressed Cubic Bistot
+    name: Compressed Bistot IV-Grade
     orebasictype: 46676
-    packagedVolume: 0.1599999964237213
     portionSize: 100
     price: 520000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.1599999964237213
+    volume: 0.16

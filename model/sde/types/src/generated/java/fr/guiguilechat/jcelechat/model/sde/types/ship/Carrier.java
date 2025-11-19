@@ -26,9 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanJump;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpDriveConsumptionAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitJumpPassengerCount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitPassengerBonusPercent;
@@ -97,7 +95,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
@@ -116,7 +113,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -127,18 +123,22 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierA1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierA2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierA3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierA4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierA5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierC1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierC2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierC3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierC4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierC5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierG1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierG2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierG3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierG4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierG5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierM1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierM2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierM3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierM4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCarrierM5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipMaintenanceBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
@@ -545,13 +545,6 @@ public class Carrier
     @DefaultIntValue(0)
     public int scanspeed;
     /**
-     * Resistance against Remote Sensor Dampeners.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double sensordampenerresistance;
-    /**
      * Multiplied by Amarr Carrier skill level.
      */
     @HighIsGood(true)
@@ -579,6 +572,13 @@ public class Carrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonuscarriera4;
+    /**
+     * Multiplied by Amarr Carrier skill level.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonuscarriera5;
     /**
      * Multiplied by Caldari Carrier skill level.
      */
@@ -608,6 +608,13 @@ public class Carrier
     @DefaultIntValue(0)
     public int shipbonuscarrierc4;
     /**
+     * Multiplied by Caldari Carrier skill level.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonuscarrierc5;
+    /**
      * Multiplied by Gallente Carrier skill level.
      */
     @HighIsGood(true)
@@ -636,6 +643,13 @@ public class Carrier
     @DefaultIntValue(0)
     public int shipbonuscarrierg4;
     /**
+     * Multiplied by Gallente Carrier skill level.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonuscarrierg5;
+    /**
      * Multiplied by Minmatar Carrier skill level.
      */
     @HighIsGood(true)
@@ -663,6 +677,13 @@ public class Carrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonuscarrierm4;
+    /**
+     * Multiplied by Minmatar Carrier skill level.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonuscarrierm5;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
@@ -712,7 +733,7 @@ public class Carrier
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ConduitPassengerBonusPercent.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, EnablePerformConduitJump.INSTANCE, ShipBonusCarrierA1 .INSTANCE, RechargeRate.INSTANCE, ShipBonusCarrierA2 .INSTANCE, ShipBonusCarrierA3 .INSTANCE, ShipBonusCarrierA4 .INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ShipBonusCarrierC1 .INSTANCE, ShipBonusCarrierC2 .INSTANCE, ConduitJumpPassengerCount.INSTANCE, ShipBonusCarrierC3 .INSTANCE, ShipBonusCarrierC4 .INSTANCE, ShipBonusCarrierG1 .INSTANCE, SensorDampenerResistance.INSTANCE, ShipBonusCarrierG2 .INSTANCE, ShipBonusCarrierG3 .INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, ShipBonusCarrierG4 .INSTANCE, ShipBonusCarrierM1 .INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, ShipBonusCarrierM2 .INSTANCE, ShipBonusCarrierM3 .INSTANCE, ShipBonusCarrierM4 .INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, JumpConduitPassengerRequiredAttributeID.INSTANCE, ShipBonusRole1 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, ConduitPassengerBonusPercent.INSTANCE, CpuLoad.INSTANCE, IsCarrierJumpConduitPassenger.INSTANCE, ScanResolution.INSTANCE, EnablePerformConduitJump.INSTANCE, ShipBonusCarrierA1 .INSTANCE, RechargeRate.INSTANCE, ShipBonusCarrierA2 .INSTANCE, ShipBonusCarrierA3 .INSTANCE, ShipBonusCarrierA4 .INSTANCE, ConduitJumpDriveConsumptionAmount.INSTANCE, ShipBonusCarrierC1 .INSTANCE, ShipBonusCarrierC2 .INSTANCE, ConduitJumpPassengerCount.INSTANCE, ShipBonusCarrierC3 .INSTANCE, ShipBonusCarrierC4 .INSTANCE, ShipBonusCarrierG1 .INSTANCE, ShipBonusCarrierG2 .INSTANCE, SensorDampenerResistance.INSTANCE, ShipBonusCarrierG3 .INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, ShipBonusCarrierG4 .INSTANCE, ShipBonusCarrierM1 .INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, ShipBonusCarrierM2 .INSTANCE, ShipBonusCarrierM3 .INSTANCE, ShipBonusCarrierM4 .INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, ShipBonusCarrierA5 .INSTANCE, ShipBonusCarrierC5 .INSTANCE, ShipBonusCarrierG5 .INSTANCE, ShipBonusCarrierM5 .INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, JumpDriveTargetBeaconTypelistID.INSTANCE, GfxBoosterID.INSTANCE, IsTitanJumpPortalPassenger.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, JumpConduitPassengerRequiredAttributeID.INSTANCE, ShipBonusRole1 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();
 
     @Override
@@ -934,10 +955,6 @@ public class Carrier
             {
                 return scanspeed;
             }
-            case  2112 :
-            {
-                return sensordampenerresistance;
-            }
             case  2359 :
             {
                 return shipbonuscarriera1;
@@ -953,6 +970,10 @@ public class Carrier
             case  2362 :
             {
                 return shipbonuscarriera4;
+            }
+            case  5981 :
+            {
+                return shipbonuscarriera5;
             }
             case  2363 :
             {
@@ -970,6 +991,10 @@ public class Carrier
             {
                 return shipbonuscarrierc4;
             }
+            case  5982 :
+            {
+                return shipbonuscarrierc5;
+            }
             case  2367 :
             {
                 return shipbonuscarrierg1;
@@ -986,6 +1011,10 @@ public class Carrier
             {
                 return shipbonuscarrierg4;
             }
+            case  5983 :
+            {
+                return shipbonuscarrierg5;
+            }
             case  2371 :
             {
                 return shipbonuscarrierm1;
@@ -1001,6 +1030,10 @@ public class Carrier
             case  2374 :
             {
                 return shipbonuscarrierm4;
+            }
+            case  5984 :
+            {
+                return shipbonuscarrierm5;
             }
             case  2298 :
             {

@@ -4,75 +4,61 @@ types:
     id: 79996
     marketGroup: 2457
     name: Expired Sinister Exotic Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 15000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   79997:
     filamentdescriptionmessageid: 561098
     id: 79997
     marketGroup: 2457
     name: Expired Ruined Electrical Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 15000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   79998:
     filamentdescriptionmessageid: 561098
     id: 79998
     marketGroup: 2457
     name: Expired Vicious Electrical Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 80000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   79999:
     filamentdescriptionmessageid: 561098
     id: 79999
     marketGroup: 2457
     name: Expired Devastated Electrical Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 80000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   80000:
     filamentdescriptionmessageid: 561098
     id: 80000
     marketGroup: 2457
     name: Expired Disastrous Gamma Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   80001:
     filamentdescriptionmessageid: 561098
     id: 80001
     marketGroup: 2457
     name: Expired Annihilated Electrical Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 250000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   80002:
     filamentdescriptionmessageid: 561098
     id: 80002
     marketGroup: 2457
     name: Expired Calamitous Firestorm Filament
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1000000.0
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

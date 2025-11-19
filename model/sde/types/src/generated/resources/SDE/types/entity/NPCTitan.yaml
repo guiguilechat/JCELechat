@@ -1,27 +1,23 @@
 types:
   45471:
-    capacity: 12400.0
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     id: 45471
     iscapitalsize: 1
-    mass: 2.4E9
+    mass: 2400000000.0
     name: ♦ Molok
-    packagedVolume: 1.55E8
     portionSize: 1
     published: false
     radius: 6800.0
-    volume: 1.55E8
+    volume: 155000000.0
   45472:
-    capacity: 12400.0
     fighterabilityanticapitalmissileresistance: 1
     fighterabilitykamikazeresistance: 1
     id: 45472
     iscapitalsize: 1
-    mass: 2.4E9
+    mass: 2400000000.0
     name: ♦ Molok
-    packagedVolume: 1.55E8
     portionSize: 1
     published: false
     radius: 6800.0
-    volume: 1.55E8
+    volume: 155000000.0

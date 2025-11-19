@@ -8,7 +8,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
@@ -17,8 +16,9 @@ public class TypeIndex {
     public LinkedHashMap<Integer, String> id2group = new LinkedHashMap<>();
     private static Map<String, Map<Integer, ? extends EveType>> groupcache = new HashMap<>();
     public static final String RESOURCE_PATH = "SDE/types/metainf.yaml";
-    private static TypeIndex cache = null;
+    private static TypeIndex cache = (null);
 
+    @SuppressWarnings("unchecked")
     public static EveType getType(int id) {
         String group = TypeIndex.load().id2group.get(id);
         if (group == null) {
@@ -27,10 +27,10 @@ public class TypeIndex {
         Map<Integer, ? extends EveType> map = groupcache.get(group);
         if (map == null) {
             try {
-                String className = "fr.guiguilechat.jcelechat.model.sde.types."+ group.replaceAll("/", ".");
+                String className = ("fr.guiguilechat.jcelechat.model.sde.types."+ group.replaceAll("/", "."));
                 Class<?> loadclass = TypeIndex.class.getClassLoader().loadClass(className);
                 if (loadclass!= null) {
-                    IMetaGroup<? extends EveType> img = (IMetaGroup<? extends EveType> ) loadclass.getField("METAGROUP").get(null);
+                    IMetaGroup<? extends EveType> img = ((IMetaGroup<? extends EveType> ) loadclass.getField("METAGROUP").get(null));
                     map = img.load();
                 }
             } catch (final Exception exception) {
@@ -50,7 +50,7 @@ public class TypeIndex {
 
     public static synchronized TypeIndex load() {
         if (cache == null) {
-            try(final InputStreamReader reader = new InputStreamReader(TypeIndex.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+            try(final InputStreamReader reader = new InputStreamReader(TypeIndex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                 LoaderOptions options = new LoaderOptions();
                 options.setCodePointLimit(Integer.MAX_VALUE);
                 cache = new Yaml(options).loadAs(reader, TypeIndex.class);

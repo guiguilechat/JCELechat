@@ -1,188 +1,178 @@
 types:
   77066:
     agility: 0.5
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 550.0
-    capacity: 2000.0
     disallowassistance: 1
     entitykillbounty: 337500
     entitymaxvelocitysignatureradiusmultiplier: 6
     gfxboosterid: 394
     hp: 1500.0
     id: 77066
-    mass: 1.065E7
+    mass: 10650000.0
     maxlockedtargets: 2
     maxtargetrange: 53125.0
     maxvelocity: 100.0
     name: Offertory Sigil
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 196.0
     rechargerate: 181875.0
-    scangravimetricstrength: 13.199999809265137
+    scangravimetricstrength: 13.2
     scanresolution: 75.0
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     structureuniformity: 1.0
-    volume: 1.025E7
+    volume: 10250000.0
     warpspeedmultiplier: 10.0
   77505:
     agility: 0.5
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 550.0
-    capacity: 2000.0
     disallowassistance: 1
     entitykillbounty: 337500
     entitymaxvelocitysignatureradiusmultiplier: 6
     gfxboosterid: 395
     hp: 1500.0
     id: 77505
-    mass: 1.065E7
+    mass: 10650000.0
     maxlockedtargets: 2
     maxtargetrange: 53125.0
     maxvelocity: 100.0
     name: Badger Runner
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 196.0
     rechargerate: 181875.0
-    scangravimetricstrength: 13.199999809265137
+    scangravimetricstrength: 13.2
     scanresolution: 75.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     structureuniformity: 1.0
-    volume: 1.025E7
+    volume: 10250000.0
     warpspeedmultiplier: 10.0
   77506:
     agility: 0.5
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 11000.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 550.0
-    capacity: 2000.0
     disallowassistance: 1
     entitykillbounty: 337500
     entitymaxvelocitysignatureradiusmultiplier: 6
     gfxboosterid: 394
     hp: 1500.0
     id: 77506
-    mass: 1.065E7
+    mass: 10650000.0
     maxlockedtargets: 2
     maxtargetrange: 53125.0
     maxvelocity: 100.0
     name: Nereus Mule
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 196.0
     rechargerate: 181875.0
-    scangravimetricstrength: 13.199999809265137
+    scangravimetricstrength: 13.2
     scanresolution: 75.0
     shieldcapacity: 1000.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 270.0
     structureuniformity: 1.0
-    volume: 1.025E7
+    volume: 10250000.0
     warpspeedmultiplier: 10.0
   77507:
     agility: 0.5
-    armoremdamageresonance: 0.5400000214576721
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.54
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.45
     capacitorcapacity: 550.0
-    capacity: 2000.0
     disallowassistance: 1
     entitykillbounty: 337500
     entitymaxvelocitysignatureradiusmultiplier: 6
     gfxboosterid: 397
     hp: 1500.0
     id: 77507
-    mass: 1.065E7
+    mass: 10650000.0
     maxlockedtargets: 2
     maxtargetrange: 53125.0
     maxvelocity: 100.0
     name: Plunder Wreathe
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 196.0
     rechargerate: 181875.0
-    scangravimetricstrength: 13.199999809265137
+    scangravimetricstrength: 13.2
     scanresolution: 75.0
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.5400000214576721
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.54
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.44999998807907104
+    shieldthermaldamageresonance: 0.45
     shielduniformity: 0.75
     signatureradius: 270.0
     structureuniformity: 1.0
-    volume: 1.025E7
+    volume: 10250000.0
     warpspeedmultiplier: 10.0
   81347:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 1.2
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 394
     hp: 2400.0
     id: 81347
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Fan Bus Sigil
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -190,36 +180,34 @@ types:
     warpspeedmultiplier: 10.0
   81630:
     agility: 1.0
-    armoremdamageresonance: 0.44999998807907104
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.9
     armorhp: 800.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 394
     hp: 1250.0
     id: 81630
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Fan Bus Bestower
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 450.0
-    shieldemdamageresonance: 0.44999998807907104
-    shieldexplosivedamageresonance: 0.8999999761581421
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.45
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -227,73 +215,69 @@ types:
     warpspeedmultiplier: 10.0
   81631:
     agility: 1.0
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 450.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 1250.0
     id: 81631
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Repatriation Tayra
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 10.0
   81638:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 800.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 2400.0
     id: 81638
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Repatriation Badger
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -301,110 +285,104 @@ types:
     warpspeedmultiplier: 10.0
   81639:
     agility: 1.0
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 450.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 1250.0
     id: 81639
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Repatriation Tayra
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 10.0
   81640:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 1800.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 394
     hp: 2400.0
     id: 81640
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Postal Nereus
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 10.0
   81641:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 800.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 2400.0
     id: 81641
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Repatriation Badger
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -412,73 +390,69 @@ types:
     warpspeedmultiplier: 10.0
   81642:
     agility: 1.0
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 800.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 394
     hp: 1250.0
     id: 81642
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Postal Iteron Mark V
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 450.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 10.0
   81644:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 800.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 397
     hp: 2400.0
     id: 81644
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Trader Wreathe
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -486,110 +460,104 @@ types:
     warpspeedmultiplier: 10.0
   81646:
     agility: 1.0
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 450.0
-    armorkineticdamageresonance: 0.5400000214576721
-    armorthermaldamageresonance: 0.7200000286102295
+    armorkineticdamageresonance: 0.54
+    armorthermaldamageresonance: 0.72
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 397
     hp: 1250.0
     id: 81646
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Trader Mammoth
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5400000214576721
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.54
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.7200000286102295
+    shieldthermaldamageresonance: 0.72
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 10.0
   81647:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.44999998807907104
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
     armorhp: 500.0
-    armorkineticdamageresonance: 0.7200000286102295
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 500.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 394
     hp: 1700.0
     id: 81647
-    mass: 1.464E7
+    mass: 14640000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Benefaction Potremba
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 550.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.7200000286102295
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
     volume: 28600.0
     warpspeedmultiplier: 15.0
   81648:
-    agility: 1.2000000476837158
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    agility: 1.2
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 800.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 600.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 2400.0
     id: 81648
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 3000.0
     name: Repatriation Badger
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 1800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0
@@ -597,36 +565,34 @@ types:
     warpspeedmultiplier: 10.0
   81649:
     agility: 1.0
-    armoremdamageresonance: 0.8999999761581421
-    armorexplosivedamageresonance: 0.7200000286102295
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
     armorhp: 450.0
-    armorkineticdamageresonance: 0.44999998807907104
-    armorthermaldamageresonance: 0.5400000214576721
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
     capacitorcapacity: 2200.0
-    capacity: 1460.0
     disallowassistance: 1
     entitycruisespeed: 500.0
     entitymaxvelocitysignatureradiusmultiplier: 5
     gfxboosterid: 395
     hp: 1250.0
     id: 81649
-    mass: 1.1E7
+    mass: 11000000.0
     maxlockedtargets: 5
     maxtargetrange: 35000.0
     maxvelocity: 2500.0
     name: Repatriation Tayra
-    packagedVolume: 28600.0
     portionSize: 1
     published: false
     radius: 450.0
     rechargerate: 400000.0
     scanresolution: 656.0
     shieldcapacity: 800.0
-    shieldemdamageresonance: 0.8999999761581421
-    shieldexplosivedamageresonance: 0.7200000286102295
-    shieldkineticdamageresonance: 0.44999998807907104
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.5400000214576721
+    shieldthermaldamageresonance: 0.54
     shielduniformity: 0.75
     signatureradius: 250.0
     structureuniformity: 1.0

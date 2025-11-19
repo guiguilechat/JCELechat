@@ -1,17 +1,16 @@
 types:
   54739:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.4000000059604645
+    aoedamagereductionfactor: 0.4
     aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
-    capacity: 0.20000000298023224
     chargegroup1: 4062
     chargerate: 1
     chargesize: 1
     cpu: 97.0
     damagemultiplier: 1.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54739
@@ -21,7 +20,6 @@ types:
     maxrange: 22464.0
     name: Small Vorton Projector I
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 26
     price: 15000.0
@@ -42,17 +40,16 @@ types:
     vortonarctargets: 10
   54740:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.4000000059604645
+    aoedamagereductionfactor: 0.4
     aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
-    capacity: 0.20000000298023224
     chargegroup1: 4062
     chargerate: 1
     chargesize: 1
     cpu: 87.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54740
@@ -63,7 +60,6 @@ types:
     metalevelold: 1
     name: Small Compact Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 24
     price: 15000.0
@@ -84,17 +80,16 @@ types:
     vortonarctargets: 10
   54741:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.4000000059604645
+    aoedamagereductionfactor: 0.4
     aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
-    capacity: 0.20000000298023224
     chargegroup1: 4062
     chargerate: 1
     chargesize: 1
     cpu: 97.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54741
@@ -105,7 +100,6 @@ types:
     metalevelold: 1
     name: Small Scoped Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 26
     price: 15000.0
@@ -126,18 +120,17 @@ types:
     vortonarctargets: 10
   54742:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.4000000059604645
+    aoedamagereductionfactor: 0.4
     aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
-    capacity: 0.20000000298023224
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 1
     cpu: 107.0
-    damagemultiplier: 1.2000000476837158
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.2
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54742
@@ -148,7 +141,6 @@ types:
     metalevelold: 5
     name: Small Vorton Projector II
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 29
     price: 15000.0
@@ -171,18 +163,17 @@ types:
     vortonarctargets: 10
   54743:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.4000000059604645
+    aoedamagereductionfactor: 0.4
     aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
-    capacity: 0.20000000298023224
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 1
     cpu: 87.0
-    damagemultiplier: 1.2999999523162842
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.3
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54743
@@ -193,7 +184,6 @@ types:
     metalevelold: 8
     name: Small Consortium Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 5.0
     portionSize: 1
     power: 26
     price: 15000.0
@@ -218,13 +208,12 @@ types:
     aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
-    capacity: 1.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 2
     cpu: 202.0
     damagemultiplier: 1.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54745
@@ -234,7 +223,6 @@ types:
     maxrange: 34560.0
     name: Medium Vorton Projector I
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 915
     price: 150000.0
@@ -259,13 +247,12 @@ types:
     aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
-    capacity: 1.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 2
     cpu: 181.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54746
@@ -276,7 +263,6 @@ types:
     metalevelold: 1
     name: Medium Compact Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 824
     price: 150000.0
@@ -301,13 +287,12 @@ types:
     aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
-    capacity: 1.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 2
     cpu: 202.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54747
@@ -318,7 +303,6 @@ types:
     metalevelold: 1
     name: Medium Scoped Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 915
     price: 150000.0
@@ -343,14 +327,13 @@ types:
     aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
-    capacity: 1.0
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 2
     cpu: 222.0
-    damagemultiplier: 1.2000000476837158
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.2
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54748
@@ -361,7 +344,6 @@ types:
     metalevelold: 5
     name: Medium Vorton Projector II
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 1007
     price: 150000.0
@@ -388,14 +370,13 @@ types:
     aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
-    capacity: 1.0
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 2
     cpu: 181.0
-    damagemultiplier: 1.2999999523162842
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.3
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54749
@@ -406,7 +387,6 @@ types:
     metalevelold: 8
     name: Medium Consortium Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 25.0
     portionSize: 1
     power: 915
     price: 150000.0
@@ -427,17 +407,16 @@ types:
     vortonarctargets: 10
   54750:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.699999988079071
+    aoedamagereductionfactor: 0.7
     aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
-    capacity: 2.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 3
     cpu: 710.0
     damagemultiplier: 1.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54750
@@ -447,7 +426,6 @@ types:
     maxrange: 57600.0
     name: Large Vorton Projector I
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 16262
     price: 1500000.0
@@ -468,17 +446,16 @@ types:
     vortonarctargets: 10
   54751:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.699999988079071
+    aoedamagereductionfactor: 0.7
     aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
-    capacity: 2.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 3
     cpu: 639.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54751
@@ -489,7 +466,6 @@ types:
     metalevelold: 1
     name: Large Compact Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 14636
     price: 1500000.0
@@ -510,17 +486,16 @@ types:
     vortonarctargets: 10
   54752:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.699999988079071
+    aoedamagereductionfactor: 0.7
     aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
-    capacity: 2.0
     chargegroup1: 4062
     chargerate: 1
     chargesize: 3
     cpu: 710.0
-    damagemultiplier: 1.100000023841858
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.1
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54752
@@ -531,7 +506,6 @@ types:
     metalevelold: 1
     name: Large Scoped Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 16262
     price: 1500000.0
@@ -552,18 +526,17 @@ types:
     vortonarctargets: 10
   54753:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.699999988079071
+    aoedamagereductionfactor: 0.7
     aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
-    capacity: 2.0
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 3
     cpu: 781.0
-    damagemultiplier: 1.2000000476837158
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.2
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54753
@@ -574,7 +547,6 @@ types:
     metalevelold: 5
     name: Large Vorton Projector II
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 17889
     price: 1500000.0
@@ -597,18 +569,17 @@ types:
     vortonarctargets: 10
   54754:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.699999988079071
+    aoedamagereductionfactor: 0.7
     aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
-    capacity: 2.0
     chargegroup1: 4062
     chargegroup2: 4061
     chargerate: 1
     chargesize: 3
     cpu: 639.0
-    damagemultiplier: 1.2999999523162842
-    heatabsorbtionratemodifier: 0.009999999776482582
+    damagemultiplier: 1.3
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 54754
@@ -619,7 +590,6 @@ types:
     metalevelold: 8
     name: Large Consortium Vorton Projector
     overloadrofbonus: -15
-    packagedVolume: 50.0
     portionSize: 1
     power: 16262
     price: 1500000.0

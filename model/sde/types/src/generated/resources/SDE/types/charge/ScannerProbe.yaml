@@ -12,11 +12,9 @@ types:
     mass: 1.0
     maxvelocity: 3000.0
     name: Core Scanner Probe I
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 23442.0
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
@@ -24,7 +22,7 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.10000000149011612
+    volume: 0.1
     warpspeedmultiplier: 15.0
   30028:
     agility: 1000.0
@@ -39,12 +37,10 @@ types:
     mass: 1.0
     maxvelocity: 5000.0
     name: Combat Scanner Probe I
-    packagedVolume: 1.0
     portionSize: 1
     price: 23442.0
     probecanscanships: 1
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 2
@@ -66,12 +62,10 @@ types:
     maxvelocity: 5000.0
     metagroupid: 4
     name: Sisters Combat Scanner Probe
-    packagedVolume: 1.0
     portionSize: 1
     price: 23442.0
     probecanscanships: 1
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 2
@@ -93,11 +87,9 @@ types:
     maxvelocity: 3000.0
     metagroupid: 4
     name: Sisters Core Scanner Probe
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 23442.0
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
@@ -105,7 +97,7 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.10000000149011612
+    volume: 0.1
     warpspeedmultiplier: 15.0
   32246:
     agility: 1000.0
@@ -121,11 +113,9 @@ types:
     maxvelocity: 3000.0
     metagroupid: 3
     name: RSS Core Scanner Probe
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 23442.0
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 1
@@ -133,7 +123,7 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.10000000149011612
+    volume: 0.1
     warpspeedmultiplier: 15.0
   85747:
     agility: 1000.0
@@ -149,12 +139,10 @@ types:
     maxvelocity: 5000.0
     metagroupid: 4
     name: Satori-Horigu Combat Scanner Probe
-    packagedVolume: 1.0
     portionSize: 1
     price: 453442.0
     probecanscanships: 1
     published: true
-    radius: 1.0
     rangefactor: 2
     requiredskill1: 3412
     requiredskill1level: 2

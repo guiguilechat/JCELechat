@@ -4,226 +4,184 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1565
     name: Small Energy Neutralizer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 199680.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12266:
     id: 12266
     industryblueprintrank: 6.0
     marketGroup: 1565
     name: Medium Energy Neutralizer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 998400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12268:
     id: 12268
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Energy Neutralizer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12270:
     id: 12270
     industryblueprintrank: 9.0
     marketGroup: 1565
     name: Heavy Energy Neutralizer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4996740.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12272:
     id: 12272
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Heavy Energy Neutralizer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   13004:
     id: 13004
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Energy Neutralizer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15795:
     id: 15795
     industryblueprintrank: 3.0
     name: Ammatar Navy Small Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15797:
     id: 15797
     industryblueprintrank: 6.0
     name: Ammatar Navy Medium Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15799:
     id: 15799
     industryblueprintrank: 9.0
     name: Ammatar Navy Heavy Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15801:
     id: 15801
     industryblueprintrank: 3.0
     name: Imperial Navy Small Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15803:
     id: 15803
     industryblueprintrank: 6.0
     name: Imperial Navy Medium Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15805:
     id: 15805
     industryblueprintrank: 9.0
     name: Imperial Navy Heavy Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23816:
     id: 23816
     industryblueprintrank: 3.0
     name: Small 'Caltrop' Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23818:
     id: 23818
     industryblueprintrank: 6.0
     name: Medium 'Ditch' Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23820:
     id: 23820
     industryblueprintrank: 9.0
     name: Heavy 'Moat' Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40672:
     id: 40672
     industryblueprintrank: 150.0
     marketGroup: 1565
     name: Capital Energy Neutralizer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8E7
+    price: 18000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40673:
     id: 40673
     industryblueprintrank: 200.0
     marketGroup: 1565
     name: Capital Gremlin Compact Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6E7
+    price: 36000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40674:
     id: 40674
     industryblueprintrank: 200.0
     marketGroup: 1565
     name: Capital Infectious Scoped Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6E7
+    price: 36000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40675:
     id: 40675
     industryblueprintrank: 300.0
     name: Capital Energy Neutralizer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   40676:
     id: 40676
     industryblueprintrank: 400.0
     name: True Sansha Capital Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40677:
     id: 40677
     industryblueprintrank: 400.0
     name: Dark Blood Capital Energy Neutralizer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

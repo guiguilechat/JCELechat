@@ -9,8 +9,7 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Biochemical Reactor Time Efficiency I
-    nullsecmodifier: 1.100000023841858
-    packagedVolume: 10.0
+    nullsecmodifier: 1.1
     portionSize: 1
     published: true
     radius: 100.0
@@ -33,8 +32,7 @@ types:
     mass: 200.0
     maxgroupfitted: 1
     name: Standup M-Set Biochemical Reactor Time Efficiency II
-    nullsecmodifier: 1.100000023841858
-    packagedVolume: 10.0
+    nullsecmodifier: 1.1
     portionSize: 1
     published: true
     radius: 100.0

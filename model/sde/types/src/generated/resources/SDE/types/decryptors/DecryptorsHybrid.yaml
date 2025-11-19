@@ -4,38 +4,30 @@ types:
     inventionpropabilitymultiplier: 1.0
     mass: 1.0
     name: Amarr Subsystems Data Interface
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   30383:
     id: 30383
     inventionpropabilitymultiplier: 1.0
     mass: 1.0
     name: Caldari Subsystems Data Interface
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   30384:
     id: 30384
     inventionpropabilitymultiplier: 1.0
     mass: 1.0
     name: Minmatar Subsystems Data Interface
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   30385:
     id: 30385
     inventionpropabilitymultiplier: 1.0
     mass: 1.0
     name: Gallente Subsystems Data Interface
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

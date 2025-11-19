@@ -2,3098 +2,2710 @@ types:
   350916:
     id: 350916
     name: Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351063:
     id: 351063
     name: Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351296:
     id: 351296
     name: Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351297:
     id: 351297
     name: 20GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6300.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351310:
     id: 351310
     name: ST-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6300.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351311:
     id: 351311
     name: ST-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351317:
     id: 351317
     name: 80GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351320:
     id: 351320
     name: Passenger Position
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351332:
     id: 351332
     name: 80GJ Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351336:
     id: 351336
     name: 80GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351337:
     id: 351337
     name: 20GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6300.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351706:
     id: 351706
     name: Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 450.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351709:
     id: 351709
     name: AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351855:
     id: 351855
     name: Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352263:
     id: 352263
     name: Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352304:
     id: 352304
     name: Militia 20GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352305:
     id: 352305
     name: Militia 80GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14670.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352313:
     id: 352313
     name: Militia 80GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14670.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352314:
     id: 352314
     name: Militia 20GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352472:
     id: 352472
     name: '''Paradox'' Graded Particle Cannon (S)'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352499:
     id: 352499
     name: Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352508:
     id: 352508
     name: Flux Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352522:
     id: 352522
     name: Miasma Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352526:
     id: 352526
     name: '''Husk'' Phase-synched Railgun (L)'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352556:
     id: 352556
     name: Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352602:
     id: 352602
     name: Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352891:
     id: 352891
     name: Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353032:
     id: 353032
     name: Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353042:
     id: 353042
     name: '[TEST] Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353106:
     id: 353106
     name: Breach Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353107:
     id: 353107
     name: Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353108:
     id: 353108
     name: '''Blindfire'' Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353109:
     id: 353109
     name: GEK-38 Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353110:
     id: 353110
     name: GK-13 Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353111:
     id: 353111
     name: G7-M Compact Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353112:
     id: 353112
     name: '''Gorewreck'' GK-13 Burst Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353113:
     id: 353113
     name: '''Killswitch'' GEK-38 Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353114:
     id: 353114
     name: Duvolle Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353115:
     id: 353115
     name: CreoDron Breach Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353116:
     id: 353116
     name: Allotek Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353117:
     id: 353117
     name: '''Codewish'' Duvolle Tactical Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353118:
     id: 353118
     name: '''Stormside'' Roden Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353119:
     id: 353119
     name: '''Hollowsight'' Carthum Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353120:
     id: 353120
     name: Militia Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353126:
     id: 353126
     name: Assault Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353127:
     id: 353127
     name: Breach Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353128:
     id: 353128
     name: '''Slashvent'' Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353129:
     id: 353129
     name: M512-A Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353130:
     id: 353130
     name: M209 Assault Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353131:
     id: 353131
     name: SK9M Breach Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353132:
     id: 353132
     name: '''Bedlam'' M512-A Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353133:
     id: 353133
     name: '''Minddrive'' SK9M Breach Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353134:
     id: 353134
     name: Six Kin Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353135:
     id: 353135
     name: Ishukone Assault Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 34770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353136:
     id: 353136
     name: Freedom Burst Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 34770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353137:
     id: 353137
     name: '''Gargoyle'' Freedom Burst Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353138:
     id: 353138
     name: '''Mashgrill'' CreoDron Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353139:
     id: 353139
     name: '''Spitfire'' Six Kin Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353140:
     id: 353140
     name: Militia Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353143:
     id: 353143
     name: Assault Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353144:
     id: 353144
     name: Breach Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353145:
     id: 353145
     name: '''Strumborne'' Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353146:
     id: 353146
     name: 9K330 Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6585.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353147:
     id: 353147
     name: DAU-2/A Assault Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353148:
     id: 353148
     name: DCMA-5 Breach Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353149:
     id: 353149
     name: '''Blastwave'' 9K330 Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353150:
     id: 353150
     name: '''Arcflare'' DAU-2/A Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353151:
     id: 353151
     name: Kaalakiota Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353152:
     id: 353152
     name: Ishukone Assault Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353153:
     id: 353153
     name: Imperial Armaments Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353154:
     id: 353154
     name: '''Grimlock'' Guristas Assault Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353155:
     id: 353155
     name: '''Backscatter'' Freedom Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353156:
     id: 353156
     name: '''Torchflare'' Kaalakiota Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353161:
     id: 353161
     name: Tactical Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353162:
     id: 353162
     name: Charge Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353163:
     id: 353163
     name: '''Farsight'' Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353164:
     id: 353164
     name: NT-511 Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6585.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353165:
     id: 353165
     name: C27-N Specialist Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353166:
     id: 353166
     name: C15-A Tactical Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353167:
     id: 353167
     name: '''Genesis'' NT-511 Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353168:
     id: 353168
     name: '''Downwind'' C15-A Tactical Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353169:
     id: 353169
     name: Ishukone Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353170:
     id: 353170
     name: Lai Dai Compact Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353171:
     id: 353171
     name: Roden Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353172:
     id: 353172
     name: DUST 'Horizon' Kaalakiota Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353173:
     id: 353173
     name: '''Corona'' Ishukone Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353174:
     id: 353174
     name: '''Surgepoint'' Six Kin Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353175:
     id: 353175
     name: Militia Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353179:
     id: 353179
     name: Assault Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353180:
     id: 353180
     name: Specialist Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353181:
     id: 353181
     name: '''Scattermind'' Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353182:
     id: 353182
     name: CBR7 Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6585.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353183:
     id: 353183
     name: CBR-112 Specialist Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353184:
     id: 353184
     name: CFG-129 Assault Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353185:
     id: 353185
     name: '''Darkside'' CBR7 Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353186:
     id: 353186
     name: '''Scramkit'' CBR-112 Breach Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353187:
     id: 353187
     name: Wiyrkomi Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353188:
     id: 353188
     name: Wiyrkomi Specialist Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353189:
     id: 353189
     name: Ishukone Assault Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353190:
     id: 353190
     name: '''Mimicry'' CreoDron Tactical Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353191:
     id: 353191
     name: '''Weavewind'' Roden Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353192:
     id: 353192
     name: '''Haywire'' Wiyrkomi Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353193:
     id: 353193
     name: Militia Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353196:
     id: 353196
     name: Specialist Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353197:
     id: 353197
     name: Burst Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353198:
     id: 353198
     name: '''Surgewick'' Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353199:
     id: 353199
     name: CAR-9 Burst Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353200:
     id: 353200
     name: IA5 Tactical Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353201:
     id: 353201
     name: TT-3 Assault Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353202:
     id: 353202
     name: '''Flashbow'' CAR-9 Burst Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353203:
     id: 353203
     name: '''Hazemoon'' IA5 Tactical Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353204:
     id: 353204
     name: Ishukone Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353205:
     id: 353205
     name: Viziam Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353206:
     id: 353206
     name: Imperial Burst Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353207:
     id: 353207
     name: '''Burnscar'' Khanid Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353208:
     id: 353208
     name: '''Grindfell'' Imperial Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353209:
     id: 353209
     name: '''Singetear'' Viziam Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353258:
     id: 353258
     name: Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353263:
     id: 353263
     name: Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353264:
     id: 353264
     name: Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353281:
     id: 353281
     name: Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353289:
     id: 353289
     name: Militia MT-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353691:
     id: 353691
     name: Sleek Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353692:
     id: 353692
     name: Capped Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353693:
     id: 353693
     name: M1 Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353694:
     id: 353694
     name: M8 Packed Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3225.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353695:
     id: 353695
     name: '''Shroud'' M1 Locus Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1980.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353696:
     id: 353696
     name: Core Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353697:
     id: 353697
     name: Freedom Sleek Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23190.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353698:
     id: 353698
     name: '''Cavity'' M2 Contact Locus Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5280.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353699:
     id: 353699
     name: '''Vapor'' Core Locus Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5280.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353701:
     id: 353701
     name: Small CA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353702:
     id: 353702
     name: Small Rocket Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353705:
     id: 353705
     name: Small Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353730:
     id: 353730
     name: Sleek AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1230.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353731:
     id: 353731
     name: Packed AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353732:
     id: 353732
     name: EX-0 AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353733:
     id: 353733
     name: EX-11 Packed AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8805.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353734:
     id: 353734
     name: '''Hollow'' EX-0 AV Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353735:
     id: 353735
     name: Wiyrkomi AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8805.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353736:
     id: 353736
     name: Lai Dai Sleek AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353737:
     id: 353737
     name: '''Void'' Kaalakiota AV Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5385.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353738:
     id: 353738
     name: '''Sigil'' Wiyrkomi AV Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5385.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353741:
     id: 353741
     name: Militia Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353749:
     id: 353749
     name: Volatile Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353772:
     id: 353772
     name: 80GJ Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353773:
     id: 353773
     name: 80GJ Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353774:
     id: 353774
     name: 20GJ Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16873.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353775:
     id: 353775
     name: 20GJ Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 74014.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353783:
     id: 353783
     name: 80GJ Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353796:
     id: 353796
     name: 20GJ Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16873.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353797:
     id: 353797
     name: 20GJ Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 74014.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353800:
     id: 353800
     name: AT-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16873.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353801:
     id: 353801
     name: XT-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 74014.5
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353817:
     id: 353817
     name: XT-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353818:
     id: 353818
     name: AT-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353929:
     id: 353929
     name: Militia Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354583:
     id: 354583
     name: Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354685:
     id: 354685
     name: Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354928:
     id: 354928
     name: GB-9 Breach Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354929:
     id: 354929
     name: GLU-5 Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354930:
     id: 354930
     name: Duvolle Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354937:
     id: 354937
     name: Militia Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354956:
     id: 354956
     name: CRG-3 Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6585.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354957:
     id: 354957
     name: CreoDron Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354959:
     id: 354959
     name: ELM-7 Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354960:
     id: 354960
     name: Viziam Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354961:
     id: 354961
     name: MH-82 Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354962:
     id: 354962
     name: Boundless Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354963:
     id: 354963
     name: EXO-5 Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6585.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354964:
     id: 354964
     name: Freedom Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355010:
     id: 355010
     name: PRO Drone Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355013:
     id: 355013
     name: ADV Drone Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355015:
     id: 355015
     name: Drone Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355019:
     id: 355019
     name: PRO Drone Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 27980.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355027:
     id: 355027
     name: ADV Drone Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7850.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355032:
     id: 355032
     name: Drone Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355038:
     id: 355038
     name: Drone Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355043:
     id: 355043
     name: PRO Drone Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13990.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355050:
     id: 355050
     name: ADV Drone Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3920.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355067:
     id: 355067
     name: PRO Drone Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 19080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355069:
     id: 355069
     name: ADV Drone Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355071:
     id: 355071
     name: Drone Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355081:
     id: 355081
     name: Drone Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355087:
     id: 355087
     name: PRO Drone Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355098:
     id: 355098
     name: ADV Drone Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3570.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355104:
     id: 355104
     name: PRO Drone Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 19080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355107:
     id: 355107
     name: ADV Drone Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355109:
     id: 355109
     name: Drone Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355139:
     id: 355139
     name: PRO Drone Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16540.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355145:
     id: 355145
     name: ADV Drone Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4640.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355151:
     id: 355151
     name: Drone Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1300.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355157:
     id: 355157
     name: PRO Drone HMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 27980.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355159:
     id: 355159
     name: ADV Drone HMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355161:
     id: 355161
     name: Drone HMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355254:
     id: 355254
     name: Boundless Breach Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 34770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355256:
     id: 355256
     name: Kaalakiota Tactical Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355257:
     id: 355257
     name: KLO-1 Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355258:
     id: 355258
     name: Carthum Assault Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355259:
     id: 355259
     name: Assault Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355260:
     id: 355260
     name: '''Cerberus'' CRG-3 Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355261:
     id: 355261
     name: '''Hydra'' CreoDron Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355262:
     id: 355262
     name: '''Broadside'' MH-82 Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355263:
     id: 355263
     name: '''Steelmine'' Boundless Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355264:
     id: 355264
     name: '''Cyclone'' EXO-5 Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355265:
     id: 355265
     name: '''Avalanche'' Freedom Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355432:
     id: 355432
     name: '''Toxin'' ICD-9 Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355434:
     id: 355434
     name: HK4M Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355443:
     id: 355443
     name: Fused Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 450.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355476:
     id: 355476
     name: Passenger Position
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355478:
     id: 355478
     name: Passenger Position
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355483:
     id: 355483
     name: AntiMCC Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355488:
     id: 355488
     name: Passenger Position
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355495:
     id: 355495
     name: Breach Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355497:
     id: 355497
     name: '''Chimera'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355498:
     id: 355498
     name: '''Golem'' Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355499:
     id: 355499
     name: '''Tsunami'' Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355514:
     id: 355514
     name: KR-17 Breach Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355515:
     id: 355515
     name: Allotek Breach Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355594:
     id: 355594
     name: C-7 Flux Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355595:
     id: 355595
     name: Allotek Flux Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7050.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355596:
     id: 355596
     name: '''Siren'' Flux Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355597:
     id: 355597
     name: '''Klaxon'' Allotek Flux Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355598:
     id: 355598
     name: '''Banshee'' C-7 Flux Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355599:
     id: 355599
     name: '''Haze'' Locus Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355600:
     id: 355600
     name: '''Husk'' AV Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355603:
     id: 355603
     name: Breach Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355604:
     id: 355604
     name: TY-5 Breach Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355605:
     id: 355605
     name: Imperial Breach Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355615:
     id: 355615
     name: Synch AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1230.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355616:
     id: 355616
     name: EX-3 Sleek AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3285.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355617:
     id: 355617
     name: Lai Dai Packed AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355679:
     id: 355679
     name: Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355685:
     id: 355685
     name: Viziam Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355697:
     id: 355697
     name: CRW-04 Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355740:
     id: 355740
     name: Wiyrkomi Breach Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355741:
     id: 355741
     name: '''Grimoire'' 20GJ Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355742:
     id: 355742
     name: '''Calisto'' 20GJ Neutron Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355743:
     id: 355743
     name: '''Phantasm'' 20GJ Ion Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355744:
     id: 355744
     name: '''Wraith'' 80GJ Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355746:
     id: 355746
     name: '''Oracle'' 80GJ Neutron Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355747:
     id: 355747
     name: '''Sodom'' 80GJ Ion Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355748:
     id: 355748
     name: '''Lycan'' 20GJ Railgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355749:
     id: 355749
     name: '''Spartan'' 20GJ Particle Accelerator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355750:
     id: 355750
     name: '''Martyr'' 20GJ Particle Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355751:
     id: 355751
     name: '''Pariah'' 80GJ Railgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355752:
     id: 355752
     name: '''Mortis'' 80GJ Particle Accelerator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355753:
     id: 355753
     name: '''Gomorrah'' 80GJ Particle Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355761:
     id: 355761
     name: '''Brimstone'' ST-1 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355762:
     id: 355762
     name: '''Arson'' AT-1 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355763:
     id: 355763
     name: '''Cinder'' XT-1 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355764:
     id: 355764
     name: '''Harbinger'' ST-201 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355765:
     id: 355765
     name: '''Omen'' AT-201 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355766:
     id: 355766
     name: '''Prodigy'' XT-201 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355779:
     id: 355779
     name: Breach Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355781:
     id: 355781
     name: Assault Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355812:
     id: 355812
     name: EK-A2 Breach Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355813:
     id: 355813
     name: EC-3 Assault Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355814:
     id: 355814
     name: Core Breach Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355815:
     id: 355815
     name: Boundless Assault Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355820:
     id: 355820
     name: Burst Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355821:
     id: 355821
     name: Assault Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355822:
     id: 355822
     name: 80GJ Stabilized Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355823:
     id: 355823
     name: 80GJ Compressed Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355824:
     id: 355824
     name: 80GJ Stabilized Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355825:
     id: 355825
     name: 80GJ Compressed Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355826:
     id: 355826
     name: 80GJ Stabilized Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355827:
     id: 355827
     name: 80GJ Compressed Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355828:
     id: 355828
     name: 20GJ Stabilized Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355829:
     id: 355829
     name: 20GJ Compressed Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355830:
     id: 355830
     name: 20GJ Stabilized Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355831:
     id: 355831
     name: 20GJ Compressed Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355832:
     id: 355832
     name: 20GJ Stabilized Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355833:
     id: 355833
     name: 20GJ Compressed Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355834:
     id: 355834
     name: 80GJ Stabilized Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355835:
     id: 355835
     name: 80GJ Compressed Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 305520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355836:
     id: 355836
     name: 80GJ Stabilized Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355837:
     id: 355837
     name: 80GJ Compressed Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 927560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355839:
     id: 355839
     name: 80GJ Stabilized Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355840:
     id: 355840
     name: 80GJ Compressed Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100640.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355841:
     id: 355841
     name: 20GJ Stabilized Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355842:
     id: 355842
     name: 20GJ Compressed Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 76400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355843:
     id: 355843
     name: 20GJ Stabilized Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355844:
     id: 355844
     name: 20GJ Compressed Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 231880.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355845:
     id: 355845
     name: 20GJ Stabilized Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355846:
     id: 355846
     name: 20GJ Compressed Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355847:
     id: 355847
     name: AT-201 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 305520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355848:
     id: 355848
     name: AT-201 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355849:
     id: 355849
     name: XT-201 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 927560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355850:
     id: 355850
     name: XT-201 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355851:
     id: 355851
     name: ST-201 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100640.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355852:
     id: 355852
     name: ST-201 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355853:
     id: 355853
     name: AT-1 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 76400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355854:
     id: 355854
     name: AT-1 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355855:
     id: 355855
     name: XT-1 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 231880.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355856:
     id: 355856
     name: XT-1 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355857:
     id: 355857
     name: ST-1 Accelerated Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355858:
     id: 355858
     name: ST-1 Fragmented Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355859:
     id: 355859
     name: Six Kin Burst Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355860:
     id: 355860
     name: Freedom Assault Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355861:
     id: 355861
     name: MLR-A Burst Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355862:
     id: 355862
     name: MO-4 Assault Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355863:
     id: 355863
     name: Specialist Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355864:
     id: 355864
     name: K5 Specialist Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355865:
     id: 355865
     name: Duvolle Specialist Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355866:
     id: 355866
     name: 80GJ Scattered Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 305520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355867:
     id: 355867
     name: 80GJ Scattered Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 927560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355868:
     id: 355868
     name: 80GJ Scattered Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100640.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355869:
     id: 355869
     name: 20GJ Scattered Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 76400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355870:
     id: 355870
     name: 20GJ Scattered Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 231880.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355871:
     id: 355871
     name: 20GJ Scattered Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355872:
     id: 355872
     name: 80GJ Regulated Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355873:
     id: 355873
     name: 80GJ Regulated Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355874:
     id: 355874
     name: 80GJ Regulated Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355875:
     id: 355875
     name: 20GJ Regulated Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355876:
     id: 355876
     name: 20GJ Regulated Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355877:
     id: 355877
     name: 20GJ Regulated Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355878:
     id: 355878
     name: AT-201 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 211000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355879:
     id: 355879
     name: XT-201 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 640600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355880:
     id: 355880
     name: ST-201 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 69520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355881:
     id: 355881
     name: AT-1 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355882:
     id: 355882
     name: XT-1 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 160160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355883:
     id: 355883
     name: ST-1 Cycled Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355949:
     id: 355949
     name: Handheld weapon needs a name
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355962:
     id: 355962
     name: Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355964:
     id: 355964
     name: Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355994:
     id: 355994
     name: Balac's GAR-21 Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356042:
     id: 356042
     name: Krin's SIN-11 Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356044:
     id: 356044
     name: Cala's MK-33 Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 56925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356046:
     id: 356046
     name: Gastun's BRN-50 Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356048:
     id: 356048
     name: Thale's TAR-07 Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356050:
     id: 356050
     name: Wolfman's PCP-30 Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 56925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356052:
     id: 356052
     name: Gastun's MIN-7 HMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356115:
     id: 356115
     name: '''Daemon'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356116:
     id: 356116
     name: '''Carnifax'' Locus Grenade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 450.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356214:
     id: 356214
     name: Anti-MCC Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356300:
     id: 356300
     name: Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356331:
     id: 356331
     name: Anti-MCC Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356332:
     id: 356332
     name: Anti-MCC Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356333:
     id: 356333
     name: Anti-MCC Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356334:
     id: 356334
     name: Anti-MCC Turret
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356393:
     id: 356393
     name: Seeker Flaylock
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1110.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356426:
     id: 356426
     name: Nova Knives
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356514:
     id: 356514
     name: Handheld weapon needs a name
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356515:
     id: 356515
     name: Handheld weapon needs a name
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356516:
     id: 356516
     name: Handheld weapon needs a name
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356630:
     id: 356630
     name: ZN-28 Nova Knives
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356632:
     id: 356632
     name: Ishukone Nova Knives
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356831:
     id: 356831
     name: '''Dren'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356833:
     id: 356833
     name: '''Dren'' Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356835:
     id: 356835
     name: '''Dren'' Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356837:
     id: 356837
     name: '''Dren'' Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356839:
     id: 356839
     name: '''Covenant'' Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356847:
     id: 356847
     name: Militia Locus Grenade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356848:
     id: 356848
     name: Militia Assault Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356849:
     id: 356849
     name: Militia Submachine Gun Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 480.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356850:
     id: 356850
     name: Militia Sniper Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356851:
     id: 356851
     name: Militia Swarm Launcher Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356852:
     id: 356852
     name: Militia Scrambler Pistol Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356853:
     id: 356853
     name: Militia Shotgun Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356913:
     id: 356913
     name: '''Exile'' Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356914:
     id: 356914
     name: '''Syndicate'' Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356925:
     id: 356925
     name: Sniper Rifle [Experimental]
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363069:
     id: 363069
     name: Thukker Contact Locus Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23190.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363105:
     id: 363105
     name: ACOG Test Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 77720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363106:
     id: 363106
     name: Ironsight Test Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 53640.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363107:
     id: 363107
     name: Red Dot Test Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 77720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363309:
     id: 363309
     name: Militia Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363350:
     id: 363350
     name: Balac's MRN-30 Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 56925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363351:
     id: 363351
     name: Balac's N-17 Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363355:
     id: 363355
     name: KLA-90 Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363356:
     id: 363356
     name: Allotek Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363357:
     id: 363357
     name: '''Charstone'' Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363358:
     id: 363358
     name: '''Ripshade'' KLA-90 Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363359:
     id: 363359
     name: '''Deadflood'' Allotek Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363394:
     id: 363394
     name: '''Burnstalk'' Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363395:
     id: 363395
     name: '''Deathchorus'' ELM-7 Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363396:
     id: 363396
     name: '''Rawspark'' Viziam Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363398:
     id: 363398
     name: '''Toxin'' Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363406:
     id: 363406
     name: HK-2 Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363408:
     id: 363408
     name: Hacked EX-0 AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363491:
     id: 363491
     name: Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363551:
     id: 363551
     name: Magsec SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363570:
     id: 363570
     name: Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363578:
     id: 363578
     name: Ion Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363592:
     id: 363592
     name: Bolt Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363604:
     id: 363604
     name: Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363770:
     id: 363770
     name: Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363774:
     id: 363774
     name: Core Seeker Flaylock
@@ -3193,83 +2805,73 @@ types:
   363848:
     id: 363848
     name: '''Ashborne'' Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363849:
     id: 363849
     name: '''Shrinesong'' CRW-04 Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363850:
     id: 363850
     name: '''Bloodgrail'' Viziam Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363851:
     id: 363851
     name: CRD-9 Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363852:
     id: 363852
     name: Carthum Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363857:
     id: 363857
     name: '''Sinwarden'' CRD-9 Assault Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363858:
     id: 363858
     name: '''Stormvein'' Carthum Assault Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364102:
     id: 364102
     name: Recruit Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364103:
     id: 364103
     name: Recruit Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364200:
     id: 364200
     name: '''Black Eagle'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364201:
     id: 364201
     name: '''Black Eagle'' Assault Rifle'
@@ -3279,1929 +2881,1688 @@ types:
   364331:
     id: 364331
     name: Staff Recruiter Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364332:
     id: 364332
     name: Staff Recruiter Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364333:
     id: 364333
     name: Staff Recruiter Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364334:
     id: 364334
     name: Staff Recruiter Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364559:
     id: 364559
     name: '''Templar'' Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364561:
     id: 364561
     name: '''Templar'' Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364563:
     id: 364563
     name: '''Templar'' Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364786:
     id: 364786
     name: '''Scorchtalon'' Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364787:
     id: 364787
     name: '''Blackprey'' ZN-28 Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364788:
     id: 364788
     name: '''Fleshriver'' Ishukone Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365409:
     id: 365409
     name: Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365441:
     id: 365441
     name: RS-90 Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365442:
     id: 365442
     name: Boundless Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365443:
     id: 365443
     name: BK-42 Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365444:
     id: 365444
     name: Six Kin Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365447:
     id: 365447
     name: SB-39 Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365448:
     id: 365448
     name: Kaalakiota Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365449:
     id: 365449
     name: Ishukone Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365450:
     id: 365450
     name: SL-4 Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365451:
     id: 365451
     name: '''Woundriot'' Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365452:
     id: 365452
     name: '''Leadgrave'' RS-90 Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365453:
     id: 365453
     name: '''Doomcradle'' BK-42 Assault Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365454:
     id: 365454
     name: '''Fearcrop'' Boundless Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365455:
     id: 365455
     name: '''Blisterrain'' Six Kin Assault Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365456:
     id: 365456
     name: '''Angerstar'' Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365457:
     id: 365457
     name: '''Grimcell'' SB-39 Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365458:
     id: 365458
     name: '''Bleakanchor'' SL-4 Assault Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365459:
     id: 365459
     name: '''Zerofrost'' Kaalakiota Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365460:
     id: 365460
     name: '''Crawtide'' Ishukone Assault Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365566:
     id: 365566
     name: N7-A Magsec SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365567:
     id: 365567
     name: Kaalakiota Magsec SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365568:
     id: 365568
     name: '''Gravepin'' N7-A Magsec SMG'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365569:
     id: 365569
     name: '''Chokegrin'' Kaalakiota Magsec SMG'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365570:
     id: 365570
     name: '''Skyglitch'' Magsec SMG'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365572:
     id: 365572
     name: T-12 Ion Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365573:
     id: 365573
     name: CreoDron Ion Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365574:
     id: 365574
     name: '''Wildlight'' Ion Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365575:
     id: 365575
     name: '''Scattershin'' T-12 Ion Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365576:
     id: 365576
     name: '''Vaporlaw'' CreoDron Ion Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365577:
     id: 365577
     name: SR-25 Bolt Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365578:
     id: 365578
     name: Kaalakiota Bolt Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 21240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365579:
     id: 365579
     name: '''Guardwire'' Bolt Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365580:
     id: 365580
     name: '''Shiftrisk'' SR-25 Bolt Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365581:
     id: 365581
     name: '''Nodeasylum'' Kaalakiota Bolt Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365623:
     id: 365623
     name: '''Construct'' Duvolle Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365624:
     id: 365624
     name: '''Construct'' Six Kin Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365625:
     id: 365625
     name: '''Construct'' Kaalakiota Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365626:
     id: 365626
     name: '''Construct'' Ishukone Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365627:
     id: 365627
     name: '''Construct'' Wiyrkomi Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365628:
     id: 365628
     name: '''Construct'' Viziam Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365629:
     id: 365629
     name: '''Construct'' CreoDron Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365630:
     id: 365630
     name: '''Construct'' Viziam Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365631:
     id: 365631
     name: '''Construct'' Boundless Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365632:
     id: 365632
     name: '''Construct'' Freedom Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365633:
     id: 365633
     name: '''Construct'' Imperial Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365634:
     id: 365634
     name: '''Construct'' Core Flaylock Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365635:
     id: 365635
     name: '''Construct'' Allotek Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365636:
     id: 365636
     name: '''Construct'' Ishukone Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365650:
     id: 365650
     name: '''Pyrus'' Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365651:
     id: 365651
     name: '''Pyrus'' ATK-21 Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365652:
     id: 365652
     name: '''Pyrus'' Allotek Assault Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365654:
     id: 365654
     name: '''Pyrus'' Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365655:
     id: 365655
     name: '''Pyrus'' ATK-05 Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365656:
     id: 365656
     name: '''Pyrus'' Allotek Submachine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365657:
     id: 365657
     name: '''Pyrus'' Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365658:
     id: 365658
     name: '''Pyrus'' ATK-90 Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365659:
     id: 365659
     name: '''Pyrus'' Allotek Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365660:
     id: 365660
     name: '''Pyrus'' Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365661:
     id: 365661
     name: '''Pyrus'' ATK-58 Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365662:
     id: 365662
     name: '''Pyrus'' Allotek Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365663:
     id: 365663
     name: '''Pyrus'' Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365664:
     id: 365664
     name: '''Pyrus'' ATK-32 Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365665:
     id: 365665
     name: '''Pyrus'' Allotek Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365666:
     id: 365666
     name: '''Pyrus'' Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365667:
     id: 365667
     name: '''Pyrus'' ATK-17 Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365668:
     id: 365668
     name: '''Pyrus'' Allotek Scrambler Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365669:
     id: 365669
     name: '''Pyrus'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365670:
     id: 365670
     name: '''Pyrus'' ATK-44 Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365671:
     id: 365671
     name: '''Pyrus'' Allotek Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365673:
     id: 365673
     name: '''Pyrus'' Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365674:
     id: 365674
     name: '''Pyrus'' ATK-50 Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365675:
     id: 365675
     name: '''Pyrus'' Allotek Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365676:
     id: 365676
     name: '''Pyrus'' Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365677:
     id: 365677
     name: '''Pyrus'' ATK-108 Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365678:
     id: 365678
     name: '''Pyrus'' Allotek Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365679:
     id: 365679
     name: '''Pyrus'' Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365680:
     id: 365680
     name: '''Pyrus'' ATK-43 Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365681:
     id: 365681
     name: '''Pyrus'' Allotek Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365682:
     id: 365682
     name: '''Pyrus'' Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365683:
     id: 365683
     name: '''Pyrus'' ATK-30 Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365684:
     id: 365684
     name: '''Pyrus'' Allotek Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365685:
     id: 365685
     name: '''Pyrus'' Flaylock Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365686:
     id: 365686
     name: '''Pyrus'' ATK-9 Flaylock Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365687:
     id: 365687
     name: '''Pyrus'' Allotek Flaylock Pistol'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365688:
     id: 365688
     name: '''Pyrus'' Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365689:
     id: 365689
     name: '''Pyrus'' ATK-73 Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365690:
     id: 365690
     name: '''Pyrus'' Allotek Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365691:
     id: 365691
     name: '''Pyrus'' Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365692:
     id: 365692
     name: '''Pyrus'' ATK-11 Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365693:
     id: 365693
     name: '''Pyrus'' Allotek Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366009:
     id: 366009
     name: Contact Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366014:
     id: 366014
     name: D-9 Contact Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366015:
     id: 366015
     name: Viziam Contact Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366094:
     id: 366094
     name: Federation Duvolle Specialist Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366095:
     id: 366095
     name: Republic Boundless Specialist Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366096:
     id: 366096
     name: Imperial Viziam Specialist Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366097:
     id: 366097
     name: Republic Freedom Specialist Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366098:
     id: 366098
     name: Federation Allotek Specialist Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366099:
     id: 366099
     name: State Kaalakiota Specialist Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366100:
     id: 366100
     name: Imperial Viziam Specialist Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366101:
     id: 366101
     name: Federation CreoDron Specialist Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366102:
     id: 366102
     name: State Ishukone Specialist Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366103:
     id: 366103
     name: State Wiyrkomi Specialist Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366344:
     id: 366344
     name: '''Imperial Guard'' VZN-20 Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366345:
     id: 366345
     name: '''Imperial Guard'' Viziam Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366372:
     id: 366372
     name: Federation Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366373:
     id: 366373
     name: Federation GK-13 Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366374:
     id: 366374
     name: Federation GEK-38 Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366375:
     id: 366375
     name: Federation Duvolle Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366376:
     id: 366376
     name: Federation Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366377:
     id: 366377
     name: Federation KLA-90 Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366378:
     id: 366378
     name: Federation Allotek Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366379:
     id: 366379
     name: Federation Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366380:
     id: 366380
     name: Federation CRG-3 Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366381:
     id: 366381
     name: Federation CreoDron Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366385:
     id: 366385
     name: Federation 20GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366386:
     id: 366386
     name: Federation 20GJ Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366387:
     id: 366387
     name: Federation 20GJ Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366388:
     id: 366388
     name: Federation 80GJ Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366389:
     id: 366389
     name: Federation 80GJ Neutron Blaster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366390:
     id: 366390
     name: Federation 80GJ Ion Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366424:
     id: 366424
     name: Imperial Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366425:
     id: 366425
     name: Imperial CRW-04 Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366426:
     id: 366426
     name: Imperial CRD-9 Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366427:
     id: 366427
     name: Imperial Viziam Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366428:
     id: 366428
     name: Imperial Carthum Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366429:
     id: 366429
     name: Imperial Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366430:
     id: 366430
     name: Imperial ELM-7 Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366431:
     id: 366431
     name: Imperial Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366432:
     id: 366432
     name: Imperial Viziam Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366433:
     id: 366433
     name: Imperial CAR-9 Burst Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366434:
     id: 366434
     name: Imperial Viziam Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366452:
     id: 366452
     name: Republic Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366453:
     id: 366453
     name: Republic MH-82 Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366454:
     id: 366454
     name: Republic Boundless Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366455:
     id: 366455
     name: Republic Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366456:
     id: 366456
     name: Republic M512-A Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366457:
     id: 366457
     name: Republic Six Kin Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366458:
     id: 366458
     name: Republic Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366459:
     id: 366459
     name: Republic GN-13 Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366460:
     id: 366460
     name: Republic Core Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366461:
     id: 366461
     name: Republic Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366462:
     id: 366462
     name: Republic EXO-5 Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366463:
     id: 366463
     name: Republic Freedom Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366464:
     id: 366464
     name: Republic SK9M Breach Submachine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366495:
     id: 366495
     name: State Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366496:
     id: 366496
     name: State Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366497:
     id: 366497
     name: State Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366498:
     id: 366498
     name: State SL-4 Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366499:
     id: 366499
     name: State CBR7 Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366500:
     id: 366500
     name: State C15-A Tactical Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366501:
     id: 366501
     name: State NT-511 Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366502:
     id: 366502
     name: State SB-39 Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10770.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366503:
     id: 366503
     name: State Ishukone Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366504:
     id: 366504
     name: State Wiyrkomi Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366505:
     id: 366505
     name: State Kaalakiota Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366506:
     id: 366506
     name: State Kaalakiota Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 28845.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366510:
     id: 366510
     name: State ST-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366511:
     id: 366511
     name: State ST-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366512:
     id: 366512
     name: State 20GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366513:
     id: 366513
     name: State 80GJ Railgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64305.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366514:
     id: 366514
     name: State AT-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366515:
     id: 366515
     name: State 80GJ Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366516:
     id: 366516
     name: State AT-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 172260.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366517:
     id: 366517
     name: State 20GJ Particle Accelerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64605.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366518:
     id: 366518
     name: State XT-1 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366519:
     id: 366519
     name: State 80GJ Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366520:
     id: 366520
     name: State 20GJ Particle Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 105735.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366521:
     id: 366521
     name: State XT-201 Missile Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 281955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367223:
     id: 367223
     name: Militia Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367226:
     id: 367226
     name: Militia Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367227:
     id: 367227
     name: Militia Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367228:
     id: 367228
     name: Militia Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367229:
     id: 367229
     name: Militia Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367230:
     id: 367230
     name: Militia Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367436:
     id: 367436
     name: Militia Ion Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367437:
     id: 367437
     name: Militia Bolt Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367439:
     id: 367439
     name: Militia Magsec SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367440:
     id: 367440
     name: Militia Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367472:
     id: 367472
     name: Militia Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367477:
     id: 367477
     name: Kubo’s GMK-16 Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367489:
     id: 367489
     name: Beacon’s ELI-74 Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367500:
     id: 367500
     name: Symb's FORK-5 Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367502:
     id: 367502
     name: Agimus' Modified AGO-56 Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367511:
     id: 367511
     name: Luis' Modified VC-107 Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367517:
     id: 367517
     name: Kalante's RXS-05 Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367519:
     id: 367519
     name: Ghalag's Modified MRT-17 Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367528:
     id: 367528
     name: Darth's GIO-66 Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367541:
     id: 367541
     name: Viktor’s NEG-1 Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367548:
     id: 367548
     name: Alex's Modified ZX-030 Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367549:
     id: 367549
     name: Alldin's IMP-10 Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367552:
     id: 367552
     name: Bons' SIN-7 Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 126495.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367586:
     id: 367586
     name: Militia Nova Knives
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367587:
     id: 367587
     name: Militia Flaylock Pistol Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367589:
     id: 367589
     name: Militia Bolt Pistol Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367590:
     id: 367590
     name: Militia Ion Pistol Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367591:
     id: 367591
     name: Militia Nova Knife Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367592:
     id: 367592
     name: Militia Magsec SMG Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367621:
     id: 367621
     name: Militia Scrambler Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367622:
     id: 367622
     name: Militia Laser Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367623:
     id: 367623
     name: Militia Rail Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367624:
     id: 367624
     name: Militia Combat Rifle Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367625:
     id: 367625
     name: Militia Plasma Cannon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367627:
     id: 367627
     name: Militia Heavy Machine Gun Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367628:
     id: 367628
     name: Militia Forge Gun Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367629:
     id: 367629
     name: Militia Mass Driver Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367630:
     id: 367630
     name: Militia Flux Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367631:
     id: 367631
     name: Militia Flux Grenade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367632:
     id: 367632
     name: Militia AV Grenade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367633:
     id: 367633
     name: Militia AV Grenade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 180.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367813:
     id: 367813
     name: Republic Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367848:
     id: 367848
     name: Federation Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2460.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367992:
     id: 367992
     name: Militia Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367994:
     id: 367994
     name: Militia Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   367996:
     id: 367996
     name: Militia Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368014:
     id: 368014
     name: Imperial Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368015:
     id: 368015
     name: State Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368016:
     id: 368016
     name: Federation Breach Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4020.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368245:
     id: 368245
     name: X-MS15 Snowball Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368519:
     id: 368519
     name: X-MS Snowball Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368540:
     id: 368540
     name: '''Quafe'' ST-201 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368541:
     id: 368541
     name: '''Quafe'' ST-1 Missile Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368542:
     id: 368542
     name: '''Quafe'' 80GJ Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368543:
     id: 368543
     name: '''Quafe'' 20GJ Blaster'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368544:
     id: 368544
     name: '''Quafe'' 80GJ Railgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368545:
     id: 368545
     name: '''Quafe'' 20GJ Railgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368556:
     id: 368556
     name: '''Quafe'' Heavy Machine Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368557:
     id: 368557
     name: '''Quafe'' Forge Gun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368558:
     id: 368558
     name: '''Quafe'' Nova Knives'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368559:
     id: 368559
     name: '''Quafe'' Mass Driver'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368560:
     id: 368560
     name: '''Quafe'' Swarm Launcher'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368561:
     id: 368561
     name: '''Quafe'' Assault Rifle'
@@ -5211,264 +4572,231 @@ types:
   368562:
     id: 368562
     name: '''Quafe'' Plasma Cannon'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368563:
     id: 368563
     name: '''Quafe'' Shotgun'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368564:
     id: 368564
     name: '''Quafe'' Rail Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368565:
     id: 368565
     name: '''Quafe'' Sniper Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368566:
     id: 368566
     name: '''Quafe'' Laser Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368567:
     id: 368567
     name: '''Quafe'' Scrambler Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368568:
     id: 368568
     name: '''Quafe'' Combat Rifle'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368587:
     id: 368587
     name: Solar's PAR-8 Flaylock Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368588:
     id: 368588
     name: Kubo's PE-165 Ion Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368589:
     id: 368589
     name: Ghalag's OCT-91 Bolt Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368590:
     id: 368590
     name: Nanaki's LORB-7 Magsec SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368591:
     id: 368591
     name: Kubo's PX-6 Scrambler Pistol
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368592:
     id: 368592
     name: Nothi's NOS-47 Nova Knives
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368593:
     id: 368593
     name: Alex's Modified VC-107 SMG
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 86000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368595:
     id: 368595
     name: Experimental Heavy Machine Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368596:
     id: 368596
     name: Experimental Forge Gun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368597:
     id: 368597
     name: Experimental Mass Driver
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368598:
     id: 368598
     name: Experimental Swarm Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368599:
     id: 368599
     name: Experimental Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368600:
     id: 368600
     name: Experimental Plasma Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368601:
     id: 368601
     name: Experimental Shotgun
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368602:
     id: 368602
     name: Experimental Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368603:
     id: 368603
     name: Experimental Sniper Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368604:
     id: 368604
     name: Experimental Laser Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368605:
     id: 368605
     name: Experimental Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368606:
     id: 368606
     name: Experimental Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368607:
     id: 368607
     name: Experimental Assault Combat Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368608:
     id: 368608
     name: Experimental Assault Scrambler Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368609:
     id: 368609
     name: Experimental Assault Rail Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368610:
     id: 368610
     name: Experimental Tactical Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368611:
     id: 368611
     name: Experimental Breach Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368612:
     id: 368612
     name: Experimental Burst Assault Rifle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 80000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   371027:
     id: 371027
     name: X-MS16 Snowball Launcher
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 47220.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

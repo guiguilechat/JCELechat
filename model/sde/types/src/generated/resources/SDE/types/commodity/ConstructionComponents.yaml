@@ -5,10 +5,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Plasma Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11531:
     id: 11531
@@ -16,10 +14,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Ion Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11532:
     id: 11532
@@ -27,10 +23,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fusion Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11533:
     id: 11533
@@ -38,10 +32,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Magpulse Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11534:
     id: 11534
@@ -49,10 +41,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Gravimetric Sensor Cluster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11535:
     id: 11535
@@ -60,10 +50,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Magnetometric Sensor Cluster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11536:
     id: 11536
@@ -71,10 +59,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Ladar Sensor Cluster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11537:
     id: 11537
@@ -82,10 +68,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Radar Sensor Cluster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11538:
     id: 11538
@@ -93,10 +77,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Nanomechanical Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11539:
     id: 11539
@@ -104,10 +86,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Nanoelectrical Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11540:
     id: 11540
@@ -115,10 +95,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Quantum Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11541:
     id: 11541
@@ -126,10 +104,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Photon Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11542:
     id: 11542
@@ -137,10 +113,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fernite Carbide Composite Armor Plate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11543:
     id: 11543
@@ -148,10 +122,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Tungsten Carbide Armor Plate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11544:
     id: 11544
@@ -159,10 +131,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Titanium Diborite Armor Plate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11545:
     id: 11545
@@ -170,10 +140,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Crystalline Carbonide Armor Plate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11547:
     id: 11547
@@ -181,10 +149,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fusion Reactor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11548:
     id: 11548
@@ -192,10 +158,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Nuclear Reactor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11549:
     id: 11549
@@ -203,10 +167,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Antimatter Reactor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11550:
     id: 11550
@@ -214,10 +176,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Graviton Reactor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11551:
     id: 11551
@@ -225,10 +185,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Electrolytic Capacitor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11552:
     id: 11552
@@ -236,10 +194,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Scalar Capacitor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11553:
     id: 11553
@@ -247,10 +203,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Oscillator Capacitor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11554:
     id: 11554
@@ -258,10 +212,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Tesseract Capacitor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11555:
     id: 11555
@@ -269,10 +221,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Deflection Shield Emitter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11556:
     id: 11556
@@ -280,10 +230,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Pulse Shield Emitter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11557:
     id: 11557
@@ -291,10 +239,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Linear Shield Emitter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11558:
     id: 11558
@@ -302,10 +248,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Sustained Shield Emitter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11688:
     id: 11688
@@ -313,10 +257,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Particle Accelerator Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11689:
     id: 11689
@@ -324,10 +266,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Laser Focusing Crystals
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11690:
     id: 11690
@@ -335,10 +275,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Superconductor Rails
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11691:
     id: 11691
@@ -346,10 +284,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Thermonuclear Trigger Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11692:
     id: 11692
@@ -357,10 +293,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Nuclear Pulse Generator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11693:
     id: 11693
@@ -368,10 +302,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Graviton Pulse Generator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11694:
     id: 11694
@@ -379,10 +311,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: EM Pulse Generator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   11695:
     id: 11695
@@ -390,10 +320,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Plasma Pulse Generator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   33195:
     id: 33195
@@ -401,7 +329,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Spatial Attunement Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -411,7 +338,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Radiation Absorption Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -421,7 +347,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Singularity Radiation Convertor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -431,7 +356,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Zero-Point Field Manipulator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -441,7 +365,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Trinary State Processor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -451,7 +374,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Lattice Locked Dekaisogen
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -461,7 +383,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Capital Singularity Radiation Convertor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -471,7 +392,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Capital Zero-Point Field Manipulator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -481,17 +401,15 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Capital Trinary State Processor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   57470:
     id: 57470
     marketGroup: 802
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: U-C Trigger Neurolink Conduit
-    packagedVolume: 16.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -499,10 +417,9 @@ types:
   57471:
     id: 57471
     marketGroup: 803
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: R-O Trigger Neurolink Conduit
-    packagedVolume: 16.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -510,10 +427,9 @@ types:
   57472:
     id: 57472
     marketGroup: 1888
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: S-R Trigger Neurolink Conduit
-    packagedVolume: 16.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -521,10 +437,9 @@ types:
   57473:
     id: 57473
     marketGroup: 1889
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: G-O Trigger Neurolink Conduit
-    packagedVolume: 16.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -532,10 +447,9 @@ types:
   57478:
     id: 57478
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Auto-Integrity Preservation Seal
-    packagedVolume: 16.0
     portionSize: 1
     price: 10000.0
     published: true
@@ -543,10 +457,9 @@ types:
   57479:
     id: 57479
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Core Temperature Regulator
-    packagedVolume: 180.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -554,21 +467,19 @@ types:
   57480:
     id: 57480
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Programmable Purification Membrane
-    packagedVolume: 8000.0
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
     volume: 8000.0
   57481:
     id: 57481
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Genetic Lock Preserver
-    packagedVolume: 1.0
     portionSize: 1
     price: 1500000.0
     published: true
@@ -576,32 +487,29 @@ types:
   57482:
     id: 57482
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Genetic Safeguard Filter
-    packagedVolume: 1.0
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
     volume: 1.0
   57483:
     id: 57483
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Neurolink Enhancer Reservoir
-    packagedVolume: 400.0
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
     volume: 400.0
   57484:
     id: 57484
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Genetic Structure Repairer
-    packagedVolume: 1.0
     portionSize: 1
     price: 1500000.0
     published: true
@@ -609,10 +517,9 @@ types:
   57485:
     id: 57485
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Genetic Mutation Inhibitor
-    packagedVolume: 1.0
     portionSize: 1
     price: 1500000.0
     published: true
@@ -620,10 +527,9 @@ types:
   57486:
     id: 57486
     marketGroup: 2768
-    mass: 0.10000000149011612
+    mass: 0.1
     moonminingamount: 1
     name: Life Support Backup Unit
-    packagedVolume: 45.0
     portionSize: 1
     price: 10000.0
     published: true
@@ -634,10 +540,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fission Thruster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81064:
     id: 81064
@@ -645,10 +549,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Hyperconductive Gravimetric Sensor Cluster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81065:
     id: 81065
@@ -656,10 +558,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Electromechanical Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81066:
     id: 81066
@@ -667,10 +567,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Metaprismatic Armor Plate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81067:
     id: 81067
@@ -678,10 +576,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Repelling Shield Emitter
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81068:
     id: 81068
@@ -689,10 +585,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Fission Reactor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   81069:
     id: 81069
@@ -700,10 +594,8 @@ types:
     mass: 1.0
     moonminingamount: 100
     name: Pentachoron Capacitor Unit
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   83467:
     id: 83467
@@ -711,7 +603,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Angel NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -722,7 +613,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Blood Raider NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -733,7 +623,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Guristas NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -744,7 +633,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Mordu NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -755,7 +643,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Sansha NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -766,7 +653,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: Serpentis NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true
@@ -777,7 +663,6 @@ types:
     mass: 1.0
     moonminingamount: 1
     name: SoE NET Resonator
-    packagedVolume: 1.0
     portionSize: 1
     price: 500000.0
     published: true

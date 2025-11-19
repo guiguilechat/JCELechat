@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
@@ -38,7 +37,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadDamageModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -306,7 +304,7 @@ public class PrecursorWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType4 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, TargetModule.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, ChargeSize.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, ChargeGroup1 .INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, TechLevel.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, TargetModule.INSTANCE })));
     public static final PrecursorWeapon.MetaGroup METAGROUP = new PrecursorWeapon.MetaGroup();
 
     @Override

@@ -5,7 +5,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0E7
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -13,15 +12,14 @@ types:
     id: 13780
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Equipment Assembly Array
     onliningdelay: 3000
-    packagedVolume: 6250.0
     portionSize: 1
     power: 90000
-    price: 6.0E7
+    price: 60000000.0
     published: true
     radius: 1672.0
     requiredskill1: 11584
@@ -44,7 +42,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.0E7
     cpu: 200.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -52,15 +49,14 @@ types:
     id: 16220
     isramcompatible: 1
     marketGroup: 932
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Rapid Equipment Assembly Array
     onliningdelay: 3000
-    packagedVolume: 6250.0
     portionSize: 1
     power: 110000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584
@@ -83,7 +79,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2000000.0
     cpu: 250.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -91,15 +86,14 @@ types:
     id: 24574
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Small Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 10000.0
     portionSize: 1
     power: 100000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -122,7 +116,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 3.2E8
     cpu: 2000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -130,15 +123,14 @@ types:
     id: 24575
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Supercapital Ship Assembly Array
     onliningdelay: 10000
-    packagedVolume: 850000.0
     portionSize: 1
     power: 1000000
-    price: 2.0E9
+    price: 2000000000.0
     published: true
     radius: 12954.0
     requiredskill1: 11584
@@ -162,7 +154,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2000000.0
     cpu: 250.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -170,15 +161,14 @@ types:
     id: 24653
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Small Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 10000.0
     portionSize: 1
     power: 100000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -201,7 +191,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2000000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -209,15 +198,14 @@ types:
     id: 24654
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Medium Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 17000.0
     portionSize: 1
     power: 200000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -240,7 +228,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2000000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -248,15 +235,14 @@ types:
     id: 24655
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Medium Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 17000.0
     portionSize: 1
     power: 200000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -275,11 +261,10 @@ types:
     volume: 17000.0
   24656:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.85005E7
     cpu: 1000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -287,15 +272,14 @@ types:
     id: 24656
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Capital Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 25000.0
     portionSize: 1
     power: 300000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -318,7 +302,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.95E7
     cpu: 1000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -326,15 +309,14 @@ types:
     id: 24657
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Advanced Large Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 25000.0
     portionSize: 1
     power: 300000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -357,7 +339,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1000000.0
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -365,15 +346,14 @@ types:
     id: 24658
     isramcompatible: 1
     marketGroup: 932
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Ammunition Assembly Array
     onliningdelay: 3000
-    packagedVolume: 1250.0
     portionSize: 1
     power: 50000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584
@@ -396,7 +376,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1000000.0
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -404,15 +383,14 @@ types:
     id: 24659
     isramcompatible: 1
     marketGroup: 932
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Drone Assembly Array
     onliningdelay: 3000
-    packagedVolume: 1250.0
     portionSize: 1
     power: 50000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584
@@ -435,7 +413,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.05E7
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -443,15 +420,14 @@ types:
     id: 24660
     isramcompatible: 1
     marketGroup: 932
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Component Assembly Array
     onliningdelay: 3000
-    packagedVolume: 12500.0
     portionSize: 1
     power: 50000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584
@@ -474,7 +450,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 100000.0
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -482,15 +457,14 @@ types:
     id: 25305
     isramcompatible: 1
     marketGroup: 933
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Drug Lab
     onliningdelay: 3000
-    packagedVolume: 1250.0
     portionSize: 1
     power: 50000
-    price: 7.5E7
+    price: 75000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584
@@ -513,7 +487,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.85005E7
     cpu: 1000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -521,15 +494,14 @@ types:
     id: 29613
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Large Ship Assembly Array
     onliningdelay: 3000
-    packagedVolume: 25000.0
     portionSize: 1
     power: 300000
-    price: 9.0E7
+    price: 90000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -552,7 +524,6 @@ types:
     anchoringsecuritylevelmin: -1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2000000.0
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -560,15 +531,14 @@ types:
     id: 30389
     isramcompatible: 1
     marketGroup: 932
-    mass: 2.0E8
+    mass: 200000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     name: Subsystem Assembly Array
     onliningdelay: 3000
-    packagedVolume: 17000.0
     portionSize: 1
     power: 200000
-    price: 1.0E8
+    price: 100000000.0
     published: true
     radius: 1857.0
     requiredskill1: 11584
@@ -587,11 +557,10 @@ types:
     volume: 17000.0
   33867:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
-    anchoringsecuritylevelmin: 0.10000000149011612
+    anchoringsecuritylevelmax: 0.4
+    anchoringsecuritylevelmin: 0.1
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1000000.0
     cpu: 150.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
@@ -599,16 +568,15 @@ types:
     id: 33867
     isramcompatible: 1
     marketGroup: 932
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 1
     metagroupid: 4
     name: Thukker Component Assembly Array
     onliningdelay: 3000
-    packagedVolume: 12500.0
     portionSize: 1
     power: 50000
-    price: 1.0E7
+    price: 10000000.0
     published: true
     radius: 937.0
     requiredskill1: 11584

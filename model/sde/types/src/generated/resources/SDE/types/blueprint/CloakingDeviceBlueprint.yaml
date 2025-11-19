@@ -1,75 +1,61 @@
 types:
   12104:
     id: 12104
-    industryblueprintrank: 31.200000762939453
+    industryblueprintrank: 31.2
     name: Improved Cloaking Device II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12105:
     id: 12105
     industryblueprintrank: 39.0
     name: Covert Ops Cloaking Device II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   13000:
     id: 13000
     industryblueprintrank: 15.0
     marketGroup: 430
     name: Prototype Cloaking Device I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15791:
     id: 15791
     industryblueprintrank: 15.0
     name: Caldari Navy Cloaking Device Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20562:
     id: 20562
     industryblueprintrank: 15.0
     name: Prototype 'Poncho' Cloaking Device I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20564:
     id: 20564
     industryblueprintrank: 39.0
     name: '''Smokescreen'' Covert Ops Cloaking Device II Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20566:
     id: 20566
-    industryblueprintrank: 31.200000762939453
+    industryblueprintrank: 31.2
     name: Improved 'Guise' Cloaking Device II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

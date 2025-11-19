@@ -10,10 +10,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Legion Core - Dissolution Sequencer
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30539
     requiredskill1level: 1
     subsystembonusamarrcore: 15
@@ -33,11 +31,9 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Legion Core - Augmented Antimatter Reactor
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 20.0
     published: true
-    radius: 1.0
     requiredskill1: 30539
     requiredskill1level: 1
     subsystembonusamarrcore: 5
@@ -56,10 +52,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Legion Core - Energy Parasitic Complex
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30539
     requiredskill1level: 1
     subsystembonusamarrcore: -5
@@ -81,10 +75,8 @@ types:
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Core - Electronic Efficiency Gate
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30548
     requiredskill1level: 1
     subsystembonuscaldaricore: 15
@@ -103,11 +95,9 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Tengu Core - Augmented Graviton Reactor
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 20.0
     published: true
-    radius: 1.0
     requiredskill1: 30548
     requiredskill1level: 1
     subsystembonuscaldaricore: 5
@@ -125,10 +115,8 @@ types:
     medslotmodifier: 3
     metalevelold: 1
     name: Tengu Core - Obfuscation Manifold
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30548
     requiredskill1level: 1
     subsystembonuscaldaricore: -5
@@ -149,10 +137,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Core - Electronic Efficiency Gate
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30546
     requiredskill1level: 1
     subsystembonusgallentecore: 15.0
@@ -171,11 +157,9 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Core - Augmented Fusion Reactor
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 20.0
     published: true
-    radius: 1.0
     requiredskill1: 30546
     requiredskill1level: 1
     subsystembonusgallentecore: -5.0
@@ -193,10 +177,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Proteus Core - Friction Extension Processor
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30546
     requiredskill1level: 1
     subsystembonusgallentecore: -5.0
@@ -216,10 +198,8 @@ types:
     medslotmodifier: 2
     metalevelold: 1
     name: Loki Core - Dissolution Sequencer
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30547
     requiredskill1level: 1
     subsystembonusminmatarcore: 15
@@ -239,11 +219,9 @@ types:
     medslotmodifier: 1
     metalevelold: 1
     name: Loki Core - Augmented Nuclear Reactor
-    packagedVolume: 40.0
     portionSize: 1
     powerengineeringoutputbonus: 20.0
     published: true
-    radius: 1.0
     requiredskill1: 30547
     requiredskill1level: 1
     subsystembonusminmatarcore: -5
@@ -261,10 +239,8 @@ types:
     medslotmodifier: 3
     metalevelold: 1
     name: Loki Core - Immobility Drivers
-    packagedVolume: 40.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30547
     requiredskill1level: 1
     subsystembonusminmatarcore: -5

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
@@ -169,7 +167,7 @@ public class CoreSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int subsystemenergyneutfittingreduction;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrCore.INSTANCE, SubsystemBonusGallenteCore.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, SubsystemBonusCaldariCore.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusAmarrCore2 .INSTANCE, SubsystemBonusMinmatarCore.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, SubsystemEnergyNeutFittingReduction.INSTANCE, MaxLockedTargetsBonus.INSTANCE, SubsystemBonusCaldariCore2 .INSTANCE, SubsystemBonusGallenteCore2 .INSTANCE, SubsystemBonusMinmatarCore2 .INSTANCE, RequiredSkill1 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, SubsystemBonusAmarrCore3 .INSTANCE, MetaLevelOld.INSTANCE, SubsystemBonusCaldariCore3 .INSTANCE, SubsystemBonusGallenteCore3 .INSTANCE, SubsystemBonusMinmatarCore3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrCore.INSTANCE, SubsystemBonusGallenteCore.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, SubsystemBonusCaldariCore.INSTANCE, CapacitorCapacity.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusAmarrCore2 .INSTANCE, SubsystemBonusMinmatarCore.INSTANCE, TechLevel.INSTANCE, CpuOutputBonus2 .INSTANCE, SubsystemEnergyNeutFittingReduction.INSTANCE, MaxLockedTargetsBonus.INSTANCE, SubsystemBonusCaldariCore2 .INSTANCE, SubsystemBonusGallenteCore2 .INSTANCE, SubsystemBonusMinmatarCore2 .INSTANCE, RequiredSkill1 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, SubsystemBonusAmarrCore3 .INSTANCE, MetaLevelOld.INSTANCE, SubsystemBonusCaldariCore3 .INSTANCE, SubsystemBonusGallenteCore3 .INSTANCE, SubsystemBonusMinmatarCore3 .INSTANCE })));
     public static final CoreSubsystem.MetaGroup METAGROUP = new CoreSubsystem.MetaGroup();
 
     @Override

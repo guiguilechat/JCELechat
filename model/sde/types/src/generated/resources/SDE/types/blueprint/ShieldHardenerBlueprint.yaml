@@ -4,207 +4,169 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 1548
     name: Multispectrum Shield Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2282:
     id: 2282
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Multispectrum Shield Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2290:
     id: 2290
     industryblueprintrank: 6.0
     marketGroup: 1548
     name: Explosive Shield Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2292:
     id: 2292
     industryblueprintrank: 6.0
     marketGroup: 1548
     name: Kinetic Shield Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2294:
     id: 2294
     industryblueprintrank: 6.0
     marketGroup: 1548
     name: EM Shield Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2296:
     id: 2296
     industryblueprintrank: 6.0
     marketGroup: 1548
     name: Thermal Shield Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2298:
     id: 2298
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Explosive Shield Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2300:
     id: 2300
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Kinetic Shield Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2302:
     id: 2302
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: EM Shield Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   2304:
     id: 2304
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Thermal Shield Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20634:
     id: 20634
     industryblueprintrank: 6.0
     name: '''Nugget'' Kinetic Shield Hardener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20636:
     id: 20636
     industryblueprintrank: 6.0
     name: '''Desert Heat'' Thermal Shield Hardener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20638:
     id: 20638
     industryblueprintrank: 6.0
     name: '''Posse'' Multispectrum Shield Hardener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20640:
     id: 20640
     industryblueprintrank: 6.0
     name: '''Poacher'' EM Shield Hardener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20642:
     id: 20642
     industryblueprintrank: 6.0
     name: '''Snake Eyes'' Explosive Shield Hardener Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   30343:
     id: 30343
     industryblueprintrank: 6.0
     name: Civilian Thermal Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   30421:
     id: 30421
     industryblueprintrank: 6.0
     name: Civilian EM Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   30423:
     id: 30423
     industryblueprintrank: 6.0
     name: Civilian Explosive Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   30425:
     id: 30425
     industryblueprintrank: 6.0
     name: Civilian Kinetic Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -6,11 +6,9 @@ types:
     id: 377
     marketGroup: 605
     name: Small Shield Extender I
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 2
@@ -24,11 +22,9 @@ types:
     marketGroup: 605
     metalevelold: 5
     name: Small Shield Extender II
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 3
     signatureradiusadd: 2
@@ -41,11 +37,9 @@ types:
     id: 3829
     marketGroup: 606
     name: Medium Shield Extender I
-    packagedVolume: 10.0
     portionSize: 1
     power: 28
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 7
@@ -59,11 +53,9 @@ types:
     marketGroup: 606
     metalevelold: 5
     name: Medium Shield Extender II
-    packagedVolume: 10.0
     portionSize: 1
     power: 30
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     signatureradiusadd: 7
@@ -76,11 +68,9 @@ types:
     id: 3839
     marketGroup: 608
     name: Large Shield Extender I
-    packagedVolume: 20.0
     portionSize: 1
     power: 150
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 25
@@ -94,11 +84,9 @@ types:
     marketGroup: 608
     metalevelold: 5
     name: Large Shield Extender II
-    packagedVolume: 20.0
     portionSize: 1
     power: 160
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     signatureradiusadd: 25
@@ -112,11 +100,9 @@ types:
     marketGroup: 608
     metalevelold: 1
     name: Large Azeotropic Restrained Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 150
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 15
@@ -130,11 +116,9 @@ types:
     marketGroup: 605
     metalevelold: 1
     name: Small Azeotropic Restrained Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -147,11 +131,9 @@ types:
     marketGroup: 606
     metalevelold: 1
     name: Medium Azeotropic Restrained Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 28
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 3
@@ -165,11 +147,9 @@ types:
     marketGroup: 606
     metalevelold: 1
     name: Medium F-S9 Regolith Compact Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 26
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 7
@@ -183,11 +163,9 @@ types:
     marketGroup: 605
     metalevelold: 1
     name: Small F-S9 Regolith Compact Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 2
@@ -201,11 +179,9 @@ types:
     marketGroup: 608
     metalevelold: 1
     name: Large F-S9 Regolith Compact Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 140
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 25
@@ -220,11 +196,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Small 'Wolf' Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 2
@@ -239,11 +213,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Small 'Trapper' Shield Extender
-    packagedVolume: 2.5
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -257,11 +229,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Medium 'Canyon' Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 25
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 7
@@ -276,11 +246,9 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Large 'Sheriff' Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 135
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 25
@@ -295,11 +263,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Small Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     techlevel: 1
@@ -313,11 +279,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Large Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 155
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 15
@@ -332,11 +296,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Medium Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 30
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 3
@@ -351,11 +313,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Small Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 2
@@ -370,11 +330,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Small Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 1
@@ -389,11 +347,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Medium Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 28
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 7
@@ -408,11 +364,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Medium Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     power: 26
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 5
@@ -427,11 +381,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Caldari Navy Large Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 150
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 25
@@ -446,11 +398,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Large Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     power: 145
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 20
@@ -463,11 +413,9 @@ types:
     id: 40354
     marketGroup: 2241
     name: Capital Shield Extender I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 1000
@@ -481,11 +429,9 @@ types:
     marketGroup: 2241
     metalevelold: 1
     name: Capital Azeotropic Restrained Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 800
@@ -499,11 +445,9 @@ types:
     marketGroup: 2241
     metalevelold: 1
     name: Capital F-S9 Regolith Compact Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 1000
@@ -517,11 +461,9 @@ types:
     marketGroup: 2241
     metalevelold: 5
     name: Capital Shield Extender II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 82500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     signatureradiusadd: 1200
@@ -536,11 +478,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: CONCORD Capital Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 800
@@ -555,11 +495,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Capital Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 800
@@ -574,11 +512,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dread Guristas Capital Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 800
@@ -593,11 +529,9 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Capital Shield Extender
-    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 1
     signatureradiusadd: 800
@@ -607,10 +541,8 @@ types:
     id: 47800
     mass: 1.0
     name: Small Abyssal Shield Extender
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 3
     techlevel: 1
@@ -619,10 +551,8 @@ types:
     id: 47804
     mass: 1.0
     name: Medium Abyssal Shield Extender
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 1
@@ -631,10 +561,8 @@ types:
     id: 47808
     mass: 1.0
     name: Large Abyssal Shield Extender
-    packagedVolume: 20.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3425
     requiredskill1level: 4
     techlevel: 1

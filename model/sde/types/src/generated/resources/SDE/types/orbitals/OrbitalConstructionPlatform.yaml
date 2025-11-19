@@ -3,7 +3,6 @@ types:
     anchoringdelay: 5000
     armorhp: 500000.0
     armoruniformity: 0.75
-    capacity: 1.95E7
     constructiontype: 2233
     disallowoffensivemodifiers: 1
     hp: 300000.0
@@ -14,7 +13,6 @@ types:
     maxoperationalusers: 1
     name: Customs Office Gantry
     onliningdelay: 900000
-    packagedVolume: 7600.0
     portionSize: 1
     published: true
     radius: 1857.0

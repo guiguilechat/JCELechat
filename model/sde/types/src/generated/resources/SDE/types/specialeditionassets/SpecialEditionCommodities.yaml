@@ -5,7 +5,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Magic Crystal Ball
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -15,7 +14,6 @@ types:
     marketGroup: 1661
     mass: 50000.0
     name: The Mini Monolith
-    packagedVolume: 500.0
     portionSize: 1
     published: true
     volume: 500.0
@@ -25,7 +23,6 @@ types:
     marketGroup: 1661
     mass: 50.0
     name: A Handful of Tiny Stars
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     volume: 10.0
@@ -33,284 +30,252 @@ types:
     cpumultiplier: 1.0
     id: 33017
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Deactivated Station Key Pass
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33018:
     cpumultiplier: 1.0
     id: 33018
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Ship Fitting Guide
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33019:
     cpumultiplier: 1.0
     id: 33019
     marketGroup: 1661
     mass: 90.0
     name: Scotty the Docking Manager's Clone
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33020:
     cpumultiplier: 1.0
     id: 33020
     marketGroup: 1661
     name: A Big Red Button
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33021:
-    cpumultiplier: 0.10000000149011612
+    cpumultiplier: 0.1
     id: 33021
     marketGroup: 1661
     name: Unit of Lag
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33022:
     cpumultiplier: 1.0
     id: 33022
     marketGroup: 1661
     name: Postcard From Poitot
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33023:
     cpumultiplier: 1.0
     id: 33023
     marketGroup: 1661
     name: A Tank of Honor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33024:
     cpumultiplier: 1.0
     id: 33024
     marketGroup: 1661
     name: Animal Medical Expert
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33025:
     cpumultiplier: 1.0
     id: 33025
     marketGroup: 1661
     name: Military Experts and You
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33026:
     cpumultiplier: 1.0
     id: 33026
     marketGroup: 1661
     name: Rules of Engagement
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33027:
     cpumultiplier: 1.0
     id: 33027
     marketGroup: 1661
     name: Little Helper, Female
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33028:
     cpumultiplier: 1.0
     id: 33028
     marketGroup: 1661
     name: Little Helper, Male
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33029:
     cpumultiplier: 1.0
     id: 33029
     marketGroup: 1661
     name: Replica Gallente Cruiser
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33030:
     cpumultiplier: 1.0
     id: 33030
     marketGroup: 1661
     name: Model of a Fighter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33058:
     cpumultiplier: 1.0
     id: 33058
     marketGroup: 1661
     name: Concordokken
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33059:
     cpumultiplier: 1.0
     id: 33059
     marketGroup: 1661
     name: Shuttle Piloting For Dummies
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33060:
     cpumultiplier: 1.0
     id: 33060
     marketGroup: 1661
     name: '*Sneaks in a classic*'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33061:
     cpumultiplier: 1.0
     id: 33061
     marketGroup: 1661
     name: 'Public Portrait: How To'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33065:
     cpumultiplier: 1.0
     id: 33065
     marketGroup: 1661
     name: Donut Holder
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33066:
     cpumultiplier: 1.0
     id: 33066
     marketGroup: 1661
     name: New Eden Soundbox
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33213:
     cpumultiplier: 1.0
     id: 33213
     marketGroup: 1661
     name: A Piece of Steve
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33214:
     cpumultiplier: 1.0
     id: 33214
     marketGroup: 1661
     name: Band of Brothers Director Access Key
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33215:
     cpumultiplier: 1.0
     id: 33215
     marketGroup: 1661
     name: Press pass to Prometheus Station opening
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33217:
     cpumultiplier: 1.0
     id: 33217
     marketGroup: 1661
     name: Lost reminder to pay sov bill
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33218:
     cpumultiplier: 1.0
     id: 33218
     marketGroup: 1661
     name: 'Assassination Contract: Mirial'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33219:
     cpumultiplier: 1.0
     id: 33219
     marketGroup: 1661
     name: 'Premier ticket for: The last G campaign'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33220:
     cpumultiplier: 1.0
     id: 33220
     marketGroup: 1661
     name: 'Premier ticket for: Clear Skies'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33221:
     cpumultiplier: 1.0
     id: 33221
     marketGroup: 1661
     name: 'Premier ticket for: Day of Darkness'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33575:
     cpumultiplier: 1.0
     id: 33575
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Hull Tanking, Elite
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   33809:
     cpumultiplier: 1.0
     id: 33809
     marketGroup: 1661
     name: New Eden Source
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34417:
     cpumultiplier: 1.0
     id: 34417
     marketGroup: 1661
     mass: 10.0
     name: Manufacturing Union's Placard
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -320,7 +285,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: The Galactic Party Planning Guide
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -330,7 +294,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Jump Fatigue Recovery Agent
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -340,7 +303,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Cooking With Veldspar
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -350,7 +312,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Chribba's Modified Strip Miner
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -360,7 +321,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Rooks & Kings - The Clarion Call Compilation
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -370,7 +330,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Pre-Completed CSM 10 Ballot Paper
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -380,7 +339,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Titanium Plated Cranial Shielding
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -390,7 +348,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: SCC Guidelines - Lotteries For Dummies
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -400,7 +357,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Sort Dragon's Guide To Diplomacy
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -410,7 +366,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Polaris Eviction Notice
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -420,7 +375,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Jump Portal Generation Instruction Holoreel
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -430,7 +384,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Vincent Pryce's Warp Disruption Field Generator
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -440,7 +393,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: My God, It's Full Of Holes!
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -450,7 +402,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Guillome Renard's Sleeper Loot Stash
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -460,7 +411,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Sisters Of EVE Charity Statue
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -470,7 +420,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: The Damsel's Drunk Bodyguard
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -480,7 +429,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Alice Saki's Good Posting Guide
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -490,7 +438,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Soxfour's Spaceboots
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -500,7 +447,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: The Friend Ship
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -509,348 +455,309 @@ types:
     id: 34769
     marketGroup: 1661
     name: CSM 1 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34770:
     cpumultiplier: 1.0
     id: 34770
     marketGroup: 1661
     name: CSM 2 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34771:
     cpumultiplier: 1.0
     id: 34771
     marketGroup: 1661
     name: CSM 3 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34772:
     cpumultiplier: 1.0
     id: 34772
     marketGroup: 1661
     name: CSM 4 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34773:
     cpumultiplier: 1.0
     id: 34773
     marketGroup: 1661
     name: CSM 5 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34774:
     cpumultiplier: 1.0
     id: 34774
     marketGroup: 1661
     name: CSM 6 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34775:
     cpumultiplier: 1.0
     id: 34775
     marketGroup: 1661
     name: CSM 7 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34776:
     cpumultiplier: 1.0
     id: 34776
     marketGroup: 1661
     name: CSM 8 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34777:
     cpumultiplier: 1.0
     id: 34777
     marketGroup: 1661
     name: CSM 9 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34778:
     cpumultiplier: 1.0
     id: 34778
     marketGroup: 1661
     name: CSM 10 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37874:
     cpumultiplier: 1.0
     id: 37874
     marketGroup: 1661
     name: Project Compass Star Charts
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37875:
     cpumultiplier: 1.0
     id: 37875
     marketGroup: 1661
     name: Contraband Amarrian Walnuts
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37877:
     cpumultiplier: 1.0
     id: 37877
     marketGroup: 1661
     name: Cerebrum In A Container
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37878:
     cpumultiplier: 1.0
     id: 37878
     marketGroup: 1661
     name: Sansha Claws Fairytale Book
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37879:
     cpumultiplier: 1.0
     id: 37879
     marketGroup: 1661
     name: Festive Firecrackers
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37880:
     cpumultiplier: 1.0
     id: 37880
     marketGroup: 1661
     name: Max Amarria
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37881:
     cpumultiplier: 1.0
     id: 37881
     marketGroup: 1661
     name: Grand Tiegjon Casino Chip
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37882:
     cpumultiplier: 1.0
     id: 37882
     marketGroup: 1661
     name: YC117 Symposium On Emergent Threats Access Pass
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37883:
     cpumultiplier: 1.0
     id: 37883
     marketGroup: 1661
     name: 95th Interstellar Mindclash Championship Tickets
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37884:
     cpumultiplier: 1.0
     id: 37884
     marketGroup: 1661
     name: Feawen's Approval Documentation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37885:
     cpumultiplier: 1.0
     id: 37885
     marketGroup: 1661
     name: Meat Popsicle
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37886:
     cpumultiplier: 1.0
     id: 37886
     marketGroup: 1661
     name: Capital Parking Ticket
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37887:
     cpumultiplier: 1.0
     id: 37887
     marketGroup: 1661
     name: Counterfeit Dominix Model
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37888:
     cpumultiplier: 1.0
     id: 37888
     marketGroup: 1661
     name: Starsi
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37889:
     cpumultiplier: 1.0
     id: 37889
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Tash-Murkon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37892:
     cpumultiplier: 1.0
     id: 37892
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Ardishapur
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37893:
     cpumultiplier: 1.0
     id: 37893
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Kador
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37894:
     cpumultiplier: 1.0
     id: 37894
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Khanid
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37895:
     cpumultiplier: 1.0
     id: 37895
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Kor-Azor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   37896:
     cpumultiplier: 1.0
     id: 37896
     marketGroup: 1661
     name: YC118 Succession Trial Champion's Decree - House Sarum
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   40656:
     cpumultiplier: 1.0
     id: 40656
     marketGroup: 1661
     name: CSM 11 Electee Archive Script
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   42229:
     cpumultiplier: 1.0
     id: 42229
     marketGroup: 1661
     name: Copper Ouroboros
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   42230:
     cpumultiplier: 1.0
     id: 42230
     marketGroup: 1661
     name: Silver Ouroboros
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   42231:
     cpumultiplier: 1.0
     id: 42231
     marketGroup: 1661
     name: Gold Ouroboros
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   43640:
     cpumultiplier: 1.0
     id: 43640
     marketGroup: 1661
     name: Empire Civilian Container
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   43677:
     cpumultiplier: 1.0
     id: 43677
     name: State Civilian Container
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   43678:
     cpumultiplier: 1.0
     id: 43678
     marketGroup: 1661
     name: Federation Civilian Container
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   43679:
     cpumultiplier: 1.0
     id: 43679
     marketGroup: 1661
     name: Republic Civilian Container
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   43930:
     cpumultiplier: 1.0
     id: 43930
     marketGroup: 1661
     name: Amarr Inception Package
-    packagedVolume: 2520.0
     portionSize: 1
     published: true
     volume: 2520.0
@@ -859,7 +766,6 @@ types:
     id: 43931
     marketGroup: 1661
     name: Caldari Inception Package
-    packagedVolume: 2520.0
     portionSize: 1
     published: true
     volume: 2520.0
@@ -868,7 +774,6 @@ types:
     id: 43932
     marketGroup: 1661
     name: Gallente Inception Package
-    packagedVolume: 2520.0
     portionSize: 1
     published: true
     volume: 2520.0
@@ -877,7 +782,6 @@ types:
     id: 43933
     marketGroup: 1661
     name: Minmatar Inception Package
-    packagedVolume: 2520.0
     portionSize: 1
     published: true
     volume: 2520.0
@@ -887,7 +791,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Jezaja's Giant Secure Container
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -897,7 +800,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: A Letter Of Complaint
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -907,7 +809,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Kor-Azor Family Decree
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -917,7 +818,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Forged Frigate Blueprints
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -927,7 +827,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: '[CNS] Kiirasha Final Broadcast Fragment'
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -937,7 +836,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Scale Model Of [RFS] Mah'tu Rea
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -947,7 +845,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Rejected Ship Replacement Program Request
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -957,7 +854,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Upwell Consortium Propaganda Reel
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -967,7 +863,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: The Champion Ship
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -977,7 +872,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: CONCORD Speeding Ticket
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -987,7 +881,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Kaalakiota Peaks Vodka
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -997,7 +890,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Armor Plating From TES Seraph
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1006,34 +898,30 @@ types:
     id: 45060
     marketGroup: 1661
     name: Vintage Frigate Blueprints
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45061:
     cpumultiplier: 1.0
     id: 45061
     marketGroup: 1661
     name: Subspace Energy & You
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45062:
     cpumultiplier: 1.0
     id: 45062
     marketGroup: 1661
     name: Replica Gold Magnate Decorative Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45996:
     cpumultiplier: 1.0
     id: 45996
     marketGroup: 1661
     name: Exoplanets Hunter Reward Crate
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     volume: 6000.0
@@ -1042,7 +930,6 @@ types:
     id: 46050
     marketGroup: 1661
     name: Superior Exoplanets Hunter Reward Crate
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     volume: 6000.0
@@ -1051,15 +938,13 @@ types:
     id: 46151
     marketGroup: 1661
     name: IGC Garment Keeper
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   46266:
     cpumultiplier: 1.0
     id: 46266
     name: A3 Destroyer Package
-    packagedVolume: 50000.0
     portionSize: 1
     published: true
     volume: 50000.0
@@ -1067,7 +952,6 @@ types:
     cpumultiplier: 1.0
     id: 46267
     name: A3 Industrial Package
-    packagedVolume: 50000.0
     portionSize: 1
     published: true
     volume: 50000.0
@@ -1075,33 +959,29 @@ types:
     cpumultiplier: 1.0
     id: 46268
     name: A3 Industrial Gear
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   46269:
     cpumultiplier: 1.0
     id: 46269
     name: A3 Combat Gear
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   46756:
     cpumultiplier: 1.0
     id: 46756
     marketGroup: 1661
     name: Headhunter Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   46766:
     cpumultiplier: 1.0
     id: 46766
     marketGroup: 1661
     name: Glacial Drift Festival Box
-    packagedVolume: 5000.0
     portionSize: 1
     published: true
     volume: 5000.0
@@ -1110,7 +990,6 @@ types:
     id: 46825
     marketGroup: 1661
     name: Yoiul Festival Fireworks Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1120,7 +999,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Rorqual Design Change Log
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1130,7 +1008,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Delve Yoiul Calendar
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1140,7 +1017,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Remember Myrskaa Flyers
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1150,7 +1026,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: A Stolen Voting Pebble
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1160,7 +1035,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Vial of Kyonoke Plague Cure
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1170,7 +1044,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Lump of Carbon
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1180,7 +1053,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Frozen Droplet of Blood
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1190,7 +1062,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Damaged Ancient PEG
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1200,7 +1071,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Badly Corrupted Holoreel
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1210,7 +1080,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: CONCORD GalNet Monitoring Archive
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1220,7 +1089,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: 300 Billion ISK Contract Copy
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1230,7 +1098,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Alliance Tournament XV Meta
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1240,7 +1107,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: How to Retire Your Starbase
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1250,7 +1116,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: To Kill the Risen Dead
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1260,7 +1125,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Yoiul Festival YC120 Coin (Amarr)
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1270,7 +1134,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Yoiul Festival YC120 Coin (Minmatar)
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1280,7 +1143,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Yoiul Festival YC120 Coin (Caldari)
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1290,7 +1152,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Yoiul Festival YC120 Coin (Gallente)
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -1299,7 +1160,6 @@ types:
     id: 47154
     marketGroup: 1661
     name: Galaxy Pack - Spectral
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1308,7 +1168,6 @@ types:
     id: 47253
     marketGroup: 1661
     name: Galaxy Pack - Crystal
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1317,7 +1176,6 @@ types:
     id: 47482
     marketGroup: 1661
     name: CDIA Training Exercise Supply Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1326,7 +1184,6 @@ types:
     id: 47961
     marketGroup: 1661
     name: Genolution CA-X
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1335,7 +1192,6 @@ types:
     id: 47962
     marketGroup: 1661
     name: XV Anniversary Gift Box (Alpha)
-    packagedVolume: 100000.0
     portionSize: 1
     published: true
     volume: 100000.0
@@ -1344,7 +1200,6 @@ types:
     id: 47963
     marketGroup: 1661
     name: XV Anniversary Gift Box (Omega)
-    packagedVolume: 100000.0
     portionSize: 1
     published: true
     volume: 100000.0
@@ -1354,7 +1209,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Copy of the Gallente Federation Constitution
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1364,7 +1218,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Replica Mister Federation Trophy
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1374,7 +1227,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Replica Miss Federation Trophy
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1384,7 +1236,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Impetus Trading Cards
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1394,7 +1245,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Mannar Hair Gel
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1404,7 +1254,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Intaki Cycle of Ida Bracelet
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1414,7 +1263,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Raata Wind Chimes
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1424,7 +1272,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Jin-Mei Silk Cord
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1434,7 +1281,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Intaki Spiced Tea
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1444,7 +1290,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Replica of the ISCSS Venture
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1453,7 +1298,6 @@ types:
     id: 48374
     marketGroup: 1661
     name: Federation Grand Prix Impetus Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1462,7 +1306,6 @@ types:
     id: 48375
     marketGroup: 1661
     name: Federation Grand Prix Bronze Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1471,7 +1314,6 @@ types:
     id: 48376
     marketGroup: 1661
     name: Federation Grand Prix CreoDron Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1480,7 +1322,6 @@ types:
     id: 48377
     marketGroup: 1661
     name: Federation Grand Prix Silver Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1489,7 +1330,6 @@ types:
     id: 48378
     marketGroup: 1661
     name: Federation Grand Prix Quafe Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1498,7 +1338,6 @@ types:
     id: 48379
     marketGroup: 1661
     name: Federation Grand Prix Gold Package
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1507,7 +1346,6 @@ types:
     id: 48531
     marketGroup: 1661
     name: Dawn of Liberation Frigate SKINs
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1516,7 +1354,6 @@ types:
     id: 48532
     marketGroup: 1661
     name: Dawn of Liberation Cruiser SKINs
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1525,7 +1362,6 @@ types:
     id: 48533
     marketGroup: 1661
     name: Dawn of Liberation Battleship SKINs
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1534,7 +1370,6 @@ types:
     id: 48534
     marketGroup: 1661
     name: Republic Justice Department Bronze Reward
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
@@ -1543,20 +1378,17 @@ types:
     id: 48535
     marketGroup: 1661
     name: Republic Justice Department Silver Reward
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
   48536:
-    boosterlastinjectiondatetime: 17724.458984375
+    boosterlastinjectiondatetime: 17724.4583333
     cpumultiplier: 1.0
     id: 48536
     marketGroup: 1661
     name: Republic Justice Department Gold Reward
-    packagedVolume: 10000.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 10000.0
   48584:
     cpumultiplier: 1.0
@@ -1564,17 +1396,15 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: TLF Recruitment Poster
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48585:
     cpumultiplier: 1.0
     id: 48585
     marketGroup: 1661
     mass: 1.0
     name: Vherokior Medicinal Herbs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1584,7 +1414,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Vial of Mikramurka
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1594,7 +1423,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Dice of Jade
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1604,7 +1432,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Krusual Etched Sticks
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1614,7 +1441,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Matari Word Calendar
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1624,7 +1450,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Kapli Bread
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1634,7 +1459,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Kri'tak Knife
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1644,17 +1468,15 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Ten Most Wanted Slavers
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48593:
     cpumultiplier: 1.0
     id: 48593
     marketGroup: 1661
     mass: 1.0
     name: Slaver Tooth Necklace
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1663,7 +1485,6 @@ types:
     id: 48642
     marketGroup: 1661
     name: Experimental Mutaplasmid Repository
-    packagedVolume: 100.0
     portionSize: 1
     published: true
     volume: 100.0
@@ -1673,7 +1494,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: 'Query: Spaghetti or Chicken Sandwich?'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1683,7 +1503,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: A Pile of Logs
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1693,7 +1512,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Retired Server Hamster
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1703,7 +1521,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Well-Worn Fedora
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1713,7 +1530,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Internal Policies
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1723,7 +1539,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: The Policy Enforcer
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1733,7 +1548,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: CONCORD Universal Translator
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1743,7 +1557,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Crunch Fuel
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1753,7 +1566,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Dried Moss
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1763,7 +1575,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Dropsuit Fragment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1773,7 +1584,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Decommissioned ERIC Prototype
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1783,7 +1593,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Offensive Content Reports, Jan. YC120, vol. I
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1793,7 +1602,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Defunct Name Change Token
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1802,7 +1610,6 @@ types:
     id: 48928
     marketGroup: 1661
     name: '''Subverted'' JVN-UC49 Blueprint Crate'
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1810,57 +1617,51 @@ types:
     cpumultiplier: 1.0
     id: 48950
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 1 (Gala YC121)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   48951:
     cpumultiplier: 1.0
     id: 48951
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 2 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48952:
     cpumultiplier: 1.0
     id: 48952
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 3 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48953:
     cpumultiplier: 1.0
     id: 48953
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 4 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   48954:
     cpumultiplier: 1.0
     id: 48954
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 5 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49419:
     cpumultiplier: 1.0
     id: 49419
     name: November Module Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1868,7 +1669,6 @@ types:
     cpumultiplier: 1.0
     id: 49531
     name: Nov Imp A BPC Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1876,7 +1676,6 @@ types:
     cpumultiplier: 1.0
     id: 49532
     name: Nov Imp E BPC Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1884,7 +1683,6 @@ types:
     cpumultiplier: 1.0
     id: 49533
     name: Nov Imp S BPC Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -1894,17 +1692,15 @@ types:
     marketGroup: 1661
     mass: 5.0
     name: Deathglow Residue
-    packagedVolume: 0.20000000298023224
     portionSize: 1
     published: true
-    volume: 0.20000000298023224
+    volume: 0.2
   49620:
     cpumultiplier: 1.0
     id: 49620
     marketGroup: 1661
     mass: 1.0
     name: Decayed Deathglow
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1914,7 +1710,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Top Grade Deathglow
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1924,7 +1719,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: St. Tetrimon's Finger
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1934,7 +1728,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Amarr Religious Mask
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1944,7 +1737,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Black Dagger
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1954,7 +1746,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Tarot of St. Jamyl
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1964,7 +1755,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Blood Coated Statuette
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1974,7 +1764,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Golden Sabik Vial
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1984,7 +1773,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Sani Sabik Sermon
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -1994,7 +1782,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Lifeblood (Collector's Edition)
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2004,7 +1791,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Sani Sabik Murder Security Tapes
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2014,7 +1800,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Purgative Coffin
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2024,7 +1809,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Vintage Wine?
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2034,7 +1818,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Colonize! Board Game
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2043,7 +1826,6 @@ types:
     id: 49705
     marketGroup: 1661
     name: '''Domino Turquoise'' Augmentation Crate'
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2051,7 +1833,6 @@ types:
     cpumultiplier: 1.0
     id: 49706
     name: '''Eico Flamjaw'' Augmentation Crate'
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2061,17 +1842,15 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Hair Accessory Shipment (Damaged)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   49708:
     cpumultiplier: 1.0
     id: 49708
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Calm Abyssal Filaments Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2079,9 +1858,8 @@ types:
     cpumultiplier: 1.0
     id: 49709
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Fierce Abyssal Filaments Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2089,7 +1867,6 @@ types:
     cpumultiplier: 1.0
     id: 49718
     name: Medium Navy Ammunition Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2098,7 +1875,6 @@ types:
     id: 49719
     marketGroup: 1661
     name: Medium Faction Ammunition Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2108,7 +1884,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Small Navy Ammunition Crate
-    packagedVolume: 2.0
     portionSize: 1
     published: true
     volume: 2.0
@@ -2116,9 +1891,8 @@ types:
     cpumultiplier: 1.0
     id: 49748
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Large Faction Ammunition Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2126,9 +1900,8 @@ types:
     cpumultiplier: 1.0
     id: 49802
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Gnosis & Punisher SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2136,9 +1909,8 @@ types:
     cpumultiplier: 1.0
     id: 49803
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Men's & Women's Frostline Exploration Suit
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2147,7 +1919,6 @@ types:
     id: 49804
     marketGroup: 1661
     name: '''Bitwave Glacier'' Augmentation Crate'
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2156,7 +1927,6 @@ types:
     id: 49805
     marketGroup: 1661
     name: Drake & Rupture SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2164,7 +1934,6 @@ types:
     cpumultiplier: 1.0
     id: 49806
     name: '''Mistborne Rime'' Augmentation Crate'
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2173,7 +1942,6 @@ types:
     id: 49974
     marketGroup: 1661
     name: ML-EKP 'Polybolos' Ballistic Control System Blueprint Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2182,7 +1950,6 @@ types:
     id: 49975
     marketGroup: 1661
     name: Frostline 'Clavicula' Integrated Analyzer Blueprint Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2191,7 +1958,6 @@ types:
     id: 49981
     marketGroup: 1661
     name: Frostline 'Omnivore' Harvester Upgrade Blueprint Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2200,7 +1966,6 @@ types:
     id: 50029
     marketGroup: 1661
     name: Basic 'Ardour' Cerebral Accelerator Blueprint Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2209,7 +1974,6 @@ types:
     id: 50030
     marketGroup: 1661
     name: Standard 'Ardour' Cerebral Accelerator Blueprint Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2217,7 +1981,6 @@ types:
     cpumultiplier: 1.0
     id: 50036
     name: Amaranthine Divide Facial Augmentation Package
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2226,47 +1989,42 @@ types:
     id: 50039
     marketGroup: 1661
     name: YC121 Guardian's Gala Ticket
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2500000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   50040:
     cpumultiplier: 1.0
     id: 50040
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 6 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   50041:
     cpumultiplier: 1.0
     id: 50041
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 7 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   50042:
     cpumultiplier: 1.0
     id: 50042
     marketGroup: 1661
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Log Fragment 8 (Gala YC121)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   50045:
     cpumultiplier: 1.0
     id: 50045
     marketGroup: 1661
     name: Guardian's Gala Surprise Gift
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2275,7 +2033,6 @@ types:
     id: 50046
     marketGroup: 1661
     name: Guardian's Gala VIP Surprise Gift
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2284,7 +2041,6 @@ types:
     id: 50047
     marketGroup: 1661
     name: Guardian's Gala Surprise Gift, Damaged
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2293,7 +2049,6 @@ types:
     id: 50048
     marketGroup: 1661
     name: Guardian's Gala VIP Surprise Gift, Damaged
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2303,7 +2058,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: The Yulai Siege YC106
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2313,7 +2067,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Drone Regions YC109
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2323,7 +2076,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Jita Protest YC113
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2333,7 +2085,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Titanomachy YC116
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2343,7 +2094,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Fall of Fort Knocks YC120
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2352,7 +2102,6 @@ types:
     id: 52290
     marketGroup: 1661
     name: Capsuleer Day XVI T-Shirt Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2361,7 +2110,6 @@ types:
     id: 52291
     marketGroup: 1661
     name: Capsuleer Day XVI Gnosis & SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2370,7 +2118,6 @@ types:
     id: 52292
     marketGroup: 1661
     name: Permaband Tour Cap Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2379,7 +2126,6 @@ types:
     id: 52293
     marketGroup: 1661
     name: Myrmidon & Tornado Argyros SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2388,7 +2134,6 @@ types:
     id: 52294
     marketGroup: 1661
     name: Capsuleer Day XVI Cap Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2397,7 +2142,6 @@ types:
     id: 52295
     marketGroup: 1661
     name: Capsuleer Day XVI Sunesis & SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2406,7 +2150,6 @@ types:
     id: 52296
     marketGroup: 1661
     name: Capsuleer Day XVI Apotheosis & SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2415,7 +2158,6 @@ types:
     id: 52297
     marketGroup: 1661
     name: Drake & Oracle Argyros SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2424,7 +2166,6 @@ types:
     id: 52298
     marketGroup: 1661
     name: Capsuleer Day XVI Praxis & SKIN Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2433,7 +2174,6 @@ types:
     id: 52299
     marketGroup: 1661
     name: Eico Redarc/Redwire XVI Augmentations Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2442,7 +2182,6 @@ types:
     id: 52300
     marketGroup: 1661
     name: Permaband Tour T-Shirt Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2451,7 +2190,6 @@ types:
     id: 52301
     marketGroup: 1661
     name: Silver Monocle Interface Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2461,7 +2199,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Pax e Kilizhi Do
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2470,7 +2207,6 @@ types:
     id: 53053
     marketGroup: 1661
     name: Halloween Horrors Fireworks and Launcher Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2479,7 +2215,6 @@ types:
     id: 53055
     marketGroup: 1661
     name: Halloween Horrors Astero SKIN
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2488,7 +2223,6 @@ types:
     id: 53056
     marketGroup: 1661
     name: Halloween Horrors Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2497,7 +2231,6 @@ types:
     id: 53057
     marketGroup: 1661
     name: Halloween Horrors Gila SKIN
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2506,7 +2239,6 @@ types:
     id: 53058
     marketGroup: 1661
     name: Halloween Horrors Machariel SKIN
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2515,7 +2247,6 @@ types:
     id: 53059
     marketGroup: 1661
     name: Halloween Horrors Avatar SKIN and Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2524,7 +2255,6 @@ types:
     id: 53060
     marketGroup: 1661
     name: Halloween Horrors Headhunter Cruiser SKINs
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2533,16 +2263,14 @@ types:
     id: 53341
     marketGroup: 1661
     name: Faded Astrometric Chart
-    packagedVolume: 1.9999999494757503E-4
     portionSize: 1
     published: true
-    volume: 1.9999999494757503E-4
+    volume: 0.0002
   53486:
     cpumultiplier: 1.0
     id: 53486
     marketGroup: 1661
     name: Festival Frigate SKINs and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2551,7 +2279,6 @@ types:
     id: 53488
     marketGroup: 1661
     name: Festival Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2559,7 +2286,6 @@ types:
     cpumultiplier: 1.0
     id: 53489
     name: Festival Calm Dark Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2568,7 +2294,6 @@ types:
     id: 53490
     marketGroup: 1661
     name: Festival Tier 1 Filament Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2577,7 +2302,6 @@ types:
     id: 53491
     marketGroup: 1661
     name: Festival Destroyer SKINs and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2585,7 +2309,6 @@ types:
     cpumultiplier: 1.0
     id: 53492
     name: Festival Calm Dark Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2594,7 +2317,6 @@ types:
     id: 53493
     marketGroup: 1661
     name: Festival Facial Augmentation and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2603,7 +2325,6 @@ types:
     id: 53494
     marketGroup: 1661
     name: Festival Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2611,7 +2332,6 @@ types:
     cpumultiplier: 1.0
     id: 53495
     name: Festival Calm Gamma Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2620,7 +2340,6 @@ types:
     id: 53496
     marketGroup: 1661
     name: Festival Exploration Suit and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2628,7 +2347,6 @@ types:
     cpumultiplier: 1.0
     id: 53497
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2637,7 +2355,6 @@ types:
     id: 53498
     marketGroup: 1661
     name: Festival Cap and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2645,7 +2362,6 @@ types:
     cpumultiplier: 1.0
     id: 53499
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2653,7 +2369,6 @@ types:
     cpumultiplier: 1.0
     id: 53505
     name: Festival Cruiser SKINs, Calm Firestorm Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2661,7 +2376,6 @@ types:
     cpumultiplier: 1.0
     id: 53506
     name: Festival Calm Gamma Filament, T-Shirt and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2669,7 +2383,6 @@ types:
     cpumultiplier: 1.0
     id: 53507
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2678,7 +2391,6 @@ types:
     id: 53508
     marketGroup: 1661
     name: Festival HyperCore, Body Augmentation and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2687,7 +2399,6 @@ types:
     id: 53509
     marketGroup: 1661
     name: Festival Battlecruiser SKINs and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2695,7 +2406,6 @@ types:
     cpumultiplier: 1.0
     id: 53510
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2703,7 +2413,6 @@ types:
     cpumultiplier: 1.0
     id: 53511
     name: Festival Skill Points, Calm Electrical Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2712,7 +2421,6 @@ types:
     id: 53512
     marketGroup: 1661
     name: Festival HyperCore and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2721,7 +2429,6 @@ types:
     id: 53513
     marketGroup: 1661
     name: Festival Facial Augmentation and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2730,7 +2437,6 @@ types:
     id: 53514
     marketGroup: 1661
     name: Festival Battleship SKINs, HyperCore and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2738,7 +2444,6 @@ types:
     cpumultiplier: 1.0
     id: 53515
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2746,7 +2451,6 @@ types:
     cpumultiplier: 1.0
     id: 53516
     name: Festival Calm Electrical Filament and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2754,7 +2458,6 @@ types:
     cpumultiplier: 1.0
     id: 53517
     name: Festival Skill Points and Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2762,7 +2465,6 @@ types:
     cpumultiplier: 1.0
     id: 53530
     name: Coercer Combat Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2770,7 +2472,6 @@ types:
     cpumultiplier: 1.0
     id: 53531
     name: Cormorant Combat Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2778,7 +2479,6 @@ types:
     cpumultiplier: 1.0
     id: 53532
     name: Catalyst Combat Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2786,7 +2486,6 @@ types:
     cpumultiplier: 1.0
     id: 53533
     name: Thrasher Combat Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2796,27 +2495,24 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Templis Dragonaurs Log 1220107-VC47
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   53851:
     cpumultiplier: 1.0
     id: 53851
     marketGroup: 1661
     mass: 1.0
     name: Vimoksha Chorus Log 1220108-TD53
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   54160:
     cpumultiplier: 1.0
     id: 54160
     marketGroup: 1661
     mass: 1.0
     name: Diamond Ring
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2826,7 +2522,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Box of Chocolates
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2836,7 +2531,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Bouquet of Flowers
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2846,7 +2540,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Gamealfur Ale
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2856,7 +2549,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Sarpati Reserve Brandy
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2866,7 +2558,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Spiked Quafe
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2876,7 +2567,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: POS Fuel
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2884,7 +2574,6 @@ types:
     cpumultiplier: 1.0
     id: 54471
     name: Frontier Safeguarder Logistics Cruiser SKIN Crate
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
@@ -2892,7 +2581,6 @@ types:
     cpumultiplier: 1.0
     id: 54480
     name: Frontier Safeguarder Force Auxiliary SKIN Crate
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
@@ -2900,7 +2588,6 @@ types:
     cpumultiplier: 1.0
     id: 54486
     name: Frontier Safeguarder Encore Crate
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
@@ -2908,7 +2595,6 @@ types:
     cpumultiplier: 1.0
     id: 54818
     name: Capsuleer Day XVII Cap and T-Shirt Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -2916,7 +2602,6 @@ types:
     cpumultiplier: 1.0
     id: 54819
     name: Capsuleer Day XVII Fireworks Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2924,7 +2609,6 @@ types:
     cpumultiplier: 1.0
     id: 54820
     name: Capsuleer Day XVII Alpha Booster Gift Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2932,7 +2616,6 @@ types:
     cpumultiplier: 1.0
     id: 54821
     name: Capsuleer Day XVII Omega Booster Gift Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2942,7 +2625,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Broken Skill Canister
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -2951,16 +2633,14 @@ types:
     id: 55029
     marketGroup: 1661
     name: Vorton Projector Booster Gift Box
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55358:
     cpumultiplier: 1.0
     id: 55358
     marketGroup: 1661
     name: Flow Cytometry Rewards Crate
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     volume: 6000.0
@@ -2969,7 +2649,6 @@ types:
     id: 55359
     marketGroup: 1661
     name: Superior Flow Cytometry Rewards Crate
-    packagedVolume: 6000.0
     portionSize: 1
     published: true
     volume: 6000.0
@@ -2977,72 +2656,63 @@ types:
     cpumultiplier: 1.0
     id: 55745
     name: Four Freedoms Fireworks Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55746:
     cpumultiplier: 1.0
     id: 55746
     name: Federation Day Clothing Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55807:
     cpumultiplier: 1.0
     id: 55807
     name: Minmatar Liberation Day Apparel Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55815:
     cpumultiplier: 1.0
     id: 55815
     name: Minmatar Liberation Day Fireworks Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55827:
     cpumultiplier: 1.0
     id: 55827
     marketGroup: 1661
     name: Serenity Special SKINs Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55980:
     cpumultiplier: 1.0
     id: 55980
     name: Amarr Foundation Day Apparel Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   55981:
     cpumultiplier: 1.0
     id: 55981
     name: Amarr Foundation Day Fireworks Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56091:
     cpumultiplier: 1.0
     id: 56091
     name: Caldari Union Day Apparel Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56095:
     cpumultiplier: 1.0
     id: 56095
     name: Caldari Union Day Fireworks Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3050,9 +2720,8 @@ types:
     cpumultiplier: 1.0
     id: 56365
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Tranquil Abyssal Filaments Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3060,15 +2729,13 @@ types:
     cpumultiplier: 1.0
     id: 56750
     name: Forever 4-4 Fireworks and Launcher Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56787:
     cpumultiplier: 1.0
     id: 56787
     name: Crimson Harvest T-Shirt Gift Box
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3076,15 +2743,13 @@ types:
     cpumultiplier: 1.0
     id: 56860
     name: Forward 4-4 Celebration Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   56951:
     cpumultiplier: 1.0
     id: 56951
     name: Forever 4-4 Fireworks Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3094,7 +2759,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Livestock-Liberator Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3104,7 +2768,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Fuel-Stealer Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3114,7 +2777,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Radiation-Rogue Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3124,7 +2786,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Tool-Swiper Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3134,7 +2795,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Recycler-Raider Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3144,7 +2804,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Water-Sucker Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3154,7 +2813,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Airlock-Slammer Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3164,7 +2822,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Ectoplasm-Skimmer Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3174,7 +2831,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Ration-Grabber Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3184,7 +2840,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Scanner-Jacker Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3194,7 +2849,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Data-Sniffer Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3204,7 +2858,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Freezer-Thief Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3214,7 +2867,6 @@ types:
     marketGroup: 1661
     mass: 10.0
     name: Power-Drainer Display
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -3222,7 +2874,6 @@ types:
     cpumultiplier: 1.0
     id: 57152
     name: Zakura Bazei Firework Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3230,7 +2881,6 @@ types:
     cpumultiplier: 1.0
     id: 57153
     name: '''Saikadori'' Facial Augmentation Crate'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3239,7 +2889,6 @@ types:
     id: 57166
     marketGroup: 1661
     name: Snowstar Crystalburst Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3247,7 +2896,6 @@ types:
     cpumultiplier: 1.0
     id: 57167
     name: Yoiul Festival Snowballs Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3256,7 +2904,6 @@ types:
     id: 57168
     marketGroup: 1661
     name: Yoiul Stormchasers T-Shirt and Pants Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3265,7 +2912,6 @@ types:
     id: 57170
     marketGroup: 1661
     name: Yoiul Stormchasers Suit and Cap Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3273,7 +2919,6 @@ types:
     cpumultiplier: 1.0
     id: 58795
     name: Capsule Cascade Firework Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3281,7 +2926,6 @@ types:
     cpumultiplier: 1.0
     id: 58797
     name: Capsuleer Day XVIII T-Shirt and Cap Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3289,23 +2933,20 @@ types:
     cpumultiplier: 1.0
     id: 59319
     name: Gallente Federation Day Jacket Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59320:
     cpumultiplier: 1.0
     id: 59320
     name: Gallente Federation Day Pants Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59322:
     cpumultiplier: 1.0
     id: 59322
     name: Capsuleer Day XVIII Omega Booster Gift Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3313,111 +2954,97 @@ types:
     cpumultiplier: 1.0
     id: 59587
     name: Minmatar Liberation Day Apparel Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59892:
     cpumultiplier: 1.0
     id: 59892
     name: Republic Service Tattoo (Brutor Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59893:
     cpumultiplier: 1.0
     id: 59893
     name: Republic Service Tattoo (Krusual Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59894:
     cpumultiplier: 1.0
     id: 59894
     name: Republic Service Tattoo (Nefantar Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59895:
     cpumultiplier: 1.0
     id: 59895
     name: Republic Service Tattoo (Sebiestor Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59896:
     cpumultiplier: 1.0
     id: 59896
     name: Republic Service Tattoo (Starkmanir Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59897:
     cpumultiplier: 1.0
     id: 59897
     name: Republic Service Tattoo (Thukker Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59898:
     cpumultiplier: 1.0
     id: 59898
     name: Republic Service Tattoo (Vherokior Tribe) Package
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59977:
     cpumultiplier: 1.0
     id: 59977
     name: Amarr Foundation Day Jacket Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59978:
     cpumultiplier: 1.0
     id: 59978
     name: Amarr Foundation Day Pants Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60107:
     cpumultiplier: 1.0
     id: 60107
     name: Caldari Union Day Pants Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60109:
     cpumultiplier: 1.0
     id: 60109
     name: Caldari Union Day Jacket Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   60576:
     cpumultiplier: 1.0
     id: 60576
     name: Quafe Zero Green Apple Party Pack
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62028:
     cpumultiplier: 1.0
     id: 62028
     name: Interstellar Convergence Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3425,7 +3052,6 @@ types:
     cpumultiplier: 1.0
     id: 62029
     name: Paradoxical Nebula Firework Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3435,95 +3061,85 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Scale Model of a Blue Box
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62047:
     cpumultiplier: 1.0
     id: 62047
     marketGroup: 1661
     mass: 1.0
     name: Inactive Sonic Multitool
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62048:
     cpumultiplier: 1.0
     id: 62048
     marketGroup: 1661
     mass: 1.0
     name: Bag of Gelatinized Confectionary
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62049:
     cpumultiplier: 1.0
     id: 62049
     marketGroup: 1661
     mass: 1.0
     name: Chronologically Curious Blue Diary
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62050:
     cpumultiplier: 1.0
     id: 62050
     marketGroup: 1661
     mass: 1.0
     name: Fragment Inscribed with Odd Circular Text
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62051:
     cpumultiplier: 1.0
     id: 62051
     marketGroup: 1661
     mass: 1.0
     name: Snow Globe with Peculiar Architecture
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62052:
     cpumultiplier: 1.0
     id: 62052
     marketGroup: 1661
     mass: 1.0
     name: Extendable plunger tool
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62053:
     cpumultiplier: 1.0
     id: 62053
     marketGroup: 1661
     mass: 1.0
     name: Biomechanical Armor Fragment
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62054:
     cpumultiplier: 1.0
     id: 62054
     marketGroup: 1661
     mass: 1.0
     name: Neutron Flow Polarity Reverser
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   62650:
     cpumultiplier: 1.0
     id: 62650
     name: Gala Party Supplies Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3531,7 +3147,6 @@ types:
     cpumultiplier: 1.0
     id: 62651
     name: Guardian's Gala Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3539,7 +3154,6 @@ types:
     cpumultiplier: 1.0
     id: 63097
     name: Retriever Bundle
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3547,7 +3161,6 @@ types:
     cpumultiplier: 1.0
     id: 63677
     name: Hunt Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3555,7 +3168,6 @@ types:
     cpumultiplier: 1.0
     id: 64028
     name: Capsuleer Day XIX Fireworks Gift Box
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3563,7 +3175,6 @@ types:
     cpumultiplier: 1.0
     id: 64036
     name: Capsuleer Day DED Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3571,7 +3182,6 @@ types:
     cpumultiplier: 1.0
     id: 64037
     name: Capsuleer Day Smuggler Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3579,23 +3189,20 @@ types:
     cpumultiplier: 1.0
     id: 64746
     name: Federation Grand Prix Jacket Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   70797:
     cpumultiplier: 1.0
     id: 70797
     name: Amarr Foundation Day Robe Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   72087:
     cpumultiplier: 1.0
     id: 72087
     name: Union of Eight Paths Fireworks Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3604,7 +3211,6 @@ types:
     id: 72259
     mass: 1.0
     name: Ishukone Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3613,7 +3219,6 @@ types:
     id: 72260
     mass: 1.0
     name: CBD Corporation Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3622,7 +3227,6 @@ types:
     id: 72261
     mass: 1.0
     name: Hyasyoda Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3631,7 +3235,6 @@ types:
     id: 72262
     mass: 1.0
     name: Kaalakiota Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3640,7 +3243,6 @@ types:
     id: 72263
     mass: 1.0
     name: Wiyrkomi Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3649,7 +3251,6 @@ types:
     id: 72264
     mass: 1.0
     name: Lai Dai Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3658,7 +3259,6 @@ types:
     id: 72265
     mass: 1.0
     name: Sukuuvestaa Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3667,7 +3267,6 @@ types:
     id: 72266
     mass: 1.0
     name: Nugoeihuvi Jacket Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3675,7 +3274,6 @@ types:
     cpumultiplier: 1.0
     id: 73409
     name: Scarlet Embrace Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3684,7 +3282,6 @@ types:
     id: 74387
     marketGroup: 1663
     name: Yoiul's Ascent Firework Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3692,7 +3289,6 @@ types:
     cpumultiplier: 1.0
     id: 76214
     name: Imperial Shadow War Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3700,7 +3296,6 @@ types:
     cpumultiplier: 1.0
     id: 76215
     name: State Shadow War Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3708,7 +3303,6 @@ types:
     cpumultiplier: 1.0
     id: 76216
     name: Federation Shadow War Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3716,7 +3310,6 @@ types:
     cpumultiplier: 1.0
     id: 76217
     name: Republic Shadow War Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3725,7 +3318,6 @@ types:
     id: 76964
     marketGroup: 1663
     name: Capsuleer Day XX Fireworks Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3733,7 +3325,6 @@ types:
     cpumultiplier: 1.0
     id: 76986
     name: Scorched Container
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3742,7 +3333,6 @@ types:
     id: 77055
     marketGroup: 1663
     name: Capsuleer Day Glamourex Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3750,17 +3340,15 @@ types:
     cpumultiplier: 1.0
     id: 77427
     marketGroup: 1663
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Historic Capsuleer Day Clothing Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   78357:
     cpumultiplier: 1.0
     id: 78357
     name: Crimson Harvest Fireworks Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3768,7 +3356,6 @@ types:
     cpumultiplier: 1.0
     id: 78867
     name: Guristas Pirates Laundering Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3776,7 +3363,6 @@ types:
     cpumultiplier: 1.0
     id: 78872
     name: Angel Cartel Laundering Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3784,7 +3370,6 @@ types:
     cpumultiplier: 1.0
     id: 78873
     name: Federation Counter-Insurgency Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3792,7 +3377,6 @@ types:
     cpumultiplier: 1.0
     id: 78874
     name: Imperial Counter-Insurgency Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3801,15 +3385,13 @@ types:
     id: 78889
     marketGroup: 1661
     name: Mysterious GalNet Crate
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   79117:
     cpumultiplier: 1.0
     id: 79117
     name: State Counter-Insurgency Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3817,7 +3399,6 @@ types:
     cpumultiplier: 1.0
     id: 79118
     name: Republic Counter-Insurgency Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3826,15 +3407,13 @@ types:
     id: 79186
     marketGroup: 1661
     name: Mysterious GalNet Crate II
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   80240:
     cpumultiplier: 1.0
     id: 80240
     name: Yoiul Festival Celebration Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3844,24 +3423,21 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Deepflow Adaptive Canister
-    packagedVolume: 6.0
     portionSize: 1
     published: true
     volume: 6.0
   80387:
     cpumultiplier: 1.0
     id: 80387
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Indecipherable Cache Chart
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   80440:
     cpumultiplier: 1.0
     id: 80440
     name: Recovered CD Boss Salvage
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3869,7 +3445,6 @@ types:
     cpumultiplier: 1.0
     id: 80523
     name: Capsuleer Day XXI Filament Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3878,7 +3453,6 @@ types:
     id: 80937
     marketGroup: 1663
     name: Capsuleer Day XXI Fireworks Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3887,7 +3461,6 @@ types:
     id: 80992
     marketGroup: 1663
     name: Capsuleer Day XXI Glamourex Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3895,7 +3468,6 @@ types:
     cpumultiplier: 1.0
     id: 81163
     name: Enforcer Career Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3903,7 +3475,6 @@ types:
     cpumultiplier: 1.0
     id: 81166
     name: Soldier of Fortune Career Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3911,7 +3482,6 @@ types:
     cpumultiplier: 1.0
     id: 81167
     name: Explorer Career Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3919,7 +3489,6 @@ types:
     cpumultiplier: 1.0
     id: 81168
     name: Industrialist Career Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -3928,15 +3497,13 @@ types:
     id: 81603
     marketGroup: 1661
     name: Mysterious Booster Crate I
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   81954:
     cpumultiplier: 1.0
     id: 81954
     name: Upwell Prototype Development Reward Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3946,16 +3513,14 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Admiral Noir's - Spiced Rum
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   83709:
     cpumultiplier: 1.0
     id: 83709
     marketGroup: 1661
     name: SKINR Studio Supplies
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -3965,63 +3530,56 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Sequence Binder Welcome Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
   84474:
     cpumultiplier: 1.0
     id: 84474
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Azdaja Statuette
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84475:
     cpumultiplier: 1.0
     id: 84475
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Frozen Ryba
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84519:
     cpumultiplier: 1.0
     id: 84519
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Tau Decay Resonance
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84520:
     cpumultiplier: 1.0
     id: 84520
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Electron Spin Resonance
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   84521:
     cpumultiplier: 1.0
     id: 84521
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Muon Cosmic Resonance
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85309:
     cpumultiplier: 1.0
     id: 85309
     name: Ice Storm Filaments Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4043,7 +3601,6 @@ types:
     cpumultiplier: 1.0
     id: 85355
     name: ORE Green Salvage Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4051,7 +3608,6 @@ types:
     cpumultiplier: 1.0
     id: 85357
     name: ORE Red Salvage Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4059,7 +3615,6 @@ types:
     cpumultiplier: 1.0
     id: 85358
     name: ORE White Salvage Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4067,7 +3622,6 @@ types:
     cpumultiplier: 1.0
     id: 85359
     name: Peculiar Icebound Salvage
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4075,7 +3629,6 @@ types:
     cpumultiplier: 1.0
     id: 85360
     name: Rare Icebound Salvage
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4083,7 +3636,6 @@ types:
     cpumultiplier: 1.0
     id: 85361
     name: Unusual Icebound Salvage
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4091,7 +3643,6 @@ types:
     cpumultiplier: 1.0
     id: 85787
     name: Deathless Research Consignment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4099,7 +3650,6 @@ types:
     cpumultiplier: 1.0
     id: 85880
     name: Deathless Research Superior Consignment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4108,7 +3658,6 @@ types:
     id: 86270
     marketGroup: 1661
     name: Tholos Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4117,7 +3666,6 @@ types:
     id: 86271
     marketGroup: 1661
     name: Cenotaph Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4126,7 +3674,6 @@ types:
     id: 86272
     marketGroup: 1661
     name: SCARAB Breacher Pod S Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4135,7 +3682,6 @@ types:
     id: 86273
     marketGroup: 1661
     name: SCARAB Breacher Pod M Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4144,7 +3690,6 @@ types:
     id: 86274
     marketGroup: 1661
     name: Small Breacher Pod Launcher Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4153,7 +3698,6 @@ types:
     id: 86275
     marketGroup: 1661
     name: Medium Breacher Pod Launcher Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4162,7 +3706,6 @@ types:
     id: 86276
     marketGroup: 1661
     name: '''Seneschal'' Mercenary Den Blueprint Crate'
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4170,7 +3713,6 @@ types:
     cpumultiplier: 1.0
     id: 86495
     name: Yoiul Festival Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4178,26 +3720,23 @@ types:
     cpumultiplier: 1.0
     id: 87098
     name: Arkombine Arisen SKINs Crate
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
   87136:
     cpumultiplier: 1.0
     id: 87136
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Incomplete Warden Projections
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87207:
     cpumultiplier: 1.0
     id: 87207
     marketGroup: 1661
     mass: 1.0
     name: Ancillary Preservation Canister
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -4207,24 +3746,21 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Prime Conservation Canister
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
   87209:
     cpumultiplier: 1.0
     id: 87209
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Demijohn-Secured Dispatch
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87333:
     cpumultiplier: 1.0
     id: 87333
     name: Resplendent Coil Crate
-    packagedVolume: 4.0
     portionSize: 1
     published: true
     volume: 4.0
@@ -4232,7 +3768,6 @@ types:
     cpumultiplier: 1.0
     id: 87349
     name: Imperial Navy Scanning Upgrade Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4240,7 +3775,6 @@ types:
     cpumultiplier: 1.0
     id: 87350
     name: State Navy Scanning Upgrade Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4248,7 +3782,6 @@ types:
     cpumultiplier: 1.0
     id: 87351
     name: Federation Navy Scanning Upgrade Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4256,7 +3789,6 @@ types:
     cpumultiplier: 1.0
     id: 87352
     name: Republic Fleet Scanning Upgrade Blueprint Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4266,7 +3798,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Spectral Vision Capture Reward Crate
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -4274,89 +3805,80 @@ types:
     cpumultiplier: 1.0
     id: 87601
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Ladon Forked Packet
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87602:
     cpumultiplier: 1.0
     id: 87602
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Recursive Knot
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87603:
     cpumultiplier: 1.0
     id: 87603
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Uncertainty Thread
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87604:
     cpumultiplier: 1.0
     id: 87604
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Definitive Thread
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87605:
     cpumultiplier: 1.0
     id: 87605
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Execution Command Unit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87606:
     cpumultiplier: 1.0
     id: 87606
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Terminated Knot
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87607:
     cpumultiplier: 1.0
     id: 87607
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Dominance Command Unit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87608:
     cpumultiplier: 1.0
     id: 87608
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Mynos Forked Packet
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   87853:
     cpumultiplier: 1.0
     id: 87853
     marketGroup: 1661
     mass: 1.0
     name: Drifter Plugsuit Reward Crate
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -4365,7 +3887,6 @@ types:
     id: 87900
     marketGroup: 1663
     name: Capsuleer Day XXII Fireworks Package
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4374,7 +3895,6 @@ types:
     id: 87901
     marketGroup: 1663
     name: Capsuleer Day XXII Booster Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4383,7 +3903,6 @@ types:
     id: 87925
     marketGroup: 1663
     name: Capsuleer Day XXII Glamourex Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4392,7 +3911,6 @@ types:
     id: 87926
     marketGroup: 1663
     name: Capsuleer Day XXII Accelerator Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4401,7 +3919,6 @@ types:
     id: 88088
     marketGroup: 1663
     name: Wrath of Tyrannos Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4425,28 +3942,25 @@ types:
     cpumultiplier: 1.0
     id: 88178
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Nexus Cypher
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   88179:
     cpumultiplier: 1.0
     id: 88179
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Blackbody Driver
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   88347:
     cpumultiplier: 1.0
     id: 88347
     mass: 1.0
     name: Strategos' Modified Siege Module Schematics Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
@@ -4454,29 +3968,26 @@ types:
     cpumultiplier: 1.0
     id: 88568
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Aberrant Mynos Forked Packet
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   88571:
     cpumultiplier: 1.0
     id: 88571
     marketGroup: 1661
-    mass: 0.10000000149011612
+    mass: 0.1
     name: Locus Cypher
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   88852:
     cpumultiplier: 1.0
     id: 88852
     marketGroup: 1661
     mass: 1.0
     name: Proven Deepflow Adaptive Canister
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -4486,7 +3997,6 @@ types:
     marketGroup: 1661
     mass: 1.0
     name: Glorified Deepflow Adaptive Canister
-    packagedVolume: 3.0
     portionSize: 1
     published: true
     volume: 3.0
@@ -4495,7 +4005,125 @@ types:
     id: 89328
     marketGroup: 1661
     name: Solar Fest Crate
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0
+  90134:
+    cpumultiplier: 1.0
+    id: 90134
+    marketGroup: 1661
+    name: Historic Crimson Harvest SKIN Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90135:
+    cpumultiplier: 1.0
+    id: 90135
+    marketGroup: 1661
+    name: Crimson Harvest SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90136:
+    cpumultiplier: 1.0
+    id: 90136
+    marketGroup: 1661
+    name: Crimson Harvest Cerebral Accelerator Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90137:
+    cpumultiplier: 1.0
+    id: 90137
+    marketGroup: 1661
+    name: Historic Crimson Harvest Trinket Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90396:
+    cpumultiplier: 1.0
+    id: 90396
+    marketGroup: 1661
+    name: Blood Raider Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90659:
+    cpumultiplier: 1.0
+    id: 90659
+    marketGroup: 1661
+    name: Cruor Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90660:
+    cpumultiplier: 1.0
+    id: 90660
+    marketGroup: 1661
+    name: Ashimmu Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90661:
+    cpumultiplier: 1.0
+    id: 90661
+    marketGroup: 1661
+    name: Bhaalgorn Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90662:
+    cpumultiplier: 1.0
+    id: 90662
+    marketGroup: 1661
+    name: Chemosh Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90663:
+    cpumultiplier: 1.0
+    id: 90663
+    marketGroup: 1661
+    name: Dagon Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90664:
+    cpumultiplier: 1.0
+    id: 90664
+    marketGroup: 1661
+    name: Molok Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  90885:
+    cpumultiplier: 1.0
+    id: 90885
+    marketGroup: 1661
+    name: Historic SOE SKINs Crate
+    portionSize: 1
+    published: true
+    volume: 5.0
+  90892:
+    cpumultiplier: 1.0
+    id: 90892
+    marketGroup: 1661
+    name: Men's Empire Exploration Suit crate
+    portionSize: 1
+    published: true
+    volume: 4.0
+  90893:
+    cpumultiplier: 1.0
+    id: 90893
+    marketGroup: 1661
+    name: Women's Empire Exploration Suit crate
+    portionSize: 1
+    published: true
+    volume: 4.0
+  91023:
+    cpumultiplier: 1.0
+    id: 91023
+    name: Venture Starter Crate
+    portionSize: 1
+    published: true
+    volume: 30000.0

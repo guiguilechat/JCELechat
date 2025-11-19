@@ -5,75 +5,63 @@ types:
     industryjobcostmultiplier: 1
     marketGroup: 497
     name: Covetor Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
+    price: 2000000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17479:
     id: 17479
     industryblueprintrank: 40.0
     industryjobcostmultiplier: 1
     marketGroup: 497
     name: Retriever Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.7E9
+    price: 1700000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   17481:
     id: 17481
     industryblueprintrank: 40.0
     industryjobcostmultiplier: 1
     marketGroup: 497
     name: Procurer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E9
+    price: 1400000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22545:
     id: 22545
     industryblueprintrank: 800.0
     industryjobcostmultiplier: 1
     marketGroup: 904
     name: Hulk Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22547:
     id: 22547
     industryblueprintrank: 800.0
     industryjobcostmultiplier: 1
     marketGroup: 904
     name: Skiff Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   22549:
     id: 22549
     industryblueprintrank: 800.0
     industryjobcostmultiplier: 1
     marketGroup: 904
     name: Mackinaw Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
+    price: 50000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

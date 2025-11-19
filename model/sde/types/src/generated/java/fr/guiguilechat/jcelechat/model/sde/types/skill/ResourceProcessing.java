@@ -16,16 +16,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonusAbsolutePercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChanceReduction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GasDecompressionEfficiencyBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IceHarvestCycleBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsSkillIObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritBonusYieldBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningCritChanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningUpgradeCPUReductionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionSlotBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMutator;
@@ -98,6 +98,14 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamountbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritbonusyieldbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningcritchancebonus;
     /**
      * CPU Penalty Reduction
      */
@@ -162,7 +170,7 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, RefiningYieldMutator.INSTANCE, GasDecompressionEfficiencyBonus.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningCritChanceBonus.INSTANCE, MiningCritBonusYieldBonus.INSTANCE, ReactionTimeBonus.INSTANCE, ReactionSlotBonus.INSTANCE, AccessDifficultyBonusAbsolutePercent.INSTANCE, IceHarvestCycleBonus.INSTANCE, IsSkillIObsolete.INSTANCE, MiningAmountBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, RefiningYieldMutator.INSTANCE, GasDecompressionEfficiencyBonus.INSTANCE, DamageCloudChanceReduction.INSTANCE, MiningUpgradeCPUReductionBonus.INSTANCE })));
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
@@ -199,6 +207,14 @@ public class ResourceProcessing
             case  434 :
             {
                 return miningamountbonus;
+            }
+            case  6050 :
+            {
+                return miningcritbonusyieldbonus;
+            }
+            case  6049 :
+            {
+                return miningcritchancebonus;
             }
             case  927 :
             {

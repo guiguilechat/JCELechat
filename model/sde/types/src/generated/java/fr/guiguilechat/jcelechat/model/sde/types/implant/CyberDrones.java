@@ -15,14 +15,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHpBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneMaxVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -106,7 +104,7 @@ public class CyberDrones
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Implantness.INSTANCE, MaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacityBonus.INSTANCE, DamageMultiplierBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, RequiredSkill1 .INSTANCE, HullHpBonus.INSTANCE, DamageHP.INSTANCE, Implantness.INSTANCE, MaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE })));
     public static final CyberDrones.MetaGroup METAGROUP = new CyberDrones.MetaGroup();
 
     @Override

@@ -2,388 +2,333 @@ types:
   85851:
     id: 85851
     name: Glorified Decayed Small Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85852:
     id: 85852
     name: Glorified Gravid Small Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85853:
     id: 85853
     name: Glorified Unstable Small Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85854:
     id: 85854
     name: Glorified Unstable Medium Ancillary Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85855:
     id: 85855
     name: Glorified Gravid Large Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85856:
     id: 85856
     name: Glorified Unstable Large Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85857:
     id: 85857
     name: Glorified Unstable Large Ancillary Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85858:
     id: 85858
     name: Glorified Decayed Capital Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85859:
     id: 85859
     name: Glorified Gravid Capital Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85860:
     id: 85860
     name: Glorified Unstable Capital Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85861:
     id: 85861
     name: Glorified Unstable Capital Ancillary Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85862:
     id: 85862
     name: Glorified Decayed Small Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85863:
     id: 85863
     name: Glorified Gravid Small Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85864:
     id: 85864
     name: Glorified Unstable Small Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85865:
     id: 85865
     name: Glorified Unstable Small Ancillary Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85866:
     id: 85866
     name: Glorified Decayed Medium Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85867:
     id: 85867
     name: Glorified Gravid Medium Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85868:
     id: 85868
     name: Glorified Unstable Medium Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85869:
     id: 85869
     name: Glorified Decayed Medium Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85870:
     id: 85870
     name: Glorified Gravid Medium Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85871:
     id: 85871
     name: Glorified Unstable Medium Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85872:
     id: 85872
     name: Glorified Decayed Large Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85873:
     id: 85873
     name: Glorified Gravid Large Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85874:
     id: 85874
     name: Glorified Unstable Large Armor Plate Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85875:
     id: 85875
     name: Glorified Decayed Large Armor Repairer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85940:
     id: 85940
     name: Glorified Decayed 1MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85941:
     id: 85941
     name: Glorified Gravid 1MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85942:
     id: 85942
     name: Glorified Unstable 1MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85943:
     id: 85943
     name: Glorified Gravid 100MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85944:
     id: 85944
     name: Glorified Unstable 500MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85945:
     id: 85945
     name: Glorified Decayed 10000MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85946:
     id: 85946
     name: Glorified Gravid 10000MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85947:
     id: 85947
     name: Glorified Unstable 10000MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85948:
     id: 85948
     name: Glorified Decayed 50000MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85949:
     id: 85949
     name: Glorified Gravid 50000MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85950:
     id: 85950
     name: Glorified Unstable 50000MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85951:
     id: 85951
     name: Glorified Decayed 5MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85952:
     id: 85952
     name: Glorified Gravid 5MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85953:
     id: 85953
     name: Glorified Unstable 5MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85954:
     id: 85954
     name: Glorified Decayed 10MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85955:
     id: 85955
     name: Glorified Gravid 10MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85956:
     id: 85956
     name: Glorified Unstable 10MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85957:
     id: 85957
     name: Glorified Decayed 50MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85958:
     id: 85958
     name: Glorified Gravid 50MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85959:
     id: 85959
     name: Glorified Unstable 50MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85960:
     id: 85960
     name: Glorified Decayed 100MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85961:
     id: 85961
     name: Glorified Unstable 100MN Afterburner Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85962:
     id: 85962
     name: Glorified Decayed 500MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85963:
     id: 85963
     name: Glorified Gravid 500MN Microwarpdrive Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85973:
     id: 85973
     name: Glorified Decayed Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85974:
     id: 85974
     name: Glorified Gravid Assault Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85975:
     id: 85975
     name: Glorified Unstable Assault Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85976:
     id: 85976
     name: Glorified Gravid Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85977:
     id: 85977
     name: Glorified Unstable Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85978:
     id: 85978
     name: Glorified Decayed Assault Damage Control Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   85981:
     id: 85981
     name: Glorified Decayed Small Cap Battery Mutaplasmid Blueprint
@@ -552,574 +497,492 @@ types:
   86016:
     id: 86016
     name: Glorified Decayed Small Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86017:
     id: 86017
     name: Glorified Gravid Small Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86018:
     id: 86018
     name: Glorified Unstable Small Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86019:
     id: 86019
     name: Glorified Decayed Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86020:
     id: 86020
     name: Glorified Gravid X-Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86021:
     id: 86021
     name: Glorified Unstable X-Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86022:
     id: 86022
     name: Glorified Unstable X-Large Ancillary Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86023:
     id: 86023
     name: Glorified Decayed Capital Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86024:
     id: 86024
     name: Glorified Gravid Capital Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86025:
     id: 86025
     name: Glorified Unstable Capital Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86026:
     id: 86026
     name: Glorified Unstable Capital Ancillary Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86027:
     id: 86027
     name: Glorified Decayed Small Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86028:
     id: 86028
     name: Glorified Gravid Small Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86029:
     id: 86029
     name: Glorified Unstable Small Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86030:
     id: 86030
     name: Glorified Decayed Medium Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86031:
     id: 86031
     name: Glorified Gravid Medium Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86032:
     id: 86032
     name: Glorified Unstable Medium Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86033:
     id: 86033
     name: Glorified Decayed Medium Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86034:
     id: 86034
     name: Glorified Gravid Medium Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86035:
     id: 86035
     name: Glorified Unstable Medium Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86036:
     id: 86036
     name: Glorified Unstable Medium Ancillary Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86037:
     id: 86037
     name: Glorified Gravid Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86038:
     id: 86038
     name: Glorified Unstable Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86039:
     id: 86039
     name: Glorified Decayed Large Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86040:
     id: 86040
     name: Glorified Gravid Large Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86041:
     id: 86041
     name: Glorified Unstable Large Shield Extender Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86042:
     id: 86042
     name: Glorified Unstable Large Ancillary Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86043:
     id: 86043
     name: Glorified Decayed X-Large Shield Booster Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86044:
     id: 86044
     name: Glorified Decayed Stasis Webifier Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86045:
     id: 86045
     name: Glorified Gravid Stasis Webifier Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86046:
     id: 86046
     name: Glorified Unstable Stasis Webifier Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86047:
     id: 86047
     name: Glorified Decayed Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86048:
     id: 86048
     name: Glorified Gravid Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86049:
     id: 86049
     name: Glorified Unstable Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86050:
     id: 86050
     name: Glorified Gravid Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86051:
     id: 86051
     name: Glorified Unstable Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86052:
     id: 86052
     name: Glorified Decayed Heavy Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86053:
     id: 86053
     name: Glorified Gravid Heavy Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86054:
     id: 86054
     name: Glorified Unstable Heavy Warp Disruptor Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86055:
     id: 86055
     name: Glorified Decayed Heavy Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86056:
     id: 86056
     name: Glorified Gravid Heavy Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86057:
     id: 86057
     name: Glorified Unstable Heavy Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86058:
     id: 86058
     name: Glorified Decayed Warp Scrambler Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86059:
     id: 86059
     name: Glorified Decayed Ballistic Control System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86060:
     id: 86060
     name: Glorified Gravid Ballistic Control System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86061:
     id: 86061
     name: Glorified Unstable Ballistic Control System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86062:
     id: 86062
     name: Glorified Gravid Magnetic Field Stabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86063:
     id: 86063
     name: Glorified Unstable Magnetic Field Stabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86064:
     id: 86064
     name: Glorified Decayed Siege Module Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86065:
     id: 86065
     name: Glorified Gravid Siege Module Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86066:
     id: 86066
     name: Glorified Unstable Siege Module Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86067:
     id: 86067
     name: Glorified Decayed Vorton Tuning System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86068:
     id: 86068
     name: Glorified Gravid Vorton Tuning System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86069:
     id: 86069
     name: Glorified Unstable Vorton Tuning System Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86070:
     id: 86070
     name: Glorified Decayed Entropic Radiation Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86071:
     id: 86071
     name: Glorified Gravid Entropic Radiation Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86072:
     id: 86072
     name: Glorified Unstable Entropic Radiation Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86073:
     id: 86073
     name: Glorified Decayed Gyrostabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86074:
     id: 86074
     name: Glorified Gravid Gyrostabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86075:
     id: 86075
     name: Glorified Unstable Gyrostabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86076:
     id: 86076
     name: Glorified Decayed Heat Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86077:
     id: 86077
     name: Glorified Gravid Heat Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86078:
     id: 86078
     name: Glorified Unstable Heat Sink Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86079:
     id: 86079
     name: Glorified Decayed Magnetic Field Stabilizer Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86125:
     id: 86125
     name: Glorified Exigent Light Drone Durability Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86126:
     id: 86126
     name: Glorified Exigent Light Drone Firepower Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86127:
     id: 86127
     name: Glorified Exigent Light Drone Navigation Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86128:
     id: 86128
     name: Glorified Exigent Heavy Drone Navigation Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86129:
     id: 86129
     name: Glorified Exigent Heavy Drone Projection Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86130:
     id: 86130
     name: Glorified Exigent Sentry Drone Durability Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86131:
     id: 86131
     name: Glorified Exigent Sentry Drone Firepower Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86132:
     id: 86132
     name: Glorified Exigent Sentry Drone Precision Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86133:
     id: 86133
     name: Glorified Exigent Sentry Drone Projection Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86134:
     id: 86134
     name: Glorified Radical Drone Damage Amplifier Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86135:
     id: 86135
     name: Glorified Radical Fighter Support Unit Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86136:
     id: 86136
     name: Glorified Exigent Light Drone Projection Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86137:
     id: 86137
     name: Glorified Exigent Medium Drone Durability Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86138:
     id: 86138
     name: Glorified Exigent Medium Drone Firepower Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86139:
     id: 86139
     name: Glorified Exigent Medium Drone Navigation Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86140:
     id: 86140
     name: Glorified Exigent Medium Drone Projection Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86141:
     id: 86141
     name: Glorified Exigent Heavy Drone Durability Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   86142:
     id: 86142
     name: Glorified Exigent Heavy Drone Firepower Mutaplasmid Blueprint
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

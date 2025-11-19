@@ -4,9 +4,7 @@ types:
     industryblueprintrank: 40.0
     marketGroup: 2797
     name: CONCORD Rogue Analysis Beacon Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.4E8
+    price: 140000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

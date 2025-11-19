@@ -10,11 +10,11 @@ import com.helger.jcodemodel.exceptions.JCodeModelException;
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
-import fr.guiguilechat.jcelechat.model.FileTools;
+import fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
 import fr.guiguilechat.jcelechat.model.sde.loaders.MixedLoader;
-import fr.guiguilechat.jcelechat.model.sde.loaders.SDELoader;
+import fr.guiguilechat.jcelechat.model.sde.loaders.Sde2Loader;
 import fr.guiguilechat.jcelechat.model.sde.translate.TypesTranslater;
 
 public class MainCompile {
@@ -28,16 +28,18 @@ public class MainCompile {
 				return ESILoader.load();
 			}
 		},
-		SDE {
-			@Override
-			public TypeHierarchy load() {
-				return SDELoader.load();
-			}
-		},
 		MIXED {
 			@Override
 			public TypeHierarchy load() {
 				return MixedLoader.load();
+			}
+
+		},
+		SDE2 {
+
+			@Override
+			public TypeHierarchy load() {
+				return Sde2Loader.load();
 			}
 
 		};
@@ -54,7 +56,7 @@ public class MainCompile {
 	 * @throws JCodeModelException
 	 */
 	public static void main(String... args) throws IOException, JCodeModelException {
-		LOADER loader = LOADER.MIXED;
+		LOADER loader = LOADER.SDE2;
 		boolean specifictests = false;
 		long startTime = System.currentTimeMillis();
 		File srcTarget = new File(args[0]);
@@ -82,8 +84,11 @@ public class MainCompile {
 		startTime = System.currentTimeMillis();
 		new TypesTranslater().translate(hierarchy, compiled, resTarget, args[2]);
 		logger.info("translated types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+
+		// need to write the classes after the exports because meta links and load
+		// method are created in the export
 		startTime = System.currentTimeMillis();
 		new JCMWriter(compiled.model).build(srcTarget, (IProgressTracker) null);
-		logger.info("wrote structure in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+		logger.info("wrote classes in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 }

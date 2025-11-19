@@ -6,14 +6,12 @@ types:
     asteroidradiusunitsize: 200
     id: 82163
     marketGroup: 3639
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Hezorime
     orebasictype: 82163
-    packagedVolume: 5.0
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -26,14 +24,12 @@ types:
     asteroidradiusunitsize: 200
     id: 82164
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Dull Hezorime
+    mass: 1.0E+35
+    name: Hezorime II-Grade
     orebasictype: 82163
-    packagedVolume: 5.0
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -46,14 +42,12 @@ types:
     asteroidradiusunitsize: 200
     id: 82165
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Serrated Hezorime
+    mass: 1.0E+35
+    name: Hezorime III-Grade
     orebasictype: 82163
-    packagedVolume: 5.0
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -66,14 +60,12 @@ types:
     asteroidradiusunitsize: 200
     id: 82166
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Sharp Hezorime
+    mass: 1.0E+35
+    name: Hezorime IV-Grade
     orebasictype: 82163
-    packagedVolume: 5.0
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
@@ -82,80 +74,72 @@ types:
   82312:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 82312
     marketGroup: 3639
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Hezorime
     orebasictype: 82163
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   82313:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 82313
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Compressed Dull Hezorime
+    mass: 1.0E+35
+    name: Compressed Hezorime II-Grade
     orebasictype: 82163
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   82314:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 82314
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Compressed Serrated Hezorime
+    mass: 1.0E+35
+    name: Compressed Hezorime II-Grade
     orebasictype: 82163
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05
   82315:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 600
     id: 82315
     marketGroup: 3639
-    mass: 1.0000000409184788E35
-    name: Compressed Sharp Hezorime
+    mass: 1.0E+35
+    name: Compressed Hezorime IV-Grade
     orebasictype: 82163
-    packagedVolume: 0.05000000074505806
     portionSize: 100
     price: 1149400.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60380
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.05000000074505806
+    volume: 0.05

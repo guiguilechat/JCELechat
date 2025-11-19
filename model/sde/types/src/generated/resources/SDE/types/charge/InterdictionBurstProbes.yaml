@@ -12,10 +12,8 @@ types:
     marketGroup: 1201
     mass: 1.0
     name: Stasis Webification Probe
-    packagedVolume: 3.0
     portionSize: 2
     published: true
-    radius: 1.0
     remoteresistanceid: 2115
     requiredskill1: 3412
     requiredskill1level: 3

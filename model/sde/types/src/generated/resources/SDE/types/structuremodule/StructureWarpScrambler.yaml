@@ -4,7 +4,6 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     capacitorneed: 4000.0
-    capacity: 1.0
     chargegroup1: 1551
     chargesize: 1
     cpu: 2500.0
@@ -21,12 +20,10 @@ types:
     maxvelocitymultiplier: 1.0
     modulereactivationdelay: 60000
     name: Standup Focused Warp Disruptor I
-    packagedVolume: 4000.0
     portionSize: 1
     power: 50000
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     structureitemvisualflag: 1
     techlevel: 1
     volume: 4000.0
@@ -36,7 +33,6 @@ types:
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
     capacitorneed: 4800.0
-    capacity: 1.0
     chargegroup1: 1551
     chargesize: 1
     cpu: 3000.0
@@ -54,12 +50,10 @@ types:
     metalevelold: 5
     modulereactivationdelay: 60000
     name: Standup Focused Warp Disruptor II
-    packagedVolume: 4000.0
     portionSize: 1
     power: 60000
     published: true
-    radius: 1.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     structureitemvisualflag: 1
     techlevel: 2
     volume: 4000.0

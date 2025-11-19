@@ -3,7 +3,7 @@ types:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 25000
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 50
     detonationrange: 35
@@ -18,7 +18,6 @@ types:
     mass: 1000.0
     maxvelocity: 6000.0
     name: Standup Super-heavy Torpedo
-    packagedVolume: 0.5
     portionSize: 100
     price: 325000.0
     published: true
@@ -31,7 +30,7 @@ types:
     agility: 1000.0
     aimedlaunch: 1
     aoecloudsize: 15000
-    aoedamagereductionfactor: 0.9440000057220459
+    aoedamagereductionfactor: 0.944
     aoefalloff: 1500
     aoevelocity: 70
     detonationrange: 35
@@ -46,7 +45,6 @@ types:
     mass: 1000.0
     maxvelocity: 9000.0
     name: Standup XL Cruise Missile
-    packagedVolume: 0.5
     portionSize: 100
     price: 325000.0
     published: true

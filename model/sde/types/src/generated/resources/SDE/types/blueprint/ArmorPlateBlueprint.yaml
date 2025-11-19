@@ -4,235 +4,196 @@ types:
     industryblueprintrank: 9.0
     marketGroup: 1541
     name: 1600mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11294:
     id: 11294
     industryblueprintrank: 3.0
     marketGroup: 1541
     name: 100mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11296:
     id: 11296
     industryblueprintrank: 3.0
     marketGroup: 1541
     name: 200mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11298:
     id: 11298
     industryblueprintrank: 3.0
     marketGroup: 1541
     name: 400mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1600000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11300:
     id: 11300
     industryblueprintrank: 6.0
     marketGroup: 1541
     name: 800mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   20346:
     id: 20346
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 100mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20348:
     id: 20348
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 200mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20350:
     id: 20350
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 400mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20352:
     id: 20352
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 800mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20354:
     id: 20354
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 1600mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   23784:
     id: 23784
     industryblueprintrank: 3.0
     name: '''Abatis'' 100mm Steel Plates I Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23786:
     id: 23786
     industryblueprintrank: 9.0
     name: '''Bailey'' 1600mm Steel Plates Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23788:
     id: 23788
     industryblueprintrank: 3.0
     name: '''Chainmail'' 200mm Steel Plates Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23790:
     id: 23790
     industryblueprintrank: 3.0
     name: '''Bastion'' 400mm Steel Plates Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23792:
     id: 23792
     industryblueprintrank: 3.0
     name: '''Citadella'' 100mm Steel Plates Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23794:
     id: 23794
     industryblueprintrank: 6.0
     name: '''Barbican'' 800mm Steel Plates Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41607:
     id: 41607
     marketGroup: 1541
     name: 25000mm Steel Plates I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.1742E7
+    price: 21742000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41608:
     id: 41608
     marketGroup: 1541
     name: 25000mm Rolled Tungsten Compact Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.3484E7
+    price: 43484000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41609:
     id: 41609
     marketGroup: 1541
     name: 25000mm Crystalline Carbonide Restrained Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.3484E7
+    price: 43484000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41610:
     id: 41610
     name: 25000mm Steel Plates II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41611:
     id: 41611
     name: CONCORD 25000mm Steel Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41612:
     id: 41612
     name: Dark Blood 25000mm Steel Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41613:
     id: 41613
     name: Shadow Serpentis 25000mm Steel Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

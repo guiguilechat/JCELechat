@@ -2,1912 +2,1640 @@ types:
   34780:
     id: 34780
     name: Megathron Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34886:
     id: 34886
     name: Abaddon Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34890:
     id: 34890
     name: Abaddon Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34894:
     id: 34894
     name: Abaddon Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34898:
     id: 34898
     name: Aeon Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34902:
     id: 34902
     name: Aeon Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34906:
     id: 34906
     name: Algos Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34910:
     id: 34910
     name: Algos InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34914:
     id: 34914
     name: Apocalypse Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34918:
     id: 34918
     name: Apocalypse Blood Raiders SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34922:
     id: 34922
     name: Apocalypse Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34926:
     id: 34926
     name: Apocalypse Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34930:
     id: 34930
     name: Apocalypse Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34934:
     id: 34934
     name: Apocalypse Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34938:
     id: 34938
     name: Arbitrator Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34942:
     id: 34942
     name: Arbitrator Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34946:
     id: 34946
     name: Archon Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34950:
     id: 34950
     name: Archon Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34954:
     id: 34954
     name: Armageddon Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34958:
     id: 34958
     name: Armageddon Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34962:
     id: 34962
     name: Armageddon Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34966:
     id: 34966
     name: Atron Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34970:
     id: 34970
     name: Atron InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34974:
     id: 34974
     name: Augoror Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34978:
     id: 34978
     name: Augoror Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34982:
     id: 34982
     name: Avatar Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34986:
     id: 34986
     name: Avatar Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34990:
     id: 34990
     name: Bellicose Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34994:
     id: 34994
     name: Bestower Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   34998:
     id: 34998
     name: Brutix Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35002:
     id: 35002
     name: Brutix Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35006:
     id: 35006
     marketGroup: 1958
     name: Brutix Serpentis SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35010:
     id: 35010
     name: Caracal Nugoeihuvi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35014:
     id: 35014
     name: Caracal Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35018:
     id: 35018
     name: Catalyst Aliastra SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35022:
     id: 35022
     name: Catalyst Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35026:
     id: 35026
     name: Catalyst Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35030:
     id: 35030
     name: Catalyst InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35034:
     id: 35034
     name: Catalyst Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35038:
     id: 35038
     marketGroup: 1996
     name: Catalyst Serpentis SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35042:
     id: 35042
     name: Celestis Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35046:
     id: 35046
     name: Celestis InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35050:
     id: 35050
     name: Charon Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35054:
     id: 35054
     name: Chimera Lai Dai SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35058:
     id: 35058
     name: Coercer Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35062:
     id: 35062
     marketGroup: 1994
     name: Coercer Blood Raiders SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35066:
     id: 35066
     name: Coercer Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35070:
     id: 35070
     name: Federation Navy Comet Police Pursuit SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35074:
     id: 35074
     marketGroup: 1995
     name: Cormorant Guristas SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35078:
     id: 35078
     name: Crucifier Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35082:
     id: 35082
     name: Crucifier Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35086:
     id: 35086
     name: Cyclone Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35090:
     id: 35090
     marketGroup: 1959
     name: Cyclone Thukker Tribe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35094:
     id: 35094
     name: Dominix Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35098:
     id: 35098
     name: Dominix Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35102:
     id: 35102
     name: Dominix Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35106:
     id: 35106
     name: Dominix Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35110:
     id: 35110
     name: Dragoon Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35114:
     id: 35114
     name: Dragoon Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35118:
     id: 35118
     name: Drake Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35122:
     id: 35122
     name: Eagle Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35126:
     id: 35126
     name: Erebus Duvolle SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35130:
     id: 35130
     name: Erebus InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35134:
     id: 35134
     name: Executioner Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35138:
     id: 35138
     name: Executioner Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35142:
     id: 35142
     name: Exequror Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35146:
     id: 35146
     name: Fenrir Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35150:
     id: 35150
     marketGroup: 1957
     name: Ferox Guristas SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35154:
     id: 35154
     name: Ferox Lai Dai SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35158:
     id: 35158
     name: Gila Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35162:
     id: 35162
     name: Golem Guristas SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35166:
     id: 35166
     name: Golem Kaalakiota SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35170:
     id: 35170
     name: Golem Nugoeihuvi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35174:
     id: 35174
     name: Harbinger Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35178:
     id: 35178
     name: Harbinger Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35182:
     id: 35182
     name: Hel Sebiestor SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35186:
     id: 35186
     name: Heron Sukuuvestaa SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35190:
     id: 35190
     name: Hulk ORE Development SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35194:
     id: 35194
     name: Hurricane Sebiestor SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35198:
     id: 35198
     name: Hyperion Aliastra SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35202:
     id: 35202
     name: Hyperion Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35206:
     id: 35206
     name: Imicus Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35210:
     id: 35210
     name: Imicus Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35214:
     id: 35214
     name: Incursus Aliastra SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35218:
     id: 35218
     name: Incursus Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35222:
     id: 35222
     name: Inquisitor Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35226:
     id: 35226
     name: Inquisitor Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35230:
     id: 35230
     name: Ishtar Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35234:
     id: 35234
     name: Iteron Mark V Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35238:
     id: 35238
     name: Iteron Mark V InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35242:
     id: 35242
     name: Kestrel Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35246:
     id: 35246
     name: Kronos Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35250:
     id: 35250
     name: Kronos Police SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35254:
     id: 35254
     name: Kronos Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35258:
     id: 35258
     name: Machariel Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35262:
     id: 35262
     name: Mackinaw ORE Development SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35266:
     id: 35266
     name: Maelstrom Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35270:
     id: 35270
     name: Maelstrom Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35274:
     id: 35274
     name: Magnate Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35278:
     id: 35278
     name: Magnate Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35282:
     id: 35282
     name: Magnate Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35286:
     id: 35286
     name: Maller Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35290:
     id: 35290
     name: Maller Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35294:
     id: 35294
     name: Mammoth Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35298:
     id: 35298
     name: Maulus Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35302:
     id: 35302
     name: Maulus Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35306:
     id: 35306
     name: Megathron Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35310:
     id: 35310
     name: Megathron Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35314:
     id: 35314
     name: Megathron Police SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35318:
     id: 35318
     name: Megathron Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35322:
     id: 35322
     name: Merlin Nugoeihuvi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35326:
     id: 35326
     name: Merlin Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35330:
     id: 35330
     name: Moa Lai Dai SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35334:
     id: 35334
     name: Moros InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35338:
     id: 35338
     name: Moros Roden SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35342:
     id: 35342
     name: Myrmidon Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35346:
     id: 35346
     name: Myrmidon InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35350:
     id: 35350
     name: Naga Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35354:
     id: 35354
     name: Naglfar Justice SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35358:
     id: 35358
     name: Navitas Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35362:
     id: 35362
     name: Nidhoggur Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35366:
     id: 35366
     name: Nyx InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35370:
     id: 35370
     name: Nyx Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35374:
     id: 35374
     name: Obelisk Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35378:
     id: 35378
     name: Obelisk Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35382:
     id: 35382
     name: Omen Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35386:
     id: 35386
     name: Omen Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35390:
     id: 35390
     name: Omen Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35394:
     id: 35394
     name: Oracle Khanid SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35398:
     id: 35398
     name: Oracle Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35402:
     id: 35402
     name: Orca ORE Development SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35406:
     id: 35406
     name: Osprey Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35410:
     id: 35410
     name: Paladin Blood Raiders SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35414:
     id: 35414
     name: Paladin Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35418:
     id: 35418
     name: Paladin Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35422:
     id: 35422
     name: Phoenix Lai Dai SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35426:
     id: 35426
     name: Phoenix Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35430:
     id: 35430
     name: Probe Vherokior SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35434:
     id: 35434
     marketGroup: 1956
     name: Prophecy Blood Raiders SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35438:
     id: 35438
     name: Prophecy Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35442:
     id: 35442
     name: Prophecy Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35446:
     id: 35446
     name: Providence Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35450:
     id: 35450
     name: Providence Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35454:
     id: 35454
     name: Punisher Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35458:
     id: 35458
     name: Punisher Tash-Murkon SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35462:
     id: 35462
     name: Rattlesnake Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35466:
     id: 35466
     name: Raven Guristas SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35470:
     id: 35470
     name: Raven Kaalakiota SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35474:
     id: 35474
     name: Raven Nugoeihuvi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35478:
     id: 35478
     name: Raven Serenity YC117 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35482:
     id: 35482
     name: Raven Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35486:
     id: 35486
     name: Revelation Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35490:
     id: 35490
     name: Revelation Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35494:
     id: 35494
     name: Rifter Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35498:
     id: 35498
     name: Rifter Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35502:
     id: 35502
     name: Rokh Nugoeihuvi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35506:
     id: 35506
     name: Rokh Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35510:
     id: 35510
     name: Rorqual ORE Development SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35514:
     id: 35514
     name: Scorpion Ishukone Watch SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35518:
     id: 35518
     name: Sigil Kador SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35522:
     id: 35522
     name: Skiff ORE Development SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35526:
     id: 35526
     name: Slasher Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35530:
     id: 35530
     name: Stabber Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35534:
     id: 35534
     name: Stabber Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35538:
     id: 35538
     name: Talos Duvolle SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35542:
     id: 35542
     name: Talos InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35546:
     id: 35546
     name: Talwar Sebiestor SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35550:
     id: 35550
     name: Tayra Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35554:
     id: 35554
     name: Tempest Justice SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35558:
     id: 35558
     name: Tempest Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35562:
     id: 35562
     name: Tempest Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35566:
     id: 35566
     name: Thanatos Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35570:
     id: 35570
     name: Thanatos Roden SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35574:
     id: 35574
     name: Thorax Aliastra SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35578:
     id: 35578
     name: Thorax Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35582:
     id: 35582
     name: Thrasher Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35586:
     id: 35586
     marketGroup: 1997
     name: Thrasher Thukker Tribe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35590:
     id: 35590
     name: Tormentor Ardishapur SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35594:
     id: 35594
     name: Tormentor Sarum SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35598:
     id: 35598
     name: Tornado Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35602:
     id: 35602
     name: Tristan Inner Zone Shipping SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35606:
     id: 35606
     name: Tristan Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35610:
     id: 35610
     name: Typhoon Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35614:
     id: 35614
     name: Vargur Justice SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35618:
     id: 35618
     name: Vargur Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35622:
     id: 35622
     name: Vargur Nefantar SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35626:
     id: 35626
     name: Vexor Intaki Syndicate SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35630:
     id: 35630
     name: Vexor InterBus SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35634:
     id: 35634
     name: Vexor Quafe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35638:
     id: 35638
     name: Vigil Krusual SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35642:
     id: 35642
     name: Wyvern Wiyrkomi SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35692:
     id: 35692
     name: Astero Sanctuary SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35697:
     id: 35697
     name: Stratios Sanctuary SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35702:
     id: 35702
     name: Nestor Sanctuary SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   35707:
     id: 35707
     name: Vargur Thukker Tribe SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   47077:
     id: 47077
     name: Gold Magnate Serenity YC119 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   47087:
     id: 47087
     name: Naga Serenity YC119 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   47092:
     id: 47092
     name: Cynabal Serenity YC119 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   47097:
     id: 47097
     name: Augoror Navy Issue Serenity YC119 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   47284:
     id: 47284
     name: Talos Serenity YC119 SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49143:
     id: 49143
     name: Rorqual Sovereign Claim Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49160:
     id: 49160
     name: Venture Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49165:
     id: 49165
     name: Endurance Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49170:
     id: 49170
     name: Prospect Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49175:
     id: 49175
     name: Procurer Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49180:
     id: 49180
     name: Retriever Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49185:
     id: 49185
     name: Covetor Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49190:
     id: 49190
     name: Skiff Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49195:
     id: 49195
     name: Mackinaw Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49200:
     id: 49200
     name: Hulk Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49205:
     id: 49205
     name: Bowhead Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49210:
     id: 49210
     name: Orca Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49215:
     id: 49215
     name: Rorqual Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49220:
     id: 49220
     name: Porpoise Amarr Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49225:
     id: 49225
     name: Venture Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49230:
     id: 49230
     name: Endurance Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49235:
     id: 49235
     name: Prospect Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49240:
     id: 49240
     name: Procurer Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49245:
     id: 49245
     name: Retriever Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49250:
     id: 49250
     name: Covetor Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49255:
     id: 49255
     name: Skiff Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49260:
     id: 49260
     name: Mackinaw Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49265:
     id: 49265
     name: Hulk Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49270:
     id: 49270
     name: Bowhead Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49275:
     id: 49275
     name: Orca Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49280:
     id: 49280
     name: Rorqual Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49285:
     id: 49285
     name: Porpoise Caldari Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49290:
     id: 49290
     name: Venture Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49295:
     id: 49295
     name: Endurance Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49300:
     id: 49300
     name: Prospect Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49305:
     id: 49305
     name: Procurer Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49310:
     id: 49310
     name: Retriever Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49315:
     id: 49315
     name: Covetor Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49320:
     id: 49320
     name: Skiff Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49325:
     id: 49325
     name: Mackinaw Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49330:
     id: 49330
     name: Hulk Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49335:
     id: 49335
     name: Bowhead Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49340:
     id: 49340
     name: Orca Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49345:
     id: 49345
     name: Rorqual Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49350:
     id: 49350
     name: Porpoise Gallente Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49355:
     id: 49355
     name: Venture Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49360:
     id: 49360
     name: Endurance Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49365:
     id: 49365
     name: Prospect Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49370:
     id: 49370
     name: Procurer Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49375:
     id: 49375
     name: Retriever Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49380:
     id: 49380
     name: Covetor Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49385:
     id: 49385
     name: Skiff Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49390:
     id: 49390
     name: Mackinaw Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49395:
     id: 49395
     name: Hulk Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49400:
     id: 49400
     name: Bowhead Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49405:
     id: 49405
     name: Orca Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49410:
     id: 49410
     name: Rorqual Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49415:
     id: 49415
     name: Porpoise Minmatar Industrial Livery Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49438:
     id: 49438
     name: Vexor Serenity Flame SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49443:
     id: 49443
     name: Rupture Serenity Cloud SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49448:
     id: 49448
     name: Caracal Serenity Water SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49453:
     id: 49453
     name: Omen Serenity Electric SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49458:
     id: 49458
     name: Vigilant Serenity Splatter (Thorax) SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49463:
     id: 49463
     name: Ashimmu Serenity Splatter (Ashimmu) SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49468:
     id: 49468
     name: Gila Serenity Circle SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49473:
     id: 49473
     name: Cynabal Serenity Twirl SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49478:
     id: 49478
     name: Astero Spectral Shift Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49483:
     id: 49483
     name: Stratios Spectral Shift Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49488:
     id: 49488
     name: Nestor Spectral Shift Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49493:
     id: 49493
     name: Providence Imperial Jubilee Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49498:
     id: 49498
     name: Paladin Imperial Jubilee Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49503:
     id: 49503
     name: Tengu Ghostbird Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49508:
     id: 49508
     name: Golem Ghostbird Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49513:
     id: 49513
     name: Damavik Hadean Horror Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49518:
     id: 49518
     name: Vedmak Hadean Horror Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49523:
     id: 49523
     name: Leshak Hadean Horror Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   49528:
     id: 49528
     name: Machariel Angel's Hex Serenity Only SKIN (30 Days)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

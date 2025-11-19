@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 80.0
-    capacity: 80.0
     damagemultiplier: 1.5
     disallowassistance: 1
     entityattackdelaymax: 18500
@@ -27,16 +26,16 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 1
     entityequipmentmin: 1
-    entityfactionloss: 0.0012499999720603228
+    entityfactionloss: 0.00125
     entityflyrange: 5000.0
     entitykillbounty: 3500
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.30000001192092896
+    entityreactionfactor: 0.3
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.0062500000931322575
+    entitysecuritystatuskillbonus: 0.00625
     entityshieldboostamount: 16.0
-    entityshieldboostdelaychance: 0.17499999701976776
+    entityshieldboostdelaychance: 0.175
     entityshieldboostduration: 10000
     entitystrength: 2
     falloff: 3000.0
@@ -58,7 +57,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Rookie
     optimalsigradius: 40
-    packagedVolume: 16120.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -69,32 +67,31 @@ types:
     scanspeed: 3500
     shieldcapacity: 50.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.12999999523162842
+    trackingspeed: 0.13
     volume: 16120.0
   16020:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 75.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 65.0
-    capacity: 65.0
     damagemultiplier: 1.75
     disallowassistance: 1
     entityattackdelaymax: 17000
@@ -109,15 +106,15 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0017500000540167093
+    entityfactionloss: 0.00175
     entityflyrange: 1000.0
     entitykillbounty: 5500
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.008750000037252903
+    entitysecuritystatuskillbonus: 0.00875
     entityshieldboostamount: 24.0
-    entityshieldboostdelaychance: 0.17499999701976776
+    entityshieldboostdelaychance: 0.175
     entityshieldboostduration: 10000
     entitystrength: 4
     falloff: 2500.0
@@ -139,43 +136,41 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Sabre
     optimalsigradius: 40
-    packagedVolume: 20250.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 42.93000030517578
+    radius: 42.93
     rechargerate: 500000.0
     scangravimetricstrength: 8.0
     scanresolution: 850.0
     scanspeed: 3500
     shieldcapacity: 125.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.699999988079071
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.7
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2750.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 5.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 20250.0
   16021:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 125.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 100.0
-    capacity: 235.0
     damagemultiplier: 2.5
     disallowassistance: 1
     entityattackdelaymax: 15000
@@ -190,16 +185,16 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.0022499999031424522
+    entityfactionloss: 0.00225
     entityflyrange: 1000.0
     entitykillbounty: 8000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.4000000059604645
+    entityreactionfactor: 0.4
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.011250000447034836
+    entitysecuritystatuskillbonus: 0.01125
     entityshieldboostamount: 32.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     falloff: 3500.0
     gfxboosterid: 395
@@ -220,44 +215,42 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Rapier
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 42.93000030517578
+    radius: 42.93
     rechargerate: 500000.0
     scangravimetricstrength: 8.0
     scanresolution: 850.0
     scanspeed: 3000
     shieldcapacity: 200.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.38499999046325684
-    shieldkineticdamageresonance: 0.675000011920929
+    shieldexplosivedamageresonance: 0.385
+    shieldkineticdamageresonance: 0.675
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.675000011920929
+    shieldthermaldamageresonance: 0.675
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.335999995470047
+    trackingspeed: 0.336
     volume: 20400.0
   16022:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 130.0
-    damagemultiplier: 3.1764705181121826
+    damagemultiplier: 3.176470588
     disallowassistance: 1
     entityattackdelaymax: 11000
     entityattackdelaymin: 3500
@@ -271,16 +264,16 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.002749999985098839
+    entityfactionloss: 0.00275
     entityflyrange: 7500.0
     entitykillbounty: 12000
     entitylootcountmin: 1
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.013749999925494194
+    entitysecuritystatuskillbonus: 0.01375
     entityshieldboostamount: 36.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     entitystrength: 12
     falloff: 6000.0
@@ -302,43 +295,41 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Gladius
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 45.97999954223633
+    radius: 45.98
     rechargerate: 500000.0
     scangravimetricstrength: 8.0
     scanresolution: 850.0
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.38499999046325684
-    shieldkineticdamageresonance: 0.675000011920929
+    shieldexplosivedamageresonance: 0.385
+    shieldkineticdamageresonance: 0.675
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.675000011920929
+    shieldthermaldamageresonance: 0.675
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 16500.0
   16023:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 250.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     damagemultiplier: 2.0
     disallowassistance: 1
     entityattackdelaymax: 11000
@@ -353,7 +344,7 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitykillbounty: 17500
     entitylootcountmin: 1
@@ -361,9 +352,9 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     entityshieldboostamount: 40.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     falloff: 6000.0
     gfxboosterid: 395
@@ -384,7 +375,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Katana
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -395,33 +385,32 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.38499999046325684
-    shieldkineticdamageresonance: 0.675000011920929
+    shieldexplosivedamageresonance: 0.385
+    shieldkineticdamageresonance: 0.675
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.675000011920929
+    shieldthermaldamageresonance: 0.675
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 3500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.07000000029802322
+    trackingspeed: 0.07
     volume: 16500.0
   16024:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 400.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
-    damagemultiplier: 2.299999952316284
+    damagemultiplier: 2.3
     disallowassistance: 1
     entityattackdelaymax: 11000
     entityattackdelaymin: 3500
@@ -435,7 +424,7 @@ types:
     entitycruisespeed: 200.0
     entityequipmentmax: 3
     entityequipmentmin: 1
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitykillbounty: 100000
     entitylootcountmin: 1
@@ -443,9 +432,9 @@ types:
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.017500000074505806
+    entitysecuritystatuskillbonus: 0.0175
     entityshieldboostamount: 50.0
-    entityshieldboostdelaychance: 0.3499999940395355
+    entityshieldboostdelaychance: 0.35
     entityshieldboostduration: 10000
     falloff: 6000.0
     gfxboosterid: 395
@@ -466,7 +455,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mordus Squad Leader
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -478,31 +466,30 @@ types:
     shieldcapacity: 400.0
     shieldemdamageresonance: 0.875
     shieldexplosivedamageresonance: 0.875
-    shieldkineticdamageresonance: 0.38499999046325684
+    shieldkineticdamageresonance: 0.385
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.675000011920929
+    shieldthermaldamageresonance: 0.675
     shielduniformity: 0.75
     signatureradius: 45.0
     speed: 3500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.08049999922513962
+    trackingspeed: 0.0805
     volume: 16500.0
   16040:
     aiignoredronesbelowsignatureradius: 50
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 130.0
-    capacity: 235.0
     damagemultiplier: 3.75
     disallowassistance: 1
     entityattackdelaymax: 7500
@@ -515,22 +502,22 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.0032500000670552254
+    entityfactionloss: 0.00325
     entityflyrange: 7500.0
     entitykillbounty: 30000
     entitylootcountmin: 2
     entitymissiletypeid: 210
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.027499999850988388
+    entitysecuritystatuskillbonus: 0.0275
     entityshieldboostamount: 80.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
-    entitywarpscramblechance: 0.10000000149011612
+    entitywarpscramblechance: 0.1
     falloff: 6000.0
     gfxboosterid: 395
     gfxturretid: 561
@@ -546,12 +533,11 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 12000.0
-    modifytargetspeedchance: 0.8999999761581421
+    modifytargetspeedchance: 0.9
     modifytargetspeedduration: 20000.0
     modifytargetspeedrange: 20000
     name: Mordus Bounty Hunter
     optimalsigradius: 40
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -562,17 +548,17 @@ types:
     scanspeed: 2000
     shieldcapacity: 600.0
     shieldemdamageresonance: 0.875
-    shieldexplosivedamageresonance: 0.38499999046325684
-    shieldkineticdamageresonance: 0.675000011920929
+    shieldexplosivedamageresonance: 0.385
+    shieldkineticdamageresonance: 0.675
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.675000011920929
+    shieldthermaldamageresonance: 0.675
     shielduniformity: 0.75
     signatureradius: 27.0
     speed: 2500.0
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.08749999850988388
+    trackingspeed: 0.0875
     volume: 16500.0
     warpscramblerange: 7000
     warpscramblestrength: 1
@@ -581,21 +567,20 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 1100.0
-    armorkineticdamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.625
     armoruniformity: 0.75
     capacitorcapacity: 135.0
-    capacity: 235.0
     damagemultiplier: 10.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
     emdamage: 5.0
     entityarmorrepairamount: 200.0
-    entityarmorrepairdelaychance: 0.6000000238418579
+    entityarmorrepairdelaychance: 0.6
     entityarmorrepairduration: 25000
     entityattackdelaymax: 7500
     entityattackdelaymin: 1500
@@ -607,18 +592,18 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.004749999847263098
+    entityfactionloss: 0.00475
     entityflyrange: 6000.0
     entitykillbounty: 250000
     entitylootcountmin: 2
     entitymissiletypeid: 24505
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.027499999850988388
+    entitysecuritystatuskillbonus: 0.0275
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     entitywarpscramblechance: 0.5
@@ -641,7 +626,6 @@ types:
     modifytargetspeedrange: 10000
     name: Mordur Bloodsworn
     optimalsigradius: 40
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -655,10 +639,10 @@ types:
     scanspeed: 2500
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 24.0
     speed: 2500.0

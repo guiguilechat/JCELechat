@@ -1,173 +1,141 @@
 types:
   12558:
     id: 12558
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Gleam S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12560:
     id: 12560
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Aurora S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12564:
     id: 12564
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Scorch S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12566:
     id: 12566
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Conflagration S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12815:
     id: 12815
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Conflagration M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12817:
     id: 12817
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Conflagration L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12819:
     id: 12819
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Scorch M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12821:
     id: 12821
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Scorch L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12823:
     id: 12823
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Aurora M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12825:
     id: 12825
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Aurora L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12827:
     id: 12827
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Gleam M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12829:
     id: 12829
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Gleam L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41331:
     id: 41331
     name: Scorch XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
+    price: 15000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41333:
     id: 41333
     name: Conflagration XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41335:
     id: 41335
     name: Gleam XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41337:
     id: 41337
     name: Aurora XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

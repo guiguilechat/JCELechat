@@ -1,0 +1,33 @@
+types:
+  90456:
+    agility: 0.2
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorhp: 7000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
+    behaviorcommandburstdischarge: 5
+    behaviorcommandburstduration: 20000
+    behaviorcommandburstrange: 50000
+    capacitorcapacity: 8000.0
+    gfxboosterid: 394
+    hp: 45000.0
+    id: 90456
+    mass: 150000000.0
+    maxlockedtargets: 7
+    maxtargetrange: 70000.0
+    maxvelocity: 60.0
+    name: Director Becker's Rorqual
+    portionSize: 1
+    published: false
+    radius: 550.0
+    rechargerate: 1200000.0
+    scanmagnetometricstrength: 30.0
+    scanresolution: 75.0
+    shieldcapacity: 30000.0
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
+    shieldrechargerate: 6000000.0
+    shieldthermaldamageresonance: 0.4
+    signatureradius: 1000.0

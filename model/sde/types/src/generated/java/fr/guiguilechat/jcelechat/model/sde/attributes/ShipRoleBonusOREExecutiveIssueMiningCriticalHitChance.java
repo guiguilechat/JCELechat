@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * Radius of an object in meters
+ * Role Bonus for ORE Executive Issue Ships for critical hit chance
  */
-public class Radius
-    extends RealAttribute
+public class ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance
+    extends IntAttribute
 {
-    public static final Radius INSTANCE = new Radius();
+    public static final ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance INSTANCE = new ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance();
 
     @Override
     public int getId() {
-        return  162;
+        return  6048;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class Radius
 
     @Override
     public String toString() {
-        return "Radius";
+        return "ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance";
     }
 }

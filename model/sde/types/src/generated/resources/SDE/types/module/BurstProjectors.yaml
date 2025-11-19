@@ -23,12 +23,10 @@ types:
     maxgroupfitted: 1
     maxrange: 500000.0
     name: ECM Jammer Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 5.1E7
+    price: 51000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2253
     requiredskill1: 27911
     requiredskill1level: 1
@@ -65,12 +63,10 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: Stasis Webification Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2115
     requiredskill1: 27911
     requiredskill1level: 1
@@ -103,12 +99,10 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: Energy Neutralization Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2045
     requiredskill1: 27911
     requiredskill1level: 1
@@ -141,12 +135,10 @@ types:
     maxgroupfitted: 1
     maxrange: 500000.0
     name: Warp Disruption Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     requiredskill1: 27911
     requiredskill1level: 1
     signatureradius: 100.0
@@ -178,12 +170,10 @@ types:
     maxrange: 500000.0
     maxtargetrangebonus: -18.0
     name: Sensor Dampening Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2112
     requiredskill1: 27911
     requiredskill1level: 1
@@ -216,12 +206,10 @@ types:
     maxgroupfitted: 1
     maxrange: 500000.0
     name: Target Illumination Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2114
     requiredskill1: 27911
     requiredskill1level: 1
@@ -260,12 +248,10 @@ types:
     maxrangebonus: -20.0
     missilevelocitybonus: -11.0
     name: Weapon Disruption Burst Projector
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     remoteresistanceid: 2113
     requiredskill1: 27911
     requiredskill1level: 1

@@ -1,26 +1,24 @@
 types:
   46046:
-    agility: 0.10897104442119598
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.108971043
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.5525000095367432
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.5525
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 10000.0
-    capacity: 500.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     entitybracketcolour: 2
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     gfxboosterid: 394
     hp: 14000.0
     id: 46046
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.5E7
+    kineticdamageresonance: 0.402
+    mass: 15000000.0
     maxlockedtargets: 7
     maxtargetrange: 87500.0
     maxvelocity: 75.0
     name: ♦ Orca
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
@@ -28,39 +26,37 @@ types:
     scanmagnetometricstrength: 36.0
     scanresolution: 93.75
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.2848193049430847
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.28481931
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 4500000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     signatureradius: 1165.5
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.025E7
+    thermaldamageresonance: 0.402
+    volume: 10250000.0
     warpscramblestatus: -10
     warpspeedmultiplier: 3.0
   46047:
-    agility: 0.10897104442119598
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.108971043
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.5525000095367432
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.5525
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 10000.0
-    capacity: 1000.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     entitybracketcolour: 2
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     gfxboosterid: 394
     hp: 14000.0
     id: 46047
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.5E7
+    kineticdamageresonance: 0.402
+    mass: 15000000.0
     maxlockedtargets: 7
     maxtargetrange: 87500.0
     maxvelocity: 75.0
     name: ♦ Orca
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
@@ -68,39 +64,37 @@ types:
     scanmagnetometricstrength: 36.0
     scanresolution: 93.75
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.2848193049430847
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.28481931
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 4500000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     signatureradius: 1165.5
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.025E7
+    thermaldamageresonance: 0.402
+    volume: 10250000.0
     warpscramblestatus: -10
     warpspeedmultiplier: 3.0
   46048:
-    agility: 0.10897104442119598
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.108971043
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.5525000095367432
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.5525
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 10000.0
-    capacity: 2000.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     entitybracketcolour: 2
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     gfxboosterid: 394
     hp: 14000.0
     id: 46048
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.5E7
+    kineticdamageresonance: 0.402
+    mass: 15000000.0
     maxlockedtargets: 7
     maxtargetrange: 87500.0
     maxvelocity: 75.0
     name: ♦ Orca
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
@@ -108,39 +102,37 @@ types:
     scanmagnetometricstrength: 36.0
     scanresolution: 93.75
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.2848193049430847
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.28481931
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 4500000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     signatureradius: 1165.5
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.025E7
+    thermaldamageresonance: 0.402
+    volume: 10250000.0
     warpscramblestatus: -10
     warpspeedmultiplier: 3.0
   46049:
-    agility: 0.10897104442119598
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.108971043
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.5525000095367432
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.5525
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 10000.0
-    capacity: 3000.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     entitybracketcolour: 2
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     gfxboosterid: 394
     hp: 14000.0
     id: 46049
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.5E7
+    kineticdamageresonance: 0.402
+    mass: 15000000.0
     maxlockedtargets: 7
     maxtargetrange: 87500.0
     maxvelocity: 75.0
     name: ♦ Orca
-    packagedVolume: 1.025E7
     portionSize: 1
     published: false
     radius: 550.0
@@ -148,40 +140,38 @@ types:
     scanmagnetometricstrength: 36.0
     scanresolution: 93.75
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.2848193049430847
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.28481931
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 4500000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     signatureradius: 1165.5
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
-    volume: 1.025E7
+    thermaldamageresonance: 0.402
+    volume: 10250000.0
     warpscramblestatus: -10
     warpspeedmultiplier: 3.0
   48134:
-    agility: 0.10897104442119598
-    armoremdamageresonance: 0.42500001192092896
-    armorexplosivedamageresonance: 0.7649999856948853
+    agility: 0.108971043
+    armoremdamageresonance: 0.425
+    armorexplosivedamageresonance: 0.765
     armorhp: 3500.0
-    armorkineticdamageresonance: 0.5525000095367432
-    armorthermaldamageresonance: 0.5525000095367432
+    armorkineticdamageresonance: 0.5525
+    armorthermaldamageresonance: 0.5525
     capacitorcapacity: 10000.0
-    capacity: 400.0
-    emdamageresonance: 0.4020000100135803
+    emdamageresonance: 0.402
     entitybracketcolour: 2
     entitysecuritymaxgain: 5.0
-    explosivedamageresonance: 0.4020000100135803
+    explosivedamageresonance: 0.402
     gfxboosterid: 394
     hp: 14000.0
     id: 48134
-    kineticdamageresonance: 0.4020000100135803
-    mass: 1.0E7
+    kineticdamageresonance: 0.402
+    mass: 10000000.0
     maxlockedtargets: 7
     maxtargetrange: 87500.0
     maxvelocity: 75.0
     name: Justice Liberator
-    packagedVolume: 225000.0
     portionSize: 1
     published: false
     radius: 205.0
@@ -189,36 +179,36 @@ types:
     scanmagnetometricstrength: 36.0
     scanresolution: 93.75
     shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.2848193049430847
-    shieldexplosivedamageresonance: 0.22639960050582886
-    shieldkineticdamageresonance: 0.27167952060699463
+    shieldemdamageresonance: 0.28481931
+    shieldexplosivedamageresonance: 0.226399602
+    shieldkineticdamageresonance: 0.271679522
     shieldrechargerate: 4500000.0
-    shieldthermaldamageresonance: 0.36223936080932617
+    shieldthermaldamageresonance: 0.362239363
     signatureradius: 1165.5
     structureuniformity: 1.0
-    thermaldamageresonance: 0.4020000100135803
+    thermaldamageresonance: 0.402
     volume: 225000.0
     warpscramblestatus: -10
     warpspeedmultiplier: 3.0
   53534:
-    agility: 0.7132999897003174
+    agility: 0.7133
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 2875.0
     armorkineticdamageresonance: 0.328125
-    armorthermaldamageresonance: 0.12031000107526779
+    armorthermaldamageresonance: 0.12031
     armoruniformity: 0.75
     capacitorcapacity: 3625.0
     disallowassistance: 1
-    emdamageresonance: 0.43549999594688416
-    entityfactionloss: 0.009999999776482582
+    emdamageresonance: 0.4355
+    entityfactionloss: 0.01
     entityoverviewshipgroupid: 25
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     gfxboosterid: 395
     hp: 6962.0
     id: 53534
-    kineticdamageresonance: 0.43549999594688416
-    mass: 1.1E9
+    kineticdamageresonance: 0.4355
+    mass: 1100000000.0
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -232,36 +222,36 @@ types:
     scanresolution: 243.0
     scanspeed: 9000
     shieldcapacity: 12506.0
-    shieldemdamageresonance: 0.24157999455928802
-    shieldexplosivedamageresonance: 0.21130000054836273
-    shieldkineticdamageresonance: 0.12680000066757202
+    shieldemdamageresonance: 0.24158
+    shieldexplosivedamageresonance: 0.2113
+    shieldkineticdamageresonance: 0.1268
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.08453299850225449
+    shieldthermaldamageresonance: 0.084533
     shielduniformity: 0.75
     signatureradius: 226.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.3
   53568:
-    agility: 0.7132999897003174
+    agility: 0.7133
     armoremdamageresonance: 0.4375
-    armorexplosivedamageresonance: 0.7875000238418579
+    armorexplosivedamageresonance: 0.7875
     armorhp: 2875.0
     armorkineticdamageresonance: 0.328125
-    armorthermaldamageresonance: 0.12031000107526779
+    armorthermaldamageresonance: 0.12031
     armoruniformity: 0.75
     capacitorcapacity: 3625.0
     disallowassistance: 1
-    emdamageresonance: 0.43549999594688416
-    entityfactionloss: 0.009999999776482582
+    emdamageresonance: 0.4355
+    entityfactionloss: 0.01
     entityoverviewshipgroupid: 25
-    explosivedamageresonance: 0.43549999594688416
+    explosivedamageresonance: 0.4355
     gfxboosterid: 395
     hp: 6962.0
     id: 53568
-    kineticdamageresonance: 0.43549999594688416
-    mass: 9.0E8
+    kineticdamageresonance: 0.4355
+    mass: 900000000.0
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 242.0
@@ -275,38 +265,38 @@ types:
     scanresolution: 243.0
     scanspeed: 9000
     shieldcapacity: 12506.0
-    shieldemdamageresonance: 0.24157999455928802
-    shieldexplosivedamageresonance: 0.21130000054836273
-    shieldkineticdamageresonance: 0.12680000066757202
+    shieldemdamageresonance: 0.24158
+    shieldexplosivedamageresonance: 0.2113
+    shieldkineticdamageresonance: 0.1268
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.08453299850225449
+    shieldthermaldamageresonance: 0.084533
     shielduniformity: 0.75
     signatureradius: 226.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.43549999594688416
+    thermaldamageresonance: 0.4355
     warpscramblestatus: -2
-    warpspeedmultiplier: 3.299999952316284
+    warpspeedmultiplier: 3.3
   60732:
     agility: 5.0
-    armoremdamageresonance: 0.41999998688697815
-    armorexplosivedamageresonance: 0.7799999713897705
+    armoremdamageresonance: 0.42
+    armorexplosivedamageresonance: 0.78
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.3199999928474426
-    armorthermaldamageresonance: 0.11999999731779099
+    armorkineticdamageresonance: 0.32
+    armorthermaldamageresonance: 0.12
     armoruniformity: 0.75
     capacitorcapacity: 3625.0
     disallowassistance: 1
-    emdamageresonance: 0.41999998688697815
+    emdamageresonance: 0.42
     entityequipmentmax: 1
     entityequipmentmin: 1
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityoverviewshipgroupid: 25
-    explosivedamageresonance: 0.41999998688697815
+    explosivedamageresonance: 0.42
     gfxboosterid: 395
     hp: 7500.0
     id: 60732
-    kineticdamageresonance: 0.41999998688697815
-    mass: 1.1E9
+    kineticdamageresonance: 0.42
+    mass: 1100000000.0
     maxlockedtargets: 3
     maxtargetrange: 68750.0
     maxvelocity: 300.0
@@ -320,14 +310,14 @@ types:
     scanresolution: 243.0
     scanspeed: 9000
     shieldcapacity: 12500.0
-    shieldemdamageresonance: 0.23000000417232513
-    shieldexplosivedamageresonance: 0.20000000298023224
-    shieldkineticdamageresonance: 0.11999999731779099
+    shieldemdamageresonance: 0.23
+    shieldexplosivedamageresonance: 0.2
+    shieldkineticdamageresonance: 0.12
     shieldrechargerate: 937500.0
-    shieldthermaldamageresonance: 0.07999999821186066
+    shieldthermaldamageresonance: 0.08
     shielduniformity: 0.75
     signatureradius: 226.0
     structureuniformity: 1.0
-    thermaldamageresonance: 0.41999998688697815
+    thermaldamageresonance: 0.42
     warpscramblestatus: -2
     warpspeedmultiplier: 3.5

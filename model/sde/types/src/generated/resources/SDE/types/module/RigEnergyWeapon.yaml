@@ -8,7 +8,6 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Discharge Elutriation I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -27,7 +26,6 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Ambit Extension I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -46,7 +44,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Large Energy Locus Coordinator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -64,7 +61,6 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Metastasis Adjuster I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -84,7 +80,6 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Algid Energy Administrations Unit I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -102,25 +97,23 @@ types:
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Burst Aerator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
     volume: 20.0
   25980:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 25980
     marketGroup: 1227
     mass: 200.0
     name: Large Energy Collision Accelerator I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -140,7 +133,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Energy Discharge Elutriation II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -159,18 +151,17 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Energy Burst Aerator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 3
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 20.0
   26382:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 26382
@@ -178,7 +169,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Energy Collision Accelerator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -198,7 +188,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Algid Energy Administrations Unit II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -218,7 +207,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Energy Ambit Extension II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -238,7 +226,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Large Energy Locus Coordinator II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -257,7 +244,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Energy Metastasis Adjuster II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -277,7 +263,6 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Algid Energy Administrations Unit I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -296,7 +281,6 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Algid Energy Administrations Unit I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -315,7 +299,6 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Algid Energy Administrations Unit I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -335,7 +318,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Algid Energy Administrations Unit II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -355,7 +337,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Algid Energy Administrations Unit II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -375,7 +356,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Algid Energy Administrations Unit II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -394,7 +374,6 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Ambit Extension I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -413,7 +392,6 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Ambit Extension I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -432,7 +410,6 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Ambit Extension I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -452,7 +429,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Energy Ambit Extension II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -472,7 +448,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Energy Ambit Extension II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -492,7 +467,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Energy Ambit Extension II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -510,12 +484,11 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Burst Aerator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -528,12 +501,11 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Burst Aerator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -546,12 +518,11 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Burst Aerator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    speedmultiplier: 0.8999999761581421
+    speedmultiplier: 0.9
     techlevel: 1
     trackingspeedmultiplier: 1.0
     upgradecost: 200
@@ -565,12 +536,11 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Energy Burst Aerator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 1
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
@@ -584,12 +554,11 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Energy Burst Aerator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 2
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
@@ -603,25 +572,23 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Energy Burst Aerator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
     rigsize: 4
-    speedmultiplier: 0.8500000238418579
+    speedmultiplier: 0.85
     techlevel: 2
     trackingspeedmultiplier: 1.0
     upgradecost: 300
     volume: 40.0
   31454:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31454
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Collision Accelerator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -632,14 +599,13 @@ types:
     upgradecost: 200
     volume: 5.0
   31456:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31456
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Collision Accelerator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -650,14 +616,13 @@ types:
     upgradecost: 200
     volume: 10.0
   31458:
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     drawback: 10
     hp: 40.0
     id: 31458
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Collision Accelerator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -668,7 +633,7 @@ types:
     upgradecost: 200
     volume: 40.0
   31460:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31460
@@ -676,7 +641,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Energy Collision Accelerator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -687,7 +651,7 @@ types:
     upgradecost: 300
     volume: 5.0
   31462:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31462
@@ -695,7 +659,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Energy Collision Accelerator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -706,7 +669,7 @@ types:
     upgradecost: 300
     volume: 10.0
   31464:
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     drawback: 10
     hp: 40.0
     id: 31464
@@ -714,7 +677,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Energy Collision Accelerator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -733,7 +695,6 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Discharge Elutriation I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -752,7 +713,6 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Discharge Elutriation I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -771,7 +731,6 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Discharge Elutriation I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -791,7 +750,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Energy Discharge Elutriation II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -811,7 +769,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Energy Discharge Elutriation II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -831,7 +788,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Energy Discharge Elutriation II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -850,7 +806,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Small Energy Locus Coordinator I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -869,7 +824,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Medium Energy Locus Coordinator I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -888,7 +842,6 @@ types:
     mass: 200.0
     maxrangebonus: 15.0
     name: Capital Energy Locus Coordinator I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -908,7 +861,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Small Energy Locus Coordinator II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -928,7 +880,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Medium Energy Locus Coordinator II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -948,7 +899,6 @@ types:
     maxrangebonus: 20.0
     metalevelold: 5
     name: Capital Energy Locus Coordinator II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -966,7 +916,6 @@ types:
     marketGroup: 1225
     mass: 200.0
     name: Small Energy Metastasis Adjuster I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -985,7 +934,6 @@ types:
     marketGroup: 1226
     mass: 200.0
     name: Medium Energy Metastasis Adjuster I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1004,7 +952,6 @@ types:
     marketGroup: 1735
     mass: 200.0
     name: Capital Energy Metastasis Adjuster I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1024,7 +971,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Energy Metastasis Adjuster II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1044,7 +990,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Energy Metastasis Adjuster II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1064,7 +1009,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Energy Metastasis Adjuster II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

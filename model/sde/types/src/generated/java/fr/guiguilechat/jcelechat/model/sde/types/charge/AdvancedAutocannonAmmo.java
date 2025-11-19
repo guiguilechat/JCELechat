@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorRechargeRateMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
@@ -28,7 +27,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedMultiplier;
@@ -185,7 +183,7 @@ public class AdvancedAutocannonAmmo
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, FallofMultiplier.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, FallofMultiplier.INSTANCE, TechLevel.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, ThermalDamage.INSTANCE, RequiredSkill1 .INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
     public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
 
     @Override

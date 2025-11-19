@@ -3,15 +3,14 @@ types:
     capacitorneed: 20.0
     cpu: 25.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 399
     marketGroup: 609
     name: Small Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -26,8 +25,8 @@ types:
     capacitorneed: 20.0
     cpu: 29.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 0.8
     hp: 40.0
     id: 400
     marketGroup: 609
@@ -35,7 +34,6 @@ types:
     name: Small Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
@@ -50,8 +48,8 @@ types:
     capacitorneed: 2400.0
     cpu: 260.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 3542
     marketGroup: 778
@@ -60,7 +58,6 @@ types:
     name: CONCORD Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 71250
     published: true
@@ -75,8 +72,8 @@ types:
     capacitorneed: 20.0
     cpu: 20.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 6437
     marketGroup: 609
@@ -84,7 +81,6 @@ types:
     name: Small C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -99,8 +95,8 @@ types:
     capacitorneed: 18.0
     cpu: 25.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 6441
     marketGroup: 609
@@ -108,7 +104,6 @@ types:
     name: Small Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -123,15 +118,14 @@ types:
     capacitorneed: 5.0
     cpu: 2.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 10039
     marketGroup: 609
     name: Civilian Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -146,7 +140,7 @@ types:
     capacitorneed: 60.0
     cpu: 50.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 10836
@@ -154,7 +148,6 @@ types:
     name: Medium Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -169,15 +162,14 @@ types:
     capacitorneed: 160.0
     cpu: 100.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 10838
     marketGroup: 611
     name: Large Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -192,15 +184,14 @@ types:
     capacitorneed: 400.0
     cpu: 200.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 10840
     marketGroup: 612
     name: X-Large Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -215,8 +206,8 @@ types:
     capacitorneed: 400.0
     cpu: 230.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.4
     hp: 40.0
     id: 10842
     marketGroup: 612
@@ -224,7 +215,6 @@ types:
     name: X-Large Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 550
     published: true
@@ -239,7 +229,7 @@ types:
     capacitorneed: 60.0
     cpu: 58.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 10850
@@ -248,7 +238,6 @@ types:
     name: Medium Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 13
     published: true
@@ -263,8 +252,8 @@ types:
     capacitorneed: 160.0
     cpu: 115.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 1.3
     hp: 40.0
     id: 10858
     marketGroup: 611
@@ -272,7 +261,6 @@ types:
     name: Large Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 165
     published: true
@@ -287,8 +275,8 @@ types:
     capacitorneed: 54.0
     cpu: 50.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 10868
     marketGroup: 610
@@ -296,7 +284,6 @@ types:
     name: Medium Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -311,8 +298,8 @@ types:
     capacitorneed: 60.0
     cpu: 40.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.8999999761581421
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.9
     hp: 40.0
     id: 10872
     marketGroup: 610
@@ -320,7 +307,6 @@ types:
     name: Medium C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 11
     published: true
@@ -335,8 +321,8 @@ types:
     capacitorneed: 144.0
     cpu: 100.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.2
     hp: 40.0
     id: 10876
     marketGroup: 611
@@ -344,7 +330,6 @@ types:
     name: Large Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -359,8 +344,8 @@ types:
     capacitorneed: 160.0
     cpu: 80.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2000000476837158
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.2
     hp: 40.0
     id: 10880
     marketGroup: 611
@@ -368,7 +353,6 @@ types:
     name: Large C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 140
     published: true
@@ -383,8 +367,8 @@ types:
     capacitorneed: 360.0
     cpu: 200.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 10884
     marketGroup: 612
@@ -392,7 +376,6 @@ types:
     name: X-Large Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -407,8 +390,8 @@ types:
     capacitorneed: 400.0
     cpu: 160.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 10888
     marketGroup: 612
@@ -416,7 +399,6 @@ types:
     name: X-Large C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 450
     published: true
@@ -431,8 +413,8 @@ types:
     capacitorneed: 160.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 13947
     marketGroup: 611
@@ -441,7 +423,6 @@ types:
     name: Dread Guristas Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -456,8 +437,8 @@ types:
     capacitorneed: 128.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 13948
     marketGroup: 611
@@ -466,7 +447,6 @@ types:
     name: Domination Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -481,8 +461,8 @@ types:
     capacitorneed: 60.0
     cpu: 42.0
     duration: 2400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13949
     marketGroup: 610
@@ -491,7 +471,6 @@ types:
     name: Dread Guristas Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -506,8 +485,8 @@ types:
     capacitorneed: 48.0
     cpu: 42.0
     duration: 2400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13950
     marketGroup: 610
@@ -516,7 +495,6 @@ types:
     name: Domination Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -531,8 +509,8 @@ types:
     capacitorneed: 20.0
     cpu: 21.0
     duration: 1600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13951
     marketGroup: 609
@@ -541,7 +519,6 @@ types:
     name: Dread Guristas Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -556,8 +533,8 @@ types:
     capacitorneed: 16.0
     cpu: 21.0
     duration: 1600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 13952
     marketGroup: 609
@@ -566,7 +543,6 @@ types:
     name: Domination Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -581,8 +557,8 @@ types:
     capacitorneed: 400.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 13953
     marketGroup: 612
@@ -591,7 +567,6 @@ types:
     name: Dread Guristas X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -606,8 +581,8 @@ types:
     capacitorneed: 320.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 13954
     marketGroup: 612
@@ -616,7 +591,6 @@ types:
     name: Domination X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -631,8 +605,8 @@ types:
     capacitorneed: 94.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14597
     marketGroup: 611
@@ -641,7 +615,6 @@ types:
     name: Hakim's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -656,8 +629,8 @@ types:
     capacitorneed: 102.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14599
     marketGroup: 611
@@ -666,7 +639,6 @@ types:
     name: Tobias' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -681,8 +653,8 @@ types:
     capacitorneed: 187.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14601
     marketGroup: 612
@@ -691,7 +663,6 @@ types:
     name: Hakim's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -706,8 +677,8 @@ types:
     capacitorneed: 204.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14603
     marketGroup: 612
@@ -716,7 +687,6 @@ types:
     name: Tobias' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -731,8 +701,8 @@ types:
     capacitorneed: 160.0
     cpu: 94.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14700
     marketGroup: 611
@@ -741,7 +711,6 @@ types:
     name: Kaikka's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -756,8 +725,8 @@ types:
     capacitorneed: 160.0
     cpu: 102.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14701
     marketGroup: 611
@@ -766,7 +735,6 @@ types:
     name: Thon's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -781,8 +749,8 @@ types:
     capacitorneed: 160.0
     cpu: 111.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14702
     marketGroup: 611
@@ -791,7 +759,6 @@ types:
     name: Vepas' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -806,8 +773,8 @@ types:
     capacitorneed: 160.0
     cpu: 119.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14703
     marketGroup: 611
@@ -816,7 +783,6 @@ types:
     name: Estamel's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -831,8 +797,8 @@ types:
     capacitorneed: 400.0
     cpu: 187.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14704
     marketGroup: 612
@@ -841,7 +807,6 @@ types:
     name: Kaikka's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -856,8 +821,8 @@ types:
     capacitorneed: 400.0
     cpu: 204.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14705
     marketGroup: 612
@@ -866,7 +831,6 @@ types:
     name: Thon's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -881,8 +845,8 @@ types:
     capacitorneed: 400.0
     cpu: 221.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14706
     marketGroup: 612
@@ -891,7 +855,6 @@ types:
     name: Vepas' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -906,8 +869,8 @@ types:
     capacitorneed: 400.0
     cpu: 238.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 14707
     marketGroup: 612
@@ -916,7 +879,6 @@ types:
     name: Estamel's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -931,8 +893,8 @@ types:
     capacitorneed: 400.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 15897
     marketGroup: 612
@@ -941,7 +903,6 @@ types:
     name: Caldari Navy X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -956,8 +917,8 @@ types:
     capacitorneed: 20.0
     cpu: 21.0
     duration: 1600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15898
     marketGroup: 609
@@ -966,7 +927,6 @@ types:
     name: Caldari Navy Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -981,8 +941,8 @@ types:
     capacitorneed: 60.0
     cpu: 42.0
     duration: 2400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15899
     marketGroup: 610
@@ -991,7 +951,6 @@ types:
     name: Caldari Navy Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1006,8 +965,8 @@ types:
     capacitorneed: 160.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 15900
     marketGroup: 611
@@ -1016,7 +975,6 @@ types:
     name: Caldari Navy Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1031,8 +989,8 @@ types:
     capacitorneed: 320.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 15901
     marketGroup: 612
@@ -1041,7 +999,6 @@ types:
     name: Republic Fleet X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1056,8 +1013,8 @@ types:
     capacitorneed: 16.0
     cpu: 21.0
     duration: 1600.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15902
     marketGroup: 609
@@ -1066,7 +1023,6 @@ types:
     name: Republic Fleet Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1081,8 +1037,8 @@ types:
     capacitorneed: 48.0
     cpu: 42.0
     duration: 2400.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 15903
     marketGroup: 610
@@ -1091,7 +1047,6 @@ types:
     name: Republic Fleet Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1106,8 +1061,8 @@ types:
     capacitorneed: 128.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 15904
     marketGroup: 611
@@ -1116,7 +1071,6 @@ types:
     name: Republic Fleet Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1131,8 +1085,8 @@ types:
     capacitorneed: 11.0
     cpu: 21.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19169
     marketGroup: 609
@@ -1141,7 +1095,6 @@ types:
     name: Gistii C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1156,8 +1109,8 @@ types:
     capacitorneed: 12.0
     cpu: 21.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19171
     marketGroup: 609
@@ -1166,7 +1119,6 @@ types:
     name: Gistii B-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1181,8 +1133,8 @@ types:
     capacitorneed: 13.0
     cpu: 21.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19173
     marketGroup: 609
@@ -1191,7 +1143,6 @@ types:
     name: Gistii A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1206,8 +1157,8 @@ types:
     capacitorneed: 20.0
     cpu: 24.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19175
     marketGroup: 609
@@ -1216,7 +1167,6 @@ types:
     name: Pithi C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1231,8 +1181,8 @@ types:
     capacitorneed: 20.0
     cpu: 26.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19177
     marketGroup: 609
@@ -1241,7 +1191,6 @@ types:
     name: Pithi B-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1256,8 +1205,8 @@ types:
     capacitorneed: 20.0
     cpu: 28.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 19179
     marketGroup: 609
@@ -1266,7 +1215,6 @@ types:
     name: Pithi A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1281,7 +1229,7 @@ types:
     capacitorneed: 32.0
     cpu: 43.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19181
@@ -1291,7 +1239,6 @@ types:
     name: Gistum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1306,7 +1253,7 @@ types:
     capacitorneed: 35.0
     cpu: 43.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19183
@@ -1316,7 +1263,6 @@ types:
     name: Gistum B-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1331,7 +1277,7 @@ types:
     capacitorneed: 38.0
     cpu: 43.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19185
@@ -1341,7 +1287,6 @@ types:
     name: Gistum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1356,7 +1301,7 @@ types:
     capacitorneed: 60.0
     cpu: 47.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19187
@@ -1366,7 +1311,6 @@ types:
     name: Pithum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1381,7 +1325,7 @@ types:
     capacitorneed: 60.0
     cpu: 51.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19189
@@ -1391,7 +1335,6 @@ types:
     name: Pithum B-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1406,7 +1349,7 @@ types:
     capacitorneed: 60.0
     cpu: 56.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 19191
@@ -1416,7 +1359,6 @@ types:
     name: Pithum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -1431,8 +1373,8 @@ types:
     capacitorneed: 90.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19193
     marketGroup: 611
@@ -1441,7 +1383,6 @@ types:
     name: Gist C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1456,8 +1397,8 @@ types:
     capacitorneed: 94.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19194
     marketGroup: 611
@@ -1466,7 +1407,6 @@ types:
     name: Gist B-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1481,8 +1421,8 @@ types:
     capacitorneed: 179.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19195
     marketGroup: 612
@@ -1491,7 +1431,6 @@ types:
     name: Gist C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1506,8 +1445,8 @@ types:
     capacitorneed: 187.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19196
     marketGroup: 612
@@ -1516,7 +1455,6 @@ types:
     name: Gist B-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1531,8 +1469,8 @@ types:
     capacitorneed: 196.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19197
     marketGroup: 612
@@ -1541,7 +1479,6 @@ types:
     name: Gist A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1556,8 +1493,8 @@ types:
     capacitorneed: 204.0
     cpu: 170.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19198
     marketGroup: 612
@@ -1566,7 +1503,6 @@ types:
     name: Gist X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1581,8 +1517,8 @@ types:
     capacitorneed: 98.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19199
     marketGroup: 611
@@ -1591,7 +1527,6 @@ types:
     name: Gist A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1606,8 +1541,8 @@ types:
     capacitorneed: 102.0
     cpu: 85.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19200
     marketGroup: 611
@@ -1616,7 +1551,6 @@ types:
     name: Gist X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1631,8 +1565,8 @@ types:
     capacitorneed: 160.0
     cpu: 94.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19201
     marketGroup: 611
@@ -1641,7 +1575,6 @@ types:
     name: Pith C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1656,8 +1589,8 @@ types:
     capacitorneed: 400.0
     cpu: 187.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19202
     marketGroup: 612
@@ -1666,7 +1599,6 @@ types:
     name: Pith C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1681,8 +1613,8 @@ types:
     capacitorneed: 160.0
     cpu: 102.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19203
     marketGroup: 611
@@ -1691,7 +1623,6 @@ types:
     name: Pith B-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1706,8 +1637,8 @@ types:
     capacitorneed: 400.0
     cpu: 204.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19204
     marketGroup: 612
@@ -1716,7 +1647,6 @@ types:
     name: Pith B-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1731,8 +1661,8 @@ types:
     capacitorneed: 160.0
     cpu: 111.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19205
     marketGroup: 611
@@ -1741,7 +1671,6 @@ types:
     name: Pith A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1756,8 +1685,8 @@ types:
     capacitorneed: 400.0
     cpu: 221.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19206
     marketGroup: 612
@@ -1766,7 +1695,6 @@ types:
     name: Pith A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1781,8 +1709,8 @@ types:
     capacitorneed: 160.0
     cpu: 119.0
     duration: 3200.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19207
     marketGroup: 611
@@ -1791,7 +1719,6 @@ types:
     name: Pith X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 150
     published: true
@@ -1806,8 +1733,8 @@ types:
     capacitorneed: 400.0
     cpu: 238.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.100000023841858
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.1
     hp: 40.0
     id: 19208
     marketGroup: 612
@@ -1816,7 +1743,6 @@ types:
     name: Pith X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 500
     published: true
@@ -1831,8 +1757,8 @@ types:
     capacitorneed: 20.0
     cpu: 19.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 20617
     marketGroup: 609
@@ -1841,7 +1767,6 @@ types:
     name: Small 'Settler' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -1856,7 +1781,7 @@ types:
     capacitorneed: 60.0
     cpu: 40.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 20619
@@ -1866,7 +1791,6 @@ types:
     name: Medium 'Lone Ranger' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
@@ -1881,8 +1805,8 @@ types:
     capacitorneed: 160.0
     cpu: 80.0
     duration: 4000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.2999999523162842
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.3
     hp: 40.0
     id: 20621
     marketGroup: 611
@@ -1891,7 +1815,6 @@ types:
     name: Large 'Outlaw' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 25.0
     portionSize: 1
     power: 135
     published: true
@@ -1906,8 +1829,8 @@ types:
     capacitorneed: 400.0
     cpu: 160.0
     duration: 5000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 1.399999976158142
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.4
     hp: 40.0
     id: 20623
     marketGroup: 612
@@ -1916,7 +1839,6 @@ types:
     name: X-Large 'Locomotive' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 50.0
     portionSize: 1
     power: 425
     published: true
@@ -1931,15 +1853,14 @@ types:
     capacitorneed: 2400.0
     cpu: 300.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 20703
     marketGroup: 778
     name: Capital Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -1954,8 +1875,8 @@ types:
     capacitorneed: 2400.0
     cpu: 240.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41505
     marketGroup: 778
@@ -1963,7 +1884,6 @@ types:
     name: Capital C-5L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true
@@ -1978,8 +1898,8 @@ types:
     capacitorneed: 1920.0
     cpu: 300.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41506
     marketGroup: 778
@@ -1987,7 +1907,6 @@ types:
     name: Capital Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -2002,8 +1921,8 @@ types:
     capacitorneed: 2880.0
     cpu: 330.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41507
     marketGroup: 778
@@ -2011,7 +1930,6 @@ types:
     name: Capital Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 82500
     published: true
@@ -2026,8 +1944,8 @@ types:
     capacitorneed: 1900.0
     cpu: 240.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41508
     marketGroup: 778
@@ -2036,7 +1954,6 @@ types:
     name: True Sansha Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true
@@ -2051,8 +1968,8 @@ types:
     capacitorneed: 2500.0
     cpu: 260.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41509
     marketGroup: 778
@@ -2061,7 +1978,6 @@ types:
     name: Dread Guristas Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 71250
     published: true
@@ -2076,8 +1992,8 @@ types:
     capacitorneed: 1900.0
     cpu: 240.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.299999952316284
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
     hp: 40.0
     id: 41510
     marketGroup: 778
@@ -2086,7 +2002,6 @@ types:
     name: Domination Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true
@@ -2101,10 +2016,8 @@ types:
     id: 47781
     mass: 1.0
     name: Small Abyssal Shield Booster
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3416
     requiredskill1level: 3
     techlevel: 1
@@ -2113,10 +2026,8 @@ types:
     id: 47785
     mass: 1.0
     name: Medium Abyssal Shield Booster
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3416
     requiredskill1level: 3
     techlevel: 1
@@ -2125,10 +2036,8 @@ types:
     id: 47789
     mass: 1.0
     name: Large Abyssal Shield Booster
-    packagedVolume: 25.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3416
     requiredskill1level: 4
     techlevel: 1
@@ -2137,10 +2046,8 @@ types:
     id: 47793
     mass: 1.0
     name: X-Large Abyssal Shield Booster
-    packagedVolume: 50.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3416
     requiredskill1level: 5
     techlevel: 2
@@ -2148,7 +2055,6 @@ types:
   56309:
     id: 56309
     name: Capital Abyssal Shield Booster
-    packagedVolume: 4000.0
     portionSize: 1
     published: true
     radius: 500.0
@@ -2160,8 +2066,8 @@ types:
     capacitorneed: 14.0
     cpu: 21.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 84998
     marketGroup: 609
@@ -2170,7 +2076,6 @@ types:
     name: Ramaku's Modified Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -2185,8 +2090,8 @@ types:
     capacitorneed: 20.0
     cpu: 30.0
     duration: 2000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 0.800000011920929
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 0.8
     hp: 40.0
     id: 84999
     marketGroup: 609
@@ -2195,7 +2100,6 @@ types:
     name: Panola's Modified Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -2210,7 +2114,7 @@ types:
     capacitorneed: 40.0
     cpu: 43.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 85000
@@ -2220,7 +2124,6 @@ types:
     name: Sila's Modified Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true
@@ -2235,7 +2138,7 @@ types:
     capacitorneed: 60.0
     cpu: 60.0
     duration: 3000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 85001
@@ -2245,7 +2148,6 @@ types:
     name: Hanaruwa's Modified Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
-    packagedVolume: 10.0
     portionSize: 1
     power: 12
     published: true

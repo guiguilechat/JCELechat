@@ -1,58 +1,52 @@
 types:
   47908:
     cpu: 27.0
-    damagemultiplier: 1.090000033378601
+    damagemultiplier: 1.09
     hp: 40.0
     id: 47908
     marketGroup: 2471
     mass: 1.0
     name: Entropic Radiation Sink I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9599999785423279
+    speedmultiplier: 0.96
     techlevel: 1
     volume: 5.0
   47909:
     cpu: 25.0
-    damagemultiplier: 1.100000023841858
+    damagemultiplier: 1.1
     hp: 40.0
     id: 47909
     marketGroup: 2471
     mass: 1.0
     metalevelold: 1
     name: Compact Entropic Radiation Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.949999988079071
+    speedmultiplier: 0.95
     techlevel: 1
     volume: 5.0
   47911:
     cpu: 30.0
-    damagemultiplier: 1.1299999952316284
+    damagemultiplier: 1.13
     hp: 40.0
     id: 47911
     marketGroup: 2471
     mass: 1.0
     metalevelold: 5
     name: Entropic Radiation Sink II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
-    speedmultiplier: 0.9399999976158142
+    speedmultiplier: 0.94
     techlevel: 2
     volume: 5.0
   49734:
@@ -60,11 +54,9 @@ types:
     id: 49734
     mass: 1.0
     name: Abyssal Entropic Radiation Sink
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 4
     speedmultiplier: 1.0
@@ -72,39 +64,35 @@ types:
     volume: 1.0
   52242:
     cpu: 25.0
-    damagemultiplier: 1.149999976158142
+    damagemultiplier: 1.15
     hp: 40.0
     id: 52242
     marketGroup: 2471
     mass: 1.0
     metalevelold: 12
     name: Zorya's Entropic Radiation Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9200000166893005
+    speedmultiplier: 0.92
     techlevel: 1
     volume: 5.0
   52244:
     cpu: 23.0
-    damagemultiplier: 1.1399999856948853
+    damagemultiplier: 1.14
     hp: 40.0
     id: 52244
     marketGroup: 2471
     mass: 1.0
     metalevelold: 8
     name: Veles Entropic Radiation Sink
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3318
     requiredskill1level: 1
-    speedmultiplier: 0.9300000071525574
+    speedmultiplier: 0.93
     techlevel: 1
     volume: 5.0

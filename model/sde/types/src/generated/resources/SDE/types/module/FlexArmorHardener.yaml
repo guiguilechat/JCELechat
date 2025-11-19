@@ -1,15 +1,14 @@
 types:
   41515:
     capacitorneed: 3000.0
-    capacity: 1.0
     chargegroup1: 1701
     chargesize: 1
     cpu: 30.0
     duration: 60000.0
     emdamageresistancebonus: -16.0
     explosivedamageresistancebonus: -16.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 41515
     kineticdamageresistancebonus: -16.0
@@ -18,12 +17,11 @@ types:
     maxgroupfitted: 1
     name: Capital Flex Armor Hardener I
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 10000
     published: true
     radius: 10.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3394
     requiredskill1level: 3
     requiredskill2: 32797
@@ -34,15 +32,14 @@ types:
     volume: 4000.0
   41525:
     capacitorneed: 3600.0
-    capacity: 1.0
     chargegroup1: 1701
     chargesize: 1
     cpu: 36.0
     duration: 60000.0
     emdamageresistancebonus: -19.0
     explosivedamageresistancebonus: -19.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 41525
     kineticdamageresistancebonus: -19.0
@@ -52,12 +49,11 @@ types:
     metalevelold: 5
     name: Capital Flex Armor Hardener II
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 12000
     published: true
     radius: 10.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3394
     requiredskill1level: 3
     requiredskill2: 32797
@@ -68,15 +64,14 @@ types:
     volume: 4000.0
   41526:
     capacitorneed: 2400.0
-    capacity: 1.0
     chargegroup1: 1701
     chargesize: 1
     cpu: 24.0
     duration: 60000.0
     emdamageresistancebonus: -20.0
     explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 41526
     kineticdamageresistancebonus: -20.0
@@ -87,12 +82,11 @@ types:
     metalevelold: 8
     name: Dark Blood Capital Flex Armor Hardener
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 9000
     published: true
     radius: 10.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3394
     requiredskill1level: 3
     requiredskill2: 32797
@@ -103,15 +97,14 @@ types:
     volume: 4000.0
   41527:
     capacitorneed: 2400.0
-    capacity: 1.0
     chargegroup1: 1701
     chargesize: 1
     cpu: 24.0
     duration: 60000.0
     emdamageresistancebonus: -20.0
     explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.6
     hp: 40.0
     id: 41527
     kineticdamageresistancebonus: -20.0
@@ -122,12 +115,11 @@ types:
     metalevelold: 8
     name: Shadow Serpentis Capital Flex Armor Hardener
     overloadhardeningbonus: 20
-    packagedVolume: 1000.0
     portionSize: 1
     power: 9000
     published: true
     radius: 10.0
-    reloadtime: 0.009999999776482582
+    reloadtime: 0.01
     requiredskill1: 3394
     requiredskill1level: 3
     requiredskill2: 32797

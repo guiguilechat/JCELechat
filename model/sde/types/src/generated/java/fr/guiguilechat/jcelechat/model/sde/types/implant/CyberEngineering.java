@@ -17,13 +17,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapRechargeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -98,7 +96,7 @@ public class CyberEngineering
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, RequiredSkill1Level.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, Implantness.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final CyberEngineering.MetaGroup METAGROUP = new CyberEngineering.MetaGroup();
 
     @Override

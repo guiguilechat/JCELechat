@@ -3,53 +3,73 @@ types:
     id: 42829
     launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Mining Laser Field Enhancement Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 22536
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 23
     warfarebuff1multiplier: 40
+    warfarebuff2id: 2474
+    warfarebuff2multiplier: 2
   42830:
     id: 42830
     launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Mining Laser Optimization Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 22536
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 24
     warfarebuff1multiplier: -15
+    warfarebuff2id: 2474
+    warfarebuff2multiplier: 2
   42831:
     id: 42831
     launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Mining Equipment Preservation Charge
-    packagedVolume: 0.009999999776482582
     portionSize: 500
     price: 1000.0
     published: true
-    radius: 1.0
     requiredskill1: 22536
     requiredskill1level: 1
     requiredskill2: 3348
     requiredskill2level: 1
-    volume: 0.009999999776482582
+    volume: 0.01
     warfarebuff1id: 25
     warfarebuff1multiplier: -15
+    warfarebuff2id: 2474
+    warfarebuff2multiplier: 2
+  90733:
+    id: 90733
+    launchergroup: 1770
+    marketGroup: 2300
+    mass: 0.01
+    name: Mining Laser Efficiency Charge
+    portionSize: 500
+    price: 1000.0
+    published: true
+    requiredskill1: 22536
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
+    volume: 0.01
+    warfarebuff1id: 2516
+    warfarebuff1multiplier: 50
+    warfarebuff2id: 2474
+    warfarebuff2multiplier: 2
+    warfarebuff3id: 2517
+    warfarebuff3multiplier: -15

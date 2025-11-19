@@ -13,14 +13,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
@@ -33,13 +31,6 @@ import fr.guiguilechat.jcelechat.model.sde.types.subsystem.PropulsionSubsystem;
 public abstract class Subsystem
     extends EveType
 {
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * 
      */
@@ -84,13 +75,6 @@ public abstract class Subsystem
     @DefaultIntValue(0)
     public int metalevelold;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -119,16 +103,12 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1380 :
             {
                 return fitstoshiptype;
@@ -152,10 +132,6 @@ public abstract class Subsystem
             case  633 :
             {
                 return metalevelold;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

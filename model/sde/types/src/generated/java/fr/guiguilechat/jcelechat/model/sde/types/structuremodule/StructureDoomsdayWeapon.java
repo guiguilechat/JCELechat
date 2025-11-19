@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageDelayDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
@@ -37,7 +36,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TargetFilterTypelistID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
@@ -69,13 +67,6 @@ public class StructureDoomsdayWeapon
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -214,13 +205,6 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
@@ -241,7 +225,7 @@ public class StructureDoomsdayWeapon
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, DisallowEarlyDeactivation.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, LightningWeaponTargetAmount.INSTANCE, LightningWeaponTargetRange.INSTANCE, LightningWeaponDamageLossTarget.INSTANCE, MaxGroupActive.INSTANCE, TargetFilterTypelistID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, DisallowEarlyDeactivation.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, DeadspaceUnsafe.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, DisallowInHighSec.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, LightningWeaponTargetAmount.INSTANCE, LightningWeaponTargetRange.INSTANCE, LightningWeaponDamageLossTarget.INSTANCE, MaxGroupActive.INSTANCE, TargetFilterTypelistID.INSTANCE })));
     public static final StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
 
     @Override
@@ -258,10 +242,6 @@ public class StructureDoomsdayWeapon
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -338,10 +318,6 @@ public class StructureDoomsdayWeapon
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2334 :
             {

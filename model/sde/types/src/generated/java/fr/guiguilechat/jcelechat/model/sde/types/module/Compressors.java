@@ -17,7 +17,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationRequiresActiveIndustrialCore;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressibleItemsTypeList;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
@@ -122,7 +120,7 @@ public class Compressors
     @Stackable(true)
     @DefaultIntValue(1)
     public int slots;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ActivationRequiresActiveIndustrialCore.INSTANCE, Radius.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, CompressibleItemsTypeList.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ActivationRequiresActiveIndustrialCore.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType1 .INSTANCE, CompressibleItemsTypeList.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE })));
     public static final Compressors.MetaGroup METAGROUP = new Compressors.MetaGroup();
 
     @Override

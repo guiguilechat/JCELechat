@@ -12,9 +12,9 @@ types:
     capacitorcapacity: 200000.0
     cargodeliveryrange: 10000
     cpuoutput: 10000
-    ecmresistance: 9.999999747378752E-6
+    ecmresistance: 1.0E-5
     emdamageresonance: 1.0
-    energywarfareresistance: 9.999999747378752E-6
+    energywarfareresistance: 1.0E-5
     explosivedamageresonance: 1.0
     fighterabilityanticapitalmissileresistance: 1
     gatemaxjumpmass: 1480000000
@@ -25,30 +25,29 @@ types:
     jumpdriveconsumptiontype: 16273
     jumpdriverange: 5.0
     jumpportaladditionalconsumption: 50
-    jumpportalconsumptionmassfactor: 1.500000013088254E-9
+    jumpportalconsumptionmassfactor: 1.5E-9
     kineticdamageresonance: 1.0
     marketGroup: 2511
-    mass: 3.0E9
+    mass: 3000000000.0
     maximumrangecap: 300000
     name: Ansiblex Jump Bridge
-    packagedVolume: 6000.0
     pausearmorrepairdpsthreshold: 500
     pausehullrepairdpsthreshold: 500
     pauseshieldrepairdpsthreshold: 500
     portionSize: 1
-    poweroutput: 20000
+    poweroutput: 20000.0
     prefitserviceslot0: 35913
     published: true
     radius: 7000.0
     rechargerate: 3600000.0
-    remoteassistanceimpedance: 9.999999747378752E-6
+    remoteassistanceimpedance: 1.0E-5
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
     scanresolution: 40.0
     scanspeed: 2500
-    sensordampenerresistance: 9.999999747378752E-6
+    sensordampenerresistance: 1.0E-5
     serviceslots: 1
     shieldcapacity: 500000.0
     shielddamagelimit: 5000000
@@ -59,7 +58,7 @@ types:
     shieldthermaldamageresonance: 0.25
     shielduniformity: 1.0
     signatureradius: 20000.0
-    stasiswebifierresistance: 9.999999747378752E-6
+    stasiswebifierresistance: 1.0E-5
     structuredamagelimit: 5000000
     structurefullpowerstatehitpointmultiplier: 1
     structureuniformity: 1.0
@@ -67,4 +66,4 @@ types:
     tierdifficulty: 3
     uniformity: 1.0
     volume: 6000.0
-    weapondisruptionresistance: 9.999999747378752E-6
+    weapondisruptionresistance: 1.0E-5

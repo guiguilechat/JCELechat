@@ -5,11 +5,9 @@ types:
     marketGroup: 1770
     maxscandeviationmodifier: -6
     name: Poteque 'Prospector' Astrometric Pinpointing AP-606
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -20,11 +18,9 @@ types:
     implantness: 7
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-706
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -34,11 +30,9 @@ types:
     implantness: 8
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-806
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     scanstrengthbonus: 6
@@ -50,11 +44,9 @@ types:
     marketGroup: 1770
     maxscandeviationmodifier: -10
     name: Poteque 'Prospector' Astrometric Pinpointing AP-610
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -65,11 +57,9 @@ types:
     marketGroup: 1770
     maxscandeviationmodifier: -2
     name: Poteque 'Prospector' Astrometric Pinpointing AP-602
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -80,11 +70,9 @@ types:
     implantness: 7
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-710
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -95,11 +83,9 @@ types:
     implantness: 7
     marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-702
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -109,11 +95,9 @@ types:
     implantness: 8
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-810
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     scanstrengthbonus: 10
@@ -124,11 +108,9 @@ types:
     implantness: 8
     marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-802
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     scanstrengthbonus: 2
@@ -140,11 +122,9 @@ types:
     implantness: 9
     marketGroup: 1773
     name: Poteque 'Prospector' Archaeology AC-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -156,11 +136,9 @@ types:
     implantness: 9
     marketGroup: 1773
     name: Poteque 'Prospector' Hacking HC-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -172,11 +150,9 @@ types:
     implantness: 9
     marketGroup: 1773
     name: Poteque 'Prospector' Salvaging SV-905
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 3
     techlevel: 1
@@ -188,11 +164,9 @@ types:
     implantness: 10
     marketGroup: 1774
     name: Poteque 'Prospector' Environmental Analysis EY-1005
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -204,10 +178,8 @@ types:
     implantness: 9
     marketGroup: 1773
     name: Neural Lace 'Blackglass' Net Intrusion 920-40
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -220,10 +192,8 @@ types:
     implantness: 9
     marketGroup: 1773
     name: Neural Lace 'Bluefire' Net Ablation 960-10
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1

@@ -1,35 +1,34 @@
 types:
   620:
-    agility: 0.6100000143051147
+    agility: 0.61
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 2100.0
-    capacity: 485.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 380
     dronebandwidth: 20
     dronecapacity: 20
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energytransferamountbonus: 200.0
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloffbonus: 430.0
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.71
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1450.0
@@ -38,13 +37,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 620
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 2
     lowslots: 3
     maincolor: 16777215
     marketGroup: 75
-    mass: 1.11E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11100000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 500
@@ -55,9 +54,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Osprey
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 470
+    poweroutput: 470.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 395
@@ -71,12 +69,13 @@ types:
     scangravimetricstrength: 15.0
     scanresolution: 280.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1650.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: -5.0
     shipbonuscc2: 12.5
@@ -87,45 +86,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 1
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 107000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   621:
-    agility: 0.4699999988079071
+    agility: 0.47
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1250.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 430
     dronebandwidth: 10
     dronecapacity: 10
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1400.0
@@ -134,13 +132,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 621
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 5
     lowslots: 4
     maincolor: 16777215
     marketGroup: 75
-    mass: 1.191E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11910000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 510
@@ -149,9 +147,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Caracal
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 630
+    poweroutput: 630.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 395
@@ -165,12 +162,13 @@ types:
     scangravimetricstrength: 16.0
     scanresolution: 270.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1700.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: -5.0
     shipbonuscc2: 10.0
@@ -181,44 +179,43 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 92000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   622:
     agility: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1200.0
-    capacity: 420.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 340
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 397
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 6
     hp: 1300.0
@@ -227,13 +224,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 622
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 2
     lowslots: 4
     maincolor: 16777215
     marketGroup: 73
-    mass: 1.14E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11400000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 5
     maxpassengers: 450
@@ -242,9 +239,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Stabber
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 715
+    poweroutput: 715.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 397
@@ -258,12 +254,13 @@ types:
     scanladarstrength: 13.0
     scanresolution: 320.0
     scanspeed: 4500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -275,45 +272,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 80000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   623:
-    agility: 0.5199999809265137
+    agility: 0.52
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1550.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 380
     dronebandwidth: 15
     dronecapacity: 15
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1500.0
@@ -322,12 +318,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 623
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 75
-    mass: 1.2E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 12000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -336,9 +332,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Moa
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 850
+    poweroutput: 850.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 395
@@ -352,12 +347,13 @@ types:
     scangravimetricstrength: 17.0
     scanresolution: 260.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonuscc2: -4.0
@@ -368,45 +364,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   624:
-    agility: 0.47600001096725464
+    agility: 0.476
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1625.0
-    capacity: 480.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 300
     dronebandwidth: 15
     dronecapacity: 15
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1700.0
@@ -415,12 +410,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 624
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 74
-    mass: 1.315E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 13150000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 500
@@ -429,9 +424,8 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Maller
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1150
+    poweroutput: 1150.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 394
@@ -445,12 +439,13 @@ types:
     scanradarstrength: 16.0
     scanresolution: 280.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: 5.0
     shipbonusac2: -4.0
@@ -462,47 +457,46 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 118000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   625:
-    agility: 0.5600000023841858
+    agility: 0.56
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 1650.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 2250.0
-    capacity: 465.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 275
     dronebandwidth: 20
     dronecapacity: 20
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energytransferamountbonus: 200.0
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloffbonus: 430.0
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1550.0
@@ -511,12 +505,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 625
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 74
-    mass: 1.287E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 12870000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 320
@@ -527,9 +521,8 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Augoror
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 650
+    poweroutput: 650.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 394
@@ -543,12 +536,13 @@ types:
     scanradarstrength: 13.0
     scanresolution: 300.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: -5.0
     shipbonusac2: 12.5
@@ -560,45 +554,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 115000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   626:
-    agility: 0.5600000023841858
+    agility: 0.56
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1450.0
-    capacity: 480.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 300
     dronebandwidth: 75
     dronecapacity: 125
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 2000.0
@@ -607,12 +600,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 626
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 76
-    mass: 1.11E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11100000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 670
@@ -621,9 +614,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Vexor
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 700
+    poweroutput: 700.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 394
@@ -637,12 +629,13 @@ types:
     scanmagnetometricstrength: 16.0
     scanresolution: 280.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -653,45 +646,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 115000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   627:
-    agility: 0.49000000953674316
+    agility: 0.49
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1600.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1450.0
-    capacity: 465.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 330
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1600.0
@@ -700,12 +692,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 627
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 76
-    mass: 1.128E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11280000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 760
@@ -714,9 +706,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Thorax
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 860
+    poweroutput: 860.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 394
@@ -730,12 +721,13 @@ types:
     scanmagnetometricstrength: 15.0
     scanresolution: 280.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -746,45 +738,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 112000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   628:
-    agility: 0.5600000023841858
+    agility: 0.56
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 1500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1375.0
-    capacity: 345.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 370
     dronebandwidth: 50
     dronecapacity: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 1600.0
@@ -793,13 +784,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 628
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 3
     lowslots: 5
     maincolor: 16777215
     marketGroup: 74
-    mass: 1.12E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11200000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 450
@@ -808,9 +799,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Arbitrator
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 695
+    poweroutput: 695.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 394
@@ -824,12 +814,13 @@ types:
     scanradarstrength: 15.0
     scanresolution: 285.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: 7.5
     shipbonusac2: 10.0
@@ -841,45 +832,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 2
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 120000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   629:
     agility: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1800.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1275.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 350
     dronebandwidth: 40
     dronecapacity: 40
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 397
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1500.0
@@ -888,13 +878,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 629
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 1
     lowslots: 5
     maincolor: 16777215
     marketGroup: 73
-    mass: 1.22E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 12200000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 690
@@ -903,9 +893,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Rupture
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 860
+    poweroutput: 860.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 397
@@ -919,12 +908,13 @@ types:
     scanladarstrength: 15.0
     scanresolution: 290.0
     scanspeed: 4500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -936,45 +926,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 96000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   630:
-    agility: 0.5099999904632568
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.51
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1200.0
-    capacity: 315.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 400
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 397
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 1500.0
@@ -983,13 +972,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 630
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 4
     lowslots: 4
     maincolor: 16777215
     marketGroup: 73
-    mass: 1.155E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11550000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 580
@@ -998,9 +987,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Bellicose
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 780
+    poweroutput: 780.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 397
@@ -1014,12 +1002,13 @@ types:
     scanladarstrength: 14.0
     scanresolution: 300.0
     scanspeed: 4500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1400.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -1031,47 +1020,46 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 85000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   631:
-    agility: 0.5699999928474426
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.57
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1750.0
-    capacity: 475.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 300
     dronearmordamageamountbonus: 100
     dronebandwidth: 45
     dronecapacity: 45
     droneshieldbonusbonus: 100
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloffbonus: 430.0
     fwlpkill: 100
     gfxboosterid: 397
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 3
     hp: 1300.0
@@ -1080,13 +1068,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 631
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 1
     lowslots: 5
     maincolor: 16777215
     marketGroup: 73
-    mass: 1.111E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11110000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 630
@@ -1096,9 +1084,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Scythe
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 375
+    poweroutput: 375.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 397
@@ -1112,12 +1099,13 @@ types:
     scanladarstrength: 12.0
     scanresolution: 315.0
     scanspeed: 4500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1400.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -1129,45 +1117,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 2
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 89000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   632:
-    agility: 0.47999998927116394
+    agility: 0.48
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1250.0
-    capacity: 305.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 425
     dronebandwidth: 10
     dronecapacity: 10
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 395
-    heatattenuationhi: 0.6299999952316284
+    heatattenuationhi: 0.63
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 1400.0
@@ -1176,13 +1163,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 632
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 3
     lowslots: 3
     maincolor: 16777215
     marketGroup: 75
-    mass: 1.319E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 13190000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 400
@@ -1191,9 +1178,8 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Blackbird
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 525
+    poweroutput: 525.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 395
@@ -1207,12 +1193,13 @@ types:
     scangravimetricstrength: 20.0
     scanresolution: 230.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1400.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 15.0
     shipbonuscc2: 12.5
@@ -1223,45 +1210,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 96000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   633:
-    agility: 0.5049999952316284
+    agility: 0.505
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1300.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1300.0
-    capacity: 320.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 375
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 3
     hp: 1700.0
@@ -1270,13 +1256,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 633
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 3
     lowslots: 5
     maincolor: 16777215
     marketGroup: 76
-    mass: 1.207E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 12070000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 670
@@ -1285,9 +1271,8 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Celestis
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 575
+    poweroutput: 575.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 394
@@ -1301,12 +1286,13 @@ types:
     scanmagnetometricstrength: 18.0
     scanresolution: 290.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 7.5
@@ -1317,48 +1303,47 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 116000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   634:
-    agility: 0.6100000143051147
+    agility: 0.61
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1400.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1925.0
-    capacity: 495.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 275
     dronearmordamageamountbonus: 100
     dronebandwidth: 50
     dronecapacity: 50
     droneshieldbonusbonus: 100
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloffbonus: 430.0
     fwlpkill: 100
     gfxboosterid: 395
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 3
     hp: 1600.0
@@ -1367,12 +1352,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 634
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 76
-    mass: 1.102E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11020000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 750
@@ -1382,9 +1367,8 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Exequror
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 610
+    poweroutput: 610.0
     powertospeed: 1
     price: 6400000.0
     propulsiongraphicid: 395
@@ -1398,12 +1382,13 @@ types:
     scanmagnetometricstrength: 14.0
     scanresolution: 295.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: -5.0
@@ -1414,44 +1399,43 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 113000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   635:
-    agility: 0.6499999761581421
+    agility: 0.65
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1250.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 800.0
-    capacity: 1750.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 400
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1250.0
@@ -1460,13 +1444,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 635
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 2
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1699
-    mass: 1.3075E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 13075000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 5
     maxpassengers: 500
@@ -1476,9 +1460,8 @@ types:
     metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Opux Luxury Yacht
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 600
+    poweroutput: 600.0
     powertospeed: 1
     propulsiongraphicid: 394
     published: true
@@ -1491,12 +1474,13 @@ types:
     scanradarstrength: 19.0
     scanresolution: 300.0
     scanspeed: 3000
+    sensordampenerresistance: 1.0
     shieldcapacity: 900.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -1506,45 +1490,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 2
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 300
     upgradeslotsleft: 3
     volume: 115000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   2006:
-    agility: 0.4300000071525574
+    agility: 0.43
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 1700.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1600.0
-    capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 330
     dronebandwidth: 40
     dronecapacity: 40
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1500.0
@@ -1553,12 +1536,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 2006
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 74
-    mass: 1.3E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 13000000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 800
@@ -1567,14 +1550,13 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Omen
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1000
+    poweroutput: 1000.0
     powertospeed: 1
     price: 8000000.0
     propulsiongraphicid: 394
     published: true
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 565000.0
     requiredskill1: 3335
     requiredskill1level: 1
@@ -1583,12 +1565,13 @@ types:
     scanradarstrength: 15.0
     scanresolution: 300.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: -10.0
     shipbonusac2: -5.0
@@ -1600,45 +1583,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 118000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   11011:
-    agility: 0.5462499856948853
+    agility: 0.54625
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1250.0
-    capacity: 480.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 400
     dronebandwidth: 125
     dronecapacity: 125
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 20000
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2000.0
@@ -1647,13 +1629,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 11011
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 1
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1699
-    mass: 1.091E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10910000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 5
     maxpassengers: 670
@@ -1664,11 +1646,10 @@ types:
     metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Guardian-Vexor
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 725
+    poweroutput: 725.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 394
     published: true
     radius: 110.0
@@ -1680,12 +1661,13 @@ types:
     scanmagnetometricstrength: 19.0
     scanresolution: 276.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -1696,45 +1678,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 115000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17634:
-    agility: 0.5099999904632568
+    agility: 0.51
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1950.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1450.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 465
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7599999904632568
+    heatattenuationhi: 0.76
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 6
     hp: 2250.0
@@ -1743,13 +1724,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17634
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 6
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1370
     mass: 9600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -1760,11 +1741,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Caracal Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 900
+    poweroutput: 900.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 395
     published: true
     radius: 202.0
@@ -1776,12 +1756,13 @@ types:
     scangravimetricstrength: 21.0
     scanresolution: 270.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 3000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: -6.0
     shipbonuscc2: -5.0
@@ -1792,44 +1773,43 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11321
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17709:
-    agility: 0.4300000071525574
+    agility: 0.43
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2550.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1650.0
-    capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 335
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7900000214576721
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.79
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2250.0
@@ -1838,12 +1818,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17709
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.085E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10850000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 880
@@ -1854,14 +1834,13 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Omen Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 960
+    poweroutput: 960.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 394
     published: true
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 520000.0
     requiredskill1: 3335
     requiredskill1level: 2
@@ -1870,12 +1849,13 @@ types:
     scanradarstrength: 17.0
     scanresolution: 320.0
     scanspeed: 5600
+    sensordampenerresistance: 1.0
     shieldcapacity: 1800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: 10.0
     shipbonusac2: 10.0
@@ -1887,45 +1867,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11310
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17713:
-    agility: 0.4650000035762787
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.465
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 2700.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1275.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 310
     dronebandwidth: 40
     dronecapacity: 40
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2250.0
@@ -1934,13 +1913,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17713
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 3
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.081E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10810000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
     maxpassengers: 500
@@ -1951,11 +1930,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Stabber Fleet Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 950
+    poweroutput: 950.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 395
     published: true
     radius: 110.0
@@ -1967,12 +1945,13 @@ types:
     scanladarstrength: 18.0
     scanresolution: 305.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2250.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -1985,45 +1964,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11339
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17715:
-    agility: 0.6600000262260437
+    agility: 0.66
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1400.0
-    capacity: 440.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 380
     dronebandwidth: 20
     dronecapacity: 100
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
+    heatattenuationhi: 0.71
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2490.0
@@ -2032,13 +2010,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17715
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 4
     lowslots: 3
     maincolor: 16777215
     marketGroup: 1371
     mass: 9600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2049,11 +2027,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Gila
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 670
+    poweroutput: 670.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 395
     published: true
     radius: 166.0
@@ -2067,12 +2044,13 @@ types:
     scangravimetricstrength: 22.0
     scanresolution: 285.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 3200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonuscc2: -4.0
@@ -2086,44 +2064,43 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11335
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17718:
-    agility: 0.6200000047683716
+    agility: 0.62
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2175.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1800.0
-    capacity: 410.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 380
     dronebandwidth: 15
     dronecapacity: 15
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 2065.0
@@ -2132,12 +2109,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17718
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1371
     mass: 9600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2148,11 +2125,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Phantasm
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 890
+    poweroutput: 890.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 395
     published: true
     radius: 143.0
@@ -2166,12 +2142,13 @@ types:
     scanradarstrength: 20.0
     scanresolution: 275.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2700.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac2: 7.5
     shipbonuscc: 5.0
@@ -2184,45 +2161,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11349
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17720:
-    agility: 0.44999998807907104
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.45
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 2300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1415.0
-    capacity: 400.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 335
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2065.0
@@ -2231,12 +2207,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17720
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1371
     mass: 9047000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2247,11 +2223,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Cynabal
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 980
+    poweroutput: 980.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 395
     published: true
     radius: 170.0
@@ -2265,12 +2240,13 @@ types:
     scanladarstrength: 18.0
     scanresolution: 390.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2330.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 10.0
@@ -2283,45 +2259,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11318
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17722:
-    agility: 0.47999998927116394
+    agility: 0.48
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1545.0
-    capacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 360
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2625.0
@@ -2330,12 +2305,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17722
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1371
     mass: 9830000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2346,11 +2321,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Vigilant
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1050
+    poweroutput: 1050.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 395
     published: true
     radius: 149.0
@@ -2364,12 +2338,13 @@ types:
     scanmagnetometricstrength: 20.0
     scanresolution: 300.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2175.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 10.0
@@ -2381,45 +2356,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 5
     typecolorscheme: 11351
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17843:
-    agility: 0.5099999904632568
+    agility: 0.51
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 3000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1500.0
-    capacity: 460.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 350
     dronebandwidth: 75
     dronecapacity: 200
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 394
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 3000.0
@@ -2428,12 +2402,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17843
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1370
     mass: 9700000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 760
@@ -2444,11 +2418,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Vexor Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 850
+    poweroutput: 850.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 394
     published: true
     radius: 110.0
@@ -2460,12 +2433,13 @@ types:
     scanmagnetometricstrength: 20.0
     scanresolution: 285.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1650.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 10.0
@@ -2477,45 +2451,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11328
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 112000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   17922:
-    agility: 0.550000011920929
+    agility: 0.55
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2950.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1850.0
-    capacity: 430.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 350
     dronebandwidth: 50
     dronecapacity: 50
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 397
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2325.0
@@ -2524,12 +2497,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 17922
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1371
-    mass: 1.101E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11010000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2541,11 +2514,10 @@ types:
     mintargetveldmgmultiplier: 0.25
     name: Ashimmu
     nosoverride: 1
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1300
+    poweroutput: 1300.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 397
     published: true
     radius: 137.0
@@ -2559,63 +2531,65 @@ types:
     scanradarstrength: 19.0
     scanresolution: 340.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2290.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: 15.0
+    shipbonusac2: 20.0
+    shipbonusac3: 10
     shipbonuscc: 5.0
     shipbonusgc: 5.0
     shipbonusmc2: 20.0
-    shipbonusrole7: 100.0
+    shipbonusrole7: 125.0
     shipbonusuc1: 1.0
     shipbonusuc2: 1
     signatureradius: 130.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11320
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 118000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   29336:
-    agility: 0.4399999976158142
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    agility: 0.44
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1950.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1275.0
-    capacity: 440.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 400
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 397
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 1950.0
@@ -2624,13 +2598,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29336
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 4
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.091E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10910000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 630
@@ -2642,11 +2616,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Scythe Fleet Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 745
+    poweroutput: 745.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 397
     published: true
     radius: 134.0
@@ -2658,12 +2631,13 @@ types:
     scanladarstrength: 16.0
     scanresolution: 345.0
     scanspeed: 4500
+    sensordampenerresistance: 1.0
     shieldcapacity: 2400.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -2675,45 +2649,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11339
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 89000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   29337:
-    agility: 0.47999998927116394
+    agility: 0.48
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 3100.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1500.0
-    capacity: 480.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 320
     dronebandwidth: 15
     dronecapacity: 15
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7900000214576721
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.79
     heatattenuationmed: 0.5
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2800.0
@@ -2722,12 +2695,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29337
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.065E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10650000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -2738,11 +2711,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Augoror Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1150
+    poweroutput: 1150.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 395
     published: true
     radius: 80.0
@@ -2754,12 +2726,13 @@ types:
     scanradarstrength: 19.0
     scanresolution: 300.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac: 25.0
     shipbonusac2: 10.0
@@ -2771,45 +2744,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11310
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   29340:
-    agility: 0.38499999046325684
+    agility: 0.385
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1800.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1450.0
-    capacity: 460.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 450
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2100.0
@@ -2818,13 +2790,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29340
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 3
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.178E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11780000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 510
@@ -2836,11 +2808,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Osprey Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 730
+    poweroutput: 730.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 395
     published: true
     radius: 174.0
@@ -2852,12 +2823,13 @@ types:
     scangravimetricstrength: 19.0
     scanresolution: 310.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2550.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 20.0
     shipbonuscc2: 10.0
@@ -2869,45 +2841,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 2
     typecolorscheme: 11321
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 107000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   29344:
-    agility: 0.4399999976158142
+    agility: 0.44
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 1950.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1500.0
-    capacity: 465.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 340
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 394
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2550.0
@@ -2916,12 +2887,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 29344
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1370
-    mass: 1.128E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11280000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 760
@@ -2932,11 +2903,10 @@ types:
     metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Exequror Navy Issue
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1030
+    poweroutput: 1030.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 394
     published: true
     radius: 224.0
@@ -2948,12 +2918,13 @@ types:
     scanmagnetometricstrength: 18.0
     scanresolution: 325.0
     scanspeed: 5500
+    sensordampenerresistance: 1.0
     shieldcapacity: 1800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 17.5
@@ -2965,45 +2936,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 4
     typecolorscheme: 11328
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 112000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   33470:
-    agility: 0.4699999988079071
+    agility: 0.47
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2400.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1700.0
-    capacity: 550.0
     covertopsandreconopscloakmoduledelay: 15000
     cpuoutput: 400
     dronebandwidth: 100
     dronecapacity: 400
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2450.0
@@ -3014,12 +2984,12 @@ types:
     id: 33470
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     marketGroup: 1371
     mass: 9350000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -3030,11 +3000,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Stratios
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 920
+    poweroutput: 920.0
     powertospeed: 1
-    price: 3.83E7
+    price: 38300000.0
     propulsiongraphicid: 395
     published: true
     radius: 143.0
@@ -3048,12 +3017,13 @@ types:
     scanmagnetometricstrength: 20.0
     scanresolution: 275.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 1950.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac2: -4.0
     shipbonuscc: 5.0
@@ -3067,46 +3037,45 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 4
+    thermaldamageresonance: 0.67
+    turretslotsleft: 3
     typecolorscheme: 11335
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     virusstrengthbonus: 10
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   33553:
-    agility: 0.4699999988079071
+    agility: 0.47
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 3100.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1800.0
-    capacity: 550.0
     covertopsandreconopscloakmoduledelay: 15000
     cpuoutput: 430
     dronebandwidth: 125
     dronecapacity: 400
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7099999785423279
-    heatattenuationlow: 0.7099999785423279
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.71
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 5
     hp: 2850.0
@@ -3117,11 +3086,11 @@ types:
     id: 33553
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 5
     maincolor: 16777215
     mass: 9350000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -3132,11 +3101,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Stratios Emergency Responder
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 950
+    poweroutput: 950.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 395
     published: true
     radius: 143.0
@@ -3150,12 +3118,13 @@ types:
     scanmagnetometricstrength: 20.0
     scanresolution: 275.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2650.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusac2: -4.0
     shipbonuscc: 5.0
@@ -3169,46 +3138,45 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
-    turretslotsleft: 4
+    thermaldamageresonance: 0.67
+    turretslotsleft: 3
     typecolorscheme: 11335
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     virusstrengthbonus: 10
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   33818:
-    agility: 0.47999998927116394
+    agility: 0.48
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2280.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1550.0
-    capacity: 380.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 460
     dronebandwidth: 25
     dronecapacity: 25
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 150
     gfxboosterid: 395
-    heatattenuationhi: 0.7599999904632568
-    heatattenuationlow: 0.6299999952316284
-    heatattenuationmed: 0.7099999785423279
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.71
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 6
     hp: 2100.0
@@ -3217,13 +3185,13 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 33818
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     launcherslotsleft: 5
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1371
     mass: 9362000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -3234,11 +3202,10 @@ types:
     metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Orthrus
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 800
+    poweroutput: 800.0
     powertospeed: 1
-    price: 3.6E7
+    price: 36000000.0
     propulsiongraphicid: 395
     published: true
     radius: 240.0
@@ -3252,12 +3219,13 @@ types:
     scangravimetricstrength: 21.0
     scanresolution: 300.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 2950.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 15.0
     shipbonusgc: 5.0
@@ -3270,41 +3238,40 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11318
     uniformity: 1.0
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   34590:
     agility: 4.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 4000.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 3500.0
-    capacity: 30.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 130
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatattenuationhi: 0.25
-    heatattenuationlow: 0.6299999952316284
+    heatattenuationlow: 0.63
     heatattenuationmed: 1.0
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 2
     hp: 4000.0
@@ -3315,12 +3282,12 @@ types:
     id: 34590
     isblackopsjumpconduitpassenger: 1
     isblackopsjumpportalpassenger: 1
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1699
     mass: 1000000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 10
     maxpassengers: 500
@@ -3331,11 +3298,10 @@ types:
     metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Victorieux Luxury Yacht
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 100
+    poweroutput: 100.0
     powertospeed: 1
-    price: 2.56E7
+    price: 25600000.0
     propulsiongraphicid: 394
     published: true
     radius: 287.0
@@ -3347,12 +3313,13 @@ types:
     scanmagnetometricstrength: 20.0
     scanresolution: 250.0
     scanspeed: 3000
+    sensordampenerresistance: 1.0
     shieldcapacity: 3000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -3366,44 +3333,43 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 115000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   47270:
-    agility: 0.44999998807907104
+    agility: 0.45
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 3300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1500.0
-    capacity: 533.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 380
     dronebandwidth: 50
     dronecapacity: 75
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
-    heatattenuationhi: 0.6299999952316284
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationhi: 0.63
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 4
     hp: 2000.0
@@ -3412,12 +3378,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 47270
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 2428
     mass: 9530000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -3426,11 +3392,10 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Vedmak
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 1170
+    poweroutput: 1170.0
     powertospeed: 1
-    price: 6.62E7
+    price: 66200000.0
     propulsiongraphicid: 394
     published: true
     radius: 250.0
@@ -3442,12 +3407,13 @@ types:
     scanradarstrength: 20.0
     scanresolution: 300.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -3461,45 +3427,44 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 1
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 118000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   49712:
-    agility: 0.6800000071525574
+    agility: 0.68
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 2150.0
-    capacity: 435.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 325
     dronebandwidth: 50
     dronecapacity: 100
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 394
     heatattenuationhi: 0.5
-    heatattenuationlow: 0.7599999904632568
-    heatattenuationmed: 0.6299999952316284
+    heatattenuationlow: 0.76
+    heatattenuationmed: 0.63
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 3
     hp: 1600.0
@@ -3508,12 +3473,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 49712
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 6
     maincolor: 16777215
     marketGroup: 2428
-    mass: 1.012E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 10120000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 8
     maxpassengers: 500
@@ -3522,11 +3487,10 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Rodiva
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 750
+    poweroutput: 750.0
     powertospeed: 1
-    price: 5.3E7
+    price: 53000000.0
     propulsiongraphicid: 394
     published: true
     radius: 250.0
@@ -3538,12 +3502,13 @@ types:
     scanradarstrength: 18.0
     scanresolution: 300.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -3558,43 +3523,42 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 3
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 118000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
   54732:
-    agility: 0.5199999809265137
+    agility: 0.52
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 1860.0
-    capacity: 473.0
     covertopsandreconopscloakmoduledelay: 30000
     cpuoutput: 390
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     fwlpkill: 100
     gfxboosterid: 395
     heatattenuationhi: 0.25
     heatattenuationlow: 0.5
-    heatattenuationmed: 0.7599999904632568
+    heatattenuationmed: 0.76
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 0.75
     hislots: 2
     hp: 1200.0
@@ -3603,12 +3567,12 @@ types:
     hullkineticdamageresonance: 1.0
     hullthermaldamageresonance: 1.0
     id: 54732
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     lowslots: 3
     maincolor: 16777215
     marketGroup: 3537
-    mass: 1.164E7
-    maxdirectionalscanrange: 2.147483648E12
+    mass: 11640000.0
+    maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 7
     maxpassengers: 500
@@ -3617,11 +3581,10 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Stormbringer
-    packagedVolume: 10000.0
     portionSize: 1
-    poweroutput: 970
+    poweroutput: 970.0
     powertospeed: 1
-    price: 4.76E7
+    price: 47600000.0
     propulsiongraphicid: 395
     published: true
     radius: 166.0
@@ -3633,12 +3596,13 @@ types:
     scangravimetricstrength: 19.0
     scanresolution: 273.0
     scanspeed: 6000
+    sensordampenerresistance: 1.0
     shieldcapacity: 4000.0
-    shieldemdamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.5
     shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscc: 5.0
     shipbonusgc: 5.0
@@ -3648,13 +3612,13 @@ types:
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     turretslotsleft: 1
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.12999985555507E-7
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0

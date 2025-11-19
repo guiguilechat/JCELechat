@@ -23,7 +23,7 @@ public class AITankingModifierDrone
 
     @Override
     public Number getDefaultValue() {
-        return  0.699999988079071;
+        return  0.7;
     }
 
     @Override

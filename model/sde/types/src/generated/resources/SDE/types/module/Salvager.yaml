@@ -9,7 +9,6 @@ types:
     marketGroup: 1715
     maxrange: 5000.0
     name: Salvager I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 33264.0
@@ -31,7 +30,6 @@ types:
     maxrange: 6000.0
     metalevelold: 5
     name: Salvager II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 33264.0

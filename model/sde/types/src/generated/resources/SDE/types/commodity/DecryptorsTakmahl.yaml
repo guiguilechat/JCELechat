@@ -2,16 +2,14 @@ types:
   23173:
     id: 23173
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.8999999761581421
+    inventionmemodifier: 0.9
     inventionpropabilitymultiplier: 3.0
-    inventiontemodifier: 0.699999988079071
+    inventiontemodifier: 0.7
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Binary Texts
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23174:
     id: 23174
@@ -22,24 +20,20 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Fractal Sheet
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23175:
     id: 23175
     inventionmaxrunmodifier: 1.5
     inventionmemodifier: 1.5
     inventionpropabilitymultiplier: 2.0
-    inventiontemodifier: 1.7999999523162842
+    inventiontemodifier: 1.8
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Centrifugal Primer
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23176:
     id: 23176
@@ -50,10 +44,8 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Geometric Design
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   23177:
     id: 23177
@@ -64,8 +56,6 @@ types:
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Astral Treatment
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

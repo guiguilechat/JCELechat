@@ -13,9 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexSovereignty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SovBillSystemCostDEPRECATED;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -38,7 +36,7 @@ public class InfrastructureHubStrategicUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int sovbillsystemcostdeprecated;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SovBillSystemCostDEPRECATED.INSTANCE, Capacity.INSTANCE, DevIndexSovereignty.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SovBillSystemCostDEPRECATED.INSTANCE, DevIndexSovereignty.INSTANCE })));
     public static final InfrastructureHubStrategicUpgrades.MetaGroup METAGROUP = new InfrastructureHubStrategicUpgrades.MetaGroup();
 
     @Override

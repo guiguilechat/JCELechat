@@ -4,7 +4,6 @@ types:
     marketGroup: 22
     mass: 2000.0
     name: Plutonium
-    packagedVolume: 1.0
     portionSize: 1
     price: 12000.0
     published: true
@@ -14,7 +13,6 @@ types:
     marketGroup: 22
     mass: 2000.0
     name: Toxic Waste
-    packagedVolume: 1.0
     portionSize: 1
     price: 150.0
     published: true
@@ -23,7 +21,6 @@ types:
     id: 17475
     mass: 2000.0
     name: Radioactive Waste
-    packagedVolume: 1.0
     portionSize: 1
     published: true
     volume: 1.0

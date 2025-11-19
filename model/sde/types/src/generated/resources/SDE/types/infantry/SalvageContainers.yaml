@@ -1,6 +1,5 @@
 types:
   81041:
-    capacity: 100000.0
     entityequipmentmax: 1
     entityequipmentmin: 1
     id: 81041

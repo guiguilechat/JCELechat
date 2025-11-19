@@ -4,164 +4,137 @@ types:
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Optimized Nano-Engines Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29995:
     id: 29995
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Warfare Computation Core Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   29997:
     id: 29997
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Emergent Neurovisual Interface Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30003:
     id: 30003
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Fullerene Intercalated Sheets Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30009:
     id: 30009
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Reinforced Metallofullerene Alloys Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30465:
     id: 30465
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Metallofullerene Plating Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30467:
     id: 30467
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Electromechanical Interface Nexus Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30471:
     id: 30471
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Neurovisual Output Analyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30475:
     id: 30475
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Nanowire Composites Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30477:
     id: 30477
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Fulleroferrocene Power Conduits Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30479:
     id: 30479
     industryblueprintrank: 1.0
     marketGroup: 1191
     name: Reconfigured Subspace Calibrator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   34397:
     id: 34397
     marketGroup: 1191
     name: Self-Assembling Nanolattice Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45656:
     id: 45656
     marketGroup: 1191
     name: Superconducting Magnetometric Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45657:
     id: 45657
     marketGroup: 1191
     name: Superconducting Gravimetric Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45658:
     id: 45658
     marketGroup: 1191
     name: Superconducting Radar Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   45659:
     id: 45659
     marketGroup: 1191
     name: Superconducting Ladar Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01

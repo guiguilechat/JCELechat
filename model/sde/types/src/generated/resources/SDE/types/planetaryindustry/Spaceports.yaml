@@ -1,6 +1,5 @@
 types:
   2256:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2256
@@ -11,9 +10,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2542:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2542
@@ -24,9 +21,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2543:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2543
@@ -37,9 +32,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2544:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2544
@@ -50,9 +43,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2552:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2552
@@ -63,9 +54,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2555:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2555
@@ -76,9 +65,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2556:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2556
@@ -89,9 +76,7 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0
   2557:
-    capacity: 10000.0
     cpuload: 3600
     exporttax: 1
     id: 2557
@@ -102,4 +87,3 @@ types:
     powerload: 700
     price: 900000.0
     published: true
-    radius: 1.0

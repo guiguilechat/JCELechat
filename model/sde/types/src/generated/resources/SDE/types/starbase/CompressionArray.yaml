@@ -4,22 +4,20 @@ types:
     anchoringsecuritylevelmax: 1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2.0E7
     cpu: 500.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 12239
     marketGroup: 1921
-    mass: 5.0E7
+    mass: 50000000.0
     maxoperationaldistance: 3000
     name: Compression Array
     onliningdelay: 3000
     operationalduration: 10000
-    packagedVolume: 6000.0
     portionSize: 1
     power: 100000
-    price: 5.0E7
+    price: 50000000.0
     published: true
     radius: 506.0
     requiredskill1: 11584

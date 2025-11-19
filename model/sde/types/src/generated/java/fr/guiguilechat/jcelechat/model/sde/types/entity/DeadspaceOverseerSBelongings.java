@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LootRespawnTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpawnWithoutGuardsToo;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
@@ -42,13 +40,6 @@ public class DeadspaceOverseerSBelongings
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -116,13 +107,6 @@ public class DeadspaceOverseerSBelongings
     @DefaultRealValue(600000.0)
     public double lootrespawntime;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Whether a spawn container should refill itself when there are no guards assigned to it.
      */
     @HighIsGood(true)
@@ -136,7 +120,7 @@ public class DeadspaceOverseerSBelongings
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double structureuniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorCapacity.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityBracketColour.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityEquipmentGroupMax.INSTANCE, CapacitorCapacity.INSTANCE, LootRespawnTime.INSTANCE, DisallowAssistance.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, StructureUniformity.INSTANCE, EntityBracketColour.INSTANCE })));
     public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
 
     @Override
@@ -145,10 +129,6 @@ public class DeadspaceOverseerSBelongings
             case  482 :
             {
                 return capacitorcapacity;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  854 :
             {
@@ -185,10 +165,6 @@ public class DeadspaceOverseerSBelongings
             case  470 :
             {
                 return lootrespawntime;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  903 :
             {

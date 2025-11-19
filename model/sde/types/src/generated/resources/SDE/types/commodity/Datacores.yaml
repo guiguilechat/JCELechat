@@ -4,271 +4,226 @@ types:
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Defensive Subsystems Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30324
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20114:
     id: 20114
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Propulsion Subsystems Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30788
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20115:
     id: 20115
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Core Subsystems Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30325
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20171:
     id: 20171
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Hydromagnetic Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11443
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20172:
     id: 20172
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Minmatar Starship Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11445
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20410:
     id: 20410
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Gallentean Starship Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11450
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20411:
     id: 20411
     marketGroup: 1880
     mass: 1.0
     name: Datacore - High Energy Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11433
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20412:
     id: 20412
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Plasma Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11441
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20413:
     id: 20413
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Laser Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11447
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20414:
     id: 20414
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Quantum Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11455
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20415:
     id: 20415
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Molecular Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11529
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20416:
     id: 20416
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Nanite Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11442
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20417:
     id: 20417
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Electromagnetic Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11448
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20418:
     id: 20418
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Electronic Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11453
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20419:
     id: 20419
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Graviton Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11446
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20420:
     id: 20420
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Rocket Science
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11449
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20421:
     id: 20421
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Amarrian Starship Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11444
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20423:
     id: 20423
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Nuclear Physics
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11451
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20424:
     id: 20424
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Mechanical Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11452
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   20425:
     id: 20425
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Offensive Subsystems Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 30327
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   25887:
     id: 25887
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Caldari Starship Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11454
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1
   52309:
     id: 52309
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Triglavian Quantum Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   81051:
     id: 81051
     marketGroup: 1880
     mass: 1.0
     name: Datacore - Upwell Starship Engineering
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 81050
     requiredskill1level: 1
-    volume: 0.10000000149011612
+    volume: 0.1

@@ -4,15 +4,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20999999344348907
-    armorexplosivedamageresonance: 0.5099999904632568
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.21
+    armorexplosivedamageresonance: 0.51
     armorhp: 300.0
-    armorkineticdamageresonance: 0.4099999964237213
-    armorthermaldamageresonance: 0.3100000023841858
+    armorkineticdamageresonance: 0.41
+    armorthermaldamageresonance: 0.31
     armoruniformity: 0.75
     capacitorcapacity: 3700.0
-    capacity: 3375.0
     disallowassistance: 1
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -23,20 +22,19 @@ types:
     entityflyrange: 500.0
     entityoverviewshipgroupid: 547
     entityshieldboostamount: 28.0
-    entityshieldboostdelaychance: 0.17499999701976776
+    entityshieldboostdelaychance: 0.175
     entityshieldboostduration: 10000
     fighterabilityanticapitalmissileresistance: 1
     gfxboosterid: 397
     hp: 300.0
     id: 42849
     iscapitalsize: 1
-    mass: 9.22499968E8
+    mass: 922500000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxvelocity: 1.0
     maxvelocitymodifier: 2.0
     name: Minmatar Lif
-    packagedVolume: 1.125E7
     portionSize: 1
     propulsiongraphicid: 397
     proximityrange: 250000
@@ -46,12 +44,12 @@ types:
     scanladarstrength: 72.0
     scanresolution: 500.0
     shieldcapacity: 300.0
-    shieldemdamageresonance: 0.20999999344348907
-    shieldexplosivedamageresonance: 0.5099999904632568
-    shieldkineticdamageresonance: 0.4099999964237213
+    shieldemdamageresonance: 0.21
+    shieldexplosivedamageresonance: 0.51
+    shieldkineticdamageresonance: 0.41
     shieldrechargerate: 1.0E7
-    shieldthermaldamageresonance: 0.3100000023841858
+    shieldthermaldamageresonance: 0.31
     shielduniformity: 0.75
     signatureradius: 30000.0
     structureuniformity: 1.0
-    volume: 1.125E7
+    volume: 11250000.0

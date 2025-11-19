@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapRechargeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
@@ -26,7 +25,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleRepairRateBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -164,7 +162,7 @@ public class Engineering
     @Stackable(true)
     @DefaultIntValue(0)
     public int thermodynamicsheatdamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, ThermodynamicsHeatDamage.INSTANCE, ShipBrokenRepairCostMultiplierBonus.INSTANCE, ModuleRepairRateBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, CapacitorCapacityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, PowerNeedBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, ThermodynamicsHeatDamage.INSTANCE, ShipBrokenRepairCostMultiplierBonus.INSTANCE, ModuleRepairRateBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CpuNeedBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, CapacitorCapacityBonus.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final Engineering.MetaGroup METAGROUP = new Engineering.MetaGroup();
 
     @Override

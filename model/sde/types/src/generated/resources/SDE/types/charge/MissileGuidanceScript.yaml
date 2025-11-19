@@ -11,11 +11,9 @@ types:
     mass: 1.0
     missilevelocitybonusbonus: 100
     name: Missile Range Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     volume: 1.0
   35795:
@@ -30,10 +28,8 @@ types:
     mass: 1.0
     missilevelocitybonusbonus: -100
     name: Missile Precision Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     volume: 1.0

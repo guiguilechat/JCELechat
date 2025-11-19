@@ -1,14 +1,13 @@
 types:
   3883:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 500.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 100.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -29,9 +28,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -62,7 +61,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Army Officer
     optimalsigradius: 40
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -80,9 +78,9 @@ types:
     shieldcapacity: 550.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -92,15 +90,14 @@ types:
     trackingspeed: 0.5
     volume: 20400.0
   3886:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 2375.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 1800.0
     damagemultiplier: 5.0
     disallowassistance: 1
     duration: 3000.0
@@ -122,7 +119,7 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 4
     entityequipmentmin: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entitylootvaluemin: 3000
@@ -143,7 +140,7 @@ types:
     hp: 2000.0
     id: 3886
     kineticdamage: 11.0
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -158,11 +155,10 @@ types:
     modifytargetspeedrange: 7000
     name: DED Army Captain
     optimalsigradius: 125
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 199.86000061035156
+    radius: 199.86
     rechargerate: 1000000.0
     scangravimetricstrength: 500.0
     scangravimetricstrengthbonus: -12.0
@@ -173,21 +169,21 @@ types:
     scanradarstrength: 500.0
     scanradarstrengthbonus: -12.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     scanspeed: 2000
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: -85.0
     structureuniformity: 1.0
     thermaldamage: 11.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 101000.0
     warpscramblerange: 7000
     warpscramblestatus: -30
@@ -197,14 +193,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 350.0
-    capacity: 350.0
-    damagemultiplier: 5.208333492279053
+    damagemultiplier: 5.208333333
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -216,7 +211,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 350.0
@@ -248,7 +243,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 28100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -265,10 +259,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -278,15 +272,14 @@ types:
     trackingspeed: 1.0
     volume: 28100.0
   9998:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 225.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -307,9 +300,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -338,7 +331,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Sergeant
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -356,9 +348,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -372,13 +364,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 270.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -391,7 +382,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 6000.0
@@ -423,7 +414,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Captain
     optimalsigradius: 1
-    packagedVolume: 28700.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -440,10 +430,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -457,14 +447,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 275.0
-    capacity: 275.0
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 5.0
@@ -477,7 +466,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityflyrange: 1000.0
@@ -508,7 +497,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Major
     optimalsigradius: 1
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -525,10 +513,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -538,15 +526,14 @@ types:
     trackingspeed: 1.0
     volume: 28600.0
   10001:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 1150.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -565,7 +552,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -582,7 +569,7 @@ types:
     gfxturretid: 454
     hp: 2000.0
     id: 10001
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -596,7 +583,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Colonel
     optimalsigradius: 125
-    packagedVolume: 120000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -607,34 +593,33 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 120000.0
   10003:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 1775.0
-    capacity: 1775.0
-    damagemultiplier: 3.5714285373687744
+    damagemultiplier: 3.571428571
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 8.0
@@ -664,7 +649,7 @@ types:
     gfxturretid: 455
     hp: 1100.0
     id: 10003
-    mass: 1.18E7
+    mass: 11800000.0
     maxattacktargets: 3
     maxlockedtargets: 4
     maxrange: 3200.0
@@ -678,11 +663,10 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy General
     optimalsigradius: 1
-    packagedVolume: 118000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 134.42999267578125
+    radius: 134.43
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -695,10 +679,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 875.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -712,13 +696,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 170.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -731,7 +714,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -764,11 +747,10 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Captain 2nd Rank
     optimalsigradius: 1
-    packagedVolume: 20400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 42.93000030517578
+    radius: 42.93
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -781,10 +763,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 3000.0
@@ -798,14 +780,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 230.0
-    capacity: 230.0
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -818,7 +799,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -850,11 +831,10 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Captain 1st Rank
     optimalsigradius: 1
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 45.97999954223633
+    radius: 45.98
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -867,10 +847,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -884,13 +864,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 170.0
-    capacity: 170.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -903,7 +882,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -936,7 +915,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Commodore
     optimalsigradius: 1
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -953,10 +931,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -966,15 +944,14 @@ types:
     trackingspeed: 1.0
     volume: 16500.0
   10050:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 450.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -990,7 +967,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -1023,45 +1000,43 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Vice Admiral
     optimalsigradius: 125
-    packagedVolume: 92000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 221.0500030517578
+    radius: 221.05
     rechargerate: 1000000.0
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 2375.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 92000.0
   10052:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 100.0
-    capacity: 100.0
-    damagemultiplier: 4.017857074737549
+    damagemultiplier: 4.017857143
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -1073,7 +1048,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1106,7 +1081,6 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Command Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1123,10 +1097,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1140,13 +1114,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 160.0
-    capacity: 160.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -1159,7 +1132,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -1192,11 +1165,10 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Fleet Captain
     optimalsigradius: 1
-    packagedVolume: 16200.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 36.15999984741211
+    radius: 36.16
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1209,10 +1181,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1226,14 +1198,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
-    damagemultiplier: 3.472222328186035
+    damagemultiplier: 3.472222222
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -1246,7 +1217,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -1278,7 +1249,6 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1295,10 +1265,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1308,15 +1278,14 @@ types:
     trackingspeed: 1.0
     volume: 23000.0
   10056:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2375.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 520.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1334,7 +1303,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -1352,7 +1321,7 @@ types:
     hp: 2000.0
     id: 10056
     kineticdamage: 15.0
-    mass: 1.16E7
+    mass: 11600000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -1366,7 +1335,6 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Fleet Major
     optimalsigradius: 125
-    packagedVolume: 116000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1377,33 +1345,32 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 116000.0
   10057:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 350.0
-    capacity: 350.0
     damagemultiplier: 5.625
     disallowassistance: 1
     ecmduration: 30000
@@ -1435,7 +1402,7 @@ types:
     hp: 1200.0
     id: 10057
     kineticdamage: 12.0
-    mass: 1.12E7
+    mass: 11200000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxrange: 1050.0
@@ -1449,11 +1416,10 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Fleet Colonel
     optimalsigradius: 1
-    packagedVolume: 112000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 167.24000549316406
+    radius: 167.24
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1466,10 +1432,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1483,13 +1449,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.9
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 145.0
-    capacity: 145.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -1502,7 +1467,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -1535,11 +1500,10 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet Private 3rd Rank
     optimalsigradius: 1
-    packagedVolume: 17400.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 32.88999938964844
+    radius: 32.89
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1552,10 +1516,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1568,14 +1532,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 80.0
-    capacity: 80.0
-    damagemultiplier: 2.8136253356933594
+    damagemultiplier: 2.81362545
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 5.0
@@ -1588,7 +1551,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -1622,11 +1585,10 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet Captain
     optimalsigradius: 1
-    packagedVolume: 19800.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 37.06999969482422
+    radius: 37.07
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -1639,10 +1601,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1651,15 +1613,14 @@ types:
     trackingspeed: 1.0
     volume: 19800.0
   10076:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 225.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -1680,9 +1641,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -1711,7 +1672,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy Sergeant
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1729,9 +1689,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -1745,13 +1705,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 580.0
-    capacity: 580.0
     damagemultiplier: 2.34375
     disallowassistance: 1
     ecmduration: 30000
@@ -1798,7 +1757,6 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet Commander
     optimalsigradius: 1
-    packagedVolume: 96000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1815,10 +1773,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -1827,15 +1785,14 @@ types:
     trackingspeed: 1.0
     volume: 96000.0
   10078:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 2000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 390.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1852,7 +1809,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -1886,7 +1843,6 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet High Captain
     optimalsigradius: 125
-    packagedVolume: 85000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -1897,34 +1853,33 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 2375.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 7.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 85000.0
   10079:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
-    damagemultiplier: 3.472222328186035
+    damagemultiplier: 3.472222222
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -1937,7 +1892,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 1000.0
@@ -1968,7 +1923,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 28100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -1985,10 +1939,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -2002,14 +1956,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
-    damagemultiplier: 2.8136253356933594
+    damagemultiplier: 2.81362545
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -2022,7 +1975,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -2056,7 +2009,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy Major
     optimalsigradius: 1
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2073,10 +2025,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -2085,15 +2037,14 @@ types:
     trackingspeed: 1.0
     volume: 28600.0
   10082:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 550.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2112,7 +2063,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -2129,7 +2080,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10082
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -2143,7 +2094,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy Colonel
     optimalsigradius: 125
-    packagedVolume: 120000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2154,31 +2104,30 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 120000.0
   10083:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2200,7 +2149,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -2214,7 +2163,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 10083
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2228,7 +2177,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy General
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2242,27 +2190,26 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
   10084:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 225.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -2283,9 +2230,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -2314,7 +2261,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy Sergeant
     optimalsigradius: 40
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2332,9 +2278,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -2348,14 +2294,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 300.0
-    capacity: 300.0
-    damagemultiplier: 5.208333492279053
+    damagemultiplier: 5.208333333
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -2367,7 +2312,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -2400,7 +2345,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 28100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2417,10 +2361,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -2434,13 +2378,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -2453,7 +2396,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -2486,7 +2429,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy Major
     optimalsigradius: 1
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2503,10 +2445,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -2516,15 +2458,14 @@ types:
     trackingspeed: 1.0
     volume: 28600.0
   10089:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2546,7 +2487,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 3
@@ -2561,7 +2502,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 10089
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2575,7 +2516,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy General
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2589,29 +2529,28 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
   10090:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 225.0
-    capacity: 225.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -2624,7 +2563,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -2656,7 +2595,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy Sergeant
     optimalsigradius: 1
-    packagedVolume: 18100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2673,10 +2611,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 3000.0
@@ -2690,13 +2628,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 300.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 200.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -2709,7 +2646,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -2742,7 +2679,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy Major
     optimalsigradius: 1
-    packagedVolume: 28600.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2759,10 +2695,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -2777,13 +2713,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 600.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 300.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -2804,9 +2739,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -2835,7 +2770,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy Captain
     optimalsigradius: 40
-    packagedVolume: 18700.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2853,9 +2787,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -2870,13 +2804,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2898,7 +2831,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -2912,7 +2845,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 10095
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -2926,7 +2859,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy General
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -2940,29 +2872,28 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
   10106:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 80.0
-    capacity: 80.0
     damagemultiplier: 1.5625
     disallowassistance: 1
     ecmduration: 30000
@@ -2975,7 +2906,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -3008,7 +2939,6 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 18500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3025,10 +2955,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3042,14 +2972,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 100.0
-    capacity: 100.0
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -3062,7 +2991,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -3094,7 +3023,6 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense Command Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 23000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3111,10 +3039,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3124,15 +3052,14 @@ types:
     trackingspeed: 1.0
     volume: 23000.0
   10108:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 275.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 160.0
-    capacity: 160.0
-    damagemultiplier: 2.8136253356933594
+    damagemultiplier: 2.81362545
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 5.0
@@ -3145,7 +3072,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -3179,7 +3106,6 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense Fleet Captain
     optimalsigradius: 1
-    packagedVolume: 29500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3196,10 +3122,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3212,14 +3138,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 520.0
-    capacity: 520.0
-    damagemultiplier: 4.166666507720947
+    damagemultiplier: 4.166666667
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -3250,7 +3175,7 @@ types:
     hp: 1200.0
     id: 10109
     kineticdamage: 12.0
-    mass: 1.15E7
+    mass: 11500000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 8000.0
@@ -3264,11 +3189,10 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense Fleet Colonel
     optimalsigradius: 1
-    packagedVolume: 115000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 140.14999389648438
+    radius: 140.15
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -3281,10 +3205,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3298,14 +3222,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 175.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 235.0
-    capacity: 235.0
-    damagemultiplier: 5.208333492279053
+    damagemultiplier: 5.208333333
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -3317,7 +3240,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -3350,7 +3273,6 @@ types:
     modifytargetspeedrange: 20000
     name: Thukker Brute
     optimalsigradius: 1
-    packagedVolume: 17100.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -3367,10 +3289,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3384,14 +3306,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 130.0
-    capacity: 130.0
-    damagemultiplier: 2.8136253356933594
+    damagemultiplier: 2.81362545
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -3403,7 +3324,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -3436,11 +3357,10 @@ types:
     modifytargetspeedrange: 20000
     name: Thukker Warrior
     optimalsigradius: 1
-    packagedVolume: 17400.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 32.88999938964844
+    radius: 32.89
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -3453,10 +3373,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 225.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3470,14 +3390,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
+    armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 1.0
     armorhp: 1050.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 365.0
-    capacity: 365.0
-    damagemultiplier: 2.2058823108673096
+    damagemultiplier: 2.205882353
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 10.0
@@ -3524,11 +3443,10 @@ types:
     modifytargetspeedrange: 20000
     name: Thukker Tribal Lord
     optimalsigradius: 1
-    packagedVolume: 80000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 123.02999877929688
+    radius: 123.03
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -3541,10 +3459,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3557,13 +3475,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 180.0
-    capacity: 180.0
     damagemultiplier: 0.78125
     disallowassistance: 1
     ecmduration: 30000
@@ -3576,7 +3493,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -3608,7 +3525,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Lieutenant 3rd Rank
     optimalsigradius: 1
-    packagedVolume: 20250.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -3625,10 +3541,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3642,13 +3558,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 170.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 145.0
-    capacity: 145.0
     damagemultiplier: 6.25
     disallowassistance: 1
     ecmduration: 30000
@@ -3661,7 +3576,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -3695,11 +3610,10 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Lieutenant 2nd Rank
     optimalsigradius: 1
-    packagedVolume: 19400.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 42.93000030517578
+    radius: 42.93
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -3712,10 +3626,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3728,14 +3642,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 90.0
-    capacity: 90.0
-    damagemultiplier: 4.017857074737549
+    damagemultiplier: 4.017857143
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -3747,7 +3660,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -3780,7 +3693,6 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Lieutenant
     optimalsigradius: 1
-    packagedVolume: 16500.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -3797,10 +3709,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3810,15 +3722,14 @@ types:
     trackingspeed: 1.0
     volume: 16500.0
   10134:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 675.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 450.0
-    capacity: 450.0
-    damagemultiplier: 4.220438003540039
+    damagemultiplier: 4.220438175
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -3830,7 +3741,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.4000000059604645
+    entitydefenderchance: 0.4
     entityequipmentgroupmax: 2
     entityequipmentmax: 4
     entityequipmentmin: 3
@@ -3863,11 +3774,10 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Captain
     optimalsigradius: 1
-    packagedVolume: 92000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 221.0500030517578
+    radius: 221.05
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -3880,10 +3790,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 900.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3897,14 +3807,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 270.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 315.0
-    capacity: 315.0
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -3917,7 +3826,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 1500.0
@@ -3948,7 +3857,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy Captain
     optimalsigradius: 1
-    packagedVolume: 28700.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -3965,10 +3873,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -3978,15 +3886,14 @@ types:
     trackingspeed: 1.0
     volume: 28700.0
   10651:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 150.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -4004,9 +3911,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -4037,7 +3944,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Captain 3rd Rank
     optimalsigradius: 40
-    packagedVolume: 18000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -4055,9 +3961,9 @@ types:
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -4067,15 +3973,14 @@ types:
     trackingspeed: 0.5
     volume: 18000.0
   10652:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 125.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -4095,9 +4000,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -4127,7 +4032,6 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy First Sergeant
     optimalsigradius: 40
-    packagedVolume: 22500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -4145,9 +4049,9 @@ types:
     shieldcapacity: 450.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -4161,13 +4065,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 120.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 120.0
-    capacity: 120.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -4180,7 +4083,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.10000000149011612
+    entitydefenderchance: 0.1
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -4212,7 +4115,6 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense First Sergeant
     optimalsigradius: 1
-    packagedVolume: 24500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -4229,10 +4131,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 100.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 3000.0
@@ -4242,14 +4144,13 @@ types:
     trackingspeed: 1.0
     volume: 24500.0
   10654:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 200.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 305.0
-    capacity: 305.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -4262,7 +4163,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 2
@@ -4295,11 +4196,10 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Lieutenant 1st Rank
     optimalsigradius: 1
-    packagedVolume: 19700.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 45.97999954223633
+    radius: 45.98
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -4312,10 +4212,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -4329,14 +4229,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 850.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 250.0
-    capacity: 250.0
-    damagemultiplier: 3.5714285373687744
+    damagemultiplier: 3.571428571
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 8.0
@@ -4367,7 +4266,7 @@ types:
     gfxturretid: 569
     hp: 975.0
     id: 10655
-    mass: 1.01E7
+    mass: 10100000.0
     maxattacktargets: 1
     maxlockedtargets: 3
     maxrange: 3200.0
@@ -4381,11 +4280,10 @@ types:
     modifytargetspeedrange: 20000
     name: Mordu's Legion
     optimalsigradius: 1
-    packagedVolume: 101000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
-    radius: 199.86000061035156
+    radius: 199.86
     rechargerate: 1000000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -4398,10 +4296,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -4415,13 +4313,12 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 165.0
-    capacity: 165.0
     damagemultiplier: 6.25
     disallowassistance: 1
     ecmduration: 30000
@@ -4434,7 +4331,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -4468,7 +4365,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy Sergeant Major
     optimalsigradius: 1
-    packagedVolume: 28100.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -4485,10 +4381,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -4497,14 +4393,13 @@ types:
     trackingspeed: 1.0
     volume: 28100.0
   10657:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 225.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 130.0
-    capacity: 130.0
     damagemultiplier: 3.125
     disallowassistance: 1
     ecmduration: 30000
@@ -4517,7 +4412,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.30000001192092896
+    entitydefenderchance: 0.3
     entityequipmentgroupmax: 1
     entityequipmentmax: 3
     entityequipmentmin: 2
@@ -4550,11 +4445,10 @@ types:
     modifytargetspeedrange: 20000
     name: Thukker Tribalist
     optimalsigradius: 1
-    packagedVolume: 27289.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 37.06999969482422
+    radius: 37.07
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -4567,10 +4461,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 250.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -4580,14 +4474,13 @@ types:
     trackingspeed: 1.0
     volume: 27289.0
   10658:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 775.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 440.0
-    capacity: 440.0
     damagemultiplier: 1.875
     disallowassistance: 1
     ecmduration: 30000
@@ -4600,7 +4493,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.4000000059604645
+    entitydefenderchance: 0.4
     entityequipmentgroupmax: 2
     entityequipmentmax: 4
     entityequipmentmin: 3
@@ -4633,7 +4526,6 @@ types:
     modifytargetspeedrange: 20000
     name: Thukker Tribal Priest
     optimalsigradius: 1
-    packagedVolume: 89000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -4650,10 +4542,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 800.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2833.0
@@ -4663,15 +4555,14 @@ types:
     trackingspeed: 1.0
     volume: 89000.0
   10663:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 375.0
-    capacity: 175.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 10000
@@ -4690,9 +4581,9 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
-    entitydefenderchance: 0.05000000074505806
+    entitydefenderchance: 0.05
     entityequipmentgroupmax: 1
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 1.0E-4
     entityflyrange: 10000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 25
@@ -4724,11 +4615,10 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet Private 1st Rank
     optimalsigradius: 40
-    packagedVolume: 20000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 49.779998779296875
+    radius: 49.78
     rechargerate: 1000000.0
     scangravimetricstrength: 500.0
     scangravimetricstrengthbonus: 2.5
@@ -4742,9 +4632,9 @@ types:
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 5000.0
@@ -4758,14 +4648,13 @@ types:
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.9
     armorhp: 175.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 150.0
-    capacity: 150.0
-    damagemultiplier: 3.472222328186035
+    damagemultiplier: 3.472222222
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -4778,7 +4667,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
@@ -4810,11 +4699,10 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet Private 2nd Rank
     optimalsigradius: 1
-    packagedVolume: 17400.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
-    radius: 32.88999938964844
+    radius: 32.89
     rechargerate: 500000.0
     scangravimetricstrength: 1000.0
     scangravimetricstrengthbonus: -12.0
@@ -4827,10 +4715,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -4840,15 +4728,14 @@ types:
     trackingspeed: 1.0
     volume: 17400.0
   10669:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 345.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -4867,7 +4754,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -4884,7 +4771,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10669
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -4898,7 +4785,6 @@ types:
     modifytargetspeedrange: 20000
     name: Ammatar Navy Colonel
     optimalsigradius: 125
-    packagedVolume: 120000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -4909,34 +4795,33 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 120000.0
   10670:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 270.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 315.0
-    capacity: 315.0
-    damagemultiplier: 4.688672065734863
+    damagemultiplier: 4.688672168
     disallowassistance: 1
     ecmduration: 30000
     emdamage: 4.0
@@ -4949,7 +4834,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 260.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityflyrange: 1500.0
@@ -4980,7 +4865,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Navy Captain
     optimalsigradius: 1
-    packagedVolume: 28700.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -4997,10 +4881,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 175.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -5015,13 +4899,12 @@ types:
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 2375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 1500.0
-    capacity: 345.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5040,7 +4923,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 5.000000237487257E-4
+    entityfactionloss: 5.0E-4
     entityflyrange: 25000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 26
@@ -5057,7 +4940,7 @@ types:
     gfxturretid: 459
     hp: 2000.0
     id: 10676
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 30000.0
@@ -5071,7 +4954,6 @@ types:
     modifytargetspeedrange: 20000
     name: Sarum Navy Colonel
     optimalsigradius: 125
-    packagedVolume: 120000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -5082,31 +4964,30 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 90.0
-    scanresolutionmultiplier: 0.8999999761581421
+    scanresolutionmultiplier: 0.9
     shieldcapacity: 1775.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
-    trackingspeed: 0.20000000298023224
+    trackingspeed: 0.2
     volume: 120000.0
   10677:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 825.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 320.0
-    capacity: 320.0
-    damagemultiplier: 4.220438003540039
+    damagemultiplier: 4.220438175
     disallowassistance: 1
     ecmduration: 30000
     energyneutralizerduration: 30000
@@ -5118,7 +4999,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 160.0
-    entitydefenderchance: 0.4000000059604645
+    entitydefenderchance: 0.4
     entityequipmentgroupmax: 2
     entityequipmentmax: 4
     entityequipmentmin: 2
@@ -5137,7 +5018,7 @@ types:
     hp: 825.0
     id: 10677
     kineticdamage: 12.0
-    mass: 1.16E7
+    mass: 11600000.0
     maxattacktargets: 1
     maxlockedtargets: 2
     maxrange: 8000.0
@@ -5151,7 +5032,6 @@ types:
     modifytargetspeedrange: 20000
     name: Intaki Defense Fleet Major
     optimalsigradius: 1
-    packagedVolume: 116000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -5168,10 +5048,10 @@ types:
     scanspeed: 2000
     shieldcapacity: 750.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
@@ -5181,15 +5061,14 @@ types:
     trackingspeed: 1.0
     volume: 116000.0
   11127:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.6000000238418579
-    armorexplosivedamageresonance: 0.699999988079071
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.7
     armorhp: 8200.0
-    armorkineticdamageresonance: 0.699999988079071
-    armorthermaldamageresonance: 0.699999988079071
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 14000.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5211,7 +5090,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -5241,7 +5120,6 @@ types:
     modifytargetspeedrange: 20000
     name: DED Army Commander
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -5255,27 +5133,26 @@ types:
     shieldcapacity: 8200.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 40.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
   11137:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 9500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 600.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5297,7 +5174,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -5311,7 +5188,7 @@ types:
     gfxturretid: 464
     hp: 8000.0
     id: 11137
-    mass: 2.0E7
+    mass: 20000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -5325,7 +5202,6 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Navy Fleet Marshall
     optimalsigradius: 400
-    packagedVolume: 1100000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -5339,27 +5215,26 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1100000.0
   11138:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 8500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 665.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5378,7 +5253,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -5394,7 +5269,7 @@ types:
     hp: 7100.0
     id: 11138
     kineticdamage: 100.0
-    mass: 2.1E7
+    mass: 21000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -5408,7 +5283,6 @@ types:
     modifytargetspeedrange: 20000
     name: Caldari Navy Fleet Admiral
     optimalsigradius: 400
-    packagedVolume: 1080000.0
     portionSize: 1
     propulsiongraphicid: 395
     published: false
@@ -5422,27 +5296,26 @@ types:
     shieldcapacity: 9000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1080000.0
   11139:
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 8500.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 675.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5464,7 +5337,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -5479,7 +5352,7 @@ types:
     hp: 9000.0
     id: 11139
     kineticdamage: 100.0
-    mass: 2.1E7
+    mass: 21000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -5493,7 +5366,6 @@ types:
     modifytargetspeedrange: 20000
     name: Federation Navy Fleet General
     optimalsigradius: 400
-    packagedVolume: 1140000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -5507,26 +5379,25 @@ types:
     shieldcapacity: 7100.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 1140000.0
   11140:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 9000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     capacitorcapacity: 6000.0
-    capacity: 600.0
     damagemultiplier: 15.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5546,7 +5417,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.004999999888241291
+    entityfactionloss: 0.005
     entityflyrange: 50000.0
     entitygrouprespawnchance: 1
     entityoverviewshipgroupid: 27
@@ -5563,7 +5434,7 @@ types:
     hp: 7100.0
     id: 11140
     kineticdamage: 25.0
-    mass: 1.7E7
+    mass: 17000000.0
     maxattacktargets: 2
     maxlockedtargets: 8
     maxrange: 75000.0
@@ -5577,7 +5448,6 @@ types:
     modifytargetspeedrange: 20000
     name: Republic Fleet High Commander
     optimalsigradius: 400
-    packagedVolume: 850000.0
     portionSize: 1
     propulsiongraphicid: 397
     published: false
@@ -5591,30 +5461,29 @@ types:
     shieldcapacity: 8500.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 2500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 5000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 50.0
-    trackingspeed: 0.10000000149011612
+    trackingspeed: 0.1
     volume: 850000.0
   24265:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
     aitankingmodifierdrone: 0.5
-    armoremdamageresonance: 0.30000001192092896
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.3
+    armorexplosivedamageresonance: 0.9
     armorhp: 725.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.75
     armoruniformity: 0.75
     capacitorcapacity: 80.0
-    capacity: 145.0
     damagemultiplier: 5.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5630,26 +5499,26 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
-    entitydefenderchance: 0.019999999552965164
+    entitydefenderchance: 0.02
     entityequipmentgroupmax: 1
     entityequipmentmax: 5
     entityequipmentmin: 3
-    entityfactionloss: 0.004749999847263098
+    entityfactionloss: 0.00475
     entityflyrange: 8500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 30000
     entitylootcountmin: 2
     entitymissiletypeid: 213
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.6499999761581421
+    entityreactionfactor: 0.65
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.027499999850988388
+    entitysecuritystatuskillbonus: 0.0275
     entitysensordampenduration: 30000
     entityshieldboostamount: 80.0
-    entityshieldboostdelaychance: 0.6000000238418579
+    entityshieldboostdelaychance: 0.6
     entityshieldboostduration: 10000
     entitytargetjam: 1
-    entitywarpscramblechance: 0.10000000149011612
+    entitywarpscramblechance: 0.1
     explosivedamage: 4.0
     falloff: 8750.0
     gfxboosterid: 394
@@ -5667,42 +5536,41 @@ types:
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 20000.0
-    modifytargetspeedchance: 0.800000011920929
+    modifytargetspeedchance: 0.8
     modifytargetspeedduration: 20000.0
     modifytargetspeedrange: 10000
     name: Thukker Wingman
     optimalsigradius: 40
-    packagedVolume: 15800.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
-    radius: 38.400001525878906
+    radius: 38.4
     rechargerate: 500000.0
     scanladarstrength: 10.0
     scanresolution: 1500.0
     scanspeed: 2500
     shieldcapacity: 325.0
-    shieldemdamageresonance: 0.8500000238418579
+    shieldemdamageresonance: 0.85
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.550000011920929
+    shieldkineticdamageresonance: 0.55
     shieldrechargerate: 2000000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 22.5
     speed: 2600.0
     speedfactor: -75.0
     structureuniformity: 1.0
-    trackingspeed: 0.09187500178813934
+    trackingspeed: 0.091875
     volume: 15800.0
     warpscramblerange: 20000
     warpscramblestrength: 1
   57837:
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.20000000298023224
-    armorexplosivedamageresonance: 0.20000000298023224
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.2
+    armorexplosivedamageresonance: 0.2
     armorhp: 6000.0
-    armorkineticdamageresonance: 0.20000000298023224
-    armorthermaldamageresonance: 0.20000000298023224
+    armorkineticdamageresonance: 0.2
+    armorthermaldamageresonance: 0.2
     capacitorcapacity: 1000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -5745,11 +5613,11 @@ types:
     scanmagnetometricstrength: 10.0
     scanresolution: 400.0
     shieldcapacity: 4000.0
-    shieldemdamageresonance: 0.20000000298023224
-    shieldexplosivedamageresonance: 0.20000000298023224
-    shieldkineticdamageresonance: 0.20000000298023224
+    shieldemdamageresonance: 0.2
+    shieldexplosivedamageresonance: 0.2
+    shieldkineticdamageresonance: 0.2
     shieldrechargerate: 1000000.0
-    shieldthermaldamageresonance: 0.20000000298023224
+    shieldthermaldamageresonance: 0.2
     signatureradius: 30.0
     speedfactor: 1.0
     structureuniformity: 1.0

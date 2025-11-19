@@ -3,47 +3,39 @@ types:
     id: 4404
     industryblueprintrank: 3.0
     name: Reactive Armor Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   41657:
     id: 41657
     marketGroup: 1540
     name: Capital Flex Armor Hardener I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E7
+    price: 35000000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41658:
     id: 41658
     name: Capital Flex Armor Hardener II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41659:
     id: 41659
     name: Dark Blood Capital Flex Armor Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   41660:
     id: 41660
     name: Shadow Serpentis Capital Flex Armor Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   88724:
     id: 88724
     industryblueprintrank: 3.0
     name: Xarasier Reactive Armor Hardener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

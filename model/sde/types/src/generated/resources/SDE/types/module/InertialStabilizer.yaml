@@ -8,7 +8,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Inertial Stabilizers'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -24,7 +23,6 @@ types:
     marketGroup: 1086
     mass: 200.0
     name: Inertial Stabilizers I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -41,7 +39,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Inertial Stabilizers II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -58,7 +55,6 @@ types:
     mass: 200.0
     metalevelold: 1
     name: Type-D Restrained Inertial Stabilizers
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -76,7 +72,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Synthetic Hull Conversion Inertial Stabilizers
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -94,10 +89,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Inertial Stabilizers
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     signatureradiusbonus: 7.0
@@ -112,10 +105,8 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Inertial Stabilizers
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
     signatureradiusbonus: 10.0

@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffEffectiveness;
@@ -30,7 +29,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadArmorDamageAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RepairMultiplierBonusMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RepairMultiplierBonusPerCycle;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -194,7 +192,7 @@ public class RemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusrole4;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadArmorDamageAmount.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, OverloadArmorDamageAmount.INSTANCE, Cpu.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, Power.INSTANCE })));
     public static final RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
 
     @Override

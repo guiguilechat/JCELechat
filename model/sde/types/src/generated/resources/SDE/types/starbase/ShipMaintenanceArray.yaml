@@ -4,21 +4,19 @@ types:
     anchoringsecuritylevelmax: 1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 2.0E7
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 12237
     marketGroup: 484
-    mass: 1.0E8
+    mass: 100000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 10
     name: Ship Maintenance Array
     onliningdelay: 3000
-    packagedVolume: 8000.0
     portionSize: 1
     power: 250000
-    price: 2.0E7
+    price: 20000000.0
     published: true
     radius: 726.0
     requiredskill1: 11584
@@ -37,24 +35,22 @@ types:
     volume: 8000.0
   24646:
     anchoringdelay: 30000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 1.55E8
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 24646
     marketGroup: 484
-    mass: 2.0E9
+    mass: 2000000000.0
     maxoperationaldistance: 3000
     maxoperationalusers: 10
     name: X-Large Ship Maintenance Array
     onliningdelay: 10000
-    packagedVolume: 40000.0
     portionSize: 1
     power: 1000000
-    price: 1.0E9
+    price: 1000000000.0
     published: true
     radius: 12954.0
     requiredskill1: 11584

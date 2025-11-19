@@ -3,43 +3,35 @@ types:
     id: 29985
     industryblueprintrank: 800.0
     name: Tengu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.56E7
+    price: 45600000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   29987:
     id: 29987
     industryblueprintrank: 800.0
     name: Legion Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.5275E7
+    price: 45275000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   29989:
     id: 29989
     industryblueprintrank: 800.0
     name: Proteus Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.3775E7
+    price: 43775000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01
   29991:
     id: 29991
     industryblueprintrank: 800.0
     name: Loki Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.45E7
+    price: 44500000.0
     published: true
-    radius: 1.0
     techlevel: 3
-    volume: 0.009999999776482582
+    volume: 0.01

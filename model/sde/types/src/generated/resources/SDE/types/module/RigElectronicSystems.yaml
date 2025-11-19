@@ -8,7 +8,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Signal Disruption Amplifier I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -25,7 +24,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Targeting Systems Stabilizer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -41,7 +39,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Particle Dispersion Augmentor I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -58,7 +55,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Particle Dispersion Projector I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -75,7 +71,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Inverted Signal Field Projector I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -92,7 +87,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Large Tracking Diagnostic Subroutines I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -111,7 +105,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Signal Disruption Amplifier II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -128,7 +121,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Particle Dispersion Augmentor II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -146,7 +138,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Inverted Signal Field Projector II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -164,7 +155,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Tracking Diagnostic Subroutines II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -182,7 +172,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Particle Dispersion Projector II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -201,7 +190,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Large Targeting Systems Stabilizer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -218,7 +206,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Signal Disruption Amplifier I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -235,7 +222,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Signal Disruption Amplifier I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -252,7 +238,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Signal Disruption Amplifier I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -270,7 +255,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Signal Disruption Amplifier II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -288,7 +272,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Signal Disruption Amplifier II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -306,7 +289,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Signal Disruption Amplifier II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -322,7 +304,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Inverted Signal Field Projector I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -339,7 +320,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Inverted Signal Field Projector I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -356,7 +336,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Inverted Signal Field Projector I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -374,7 +353,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Inverted Signal Field Projector II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -392,7 +370,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Inverted Signal Field Projector II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -410,7 +387,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Inverted Signal Field Projector II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -427,7 +403,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Particle Dispersion Augmentor I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -444,7 +419,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Particle Dispersion Augmentor I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -461,7 +435,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Particle Dispersion Augmentor I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -479,7 +452,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Particle Dispersion Augmentor II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -497,7 +469,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Particle Dispersion Augmentor II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -515,7 +486,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Particle Dispersion Augmentor II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -532,7 +502,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Particle Dispersion Projector I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -549,7 +518,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Particle Dispersion Projector I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -566,7 +534,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Particle Dispersion Projector I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -584,7 +551,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Particle Dispersion Projector II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -602,7 +568,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Particle Dispersion Projector II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -620,7 +585,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Particle Dispersion Projector II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -638,7 +602,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Targeting Systems Stabilizer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -655,7 +618,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Targeting Systems Stabilizer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -672,7 +634,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Targeting Systems Stabilizer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -690,7 +651,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Targeting Systems Stabilizer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -708,7 +668,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Targeting Systems Stabilizer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -726,7 +685,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Targeting Systems Stabilizer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -742,7 +700,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Small Tracking Diagnostic Subroutines I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -759,7 +716,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Medium Tracking Diagnostic Subroutines I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -776,7 +732,6 @@ types:
     mass: 200.0
     maxtargetrangemultiplier: 1.0
     name: Capital Tracking Diagnostic Subroutines I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -794,7 +749,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Small Tracking Diagnostic Subroutines II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -812,7 +766,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Medium Tracking Diagnostic Subroutines II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -830,7 +783,6 @@ types:
     maxtargetrangemultiplier: 1.0
     metalevelold: 5
     name: Capital Tracking Diagnostic Subroutines II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

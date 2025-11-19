@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityDamage;
@@ -25,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -193,7 +191,7 @@ public class MiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int unfitcapcost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecializationAsteroidTypeList.INSTANCE, SpecializationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SpecializationCrystalMiningWastedVolumeMultiplierBonus.INSTANCE, SpecializationCrystalMiningWasteProbabilityBonus.INSTANCE, MetaLevelOld.INSTANCE, SpecializationAsteroidDurationMultiplier.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Damage.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecializationAsteroidTypeList.INSTANCE, SpecializationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, SpecializationCrystalMiningWastedVolumeMultiplierBonus.INSTANCE, SpecializationCrystalMiningWasteProbabilityBonus.INSTANCE, MetaLevelOld.INSTANCE, SpecializationAsteroidDurationMultiplier.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
 
     @Override

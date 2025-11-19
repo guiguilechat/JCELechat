@@ -26,9 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
@@ -67,6 +65,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HullEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HullThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntegratedMiningScanner;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpConduitPassenger;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpPortalPassenger;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsIndustrialJumpConduitPassenger;
@@ -91,11 +90,12 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningFrigateBonusGasCloudHarvestingDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningFrigatesBonusOreMiningYield;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NosOverride;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreExecutiveRoleBonusSalvageDroneAdditionalAccessDifficulty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreMiningFrigateExecutiveShieldBoosterShipBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -114,8 +114,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -123,6 +123,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonus2AF;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonus3AF;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonus3CF;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonus3MF;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAF;
@@ -143,6 +144,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusUF1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusUF2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusDroneHitPoints;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusGasHarvestingYield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusScanProbeLauncherCPU;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShipScanResistance;
@@ -150,6 +152,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialAmmoHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialAsteroidHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialCommandCenterHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialExpeditionHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialFuelBayCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialGasHoldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialIceHoldCapacity;
@@ -184,6 +187,10 @@ import org.yaml.snakeyaml.Yaml;
 public class Frigate
     extends Ship
 {
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int oreminingfrigateexecutiveshieldboostershipbonus;
     /**
      * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
      */
@@ -349,6 +356,10 @@ public class Frigate
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double hullthermaldamageresonance;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int integratedminingscanner;
     /**
      * Set this attribute on a ship to declare that the ship is an eligible passenger to be carried through a BlackOps Jump Conduit
      */
@@ -473,6 +484,10 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int nosoverride;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int oreexecutiverolebonussalvagedroneadditionalaccessdifficulty;
     /**
      * The type ID of the skill that is required.
      */
@@ -571,6 +586,13 @@ public class Frigate
     @Stackable(true)
     @DefaultRealValue(5.0)
     public double shipbonus2af;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shipbonus3af;
     /**
      * 
      */
@@ -699,6 +721,13 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int shiprolebonusgasharvestingyield;
+    /**
+     * Role Bonus for ORE Executive Issue Ships for critical hit chance
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shiprolebonusoreexecutiveissueminingcriticalhitchance;
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
@@ -738,6 +767,13 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int specialcommandcenterholdcapacity;
+    /**
+     * Expedition Hold Capacity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int specialexpeditionholdcapacity;
     /**
      * special fuel bay capacity
      */
@@ -857,12 +893,16 @@ public class Frigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestatus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EliteBonusInterceptorRole.INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, RequiredSkill1Level.INSTANCE, SpecialGasHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, SpecialMineralHoldCapacity.INSTANCE, SpecialSalvageHoldCapacity.INSTANCE, SpecialShipHoldCapacity.INSTANCE, ShipBonusRole7 .INSTANCE, SpecialSmallShipHoldCapacity.INSTANCE, SpecialMediumShipHoldCapacity.INSTANCE, SpecialLargeShipHoldCapacity.INSTANCE, DroneCapacity.INSTANCE, SpecialIndustrialShipHoldCapacity.INSTANCE, RookieSETCapBonus.INSTANCE, RookieSETDamageBonus.INSTANCE, RookieWeaponDisruptionBonus.INSTANCE, RookieArmorResistanceBonus.INSTANCE, SpecialAmmoHoldCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, RoleBonus.INSTANCE, MiniProfessionRangeBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, MiningFrigatesBonusOreMiningYield.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SpecialIceHoldCapacity.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, ShipBonusGF2 .INSTANCE, ShipBonusMF2 .INSTANCE, ShipBonusCF2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonus3CF.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShipBonus3MF.INSTANCE, DropChanceOverwrite.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, WarpScrambleStatus.INSTANCE, UpgradeCapacity.INSTANCE, ShipRoleBonusDroneHitPoints.INSTANCE, KineticDamageResonance.INSTANCE, SpecialCommandCenterHoldCapacity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, SpecialPlanetaryCommoditiesHoldCapacity.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, VirusStrengthBonus.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, SpecialAsteroidHoldCapacity.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, Radius.INSTANCE, MaxDirectionalScanRange.INSTANCE, MiningFrigateBonusGasCloudHarvestingDuration.INSTANCE, TechLevel.INSTANCE, ShipRoleBonusGasHarvestingYield.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ShipRoleBonusScanProbeLauncherCPU.INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPF1 .INSTANCE, ShipBonusPF2 .INSTANCE, ShipBonusMF.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, SpecialMobileDepotHoldCapacity.INSTANCE, HullEmDamageResonance.INSTANCE, ShipBonusGF.INSTANCE, HullExplosiveDamageResonance.INSTANCE, ShipBonusCF.INSTANCE, MiningAmountMultiplier.INSTANCE, HullKineticDamageResonance.INSTANCE, ShipBonusAF.INSTANCE, ScanRadarStrength.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, CapacitorNeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusUF1 .INSTANCE, ShipBonusUF2 .INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipBonus2AF.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole2 .INSTANCE, IsIndustrialJumpConduitPassenger.INSTANCE, IsIndustrialJumpPortalPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE, ShipBonusRole6 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EliteBonusInterceptorRole.INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, SpecialFuelBayCapacity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, RequiredSkill1Level.INSTANCE, SpecialGasHoldCapacity.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, SpecialMineralHoldCapacity.INSTANCE, SpecialSalvageHoldCapacity.INSTANCE, SpecialShipHoldCapacity.INSTANCE, ShipBonusRole7 .INSTANCE, SpecialSmallShipHoldCapacity.INSTANCE, SpecialMediumShipHoldCapacity.INSTANCE, SpecialLargeShipHoldCapacity.INSTANCE, DroneCapacity.INSTANCE, SpecialIndustrialShipHoldCapacity.INSTANCE, RookieSETCapBonus.INSTANCE, RookieSETDamageBonus.INSTANCE, RookieWeaponDisruptionBonus.INSTANCE, RookieArmorResistanceBonus.INSTANCE, SpecialAmmoHoldCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, RoleBonus.INSTANCE, MiniProfessionRangeBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, MiningFrigatesBonusOreMiningYield.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SpecialExpeditionHoldCapacity.INSTANCE, SpecialIceHoldCapacity.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, OreExecutiveRoleBonusSalvageDroneAdditionalAccessDifficulty.INSTANCE, OreMiningFrigateExecutiveShieldBoosterShipBonus.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, ShipBonusGF2 .INSTANCE, ShipBonusMF2 .INSTANCE, ShipBonusCF2 .INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ShipBonus3AF.INSTANCE, ShipBonus3CF.INSTANCE, WarpSpeedMultiplier.INSTANCE, IntegratedMiningScanner.INSTANCE, ShipBonus3MF.INSTANCE, DropChanceOverwrite.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, WarpScrambleStatus.INSTANCE, UpgradeCapacity.INSTANCE, ShipRoleBonusDroneHitPoints.INSTANCE, KineticDamageResonance.INSTANCE, SpecialCommandCenterHoldCapacity.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, SpecialPlanetaryCommoditiesHoldCapacity.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, VirusStrengthBonus.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, SpecialAsteroidHoldCapacity.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance.INSTANCE, MaxDirectionalScanRange.INSTANCE, MiningFrigateBonusGasCloudHarvestingDuration.INSTANCE, TechLevel.INSTANCE, ShipRoleBonusGasHarvestingYield.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ShipRoleBonusScanProbeLauncherCPU.INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPF1 .INSTANCE, ShipBonusPF2 .INSTANCE, ShipBonusMF.INSTANCE, FrigateEscapeBayCapacity.INSTANCE, SpecialMobileDepotHoldCapacity.INSTANCE, HullEmDamageResonance.INSTANCE, ShipBonusGF.INSTANCE, HullExplosiveDamageResonance.INSTANCE, ShipBonusCF.INSTANCE, MiningAmountMultiplier.INSTANCE, HullKineticDamageResonance.INSTANCE, ShipBonusAF.INSTANCE, ScanRadarStrength.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, CapacitorNeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusUF1 .INSTANCE, ShipBonusUF2 .INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, ShipBonus2AF.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole2 .INSTANCE, IsIndustrialJumpConduitPassenger.INSTANCE, IsIndustrialJumpPortalPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE, ShipBonusRole6 .INSTANCE })));
     public static final Frigate.MetaGroup METAGROUP = new Frigate.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  5955 :
+            {
+                return oreminingfrigateexecutiveshieldboostershipbonus;
+            }
             case  2464 :
             {
                 return affectedbyindustrialinvulnmodule;
@@ -959,6 +999,10 @@ public class Frigate
             {
                 return hullthermaldamageresonance;
             }
+            case  5978 :
+            {
+                return integratedminingscanner;
+            }
             case  3322 :
             {
                 return isblackopsjumpconduitpassenger;
@@ -1027,6 +1071,10 @@ public class Frigate
             {
                 return nosoverride;
             }
+            case  5954 :
+            {
+                return oreexecutiverolebonussalvagedroneadditionalaccessdifficulty;
+            }
             case  182 :
             {
                 return requiredskill1;
@@ -1082,6 +1130,10 @@ public class Frigate
             case  485 :
             {
                 return shipbonus2af;
+            }
+            case  1623 :
+            {
+                return shipbonus3af;
             }
             case  1624 :
             {
@@ -1163,6 +1215,10 @@ public class Frigate
             {
                 return shiprolebonusgasharvestingyield;
             }
+            case  6048 :
+            {
+                return shiprolebonusoreexecutiveissueminingcriticalhitchance;
+            }
             case  5048 :
             {
                 return shiprolebonusscanprobelaunchercpu;
@@ -1186,6 +1242,10 @@ public class Frigate
             case  1646 :
             {
                 return specialcommandcenterholdcapacity;
+            }
+            case  5944 :
+            {
+                return specialexpeditionholdcapacity;
             }
             case  1549 :
             {

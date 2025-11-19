@@ -4,26 +4,25 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.7900000214576721
-    armorexplosivedamageresonance: 0.6899999976158142
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.79
+    armorexplosivedamageresonance: 0.69
     armorhp: 75.0
-    armorkineticdamageresonance: 0.9900000095367432
-    armorthermaldamageresonance: 0.8899999856948853
+    armorkineticdamageresonance: 0.99
+    armorthermaldamageresonance: 0.89
     armoruniformity: 0.75
     capacitorcapacity: 80.0
-    capacity: 125.0
-    damagemultiplier: 1.0416666269302368
+    damagemultiplier: 1.041666667
     disallowassistance: 1
     entityarmorrepairamount: 25.0
-    entityarmorrepairdelaychancesmall: 0.1599999964237213
+    entityarmorrepairdelaychancesmall: 0.16
     entityarmorrepairduration: 10000
     entityattackdelaymax: 29700
     entityattackdelaymin: 7425
     entityattackrange: 4125
     entitybracketcolour: 2
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.10000000149011612
+    entitychasemaxdelaychance: 0.1
     entitychasemaxdistance: 2750
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
@@ -32,7 +31,7 @@ types:
     entityequipmentmin: -4
     entityflyrange: 1375.0
     entityoverviewshipgroupid: 25
-    entityreactionfactor: 0.25999999046325684
+    entityreactionfactor: 0.26
     entitysecuritymaxgain: 5.0
     falloff: 1500.0
     gfxboosterid: 394
@@ -49,7 +48,6 @@ types:
     modifytargetspeedrange: 20000
     name: Liberty Spear Gallente Frigate
     optimalsigradius: 40
-    packagedVolume: 22500.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -69,5 +67,5 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
-    trackingspeed: 0.36500000953674316
+    trackingspeed: 0.365
     volume: 22500.0

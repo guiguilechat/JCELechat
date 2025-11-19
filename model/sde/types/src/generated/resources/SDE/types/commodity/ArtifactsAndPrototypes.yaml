@@ -4,367 +4,326 @@ types:
     marketGroup: 1903
     mass: 1.0
     name: Talocan Stasis Inverter
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21079:
     id: 21079
     marketGroup: 1903
     mass: 1.0
     name: Talocan Perpetual Clock
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21080:
     id: 21080
     marketGroup: 1903
     mass: 1.0
     name: Talocan Solid Atomizer
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21082:
     id: 21082
     marketGroup: 1903
     mass: 1.0
     name: Talocan System Interface Unit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21088:
     id: 21088
     marketGroup: 1903
     mass: 1.0
     name: Talocan Stasis Deflector
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21719:
     id: 21719
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Hyperbooster
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21720:
     id: 21720
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Thermal Regulator
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21721:
     id: 21721
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Heat Nullifying Coil
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21722:
     id: 21722
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Nanite Cluster
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21723:
     id: 21723
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Reintegration Control
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21724:
     id: 21724
     marketGroup: 1900
     mass: 1.0
     name: Guristas Heavy Weapon Console
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21725:
     id: 21725
     marketGroup: 1900
     mass: 1.0
     name: Guristas Medium Weapon Console
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21726:
     id: 21726
     marketGroup: 1900
     mass: 1.0
     name: Guristas Light Weapon Console
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21727:
     id: 21727
     marketGroup: 1900
     mass: 1.0
     name: Guristas Gravity Focuser
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21728:
     id: 21728
     marketGroup: 1900
     mass: 1.0
     name: Guristas Graviton Hardening
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21729:
     id: 21729
     marketGroup: 1898
     mass: 1.0
     name: Angel Advanced Trigger Mechanism
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21730:
     id: 21730
     marketGroup: 1898
     mass: 1.0
     name: Angel Standard Trigger Mechanism
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21731:
     id: 21731
     marketGroup: 1898
     mass: 1.0
     name: Angel Simple Trigger Mechanism
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21732:
     id: 21732
     marketGroup: 1898
     mass: 1.0
     name: Angel Spatial Analyzer
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   21733:
     id: 21733
     marketGroup: 1898
     mass: 1.0
     name: Angel Dynamic Calibrator
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23128:
     id: 23128
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Crystal Cylinder
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23129:
     id: 23129
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Paradox Box
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23130:
     id: 23130
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Thunder Kite
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23131:
     id: 23131
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Void Machine
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23132:
     id: 23132
     marketGroup: 1904
     mass: 1.0
     name: Yan Jung Tachyon Stetoscope
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23133:
     id: 23133
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Phrenic Appendix
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23134:
     id: 23134
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Dynamic Gauge
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23135:
     id: 23135
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Gyro Ballast
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23136:
     id: 23136
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Biodroid Controller
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23137:
     id: 23137
     marketGroup: 1905
     mass: 1.0
     name: Takmahl Quantum Sphere
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23148:
     id: 23148
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Limited Ballistic Control
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23149:
     id: 23149
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Regular Ballistic Control
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23150:
     id: 23150
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Extreme Ballistic Control
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23151:
     id: 23151
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Weapon Integration Unit
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23152:
     id: 23152
     marketGroup: 1899
     mass: 1.0
     name: Blood Raider Power Redistributor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23153:
     id: 23153
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Plain Target Guider
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23154:
     id: 23154
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Basic Target Guider
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23155:
     id: 23155
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Complex Target Guider
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23156:
     id: 23156
     marketGroup: 1901
     mass: 1.0
     name: Serpentis 3D Scanner Gamut
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   23157:
     id: 23157
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Multi-tasking Processor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   42226:
     id: 42226
     marketGroup: 1901
     mass: 1.0
     name: Serpentis Modified Capital Microprocessor
-    packagedVolume: 1.0
     portionSize: 1
     price: 250000.0
     published: true

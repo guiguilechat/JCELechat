@@ -14,11 +14,9 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
@@ -68,7 +66,7 @@ public class Targeting
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, ScanResolutionBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, SensorStrengthBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, MaxTargetRangeBonus.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, MaxTargetBonus.INSTANCE, SkillLevel.INSTANCE, SensorStrengthBonus.INSTANCE })));
     public static final Targeting.MetaGroup METAGROUP = new Targeting.MetaGroup();
 
     @Override

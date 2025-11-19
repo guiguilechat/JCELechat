@@ -1,64 +1,58 @@
 types:
   178:
     chargesize: 1
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.6
     explosivedamage: 1.0
     id: 178
     kineticdamage: 4.0
     launchergroup: 55
     maincolor: 4082279
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Carbonized Lead S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   179:
     chargesize: 1
-    entityflyrangemultiplier: 1.399999976158142
+    entityflyrangemultiplier: 1.4
     explosivedamage: 4.0
     id: 179
     kineticdamage: 1.0
     launchergroup: 55
     maincolor: 4084071
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Nuclear S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 300.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   180:
     chargesize: 1
     emdamage: 3.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.2
     id: 180
     kineticdamage: 2.0
     launchergroup: 55
     maincolor: 2772304
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Proton S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   181:
     chargesize: 1
     entityflyrangemultiplier: 1.0
@@ -68,17 +62,15 @@ types:
     launchergroup: 55
     maincolor: 3957853
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Depleted Uranium S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 500.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 3.0
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   182:
     chargesize: 1
@@ -89,16 +81,14 @@ types:
     launchergroup: 55
     maincolor: 6380350
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Titanium Sabot S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 600.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   183:
     chargesize: 1
@@ -109,16 +99,14 @@ types:
     launchergroup: 55
     maincolor: 12021089
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Fusion S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 700.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   184:
     chargesize: 1
@@ -128,17 +116,15 @@ types:
     launchergroup: 55
     maincolor: 3304021
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: Phased Plasma S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 800.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 10.0
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   185:
     chargesize: 1
@@ -150,20 +136,18 @@ types:
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 113
-    mass: 0.009999999776482582
+    mass: 0.01
     name: EMP S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   186:
     chargesize: 2
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.6
     explosivedamage: 2.0
     id: 186
     kineticdamage: 8.0
@@ -172,18 +156,16 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Carbonized Lead M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 800.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   187:
     chargesize: 2
-    entityflyrangemultiplier: 1.399999976158142
+    entityflyrangemultiplier: 1.4
     explosivedamage: 8.0
     id: 187
     kineticdamage: 2.0
@@ -192,19 +174,17 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Nuclear M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 1200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   188:
     chargesize: 2
     emdamage: 6.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.2
     id: 188
     kineticdamage: 4.0
     launchergroup: 55
@@ -212,15 +192,13 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Proton M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 1650.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   189:
     chargesize: 2
     entityflyrangemultiplier: 1.0
@@ -232,15 +210,13 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Depleted Uranium M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2050.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 6.0
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   190:
     chargesize: 2
@@ -253,14 +229,12 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Titanium Sabot M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2350.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   191:
     chargesize: 2
@@ -273,14 +247,12 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Fusion M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2750.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   192:
     chargesize: 2
@@ -292,15 +264,13 @@ types:
     marketGroup: 112
     mass: 1.0
     name: Phased Plasma M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 3250.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 20.0
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   193:
     chargesize: 2
@@ -314,18 +284,16 @@ types:
     marketGroup: 112
     mass: 1.0
     name: EMP M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   194:
     chargesize: 3
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.6
     explosivedamage: 4.0
     id: 194
     kineticdamage: 16.0
@@ -334,18 +302,17 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Carbonized Lead L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 2000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   195:
     chargesize: 3
-    entityflyrangemultiplier: 1.399999976158142
+    entityflyrangemultiplier: 1.4
     explosivedamage: 16.0
     id: 195
     kineticdamage: 4.0
@@ -354,19 +321,18 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Nuclear L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 3000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   196:
     chargesize: 3
     emdamage: 12.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.2
     id: 196
     kineticdamage: 8.0
     launchergroup: 55
@@ -374,15 +340,14 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Proton L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   197:
     chargesize: 3
     entityflyrangemultiplier: 1.0
@@ -394,15 +359,14 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Depleted Uranium L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 5000.0
     published: true
     radius: 10.0
     techlevel: 1
     thermaldamage: 12.0
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   198:
     chargesize: 3
@@ -415,14 +379,13 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Titanium Sabot L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 6000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   199:
     chargesize: 3
@@ -435,14 +398,13 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Fusion L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 7000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   200:
     chargesize: 3
@@ -454,7 +416,6 @@ types:
     marketGroup: 109
     mass: 1.0
     name: Phased Plasma L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 8000.0
     published: true
@@ -462,7 +423,7 @@ types:
     techlevel: 1
     thermaldamage: 40.0
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   201:
     chargesize: 3
@@ -476,18 +437,17 @@ types:
     marketGroup: 109
     mass: 1.0
     name: EMP L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   17664:
     chargesize: 4
-    entityflyrangemultiplier: 1.600000023841858
+    entityflyrangemultiplier: 1.6
     explosivedamage: 8.0
     id: 17664
     kineticdamage: 32.0
@@ -496,15 +456,14 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Carbonized Lead XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 20000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   17666:
     chargesize: 4
     entityflyrangemultiplier: 1.0
@@ -516,14 +475,13 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Depleted Uranium XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 50000.0
     published: true
     radius: 10.0
     techlevel: 1
     thermaldamage: 24.0
-    trackingspeedmultiplier: 1.2000000476837158
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   17668:
@@ -538,7 +496,6 @@ types:
     marketGroup: 502
     mass: 1.0
     name: EMP XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -558,7 +515,6 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Fusion XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 70000.0
     published: true
@@ -569,7 +525,7 @@ types:
     weaponrangemultiplier: 0.5
   17672:
     chargesize: 4
-    entityflyrangemultiplier: 1.399999976158142
+    entityflyrangemultiplier: 1.4
     explosivedamage: 32.0
     id: 17672
     kineticdamage: 8.0
@@ -578,15 +534,14 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Nuclear XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 30000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   17674:
     chargesize: 4
     entityflyrangemultiplier: 0.625
@@ -597,7 +552,6 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Phased Plasma XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 80000.0
     published: true
@@ -610,7 +564,7 @@ types:
   17676:
     chargesize: 4
     emdamage: 24.0
-    entityflyrangemultiplier: 1.2000000476837158
+    entityflyrangemultiplier: 1.2
     id: 17676
     kineticdamage: 16.0
     launchergroup: 55
@@ -618,15 +572,14 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Proton XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 40000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   17678:
     chargesize: 4
     entityflyrangemultiplier: 0.875
@@ -638,324 +591,300 @@ types:
     marketGroup: 502
     mass: 1.0
     name: Titanium Sabot XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 60000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   19970:
     chargesize: 1
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 1.100000023841858
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 1.1
     id: 19970
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Carbonized Lead S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   19972:
     chargesize: 1
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 4.400000095367432
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 4.4
     id: 19972
-    kineticdamage: 1.100000023841858
+    kineticdamage: 1.1
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Nuclear S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   19974:
     chargesize: 1
-    emdamage: 3.299999952316284
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 3.3
+    entityflyrangemultiplier: 1.2
     id: 19974
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Proton S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   19976:
     chargesize: 1
     entityflyrangemultiplier: 1.0
-    explosivedamage: 3.299999952316284
+    explosivedamage: 3.3
     id: 19976
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Depleted Uranium S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 3.299999952316284
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    thermaldamage: 3.3
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   19986:
     chargesize: 1
     entityflyrangemultiplier: 0.875
-    explosivedamage: 2.200000047683716
+    explosivedamage: 2.2
     id: 19986
-    kineticdamage: 6.599999904632568
+    kineticdamage: 6.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Titanium Sabot S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   19988:
     chargesize: 1
     entityflyrangemultiplier: 0.75
     explosivedamage: 11.0
     id: 19988
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Fusion S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   19990:
     chargesize: 1
     entityflyrangemultiplier: 0.625
     id: 19990
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Phased Plasma S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 11.0
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   19992:
     chargesize: 1
-    emdamage: 9.899999618530273
+    emdamage: 9.9
     entityflyrangemultiplier: 0.5
-    explosivedamage: 2.200000047683716
+    explosivedamage: 2.2
     id: 19992
-    kineticdamage: 1.100000023841858
+    kineticdamage: 1.1
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
     mass: 1.0
     metagroupid: 4
     name: Arch Angel EMP S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   19994:
     chargesize: 2
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 2.200000047683716
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 2.2
     id: 19994
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Carbonized Lead M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   19996:
     chargesize: 2
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 8.800000190734863
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 8.8
     id: 19996
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Nuclear M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   19998:
     chargesize: 2
-    emdamage: 6.599999904632568
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 6.6
+    entityflyrangemultiplier: 1.2
     id: 19998
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Proton M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   20000:
     chargesize: 2
     entityflyrangemultiplier: 1.0
-    explosivedamage: 6.599999904632568
+    explosivedamage: 6.6
     id: 20000
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Depleted Uranium M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 6.599999904632568
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    thermaldamage: 6.6
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   20002:
     chargesize: 2
     entityflyrangemultiplier: 0.875
-    explosivedamage: 4.400000095367432
+    explosivedamage: 4.4
     id: 20002
-    kineticdamage: 13.199999809265137
+    kineticdamage: 13.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Titanium Sabot M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   20004:
     chargesize: 2
     entityflyrangemultiplier: 0.75
     explosivedamage: 22.0
     id: 20004
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Fusion M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20006:
     chargesize: 2
     entityflyrangemultiplier: 0.625
     id: 20006
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Phased Plasma M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 100000.0
     published: true
@@ -963,257 +892,237 @@ types:
     techlevel: 1
     thermaldamage: 22.0
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20008:
     chargesize: 2
-    emdamage: 19.799999237060547
+    emdamage: 19.8
     entityflyrangemultiplier: 0.5
-    explosivedamage: 4.400000095367432
+    explosivedamage: 4.4
     id: 20008
-    kineticdamage: 2.200000047683716
+    kineticdamage: 2.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Arch Angel EMP M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20721:
     chargesize: 3
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 4.400000095367432
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 4.4
     id: 20721
-    kineticdamage: 17.600000381469727
+    kineticdamage: 17.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Carbonized Lead L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20723:
     chargesize: 3
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 17.600000381469727
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 17.6
     id: 20723
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Nuclear L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20725:
     chargesize: 3
-    emdamage: 13.199999809265137
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 13.2
+    entityflyrangemultiplier: 1.2
     id: 20725
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Arch Angel Proton L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20727:
     chargesize: 3
     entityflyrangemultiplier: 1.0
-    explosivedamage: 13.199999809265137
+    explosivedamage: 13.2
     id: 20727
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Depleted Uranium L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 13.199999809265137
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    thermaldamage: 13.2
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   20729:
     chargesize: 3
     entityflyrangemultiplier: 0.875
-    explosivedamage: 8.800000190734863
+    explosivedamage: 8.8
     id: 20729
-    kineticdamage: 26.399999618530273
+    kineticdamage: 26.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Titanium Sabot L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   20731:
     chargesize: 3
     entityflyrangemultiplier: 0.75
     explosivedamage: 44.0
     id: 20731
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Fusion L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20733:
     chargesize: 3
     entityflyrangemultiplier: 0.625
     id: 20733
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Phased Plasma L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 44.0
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20735:
     chargesize: 3
-    emdamage: 39.599998474121094
+    emdamage: 39.6
     entityflyrangemultiplier: 0.5
-    explosivedamage: 8.800000190734863
+    explosivedamage: 8.8
     id: 20735
-    kineticdamage: 4.400000095367432
+    kineticdamage: 4.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Arch Angel EMP L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20737:
     chargesize: 4
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 8.800000190734863
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 8.8
     id: 20737
-    kineticdamage: 35.20000076293945
+    kineticdamage: 35.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Carbonized Lead XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20739:
     chargesize: 4
     entityflyrangemultiplier: 1.0
-    explosivedamage: 26.399999618530273
+    explosivedamage: 26.4
     id: 20739
-    kineticdamage: 17.600000381469727
+    kineticdamage: 17.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Depleted Uranium XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 26.399999618530273
-    trackingspeedmultiplier: 1.2000000476837158
+    thermaldamage: 26.4
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   20741:
     chargesize: 4
-    emdamage: 79.19999694824219
+    emdamage: 79.2
     entityflyrangemultiplier: 0.5
-    explosivedamage: 17.600000381469727
+    explosivedamage: 17.6
     id: 20741
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel EMP XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 10000.0
     published: true
@@ -1227,14 +1136,13 @@ types:
     entityflyrangemultiplier: 0.75
     explosivedamage: 88.0
     id: 20743
-    kineticdamage: 17.600000381469727
+    kineticdamage: 17.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Fusion XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 10000.0
     published: true
@@ -1245,37 +1153,35 @@ types:
     weaponrangemultiplier: 0.5
   20745:
     chargesize: 4
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 35.20000076293945
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 35.2
     id: 20745
-    kineticdamage: 8.800000190734863
+    kineticdamage: 8.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Nuclear XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20747:
     chargesize: 4
     entityflyrangemultiplier: 0.625
     id: 20747
-    kineticdamage: 17.600000381469727
+    kineticdamage: 17.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Phased Plasma XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -1287,525 +1193,484 @@ types:
     weaponrangemultiplier: 0.5
   20749:
     chargesize: 4
-    emdamage: 26.399999618530273
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 26.4
+    entityflyrangemultiplier: 1.2
     id: 20749
-    kineticdamage: 17.600000381469727
+    kineticdamage: 17.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Proton XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20751:
     chargesize: 4
     entityflyrangemultiplier: 0.875
-    explosivedamage: 17.600000381469727
+    explosivedamage: 17.6
     id: 20751
-    kineticdamage: 52.79999923706055
+    kineticdamage: 52.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Arch Angel Titanium Sabot XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   20753:
     chargesize: 1
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 1.2000000476837158
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 1.2
     id: 20753
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Carbonized Lead S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   20755:
     chargesize: 1
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 4.800000190734863
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 4.8
     id: 20755
-    kineticdamage: 1.2000000476837158
+    kineticdamage: 1.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Nuclear S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   20757:
     chargesize: 1
-    emdamage: 3.5999999046325684
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 3.6
+    entityflyrangemultiplier: 1.2
     id: 20757
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Proton S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   20759:
     chargesize: 1
     entityflyrangemultiplier: 1.0
-    explosivedamage: 3.5999999046325684
+    explosivedamage: 3.6
     id: 20759
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Depleted Uranium S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 3.5999999046325684
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    thermaldamage: 3.6
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   20761:
     chargesize: 1
     entityflyrangemultiplier: 0.875
-    explosivedamage: 2.4000000953674316
+    explosivedamage: 2.4
     id: 20761
-    kineticdamage: 7.199999809265137
+    kineticdamage: 7.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Titanium Sabot S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   20763:
     chargesize: 1
     entityflyrangemultiplier: 0.75
     explosivedamage: 12.0
     id: 20763
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Fusion S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   20765:
     chargesize: 1
     entityflyrangemultiplier: 0.625
     id: 20765
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination Phased Plasma S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 12.0
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   20767:
     chargesize: 1
-    emdamage: 10.800000190734863
+    emdamage: 10.8
     entityflyrangemultiplier: 0.5
-    explosivedamage: 2.4000000953674316
+    explosivedamage: 2.4
     id: 20767
-    kineticdamage: 1.2000000476837158
+    kineticdamage: 1.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Domination EMP S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   20769:
     chargesize: 2
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 2.4000000953674316
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 2.4
     id: 20769
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Carbonized Lead M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   20771:
     chargesize: 2
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 9.600000381469727
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 9.6
     id: 20771
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Nuclear M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   20773:
     chargesize: 2
-    emdamage: 7.199999809265137
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 7.2
+    entityflyrangemultiplier: 1.2
     id: 20773
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Proton M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   20775:
     chargesize: 2
     entityflyrangemultiplier: 1.0
-    explosivedamage: 7.199999809265137
+    explosivedamage: 7.2
     id: 20775
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Depleted Uranium M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 7.199999809265137
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    thermaldamage: 7.2
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   20777:
     chargesize: 2
     entityflyrangemultiplier: 0.875
-    explosivedamage: 4.800000190734863
+    explosivedamage: 4.8
     id: 20777
-    kineticdamage: 14.399999618530273
+    kineticdamage: 14.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Titanium Sabot M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   20779:
     chargesize: 2
     entityflyrangemultiplier: 0.75
     explosivedamage: 24.0
     id: 20779
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Fusion M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20781:
     chargesize: 2
     entityflyrangemultiplier: 0.625
     id: 20781
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination Phased Plasma M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 24.0
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20783:
     chargesize: 2
-    emdamage: 21.600000381469727
+    emdamage: 21.6
     entityflyrangemultiplier: 0.5
-    explosivedamage: 4.800000190734863
+    explosivedamage: 4.8
     id: 20783
-    kineticdamage: 2.4000000953674316
+    kineticdamage: 2.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Domination EMP M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   20785:
     chargesize: 3
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 4.800000190734863
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 4.8
     id: 20785
-    kineticdamage: 19.200000762939453
+    kineticdamage: 19.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Carbonized Lead L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20787:
     chargesize: 3
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 19.200000762939453
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 19.2
     id: 20787
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Nuclear L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20789:
     chargesize: 3
-    emdamage: 14.399999618530273
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 14.4
+    entityflyrangemultiplier: 1.2
     id: 20789
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Proton L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   20791:
     chargesize: 3
     entityflyrangemultiplier: 1.0
-    explosivedamage: 14.399999618530273
+    explosivedamage: 14.4
     id: 20791
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Depleted Uranium L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 14.399999618530273
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    thermaldamage: 14.4
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   20793:
     chargesize: 3
     entityflyrangemultiplier: 0.875
-    explosivedamage: 9.600000381469727
+    explosivedamage: 9.6
     id: 20793
-    kineticdamage: 28.799999237060547
+    kineticdamage: 28.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Titanium Sabot L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   20795:
     chargesize: 3
     entityflyrangemultiplier: 0.75
     explosivedamage: 48.0
     id: 20795
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Fusion L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20797:
     chargesize: 3
     entityflyrangemultiplier: 0.625
     id: 20797
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination Phased Plasma L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
@@ -1813,87 +1678,83 @@ types:
     techlevel: 1
     thermaldamage: 48.0
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20799:
     chargesize: 3
-    emdamage: 43.20000076293945
+    emdamage: 43.2
     entityflyrangemultiplier: 0.5
-    explosivedamage: 9.600000381469727
+    explosivedamage: 9.6
     id: 20799
-    kineticdamage: 4.800000190734863
+    kineticdamage: 4.8
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Domination EMP L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   20801:
     chargesize: 4
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 9.600000381469727
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 9.6
     id: 20801
-    kineticdamage: 38.400001525878906
+    kineticdamage: 38.4
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Carbonized Lead XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20803:
     chargesize: 4
     entityflyrangemultiplier: 1.0
-    explosivedamage: 28.799999237060547
+    explosivedamage: 28.8
     id: 20803
-    kineticdamage: 19.200000762939453
+    kineticdamage: 19.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Depleted Uranium XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 28.799999237060547
-    trackingspeedmultiplier: 1.2000000476837158
+    thermaldamage: 28.8
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   20805:
     chargesize: 4
-    emdamage: 86.4000015258789
+    emdamage: 86.4
     entityflyrangemultiplier: 0.5
-    explosivedamage: 19.200000762939453
+    explosivedamage: 19.2
     id: 20805
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination EMP XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -1907,14 +1768,13 @@ types:
     entityflyrangemultiplier: 0.75
     explosivedamage: 96.0
     id: 20807
-    kineticdamage: 19.200000762939453
+    kineticdamage: 19.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Fusion XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -1925,37 +1785,35 @@ types:
     weaponrangemultiplier: 0.5
   20809:
     chargesize: 4
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 38.400001525878906
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 38.4
     id: 20809
-    kineticdamage: 9.600000381469727
+    kineticdamage: 9.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Nuclear XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20811:
     chargesize: 4
     entityflyrangemultiplier: 0.625
     id: 20811
-    kineticdamage: 19.200000762939453
+    kineticdamage: 19.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Phased Plasma XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -1967,126 +1825,118 @@ types:
     weaponrangemultiplier: 0.5
   20813:
     chargesize: 4
-    emdamage: 28.799999237060547
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 28.8
+    entityflyrangemultiplier: 1.2
     id: 20813
-    kineticdamage: 19.200000762939453
+    kineticdamage: 19.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Proton XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   20815:
     chargesize: 4
     entityflyrangemultiplier: 0.875
-    explosivedamage: 19.200000762939453
+    explosivedamage: 19.2
     id: 20815
-    kineticdamage: 57.599998474121094
+    kineticdamage: 57.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Domination Titanium Sabot XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   21894:
     chargesize: 3
-    emdamage: 41.400001525878906
+    emdamage: 41.4
     entityflyrangemultiplier: 0.5
-    explosivedamage: 9.199999809265137
+    explosivedamage: 9.2
     id: 21894
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet EMP L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   21896:
     chargesize: 2
-    emdamage: 20.700000762939453
+    emdamage: 20.7
     entityflyrangemultiplier: 0.5
-    explosivedamage: 4.599999904632568
+    explosivedamage: 4.6
     id: 21896
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet EMP M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   21898:
     chargesize: 1
-    emdamage: 10.350000381469727
+    emdamage: 10.35
     entityflyrangemultiplier: 0.5
-    explosivedamage: 2.299999952316284
+    explosivedamage: 2.3
     id: 21898
-    kineticdamage: 1.149999976158142
+    kineticdamage: 1.15
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet EMP S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 1000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   21900:
     chargesize: 4
-    emdamage: 82.80000305175781
+    emdamage: 82.8
     entityflyrangemultiplier: 0.5
-    explosivedamage: 18.399999618530273
+    explosivedamage: 18.4
     id: 21900
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 16763512
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet EMP XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 100000.0
     published: true
@@ -2100,77 +1950,71 @@ types:
     entityflyrangemultiplier: 0.75
     explosivedamage: 46.0
     id: 21902
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 12021089
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Fusion L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 7000.0
     published: true
     radius: 10.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   21904:
     chargesize: 2
     entityflyrangemultiplier: 0.75
     explosivedamage: 23.0
     id: 21904
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 12021089
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Fusion M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2750.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   21906:
     chargesize: 1
     entityflyrangemultiplier: 0.75
     explosivedamage: 11.5
     id: 21906
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 12021089
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Fusion S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 700.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   21908:
     chargesize: 4
     entityflyrangemultiplier: 0.75
     explosivedamage: 92.0
     id: 21908
-    kineticdamage: 18.399999618530273
+    kineticdamage: 18.4
     launchergroup: 55
     maincolor: 12021089
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Fusion XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 70000.0
     published: true
@@ -2181,100 +2025,93 @@ types:
     weaponrangemultiplier: 0.5
   21910:
     chargesize: 3
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 18.399999618530273
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 18.4
     id: 21910
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 4084071
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Nuclear L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 3000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   21912:
     chargesize: 2
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 9.199999809265137
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 9.2
     id: 21912
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 4084071
     marketGroup: 988
-    mass: 0.05000000074505806
+    mass: 0.05
     metagroupid: 4
     name: Republic Fleet Nuclear M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 1200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   21914:
     chargesize: 1
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 4.599999904632568
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 4.6
     id: 21914
-    kineticdamage: 1.149999976158142
+    kineticdamage: 1.15
     launchergroup: 55
     maincolor: 4084071
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Nuclear S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 300.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   21916:
     chargesize: 4
-    entityflyrangemultiplier: 1.399999976158142
-    explosivedamage: 36.79999923706055
+    entityflyrangemultiplier: 1.4
+    explosivedamage: 36.8
     id: 21916
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 4084071
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Nuclear XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 30000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   21918:
     chargesize: 3
     entityflyrangemultiplier: 0.625
     id: 21918
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 3304021
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Phased Plasma L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 8000.0
     published: true
@@ -2282,20 +2119,19 @@ types:
     techlevel: 1
     thermaldamage: 46.0
     trackingspeedmultiplier: 1.0
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   21920:
     chargesize: 4
     entityflyrangemultiplier: 0.625
     id: 21920
-    kineticdamage: 18.399999618530273
+    kineticdamage: 18.4
     launchergroup: 55
     maincolor: 3304021
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Phased Plasma XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 80000.0
     published: true
@@ -2309,381 +2145,353 @@ types:
     chargesize: 2
     entityflyrangemultiplier: 0.625
     id: 21922
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 3304021
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Phased Plasma M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 3250.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 23.0
     trackingspeedmultiplier: 1.0
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   21924:
     chargesize: 1
     entityflyrangemultiplier: 0.625
     id: 21924
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 3304021
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Phased Plasma S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 800.0
     published: true
-    radius: 1.0
     techlevel: 1
     thermaldamage: 11.5
     trackingspeedmultiplier: 1.0
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   21926:
     chargesize: 3
-    emdamage: 13.800000190734863
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 13.8
+    entityflyrangemultiplier: 1.2
     id: 21926
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 4086631
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Proton L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 4000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   21928:
     chargesize: 2
-    emdamage: 6.900000095367432
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 6.9
+    entityflyrangemultiplier: 1.2
     id: 21928
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 2772304
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Proton M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 1650.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   21931:
     chargesize: 1
-    emdamage: 3.450000047683716
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 3.45
+    entityflyrangemultiplier: 1.2
     id: 21931
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 2772304
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Proton S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   21933:
     chargesize: 4
-    emdamage: 27.600000381469727
-    entityflyrangemultiplier: 1.2000000476837158
+    emdamage: 27.6
+    entityflyrangemultiplier: 1.2
     id: 21933
-    kineticdamage: 18.399999618530273
+    kineticdamage: 18.4
     launchergroup: 55
     maincolor: 4086631
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Proton XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 40000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   21935:
     chargesize: 3
     entityflyrangemultiplier: 0.875
-    explosivedamage: 9.199999809265137
+    explosivedamage: 9.2
     id: 21935
-    kineticdamage: 27.600000381469727
+    kineticdamage: 27.6
     launchergroup: 55
     maincolor: 6380350
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Titanium Sabot L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 6000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   21937:
     chargesize: 2
     entityflyrangemultiplier: 0.875
-    explosivedamage: 4.599999904632568
+    explosivedamage: 4.6
     id: 21937
-    kineticdamage: 13.800000190734863
+    kineticdamage: 13.8
     launchergroup: 55
     maincolor: 6380350
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Titanium Sabot M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2350.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   21939:
     chargesize: 1
     entityflyrangemultiplier: 0.875
-    explosivedamage: 2.299999952316284
+    explosivedamage: 2.3
     id: 21939
-    kineticdamage: 6.900000095367432
+    kineticdamage: 6.9
     launchergroup: 55
     maincolor: 6380350
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Titanium Sabot S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 600.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   21941:
     chargesize: 4
     entityflyrangemultiplier: 0.875
-    explosivedamage: 18.399999618530273
+    explosivedamage: 18.4
     id: 21941
-    kineticdamage: 55.20000076293945
+    kineticdamage: 55.2
     launchergroup: 55
     maincolor: 6380350
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Titanium Sabot XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 60000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.2000000476837158
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0
   28324:
     chargesize: 3
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 4.599999904632568
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 4.6
     id: 28324
-    kineticdamage: 18.399999618530273
+    kineticdamage: 18.4
     launchergroup: 55
     maincolor: 4082279
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Carbonized Lead L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 2000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.02500000037252903
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.025
+    weaponrangemultiplier: 1.6
   28326:
     chargesize: 2
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 2.299999952316284
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 2.3
     id: 28326
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 4082279
     marketGroup: 988
-    mass: 0.05000000074505806
+    mass: 0.05
     metagroupid: 4
     name: Republic Fleet Carbonized Lead M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 800.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.012500000186264515
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0125
+    weaponrangemultiplier: 1.6
   28328:
     chargesize: 1
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 1.149999976158142
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 1.15
     id: 28328
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 4082279
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Carbonized Lead S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
-    volume: 0.0024999999441206455
-    weaponrangemultiplier: 1.600000023841858
+    trackingspeedmultiplier: 1.05
+    volume: 0.0025
+    weaponrangemultiplier: 1.6
   28330:
     chargesize: 4
-    entityflyrangemultiplier: 1.600000023841858
-    explosivedamage: 9.199999809265137
+    entityflyrangemultiplier: 1.6
+    explosivedamage: 9.2
     id: 28330
-    kineticdamage: 36.79999923706055
+    kineticdamage: 36.8
     launchergroup: 55
     maincolor: 4082279
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Carbonized Lead XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 20000.0
     published: true
     radius: 10.0
     techlevel: 1
-    trackingspeedmultiplier: 1.0499999523162842
+    trackingspeedmultiplier: 1.05
     volume: 0.125
-    weaponrangemultiplier: 1.600000023841858
+    weaponrangemultiplier: 1.6
   28332:
     chargesize: 3
     entityflyrangemultiplier: 1.0
-    explosivedamage: 13.800000190734863
+    explosivedamage: 13.8
     id: 28332
-    kineticdamage: 9.199999809265137
+    kineticdamage: 9.2
     launchergroup: 55
     maincolor: 4612441
     marketGroup: 987
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Depleted Uranium L
-    packagedVolume: 0.02500000037252903
     portionSize: 100
     price: 5000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 13.800000190734863
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.02500000037252903
+    thermaldamage: 13.8
+    trackingspeedmultiplier: 1.2
+    volume: 0.025
     weaponrangemultiplier: 1.0
   28334:
     chargesize: 2
     entityflyrangemultiplier: 1.0
-    explosivedamage: 6.900000095367432
+    explosivedamage: 6.9
     id: 28334
-    kineticdamage: 4.599999904632568
+    kineticdamage: 4.6
     launchergroup: 55
     maincolor: 4612441
     marketGroup: 988
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Depleted Uranium M
-    packagedVolume: 0.012500000186264515
     portionSize: 100
     price: 2050.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 6.900000095367432
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.012500000186264515
+    thermaldamage: 6.9
+    trackingspeedmultiplier: 1.2
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   28336:
     chargesize: 1
     entityflyrangemultiplier: 1.0
-    explosivedamage: 3.450000047683716
+    explosivedamage: 3.45
     id: 28336
-    kineticdamage: 2.299999952316284
+    kineticdamage: 2.3
     launchergroup: 55
     maincolor: 3957853
     marketGroup: 989
-    mass: 0.009999999776482582
+    mass: 0.01
     metagroupid: 4
     name: Republic Fleet Depleted Uranium S
-    packagedVolume: 0.0024999999441206455
     portionSize: 100
     price: 500.0
     published: true
-    radius: 1.0
     techlevel: 1
-    thermaldamage: 3.450000047683716
-    trackingspeedmultiplier: 1.2000000476837158
-    volume: 0.0024999999441206455
+    thermaldamage: 3.45
+    trackingspeedmultiplier: 1.2
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   28338:
     chargesize: 4
     entityflyrangemultiplier: 1.0
-    explosivedamage: 27.600000381469727
+    explosivedamage: 27.6
     id: 28338
-    kineticdamage: 18.399999618530273
+    kineticdamage: 18.4
     launchergroup: 55
     maincolor: 4612441
     marketGroup: 1006
     mass: 1.0
     metagroupid: 4
     name: Republic Fleet Depleted Uranium XL
-    packagedVolume: 0.125
     portionSize: 100
     price: 50000.0
     published: true
     radius: 10.0
     techlevel: 1
-    thermaldamage: 27.600000381469727
-    trackingspeedmultiplier: 1.2000000476837158
+    thermaldamage: 27.6
+    trackingspeedmultiplier: 1.2
     volume: 0.125
     weaponrangemultiplier: 1.0

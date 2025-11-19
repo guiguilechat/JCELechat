@@ -1,19 +1,18 @@
 types:
   2192:
-    agility: 0.03999999910593033
+    agility: 0.04
     aiimmunetosuperweapon: 1
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.5699999928474426
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.57
     armorhp: 746945.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.5699999928474426
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.57
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
-    capacity: 1337.0
     disallowassistance: 1
     energyneutralizeramount: 1200.0
     energyneutralizerduration: 24000
@@ -32,28 +31,28 @@ types:
     entityequipmentgroupmax: 4
     entityequipmentmax: 8
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     entityremoteecmbaseduration: 300000
     entityremoteecmchanceofactivation: 1
     entityremoteecmduration: 300000
-    entityremoteecmdurationscale: 0.800000011920929
+    entityremoteecmdurationscale: 0.8
     entityremoteecmextraplayerscale: 5
     entityremoteecmintendednumplayers: 60
     entityremoteecmminduration: 60000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.23999999463558197
+    entitysecuritystatuskillbonus: 0.24
     entityshieldboostamount: 7200.0
     entityshieldboostduration: 10000
     gfxboosterid: 394
     hp: 685720.0
     id: 2192
     iscapitalsize: 1
-    mass: 1.546875008E9
+    mass: 1546875000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxvelocity: 75.0
@@ -64,7 +63,6 @@ types:
     npcremoteshieldboostduration: 5000
     npcremoteshieldboostmaxtargets: 3
     npcremoteshieldboostthreshold: 0.5
-    packagedVolume: 6.2E7
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -77,30 +75,29 @@ types:
     scanradarstrengthbonus: 25.0
     scanresolution: 50.0
     shieldcapacity: 1200000.0
-    shieldemdamageresonance: 0.10000000149011612
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
-    shieldrechargerate: 4.8E7
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldemdamageresonance: 0.1
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
+    shieldrechargerate: 4.800000043E7
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     signatureradius: 14050.0
     structureuniformity: 1.0
-    volume: 6.2E7
+    volume: 62000000.0
   3071:
-    agility: 0.03999999910593033
+    agility: 0.04
     aiimmunetosuperweapon: 1
     aishoulduseeffectmultiplier: 1
     aishouldusesecondarytarget: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    armoremdamageresonance: 0.5699999928474426
-    armorexplosivedamageresonance: 0.5699999928474426
+    armoremdamageresonance: 0.57
+    armorexplosivedamageresonance: 0.57
     armorhp: 746945.0
-    armorkineticdamageresonance: 0.5699999928474426
-    armorthermaldamageresonance: 0.5699999928474426
+    armorkineticdamageresonance: 0.57
+    armorthermaldamageresonance: 0.57
     armoruniformity: 0.75
     capacitorcapacity: 3800.0
-    capacity: 1337.0
     disallowassistance: 1
     energyneutralizeramount: 1200.0
     energyneutralizerduration: 24000
@@ -119,28 +116,28 @@ types:
     entityequipmentgroupmax: 4
     entityequipmentmax: 8
     entityequipmentmin: 6
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
     entityoverviewshipgroupid: 547
-    entityreactionfactor: 0.8500000238418579
+    entityreactionfactor: 0.85
     entityremoteecmbaseduration: 300000
     entityremoteecmchanceofactivation: 1
     entityremoteecmduration: 300000
-    entityremoteecmdurationscale: 0.800000011920929
+    entityremoteecmdurationscale: 0.8
     entityremoteecmextraplayerscale: 5
     entityremoteecmintendednumplayers: 60
     entityremoteecmminduration: 60000
     entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.23999999463558197
+    entitysecuritystatuskillbonus: 0.24
     entityshieldboostamount: 7200.0
     entityshieldboostduration: 10000
     gfxboosterid: 394
     hp: 685720.0
     id: 3071
     iscapitalsize: 1
-    mass: 1.546875008E9
+    mass: 1546875000.0
     maxattacktargets: 1
     maxlockedtargets: 4
     maxvelocity: 75.0
@@ -151,7 +148,6 @@ types:
     npcremoteshieldboostduration: 5000
     npcremoteshieldboostmaxtargets: 3
     npcremoteshieldboostthreshold: 0.5
-    packagedVolume: 6.2E7
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -164,12 +160,12 @@ types:
     scanradarstrengthbonus: 25.0
     scanresolution: 50.0
     shieldcapacity: 1200000.0
-    shieldemdamageresonance: 0.10000000149011612
-    shieldexplosivedamageresonance: 0.10000000149011612
-    shieldkineticdamageresonance: 0.10000000149011612
-    shieldrechargerate: 4.8E7
-    shieldthermaldamageresonance: 0.10000000149011612
+    shieldemdamageresonance: 0.1
+    shieldexplosivedamageresonance: 0.1
+    shieldkineticdamageresonance: 0.1
+    shieldrechargerate: 4.800000043E7
+    shieldthermaldamageresonance: 0.1
     shielduniformity: 0.75
     signatureradius: 14050.0
     structureuniformity: 1.0
-    volume: 6.2E7
+    volume: 62000000.0

@@ -11,7 +11,6 @@ types:
     moonrigspewradiusbonus: -20
     moonrigspewvolumebonus: 2.0
     name: Standup L-Set Moon Drilling Proficiency I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -32,9 +31,8 @@ types:
     moonrigasteroiddecaybonus: 100
     moonrigfracturedelaybonus: 24
     moonrigspewradiusbonus: -24
-    moonrigspewvolumebonus: 2.4000000953674316
+    moonrigspewvolumebonus: 2.4
     name: Standup L-Set Moon Drilling Proficiency II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0

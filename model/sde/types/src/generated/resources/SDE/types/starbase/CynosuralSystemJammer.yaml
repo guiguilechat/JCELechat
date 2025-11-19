@@ -13,13 +13,12 @@ types:
     fighterabilityanticapitalmissileresistance: 1
     hp: 100000.0
     id: 27674
-    incapacitationratio: 0.0010000000474974513
+    incapacitationratio: 0.001
     kineticdamageresonance: 1.0
     marketGroup: 1012
-    mass: 1.0E8
+    mass: 100000000.0
     name: Cynosural System Jammer
     onliningdelay: 1800000
-    packagedVolume: 4000.0
     portionSize: 1
     posanchoredpersolarsystemamount: 1
     power: 750000

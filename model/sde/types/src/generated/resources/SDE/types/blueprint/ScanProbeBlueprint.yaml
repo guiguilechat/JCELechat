@@ -5,43 +5,35 @@ types:
     industryblueprintrank: 2.0
     marketGroup: 1529
     name: Warp Disrupt Probe Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2344200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30014:
     id: 30014
     industryblueprintrank: 1.0
     marketGroup: 320
     name: Core Scanner Probe I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   30029:
     id: 30029
     industryblueprintrank: 2.0
     marketGroup: 320
     name: Combat Scanner Probe I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   56749:
     hp: 1.0
     id: 56749
     industryblueprintrank: 2.0
     marketGroup: 1529
     name: Stasis Webification Probe Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2344200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

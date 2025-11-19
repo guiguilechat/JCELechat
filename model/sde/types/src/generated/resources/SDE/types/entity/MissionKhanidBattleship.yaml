@@ -4,14 +4,13 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 5500.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 200.0
-    capacity: 550.0
     damagemultiplier: 10.0
     disallowassistance: 1
     emdamage: 16.0
@@ -20,27 +19,27 @@ types:
     entityattackrange: 250000
     entitybracketcolour: 1
     entitychasemaxdelay: 10000.0
-    entitychasemaxdelaychance: 0.15000000596046448
+    entitychasemaxdelaychance: 0.15
     entitychasemaxdistance: 2500
     entitychasemaxduration: 10000
-    entitychasemaxdurationchance: 0.8500000238418579
+    entitychasemaxdurationchance: 0.85
     entitycruisespeed: 200.0
-    entitydefenderchance: 0.4000000059604645
+    entitydefenderchance: 0.4
     entityequipmentmax: 8
     entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 12500.0
     entitylootcountmin: 1
     entitymissiletypeid: 202
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     entitywarpscramblechance: 0.75
     falloff: 100000.0
     gfxboosterid: 394
     gfxturretid: 464
     hp: 5550.0
     id: 12392
-    mass: 1.2E7
+    mass: 12000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 250000.0
@@ -54,7 +53,6 @@ types:
     modifytargetspeedrange: 82500
     name: Khanid Mashtori
     optimalsigradius: 400
-    packagedVolume: 120000.0
     portionSize: 1
     published: false
     radius: 400.0
@@ -64,31 +62,30 @@ types:
     scanspeed: 7500
     shieldcapacity: 4650.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 200000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 2500.0
     speedfactor: -95.0
     structureuniformity: 1.0
     thermaldamage: 24.0
-    trackingspeed: 0.029999999329447746
+    trackingspeed: 0.03
     volume: 120000.0
   16170:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 950.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     capacitorcapacity: 3600.0
-    capacity: 3200.0
     damagemultiplier: 1.25
     disallowassistance: 1
     emdamage: 8.0
@@ -109,7 +106,7 @@ types:
     gfxturretid: 453
     hp: 925.0
     id: 16170
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 7000.0
@@ -122,7 +119,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Personnel Transport
     optimalsigradius: 1000
-    packagedVolume: 1120000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -132,33 +128,32 @@ types:
     scanspeed: 7750
     shieldcapacity: 200.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 12.0
-    trackingspeed: 0.029999999329447746
+    trackingspeed: 0.03
     volume: 1120000.0
   16176:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.30000001192092896
+    armorexplosivedamageresonance: 0.3
     armorhp: 4800.0
-    armorkineticdamageresonance: 0.3499999940395355
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.35
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
-    damagemultiplier: 6.730769157409668
+    damagemultiplier: 6.730769231
     disallowassistance: 1
     emdamage: 16.0
     entityarmorrepairamount: 800.0
@@ -174,21 +169,21 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 145.0
-    entitydefenderchance: 0.15000000596046448
+    entitydefenderchance: 0.15
     entityequipmentmax: 8
     entityequipmentmin: 4
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 37500.0
     entitylootcountmin: 1
     entitymissiletypeid: 204
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     falloff: 16000.0
     gfxboosterid: 394
     gfxturretid: 463
     hp: 4250.0
     id: 16176
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 40000.0
@@ -201,7 +196,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid High Commander
     optimalsigradius: 400
-    packagedVolume: 1100000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -212,32 +206,31 @@ types:
     scanspeed: 7500
     shieldcapacity: 3500.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 20.0
-    trackingspeed: 0.01837499998509884
+    trackingspeed: 0.018375
     volume: 1100000.0
   16177:
     aiignoredronesbelowsignatureradius: 100
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.25
     armorhp: 5500.0
-    armorkineticdamageresonance: 0.32499998807907104
-    armorthermaldamageresonance: 0.42500001192092896
+    armorkineticdamageresonance: 0.325
+    armorthermaldamageresonance: 0.425
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     damagemultiplier: 10.75
     disallowassistance: 1
     disallowoffensivemodifiers: 1
@@ -255,20 +248,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 145.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentmax: 8
     entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 25000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     falloff: 90000.0
     gfxboosterid: 394
     gfxturretid: 464
     hp: 4750.0
     id: 16177
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 100000.0
@@ -281,7 +274,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Kazmaar
     optimalsigradius: 400
-    packagedVolume: 1150000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -295,17 +287,17 @@ types:
     scanspeed: 7500
     shieldcapacity: 3975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 25.0
-    trackingspeed: 0.03375000134110451
+    trackingspeed: 0.03375
     volume: 1150000.0
     warpscramblerange: 20000
     warpscramblestrength: 2
@@ -314,15 +306,14 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
+    aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.25
     armorhp: 5500.0
-    armorkineticdamageresonance: 0.32499998807907104
-    armorthermaldamageresonance: 0.42500001192092896
+    armorkineticdamageresonance: 0.325
+    armorthermaldamageresonance: 0.425
     armoruniformity: 0.75
     capacitorcapacity: 200.0
-    capacity: 235.0
     damagemultiplier: 10.75
     disallowassistance: 1
     emdamage: 24.0
@@ -339,20 +330,20 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 145.0
-    entitydefenderchance: 0.20000000298023224
+    entitydefenderchance: 0.2
     entityequipmentmax: 8
     entityequipmentmin: 5
-    entityfactionloss: 0.009999999776482582
+    entityfactionloss: 0.01
     entityflyrange: 25000.0
     entitylootcountmin: 1
     entityoverviewshipgroupid: 27
-    entityreactionfactor: 0.699999988079071
+    entityreactionfactor: 0.7
     falloff: 90000.0
     gfxboosterid: 394
     gfxturretid: 464
     hp: 4750.0
     id: 22753
-    mass: 1.9E7
+    mass: 19000000.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 100000.0
@@ -365,7 +356,6 @@ types:
     modifytargetspeedrange: 20000
     name: Khanid Kazmaar_2
     optimalsigradius: 400
-    packagedVolume: 1150000.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -379,17 +369,17 @@ types:
     scanspeed: 7500
     shieldcapacity: 3975.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.4000000059604645
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     signatureradius: 400.0
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 25.0
-    trackingspeed: 0.03375000134110451
+    trackingspeed: 0.03375
     volume: 1150000.0
     warpscramblerange: 20000
     warpscramblestrength: 2

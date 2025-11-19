@@ -1,173 +1,141 @@
 types:
   12613:
     id: 12613
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Void S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12615:
     id: 12615
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Null S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12619:
     id: 12619
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Spike S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12621:
     id: 12621
-    industryblueprintrank: 1.600000023841858
+    industryblueprintrank: 1.6
     name: Javelin S Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12786:
     id: 12786
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Null M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12788:
     id: 12788
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Null L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12790:
     id: 12790
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Void M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12792:
     id: 12792
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Void L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12802:
     id: 12802
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Javelin M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12804:
     id: 12804
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Javelin L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12806:
     id: 12806
-    industryblueprintrank: 3.200000047683716
+    industryblueprintrank: 3.2
     name: Spike M Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12808:
     id: 12808
-    industryblueprintrank: 4.800000190734863
+    industryblueprintrank: 4.8
     name: Spike L Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41323:
     id: 41323
     name: Void XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
+    price: 10000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41325:
     id: 41325
     name: Null XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41327:
     id: 41327
     name: Javelin XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41329:
     id: 41329
     name: Spike XL Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

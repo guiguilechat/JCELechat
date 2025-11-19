@@ -28,11 +28,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelConsumptionGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelOnlineAmount;
@@ -145,13 +143,6 @@ public class StructureCitadelServiceModule
     @DefaultIntValue(0)
     public int canfitshiptype9;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -172,13 +163,6 @@ public class StructureCitadelServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
@@ -221,7 +205,7 @@ public class StructureCitadelServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CanFitShipType11 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, MaxTypeFitted.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CanFitShipType11 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipGroup03 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType10 .INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, CanFitShipType4 .INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, Power.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxTypeFitted.INSTANCE, CanFitShipType7 .INSTANCE })));
     public static final StructureCitadelServiceModule.MetaGroup METAGROUP = new StructureCitadelServiceModule.MetaGroup();
 
     @Override
@@ -283,10 +267,6 @@ public class StructureCitadelServiceModule
             {
                 return canfitshiptype9;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  50 :
             {
                 return cpu;
@@ -298,10 +278,6 @@ public class StructureCitadelServiceModule
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2109 :
             {

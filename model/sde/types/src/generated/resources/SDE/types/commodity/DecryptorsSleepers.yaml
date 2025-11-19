@@ -8,64 +8,54 @@ types:
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Data Interface Protocol
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21569:
     id: 21569
     inventionmaxrunmodifier: 2.0
-    inventionmemodifier: 1.399999976158142
+    inventionmemodifier: 1.4
     inventionpropabilitymultiplier: 2.0
     inventiontemodifier: 2.0
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Profound Research Notes
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21570:
     id: 21570
     inventionmaxrunmodifier: 1.0
-    inventionmemodifier: 0.800000011920929
+    inventionmemodifier: 0.8
     inventionpropabilitymultiplier: 3.0
-    inventiontemodifier: 0.800000011920929
+    inventiontemodifier: 0.8
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Manuscripts
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21571:
     id: 21571
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 0.5
     inventionpropabilitymultiplier: 5.0
-    inventiontemodifier: 0.4000000059604645
+    inventiontemodifier: 0.4
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Technical Schematics
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0
   21572:
     id: 21572
     inventionmaxrunmodifier: 6.0
-    inventionmemodifier: 1.100000023841858
+    inventionmemodifier: 1.1
     inventionpropabilitymultiplier: 1.5
     inventiontemodifier: 1.0
     marketGroup: 1902
     mass: 1.0
     name: Sleeper Data Crystals
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 1.0

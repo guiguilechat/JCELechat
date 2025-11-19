@@ -8,7 +8,6 @@ types:
     maxgroupfitted: 1
     moonrigspewvolumebonus: 2.0
     name: Standup M-Set Moon Drilling Efficiency I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -26,9 +25,8 @@ types:
     marketGroup: 2341
     mass: 200.0
     maxgroupfitted: 1
-    moonrigspewvolumebonus: 2.4000000953674316
+    moonrigspewvolumebonus: 2.4
     name: Standup M-Set Moon Drilling Efficiency II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0

@@ -2,8 +2,8 @@ types:
   12557:
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 7.0
     entityflyrangemultiplier: 0.25
     hp: 1.0
@@ -14,11 +14,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Gleam S
-    packagedVolume: 1.0
     portionSize: 4
     price: 134400.0
     published: true
-    radius: 1.0
     requiredskill1: 11083
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -31,10 +29,10 @@ types:
   12559:
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 5.0
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     hp: 1.0
     id: 12559
     launchergroup: 53
@@ -43,11 +41,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Aurora S
-    packagedVolume: 1.0
     portionSize: 4
     price: 134400.0
     published: true
-    radius: 1.0
     requiredskill1: 11083
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -56,14 +52,14 @@ types:
     thermaldamage: 3.0
     trackingspeedmultiplier: 0.25
     volume: 1.0
-    weaponrangemultiplier: 1.7999999523162842
+    weaponrangemultiplier: 1.8
   12822:
     chargesize: 2
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 10.0
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     hp: 1.0
     id: 12822
     launchergroup: 53
@@ -72,11 +68,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Aurora M
-    packagedVolume: 1.0
     portionSize: 4
     price: 537600.0
     published: true
-    radius: 1.0
     requiredskill1: 12204
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -85,14 +79,14 @@ types:
     thermaldamage: 6.0
     trackingspeedmultiplier: 0.25
     volume: 1.0
-    weaponrangemultiplier: 1.7999999523162842
+    weaponrangemultiplier: 1.8
   12824:
     chargesize: 3
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 20.0
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     hp: 1.0
     id: 12824
     launchergroup: 53
@@ -101,11 +95,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Aurora L
-    packagedVolume: 1.0
     portionSize: 4
     price: 1344000.0
     published: true
-    radius: 1.0
     requiredskill1: 12205
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -114,12 +106,12 @@ types:
     thermaldamage: 12.0
     trackingspeedmultiplier: 0.25
     volume: 1.0
-    weaponrangemultiplier: 1.7999999523162842
+    weaponrangemultiplier: 1.8
   12826:
     chargesize: 2
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 14.0
     entityflyrangemultiplier: 0.25
     hp: 1.0
@@ -130,11 +122,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Gleam M
-    packagedVolume: 1.0
     portionSize: 4
     price: 768000.0
     published: true
-    radius: 1.0
     requiredskill1: 12204
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -147,8 +137,8 @@ types:
   12828:
     chargesize: 3
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 28.0
     entityflyrangemultiplier: 0.25
     hp: 1.0
@@ -159,11 +149,9 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Gleam L
-    packagedVolume: 1.0
     portionSize: 4
     price: 1344000.0
     published: true
-    radius: 1.0
     requiredskill1: 12205
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -176,8 +164,8 @@ types:
   41334:
     chargesize: 4
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 56.0
     entityflyrangemultiplier: 0.25
     hp: 1.0
@@ -188,10 +176,8 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Gleam XL
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 41408
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -204,10 +190,10 @@ types:
   41336:
     chargesize: 4
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.10000000149011612
-    crystalvolatilitydamage: 0.009999999776482582
+    crystalvolatilitychance: 0.1
+    crystalvolatilitydamage: 0.01
     emdamage: 40.0
-    entityflyrangemultiplier: 1.7999999523162842
+    entityflyrangemultiplier: 1.8
     hp: 1.0
     id: 41336
     launchergroup: 53
@@ -216,10 +202,8 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Aurora XL
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 41408
     requiredskill1level: 1
     shieldcapacitymultiplier: 1.0
@@ -228,4 +212,4 @@ types:
     thermaldamage: 24.0
     trackingspeedmultiplier: 0.25
     volume: 1.0
-    weaponrangemultiplier: 1.7999999523162842
+    weaponrangemultiplier: 1.8

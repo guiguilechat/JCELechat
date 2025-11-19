@@ -4,218 +4,206 @@ types:
     id: 33377
     marketGroup: 1822
     name: Sleeve - 'Drone' (left)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33378:
     gender: 2
     id: 33378
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (left)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33379:
     gender: 2
     id: 33379
     marketGroup: 1822
     name: Sleeve - 'Prototype' (left)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33380:
     gender: 2
     id: 33380
     marketGroup: 1822
     name: Sleeve - 'Nature' (left)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33381:
     gender: 2
     id: 33381
     marketGroup: 1822
     name: Sleeve - 'Drone' (right)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33382:
     gender: 2
     id: 33382
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (right)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33383:
     gender: 2
     id: 33383
     marketGroup: 1822
     name: Sleeve - 'Prototype' (right)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   33384:
     gender: 2
     id: 33384
     marketGroup: 1822
     name: Sleeve - 'Nature' (right)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
+  34005:
+    gender: 2
+    id: 34005
+    marketGroup: 1822
+    mass: 0.1
+    name: Sleeve - 'Bloodfire' (Left)
+    portionSize: 1
+    published: true
+    volume: 0.1
+  34016:
+    gender: 2
+    id: 34016
+    marketGroup: 1822
+    mass: 0.1
+    name: Sleeve - 'Bloodfire' (Right)
+    portionSize: 1
+    published: true
+    volume: 0.1
   59199:
     gender: 2
     id: 59199
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Thukker)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59200:
     gender: 2
     id: 59200
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Thukker)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59201:
     gender: 2
     id: 59201
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Starkmanir)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59202:
     gender: 2
     id: 59202
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Starkmanir)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59221:
     gender: 2
     id: 59221
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Brutor)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59223:
     gender: 2
     id: 59223
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Brutor)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59226:
     gender: 2
     id: 59226
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Vherokior)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59227:
     gender: 2
     id: 59227
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Vherokior)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59228:
     gender: 2
     id: 59228
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Krusual)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59229:
     gender: 2
     id: 59229
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Krusual)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59230:
     gender: 2
     id: 59230
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Sebiestor)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59231:
     gender: 2
     id: 59231
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Sebiestor)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59232:
     gender: 2
     id: 59232
     marketGroup: 1662
     mass: 0.5
     name: Men's Republic Service Tattoo (Nefantar)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   59233:
     gender: 2
     id: 59233
     marketGroup: 1662
     mass: 0.5
     name: Women's Republic Service Tattoo (Nefantar)
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

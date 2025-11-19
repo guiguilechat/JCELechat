@@ -1,20 +1,20 @@
 types:
   35835:
     armordamagelimit: 5000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
     armorhp: 1200000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
     armoruniformity: 1.0
     autofracturedelay: 10800
     capacitorcapacity: 100000.0
     cargodeliveryrange: 10000
     cpuoutput: 14000
-    ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
-    energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
+    ecmresistance: 1.0E-5
+    emdamageresonance: 0.8
+    energywarfareresistance: 1.0E-5
+    explosivedamageresonance: 0.8
     fighterabilityanticapitalmissileresistance: 1
     hackable: 1
     hiddenarmorhpmultiplier: 1
@@ -22,11 +22,11 @@ types:
     hislots: 3
     hp: 1200000.0
     id: 35835
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launcherslotsleft: 1
     lowslots: 1
     marketGroup: 2327
-    mass: 3.0E9
+    mass: 3000000000.0
     maximumrangecap: 490000
     maxlockedtargets: 8
     maxtargetrange: 350000.0
@@ -34,17 +34,16 @@ types:
     moonasteroiddecaydisplayvalue: 48
     moonasteroiddecaytimemultiplier: 1
     name: Athanor
-    packagedVolume: 8000.0
     pausearmorrepairdpsthreshold: 500
     pausehullrepairdpsthreshold: 500
     pauseshieldrepairdpsthreshold: 500
     portionSize: 1
-    poweroutput: 900000
+    poweroutput: 900000.0
     published: true
     radius: 45000.0
     rechargerate: 3600000.0
-    remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
+    remoteassistanceimpedance: 1.0E-5
+    remoterepairimpedance: 1.0E-5
     rigsize: 2
     rigslots: 3
     scangravimetricstrength: 500.0
@@ -52,49 +51,49 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 40.0
-    sensordampenerresistance: 9.999999747378752E-6
+    sensordampenerresistance: 1.0E-5
     serviceslots: 3
     shieldcapacity: 2400000.0
     shielddamagelimit: 9600000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldrechargerate: 9.99999999999E11
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 50000.0
-    stasiswebifierresistance: 9.999999747378752E-6
+    stasiswebifierresistance: 1.0E-5
     strreactiontimemultiplier: 1.0
     strrefiningyieldbonus: 2.0
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
-    structuregasdecompressionefficiencybonus: 0.03999999910593033
+    structuregasdecompressionefficiencybonus: 0.04
     structurerequiresdeedtype: 56202
     structureservicerolebonus: -20
     tetheringrange: 10000
-    thermaldamageresonance: 0.800000011920929
+    thermaldamageresonance: 0.8
     tierdifficulty: 3
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 8000.0
-    weapondisruptionresistance: 9.999999747378752E-6
+    weapondisruptionresistance: 1.0E-5
   35836:
     armordamagelimit: 15000
-    armoremdamageresonance: 0.800000011920929
-    armorexplosivedamageresonance: 0.800000011920929
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
     armorhp: 3600000.0
-    armorkineticdamageresonance: 0.800000011920929
-    armorthermaldamageresonance: 0.800000011920929
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
     armoruniformity: 1.0
     autofracturedelay: 10800
     capacitorcapacity: 300000.0
     cargodeliveryrange: 10000
     cpuoutput: 29000
-    ecmresistance: 9.999999747378752E-6
-    emdamageresonance: 0.800000011920929
-    energywarfareresistance: 9.999999747378752E-6
-    explosivedamageresonance: 0.800000011920929
+    ecmresistance: 1.0E-5
+    emdamageresonance: 0.8
+    energywarfareresistance: 1.0E-5
+    explosivedamageresonance: 0.8
     fighterabilityanticapitalmissileresistance: 1
     fightercapacity: 300000
     fighterstanduplightslots: 3
@@ -106,11 +105,11 @@ types:
     hislots: 5
     hp: 1.44E7
     id: 35836
-    kineticdamageresonance: 0.800000011920929
+    kineticdamageresonance: 0.8
     launcherslotsleft: 3
     lowslots: 3
     marketGroup: 2327
-    mass: 1.0E10
+    mass: 10000000000.0
     maximumrangecap: 490000
     maxlockedtargets: 8
     maxtargetrange: 380000.0
@@ -118,17 +117,16 @@ types:
     moonasteroiddecaydisplayvalue: 48
     moonasteroiddecaytimemultiplier: 1
     name: Tatara
-    packagedVolume: 80000.0
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500
     pauseshieldrepairdpsthreshold: 1500
     portionSize: 1
-    poweroutput: 2200000
+    poweroutput: 2200000.0
     published: true
     radius: 45000.0
     rechargerate: 5760000.0
-    remoteassistanceimpedance: 9.999999747378752E-6
-    remoterepairimpedance: 9.999999747378752E-6
+    remoteassistanceimpedance: 1.0E-5
+    remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
     scangravimetricstrength: 500.0
@@ -136,31 +134,31 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 40.0
-    sensordampenerresistance: 9.999999747378752E-6
+    sensordampenerresistance: 1.0E-5
     serviceslots: 5
     shieldcapacity: 4500000.0
     shielddamagelimit: 18000000
-    shieldemdamageresonance: 0.800000011920929
-    shieldexplosivedamageresonance: 0.800000011920929
-    shieldkineticdamageresonance: 0.800000011920929
-    shieldrechargerate: 9.99999995904E11
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldrechargerate: 9.99999999999E11
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 1.0
     signatureradius: 100000.0
-    stasiswebifierresistance: 9.999999747378752E-6
+    stasiswebifierresistance: 1.0E-5
     strreactiontimemultiplier: 0.75
     strrefiningyieldbonus: 5.5
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
-    structuregasdecompressionefficiencybonus: 0.10000000149011612
+    structuregasdecompressionefficiencybonus: 0.1
     structurerequiresdeedtype: 56205
     structureservicerolebonus: -25
     tetheringrange: 10000
-    thermaldamageresonance: 0.800000011920929
+    thermaldamageresonance: 0.8
     tierdifficulty: 4
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 80000.0
-    weapondisruptionresistance: 9.999999747378752E-6
+    weapondisruptionresistance: 1.0E-5

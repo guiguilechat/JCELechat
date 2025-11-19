@@ -16,12 +16,10 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HardeningBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Rechargeratebonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -148,7 +146,7 @@ public class Shields
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformitybonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, ResistanceBonus.INSTANCE, Capacity.INSTANCE, UniformityBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, Rechargeratebonus.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, PowerNeedBonus.INSTANCE, ResistanceBonus.INSTANCE, UniformityBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, Rechargeratebonus.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, CapNeedBonus.INSTANCE, HardeningBonus.INSTANCE })));
     public static final Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
 
     @Override

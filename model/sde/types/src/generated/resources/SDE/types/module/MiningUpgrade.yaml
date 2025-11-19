@@ -8,12 +8,10 @@ types:
     mass: 1.0
     miningamountbonus: 5
     name: Mining Laser Upgrade I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -27,12 +25,10 @@ types:
     marketGroup: 935
     mass: 1.0
     name: Ice Harvester Upgrade I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -47,12 +43,10 @@ types:
     metalevelold: 1
     miningamountbonus: 8
     name: Elara Restrained Mining Laser Upgrade
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -68,12 +62,10 @@ types:
     metalevelold: 6
     miningamountbonus: 9
     name: '''Carpo'' Mining Laser Upgrade'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -89,12 +81,10 @@ types:
     metalevelold: 6
     miningamountbonus: 10
     name: '''Aoede'' Mining Laser Upgrade'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -109,12 +99,10 @@ types:
     mass: 1.0
     metalevelold: 1
     name: Frigoris Restrained Ice Harvester Upgrade
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -130,12 +118,10 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Anguis'' Ice Harvester Upgrade'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -151,12 +137,10 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Ingenii'' Ice Harvester Upgrade'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
@@ -171,12 +155,10 @@ types:
     metalevelold: 5
     miningamountbonus: 9
     name: Mining Laser Upgrade II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 4
     techlevel: 2
@@ -191,12 +173,10 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Ice Harvester Upgrade II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     price: 24960.0
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 4
     techlevel: 2
@@ -211,11 +191,9 @@ types:
     mass: 1.0
     miningamountbonus: 7
     name: Frostline 'Omnivore' Harvester Upgrade
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 3
     requiredskill2: 16281
@@ -230,11 +208,9 @@ types:
     mass: 1.0
     miningamountbonus: 3
     name: Civilian Mining Laser Upgrade
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1

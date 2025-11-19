@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigAsteroidDecayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigFractureDelayBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigSpewRadiusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
@@ -42,13 +40,6 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup03;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * The maximum hitpoints of an object.
      */
@@ -84,13 +75,6 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int moonrigspewradiusbonus;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -134,7 +118,7 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MoonRigFractureDelayBonus.INSTANCE, CanFitShipGroup03 .INSTANCE, MoonRigAsteroidDecayBonus.INSTANCE, RequiredSkill1Level.INSTANCE, MoonRigSpewRadiusBonus.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, MoonRigFractureDelayBonus.INSTANCE, CanFitShipGroup03 .INSTANCE, MoonRigAsteroidDecayBonus.INSTANCE, RequiredSkill1Level.INSTANCE, MoonRigSpewRadiusBonus.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureDrillingRigMStability.MetaGroup METAGROUP = new StructureDrillingRigMStability.MetaGroup();
 
     @Override
@@ -143,10 +127,6 @@ public class StructureDrillingRigMStability
             case  1300 :
             {
                 return canfitshipgroup03;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  9 :
             {
@@ -167,10 +147,6 @@ public class StructureDrillingRigMStability
             case  2709 :
             {
                 return moonrigspewradiusbonus;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

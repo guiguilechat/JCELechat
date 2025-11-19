@@ -5,147 +5,129 @@ types:
     id: 3405
     marketGroup: 1746
     name: Biology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 37500.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
     secondaryattribute: 166
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   3411:
     cannotbetrainedontrial: 1
     id: 3411
     marketGroup: 1746
     name: Cybernetics
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 3
     secondaryattribute: 166
     skilltimeconstant: 3.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24242:
     cannotbetrainedontrial: 1
     id: 24242
     marketGroup: 1746
     name: Infomorph Psychology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     secondaryattribute: 168
     skilltimeconstant: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   24606:
     cannotbetrainedontrial: 1
     id: 24606
     marketGroup: 1746
     maxjumpclonesbonus: 15
     name: Cloning Facility Operation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
+    price: 125000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 5
     requiredskill2: 20533
     requiredskill2level: 3
     secondaryattribute: 166
     skilltimeconstant: 10.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25530:
     boosterchancebonus: -5
     cannotbetrainedontrial: 1
     id: 25530
     marketGroup: 1746
     name: Neurotoxin Recovery
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 25538
     requiredskill1level: 1
     secondaryattribute: 166
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   25538:
     boosterattributemodifier: -5
     cannotbetrainedontrial: 1
     id: 25538
     marketGroup: 1746
     name: Neurotoxin Control
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     primaryattribute: 165
     published: true
-    radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 4
     requiredskill2: 3405
     requiredskill2level: 1
     secondaryattribute: 166
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33399:
     cannotbetrainedontrial: 1
     id: 33399
     marketGroup: 1746
     name: Infomorph Synchronizing
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 2.0
-    volume: 0.009999999776482582
+    volume: 0.01
   33407:
     cannotbetrainedontrial: 1
     id: 33407
     marketGroup: 1746
     name: Advanced Infomorph Psychology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6E7
+    price: 36000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 5
     secondaryattribute: 168
     skilltimeconstant: 5.0
-    volume: 0.009999999776482582
+    volume: 0.01
   73910:
     cannotbetrainedontrial: 1
     id: 73910
     marketGroup: 1746
     name: Elite Infomorph Psychology
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     primaryattribute: 164
     published: true
-    radius: 1.0
     requiredskill1: 33407
     requiredskill1level: 5
     secondaryattribute: 168
     skilltimeconstant: 12.0
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -4,22 +4,21 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.33000001311302185
-    armorexplosivedamageresonance: 0.33000001311302185
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.33
+    armorexplosivedamageresonance: 0.33
     armorhp: 100.0
-    armorkineticdamageresonance: 0.33000001311302185
-    armorthermaldamageresonance: 0.33000001311302185
+    armorkineticdamageresonance: 0.33
+    armorthermaldamageresonance: 0.33
     armoruniformity: 1.0
     behaviorenergyneutralizerdischarge: 1.0
     behaviorenergyneutralizerduration: 3000
     behaviorenergyneutralizerfalloff: 6000.0
     behaviorenergyneutralizerrange: 8000.0
     capacitorcapacity: 500.0
-    capacity: 1200.0
     damagemultiplier: 16.0
     emdamage: 1.0
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energyneutralizeramount: 6.0
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -35,13 +34,13 @@ types:
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     explosivedamage: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 10000.0
     gfxboosterid: 394
     hp: 150.0
     id: 61657
     kineticdamage: 1.0
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 1000000.0
     maxlockedtargets: 7
     maxrange: 7000.0
@@ -50,7 +49,6 @@ types:
     name: Biomechanoid Combat Unit
     npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -60,17 +58,17 @@ types:
     scanresolution: 1000.0
     scanspeed: 2000
     shieldcapacity: 125.0
-    shieldemdamageresonance: 0.33000001311302185
-    shieldexplosivedamageresonance: 0.33000001311302185
-    shieldkineticdamageresonance: 0.33000001311302185
+    shieldemdamageresonance: 0.33
+    shieldexplosivedamageresonance: 0.33
+    shieldkineticdamageresonance: 0.33
     shieldrechargerate: 6250000.0
-    shieldthermaldamageresonance: 0.33000001311302185
+    shieldthermaldamageresonance: 0.33
     shielduniformity: 0.75
     signatureradius: 120.0
     speed: 4000.0
     structureuniformity: 1.0
     thermaldamage: 1.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     trackingspeed: 2000.0
     volume: 60.0
     warpspeedmultiplier: 25.0
@@ -79,22 +77,21 @@ types:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
     aishouldusetargetswitching: 1
-    aitankingmodifierdrone: 0.699999988079071
-    armoremdamageresonance: 0.33000001311302185
-    armorexplosivedamageresonance: 0.33000001311302185
+    aitankingmodifierdrone: 0.7
+    armoremdamageresonance: 0.33
+    armorexplosivedamageresonance: 0.33
     armorhp: 100.0
-    armorkineticdamageresonance: 0.33000001311302185
-    armorthermaldamageresonance: 0.33000001311302185
+    armorkineticdamageresonance: 0.33
+    armorthermaldamageresonance: 0.33
     armoruniformity: 1.0
     behaviorenergyneutralizerdischarge: 1.0
     behaviorenergyneutralizerduration: 3000
     behaviorenergyneutralizerfalloff: 6000.0
     behaviorenergyneutralizerrange: 8000.0
     capacitorcapacity: 500.0
-    capacity: 1200.0
     damagemultiplier: 16.0
     emdamage: 1.0
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energyneutralizeramount: 6.0
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -110,13 +107,13 @@ types:
     entityreactionfactor: 0.25
     entitysecuritymaxgain: 5.0
     explosivedamage: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     falloff: 10000.0
     gfxboosterid: 394
     hp: 150.0
     id: 80438
     kineticdamage: 1.0
-    kineticdamageresonance: 0.6700000166893005
+    kineticdamageresonance: 0.67
     mass: 1000000.0
     maxlockedtargets: 7
     maxrange: 7000.0
@@ -125,7 +122,6 @@ types:
     name: CD Minion Loot Goblin
     npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -135,17 +131,17 @@ types:
     scanresolution: 1000.0
     scanspeed: 2000
     shieldcapacity: 125.0
-    shieldemdamageresonance: 0.33000001311302185
-    shieldexplosivedamageresonance: 0.33000001311302185
-    shieldkineticdamageresonance: 0.33000001311302185
+    shieldemdamageresonance: 0.33
+    shieldexplosivedamageresonance: 0.33
+    shieldkineticdamageresonance: 0.33
     shieldrechargerate: 6250000.0
-    shieldthermaldamageresonance: 0.33000001311302185
+    shieldthermaldamageresonance: 0.33
     shielduniformity: 0.75
     signatureradius: 120.0
     speed: 4000.0
     structureuniformity: 1.0
     thermaldamage: 1.0
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     trackingspeed: 2000.0
     volume: 60.0
     warpspeedmultiplier: 25.0

@@ -3,208 +3,176 @@ types:
     id: 3537
     industryblueprintrank: 120.0
     name: CONCORD Capital Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4200788E7
+    price: 24200788.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11356:
     id: 11356
     industryblueprintrank: 3.0
     marketGroup: 1539
     name: Small Remote Armor Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 49960.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11358:
     id: 11358
     industryblueprintrank: 6.0
     marketGroup: 1539
     name: Medium Remote Armor Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 124700.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   11360:
     id: 11360
     industryblueprintrank: 9.0
     marketGroup: 1539
     name: Large Remote Armor Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 312440.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22948:
     id: 22948
     industryblueprintrank: 3.0
     name: '''Beatnik'' Small Remote Armor Repairer Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   22950:
     id: 22950
     industryblueprintrank: 6.0
     name: '''Love'' Medium Remote Armor Repairer Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23417:
     id: 23417
     industryblueprintrank: 9.0
     name: '''Peace'' Large Remote Armor Repairer Blueprint'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   24570:
     id: 24570
     industryblueprintrank: 120.0
     marketGroup: 1539
     name: Capital Remote Armor Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4200788E7
+    price: 24200788.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   26915:
     id: 26915
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Large Remote Armor Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   26916:
     id: 26916
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Remote Armor Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   26917:
     id: 26917
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Remote Armor Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41621:
     id: 41621
     marketGroup: 1539
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
+    price: 49000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41622:
     id: 41622
     marketGroup: 1539
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
+    price: 49000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41623:
     id: 41623
     name: Capital Remote Armor Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41624:
     id: 41624
     marketGroup: 1539
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
+    price: 49000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41625:
     id: 41625
     name: Dark Blood Capital Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41626:
     id: 41626
     name: Shadow Serpentis Capital Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41653:
     id: 41653
     name: Small Ancillary Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 75000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41654:
     id: 41654
     name: Medium Ancillary Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 200000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41655:
     id: 41655
     name: Large Ancillary Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 800000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41656:
     id: 41656
     name: Capital Ancillary Remote Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.68E7
+    price: 36800000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

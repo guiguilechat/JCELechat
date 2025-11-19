@@ -4,7 +4,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Unstable 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -14,7 +13,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Decayed 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -24,7 +22,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Decayed Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -34,7 +31,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Unstable Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -44,7 +40,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Gravid Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -54,7 +49,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Decayed Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -64,7 +58,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Unstable Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -74,7 +67,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Gravid Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -84,7 +76,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Decayed Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -94,7 +85,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Unstable Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -104,7 +94,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Gravid Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -114,7 +103,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Decayed 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -124,7 +112,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Unstable 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -134,7 +121,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Gravid 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -144,7 +130,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Gravid 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -154,7 +139,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Decayed 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -164,7 +148,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Unstable 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -174,7 +157,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Gravid 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -184,7 +166,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Decayed 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -194,7 +175,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Unstable 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -204,7 +184,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Gravid 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -214,7 +193,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Decayed 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -224,7 +202,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Unstable 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -234,7 +211,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Gravid 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -244,7 +220,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Decayed 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -254,7 +229,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Unstable 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -264,7 +238,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Gravid 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -274,7 +247,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Decayed Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -284,7 +256,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Unstable Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -294,7 +265,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Gravid Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -304,7 +274,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Decayed Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -314,7 +283,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Unstable Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -324,7 +292,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Gravid Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -334,7 +301,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Decayed Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -344,7 +310,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Unstable Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -354,7 +319,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Gravid Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -364,7 +328,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Decayed Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -374,7 +337,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Unstable Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -384,7 +346,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Gravid Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -394,7 +355,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Decayed Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -404,7 +364,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Unstable Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -414,7 +373,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Gravid Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -424,7 +382,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Decayed Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -434,7 +391,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Unstable Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -444,7 +400,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Gravid Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -454,7 +409,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Decayed X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -464,7 +418,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Unstable X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -474,7 +427,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Gravid X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -484,7 +436,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Decayed Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -494,7 +445,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Unstable Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -504,7 +454,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Gravid Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -514,7 +463,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Decayed Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -524,7 +472,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Unstable Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -534,7 +481,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Gravid Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -544,7 +490,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Decayed Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -554,7 +499,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Unstable Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -564,7 +508,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Gravid Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -574,7 +517,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Decayed Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -584,7 +526,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Unstable Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -594,7 +535,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Gravid Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -604,7 +544,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Decayed Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -614,7 +553,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Unstable Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -624,7 +562,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Gravid Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -634,7 +571,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Decayed Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -644,7 +580,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Unstable Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -654,7 +589,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Gravid Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -664,7 +598,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Decayed Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -674,7 +607,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Unstable Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -684,7 +616,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Gravid Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -694,7 +625,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Decayed Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -704,7 +634,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Unstable Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -714,7 +643,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Gravid Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -724,7 +652,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Decayed Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -734,7 +661,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Unstable Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -744,7 +670,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Gravid Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -754,7 +679,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Unstable Medium Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -764,7 +688,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Unstable Large Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -774,7 +697,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Unstable X-Large Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -784,7 +706,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Unstable Small Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -794,7 +715,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Unstable Medium Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -804,7 +724,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Unstable Large Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -814,7 +733,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Decayed Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -824,7 +742,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Gravid Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -834,7 +751,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Unstable Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -844,7 +760,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Decayed Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -854,7 +769,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Gravid Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -864,7 +778,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Unstable Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -874,7 +787,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Decayed Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -884,7 +796,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Gravid Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -894,7 +805,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Unstable Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -904,7 +814,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Decayed Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -914,7 +823,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Gravid Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -924,7 +832,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Unstable Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -934,7 +841,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Decayed Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -944,7 +850,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Gravid Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -954,7 +859,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Unstable Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -964,7 +868,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Decayed Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -974,7 +877,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Gravid Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -984,7 +886,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Unstable Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -994,7 +895,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Decayed Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1004,7 +904,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Gravid Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1014,7 +913,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Unstable Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1024,7 +922,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Decayed Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1034,7 +931,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Gravid Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1044,7 +940,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Unstable Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1054,7 +949,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Decayed Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1064,7 +958,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Gravid Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1074,7 +967,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Unstable Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1084,7 +976,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Decayed Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1094,7 +985,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Gravid Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1104,7 +994,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Unstable Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1114,7 +1003,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Decayed Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1124,7 +1012,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Gravid Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1134,7 +1021,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Unstable Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1144,7 +1030,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Decayed Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1154,7 +1039,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Gravid Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1164,7 +1048,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Unstable Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1174,7 +1057,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Decayed Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1184,7 +1066,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Gravid Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1194,7 +1075,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Unstable Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1204,7 +1084,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Decayed Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1214,7 +1093,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Unstable Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1224,7 +1102,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Gravid Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1234,7 +1111,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Unstable Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1244,7 +1120,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Gravid Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1254,7 +1129,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Decayed Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1264,7 +1138,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Decayed 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1274,7 +1147,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Unstable 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1284,7 +1156,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Gravid 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1294,7 +1165,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Decayed 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1304,7 +1174,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Unstable 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1314,7 +1183,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Gravid 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1324,7 +1192,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Decayed Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1334,7 +1201,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Unstable Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1344,7 +1210,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Gravid Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1354,7 +1219,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Unstable Capital Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1364,7 +1228,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Decayed Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1374,7 +1237,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Unstable Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1384,7 +1246,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Gravid Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1394,7 +1255,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Unstable Capital Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1404,7 +1264,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Decayed Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1414,7 +1273,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Unstable Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1424,7 +1282,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Gravid Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1434,7 +1291,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Decayed Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1444,7 +1300,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Unstable Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1454,7 +1309,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Gravid Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1464,7 +1318,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Decayed Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1474,7 +1327,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Unstable Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1484,7 +1336,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Gravid Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1494,7 +1345,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1504,7 +1354,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1514,7 +1363,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1524,7 +1372,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1534,7 +1381,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1544,7 +1390,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1554,7 +1399,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Exigent Heavy Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1564,7 +1408,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Precision Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1574,7 +1417,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1584,7 +1426,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1594,7 +1435,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Exigent Sentry Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1604,7 +1444,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Exigent Light Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1614,7 +1453,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1624,7 +1462,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1634,7 +1471,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1644,7 +1480,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Exigent Medium Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1654,7 +1489,6 @@ types:
     marketGroup: 3724
     mass: 1.0
     name: Radical Drone Damage Amplifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1664,7 +1498,6 @@ types:
     marketGroup: 3724
     mass: 1.0
     name: Radical Fighter Support Unit Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1674,7 +1507,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Gravid Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1684,7 +1516,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Decayed Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1694,7 +1525,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Unstable Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1704,7 +1534,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Decayed Large EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1714,7 +1543,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Decayed Large Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1724,7 +1552,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Decayed Medium EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1734,7 +1561,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Decayed Medium Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1744,7 +1570,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Decayed Medium Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1754,7 +1579,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Decayed Medium Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1764,7 +1588,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Decayed Small EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1774,7 +1597,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Decayed Small Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1784,7 +1606,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Decayed Small Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1794,7 +1615,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Decayed Small Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1804,7 +1624,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Decayed Large Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1814,7 +1633,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Decayed Large Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1824,7 +1642,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Gravid Small EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1834,7 +1651,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Gravid Small Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1844,7 +1660,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Gravid Small Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1854,7 +1669,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Gravid Small Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1864,7 +1678,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Gravid Large Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1874,7 +1687,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Gravid Large Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1884,7 +1696,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Gravid Large EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1894,7 +1705,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Gravid Large Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1904,7 +1714,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Gravid Medium EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1914,7 +1723,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Gravid Medium Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1924,7 +1732,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Gravid Medium Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1934,7 +1741,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Gravid Medium Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1944,7 +1750,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Unstable Large EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1954,7 +1759,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Unstable Large Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1964,7 +1768,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Unstable Medium EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1974,7 +1777,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Unstable Medium Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1984,7 +1786,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Unstable Medium Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -1994,7 +1795,6 @@ types:
     marketGroup: 3669
     mass: 1.0
     name: Unstable Medium Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2004,7 +1804,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Unstable Small EMP Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2014,7 +1813,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Unstable Small Plasma Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2024,7 +1822,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Unstable Small Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2034,7 +1831,6 @@ types:
     marketGroup: 3668
     mass: 1.0
     name: Unstable Small Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2044,7 +1840,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Unstable Large Graviton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2054,7 +1849,6 @@ types:
     marketGroup: 3670
     mass: 1.0
     name: Unstable Large Proton Smartbomb Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2064,7 +1858,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Decayed Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2074,7 +1867,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Unstable Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2084,7 +1876,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Gravid Small Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2094,7 +1885,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Decayed Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2104,7 +1894,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Unstable Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2114,7 +1903,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Gravid Small Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2124,7 +1912,6 @@ types:
     marketGroup: 2443
     mass: 1.0
     name: Glorified Unstable Small Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2134,7 +1921,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Unstable Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2144,7 +1930,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Gravid Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2154,7 +1939,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Decayed Medium Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2164,7 +1948,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Decayed Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2174,7 +1957,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Gravid Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2184,7 +1966,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Unstable Medium Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2194,7 +1975,6 @@ types:
     marketGroup: 2444
     mass: 1.0
     name: Glorified Unstable Medium Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2204,7 +1984,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Decayed Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2214,7 +1993,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Unstable Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2224,7 +2002,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Decayed Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2234,7 +2011,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Gravid Large Armor Plate Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2244,7 +2020,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Unstable Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2254,7 +2029,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Gravid Large Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2264,7 +2038,6 @@ types:
     marketGroup: 2445
     mass: 1.0
     name: Glorified Unstable Large Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2274,7 +2047,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Glorified Decayed Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2284,7 +2056,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Glorified Unstable Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2294,7 +2065,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Glorified Gravid Capital Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2304,7 +2074,6 @@ types:
     marketGroup: 2751
     mass: 1.0
     name: Glorified Unstable Capital Ancillary Armor Repairer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2314,7 +2083,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Decayed 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2324,7 +2092,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Unstable 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2334,7 +2101,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Gravid 1MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2344,7 +2110,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Gravid 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2354,7 +2119,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Decayed 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2364,7 +2128,6 @@ types:
     marketGroup: 2450
     mass: 1.0
     name: Glorified Unstable 5MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2374,7 +2137,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Decayed 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2384,7 +2146,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Unstable 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2394,7 +2155,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Gravid 10MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2404,7 +2164,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Unstable 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2414,7 +2173,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Decayed 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2424,7 +2182,6 @@ types:
     marketGroup: 2451
     mass: 1.0
     name: Glorified Gravid 50MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2434,7 +2191,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Gravid 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2444,7 +2200,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Decayed 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2454,7 +2209,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Unstable 100MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2464,7 +2218,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Decayed 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2474,7 +2227,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Gravid 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2484,7 +2236,6 @@ types:
     marketGroup: 2452
     mass: 1.0
     name: Glorified Unstable 500MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2494,7 +2245,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Decayed 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2504,7 +2254,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Unstable 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2514,7 +2263,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Gravid 10000MN Afterburner Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2524,7 +2272,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Gravid 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2534,7 +2281,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Decayed 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2544,7 +2290,6 @@ types:
     marketGroup: 2750
     mass: 1.0
     name: Glorified Unstable 50000MN Microwarpdrive Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2554,7 +2299,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Glorified Decayed Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2564,7 +2308,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Glorified Unstable Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2574,7 +2317,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Glorified Decayed Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2584,7 +2326,6 @@ types:
     marketGroup: 2533
     mass: 1.0
     name: Glorified Gravid Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2594,7 +2335,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Glorified Gravid Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2604,7 +2344,6 @@ types:
     marketGroup: 2534
     mass: 1.0
     name: Glorified Unstable Assault Damage Control Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2614,7 +2353,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Decayed Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2624,7 +2362,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Unstable Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2634,7 +2371,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Gravid Small Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2644,7 +2380,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Decayed Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2654,7 +2389,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Gravid Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2664,7 +2398,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Unstable Small Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2674,7 +2407,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Decayed Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2684,7 +2416,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Gravid Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2694,7 +2425,6 @@ types:
     marketGroup: 2453
     mass: 1.0
     name: Glorified Unstable Small Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2704,7 +2434,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Decayed Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2714,7 +2443,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Gravid Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2724,7 +2452,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Unstable Medium Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2734,7 +2461,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Decayed Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2744,7 +2470,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Gravid Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2754,7 +2479,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Unstable Medium Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2764,7 +2488,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Decayed Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2774,7 +2497,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Unstable Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2784,7 +2506,6 @@ types:
     marketGroup: 2454
     mass: 1.0
     name: Glorified Gravid Medium Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2794,7 +2515,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Gravid Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2804,7 +2524,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Decayed Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2814,7 +2533,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Unstable Large Cap Battery Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2824,7 +2542,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Decayed Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2834,7 +2551,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Gravid Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2844,7 +2560,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Gravid Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2854,7 +2569,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Decayed Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2864,7 +2578,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Unstable Heavy Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2874,7 +2587,6 @@ types:
     marketGroup: 2455
     mass: 1.0
     name: Glorified Unstable Heavy Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2884,7 +2596,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Unstable Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2894,7 +2605,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Gravid Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2904,7 +2614,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Decayed Capital Energy Neutralizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2914,7 +2623,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Decayed Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2924,7 +2632,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Gravid Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2934,7 +2641,6 @@ types:
     marketGroup: 2753
     mass: 1.0
     name: Glorified Unstable Capital Energy Nosferatu Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2944,7 +2650,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Decayed Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2954,7 +2659,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Decayed Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2964,7 +2668,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Unstable Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2974,7 +2677,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Gravid Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2984,7 +2686,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Gravid Small Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -2994,7 +2695,6 @@ types:
     marketGroup: 2446
     mass: 1.0
     name: Glorified Unstable Small Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3004,7 +2704,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Decayed Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3014,7 +2713,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Gravid Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3024,7 +2722,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Unstable Medium Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3034,7 +2731,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Gravid Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3044,7 +2740,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Unstable Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3054,7 +2749,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Decayed Medium Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3064,7 +2758,6 @@ types:
     marketGroup: 2447
     mass: 1.0
     name: Glorified Unstable Medium Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3074,7 +2767,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Decayed Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3084,7 +2776,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Gravid Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3094,7 +2785,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Gravid Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3104,7 +2794,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Unstable Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3114,7 +2803,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Decayed Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3124,7 +2812,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Unstable Large Shield Extender Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3134,7 +2821,6 @@ types:
     marketGroup: 2448
     mass: 1.0
     name: Glorified Unstable Large Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3144,7 +2830,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Glorified Unstable X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3154,7 +2839,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Glorified Decayed X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3164,7 +2848,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Glorified Gravid X-Large Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3174,7 +2857,6 @@ types:
     marketGroup: 2449
     mass: 1.0
     name: Glorified Unstable X-Large Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3184,7 +2866,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Glorified Decayed Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3194,7 +2875,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Glorified Unstable Capital Ancillary Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3204,7 +2884,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Glorified Gravid Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3214,7 +2893,6 @@ types:
     marketGroup: 2752
     mass: 1.0
     name: Glorified Unstable Capital Shield Booster Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3224,7 +2902,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Glorified Decayed Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3234,7 +2911,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Glorified Unstable Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3244,7 +2920,6 @@ types:
     marketGroup: 2442
     mass: 1.0
     name: Glorified Gravid Stasis Webifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3254,7 +2929,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Decayed Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3264,7 +2938,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Unstable Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3274,7 +2947,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Gravid Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3284,7 +2956,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Decayed Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3294,7 +2965,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Gravid Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3304,7 +2974,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Unstable Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3314,7 +2983,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Decayed Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3324,7 +2992,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Gravid Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3334,7 +3001,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Unstable Heavy Warp Scrambler Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3344,7 +3010,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Decayed Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3354,7 +3019,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Gravid Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3364,7 +3028,6 @@ types:
     marketGroup: 2441
     mass: 1.0
     name: Glorified Unstable Heavy Warp Disruptor Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3374,7 +3037,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Glorified Decayed Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3384,7 +3046,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Glorified Gravid Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3394,7 +3055,6 @@ types:
     marketGroup: 2517
     mass: 1.0
     name: Glorified Unstable Ballistic Control System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3404,7 +3064,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Glorified Decayed Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3414,7 +3073,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Glorified Unstable Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3424,7 +3082,6 @@ types:
     marketGroup: 2516
     mass: 1.0
     name: Glorified Gravid Entropic Radiation Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3434,7 +3091,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Glorified Decayed Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3444,7 +3100,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Glorified Gravid Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3454,7 +3109,6 @@ types:
     marketGroup: 2515
     mass: 1.0
     name: Glorified Unstable Gyrostabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3464,7 +3118,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Glorified Decayed Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3474,7 +3127,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Glorified Unstable Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3484,7 +3136,6 @@ types:
     marketGroup: 2514
     mass: 1.0
     name: Glorified Gravid Heat Sink Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3494,7 +3145,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Glorified Decayed Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3504,7 +3154,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Glorified Gravid Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3514,7 +3163,6 @@ types:
     marketGroup: 2513
     mass: 1.0
     name: Glorified Unstable Magnetic Field Stabilizer Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3524,7 +3172,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Glorified Decayed Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3534,7 +3181,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Glorified Gravid Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3544,7 +3190,6 @@ types:
     marketGroup: 2754
     mass: 1.0
     name: Glorified Unstable Siege Module Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3554,7 +3199,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Glorified Decayed Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3564,7 +3208,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Glorified Unstable Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3574,7 +3217,6 @@ types:
     marketGroup: 3542
     mass: 1.0
     name: Glorified Gravid Vorton Tuning System Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3584,7 +3226,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Glorified Exigent Light Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3594,7 +3235,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Glorified Exigent Light Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3604,7 +3244,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Glorified Exigent Light Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3614,7 +3253,6 @@ types:
     marketGroup: 3720
     mass: 1.0
     name: Glorified Exigent Light Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3624,7 +3262,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Glorified Exigent Medium Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3634,7 +3271,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Glorified Exigent Medium Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3644,7 +3280,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Glorified Exigent Medium Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3654,7 +3289,6 @@ types:
     marketGroup: 3721
     mass: 1.0
     name: Glorified Exigent Medium Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3664,7 +3298,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Glorified Exigent Heavy Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3674,7 +3307,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Glorified Exigent Heavy Drone Navigation Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3684,7 +3316,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Glorified Exigent Heavy Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3694,7 +3325,6 @@ types:
     marketGroup: 3722
     mass: 1.0
     name: Glorified Exigent Heavy Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3704,7 +3334,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Glorified Exigent Sentry Drone Durability Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3714,7 +3343,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Glorified Exigent Sentry Drone Firepower Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3724,7 +3352,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Glorified Exigent Sentry Drone Precision Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3734,7 +3361,6 @@ types:
     marketGroup: 3723
     mass: 1.0
     name: Glorified Exigent Sentry Drone Projection Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3744,7 +3370,6 @@ types:
     marketGroup: 3724
     mass: 1.0
     name: Glorified Radical Drone Damage Amplifier Mutaplasmid
-    packagedVolume: 1.0
     portionSize: 1
     price: 1000.0
     published: true
@@ -3754,7 +3379,339 @@ types:
     marketGroup: 3724
     mass: 1.0
     name: Glorified Radical Fighter Support Unit Mutaplasmid
-    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90457:
+    id: 90457
+    marketGroup: 3790
+    mass: 1.0
+    name: Decayed Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90458:
+    id: 90458
+    marketGroup: 3790
+    mass: 1.0
+    name: Gravid Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90459:
+    id: 90459
+    marketGroup: 3790
+    mass: 1.0
+    name: Unstable Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90466:
+    id: 90466
+    marketGroup: 3792
+    mass: 1.0
+    name: Decayed Modulated Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90468:
+    id: 90468
+    marketGroup: 3792
+    mass: 1.0
+    name: Gravid Modulated Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90469:
+    id: 90469
+    marketGroup: 3792
+    mass: 1.0
+    name: Unstable Modulated Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90470:
+    id: 90470
+    marketGroup: 3790
+    mass: 1.0
+    name: Decayed Modulated Deep Core Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90471:
+    id: 90471
+    marketGroup: 3790
+    mass: 1.0
+    name: Unstable Modulated Deep Core Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90472:
+    id: 90472
+    marketGroup: 3790
+    mass: 1.0
+    name: Gravid Modulated Deep Core Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90480:
+    id: 90480
+    marketGroup: 3790
+    mass: 1.0
+    name: Decayed Deep Core Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90481:
+    id: 90481
+    marketGroup: 3790
+    mass: 1.0
+    name: Gravid Deep Core Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90482:
+    id: 90482
+    marketGroup: 3790
+    mass: 1.0
+    name: Unstable Deep Core Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90484:
+    id: 90484
+    marketGroup: 3792
+    mass: 1.0
+    name: Decayed Modulated Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90485:
+    id: 90485
+    marketGroup: 3792
+    mass: 1.0
+    name: Gravid Modulated Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90486:
+    id: 90486
+    marketGroup: 3792
+    mass: 1.0
+    name: Unstable Modulated Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90489:
+    id: 90489
+    marketGroup: 3792
+    mass: 1.0
+    name: Decayed Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90490:
+    id: 90490
+    marketGroup: 3792
+    mass: 1.0
+    name: Gravid Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90491:
+    id: 90491
+    marketGroup: 3792
+    mass: 1.0
+    name: Unstable Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90495:
+    id: 90495
+    marketGroup: 3792
+    mass: 1.0
+    name: Decayed Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90496:
+    id: 90496
+    marketGroup: 3792
+    mass: 1.0
+    name: Gravid Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90497:
+    id: 90497
+    marketGroup: 3792
+    mass: 1.0
+    name: Unstable Deep Core Strip Miner Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90499:
+    id: 90499
+    marketGroup: 3795
+    mass: 1.0
+    name: Decayed Ice Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90500:
+    id: 90500
+    marketGroup: 3795
+    mass: 1.0
+    name: Gravid Ice Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90501:
+    id: 90501
+    marketGroup: 3795
+    mass: 1.0
+    name: Unstable Ice Mining Laser Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90521:
+    id: 90521
+    marketGroup: 3797
+    mass: 1.0
+    name: Decayed Ice Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90522:
+    id: 90522
+    marketGroup: 3797
+    mass: 1.0
+    name: Gravid Ice Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90523:
+    id: 90523
+    marketGroup: 3797
+    mass: 1.0
+    name: Unstable Ice Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90526:
+    id: 90526
+    marketGroup: 3798
+    mass: 1.0
+    name: Decayed Gas Cloud Scoop Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90527:
+    id: 90527
+    marketGroup: 3798
+    mass: 1.0
+    name: Gravid Gas Cloud Scoop Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90528:
+    id: 90528
+    marketGroup: 3798
+    mass: 1.0
+    name: Unstable Gas Cloud Scoop Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90590:
+    id: 90590
+    marketGroup: 3799
+    mass: 1.0
+    name: Decayed Gas Cloud Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90591:
+    id: 90591
+    marketGroup: 3799
+    mass: 1.0
+    name: Gravid Gas Cloud Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90592:
+    id: 90592
+    marketGroup: 3799
+    mass: 1.0
+    name: Unstable Gas Cloud Harvester Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90609:
+    id: 90609
+    marketGroup: 3800
+    mass: 1.0
+    name: Exigent Mining Drone Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90611:
+    id: 90611
+    marketGroup: 3800
+    mass: 1.0
+    name: Exigent Ice Harvesting Drone Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90619:
+    id: 90619
+    marketGroup: 3800
+    mass: 1.0
+    name: Exigent 'Excavator' Mining Drone Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  90620:
+    id: 90620
+    marketGroup: 3800
+    mass: 1.0
+    name: Exigent 'Excavator' Ice Harvesting Drone Mutaplasmid
     portionSize: 1
     price: 1000.0
     published: true

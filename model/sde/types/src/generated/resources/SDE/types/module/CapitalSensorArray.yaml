@@ -17,14 +17,14 @@ types:
     mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
+    maximumrangecap: 300000
+    maxtargetrangemultiplier: 1.0
     name: Networked Sensor Array
     networkedsensorarraydisallowcapitalmicrojump: 1
-    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
-    price: 3.0E7
+    price: 30000000.0
     published: true
-    radius: 1.0
     requiredskill1: 24613
     requiredskill1level: 1
     scangravimetricstrengthpercent: 50
@@ -32,6 +32,41 @@ types:
     scanmagnetometricstrengthpercent: 50
     scanradarstrengthpercent: 50
     scanresolutionbonus: 500.0
+    techlevel: 1
+    volume: 4000.0
+    warpscramblestrength: 100
+  90475:
+    cancloak: 1
+    canfitshipgroup01: 547
+    capacitorneed: 3000.0
+    cpu: 70.0
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 120000.0
+    hp: 99999.0
+    id: 90475
+    marketGroup: 671
+    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maximumrangecap: 1000000000
+    maxtargetrangemultiplier: 12.0
+    name: Integrated Sensor Array
+    portionSize: 1
+    power: 50000
+    price: 30000000.0
+    published: true
+    requiredskill1: 24613
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 50
+    scanladarstrengthpercent: 50
+    scanmagnetometricstrengthpercent: 50
+    scanradarstrengthpercent: 50
+    scanresolutionbonus: 500.0
+    siegelocallogisticscapacitorneedbonus: -30
+    siegelocallogisticsdurationbonus: -30
     techlevel: 1
     volume: 4000.0
     warpscramblestrength: 100

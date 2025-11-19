@@ -14,9 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IndustryBlueprintRank;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -26,13 +24,6 @@ public class ScriptBlueprint
     extends Blueprint
 {
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
     @HighIsGood(true)
@@ -40,36 +31,21 @@ public class ScriptBlueprint
     @DefaultRealValue(0.0)
     public double industryblueprintrank;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int structureitemvisualflag;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Capacity.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IndustryBlueprintRank.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final ScriptBlueprint.MetaGroup METAGROUP = new ScriptBlueprint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  38 :
-            {
-                return capacity;
-            }
             case  1955 :
             {
                 return industryblueprintrank;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2334 :
             {

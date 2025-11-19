@@ -2,42 +2,40 @@ types:
   672:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 672
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 396
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Caldari Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -48,65 +46,64 @@ types:
     requiredskill1level: 1
     scangravimetricstrength: 7.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11129:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 11129
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 395
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Gallente Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -117,65 +114,64 @@ types:
     requiredskill1level: 1
     scanmagnetometricstrength: 6.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11132:
     agility: 1.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 11132
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 394
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Minmatar Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -186,65 +182,64 @@ types:
     requiredskill1level: 1
     scanladarstrength: 5.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   11134:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.8
     armorhp: 195.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 11134
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 393
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Amarr Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -255,57 +250,57 @@ types:
     requiredskill1level: 1
     scanradarstrength: 6.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11313
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   21097:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 295.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 25.0
     id: 21097
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1631
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -313,9 +308,8 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Goru's Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 14000.0
     propulsiongraphicid: 394
@@ -326,56 +320,56 @@ types:
     requiredskill1level: 1
     scangravimetricstrength: 7.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 355.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   21628:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 156.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 13.0
     id: 21628
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1631
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
@@ -383,9 +377,8 @@ types:
     metagroupid: 4
     metalevelold: 6
     name: Guristas Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 14000.0
     propulsiongraphicid: 394
@@ -396,65 +389,64 @@ types:
     requiredskill1level: 1
     scangravimetricstrength: 7.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 188.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   29266:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 29266
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1618
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     metalevelold: 6
     name: Apotheosis
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -468,66 +460,65 @@ types:
     scanmagnetometricstrength: 10.0
     scanradarstrength: 10.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11352
     uniformity: 1.0
     upgradecapacity: 1
     volume: 17400.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   30842:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 20.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 30842
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1618
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     metalevelold: 6
     name: InterBus Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 14000.0
     propulsiongraphicid: 394
@@ -538,64 +529,63 @@ types:
     requiredskill1level: 1
     scanmagnetometricstrength: 6.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   33513:
     agility: 1.0
-    armoremdamageresonance: 0.4000000059604645
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
     armorhp: 195.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 16.0
     id: 33513
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1618
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Leopard
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 14000.0
     propulsiongraphicid: 394
@@ -606,67 +596,66 @@ types:
     requiredskill1level: 1
     scanladarstrength: 5.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 235.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     shiprolebonuswarpspeed: 300
     signatureradius: 25.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11342
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   34496:
     agility: 1.0
-    armoremdamageresonance: 0.6700000166893005
-    armorexplosivedamageresonance: 0.6700000166893005
+    armoremdamageresonance: 0.67
+    armorexplosivedamageresonance: 0.67
     armorhp: 300.0
-    armorkineticdamageresonance: 0.6700000166893005
-    armorthermaldamageresonance: 0.6700000166893005
+    armorkineticdamageresonance: 0.67
+    armorthermaldamageresonance: 0.67
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 395
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 50.0
     id: 34496
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1618
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     metalevelold: 7
     name: Council Diplomatic Shuttle
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 14000.0
     propulsiongraphicid: 395
@@ -680,66 +669,65 @@ types:
     scanmagnetometricstrength: 8.0
     scanradarstrength: 8.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 300.0
-    shieldemdamageresonance: 0.6700000166893005
-    shieldexplosivedamageresonance: 0.6700000166893005
-    shieldkineticdamageresonance: 0.6700000166893005
+    shieldemdamageresonance: 0.67
+    shieldexplosivedamageresonance: 0.67
+    shieldkineticdamageresonance: 0.67
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.6700000166893005
+    shieldthermaldamageresonance: 0.67
     shielduniformity: 0.5
     signatureradius: 20.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11331
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0
   64034:
     agility: 1.0
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armorexplosivedamageresonance: 0.9
     armorhp: 240.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.550000011920929
+    armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
-    capacity: 10.0
     cargoscanresistance: 1.0
     cpuoutput: 150
-    emdamageresonance: 0.6700000166893005
+    emdamageresonance: 0.67
     energywarfareresistance: 1.0
-    explosivedamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.67
     gfxboosterid: 394
     heatcapacityhi: 100
     heatcapacitylow: 100
     heatcapacitymed: 100
-    heatdissipationratehi: 0.009999999776482582
-    heatdissipationratelow: 0.009999999776482582
-    heatdissipationratemed: 0.009999999776482582
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
     heatgenerationmultiplier: 1.0
     hp: 20.0
     id: 64034
-    jumpfatiguemultiplier: 0.10000000149011612
-    kineticdamageresonance: 0.6700000166893005
+    jumpfatiguemultiplier: 0.1
+    kineticdamageresonance: 0.67
     maincolor: 16777215
     marketGroup: 1618
     mass: 1600000.0
-    maxdirectionalscanrange: 2.147483648E12
+    maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 2
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Boobook
-    packagedVolume: 500.0
     portionSize: 1
-    poweroutput: 25
+    poweroutput: 25.0
     powertospeed: 1
     price: 7500.0
     propulsiongraphicid: 394
@@ -750,23 +738,24 @@ types:
     requiredskill1level: 1
     scangravimetricstrength: 15.0
     scanspeed: 5000
+    sensordampenerresistance: 1.0
     shieldcapacity: 300.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.8
     shielduniformity: 0.5
     signatureradius: 20.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamageresonance: 0.6700000166893005
+    thermaldamageresonance: 0.67
     typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 1
     volume: 5000.0
     warpbubbleimmune: 1
-    warpcapacitorneed: 1.3477100537784281E-6
+    warpcapacitorneed: 1.34771E-6
     warpspeedmultiplier: 5.0
     weapondisruptionresistance: 1.0

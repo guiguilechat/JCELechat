@@ -8,11 +8,9 @@ types:
     mass: 1000.0
     name: Clear Icicle
     orebasictype: 16262
-    packagedVolume: 1000.0
     portionSize: 1
     price: 376000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -27,11 +25,9 @@ types:
     mass: 1000.0
     name: Glacial Mass
     orebasictype: 16263
-    packagedVolume: 1000.0
     portionSize: 1
     price: 76000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -46,11 +42,9 @@ types:
     mass: 1000.0
     name: Blue Ice
     orebasictype: 16264
-    packagedVolume: 1000.0
     portionSize: 1
     price: 76000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -65,11 +59,9 @@ types:
     mass: 1000.0
     name: White Glaze
     orebasictype: 16265
-    packagedVolume: 1000.0
     portionSize: 1
     price: 76000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -84,11 +76,9 @@ types:
     mass: 1000.0
     name: Glare Crust
     orebasictype: 16266
-    packagedVolume: 1000.0
     portionSize: 1
     price: 1525000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -103,11 +93,9 @@ types:
     mass: 1000.0
     name: Dark Glitter
     orebasictype: 16267
-    packagedVolume: 1000.0
     portionSize: 1
     price: 1550000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -122,11 +110,9 @@ types:
     mass: 1000.0
     name: Gelidus
     orebasictype: 16268
-    packagedVolume: 1000.0
     portionSize: 1
     price: 825000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -141,11 +127,9 @@ types:
     mass: 1000.0
     name: Krystallos
     orebasictype: 16269
-    packagedVolume: 1000.0
     portionSize: 1
     price: 450000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -158,13 +142,11 @@ types:
     id: 17975
     marketGroup: 1855
     mass: 1000.0
-    name: Thick Blue Ice
+    name: Blue Ice IV-Grade
     orebasictype: 16264
-    packagedVolume: 1000.0
     portionSize: 1
     price: 116000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -177,13 +159,11 @@ types:
     id: 17976
     marketGroup: 1855
     mass: 1000.0
-    name: Pristine White Glaze
+    name: White Glaze IV-Grade
     orebasictype: 16265
-    packagedVolume: 1000.0
     portionSize: 1
     price: 116000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -196,13 +176,11 @@ types:
     id: 17977
     marketGroup: 1855
     mass: 1000.0
-    name: Smooth Glacial Mass
+    name: Glacial Mass IV-Grade
     orebasictype: 16263
-    packagedVolume: 1000.0
     portionSize: 1
     price: 116000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -215,13 +193,11 @@ types:
     id: 17978
     marketGroup: 1855
     mass: 1000.0
-    name: Enriched Clear Icicle
+    name: Clear Icicle IV-Grade
     orebasictype: 16262
-    packagedVolume: 1000.0
     portionSize: 1
     price: 466000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -236,11 +212,9 @@ types:
     mass: 1000.0
     name: Compressed Blue Ice
     orebasictype: 16264
-    packagedVolume: 100.0
     portionSize: 1
     price: 760000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -255,11 +229,9 @@ types:
     mass: 1000.0
     name: Compressed Clear Icicle
     orebasictype: 16262
-    packagedVolume: 100.0
     portionSize: 1
     price: 3760000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -274,11 +246,9 @@ types:
     mass: 1000.0
     name: Compressed Dark Glitter
     orebasictype: 16267
-    packagedVolume: 100.0
     portionSize: 1
-    price: 1.55E7
+    price: 15500000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -291,13 +261,11 @@ types:
     id: 28436
     marketGroup: 1855
     mass: 1000.0
-    name: Compressed Enriched Clear Icicle
+    name: Compressed Clear Icicle IV-Grade
     orebasictype: 16262
-    packagedVolume: 100.0
     portionSize: 1
     price: 4660000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -312,11 +280,9 @@ types:
     mass: 1000.0
     name: Compressed Gelidus
     orebasictype: 16268
-    packagedVolume: 100.0
     portionSize: 1
     price: 8250000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -331,11 +297,9 @@ types:
     mass: 1000.0
     name: Compressed Glacial Mass
     orebasictype: 16263
-    packagedVolume: 100.0
     portionSize: 1
     price: 760000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -350,11 +314,9 @@ types:
     mass: 1000.0
     name: Compressed Glare Crust
     orebasictype: 16266
-    packagedVolume: 100.0
     portionSize: 1
-    price: 1.525E7
+    price: 15250000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -369,11 +331,9 @@ types:
     mass: 1000.0
     name: Compressed Krystallos
     orebasictype: 16269
-    packagedVolume: 100.0
     portionSize: 1
     price: 4500000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -386,13 +346,11 @@ types:
     id: 28441
     marketGroup: 1855
     mass: 1000.0
-    name: Compressed Pristine White Glaze
+    name: Compressed White Glaze IV-Grade
     orebasictype: 16265
-    packagedVolume: 100.0
     portionSize: 1
     price: 1160000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -405,13 +363,11 @@ types:
     id: 28442
     marketGroup: 1855
     mass: 1000.0
-    name: Compressed Smooth Glacial Mass
+    name: Compressed Glacial Mass IV-Grade
     orebasictype: 16263
-    packagedVolume: 100.0
     portionSize: 1
     price: 1160000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -424,13 +380,11 @@ types:
     id: 28443
     marketGroup: 1855
     mass: 1000.0
-    name: Compressed Thick Blue Ice
+    name: Compressed Blue Ice IV-Grade
     orebasictype: 16264
-    packagedVolume: 100.0
     portionSize: 1
     price: 1160000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -445,11 +399,9 @@ types:
     mass: 1000.0
     name: Compressed White Glaze
     orebasictype: 16265
-    packagedVolume: 100.0
     portionSize: 1
     price: 760000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -463,11 +415,9 @@ types:
     mass: 1000.0
     name: Azure Ice
     orebasictype: 16264
-    packagedVolume: 1000.0
     portionSize: 1
     price: 2000.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1
@@ -481,10 +431,8 @@ types:
     mass: 1000.0
     name: Crystalline Icicle
     orebasictype: 16262
-    packagedVolume: 1000.0
     portionSize: 1
     published: true
-    radius: 1.0
     reprocessingskilltype: 18025
     requiredskill1: 16281
     requiredskill1level: 1

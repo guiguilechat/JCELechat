@@ -2,46 +2,39 @@ types:
   54873:
     id: 54873
     name: Vorton Tuning System I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54874:
     id: 54874
     name: Compact Vorton Tuning System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   54876:
     id: 54876
     name: Vorton Tuning System II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.009999999776482582
+    volume: 0.01
   79175:
     id: 79175
     industryblueprintrank: 3.0
     marketGroup: 343
     name: Consortium Vorton Tuning System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 243200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   79176:
     id: 79176
     industryblueprintrank: 3.0
     marketGroup: 343
     name: Kasiha's Modified Vorton Tuning System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 243200.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

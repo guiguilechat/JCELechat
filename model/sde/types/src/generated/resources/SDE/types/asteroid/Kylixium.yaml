@@ -6,19 +6,17 @@ types:
     asteroidradiusunitsize: 600
     id: 81900
     marketGroup: 3636
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Kylixium
     orebasictype: 81900
-    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.2000000476837158
+    volume: 1.2
   81901:
     asteroidmaxradius: 10000
     asteroidmetalevel: 2
@@ -26,19 +24,17 @@ types:
     asteroidradiusunitsize: 600
     id: 81901
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Kaolin Kylixium
+    mass: 1.0E+35
+    name: Kylixium II-Grade
     orebasictype: 81900
-    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.2000000476837158
+    volume: 1.2
   81902:
     asteroidmaxradius: 10000
     asteroidmetalevel: 3
@@ -46,19 +42,17 @@ types:
     asteroidradiusunitsize: 600
     id: 81902
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Argil Kylixium
+    mass: 1.0E+35
+    name: Kylixium III-Grade
     orebasictype: 81900
-    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.2000000476837158
+    volume: 1.2
   81903:
     asteroidmaxradius: 10000
     asteroidmetalevel: 4
@@ -66,96 +60,86 @@ types:
     asteroidradiusunitsize: 600
     id: 81903
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Adobe Kylixium
+    mass: 1.0E+35
+    name: Kylixium IV-Grade
     orebasictype: 81900
-    packagedVolume: 1.2000000476837158
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 1.2000000476837158
+    volume: 1.2
   82300:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 82300
     marketGroup: 3636
-    mass: 1.0000000409184788E35
+    mass: 1.0E+35
     name: Compressed Kylixium
     orebasictype: 81900
-    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.012000000104308128
+    volume: 0.012
   82301:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 82301
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Compressed Kaolin Kylixium
+    mass: 1.0E+35
+    name: Compressed Kylixium II-Grade
     orebasictype: 81900
-    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.012000000104308128
+    volume: 0.012
   82302:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 82302
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Compressed Argil Kylixium
+    mass: 1.0E+35
+    name: Compressed Kylixium III-Grade
     orebasictype: 81900
-    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.012000000104308128
+    volume: 0.012
   82303:
     asteroidmaxradius: 16255
     asteroidmetalevel: 1
-    asteroidradiusgrowthfactor: 0.42500001192092896
+    asteroidradiusgrowthfactor: 0.425
     asteroidradiusunitsize: 400
     id: 82303
     marketGroup: 3636
-    mass: 1.0000000409184788E35
-    name: Compressed Adobe Kylixium
+    mass: 1.0E+35
+    name: Compressed Kylixium IV-Grade
     orebasictype: 81900
-    packagedVolume: 0.012000000104308128
     portionSize: 100
     price: 399926.0
     published: true
-    radius: 1.0
     reprocessingskilltype: 60379
     requiredskill1: 3386
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
-    volume: 0.012000000104308128
+    volume: 0.012

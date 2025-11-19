@@ -2,2863 +2,2505 @@ types:
   351610:
     id: 351610
     name: Basic Afterburner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351611:
     id: 351611
     name: Enhanced Afterburner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12060.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351614:
     id: 351614
     name: Basic 120mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351615:
     id: 351615
     name: Basic 60mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5250.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351620:
     id: 351620
     name: Nanofiber Structure I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351630:
     id: 351630
     name: Basic Overdrive Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351631:
     id: 351631
     name: Enhanced Overdrive Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8050.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351632:
     id: 351632
     name: Complex Overdrive Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351633:
     id: 351633
     name: Overdrive
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351669:
     id: 351669
     name: Basic Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351670:
     id: 351670
     name: Enhanced Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351671:
     id: 351671
     name: Complex Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3945.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351673:
     id: 351673
     name: Basic Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351674:
     id: 351674
     name: Enhanced Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351675:
     id: 351675
     name: Complex Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5595.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351679:
     id: 351679
     name: Basic Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351680:
     id: 351680
     name: Enhanced Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351681:
     id: 351681
     name: Complex Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5595.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351684:
     id: 351684
     name: Basic Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351686:
     id: 351686
     name: Basic Cardiac Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351687:
     id: 351687
     name: Enhanced Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351688:
     id: 351688
     name: Complex Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351689:
     id: 351689
     name: Enhanced Cardiac Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5440.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351690:
     id: 351690
     name: Complex Cardiac Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7920.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351696:
     id: 351696
     name: Basic CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351697:
     id: 351697
     name: Enhanced CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351698:
     id: 351698
     name: Complex CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5265.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351699:
     id: 351699
     name: Basic PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351700:
     id: 351700
     name: Enhanced PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351701:
     id: 351701
     name: Complex PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5265.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351732:
     id: 351732
     name: '''Goliath'' Basic Armor Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351865:
     id: 351865
     name: Basic Heavy Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351905:
     id: 351905
     name: Basic Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351906:
     id: 351906
     name: Enhanced Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351907:
     id: 351907
     name: Complex Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351908:
     id: 351908
     name: Basic Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351909:
     id: 351909
     name: Enhanced Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   351910:
     id: 351910
     name: Complex Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352017:
     id: 352017
     name: '''Scalar'' Basic CPU Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352018:
     id: 352018
     name: '''Azimuth'' Basic PG Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352019:
     id: 352019
     name: '''Monolith'' Basic Armor Repairer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352020:
     id: 352020
     name: '''Kinesis'' Basic Shield Extender'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352021:
     id: 352021
     name: '''Synapse'' Basic Shield Recharger'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352022:
     id: 352022
     name: '''Icarus'' Basic Kinetic Catalyzer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352032:
     id: 352032
     name: Basic Light Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5250.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352034:
     id: 352034
     name: Basic Light Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5250.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352035:
     id: 352035
     name: Basic Heavy Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352041:
     id: 352041
     name: '''Helix'' Enhanced PG Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352042:
     id: 352042
     name: '''Dimension'' Enhanced CPU Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352043:
     id: 352043
     name: '''Vector'' Complex CPU Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352045:
     id: 352045
     name: '''Polaris'' Complex PG Upgrade'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352046:
     id: 352046
     name: '''Menhir'' Enhanced Armor Repairer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352047:
     id: 352047
     name: '''Obelisk'' Complex Armor Repairer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352048:
     id: 352048
     name: '''Samson'' Enhanced Armor Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352049:
     id: 352049
     name: '''Hercules'' Complex Armor Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352050:
     id: 352050
     name: '''Mercury'' Enhanced Kinetic Catalyzer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352051:
     id: 352051
     name: '''Spark'' Enhanced Shield Recharger'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352052:
     id: 352052
     name: '''Impulse'' Enhanced Shield Extender'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352057:
     id: 352057
     name: Heavy Shield Transporter I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 32000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352067:
     id: 352067
     name: Basic CPU Upgrade Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352068:
     id: 352068
     name: Enhanced CPU Upgrade Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352069:
     id: 352069
     name: Complex CPU Upgrade Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13155.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352070:
     id: 352070
     name: Quantum CPU Enhancer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352071:
     id: 352071
     name: Basic Powergrid Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352072:
     id: 352072
     name: Enhanced Powergrid Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352073:
     id: 352073
     name: Complex Powergrid Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13155.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352074:
     id: 352074
     name: Type-G Powergrid Expansion System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352076:
     id: 352076
     name: Vehicle PDS I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352077:
     id: 352077
     name: Beta Power Diagnostic System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8680.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352078:
     id: 352078
     name: Local Power Diagnostic System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352079:
     id: 352079
     name: Type-G Power Diagnostic System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352083:
     id: 352083
     name: Systemic Field Stabilizer I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352089:
     id: 352089
     name: Basic Light Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5250.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352101:
     id: 352101
     name: Light Remote Armor Repair Unit I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352108:
     id: 352108
     name: '[DEV] High Vehicle PG/CPU'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352221:
     id: 352221
     name: Energized Plating I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352274:
     id: 352274
     name: '[DEV] High Infantry PG/CPU'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352277:
     id: 352277
     name: Basic Armor Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352279:
     id: 352279
     name: Basic Auto-Detonator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352293:
     id: 352293
     name: Basic Shield Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352536:
     id: 352536
     name: Basic Power Diagnostics Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352537:
     id: 352537
     name: Complex Power Diagnostics Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3285.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352538:
     id: 352538
     name: Enhanced Power Diagnostics Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352550:
     id: 352550
     name: Basic Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352604:
     id: 352604
     name: Basic Mobile CRU
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352687:
     id: 352687
     name: Basic Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   352929:
     id: 352929
     name: Enhanced Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353041:
     id: 353041
     name: Complex Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353283:
     id: 353283
     name: Basic Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353284:
     id: 353284
     name: Enhanced Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353285:
     id: 353285
     name: Complex Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3150.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353742:
     id: 353742
     name: Militia Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353743:
     id: 353743
     name: Militia Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 550.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353744:
     id: 353744
     name: Militia Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 290.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353907:
     id: 353907
     name: Logistics LAV Mass Remote Repairer (S)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353919:
     id: 353919
     name: Remote Shield Booster (S)
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353931:
     id: 353931
     name: Militia Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 370.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353932:
     id: 353932
     name: Militia Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353933:
     id: 353933
     name: Militia Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353934:
     id: 353934
     name: Militia Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353935:
     id: 353935
     name: Militia Cardiac Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 450.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353936:
     id: 353936
     name: Militia Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353980:
     id: 353980
     name: Enhanced Heavy Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353981:
     id: 353981
     name: Complex Heavy Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 39465.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353982:
     id: 353982
     name: Heavy Automated Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353983:
     id: 353983
     name: Enhanced Light Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14070.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353984:
     id: 353984
     name: Complex Light Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23025.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353985:
     id: 353985
     name: Light Automated Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353986:
     id: 353986
     name: Heavy Remote Armor Repair Unit I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 32000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353987:
     id: 353987
     name: Heavy Remote IG-R Polarized Armor Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 46320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353988:
     id: 353988
     name: Heavy Remote Efficient Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 67080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353989:
     id: 353989
     name: Heavy Remote Automated Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353990:
     id: 353990
     name: Light Remote IG-R Polarized Armor Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353991:
     id: 353991
     name: Light Remote Efficient Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 33560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   353992:
     id: 353992
     name: Light Remote Automated Armor Repair Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354011:
     id: 354011
     name: Militia CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 490.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354012:
     id: 354012
     name: Militia PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 490.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354122:
     id: 354122
     name: Heavy Converse Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 46320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354123:
     id: 354123
     name: Heavy Clarity Ward Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 67080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354124:
     id: 354124
     name: Heavy C5-R Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354125:
     id: 354125
     name: Light Shield Transporter I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354126:
     id: 354126
     name: Light Converse Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354127:
     id: 354127
     name: Light C3-R Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354128:
     id: 354128
     name: Light Clarity Ward Shield Transporter
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 33560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354129:
     id: 354129
     name: Enhanced Light Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14070.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354130:
     id: 354130
     name: Complex Light Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23025.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354131:
     id: 354131
     name: Light C3-L Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354132:
     id: 354132
     name: Enhanced Heavy Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354133:
     id: 354133
     name: Basic Heavy Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354134:
     id: 354134
     name: Complex Heavy Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 39465.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354135:
     id: 354135
     name: Heavy C5-L Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354140:
     id: 354140
     name: Energized Nanite Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8680.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354141:
     id: 354141
     name: Voltaic Energized Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354142:
     id: 354142
     name: N-Type Energized Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354147:
     id: 354147
     name: Shield Resistance Amplifier I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354148:
     id: 354148
     name: Supplemental Shield Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8680.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354149:
     id: 354149
     name: Ward Shield Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354150:
     id: 354150
     name: F-S3 Shield Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354151:
     id: 354151
     name: Enhanced Heavy Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354152:
     id: 354152
     name: Complex Heavy Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 39465.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354153:
     id: 354153
     name: Heavy F-S5 Regolith Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354154:
     id: 354154
     name: Enhanced Light Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14070.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354155:
     id: 354155
     name: Complex Light Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23025.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354156:
     id: 354156
     name: F-S3 Regolith Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354158:
     id: 354158
     name: Systemic Vortex Stabilizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 36240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354159:
     id: 354159
     name: Systemic Field Stabilizer II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 52480.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354160:
     id: 354160
     name: Systemic Stabilizer Array
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354169:
     id: 354169
     name: Damage Control Unit I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354170:
     id: 354170
     name: Crisis Damage Control Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 20280.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354171:
     id: 354171
     name: F45 Peripheral Damage Control Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 29360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354172:
     id: 354172
     name: Electron Damage Control Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 42520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354173:
     id: 354173
     name: Enhanced Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354174:
     id: 354174
     name: Complex Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 26310.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354175:
     id: 354175
     name: Type-G Active Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10575.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354176:
     id: 354176
     name: Enhanced 60mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 14070.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354177:
     id: 354177
     name: Complex 60mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 23025.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354178:
     id: 354178
     name: 60mm Reinforced Type-A Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 48560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354179:
     id: 354179
     name: Enhanced 120mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 24105.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354180:
     id: 354180
     name: Complex 120mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 39465.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354181:
     id: 354181
     name: 120mm Reinforced Type-A Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354182:
     id: 354182
     name: 180mm Reinforced Steel Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 32000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354183:
     id: 354183
     name: 180mm Reinforced Nanofibre Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 46320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354184:
     id: 354184
     name: 180mm Reinforced Polycrystalline Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 67080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354185:
     id: 354185
     name: 180mm Reinforced Type-A Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 97160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354186:
     id: 354186
     name: Modified P-Type Nanofiber
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8680.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354187:
     id: 354187
     name: Altered M-Type Nanofiber
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354188:
     id: 354188
     name: Type-G Nanofibre Internal Structure
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354264:
     id: 354264
     name: Shield Regenerator I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 6000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354265:
     id: 354265
     name: Supplemental Shield Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8680.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354266:
     id: 354266
     name: Ward Shield Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354267:
     id: 354267
     name: M42 Shield Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354667:
     id: 354667
     name: Basic Profile Dampener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354669:
     id: 354669
     name: Basic Precision Enhancer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 825.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354867:
     id: 354867
     name: Squad - Armor Bonus Test
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354869:
     id: 354869
     name: Vehicle Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354870:
     id: 354870
     name: Squad - Speed Test
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354903:
     id: 354903
     name: Basic Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354904:
     id: 354904
     name: Enhanced Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354905:
     id: 354905
     name: Complex Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5595.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354906:
     id: 354906
     name: Basic Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354907:
     id: 354907
     name: Enhanced Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354908:
     id: 354908
     name: Complex Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5595.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354912:
     id: 354912
     name: '''Stimulus'' Complex Shield Extender'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354913:
     id: 354913
     name: '''Static'' Complex Shield Recharger'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354914:
     id: 354914
     name: '''Iris'' Complex Kinetic Catalyzer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354915:
     id: 354915
     name: '''Chord'' Basic Cardiac Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354916:
     id: 354916
     name: '''Macro'' Enhanced Cardiac Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354917:
     id: 354917
     name: '''Spiral'' Complex Cardiac Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5440.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354918:
     id: 354918
     name: '''Neuron'' Basic Cardiac Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354919:
     id: 354919
     name: '''Nucleus'' Enhanced Cardiac Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354921:
     id: 354921
     name: '''Membrane'' Complex Cardiac Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354922:
     id: 354922
     name: '''Sheath'' Basic Myofibril Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354923:
     id: 354923
     name: '''Sanction'' Enhanced Myofibril Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354924:
     id: 354924
     name: '''Vigil'' Complex Myofibril Stimulant'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354926:
     id: 354926
     name: Basic Fuel Injector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355294:
     id: 355294
     name: Squad - Shield Resistance
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355297:
     id: 355297
     name: Squad - Signature Dampener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355299:
     id: 355299
     name: '[DEV] Remote Shield Recharger'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355308:
     id: 355308
     name: Squad - Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355329:
     id: 355329
     name: '[DEV] Anti-Shield Recharger'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355331:
     id: 355331
     name: '[DEV] Anti-ROF'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355332:
     id: 355332
     name: '[DEV] Movement Nullifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355375:
     id: 355375
     name: Militia Light Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355402:
     id: 355402
     name: Militia Heavy Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355403:
     id: 355403
     name: Militia Light Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355404:
     id: 355404
     name: Militia Heavy Shield Booster
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355405:
     id: 355405
     name: Militia 60mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355406:
     id: 355406
     name: Militia 120mm Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355407:
     id: 355407
     name: Militia 180mm Reinforced Steel Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 22080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355408:
     id: 355408
     name: Militia Energized Plating
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355409:
     id: 355409
     name: Militia CPU Upgrade Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1830.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355411:
     id: 355411
     name: Militia Powergrid Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1830.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355412:
     id: 355412
     name: Militia Power Diagnostic System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355413:
     id: 355413
     name: Militia Light Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355414:
     id: 355414
     name: Militia Heavy Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5505.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355415:
     id: 355415
     name: Militia Shield Regenerator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355416:
     id: 355416
     name: Militia Shield Resistance Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355421:
     id: 355421
     name: Militia Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355422:
     id: 355422
     name: Militia Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355442:
     id: 355442
     name: 1.5dn Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355517:
     id: 355517
     name: Enhanced Profile Dampener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355518:
     id: 355518
     name: Complex Profile Dampener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355519:
     id: 355519
     name: '''Cataract'' Basic Profile Dampener'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355520:
     id: 355520
     name: '''Nyctalus'' Enhanced Profile Damper'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355521:
     id: 355521
     name: '''Miosis'' Complex Profile Damper'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355523:
     id: 355523
     name: Militia Profile Dampener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355526:
     id: 355526
     name: '''Echo'' Basic Light Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355527:
     id: 355527
     name: '''Ricochet'' Enhanced Light Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355528:
     id: 355528
     name: '''Cascade'' Complex Light Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355532:
     id: 355532
     name: '''Debris'' Basic Sidearm Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355533:
     id: 355533
     name: '''Fragment'' Enhanced Sidearm Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355534:
     id: 355534
     name: '''Sliver'' Complex Sidearm Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355535:
     id: 355535
     name: '''Tremor'' Basic Heavy Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355536:
     id: 355536
     name: '''Impact'' Enhanced Heavy Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355537:
     id: 355537
     name: '''Seismic'' Complex Heavy Damage Modifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355566:
     id: 355566
     name: Enhanced Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355567:
     id: 355567
     name: Complex Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355568:
     id: 355568
     name: Basic Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355569:
     id: 355569
     name: '''Pandemic'' Complex Codebreaker'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355570:
     id: 355570
     name: '''Pathogen'' Basic Codebreaker'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355571:
     id: 355571
     name: '''Contagion'' Enhanced Codebreaker'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355582:
     id: 355582
     name: '''Origin'' Enhanced Shield Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355583:
     id: 355583
     name: '''Shaft'' Basic Shield Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355584:
     id: 355584
     name: '''Tether'' Complex Shield Regulator'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355585:
     id: 355585
     name: Basic Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355586:
     id: 355586
     name: Complex Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2955.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355587:
     id: 355587
     name: Enhanced Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355591:
     id: 355591
     name: Militia Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355607:
     id: 355607
     name: Magnetic Field Stabilizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355610:
     id: 355610
     name: Fire Control System
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355611:
     id: 355611
     name: Conscript Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355613:
     id: 355613
     name: Propulsion Test Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355614:
     id: 355614
     name: Inertia Test Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 45360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355785:
     id: 355785
     name: Insulated Magnetic Field Stabilizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355786:
     id: 355786
     name: Nonlinear Flux Stabilizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355787:
     id: 355787
     name: '''Utopia'' Magnetic Field Stabilizer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355788:
     id: 355788
     name: Asynchronous Fire Control
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355789:
     id: 355789
     name: Fire Control System II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355790:
     id: 355790
     name: '''Trojan'' Fire Control System'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355791:
     id: 355791
     name: Modified Extruded Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355792:
     id: 355792
     name: Vented Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355793:
     id: 355793
     name: '''Helios'' Heat Sink'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355798:
     id: 355798
     name: Basic Railgun Damage Amplifer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355799:
     id: 355799
     name: Enhanced Railgun Damage Amplifer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10050.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355800:
     id: 355800
     name: Complex Railgun Damage Amplifer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16440.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355801:
     id: 355801
     name: LT Insulated Stabilizer Array
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355802:
     id: 355802
     name: Basic Blaster Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355803:
     id: 355803
     name: Enhanced Blaster Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10050.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355804:
     id: 355804
     name: Complex Blaster Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16440.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355805:
     id: 355805
     name: HT Insulated Stabilizer Array
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355807:
     id: 355807
     name: Calibration Subsystem
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355808:
     id: 355808
     name: Routine Calibration Subsystem
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355809:
     id: 355809
     name: Tolerant Calibration Subsystem
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355810:
     id: 355810
     name: '''Cirrus'' Calibration Subsystem'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355811:
     id: 355811
     name: Militia Blaster Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4575.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355894:
     id: 355894
     name: Heavy Payload Control System I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355895:
     id: 355895
     name: HP Multiphasic Bolt Array I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355896:
     id: 355896
     name: Heavy Payload Control System II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355897:
     id: 355897
     name: HP Muon Coil Bolt Array I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355898:
     id: 355898
     name: Basic Missile Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355903:
     id: 355903
     name: Enhanced Missile Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 10050.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355904:
     id: 355904
     name: Complex Missile Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16440.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355905:
     id: 355905
     name: LP Muon Coil Bolt Array I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355906:
     id: 355906
     name: Systemic Ballistic Control System I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355908:
     id: 355908
     name: Systemic Bolt Array I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355909:
     id: 355909
     name: Systemic Ballistic Control System II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 36240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355910:
     id: 355910
     name: Systemic 'Pandemonium' Ballistic Enhancement
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355927:
     id: 355927
     name: Militia Missile Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4575.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355928:
     id: 355928
     name: Basic Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355929:
     id: 355929
     name: Enhanced Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 18760.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355930:
     id: 355930
     name: Complex Heat Sink
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 30700.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355931:
     id: 355931
     name: Gadolinium Array
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 33560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356416:
     id: 356416
     name: '[DEV] Remote Armor Repairer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 500.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356471:
     id: 356471
     name: Conscript Tracking Enhancer I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356473:
     id: 356473
     name: Conscript Tracking Computer I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356495:
     id: 356495
     name: G-11 Nonlinear Tracking Processor
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 36240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356496:
     id: 356496
     name: Conscript Tracking Computer II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 33560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356497:
     id: 356497
     name: '''Delphi'' Tracking CPU'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 33560.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356498:
     id: 356498
     name: Delta-Nought Tracking Mode
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356499:
     id: 356499
     name: Conscript Tracking Enhancer II
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17360.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356500:
     id: 356500
     name: Zeta-Nought Tracking Mode
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 25160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356526:
     id: 356526
     name: Basic Range Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 825.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356562:
     id: 356562
     name: Advanced Precision Enhancer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356563:
     id: 356563
     name: Complex Precision Enhancer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356564:
     id: 356564
     name: '''Visio'' Basic Precision Enhancer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 825.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356565:
     id: 356565
     name: '''Diaemus'' Enhanced Precision Enhancer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356566:
     id: 356566
     name: '''Auga'' Complex Precision Enhancer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356567:
     id: 356567
     name: Enhanced Range Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356590:
     id: 356590
     name: Enhanced Fuel Injector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12060.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356591:
     id: 356591
     name: Complex Fuel Injector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 19740.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356593:
     id: 356593
     name: Enhanced Shield Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356594:
     id: 356594
     name: Complex Shield Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 26310.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356629:
     id: 356629
     name: Militia Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356703:
     id: 356703
     name: '''Oculus'' Basic Range Amplifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 825.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356704:
     id: 356704
     name: '''Ultrasonic'' Enhanced Range Amplifier'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356705:
     id: 356705
     name: '''Sjon'' Complex Range Amplifer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2205.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356707:
     id: 356707
     name: Complex Range Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356708:
     id: 356708
     name: Militia Precision Enhancer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 340.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356711:
     id: 356711
     name: Militia Range Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 340.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356788:
     id: 356788
     name: Militia Armor Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 370.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356789:
     id: 356789
     name: Militia Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356790:
     id: 356790
     name: Militia Cardiac Stimulant Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 450.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356791:
     id: 356791
     name: Militia Kinetic Catalyzer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356792:
     id: 356792
     name: Militia Cardiac Regulator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 290.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356793:
     id: 356793
     name: Militia Codebreaker Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356794:
     id: 356794
     name: Militia CPU Upgrade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 490.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356795:
     id: 356795
     name: Militia Precision Enhancer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 340.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356796:
     id: 356796
     name: Militia Profile Dampener Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356797:
     id: 356797
     name: Militia Range Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 340.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356798:
     id: 356798
     name: Militia PG Upgrade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 490.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356799:
     id: 356799
     name: Militia Shield Extender Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 400.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356800:
     id: 356800
     name: Militia Shield Recharger Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 550.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356801:
     id: 356801
     name: Militia Shield Regulator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 270.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356802:
     id: 356802
     name: Militia Heavy Damage Modifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356803:
     id: 356803
     name: Militia Light Damage Modifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356804:
     id: 356804
     name: Militia Sidearm Damage Modifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 520.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356805:
     id: 356805
     name: Militia Myofibril Stimulant Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 320.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356854:
     id: 356854
     name: Militia Light Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 11040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356855:
     id: 356855
     name: Militia Heavy Armor Repairer Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 22080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356857:
     id: 356857
     name: Militia 120mm Armor Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 22080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356858:
     id: 356858
     name: Militia 180mm Reinforced Steel Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 22080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356859:
     id: 356859
     name: Militia 60mm Armor Plates Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 11040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356860:
     id: 356860
     name: Militia Light Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 17240.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356861:
     id: 356861
     name: Militia Heavy Shield Booster Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 37280.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356862:
     id: 356862
     name: Militia Light Shield Extender Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 11040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356863:
     id: 356863
     name: Militia Heavy Shield Extender Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 22080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356864:
     id: 356864
     name: Militia Shield Regenerator Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356865:
     id: 356865
     name: Militia Shield Resistance Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356866:
     id: 356866
     name: Militia Blaster Damage Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 15000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356867:
     id: 356867
     name: Militia Missile Damage Amplifier Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 15000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356868:
     id: 356868
     name: Militia CPU Upgrade Unit Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356869:
     id: 356869
     name: Militia Power Diagnostic System Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356870:
     id: 356870
     name: Militia Powergrid Upgrade Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363096:
     id: 363096
     name: Militia Mobile CRU Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 11600.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363388:
     id: 363388
     name: Enhanced Armor Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 16080.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363389:
     id: 363389
     name: Complex Armor Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 26310.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363390:
     id: 363390
     name: R-Type Vehicular Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   363405:
     id: 363405
     name: CN-V Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364173:
     id: 364173
     name: Militia Spool Reduction Unit
@@ -2892,19 +2534,17 @@ types:
   364245:
     id: 364245
     name: Militia Overdrive
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4160.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364248:
     id: 364248
     name: Militia Scanner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3660.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364249:
     id: 364249
     name: Militia Damage Control Unit
@@ -2914,11 +2554,10 @@ types:
   364250:
     id: 364250
     name: Militia Afterburner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2745.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   364506:
     id: 364506
     name: Tracking Enhancer (Scout LAV)
@@ -2927,7 +2566,7 @@ types:
     published: false
   365200:
     id: 365200
-    mass: 0.009999999776482582
+    mass: 0.01
     name: HEP Metabolic Enhancer
     portionSize: 1
     price: 3420.0
@@ -2935,171 +2574,150 @@ types:
   365229:
     id: 365229
     name: Basic Ferroscale Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365230:
     id: 365230
     name: Enhanced Ferroscale Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365231:
     id: 365231
     name: Complex Ferroscale Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3945.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365233:
     id: 365233
     name: Basic Reactive Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365234:
     id: 365234
     name: Enhanced Reactive Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365235:
     id: 365235
     name: Complex Reactive Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3945.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365237:
     id: 365237
     name: Basic Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365238:
     id: 365238
     name: Enhanced Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365239:
     id: 365239
     name: Complex Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5925.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365240:
     id: 365240
     name: '''Bastion'' Enhanced Ferroscale Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365241:
     id: 365241
     name: '''Castra'' Complex Ferroscale Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3945.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365242:
     id: 365242
     name: '''Brille'' Enhanced Reactive Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365243:
     id: 365243
     name: '''Cuticle'' Complex Reactive Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365252:
     id: 365252
     name: '''Bond'' Enhanced Shield Energizer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365253:
     id: 365253
     name: '''Graft'' Complex Shield Energizer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365254:
     id: 365254
     name: '''Weld'' Basic Shield Energizer'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365255:
     id: 365255
     name: '''Abatis'' Basic Ferroscale Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365256:
     id: 365256
     name: '''Nacre'' Basic Reactive Plates'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365294:
     id: 365294
     name: '''Terminal'' Basic Power Diagnostics Unit'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 750.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365295:
     id: 365295
     name: '''Node'' Enhanced Power Diagnostics Unit'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365296:
     id: 365296
     name: '''Grid'' Complex Power Diagnostics Unit'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2010.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365351:
     id: 365351
     name: Surge Carapace I
@@ -3133,155 +2751,136 @@ types:
   365424:
     id: 365424
     name: Reactive Deflection Field I
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 12000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365777:
     id: 365777
     name: Basic Blaster Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365778:
     id: 365778
     name: Enhanced Blaster Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365779:
     id: 365779
     name: Complex Blaster Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13155.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365783:
     id: 365783
     name: Basic Missile Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365784:
     id: 365784
     name: Enhanced Missile Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365785:
     id: 365785
     name: Complex Missile Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13155.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365786:
     id: 365786
     name: Basic Railgun Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365787:
     id: 365787
     name: Enhanced Railgun Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 8040.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365788:
     id: 365788
     name: Complex Railgun Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 13155.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365902:
     id: 365902
     name: Militia Armor Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3660.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365903:
     id: 365903
     name: Militia Shield Hardener
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3660.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365904:
     id: 365904
     name: Militia Railgun Damage Amplifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4575.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365905:
     id: 365905
     name: Militia Blaster Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1830.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365906:
     id: 365906
     name: Militia Railgun Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1830.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365907:
     id: 365907
     name: Militia Missile Ammo Expansion Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1830.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365908:
     id: 365908
     name: Militia Mobile CRU
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 4125.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365952:
     id: 365952
     name: Complex Afterburner
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 19740.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   365956:
     id: 365956
     name: Militia Fuel Injector
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2745.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366289:
     id: 366289
     name: Imperial Basic Armor Plates
@@ -3465,371 +3064,325 @@ types:
   366391:
     id: 366391
     name: Federation Basic PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366392:
     id: 366392
     name: Federation Enhanced PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366393:
     id: 366393
     name: Federation Complex PG Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366394:
     id: 366394
     name: Federation Basic Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 900.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366395:
     id: 366395
     name: Federation Enhanced Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366396:
     id: 366396
     name: Federation Complex Armor Plates
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2415.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366397:
     id: 366397
     name: Federation Basic Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366398:
     id: 366398
     name: Federation Enhanced Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366399:
     id: 366399
     name: Federation Complex Kinetic Catalyzer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366400:
     id: 366400
     name: Federation Basic Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366401:
     id: 366401
     name: Federation Enhanced Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366402:
     id: 366402
     name: Federation Complex Armor Repairer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366403:
     id: 366403
     name: Federation Basic Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366404:
     id: 366404
     name: Federation Enhanced Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366405:
     id: 366405
     name: Federation Complex Codebreaker
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366406:
     id: 366406
     name: Federation Basic CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1200.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366407:
     id: 366407
     name: Federation Enhanced CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366408:
     id: 366408
     name: Federation Complex CPU Upgrade
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3210.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366435:
     id: 366435
     name: Imperial Basic Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 720.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366436:
     id: 366436
     name: Imperial Enhanced Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366437:
     id: 366437
     name: Imperial Complex Cardiac Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1935.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366438:
     id: 366438
     name: Imperial Basic Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366439:
     id: 366439
     name: Imperial Enhanced Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366440:
     id: 366440
     name: Imperial Complex Heavy Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366465:
     id: 366465
     name: Republic Basic Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366466:
     id: 366466
     name: Republic Enhanced Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366467:
     id: 366467
     name: Republic Complex Sidearm Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366468:
     id: 366468
     name: Republic Basic Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 975.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366469:
     id: 366469
     name: Republic Enhanced Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366470:
     id: 366470
     name: Republic Complex Shield Extender
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2610.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366471:
     id: 366471
     name: Republic Basic Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 675.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366472:
     id: 366472
     name: Republic Enhanced Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366473:
     id: 366473
     name: Republic Complex Shield Regulator
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1815.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366474:
     id: 366474
     name: Republic Basic Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366475:
     id: 366475
     name: Republic Enhanced Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366476:
     id: 366476
     name: Republic Complex Shield Recharger
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366477:
     id: 366477
     name: Republic Basic Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1350.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366478:
     id: 366478
     name: Republic Enhanced Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366479:
     id: 366479
     name: Republic Complex Shield Energizer
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3615.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366480:
     id: 366480
     name: Republic Basic Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 780.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366481:
     id: 366481
     name: Republic Enhanced Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366482:
     id: 366482
     name: Republic Complex Myofibril Stimulant
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2085.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366522:
     id: 366522
     name: State Basic Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1275.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366523:
     id: 366523
     name: State Enhanced Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   366524:
     id: 366524
     name: State Complex Light Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3420.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368777:
     id: 368777
     name: Krin’s LEX -71 Damage Modifier
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000.0
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   368893:
     id: 368893
     name: Basic Shield Regulator

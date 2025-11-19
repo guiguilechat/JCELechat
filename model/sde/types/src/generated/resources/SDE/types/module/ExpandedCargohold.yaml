@@ -1,126 +1,118 @@
 types:
   1315:
-    cargocapacitymultiplier: 1.1749999523162842
+    cargocapacitymultiplier: 1.175
     hp: 40.0
     id: 1315
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.800000011920929
+    maxvelocitymodifier: 0.8
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Expanded Cargohold'
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
     requiredskill1: 3392
     requiredskill1level: 1
-    structurehpmultiplier: 0.949999988079071
+    structurehpmultiplier: 0.95
     techlevel: 1
     volume: 5.0
   1317:
-    cargocapacitymultiplier: 1.1749999523162842
+    cargocapacitymultiplier: 1.175
     hp: 40.0
     id: 1317
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.8500000238418579
+    maxvelocitymodifier: 0.85
     name: Expanded Cargohold I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.800000011920929
+    structurehpmultiplier: 0.8
     techlevel: 1
     volume: 5.0
   1319:
-    cargocapacitymultiplier: 1.274999976158142
+    cargocapacitymultiplier: 1.275
     hp: 40.0
     id: 1319
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.8199999928474426
+    maxvelocitymodifier: 0.82
     metalevelold: 5
     name: Expanded Cargohold II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
     requiredskill1: 3394
     requiredskill1level: 2
-    structurehpmultiplier: 0.7699999809265137
+    structurehpmultiplier: 0.77
     techlevel: 2
     volume: 5.0
   5493:
-    cargocapacitymultiplier: 1.225000023841858
+    cargocapacitymultiplier: 1.225
     hp: 40.0
     id: 5493
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.8700000047683716
+    maxvelocitymodifier: 0.87
     metalevelold: 1
     name: Type-D Restrained Expanded Cargo
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0
   21493:
-    cargocapacitymultiplier: 1.274999976158142
+    cargocapacitymultiplier: 1.275
     hp: 40.0
     id: 21493
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.8999999761581421
+    maxvelocitymodifier: 0.9
     metagroupid: 3
     metalevelold: 6
     name: Limited Expanded 'Archiver' Cargo
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.8500000238418579
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0
   21855:
-    cargocapacitymultiplier: 1.100000023841858
+    cargocapacitymultiplier: 1.1
     hp: 40.0
     id: 21855
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.800000011920929
+    maxvelocitymodifier: 0.8
     name: Civilian Expanded Cargohold
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 10.0
-    structurehpmultiplier: 0.699999988079071
+    structurehpmultiplier: 0.7
     techlevel: 1
     volume: 5.0
   34489:
-    cargocapacitymultiplier: 1.2899999618530273
+    cargocapacitymultiplier: 1.29
     hp: 40.0
     id: 34489
     marketGroup: 1197
     mass: 50.0
-    maxvelocitymodifier: 0.8999999761581421
+    maxvelocitymodifier: 0.9
     metagroupid: 4
     metalevelold: 8
     name: ORE Expanded Cargohold
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 0.800000011920929
+    structurehpmultiplier: 0.8
     techlevel: 1
     volume: 5.0

@@ -1,17 +1,16 @@
 types:
   26959:
-    armoremdamageresonance: 0.7799999713897705
-    armorexplosivedamageresonance: 0.47999998927116394
+    armoremdamageresonance: 0.78
+    armorexplosivedamageresonance: 0.48
     armorhp: 400.0
-    armorkineticdamageresonance: 0.5799999833106995
-    armorthermaldamageresonance: 0.6800000071525574
+    armorkineticdamageresonance: 0.58
+    armorthermaldamageresonance: 0.68
     armoruniformity: 0.75
     capacitorcapacity: 650.0
-    capacity: 1200.0
     damagemultiplier: 3.75
     disallowassistance: 1
     entityarmorrepairamount: 140.0
-    entityarmorrepairdelaychance: 0.41999998688697815
+    entityarmorrepairdelaychance: 0.42
     entityarmorrepairduration: 10000
     entityattackdelaymax: 21600
     entityattackdelaymin: 5400
@@ -23,7 +22,7 @@ types:
     entitychasemaxduration: 10000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 225.0
-    entitydefenderchance: 0.007499999832361937
+    entitydefenderchance: 0.0075
     entityequipmentgroupmax: 48
     entityequipmentmax: 34
     entityequipmentmin: 8
@@ -31,9 +30,9 @@ types:
     entitylootcountmax: 3
     entitylootcountmin: 1
     entityoverviewshipgroupid: 26
-    entityreactionfactor: 0.5299999713897705
-    entityshieldboostdelaychance: 0.41999998688697815
-    entityshieldboostdelaychancemedium: 0.3700000047683716
+    entityreactionfactor: 0.53
+    entityshieldboostdelaychance: 0.42
+    entityshieldboostdelaychancemedium: 0.37
     entityshieldboostduration: 5000
     entitystrength: 4
     explosivedamage: 12.0
@@ -48,14 +47,13 @@ types:
     maxrange: 1800.0
     maxvelocity: 450.0
     missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 0.8852999806404114
-    missileentityaoevelocitymultiplier: 1.2294000387191772
-    missileentityflighttimemultiplier: 1.2294000387191772
-    missileentityvelocitymultiplier: 1.2294000387191772
+    missileentityaoecloudsizemultiplier: 0.8853
+    missileentityaoevelocitymultiplier: 1.2294
+    missileentityflighttimemultiplier: 1.2294
+    missileentityvelocitymultiplier: 1.2294
     missilelaunchduration: 1.0
     name: testing group
     optimalsigradius: 125
-    packagedVolume: 60.0
     portionSize: 1
     propulsiongraphicid: 394
     published: false
@@ -66,14 +64,14 @@ types:
     scanresolution: 235.0
     scanspeed: 2000
     shieldcapacity: 1100.0
-    shieldemdamageresonance: 0.7799999713897705
-    shieldexplosivedamageresonance: 0.47999998927116394
-    shieldkineticdamageresonance: 0.5799999833106995
+    shieldemdamageresonance: 0.78
+    shieldexplosivedamageresonance: 0.48
+    shieldkineticdamageresonance: 0.58
     shieldrechargerate: 500000.0
-    shieldthermaldamageresonance: 0.6800000071525574
+    shieldthermaldamageresonance: 0.68
     shielduniformity: 0.75
     signatureradius: 125.0
     speed: 2500.0
     structureuniformity: 1.0
-    trackingspeed: 0.11749999970197678
+    trackingspeed: 0.1175
     volume: 60.0

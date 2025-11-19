@@ -5,9 +5,9 @@ types:
     armorpiercingchance: 1
     chargesize: 1
     detonationrange: 35
-    dotduration: 50000
-    dotmaxdamagepertick: 160
-    dotmaxhppercentagepertick: 0.6000000238418579
+    dotduration: 40000
+    dotmaxdamagepertick: 200
+    dotmaxhppercentagepertick: 0.6
     emdamageresonance: 1.0
     explosiondelay: 2000
     explosivedamageresonance: 1.0
@@ -19,7 +19,6 @@ types:
     mass: 100.0
     maxvelocity: 2000.0
     name: SCARAB Breacher Pod S
-    packagedVolume: 0.10000000149011612
     portionSize: 20
     price: 240.0
     published: true
@@ -29,15 +28,15 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   85089:
     agility: 8.0
     aimedlaunch: 1
     chargesize: 2
     detonationrange: 35
-    dotduration: 50000
-    dotmaxdamagepertick: 800
-    dotmaxhppercentagepertick: 0.800000011920929
+    dotduration: 40000
+    dotmaxdamagepertick: 600
+    dotmaxhppercentagepertick: 0.8
     emdamageresonance: 1.0
     explosiondelay: 4000
     explosivedamageresonance: 1.0
@@ -49,7 +48,6 @@ types:
     mass: 1000.0
     maxvelocity: 2000.0
     name: SCARAB Breacher Pod M
-    packagedVolume: 0.5
     portionSize: 20
     price: 2516.0
     published: true

@@ -1,65 +1,57 @@
 types:
   57714:
     id: 57714
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-NW-15 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57715:
     id: 57715
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-NW-45 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57716:
     id: 57716
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-NE-15 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57717:
     id: 57717
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-SE-15 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57718:
     id: 57718
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-SE-45 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57719:
     id: 57719
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-NE-45 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57720:
     id: 57720
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-SW-15 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   57721:
     id: 57721
-    mass: 0.10000000149011612
+    mass: 0.1
     name: ESS-SW-45 Reserve Security Key
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

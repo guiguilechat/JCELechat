@@ -16,13 +16,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -52,13 +50,6 @@ public class StructureResourceRigXLReprocessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup02;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * 
      */
@@ -94,13 +85,6 @@ public class StructureResourceRigXLReprocessing
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
-    /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
@@ -158,7 +142,7 @@ public class StructureResourceRigXLReprocessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, HiSecModifier.INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, RequiredSkill1 .INSTANCE, SecurityModifier.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureResourceRigXLReprocessing.MetaGroup METAGROUP = new StructureResourceRigXLReprocessing.MetaGroup();
 
     @Override
@@ -171,10 +155,6 @@ public class StructureResourceRigXLReprocessing
             case  1299 :
             {
                 return canfitshipgroup02;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  2355 :
             {
@@ -195,10 +175,6 @@ public class StructureResourceRigXLReprocessing
             case  2357 :
             {
                 return nullsecmodifier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  717 :
             {

@@ -23,9 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
@@ -47,6 +45,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntegratedMiningScanner;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
@@ -65,7 +64,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -106,8 +104,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -164,6 +162,10 @@ public class Corvette
     @Stackable(true)
     @DefaultIntValue(0)
     public int hislots;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int integratedminingscanner;
     /**
      * The number of low power slots on the ship.
      */
@@ -494,7 +496,7 @@ public class Corvette
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, DroneCapacity.INSTANCE, RookieSETCapBonus.INSTANCE, RookieSETDamageBonus.INSTANCE, RookieWeaponDisruptionBonus.INSTANCE, RookieArmorResistanceBonus.INSTANCE, RookieSHTOptimalBonus.INSTANCE, RookieMissileKinDamageBonus.INSTANCE, RookieECMStrengthBonus.INSTANCE, RookieShieldResistBonus.INSTANCE, MaxVelocity.INSTANCE, RookieSHTDamageBonus.INSTANCE, Capacity.INSTANCE, RookieDroneBonus.INSTANCE, RookieDampStrengthBonus.INSTANCE, SignatureRadius.INSTANCE, RookieArmorRepBonus.INSTANCE, RookieTargetPainterStrengthBonus.INSTANCE, RookieShipVelocityBonus.INSTANCE, RookieSPTDamageBonus.INSTANCE, RookieShieldBoostBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, RookieSETTracking.INSTANCE, WeaponDisruptionResistance.INSTANCE, RookieSETOptimal.INSTANCE, RookieNosDrain.INSTANCE, StasisWebifierResistance.INSTANCE, RookieNeutDrain.INSTANCE, RookieWebAmount.INSTANCE, RookieLightMissileVelocity.INSTANCE, Agility.INSTANCE, RookieRocketVelocity.INSTANCE, RookieDroneMWDspeed.INSTANCE, RookieSHTTracking.INSTANCE, RookieSHTFalloff.INSTANCE, RookieSPTTracking.INSTANCE, RookieSPTFalloff.INSTANCE, MaxTargetRange.INSTANCE, RookieSPTOptimal.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, DroneCapacity.INSTANCE, RookieSETCapBonus.INSTANCE, RookieSETDamageBonus.INSTANCE, RookieWeaponDisruptionBonus.INSTANCE, RookieArmorResistanceBonus.INSTANCE, RookieSHTOptimalBonus.INSTANCE, RookieMissileKinDamageBonus.INSTANCE, RookieECMStrengthBonus.INSTANCE, RookieShieldResistBonus.INSTANCE, MaxVelocity.INSTANCE, RookieSHTDamageBonus.INSTANCE, RookieDroneBonus.INSTANCE, RookieDampStrengthBonus.INSTANCE, SignatureRadius.INSTANCE, RookieArmorRepBonus.INSTANCE, RookieTargetPainterStrengthBonus.INSTANCE, RookieShipVelocityBonus.INSTANCE, RookieSPTDamageBonus.INSTANCE, RookieShieldBoostBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, RookieSETTracking.INSTANCE, WeaponDisruptionResistance.INSTANCE, RookieSETOptimal.INSTANCE, RookieNosDrain.INSTANCE, StasisWebifierResistance.INSTANCE, RookieNeutDrain.INSTANCE, RookieWebAmount.INSTANCE, RookieLightMissileVelocity.INSTANCE, Agility.INSTANCE, RookieRocketVelocity.INSTANCE, RookieDroneMWDspeed.INSTANCE, RookieSHTTracking.INSTANCE, RookieSHTFalloff.INSTANCE, RookieSPTTracking.INSTANCE, RookieSPTFalloff.INSTANCE, MaxTargetRange.INSTANCE, RookieSPTOptimal.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, IntegratedMiningScanner.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE })));
     public static final Corvette.MetaGroup METAGROUP = new Corvette.MetaGroup();
 
     @Override
@@ -515,6 +517,10 @@ public class Corvette
             case  14 :
             {
                 return hislots;
+            }
+            case  5978 :
+            {
+                return integratedminingscanner;
             }
             case  12 :
             {

@@ -21,14 +21,12 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeThukkerEngRigMatB
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HiSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LowSecModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NullSecModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
@@ -93,13 +91,6 @@ public class StructureEngineeringRigMAdvancedComponentME
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -150,13 +141,6 @@ public class StructureEngineeringRigMAdvancedComponentME
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -206,7 +190,7 @@ public class StructureEngineeringRigMAdvancedComponentME
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, AttributeEngRigCostBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, AttributeEngRigMatBonus.INSTANCE, AttributeEngRigCostBonus.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, RequiredSkill1 .INSTANCE, SecurityModifier.INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureEngineeringRigMAdvancedComponentME.MetaGroup METAGROUP = new StructureEngineeringRigMAdvancedComponentME.MetaGroup();
 
     @Override
@@ -240,10 +224,6 @@ public class StructureEngineeringRigMAdvancedComponentME
             {
                 return canfitshipgroup03;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -267,10 +247,6 @@ public class StructureEngineeringRigMAdvancedComponentME
             case  2357 :
             {
                 return nullsecmodifier;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  182 :
             {

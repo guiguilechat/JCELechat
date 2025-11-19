@@ -4,479 +4,391 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 331
     name: 5MN Microwarpdrive I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 316360.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1071:
     id: 1071
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 1MN Afterburner II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   1072:
     id: 1072
     industryblueprintrank: 3.0
     marketGroup: 1525
     name: 1MN Afterburner I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 64500.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   1073:
     id: 1073
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: 5MN Microwarpdrive II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12053:
     id: 12053
     industryblueprintrank: 6.0
     marketGroup: 331
     name: 50MN Microwarpdrive I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1581880.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12055:
     id: 12055
     industryblueprintrank: 9.0
     marketGroup: 331
     name: 500MN Microwarpdrive I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 7909400.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12057:
     id: 12057
     industryblueprintrank: 6.0
     marketGroup: 1525
     name: 10MN Afterburner I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 322560.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12059:
     id: 12059
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 10MN Afterburner II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12067:
     id: 12067
     industryblueprintrank: 9.0
     marketGroup: 1525
     name: 100MN Afterburner I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1612800.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12069:
     id: 12069
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 100MN Afterburner II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12077:
     id: 12077
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: 50MN Microwarpdrive II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12085:
     id: 12085
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: 500MN Microwarpdrive II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15748:
     id: 15748
     industryblueprintrank: 3.0
     name: Republic Fleet 5MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15750:
     id: 15750
     industryblueprintrank: 3.0
     name: Republic Fleet 1MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15752:
     id: 15752
     industryblueprintrank: 6.0
     name: Republic Fleet 50MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15754:
     id: 15754
     industryblueprintrank: 6.0
     name: Republic Fleet 10MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15756:
     id: 15756
     industryblueprintrank: 9.0
     name: Republic Fleet 500MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15758:
     id: 15758
     industryblueprintrank: 9.0
     name: Republic Fleet 100MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15760:
     id: 15760
     industryblueprintrank: 3.0
     name: Federation Navy 5MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15762:
     id: 15762
     industryblueprintrank: 3.0
     name: Federation Navy 1MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15765:
     id: 15765
     industryblueprintrank: 6.0
     name: Federation Navy 50MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15767:
     id: 15767
     industryblueprintrank: 6.0
     name: Federation Navy 10MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15769:
     id: 15769
     industryblueprintrank: 9.0
     name: Federation Navy 500MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15771:
     id: 15771
     industryblueprintrank: 9.0
     name: Federation Navy 100MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21471:
     id: 21471
     industryblueprintrank: 3.0
     name: 1MN Analog Booster Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21473:
     id: 21473
     industryblueprintrank: 6.0
     name: 10MN Analog Booster Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21475:
     id: 21475
     industryblueprintrank: 9.0
     name: 100MN Analog Booster Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21477:
     id: 21477
     industryblueprintrank: 3.0
     name: 5MN Digital Booster Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21479:
     id: 21479
     industryblueprintrank: 6.0
     name: 50MN Digital Booster Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21481:
     id: 21481
     industryblueprintrank: 9.0
     name: 500MN Digital Booster Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   21858:
     id: 21858
     industryblueprintrank: 6.0
     name: 1MN Civilian Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41242:
     id: 41242
     industryblueprintrank: 120.0
     marketGroup: 1525
     name: 10000MN Afterburner I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6E7
+    price: 16000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41243:
     id: 41243
     industryblueprintrank: 200.0
     marketGroup: 1525
     name: 10000MN Y-S8 Compact Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.2E7
+    price: 32000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41244:
     id: 41244
     industryblueprintrank: 200.0
     marketGroup: 1525
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.2E7
+    price: 32000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41245:
     id: 41245
     industryblueprintrank: 300.0
     name: 10000MN Afterburner II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41246:
     id: 41246
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Domination 10000MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41248:
     id: 41248
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Shadow Serpentis 10000MN Afterburner Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41256:
     id: 41256
     industryblueprintrank: 120.0
     marketGroup: 331
     name: 50000MN Microwarpdrive I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.9E7
+    price: 79000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41257:
     id: 41257
     industryblueprintrank: 200.0
     marketGroup: 331
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
+    price: 158000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41258:
     id: 41258
     industryblueprintrank: 200.0
     marketGroup: 331
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
+    price: 158000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41260:
     id: 41260
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Shadow Serpentis 50000MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41261:
     id: 41261
     industryblueprintrank: 300.0
     name: 50000MN Microwarpdrive II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   41262:
     id: 41262
     industryblueprintrank: 400.0
     metagroupid: 4
     name: Domination 50000MN Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
+    price: 60000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41313:
     id: 41313
     industryblueprintrank: 200.0
     marketGroup: 331
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
+    price: 158000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

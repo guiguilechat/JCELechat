@@ -11,7 +11,7 @@ types:
     cpu: 30.0
     duration: 30000.0
     ecmburstrange: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 580
@@ -20,11 +20,9 @@ types:
     maxgroupactive: 1
     name: Burst Jammer I
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -46,7 +44,7 @@ types:
     cpu: 36.0
     duration: 30000.0
     ecmburstrange: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 2117
@@ -56,18 +54,16 @@ types:
     metalevelold: 5
     name: Burst Jammer II
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 7.199999809265137
-    scanladarstrengthbonus: 7.199999809265137
-    scanmagnetometricstrengthbonus: 7.199999809265137
-    scanradarstrengthbonus: 7.199999809265137
+    scangravimetricstrengthbonus: 7.2
+    scanladarstrengthbonus: 7.2
+    scanmagnetometricstrengthbonus: 7.2
+    scanradarstrengthbonus: 7.2
     techlevel: 2
     volume: 5.0
   5361:
@@ -82,7 +78,7 @@ types:
     cpu: 30.0
     duration: 30000.0
     ecmburstrange: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 5361
@@ -92,18 +88,16 @@ types:
     metalevelold: 1
     name: Deluge Enduring Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 6.599999904632568
-    scanladarstrengthbonus: 6.599999904632568
-    scanmagnetometricstrengthbonus: 6.599999904632568
-    scanradarstrengthbonus: 6.599999904632568
+    scangravimetricstrengthbonus: 6.6
+    scanladarstrengthbonus: 6.6
+    scanmagnetometricstrengthbonus: 6.6
+    scanradarstrengthbonus: 6.6
     techlevel: 1
     volume: 5.0
   5363:
@@ -118,7 +112,7 @@ types:
     cpu: 24.0
     duration: 30000.0
     ecmburstrange: 10000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 5363
@@ -128,18 +122,16 @@ types:
     metalevelold: 1
     name: Rash Compact Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 6.599999904632568
-    scanladarstrengthbonus: 6.599999904632568
-    scanmagnetometricstrengthbonus: 6.599999904632568
-    scanradarstrengthbonus: 6.599999904632568
+    scangravimetricstrengthbonus: 6.6
+    scanladarstrengthbonus: 6.6
+    scanmagnetometricstrengthbonus: 6.6
+    scanradarstrengthbonus: 6.6
     techlevel: 1
     volume: 5.0
   5365:
@@ -154,7 +146,7 @@ types:
     cpu: 30.0
     duration: 30000.0
     ecmburstrange: 11000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 5365
@@ -164,18 +156,16 @@ types:
     metalevelold: 1
     name: Cetus Scoped Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
-    scangravimetricstrengthbonus: 6.599999904632568
-    scanladarstrengthbonus: 6.599999904632568
-    scanmagnetometricstrengthbonus: 6.599999904632568
-    scanradarstrengthbonus: 6.599999904632568
+    scangravimetricstrengthbonus: 6.6
+    scanladarstrengthbonus: 6.6
+    scanmagnetometricstrengthbonus: 6.6
+    scanradarstrengthbonus: 6.6
     techlevel: 1
     volume: 5.0
   20581:
@@ -190,7 +180,7 @@ types:
     cpu: 22.0
     duration: 30000.0
     ecmburstrange: 12000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 20581
@@ -201,11 +191,9 @@ types:
     metalevelold: 6
     name: '''Ghost'' Burst Jammer'
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -227,7 +215,7 @@ types:
     cpu: 24.0
     duration: 30000.0
     ecmburstrange: 13000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 40690
@@ -238,11 +226,9 @@ types:
     metalevelold: 8
     name: Sentient Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -264,7 +250,7 @@ types:
     cpu: 38.0
     duration: 30000.0
     ecmburstrange: 14000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 40691
@@ -275,11 +261,9 @@ types:
     metalevelold: 11
     name: Unit D-34343's Modified Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -301,7 +285,7 @@ types:
     cpu: 40.0
     duration: 30000.0
     ecmburstrange: 15000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 40692
@@ -312,11 +296,9 @@ types:
     metalevelold: 13
     name: Unit F-435454's Modified Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -338,7 +320,7 @@ types:
     cpu: 42.0
     duration: 30000.0
     ecmburstrange: 16000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 40693
@@ -349,11 +331,9 @@ types:
     metalevelold: 15
     name: Unit P-343554's Modified Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
@@ -375,7 +355,7 @@ types:
     cpu: 44.0
     duration: 30000.0
     ecmburstrange: 17000
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 10.0
     hp: 40.0
     id: 40694
@@ -386,11 +366,9 @@ types:
     metalevelold: 17
     name: Unit W-634's Modified Burst Jammer
     overloadecmstrengthbonus: 20
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3427
     requiredskill1level: 1
     requiredthermodynamicsskill: 1

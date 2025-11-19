@@ -18,7 +18,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
@@ -36,7 +35,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjfgRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -218,7 +216,7 @@ public class CapitalMobilityModules
     @Stackable(false)
     @DefaultIntValue(0)
     public int signatureradiusbonuspercent;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, MjdShipJumpCap.INSTANCE, MjdJumpRange.INSTANCE, CanFitShipGroup01 .INSTANCE, MjfgRadius.INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MjdCapitalShipJumpCap.INSTANCE, RequiredSkill2 .INSTANCE, MjdPostActivationScramDuration.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, MjdShipJumpCap.INSTANCE, CanFitShipGroup01 .INSTANCE, MjdJumpRange.INSTANCE, CanFitShipGroup02 .INSTANCE, MjfgRadius.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MjdCapitalShipJumpCap.INSTANCE, RequiredSkill2 .INSTANCE, MjdPostActivationScramDuration.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CapitalMobilityModules.MetaGroup METAGROUP = new CapitalMobilityModules.MetaGroup();
 
     @Override

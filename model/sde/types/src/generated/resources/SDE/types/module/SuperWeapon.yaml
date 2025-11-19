@@ -26,10 +26,9 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Gjallarhorn'' Explosive Doomsday'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40435264E8
+    price: 240435272.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -67,10 +66,9 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Judgment'' Electromagnetic Doomsday'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40727872E8
+    price: 240727880.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -108,10 +106,9 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Oblivion'' Kinetic Doomsday'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -150,10 +147,9 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Aurora Ominae'' Thermal Doomsday'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40950752E8
+    price: 240950758.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -204,10 +200,9 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Holy Destiny'' Electromagnetic Lance'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -257,10 +252,9 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Divine Harvest'' Electromagnetic Reaper'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -310,10 +304,9 @@ types:
     maxgroupfitted: 1
     maxrange: 30000.0
     name: Bosonic Field Generator
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -358,10 +351,9 @@ types:
     maxgroupfitted: 1
     maxrange: 100000.0
     name: Gravitational Transportation Field Oscillator
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 5.0E8
+    price: 500000000.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -411,10 +403,9 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Iron Pike'' Kinetic Lance'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -465,10 +456,9 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Phalarica'' Thermal Lance'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -521,10 +511,9 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Geiravor'' Explosive Lance'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -574,10 +563,9 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Cold Wind'' Kinetic Reaper'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -628,10 +616,9 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Guillotine'' Thermal Reaper'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -684,10 +671,9 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Jormungandr'' Explosive Reaper'
-    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -717,11 +703,10 @@ types:
     maxtypefitted: 1
     modulereactivationdelay: 600000
     name: Pulse Activated Nexus Invulnerability Core
-    packagedVolume: 8000.0
     panicduration: 240000
     portionSize: 1
     power: 50000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 44067
@@ -769,10 +754,9 @@ types:
     maxgroupfitted: 1
     maxrange: 50000.0
     name: '''Atgeir'' Explosive Disruptive Lance'
-    packagedVolume: 4000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 77739
@@ -823,10 +807,9 @@ types:
     maxgroupfitted: 1
     maxrange: 50000.0
     name: '''Azmaru'' Electromagnetic Disruptive Lance'
-    packagedVolume: 4000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 77739
@@ -877,10 +860,9 @@ types:
     maxgroupfitted: 1
     maxrange: 50000.0
     name: '''Steel Yari'' Kinetic Disruptive Lance'
-    packagedVolume: 4000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 77739
@@ -930,10 +912,9 @@ types:
     maxgroupfitted: 1
     maxrange: 50000.0
     name: '''Sarissa'' Thermal Disruptive Lance'
-    packagedVolume: 4000.0
     portionSize: 1
     power: 100000
-    price: 2.40947792E8
+    price: 240947786.0
     published: true
     radius: 1000.0
     requiredskill1: 77739

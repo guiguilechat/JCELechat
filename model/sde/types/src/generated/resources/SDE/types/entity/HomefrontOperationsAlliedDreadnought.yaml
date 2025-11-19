@@ -1,6 +1,6 @@
 types:
   77019:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 150000.0
@@ -34,11 +34,11 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     gfxboosterid: 394
     hp: 187500.0
     id: 77019
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -46,7 +46,6 @@ types:
     name: Legatus Bane
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -66,7 +65,7 @@ types:
     trackingspeed: 1.0
     volume: 1000.0
   77183:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 178125.0
@@ -100,11 +99,11 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     gfxboosterid: 397
     hp: 187500.0
     id: 77183
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -112,7 +111,6 @@ types:
     name: Verndari Valravn
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -132,7 +130,7 @@ types:
     trackingspeed: 1.0
     volume: 1000.0
   77184:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 150000.0
@@ -166,11 +164,11 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     gfxboosterid: 395
     hp: 187500.0
     id: 77184
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -178,7 +176,6 @@ types:
     name: Arbiter Karura
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0
@@ -198,7 +195,7 @@ types:
     trackingspeed: 1.0
     volume: 1000.0
   77185:
-    agility: 0.017085937783122063
+    agility: 0.017085938
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 178125.0
@@ -232,11 +229,11 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
-    entitysuperweapontrackingspeed: 0.0949999988079071
+    entitysuperweapontrackingspeed: 0.095
     gfxboosterid: 394
     hp: 187500.0
     id: 77185
-    mass: 1.29E9
+    mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
     maxtargetrange: 250000.0
@@ -244,7 +241,6 @@ types:
     name: Peacekeeper Hubris
     npcbehaviormaximumcombatorbitrange: 40000.0
     optimalsigradius: 40000
-    packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 1700.0

@@ -3,7 +3,6 @@ types:
     id: 4051
     marketGroup: 1870
     name: Nitrogen Fuel Block
-    packagedVolume: 5.0
     portionSize: 40
     price: 95.0
     published: true
@@ -12,7 +11,6 @@ types:
     id: 4246
     marketGroup: 1870
     name: Hydrogen Fuel Block
-    packagedVolume: 5.0
     portionSize: 40
     price: 95.0
     published: true
@@ -21,7 +19,6 @@ types:
     id: 4247
     marketGroup: 1870
     name: Helium Fuel Block
-    packagedVolume: 5.0
     portionSize: 40
     price: 95.0
     published: true
@@ -30,7 +27,6 @@ types:
     id: 4312
     marketGroup: 1870
     name: Oxygen Fuel Block
-    packagedVolume: 5.0
     portionSize: 40
     price: 95.0
     published: true

@@ -17,14 +17,12 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AdvancedIndustrySkillIndus
 import fr.guiguilechat.jcelechat.model.sde.attributes.AmarrTechMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CaldariTechMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GallenteTechMutator;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureTimePerLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufacturingSlotBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ManufacturingTimeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -139,7 +137,7 @@ public class Production
     @Stackable(true)
     @DefaultIntValue(0)
     public int skilllevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingSlotBonus.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, AdvancedIndustrySkillIndustryJobTimeBonus.INSTANCE, AmarrTechMutator.INSTANCE, CaldariTechMutator.INSTANCE, SkillTimeConstant.INSTANCE, GallenteTechMutator.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, SkillLevel.INSTANCE, RequiredSkill3 .INSTANCE, DurationSkillBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingSlotBonus.INSTANCE, AdvancedIndustrySkillIndustryJobTimeBonus.INSTANCE, AmarrTechMutator.INSTANCE, CaldariTechMutator.INSTANCE, SkillTimeConstant.INSTANCE, GallenteTechMutator.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, DurationSkillBonus.INSTANCE, ManufacturingTimeBonus.INSTANCE, ManufactureTimePerLevel.INSTANCE })));
     public static final Production.MetaGroup METAGROUP = new Production.MetaGroup();
 
     @Override

@@ -4,12 +4,10 @@ types:
     implantness: 1
     marketGroup: 618
     name: Ocular Filter - Basic
-    packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -20,11 +18,9 @@ types:
     marketGroup: 619
     memorybonus: 3
     name: Memory Augmentation - Basic
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -34,11 +30,9 @@ types:
     implantness: 3
     marketGroup: 620
     name: Neural Boost - Basic
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -50,11 +44,9 @@ types:
     intelligencebonus: 3
     marketGroup: 621
     name: Cybernetic Subprocessor - Basic
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -65,11 +57,9 @@ types:
     implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Basic
-    packagedVolume: 1.0
     portionSize: 1
     price: 200000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -80,11 +70,9 @@ types:
     marketGroup: 619
     memorybonus: 4
     name: Memory Augmentation - Standard
-    packagedVolume: 1.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -95,11 +83,9 @@ types:
     marketGroup: 619
     memorybonus: 5
     name: Memory Augmentation - Improved
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -109,11 +95,9 @@ types:
     implantness: 3
     marketGroup: 620
     name: Neural Boost - Standard
-    packagedVolume: 1.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -124,11 +108,9 @@ types:
     implantness: 3
     marketGroup: 620
     name: Neural Boost - Improved
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -139,12 +121,10 @@ types:
     implantness: 1
     marketGroup: 618
     name: Ocular Filter - Standard
-    packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -154,12 +134,10 @@ types:
     implantness: 1
     marketGroup: 618
     name: Ocular Filter - Improved
-    packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -170,11 +148,9 @@ types:
     intelligencebonus: 4
     marketGroup: 621
     name: Cybernetic Subprocessor - Standard
-    packagedVolume: 1.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -185,11 +161,9 @@ types:
     intelligencebonus: 5
     marketGroup: 621
     name: Cybernetic Subprocessor - Improved
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -200,11 +174,9 @@ types:
     implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Standard
-    packagedVolume: 1.0
     portionSize: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 4
     techlevel: 1
@@ -215,11 +187,9 @@ types:
     implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Improved
-    packagedVolume: 1.0
     portionSize: 1
     price: 800000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 5
     techlevel: 1
@@ -229,12 +199,10 @@ types:
     implantness: 1
     marketGroup: 618
     name: Limited Ocular Filter
-    packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -245,11 +213,9 @@ types:
     marketGroup: 619
     memorybonus: 1
     name: Limited Memory Augmentation
-    packagedVolume: 1.0
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -259,11 +225,9 @@ types:
     implantness: 3
     marketGroup: 620
     name: Limited Neural Boost
-    packagedVolume: 1.0
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -275,11 +239,9 @@ types:
     implantness: 5
     marketGroup: 622
     name: Limited Social Adaptation Chip
-    packagedVolume: 1.0
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -290,11 +252,9 @@ types:
     intelligencebonus: 1
     marketGroup: 621
     name: Limited Cybernetic Subprocessor
-    packagedVolume: 1.0
     portionSize: 1
     price: 10000.0
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -304,11 +264,9 @@ types:
     implantness: 1
     marketGroup: 618
     name: Limited Ocular Filter - Beta
-    packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -318,10 +276,8 @@ types:
     implantness: 3
     marketGroup: 620
     name: Limited Neural Boost - Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -333,10 +289,8 @@ types:
     marketGroup: 619
     memorybonus: 2
     name: Limited Memory Augmentation - Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -347,10 +301,8 @@ types:
     intelligencebonus: 2
     marketGroup: 621
     name: Limited Cybernetic Subprocessor - Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1
@@ -361,10 +313,8 @@ types:
     implantness: 5
     marketGroup: 622
     name: Limited Social Adaptation Chip - Beta
-    packagedVolume: 1.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3411
     requiredskill1level: 1
     techlevel: 1

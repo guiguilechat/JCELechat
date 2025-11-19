@@ -1,6 +1,6 @@
 types:
   17857:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -16,7 +16,6 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     name: Mjolnir XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 350000.0
     published: true
@@ -27,9 +26,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3
   17859:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -45,7 +44,6 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     name: Scourge XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 300000.0
     published: true
@@ -56,9 +54,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3
   17861:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -73,7 +71,6 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     name: Inferno XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 325000.0
     published: true
@@ -85,9 +82,9 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 5885.0
-    volume: 0.30000001192092896
+    volume: 0.3
   17863:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -103,7 +100,6 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     name: Nova XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 250000.0
     published: true
@@ -114,9 +110,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3
   29616:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -134,7 +130,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Guristas Nova XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 250000.0
     published: true
@@ -145,9 +140,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3
   29618:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -164,7 +159,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Guristas Inferno XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 325000.0
     published: true
@@ -176,9 +170,9 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 6470.0
-    volume: 0.30000001192092896
+    volume: 0.3
   29620:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -196,7 +190,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Guristas Scourge XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 300000.0
     published: true
@@ -207,9 +200,9 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3
   29622:
-    agility: 148.0471954345703
+    agility: 148.04719803168948
     aimedlaunch: 1
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
@@ -227,7 +220,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Guristas Mjolnir XL Torpedo
-    packagedVolume: 0.30000001192092896
     portionSize: 100
     price: 350000.0
     published: true
@@ -238,4 +230,4 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    volume: 0.30000001192092896
+    volume: 0.3

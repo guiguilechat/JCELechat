@@ -9,7 +9,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' EM Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -21,13 +20,12 @@ types:
   11217:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -34.709999084472656
+    emdamageresistancebonus: -34.71
     hp: 40.0
     id: 11217
     marketGroup: 1684
     mass: 1.0
     name: EM Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -39,14 +37,13 @@ types:
   11219:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -38.81999969482422
+    emdamageresistancebonus: -38.82
     hp: 40.0
     id: 11219
     marketGroup: 1684
     mass: 1.0
     metalevelold: 5
     name: EM Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -65,7 +62,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' Explosive Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -77,13 +73,12 @@ types:
   11227:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -34.709999084472656
+    explosivedamageresistancebonus: -34.71
     hp: 40.0
     id: 11227
     marketGroup: 1682
     mass: 1.0
     name: Explosive Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -95,14 +90,13 @@ types:
   11229:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -38.81999969482422
+    explosivedamageresistancebonus: -38.82
     hp: 40.0
     id: 11229
     marketGroup: 1682
     mass: 1.0
     metalevelold: 5
     name: Explosive Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -112,7 +106,7 @@ types:
     techlevel: 2
     volume: 5.0
   11235:
-    armorhpmultiplier: 1.1100000143051147
+    armorhpmultiplier: 1.11
     cpu: 18.0
     hp: 40.0
     id: 11235
@@ -120,7 +114,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' Layered Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -130,14 +123,13 @@ types:
     techlevel: 1
     volume: 5.0
   11237:
-    armorhpmultiplier: 1.1349999904632568
+    armorhpmultiplier: 1.135
     cpu: 25.0
     hp: 40.0
     id: 11237
     marketGroup: 1687
     mass: 1.0
     name: Layered Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -147,7 +139,7 @@ types:
     techlevel: 1
     volume: 5.0
   11239:
-    armorhpmultiplier: 1.159999966621399
+    armorhpmultiplier: 1.16
     cpu: 30.0
     hp: 40.0
     id: 11239
@@ -155,7 +147,6 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Layered Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -174,7 +165,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' Kinetic Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -188,11 +178,10 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 11247
-    kineticdamageresistancebonus: -34.709999084472656
+    kineticdamageresistancebonus: -34.71
     marketGroup: 1685
     mass: 1.0
     name: Kinetic Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -206,12 +195,11 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 11249
-    kineticdamageresistancebonus: -38.81999969482422
+    kineticdamageresistancebonus: -38.82
     marketGroup: 1685
     mass: 1.0
     metalevelold: 5
     name: Kinetic Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -229,7 +217,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' Thermal Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -247,7 +234,6 @@ types:
     marketGroup: 1683
     mass: 1.0
     name: Thermal Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -255,7 +241,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -34.709999084472656
+    thermaldamageresistancebonus: -34.71
     volume: 5.0
   11259:
     armorhpmultiplier: 1.0
@@ -266,7 +252,6 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Thermal Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -274,7 +259,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 5
     techlevel: 2
-    thermaldamageresistancebonus: -38.81999969482422
+    thermaldamageresistancebonus: -38.82
     volume: 5.0
   11265:
     armorhpmultiplier: 1.0
@@ -288,7 +273,6 @@ types:
     mass: 1.0
     metalevelold: 6
     name: '''Basic'' Multispectrum Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -309,7 +293,6 @@ types:
     marketGroup: 1686
     mass: 1.0
     name: Multispectrum Energized Membrane I
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -331,7 +314,6 @@ types:
     mass: 1.0
     metalevelold: 5
     name: Multispectrum Energized Membrane II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -354,7 +336,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -377,7 +358,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -400,7 +380,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -415,13 +394,12 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 14076
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -435,13 +413,12 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 14078
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -455,13 +432,12 @@ types:
     cpu: 18.0
     hp: 40.0
     id: 14080
-    kineticdamageresistancebonus: -38.81999969482422
+    kineticdamageresistancebonus: -38.82
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -473,7 +449,7 @@ types:
   14082:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 14082
     marketGroup: 1682
@@ -481,7 +457,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -493,7 +468,7 @@ types:
   14084:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 14084
     marketGroup: 1682
@@ -501,7 +476,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -513,7 +487,7 @@ types:
   14086:
     armorhpmultiplier: 1.0
     cpu: 18.0
-    explosivedamageresistancebonus: -38.81999969482422
+    explosivedamageresistancebonus: -38.82
     hp: 40.0
     id: 14086
     marketGroup: 1682
@@ -521,7 +495,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -533,7 +506,7 @@ types:
   14088:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 14088
     marketGroup: 1684
@@ -541,7 +514,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -553,7 +525,7 @@ types:
   14090:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 14090
     marketGroup: 1684
@@ -561,7 +533,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -573,7 +544,7 @@ types:
   14092:
     armorhpmultiplier: 1.0
     cpu: 18.0
-    emdamageresistancebonus: -38.81999969482422
+    emdamageresistancebonus: -38.82
     hp: 40.0
     id: 14092
     marketGroup: 1684
@@ -581,7 +552,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -600,7 +570,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -608,7 +577,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   14096:
     armorhpmultiplier: 1.0
@@ -620,7 +589,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: True Sansha Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -628,7 +596,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   14098:
     armorhpmultiplier: 1.0
@@ -640,7 +608,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Shadow Serpentis Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -648,22 +615,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -38.81999969482422
+    thermaldamageresistancebonus: -38.82
     volume: 5.0
   14936:
     armorhpmultiplier: 1.0
     cpu: 33.0
-    emdamageresistancebonus: -25.239999771118164
-    explosivedamageresistancebonus: -25.239999771118164
+    emdamageresistancebonus: -25.24
+    explosivedamageresistancebonus: -25.24
     hp: 40.0
     id: 14936
-    kineticdamageresistancebonus: -25.239999771118164
+    kineticdamageresistancebonus: -25.24
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -671,22 +637,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -25.239999771118164
+    thermaldamageresistancebonus: -25.24
     volume: 5.0
   14938:
     armorhpmultiplier: 1.0
     cpu: 33.0
-    emdamageresistancebonus: -25.239999771118164
-    explosivedamageresistancebonus: -25.239999771118164
+    emdamageresistancebonus: -25.24
+    explosivedamageresistancebonus: -25.24
     hp: 40.0
     id: 14938
-    kineticdamageresistancebonus: -25.239999771118164
+    kineticdamageresistancebonus: -25.24
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -694,7 +659,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -25.239999771118164
+    thermaldamageresistancebonus: -25.24
     volume: 5.0
   14940:
     armorhpmultiplier: 1.0
@@ -709,7 +674,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -732,7 +696,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -745,17 +708,16 @@ types:
   14944:
     armorhpmultiplier: 1.0
     cpu: 38.0
-    emdamageresistancebonus: -30.760000228881836
-    explosivedamageresistancebonus: -30.760000228881836
+    emdamageresistancebonus: -30.76
+    explosivedamageresistancebonus: -30.76
     hp: 40.0
     id: 14944
-    kineticdamageresistancebonus: -30.760000228881836
+    kineticdamageresistancebonus: -30.76
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -763,22 +725,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -30.760000228881836
+    thermaldamageresistancebonus: -30.76
     volume: 5.0
   14946:
     armorhpmultiplier: 1.0
     cpu: 38.0
-    emdamageresistancebonus: -30.760000228881836
-    explosivedamageresistancebonus: -30.760000228881836
+    emdamageresistancebonus: -30.76
+    explosivedamageresistancebonus: -30.76
     hp: 40.0
     id: 14946
-    kineticdamageresistancebonus: -30.760000228881836
+    kineticdamageresistancebonus: -30.76
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -786,7 +747,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -30.760000228881836
+    thermaldamageresistancebonus: -30.76
     volume: 5.0
   14948:
     armorhpmultiplier: 1.0
@@ -801,7 +762,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -824,7 +784,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -844,7 +803,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -852,7 +810,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -43.119998931884766
+    thermaldamageresistancebonus: -43.12
     volume: 5.0
   14954:
     armorhpmultiplier: 1.0
@@ -864,7 +822,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -872,7 +829,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -43.119998931884766
+    thermaldamageresistancebonus: -43.12
     volume: 5.0
   14956:
     armorhpmultiplier: 1.0
@@ -884,7 +841,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -892,7 +848,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -45.380001068115234
+    thermaldamageresistancebonus: -45.38
     volume: 5.0
   14958:
     armorhpmultiplier: 1.0
@@ -904,7 +860,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -912,7 +867,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -45.380001068115234
+    thermaldamageresistancebonus: -45.38
     volume: 5.0
   14960:
     armorhpmultiplier: 1.0
@@ -924,7 +879,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -932,7 +886,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -47.619998931884766
+    thermaldamageresistancebonus: -47.62
     volume: 5.0
   14962:
     armorhpmultiplier: 1.0
@@ -944,7 +898,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -952,7 +905,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -47.619998931884766
+    thermaldamageresistancebonus: -47.62
     volume: 5.0
   14964:
     armorhpmultiplier: 1.0
@@ -964,7 +917,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -972,7 +924,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -49.880001068115234
+    thermaldamageresistancebonus: -49.88
     volume: 5.0
   14966:
     armorhpmultiplier: 1.0
@@ -984,7 +936,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -992,12 +943,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -49.880001068115234
+    thermaldamageresistancebonus: -49.88
     volume: 5.0
   14968:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -43.119998931884766
+    emdamageresistancebonus: -43.12
     hp: 40.0
     id: 14968
     marketGroup: 1684
@@ -1005,7 +956,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1017,7 +967,7 @@ types:
   14970:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -43.119998931884766
+    emdamageresistancebonus: -43.12
     hp: 40.0
     id: 14970
     marketGroup: 1684
@@ -1025,7 +975,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1037,7 +986,7 @@ types:
   14972:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -45.380001068115234
+    emdamageresistancebonus: -45.38
     hp: 40.0
     id: 14972
     marketGroup: 1684
@@ -1045,7 +994,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1057,7 +1005,7 @@ types:
   14974:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -45.380001068115234
+    emdamageresistancebonus: -45.38
     hp: 40.0
     id: 14974
     marketGroup: 1684
@@ -1065,7 +1013,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1077,7 +1024,7 @@ types:
   14976:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -47.619998931884766
+    emdamageresistancebonus: -47.62
     hp: 40.0
     id: 14976
     marketGroup: 1684
@@ -1085,7 +1032,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1097,7 +1043,7 @@ types:
   14978:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -47.619998931884766
+    emdamageresistancebonus: -47.62
     hp: 40.0
     id: 14978
     marketGroup: 1684
@@ -1105,7 +1051,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1117,7 +1062,7 @@ types:
   14980:
     armorhpmultiplier: 1.0
     cpu: 34.0
-    emdamageresistancebonus: -49.880001068115234
+    emdamageresistancebonus: -49.88
     hp: 40.0
     id: 14980
     marketGroup: 1684
@@ -1125,7 +1070,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1137,7 +1081,7 @@ types:
   14982:
     armorhpmultiplier: 1.0
     cpu: 34.0
-    emdamageresistancebonus: -49.880001068115234
+    emdamageresistancebonus: -49.88
     hp: 40.0
     id: 14982
     marketGroup: 1684
@@ -1145,7 +1089,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1157,7 +1100,7 @@ types:
   14984:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -43.119998931884766
+    explosivedamageresistancebonus: -43.12
     hp: 40.0
     id: 14984
     marketGroup: 1682
@@ -1165,7 +1108,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1177,7 +1119,7 @@ types:
   14986:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -43.119998931884766
+    explosivedamageresistancebonus: -43.12
     hp: 40.0
     id: 14986
     marketGroup: 1682
@@ -1185,7 +1127,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1197,7 +1138,7 @@ types:
   14988:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -45.380001068115234
+    explosivedamageresistancebonus: -45.38
     hp: 40.0
     id: 14988
     marketGroup: 1682
@@ -1205,7 +1146,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1217,7 +1157,7 @@ types:
   14990:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -45.380001068115234
+    explosivedamageresistancebonus: -45.38
     hp: 40.0
     id: 14990
     marketGroup: 1682
@@ -1225,7 +1165,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1237,7 +1176,7 @@ types:
   14992:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    explosivedamageresistancebonus: -47.619998931884766
+    explosivedamageresistancebonus: -47.62
     hp: 40.0
     id: 14992
     marketGroup: 1682
@@ -1245,7 +1184,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1257,7 +1195,7 @@ types:
   14994:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    explosivedamageresistancebonus: -47.619998931884766
+    explosivedamageresistancebonus: -47.62
     hp: 40.0
     id: 14994
     marketGroup: 1682
@@ -1265,7 +1203,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1277,7 +1214,7 @@ types:
   14996:
     armorhpmultiplier: 1.0
     cpu: 34.0
-    explosivedamageresistancebonus: -49.880001068115234
+    explosivedamageresistancebonus: -49.88
     hp: 40.0
     id: 14996
     marketGroup: 1682
@@ -1285,7 +1222,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1297,7 +1233,7 @@ types:
   14998:
     armorhpmultiplier: 1.0
     cpu: 34.0
-    explosivedamageresistancebonus: -49.880001068115234
+    explosivedamageresistancebonus: -49.88
     hp: 40.0
     id: 14998
     marketGroup: 1682
@@ -1305,7 +1241,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1319,13 +1254,12 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 15000
-    kineticdamageresistancebonus: -43.119998931884766
+    kineticdamageresistancebonus: -43.12
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brokara's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1339,13 +1273,12 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 15002
-    kineticdamageresistancebonus: -43.119998931884766
+    kineticdamageresistancebonus: -43.12
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Tairei's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1359,13 +1292,12 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 15004
-    kineticdamageresistancebonus: -45.380001068115234
+    kineticdamageresistancebonus: -45.38
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Selynne's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1379,13 +1311,12 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 15006
-    kineticdamageresistancebonus: -45.380001068115234
+    kineticdamageresistancebonus: -45.38
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Raysere's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1399,13 +1330,12 @@ types:
     cpu: 32.0
     hp: 40.0
     id: 15008
-    kineticdamageresistancebonus: -47.619998931884766
+    kineticdamageresistancebonus: -47.62
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Vizan's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1419,13 +1349,12 @@ types:
     cpu: 32.0
     hp: 40.0
     id: 15010
-    kineticdamageresistancebonus: -47.619998931884766
+    kineticdamageresistancebonus: -47.62
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Ahremen's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1439,13 +1368,12 @@ types:
     cpu: 34.0
     hp: 40.0
     id: 15012
-    kineticdamageresistancebonus: -49.880001068115234
+    kineticdamageresistancebonus: -49.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Chelm's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1459,13 +1387,12 @@ types:
     cpu: 34.0
     hp: 40.0
     id: 15014
-    kineticdamageresistancebonus: -49.880001068115234
+    kineticdamageresistancebonus: -49.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Draclira's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1477,17 +1404,16 @@ types:
   15204:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -23.600000381469727
-    explosivedamageresistancebonus: -23.600000381469727
+    emdamageresistancebonus: -23.6
+    explosivedamageresistancebonus: -23.6
     hp: 40.0
     id: 15204
-    kineticdamageresistancebonus: -23.600000381469727
+    kineticdamageresistancebonus: -23.6
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1495,22 +1421,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -23.600000381469727
+    thermaldamageresistancebonus: -23.6
     volume: 5.0
   15206:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -26.34000015258789
-    explosivedamageresistancebonus: -26.34000015258789
+    emdamageresistancebonus: -26.34
+    explosivedamageresistancebonus: -26.34
     hp: 40.0
     id: 15206
-    kineticdamageresistancebonus: -26.34000015258789
+    kineticdamageresistancebonus: -26.34
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1518,22 +1443,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -26.34000015258789
+    thermaldamageresistancebonus: -26.34
     volume: 5.0
   15208:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -29.100000381469727
-    explosivedamageresistancebonus: -29.100000381469727
+    emdamageresistancebonus: -29.1
+    explosivedamageresistancebonus: -29.1
     hp: 40.0
     id: 15208
-    kineticdamageresistancebonus: -29.100000381469727
+    kineticdamageresistancebonus: -29.1
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1541,22 +1465,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -29.100000381469727
+    thermaldamageresistancebonus: -29.1
     volume: 5.0
   15210:
     armorhpmultiplier: 1.0
     cpu: 34.0
-    emdamageresistancebonus: -31.84000015258789
-    explosivedamageresistancebonus: -31.84000015258789
+    emdamageresistancebonus: -31.84
+    explosivedamageresistancebonus: -31.84
     hp: 40.0
     id: 15210
-    kineticdamageresistancebonus: -31.84000015258789
+    kineticdamageresistancebonus: -31.84
     marketGroup: 1686
     mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1564,7 +1487,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -31.84000015258789
+    thermaldamageresistancebonus: -31.84
     volume: 5.0
   15212:
     armorhpmultiplier: 1.0
@@ -1576,7 +1499,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1584,7 +1506,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -41.779998779296875
+    thermaldamageresistancebonus: -41.78
     volume: 5.0
   15214:
     armorhpmultiplier: 1.0
@@ -1596,7 +1518,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1604,7 +1525,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -44.02000045776367
+    thermaldamageresistancebonus: -44.02
     volume: 5.0
   15216:
     armorhpmultiplier: 1.0
@@ -1616,7 +1537,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1624,7 +1544,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -46.279998779296875
+    thermaldamageresistancebonus: -46.28
     volume: 5.0
   15218:
     armorhpmultiplier: 1.0
@@ -1636,7 +1556,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1644,12 +1563,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -48.52000045776367
+    thermaldamageresistancebonus: -48.52
     volume: 5.0
   15220:
     armorhpmultiplier: 1.0
     cpu: 24.0
-    emdamageresistancebonus: -41.779998779296875
+    emdamageresistancebonus: -41.78
     hp: 40.0
     id: 15220
     marketGroup: 1684
@@ -1657,7 +1576,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1669,7 +1587,7 @@ types:
   15222:
     armorhpmultiplier: 1.0
     cpu: 26.0
-    emdamageresistancebonus: -44.02000045776367
+    emdamageresistancebonus: -44.02
     hp: 40.0
     id: 15222
     marketGroup: 1684
@@ -1677,7 +1595,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1689,7 +1606,7 @@ types:
   15224:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -46.279998779296875
+    emdamageresistancebonus: -46.28
     hp: 40.0
     id: 15224
     marketGroup: 1684
@@ -1697,7 +1614,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1709,7 +1625,7 @@ types:
   15226:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -48.52000045776367
+    emdamageresistancebonus: -48.52
     hp: 40.0
     id: 15226
     marketGroup: 1684
@@ -1717,7 +1633,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1729,7 +1644,7 @@ types:
   15228:
     armorhpmultiplier: 1.0
     cpu: 24.0
-    explosivedamageresistancebonus: -41.779998779296875
+    explosivedamageresistancebonus: -41.78
     hp: 40.0
     id: 15228
     marketGroup: 1682
@@ -1737,7 +1652,6 @@ types:
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1749,7 +1663,7 @@ types:
   15230:
     armorhpmultiplier: 1.0
     cpu: 26.0
-    explosivedamageresistancebonus: -44.02000045776367
+    explosivedamageresistancebonus: -44.02
     hp: 40.0
     id: 15230
     marketGroup: 1682
@@ -1757,7 +1671,6 @@ types:
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1769,7 +1682,7 @@ types:
   15232:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -46.279998779296875
+    explosivedamageresistancebonus: -46.28
     hp: 40.0
     id: 15232
     marketGroup: 1682
@@ -1777,7 +1690,6 @@ types:
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1789,7 +1701,7 @@ types:
   15234:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -48.52000045776367
+    explosivedamageresistancebonus: -48.52
     hp: 40.0
     id: 15234
     marketGroup: 1682
@@ -1797,7 +1709,6 @@ types:
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1811,13 +1722,12 @@ types:
     cpu: 24.0
     hp: 40.0
     id: 15236
-    kineticdamageresistancebonus: -41.779998779296875
+    kineticdamageresistancebonus: -41.78
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 11
     name: Brynn's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1831,13 +1741,12 @@ types:
     cpu: 26.0
     hp: 40.0
     id: 15238
-    kineticdamageresistancebonus: -44.02000045776367
+    kineticdamageresistancebonus: -44.02
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 13
     name: Tuvan's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1851,13 +1760,12 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 15240
-    kineticdamageresistancebonus: -46.279998779296875
+    kineticdamageresistancebonus: -46.28
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 15
     name: Setele's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1871,13 +1779,12 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 15242
-    kineticdamageresistancebonus: -48.52000045776367
+    kineticdamageresistancebonus: -48.52
     marketGroup: 1685
     mass: 1.0
     metagroupid: 5
     metalevelold: 17
     name: Cormack's Modified Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1896,7 +1803,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1904,12 +1810,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   15723:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 15723
     marketGroup: 1684
@@ -1917,7 +1823,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1929,7 +1834,7 @@ types:
   15725:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 15725
     marketGroup: 1682
@@ -1937,7 +1842,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1951,13 +1855,12 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 15727
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1979,7 +1882,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Imperial Navy Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -1999,7 +1901,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2007,12 +1908,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -38.81999969482422
+    thermaldamageresistancebonus: -38.82
     volume: 5.0
   15733:
     armorhpmultiplier: 1.0
     cpu: 18.0
-    emdamageresistancebonus: -38.81999969482422
+    emdamageresistancebonus: -38.82
     hp: 40.0
     id: 15733
     marketGroup: 1684
@@ -2020,7 +1921,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2032,7 +1932,7 @@ types:
   15735:
     armorhpmultiplier: 1.0
     cpu: 18.0
-    explosivedamageresistancebonus: -38.81999969482422
+    explosivedamageresistancebonus: -38.82
     hp: 40.0
     id: 15735
     marketGroup: 1682
@@ -2040,7 +1940,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2054,13 +1953,12 @@ types:
     cpu: 18.0
     hp: 40.0
     id: 15737
-    kineticdamageresistancebonus: -38.81999969482422
+    kineticdamageresistancebonus: -38.82
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2082,7 +1980,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Federation Navy Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2095,16 +1992,15 @@ types:
   16391:
     armorhpmultiplier: 1.0
     cpu: 24.0
-    emdamageresistancebonus: -16.8799991607666
-    explosivedamageresistancebonus: -16.8799991607666
+    emdamageresistancebonus: -16.88
+    explosivedamageresistancebonus: -16.88
     hp: 40.0
     id: 16391
-    kineticdamageresistancebonus: -16.8799991607666
+    kineticdamageresistancebonus: -16.88
     marketGroup: 1686
     mass: 1.0
     metalevelold: 1
     name: Compact Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2112,19 +2008,18 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -16.8799991607666
+    thermaldamageresistancebonus: -16.88
     volume: 5.0
   16399:
     armorhpmultiplier: 1.0
     cpu: 20.0
     hp: 40.0
     id: 16399
-    kineticdamageresistancebonus: -36.2400016784668
+    kineticdamageresistancebonus: -36.24
     marketGroup: 1685
     mass: 1.0
     metalevelold: 1
     name: Compact Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2136,14 +2031,13 @@ types:
   16407:
     armorhpmultiplier: 1.0
     cpu: 20.0
-    explosivedamageresistancebonus: -36.2400016784668
+    explosivedamageresistancebonus: -36.24
     hp: 40.0
     id: 16407
     marketGroup: 1682
     mass: 1.0
     metalevelold: 1
     name: Compact Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2155,14 +2049,13 @@ types:
   16415:
     armorhpmultiplier: 1.0
     cpu: 20.0
-    emdamageresistancebonus: -36.2400016784668
+    emdamageresistancebonus: -36.24
     hp: 40.0
     id: 16415
     marketGroup: 1684
     mass: 1.0
     metalevelold: 1
     name: Compact EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2172,7 +2065,7 @@ types:
     techlevel: 1
     volume: 5.0
   16423:
-    armorhpmultiplier: 1.1449999809265137
+    armorhpmultiplier: 1.145
     cpu: 20.0
     hp: 40.0
     id: 16423
@@ -2180,7 +2073,6 @@ types:
     mass: 1.0
     metalevelold: 1
     name: Compact Layered Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2198,7 +2090,6 @@ types:
     mass: 1.0
     metalevelold: 1
     name: Compact Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2206,7 +2097,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -36.2400016784668
+    thermaldamageresistancebonus: -36.24
     volume: 5.0
   17536:
     armorhpmultiplier: 1.0
@@ -2221,7 +2112,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2236,13 +2126,12 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 17538
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2254,7 +2143,7 @@ types:
   17540:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 17540
     marketGroup: 1682
@@ -2262,7 +2151,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2274,7 +2162,7 @@ types:
   17542:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 17542
     marketGroup: 1684
@@ -2282,7 +2170,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2301,7 +2188,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Ammatar Navy Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2309,7 +2195,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   18799:
     armorhpmultiplier: 1.0
@@ -2324,7 +2210,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2339,13 +2224,12 @@ types:
     cpu: 24.0
     hp: 40.0
     id: 18801
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2357,7 +2241,7 @@ types:
   18803:
     armorhpmultiplier: 1.0
     cpu: 24.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 18803
     marketGroup: 1682
@@ -2365,7 +2249,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2377,7 +2260,7 @@ types:
   18805:
     armorhpmultiplier: 1.0
     cpu: 24.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 18805
     marketGroup: 1684
@@ -2385,7 +2268,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2404,7 +2286,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corelum C-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2412,22 +2293,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   18809:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -24.700000762939453
-    explosivedamageresistancebonus: -24.700000762939453
+    emdamageresistancebonus: -24.7
+    explosivedamageresistancebonus: -24.7
     hp: 40.0
     id: 18809
-    kineticdamageresistancebonus: -24.700000762939453
+    kineticdamageresistancebonus: -24.7
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2435,20 +2315,19 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -24.700000762939453
+    thermaldamageresistancebonus: -24.7
     volume: 5.0
   18811:
     armorhpmultiplier: 1.0
     cpu: 26.0
     hp: 40.0
     id: 18811
-    kineticdamageresistancebonus: -42.68000030517578
+    kineticdamageresistancebonus: -42.68
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2460,7 +2339,7 @@ types:
   18813:
     armorhpmultiplier: 1.0
     cpu: 26.0
-    explosivedamageresistancebonus: -42.68000030517578
+    explosivedamageresistancebonus: -42.68
     hp: 40.0
     id: 18813
     marketGroup: 1682
@@ -2468,7 +2347,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2480,7 +2358,7 @@ types:
   18815:
     armorhpmultiplier: 1.0
     cpu: 26.0
-    emdamageresistancebonus: -42.68000030517578
+    emdamageresistancebonus: -42.68
     hp: 40.0
     id: 18815
     marketGroup: 1684
@@ -2488,7 +2366,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2507,7 +2384,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corelum B-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2515,22 +2391,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -42.68000030517578
+    thermaldamageresistancebonus: -42.68
     volume: 5.0
   18819:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -27.440000534057617
-    explosivedamageresistancebonus: -27.440000534057617
+    emdamageresistancebonus: -27.44
+    explosivedamageresistancebonus: -27.44
     hp: 40.0
     id: 18819
-    kineticdamageresistancebonus: -27.440000534057617
+    kineticdamageresistancebonus: -27.44
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2538,20 +2413,19 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -27.440000534057617
+    thermaldamageresistancebonus: -27.44
     volume: 5.0
   18821:
     armorhpmultiplier: 1.0
     cpu: 28.0
     hp: 40.0
     id: 18821
-    kineticdamageresistancebonus: -44.91999816894531
+    kineticdamageresistancebonus: -44.92
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2563,7 +2437,7 @@ types:
   18823:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -44.91999816894531
+    explosivedamageresistancebonus: -44.92
     hp: 40.0
     id: 18823
     marketGroup: 1682
@@ -2571,7 +2445,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2583,7 +2456,7 @@ types:
   18825:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -44.91999816894531
+    emdamageresistancebonus: -44.92
     hp: 40.0
     id: 18825
     marketGroup: 1684
@@ -2591,7 +2464,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2610,7 +2482,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corelum A-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2618,22 +2489,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -44.91999816894531
+    thermaldamageresistancebonus: -44.92
     volume: 5.0
   18829:
     armorhpmultiplier: 1.0
     cpu: 33.0
-    emdamageresistancebonus: -23.600000381469727
-    explosivedamageresistancebonus: -23.600000381469727
+    emdamageresistancebonus: -23.6
+    explosivedamageresistancebonus: -23.6
     hp: 40.0
     id: 18829
-    kineticdamageresistancebonus: -23.600000381469727
+    kineticdamageresistancebonus: -23.6
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2641,22 +2511,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -23.600000381469727
+    thermaldamageresistancebonus: -23.6
     volume: 5.0
   18831:
     armorhpmultiplier: 1.0
     cpu: 33.0
-    emdamageresistancebonus: -23.600000381469727
-    explosivedamageresistancebonus: -23.600000381469727
+    emdamageresistancebonus: -23.6
+    explosivedamageresistancebonus: -23.6
     hp: 40.0
     id: 18831
-    kineticdamageresistancebonus: -23.600000381469727
+    kineticdamageresistancebonus: -23.6
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2664,20 +2533,19 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -23.600000381469727
+    thermaldamageresistancebonus: -23.6
     volume: 5.0
   18833:
     armorhpmultiplier: 1.0
     cpu: 28.0
     hp: 40.0
     id: 18833
-    kineticdamageresistancebonus: -41.779998779296875
+    kineticdamageresistancebonus: -41.78
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2691,13 +2559,12 @@ types:
     cpu: 28.0
     hp: 40.0
     id: 18835
-    kineticdamageresistancebonus: -41.779998779296875
+    kineticdamageresistancebonus: -41.78
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2709,7 +2576,7 @@ types:
   18837:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -41.779998779296875
+    explosivedamageresistancebonus: -41.78
     hp: 40.0
     id: 18837
     marketGroup: 1682
@@ -2717,7 +2584,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2729,7 +2595,7 @@ types:
   18839:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    explosivedamageresistancebonus: -41.779998779296875
+    explosivedamageresistancebonus: -41.78
     hp: 40.0
     id: 18839
     marketGroup: 1682
@@ -2737,7 +2603,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2749,7 +2614,7 @@ types:
   18841:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -41.779998779296875
+    emdamageresistancebonus: -41.78
     hp: 40.0
     id: 18841
     marketGroup: 1684
@@ -2757,7 +2622,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2769,7 +2633,7 @@ types:
   18843:
     armorhpmultiplier: 1.0
     cpu: 28.0
-    emdamageresistancebonus: -41.779998779296875
+    emdamageresistancebonus: -41.78
     hp: 40.0
     id: 18843
     marketGroup: 1684
@@ -2777,7 +2641,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2796,7 +2659,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Corpum C-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2804,7 +2666,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -41.779998779296875
+    thermaldamageresistancebonus: -41.78
     volume: 5.0
   18847:
     armorhpmultiplier: 1.0
@@ -2816,7 +2678,6 @@ types:
     metagroupid: 6
     metalevelold: 10
     name: Centum C-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2824,22 +2685,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -41.779998779296875
+    thermaldamageresistancebonus: -41.78
     volume: 5.0
   18849:
     armorhpmultiplier: 1.0
     cpu: 36.0
-    emdamageresistancebonus: -26.34000015258789
-    explosivedamageresistancebonus: -26.34000015258789
+    emdamageresistancebonus: -26.34
+    explosivedamageresistancebonus: -26.34
     hp: 40.0
     id: 18849
-    kineticdamageresistancebonus: -26.34000015258789
+    kineticdamageresistancebonus: -26.34
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2847,22 +2707,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -26.34000015258789
+    thermaldamageresistancebonus: -26.34
     volume: 5.0
   18851:
     armorhpmultiplier: 1.0
     cpu: 36.0
-    emdamageresistancebonus: -26.34000015258789
-    explosivedamageresistancebonus: -26.34000015258789
+    emdamageresistancebonus: -26.34
+    explosivedamageresistancebonus: -26.34
     hp: 40.0
     id: 18851
-    kineticdamageresistancebonus: -26.34000015258789
+    kineticdamageresistancebonus: -26.34
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2870,20 +2729,19 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -26.34000015258789
+    thermaldamageresistancebonus: -26.34
     volume: 5.0
   18853:
     armorhpmultiplier: 1.0
     cpu: 30.0
     hp: 40.0
     id: 18853
-    kineticdamageresistancebonus: -44.02000045776367
+    kineticdamageresistancebonus: -44.02
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2897,13 +2755,12 @@ types:
     cpu: 30.0
     hp: 40.0
     id: 18855
-    kineticdamageresistancebonus: -44.02000045776367
+    kineticdamageresistancebonus: -44.02
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2915,7 +2772,7 @@ types:
   18857:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -44.02000045776367
+    explosivedamageresistancebonus: -44.02
     hp: 40.0
     id: 18857
     marketGroup: 1682
@@ -2923,7 +2780,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2935,7 +2791,7 @@ types:
   18859:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    explosivedamageresistancebonus: -44.02000045776367
+    explosivedamageresistancebonus: -44.02
     hp: 40.0
     id: 18859
     marketGroup: 1682
@@ -2943,7 +2799,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2962,7 +2817,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2970,7 +2824,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -44.02000045776367
+    thermaldamageresistancebonus: -44.02
     volume: 5.0
   18863:
     armorhpmultiplier: 1.0
@@ -2982,7 +2836,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -2990,7 +2843,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -44.02000045776367
+    thermaldamageresistancebonus: -44.02
     volume: 5.0
   18865:
     armorhpmultiplier: 1.0
@@ -3002,7 +2855,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3010,7 +2862,7 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -46.279998779296875
+    thermaldamageresistancebonus: -46.28
     volume: 5.0
   18867:
     armorhpmultiplier: 1.0
@@ -3022,7 +2874,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3030,12 +2881,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -46.279998779296875
+    thermaldamageresistancebonus: -46.28
     volume: 5.0
   18869:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -46.279998779296875
+    emdamageresistancebonus: -46.28
     hp: 40.0
     id: 18869
     marketGroup: 1684
@@ -3043,7 +2894,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3055,7 +2905,7 @@ types:
   18871:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    emdamageresistancebonus: -46.279998779296875
+    emdamageresistancebonus: -46.28
     hp: 40.0
     id: 18871
     marketGroup: 1684
@@ -3063,7 +2913,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3075,7 +2924,7 @@ types:
   18873:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    explosivedamageresistancebonus: -46.279998779296875
+    explosivedamageresistancebonus: -46.28
     hp: 40.0
     id: 18873
     marketGroup: 1682
@@ -3083,7 +2932,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3095,7 +2943,7 @@ types:
   18875:
     armorhpmultiplier: 1.0
     cpu: 32.0
-    explosivedamageresistancebonus: -46.279998779296875
+    explosivedamageresistancebonus: -46.28
     hp: 40.0
     id: 18875
     marketGroup: 1682
@@ -3103,7 +2951,6 @@ types:
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3117,13 +2964,12 @@ types:
     cpu: 32.0
     hp: 40.0
     id: 18877
-    kineticdamageresistancebonus: -46.279998779296875
+    kineticdamageresistancebonus: -46.28
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3137,13 +2983,12 @@ types:
     cpu: 32.0
     hp: 40.0
     id: 18879
-    kineticdamageresistancebonus: -46.279998779296875
+    kineticdamageresistancebonus: -46.28
     marketGroup: 1685
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3155,17 +3000,16 @@ types:
   18881:
     armorhpmultiplier: 1.0
     cpu: 38.0
-    emdamageresistancebonus: -29.100000381469727
-    explosivedamageresistancebonus: -29.100000381469727
+    emdamageresistancebonus: -29.1
+    explosivedamageresistancebonus: -29.1
     hp: 40.0
     id: 18881
-    kineticdamageresistancebonus: -29.100000381469727
+    kineticdamageresistancebonus: -29.1
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Corpum A-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3173,22 +3017,21 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -29.100000381469727
+    thermaldamageresistancebonus: -29.1
     volume: 5.0
   18883:
     armorhpmultiplier: 1.0
     cpu: 38.0
-    emdamageresistancebonus: -29.100000381469727
-    explosivedamageresistancebonus: -29.100000381469727
+    emdamageresistancebonus: -29.1
+    explosivedamageresistancebonus: -29.1
     hp: 40.0
     id: 18883
-    kineticdamageresistancebonus: -29.100000381469727
+    kineticdamageresistancebonus: -29.1
     marketGroup: 1686
     mass: 1.0
     metagroupid: 6
     metalevelold: 14
     name: Centum A-Type Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3196,12 +3039,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -29.100000381469727
+    thermaldamageresistancebonus: -29.1
     volume: 5.0
   19361:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -44.02000045776367
+    emdamageresistancebonus: -44.02
     hp: 40.0
     id: 19361
     marketGroup: 1684
@@ -3209,7 +3052,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Corpum B-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3221,7 +3063,7 @@ types:
   19363:
     armorhpmultiplier: 1.0
     cpu: 30.0
-    emdamageresistancebonus: -44.02000045776367
+    emdamageresistancebonus: -44.02
     hp: 40.0
     id: 19363
     marketGroup: 1684
@@ -3229,7 +3071,6 @@ types:
     metagroupid: 6
     metalevelold: 12
     name: Centum B-Type EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3251,7 +3092,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Pilfer'' Multispectrum Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3271,7 +3111,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Moonshine'' Thermal Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3279,20 +3118,19 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -38.81999969482422
+    thermaldamageresistancebonus: -38.82
     volume: 5.0
   22883:
     armorhpmultiplier: 1.0
     cpu: 20.0
     hp: 40.0
     id: 22883
-    kineticdamageresistancebonus: -38.81999969482422
+    kineticdamageresistancebonus: -38.82
     marketGroup: 1685
     mass: 1.0
     metagroupid: 3
     metalevelold: 6
     name: '''Mafia'' Kinetic Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3314,7 +3152,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Multispectrum Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3329,13 +3166,12 @@ types:
     cpu: 25.0
     hp: 40.0
     id: 28536
-    kineticdamageresistancebonus: -40.880001068115234
+    kineticdamageresistancebonus: -40.88
     marketGroup: 1685
     mass: 1.0
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Kinetic Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3347,7 +3183,7 @@ types:
   28538:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    explosivedamageresistancebonus: -40.880001068115234
+    explosivedamageresistancebonus: -40.88
     hp: 40.0
     id: 28538
     marketGroup: 1682
@@ -3355,7 +3191,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Explosive Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3367,7 +3202,7 @@ types:
   28540:
     armorhpmultiplier: 1.0
     cpu: 25.0
-    emdamageresistancebonus: -40.880001068115234
+    emdamageresistancebonus: -40.88
     hp: 40.0
     id: 28540
     marketGroup: 1684
@@ -3375,7 +3210,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy EM Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3394,7 +3228,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Khanid Navy Thermal Energized Membrane
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3402,12 +3235,12 @@ types:
     requiredskill1: 3394
     requiredskill1level: 3
     techlevel: 1
-    thermaldamageresistancebonus: -40.880001068115234
+    thermaldamageresistancebonus: -40.88
     volume: 5.0
   55860:
     armorhpmultiplier: 1.0
     cpu: 20.0
-    emdamageresistancebonus: -38.81999969482422
+    emdamageresistancebonus: -38.82
     hp: 40.0
     id: 55860
     marketGroup: 1684
@@ -3415,7 +3248,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Pickpocket'' EM Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -3427,7 +3259,7 @@ types:
   55862:
     armorhpmultiplier: 1.0
     cpu: 20.0
-    explosivedamageresistancebonus: -38.81999969482422
+    explosivedamageresistancebonus: -38.82
     hp: 40.0
     id: 55862
     marketGroup: 1682
@@ -3435,7 +3267,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Bribe'' Explosive Energized Membrane'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true

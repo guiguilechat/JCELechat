@@ -1,19 +1,16 @@
 types:
   33477:
     anchoringdelay: 60000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 10000.0
     armoruniformity: 0.75
-    capacity: 900.0
     hp: 60000.0
     id: 33477
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile Siphon Unit
-    packagedVolume: 35.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11584
     requiredskill1level: 2
     scangravimetricstrength: 75.0
@@ -33,19 +30,16 @@ types:
     volume: 35.0
   33581:
     anchoringdelay: 60000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 10000.0
     armoruniformity: 0.75
-    capacity: 1200.0
     hp: 60000.0
     id: 33581
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile 'Hybrid' Siphon Unit
-    packagedVolume: 35.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11584
     requiredskill1level: 2
     scangravimetricstrength: 75.0
@@ -64,19 +58,16 @@ types:
     volume: 35.0
   33583:
     anchoringdelay: 60000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 10000.0
     armoruniformity: 0.75
-    capacity: 1000.0
     hp: 60000.0
     id: 33583
     marketGroup: 1835
     mass: 10000.0
     name: Small Mobile 'Rote' Siphon Unit
-    packagedVolume: 35.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 11584
     requiredskill1level: 2
     scangravimetricstrength: 75.0

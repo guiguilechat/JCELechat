@@ -4,21 +4,17 @@ types:
     industryblueprintrank: 6.0
     marketGroup: 325
     name: Cargo Scanner I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 15000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   2039:
     id: 2039
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Cargo Scanner II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01

@@ -4,172 +4,136 @@ types:
     industryblueprintrank: 40.0
     marketGroup: 1350
     name: Large Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2807:
     id: 2807
     industryblueprintrank: 40.0
     marketGroup: 1350
     name: Large AutoCannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2810:
     id: 2810
     industryblueprintrank: 30.0
     marketGroup: 1350
     name: Medium Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2814:
     id: 2814
     industryblueprintrank: 30.0
     marketGroup: 1350
     name: Medium AutoCannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2816:
     id: 2816
     industryblueprintrank: 20.0
     marketGroup: 1350
     name: Small Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   2819:
     id: 2819
     industryblueprintrank: 20.0
     marketGroup: 1350
     name: Small AutoCannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27831:
     id: 27831
     industryblueprintrank: 40.0
     name: Angel Large Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27832:
     id: 27832
     industryblueprintrank: 40.0
     name: Angel Large Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27833:
     id: 27833
     industryblueprintrank: 30.0
     name: Angel Medium Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27834:
     id: 27834
     industryblueprintrank: 20.0
     name: Angel Small Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27835:
     id: 27835
     industryblueprintrank: 30.0
     name: Angel Medium Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27836:
     id: 27836
     industryblueprintrank: 20.0
     name: Angel Small Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27837:
     id: 27837
     industryblueprintrank: 20.0
     name: Domination Small Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27838:
     id: 27838
     industryblueprintrank: 30.0
     name: Domination Medium Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27839:
     id: 27839
     industryblueprintrank: 40.0
     name: Domination Large Artillery Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27840:
     id: 27840
     industryblueprintrank: 40.0
     name: Domination Large Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27841:
     id: 27841
     industryblueprintrank: 30.0
     name: Domination Medium Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01
   27842:
     id: 27842
     industryblueprintrank: 20.0
     name: Domination Small Autocannon Battery Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

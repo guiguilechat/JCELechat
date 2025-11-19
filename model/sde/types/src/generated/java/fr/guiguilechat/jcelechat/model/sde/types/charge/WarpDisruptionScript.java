@@ -15,13 +15,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedHidden;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeHidden;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRangeBonus;
@@ -103,7 +101,7 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerangebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, Radius.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, DisallowInHazardSystem.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, DisallowInHazardSystem.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
     public static final WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
 
     @Override

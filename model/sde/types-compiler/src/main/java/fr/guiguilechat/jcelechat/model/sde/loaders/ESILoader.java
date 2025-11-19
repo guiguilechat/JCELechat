@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.loaders;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Map.Entry;
@@ -36,7 +37,7 @@ public class ESILoader {
 		Dogma dogma = ESIRawPublic.INSTANCE.cache().dogma;
 
 		// types and their attributes
-		
+
 		MapHolder<Integer, R_get_universe_types_type_id> typeMap = universe.types()
 		    .mapItems(typeID -> universe.types(typeID))
 		    .toMap(h -> h.get().type_id, ObjHolder::get);
@@ -55,24 +56,24 @@ public class ESILoader {
 			det.marketGroupID = e.getValue().market_group_id;
 			det.groupID = e.getValue().group_id;
 			typesGroupIds.add(det.groupID);
-			det.mass = e.getValue().mass;
-			det.packagedVolume = e.getValue().packaged_volume;
+			det.mass = new BigDecimal(e.getValue().mass);
+			det.packagedVolume = new BigDecimal(e.getValue().packaged_volume);
 			det.published = e.getValue().published;
 			det.portionSize = e.getValue().portion_size;
-			det.volume = e.getValue().volume;
+			det.volume = new BigDecimal(e.getValue().volume);
 			ret.typeID2Details.put(e.getKey(), det);
-			ret.groupID2TypeIDs.computeIfAbsent(det.groupID, i -> new HashSet<>()).add(e.getKey());
+			ret.groupID2TypeIDs.computeIfAbsent(det.groupID, _ -> new HashSet<>()).add(e.getKey());
 			if (e.getValue().dogma_attributes != null) {
 				for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes attribute : e.getValue().dogma_attributes) {
 					typesAttributeIds.add(attribute.attribute_id);
 					if (attribute.attribute_id == 161) {
-						det.volume = attribute.value;
+						det.volume = new BigDecimal(attribute.value);
 					} else if (attribute.attribute_id == 4) {
-						det.mass = attribute.value;
+						det.mass = new BigDecimal(attribute.value);
 					} else {
 						int attId = attribute.attribute_id;
 						float floatValue = attribute.value;
-						det.definition.put(attId, floatValue);
+						det.definition.put(attId, new BigDecimal(floatValue));
 						if ((int) floatValue != floatValue) {
 							floatAttributeIds.add(attId);
 						}
@@ -105,7 +106,7 @@ public class ESILoader {
 				throw new NullPointerException("no attribute data for id "+attId);
 			}
 			AttributeDetails det = new AttributeDetails();
-			det.defaultValue = eattr.default_value;
+			det.defaultValue = new BigDecimal(eattr.default_value);
 			det.description = eattr.description;
 			det.hasFloat = floatAttributeIds.contains(attId);
 			det.highIsGood = eattr.high_is_good;
@@ -142,8 +143,8 @@ public class ESILoader {
 			det.name = e.getValue().name;
 			det.published = e.getValue().published;
 			ret.groupID2Details.put(e.getKey(), det);
-			ret.groupID2TypeIDs.computeIfAbsent(det.id, i -> new HashSet<>());
-			ret.catID2GroupIDs.computeIfAbsent(e.getValue().category_id, i -> new HashSet<>()).add(e.getKey());
+			ret.groupID2TypeIDs.computeIfAbsent(det.id, _ -> new HashSet<>());
+			ret.catID2GroupIDs.computeIfAbsent(e.getValue().category_id, _ -> new HashSet<>()).add(e.getKey());
 		}
 
 		// categories
@@ -168,7 +169,7 @@ public class ESILoader {
 			det.name = e.getValue().name;
 			det.published = e.getValue().published;
 			ret.catID2Details.put(e.getKey(), det);
-			ret.catID2GroupIDs.computeIfAbsent(det.id, i -> new HashSet<>());
+			ret.catID2GroupIDs.computeIfAbsent(det.id, _ -> new HashSet<>());
 		}
 
 		if (!esiMissingAttributeIds.isEmpty()) {

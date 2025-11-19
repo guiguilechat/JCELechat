@@ -13,11 +13,9 @@ types:
     maxgroupfitted: 1
     maxrange: 20000.0
     name: Entosis Link I
-    packagedVolume: 20.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 2
     scangravimetricstrengthpercent: 100
@@ -44,11 +42,9 @@ types:
     maxrange: 50000.0
     metalevelold: 5
     name: Entosis Link II
-    packagedVolume: 20.0
     portionSize: 1
     power: 20
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 4
     scangravimetricstrengthpercent: 100
@@ -75,11 +71,9 @@ types:
     maxrange: 20000.0
     metalevelold: 1
     name: Noir. Modified Entosis Link
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 2
     scangravimetricstrengthpercent: 100
@@ -106,11 +100,9 @@ types:
     maxrange: 20000.0
     metalevelold: 1
     name: Spectre Fleet's Modified Entosis Link
-    packagedVolume: 10.0
     portionSize: 1
     power: 7
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 2
     scangravimetricstrengthpercent: 100
@@ -137,11 +129,9 @@ types:
     maxrange: 20000.0
     metalevelold: 1
     name: Affirmative. Modified Entosis Link
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 2
     scangravimetricstrengthpercent: 100
@@ -168,11 +158,9 @@ types:
     maxrange: 24000.0
     metalevelold: 1
     name: Pandemic SPHERE Modified Entosis Link
-    packagedVolume: 10.0
     portionSize: 1
     power: 10
     published: true
-    radius: 1.0
     requiredskill1: 24242
     requiredskill1level: 2
     scangravimetricstrengthpercent: 100

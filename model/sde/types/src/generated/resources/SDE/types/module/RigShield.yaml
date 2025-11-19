@@ -6,7 +6,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Capacitor Safeguard I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -23,7 +22,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large EM Shield Reinforcer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -39,7 +37,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Explosive Shield Reinforcer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -55,7 +52,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Kinetic Shield Reinforcer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -70,7 +66,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Thermal Shield Reinforcer I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -86,7 +81,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Purger I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -103,7 +97,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Operational Solidifier I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -118,7 +111,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Field Extender I
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -134,7 +126,6 @@ types:
     marketGroup: 1236
     mass: 200.0
     name: Large Core Defense Charge Economizer I
-    packagedVolume: 20.0
     portionSize: 1
     powerneedbonus: -10
     published: true
@@ -152,7 +143,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large EM Shield Reinforcer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -169,7 +159,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Explosive Shield Reinforcer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -186,7 +175,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Kinetic Shield Reinforcer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -202,7 +190,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Thermal Shield Reinforcer II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -219,7 +206,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Core Defense Capacitor Safeguard II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -236,7 +222,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Core Defense Charge Economizer II
-    packagedVolume: 20.0
     portionSize: 1
     powerneedbonus: -15
     published: true
@@ -253,7 +238,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Core Defense Field Extender II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -270,7 +254,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Core Defense Field Purger II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -288,7 +271,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Large Core Defense Operational Solidifier II
-    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -304,7 +286,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small EM Shield Reinforcer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -320,7 +301,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium EM Shield Reinforcer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -336,7 +316,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital EM Shield Reinforcer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -353,7 +332,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small EM Shield Reinforcer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -370,7 +348,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium EM Shield Reinforcer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -387,7 +364,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital EM Shield Reinforcer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -403,7 +379,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Explosive Shield Reinforcer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -419,7 +394,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Explosive Shield Reinforcer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -435,7 +409,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Explosive Shield Reinforcer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -452,7 +425,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Explosive Shield Reinforcer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -469,7 +441,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Explosive Shield Reinforcer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -486,7 +457,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Explosive Shield Reinforcer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -502,7 +472,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Kinetic Shield Reinforcer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -518,7 +487,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Kinetic Shield Reinforcer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -534,7 +502,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Kinetic Shield Reinforcer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -551,7 +518,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Kinetic Shield Reinforcer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -568,7 +534,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Kinetic Shield Reinforcer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -585,7 +550,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Kinetic Shield Reinforcer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -600,7 +564,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Thermal Shield Reinforcer I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -616,7 +579,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Thermal Shield Reinforcer I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -632,7 +594,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Thermal Shield Reinforcer I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -649,7 +610,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Thermal Shield Reinforcer II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -666,7 +626,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Thermal Shield Reinforcer II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -683,7 +642,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Thermal Shield Reinforcer II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -699,7 +657,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Capacitor Safeguard I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -715,7 +672,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Capacitor Safeguard I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -731,7 +687,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Capacitor Safeguard I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -748,7 +703,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Core Defense Capacitor Safeguard II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -765,7 +719,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Core Defense Capacitor Safeguard II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -782,7 +735,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Core Defense Capacitor Safeguard II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -798,7 +750,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Charge Economizer I
-    packagedVolume: 5.0
     portionSize: 1
     powerneedbonus: -10
     published: true
@@ -814,7 +765,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Charge Economizer I
-    packagedVolume: 10.0
     portionSize: 1
     powerneedbonus: -10
     published: true
@@ -830,7 +780,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Charge Economizer I
-    packagedVolume: 40.0
     portionSize: 1
     powerneedbonus: -10
     published: true
@@ -847,7 +796,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Core Defense Charge Economizer II
-    packagedVolume: 5.0
     portionSize: 1
     powerneedbonus: -15
     published: true
@@ -864,7 +812,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Core Defense Charge Economizer II
-    packagedVolume: 10.0
     portionSize: 1
     powerneedbonus: -15
     published: true
@@ -881,7 +828,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Core Defense Charge Economizer II
-    packagedVolume: 40.0
     portionSize: 1
     powerneedbonus: -15
     published: true
@@ -897,7 +843,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Extender I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -913,7 +858,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Extender I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -929,7 +873,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Extender I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -946,7 +889,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Core Defense Field Extender II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -963,7 +905,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Core Defense Field Extender II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -980,7 +921,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Core Defense Field Extender II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -996,7 +936,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Field Purger I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1012,7 +951,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Field Purger I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1028,7 +966,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Field Purger I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1045,7 +982,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Core Defense Field Purger II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1062,7 +998,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Core Defense Field Purger II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1079,7 +1014,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Core Defense Field Purger II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1096,7 +1030,6 @@ types:
     marketGroup: 1234
     mass: 200.0
     name: Small Core Defense Operational Solidifier I
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1112,7 +1045,6 @@ types:
     marketGroup: 1235
     mass: 200.0
     name: Medium Core Defense Operational Solidifier I
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1128,7 +1060,6 @@ types:
     marketGroup: 1732
     mass: 200.0
     name: Capital Core Defense Operational Solidifier I
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1145,7 +1076,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Small Core Defense Operational Solidifier II
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1162,7 +1092,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Medium Core Defense Operational Solidifier II
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
@@ -1179,7 +1108,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Capital Core Defense Operational Solidifier II
-    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0

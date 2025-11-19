@@ -3,44 +3,38 @@ types:
     id: 34201
     inventionmaxrunmodifier: 1.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 1.2000000476837158
+    inventionpropabilitymultiplier: 1.2
     inventiontemodifier: 10.0
     marketGroup: 1873
     mass: 1.0
     name: Accelerant Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34202:
     id: 34202
     inventionmaxrunmodifier: 4.0
     inventionmemodifier: -1.0
-    inventionpropabilitymultiplier: 1.7999999523162842
+    inventionpropabilitymultiplier: 1.8
     inventiontemodifier: 4.0
     marketGroup: 1873
     mass: 1.0
     name: Attainment Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34203:
     id: 34203
     inventionmaxrunmodifier: 9.0
     inventionmemodifier: -2.0
-    inventionpropabilitymultiplier: 0.6000000238418579
+    inventionpropabilitymultiplier: 0.6
     inventiontemodifier: 2.0
     marketGroup: 1873
     mass: 1.0
     name: Augmentation Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34204:
     id: 34204
     inventionmaxrunmodifier: 3.0
@@ -50,24 +44,20 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Parity Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34205:
     id: 34205
     inventionmemodifier: 3.0
-    inventionpropabilitymultiplier: 1.100000023841858
+    inventionpropabilitymultiplier: 1.1
     inventiontemodifier: 6.0
     marketGroup: 1873
     mass: 1.0
     name: Process Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34206:
     id: 34206
     inventionmaxrunmodifier: 2.0
@@ -77,35 +67,29 @@ types:
     marketGroup: 1873
     mass: 1.0
     name: Symmetry Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34207:
     id: 34207
     inventionmaxrunmodifier: 2.0
     inventionmemodifier: 1.0
-    inventionpropabilitymultiplier: 1.899999976158142
+    inventionpropabilitymultiplier: 1.9
     inventiontemodifier: -2.0
     marketGroup: 1873
     mass: 1.0
     name: Optimized Attainment Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1
   34208:
     id: 34208
     inventionmaxrunmodifier: 7.0
     inventionmemodifier: 2.0
-    inventionpropabilitymultiplier: 0.8999999761581421
+    inventionpropabilitymultiplier: 0.9
     marketGroup: 1873
     mass: 1.0
     name: Optimized Augmentation Decryptor
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.10000000149011612
+    volume: 0.1

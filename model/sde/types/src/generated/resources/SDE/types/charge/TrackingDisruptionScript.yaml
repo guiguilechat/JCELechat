@@ -9,11 +9,9 @@ types:
     mass: 1.0
     maxrangebonusbonus: 100
     name: Optimal Range Disruption Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedbonusbonus: -100
     volume: 1.0
@@ -27,11 +25,9 @@ types:
     mass: 1.0
     maxrangebonusbonus: -100
     name: Tracking Speed Disruption Script
-    packagedVolume: 1.0
     portionSize: 1
     price: 4000.0
     published: true
-    radius: 1.0
     techlevel: 1
     trackingspeedbonusbonus: 100
     volume: 1.0

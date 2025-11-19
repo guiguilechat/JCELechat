@@ -9,7 +9,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Micro'' Cap Battery'
-    packagedVolume: 2.5
     portionSize: 1
     power: 3
     published: true
@@ -26,7 +25,6 @@ types:
     id: 1185
     marketGroup: 703
     name: Small Cap Battery I
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -43,7 +41,6 @@ types:
     id: 2018
     marketGroup: 704
     name: Medium Cap Battery I
-    packagedVolume: 10.0
     portionSize: 1
     power: 75
     published: true
@@ -60,7 +57,6 @@ types:
     id: 2020
     marketGroup: 705
     name: Large Cap Battery I
-    packagedVolume: 15.0
     portionSize: 1
     power: 400
     published: true
@@ -78,7 +74,6 @@ types:
     marketGroup: 703
     metalevelold: 5
     name: Small Cap Battery II
-    packagedVolume: 5.0
     portionSize: 1
     power: 10
     published: true
@@ -96,7 +91,6 @@ types:
     marketGroup: 704
     metalevelold: 5
     name: Medium Cap Battery II
-    packagedVolume: 10.0
     portionSize: 1
     power: 90
     published: true
@@ -114,7 +108,6 @@ types:
     marketGroup: 705
     metalevelold: 5
     name: Large Cap Battery II
-    packagedVolume: 15.0
     portionSize: 1
     power: 480
     published: true
@@ -132,7 +125,6 @@ types:
     marketGroup: 703
     metalevelold: 1
     name: Small Compact Pb-Acid Cap Battery
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
@@ -150,7 +142,6 @@ types:
     marketGroup: 705
     metalevelold: 1
     name: Large Compact Pb-Acid Cap Battery
-    packagedVolume: 15.0
     portionSize: 1
     power: 320
     published: true
@@ -168,7 +159,6 @@ types:
     marketGroup: 704
     metalevelold: 1
     name: Medium Compact Pb-Acid Cap Battery
-    packagedVolume: 10.0
     portionSize: 1
     power: 60
     published: true
@@ -187,7 +177,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Crucible'' Small Cap Battery'
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -206,7 +195,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Censer'' Medium Cap Battery'
-    packagedVolume: 10.0
     portionSize: 1
     power: 45
     published: true
@@ -225,7 +213,6 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Thurifer'' Large Cap Battery'
-    packagedVolume: 15.0
     portionSize: 1
     power: 240
     published: true
@@ -244,7 +231,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Small Cap Battery
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
@@ -263,7 +249,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Small Cap Battery
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
@@ -282,7 +267,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Small Cap Battery
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -301,7 +285,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Medium Cap Battery
-    packagedVolume: 10.0
     portionSize: 1
     power: 60
     published: true
@@ -320,7 +303,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Medium Cap Battery
-    packagedVolume: 10.0
     portionSize: 1
     power: 60
     published: true
@@ -339,7 +321,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Medium Cap Battery
-    packagedVolume: 10.0
     portionSize: 1
     power: 52
     published: true
@@ -358,7 +339,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Republic Fleet Large Cap Battery
-    packagedVolume: 15.0
     portionSize: 1
     power: 320
     published: true
@@ -377,7 +357,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Large Cap Battery
-    packagedVolume: 15.0
     portionSize: 1
     power: 320
     published: true
@@ -396,7 +375,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Thukker Large Cap Battery
-    packagedVolume: 15.0
     portionSize: 1
     power: 280
     published: true
@@ -413,7 +391,6 @@ types:
     id: 41484
     marketGroup: 2242
     name: Capital Cap Battery I
-    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -431,7 +408,6 @@ types:
     marketGroup: 2242
     metalevelold: 1
     name: Capital Compact Pb-Acid Cap Battery
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -449,7 +425,6 @@ types:
     marketGroup: 2242
     metalevelold: 5
     name: Capital Cap Battery II
-    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -468,7 +443,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Domination Capital Cap Battery
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -487,7 +461,6 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Dark Blood Capital Cap Battery
-    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -500,10 +473,8 @@ types:
     id: 48431
     mass: 1.0
     name: Small Abyssal Cap Battery
-    packagedVolume: 5.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3424
     requiredskill1level: 2
     techlevel: 1
@@ -512,10 +483,8 @@ types:
     id: 48435
     mass: 1.0
     name: Medium Abyssal Cap Battery
-    packagedVolume: 10.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3424
     requiredskill1level: 3
     techlevel: 1
@@ -524,10 +493,8 @@ types:
     id: 48439
     mass: 1.0
     name: Large Abyssal Cap Battery
-    packagedVolume: 15.0
     portionSize: 1
     published: true
-    radius: 1.0
     requiredskill1: 3424
     requiredskill1level: 4
     techlevel: 1

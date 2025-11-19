@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResistanceBonus;
@@ -24,7 +23,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Rechargeratebonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBoostCapacitorBonus;
@@ -130,7 +128,7 @@ public class RigShield
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, PowerNeedBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ShieldCapacityBonus.INSTANCE, Drawback.INSTANCE, Rechargeratebonus.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, EmDamageResistanceBonus.INSTANCE, DurationSkillBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, PowerNeedBonus.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, ShieldCapacityBonus.INSTANCE, Rechargeratebonus.INSTANCE, Drawback.INSTANCE, ShieldBoostCapacitorBonus.INSTANCE, DurationSkillBonus.INSTANCE, EmDamageResistanceBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final RigShield.MetaGroup METAGROUP = new RigShield.MetaGroup();
 
     @Override

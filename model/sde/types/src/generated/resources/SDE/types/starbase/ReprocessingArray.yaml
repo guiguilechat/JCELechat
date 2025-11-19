@@ -4,22 +4,20 @@ types:
     anchoringsecuritylevelmax: 1.0
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 200000.0
     cpu: 750.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 12238
     marketGroup: 482
-    mass: 5.0E7
+    mass: 50000000.0
     maxoperationaldistance: 3000
     name: Reprocessing Array
     onliningdelay: 3000
     operationalduration: 10000
-    packagedVolume: 6000.0
     portionSize: 1
     power: 150000
-    price: 2.5E7
+    price: 25000000.0
     published: true
     radius: 506.0
     refiningyieldmultiplier: 0.5
@@ -39,25 +37,23 @@ types:
     volume: 6000.0
   19470:
     anchoringdelay: 5000
-    anchoringsecuritylevelmax: 0.4000000059604645
+    anchoringsecuritylevelmax: 0.4
     armorhp: 20000.0
     armoruniformity: 0.75
-    capacity: 200000.0
     cpu: 1000.0
     disallowoffensivemodifiers: 1
     fighterabilityanticapitalmissileresistance: 1
     hp: 10000.0
     id: 19470
     marketGroup: 482
-    mass: 5.0E7
+    mass: 50000000.0
     maxoperationaldistance: 3000
     name: Intensive Reprocessing Array
     onliningdelay: 3000
     operationalduration: 10000
-    packagedVolume: 6000.0
     portionSize: 1
     power: 200000
-    price: 7.5E7
+    price: 75000000.0
     published: true
     radius: 506.0
     refiningyieldmultiplier: 0.5

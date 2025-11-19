@@ -2,322 +2,276 @@ types:
   354764:
     id: 354764
     name: Command Node
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354765:
     id: 354765
     name: Command Node
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354767:
     id: 354767
     name: Clone Reanimation Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354770:
     id: 354770
     name: Defense Relay
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354772:
     id: 354772
     name: Supply Depot
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354773:
     id: 354773
     name: '[TEST] Drone Hive'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354789:
     id: 354789
     name: Large Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354790:
     id: 354790
     name: Small Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354791:
     id: 354791
     name: Large CA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354792:
     id: 354792
     name: Small CA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354793:
     id: 354793
     name: Large GA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354794:
     id: 354794
     name: Small GA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354796:
     id: 354796
     name: Large Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354797:
     id: 354797
     name: Small Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354824:
     id: 354824
     name: Primary Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354826:
     id: 354826
     name: Security Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354827:
     id: 354827
     name: Anti-MCC Turret Console
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354850:
     id: 354850
     name: Clone Reanimation Unit
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354851:
     id: 354851
     name: Defense Relay
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354852:
     id: 354852
     name: Supply Depot
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354856:
     id: 354856
     name: Small Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354857:
     id: 354857
     name: Small GA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354858:
     id: 354858
     name: Small CA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354859:
     id: 354859
     name: Small Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354894:
     id: 354894
     name: '[TEST] Drone Hive 2'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354949:
     id: 354949
     name: Drone Hive - Lvl.2
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   354958:
     id: 354958
     name: '[DEMO] Drone Hive'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355198:
     id: 355198
     name: Drone Hive - Lvl.1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355199:
     id: 355199
     name: Drone Hive - Lvl.3
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355201:
     id: 355201
     name: Drone Hive - Lvl.4
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355325:
     id: 355325
     name: QA Drone Hive 1
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355326:
     id: 355326
     name: QA Drone Hive 2
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355327:
     id: 355327
     name: QA Drone Hive 3
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355438:
     id: 355438
     name: Drone Hive
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355439:
     id: 355439
     name: Drone Hive
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355721:
     id: 355721
     name: Large Blaster Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355722:
     id: 355722
     name: Large CA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355723:
     id: 355723
     name: Large GA Railgun Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   355724:
     id: 355724
     name: Large Missile Installation
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356012:
     id: 356012
     name: Null Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356322:
     id: 356322
     name: Null Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356335:
     id: 356335
     name: Null Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356336:
     id: 356336
     name: Null Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   356337:
     id: 356337
     name: Null Cannon
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   357007:
     id: 357007
     name: '[TEST] Drone Hive 2'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01
   357009:
     id: 357009
     name: '[TEST] Drone Hive 2'
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: false
-    volume: 0.009999999776482582
+    volume: 0.01

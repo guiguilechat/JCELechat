@@ -1,7 +1,7 @@
 types:
   1240:
     agilitymultiplier: 1.0
-    cargocapacitymultiplier: 0.949999988079071
+    cargocapacitymultiplier: 0.95
     cpu: 15.0
     hp: 40.0
     id: 1240
@@ -10,38 +10,36 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: '''Basic'' Reinforced Bulkheads'
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 100.0
     requiredskill1: 3392
     requiredskill1level: 1
-    structurehpmultiplier: 1.100000023841858
+    structurehpmultiplier: 1.1
     techlevel: 1
     volume: 5.0
   1333:
     agilitymultiplier: 3.0
-    cargocapacitymultiplier: 0.8999999761581421
+    cargocapacitymultiplier: 0.9
     cpu: 35.0
     hp: 40.0
     id: 1333
     marketGroup: 1195
     mass: 200.0
     name: Reinforced Bulkheads I
-    packagedVolume: 25.0
     portionSize: 1
     power: 1
     published: true
     radius: 100.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.149999976158142
+    structurehpmultiplier: 1.15
     techlevel: 1
     volume: 25.0
   1335:
     agilitymultiplier: 5.0
-    cargocapacitymultiplier: 0.8899999856948853
+    cargocapacitymultiplier: 0.89
     cpu: 40.0
     hp: 40.0
     id: 1335
@@ -49,7 +47,6 @@ types:
     mass: 200.0
     metalevelold: 5
     name: Reinforced Bulkheads II
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
@@ -61,7 +58,7 @@ types:
     volume: 5.0
   5647:
     agilitymultiplier: 1.0
-    cargocapacitymultiplier: 0.949999988079071
+    cargocapacitymultiplier: 0.95
     cpu: 35.0
     hp: 40.0
     id: 5647
@@ -69,19 +66,18 @@ types:
     mass: 200.0
     metalevelold: 1
     name: Type-D Restrained Reinforced Bulkheads
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 100.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.1799999475479126
+    structurehpmultiplier: 1.18
     techlevel: 1
     volume: 5.0
   5649:
     agilitymultiplier: 3.0
-    cargocapacitymultiplier: 0.9300000071525574
+    cargocapacitymultiplier: 0.93
     cpu: 25.0
     hp: 40.0
     id: 5649
@@ -89,19 +85,18 @@ types:
     mass: 200.0
     metalevelold: 1
     name: Mark I Compact Reinforced Bulkheads
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 100.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.1799999475479126
+    structurehpmultiplier: 1.18
     techlevel: 1
     volume: 5.0
   21496:
     agilitymultiplier: 3.0
-    cargocapacitymultiplier: 0.949999988079071
+    cargocapacitymultiplier: 0.95
     cpu: 20.0
     hp: 40.0
     id: 21496
@@ -110,19 +105,18 @@ types:
     metagroupid: 3
     metalevelold: 6
     name: Synthetic Hull Conversion Reinforced Bulkheads
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
     radius: 100.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.2000000476837158
+    structurehpmultiplier: 1.2
     techlevel: 1
     volume: 5.0
   34485:
     agilitymultiplier: 4.0
-    cargocapacitymultiplier: 0.9399999976158142
+    cargocapacitymultiplier: 0.94
     cpu: 35.0
     hp: 40.0
     id: 34485
@@ -131,19 +125,17 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: ORE Reinforced Bulkheads
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.2699999809265137
+    structurehpmultiplier: 1.27
     techlevel: 1
     volume: 5.0
   34487:
     agilitymultiplier: 2.0
-    cargocapacitymultiplier: 0.8999999761581421
+    cargocapacitymultiplier: 0.9
     cpu: 35.0
     hp: 40.0
     id: 34487
@@ -152,13 +144,11 @@ types:
     metagroupid: 4
     metalevelold: 8
     name: Syndicate Reinforced Bulkheads
-    packagedVolume: 5.0
     portionSize: 1
     power: 1
     published: true
-    radius: 1.0
     requiredskill1: 3394
     requiredskill1level: 1
-    structurehpmultiplier: 1.2699999809265137
+    structurehpmultiplier: 1.27
     techlevel: 1
     volume: 5.0

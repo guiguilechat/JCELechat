@@ -2,230 +2,207 @@ types:
   19400:
     id: 19400
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 1st Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19401:
     id: 19401
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 2nd Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 20000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19402:
     id: 19402
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 3rd Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 40000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19403:
     id: 19403
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 4th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 60000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19404:
     id: 19404
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 5th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 180000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19405:
     id: 19405
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 6th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 360000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19406:
     id: 19406
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 7th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 600000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19407:
     id: 19407
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 8th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 1200000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19408:
     id: 19408
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 9th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 2100000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19409:
     id: 19409
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 11th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 6300000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19410:
     id: 19410
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 12th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 9900000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19411:
     id: 19411
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 13th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.32E7
+    price: 13200000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19412:
     id: 19412
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 14th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.716E7
+    price: 17160000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19413:
     id: 19413
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 15th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 2.184E7
+    price: 21840000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19414:
     id: 19414
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 16th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 2.912E7
+    price: 29120000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19415:
     id: 19415
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 17th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3.57E7
+    price: 35700000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19416:
     id: 19416
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 18th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 4.32E7
+    price: 43200000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19417:
     id: 19417
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 19th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 5.168E7
+    price: 51680000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19418:
     id: 19418
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 20th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 6.12E7
+    price: 61200000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19419:
     id: 19419
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 21st Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19420:
     id: 19420
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 22nd Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.017E8
+    price: 101700000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19421:
     id: 19421
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 23rd Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.33837E8
+    price: 133837000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1
   19422:
     id: 19422
     marketGroup: 751
-    mass: 0.10000000149011612
+    mass: 0.1
     name: 10th Tier Overseer's Personal Effects
-    packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 3360000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.1

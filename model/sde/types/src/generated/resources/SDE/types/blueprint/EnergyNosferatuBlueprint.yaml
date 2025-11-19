@@ -4,225 +4,183 @@ types:
     industryblueprintrank: 3.0
     marketGroup: 1564
     name: Small Energy Nosferatu I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 395040.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12258:
     id: 12258
     industryblueprintrank: 6.0
     marketGroup: 1564
     name: Medium Energy Nosferatu I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1975200.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12260:
     id: 12260
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Energy Nosferatu II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
+    price: 10000000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   12262:
     id: 12262
     industryblueprintrank: 9.0
     marketGroup: 1564
     name: Heavy Energy Nosferatu I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9876000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   12264:
     id: 12264
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Heavy Energy Nosferatu II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 9999999.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   13002:
     id: 13002
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Energy Nosferatu II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   15876:
     id: 15876
     industryblueprintrank: 3.0
     name: Ammatar Navy Small Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15878:
     id: 15878
     industryblueprintrank: 6.0
     name: Ammatar Navy Medium Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15880:
     id: 15880
     industryblueprintrank: 9.0
     name: Ammatar Navy Heavy Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15882:
     id: 15882
     industryblueprintrank: 3.0
     name: Imperial Navy Small Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15884:
     id: 15884
     industryblueprintrank: 6.0
     name: Imperial Navy Medium Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   15886:
     id: 15886
     industryblueprintrank: 9.0
     name: Imperial Navy Heavy Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23822:
     id: 23822
     industryblueprintrank: 3.0
     name: Small 'Upir' Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23825:
     id: 23825
     industryblueprintrank: 6.0
     name: Medium 'Strigoi' Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23830:
     id: 23830
     industryblueprintrank: 9.0
     name: Heavy 'Vrykolakas' Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40684:
     id: 40684
     industryblueprintrank: 150.0
     marketGroup: 1564
     name: Capital Energy Nosferatu I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.9E7
+    price: 29000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40685:
     id: 40685
     industryblueprintrank: 200.0
     marketGroup: 1564
     name: Capital Ghoul Compact Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E7
+    price: 58000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40686:
     id: 40686
     industryblueprintrank: 200.0
     marketGroup: 1564
     name: Capital Knave Scoped Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E7
+    price: 58000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40687:
     id: 40687
     industryblueprintrank: 300.0
     name: Capital Energy Nosferatu II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
+    price: 40000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   40688:
     id: 40688
     industryblueprintrank: 400.0
     name: True Sansha Capital Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   40689:
     id: 40689
     industryblueprintrank: 400.0
     name: Dark Blood Capital Energy Nosferatu Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
+    price: 80000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

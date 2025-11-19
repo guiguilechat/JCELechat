@@ -1,90 +1,75 @@
 types:
   3991:
     id: 3991
-    industryblueprintrank: 23.399999618530273
+    industryblueprintrank: 23.4
     name: Large Remote Hull Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   4298:
     id: 4298
-    industryblueprintrank: 15.600000381469727
+    industryblueprintrank: 15.6
     name: Medium Remote Hull Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   4300:
     id: 4300
-    industryblueprintrank: 7.800000190734863
+    industryblueprintrank: 7.8
     name: Small Remote Hull Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   27905:
     id: 27905
     industryblueprintrank: 9.0
     marketGroup: 1538
     name: Large Remote Hull Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 3000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27931:
     id: 27931
     industryblueprintrank: 6.0
     marketGroup: 1538
     name: Medium Remote Hull Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27933:
     id: 27933
     industryblueprintrank: 3.0
     marketGroup: 1538
     name: Small Remote Hull Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27935:
     id: 27935
     industryblueprintrank: 120.0
     marketGroup: 1538
     name: Capital Remote Hull Repairer I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 25000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   41631:
     id: 41631
     name: Capital Remote Hull Repairer II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

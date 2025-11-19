@@ -4,29 +4,27 @@ types:
     chargesize: 1
     cpumultiplier: 1.0
     entityflyrangemultiplier: 0.5
-    explosivedamage: 13.899999618530273
+    explosivedamage: 13.9
     fallofmultiplier: 0.75
     id: 12608
-    kineticdamage: 3.799999952316284
+    kineticdamage: 3.8
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 859
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail S
-    packagedVolume: 0.0024999999441206455
     portionSize: 5000
     powerneedmultiplier: 1
     price: 100000.0
     published: true
-    radius: 1.0
     requiredskill1: 11084
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 0.5
   12625:
     capacitorrechargeratemultiplier: 1.0
@@ -40,22 +38,20 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 859
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage S
-    packagedVolume: 0.0024999999441206455
     portionSize: 5000
     powerneedmultiplier: 1
     price: 100000.0
     published: true
-    radius: 1.0
     requiredskill1: 11084
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.0024999999441206455
+    volume: 0.0025
     weaponrangemultiplier: 1.0
   12773:
     capacitorrechargeratemultiplier: 1.0
@@ -69,22 +65,20 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 858
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage M
-    packagedVolume: 0.012500000186264515
     portionSize: 5000
     powerneedmultiplier: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 12208
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 1.0
   12775:
     capacitorrechargeratemultiplier: 1.0
@@ -98,90 +92,84 @@ types:
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 857
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage L
-    packagedVolume: 0.02500000037252903
     portionSize: 5000
     powerneedmultiplier: 1
     price: 1000000.0
     published: true
-    radius: 1.0
     requiredskill1: 12209
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 1.0
   12777:
     capacitorrechargeratemultiplier: 1.0
     chargesize: 2
     cpumultiplier: 1.0
     entityflyrangemultiplier: 0.5
-    explosivedamage: 27.799999237060547
+    explosivedamage: 27.8
     fallofmultiplier: 0.75
     id: 12777
-    kineticdamage: 7.599999904632568
+    kineticdamage: 7.6
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 858
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail M
-    packagedVolume: 0.012500000186264515
     portionSize: 5000
     powerneedmultiplier: 1
     price: 400000.0
     published: true
-    radius: 1.0
     requiredskill1: 12208
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.012500000186264515
+    volume: 0.0125
     weaponrangemultiplier: 0.5
   12779:
     capacitorrechargeratemultiplier: 1.0
     chargesize: 3
     cpumultiplier: 1.0
     entityflyrangemultiplier: 0.5
-    explosivedamage: 55.70000076293945
+    explosivedamage: 55.7
     fallofmultiplier: 0.75
     id: 12779
-    kineticdamage: 15.199999809265137
+    kineticdamage: 15.2
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 857
-    mass: 0.009999999776482582
+    mass: 0.01
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail L
-    packagedVolume: 0.02500000037252903
     portionSize: 5000
     powerneedmultiplier: 1
     price: 1000000.0
     published: true
-    radius: 1.0
     requiredskill1: 12209
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
     trackingspeedmultiplier: 0.75
-    volume: 0.02500000037252903
+    volume: 0.025
     weaponrangemultiplier: 0.5
   41314:
     capacitorrechargeratemultiplier: 1.0
     chargesize: 4
     cpumultiplier: 1.0
     entityflyrangemultiplier: 0.5
-    explosivedamage: 111.30000305175781
+    explosivedamage: 111.3
     fallofmultiplier: 0.75
     id: 41314
-    kineticdamage: 30.399999618530273
+    kineticdamage: 30.4
     launchergroup: 55
     maincolor: 11835778
     marketGroup: 2253
@@ -189,7 +177,6 @@ types:
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Hail XL
-    packagedVolume: 0.125
     portionSize: 100
     powerneedmultiplier: 1
     price: 50000.0
@@ -199,7 +186,7 @@ types:
     requiredskill1level: 1
     speedmultiplier: 1.0
     techlevel: 2
-    trackingspeedmultiplier: 0.699999988079071
+    trackingspeedmultiplier: 0.7
     volume: 0.125
     weaponrangemultiplier: 0.5
   41316:
@@ -208,7 +195,7 @@ types:
     cpumultiplier: 1.0
     entityflyrangemultiplier: 1.0
     explosivedamage: 48.0
-    fallofmultiplier: 1.399999976158142
+    fallofmultiplier: 1.4
     id: 41316
     kineticdamage: 40.0
     launchergroup: 55
@@ -218,7 +205,6 @@ types:
     maxvelocitymodifier: 1.0
     metalevelold: 5
     name: Barrage XL
-    packagedVolume: 0.125
     portionSize: 100
     powerneedmultiplier: 1
     price: 30000.0

@@ -5,3 +5,4 @@ types:
     portionSize: 1
     price: 600000.0
     published: false
+    radius: 51263.0

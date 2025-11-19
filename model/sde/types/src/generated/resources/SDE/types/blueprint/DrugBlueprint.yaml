@@ -3,8 +3,6 @@ types:
     id: 29204
     industryblueprintrank: 1.0
     name: Modified Augumene Antidote Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
-    volume: 0.009999999776482582
+    volume: 0.01

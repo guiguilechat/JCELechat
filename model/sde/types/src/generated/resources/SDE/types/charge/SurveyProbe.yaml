@@ -10,7 +10,6 @@ types:
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Quest Survey Probe I
-    packagedVolume: 5.0
     portionSize: 1
     price: 49688.0
     probesingroup: 3
@@ -35,7 +34,6 @@ types:
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Discovery Survey Probe I
-    packagedVolume: 10.0
     portionSize: 1
     price: 76080.0
     probesingroup: 3
@@ -60,7 +58,6 @@ types:
     maxscanrange: 100000000
     maxvelocity: 30000.0
     name: Gaze Survey Probe I
-    packagedVolume: 5.0
     portionSize: 1
     price: 107784.0
     probesingroup: 3

@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
@@ -29,9 +28,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBo
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -50,13 +47,6 @@ public class LargeCollidableShip
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double armorhp;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -150,27 +140,12 @@ public class LargeCollidableShip
     @DefaultRealValue(0.0)
     public double maxrange;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double shieldcapacity;
-    /**
-     * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * The amount of starting shield capacity of the NPC.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -199,7 +174,7 @@ public class LargeCollidableShip
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, SignatureRadius.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, MaxRange.INSTANCE, DisallowAssistance.INSTANCE, EntityAttackRange.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, MaxRange.INSTANCE, DisallowAssistance.INSTANCE, EntityAttackRange.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final LargeCollidableShip.MetaGroup METAGROUP = new LargeCollidableShip.MetaGroup();
 
     @Override
@@ -208,10 +183,6 @@ public class LargeCollidableShip
             case  265 :
             {
                 return armorhp;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  854 :
             {
@@ -265,17 +236,9 @@ public class LargeCollidableShip
             {
                 return maxrange;
             }
-            case  162 :
-            {
-                return radius;
-            }
             case  263 :
             {
                 return shieldcapacity;
-            }
-            case  264 :
-            {
-                return shieldcharge;
             }
             case  479 :
             {

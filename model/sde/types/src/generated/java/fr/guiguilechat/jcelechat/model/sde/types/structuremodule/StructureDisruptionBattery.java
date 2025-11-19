@@ -20,7 +20,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonus;
@@ -33,7 +32,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
@@ -89,13 +87,6 @@ public class StructureDisruptionBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorneed;
-    /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
     /**
      * CPU need of module
      */
@@ -182,13 +173,6 @@ public class StructureDisruptionBattery
     @DefaultIntValue(0)
     public int power;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
@@ -231,7 +215,7 @@ public class StructureDisruptionBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, ExplosionDelayBonus.INSTANCE, RemoteResistanceID.INSTANCE, FalloffBonus.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, MaxRangeBonus.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileVelocityBonus.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, SignatureRadiusBonus.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, ExplosionDelayBonus.INSTANCE, CanFitShipGroup03 .INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, FalloffEffectiveness.INSTANCE, FalloffBonus.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxRangeBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
 
     @Override
@@ -260,10 +244,6 @@ public class StructureDisruptionBattery
             case  6 :
             {
                 return capacitorneed;
-            }
-            case  38 :
-            {
-                return capacity;
             }
             case  50 :
             {
@@ -312,10 +292,6 @@ public class StructureDisruptionBattery
             case  30 :
             {
                 return power;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2138 :
             {

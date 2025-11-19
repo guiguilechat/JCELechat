@@ -5,15 +5,14 @@ types:
     duration: 10000.0
     empfieldrange: 3000
     explosivedamage: 50.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 1547
     marketGroup: 382
     mass: 10.0
     name: Small Proton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 12.5
     portionSize: 1
     power: 8
     published: true
@@ -29,8 +28,8 @@ types:
     duration: 10000.0
     empfieldrange: 3000
     explosivedamage: 70.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 1549
     marketGroup: 382
@@ -38,7 +37,6 @@ types:
     metalevelold: 5
     name: Small Proton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -53,8 +51,8 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 1551
     kineticdamage: 50.0
@@ -62,7 +60,6 @@ types:
     mass: 10.0
     name: Small Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 12.5
     portionSize: 1
     power: 8
     published: true
@@ -77,8 +74,8 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 1553
     kineticdamage: 70.0
@@ -87,7 +84,6 @@ types:
     metalevelold: 5
     name: Small Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -102,15 +98,14 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 1557
     marketGroup: 382
     mass: 10.0
     name: Small Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 12.5
     portionSize: 1
     power: 8
     published: true
@@ -126,8 +121,8 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 1559
     marketGroup: 382
@@ -135,7 +130,6 @@ types:
     metalevelold: 5
     name: Small Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -152,15 +146,14 @@ types:
     duration: 10000.0
     emdamage: 50.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 1563
     marketGroup: 382
     mass: 10.0
     name: Small EMP Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 12.5
     portionSize: 1
     power: 8
     published: true
@@ -176,8 +169,8 @@ types:
     duration: 10000.0
     emdamage: 70.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 1565
     marketGroup: 382
@@ -185,7 +178,6 @@ types:
     metalevelold: 5
     name: Small EMP Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -201,15 +193,14 @@ types:
     duration: 10000.0
     empfieldrange: 2000
     explosivedamage: 25.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3897
     marketGroup: 380
     mass: 100.0
     name: Micro Proton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -225,8 +216,8 @@ types:
     duration: 10000.0
     empfieldrange: 2000
     explosivedamage: 35.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3899
     marketGroup: 380
@@ -234,7 +225,6 @@ types:
     metalevelold: 5
     name: Micro Proton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -249,8 +239,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3901
     kineticdamage: 25.0
@@ -258,7 +248,6 @@ types:
     mass: 100.0
     name: Micro Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -273,8 +262,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3903
     kineticdamage: 35.0
@@ -283,7 +272,6 @@ types:
     metalevelold: 5
     name: Micro Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -298,15 +286,14 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3907
     marketGroup: 380
     mass: 100.0
     name: Micro Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -322,8 +309,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3909
     marketGroup: 380
@@ -331,7 +318,6 @@ types:
     metalevelold: 5
     name: Micro Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -348,15 +334,14 @@ types:
     duration: 10000.0
     emdamage: 25.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3913
     marketGroup: 380
     mass: 100.0
     name: Micro EMP Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -372,8 +357,8 @@ types:
     duration: 10000.0
     emdamage: 35.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3915
     marketGroup: 380
@@ -381,7 +366,6 @@ types:
     metalevelold: 5
     name: Micro EMP Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -397,15 +381,14 @@ types:
     duration: 10000.0
     empfieldrange: 4000
     explosivedamage: 100.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3937
     marketGroup: 383
     mass: 100.0
     name: Medium Proton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 200
     published: true
@@ -421,8 +404,8 @@ types:
     duration: 10000.0
     empfieldrange: 4000
     explosivedamage: 140.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3939
     marketGroup: 383
@@ -430,7 +413,6 @@ types:
     metalevelold: 5
     name: Medium Proton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -445,8 +427,8 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3941
     kineticdamage: 100.0
@@ -454,7 +436,6 @@ types:
     mass: 100.0
     name: Medium Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 200
     published: true
@@ -469,8 +450,8 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3943
     kineticdamage: 140.0
@@ -479,7 +460,6 @@ types:
     metalevelold: 5
     name: Medium Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -494,15 +474,14 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3947
     marketGroup: 383
     mass: 100.0
     name: Medium Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 200
     published: true
@@ -518,8 +497,8 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3949
     marketGroup: 383
@@ -527,7 +506,6 @@ types:
     metalevelold: 5
     name: Medium Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -544,15 +522,14 @@ types:
     duration: 10000.0
     emdamage: 100.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3953
     marketGroup: 383
     mass: 100.0
     name: Medium EMP Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 25.0
     portionSize: 1
     power: 200
     published: true
@@ -568,8 +545,8 @@ types:
     duration: 10000.0
     emdamage: 140.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3955
     marketGroup: 383
@@ -577,7 +554,6 @@ types:
     metalevelold: 5
     name: Medium EMP Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -593,15 +569,14 @@ types:
     duration: 10000.0
     empfieldrange: 5000
     explosivedamage: 250.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3977
     marketGroup: 381
     mass: 100.0
     name: Large Proton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -617,8 +592,8 @@ types:
     duration: 10000.0
     empfieldrange: 6000
     explosivedamage: 300.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3979
     marketGroup: 381
@@ -626,7 +601,6 @@ types:
     metalevelold: 5
     name: Large Proton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1100
     published: true
@@ -641,8 +615,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3981
     kineticdamage: 250.0
@@ -650,7 +624,6 @@ types:
     mass: 100.0
     name: Large Graviton Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -665,8 +638,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3983
     kineticdamage: 300.0
@@ -675,7 +648,6 @@ types:
     metalevelold: 5
     name: Large Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1100
     published: true
@@ -690,15 +662,14 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3987
     marketGroup: 381
     mass: 100.0
     name: Large Plasma Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -714,8 +685,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3989
     marketGroup: 381
@@ -723,7 +694,6 @@ types:
     metalevelold: 5
     name: Large Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1100
     published: true
@@ -740,15 +710,14 @@ types:
     duration: 10000.0
     emdamage: 250.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 3993
     marketGroup: 381
     mass: 100.0
     name: Large EMP Smartbomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -764,8 +733,8 @@ types:
     duration: 10000.0
     emdamage: 300.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 6.7
     hp: 40.0
     id: 3995
     marketGroup: 381
@@ -773,7 +742,6 @@ types:
     metalevelold: 5
     name: Large EMP Smartbomb II
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1100
     published: true
@@ -788,8 +756,8 @@ types:
     cpu: 64.0
     duration: 10000.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9668
     kineticdamage: 275.0
@@ -798,7 +766,6 @@ types:
     metalevelold: 1
     name: '''Concussion'' Compact Large Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 950
     published: true
@@ -813,8 +780,8 @@ types:
     cpu: 24.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9670
     kineticdamage: 60.0
@@ -823,7 +790,6 @@ types:
     metalevelold: 1
     name: '''Concussion'' Compact Small Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
@@ -839,8 +805,8 @@ types:
     duration: 10000.0
     emdamage: 275.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9678
     marketGroup: 381
@@ -848,7 +814,6 @@ types:
     metalevelold: 1
     name: '''Vehemence'' Compact Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 950
     published: true
@@ -864,8 +829,8 @@ types:
     duration: 10000.0
     emdamage: 60.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9680
     marketGroup: 382
@@ -873,7 +838,6 @@ types:
     metalevelold: 1
     name: '''Vehemence'' Compact Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
@@ -888,8 +852,8 @@ types:
     cpu: 18.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9702
     kineticdamage: 30.0
@@ -898,7 +862,6 @@ types:
     metalevelold: 1
     name: Micro Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -914,8 +877,8 @@ types:
     duration: 10000.0
     emdamage: 30.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9706
     marketGroup: 380
@@ -923,7 +886,6 @@ types:
     metalevelold: 1
     name: Micro 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -938,8 +900,8 @@ types:
     cpu: 40.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9728
     kineticdamage: 120.0
@@ -948,7 +910,6 @@ types:
     metalevelold: 1
     name: '''Concussion'' Compact Medium Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 190
     published: true
@@ -964,8 +925,8 @@ types:
     duration: 10000.0
     emdamage: 120.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9734
     marketGroup: 383
@@ -973,7 +934,6 @@ types:
     metalevelold: 1
     name: '''Vehemence'' Compact Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 190
     published: true
@@ -989,8 +949,8 @@ types:
     duration: 10000.0
     empfieldrange: 3000
     explosivedamage: 60.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9744
     marketGroup: 382
@@ -998,7 +958,6 @@ types:
     metalevelold: 1
     name: '''Notos'' Compact Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
@@ -1014,8 +973,8 @@ types:
     duration: 10000.0
     empfieldrange: 2000
     explosivedamage: 30.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9750
     marketGroup: 380
@@ -1023,7 +982,6 @@ types:
     metalevelold: 1
     name: Micro 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1039,8 +997,8 @@ types:
     duration: 10000.0
     empfieldrange: 4000
     explosivedamage: 120.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9762
     marketGroup: 383
@@ -1048,7 +1006,6 @@ types:
     metalevelold: 1
     name: '''Notos'' Compact Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 190
     published: true
@@ -1064,8 +1021,8 @@ types:
     duration: 10000.0
     empfieldrange: 5000
     explosivedamage: 275.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9772
     marketGroup: 381
@@ -1073,7 +1030,6 @@ types:
     metalevelold: 1
     name: '''Notos'' Compact Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 950
     published: true
@@ -1088,8 +1044,8 @@ types:
     cpu: 24.0
     duration: 10000.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9784
     marketGroup: 382
@@ -1097,7 +1053,6 @@ types:
     metalevelold: 1
     name: '''YF-12a'' Compact Small Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
@@ -1113,8 +1068,8 @@ types:
     cpu: 17.0
     duration: 10000.0
     empfieldrange: 2000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9790
     marketGroup: 380
@@ -1122,7 +1077,6 @@ types:
     metalevelold: 1
     name: Micro YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1138,8 +1092,8 @@ types:
     cpu: 40.0
     duration: 10000.0
     empfieldrange: 4000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9800
     marketGroup: 383
@@ -1147,7 +1101,6 @@ types:
     metalevelold: 1
     name: '''YF-12a'' Compact Medium Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 190
     published: true
@@ -1163,8 +1116,8 @@ types:
     cpu: 64.0
     duration: 10000.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 9808
     marketGroup: 381
@@ -1172,7 +1125,6 @@ types:
     metalevelold: 1
     name: '''YF-12a'' Compact Large Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 950
     published: true
@@ -1189,8 +1141,8 @@ types:
     duration: 10000.0
     emdamage: 375.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14188
     marketGroup: 381
@@ -1199,7 +1151,6 @@ types:
     metalevelold: 9
     name: Dark Blood Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -1215,8 +1166,8 @@ types:
     duration: 10000.0
     emdamage: 375.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14190
     marketGroup: 381
@@ -1225,7 +1176,6 @@ types:
     metalevelold: 9
     name: True Sansha Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -1241,8 +1191,8 @@ types:
     duration: 10000.0
     emdamage: 150.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14192
     marketGroup: 383
@@ -1251,7 +1201,6 @@ types:
     metalevelold: 9
     name: Dark Blood Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -1267,8 +1216,8 @@ types:
     duration: 10000.0
     emdamage: 150.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14194
     marketGroup: 383
@@ -1277,7 +1226,6 @@ types:
     metalevelold: 9
     name: True Sansha Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -1293,8 +1241,8 @@ types:
     duration: 10000.0
     emdamage: 38.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14196
     marketGroup: 380
@@ -1303,7 +1251,6 @@ types:
     metalevelold: 9
     name: Dark Blood Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1319,8 +1266,8 @@ types:
     duration: 10000.0
     emdamage: 38.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14198
     marketGroup: 380
@@ -1329,7 +1276,6 @@ types:
     metalevelold: 9
     name: True Sansha Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1345,8 +1291,8 @@ types:
     duration: 10000.0
     emdamage: 75.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14200
     marketGroup: 382
@@ -1355,7 +1301,6 @@ types:
     metalevelold: 9
     name: Dark Blood Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -1371,8 +1316,8 @@ types:
     duration: 10000.0
     emdamage: 75.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14202
     marketGroup: 382
@@ -1381,7 +1326,6 @@ types:
     metalevelold: 9
     name: True Sansha Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -1396,8 +1340,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14204
     kineticdamage: 375.0
@@ -1407,7 +1351,6 @@ types:
     metalevelold: 9
     name: Dread Guristas Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -1422,8 +1365,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14206
     marketGroup: 381
@@ -1432,7 +1375,6 @@ types:
     metalevelold: 9
     name: Shadow Serpentis Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -1449,8 +1391,8 @@ types:
     duration: 10000.0
     empfieldrange: 6000
     explosivedamage: 450.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14208
     marketGroup: 381
@@ -1459,7 +1401,6 @@ types:
     metalevelold: 9
     name: Domination Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -1474,8 +1415,8 @@ types:
     cpu: 40.0
     duration: 12000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14210
     kineticdamage: 150.0
@@ -1485,7 +1426,6 @@ types:
     metalevelold: 9
     name: Dread Guristas Medium Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -1500,8 +1440,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14212
     kineticdamage: 31.0
@@ -1511,7 +1451,6 @@ types:
     metalevelold: 9
     name: Dread Guristas Micro Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1526,8 +1465,8 @@ types:
     cpu: 24.0
     duration: 12000.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14214
     kineticdamage: 75.0
@@ -1537,7 +1476,6 @@ types:
     metalevelold: 9
     name: Dread Guristas Small Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -1552,8 +1490,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14218
     marketGroup: 380
@@ -1562,7 +1500,6 @@ types:
     metalevelold: 9
     name: Shadow Serpentis Micro Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1578,8 +1515,8 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 7200
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14220
     marketGroup: 383
@@ -1588,7 +1525,6 @@ types:
     metalevelold: 9
     name: Shadow Serpentis Medium Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -1605,8 +1541,8 @@ types:
     duration: 10000.0
     empfieldrange: 4800
     explosivedamage: 180.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14222
     marketGroup: 383
@@ -1615,7 +1551,6 @@ types:
     metalevelold: 9
     name: Domination Medium Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -1631,8 +1566,8 @@ types:
     duration: 10000.0
     empfieldrange: 2600
     explosivedamage: 33.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14224
     marketGroup: 380
@@ -1641,7 +1576,6 @@ types:
     metalevelold: 9
     name: Domination Micro Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -1657,8 +1591,8 @@ types:
     duration: 10000.0
     empfieldrange: 3600
     explosivedamage: 90.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14226
     marketGroup: 382
@@ -1667,7 +1601,6 @@ types:
     metalevelold: 9
     name: Domination Small Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -1682,8 +1615,8 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 5400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14228
     marketGroup: 382
@@ -1692,7 +1625,6 @@ types:
     metalevelold: 9
     name: Shadow Serpentis Small Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -1709,8 +1641,8 @@ types:
     duration: 10000.0
     empfieldrange: 6600
     explosivedamage: 495.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14544
     marketGroup: 381
@@ -1719,7 +1651,6 @@ types:
     metalevelold: 11
     name: Mizuro's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     published: true
@@ -1735,8 +1666,8 @@ types:
     duration: 10000.0
     empfieldrange: 7200
     explosivedamage: 540.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14546
     marketGroup: 381
@@ -1745,7 +1676,6 @@ types:
     metalevelold: 12
     name: Hakim's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1750
     published: true
@@ -1761,8 +1691,8 @@ types:
     duration: 10000.0
     empfieldrange: 7800
     explosivedamage: 585.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14548
     marketGroup: 381
@@ -1771,7 +1701,6 @@ types:
     metalevelold: 13
     name: Gotan's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2000
     published: true
@@ -1787,8 +1716,8 @@ types:
     duration: 10000.0
     empfieldrange: 8400
     explosivedamage: 630.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14550
     marketGroup: 381
@@ -1797,7 +1726,6 @@ types:
     metalevelold: 14
     name: Tobias' Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2250
     published: true
@@ -1812,8 +1740,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 8250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14692
     kineticdamage: 413.0
@@ -1823,7 +1751,6 @@ types:
     metalevelold: 11
     name: Kaikka's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     published: true
@@ -1838,8 +1765,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14694
     kineticdamage: 450.0
@@ -1849,7 +1776,6 @@ types:
     metalevelold: 12
     name: Thon's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1750
     published: true
@@ -1864,8 +1790,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 9750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14696
     kineticdamage: 488.0
@@ -1875,7 +1801,6 @@ types:
     metalevelold: 13
     name: Vepas' Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2000
     published: true
@@ -1890,8 +1815,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 10500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14698
     kineticdamage: 525.0
@@ -1901,7 +1826,6 @@ types:
     metalevelold: 14
     name: Estamel's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2250
     published: true
@@ -1917,8 +1841,8 @@ types:
     duration: 10000.0
     emdamage: 413.0
     empfieldrange: 8250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14784
     marketGroup: 381
@@ -1927,7 +1851,6 @@ types:
     metalevelold: 11
     name: Brokara's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     published: true
@@ -1943,8 +1866,8 @@ types:
     duration: 10000.0
     emdamage: 413.0
     empfieldrange: 8250
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14786
     marketGroup: 381
@@ -1953,7 +1876,6 @@ types:
     metalevelold: 11
     name: Tairei's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     published: true
@@ -1969,8 +1891,8 @@ types:
     duration: 10000.0
     emdamage: 450.0
     empfieldrange: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14788
     marketGroup: 381
@@ -1979,7 +1901,6 @@ types:
     metalevelold: 12
     name: Selynne's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1750
     published: true
@@ -1995,8 +1916,8 @@ types:
     duration: 10000.0
     emdamage: 450.0
     empfieldrange: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14790
     marketGroup: 381
@@ -2005,7 +1926,6 @@ types:
     metalevelold: 12
     name: Raysere's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1750
     published: true
@@ -2021,8 +1941,8 @@ types:
     duration: 10000.0
     emdamage: 488.0
     empfieldrange: 9750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14792
     marketGroup: 381
@@ -2031,7 +1951,6 @@ types:
     metalevelold: 13
     name: Vizan's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2000
     published: true
@@ -2047,8 +1966,8 @@ types:
     duration: 10000.0
     emdamage: 488.0
     empfieldrange: 9750
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14794
     marketGroup: 381
@@ -2057,7 +1976,6 @@ types:
     metalevelold: 13
     name: Ahremen's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2000
     published: true
@@ -2073,8 +1991,8 @@ types:
     duration: 10000.0
     emdamage: 525.0
     empfieldrange: 10500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14796
     marketGroup: 381
@@ -2083,7 +2001,6 @@ types:
     metalevelold: 14
     name: Chelm's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2250
     published: true
@@ -2099,8 +2016,8 @@ types:
     duration: 10000.0
     emdamage: 525.0
     empfieldrange: 10500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 14798
     marketGroup: 381
@@ -2109,7 +2026,6 @@ types:
     metalevelold: 14
     name: Draclira's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2250
     published: true
@@ -2124,8 +2040,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 9900
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15152
     marketGroup: 381
@@ -2134,7 +2050,6 @@ types:
     metalevelold: 11
     name: Brynn's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1500
     published: true
@@ -2150,8 +2065,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 10800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15154
     marketGroup: 381
@@ -2160,7 +2075,6 @@ types:
     metalevelold: 12
     name: Tuvan's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1750
     published: true
@@ -2176,8 +2090,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 11700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15156
     marketGroup: 381
@@ -2186,7 +2100,6 @@ types:
     metalevelold: 13
     name: Setele's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2000
     published: true
@@ -2202,8 +2115,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 12600
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15158
     marketGroup: 381
@@ -2212,7 +2125,6 @@ types:
     metalevelold: 14
     name: Cormack's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 2250
     published: true
@@ -2228,8 +2140,8 @@ types:
     cpu: 24.0
     duration: 12000.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15925
     kineticdamage: 75.0
@@ -2239,7 +2151,6 @@ types:
     metalevelold: 9
     name: Caldari Navy Small Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -2254,8 +2165,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15927
     kineticdamage: 31.0
@@ -2265,7 +2176,6 @@ types:
     metalevelold: 9
     name: Caldari Navy Micro Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2280,8 +2190,8 @@ types:
     cpu: 40.0
     duration: 12000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15929
     kineticdamage: 150.0
@@ -2291,7 +2201,6 @@ types:
     metalevelold: 9
     name: Caldari Navy Medium Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2306,8 +2215,8 @@ types:
     cpu: 64.0
     duration: 12000.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15931
     kineticdamage: 375.0
@@ -2317,7 +2226,6 @@ types:
     metalevelold: 9
     name: Caldari Navy Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2333,8 +2241,8 @@ types:
     duration: 10000.0
     empfieldrange: 2600
     explosivedamage: 33.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15933
     marketGroup: 380
@@ -2343,7 +2251,6 @@ types:
     metalevelold: 9
     name: Republic Fleet Micro Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2359,8 +2266,8 @@ types:
     duration: 10000.0
     empfieldrange: 3600
     explosivedamage: 90.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15935
     marketGroup: 382
@@ -2369,7 +2276,6 @@ types:
     metalevelold: 9
     name: Republic Fleet Small Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -2385,8 +2291,8 @@ types:
     duration: 10000.0
     empfieldrange: 4800
     explosivedamage: 180.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15937
     marketGroup: 383
@@ -2395,7 +2301,6 @@ types:
     metalevelold: 9
     name: Republic Fleet Medium Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2411,8 +2316,8 @@ types:
     duration: 10000.0
     empfieldrange: 6000
     explosivedamage: 450.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15939
     marketGroup: 381
@@ -2421,7 +2326,6 @@ types:
     metalevelold: 9
     name: Republic Fleet Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2437,8 +2341,8 @@ types:
     duration: 10000.0
     emdamage: 75.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15941
     marketGroup: 382
@@ -2447,7 +2351,6 @@ types:
     metalevelold: 9
     name: Ammatar Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -2463,8 +2366,8 @@ types:
     duration: 10000.0
     emdamage: 38.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15943
     marketGroup: 380
@@ -2473,7 +2376,6 @@ types:
     metalevelold: 9
     name: Ammatar Navy Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2489,8 +2391,8 @@ types:
     duration: 10000.0
     emdamage: 150.0
     empfieldrange: 5000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15945
     marketGroup: 383
@@ -2499,7 +2401,6 @@ types:
     metalevelold: 9
     name: Ammatar Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2515,8 +2416,8 @@ types:
     duration: 10000.0
     emdamage: 375.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15947
     marketGroup: 381
@@ -2525,7 +2426,6 @@ types:
     metalevelold: 9
     name: Ammatar Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2540,8 +2440,8 @@ types:
     cpu: 30.0
     duration: 10000.0
     empfieldrange: 5400
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15949
     marketGroup: 382
@@ -2550,7 +2450,6 @@ types:
     metalevelold: 9
     name: Federation Navy Small Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -2566,8 +2465,8 @@ types:
     cpu: 20.0
     duration: 10000.0
     empfieldrange: 2700
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15951
     marketGroup: 380
@@ -2576,7 +2475,6 @@ types:
     metalevelold: 9
     name: Federation Navy Micro Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2592,8 +2490,8 @@ types:
     cpu: 50.0
     duration: 10000.0
     empfieldrange: 7200
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15953
     marketGroup: 383
@@ -2602,7 +2500,6 @@ types:
     metalevelold: 9
     name: Federation Navy Medium Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2618,8 +2515,8 @@ types:
     cpu: 80.0
     duration: 10000.0
     empfieldrange: 9000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15955
     marketGroup: 381
@@ -2628,7 +2525,6 @@ types:
     metalevelold: 9
     name: Federation Navy Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2645,8 +2541,8 @@ types:
     duration: 10000.0
     emdamage: 75.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15957
     marketGroup: 382
@@ -2655,7 +2551,6 @@ types:
     metalevelold: 9
     name: Imperial Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -2671,8 +2566,8 @@ types:
     duration: 10000.0
     emdamage: 38.0
     empfieldrange: 3000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15959
     marketGroup: 380
@@ -2681,7 +2576,6 @@ types:
     metalevelold: 9
     name: Imperial Navy Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2697,8 +2591,8 @@ types:
     duration: 10000.0
     emdamage: 150.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15961
     marketGroup: 383
@@ -2707,7 +2601,6 @@ types:
     metalevelold: 9
     name: Imperial Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2723,8 +2616,8 @@ types:
     duration: 10000.0
     emdamage: 375.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 15963
     marketGroup: 381
@@ -2733,7 +2626,6 @@ types:
     metalevelold: 9
     name: Imperial Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2749,8 +2641,8 @@ types:
     duration: 10000.0
     empfieldrange: 3600
     explosivedamage: 50.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 21532
     marketGroup: 380
@@ -2759,7 +2651,6 @@ types:
     metalevelold: 6
     name: Micro Degenerative Concussion Bomb I
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 7
     published: true
@@ -2775,8 +2666,8 @@ types:
     duration: 10000.0
     empfieldrange: 3600
     explosivedamage: 70.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 21534
     marketGroup: 382
@@ -2785,7 +2676,6 @@ types:
     metalevelold: 6
     name: '''Degenerative'' Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 2.5
     portionSize: 1
     power: 5
     published: true
@@ -2801,8 +2691,8 @@ types:
     duration: 10000.0
     empfieldrange: 4800
     explosivedamage: 140.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 21536
     marketGroup: 383
@@ -2811,7 +2701,6 @@ types:
     metalevelold: 6
     name: '''Dwindling'' Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     published: true
@@ -2827,8 +2716,8 @@ types:
     duration: 10000.0
     empfieldrange: 6000
     explosivedamage: 350.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 21538
     marketGroup: 381
@@ -2837,7 +2726,6 @@ types:
     metalevelold: 6
     name: '''Regressive'' Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 900
     published: true
@@ -2853,8 +2741,8 @@ types:
     duration: 10000.0
     emdamage: 70.0
     empfieldrange: 3600
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 23864
     marketGroup: 382
@@ -2863,7 +2751,6 @@ types:
     metalevelold: 6
     name: '''Pike'' Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -2879,8 +2766,8 @@ types:
     duration: 10000.0
     emdamage: 140.0
     empfieldrange: 4800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 23866
     marketGroup: 383
@@ -2889,7 +2776,6 @@ types:
     metalevelold: 6
     name: '''Lance'' Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     published: true
@@ -2905,8 +2791,8 @@ types:
     duration: 10000.0
     emdamage: 350.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 23868
     marketGroup: 381
@@ -2915,7 +2801,6 @@ types:
     metalevelold: 6
     name: '''Warhammer'' Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 900
     published: true
@@ -2931,8 +2816,8 @@ types:
     duration: 10000.0
     emdamage: 375.0
     empfieldrange: 7500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 28545
     marketGroup: 381
@@ -2941,7 +2826,6 @@ types:
     metalevelold: 9
     name: Khanid Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 1000
     published: true
@@ -2957,8 +2841,8 @@ types:
     duration: 10000.0
     emdamage: 150.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 28550
     marketGroup: 383
@@ -2967,7 +2851,6 @@ types:
     metalevelold: 9
     name: Khanid Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 200
     published: true
@@ -2983,8 +2866,8 @@ types:
     duration: 10000.0
     emdamage: 75.0
     empfieldrange: 4500
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 28557
     marketGroup: 382
@@ -2993,7 +2876,6 @@ types:
     metalevelold: 9
     name: Khanid Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 8
     published: true
@@ -3008,7 +2890,6 @@ types:
     id: 84434
     mass: 100.0
     name: Large Abyssal EMP Smartbomb
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3021,7 +2902,6 @@ types:
     id: 84435
     mass: 100.0
     name: Large Abyssal Plasma Smartbomb
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3034,7 +2914,6 @@ types:
     id: 84436
     mass: 100.0
     name: Large Abyssal Graviton Smartbomb
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3047,7 +2926,6 @@ types:
     id: 84437
     mass: 100.0
     name: Large Abyssal Proton Smartbomb
-    packagedVolume: 50.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3060,7 +2938,6 @@ types:
     id: 84438
     mass: 100.0
     name: Medium Abyssal EMP Smartbomb
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3073,7 +2950,6 @@ types:
     id: 84439
     mass: 100.0
     name: Medium Abyssal Plasma Smartbomb
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3086,7 +2962,6 @@ types:
     id: 84440
     mass: 100.0
     name: Medium Abyssal Graviton Smartbomb
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3099,7 +2974,6 @@ types:
     id: 84441
     mass: 100.0
     name: Medium Abyssal Proton Smartbomb
-    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3112,7 +2986,6 @@ types:
     id: 84442
     mass: 100.0
     name: Small Abyssal EMP Smartbomb
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3125,7 +2998,6 @@ types:
     id: 84443
     mass: 100.0
     name: Small Abyssal Plasma Smartbomb
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3138,7 +3010,6 @@ types:
     id: 84444
     mass: 100.0
     name: Small Abyssal Graviton Smartbomb
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3151,7 +3022,6 @@ types:
     id: 84445
     mass: 100.0
     name: Small Abyssal Proton Smartbomb
-    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 1000.0
@@ -3164,8 +3034,8 @@ types:
     cpu: 60.0
     duration: 10000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84495
     kineticdamage: 350.0
@@ -3175,7 +3045,6 @@ types:
     metalevelold: 6
     name: '''Blasting'' Large Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 900
     published: true
@@ -3190,8 +3059,8 @@ types:
     cpu: 60.0
     duration: 10000.0
     empfieldrange: 6000
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84496
     marketGroup: 381
@@ -3200,7 +3069,6 @@ types:
     metalevelold: 6
     name: '''Scalding'' Large Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 50.0
     portionSize: 1
     power: 900
     published: true
@@ -3216,8 +3084,8 @@ types:
     cpu: 37.5
     duration: 10000.0
     empfieldrange: 4800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84497
     kineticdamage: 140.0
@@ -3227,7 +3095,6 @@ types:
     metalevelold: 6
     name: '''Booming'' Medium Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     published: true
@@ -3242,8 +3109,8 @@ types:
     cpu: 37.5
     duration: 10000.0
     empfieldrange: 4800
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84498
     marketGroup: 383
@@ -3252,7 +3119,6 @@ types:
     metalevelold: 6
     name: '''Boiling'' Medium Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 180
     published: true
@@ -3268,8 +3134,8 @@ types:
     cpu: 17.0
     duration: 10000.0
     empfieldrange: 3600
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84499
     kineticdamage: 70.0
@@ -3279,7 +3145,6 @@ types:
     metalevelold: 6
     name: '''Roaring'' Small Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -3294,8 +3159,8 @@ types:
     cpu: 17.0
     duration: 10000.0
     empfieldrange: 3600
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84500
     marketGroup: 382
@@ -3304,7 +3169,6 @@ types:
     metalevelold: 6
     name: '''Seething'' Small Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -3322,8 +3186,8 @@ types:
     emdamage: 45.0
     empfieldrange: 7200
     explosivedamage: 45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.699999809265137
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 6.7
     hp: 40.0
     id: 84740
     kineticdamage: 45.0
@@ -3333,7 +3197,6 @@ types:
     metalevelold: 17
     name: Allecto's Modified Medium Multispectrum Smartbomb
     overloadselfdurationbonus: -15.0
-    packagedVolume: 10.0
     portionSize: 1
     power: 350
     published: true

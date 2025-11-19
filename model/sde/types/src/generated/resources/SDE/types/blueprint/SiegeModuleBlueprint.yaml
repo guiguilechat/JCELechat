@@ -3,165 +3,138 @@ types:
     id: 4293
     industryblueprintrank: 468.0
     name: Siege Module II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
+    price: 522349680.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   4295:
     id: 4295
     industryblueprintrank: 468.0
     name: Triage Module II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
+    price: 522349680.0
     published: true
-    radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
+    volume: 0.01
   20281:
     id: 20281
     industryblueprintrank: 180.0
     marketGroup: 343
     name: Siege Module I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
+    price: 522349680.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   23954:
     id: 23954
     industryblueprintrank: 180.0
     marketGroup: 799
     name: Jump Portal Generator I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.81455744E8
+    price: 481455760.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   27952:
     id: 27952
     industryblueprintrank: 180.0
     marketGroup: 343
     name: Triage Module I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
+    price: 522349680.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28584:
     id: 28584
     industryblueprintrank: 180.0
     marketGroup: 343
     name: Capital Industrial Core I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E8
+    price: 400000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   28653:
     id: 28653
     industryblueprintrank: 12.0
     marketGroup: 799
     name: Covert Jump Portal Generator I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.81455744E8
+    price: 481455760.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   33401:
     id: 33401
     industryblueprintrank: 12.0
     marketGroup: 343
     name: Bastion Module I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
+    price: 50000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   42891:
     id: 42891
     name: Capital Industrial Core II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.04E9
+    price: 1040000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   59171:
     id: 59171
     industryblueprintrank: 180.0
     marketGroup: 343
     name: Large Industrial Core I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
+    price: 300000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   59172:
     id: 59172
     name: Large Industrial Core II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.8E8
+    price: 780000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   62592:
     id: 62592
     industryblueprintrank: 180.0
     marketGroup: 343
     name: Medium Industrial Core I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   62593:
     id: 62593
     name: Medium Industrial Core II Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.6E8
+    price: 260000000.0
     published: true
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   63164:
     id: 63164
     industryblueprintrank: 12.0
     marketGroup: 799
     name: Industrial Jump Portal Generator I Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
+    price: 500000000.0
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01
   88267:
     id: 88267
     name: Strategos' Modified Siege Module Blueprint
-    packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     techlevel: 1
-    volume: 0.009999999776482582
+    volume: 0.01

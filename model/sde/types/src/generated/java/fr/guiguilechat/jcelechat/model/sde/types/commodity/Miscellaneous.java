@@ -18,13 +18,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AspectRatioHeight;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AspectRatioWidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -67,13 +65,6 @@ public class Miscellaneous
     @DefaultRealValue(1.0)
     public double asteroidradiusgrowthfactor;
     /**
-     * The cargo space allowed
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double capacity;
-    /**
      * Export tax multiplier when exporting this commodity off a planet.
      */
     @HighIsGood(false)
@@ -109,20 +100,13 @@ public class Miscellaneous
     @DefaultIntValue(0)
     public int orebasictype;
     /**
-     * Radius of an object in meters
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double radius;
-    /**
      * Resistance against Stasis Webifiers
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AspectRatioHeight.INSTANCE, Radius.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, Capacity.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AspectRatioWidth.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AspectRatioHeight.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AspectRatioWidth.INSTANCE })));
     public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
@@ -144,10 +128,6 @@ public class Miscellaneous
             {
                 return asteroidradiusgrowthfactor;
             }
-            case  38 :
-            {
-                return capacity;
-            }
             case  1641 :
             {
                 return exporttaxmultiplier;
@@ -167,10 +147,6 @@ public class Miscellaneous
             case  2711 :
             {
                 return orebasictype;
-            }
-            case  162 :
-            {
-                return radius;
             }
             case  2115 :
             {

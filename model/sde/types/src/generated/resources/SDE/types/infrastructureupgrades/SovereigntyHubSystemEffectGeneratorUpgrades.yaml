@@ -1,45 +1,41 @@
 types:
   87815:
+    distributionid01: 4107
     id: 87815
     marketGroup: 3741
     mass: 1000.0
     name: Gamma Stability Generator
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 10000.0
   87949:
+    distributionid01: 4108
     id: 87949
     marketGroup: 3741
     mass: 1000.0
     name: Plasma Stability Generator
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 10000.0
   87950:
+    distributionid01: 4110
     id: 87950
     marketGroup: 3741
     mass: 1000.0
     name: Electric Stability Generator
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 10000.0
   87951:
+    distributionid01: 4109
     id: 87951
     marketGroup: 3741
     mass: 1000.0
     name: Exotic Stability Generator
-    packagedVolume: 10000.0
     portionSize: 1
-    price: 1.0E8
+    price: 100000000.0
     published: true
-    radius: 1.0
     volume: 10000.0

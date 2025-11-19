@@ -1,18 +1,19 @@
 types:
   482:
-    capacitorneed: 70.0
+    capacitorneed: 18.0
     cpu: 80.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 482
     marketGroup: 1039
     maxrange: 12000.0
     metalevelold: 5
-    miningamount: 60
+    miningamount: 15
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
     name: Miner II
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     published: true
@@ -24,17 +25,18 @@ types:
     typecolorscheme: 11347
     volume: 5.0
   483:
-    capacitorneed: 20.0
+    capacitorneed: 5.0
     cpu: 60.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 483
     marketGroup: 1039
     maxrange: 10000.0
-    miningamount: 40
+    miningamount: 10
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Miner I
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -54,9 +56,10 @@ types:
     marketGroup: 1039
     maxrange: 10000.0
     miningamount: 6
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Civilian Miner
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -68,19 +71,20 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   5233:
-    capacitorneed: 10.0
+    capacitorneed: 2.0
     cpu: 45.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 5233
     marketGroup: 1039
     maxrange: 11000.0
     metagroupid: 3
     metalevelold: 6
-    miningamount: 25
+    miningamount: 7
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Single Diode Basic Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -91,18 +95,19 @@ types:
     techlevel: 1
     volume: 5.0
   5239:
-    capacitorneed: 20.0
+    capacitorneed: 5.0
     cpu: 65.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 5239
     marketGroup: 1039
     maxrange: 16000.0
     metalevelold: 1
-    miningamount: 50
+    miningamount: 13
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: EP-S Gaussian Scoped Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
@@ -114,18 +119,19 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   5245:
-    capacitorneed: 20.0
+    capacitorneed: 5.0
     cpu: 55.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 5245
     marketGroup: 1039
     maxrange: 11000.0
     metalevelold: 1
-    miningamount: 50
+    miningamount: 13
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Particle Bore Compact Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -137,19 +143,19 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   12108:
-    capacitorneed: 240.0
+    capacitorneed: 60.0
     cpu: 150.0
-    crystalsgetdamaged: 1
     damagecloudchance: 5.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 12108
     marketGroup: 1039
     maxrange: 5000.0
-    miningamount: 40
+    miningamount: 10
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Deep Core Mining Laser I
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -163,20 +169,21 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   21841:
-    capacitorneed: 10.0
+    capacitorneed: 2.0
     cpu: 60.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 21841
     marketGroup: 1039
     maxrange: 10000.0
     metagroupid: 3
     metalevelold: 8
-    miningamount: 45
+    miningamount: 12
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 20
     name: Gallente Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 3
     published: true
@@ -188,17 +195,18 @@ types:
     typecolorscheme: 11330
     volume: 5.0
   22921:
-    capacitorneed: 20.0
+    capacitorneed: 5.0
     cpu: 54.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 22921
     maxrange: 12000.0
     metalevelold: 6
-    miningamount: 55
+    miningamount: 14
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: '''Habitat'' Miner I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -209,18 +217,19 @@ types:
     techlevel: 1
     volume: 5.0
   22923:
-    capacitorneed: 40.0
+    capacitorneed: 10.0
     cpu: 54.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 22923
     marketGroup: 1039
     maxrange: 12400.0
     metalevelold: 6
-    miningamount: 60
+    miningamount: 15
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: '''Wild'' Miner I'
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -231,21 +240,21 @@ types:
     techlevel: 1
     volume: 5.0
   28748:
-    capacitorneed: 240.0
+    capacitorneed: 60.0
     cpu: 150.0
-    crystalsgetdamaged: 1
     damagecloudchance: 5.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 28748
     marketGroup: 1039
     maxrange: 7000.0
     metagroupid: 4
     metalevelold: 6
-    miningamount: 80
+    miningamount: 20
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Deep Core Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 2
     published: true
@@ -259,19 +268,20 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   28750:
-    capacitorneed: 70.0
+    capacitorneed: 18.0
     cpu: 80.0
-    duration: 60000.0
+    duration: 15000.0
     hp: 40.0
     id: 28750
     marketGroup: 1039
     maxrange: 16000.0
     metagroupid: 4
     metalevelold: 8
-    miningamount: 85
+    miningamount: 21
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Miner
-    packagedVolume: 5.0
     portionSize: 1
     power: 4
     published: true
@@ -292,9 +302,10 @@ types:
     marketGroup: 2151
     maxrange: 7000.0
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: Ice Mining Laser I
-    packagedVolume: 5.0
     portionSize: 1
     power: 5
     published: true
@@ -316,10 +327,11 @@ types:
     maxrange: 8000.0
     metalevelold: 5
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
     name: Ice Mining Laser II
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
     published: true
@@ -342,11 +354,54 @@ types:
     metagroupid: 4
     metalevelold: 8
     miningamount: 1000
+    miningcritbonusyield: 2
+    miningcritchance: 0.01
     miningwastedvolumemultiplier: 1
     name: ORE Ice Mining Laser
-    packagedVolume: 5.0
     portionSize: 1
     power: 6
+    published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  90460:
+    id: 90460
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Mining Laser
+    portionSize: 1
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    slots: 1
+    techlevel: 1
+    volume: 5.0
+  90483:
+    damagecloudchance: 5.0
+    id: 90483
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Deep Core Mining Laser
+    portionSize: 1
+    published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 5
+    requiredskill2: 11395
+    requiredskill2level: 1
+    slots: 1
+    techlevel: 1
+    typecolorscheme: 11346
+    volume: 5.0
+  90502:
+    canfitshipgroup01: 1283
+    id: 90502
+    miningwastedvolumemultiplier: 1
+    name: Abyssal Ice Mining Laser
+    portionSize: 1
     published: true
     radius: 25.0
     requiredskill1: 16281

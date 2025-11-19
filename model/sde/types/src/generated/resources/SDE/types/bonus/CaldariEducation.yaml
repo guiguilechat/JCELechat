@@ -3,41 +3,36 @@ types:
     cpumultiplier: 1.0
     id: 1657
     name: Caldari Military Academy Pilot Bonus
-    perceptionskilltrainingtimemultiplierbonus: -0.05000000074505806
+    perceptionskilltrainingtimemultiplierbonus: -0.05
     portionSize: 1
     published: false
-    radius: 1.0
   1658:
-    capacitorneedmultiplier: 0.949999988079071
+    capacitorneedmultiplier: 0.95
     cpumultiplier: 1.0
     id: 1658
     name: Caldari Military Academy Gunner Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1659:
     cpumultiplier: 1.0
     id: 1659
-    memoryskilltrainingtimemultiplierbonus: -0.05000000074505806
+    memoryskilltrainingtimemultiplierbonus: -0.05
     name: Caldari Technical School Engineering Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1660:
-    cpumultiplier: 0.949999988079071
+    cpumultiplier: 0.95
     id: 1660
     name: Caldari Technical School Electronics Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1661:
-    charismaskilltrainingtimemultiplierbonus: -0.05000000074505806
+    charismaskilltrainingtimemultiplierbonus: -0.05
     cpumultiplier: 1.0
     id: 1661
     name: Caldari Business School Commerce Bonus
     portionSize: 1
     published: false
-    radius: 1.0
   1662:
     cpumultiplier: 1.0
     id: 1662

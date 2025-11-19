@@ -4,7 +4,6 @@ types:
     marketGroup: 492
     mass: 400.0
     name: Frozen Plant Seeds
-    packagedVolume: 0.5
     portionSize: 1
     price: 75.0
     published: true
@@ -14,7 +13,6 @@ types:
     marketGroup: 492
     mass: 400.0
     name: Frozen Food
-    packagedVolume: 0.5
     portionSize: 1
     price: 98.0
     published: true
@@ -24,7 +22,6 @@ types:
     marketGroup: 492
     mass: 400.0
     name: Dairy Products
-    packagedVolume: 0.5
     portionSize: 1
     price: 160.0
     published: true
@@ -34,7 +31,6 @@ types:
     marketGroup: 492
     mass: 400.0
     name: Long-limb Roes
-    packagedVolume: 1.0
     portionSize: 1
     price: 2400.0
     published: true
@@ -44,7 +40,6 @@ types:
     marketGroup: 492
     mass: 400.0
     name: Protein Delicacies
-    packagedVolume: 0.5
     portionSize: 1
     price: 200.0
     published: true
@@ -53,7 +48,6 @@ types:
     id: 21564
     mass: 400.0
     name: Milk
-    packagedVolume: 0.5
     portionSize: 1
     published: true
     volume: 0.5
@@ -61,7 +55,6 @@ types:
     id: 29470
     mass: 400.0
     name: Starcakes
-    packagedVolume: 2.0
     portionSize: 1
     price: 98.0
     published: true
@@ -70,7 +63,6 @@ types:
     id: 29481
     mass: 100.0
     name: Ghalen Pastries
-    packagedVolume: 1.0
     portionSize: 1
     price: 98.0
     published: true
@@ -79,7 +71,6 @@ types:
     id: 29482
     mass: 120.0
     name: Ghalen Dumplings
-    packagedVolume: 1.0
     portionSize: 1
     price: 98.0
     published: true
