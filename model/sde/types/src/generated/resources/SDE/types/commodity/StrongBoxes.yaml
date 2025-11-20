@@ -149,14 +149,14 @@ types:
     name: Blood Raider Standup Module Blueprint Armored Cache
     portionSize: 1
     published: true
-    volume: 400000.0
+    volume: 50000.0
   46580:
     id: 46580
     marketGroup: 2317
     name: Guristas Standup Module Blueprint Armored Cache
     portionSize: 1
     published: true
-    volume: 400000.0
+    volume: 50000.0
   46601:
     id: 46601
     marketGroup: 2317

@@ -32667,7 +32667,7 @@ id2group:
   90453: entity/IrregularMiningBarge
   90454: entity/IrregularDestroyer
   90455: entity/IrregularFrigate
-  90456: entity/IrregularIndustrialCommandShip
+  90456: entity/IrregularCapitalIndustrialShip
   90457: commodity/Mutaplasmids
   90458: commodity/Mutaplasmids
   90459: commodity/Mutaplasmids
@@ -32792,6 +32792,7 @@ id2group:
   91103: skins/PermanentSKIN
   91104: skins/PermanentSKIN
   91108: skins/PermanentSKIN
+  91193: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -8897,9 +8897,11 @@ types:
     exporttaxmultiplier: 1
     id: 90565
     importtaxmultiplier: 1
+    marketGroup: 614
     mass: 0.1
     name: Proof of Destruction
     portionSize: 1
+    price: 1500000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.1
@@ -8910,9 +8912,11 @@ types:
     exporttaxmultiplier: 1
     id: 90566
     importtaxmultiplier: 1
+    marketGroup: 614
     mass: 0.1
     name: Proof of Transmission
     portionSize: 1
+    price: 1500000.0
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.1

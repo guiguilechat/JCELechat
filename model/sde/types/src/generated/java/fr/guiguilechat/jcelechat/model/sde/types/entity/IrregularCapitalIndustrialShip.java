@@ -48,7 +48,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class IrregularIndustrialCommandShip
+public class IrregularCapitalIndustrialShip
     extends Entity
 {
     /**
@@ -253,7 +253,7 @@ public class IrregularIndustrialCommandShip
     @DefaultRealValue(100.0)
     public double signatureradius;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, BehaviorCommandBurstDuration.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorCommandBurstRange.INSTANCE, BehaviorCommandBurstDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
-    public static final IrregularIndustrialCommandShip.MetaGroup METAGROUP = new IrregularIndustrialCommandShip.MetaGroup();
+    public static final IrregularCapitalIndustrialShip.MetaGroup METAGROUP = new IrregularCapitalIndustrialShip.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -391,35 +391,35 @@ public class IrregularIndustrialCommandShip
     }
 
     @Override
-    public IMetaGroup<IrregularIndustrialCommandShip> getGroup() {
+    public IMetaGroup<IrregularCapitalIndustrialShip> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<IrregularIndustrialCommandShip>
+        implements IMetaGroup<IrregularCapitalIndustrialShip>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/IrregularIndustrialCommandShip.yaml";
-        private Map<Integer, IrregularIndustrialCommandShip> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/IrregularCapitalIndustrialShip.yaml";
+        private Map<Integer, IrregularCapitalIndustrialShip> cache = (null);
 
         @Override
-        public IMetaCategory<? super IrregularIndustrialCommandShip> category() {
+        public IMetaCategory<? super IrregularCapitalIndustrialShip> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  1925;
+            return  4975;
         }
 
         @Override
         public String getName() {
-            return "IrregularIndustrialCommandShip";
+            return "IrregularCapitalIndustrialShip";
         }
 
         @Override
-        public synchronized Map<Integer, IrregularIndustrialCommandShip> load() {
+        public synchronized Map<Integer, IrregularCapitalIndustrialShip> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(IrregularIndustrialCommandShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(IrregularCapitalIndustrialShip.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -431,7 +431,7 @@ public class IrregularIndustrialCommandShip
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, IrregularIndustrialCommandShip> types;
+            public LinkedHashMap<Integer, IrregularCapitalIndustrialShip> types;
         }
     }
 }
