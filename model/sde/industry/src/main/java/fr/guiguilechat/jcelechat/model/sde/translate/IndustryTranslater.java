@@ -128,8 +128,8 @@ public class IndustryTranslater {
 					if (compressInto == null) {
 						logger.debug("can't find asteroid from id " + compressIntoId);
 					} else {
-						usages.computeIfAbsent(compressed.id, o -> new IndustryUsage()).compressTo = compressIntoId;
-						usages.computeIfAbsent(compressIntoId, o -> new IndustryUsage()).compressFrom = compressed.id;
+						usages.computeIfAbsent(compressed.id, _ -> new IndustryUsage()).compressTo = compressIntoId;
+						usages.computeIfAbsent(compressIntoId, _ -> new IndustryUsage()).compressFrom = compressed.id;
 					}
 				}
 			}

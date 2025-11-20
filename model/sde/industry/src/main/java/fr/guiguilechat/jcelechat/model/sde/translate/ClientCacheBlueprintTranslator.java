@@ -20,18 +20,18 @@ import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.common.type.ConsumedMaterial;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints.Activities;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints.Activities.Activity.Product;
-import fr.guiguilechat.jcelechat.model.sde.EveType;
-import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -42,6 +42,10 @@ public class ClientCacheBlueprintTranslator {
 
 	private final ClientCache clientCache;
 
+	protected static Etypes type(int id) {
+		return Etypes.LOADER.yaml().get(id);
+	}
+
 	List<KeyValTime<Eblueprints>> listBlueprints()
 			throws JsonMappingException, JsonProcessingException, SQLException {
 		return Eblueprints.getLoader().load(clientCache);
@@ -51,12 +55,12 @@ public class ClientCacheBlueprintTranslator {
 			LinkedHashMap<Integer, IndustryUsage> usages)
 			throws JsonMappingException, JsonProcessingException, SQLException {
 		// set of type ids that are seeded by NPCs
-		Set<Integer> seededItems = EnpcCorporations.LOADER.load().values().stream()
+		Set<Integer> seededItems = EnpcCorporations.LOADER.yaml().load().values().stream()
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())
 				.collect(Collectors.toSet());
 		for (KeyValTime<Eblueprints> e : listBlueprints()) {
 			int bpId = e.getVal().blueprintTypeId;
-			EveType bpType = TypeIndex.getType(bpId);
+			Etypes bpType = type(bpId);
 			if (bpType == null) {
 				log.warn("skipping null-type bp id=" + bpId + ", likely not published ");
 				continue;
@@ -71,18 +75,18 @@ public class ClientCacheBlueprintTranslator {
 			addUsages(translated, usages);
 		}
 
-		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.LOADER.load().entrySet()) {
-			EveType inputMat = TypeIndex.getType(e.getKey());
-			if (inputMat == null) {
+		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.LOADER.yaml().load().entrySet()) {
+			Etypes etype = type(e.getKey());
+			if (etype == null) {
 				log.warn("can't find type id=" + e.getKey() + " reprocessed into " + e.getValue());
 				continue;
 			}
-			int portionSize = inputMat.portionSize;
+			int portionSize = etype.portionSize;
 			IndustryUsage usage = usages.computeIfAbsent(e.getKey(), _ -> new IndustryUsage());
 			for (Material mat : e.getValue().materials) {
-				EveType outputmat = TypeIndex.getType(mat.materialTypeID);
+				Etypes outputmat = type(mat.materialTypeID);
 				if (outputmat == null) {
-					log.error("can't find type id " + mat.materialTypeID + " reprocessed from " + inputMat.name);
+					log.error("can't find type id " + mat.materialTypeID + " reprocessed from " + etype.enName());
 					continue;
 				}
 				usage.reprocessInto.put(mat.materialTypeID, 1.0 * mat.quantity / portionSize);
@@ -120,8 +124,7 @@ public class ClientCacheBlueprintTranslator {
 	 *                the SDE activity
 	 * @return null if a type referred to in the activity was not found.
 	 */
-	Activity convertActivity(
-			fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eblueprints.Activities.Activity listedActivity) {
+	Activity convertActivity(Activities.Activity listedActivity) {
 		if (listedActivity == null) {
 			return null;
 		}
@@ -147,13 +150,13 @@ public class ClientCacheBlueprintTranslator {
 				.sorted(Comparator.comparing(m1 -> m1.id))
 				.forEach(ret.products::add);
 		listedActivity.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeId)).forEach(s -> {
-			EveType skill = TypeIndex.getType(s.typeId);
+			Etypes skill = type(s.typeId);
 			if (skill == null) {
 				log.error("missing skill " + s.typeId);
 				skip.set(true);
 			} else {
 				TypeRef<Skill> ref = new TypeRef<>();
-				ref.id = skill.id;
+				ref.id = s.typeId;
 				ret.skills.put(ref, s.level);
 			}
 		});
@@ -164,7 +167,7 @@ public class ClientCacheBlueprintTranslator {
 	}
 
 	MaterialReq<?> convertMaterialReq(ConsumedMaterial sdeMat) {
-		EveType item = TypeIndex.getType(sdeMat.typeId);
+		Etypes item = type(sdeMat.typeId);
 		if (item != null) {
 			MaterialReq<?> ret = new MaterialReq<>();
 			ret.quantity = sdeMat.quantity;
@@ -177,7 +180,7 @@ public class ClientCacheBlueprintTranslator {
 	}
 
 	MaterialProd<?> convertMaterialProd(Product sdeMat) {
-		EveType item = TypeIndex.getType(sdeMat.typeId);
+		Etypes item = type(sdeMat.typeId);
 		if (item != null) {
 			MaterialProd<?> ret = new MaterialProd<>();
 			ret.quantity = sdeMat.quantity;

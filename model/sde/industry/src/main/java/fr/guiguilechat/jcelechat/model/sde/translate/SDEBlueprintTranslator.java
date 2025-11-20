@@ -13,6 +13,13 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ProducingActivityDetails;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
@@ -21,23 +28,19 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
-import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class SDEBlueprintTranslator {
 
-	public void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
+	public void translateBlueprints(LinkedHashMap<Integer, Blueprint> targetBPs,
 			LinkedHashMap<Integer, IndustryUsage> usages) {
 		// set of type ids that are seeded by NPCs
-		Set<Integer> seededItems = EnpcCorporations.LOADER.load().values().stream()
+		Set<Integer> seededItems = EnpcCorporations.LOADER.yaml().load().values().stream()
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())
 				.collect(Collectors.toSet());
-		for (Entry<Integer, Eblueprints> e : Eblueprints.LOADER.load().entrySet()) {
+		for (Entry<Integer, Eblueprints> e : Eblueprints.LOADER.yaml().load().entrySet()) {
 			EveType bpType = TypeIndex.getType(e.getValue().blueprintTypeID);
 			if (bpType == null) {
 				log.warn("skipping null-type bp id=" + e.getValue().blueprintTypeID + ", likely not published");
@@ -77,11 +80,11 @@ public class SDEBlueprintTranslator {
 				continue;
 			}
 			translated.seeded = seededItems.contains(translated.id) && !translated.name().endsWith("II Blueprint");
-			blueprints.put(e.getValue().blueprintTypeID, translated);
+			targetBPs.put(e.getValue().blueprintTypeID, translated);
 			addUsages(translated, usages);
 		}
 
-		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.LOADER.load().entrySet()) {
+		for (Entry<Integer, EtypeMaterials> e : EtypeMaterials.LOADER.yaml().load().entrySet()) {
 			EveType inputMat = TypeIndex.getType(e.getKey());
 			if (inputMat == null) {
 				log.warn("can't find type id=" + e.getKey() + " reprocessed into " + e.getValue());
@@ -131,7 +134,7 @@ public class SDEBlueprintTranslator {
 	 * @return null if a type referred to in the activity was not found.
 	 */
 	Activity convertActivity(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity) {
+			ActivityDetails activity) {
 		AtomicBoolean skip = new AtomicBoolean(false);
 		Activity ret = new Activity();
 		ret.time = activity.time;
@@ -144,15 +147,17 @@ public class SDEBlueprintTranslator {
 				.filter(o -> o != null)
 				.sorted(Comparator.comparing(m1 -> m1.id))
 				.forEach(ret.materials::add);
-		activity.products.stream().map(this::convertMaterialProd)
-				.peek(o -> {
-					if (o == null) {
-						skip.set(true);
-					}
-				})
-				.filter(o -> o != null)
-				.sorted(Comparator.comparing(m1 -> m1.id))
-				.forEach(ret.products::add);
+		if (activity instanceof ProducingActivityDetails pad) {
+			pad.products.stream().map(this::convertMaterialProd)
+					.peek(o -> {
+						if (o == null) {
+							skip.set(true);
+						}
+					})
+					.filter(o -> o != null)
+					.sorted(Comparator.comparing(m1 -> m1.id))
+					.forEach(ret.products::add);
+		}
 		activity.skills.stream().sorted(Comparator.comparing(s1 -> s1.typeID)).forEach(s -> {
 			EveType skill = TypeIndex.getType(s.typeID);
 			if (skill == null) {
@@ -171,7 +176,7 @@ public class SDEBlueprintTranslator {
 	}
 
 	MaterialReq<?> convertMaterialReq(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
+			BPActivities.Material sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialReq<?> ret = new MaterialReq<>();
@@ -185,13 +190,13 @@ public class SDEBlueprintTranslator {
 	}
 
 	MaterialProd<?> convertMaterialProd(
-			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material sdeMat) {
+			BPActivities.Product sdeMat) {
 		EveType item = TypeIndex.getType(sdeMat.typeID);
 		if (item != null) {
 			MaterialProd<?> ret = new MaterialProd<>();
 			ret.quantity = sdeMat.quantity;
 			ret.id = sdeMat.typeID;
-			ret.probability = sdeMat.probability;
+			ret.probability = sdeMat.probability.floatValue();
 			return ret;
 		} else {
 			log.error("missing type id=" + sdeMat.typeID + " for product conversion");
