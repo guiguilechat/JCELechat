@@ -33,6 +33,20 @@ public class EtypeMaterials {
 
 	public ArrayList<Material> materials = new ArrayList<>();
 
+	public static class RandomizedMaterial {
+		public int quantityMax;
+		public int quantityMin;
+		/** {@link Etypes} */
+		public int materialTypeID;
+
+		@Override
+		public String toString() {
+			return "[" + quantityMin + "-" + quantityMax + "]×id:" + materialTypeID;
+		}
+	}
+
+	public ArrayList<RandomizedMaterial> randomizedMaterials = new ArrayList<>();
+
 	@Override
 	public String toString() {
 		return materials.toString();
