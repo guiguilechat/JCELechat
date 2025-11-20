@@ -133,7 +133,7 @@ public class RegionalMarket implements IPricing {
 		}
 	}
 
-	private HashMap<OrderFilterParams, ProxyRegionalMarket> filtered = new HashMap<>();
+	private HashMap<OrderFilterParams, ProxyRegionalMarket> cacheFiltered = new HashMap<>();
 
 	/**
 	 * make a filtered (cached) pricing over a range, and a system/station in that
@@ -154,10 +154,10 @@ public class RegionalMarket implements IPricing {
 			return this;
 		}
 		OrderFilterParams key = new OrderFilterParams(centerId, distance, onlyHS);
-		ProxyRegionalMarket ret = filtered.get(key);
+		ProxyRegionalMarket ret = cacheFiltered.get(key);
 		if (ret == null) {
-			ret = LockWatchDog.BARKER.syncExecute(filtered, () -> {
-				ProxyRegionalMarket ret2 = filtered.get(key);
+			ret = LockWatchDog.BARKER.syncExecute(cacheFiltered, () -> {
+				ProxyRegionalMarket ret2 = cacheFiltered.get(key);
 				if (ret2 == null) {
 					boolean isStation = centerId >= 60000000 && centerId <= 61000000;
 					if (isStation) {
@@ -186,7 +186,7 @@ public class RegionalMarket implements IPricing {
 						log.debug(" corresponding stations are " + stationIds);
 						ret2 = new ProxyRegionalMarket(getAllOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
-					filtered.put(key, ret2);
+					cacheFiltered.put(key, ret2);
 				}
 				return ret2;
 			});
