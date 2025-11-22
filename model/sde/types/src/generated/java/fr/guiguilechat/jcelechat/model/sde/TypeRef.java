@@ -11,6 +11,20 @@ public class TypeRef<T extends EveType> {
     private transient String name;
     public transient String toString;
 
+	public TypeRef() {
+	}
+
+	public TypeRef(int id) {
+		this.id = id;
+	}
+
+	public TypeRef(T type) {
+		this.type = type;
+		if (type != null) {
+			id = type.id;
+		}
+	}
+
     @SuppressWarnings("unchecked")
     public T type() {
         if (type == null) {
