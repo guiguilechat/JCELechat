@@ -9,13 +9,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.IntFunction;
+import java.util.function.IntUnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.assets.ItemNode;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemForest;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemNode;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe.GroupCache;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
@@ -41,12 +43,12 @@ public class Assets {
 			return false;
 		}
 		GroupCache groupIds = ESIAccess.INSTANCE.universe.groupIds;
-		if (groupIds.ofAbstract().contains(asset.type().group_id)
-				|| groupIds.ofBlueprints().contains(asset.type().group_id)
-				|| groupIds.ofModules().contains(asset.type().group_id)
-				|| groupIds.ofStations().contains(asset.type().group_id)
-				|| groupIds.ofStructuresModules().contains(asset.type().group_id)
-				|| groupIds.ofSubsystems().contains(asset.type().group_id)) {
+		if (groupIds.ofAbstract().contains(asset.groupId)
+				|| groupIds.ofBlueprints().contains(asset.groupId)
+				|| groupIds.ofModules().contains(asset.groupId)
+				|| groupIds.ofStations().contains(asset.groupId)
+				|| groupIds.ofStructuresModules().contains(asset.groupId)
+				|| groupIds.ofSubsystems().contains(asset.groupId)) {
 			return false;
 		}
 		return true;
@@ -79,8 +81,8 @@ public class Assets {
 				for (long id : ids2) {
 					ItemNode in = items.get(id);
 					errored.add(in);
-					System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.type().group_id
-							+ "\t" + in.type().name);
+					System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.groupId
+							+ "\t" + in.typeName);
 				}
 				Integer remainingErrors = names.getRemainingErrors();
 				if (remainingErrors != null && remainingErrors < 1) {
@@ -99,8 +101,8 @@ public class Assets {
 		if (!errored.isEmpty()) {
 			System.err.println("item\tlocation\ttype_id\tgroup_id\ttype_name");
 			for (ItemNode in : errored) {
-				System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.type().group_id
-						+ "\t" + in.type().name);
+				System.err.println("" + in.item_id + "\t" + in.location_flag + "\t" + in.type_id + "\t" + in.groupId
+						+ "\t" + in.typeName);
 			}
 		}
 	}
@@ -109,10 +111,12 @@ public class Assets {
 	private final ListHolder<R_get_corporations_corporation_id_assets> list = con.connection().cache().corporations
 	.assets(con.corporation.getId());
 
-	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets) {
+	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets,
+			IntUnaryOperator typeId2groupId,
+			IntFunction<String> typeId2name) {
 		ItemForest ret = new ItemForest();
 		for (R_get_corporations_corporation_id_assets item : assets) {
-			ret.itemsByID().put(item.item_id, new ItemNode(item));
+			ret.itemsByID().put(item.item_id, new ItemNode(item, typeId2groupId, typeId2name));
 		}
 		// fetch the names
 		name(ret.itemsByID());
@@ -131,8 +135,15 @@ public class Assets {
 		return ret;
 	}
 
-	@Getter(lazy = true)
-	private final ObjHolder<ItemForest> forest = getList().map(this::grow);
+	private ObjHolder<ItemForest> forest = null;
+
+	public synchronized ObjHolder<ItemForest> getForest(IntUnaryOperator typeId2groupId,
+			IntFunction<String> typeId2name) {
+		if (forest == null) {
+			forest = getList().map(l -> grow(l, typeId2groupId, typeId2name));
+		}
+		return forest;
+	}
 
 	@Getter(lazy = true)
 	private final MapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));

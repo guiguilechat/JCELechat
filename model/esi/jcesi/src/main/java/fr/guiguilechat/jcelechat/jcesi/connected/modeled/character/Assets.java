@@ -9,19 +9,20 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.IntFunction;
+import java.util.function.IntUnaryOperator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.assets.ItemNode;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe.GroupCache;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
@@ -40,17 +41,17 @@ public class Assets {
 	@Accessors(fluent = true)
 	private final ESIAccount con;
 
-	protected boolean canName(ItemNode asset) {
+	protected boolean canName(ItemNode asset, int groupId) {
 		if (!asset.is_singleton) {
 			return false;
 		}
 		GroupCache groupIds = ESIAccess.INSTANCE.universe.groupIds;
-		if (groupIds.ofAbstract().contains(asset.type().group_id)
-				|| groupIds.ofBlueprints().contains(asset.type().group_id)
-				|| groupIds.ofModules().contains(asset.type().group_id)
-				|| groupIds.ofStations().contains(asset.type().group_id)
-				|| groupIds.ofStructuresModules().contains(asset.type().group_id)
-				|| groupIds.ofSubsystems().contains(asset.type().group_id)) {
+		if (groupIds.ofAbstract().contains(asset.groupId)
+				|| groupIds.ofBlueprints().contains(asset.groupId)
+				|| groupIds.ofModules().contains(asset.groupId)
+				|| groupIds.ofStations().contains(asset.groupId)
+				|| groupIds.ofStructuresModules().contains(asset.groupId)
+				|| groupIds.ofSubsystems().contains(asset.groupId)) {
 			return false;
 		}
 		return true;
@@ -58,13 +59,14 @@ public class Assets {
 
 	private static final int NAMINGCALL_MAXIDS = 1000;
 
-	// get the names of specific assets
-	protected void name(Map<Long, ItemNode> items) {
+	// get the names of specific assets, and store them as optional
+	protected void name(Map<Long, ItemNode> items, IntUnaryOperator typeId2groupId) {
 		if (items == null || items.size() == 0) {
 			return;
 		}
 		ArrayList<M_post_assets_names_2> nameResults = new ArrayList<>();
-		long[] ids = items.values().stream().filter(this::canName).mapToLong(item -> item.item_id).toArray();
+		long[] ids = items.values().stream().filter(it -> canName(it, typeId2groupId.applyAsInt(it.type_id)))
+				.mapToLong(item -> item.item_id).toArray();
 		for (int start = 0; start < ids.length; start += NAMINGCALL_MAXIDS) {
 			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + NAMINGCALL_MAXIDS, ids.length));
 			Requested<M_post_assets_names_2[]> names = con.connection().post_characters_assets_names(con.characterId(), ids2,
@@ -96,124 +98,6 @@ public class Assets {
 		return con.connection().cache().characters.assets(con.characterId());
 	}
 
-	/**
-	 * an {@link R_get_corporations_corporation_id_assets} that also knows its
-	 * children
-	 *
-	 */
-	public static class ItemNode extends R_get_corporations_corporation_id_assets {
-		public Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>> contained = new HashMap<>();
-
-		public ItemNode(boolean is_blueprint_copy, boolean is_singleton, long item_id,
-				get_corporations_corporation_id_assets_location_flag location_flag, long location_id,
-				get_corporations_corporation_id_assets_location_type location_type, int quantity, int type_id) {
-			this.is_blueprint_copy = is_blueprint_copy;
-			this.is_singleton = is_singleton;
-			this.item_id = item_id;
-			this.location_flag = location_flag;
-			this.location_id = location_id;
-			this.location_type = location_type;
-			this.quantity = quantity;
-			this.type_id = type_id;
-			// precache the type for when needed.
-			ESIAccess.INSTANCE.universe.cache().types(type_id);
-		}
-
-		public ItemNode(R_get_characters_character_id_assets source) {
-			this(source.is_blueprint_copy, source.is_singleton, source.item_id, convert(source.location_flag), source.location_id,
-					convert(source.location_type), source.quantity, source.type_id);
-		}
-
-		public ItemNode(R_get_corporations_corporation_id_assets source) {
-			this(source.is_blueprint_copy, source.is_singleton, source.item_id, source.location_flag, source.location_id,
-					source.location_type, source.quantity, source.type_id);
-		}
-
-		private transient R_get_universe_types_type_id type = null;
-
-		public R_get_universe_types_type_id type() {
-			if (type == null) {
-				type = ESIAccess.INSTANCE.universe.cache().types(type_id).get();
-			}
-			return type;
-		}
-
-		private String optional = null;
-
-		public ItemNode withOptional(String optional) {
-			this.optional = optional;
-			// set to null to lazyly force recompute
-			name = null;
-			return this;
-		}
-
-		private transient String name = null;
-
-		public String name() {
-			if (name == null) {
-				if (optional == null) {
-					name = type().name;
-				} else {
-					name = "["+optional+"] "+type().name;
-				}
-			}
-			return name;
-		}
-
-		private transient Double priceAverage = null;
-
-		public double priceAverage() {
-			if (priceAverage == null) {
-				if (is_blueprint_copy) {
-					priceAverage = 0.0;
-				} else {
-					priceAverage = quantity * ESIAccess.INSTANCE.markets.getAverage(type_id);
-				}
-			}
-			return priceAverage;
-		}
-
-		private transient Double recPriceAverage = null;
-
-		public double recPriceAverage() {
-			if (recPriceAverage == null) {
-				double total = priceAverage();
-				for (List<ItemNode> list : contained.values()) {
-					for (ItemNode itemnode : list) {
-						total += itemnode.recPriceAverage();
-					}
-				}
-				recPriceAverage = total;
-			}
-			return recPriceAverage;
-		}
-
-		public void print(StringBuilder sb, String prefix, String spacing, String newline) {
-			sb.append(prefix).append(name());
-			if (quantity != 1) {
-				sb.append(" ×").append(quantity);
-			}
-			// sb.append('[').append(item_id).append('@').append(location_id).append(']');
-			prefix = prefix + spacing;
-			for (Entry<get_corporations_corporation_id_assets_location_flag, List<ItemNode>> e : contained.entrySet()) {
-				if (!e.getValue().isEmpty()) {
-					sb.append(newline).append(prefix).append(e.getKey());
-					for (ItemNode i : e.getValue()) {
-						sb.append(newline);
-						i.print(sb, prefix + spacing, spacing, newline);
-					}
-				}
-			}
-		}
-
-		@Override
-		public String toString() {
-			StringBuilder sb = new StringBuilder();
-			print(sb, "", "\t", "\n");
-			return sb.toString();
-		}
-	}
-
 	public static record ItemForest(Map<Long, ItemNode> itemsByID,
 			Map<Location, Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>>> roots) {
 
@@ -222,14 +106,16 @@ public class Assets {
 		}
 	}
 
-	protected ItemForest grow(List<R_get_characters_character_id_assets> assets) {
+	protected ItemForest grow(List<R_get_characters_character_id_assets> assets,
+			IntUnaryOperator typeId2groupId,
+			IntFunction<String> typeId2name) {
 		ItemForest ret = new ItemForest();
 		for (R_get_characters_character_id_assets item : assets) {
-			ret.itemsByID.put(item.item_id, new ItemNode(item));
+			ret.itemsByID.put(item.item_id, new ItemNode(item, typeId2groupId, typeId2name));
 		}
 
 		// fetch the names
-		name(ret.itemsByID);
+		name(ret.itemsByID, typeId2groupId);
 
 		// place the items in the roots.
 		for (ItemNode itemNode : ret.itemsByID.values()) {
@@ -245,17 +131,20 @@ public class Assets {
 		return ret;
 	}
 
-	/**
-	 * get the holder on the forest of this character's assets
-	 */
-	@Getter(lazy = true)
-	private final ObjHolder<ItemForest> forest = getList().map(this::grow);
+	private ObjHolder<ItemForest> forest = null;
+
+	public synchronized ObjHolder<ItemForest> getForest(IntUnaryOperator typeId2groupId,
+			IntFunction<String> typeId2name) {
+		if (forest == null) {
+			forest = getList().map(l -> grow(l, typeId2groupId, typeId2name));
+		}
+		return forest;
+	}
 
 	/**
 	 * get the available map of assets locations to assets id to assets quantity.
 	 * <br />
 	 * The assets for a location are actually unmodifiable maps.
-	 *
 	 */
 	@Getter(lazy = true)
 	private final MapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));

@@ -80,4 +80,14 @@ public class Type extends TypeSet<Etypes> {
 	@Getter(lazy = true)
 	private final Set<Category> categories = Set.of(group().category());
 
+	public static String name(int typeId) {
+		Type t = CACHE.of(typeId);
+		return t == null ? null : t.enName();
+	}
+
+	public static int groupId(int typeId) {
+		Type t = CACHE.of(typeId);
+		return t == null ? 0 : t.source().groupID;
+	}
+
 }
