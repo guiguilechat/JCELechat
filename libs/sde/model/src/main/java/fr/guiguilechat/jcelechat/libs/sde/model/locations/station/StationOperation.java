@@ -56,8 +56,12 @@ public class StationOperation extends DataSourced<EstationOperations> {
 	@Getter(lazy = true)
 	private final String name = source().enOperationName();
 
+	@Getter(lazy = true)
 	private final Set<StationService> services = IntStream.of(source().services)
 			.mapToObj(i -> datasource().stationServices().of(i))
+			.collect(Collectors.toSet());
+
+	private final Set<String> serviceNames = services().stream().map(StationService::serviceName)
 			.collect(Collectors.toSet());
 
 	@Getter(lazy = true)

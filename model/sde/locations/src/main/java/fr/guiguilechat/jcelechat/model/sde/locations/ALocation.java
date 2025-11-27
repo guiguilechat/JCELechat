@@ -44,7 +44,7 @@ public class ALocation {
 	}
 
 	public String name() {
-		return name == null ? "region:" + id : name;
+		return name == null ? "location:" + id : name;
 	}
 
 	public double centerDistanceAu(ALocation other) {

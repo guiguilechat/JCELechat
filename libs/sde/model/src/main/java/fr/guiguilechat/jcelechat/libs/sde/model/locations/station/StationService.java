@@ -23,8 +23,10 @@ public class StationService extends DataSourced<EstationServices> {
 		this(DataSourceLocalCache.INSTANCE, id, source);
 	}
 
+	@Getter(lazy = true)
 	private final String description = source().enDescription();
 
+	@Getter(lazy = true)
 	private final String serviceName = source().enName();
 
 }

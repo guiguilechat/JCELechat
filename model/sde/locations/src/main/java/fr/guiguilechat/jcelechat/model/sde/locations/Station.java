@@ -77,18 +77,6 @@ public class Station {
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private static final Map<String, List<Station>> loadBySystemName = load().values().stream()
-	    .collect(Collectors.groupingBy(sta -> sta.solarSystem.toLowerCase()));
-
-	public static List<Station> forSystemName(String name) {
-		if (name == null) {
-			return List.of();
-		}
-		return loadBySystemName().get(name.toLowerCase());
-	}
-
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
 	private static final Map<Integer, List<Station>> loadBySystemId = load().values().stream()
 	    .collect(Collectors.groupingBy(sta -> sta.system().id));
 
@@ -107,10 +95,12 @@ public class Station {
 
 	public String name;
 
+	public int solarSystemId;
+
 	public String solarSystem;
 
 	public String name() {
-		return name == null ? "region:" + id : name;
+		return name == null ? "station:" + id : name;
 	}
 
 	private transient SolarSystem solarsystem = null;

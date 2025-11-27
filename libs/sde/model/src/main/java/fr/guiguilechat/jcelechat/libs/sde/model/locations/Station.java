@@ -9,6 +9,7 @@ import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSource;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.DataSourceLocalCache;
 import fr.guiguilechat.jcelechat.libs.sde.model.cache.NamingMapper;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.generic.AStarOrbit;
+import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationOperation;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -20,7 +21,6 @@ public class Station extends AStarOrbit<EnpcStations> {
 	public static final NamingMapper<EnpcStations, Station> CACHE = new NamingMapper<>(
 			EnpcStations.LOADER.yaml(), Station::new, Station::enName);
 
-	private final int operationId;
 	private final BigDecimal reprocessingEfficiency;
 	private final int reprocessingHangarFlag;
 	private final BigDecimal reprocessingStationsTake;
@@ -28,7 +28,6 @@ public class Station extends AStarOrbit<EnpcStations> {
 
 	protected Station(DataSource datasource, int id, EnpcStations source) {
 		super(datasource, id, source);
-		operationId = source.operationID;
 		reprocessingEfficiency = source.reprocessingEfficiency;
 		reprocessingHangarFlag = source.reprocessingHangarFlag;
 		reprocessingStationsTake = source.reprocessingStationsTake;
@@ -48,6 +47,9 @@ public class Station extends AStarOrbit<EnpcStations> {
 	protected Position3D makePosition() {
 		return source().position.add(solarSystem().position());
 	}
+
+	@Getter(lazy = true)
+	private final StationOperation operation = datasource().stationOperations().of(source().operationID);
 
 	@Getter(lazy = true)
 	private final NPCCorporation owner = datasource().npcCorporations().of(source().ownerID);

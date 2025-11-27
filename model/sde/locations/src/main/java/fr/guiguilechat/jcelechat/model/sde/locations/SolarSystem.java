@@ -8,21 +8,18 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class SolarSystem extends ALocation {
-
-	private static final Logger logger = LoggerFactory.getLogger(SolarSystem.class);
 
 	// loading
 
-	private static LinkedHashMap<String, SolarSystem> cache = null;
 
 	public static final String RESOURCE_PATH = "SDE/locations/solarsystems.yaml";
 
@@ -30,6 +27,8 @@ public class SolarSystem extends ALocation {
 	static {
 		LOADEROPTIONS.setCodePointLimit(Integer.MAX_VALUE);
 	}
+
+	private static LinkedHashMap<String, SolarSystem> cache = null;
 
 	public static synchronized LinkedHashMap<String, SolarSystem> load() {
 		if (cache == null) {
@@ -43,18 +42,52 @@ public class SolarSystem extends ALocation {
 		return cache;
 	}
 
-	private static Map<Integer, String> loadById = null;
+	private static Map<Integer, SolarSystem> loadById = null;
 
-	public static Map<Integer, String> loadById() {
+	public static Map<Integer, SolarSystem> loadById() {
 		if (loadById == null) {
-			LinkedHashMap<String, SolarSystem> mcache = load();
+			LinkedHashMap<?, SolarSystem> mcache = load();
 			synchronized (mcache) {
 				if (loadById == null) {
-					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+					loadById = mcache.values().stream().collect(Collectors.toMap(
+							e -> e.id,
+							o -> o));
 				}
 			}
 		}
 		return loadById;
+	}
+
+	private static Map<String, SolarSystem> loadByName = null;
+
+	public static Map<String, SolarSystem> loadByName() {
+		if (loadByName == null) {
+			LinkedHashMap<?, SolarSystem> mcache = load();
+			synchronized (mcache) {
+				if (loadByName == null) {
+					loadByName = mcache.values().stream().collect(Collectors.toMap(
+							SolarSystem::name,
+							e -> e));
+				}
+			}
+		}
+		return loadByName;
+	}
+
+	private static Map<String, SolarSystem> loadByLowerName = null;
+
+	public static Map<String, SolarSystem> loadByLowerName() {
+		if (loadByLowerName == null) {
+			LinkedHashMap<?, SolarSystem> mcache = load();
+			synchronized (mcache) {
+				if (loadByLowerName == null) {
+					loadByLowerName = mcache.values().stream().collect(Collectors.toMap(
+							e -> e.name().toLowerCase(),
+							o -> o));
+				}
+			}
+		}
+		return loadByLowerName;
 	}
 
 	public static void export(LinkedHashMap<String, SolarSystem> data, File folderout) {
@@ -76,32 +109,15 @@ public class SolarSystem extends ALocation {
 
 	// normalizing
 
-	private static Map<String, String> lowerCased = null;
-
 	public static SolarSystem getSystem(String name) {
 		if (name == null) {
 			return null;
 		}
-		SolarSystem ret = load().get(name);
-		if (ret == null) {
-			name = name.toLowerCase();
-			if (lowerCased == null) {
-				synchronized (cache) {
-					if (lowerCased == null) {
-						lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
-					}
-				}
-			}
-			ret = cache.get(lowerCased.get(name));
-		}
-		if (ret == null) {
-			logger.warn("can't load system for name " + name);
-		}
-		return ret;
+		return loadByLowerName().get(name.toLowerCase());
 	}
 
 	public static SolarSystem getSystem(int id) {
-		return getSystem(loadById().get(id));
+		return loadById().get(id);
 	}
 
 	// structure
@@ -131,7 +147,7 @@ public class SolarSystem extends ALocation {
 	 * concord will destroy you, LS means turrets will defend you, and NS means
 	 * you gonna die helplessly
 	 */
-	public static enum SECSTATUS {
+	public enum SECSTATUS {
 		HS, LS, NS;
 
 		public static SECSTATUS of(double truesec) {

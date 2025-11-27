@@ -264,14 +264,14 @@ public class LocationsTranslater {
 
 		for (Entry<Long, Planet> ePlanet : system.planets.entrySet()) {
 			for (Entry<Integer, NPCStation> eSta : ePlanet.getValue().npcStations.entrySet()) {
-				addStation(eSta.getValue(), eSta.getKey(), sysName, stations);
-				if (addStation(eSta.getValue(), eSta.getKey(), sysName, stations) == null) {
+				addStation(eSta.getValue(), eSta.getKey(), system.solarSystemID, sysName, stations);
+				if (addStation(eSta.getValue(), eSta.getKey(), system.solarSystemID, sysName, stations) == null) {
 					logger.error("can't create station sysName=" + sysName + " id=" + eSta.getKey());
 				}
 			}
 			for (Entry<Integer, Moon> e4 : ePlanet.getValue().moons.entrySet()) {
 				for (Entry<Integer, NPCStation> eSta : e4.getValue().npcStations.entrySet()) {
-					if (addStation(eSta.getValue(), eSta.getKey(), sysName, stations) == null) {
+					if (addStation(eSta.getValue(), eSta.getKey(), system.solarSystemID, sysName, stations) == null) {
 						logger.error("can't create station name=" + sysName + " id=" + eSta.getKey());
 					}
 				}
@@ -301,11 +301,11 @@ public class LocationsTranslater {
 	 *
 	 * @return null if an issue occurred. In this case, the station is not added
 	 */
-	public static Station addStation(NPCStation npcsta, int id, String solarSystemName,
+	public static Station addStation(NPCStation npcsta, int id, int solarSystemId, String solarSystemName,
 			LinkedHashMap<String, Station> stations) {
 		Station added = new Station();
 		added.id = id;
-		added.solarSystem = solarSystemName;
+		added.solarSystemId = solarSystemId;
 		added.services.addAll(operationServices().get(npcsta.operationID));
 		added.services.removeIf(s -> s == null || s.length() == 0);
 		Collections.sort(added.services);
