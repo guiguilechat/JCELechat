@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
@@ -81,6 +82,16 @@ public class Eblueprints {
 	}
 
 	public BPActivities activities = new BPActivities();
+
+	public Stream<ActivityDetails> activities() {
+		return Stream.of(
+				activities.copying,
+				activities.invention,
+				activities.manufacturing,
+				activities.research_material,
+				activities.research_time)
+				.filter(o -> o != null);
+	}
 
 	//
 

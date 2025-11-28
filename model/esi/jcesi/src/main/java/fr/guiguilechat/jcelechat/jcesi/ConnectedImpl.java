@@ -703,7 +703,7 @@ public abstract class ConnectedImpl implements ITransfer {
 									try {
 										cacheHandler.accept(res.getOK());
 									} catch (Exception e) {
-										log.warn("for " + res.getURL() + " res=" + res.getOK(), e);
+										log.warn("for " + res.getURL() + " resCode=" + res.getResponseCode(), e);
 									}
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
 									log.debug(loggingName + " setting null in cache for request response type "
