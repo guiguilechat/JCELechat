@@ -186,7 +186,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	 *
 	 * @param url            the url to request
 	 * @param method         the type of method
-	 * @param sendHeaders     the properties to send in the header
+	 * @param sendHeaders    the properties to send in the header
 	 * @param transmitAsJson the data to send through the connection
 	 * @param expectedClass  the class to convert the OK result to
 	 * @param retries        optional number of retries on server error.
@@ -195,9 +195,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> sendHeaders,
 			Map<String, Object> transmitAsJson, Class<T> expectedClass, int... retries) {
-		int maxRetry = 1;
+		int remainingRetry = 2;
 		if (retries != null && retries.length != 0) {
-			maxRetry = Math.max(0, retries[0]);
+			remainingRetry = Math.max(0, retries[0]);
 		}
 		if (sendHeaders == null) {
 			sendHeaders = new HashMap<>();
@@ -205,7 +205,6 @@ public abstract class ConnectedImpl implements ITransfer {
 		sendHeaders.put(ESIDateTools.COMPATIBILITY_DATE_HEADER, ESIMeta.COMPILED_DATE);
 		addConnection(sendHeaders);
 
-		boolean isServerError = false;
 		Builder builder = new Request.Builder()
 				.url(url);
 		sendHeaders.entrySet().forEach(e -> builder.addHeader(e.getKey(), e.getValue()));
@@ -218,87 +217,99 @@ public abstract class ConnectedImpl implements ITransfer {
 		builder.setMethod$okhttp(method);
 		Request req = builder.build();
 		Long requestSentTime = null;
+		boolean needRetry = false;
 		try {
-			Response response = null;
+			Response lastResponse = null;
+			int lastResponseCode = 0;
+			Exception lastException = null;
 
 			// retry to send the data for as many retry, as long as the error is
 			// server error type
 			do {
-				if (response != null) {
-					response.close();
+				if (lastResponse != null) {
+					lastResponse.close();
 				}
 				logRequest(method, url, transmitStr, sendHeaders);
 				requestSentTime = System.currentTimeMillis();
-				response = getClient().newCall(req).execute();
-				int responseCode = response.code();
-				isServerError = responseCode / 100 == 5;
-				if (isServerError) {
-					maxRetry--;
-					if (maxRetry > 0) {
+				lastResponse = getClient().newCall(req).execute();
+				lastResponseCode = lastResponse.code();
+				needRetry = lastResponseCode / 100 == 5;
+				if (needRetry) {
+					remainingRetry--;
+					if (remainingRetry > 0) {
 						// the response will be discarded, so we need to log it now.
-						String errorMessage = extractErrorMessage(response, method, responseCode, url, transmitStr);
-						long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
-						logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
-								response.headers().toMultimap());
+						String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url, transmitStr);
+						long milliseconds = lastResponse.receivedResponseAtMillis() - lastResponse.sentRequestAtMillis();
+						logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
+								lastResponse.headers().toMultimap());
+					}
+				} else {
+					// try with resource to close the response.body at the end.
+					try (var body = lastResponse.body()) {
+						Map<String, List<String>> headers = lastResponse.headers().toMultimap();
+						long milliseconds = lastResponse.receivedResponseAtMillis() - lastResponse.sentRequestAtMillis();
+						switch (lastResponseCode) {
+						// 2xx ok
+						case HttpURLConnection.HTTP_OK:
+						case HttpURLConnection.HTTP_CREATED:
+						case HttpURLConnection.HTTP_ACCEPTED:
+						case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
+						case HttpURLConnection.HTTP_NO_CONTENT:
+						case HttpURLConnection.HTTP_RESET:
+						case HttpURLConnection.HTTP_PARTIAL:
+							String ret = new String(body.bytes());
+							logResponse(method, url, lastResponseCode, milliseconds, null, null, transmitStr,
+									lastResponse.headers().toMultimap());
+							return new RequestedImpl<>(url, lastResponseCode, null, convertJson(ret, expectedClass),
+									headers);
+						// 304 not modified
+						case HttpURLConnection.HTTP_NOT_MODIFIED:
+							String date = headers.getOrDefault("Date", List.of("")).get(0);
+							String expires = headers.getOrDefault("Expires", List.of("")).get(0);
+							if (date.equals(expires)) {
+								// if expires=Date we add 20s to avoid CCP bug
+								logResponse(method, url, lastResponseCode, milliseconds, null,
+										"expires=" + expires + " same as date=" + date,
+										transmitStr,
+										lastResponse.headers().toMultimap());
+								headers = new HashMap<>(headers);
+								String newExpiry = ESIDateTools
+										.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
+								headers.put("Expires", List.of(newExpiry));
+							} else {
+								logResponse(method, url, lastResponseCode, milliseconds, null, null, transmitStr,
+										lastResponse.headers().toMultimap());
+							}
+							return new RequestedImpl<>(url, lastResponseCode, null, null, headers);
+						// 4xx client error
+						case HttpURLConnection.HTTP_BAD_REQUEST:
+						case HttpURLConnection.HTTP_UNAUTHORIZED:
+						case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
+						case HttpURLConnection.HTTP_FORBIDDEN:
+						case HttpURLConnection.HTTP_NOT_FOUND:
+						case HttpURLConnection.HTTP_BAD_METHOD:
+							// 5xx server error
+						case HttpURLConnection.HTTP_INTERNAL_ERROR:
+						case HttpURLConnection.HTTP_BAD_GATEWAY:
+						case HttpURLConnection.HTTP_UNAVAILABLE:
+						case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
+						default:
+							String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url, transmitStr);
+							logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
+									lastResponse.headers().toMultimap());
+							return new RequestedImpl<>(url, lastResponseCode, errorMessage, null, headers);
+						}
+					} catch (Exception e) {
+						lastException = e;
+						needRetry = true;
+						remainingRetry--;
+						log.warn("caught while fetching " + url
+								+ (remainingRetry >= 0 ? ", retry=" + remainingRetry : ", aborting"), e);
 					}
 				}
-			} while (isServerError && maxRetry > 0);
-			// try with resource to close the response.body at the end.
-			try (var body = response.body()) {
-				Map<String, List<String>> headers = response.headers().toMultimap();
-				int responseCode = response.code();
-				long milliseconds = response.receivedResponseAtMillis() - response.sentRequestAtMillis();
-				switch (responseCode) {
-				// 2xx ok
-				case HttpURLConnection.HTTP_OK:
-				case HttpURLConnection.HTTP_CREATED:
-				case HttpURLConnection.HTTP_ACCEPTED:
-				case HttpURLConnection.HTTP_NOT_AUTHORITATIVE:
-				case HttpURLConnection.HTTP_NO_CONTENT:
-				case HttpURLConnection.HTTP_RESET:
-				case HttpURLConnection.HTTP_PARTIAL:
-					String ret = new String(body.bytes());
-					logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
-							response.headers().toMultimap());
-					return new RequestedImpl<>(url, responseCode, null, convertJson(ret, expectedClass), headers);
-				// 304 not modified
-				case HttpURLConnection.HTTP_NOT_MODIFIED:
-					String date = headers.getOrDefault("Date", List.of("")).get(0);
-					String expires = headers.getOrDefault("Expires", List.of("")).get(0);
-					if (date.equals(expires)) {
-						// if expires=Date we add 20s to avoid CCP bug
-						logResponse(method, url, responseCode, milliseconds, null,
-								"expires=" + expires + " same as date=" + date,
-								transmitStr,
-								response.headers().toMultimap());
-						headers = new HashMap<>(headers);
-						String newExpiry = ESIDateTools
-								.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
-						headers.put("Expires", List.of(newExpiry));
-					} else {
-						logResponse(method, url, responseCode, milliseconds, null, null, transmitStr,
-								response.headers().toMultimap());
-					}
-					return new RequestedImpl<>(url, responseCode, null, null, headers);
-				// 4xx client error
-				case HttpURLConnection.HTTP_BAD_REQUEST:
-				case HttpURLConnection.HTTP_UNAUTHORIZED:
-				case HttpURLConnection.HTTP_PAYMENT_REQUIRED:
-				case HttpURLConnection.HTTP_FORBIDDEN:
-				case HttpURLConnection.HTTP_NOT_FOUND:
-				case HttpURLConnection.HTTP_BAD_METHOD:
-					// 5xx server error
-				case HttpURLConnection.HTTP_INTERNAL_ERROR:
-				case HttpURLConnection.HTTP_BAD_GATEWAY:
-				case HttpURLConnection.HTTP_UNAVAILABLE:
-				case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
-				default:
-					String errorMessage = extractErrorMessage(response, method, responseCode, url, transmitStr);
-					logResponse(method, url, responseCode, milliseconds, errorMessage, null, transmitStr,
-							response.headers().toMultimap());
-					return new RequestedImpl<>(url, responseCode, errorMessage, null, headers);
-				}
-			}
+			} while (needRetry && remainingRetry >= 0);
+			// could not receive reponse after retries : return error
+			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, lastException.getMessage(), null, new HashMap<>());
 		} catch (Exception e) {
 			logResponse(method, url, null,
 					requestSentTime == null ? null : System.currentTimeMillis() - requestSentTime,
@@ -307,6 +318,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			log.error("while fetching " + url, e);
 			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, e.getMessage(), null, new HashMap<>());
 		}
+
 	}
 
 	protected String extractErrorMessage(Response response, String method, int responseCode, String url,

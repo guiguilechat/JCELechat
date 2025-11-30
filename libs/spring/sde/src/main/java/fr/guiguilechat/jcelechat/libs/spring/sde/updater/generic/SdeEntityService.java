@@ -131,12 +131,12 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	}
 
 	/**
-	 * list items for given ids, creating the missing, and return a mapper from
-	 * those ids to the corresponding item
+	 * list items for given ids, creating the missing, and return a mapper for
+	 * ids to the corresponding item
 	 *
 	 * @param ids stream of ids. They are concatenated as distinct
 	 * @return a function that memorizes the items for those ids, after creating the
-	 *         missingones.
+	 *         missing ones.
 	 */
 	public Function<IdType, Entity> getter(Stream<IdType> ids) {
 		return createIfAbsent(ids.distinct().toList())::get;
