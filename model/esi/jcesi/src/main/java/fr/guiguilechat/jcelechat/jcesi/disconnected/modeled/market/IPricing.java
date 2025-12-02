@@ -46,4 +46,8 @@ public interface IPricing {
 		return ESIDateTools.fieldInstant(lastTimeStamp.get());
 	}
 
+	void onUpdate(Runnable r);
+
+	void delOnUpdate(Runnable r);
+
 }

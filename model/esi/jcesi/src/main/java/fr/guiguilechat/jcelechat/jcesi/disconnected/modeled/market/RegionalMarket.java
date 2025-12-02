@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -197,6 +198,24 @@ public class RegionalMarket implements IPricing {
 	@Override
 	public String toString() {
 		return "regionalMarket(" + regionId + ")";
+	}
+
+	private final Map<Runnable, Consumer<List<R_get_markets_region_id_orders>>> convertedUpdated = new HashMap<>();
+
+	@Override
+	public void onUpdate(Runnable r) {
+		Consumer<List<R_get_markets_region_id_orders>> follower = _ -> r.run();
+		convertedUpdated.put(r, follower);
+		getAllOrders().follow(follower);
+	}
+
+	public void delOnUpdate(Runnable r) {
+		Consumer<List<R_get_markets_region_id_orders>> follower = convertedUpdated.get(r);
+		if (follower == null) {
+			return;
+		}
+		getAllOrders().unfollow(follower);
+		convertedUpdated.remove(r);
 	}
 
 }

@@ -72,6 +72,10 @@ public class Markets {
 		return getMarket(10000030);
 	}
 
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing jita = getLocalMarket(60003760);
+
 	public RegionalMarket metropolis() {
 		return getMarket(10000042);
 	}

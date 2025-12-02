@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -58,6 +59,25 @@ public class ProxyRegionalMarket implements IPricing {
 			});
 		}
 		return ret;
+	}
+
+	private final Map<Runnable, Consumer<Map<Integer, List<R_get_markets_region_id_orders>>>> convertedUpdated = new HashMap<>();
+
+	@Override
+	public void onUpdate(Runnable r) {
+		Consumer<Map<Integer, List<R_get_markets_region_id_orders>>> follower = _ -> r.run();
+		convertedUpdated.put(r, follower);
+		ordersByTypeID.follow(follower);
+	}
+
+	@Override
+	public void delOnUpdate(Runnable r) {
+		Consumer<Map<Integer, List<R_get_markets_region_id_orders>>> follower = convertedUpdated.get(r);
+		if (follower == null) {
+			return;
+		}
+		ordersByTypeID.unfollow(follower);
+		convertedUpdated.remove(r);
 	}
 
 }

@@ -67,4 +67,14 @@ public class MockPricing implements IPricing {
 		}
 	}
 
+	@Override
+	public void onUpdate(Runnable r) {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public void delOnUpdate(Runnable r) {
+		throw new UnsupportedOperationException();
+	}
+
 }
