@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LPExchangeRepository extends JpaRepository<LPExchange, Long> {
 
-	List<LPExchange> findAllByTargetCorporationId(int targetCorporationId);
+	List<LPExchange> findByTargetCorporationId(int targetCorporationId);
+
+	List<LPExchange> findBySourceCorporationId(int sourceCorporationId);
 
 }

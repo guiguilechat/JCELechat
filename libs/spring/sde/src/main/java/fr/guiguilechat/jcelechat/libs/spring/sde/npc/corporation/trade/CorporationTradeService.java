@@ -28,4 +28,12 @@ public class CorporationTradeService {
 		return repo.saveAndFlush(entity);
 	}
 
+	public List<CorporationTrade> forCorporationId(int corporationId) {
+		return repo.findByCorporationId(corporationId);
+	}
+
+	public List<CorporationTrade> forTypeId(int typeId) {
+		return repo.findByTypeId(typeId);
+	}
+
 }

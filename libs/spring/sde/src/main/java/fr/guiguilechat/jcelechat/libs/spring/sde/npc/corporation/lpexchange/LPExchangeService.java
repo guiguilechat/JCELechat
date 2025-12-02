@@ -29,7 +29,11 @@ public class LPExchangeService {
 	}
 
 	public List<LPExchange> to(int targetCorporationId) {
-		return repo.findAllByTargetCorporationId(targetCorporationId);
+		return repo.findByTargetCorporationId(targetCorporationId);
+	}
+
+	public List<LPExchange> from(int sourceCorporationId) {
+		return repo.findBySourceCorporationId(sourceCorporationId);
 	}
 
 }
