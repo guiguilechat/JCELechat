@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.lpexchange;
 
 import java.util.List;
 
@@ -13,6 +13,9 @@ public class LPExchangeService {
 
 	final private LPExchangeRepository repo;
 
+	/**
+	 * remove all existing entries from the DB
+	 */
 	public void clear() {
 		repo.deleteAllInBatch();
 	}
@@ -23,6 +26,10 @@ public class LPExchangeService {
 
 	public LPExchange save(LPExchange entity) {
 		return repo.saveAndFlush(entity);
+	}
+
+	public List<LPExchange> to(int targetCorporationId) {
+		return repo.findAllByTargetCorporationId(targetCorporationId);
 	}
 
 }

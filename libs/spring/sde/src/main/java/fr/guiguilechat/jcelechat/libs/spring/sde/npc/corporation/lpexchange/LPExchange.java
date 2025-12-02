@@ -1,8 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.npc.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.lpexchange;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,14 +16,15 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 /**
- * when using LP from one corporation instead of another, the rate of transfer.
- * Mostly
- * used for Concord LP rates, so sde/fsd/npcCorporations.yaml L21154
+ * when using LP between corporations, the rate of transfer.
+ * Mostly used for Concord LP rates, so SDE npcCorporations.yaml L20653
+ *
+ * @see
  */
 @Entity(name = "SdeNpcLPExchange")
 @Table(name = "sde_npc_lpexchange", indexes = {
-    @Index(columnList = "owned_id"),
-    @Index(columnList = "target_id")
+		@Index(columnList = "source_corporation_id"),
+		@Index(columnList = "target_corporation_id")
 })
 @Data
 @Builder
@@ -36,14 +37,14 @@ public class LPExchange {
 	private Long id;
 
 	/** the corporation you have LP for */
-	@ManyToOne(optional = false)
-	private CorporationInfo owned;
+	@ManyToOne
+	private NpcCorporation sourceCorporation;
 
 	/** the rate (mutliplier) applied for that conversion */
 	private BigDecimal rate;
 
-	/** the corporation you use LP for */
-	@ManyToOne(optional = false)
-	private CorporationInfo target;
+	/** the corporation you use LP for, generally concord */
+	@ManyToOne
+	private NpcCorporation targetCorporation;
 
 }

@@ -31,6 +31,10 @@ public class EnpcCorporations {
 	public boolean deleted;
 	public HashMap<String, String> description = new HashMap<>();
 	public int enemyID;
+	/**
+	 * key is {@link EnpcCorporations}, value is multiplier from key to this. Only
+	 * present for concord.
+	 */
 	public HashMap<Integer, BigDecimal> exchangeRates = new HashMap<>();
 	public String extent;
 	public int factionID;
