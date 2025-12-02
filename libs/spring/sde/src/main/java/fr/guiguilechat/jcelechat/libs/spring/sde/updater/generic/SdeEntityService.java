@@ -103,10 +103,10 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		if (l.size() == ids.size()) {
 			return l.stream().collect(Collectors.toMap(Entity::getId, o -> o));
 		}
-		Map<IdType, Entity> m = byId(l);
+		Map<IdType, Entity> mapById = byId(l);
 		Map<IdType, Entity> ret = new HashMap<>();
 		for (IdType id : ids) {
-			Entity matchingEntity = m.get(id);
+			Entity matchingEntity = mapById.get(id);
 			if (matchingEntity == null) {
 				matchingEntity = create(id);
 			}
@@ -131,12 +131,12 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	}
 
 	/**
-	 * list items for given ids, creating the missing, and return a mapper for
-	 * ids to the corresponding item
+	 * list items for given ids, creating the missing, and return a mapper of
+	 * provided ids to their corresponding entity
 	 *
 	 * @param ids stream of ids. They are concatenated as distinct
-	 * @return a function that memorizes the items for those ids, after creating the
-	 *         missing ones.
+	 * @return a function that memorizes the items for the provided ids, after
+	 *         creating the missing entities.
 	 */
 	public Function<IdType, Entity> getter(Stream<IdType> ids) {
 		return createIfAbsent(ids.distinct().toList())::get;

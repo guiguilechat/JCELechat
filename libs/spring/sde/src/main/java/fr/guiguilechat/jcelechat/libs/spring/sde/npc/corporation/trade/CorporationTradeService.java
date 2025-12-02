@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.trade;
 
 import java.util.List;
 
@@ -9,19 +9,22 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class SeededService {
+public class CorporationTradeService {
 
-	final private SeededRepository repo;
+	final private CorporationTradeRepository repo;
 
+	/**
+	 * remove all existing entries from the DB
+	 */
 	public void clear() {
 		repo.deleteAllInBatch();
 	}
 
-	public List<Seeded> saveAll(Iterable<Seeded> entities) {
+	public List<CorporationTrade> saveAll(Iterable<CorporationTrade> entities) {
 		return repo.saveAllAndFlush(entities);
 	}
 
-	public Seeded save(Seeded entity) {
+	public CorporationTrade save(CorporationTrade entity) {
 		return repo.saveAndFlush(entity);
 	}
 

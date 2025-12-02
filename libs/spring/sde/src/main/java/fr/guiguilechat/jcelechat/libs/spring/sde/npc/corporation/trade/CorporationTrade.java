@@ -1,10 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.trade;
 
 import java.math.BigDecimal;
 
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,16 +21,16 @@ import lombok.RequiredArgsConstructor;
 /**
  * The item and price a corporation seeds sell offer at.
  */
-@Entity(name = "SdeNpcSeeded")
-@Table(name = "sde_npc_seeded", indexes = {
-    @Index(columnList = "seeder_id"),
+@Entity(name = "SdeNpcCorpTrade")
+@Table(name = "sde_npc_corporationtrade", indexes = {
+		@Index(columnList = "corporation_id"),
     @Index(columnList = "type_id")
 })
 @Data
 @Builder
 @RequiredArgsConstructor
 @AllArgsConstructor
-public class Seeded {
+public class CorporationTrade {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -37,11 +38,12 @@ public class Seeded {
 
 	/** the corporation that seeds the type */
 	@ManyToOne(optional = false)
-	private NpcCorporation seeder;
+	private NpcCorporation corporation;
 
 	@ManyToOne(optional = false)
 	private Type type;
 
+	/** no idea what this is */
 	@ColumnDefault("0")
 	private BigDecimal value;
 

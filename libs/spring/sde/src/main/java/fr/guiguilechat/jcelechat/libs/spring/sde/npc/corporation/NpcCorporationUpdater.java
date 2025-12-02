@@ -1,18 +1,21 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map.Entry;
+import java.util.function.Function;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.lpexchange.LPExchange;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.lpexchange.LPExchangeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.trade.CorporationTrade;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.trade.CorporationTradeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
@@ -32,6 +35,11 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
+	private CorporationTradeService corporationTradeService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
 	private LPExchangeService lpExchangeService;
 
 	@Autowired // can't use constructor injection for generic service
@@ -43,6 +51,11 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
 	private StationService stationService;
+
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private TypeService typeService;
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EnpcCorporations> sources) {
@@ -61,19 +74,20 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 		}
 		service().saveAll(storedEntities.values());
 		updateExchanges(storedEntities, sources);
+		updateTrades(storedEntities, sources);
 	}
 
 	protected void updateExchanges(HashMap<Integer, NpcCorporation> storedEntities,
 			LinkedHashMap<Integer, EnpcCorporations> sources) {
-		lpExchangeService.clear();
+		lpExchangeService().clear();
 		List<LPExchange> created = new ArrayList<>();
-		for (Entry<Integer, EnpcCorporations> e : sources.entrySet()) {
+		for (var e : sources.entrySet()) {
 			if (e.getValue().exchangeRates != null && !e.getValue().exchangeRates.isEmpty()) {
 				NpcCorporation targetCorporation = storedEntities.get(e.getKey());
 				if (targetCorporation == null) {
 					log.error("can't find target corporation for id " + e.getKey());
 				} else {
-					for (Entry<Integer, BigDecimal> e2 : e.getValue().exchangeRates.entrySet()) {
+					for (var e2 : e.getValue().exchangeRates.entrySet()) {
 						NpcCorporation sourceCorporation = storedEntities.get(e2.getKey());
 						if (sourceCorporation == null) {
 							log.error("can't find source corporation for id " + e2.getKey());
@@ -85,7 +99,36 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 			}
 		}
 		log.debug("saving {} lp exchange rates", created.size());
-		lpExchangeService.saveAll(created);
+		lpExchangeService().saveAll(created);
+	}
+
+	private void updateTrades(HashMap<Integer, NpcCorporation> storedEntities,
+			LinkedHashMap<Integer, EnpcCorporations> sources) {
+		corporationTradeService().clear();
+		List<CorporationTrade> created = new ArrayList<>();
+		Function<Integer, Type> id2Type = typeService().getter(
+				sources.values().stream()
+						.filter(c -> c.corporationTrades != null)
+				.flatMap(c -> c.corporationTrades.keySet().stream()));
+		for (var e : sources.entrySet()) {
+			if (e.getValue().corporationTrades != null && !e.getValue().corporationTrades.isEmpty()) {
+				NpcCorporation corporation = storedEntities.get(e.getKey());
+				if (corporation == null) {
+					log.error("can't find corporation for id " + e.getKey());
+				} else {
+					for (var e2 : e.getValue().corporationTrades.entrySet()) {
+						Type tradedType = id2Type.apply(e2.getKey());
+						if (tradedType == null) {
+							log.error("can't find type for id " + e2.getKey());
+						} else {
+							created.add(new CorporationTrade(null, corporation, tradedType, e2.getValue()));
+						}
+					}
+				}
+			}
+		}
+		log.debug("saving {} corporation trades", created.size());
+		corporationTradeService().saveAll(created);
 	}
 
 }
