@@ -6,6 +6,7 @@ import java.util.List;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -19,6 +20,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * LP corporation listed from esi's npc corporation
+ * {@link ESIRawPublic#get_corporations_npccorps(java.util.Map)}
+ */
 @Entity(name = "EsiNpcLpCorporation")
 @Table(name = "esi_npc_lpcorporation", indexes = {
     @Index(columnList = "fetch_active,expires"),
