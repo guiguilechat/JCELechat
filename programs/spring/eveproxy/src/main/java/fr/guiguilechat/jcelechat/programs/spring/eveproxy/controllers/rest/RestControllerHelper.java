@@ -27,7 +27,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;

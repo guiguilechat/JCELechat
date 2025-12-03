@@ -1,8 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
+package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
  * average activity of a system inside a period of a day of week and an
@@ -10,6 +11,7 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 @Getter
+@Accessors(fluent = true)
 @Builder
 public class PeriodHeat {
 
@@ -36,6 +38,6 @@ public class PeriodHeat {
 	}
 
 	@Getter(lazy = true)
-	private final String dowStr = dayOfWeek(getDow());
+	private final String dowStr = dayOfWeek(dow()) + "+" + h + "h";
 
 }

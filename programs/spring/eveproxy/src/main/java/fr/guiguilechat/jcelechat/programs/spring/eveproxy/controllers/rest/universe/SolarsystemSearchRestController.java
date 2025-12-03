@@ -36,10 +36,10 @@ import org.springframework.web.server.ResponseStatusException;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.selectors.SystemSelectorId;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.selectors.SystemSelectorName;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
@@ -63,8 +63,8 @@ public class SolarsystemSearchRestController {
 	public void chartActivityName(
 			@PathVariable SystemSelectorName selector,
 			HttpServletResponse response,
-			@RequestParam Optional<SystemActivity> left,
-			@RequestParam Optional<SystemActivity> right,
+			@RequestParam Optional<SystemActivityType> left,
+			@RequestParam Optional<SystemActivityType> right,
 			@RequestParam List<String> names,
 			@RequestParam Optional<Integer> days,
 			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
@@ -115,9 +115,9 @@ public class SolarsystemSearchRestController {
 	}
 
 	private JFreeChart drawActivityChart(Map<Integer, String> sids2Names,
-			Optional<SystemActivity> left,
+			Optional<SystemActivityType> left,
 			Map<Integer, List<SystemDateActivity>> leftValues,
-			Optional<SystemActivity> right,
+			Optional<SystemActivityType> right,
 			Map<Integer, List<SystemDateActivity>> rightValues,
 			ChartTheme theme,
 			DateAggregation aggreg) {
@@ -139,7 +139,7 @@ public class SolarsystemSearchRestController {
 		plot.setDomainAxis(timeAxis);
 
 		if (left != null && left.isPresent()) {
-			SystemActivity leftActivity = left.get();
+			SystemActivityType leftActivity = left.get();
 			List<Color> leftColors = theme.firstAxisColor(sids2Names.size());
 
 			XYLineAndShapeRenderer leftRenderer = new XYLineAndShapeRenderer(false, true);
@@ -175,7 +175,7 @@ public class SolarsystemSearchRestController {
 		}
 
 		if (right != null && right.isPresent()) {
-			SystemActivity rightActivity = right.get();
+			SystemActivityType rightActivity = right.get();
 			List<Color> rightColors = theme.secondAxisColor(sids2Names.size());
 			boolean flipDirection = left != null && left.isPresent() && idNameList.size() > 3;
 			XYBarRenderer rightRenderer = new ClusteredXYBarRenderer();
@@ -224,8 +224,8 @@ public class SolarsystemSearchRestController {
 	}
 
 	protected String makeChartTitle(
-			Optional<SystemActivity> left,
-			Optional<SystemActivity> right,
+			Optional<SystemActivityType> left,
+			Optional<SystemActivityType> right,
 			DateAggregation aggreg) {
 		String ret = "";
 		if (left != null && left.isPresent()) {
@@ -242,7 +242,7 @@ public class SolarsystemSearchRestController {
 	@GetMapping("/name/{selector}/stats/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivityNames(
 			@PathVariable @Parameter(description = "how to deduce system ids from a name") SystemSelectorName selector,
-			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@PathVariable @Parameter(description = "selected activity") SystemActivityType activity,
 			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			@RequestParam @Parameter(description = "(comma separated) names to transform into system ids. Example : jita,Amarr,doDixiE") List<String> names,
 			@RequestParam Optional<ACCEPT_TEXT> accept,
@@ -260,7 +260,7 @@ public class SolarsystemSearchRestController {
 	@GetMapping("/id/{selector}/stats/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivityIds(
 			@PathVariable @Parameter(description = "how to deduce system ids from an id") SystemSelectorId selector,
-			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@PathVariable @Parameter(description = "selected activity") SystemActivityType activity,
 			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			@RequestParam @Parameter(description = "(comma separated) ids to transform into system ids") List<Integer> ids,
 			@RequestParam Optional<ACCEPT_TEXT> accept,

@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.universe.statistics;
 
-public enum SystemActivity {
+public enum SystemActivityType {
 
 	jumps,
 	npckills,

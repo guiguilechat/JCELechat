@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics;
+package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate;
 
 import java.time.Instant;
 import java.time.ZoneOffset;

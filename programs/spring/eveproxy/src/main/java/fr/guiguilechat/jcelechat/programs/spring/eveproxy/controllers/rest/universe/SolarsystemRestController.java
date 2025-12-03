@@ -16,11 +16,11 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SecFilter;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.PeriodHeat;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.PeriodHeat;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumpsService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
@@ -79,7 +79,7 @@ public class SolarsystemRestController {
 	@GetMapping("/id/{solarSystemId}/{activity}")
 	public ResponseEntity<List<DateActivity>> activity(
 			@PathVariable @Parameter(description = "solar system id. Jita=30000142 ") int solarSystemId,
-			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@PathVariable @Parameter(description = "selected activity") SystemActivityType activity,
 			@RequestParam Optional<ACCEPT_TEXT> accept,
 			@RequestParam @Parameter(description = "days prior to today to get the activities. Default 1") Optional<Integer> days) {
 		return RestControllerHelper.makeResponse(
@@ -94,7 +94,7 @@ public class SolarsystemRestController {
 	@GetMapping("/id/{solarSystemId}/{activity}/{aggreg}")
 	public ResponseEntity<List<SystemDateActivity>> groupActivity(
 			@PathVariable @Parameter(description = "solar system id. Jita=30000142 ") int solarSystemId,
-			@PathVariable @Parameter(description = "selected activity") SystemActivity activity,
+			@PathVariable @Parameter(description = "selected activity") SystemActivityType activity,
 			@PathVariable @Parameter(description = "period to aggregte activity over") DateAggregation aggreg,
 			@RequestParam Optional<ACCEPT_TEXT> accept,
 			@RequestParam @Parameter(description = "days to limit the search, default 30") Optional<Integer> days) {

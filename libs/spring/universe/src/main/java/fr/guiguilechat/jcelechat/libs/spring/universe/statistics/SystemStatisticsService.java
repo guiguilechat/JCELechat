@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumpsService;
 import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKillsService;
 import lombok.RequiredArgsConstructor;
@@ -26,14 +28,14 @@ public class SystemStatisticsService {
 
 	public List<SystemDateActivity> groupActivities(
 			Iterable<Integer> solarSystemIds,
-			SystemActivity activityType,
+			SystemActivityType activityType,
 			DateAggregation aggregation,
 			Instant since) {
 		return switch (activityType) {
-		case SystemActivity.jumps -> systemJumpsService.aggregateJumps(solarSystemIds, aggregation, since);
-		case SystemActivity.podkills -> systemKillsService.aggregatePodKills(solarSystemIds, aggregation, since);
-		case SystemActivity.npckills -> systemKillsService.aggregateNpcKills(solarSystemIds, aggregation, since);
-		case SystemActivity.shipkills -> systemKillsService.aggregateShipKills(solarSystemIds, aggregation, since);
+		case SystemActivityType.jumps -> systemJumpsService.aggregateJumps(solarSystemIds, aggregation, since);
+		case SystemActivityType.podkills -> systemKillsService.aggregatePodKills(solarSystemIds, aggregation, since);
+		case SystemActivityType.npckills -> systemKillsService.aggregateNpcKills(solarSystemIds, aggregation, since);
+		case SystemActivityType.shipkills -> systemKillsService.aggregateShipKills(solarSystemIds, aggregation, since);
 		default ->
 			throw new IllegalArgumentException("Unexpected value: " + activityType);
 		};
@@ -41,19 +43,19 @@ public class SystemStatisticsService {
 
 	public Map<Integer, List<SystemDateActivity>> activities(
 			Iterable<Integer> solarSystemIds,
-			SystemActivity activityType,
+			SystemActivityType activityType,
 			DateAggregation aggregation,
 			Instant since) {
 		return groupActivities(solarSystemIds, activityType, aggregation, since).stream()
 				.collect(Collectors.groupingBy(SystemDateActivity::sysId));
 	}
 
-	public List<DateActivity> activities(int solarSystemId, SystemActivity activityType, Instant since) {
+	public List<DateActivity> activities(int solarSystemId, SystemActivityType activityType, Instant since) {
 		return switch (activityType) {
-		case SystemActivity.jumps -> systemJumpsService.listJumps(solarSystemId, since);
-		case SystemActivity.podkills -> systemKillsService.listPodKills(solarSystemId, since);
-		case SystemActivity.npckills -> systemKillsService.listNpcKills(solarSystemId, since);
-		case SystemActivity.shipkills -> systemKillsService.listShipKills(solarSystemId, since);
+		case SystemActivityType.jumps -> systemJumpsService.listJumps(solarSystemId, since);
+		case SystemActivityType.podkills -> systemKillsService.listPodKills(solarSystemId, since);
+		case SystemActivityType.npckills -> systemKillsService.listNpcKills(solarSystemId, since);
+		case SystemActivityType.shipkills -> systemKillsService.listShipKills(solarSystemId, since);
 		default ->
 			throw new IllegalArgumentException("Unexpected value: " + activityType);
 		};
