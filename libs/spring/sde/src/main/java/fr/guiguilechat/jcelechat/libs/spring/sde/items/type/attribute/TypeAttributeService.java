@@ -31,4 +31,13 @@ public class TypeAttributeService extends DeducedEntityService<TypeAttribute, Ty
 				.collect(Collectors.toMap(arr -> (Integer) arr[0], arr -> ((Number) arr[1])));
 	}
 
+	public static record RequiredSkill(int id, int level) {
+	}
+
+	public List<RequiredSkill> requiredSkills(Iterable<Integer> typeIds) {
+		return repo().requiredSkills(typeIds).stream()
+				.map(arr -> new RequiredSkill(((Number) arr[0]).intValue(), ((Number) arr[1]).intValue()))
+				.toList();
+	}
+
 }

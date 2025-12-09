@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
 import lombok.RequiredArgsConstructor;
 
@@ -20,14 +19,14 @@ public class PlanetaryTaxService {
 
 	public Map<Integer, Double> exportTaxById() {
 		return typeAttributeService.byAttributeId(EXPORTTAXMULTIPLIER_ID).stream()
-				.collect(Collectors.toMap(TypeAttribute::getTypeId, ta -> ta.getValue().doubleValue()));
+				.collect(Collectors.toMap(ta -> ta.getType().getId(), ta -> ta.getValue().doubleValue()));
 	}
 
 	private static final int IMPORTTAXMULTIPLIER_ID = 1640;
 
 	public Map<Integer, Double> importTaxById() {
 		return typeAttributeService.byAttributeId(IMPORTTAXMULTIPLIER_ID).stream()
-				.collect(Collectors.toMap(TypeAttribute::getTypeId, ta -> ta.getValue().doubleValue()));
+				.collect(Collectors.toMap(ta -> ta.getType().getId(), ta -> ta.getValue().doubleValue()));
 	}
 
 	public double concordTaxMult(boolean hs, int customCodeExpertise) {

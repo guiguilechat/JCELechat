@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map.Entry;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 import org.springframework.stereotype.Service;
@@ -12,6 +13,10 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.EAttributes;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.Eeffects;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.Effect;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.EffectService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.effect.TypeEffect;
@@ -24,10 +29,22 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * update the {@link TypeAttribute} and {@link TypeEffect} from the typeDogma
+ * entry.
+ */
 @RequiredArgsConstructor
 @Service
 @Slf4j
 public class TypeDogmaUpdater implements SdeListener {
+
+	@Getter(value = AccessLevel.PACKAGE)
+	@Accessors(fluent = true)
+	private final AttributeService attributeService;
+
+	@Getter(value = AccessLevel.PACKAGE)
+	@Accessors(fluent = true)
+	private final EffectService effectService;
 
 	@Getter(value = AccessLevel.PACKAGE)
 	@Accessors(fluent = true)
@@ -36,6 +53,10 @@ public class TypeDogmaUpdater implements SdeListener {
 	@Getter(value = AccessLevel.PACKAGE)
 	@Accessors(fluent = true)
 	private final TypeEffectService typeEffectService;
+
+	@Getter(value = AccessLevel.PACKAGE)
+	@Accessors(fluent = true)
+	private final TypeService typeService;
 
 	private static final String FILENAME = EtypeDogma.LOADER.yamlFileName();
 
@@ -66,15 +87,22 @@ public class TypeDogmaUpdater implements SdeListener {
 			LinkedHashMap<Integer, EtypeDogma> sources = EtypeDogma.LOADER.yaml().from(fileContent.get());
 			typeAttributeService().delete();
 			typeEffectService().delete();
+			Function<Integer, Attribute> attributesGetter = attributeService.getter(sources.values().stream()
+					.flatMap(e -> e.dogmaAttributes.stream().map(ea -> ea.attributeID)));
+			Function<Integer, Effect> effectsGetter = effectService.getter(sources.values().stream()
+					.flatMap(e -> e.dogmaEffects.stream().map(ee -> ee.effectID)));
+			Function<Integer, Type> typesGetter = typeService.getter(sources.keySet().stream());
+
 			List<TypeAttribute> typeAttributes = new ArrayList<>();
 			List<TypeEffect> typeEffects = new ArrayList<>();
 			for (Entry<Integer, EtypeDogma> e : sources.entrySet()) {
 				int typeId = e.getKey();
+				Type type = typesGetter.apply(typeId);
 				for (EAttributes da : e.getValue().dogmaAttributes) {
-					typeAttributes.add(TypeAttribute.of(typeId, da.attributeID, da.value));
+					typeAttributes.add(TypeAttribute.of(type, attributesGetter.apply(da.attributeID), da.value));
 				}
 				for (Eeffects eff : e.getValue().dogmaEffects) {
-					typeEffects.add(TypeEffect.of(eff.effectID, typeId, eff.isDefault));
+					typeEffects.add(TypeEffect.of(type, effectsGetter.apply(eff.effectID), eff.isDefault));
 				}
 			}
 			typeAttributeService().saveAll(typeAttributes);

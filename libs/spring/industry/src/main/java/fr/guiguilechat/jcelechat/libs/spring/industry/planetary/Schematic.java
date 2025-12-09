@@ -58,7 +58,7 @@ public class Schematic implements Serializable {
 	@Transient
 	private final int cpuLoad = pins.isEmpty() ? 0
 	    : pins.iterator().next().getAttributes().stream()
-					.filter(ta -> ta.getAttributeId() == 49)
+					.filter(ta -> ta.getAttribute().getId() == 49)
 	        .mapToInt(ta -> ta.getValue().intValue())
 	        .findFirst().orElse(0);
 
@@ -66,7 +66,7 @@ public class Schematic implements Serializable {
 	@Transient
 	private final int powerLoad = pins.isEmpty() ? 0
 	    : pins.iterator().next().getAttributes().stream()
-					.filter(ta -> ta.getAttributeId() == 15)
+					.filter(ta -> ta.getAttribute().getId() == 15)
 	        .mapToInt(ta -> ta.getValue().intValue())
 					.findFirst().orElse(0);
 

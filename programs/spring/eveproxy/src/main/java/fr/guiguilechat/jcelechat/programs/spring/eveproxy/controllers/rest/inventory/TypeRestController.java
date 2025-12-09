@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.AttributeService.RequiredSkill;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService.RequiredSkill;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import lombok.RequiredArgsConstructor;
@@ -22,9 +22,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class TypeRestController {
 
-	final private AttributeService attributeService;
+	private final TypeAttributeService typeAttributeService;
 
-	final private TypeService typeService;
+	private final TypeService typeService;
 
 	@GetMapping("/id/{typeId}/variations")
 	public ResponseEntity<List<Integer>> listVariations(
@@ -40,7 +40,7 @@ public class TypeRestController {
 			@RequestParam List<Integer> typeIds,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		return RestControllerHelper.makeResponse(
-				attributeService.requiredSkills(typeIds),
+				typeAttributeService.requiredSkills(typeIds),
 				accept);
 	}
 

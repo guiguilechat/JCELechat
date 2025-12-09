@@ -2,9 +2,12 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
 import java.math.BigDecimal;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,19 +29,21 @@ public class TypeAttribute {
 
 	@Id
 	private Long id;
-	private int attributeId;
-	private int typeId;
+	@ManyToOne
+	private Type type;
+	@ManyToOne
+	private Attribute attribute;
 	private BigDecimal value;
 
-	public static long id(int typeId, int attributeId) {
+	public static long makeId(int typeId, int attributeId) {
 		return (long) Integer.MAX_VALUE * typeId + attributeId;
 	}
 
-	public static TypeAttribute of(int typeId, int attributeId, BigDecimal value) {
+	public static TypeAttribute of(Type type, Attribute attribute, BigDecimal value) {
 		return builder()
-				.id(id(typeId, attributeId))
-				.attributeId(attributeId)
-				.typeId(typeId)
+				.id(makeId(type.getId(), attribute.getId()))
+				.type(type)
+				.attribute(attribute)
 				.value(value)
 				.build();
 	}
