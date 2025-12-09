@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
+import fr.guiguilechat.jcelechat.libs.sde.model.items.Attribute;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
+import fr.guiguilechat.jcelechat.libs.sde.model.items.DynamicItem;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Type;
@@ -22,7 +24,7 @@ import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporationDivision;
 
 /**
- * datasource that resolves the elements using a local file cache
+ * {@link DataSource} that resolves the elements using a local file cache
  */
 public class DataSourceLocalCache implements DataSource {
 
@@ -39,6 +41,11 @@ public class DataSourceLocalCache implements DataSource {
 	}
 
 	@Override
+	public EntityMap<Attribute> attributes() {
+		return Attribute.CACHE;
+	}
+
+	@Override
 	public EntityMap<BluePrint> blueprints() {
 		return BluePrint.CACHE;
 	}
@@ -51,6 +58,11 @@ public class DataSourceLocalCache implements DataSource {
 	@Override
 	public EntityNameMap<Constellation> constellations() {
 		return Constellation.CACHE;
+	}
+
+	@Override
+	public EntityMap<DynamicItem> dynamicItems() {
+		return DynamicItem.CACHE;
 	}
 
 	@Override

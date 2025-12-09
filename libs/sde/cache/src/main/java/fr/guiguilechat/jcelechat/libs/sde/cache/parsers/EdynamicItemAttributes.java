@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.EAttributes;
 
 /**
  * key is mutaplasmid typeid, value is effect on type and output
@@ -32,6 +33,8 @@ public class EdynamicItemAttributes {
 		public BigDecimal max;
 		public BigDecimal min;
 	}
+
+	/** key is {@link EAttributes} */
 	public Map<Integer, MinMax> attributeIDs = new LinkedHashMap<>();
 
 	public static class TransformTypes {

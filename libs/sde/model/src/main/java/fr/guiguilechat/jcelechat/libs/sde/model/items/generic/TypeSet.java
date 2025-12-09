@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
 
 /**
  * An {@link DataSourced} that refers to a set of types, their groups, and
- * categories
+ * categories. Common class for type, group, category, and market group
  *
  * @param <SourceType>
  */

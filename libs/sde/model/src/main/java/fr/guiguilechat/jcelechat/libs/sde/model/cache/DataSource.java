@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
+import fr.guiguilechat.jcelechat.libs.sde.model.items.Attribute;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
+import fr.guiguilechat.jcelechat.libs.sde.model.items.DynamicItem;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Type;
@@ -30,11 +32,15 @@ public interface DataSource {
 
 	EntityMap<AsteroidBelt> asteroidBelts();
 
+	EntityMap<Attribute> attributes();
+
 	EntityMap<BluePrint> blueprints();
 
 	EntityNameMap<Category> categories();
 
 	EntityNameMap<Constellation> constellations();
+
+	EntityMap<DynamicItem> dynamicItems();
 
 	EntityNameMap<Group> groups();
 
