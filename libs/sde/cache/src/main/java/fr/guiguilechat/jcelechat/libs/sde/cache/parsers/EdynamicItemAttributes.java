@@ -9,6 +9,9 @@ import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
+/**
+ * key is mutaplasmid typeid, value is effect on type and output
+ */
 public class EdynamicItemAttributes {
 
 	//

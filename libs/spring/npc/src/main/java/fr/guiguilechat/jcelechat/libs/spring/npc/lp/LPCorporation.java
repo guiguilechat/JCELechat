@@ -7,7 +7,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import jakarta.persistence.Entity;
@@ -27,7 +27,7 @@ import lombok.Setter;
 @Entity(name = "EsiNpcLpCorporation")
 @Table(name = "esi_npc_lpcorporation", indexes = {
     @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "corporationId")
+		@Index(columnList = "corporationId")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
@@ -36,12 +36,13 @@ import lombok.Setter;
 @Setter
 public class LPCorporation extends RemoteEntity<Integer, List<R_get_loyalty_stores_corporation_id_offers>> {
 
-	@OneToOne(optional = false)
-	private CorporationInfo corporation;
+	/** should have same id as this */
+	@OneToOne
+	private NpcCorporation corporation;
 
 	private int nbOffers = 0;
 
-	@OneToMany(mappedBy = "observed")
+	@OneToMany(mappedBy = "lpCorp")
 	private List<LinkCorporationOffer> offers = new ArrayList<>();
 
 	@Override

@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -22,8 +21,7 @@ import lombok.Setter;
  */
 @Entity(name = "EsiNpcLPCorporationOffer")
 @Table(name = "esi_npc_lpcorporationoffer", indexes = {
-    @Index(columnList = "corporation_id"),
-    @Index(columnList = "observed_id"),
+		@Index(columnList = "lp_corp_id"),
     @Index(columnList = "offer_id")
 })
 @AllArgsConstructor
@@ -37,11 +35,9 @@ public class LinkCorporationOffer {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private long id;
 
+	/** */
 	@ManyToOne
-	private CorporationInfo corporation;
-
-	@ManyToOne
-	private LPCorporation observed;
+	private LPCorporation lpCorp;
 
 	@ManyToOne
 	private Offer offer;

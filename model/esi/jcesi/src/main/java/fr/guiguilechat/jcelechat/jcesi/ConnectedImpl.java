@@ -221,7 +221,7 @@ public abstract class ConnectedImpl implements ITransfer {
 		try {
 			Response lastResponse = null;
 			int lastResponseCode = 0;
-			Exception lastException = null;
+			String lastError = null;
 
 			// retry to send the data for as many retry, as long as the error is
 			// server error type
@@ -234,20 +234,20 @@ public abstract class ConnectedImpl implements ITransfer {
 				lastResponse = getClient().newCall(req).execute();
 				lastResponseCode = lastResponse.code();
 				needRetry = lastResponseCode / 100 == 5;
-				if (needRetry) {
-					remainingRetry--;
-					if (remainingRetry > 0) {
-						// the response will be discarded, so we need to log it now.
-						String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url, transmitStr);
-						long milliseconds = lastResponse.receivedResponseAtMillis() - lastResponse.sentRequestAtMillis();
-						logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
-								lastResponse.headers().toMultimap());
-					}
+				if (needRetry && remainingRetry >= 1) {
+					// the response will be discarded, so we need to log it now.
+					String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url,
+							transmitStr);
+					long milliseconds = lastResponse.receivedResponseAtMillis()
+							- lastResponse.sentRequestAtMillis();
+					logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
+							lastResponse.headers().toMultimap());
 				} else {
 					// try with resource to close the response.body at the end.
 					try (var body = lastResponse.body()) {
 						Map<String, List<String>> headers = lastResponse.headers().toMultimap();
-						long milliseconds = lastResponse.receivedResponseAtMillis() - lastResponse.sentRequestAtMillis();
+						long milliseconds = lastResponse.receivedResponseAtMillis()
+								- lastResponse.sentRequestAtMillis();
 						switch (lastResponseCode) {
 						// 2xx ok
 						case HttpURLConnection.HTTP_OK:
@@ -294,22 +294,24 @@ public abstract class ConnectedImpl implements ITransfer {
 						case HttpURLConnection.HTTP_UNAVAILABLE:
 						case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 						default:
-							String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url, transmitStr);
+							String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url,
+									transmitStr);
 							logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
 									lastResponse.headers().toMultimap());
 							return new RequestedImpl<>(url, lastResponseCode, errorMessage, null, headers);
 						}
 					} catch (Exception e) {
-						lastException = e;
+						lastError = e.getMessage();
 						needRetry = true;
-						remainingRetry--;
 						log.warn("caught while fetching " + url
 								+ (remainingRetry >= 0 ? ", retry=" + remainingRetry : ", aborting"), e);
 					}
 				}
+				remainingRetry--;
 			} while (needRetry && remainingRetry >= 0);
 			// could not receive reponse after retries : return error
-			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, lastException.getMessage(), null, new HashMap<>());
+			return new RequestedImpl<>(url, HttpURLConnection.HTTP_UNAVAILABLE, lastError, null,
+					new HashMap<>());
 		} catch (Exception e) {
 			logResponse(method, url, null,
 					requestSentTime == null ? null : System.currentTimeMillis() - requestSentTime,

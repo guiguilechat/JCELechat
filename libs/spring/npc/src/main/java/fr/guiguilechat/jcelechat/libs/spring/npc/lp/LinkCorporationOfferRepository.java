@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.npc.lp;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -11,27 +12,52 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 public interface LinkCorporationOfferRepository extends JpaRepository<LinkCorporationOffer, Long> {
 
 	@Modifying
-	@Query("delete from EsiNpcLPCorporationOffer where observed.id in :observedIds")
-	void deleteByObservedId(Iterable<Integer> observedIds);
+	@Query("delete from #{#entityName} where lpCorp.id in :observedIds")
+	void deleteByCorporationId(Iterable<Integer> observedIds);
 
-	List<LinkCorporationOffer> findAllByCorporationIdAndOfferId(int corporationId, int offerId);
+	List<LinkCorporationOffer> findAllByLpCorpIdAndOfferId(int corporationId, int offerId);
 
-	List<LinkCorporationOffer> findAllByOfferTypeOrderByCorporationNameAscOfferIdAsc(Type type);
+	List<LinkCorporationOffer> findAllByOfferTypeOrderByLpCorpCorporationNameAscOfferIdAsc(Type type);
 
-	List<LinkCorporationOffer> findAllByObservedIdAndOfferLpCostGreaterThanAndOfferLpCostLessThanEqualOrderByOfferIdAsc(
+	List<LinkCorporationOffer> findAllByLpCorpIdAndOfferLpCostGreaterThanAndOfferLpCostLessThanEqualOrderByOfferIdAsc(
 	    int corporationId, int minLpExcluded, int maxLpIncluded);
 
 	@Query("""
 select
-	off.observed,
+	off.lpCorp,
 	count(*)
 from
-	EsiNpcLPCorporationOffer off
+	#{#entityName} off
 where
 	off.offer.lpCost>0
 group by
-	off.observed
+	off.lpCorp
 """)
 
 	List<Object[]> listCorporationsWithLPOffers();
+
+	@EntityGraph(attributePaths = { "lpCorp" })
+	@Query("""
+select
+	lpl
+from
+	#{#entityName} lpl
+	left join SdeIndustryBlueprintProduct prd on prd.activity.typeId=lpl.offer.type.id
+where
+	lpl.offer.lpCost>0
+	and (lpl.offer.type.id=:productId
+		or prd.typeId=:productId)
+""")
+	List<LinkCorporationOffer> listProducingWithLP(int productId);
+
+	@Query("""
+select
+	lpl
+from
+	#{#entityName} lpl
+where
+	lpl.offer.lpCost>0
+	and lpl.lpCorp.id in :corpIds
+""")
+	List<LinkCorporationOffer> listCorpOffersWithLP(Iterable<Integer> corpIds);
 }

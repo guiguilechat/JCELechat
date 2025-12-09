@@ -30,26 +30,29 @@ public class LinkCorporationOfferService {
 	}
 
 	public void clearForObserved(Collection<LPCorporation> observed) {
-		repo().deleteByObservedId(observed.stream().map(LPCorporation::getId).distinct().toList());
+		repo().deleteByCorporationId(observed.stream().map(LPCorporation::getId).distinct().toList());
 	}
 
 	public List<LinkCorporationOffer> forCorporationOffer(int corporationId, int offerId) {
-		return repo().findAllByCorporationIdAndOfferId(corporationId, offerId);
+		return repo().findAllByLpCorpIdAndOfferId(corporationId, offerId);
 	}
 
 	/**
 	 * return all the offers of all corporation producting given type
-	 * 
+	 *
 	 * @param t
 	 * @return
 	 */
 	public List<LinkCorporationOffer> producing(Type t) {
-		return repo().findAllByOfferTypeOrderByCorporationNameAscOfferIdAsc(t);
+		return repo().findAllByOfferTypeOrderByLpCorpCorporationNameAscOfferIdAsc(t);
 	}
 
-	public List<LinkCorporationOffer> byObservedIdRequiringLp(int observedId, int lpQuantity) {
-		return repo().findAllByObservedIdAndOfferLpCostGreaterThanAndOfferLpCostLessThanEqualOrderByOfferIdAsc(observedId,
-		    0, lpQuantity);
+	public List<Offer> byCorporationIdRequiringLp(int corporationId, int maxOfferLPs) {
+		return repo().findAllByLpCorpIdAndOfferLpCostGreaterThanAndOfferLpCostLessThanEqualOrderByOfferIdAsc(
+				corporationId,
+				0, maxOfferLPs)
+				.stream().map(LinkCorporationOffer::getOffer)
+				.toList();
 	}
 
 	public static record CorporationLPOffers(LPCorporation corporation, int nbLPOffers) {
@@ -62,6 +65,24 @@ public class LinkCorporationOfferService {
 		        (LPCorporation) arr[0],
 		        ((Number) arr[1]).intValue()))
 		    .toList();
+	}
+
+	/**
+	 * @param productId the item we want to produce
+	 * @return the list of corporationLink that produce given item, or its
+	 *         blueprint, and require LP to do so
+	 */
+	public List<LinkCorporationOffer> listProducingWithLP(int productId){
+		return repo.listProducingWithLP(productId);
+	}
+
+	/**
+	 * @param corpIds accepted corporation ids
+	 * @return all the lp links where the corporation is accepted and the offer
+	 *         requires LP
+	 */
+	public List<LinkCorporationOffer> listCorpOffersWithLP(Iterable<Integer> corpIds) {
+		return repo.listCorpOffersWithLP(corpIds);
 	}
 
 }

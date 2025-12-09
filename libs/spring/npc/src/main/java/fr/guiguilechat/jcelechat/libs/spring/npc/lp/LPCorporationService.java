@@ -15,8 +15,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.ListingRemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import lombok.RequiredArgsConstructor;
@@ -36,7 +35,7 @@ public class LPCorporationService extends
     LPCorporationRepository> {
 
 	@Lazy
-	private final CorporationInfoService corporationInfoService;
+	private final NpcCorporationService npcCorporationService;
 
 	@Lazy
 	private final LinkCorporationOfferService linkCorporationOfferService;
@@ -55,7 +54,7 @@ public class LPCorporationService extends
 	protected LPCorporation create(Integer entityId) {
 		LPCorporation ret = new LPCorporation();
 		ret.setId(entityId);
-		ret.setCorporation(corporationInfoService.createIfAbsent(entityId));
+		ret.setCorporation(npcCorporationService.createIfAbsent(entityId));
 		return ret;
 	}
 
@@ -88,15 +87,12 @@ public class LPCorporationService extends
 
 		// then link the corporation observed to those offers
 		linkCorporationOfferService.clearForObserved(map.keySet());
-		Map<Integer, CorporationInfo> idtoCorporationInfo = corporationInfoService.createIfAbsent(map.keySet().stream().map(LPCorporation::getId).toList());
 		List<LinkCorporationOffer> links = new ArrayList<>();
 		for ( Entry<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> e : map.entrySet()) {
 			LPCorporation oc = e.getKey();
-			CorporationInfo ci = idtoCorporationInfo.get(oc.getId());
 			for (R_get_loyalty_stores_corporation_id_offers o : e.getValue()) {
 				links.add(LinkCorporationOffer.builder()
-				    .corporation(ci)
-				    .observed(oc)
+						.lpCorp(oc)
 				    .offer(idToOffer.get(o.offer_id))
 				    .build());
 			}

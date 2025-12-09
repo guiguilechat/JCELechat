@@ -50,6 +50,10 @@ public class NpcCorporation extends SdeEntity<Integer> {
 	@ColumnDefault("false")
 	private boolean uniqueName;
 
+	public String nameOrId() {
+		return name != null ? name : "npccorporation:" + getId();
+	}
+
 	public void update(EnpcCorporations source,
 			Function<Integer, SolarSystem> solarSystems,
 			Function<Integer, Station> stations) {
