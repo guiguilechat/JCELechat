@@ -19,7 +19,6 @@
 		<module>connect</module>
 		<module>gameclient</module>
 		<module>industry</module>
-		<module>items</module>
 		<module>mer</module>
 		<module>npc</module>
 		<module>remotefetching</module>

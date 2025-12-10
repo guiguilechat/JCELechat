@@ -4,11 +4,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.NamedTypelist;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.dto.NamedTypelist;
 
 /**
  * request to filter the typed by

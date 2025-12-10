@@ -42,7 +42,7 @@ public class TokenBucketResolver {
 				return;
 			}
 			bucket = cache.bucket(group);
-			log.trace("deduced group " + group);
+			log.trace("deduced group: " + group);
 		}
 		bucket.processResponse(response);
 	}
@@ -63,7 +63,7 @@ public class TokenBucketResolver {
 				return;
 			}
 			bucket = cache.bucket(group);
-			log.debug("deduced group : " + group);
+			log.debug("deduced group: \"{}\"", group);
 		}
 		bucket.processResponse(responses);
 	}

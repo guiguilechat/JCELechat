@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.industry.manufacturing.EivService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.BlueprintActivityService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
@@ -37,7 +38,6 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
 
@@ -127,7 +127,7 @@ public class IndustryRestController {
 
 			    BPInfo bp = null;
 			    if (type.getGroup().getCategory().getId() == 9) {
-				    double eiv = eivService.eiv(type.getId());
+						double eiv = eivService.eivs().getOrDefault(type.getId(), 0L);
 						long teTime = tes.size() != 1 ? 0 : 256000L * tes.get(0).getTime() / 105;
 						long researchTime = teTime + meTime;
 
@@ -266,7 +266,7 @@ public class IndustryRestController {
 					.removeIf(e -> types.get(e.getValue().getTypeId()).getMarketGroup() != null != marketableValue);
 		}
 
-		Map<Integer, Long> eivs = eivService.eivs(acceptedBpIdToProduct.keySet());
+		Map<Integer, Long> eivs = eivService.eivs();
 		Map<Integer, Double> adjusteds = priceService.adjusted();
 		Map<Integer, Double> averages = priceService.average();
 

@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.industry.manufacturing.EivService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
@@ -160,7 +161,7 @@ public class ContractEvalService {
 		long postFetchSos = System.currentTimeMillis();
 		log.trace("retrieved SOs for {} types in {} ms", typeId2SellOrders.size(), postFetchSos - postFetchBos);
 
-		Map<Integer, Long> eivs = eivService.eivs(bpIds);
+		Map<Integer, Long> eivs = eivService.eivs();
 		List<ContractEval> ret = new ArrayList<>();
 		for (ContractInfo ci : contracts) {
 			ret.add(evaluate(ci, params, typeId2BuyOrders, typeId2SellOrders, eivs));

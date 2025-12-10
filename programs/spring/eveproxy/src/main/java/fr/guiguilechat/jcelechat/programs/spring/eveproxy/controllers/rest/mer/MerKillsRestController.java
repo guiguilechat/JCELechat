@@ -30,7 +30,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.NamedTypelist;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService.KillStats;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
@@ -38,6 +37,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.dto.NamedTypelist;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.kills.AggregPeriod;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.kills.KillsDetail;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.kills.TypesKillsStats;

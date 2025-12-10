@@ -21,6 +21,7 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.industry.manufacturing.EivService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
@@ -46,7 +47,6 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.EivService;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -340,12 +340,12 @@ public class InventoryHtmlController {
 		model.addAttribute("average", FormatTools.formatPrice(priceService.average(t.getId())));
 		if (!manufProd.isEmpty()) {
 			log.trace("fetching eiv");
-			model.addAttribute("eiv", eivService.eiv(t.getId()));
+			model.addAttribute("eiv", eivService.eivs().getOrDefault(t.getId(), 0L));
 		}
 		if (productOf.size() == 1) {
 			log.trace("fetching bpeiv");
 			model.addAttribute("bpeiv",
-					eivService.eiv(productOf.get(0).product().getActivity().getTypeId()));
+					eivService.eivs().getOrDefault(productOf.get(0).product().getActivity().getTypeId(), 0L));
 		}
 
 		log.trace("fetching jitabo");

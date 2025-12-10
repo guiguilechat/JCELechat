@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.industry.activity;
 import java.io.Serializable;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.modifier.IndustryModifier;
+import fr.guiguilechat.jcelechat.libs.spring.industry.activity.modifier.IndustryModifier;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

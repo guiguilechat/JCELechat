@@ -332,11 +332,6 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>items</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>mer</artifactId>
 				<version>${project.version}</version>
 			</dependency>

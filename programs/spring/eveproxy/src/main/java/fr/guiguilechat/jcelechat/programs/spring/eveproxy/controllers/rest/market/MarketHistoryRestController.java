@@ -45,7 +45,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.items.type.dto.TypeData;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
@@ -59,6 +58,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.SlidingAverage;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.dto.TypeData;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.DailyExchanges;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;

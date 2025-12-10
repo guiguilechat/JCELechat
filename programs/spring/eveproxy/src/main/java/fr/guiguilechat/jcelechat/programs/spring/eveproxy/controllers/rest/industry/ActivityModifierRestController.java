@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.modifier.IndustryModifier;
-import fr.guiguilechat.jcelechat.libs.spring.industry.modifier.IndustryModifier.Modifiedfield;
-import fr.guiguilechat.jcelechat.libs.spring.industry.modifier.IndustryModifierService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.activity.modifier.IndustryModifier;
+import fr.guiguilechat.jcelechat.libs.spring.industry.activity.modifier.IndustryModifierService;
+import fr.guiguilechat.jcelechat.libs.spring.industry.activity.modifier.IndustryModifier.Modifiedfield;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import jakarta.transaction.Transactional;

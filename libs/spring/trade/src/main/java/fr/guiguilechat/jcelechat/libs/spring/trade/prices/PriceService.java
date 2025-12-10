@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.prices")
 @Order(4) // depends on type
 public class PriceService extends FetchedEntityService<Price, Integer, PriceRepository>
-    implements EntityUpdateListener {
+		implements EntityUpdateListener {
 
 	@Lazy
 	private final TypeService typeService;
@@ -66,18 +66,19 @@ public class PriceService extends FetchedEntityService<Price, Integer, PriceRepo
 		Requested<R_get_markets_prices[]> prices = ESIRawPublic.INSTANCE.get_markets_prices(properties);
 		if (prices.isOk()) {
 			Map<Integer, Type> idToType = typeService.createIfAbsent(
-			    Stream.of(prices.getOK()).map(p -> p.type_id).distinct().toList());
+					Stream.of(prices.getOK()).map(p -> p.type_id).distinct().toList());
 			repo().deleteAllInBatch();
 			saveAll(
-			    Stream.of(prices.getOK()).map(
-			        p -> Price.of(idToType.get(p.type_id), p.adjusted_price, p.average_price))
-			        .toList());
+					Stream.of(prices.getOK()).map(
+							p -> Price.of(idToType.get(p.type_id), p.adjusted_price, p.average_price))
+							.toList());
 			lastEtag = prices.getETag();
 			setNextUpdate(prices.getExpiresInstant());
 			return true;
 		} else {
 			if (prices.getResponseCode() != 304) {
-				log.warn("fetching prices, received reponse code {} and error {}", prices.getResponseCode(), prices.getError());
+				log.warn("fetching prices, received reponse code {} and error {}", prices.getResponseCode(),
+						prices.getError());
 			}
 			return false;
 		}
@@ -118,8 +119,8 @@ public class PriceService extends FetchedEntityService<Price, Integer, PriceRepo
 	private final Optional<List<PriceListener>> listeners;
 
 	@Getter
-	  private final List<String> cacheList = List.of(
-		    "pricesAdjusted",
-		    "pricesAverage");
+	private final List<String> cacheList = List.of(
+			"pricesAdjusted",
+			"pricesAverage");
 
 }

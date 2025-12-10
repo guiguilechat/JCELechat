@@ -16,11 +16,11 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>items</artifactId>
+			<artifactId>sde</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>sde</artifactId>
+			<artifactId>trade</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

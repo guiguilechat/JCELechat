@@ -30,6 +30,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketRegionService.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -207,7 +208,7 @@ public class MarketLineService implements MarketRegionListener {
 
 	Map<Long, MarketLine> cachedOrders(int regionId) {
 		return lastStoredLinesByRegionId.computeIfAbsent(regionId,
-				i -> forRegion(regionId)
+				_ -> forRegion(regionId)
 						.stream()
 						.collect(Collectors.toMap(MarketLine::getOrderId, ml -> ml)));
 	}
@@ -409,9 +410,8 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 
-	@Override
-	public List<String> getCacheList() {
-		return List.of(
+	@Getter(lazy = true)
+	private final List<String> cacheList = List.of(
 				"marketAll",
 				"marketLocation",
 				"marketRegion",
@@ -419,7 +419,7 @@ public class MarketLineService implements MarketRegionListener {
 				"marketSoValueLocation",
 				"marketLocationTypesBo",
 				"marketLocationTypesSo");
-	}
+
 
 
 }
