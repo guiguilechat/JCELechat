@@ -86,7 +86,7 @@
 								</goals>
 								<configuration>
 									<includePluginDependencies>true</includePluginDependencies>
-									<mainClass>fr.guiguilechat.jcelechat.model.sde.translate.IndustryTranslater</mainClass>
+									<mainClass>fr.guiguilechat.jcelechat.model.sde.industry.IndustryTranslator</mainClass>
 									<arguments>
 										<!-- resource folder to put database in -->
 										<argument>${project.basedir}/src/generated/resources/</argument>

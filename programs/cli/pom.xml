@@ -14,7 +14,6 @@
 	<description>programs that generate cli jar</description>
 	<modules>
 		<module>checkeiv</module>
-		<module>checkesisde</module>
 		<module>gankhistory</module>
 		<module>lootstats</module>
 		<module>merstats</module>

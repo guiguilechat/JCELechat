@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.industry.translate;
 
 import java.sql.SQLException;
 import java.util.Comparator;
@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.EindustryAssemblyLines;
 import fr.guiguilechat.jcelechat.model.sde.industry.AssemblyLine;
 
-public class ClientCacheAssemblyLineTranslator {
+public class AssemblyLineTranslator {
 
 	public void translate(ClientCache cc, LinkedHashMap<Integer, AssemblyLine> container)
 			throws JsonMappingException, JsonProcessingException, SQLException {

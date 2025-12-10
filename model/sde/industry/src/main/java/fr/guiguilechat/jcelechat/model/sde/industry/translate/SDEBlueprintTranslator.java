@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.industry.translate;
 
 import java.util.ArrayList;
 import java.util.Collections;

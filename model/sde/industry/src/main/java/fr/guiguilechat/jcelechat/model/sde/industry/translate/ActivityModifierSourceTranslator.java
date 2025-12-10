@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.industry.translate;
 
 import java.sql.SQLException;
 import java.util.Comparator;
@@ -17,7 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource.ModifiedActivity;
 import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource.ModifiedActivity.AttributeFilter;
 
-public class ClientCacheAMSTranslator {
+public class ActivityModifierSourceTranslator {
 
 	public void translate(ClientCache cc,
 			LinkedHashMap<Integer, ActivityModifierSource> activityModifierSources)

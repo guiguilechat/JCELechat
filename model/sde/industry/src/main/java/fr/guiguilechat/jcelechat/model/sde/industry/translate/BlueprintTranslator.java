@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.industry.translate;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -38,7 +38,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RequiredArgsConstructor
-public class ClientCacheBlueprintTranslator {
+public class BlueprintTranslator {
 
 	private final ClientCache clientCache;
 

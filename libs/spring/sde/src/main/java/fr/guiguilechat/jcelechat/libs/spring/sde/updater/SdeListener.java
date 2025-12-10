@@ -12,10 +12,12 @@ import java.util.function.Supplier;
  * <li>{@link #onSdeFile(String, Supplier)} for each sde entry, on each of
  * them</li>
  * <li>{@link #afterSdeUpdate()} on each of them to trigger post-creation
- * analysis</li>
+ * analysis, typically logging the absence of the required files</li>
  * <li>{@link #listSDECaches()} on each of them to delete corresponding
- * caches, typically logging the absence of the required files</li>
+ * caches</li>
  * </ol>
+ * Those methods default to empty result/behavior, so that implementing that
+ * interface does not require to implement them all.
  */
 public interface SdeListener {
 

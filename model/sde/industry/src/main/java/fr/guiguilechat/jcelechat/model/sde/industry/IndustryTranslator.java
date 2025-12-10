@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.industry;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,21 +25,16 @@ import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Ei
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
-import fr.guiguilechat.jcelechat.model.sde.industry.Activity;
-import fr.guiguilechat.jcelechat.model.sde.industry.ActivityModifierSource;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
-import fr.guiguilechat.jcelechat.model.sde.industry.InstallationType;
-import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.industry.TargetFilter;
+import fr.guiguilechat.jcelechat.model.sde.industry.translate.ActivityModifierSourceTranslator;
+import fr.guiguilechat.jcelechat.model.sde.industry.translate.BlueprintTranslator;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class IndustryTranslater {
+public class IndustryTranslator {
 
-	private static final Logger logger = LoggerFactory.getLogger(IndustryTranslater.class);
+	private static final Logger logger = LoggerFactory.getLogger(IndustryTranslator.class);
 
 	/**
 	 * @param args
@@ -69,7 +64,7 @@ public class IndustryTranslater {
 		TargetFilter.archives().archiveOnDiff(filtersFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, ActivityModifierSource> activityModifierSources = new LinkedHashMap<>();
-		new ClientCacheAMSTranslator().translate(cc, activityModifierSources);
+		new ActivityModifierSourceTranslator().translate(cc, activityModifierSources);
 		File amsFile = ActivityModifierSource.storage().export(activityModifierSources, folderOut);
 		ActivityModifierSource.archives().archiveOnDiff(amsFile, ci.lastModified(), folderOut);
 
@@ -84,7 +79,7 @@ public class IndustryTranslater {
 		InventionDecryptor.archives().archiveOnDiff(idFile, ci.lastModified(), folderOut);
 
 		LinkedHashMap<Integer, Blueprint> blueprints = new LinkedHashMap<>();
-		new ClientCacheBlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
+		new BlueprintTranslator(cc).translateBlueprints(cc, blueprints, usages);
 		// sort blueprints by typeId
 		ArrayList<Entry<Integer, Blueprint>> sortedList = new ArrayList<>(blueprints.entrySet());
 		Collections.sort(sortedList, Comparator.comparing(Entry<Integer, Blueprint>::getKey));
