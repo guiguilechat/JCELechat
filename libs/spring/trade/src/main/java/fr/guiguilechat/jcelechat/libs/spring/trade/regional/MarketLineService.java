@@ -84,11 +84,11 @@ public class MarketLineService implements MarketRegionListener {
 		long postUpdateIds = System.currentTimeMillis();
 		StringReader reader = new StringReader(
 				list.stream()
-				.map(MarketLine::csv)
-				// .reduce(new StringBuilder(), (BiFunction<StringBuilder, ? super String,
-				// StringBuilder>) StringBuilder::append, (BinaryOperator<StringBuilder>)
-				// StringBuilder::append)
-				.collect(Collectors.joining("\n")));
+						.map(MarketLine::csv)
+						// .reduce(new StringBuilder(), (BiFunction<StringBuilder, ? super String,
+						// StringBuilder>) StringBuilder::append, (BinaryOperator<StringBuilder>)
+						// StringBuilder::append)
+						.collect(Collectors.joining("\n")));
 		long postReader = System.currentTimeMillis();
 		try {
 			cm.copyIn("COPY esi_trade_market_line (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
@@ -100,13 +100,13 @@ public class MarketLineService implements MarketRegionListener {
 
 		long end = System.currentTimeMillis();
 		log.trace("performed copy of {} entries in {} ms (aggreg={} fetchids={} updateids={} concat={} send={}",
-		    list.size(),
-		    end - start,
-		    postList - start,
-		    postIds - postList,
-		    postUpdateIds - postIds,
-		    postReader - postUpdateIds,
-		    end - postReader);
+				list.size(),
+				end - start,
+				postList - start,
+				postIds - postList,
+				postUpdateIds - postIds,
+				postReader - postUpdateIds,
+				end - postReader);
 		return true;
 	}
 
@@ -131,7 +131,7 @@ public class MarketLineService implements MarketRegionListener {
 
 	/**
 	 * @return all the buy orders of given types, grouped by type id, by price
-	 *           descending
+	 *         descending
 	 */
 	// @Cacheable("marketLocationTypesBo")
 	public Map<Integer, List<MarketLine>> locationBos(long locationId, Set<Integer> typeIds) {
@@ -147,7 +147,7 @@ public class MarketLineService implements MarketRegionListener {
 
 	/**
 	 * @return all the sell orders of given types, grouped by type id, by price
-	 *           ascending
+	 *         ascending
 	 */
 	// @Cacheable("marketLocationTypesSo")
 	public Map<Integer, List<MarketLine>> locationSos(long locationId, Set<Integer> typeIds) {
@@ -172,8 +172,8 @@ public class MarketLineService implements MarketRegionListener {
 
 	/**
 	 * @return existing lines with given order.locationId , order.type_id , and
-	 *           order.isbuyorder , ordered by price asc for SO and price desc for
-	 *           BO
+	 *         order.isbuyorder , ordered by price asc for SO and price desc for
+	 *         BO
 	 */
 	@Cacheable("marketLocation")
 	public List<MarketLine> forLocation(long locationId, int type_id, boolean isBuyOrder) {
@@ -183,8 +183,8 @@ public class MarketLineService implements MarketRegionListener {
 
 	/**
 	 * @return existing lines with given region.regionId , order.type_id , and
-	 *           order.isbuyorder , ordered by price asc for SO and price desc for
-	 *           BO
+	 *         order.isbuyorder , ordered by price asc for SO and price desc for
+	 *         BO
 	 */
 	@Cacheable("marketRegion")
 	public List<MarketLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
@@ -300,6 +300,24 @@ public class MarketLineService implements MarketRegionListener {
 		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
 	}
 
+	/**
+	 * @param locationIds  location ids to filter the orders
+	 * @param discardValue amount of SO total value we ignore
+	 * @param typeIds      types we want the price of
+	 * @return for each type id provided there is enough sell order for, the lowest
+	 *         price past the requested discardValue
+	 */
+	@Cacheable("marketLocationSoPrices")
+	public Map<Integer, Double> locationSoPrices(Iterable<Long> locationIds, double discardValue,
+			Iterable<Integer> typeIds) {
+		Stream<Object[]> retstr = discardValue > 0
+				? repo.lowestSOAt(locationIds, discardValue, typeIds)
+				: repo.lowestSOAt(locationIds, typeIds);
+		return retstr.collect(Collectors.toMap(
+				arr -> ((Number) arr[0]).intValue(),
+				arr -> ((Number) arr[1]).doubleValue()));
+	}
+
 	//
 	// places to buy/sell
 	//
@@ -309,7 +327,7 @@ public class MarketLineService implements MarketRegionListener {
 	 * easiness
 	 */
 	public static record LocatedBestOffer(int regionId, long locationId, int typeId, double bestPrice)
-	implements Serializable {
+			implements Serializable {
 	}
 
 	/**
@@ -409,17 +427,15 @@ public class MarketLineService implements MarketRegionListener {
 		return sellGain(sos, bos);
 	}
 
-
 	@Getter(lazy = true)
 	private final List<String> cacheList = List.of(
-				"marketAll",
-				"marketLocation",
-				"marketRegion",
-				"marketBoValueLocation",
-				"marketSoValueLocation",
-				"marketLocationTypesBo",
-				"marketLocationTypesSo");
-
-
+			"marketAll",
+			"marketLocation",
+			"marketRegion",
+			"marketBoValueLocation",
+			"marketLocationSoPrices",
+			"marketSoValueLocation",
+			"marketLocationTypesBo",
+			"marketLocationTypesSo");
 
 }

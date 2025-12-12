@@ -111,8 +111,10 @@ public class SdeUpdater implements EntityUpdater {
 	}
 
 	protected void updateNewSDE(Success s, String lastRelease) throws IOException {
-		log.info("update SDE build={} released={} previous={}, builNumber={}", s.meta().buildNumber,
-				s.meta().releaseDate, lastRelease);
+		log.info("update SDE new(build:{} released:{}) previous=(released:{})",
+				s.meta().buildNumber,
+				s.meta().releaseDate,
+				lastRelease);
 		long startUpdate = System.currentTimeMillis();
 		if (updateListeners.isPresent()) {
 			List<SdeListener> listeners = updateListeners.get();
@@ -130,7 +132,8 @@ public class SdeUpdater implements EntityUpdater {
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 		}
-		log.info(" finished updating SDE DB in {} ms", System.currentTimeMillis() - startUpdate);
+		log.info(" updated SDE in {} ms",
+				System.currentTimeMillis() - startUpdate);
 	}
 
 

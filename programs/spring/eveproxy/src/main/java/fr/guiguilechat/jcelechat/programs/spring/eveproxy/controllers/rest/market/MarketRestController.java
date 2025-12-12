@@ -4,7 +4,9 @@ import java.awt.Color;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.stream.DoubleStream;
 
@@ -37,6 +39,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -44,11 +47,11 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MarketRestController {
 
-	final private MarketLineService rlService;
+	private final MarketLineService marketLineService;
 
-	final private TypeService typeService;
+	private final TypeService typeService;
 
-	final private RegionService regionService;
+	private final RegionService regionService;
 
 	/** which market to observe ? Either a region or a location */
 	public static record PlaceFilter(Region region, Long locationId) implements Serializable {
@@ -114,21 +117,21 @@ public class MarketRestController {
 		Region reg = null;
 		Long locationId = null;
 		switch (placeFiltering.toLowerCase()) {
-			case "rid":
-			case "regionid":
-			case "ri":
-				reg = regionService.byId(Integer.parseInt(placeFilter));
+		case "rid":
+		case "regionid":
+		case "ri":
+			reg = regionService.byId(Integer.parseInt(placeFilter));
 			break;
-			case "rname":
-			case "rn":
-			case "regionname":
-				List<Region> regs = regionService.byName(placeFilter);
-				reg = regs.isEmpty() ? null : regs.get(0);
+		case "rname":
+		case "rn":
+		case "regionname":
+			List<Region> regs = regionService.byName(placeFilter);
+			reg = regs.isEmpty() ? null : regs.get(0);
 			break;
-			case "lid":
-			case "li":
-			case "locationid":
-				locationId = Long.parseLong(placeFilter);
+		case "lid":
+		case "li":
+		case "locationid":
+			locationId = Long.parseLong(placeFilter);
 			break;
 		}
 		return new PlaceFilter(reg, locationId);
@@ -188,7 +191,7 @@ public class MarketRestController {
 	static record TypeMarketStats(PriceFilter filter, List<PriceLimitData> sellorders, List<PriceLimitData> buyorders) {
 
 		static TypeMarketStats of(int typeId, Integer regionId, Long locationId, List<MarketLine> bos,
-		    List<MarketLine> sos) {
+				List<MarketLine> sos) {
 			PriceFilter filter = new PriceFilter(typeId, regionId, locationId);
 
 			List<PriceLimitData> sosData = Collections.emptyList();
@@ -222,8 +225,8 @@ public class MarketRestController {
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
 
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
-		List<MarketLine> bos = place.bos(rlService, typeId);
-		List<MarketLine> sos = place.sos(rlService, typeId);
+		List<MarketLine> bos = place.bos(marketLineService, typeId);
+		List<MarketLine> sos = place.sos(marketLineService, typeId);
 		return makeMarketStatsResponse(typeId, place.regionId(), place.locationId(), bos, sos, accept);
 	}
 
@@ -245,12 +248,13 @@ public class MarketRestController {
 
 	List<MarketOffer> offers(String placeFiltering, String placeFilter, int typeId, boolean buy_order) {
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
-		return (buy_order ? place.bos(rlService, typeId) : place.sos(rlService, typeId))
+		return (buy_order ? place.bos(marketLineService, typeId) : place.sos(marketLineService, typeId))
 				.stream().map(MarketOffer::new).toList();
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/sos")
-	public ResponseEntity<List<MarketOffer>> sosByPlaceByType(@PathVariable String placeFiltering,
+	public ResponseEntity<List<MarketOffer>> sosByPlaceByType(
+			@PathVariable String placeFiltering,
 			@PathVariable String placeFilter,
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
@@ -261,7 +265,8 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> sosJitaByType(
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, false), accept);
+		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, false),
+				accept);
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/typeId/{typeId}/bos")
@@ -293,7 +298,7 @@ public class MarketRestController {
 			if (type == null) {
 				continue;
 			}
-			List<OfferStat> gains = place.gains(rlService, type.getId());
+			List<OfferStat> gains = place.gains(marketLineService, type.getId());
 			if (gains.isEmpty()) {
 				continue;
 			}
@@ -325,21 +330,39 @@ public class MarketRestController {
 	@GetMapping("/jita/{typeFiltering}/{typeFilter}/chart")
 	public void chartJitaByType(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
-			HttpServletResponse response, @RequestParam Optional<String> accept,
+			HttpServletResponse response,
+			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		chartbyLocationByType("lid", "" + MarketLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept, bcolor);
+		chartbyLocationByType("lid", "" + MarketLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept,
+				bcolor);
 	}
 
 	@GetMapping("/selllocations/byTypeId/{typeId}")
 	public ResponseEntity<List<LocatedBestOffer>> soByType(@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(rlService.sellLocations(typeId), accept);
+		return RestControllerHelper.makeResponse(marketLineService.sellLocations(typeId), accept);
 	}
 
 	@GetMapping("/buylocations/byTypeId/{typeId}")
 	public ResponseEntity<List<LocatedBestOffer>> boByType(@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(rlService.buyLocations(typeId), accept);
+		return RestControllerHelper.makeResponse(marketLineService.buyLocations(typeId), accept);
 	}
 
+	@Transactional
+	@GetMapping("/price")
+	public List<Entry<Integer, Double>> soPrice(
+			@RequestParam List<Integer> typeIds,
+			@RequestParam List<Long> locationIds,
+			@RequestParam Optional<Double> discard,
+			@RequestParam Optional<ACCEPT_TEXT> accept) {
+		if (typeIds == null || typeIds.isEmpty() || locationIds == null || locationIds.isEmpty()) {
+			return List.of();
+		}
+		return marketLineService.locationSoPrices(locationIds, discard.orElse(0.0), typeIds)
+				.entrySet().stream()
+				.sorted(Comparator.comparing(Entry::getKey))
+				.toList();
+
+	}
 }
