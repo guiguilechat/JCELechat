@@ -10,7 +10,7 @@ import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JMethod;
 
 /** data from compiling the types into java classes */
-public class CompilationData {
+public class CompileData {
 	public JCodeModel model = new JCodeModel();
 
 	/** EveType class, root class of all types */

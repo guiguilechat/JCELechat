@@ -23,10 +23,6 @@
 			<artifactId>cache</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>jcesi</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>fr.lelouet.tools</groupId>
 			<artifactId>Compilation</artifactId>
 		</dependency>

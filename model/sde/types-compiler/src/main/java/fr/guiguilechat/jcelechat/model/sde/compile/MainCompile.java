@@ -12,8 +12,6 @@ import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
-import fr.guiguilechat.jcelechat.model.sde.loaders.MixedLoader;
 import fr.guiguilechat.jcelechat.model.sde.loaders.Sde2Loader;
 import fr.guiguilechat.jcelechat.model.sde.translate.TypesTranslater;
 
@@ -22,19 +20,6 @@ public class MainCompile {
 	private static final Logger logger = LoggerFactory.getLogger(MainCompile.class);
 
 	public enum LOADER {
-		ESI {
-			@Override
-			public TypeHierarchy load() {
-				return ESILoader.load();
-			}
-		},
-		MIXED {
-			@Override
-			public TypeHierarchy load() {
-				return MixedLoader.load();
-			}
-
-		},
 		SDE2 {
 
 			@Override
@@ -70,7 +55,7 @@ public class MainCompile {
 		TypeHierarchy hierarchy = loader.load();
 		logger.info("loaded types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		startTime = System.currentTimeMillis();
-		CompilationData compiled = new SDECompiler().compile(hierarchy);
+		CompileData compiled = new SDECompiler().compile(hierarchy);
 		logger.info("compiled types in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		if (specifictests) {
 			startTime = System.currentTimeMillis();

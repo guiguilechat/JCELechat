@@ -54,8 +54,8 @@ public class SDECompiler {
 	JDefinedClass realAttribute, intAttribute;
 	JMethod typeGetAttributes;
 
-	public CompilationData compile(TypeHierarchy hierarchy) throws JCodeModelException {
-		CompilationData ret = new CompilationData();
+	public CompileData compile(TypeHierarchy hierarchy) throws JCodeModelException {
+		CompileData ret = new CompileData();
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
 
@@ -367,7 +367,7 @@ public class SDECompiler {
 	 *
 	 * @throws JCodeModelException
 	 */
-	protected void makeRootClasses(CompilationData ret) throws JCodeModelException {
+	protected void makeRootClasses(CompileData ret) throws JCodeModelException {
 		// Attribute, IntAttribute, DoubleAttribute
 		try {
 			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
@@ -598,7 +598,7 @@ public class SDECompiler {
 	 * @throws JCodeModelException
 	 */
 	protected void createAttributes(TypeHierarchy hierarchy,
-			CompilationData compilation,
+			CompileData compilation,
 			HashSet<Integer> allAttributesIds,
 			Map<Integer, JDefinedClass> attID2Class) throws JCodeModelException {
 		for (int attId : allAttributesIds) {
@@ -762,7 +762,7 @@ public class SDECompiler {
 	 * @param ret
 	 */
 	protected void addOwnAttributes(JDefinedClass catClass, HashSet<Integer> hashSet, TypeHierarchy hierarchy,
-			CompilationData ret) {
+			CompileData ret) {
 		// public static final Set<Attributes> ATTRIBUTES =
 		JVar attField = catClass
 				.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, ret.model.ref(Set.class).narrow(attributeClass), "ATTRIBUTES");

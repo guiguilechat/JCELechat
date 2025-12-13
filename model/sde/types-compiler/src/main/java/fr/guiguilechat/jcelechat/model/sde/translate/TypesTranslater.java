@@ -26,7 +26,7 @@ import com.helger.jcodemodel.*;
 import com.helger.jcodemodel.exceptions.JClassAlreadyExistsException;
 import com.helger.jcodemodel.exceptions.JCodeModelException;
 
-import fr.guiguilechat.jcelechat.model.sde.compile.CompilationData;
+import fr.guiguilechat.jcelechat.model.sde.compile.CompileData;
 import fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
@@ -45,7 +45,7 @@ public class TypesTranslater {
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(TypesTranslater.class);
 
-	public void translate(TypeHierarchy hierarchy, CompilationData classes, File destFolder, String resFolder)
+	public void translate(TypeHierarchy hierarchy, CompileData classes, File destFolder, String resFolder)
 			throws JCodeModelException {
 		// System.err.println("abaddon mass in translate is " +
 		// hierarchy.typeID2Details.get(24692).mass);
