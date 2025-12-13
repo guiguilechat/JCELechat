@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -15,8 +14,7 @@ public class Eraces {
 
 	public static final IntMapLoader<Eraces> LOADER = new IntMapLoader<>(
 			"races",
-			Eraces.class,
-			Set.of("name"));
+			Eraces.class);
 
 	//
 	// file structure

@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -13,10 +12,7 @@ public class Egraphics {
 
 	public static final IntMapLoader<Egraphics> LOADER = new IntMapLoader<>(
 			"graphics",
-			Egraphics.class,
-			Set.of("graphicFile"),
-			Set.of("iconFolder"),
-			Set.of("sofHullName"));
+			Egraphics.class);
 
 	//
 	// file structure

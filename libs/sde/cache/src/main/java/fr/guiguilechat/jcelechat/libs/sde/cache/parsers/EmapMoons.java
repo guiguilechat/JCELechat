@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.AttributesMoon;
@@ -23,8 +22,7 @@ public class EmapMoons extends InPlanetOrbit {
 
 	public static final IntMapLoader<EmapMoons> LOADER = new IntMapLoader<>(
 			"mapMoons",
-			EmapMoons.class,
-			Set.of("solarSystemID"));
+			EmapMoons.class);
 
 	//
 	// file structure

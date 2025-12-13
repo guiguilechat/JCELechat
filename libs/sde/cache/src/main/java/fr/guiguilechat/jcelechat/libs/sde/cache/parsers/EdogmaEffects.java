@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -16,8 +15,7 @@ public class EdogmaEffects {
 
 	public static final IntMapLoader<EdogmaEffects> LOADER = new IntMapLoader<>(
 			"dogmaEffects",
-			EdogmaEffects.class,
-			Set.of("effectCategoryID"));
+			EdogmaEffects.class);
 
 	//
 	// file structure

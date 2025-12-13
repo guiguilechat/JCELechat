@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -16,8 +15,7 @@ public class EnpcCharacters {
 
 	public static final IntMapLoader<EnpcCharacters> LOADER = new IntMapLoader<>(
 			"npcCharacters",
-			EnpcCharacters.class,
-			Set.of("corporationID"));
+			EnpcCharacters.class);
 
 	//
 	// file structure

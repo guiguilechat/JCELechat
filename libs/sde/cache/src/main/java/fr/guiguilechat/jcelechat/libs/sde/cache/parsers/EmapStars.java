@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -13,8 +12,7 @@ public class EmapStars {
 
 	public static final IntMapLoader<EmapStars> LOADER = new IntMapLoader<>(
 			"mapStars",
-			EmapStars.class,
-			Set.of("solarSystemID"));
+			EmapStars.class);
 
 	//
 	// file structure

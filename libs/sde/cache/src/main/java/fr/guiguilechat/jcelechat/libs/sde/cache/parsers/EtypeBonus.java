@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -17,10 +16,7 @@ public class EtypeBonus {
 
 	public static final IntMapLoader<EtypeBonus> LOADER = new IntMapLoader<>(
 			"typeBonus",
-			EtypeBonus.class,
-			Set.of("miscBonuses"),
-			Set.of("roleBonuses"),
-			Set.of("types"));
+			EtypeBonus.class);
 
 	//
 	// file structure

@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.LinkedHashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -13,8 +12,7 @@ public class Eancestries {
 
 	public static final IntMapLoader<Eancestries> LOADER = new IntMapLoader<>(
 			"ancestries",
-			Eancestries.class,
-			Set.of("bloodlineID"));
+			Eancestries.class);
 
 	//
 	// file structure

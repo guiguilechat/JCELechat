@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -14,8 +13,7 @@ public class Egroups {
 
 	public static final IntMapLoader<Egroups> LOADER = new IntMapLoader<>(
 			"groups",
-			Egroups.class,
-			Set.of("published"));
+			Egroups.class);
 
 	//
 	// file structure

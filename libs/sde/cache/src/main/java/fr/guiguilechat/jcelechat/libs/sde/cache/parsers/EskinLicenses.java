@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.Set;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EskinLicenses {
@@ -12,8 +10,7 @@ public class EskinLicenses {
 
 	public static final IntMapLoader<EskinLicenses> LOADER = new IntMapLoader<>(
 			"skinLicenses",
-			EskinLicenses.class,
-			Set.of("duration"));
+			EskinLicenses.class);
 
 	//
 	// file structure

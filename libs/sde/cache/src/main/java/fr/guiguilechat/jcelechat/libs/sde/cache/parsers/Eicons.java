@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.Set;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class Eicons {
@@ -12,8 +10,7 @@ public class Eicons {
 
 	public static final IntMapLoader<Eicons> LOADER = new IntMapLoader<>(
 			"icons",
-			Eicons.class,
-			Set.of("iconFile"));
+			Eicons.class);
 
 	//
 	// file structure

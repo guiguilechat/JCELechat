@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -19,8 +18,7 @@ public class EplanetSchematics {
 
 	public static final IntMapLoader<EplanetSchematics> LOADER = new IntMapLoader<>(
 			"planetSchematics",
-			EplanetSchematics.class,
-			Set.of("cycleTime"));
+			EplanetSchematics.class);
 
 	//
 	// file structure

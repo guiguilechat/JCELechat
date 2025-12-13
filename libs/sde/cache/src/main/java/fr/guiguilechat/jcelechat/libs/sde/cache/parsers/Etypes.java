@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,8 +18,7 @@ public class Etypes {
 
 	public static final IntMapLoader<Etypes> LOADER = new IntMapLoader<>(
 			"types",
-			Etypes.class,
-			Set.of("groupID"));
+			Etypes.class);
 
 	//
 	// file structure

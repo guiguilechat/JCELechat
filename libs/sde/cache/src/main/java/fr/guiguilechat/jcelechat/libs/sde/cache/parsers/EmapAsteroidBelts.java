@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
@@ -16,8 +15,7 @@ public class EmapAsteroidBelts extends InPlanetOrbit {
 
 	public static final IntMapLoader<EmapAsteroidBelts> LOADER = new IntMapLoader<>(
 			"mapAsteroidBelts",
-			EmapAsteroidBelts.class,
-			Set.of("solarSystemID"));
+			EmapAsteroidBelts.class);
 
 	//
 	// file structure

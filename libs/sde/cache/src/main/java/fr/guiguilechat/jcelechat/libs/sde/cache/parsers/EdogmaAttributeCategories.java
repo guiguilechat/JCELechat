@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.Set;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EdogmaAttributeCategories {
@@ -12,8 +10,7 @@ public class EdogmaAttributeCategories {
 
 	public static final IntMapLoader<EdogmaAttributeCategories> LOADER = new IntMapLoader<>(
 			"dogmaAttributeCategories",
-			EdogmaAttributeCategories.class,
-			Set.of("name"));
+			EdogmaAttributeCategories.class);
 
 	//
 	// file structure

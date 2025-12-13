@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -16,8 +15,7 @@ public class Efactions {
 
 	public static final IntMapLoader<Efactions> LOADER = new IntMapLoader<>(
 			"factions",
-			Efactions.class,
-			Set.of("name"));
+			Efactions.class);
 
 	//
 	// file structure

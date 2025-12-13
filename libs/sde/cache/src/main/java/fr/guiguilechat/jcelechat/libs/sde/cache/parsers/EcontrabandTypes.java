@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -15,8 +14,7 @@ public class EcontrabandTypes {
 
 	public static final IntMapLoader<EcontrabandTypes> LOADER = new IntMapLoader<>(
 			"contrabandTypes",
-			EcontrabandTypes.class,
-			Set.of("factions"));
+			EcontrabandTypes.class);
 
 	//
 	// file structure

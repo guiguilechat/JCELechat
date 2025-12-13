@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
@@ -15,8 +14,7 @@ public class Elandmarks {
 
 	public static final IntMapLoader<Elandmarks> LOADER = new IntMapLoader<>(
 			"landmarks",
-			Elandmarks.class,
-			Set.of("name"));
+			Elandmarks.class);
 
 	//
 	// file structure

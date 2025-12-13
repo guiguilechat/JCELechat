@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -15,8 +14,7 @@ public class EcontrolTowerResources {
 
 	public static final IntMapLoader<EcontrolTowerResources> LOADER = new IntMapLoader<>(
 			"controlTowerResources",
-			EcontrolTowerResources.class,
-			Set.of("resources"));
+			EcontrolTowerResources.class);
 
 	//
 	// file structure

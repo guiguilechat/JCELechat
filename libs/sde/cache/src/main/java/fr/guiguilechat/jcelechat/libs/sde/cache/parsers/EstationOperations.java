@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -14,8 +13,7 @@ public class EstationOperations {
 
 	public static final IntMapLoader<EstationOperations> LOADER = new IntMapLoader<>(
 			"stationOperations",
-			EstationOperations.class,
-			Set.of("activityID"));
+			EstationOperations.class);
 
 	//
 	// file structure

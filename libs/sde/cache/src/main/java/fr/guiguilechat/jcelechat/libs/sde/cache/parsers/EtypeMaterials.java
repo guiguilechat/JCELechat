@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.ArrayList;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -13,8 +12,7 @@ public class EtypeMaterials {
 
 	public static final IntMapLoader<EtypeMaterials> LOADER = new IntMapLoader<>(
 			"typeMaterials",
-			EtypeMaterials.class,
-			Set.of("materials"));
+			EtypeMaterials.class);
 
 	//
 	// file structure

@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
@@ -18,8 +17,7 @@ public class EmapSolarSystems extends InSpace {
 
 	public static final IntMapLoader<EmapSolarSystems> LOADER = new IntMapLoader<>(
 			"mapSolarSystems",
-			EmapSolarSystems.class,
-			Set.of("constellationID"));
+			EmapSolarSystems.class);
 
 	//
 	// file structure

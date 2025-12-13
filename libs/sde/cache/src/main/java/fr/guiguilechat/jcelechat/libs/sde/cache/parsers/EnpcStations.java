@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
@@ -16,8 +15,7 @@ public class EnpcStations extends InPlanetOrbit {
 
 	public static final IntMapLoader<EnpcStations> LOADER = new IntMapLoader<>(
 			"npcStations",
-			EnpcStations.class,
-			Set.of("ownerID"));
+			EnpcStations.class);
 
 	//
 	// file structure

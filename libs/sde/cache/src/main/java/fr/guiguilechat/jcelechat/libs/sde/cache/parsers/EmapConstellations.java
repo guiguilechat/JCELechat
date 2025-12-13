@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
@@ -16,8 +15,7 @@ public class EmapConstellations extends InSpace {
 
 	public static final IntMapLoader<EmapConstellations> LOADER = new IntMapLoader<>(
 			"mapConstellations",
-			EmapConstellations.class,
-			Set.of("regionID"));
+			EmapConstellations.class);
 
 	//
 	// file structure

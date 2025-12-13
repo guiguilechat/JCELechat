@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.Set;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EsovereigntyUpgrades {
@@ -12,8 +10,7 @@ public class EsovereigntyUpgrades {
 
 	public static final IntMapLoader<EsovereigntyUpgrades> LOADER = new IntMapLoader<>(
 			"sovereigntyUpgrades",
-			EsovereigntyUpgrades.class,
-			Set.of("mutually_exclusive_group"));
+			EsovereigntyUpgrades.class);
 
 	//
 	// file structure

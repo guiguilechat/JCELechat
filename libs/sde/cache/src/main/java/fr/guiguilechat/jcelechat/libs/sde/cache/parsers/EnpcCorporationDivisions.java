@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -13,8 +12,7 @@ public class EnpcCorporationDivisions {
 
 	public static final IntMapLoader<EnpcCorporationDivisions> LOADER = new IntMapLoader<>(
 			"npcCorporationDivisions",
-			EnpcCorporationDivisions.class,
-			Set.of("leaderTypeName"));
+			EnpcCorporationDivisions.class);
 
 	//
 	// file structure

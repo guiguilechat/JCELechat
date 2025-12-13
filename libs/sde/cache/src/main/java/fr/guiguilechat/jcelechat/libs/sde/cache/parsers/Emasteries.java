@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -14,8 +13,7 @@ public class Emasteries extends HashMap<Integer, Integer[]> {
 
 	public static final IntMapLoader<Emasteries> LOADER = new IntMapLoader<>(
 			"masteries",
-			Emasteries.class,
-			Set.of("0"));
+			Emasteries.class);
 
 	//
 	// file structure

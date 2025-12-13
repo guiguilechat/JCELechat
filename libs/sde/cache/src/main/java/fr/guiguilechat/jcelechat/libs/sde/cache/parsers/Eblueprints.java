@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Set;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
@@ -20,8 +19,7 @@ public class Eblueprints {
 
 	public static final IntMapLoader<Eblueprints> LOADER = new IntMapLoader<>(
 			"blueprints",
-			Eblueprints.class,
-			Set.of("blueprintTypeID"));
+			Eblueprints.class);
 
 	//
 	// file structure

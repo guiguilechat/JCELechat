@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.AttributesPlanet;
@@ -19,8 +18,7 @@ public class EmapPlanets extends InStarOrbit {
 
 	public static final IntMapLoader<EmapPlanets> LOADER = new IntMapLoader<>(
 			"mapPlanets",
-			EmapPlanets.class,
-			Set.of("solarSystemID"));
+			EmapPlanets.class);
 
 	//
 	// file structure

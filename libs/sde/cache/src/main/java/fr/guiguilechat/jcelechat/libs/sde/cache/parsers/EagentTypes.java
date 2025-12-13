@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import java.util.Set;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
 public class EagentTypes {
@@ -12,8 +10,7 @@ public class EagentTypes {
 
 	public static final IntMapLoader<EagentTypes> LOADER = new IntMapLoader<>(
 			"agentTypes",
-			EagentTypes.class,
-			Set.of("name"));
+			EagentTypes.class);
 
 	//
 	// file structure

@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.EAttributes;
@@ -21,8 +20,7 @@ public class EdynamicItemAttributes {
 
 	public static final IntMapLoader<EdynamicItemAttributes> LOADER = new IntMapLoader<>(
 			"dynamicItemAttributes",
-			EdynamicItemAttributes.class,
-			Set.of("attributeIDs"));
+			EdynamicItemAttributes.class);
 
 	//
 	// file structure

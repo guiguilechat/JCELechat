@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.Map.Entry;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSystem;
@@ -14,8 +13,7 @@ public class EmapStargates extends InSystem {
 
 	public static final IntMapLoader<EmapStargates> LOADER = new IntMapLoader<>(
 			"mapStargates",
-			EmapStargates.class,
-			Set.of("position"));
+			EmapStargates.class);
 
 	//
 	// file structure

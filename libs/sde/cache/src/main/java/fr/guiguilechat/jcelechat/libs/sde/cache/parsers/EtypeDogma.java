@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
 
@@ -15,8 +14,7 @@ public class EtypeDogma {
 
 	public static final IntMapLoader<EtypeDogma> LOADER = new IntMapLoader<>(
 			"typeDogma",
-			EtypeDogma.class,
-			Set.of("dogmaAttributes"));
+			EtypeDogma.class);
 
 	//
 	// file structure

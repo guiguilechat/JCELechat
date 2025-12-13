@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -17,9 +16,7 @@ public class EfreelanceJobSchemas {
 
 	public static final IntMapLoader<EfreelanceJobSchemas> LOADER = new IntMapLoader<>(
 			"freelanceJobSchemas",
-			EfreelanceJobSchemas.class,
-			true,
-			Set.of("BoostShield"));
+			EfreelanceJobSchemas.class);
 
 	//
 	// file structure
