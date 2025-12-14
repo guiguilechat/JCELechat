@@ -29,6 +29,7 @@ public class TestAllParsers {
 				Ecategories.class,
 				Ecertificates.class,
 				EcharacterAttributes.class,
+				EcompressibleTypes.class,
 				EcontrabandTypes.class,
 				EcontrolTowerResources.class,
 				EcorporationActivities.class,

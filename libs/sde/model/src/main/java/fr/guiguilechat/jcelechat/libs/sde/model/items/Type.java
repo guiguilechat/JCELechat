@@ -56,10 +56,8 @@ public class Type extends TypeSet<Etypes> {
 		return source().enName();
 	}
 
-	@Override
-	public String toString() {
-		return enName() + "(" + id() + ")";
-	}
+	@Getter(lazy = true)
+	private final String toString = enName() + "(" + id() + ")";
 
 	@Getter(lazy = true)
 	private final Group group = datasource().groups().of(source().groupID);
@@ -88,6 +86,15 @@ public class Type extends TypeSet<Etypes> {
 	public static int groupId(int typeId) {
 		Type t = CACHE.of(typeId);
 		return t == null ? 0 : t.source().groupID;
+	}
+
+	/** type this compress into, if any (else null) */
+	@Getter(lazy = true)
+	private final Type compressInto = findCompression();
+
+	private Type findCompression() {
+		Compression c = datasource().compressions().of(id());
+		return c == null ? null : c.getProduct();
 	}
 
 }

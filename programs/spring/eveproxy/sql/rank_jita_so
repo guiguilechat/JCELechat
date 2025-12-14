@@ -1,0 +1,84 @@
+with
+seeded as (
+select
+	distinct(type_id) type_id
+from
+	esi_trade_market_line
+where
+	duration=365
+),
+jita_prices as (
+select
+	type_id type_id,
+	coalesce (min(price) filter(where not is_buy_order), 'infinity') so_price,
+	coalesce (max(price) filter(where is_buy_order), 0) bo_price
+from
+	esi_trade_market_line
+where
+	location_id=60003760
+group by
+	type_id
+),
+named_prices as(-- also filters out seeded types and those without an history
+select
+	jita_prices.type_id,
+	sde_items_type.name typ_name,
+	sde_items_group.name grp_name,
+	sde_items_category.name cat_name,
+	jita_prices.so_price,
+	jita_prices.bo_price
+from
+	jita_prices
+	left join seeded on seeded.type_id=jita_prices.type_id
+	join sde_items_type on sde_items_type.id = jita_prices.type_id
+	join sde_items_group on sde_items_type.group_id = sde_items_group.id
+	join sde_items_category on sde_items_group.category_id = sde_items_category.id
+where
+	seeded.type_id is null
+	and sde_items_type.published
+	and sde_items_type.market_group_id is not null
+	and sde_items_type.market_group_id >0
+	and exists(
+		select 
+			1
+		from
+			esi_trade_historyline
+			join esi_trade_historyreq on esi_trade_historyline.fetch_resource_id=esi_trade_historyreq.id
+		where
+			esi_trade_historyreq.type_id=jita_prices.type_id
+	)
+),
+jita_ranked as(
+select
+	named_prices.*,
+	0.01* floor(100*(select -- need to coalesce because sum of no records is null, not 0
+		100*coalesce(sum(esi_trade_historyline.volume) filter (where average>named_prices.so_price), 0)
+			/sum(esi_trade_historyline.volume)
+		from
+			esi_trade_historyline
+			join esi_trade_historyreq on esi_trade_historyline.fetch_resource_id=esi_trade_historyreq.id
+		where
+			esi_trade_historyreq.type_id=named_prices.type_id
+	)) pct_sales_above_so,
+	0.01* floor(100*(select 
+		100*coalesce(sum(esi_trade_historyline.volume) filter (where average<named_prices.bo_price), 0)
+			/sum(esi_trade_historyline.volume)
+		from
+			esi_trade_historyline
+			join esi_trade_historyreq on esi_trade_historyline.fetch_resource_id=esi_trade_historyreq.id
+		where
+			esi_trade_historyreq.type_id=named_prices.type_id
+	)) pct_sales_below_bo
+from
+	named_prices
+)
+select
+	*
+from
+	jita_ranked
+where
+	cat_name in ('Material', 'Decryptors')
+--	cat_name in ('Ship')
+--	cat_name in ('Module')
+	--lower(grp_name) like 'salvaged materials'
+order by pct_sales_below_bo desc

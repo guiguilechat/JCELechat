@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.concurrent.ExecutionException;
 import java.util.stream.DoubleStream;
 
 import org.jfree.chart.JFreeChart;
@@ -29,6 +30,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingRepository.RankedOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
@@ -48,6 +51,8 @@ import lombok.RequiredArgsConstructor;
 public class MarketRestController {
 
 	private final MarketLineService marketLineService;
+
+	private final MarketRankingService marketRankingService;
 
 	private final TypeService typeService;
 
@@ -350,19 +355,44 @@ public class MarketRestController {
 	}
 
 	@Transactional
-	@GetMapping("/price")
-	public List<Entry<Integer, Double>> soPrice(
+	@GetMapping("/price/so")
+	public ResponseEntity<List<Entry<Integer, Double>>> soPrice(
 			@RequestParam List<Integer> typeIds,
 			@RequestParam List<Long> locationIds,
 			@RequestParam Optional<Double> discard,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		if (typeIds == null || typeIds.isEmpty() || locationIds == null || locationIds.isEmpty()) {
-			return List.of();
-		}
-		return marketLineService.locationSoPrices(locationIds, discard.orElse(0.0), typeIds)
+		List<Entry<Integer, Double>> data = typeIds == null || typeIds.isEmpty() || locationIds == null
+				|| locationIds.isEmpty() ? List.of()
+						: marketLineService.locationSoPrices(locationIds, discard.orElse(0.0), typeIds)
 				.entrySet().stream()
 				.sorted(Comparator.comparing(Entry::getKey))
-				.toList();
+								.toList();
+		return RestControllerHelper.makeResponse(data, accept);
+	}
 
+	@Operation(description = "List the lowest sell orders for types of a group id at a location id, and rank their price on the history price."
+			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
+	@Transactional
+	@GetMapping("/rank/so")
+	public ResponseEntity<List<RankedOffer>> soRank(
+			@RequestParam Integer groupId,
+			@RequestParam Long locationId,
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
+		List<RankedOffer> data = groupId == null || locationId == null ? List.of()
+				: marketRankingService.rankSellOffers(locationId, groupId).get();
+		return RestControllerHelper.makeResponse(data, accept);
+	}
+
+	@Operation(description = "List the highest buy orders for types of a group id at a location id, and rank their price on the history price."
+			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
+	@Transactional
+	@GetMapping("/rank/bo")
+	public ResponseEntity<List<RankedOffer>> boRank(
+			@RequestParam Integer groupId,
+			@RequestParam Long locationId,
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
+		List<RankedOffer> data = groupId == null || locationId == null ? List.of()
+				: marketRankingService.rankBuyOffers(locationId, groupId).get();
+		return RestControllerHelper.makeResponse(data, accept);
 	}
 }

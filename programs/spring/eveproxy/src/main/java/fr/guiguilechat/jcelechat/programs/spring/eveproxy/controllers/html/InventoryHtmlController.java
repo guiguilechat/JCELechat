@@ -41,6 +41,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -72,6 +73,8 @@ public class InventoryHtmlController {
 	private final MarketHtmlController marketHtmlController;
 
 	private final MarketLineService marketLineService;
+
+	private final MarketRankingService marketRankingService;
 
 	private final ContractMarketAggregator contractMarketAggregator;
 
@@ -447,6 +450,8 @@ public class InventoryHtmlController {
 		if (g == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
+		marketRankingService.rankBuyOffers(60003760, groupId);
+		marketRankingService.rankSellOffers(60003760, groupId);
 		model.addAttribute("grp", g);
 		model.addAttribute("category", g.getCategory());
 		model.addAttribute("catUrl", uri(g.getCategory()).toString());

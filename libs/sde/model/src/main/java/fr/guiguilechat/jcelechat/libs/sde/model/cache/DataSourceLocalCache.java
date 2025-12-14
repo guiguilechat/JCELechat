@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.model.cache;
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Attribute;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Category;
+import fr.guiguilechat.jcelechat.libs.sde.model.items.Compression;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.DynamicItem;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Group;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.MarketGroup;
@@ -53,6 +54,11 @@ public class DataSourceLocalCache implements DataSource {
 	@Override
 	public EntityNameMap<Category> categories() {
 		return Category.CACHE;
+	}
+
+	@Override
+	public EntityMap<Compression> compressions() {
+		return Compression.CACHE;
 	}
 
 	@Override
