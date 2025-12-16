@@ -472,6 +472,8 @@ public class InventoryHtmlController {
 				.map(this::linkedType)
 				.toList());
 
+		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaGroupRanking(g));
+
 		return "inventory/group";
 	}
 

@@ -24,16 +24,22 @@
 			</div>
 		</div>
 
+		<div class="row" th:if="${jitaRanking!=null}">
+			<div class="col">
+				<a th:href="${jitaRanking.url}">Jita ranking</a>
+			</div>
+		</div>
+		
 		<div class="row">
 			<div class="col">
-			<h3>Types</h3>
-				<table>
-					<tbody>
-						<tr th:each="tl : ${types}">
-							<td><a th:href="${tl.url}" th:text="${tl.type.name()}" /></td>
-						</tr>
-					</tbody>
-				</table>
+				<h3>Types</h3>
+					<table>
+						<tbody>
+							<tr th:each="tl : ${types}">
+								<td><a th:href="${tl.url}" th:text="${tl.type.name()}" /></td>
+							</tr>
+						</tbody>
+					</table>
 			</div>
 		</div>
 	</div>

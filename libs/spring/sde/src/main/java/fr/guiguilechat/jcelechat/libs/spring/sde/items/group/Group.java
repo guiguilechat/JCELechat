@@ -46,7 +46,7 @@ public class Group extends SdeEntity<Integer> {
 
 	@Override
 	public String toString() {
-		return name == null ? "group:" + getId() : name + "(" + getId() + ")";
+		return name == null ? "group:" + getId() : name + " (" + getId() + ")";
 	}
 
 	public void update(Egroups source, Function<Integer, Category> categories) {

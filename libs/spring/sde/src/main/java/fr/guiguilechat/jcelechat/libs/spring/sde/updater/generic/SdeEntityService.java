@@ -76,12 +76,12 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 		return repo().findByIdAndReceivedTrueAndRemovedFalse(id);
 	}
 
-	public List<Entity> byId(Iterable<IdType> regionIds) {
-		return repo().findAllById(regionIds);
+	public List<Entity> byId(Iterable<IdType> ids) {
+		return repo().findAllById(ids);
 	}
 
-	public List<Entity> ativeById(Iterable<IdType> regionIds) {
-		return repo().findAllByIdInAndReceivedTrueAndRemovedFalse(regionIds);
+	public List<Entity> ativeById(Iterable<IdType> ids) {
+		return repo().findAllByIdInAndReceivedTrueAndRemovedFalse(ids);
 	}
 
 	public List<Entity> saveAll(Iterable<Entity> entities) {

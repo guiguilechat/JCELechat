@@ -7,7 +7,7 @@ from
 where
 	duration=365
 ),
-jita_prices as (
+location_prices as (
 select
 	type_id type_id,
 	coalesce (min(price) filter(where not is_buy_order), 'infinity') so_price,
@@ -21,16 +21,16 @@ group by
 ),
 named_prices as(-- also filters out seeded types and those without an history
 select
-	jita_prices.type_id,
+	location_prices.type_id,
 	sde_items_type.name typ_name,
 	sde_items_group.name grp_name,
 	sde_items_category.name cat_name,
-	jita_prices.so_price,
-	jita_prices.bo_price
+	location_prices.so_price,
+	location_prices.bo_price
 from
-	jita_prices
-	left join seeded on seeded.type_id=jita_prices.type_id
-	join sde_items_type on sde_items_type.id = jita_prices.type_id
+	location_prices
+	left join seeded on seeded.type_id=location_prices.type_id
+	join sde_items_type on sde_items_type.id = location_prices.type_id
 	join sde_items_group on sde_items_type.group_id = sde_items_group.id
 	join sde_items_category on sde_items_group.category_id = sde_items_category.id
 where
@@ -45,10 +45,10 @@ where
 			esi_trade_historyline
 			join esi_trade_historyreq on esi_trade_historyline.fetch_resource_id=esi_trade_historyreq.id
 		where
-			esi_trade_historyreq.type_id=jita_prices.type_id
+			esi_trade_historyreq.type_id=location_prices.type_id
 	)
 ),
-jita_ranked as(
+location_ranked as(
 select
 	named_prices.*,
 	0.01* floor(100*(select -- need to coalesce because sum of no records is null, not 0
@@ -75,10 +75,10 @@ from
 select
 	*
 from
-	jita_ranked
+	location_ranked
 where
-	cat_name in ('Material', 'Decryptors')
---	cat_name in ('Ship')
+--	cat_name in ('Material', 'Decryptors')
+	cat_name in ('Ship')
 --	cat_name in ('Module')
 	--lower(grp_name) like 'salvaged materials'
 order by pct_sales_below_bo desc

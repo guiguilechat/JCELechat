@@ -17,7 +17,8 @@ import lombok.Setter;
  */
 @Entity(name = "EsiTradeHistoryReq")
 @Table(name = "esi_trade_historyreq", indexes = {
-    @Index(columnList = "regionId,typeId")
+		@Index(columnList = "regionId,typeId"),
+		@Index(columnList = "typeId")
 })
 @Getter
 @Setter
@@ -31,7 +32,7 @@ public class HistoryReq extends AFetchedList<Long, R_get_markets_region_id_histo
 	private Type type;
 
 
-	private static long TYPE_ID_MULTIPLIER = 100000000l;
+	private static long TYPE_ID_MULTIPLIER = 100000000L;
 
 	public static long makeId(int regionId, int typeId) {
 		return TYPE_ID_MULTIPLIER * typeId + regionId;

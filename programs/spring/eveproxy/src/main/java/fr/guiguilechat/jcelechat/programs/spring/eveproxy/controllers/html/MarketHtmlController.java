@@ -5,17 +5,23 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
@@ -29,9 +35,13 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingRepository.RankedOffer;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
+import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -54,6 +64,10 @@ public class MarketHtmlController {
 
 	private final ContractInfoService contractInfoService;
 
+	private final ContractMarketAggregator contractMarketAggregator;
+
+	private final GroupService groupService;
+
 	@Lazy
 	private final InventoryHtmlController dogmaHtmlController;
 
@@ -63,9 +77,12 @@ public class MarketHtmlController {
 	@Lazy
 	private final MarketHistoryRestController historyRestController;
 
+	@Lazy
+	private final InventoryHtmlController inventoryHtmlController;
+
 	private final MarketGroupService marketGroupService;
 
-	private final ContractMarketAggregator contractMarketAggregator;
+	private final MarketRankingService marketRankingService;
 
 	private final RegionService regionService;
 
@@ -292,6 +309,8 @@ public class MarketHtmlController {
 		return "market/group";
 	}
 
+	//
+
 	@Transactional
 	@GetMapping("/groups")
 	public String getMarketGroups(Model model) {
@@ -313,6 +332,61 @@ public class MarketHtmlController {
 
 	public LinkedMarketGroup linkedMarketGroup(MarketGroup marketGroup) {
 		return new LinkedMarketGroup(marketGroup.name(), uri(marketGroup).toString());
+	}
+
+	//
+
+	@Transactional
+	@GetMapping("ranking/group/jita/{groupId}")
+	public String getJitaGroupRanking(Model model, @PathVariable int groupId)
+			throws InterruptedException, ExecutionException {
+		Group group = groupService.byId(groupId);
+		if (group == null) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+					"groupId " + groupId + " unknown ");
+		}
+		model.addAttribute("group", group);
+		model.addAttribute("jitaBOrank",
+				linkRankings(marketRankingService.rankBuyOffers(MarketLineService.JITAIV_ID, groupId).get()));
+		model.addAttribute("jitaSOrank",
+				linkRankings(marketRankingService.rankSellOffers(MarketLineService.JITAIV_ID, groupId).get()));
+		return "market/jitaRanking";
+	}
+
+	public URI jitaGroupRankingURI(Group group) {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getJitaGroupRanking", null, "" + group.getId())
+				.build()
+				.toUri();
+	}
+
+	public static record LinkedGroupRanking(Group group, long locationId, String url) {
+		@Override
+		public final String toString() {
+			return group.toString();
+		}
+	}
+
+	public LinkedGroupRanking linkedGroupRanking(Group group, int locationId) {
+		return new LinkedGroupRanking(group, locationId, jitaGroupRankingURI(group).toString());
+	}
+
+	public LinkedGroupRanking linkedJitaGroupRanking(Group group) {
+		return new LinkedGroupRanking(group, MarketLineService.JITAIV_ID, jitaGroupRankingURI(group).toString());
+	}
+
+	public static record LinkedTypeRanking(LinkedType type, String formattedPrice, String formattedRank) {
+
+	}
+
+	public List<LinkedTypeRanking> linkRankings(List<RankedOffer> rankings) {
+		Map<Integer, Type> id2type = typeService.byId(rankings.stream().map(RankedOffer::type_id).toList()).stream()
+				.collect(Collectors.toMap(Type::getId, o -> o));
+		return rankings.stream()
+				.map(r -> new LinkedTypeRanking(
+						inventoryHtmlController.linkedType(id2type.get(r.type_id())),
+						FormatTools.formatPrice(r.price().doubleValue()),
+						"" + r.rank()))
+				.toList();
 	}
 
 }
