@@ -450,8 +450,8 @@ public class InventoryHtmlController {
 		if (g == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
-		marketRankingService.rankBuyOffers(60003760, groupId);
-		marketRankingService.rankSellOffers(60003760, groupId);
+		marketRankingService.rankGroupBuyOffers(60003760, groupId);
+		marketRankingService.rankGroupSellOffers(60003760, groupId);
 		model.addAttribute("grp", g);
 		model.addAttribute("category", g.getCategory());
 		model.addAttribute("catUrl", uri(g.getCategory()).toString());
@@ -472,7 +472,7 @@ public class InventoryHtmlController {
 				.map(this::linkedType)
 				.toList());
 
-		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaGroupRanking(g));
+		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaRanking(g));
 
 		return "inventory/group";
 	}

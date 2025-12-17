@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
@@ -52,6 +54,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/html/market")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
+
+	private final CategoryService categoryService;
 
 	@Lazy
 	private final ContractEvalController contractEvalController;
@@ -135,7 +139,7 @@ public class MarketHtmlController {
 			model.addAttribute("bos",
 					contractMarketAggregator.buyOrders(typeId).stream()
 							.peek(mo -> mo.resolveRegionName(regionNamesById))
-					.toList());
+							.toList());
 		} else {
 			// working with researched BPO
 			model.addAttribute("showDetails", true);
@@ -148,14 +152,16 @@ public class MarketHtmlController {
 		}
 		if (meValue > 0 || teValue > 0 || copyValue) {
 			model.addAttribute("baseTypeUrl", uri(typeId).toString());
-			model.addAttribute("historyChartUrl", historyRestController.uri(typeId, copyValue, meValue, teValue).toString());
+			model.addAttribute("historyChartUrl",
+					historyRestController.uri(typeId, copyValue, meValue, teValue).toString());
 		}
 		List<ContractTypeVariant> variants = contractInfoService.variants(typeId);
 		// System.err.println("received variants " + variants);
 		if (!variants.isEmpty()) {
 			List<LinkedMarketType> bpoVariants = variants.stream()
 					.filter(v -> !v.copy())
-					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
+					.sorted(Comparator.comparing(
+							(Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
 					.map(ctv -> linkedMarketType(type, ctv))
 					.toList();
 			if (!bpoVariants.isEmpty()) {
@@ -163,7 +169,8 @@ public class MarketHtmlController {
 			}
 			List<LinkedMarketType> bpcVariants = variants.stream()
 					.filter(ContractTypeVariant::copy)
-					.sorted(Comparator.comparing((Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
+					.sorted(Comparator.comparing(
+							(Function<? super ContractTypeVariant, ? extends Integer>) ContractTypeVariant::meteval))
 					.map(ctv -> linkedMarketType(type, ctv))
 					.toList();
 			if (!bpcVariants.isEmpty()) {
@@ -202,7 +209,8 @@ public class MarketHtmlController {
 
 	public LinkedMarketType linkedMarketType(Type type, int me, int te, boolean copy) {
 		String name = type == null ? "null" : type.name();
-		return new LinkedMarketType(name + (copy ? "(cp)" : "") + "  " + me + "/" + te, uri(type, me, te, copy).toString());
+		return new LinkedMarketType(name + (copy ? "(cp)" : "") + "  " + me + "/" + te,
+				uri(type, me, te, copy).toString());
 	}
 
 	public LinkedMarketType linkedMarketType(Type type, ContractTypeVariant ctv) {
@@ -216,7 +224,7 @@ public class MarketHtmlController {
 
 	@RequiredArgsConstructor
 	@Getter
-	public enum PERIOD{
+	public enum PERIOD {
 		week(7), month(30), year(365);
 
 		private final int days;
@@ -231,7 +239,8 @@ public class MarketHtmlController {
 				return "redirect:" + types.get(0).getId();
 			} else {
 				model.addAttribute("types",
-						types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name)).toList());
+						types.stream().map(this::linkedMarketType).sorted(Comparator.comparing(lmt -> lmt.name))
+								.toList());
 			}
 		}
 		PERIOD periodValue = period.orElse(PERIOD.week);
@@ -316,14 +325,15 @@ public class MarketHtmlController {
 	public String getMarketGroups(Model model) {
 		model.addAttribute("roots",
 				marketGroupService.roots().stream()
-				.sorted(Comparator.comparing(MarketGroup::name))
-				.map(this::linkedMarketGroup)
-				.toList());
+						.sorted(Comparator.comparing(MarketGroup::name))
+						.map(this::linkedMarketGroup)
+						.toList());
 		return "market/groups";
 	}
 
 	public URI uri(MarketGroup marketGroup) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId()).build()
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId())
+				.build()
 				.toUri();
 	}
 
@@ -334,44 +344,106 @@ public class MarketHtmlController {
 		return new LinkedMarketGroup(marketGroup.name(), uri(marketGroup).toString());
 	}
 
-	//
+	// group ranking
 
-	@Transactional
-	@GetMapping("ranking/group/jita/{groupId}")
-	public String getJitaGroupRanking(Model model, @PathVariable int groupId)
-			throws InterruptedException, ExecutionException {
-		Group group = groupService.byId(groupId);
-		if (group == null) {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND,
-					"groupId " + groupId + " unknown ");
-		}
-		model.addAttribute("group", group);
-		model.addAttribute("jitaBOrank",
-				linkRankings(marketRankingService.rankBuyOffers(MarketLineService.JITAIV_ID, groupId).get()));
-		model.addAttribute("jitaSOrank",
-				linkRankings(marketRankingService.rankSellOffers(MarketLineService.JITAIV_ID, groupId).get()));
-		return "market/jitaRanking";
+	public enum GroupCategory {
+		GROUP, CATEGORY
 	}
 
-	public URI jitaGroupRankingURI(Group group) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getJitaGroupRanking", null, "" + group.getId())
+	@Transactional
+	@GetMapping("ranking/{locationId}/{filter}/{filterId}")
+	public String getRanking(Model model,
+			@PathVariable long locationId,
+			@PathVariable GroupCategory filter,
+			@PathVariable int filterId)
+			throws InterruptedException, ExecutionException {
+		if (filter == null) {
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
+					"requires filter, received " + filter);
+		}
+		switch (filter) {
+		case CATEGORY:
+			Category cat = categoryService.byId(filterId);
+			if (cat == null) {
+				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+						"filter id " + filterId + " can't be resolved to a category");
+			}
+			model.addAttribute("filterName", "category " + cat.toString());
+			model.addAttribute("rankBO",
+					linkRankings(marketRankingService.rankCategoryBuyOffers(locationId, filterId).get()));
+			model.addAttribute("rankSO",
+					linkRankings(marketRankingService.rankCategorySellOffers(locationId, filterId).get()));
+			break;
+		case GROUP:
+			Group group = groupService.byId(filterId);
+			if (group == null) {
+				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+						"filter id " + filterId + " can't be resolved to a group");
+			}
+			model.addAttribute("filterName", "group " + group.toString());
+			model.addAttribute("rankBO",
+					linkRankings(marketRankingService.rankGroupBuyOffers(locationId, filterId).get()));
+			model.addAttribute("rankSO",
+					linkRankings(marketRankingService.rankGroupSellOffers(locationId, filterId).get()));
+			break;
+		default:
+			throw new UnsupportedOperationException("case " + filter + " not handled");
+		}
+
+		model.addAttribute("filter", filterId);
+		model.addAttribute("locationId", locationId);
+		return "market/marketRanking";
+	}
+
+	public static record LinkedRanking(Object filter, long locationId, String url) {
+		@Override
+		public final String toString() {
+			return filter.toString();
+		}
+	}
+
+	public URI rankingURI(long locationId, Group group) {
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "getRanking", null,
+						locationId,
+						GroupCategory.GROUP,
+						"" + group.getId())
 				.build()
 				.toUri();
 	}
 
-	public static record LinkedGroupRanking(Group group, long locationId, String url) {
-		@Override
-		public final String toString() {
-			return group.toString();
-		}
+	public URI jitaRankingURI(Group group) {
+		return rankingURI(MarketLineService.JITAIV_ID, group);
 	}
 
-	public LinkedGroupRanking linkedGroupRanking(Group group, int locationId) {
-		return new LinkedGroupRanking(group, locationId, jitaGroupRankingURI(group).toString());
+	public LinkedRanking linkedRanking(Group group, int locationId) {
+		return new LinkedRanking(group, locationId, jitaRankingURI(group).toString());
 	}
 
-	public LinkedGroupRanking linkedJitaGroupRanking(Group group) {
-		return new LinkedGroupRanking(group, MarketLineService.JITAIV_ID, jitaGroupRankingURI(group).toString());
+	public LinkedRanking linkedJitaRanking(Group group) {
+		return new LinkedRanking(group, MarketLineService.JITAIV_ID, jitaRankingURI(group).toString());
+	}
+
+	public URI rankingURI(long locationId, Category category) {
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "getRanking", null,
+						locationId,
+						GroupCategory.CATEGORY,
+						"" + category.getId())
+				.build()
+				.toUri();
+	}
+
+	public URI jitaRankingURI(Category category) {
+		return rankingURI(MarketLineService.JITAIV_ID, category);
+	}
+
+	public LinkedRanking linkedRanking(Category category, int locationId) {
+		return new LinkedRanking(category, locationId, jitaRankingURI(category).toString());
+	}
+
+	public LinkedRanking linkedJitaRanking(Category category) {
+		return new LinkedRanking(category, MarketLineService.JITAIV_ID, jitaRankingURI(category).toString());
 	}
 
 	public static record LinkedTypeRanking(LinkedType type, String formattedPrice, String formattedRank) {

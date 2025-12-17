@@ -19,20 +19,34 @@ public class MarketRankingService implements MarketRegionListener {
 	private final MarketRankingRepository repo;
 
 	@Async
-	@Cacheable("rankBuyOffers")
-	public CompletableFuture<List<RankedOffer>> rankBuyOffers(long locationId, int groupId) {
-		return CompletableFuture.completedFuture(repo.rankBuyOffers(locationId, groupId));
+	@Cacheable("rankCategoryBuyOffers")
+	public CompletableFuture<List<RankedOffer>> rankCategoryBuyOffers(long locationId, int categoryId) {
+		return CompletableFuture.completedFuture(repo.rankCategoryBuyOffers(locationId, categoryId));
 	}
 
 	@Async
-	@Cacheable("rankSellOffers")
-	public CompletableFuture<List<RankedOffer>> rankSellOffers(long locationId, int groupId) {
-		return CompletableFuture.completedFuture(repo.rankSellOffers(locationId, groupId));
+	@Cacheable("rankCategorySellOffers")
+	public CompletableFuture<List<RankedOffer>> rankCategorySellOffers(long locationId, int categoryId) {
+		return CompletableFuture.completedFuture(repo.rankCategorySellOffers(locationId, categoryId));
+	}
+
+	@Async
+	@Cacheable("rankGroupBuyOffers")
+	public CompletableFuture<List<RankedOffer>> rankGroupBuyOffers(long locationId, int groupId) {
+		return CompletableFuture.completedFuture(repo.rankGroupBuyOffers(locationId, groupId));
+	}
+
+	@Async
+	@Cacheable("rankGroupSellOffers")
+	public CompletableFuture<List<RankedOffer>> rankGroupSellOffers(long locationId, int groupId) {
+		return CompletableFuture.completedFuture(repo.rankGroupSellOffers(locationId, groupId));
 	}
 
 	@Getter(lazy = true)
 	private final List<String> cacheList = List.of(
-			"rankBuyOffers",
-			"rankSellOffers"
+			"rankCategoryBuyOffers",
+			"rankCategorySellOffers",
+			"rankGroupBuyOffers",
+			"rankGroupSellOffers"
 			);
 }

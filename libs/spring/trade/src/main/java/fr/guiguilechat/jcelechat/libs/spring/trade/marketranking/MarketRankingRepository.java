@@ -21,14 +21,71 @@ public interface MarketRankingRepository extends JpaRepository<MarketLine, Long>
 
 	@Query(value = """
 with
-seeded as (
+location_prices as (
 select
-	distinct("type_id") type_id
+	"type_id" type_id,
+	coalesce (max("price") filter(where "is_buy_order"), 'Infinity') bo_price
 from
 	"esi_trade_market_line"
 where
-	"duration"=365
+	"location_id"=:locationId
+group by
+	"type_id"
 ),
+named_prices as(
+select
+	location_prices.type_id,
+	"sde_items_type"."name" typ_name,
+	"sde_items_group"."category_id" cat_id,
+	location_prices.bo_price
+from
+	location_prices
+	join "sde_items_type" on "sde_items_type"."id" = location_prices.type_id
+	join "sde_items_group" on "sde_items_group"."id" = "sde_items_type"."group_id"
+where
+	"sde_items_type"."published"
+	and "sde_items_type"."market_group_id" is not null
+	and "sde_items_type"."market_group_id" >0
+	and exists(
+		select
+			1
+		from
+			"esi_trade_historyline"
+			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+		where
+			"esi_trade_historyreq"."type_id"=location_prices.type_id
+	)
+),
+location_ranked as(
+select
+	named_prices.*,
+	0.01* floor(100*(select
+		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average"<named_prices.bo_price), 0)
+			/sum("esi_trade_historyline"."volume")
+		from
+			"esi_trade_historyline"
+			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+		where
+			"esi_trade_historyreq"."type_id"=named_prices.type_id
+	)) pct_sales_below_bo
+from
+	named_prices
+)
+select
+	location_ranked.type_id,
+	location_ranked.typ_name,
+	location_ranked.bo_price,
+	location_ranked.pct_sales_below_bo
+from
+	location_ranked
+where
+	cat_id=:categoryId
+order by pct_sales_below_bo desc
+""", nativeQuery = true)
+	List<RankedOffer> rankCategoryBuyOffers(long locationId, int categoryId);
+
+	@Query(value = """
+with
 location_prices as (
 select
 	"type_id" type_id,
@@ -44,15 +101,14 @@ named_prices as(
 select
 	location_prices.type_id,
 	"sde_items_type"."name" typ_name,
-	"sde_items_type"."group_id" grp_id,
+	"sde_items_group"."category_id" cat_id,
 	location_prices.so_price
 from
 	location_prices
-	left join seeded on seeded.type_id=location_prices.type_id
 	join "sde_items_type" on "sde_items_type"."id" = location_prices.type_id
+	join "sde_items_group" on "sde_items_group"."id" = "sde_items_type"."group_id"
 where
-	seeded.type_id is null
-	and "sde_items_type"."published"
+	"sde_items_type"."published"
 	and "sde_items_type"."market_group_id" is not null
 	and "sde_items_type"."market_group_id" >0
 	and exists(
@@ -88,21 +144,13 @@ select
 from
 	location_ranked
 where
-	grp_id=:groupId
+	cat_id=:categoryId
 order by pct_sales_above_so desc
 """, nativeQuery = true)
-	List<RankedOffer> rankSellOffers(long locationId, int groupId);
+	List<RankedOffer> rankCategorySellOffers(long locationId, int categoryId);
 
 	@Query(value = """
 with
-seeded as (
-select
-	distinct("type_id") type_id
-from
-	"esi_trade_market_line"
-where
-	"duration"=365
-),
 location_prices as (
 select
 	"type_id" type_id,
@@ -122,11 +170,9 @@ select
 	location_prices.bo_price
 from
 	location_prices
-	left join seeded on seeded.type_id=location_prices.type_id
 	join "sde_items_type" on "sde_items_type"."id" = location_prices.type_id
 where
-	seeded.type_id is null
-	and "sde_items_type"."published"
+	"sde_items_type"."published"
 	and "sde_items_type"."market_group_id" is not null
 	and "sde_items_type"."market_group_id" >0
 	and exists(
@@ -165,6 +211,70 @@ where
 	grp_id=:groupId
 order by pct_sales_below_bo desc
 """, nativeQuery = true)
-	List<RankedOffer> rankBuyOffers(long locationId, int groupId);
+	List<RankedOffer> rankGroupBuyOffers(long locationId, int groupId);
+
+	@Query(value = """
+with
+location_prices as (
+select
+	"type_id" type_id,
+	coalesce (min("price") filter(where not "is_buy_order"), 'Infinity') so_price
+from
+	"esi_trade_market_line"
+where
+	"location_id"=:locationId
+group by
+	"type_id"
+),
+named_prices as(
+select
+	location_prices.type_id,
+	"sde_items_type"."name" typ_name,
+	"sde_items_type"."group_id" grp_id,
+	location_prices.so_price
+from
+	location_prices
+	join "sde_items_type" on "sde_items_type"."id" = location_prices.type_id
+where
+	"sde_items_type"."published"
+	and "sde_items_type"."market_group_id" is not null
+	and "sde_items_type"."market_group_id" >0
+	and exists(
+		select
+			1
+		from
+			"esi_trade_historyline"
+			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+		where
+			"esi_trade_historyreq"."type_id"=location_prices.type_id
+	)
+),
+location_ranked as(
+select
+	named_prices.*,
+	0.01* floor(100*(select
+		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average">named_prices.so_price), 0)
+			/sum("esi_trade_historyline"."volume")
+		from
+			"esi_trade_historyline"
+			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+		where
+			"esi_trade_historyreq"."type_id"=named_prices.type_id
+	)) pct_sales_above_so
+from
+	named_prices
+)
+select
+	location_ranked.type_id,
+	location_ranked.typ_name,
+	location_ranked.so_price,
+	location_ranked.pct_sales_above_so
+from
+	location_ranked
+where
+	grp_id=:groupId
+order by pct_sales_above_so desc
+""", nativeQuery = true)
+	List<RankedOffer> rankGroupSellOffers(long locationId, int groupId);
 
 }
