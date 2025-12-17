@@ -39,6 +39,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService.
 import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
@@ -346,7 +347,7 @@ public class MarketHtmlController {
 
 	// group ranking
 
-	public enum GroupCategory {
+	public enum GroupCategoryChoice {
 		GROUP, CATEGORY
 	}
 
@@ -354,7 +355,7 @@ public class MarketHtmlController {
 	@GetMapping("ranking/{locationId}/{filter}/{filterId}")
 	public String getRanking(Model model,
 			@PathVariable long locationId,
-			@PathVariable GroupCategory filter,
+			@PathVariable GroupCategoryChoice filter,
 			@PathVariable int filterId)
 			throws InterruptedException, ExecutionException {
 		if (filter == null) {
@@ -370,9 +371,9 @@ public class MarketHtmlController {
 			}
 			model.addAttribute("filterName", "category " + cat.toString());
 			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankCategoryBuyOffers(locationId, filterId).get()));
+					linkRankings(marketRankingService.rankCategoryOffers(locationId, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankCategorySellOffers(locationId, filterId).get()));
+					linkRankings(marketRankingService.rankCategoryOffers(locationId, filterId, BoSoChoice.SO).get()));
 			break;
 		case GROUP:
 			Group group = groupService.byId(filterId);
@@ -382,9 +383,9 @@ public class MarketHtmlController {
 			}
 			model.addAttribute("filterName", "group " + group.toString());
 			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankGroupBuyOffers(locationId, filterId).get()));
+					linkRankings(marketRankingService.rankGroupOffers(locationId, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankGroupSellOffers(locationId, filterId).get()));
+					linkRankings(marketRankingService.rankGroupOffers(locationId, filterId, BoSoChoice.SO).get()));
 			break;
 		default:
 			throw new UnsupportedOperationException("case " + filter + " not handled");
@@ -406,7 +407,7 @@ public class MarketHtmlController {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "getRanking", null,
 						locationId,
-						GroupCategory.GROUP,
+						GroupCategoryChoice.GROUP,
 						"" + group.getId())
 				.build()
 				.toUri();
@@ -428,7 +429,7 @@ public class MarketHtmlController {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "getRanking", null,
 						locationId,
-						GroupCategory.CATEGORY,
+						GroupCategoryChoice.CATEGORY,
 						"" + category.getId())
 				.build()
 				.toUri();

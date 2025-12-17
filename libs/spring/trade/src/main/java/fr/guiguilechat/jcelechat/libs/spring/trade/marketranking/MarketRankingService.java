@@ -18,35 +18,32 @@ public class MarketRankingService implements MarketRegionListener {
 
 	private final MarketRankingRepository repo;
 
-	@Async
-	@Cacheable("rankCategoryBuyOffers")
-	public CompletableFuture<List<RankedOffer>> rankCategoryBuyOffers(long locationId, int categoryId) {
-		return CompletableFuture.completedFuture(repo.rankCategoryBuyOffers(locationId, categoryId));
+	public enum BoSoChoice {
+		BO, SO
 	}
 
 	@Async
-	@Cacheable("rankCategorySellOffers")
-	public CompletableFuture<List<RankedOffer>> rankCategorySellOffers(long locationId, int categoryId) {
-		return CompletableFuture.completedFuture(repo.rankCategorySellOffers(locationId, categoryId));
+	@Cacheable("rankCategoryOffers")
+	public CompletableFuture<List<RankedOffer>> rankCategoryOffers(long locationId, int categoryId,
+			BoSoChoice boso) {
+		return CompletableFuture.completedFuture(
+				boso == BoSoChoice.BO
+						? repo.rankCategoryBuyOffers(locationId, categoryId)
+						: repo.rankCategorySellOffers(locationId, categoryId));
 	}
 
 	@Async
-	@Cacheable("rankGroupBuyOffers")
-	public CompletableFuture<List<RankedOffer>> rankGroupBuyOffers(long locationId, int groupId) {
-		return CompletableFuture.completedFuture(repo.rankGroupBuyOffers(locationId, groupId));
-	}
-
-	@Async
-	@Cacheable("rankGroupSellOffers")
-	public CompletableFuture<List<RankedOffer>> rankGroupSellOffers(long locationId, int groupId) {
-		return CompletableFuture.completedFuture(repo.rankGroupSellOffers(locationId, groupId));
+	@Cacheable("rankGroupOffers")
+	public CompletableFuture<List<RankedOffer>> rankGroupOffers(long locationId, int groupId, BoSoChoice boso) {
+		return CompletableFuture.completedFuture(
+				boso == BoSoChoice.BO
+						? repo.rankGroupBuyOffers(locationId, groupId)
+						: repo.rankGroupSellOffers(locationId, groupId));
 	}
 
 	@Getter(lazy = true)
 	private final List<String> cacheList = List.of(
-			"rankCategoryBuyOffers",
-			"rankCategorySellOffers",
-			"rankGroupBuyOffers",
-			"rankGroupSellOffers"
+			"rankCategoryOffers",
+			"rankGroupOffers"
 			);
 }

@@ -42,6 +42,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -450,8 +451,9 @@ public class InventoryHtmlController {
 		if (g == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
-		marketRankingService.rankGroupBuyOffers(60003760, groupId);
-		marketRankingService.rankGroupSellOffers(60003760, groupId);
+		// precache the market ranking
+		marketRankingService.rankGroupOffers(MarketLineService.JITAIV_ID, groupId, BoSoChoice.BO);
+		marketRankingService.rankGroupOffers(MarketLineService.JITAIV_ID, groupId, BoSoChoice.SO);
 		model.addAttribute("grp", g);
 		model.addAttribute("category", g.getCategory());
 		model.addAttribute("catUrl", uri(g.getCategory()).toString());
@@ -477,6 +479,7 @@ public class InventoryHtmlController {
 		return "inventory/group";
 	}
 
+	/** with group id as query param */
 	@Transactional
 	@GetMapping("/group/gi")
 	public String getGroupById(Model model, int groupId) {
@@ -497,6 +500,9 @@ public class InventoryHtmlController {
 		if (c == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "category " + categoryId + " does not exist");
 		}
+		// precache the market ranking
+		marketRankingService.rankCategoryOffers(MarketLineService.JITAIV_ID, categoryId, BoSoChoice.BO);
+		marketRankingService.rankCategoryOffers(MarketLineService.JITAIV_ID, categoryId, BoSoChoice.SO);
 		model.addAttribute("cat", c);
 
 		Category prvCat = categoryService.prevGroup(c);
@@ -514,6 +520,8 @@ public class InventoryHtmlController {
 				.sorted(Comparator.comparing(Group::getName))
 				.map(this::linkedGroup)
 				.toList());
+
+		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaRanking(c));
 
 		return "inventory/category";
 	}
