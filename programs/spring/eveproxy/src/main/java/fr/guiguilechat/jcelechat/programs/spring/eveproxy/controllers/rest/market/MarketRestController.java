@@ -373,8 +373,8 @@ public class MarketRestController {
 	@Operation(description = "List the lowest sell orders for types of a group id at a location id, and rank their price on the history price."
 			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
 	@Transactional
-	@GetMapping("/rank/so")
-	public ResponseEntity<List<RankedOffer>> soRank(
+	@GetMapping("/rank/group/so")
+	public ResponseEntity<List<RankedOffer>> groupSoRank(
 			@RequestParam Integer groupId,
 			@RequestParam Long locationId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
@@ -386,13 +386,39 @@ public class MarketRestController {
 	@Operation(description = "List the highest buy orders for types of a group id at a location id, and rank their price on the history price."
 			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
 	@Transactional
-	@GetMapping("/rank/bo")
-	public ResponseEntity<List<RankedOffer>> boRank(
+	@GetMapping("/rank/group/bo")
+	public ResponseEntity<List<RankedOffer>> groupBoRank(
 			@RequestParam Integer groupId,
 			@RequestParam Long locationId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
 		List<RankedOffer> data = groupId == null || locationId == null ? List.of()
 				: marketRankingService.rankGroupBuyOffers(locationId, groupId).get();
+		return RestControllerHelper.makeResponse(data, accept);
+	}
+
+	@Operation(description = "List the lowest sell orders for types of a category id at a location id, and rank their price on the history price."
+			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
+	@Transactional
+	@GetMapping("/rank/category/so")
+	public ResponseEntity<List<RankedOffer>> categorySoRank(
+			@RequestParam Integer categoryId,
+			@RequestParam Long locationId,
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
+		List<RankedOffer> data = categoryId == null || locationId == null ? List.of()
+				: marketRankingService.rankCategorySellOffers(locationId, categoryId).get();
+		return RestControllerHelper.makeResponse(data, accept);
+	}
+
+	@Operation(description = "List the highest buy orders for types of a category id at a location id, and rank their price on the history price."
+			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
+	@Transactional
+	@GetMapping("/rank/category/bo")
+	public ResponseEntity<List<RankedOffer>> categoryBoRank(
+			@RequestParam Integer categoryId,
+			@RequestParam Long locationId,
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
+		List<RankedOffer> data = categoryId == null || locationId == null ? List.of()
+				: marketRankingService.rankCategoryBuyOffers(locationId, categoryId).get();
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 }
