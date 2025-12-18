@@ -36,6 +36,14 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Station extends SdeInPlanetOrbit {
 
+	// hardcoded here because fuck you.
+
+	public static final long AMARR_HUB_ID = 60008494;
+	public static final long DODIXIE_HUB_ID = 60011866;
+	public static final long HEK_HUB_ID = 60005686;
+	public static final long JITA_HUB_ID = 60003760;
+	public static final long RENS_HUB_ID = 60004588;
+
 	/**
 	 * the moon this orbits around when it exists. Otherwise it's around a planet or
 	 * star
@@ -105,5 +113,6 @@ public class Station extends SdeInPlanetOrbit {
 		}
 		return ret;
 	}
+
 
 }

@@ -382,7 +382,7 @@ public class MarketRestController {
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
 		List<RankedOffer> data = groupId == null || locationId == null
 				? List.of()
-				:  marketRankingService.rankGroupOffers(locationId, groupId, boso).get()
+				: marketRankingService.rankGroupOffers(locationId, groupId, boso).get()
 		;
 		return RestControllerHelper.makeResponse(data, accept);
 	}
@@ -398,7 +398,8 @@ public class MarketRestController {
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
 		List<RankedOffer> data = categoryId == null || locationId == null
 				? List.of()
-				: marketRankingService.rankCategoryOffers(locationId, categoryId, boso).get();
+				: marketRankingService.rankCategoryOffers(locationId, categoryId, boso).get()
+		;
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 }

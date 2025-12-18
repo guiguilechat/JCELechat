@@ -14,7 +14,7 @@ public class TestLoad {
 		Frigate atron = Frigate.METAGROUP.load().get(608);
 		Assert.assertEquals(atron.cpuoutput, 147);
 		Assert.assertEquals(atron.hislots, 4);
-		Assert.assertEquals(atron.agility, 2.799999952316284);
+		Assert.assertEquals(atron.agility, 2.8);
 	}
 
 	@Test

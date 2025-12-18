@@ -18,6 +18,10 @@ public class MarketRankingService implements MarketRegionListener {
 
 	private final MarketRankingRepository repo;
 
+	public enum GroupCategoryChoice {
+		CATEGORY, GROUP
+	}
+
 	public enum BoSoChoice {
 		BO, SO
 	}

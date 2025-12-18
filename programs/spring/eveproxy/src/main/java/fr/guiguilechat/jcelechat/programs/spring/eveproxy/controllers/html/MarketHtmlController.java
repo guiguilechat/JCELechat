@@ -29,6 +29,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroupSe
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractFacadeBpc;
@@ -40,6 +42,7 @@ import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.BoSoChoice;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.GroupCategoryChoice;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
@@ -90,6 +93,8 @@ public class MarketHtmlController {
 	private final MarketRankingService marketRankingService;
 
 	private final RegionService regionService;
+
+	private final StationService stationService;
 
 	private final TypeService typeService;
 
@@ -347,10 +352,6 @@ public class MarketHtmlController {
 
 	// group ranking
 
-	public enum GroupCategoryChoice {
-		GROUP, CATEGORY
-	}
-
 	@Transactional
 	@GetMapping("ranking/{locationId}/{filter}/{filterId}")
 	public String getRanking(Model model,
@@ -369,7 +370,7 @@ public class MarketHtmlController {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a category");
 			}
-			model.addAttribute("filterName", "category " + cat.toString());
+			model.addAttribute("filterName", "category " + cat.getName());
 			model.addAttribute("rankBO",
 					linkRankings(marketRankingService.rankCategoryOffers(locationId, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
@@ -381,7 +382,7 @@ public class MarketHtmlController {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a group");
 			}
-			model.addAttribute("filterName", "group " + group.toString());
+			model.addAttribute("filterName", "group " + group.getName());
 			model.addAttribute("rankBO",
 					linkRankings(marketRankingService.rankGroupOffers(locationId, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
@@ -393,6 +394,15 @@ public class MarketHtmlController {
 
 		model.addAttribute("filter", filterId);
 		model.addAttribute("locationId", locationId);
+		Station sta = locationId > Integer.MAX_VALUE
+				? null
+				: stationService.byId((int) locationId);
+		model.addAttribute("locationName", sta == null ? "" + locationId : sta.name());
+		model.addAttribute("amarrUrl", rankingURI(Station.AMARR_HUB_ID, filter, filterId).toString());
+		model.addAttribute("dodixieUrl", rankingURI(Station.DODIXIE_HUB_ID, filter, filterId).toString());
+		model.addAttribute("hekUrl", rankingURI(Station.HEK_HUB_ID, filter, filterId).toString());
+		model.addAttribute("jitaUrl", rankingURI(Station.JITA_HUB_ID, filter, filterId).toString());
+		model.addAttribute("rensUrl", rankingURI(Station.RENS_HUB_ID, filter, filterId).toString());
 		return "market/marketRanking";
 	}
 
@@ -403,14 +413,18 @@ public class MarketHtmlController {
 		}
 	}
 
-	public URI rankingURI(long locationId, Group group) {
+	public URI rankingURI(long locationId, GroupCategoryChoice filterType, int filterId) {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "getRanking", null,
 						locationId,
-						GroupCategoryChoice.GROUP,
-						"" + group.getId())
+						filterType,
+						filterId)
 				.build()
 				.toUri();
+	}
+
+	public URI rankingURI(long locationId, Group group) {
+		return rankingURI(locationId, GroupCategoryChoice.GROUP, group.getId());
 	}
 
 	public URI jitaRankingURI(Group group) {
@@ -426,13 +440,7 @@ public class MarketHtmlController {
 	}
 
 	public URI rankingURI(long locationId, Category category) {
-		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "getRanking", null,
-						locationId,
-						GroupCategoryChoice.CATEGORY,
-						"" + category.getId())
-				.build()
-				.toUri();
+		return rankingURI(locationId, GroupCategoryChoice.CATEGORY, category.getId());
 	}
 
 	public URI jitaRankingURI(Category category) {
