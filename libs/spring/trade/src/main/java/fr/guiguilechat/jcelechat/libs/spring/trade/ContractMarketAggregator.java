@@ -128,7 +128,8 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 				.sorted(Comparator.comparing(AggregatedHL::getDate))
 				.toList();
 		long postMerge = System.currentTimeMillis();
-		log.debug("fetched history for type {} since {} in {} ms (fetch {} market in {}, {} contract in {}, merge in {})",
+		log.trace(
+				"fetched history for type {} since {} in {} ms (fetch {} market in {}, {} contract in {}, merge in {})",
 				typeId,
 				from,
 				postMerge - start,

@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -49,12 +48,8 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @NoArgsConstructor
-public abstract class RemoteEntityService<
-		Entity extends RemoteEntity<IdType, Fetched>,
-		IdType extends Number,
-		Fetched,
-		Repository extends RemoteEntityRepository<Entity, IdType>>
-	extends FetchedEntityService<Entity, IdType, Repository> {
+public abstract class RemoteEntityService<Entity extends RemoteEntity<IdType, Fetched>, IdType extends Number, Fetched, Repository extends RemoteEntityRepository<Entity, IdType>>
+		extends FetchedEntityService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save
@@ -89,6 +84,38 @@ public abstract class RemoteEntityService<
 	}
 
 	//
+	// priority management
+	//
+
+	/**
+	 * set the priority of the data that need fetching and are lower priority. This
+	 * ensures they will be prioritized on the next update pulse. Note that this
+	 * does not make their fetch active if they are not already ; on the contrary,
+	 * those with fetch inactive won't be updated.
+	 */
+	public void prioritizeIds(int priority, Iterable<IdType> datas) {
+		repo().updateActivePriority(priority, datas, Instant.now());
+	}
+
+	public void prioritizeIds(Iterable<IdType> datas) {
+		prioritizeIds(100, datas);
+	}
+
+	public void prioritize(int priority, Iterable<Entity> entities) {
+		prioritizeIds(priority,
+				StreamSupport.stream(entities.spliterator(), false)
+						.map(RemoteEntity::getId)
+						.distinct().toList());
+	}
+
+	public void prioritize(Iterable<Entity> entities) {
+		prioritizeIds(
+				StreamSupport.stream(entities.spliterator(), false)
+						.map(RemoteEntity::getId)
+						.distinct().toList());
+	}
+
+	//
 	// updating entity data
 	//
 
@@ -102,7 +129,7 @@ public abstract class RemoteEntityService<
 	 *
 	 * @param entityId id for the entity we want
 	 * @return a managed entity, fetched if it should, or null if exception caught.
-	 *           It may not be fetched if {@link #isActivateNewEntry()} is false
+	 *         It may not be fetched if {@link #isActivateNewEntry()} is false
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Entity createFetch(IdType entityId) {
@@ -140,9 +167,9 @@ public abstract class RemoteEntityService<
 	 *
 	 * @param entities
 	 * @return The map of successful fetch, from the entity to the fetch result .
-	 *           entities that are fetched for 204 (no body) or 304 (no change) are
-	 *           mapped to null so that they are still considered as a success,
-	 *           but are not processed
+	 *         entities that are fetched for 204 (no body) or 304 (no change) are
+	 *         mapped to null so that they are still considered as a success,
+	 *         but are not processed
 	 */
 	protected Map<Entity, Fetched> fetchData(List<Entity> entities) {
 		Map<Entity, Future<Requested<Fetched>>> dataToFuture = entities.stream()
@@ -185,17 +212,16 @@ public abstract class RemoteEntityService<
 				break;
 			default:
 				switch (responseCode / 100) {
-				case 4:
-					updateRequestError(data, response);
-					break;
-				case 5:
-					updateServerError(data, response);
-					break;
-				default:
+				case 4 -> updateRequestError(data, response);
+				case 5 -> updateServerError(data, response);
+				default -> {
 					log.error("while updating {} id {}, received response code {} and error {}",
 							data.getClass().getSimpleName(), data.getId(), responseCode, response.getError());
-					throw new UnsupportedOperationException("case " + responseCode + " not handled for url" + response.getURL());
+					throw new UnsupportedOperationException(
+							"case " + responseCode + " not handled for url" + response.getURL());
 				}
+				}
+				;
 			}
 		}
 		return responseOk;
@@ -206,8 +232,8 @@ public abstract class RemoteEntityService<
 	 * Use {@link #createFetch(Object)} to create it if absent.
 	 *
 	 * @return entity for given id, at least fetched once if needed. May not be
-	 *           fetched if the {@link #isActivateNewEntry()} is false ; may be
-	 *           empty if not created.
+	 *         fetched if the {@link #isActivateNewEntry()} is false ; may be
+	 *         empty if not created.
 	 */
 	public Optional<Entity> getExistingFetched(IdType id) {
 		Optional<Entity> ret = repo().findById(id);
@@ -244,9 +270,9 @@ public abstract class RemoteEntityService<
 	 */
 	protected void updateResponseOk(Map<Entity, Fetched> responseOk) {
 		responseOk.entrySet().stream()
-		.forEach(e -> {
-			e.getKey().update(e.getValue());
-		});
+				.forEach(e -> {
+					e.getKey().update(e.getValue());
+				});
 	}
 
 	/**
@@ -305,6 +331,7 @@ public abstract class RemoteEntityService<
 			return;
 		}
 
+		data.setFetchPriority(-1);
 		updateExpiresError(data, response.getResponseCode());
 		switch (response.getResponseCode()) {
 		case 401:
@@ -373,13 +400,12 @@ public abstract class RemoteEntityService<
 	 * called when entity received 204 no content. Default implementation is to save
 	 * the meta as OK then log a warning. Since the actual use case in this case
 	 * heavily depends on the underlying updated entity, this method is expected to
-	 * be overriden by services which are likly to call it.
+	 * be overriden by services which are likely to call it.
 	 */
 	protected void updateNullBody(Entity data, Requested<Fetched> response) {
 		updateMetaOk(data, response);
 		log.warn("{} received null body (204) for entity {}", fetcherName(), data.getId());
 	}
-
 
 	@Override
 	public String propertiesAsString() {
@@ -422,32 +448,12 @@ public abstract class RemoteEntityService<
 			int nbSuccess = update(list);
 			long nbRemain = nbToUpdate();
 			long endTimeMs = System.currentTimeMillis();
-			log.debug("{} updated {}/{} in {} ms, remain {}",
+			log.debug(" {} updated {}/{} in {} ms, remain {}",
 					fetcherName(),
 					nbSuccess, nbUpdates,
 					endTimeMs - startTimeMs, nbRemain);
 		}
 		return nbUpdates > 0;
-	}
-
-	/**
-	 * set the expiry of the data that need fetching to 30 days before. This
-	 * ensures they will be prioritized on the next update pulse. Note that this
-	 * does not make their fetch active if they are not already ; on the contrary,
-	 * those with fetch inactive won't be updated.
-	 *
-	 * @param datas
-	 */
-	@Transactional
-	public void prioritize(Iterable<Entity> datas) {
-		List<Entity> updated = StreamSupport.stream(datas.spliterator(), false)
-				.filter(d -> d.isFetchActive() &&
-						(!d.isFetched()
-								|| d.getExpires() != null
-								&& d.getExpires().isBefore(Instant.now())))
-				.peek(d -> d.setExpires(d.getExpires().minus(30, ChronoUnit.DAYS)))
-				.toList();
-		saveAll(updated);
 	}
 
 	private Instant lastUpdateTime = null;
@@ -483,7 +489,8 @@ public abstract class RemoteEntityService<
 		lastBatchSize = maxAllowedQueries();
 		List<Entity> ret = lastBatchSize < 1
 				? List.of()
-						: repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(Instant.now(), Limit.of(lastBatchSize));
+				: repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant.now(),
+						Limit.of(lastBatchSize));
 		log.trace(" {} has {} entities to update with max batch size {}", fetcherName(), ret.size(), lastBatchSize);
 		return ret;
 	}
@@ -493,7 +500,7 @@ public abstract class RemoteEntityService<
 	 *
 	 * @param data entities to update from the remote
 	 * @return number of entities that were successfully updated. Those which were
-	 *           not changed, or failed, are not counted.
+	 *         not changed, or failed, are not counted.
 	 */
 	protected int update(List<Entity> data) {
 		log.trace("{} updating {} entities", fetcherName(), data.size());

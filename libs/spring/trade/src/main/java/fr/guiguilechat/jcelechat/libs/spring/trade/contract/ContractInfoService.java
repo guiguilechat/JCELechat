@@ -141,7 +141,7 @@ ContractInfoRepository> {
 			if (batchSize <= 0) {
 				return List.of();
 			}
-			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByExpiresAsc(
+			ret = repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(
 					Instant.now(),
 					Limit.of(batchSize));
 			if (!ret.isEmpty()) {

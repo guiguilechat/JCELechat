@@ -182,7 +182,6 @@ extends RemoteEntityService<HistoryReq, Long, R_get_markets_region_id_history[],
 				postDelete - postAnalyze);
 	}
 
-	@Transactional
 	public void prioritizeType(int typeId) {
 		prioritize(repo().findByTypeId(typeId));
 	}

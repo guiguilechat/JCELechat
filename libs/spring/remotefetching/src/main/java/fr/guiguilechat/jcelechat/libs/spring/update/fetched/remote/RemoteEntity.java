@@ -31,10 +31,11 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Fetch
 	private Instant expires;
 
 	/// Priority for the next fetch. Higher is more priority
-	///  - default value for newly created entities is 1 
-	///  - default value for already fetched entities is 0
-	///  - default value for errored entities is -1
-	///  - prioritized entities should be 100+ 
+	///  - default value for newly created entities is 1
+	///  - already fetched entities is 0
+	///  - request-error response entities (4xx but 420) is -1
+	///  - high-priority entities should be 100+
+	///  - deduced priority for new values should be ]0..100[
 	@ColumnDefault("1")
 	private int fetchPriority = 1;
 
@@ -59,11 +60,11 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Fetch
 	}
 
 	/**
-	 * set {@link #expires} to a random valuye between min and min+added
+	 * set {@link #expires} to a random value between min and min+added
 	 *
 	 * @param minSeconds  minimum seconds. Can be <0 to set in the past
 	 * @param addedRandom added maximum seconds. Can be <0 to remove seconds from
-	 *                      min
+	 *                    min
 	 */
 	public void setExpiresInRandom(int minSeconds, int addedRandom) {
 		setExpiresIn(minSeconds + (int) (Math.random() * addedRandom));
@@ -75,6 +76,7 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Fetch
 		setExpires(expires);
 		setLastEtag(etag);
 		setLastModified(lastModified);
+		setFetchPriority(0);
 	}
 
 	/**
