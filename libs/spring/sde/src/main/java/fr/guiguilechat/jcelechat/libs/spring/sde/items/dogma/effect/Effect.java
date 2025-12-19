@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.modifier.Modifier;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
@@ -36,41 +37,41 @@ public class Effect extends SdeEntity<Integer> {
 	private boolean assistance;
 	private String description;
 	private boolean disallowAutoRepeat;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute discharge;
 	private String displayName;
 	private int distribution;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute duration;
 	private int effectCategoryId;
 	private boolean electronicChance;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute falloff;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute fittingUsageChance;
 	private String guid;
 	private int iconId;
 	private String name;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute npcActivationChance;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute npcUsageChance;
 	private boolean offensive;
 	private boolean propulsionChance;
 	private boolean published;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute range;
 	private boolean rangeChance;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute resistance;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute trackingSpeed;
 	private boolean warpSafe;
 
 	/**
 	 * modifiers array
 	 */
-	@OneToMany(mappedBy = "effect")
+	@OneToMany(mappedBy = "effect", fetch = FetchType.LAZY)
 	private List<Modifier> modifiers;
 
 	public void update(EdogmaEffects source,

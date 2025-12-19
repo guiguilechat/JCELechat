@@ -8,6 +8,7 @@ import java.util.Map.Entry;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma;
@@ -35,6 +36,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @RequiredArgsConstructor
 @Service
+@ConfigurationProperties(prefix = "sde.items.typedogma")
 @Slf4j
 public class TypeDogmaUpdater implements SdeListener {
 

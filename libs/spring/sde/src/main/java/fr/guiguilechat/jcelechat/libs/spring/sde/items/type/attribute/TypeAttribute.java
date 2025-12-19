@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
@@ -29,9 +30,9 @@ public class TypeAttribute {
 
 	@Id
 	private Long id;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Type type;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute attribute;
 	private BigDecimal value;
 

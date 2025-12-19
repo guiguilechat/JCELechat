@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.description;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
@@ -27,7 +28,7 @@ public class TypeDescription {
 	@GeneratedValue
 	private Long id;
 
-	@OneToOne
+	@OneToOne(fetch = FetchType.LAZY)
 	private Type type;
 
 	@Lob

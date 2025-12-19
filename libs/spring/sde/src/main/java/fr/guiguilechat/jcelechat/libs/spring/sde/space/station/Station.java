@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.star.Star;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.operation.StationOperation;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
@@ -56,16 +57,16 @@ public class Station extends SdeInPlanetOrbit {
 	 * the moon this orbits around when it exists. Otherwise it's around a planet or
 	 * star
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Moon moon;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private StationOperation operation;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private NpcCorporation owner;
 	/**
 	 * the planet this orbits around when not around a moon or star.
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Planet planet;
 	private BigDecimal reprocessingEfficiency;
 	private int reprocessingHangarFlag;
@@ -73,7 +74,7 @@ public class Station extends SdeInPlanetOrbit {
 	/**
 	 * the star this orbits around when not around planet or moon
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Star star;
 	private boolean useOperationName;
 

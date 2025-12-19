@@ -98,7 +98,7 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 				}
 			}
 		}
-		log.debug("saving {} lp exchange rates", created.size());
+		log.debug(" saving {} lp exchange rates", created.size());
 		lpExchangeService().saveAll(created);
 	}
 
@@ -127,7 +127,7 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 				}
 			}
 		}
-		log.debug("saving {} corporation trades", created.size());
+		log.debug(" saving {} corporation trades", created.size());
 		corporationTradeService().saveAll(created);
 	}
 

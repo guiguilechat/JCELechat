@@ -11,6 +11,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category.
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit.Unit;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
@@ -30,9 +31,9 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Attribute extends SdeEntity<Integer> {
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private AttributeCategory category;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute chargeRechargeTime;
 	private int dataType;
 	private BigDecimal defaultValue;
@@ -42,14 +43,14 @@ public class Attribute extends SdeEntity<Integer> {
 	private boolean displayWhenZero;
 	private boolean highIsGood;
 	private int iconId;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute max;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute min;
 	private String name;
 	private boolean published;
 	private boolean stackable;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Unit unit;
 
 	public void update(EdogmaAttributes source,

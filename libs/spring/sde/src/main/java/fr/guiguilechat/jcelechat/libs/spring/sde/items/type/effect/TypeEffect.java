@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.effect;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
@@ -27,9 +28,9 @@ public class TypeEffect {
 
 	@Id
 	private Long id;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Type type;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Effect effect;
 	private boolean isDefault;
 

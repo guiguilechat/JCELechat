@@ -7,7 +7,9 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -38,7 +40,7 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	public Entity create(IdType entityId) {
 		Entity create = creator.get();
 		create.setId(entityId);
-		return repo().save(create);
+		return repo().save(create); // don't flush as it will cause one DB roundtrip per entity created.
 	}
 
 	/**
@@ -77,7 +79,9 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	}
 
 	public List<Entity> byId(Iterable<IdType> ids) {
-		return repo().findAllById(ids);
+		return partitionInList(ids)
+				.flatMap(l -> repo().findAllById(l).stream())
+				.toList();
 	}
 
 	public List<Entity> ativeById(Iterable<IdType> ids) {
@@ -113,6 +117,38 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 			ret.put(id, matchingEntity);
 		}
 		return ret;
+	}
+
+	/**
+	 * TODO use actual implementation : 1000 for oracle, Integer.maxInt for others
+	 *
+	 * @return maximum elements we can add in a list query param.
+	 */
+	protected int maxInList() {
+		return 1000;
+	}
+
+	protected <T> Stream<List<T>> partitionInList(List<T> elements) {
+		return partition(elements, maxInList());
+	}
+
+	protected <T> Stream<List<T>> partitionInList(Iterable<T> elements) {
+		return partition(StreamSupport.stream(elements.spliterator(), false).toList(), maxInList());
+	}
+
+	/**
+	 * partition a list of items into a list of limited-size sublists
+	 *
+	 * @param <T>
+	 * @param elements
+	 * @return
+	 */
+	protected static <T> Stream<List<T>> partition(List<T> elements, int maxSize) {
+		if (elements == null) {
+			return Stream.of();
+		}
+		return IntStream.iterate(0, i -> i < elements.size(), i -> i + maxSize)
+				.mapToObj(i -> elements.subList(i, Math.min(elements.size(), i + maxSize)));
 	}
 
 	public List<Entity> listNotReceived() {

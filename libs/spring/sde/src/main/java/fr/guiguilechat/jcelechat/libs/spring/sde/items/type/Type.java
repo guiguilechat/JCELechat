@@ -40,13 +40,13 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Type extends SdeEntity<Integer> {
 
-	@OneToMany(mappedBy = "type")
+	@OneToMany(mappedBy = "type", fetch = FetchType.LAZY)
 	private List<TypeAttribute> attributes = new ArrayList<>();
 	private BigDecimal basePrice;
 	private BigDecimal capacity;
-	@OneToOne(fetch = FetchType.LAZY, mappedBy = "type", cascade = CascadeType.ALL, orphanRemoval = true)
+	@OneToOne(mappedBy = "type", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	private TypeDescription description;
-	@OneToMany(mappedBy = "type")
+	@OneToMany(mappedBy = "type", fetch = FetchType.LAZY)
 	private List<TypeEffect> effects = new ArrayList<>();
 	@ColumnDefault("0")
 	private int factionId;
@@ -56,10 +56,10 @@ public class Type extends SdeEntity<Integer> {
 	private Group group;
 	@ColumnDefault("0")
 	private int iconId;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private MarketGroup marketGroup;
 	private BigDecimal mass;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private MetaGroup metaGroup;
 	private String name;
 	@ColumnDefault("0")
@@ -71,7 +71,7 @@ public class Type extends SdeEntity<Integer> {
 	private BigDecimal radius;
 	@ColumnDefault("0")
 	private int soundId;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Type variationType;
 	private BigDecimal volume;
 

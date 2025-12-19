@@ -5,6 +5,7 @@ import java.util.function.Function;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
@@ -15,10 +16,10 @@ import lombok.Setter;
 @MappedSuperclass
 public class SdeInSystem extends SdeInSpace {
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private SolarSystem solarSystem;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Type type;
 
 	protected void update(InSystem source, Function<Integer, Type> types, Function<Integer, SolarSystem> solarSystems) {

@@ -8,6 +8,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.Effect;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
@@ -33,17 +34,17 @@ public class Modifier {
 	private Long id;
 
 	private String domain;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Effect effect;
 	private String func;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Group group;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute modified;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Attribute modifying;
 	private int operation;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Type skill;
 
 	public static Modifier of(ModifierInfo mi, Effect e,

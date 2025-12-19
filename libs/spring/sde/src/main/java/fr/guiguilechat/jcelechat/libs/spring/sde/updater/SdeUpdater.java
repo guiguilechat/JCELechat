@@ -3,7 +3,9 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Instant;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.function.Supplier;
 import java.util.zip.ZipEntry;
@@ -119,15 +121,20 @@ public class SdeUpdater implements EntityUpdater {
 		if (updateListeners.isPresent()) {
 			List<SdeListener> listeners = updateListeners.get();
 			listeners.forEach(SdeListener::beforeSdeUpdate);
+			Map<String, Supplier<InputStream>> resources = new HashMap<>();
 			ZipInputStream zip = s.zipputSteam();
 			ZipEntry zipentry;
 			while ((zipentry = zip.getNextEntry()) != null) {
 				if (!zipentry.isDirectory()) {
 					String name = zipentry.getName();
 					Supplier<InputStream> sup = new DuplicatingInputStream(zip);
-					listeners.forEach(l -> l.onSdeFile(name, sup));
+					sup.get();// force to load in memory
+					resources.put(name, sup);
 				}
 			}
+			resources.entrySet().forEach(e -> {
+				listeners.forEach(l -> l.onSdeFile(e.getKey(), e.getValue()));
+			});
 			listeners.forEach(SdeListener::afterSdeUpdate);
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
@@ -135,6 +142,5 @@ public class SdeUpdater implements EntityUpdater {
 		log.info(" updated SDE in {} ms",
 				System.currentTimeMillis() - startUpdate);
 	}
-
 
 }
