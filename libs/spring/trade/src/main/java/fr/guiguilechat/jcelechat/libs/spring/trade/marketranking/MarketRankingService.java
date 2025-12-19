@@ -28,21 +28,22 @@ public class MarketRankingService implements MarketRegionListener {
 
 	@Async
 	@Cacheable("rankCategoryOffers")
-	public CompletableFuture<List<RankedOffer>> rankCategoryOffers(long locationId, int categoryId,
+	public CompletableFuture<List<RankedOffer>> rankCategoryOffers(Iterable<Long> locationIds, int categoryId,
 			BoSoChoice boso) {
 		return CompletableFuture.completedFuture(
 				boso == BoSoChoice.BO
-						? repo.rankCategoryBuyOffers(locationId, categoryId)
-						: repo.rankCategorySellOffers(locationId, categoryId));
+						? repo.rankCategoryBuyOffers(locationIds, categoryId)
+						: repo.rankCategorySellOffers(locationIds, categoryId));
 	}
 
 	@Async
 	@Cacheable("rankGroupOffers")
-	public CompletableFuture<List<RankedOffer>> rankGroupOffers(long locationId, int groupId, BoSoChoice boso) {
+	public CompletableFuture<List<RankedOffer>> rankGroupOffers(Iterable<Long> locationIds, int groupId,
+			BoSoChoice boso) {
 		return CompletableFuture.completedFuture(
 				boso == BoSoChoice.BO
-						? repo.rankGroupBuyOffers(locationId, groupId)
-						: repo.rankGroupSellOffers(locationId, groupId));
+						? repo.rankGroupBuyOffers(locationIds, groupId)
+						: repo.rankGroupSellOffers(locationIds, groupId));
 	}
 
 	@Getter(lazy = true)

@@ -363,6 +363,7 @@ public class MarketHtmlController {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
 					"requires filter, received " + filter);
 		}
+		Iterable<Long> locationIds = List.of(locationId);
 		switch (filter) {
 		case CATEGORY:
 			Category cat = categoryService.byId(filterId);
@@ -372,9 +373,9 @@ public class MarketHtmlController {
 			}
 			model.addAttribute("filterName", "category " + cat.getName());
 			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankCategoryOffers(locationId, filterId, BoSoChoice.BO).get()));
+					linkRankings(marketRankingService.rankCategoryOffers(locationIds, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankCategoryOffers(locationId, filterId, BoSoChoice.SO).get()));
+					linkRankings(marketRankingService.rankCategoryOffers(locationIds, filterId, BoSoChoice.SO).get()));
 			break;
 		case GROUP:
 			Group group = groupService.byId(filterId);
@@ -384,20 +385,20 @@ public class MarketHtmlController {
 			}
 			model.addAttribute("filterName", "group " + group.getName());
 			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankGroupOffers(locationId, filterId, BoSoChoice.BO).get()));
+					linkRankings(marketRankingService.rankGroupOffers(locationIds, filterId, BoSoChoice.BO).get()));
 			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankGroupOffers(locationId, filterId, BoSoChoice.SO).get()));
+					linkRankings(marketRankingService.rankGroupOffers(locationIds, filterId, BoSoChoice.SO).get()));
 			break;
 		default:
 			throw new UnsupportedOperationException("case " + filter + " not handled");
 		}
 
 		model.addAttribute("filter", filterId);
-		model.addAttribute("locationId", locationId);
+		model.addAttribute("locationId", locationIds);
 		Station sta = locationId > Integer.MAX_VALUE
 				? null
 				: stationService.byId((int) locationId);
-		model.addAttribute("locationName", sta == null ? "" + locationId : sta.name());
+		model.addAttribute("locationName", sta == null ? "" + locationIds : sta.name());
 		model.addAttribute("amarrUrl", rankingURI(Station.AMARR_HUB_ID, filter, filterId).toString());
 		model.addAttribute("dodixieUrl", rankingURI(Station.DODIXIE_HUB_ID, filter, filterId).toString());
 		model.addAttribute("hekUrl", rankingURI(Station.HEK_HUB_ID, filter, filterId).toString());
@@ -406,14 +407,16 @@ public class MarketHtmlController {
 		return "market/marketRanking";
 	}
 
-	public static record LinkedRanking(Object filter, long locationId, String url) {
+	public static record LinkedRanking(Object filter, String url) {
 		@Override
 		public final String toString() {
 			return filter.toString();
 		}
 	}
 
-	public URI rankingURI(long locationId, GroupCategoryChoice filterType, int filterId) {
+	public URI rankingURI(long locationId,
+			GroupCategoryChoice filterType,
+			int filterId) {
 		return MvcUriComponentsBuilder
 				.fromMethodName(getClass(), "getRanking", null,
 						locationId,
@@ -423,36 +426,28 @@ public class MarketHtmlController {
 				.toUri();
 	}
 
-	public URI rankingURI(long locationId, Group group) {
+	protected URI rankingURI(long locationId, Group group) {
 		return rankingURI(locationId, GroupCategoryChoice.GROUP, group.getId());
 	}
 
-	public URI jitaRankingURI(Group group) {
-		return rankingURI(MarketLineService.JITAIV_ID, group);
-	}
-
-	public LinkedRanking linkedRanking(Group group, int locationId) {
-		return new LinkedRanking(group, locationId, jitaRankingURI(group).toString());
+	public LinkedRanking linkedRanking(Group group, long locationId) {
+		return new LinkedRanking(group, rankingURI(locationId, group).toString());
 	}
 
 	public LinkedRanking linkedJitaRanking(Group group) {
-		return new LinkedRanking(group, MarketLineService.JITAIV_ID, jitaRankingURI(group).toString());
+		return linkedRanking(group, MarketLineService.JITAIV_ID);
 	}
 
-	public URI rankingURI(long locationId, Category category) {
+	protected URI rankingURI(long locationId, Category category) {
 		return rankingURI(locationId, GroupCategoryChoice.CATEGORY, category.getId());
 	}
 
-	public URI jitaRankingURI(Category category) {
-		return rankingURI(MarketLineService.JITAIV_ID, category);
-	}
-
-	public LinkedRanking linkedRanking(Category category, int locationId) {
-		return new LinkedRanking(category, locationId, jitaRankingURI(category).toString());
+	public LinkedRanking linkedRanking(Category category, long locationId) {
+		return new LinkedRanking(category, rankingURI(locationId, category).toString());
 	}
 
 	public LinkedRanking linkedJitaRanking(Category category) {
-		return new LinkedRanking(category, MarketLineService.JITAIV_ID, jitaRankingURI(category).toString());
+		return linkedRanking(category, MarketLineService.JITAIV_ID);
 	}
 
 	public static record LinkedTypeRanking(LinkedType type, String formattedPrice, String formattedRank) {

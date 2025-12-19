@@ -28,7 +28,7 @@ select
 from
 	"esi_trade_market_line"
 where
-	"location_id"=:locationId
+	"location_id" in :locationIds
 group by
 	"type_id"
 ),
@@ -82,7 +82,7 @@ where
 	cat_id=:categoryId
 order by pct_sales_below_bo desc
 """, nativeQuery = true)
-	List<RankedOffer> rankCategoryBuyOffers(long locationId, int categoryId);
+	List<RankedOffer> rankCategoryBuyOffers(Iterable<Long> locationIds, int categoryId);
 
 	@Query(value = """
 with
@@ -93,7 +93,7 @@ select
 from
 	"esi_trade_market_line"
 where
-	"location_id"=:locationId
+	"location_id" in :locationIds
 group by
 	"type_id"
 ),
@@ -147,7 +147,7 @@ where
 	cat_id=:categoryId
 order by pct_sales_above_so desc
 """, nativeQuery = true)
-	List<RankedOffer> rankCategorySellOffers(long locationId, int categoryId);
+	List<RankedOffer> rankCategorySellOffers(Iterable<Long> locationIds, int categoryId);
 
 	@Query(value = """
 with
@@ -158,7 +158,7 @@ select
 from
 	"esi_trade_market_line"
 where
-	"location_id"=:locationId
+	"location_id" in :locationIds
 group by
 	"type_id"
 ),
@@ -211,7 +211,7 @@ where
 	grp_id=:groupId
 order by pct_sales_below_bo desc
 """, nativeQuery = true)
-	List<RankedOffer> rankGroupBuyOffers(long locationId, int groupId);
+	List<RankedOffer> rankGroupBuyOffers(Iterable<Long> locationIds, int groupId);
 
 	@Query(value = """
 with
@@ -222,7 +222,7 @@ select
 from
 	"esi_trade_market_line"
 where
-	"location_id"=:locationId
+	"location_id" in :locationIds
 group by
 	"type_id"
 ),
@@ -275,6 +275,6 @@ where
 	grp_id=:groupId
 order by pct_sales_above_so desc
 """, nativeQuery = true)
-	List<RankedOffer> rankGroupSellOffers(long locationId, int groupId);
+	List<RankedOffer> rankGroupSellOffers(Iterable<Long> locationIds, int groupId);
 
 }

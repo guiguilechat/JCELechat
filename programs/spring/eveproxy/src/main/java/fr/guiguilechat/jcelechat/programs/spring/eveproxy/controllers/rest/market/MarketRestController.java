@@ -33,6 +33,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.BoSoChoice;
+import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService.GroupCategoryChoice;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService.LocatedBestOffer;
@@ -371,35 +372,25 @@ public class MarketRestController {
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 
-	@Operation(description = "List the best orders for types of a group id at a location id, and rank their price on the history price."
+	@Operation(description = "List the best orders for types of a filter id at a location id, and rank their price on the history price."
 			+ " A rank of 100 means 100% of the (other) historical orders are worse than the current one")
 	@Transactional
-	@GetMapping("/rank/group/{boso}")
+	@GetMapping("/rank/{catgroup}/{boso}")
 	public ResponseEntity<List<RankedOffer>> groupSoRank(
+			@PathVariable GroupCategoryChoice catgroup,
 			@PathVariable BoSoChoice boso,
 			@RequestParam Long locationId,
-			@RequestParam Integer groupId,
+			@RequestParam Integer filterId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
-		List<RankedOffer> data = groupId == null || locationId == null
-				? List.of()
-				: marketRankingService.rankGroupOffers(locationId, groupId, boso).get()
-		;
-		return RestControllerHelper.makeResponse(data, accept);
-	}
 
-	@Operation(description = "List the best sell orders for types of a category id at a location id, and rank their price on the history price."
-			+ " A rank of 100 means 100% of the historical orders are worse than the current one")
-	@Transactional
-	@GetMapping("/rank/category/{boso}")
-	public ResponseEntity<List<RankedOffer>> categorySoRank(
-			@PathVariable BoSoChoice boso,
-			@RequestParam Long locationId,
-			@RequestParam Integer categoryId,
-			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
-		List<RankedOffer> data = categoryId == null || locationId == null
-				? List.of()
-				: marketRankingService.rankCategoryOffers(locationId, categoryId, boso).get()
-		;
+		List<RankedOffer> data = List.of();
+		if(locationId!=null && filterId!=null) {
+			data = switch (catgroup) {
+			case CATEGORY -> marketRankingService.rankCategoryOffers(List.of(locationId), filterId, boso).get();
+			case GROUP -> marketRankingService.rankGroupOffers(List.of(locationId), filterId, boso).get();
+			default -> throw new UnsupportedOperationException("case "+catgroup+" not handled");
+			};
+		}
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 }
