@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class Manager {
+public class ManagerConfigLogger {
 
 	private final ResourceUpdaterService s;
 
@@ -36,7 +36,8 @@ public class Manager {
 			} else {
 				log.trace(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
 			}
-			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), s -> new ArrayList<>()).add(l.fetcherName());
+			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), _ -> new ArrayList<>())
+					.add(l.fetcherName());
 		}
 		log.trace("{} inactive services :", inactive.size());
 		for (EntityUpdater l : inactive) {

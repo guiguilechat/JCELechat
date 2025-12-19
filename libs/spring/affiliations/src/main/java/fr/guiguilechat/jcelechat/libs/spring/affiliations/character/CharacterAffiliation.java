@@ -19,7 +19,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiAffiliationsCharacterAffiliation")
 @Table(name = "esi_affiliations_characteraffiliation", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
     @Index(columnList = "alliance_id"),
     @Index(columnList = "corporation_id"),
     @Index(columnList = "faction_id")

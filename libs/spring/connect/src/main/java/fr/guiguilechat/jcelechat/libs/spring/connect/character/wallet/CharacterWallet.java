@@ -12,7 +12,7 @@ import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterWallet")
 @Table(name = "esi_connect_characterwallet", indexes = {
-    @Index(columnList = "fetch_active,expires")
+		@Index(columnList = "fetch_active,fetch_priority,expires")
 })
 @AllArgsConstructor
 @NoArgsConstructor

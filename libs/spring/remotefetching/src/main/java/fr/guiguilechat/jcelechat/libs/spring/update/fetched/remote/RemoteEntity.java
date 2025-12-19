@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
@@ -27,6 +29,14 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Fetch
 
 	/** date the last successful update expires at */
 	private Instant expires;
+
+	/// Priority for the next fetch. Higher is more priority
+	///  - default value for newly created entities is 1 
+	///  - default value for already fetched entities is 0
+	///  - default value for errored entities is -1
+	///  - prioritized entities should be 100+ 
+	@ColumnDefault("1")
+	private int fetchPriority = 1;
 
 	/** true if we need to keep it up to date */
 	private boolean fetchActive = true;

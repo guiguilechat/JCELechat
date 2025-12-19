@@ -21,9 +21,9 @@ import lombok.Setter;
  */
 @Entity(name = "EsiRemoteIdResolution")
 @Table(name = "esi_remote_idresolution", indexes = {
-    @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "name"),
-    @Index(columnList = "category")
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
+		@Index(columnList = "name"),
+		@Index(columnList = "category")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor

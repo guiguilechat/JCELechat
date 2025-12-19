@@ -16,7 +16,7 @@ import lombok.ToString;
 
 @Entity(name = "EsiConnectCharacterAttributes")
 @Table(name = "esi_connect_characterattributes", indexes = {
-    @Index(columnList = "fetch_active,expires")
+		@Index(columnList = "fetch_active,fetch_priority,expires")
 })
 @AllArgsConstructor
 @NoArgsConstructor

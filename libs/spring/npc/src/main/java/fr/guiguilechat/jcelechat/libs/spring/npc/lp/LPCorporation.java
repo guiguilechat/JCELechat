@@ -26,7 +26,7 @@ import lombok.Setter;
  */
 @Entity(name = "EsiNpcLpCorporation")
 @Table(name = "esi_npc_lpcorporation", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
 		@Index(columnList = "corporationId")
 })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)

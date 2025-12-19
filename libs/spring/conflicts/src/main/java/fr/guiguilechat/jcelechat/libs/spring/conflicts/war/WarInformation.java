@@ -21,7 +21,7 @@ import lombok.Setter;
 
 @Entity(name = "EsiConflictsWar")
 @Table(name = "esi_conflicts_war", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
     @Index(columnList = "aggressorAllianceId"),
     @Index(columnList = "aggressorCorporationId") })
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)

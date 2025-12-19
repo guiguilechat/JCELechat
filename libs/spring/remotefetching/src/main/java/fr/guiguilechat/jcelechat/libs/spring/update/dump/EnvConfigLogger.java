@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class Env {
+public class EnvConfigLogger {
 
 	@Lazy
 	private final ConfigurableEnvironment configurableEnvironment;

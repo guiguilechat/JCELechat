@@ -25,7 +25,7 @@ import lombok.ToString;
 
 @Entity(name = "EsiTradeContractInfo")
 @Table(name = "esi_trade_contractinfo", indexes = {
-    @Index(columnList = "fetch_active,expires"),
+	@Index(columnList = "fetch_active,fetch_priority,expires"),
     @Index(columnList = "fetched,removed,requestsItem,offersNonBpc,offersItem"),
     @Index(columnList = "region_id"),
     @Index(columnList = "secHigh"),

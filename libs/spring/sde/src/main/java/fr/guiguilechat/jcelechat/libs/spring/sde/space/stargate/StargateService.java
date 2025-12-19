@@ -12,71 +12,22 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
-import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityService;
 import fr.guiguilechat.jcelechat.model.formula.space.WarpTime;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.universe.stargate")
-// depend on solarsystem type
-@Order(4)
 public class StargateService extends
-		RemoteEntityService<Stargate, Integer, R_get_universe_stargates_stargate_id, StargateRepository> {
+		SdeEntityService<Stargate, Integer, StargateRepository> {
 
-	@Lazy
-	private final SolarSystemService solarSystemService;
-
-	@Lazy
-	private final TypeService typeService;
-
-	@Override
-	protected Stargate create(Integer entityId) {
-		Stargate ret = new Stargate();
-		ret.setId(entityId);
-		return ret;
-	}
-
-	@Override
-	protected Requested<R_get_universe_stargates_stargate_id> fetchData(Integer id, Map<String, String> properties) {
-		Requested<R_get_universe_stargates_stargate_id> ret = ESIRawPublic.INSTANCE
-				.get_universe_stargates(id, properties);
-		return ret;
-	}
-
-	protected void updateResponseOk(Stargate data, R_get_universe_stargates_stargate_id response,
-			Map<Integer, SolarSystem> idToSystem, Map<Integer, Type> idToType) {
-		data.setDestination(createIfAbsent(response.destination.stargate_id));
-		data.setSolarSystem(idToSystem.get(response.system_id));
-		data.setType(idToType.get(response.type_id));
-	}
-
-	@Override
-	protected void updateResponseOk(Map<Stargate, R_get_universe_stargates_stargate_id> responseOk) {
-		super.updateResponseOk(responseOk);
-		Map<Integer, SolarSystem> idToSystem = solarSystemService
-				.createIfAbsent(responseOk.values().stream().map(r -> r.system_id).distinct().toList());
-		Map<Integer, Type> idToType = typeService
-				.createIfAbsent(responseOk.values().stream().map(r -> r.type_id).distinct().toList());
-		responseOk.entrySet().stream()
-				.forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToSystem, idToType));
+	public StargateService() {
+		super(Stargate::new);
 	}
 
 	//
@@ -373,7 +324,6 @@ public class StargateService extends
 	public List<WayPoint> travel(Station start, Station end, double align_s, double warpspeed_aups,
 			boolean hsOnly) {
 		List<TravelTime> travelTimes = travelTimes(start, end, align_s, warpspeed_aups, hsOnly);
-		log.info("received " + travelTimes.size() + " possible jump info");
 		AStar astar = new AStar();
 		travelTimes.forEach(tt -> astar.addDistance(tt.start(), tt.end(), tt.time()));
 		astar.addStart(start.getId());

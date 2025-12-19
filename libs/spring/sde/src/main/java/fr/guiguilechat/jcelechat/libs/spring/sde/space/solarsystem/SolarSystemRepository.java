@@ -12,7 +12,7 @@ public interface SolarSystemRepository extends SdeEntityRepository<SolarSystem, 
 select
 	sg.destination.solarSystem
 from
-	EsiUniverseStargate sg
+	SdeSpaceStargate sg
 where
 	sg.solarSystem=:source
 """)
@@ -22,7 +22,7 @@ where
 select
 	sg.destination.solarSystem.id
 from
-	EsiUniverseStargate sg
+	SdeSpaceStargate sg
 where
 	sg.solarSystem.id=:sourceId
 """)

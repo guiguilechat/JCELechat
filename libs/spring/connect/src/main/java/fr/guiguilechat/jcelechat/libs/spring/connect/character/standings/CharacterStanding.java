@@ -28,7 +28,7 @@ public class CharacterStanding extends
 
 	@Entity(name = "EsiConnectCharacterStandingList")
 	@Table(name = "esi_connect_characterstandinglist", indexes = {
-	    @Index(columnList = "fetch_active,expires")
+			@Index(columnList = "fetch_active,fetch_priority,expires")
 	})
 	@NoArgsConstructor
 	@Getter

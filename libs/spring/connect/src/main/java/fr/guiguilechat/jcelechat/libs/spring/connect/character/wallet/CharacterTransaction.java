@@ -30,7 +30,7 @@ public class CharacterTransaction extends
 
 	@Entity(name = "EsiConnectCharacterTransactionList")
 	@Table(name = "esi_connect_charactertransactionlist", indexes = {
-	    @Index(columnList = "fetch_active,expires")
+			@Index(columnList = "fetch_active,fetch_priority,expires")
 	})
 	@NoArgsConstructor
 	@Getter

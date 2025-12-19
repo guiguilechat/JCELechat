@@ -23,9 +23,8 @@ import lombok.Setter;
  */
 @Entity(name = "EsiTradeContractRegion")
 @Table(name = "esi_trade_contractregion", indexes = {
-    @Index(columnList = "fetch_active,expires"),
-    @Index(columnList = "region_id")
-
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
+		@Index(columnList = "region_id")
 })
 @RequiredArgsConstructor
 @AllArgsConstructor

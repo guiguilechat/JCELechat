@@ -34,7 +34,7 @@ public class CharacterJournal extends
 
 	@Entity(name = "EsiConnectCharacterJournalList")
 	@Table(name = "esi_connect_characterjournallist", indexes = {
-	    @Index(columnList = "fetch_active,expires")
+			@Index(columnList = "fetch_active,fetch_priority,expires")
 	})
 	@NoArgsConstructor
 	@Getter

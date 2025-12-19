@@ -33,7 +33,7 @@ public class CharacterAsset extends AFetchedListElementAutoId<CharacterAsset, Ch
 
 	@Entity(name = "EsiConnectCharacterAssettList")
 	@Table(name = "esi_connect_characterassetlist", indexes = {
-			@Index(columnList = "fetch_active,expires")
+			@Index(columnList = "fetch_active,fetch_priority,expires")
 	})
 	@NoArgsConstructor
 	@Getter
