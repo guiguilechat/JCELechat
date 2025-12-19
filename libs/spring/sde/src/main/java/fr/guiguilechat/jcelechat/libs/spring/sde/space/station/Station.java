@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.space.station;
 
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.function.Function;
 
 import org.hibernate.annotations.Cache;
@@ -43,6 +44,13 @@ public class Station extends SdeInPlanetOrbit {
 	public static final long HEK_HUB_ID = 60005686;
 	public static final long JITA_HUB_ID = 60003760;
 	public static final long RENS_HUB_ID = 60004588;
+
+	public static final List<Long> HS_HUB_IDs = List.of(
+			AMARR_HUB_ID,
+			DODIXIE_HUB_ID,
+			HEK_HUB_ID,
+			JITA_HUB_ID,
+			RENS_HUB_ID);
 
 	/**
 	 * the moon this orbits around when it exists. Otherwise it's around a planet or

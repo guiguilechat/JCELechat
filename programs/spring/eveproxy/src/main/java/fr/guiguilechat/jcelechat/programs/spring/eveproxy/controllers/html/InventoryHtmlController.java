@@ -41,7 +41,6 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.ContractMarketAggregator;
-import fr.guiguilechat.jcelechat.libs.spring.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
@@ -60,6 +59,8 @@ public class InventoryHtmlController {
 
 	private final CategoryService categoryService;
 
+	private final ContractMarketAggregator contractMarketAggregator;
+
 	private final EivService eivService;
 
 	private final GroupService groupService;
@@ -73,10 +74,6 @@ public class InventoryHtmlController {
 	private final MarketHtmlController marketHtmlController;
 
 	private final MarketLineService marketLineService;
-
-	private final MarketRankingService marketRankingService;
-
-	private final ContractMarketAggregator contractMarketAggregator;
 
 	private final BlueprintMaterialService materialService;
 
@@ -473,7 +470,7 @@ public class InventoryHtmlController {
 				.map(this::linkedType)
 				.toList());
 
-		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaRanking(g));
+		model.addAttribute("jitaRanking", marketHtmlController.linkedRanking(g, List.of(Station.JITA_HUB_ID)));
 
 		return "inventory/group";
 	}
@@ -520,7 +517,7 @@ public class InventoryHtmlController {
 				.map(this::linkedGroup)
 				.toList());
 
-		model.addAttribute("jitaRanking", marketHtmlController.linkedJitaRanking(c));
+		model.addAttribute("jitaRanking", marketHtmlController.linkedRanking(c, List.of(Station.JITA_HUB_ID)));
 
 		return "inventory/category";
 	}
