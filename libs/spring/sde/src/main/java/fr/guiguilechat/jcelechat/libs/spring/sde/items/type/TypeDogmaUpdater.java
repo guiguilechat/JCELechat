@@ -107,7 +107,9 @@ public class TypeDogmaUpdater implements SdeListener {
 					typeEffects.add(TypeEffect.of(type, effectsGetter.apply(eff.effectID), eff.isDefault));
 				}
 			}
+			log.trace(" saving " + typeAttributes.size() + " typeAttributes");
 			typeAttributeService().saveAll(typeAttributes);
+			log.trace(" saving " + typeEffects.size() + " typeEffects");
 			typeEffectService().saveAll(typeEffects);
 			receivedFile = true;
 			log.info("{} processed {} typeAttribute and {} typeEffect in {} ms",

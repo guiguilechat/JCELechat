@@ -39,7 +39,7 @@ public class Stargate extends SdeInSystem {
 			Function<Integer, Type> types,
 			Function<Integer, SolarSystem> solarSystems,
 			Function<Integer, Stargate> stargates) {
-		super.update(source, null, null);
+		super.update(source, types, solarSystems);
 		setDestination(stargates.apply(source.destination.stargateID));
 	}
 

@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.space.stargate;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -36,7 +37,8 @@ public class StargateUpdater extends SdeEntityUpdater<Stargate, StargateService,
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapStargates> sources) {
-		var getSystem = solarSystemService().getterAll();
+		var getSystem = solarSystemService().getter(
+				sources.values().stream().flatMap(sg -> Stream.of(sg.solarSystemID, sg.destination.solarSystemID)));
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
 		var storedEntities = new HashMap<>(service().allById());
 		Function<Integer, Stargate> getStargate = stargateId -> storedEntities.computeIfAbsent(stargateId, service()::create);

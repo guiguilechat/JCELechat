@@ -4,10 +4,9 @@ import java.io.FileNotFoundException;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
-import java.util.stream.Collectors;
+import java.util.function.Function;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.scheduling.annotation.Async;
@@ -69,14 +68,17 @@ public class MerUpdateService {
 							.url(merfetch.url())
 							.build());
 			MER mer = new MER(merfetch).load();
-			Map<Integer, Type> typesById = typeService
-					.byId(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID).distinct().toList())
-			    .stream().collect(Collectors.toMap(Type::getId, o -> o));
-			Map<Integer, SolarSystem> systemsById = solarSystemService
-			    .createIfAbsent(mer.getKillDumpEntries().stream().map(KillDumpEntry::solarSystemID).distinct().toList());
-			killService.saveAll(mer.getKillDumpEntries().stream().map(kde -> Kill.from(kde, loadedMer,
-					typesById.get(kde.destroyedShipTypeID()),
-					systemsById.get(kde.solarSystemID()))).toList());
+			Function<Integer, Type> getType = typeService
+					.getter(mer.getKillDumpEntries().stream().map(KillDumpEntry::destroyedShipTypeID));
+			Function<Integer, SolarSystem> getSystem = solarSystemService
+					.getter(mer.getKillDumpEntries().stream().map(KillDumpEntry::solarSystemID));
+			killService.saveAll(mer.getKillDumpEntries().stream()
+					.map(kde -> Kill.from(
+							kde,
+							loadedMer,
+							getType.apply(kde.destroyedShipTypeID()),
+							getSystem.apply(kde.solarSystemID())))
+					.toList());
 			loadedMer.setEndLoad(Instant.now());
 			loadedMerService.save(loadedMer);
 
@@ -87,12 +89,10 @@ public class MerUpdateService {
 			log.info(" loaded MER for date " + localdate);
 		} else if (merfetch.error() == null) {
 			log.debug("" + localdate + " url=" + merfetch.url());
+		} else if (merfetch.error() instanceof FileNotFoundException) {
+			log.debug("{} url= {} no file", localdate, merfetch.url());
 		} else {
-			if (merfetch.error() instanceof FileNotFoundException) {
-				log.debug("{} url= {} no file", localdate, merfetch.url());
-			} else {
-				log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
-			}
+			log.debug("" + localdate + " url=" + merfetch.url(), merfetch.error());
 		}
 		return CompletableFuture.completedFuture(null);
 	}

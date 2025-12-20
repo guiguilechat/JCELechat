@@ -15,7 +15,9 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 @ConfigurationProperties(prefix = "sde.items.type")
 public class TypeUpdater extends SdeEntityUpdater<Type, TypeService, Etypes> {
@@ -44,17 +46,19 @@ public class TypeUpdater extends SdeEntityUpdater<Type, TypeService, Etypes> {
 		// be sure all the required variations exist
 		var getType = service()
 				.getter(sources.values().stream().map(p -> p.variationParentTypeID).filter(i -> i != null && i > 0));
-		var getGroup = groupService().getter(sources.values().stream().map(p -> p.groupID));
+		var getGroup = groupService()
+				.getter(sources.values().stream().map(p -> p.groupID));
 		var getMarketGroup = marketGroupService()
-				.getter(sources.values().stream().map(p -> p.marketGroupID).filter(i -> i != null && i > 0));
+				.getter(sources.values().stream().map(p -> p.marketGroupID).filter(i -> i > 0));
 		var getMetaGroup = metaGroupService()
-				.getter(sources.values().stream().map(p -> p.metaGroupID).filter(i -> i != null && i > 0));
+				.getter(sources.values().stream().map(p -> p.metaGroupID).filter(i -> i > 0));
 
 		var storedEntities = new HashMap<>(service().allById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getType, getGroup, getMarketGroup, getMetaGroup);
 		}
+		log.trace(" saving " + storedEntities.size() + " entities");
 		service().saveAll(storedEntities.values());
 	}
 
