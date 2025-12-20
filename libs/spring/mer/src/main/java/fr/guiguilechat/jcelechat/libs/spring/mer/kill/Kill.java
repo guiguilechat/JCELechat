@@ -5,8 +5,6 @@ import java.util.Objects;
 
 import fr.guiguilechat.jcelechat.libs.mer.files.KillDumpEntry;
 import fr.guiguilechat.jcelechat.libs.spring.mer.updater.LoadedMer;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -22,10 +20,11 @@ import lombok.Setter;
 
 @Entity(name = "MerKill")
 @Table(name = "mer_kill", indexes = {
-    @Index(columnList = "destroyed_ship_id"),
-		@Index(columnList = "killerCorporationId"),
+		@Index(columnList = "destroyed_ship_id"),
 		@Index(columnList = "killDate"),
-    @Index(columnList = "solar_system_id"),
+		@Index(columnList = "killerCorporationId"),
+		@Index(columnList = "killer_ship_id"),
+		@Index(columnList = "solar_system_id"),
 		@Index(columnList = "victimCorporationId"),
 		@Index(columnList = "mer_id")
 })
@@ -43,11 +42,11 @@ public class Kill {
 	@ManyToOne
 	private LoadedMer mer;
 
-	@ManyToOne
-	private Type destroyedShip;
+	private Integer destroyedShipId;
 
-	@ManyToOne
-	private SolarSystem solarSystem;
+	private Integer killerShipId;
+
+	private Integer solarSystemId;
 
 	private double bountyClaimed;
 	private double iskDestroyed;
@@ -56,17 +55,22 @@ public class Kill {
 	private int killerCorporationId;
 	private int victimCorporationId;
 
-	public static Kill from(KillDumpEntry kde, LoadedMer mer, Type destroyedShipType, SolarSystem solarSystem) {
+	public static Kill from(KillDumpEntry kde,
+			LoadedMer mer) {
+		// check for null values. If this fails, it means the parser is not up-to-date
+		kde.getKillDate().toEpochMilli();
+		kde.solarSystemId().toString();
+		kde.victimShipTypeId().toString();
 		return builder()
-				.mer(mer)
-				.destroyedShip(destroyedShipType)
-				.solarSystem(solarSystem)
-
 				.bountyClaimed(Objects.requireNonNullElse(kde.bountyClaimed(), 0.0))
+				.destroyedShipId(kde.victimShipTypeId())
 				.iskDestroyed(Objects.requireNonNullElse(kde.iskDestroyed(), 0.0))
 				.iskLost(Objects.requireNonNullElse(kde.iskLost(), 0.0))
 				.killDate(kde.getKillDate())
 				.killerCorporationId(Objects.requireNonNullElse(kde.killerCorporationID(), 0))
+				.killerShipId(kde.killerShipTypeId())
+				.mer(mer)
+				.solarSystemId(kde.solarSystemId())
 				.victimCorporationId(Objects.requireNonNullElse(kde.victimCorporationID(), 0))
 				.build();
 	}

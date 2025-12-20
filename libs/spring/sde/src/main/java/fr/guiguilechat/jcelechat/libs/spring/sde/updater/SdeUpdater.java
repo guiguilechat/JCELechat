@@ -3,9 +3,11 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Instant;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.function.Supplier;
 import java.util.zip.ZipEntry;
@@ -132,9 +134,11 @@ public class SdeUpdater implements EntityUpdater {
 					resources.put(name, sup);
 				}
 			}
-			resources.entrySet().forEach(e -> {
-				listeners.forEach(l -> l.onSdeFile(e.getKey(), e.getValue()));
-			});
+			resources.entrySet().stream()
+					.sorted(Comparator.comparing(Entry::getKey))
+					.forEach(e -> {
+						listeners.forEach(l -> l.onSdeFile(e.getKey(), e.getValue()));
+					});
 			listeners.forEach(SdeListener::afterSdeUpdate);
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());

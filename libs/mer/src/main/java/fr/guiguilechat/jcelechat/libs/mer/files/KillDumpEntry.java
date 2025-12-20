@@ -50,9 +50,17 @@ public class KillDumpEntry {
 	public Integer solarSystemID;
 	@CsvBindByName
 	public Integer solarsystem_id;
+	@CsvBindByName
+	public Integer kill_solarsystem_id;
 
-	public Integer solarSystemID() {
-		return solarSystemID != null ? solarSystemID : solarsystem_id;
+	public Integer solarSystemId() {
+		if (solarSystemID != null) {
+			return solarSystemID;
+		}
+		if (solarsystem_id != null) {
+			return solarsystem_id;
+		}
+		return kill_solarsystem_id;
 	}
 
 	// solar system name
@@ -99,7 +107,7 @@ public class KillDumpEntry {
 	@CsvBindByName
 	public Integer victim_ship_type_id;
 
-	public Integer destroyedShipTypeID() {
+	public Integer victimShipTypeId() {
 		return destroyedShipTypeID != null ? destroyedShipTypeID : victim_ship_type_id;
 	}
 
@@ -110,7 +118,7 @@ public class KillDumpEntry {
 	@CsvBindByName
 	public String victim_ship_type_name;
 
-	public String destroyedShipType() {
+	public String victimShipTypeName() {
 		return destroyedShipType != null ? destroyedShipType : victim_ship_type_name;
 	}
 
@@ -121,7 +129,7 @@ public class KillDumpEntry {
 	@CsvBindByName
 	public String victim_ship_group_name;
 
-	public String destroyedShipGroup() {
+	public String victimShipGroupName() {
 		return destroyedShipGroup != null ? destroyedShipGroup : victim_ship_group_name;
 	}
 
@@ -131,9 +139,17 @@ public class KillDumpEntry {
 	public Double iskLost;
 	@CsvBindByName
 	public Double isk_lost;
+	@CsvBindByName
+	public Double ccp_isk_lost;
 
 	public Double iskLost() {
-		return isk_lost != null ? isk_lost : iskLost;
+		if (iskLost != null) {
+			return iskLost;
+		}
+		if (isk_lost != null) {
+			return isk_lost;
+		}
+		return ccp_isk_lost;
 	}
 
 	// isk destroyed (fit value - dropped value)
@@ -142,9 +158,17 @@ public class KillDumpEntry {
 	public Double iskDestroyed;
 	@CsvBindByName
 	public Double isk_destroyed;
+	@CsvBindByName
+	public Double ccp_isk_destroyed;
 
 	public Double iskDestroyed() {
-		return iskDestroyed != null ? iskDestroyed : isk_destroyed;
+		if (iskDestroyed != null) {
+			return iskDestroyed;
+		}
+		if (isk_destroyed != null) {
+			return isk_destroyed;
+		}
+		return ccp_isk_destroyed;
 	}
 
 	// bounty claimed
@@ -184,10 +208,20 @@ public class KillDumpEntry {
 		return victimCorp != null ? victimCorp : victim_corporation_name;
 	}
 
+	// victim alliance id
+
+	@CsvBindByName
+	public Integer victim_alliance_id;
+
+	public Integer victimAllianceId() {
+		return victim_alliance_id;
+	}
+
 	// victim alliance name
 
 	@CsvBindByName
 	public String victimAlliance;
+
 	@CsvBindByName
 	public String victim_alliance_name;
 
@@ -195,9 +229,23 @@ public class KillDumpEntry {
 		return victimAlliance != null ? victimAlliance : victim_alliance_name;
 	}
 
+	@CsvBindByName
+	public Integer victim_faction_id;
+
+	public Integer victimFactionId() {
+		return victim_faction_id;
+	}
+
 	//
 	// killer / final shot
 	//
+
+	@CsvBindByName
+	public Integer killer_ship_type_id;
+
+	public Integer killerShipTypeId() {
+		return killer_ship_type_id;
+	}
 
 	// killer corporation id
 
@@ -208,7 +256,6 @@ public class KillDumpEntry {
 
 	public Integer killerCorporationID() {
 		return finalCorporationID != null ? finalCorporationID : killer_corporation_id;
-
 	}
 
 	// killer corporation name
@@ -222,6 +269,15 @@ public class KillDumpEntry {
 		return finalCorp != null ? finalCorp : killer_corporation_name;
 	}
 
+	// killer alliance id
+
+	@CsvBindByName
+	public Integer killer_alliance_id;
+
+	public Integer killerAllianceId() {
+		return killer_alliance_id;
+	}
+
 	// killer alliance name
 
 	@CsvBindByName
@@ -231,6 +287,13 @@ public class KillDumpEntry {
 
 	public String killerAlliance() {
 		return finalAlliance != null ? finalAlliance : killer_alliance_name;
+	}
+
+	@CsvBindByName
+	public Integer killer_faction_id;
+
+	public Integer killerFactionId() {
+		return victim_faction_id;
 	}
 
 	//
@@ -244,8 +307,11 @@ public class KillDumpEntry {
 		try {
 			synchronized (parser) {
 				CsvToBean<KillDumpEntry> csvToBean = new CsvToBeanBuilder<KillDumpEntry>(
-						new CSVReaderBuilder(new InputStreamReader(is)).withCSVParser(parser).build())
-						.withType(KillDumpEntry.class).withIgnoreLeadingWhiteSpace(true).build();
+						new CSVReaderBuilder(
+								new InputStreamReader(is))
+								.withCSVParser(parser).build())
+						.withType(KillDumpEntry.class)
+						.withIgnoreLeadingWhiteSpace(true).build();
 				ret = csvToBean.parse();
 			}
 		} catch (Exception e) {
