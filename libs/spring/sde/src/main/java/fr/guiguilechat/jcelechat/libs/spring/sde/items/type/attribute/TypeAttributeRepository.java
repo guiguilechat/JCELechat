@@ -14,13 +14,13 @@ public interface TypeAttributeRepository extends DeducedEntityRepository<TypeAtt
 
 	@Query("""
 select
-	ta.type.id type_id,
+	ta.typeId type_id,
 	ta.value val
 from
 	#{#entityName} ta
 where
-	ta.attribute.id=:attributeId
-	and ta.type.id in :typeIds
+	ta.attributeId=:attributeId
+	and ta.typeId in :typeIds
 """)
 	List<Object[]> listValuesByAttributeIdTypeIdIn(int attributeId, Iterable<Integer> typeIds);
 
@@ -30,17 +30,17 @@ select
     max(skLvl.value)
 from
     #{#entityName} skId
-    join #{#entityName} skLvl on skLvl.type=skId.type
+    join #{#entityName} skLvl on skLvl.typeId=skId.typeId
 where
-    skId.type.id in :typeIds
+    skId.typeId in :typeIds
     and skId.value != 0
     and(
-        (skId.attribute.id = 182 and skLvl.attribute.id=277)
-        or(skId.attribute.id = 183 and skLvl.attribute.id=278)
-        or(skId.attribute.id = 184 and skLvl.attribute.id=279)
-        or(skId.attribute.id = 1285 and skLvl.attribute.id=1286)
-        or(skId.attribute.id = 1289 and skLvl.attribute.id=1287)
-        or(skId.attribute.id = 1290 and skLvl.attribute.id=1288)
+        (skId.attributeId = 182 and skLvl.attributeId=277)
+        or(skId.attributeId = 183 and skLvl.attributeId=278)
+        or(skId.attributeId = 184 and skLvl.attributeId=279)
+        or(skId.attributeId = 1285 and skLvl.attributeId=1286)
+        or(skId.attributeId = 1289 and skLvl.attributeId=1287)
+        or(skId.attributeId = 1290 and skLvl.attributeId=1288)
     )
 group by
     skId.value

@@ -40,13 +40,13 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Type extends SdeEntity<Integer> {
 
-	@OneToMany(mappedBy = "type", fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "typeId", fetch = FetchType.LAZY)
 	private List<TypeAttribute> attributes = new ArrayList<>();
 	private BigDecimal basePrice;
 	private BigDecimal capacity;
 	@OneToOne(mappedBy = "type", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	private TypeDescription description;
-	@OneToMany(mappedBy = "type", fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "typeId", fetch = FetchType.LAZY)
 	private List<TypeEffect> effects = new ArrayList<>();
 	@ColumnDefault("0")
 	private int factionId;

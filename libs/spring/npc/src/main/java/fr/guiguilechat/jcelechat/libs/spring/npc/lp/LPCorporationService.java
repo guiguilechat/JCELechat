@@ -28,11 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 // depend on corporations, types
 @Order(4)
 public class LPCorporationService extends
-		ListingRemoteEntityService<
-    LPCorporation,
-    Integer,
-    List<R_get_loyalty_stores_corporation_id_offers>,
-    LPCorporationRepository> {
+		ListingRemoteEntityService<LPCorporation, Integer, List<R_get_loyalty_stores_corporation_id_offers>, LPCorporationRepository> {
 
 	@Lazy
 	private final NpcCorporationService npcCorporationService;
@@ -45,9 +41,9 @@ public class LPCorporationService extends
 
 	@Override
 	protected Requested<List<R_get_loyalty_stores_corporation_id_offers>> fetchData(Integer id,
-	    Map<String, String> properties) {
+			Map<String, String> properties) {
 		return ESIRawPublic.INSTANCE
-		    .get_loyalty_stores_offers(id, properties).mapBody(List::of);
+				.get_loyalty_stores_offers(id, properties).mapBody(List::of);
 	}
 
 	@Override
@@ -60,13 +56,13 @@ public class LPCorporationService extends
 
 	@Override
 	protected void updateResponseOk(
-	    Map<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> map) {
+			Map<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> map) {
 		log.trace("retrieved modified set of offers for  {} corporations", map.size());
 		super.updateResponseOk(map);
 		// first check all the offers are unique by id
 		Map<Integer, List<R_get_loyalty_stores_corporation_id_offers>> offersById = map.values().stream()
-		    .flatMap(List::stream)
-		    .collect(Collectors.groupingBy(o -> o.offer_id));
+				.flatMap(List::stream)
+				.collect(Collectors.groupingBy(o -> o.offer_id));
 
 		Map<Integer, R_get_loyalty_stores_corporation_id_offers> offerById = new HashMap<>();
 		for (Entry<Integer, List<R_get_loyalty_stores_corporation_id_offers>> e : offersById.entrySet()) {
@@ -74,10 +70,11 @@ public class LPCorporationService extends
 			if (l.size() > 0) {
 				R_get_loyalty_stores_corporation_id_offers first = l.get(0);
 				List<R_get_loyalty_stores_corporation_id_offers> different = l.stream().filter(o -> different(first, o))
-				    .toList();
+						.toList();
 				if (!different.isEmpty()) {
 					throw new RuntimeException(
-					    "offer id " + e.getKey() + " has " + different.size() + " different from the first out of " + l.size());
+							"offer id " + e.getKey() + " has " + different.size() + " different from the first out of "
+									+ l.size());
 				}
 				offerById.put(e.getKey(), first);
 			}
@@ -88,13 +85,13 @@ public class LPCorporationService extends
 		// then link the corporation observed to those offers
 		linkCorporationOfferService.clearForObserved(map.keySet());
 		List<LinkCorporationOffer> links = new ArrayList<>();
-		for ( Entry<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> e : map.entrySet()) {
+		for (Entry<LPCorporation, List<R_get_loyalty_stores_corporation_id_offers>> e : map.entrySet()) {
 			LPCorporation oc = e.getKey();
 			for (R_get_loyalty_stores_corporation_id_offers o : e.getValue()) {
 				links.add(LinkCorporationOffer.builder()
 						.lpCorp(oc)
-				    .offer(idToOffer.get(o.offer_id))
-				    .build());
+						.offer(idToOffer.get(o.offer_id))
+						.build());
 			}
 		}
 		linkCorporationOfferService.saveAll(links);
@@ -102,7 +99,7 @@ public class LPCorporationService extends
 	}
 
 	protected boolean different(R_get_loyalty_stores_corporation_id_offers o1,
-	    R_get_loyalty_stores_corporation_id_offers o2) {
+			R_get_loyalty_stores_corporation_id_offers o2) {
 		if (o1 == null == (o2 != null)) {
 			return true;
 		}
@@ -131,8 +128,10 @@ public class LPCorporationService extends
 		if (o1.required_items == o2.required_items) {
 			return false;
 		}
-		Map<Integer, Integer> m1 = Stream.of(o1.required_items).collect(Collectors.toMap(r -> r.type_id, r -> r.quantity));
-		Map<Integer, Integer> m2 = Stream.of(o2.required_items).collect(Collectors.toMap(r -> r.type_id, r -> r.quantity));
+		Map<Integer, Integer> m1 = Stream.of(o1.required_items)
+				.collect(Collectors.toMap(r -> r.type_id, r -> r.quantity));
+		Map<Integer, Integer> m2 = Stream.of(o2.required_items)
+				.collect(Collectors.toMap(r -> r.type_id, r -> r.quantity));
 		if (!m1.equals(m2)) {
 			return true;
 		}

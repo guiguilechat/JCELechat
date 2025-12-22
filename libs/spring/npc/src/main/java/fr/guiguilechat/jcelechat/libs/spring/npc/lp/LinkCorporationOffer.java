@@ -22,7 +22,7 @@ import lombok.Setter;
 @Entity(name = "EsiNpcLPCorporationOffer")
 @Table(name = "esi_npc_lpcorporationoffer", indexes = {
 		@Index(columnList = "lp_corp_id"),
-    @Index(columnList = "offer_id")
+		@Index(columnList = "offer_id")
 })
 @AllArgsConstructor
 @NoArgsConstructor

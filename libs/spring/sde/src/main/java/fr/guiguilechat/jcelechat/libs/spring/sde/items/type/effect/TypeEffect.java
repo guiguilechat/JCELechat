@@ -1,12 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.effect;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.effect.Effect;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,21 +24,22 @@ public class TypeEffect {
 
 	@Id
 	private Long id;
-	@ManyToOne(fetch = FetchType.LAZY)
-	private Type type;
-	@ManyToOne(fetch = FetchType.LAZY)
-	private Effect effect;
+
+	private int typeId;
+
+	private int effectId;
+
 	private boolean isDefault;
 
 	public static long makeId(int typeId, int effectId) {
 		return (long) Integer.MAX_VALUE * typeId + effectId;
 	}
 
-	public static TypeEffect of(Type type, Effect effect, boolean isDefault) {
+	public static TypeEffect of(int type_id, int effect_id, boolean isDefault) {
 		return builder()
-				.id(makeId(type.getId(), effect.getId()))
-				.type(type)
-				.effect(effect)
+				.id(makeId(type_id, effect_id))
+				.typeId(type_id)
+				.effectId(effect_id)
 				.isDefault(isDefault)
 				.build();
 	}
