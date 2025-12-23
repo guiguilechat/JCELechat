@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe.dto.RegionDTO;
 import lombok.RequiredArgsConstructor;
 
 @RestController

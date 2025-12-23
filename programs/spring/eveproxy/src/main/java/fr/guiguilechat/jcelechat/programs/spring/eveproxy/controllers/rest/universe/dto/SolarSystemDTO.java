@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe.dto;
 
 import java.math.BigDecimal;
 

@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.constellation.Constellati
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.universe.dto.ConstellationDTO;
 import lombok.RequiredArgsConstructor;
 
 @RestController
