@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemMaterial;
-import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.SchemProduct;
-import fr.guiguilechat.jcelechat.libs.spring.industry.planetary.Schematic;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.planetary.SchemMaterial;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.planetary.SchemProduct;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.planetary.Schematic;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.ConsumeProduct;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.PlanetEvalService.PlanetaryFactory;

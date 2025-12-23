@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.activity.IndustryActivity;
-import fr.guiguilechat.jcelechat.libs.spring.industry.activity.IndustryActivityService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.activity.IndustryActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.activity.IndustryActivityService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import jakarta.transaction.Transactional;

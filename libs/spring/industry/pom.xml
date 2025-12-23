@@ -10,6 +10,10 @@
 	<artifactId>industry</artifactId>
 	<name>Spring lib Industry</name>
 	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>esianon</artifactId>
+		</dependency>
 		<dependency> 
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>gameclient</artifactId>
@@ -17,10 +21,6 @@
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>sde</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>trade</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

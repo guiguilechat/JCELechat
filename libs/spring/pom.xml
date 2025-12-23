@@ -22,7 +22,6 @@
 		<module>npc</module>
 		<module>remotefetching</module>
 		<module>sde</module>
-		<module>trade</module>
 		<module>universe</module>
 	</modules>
 	<build>

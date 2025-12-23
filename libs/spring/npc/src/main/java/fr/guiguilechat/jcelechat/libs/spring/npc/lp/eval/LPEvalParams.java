@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.npc.lp.eval;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.ProductValuator;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;

@@ -12,11 +12,21 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
+			<artifactId>gameclient</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>sde</artifactId>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

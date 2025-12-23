@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryLineService.PriceVolumeAcc;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.PriceVolumeAcc;
 
 public record DailyExchanges(HistoryAggreg filter, List<PriceVolume> volumes) {
 

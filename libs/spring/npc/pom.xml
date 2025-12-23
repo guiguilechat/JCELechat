@@ -25,10 +25,6 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>trade</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>universe</artifactId>
 		</dependency>
 		<!-- /self dependencies -->

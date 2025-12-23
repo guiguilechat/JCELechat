@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItemService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService.ContractEval;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.ContractEvalService.EvalParams;

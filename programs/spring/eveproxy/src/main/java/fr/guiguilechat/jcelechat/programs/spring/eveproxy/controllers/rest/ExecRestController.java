@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryReqService;
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdateService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.history.HistoryReqService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

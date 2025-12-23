@@ -13,12 +13,12 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.industry.manufacturing.EivService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfo;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.contract.ContractItem;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.industry.manufacturing.EivService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractItem;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.model.formula.industry.Research;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
 import lombok.Getter;

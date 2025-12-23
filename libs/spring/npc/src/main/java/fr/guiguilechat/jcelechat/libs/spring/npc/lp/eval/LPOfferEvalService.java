@@ -10,6 +10,10 @@ import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MaterialSourcing;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.ProductValuator;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.npc.lp.Offer;
@@ -20,10 +24,6 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.mat
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProduct;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLine;
-import fr.guiguilechat.jcelechat.libs.spring.trade.regional.MarketLineService;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.MaterialSourcing;
-import fr.guiguilechat.jcelechat.libs.spring.trade.tools.ProductValuator;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
