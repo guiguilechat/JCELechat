@@ -17,7 +17,6 @@
 		<module>connect</module>
 		<module>esianon</module>
 		<module>gameclient</module>
-		<module>industry</module>
 		<module>mer</module>
 		<module>npc</module>
 		<module>remotefetching</module>

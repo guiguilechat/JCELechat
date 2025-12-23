@@ -28,10 +28,6 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>industry</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>mer</artifactId>
 			<exclusions>
 				<exclusion>
