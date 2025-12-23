@@ -33,10 +33,6 @@
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>esianon</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>npc</artifactId>
-		</dependency>
 		<!--		other dependencies-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>

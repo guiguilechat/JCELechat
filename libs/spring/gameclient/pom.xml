@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>gameclient</artifactId>
-	<name>Spring lib Gameclient</name>
+	<name>LIB Spring Gameclient</name>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs</groupId>

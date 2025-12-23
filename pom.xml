@@ -332,11 +332,6 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-				<artifactId>npc</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 				<artifactId>remotefetching</artifactId>
 				<version>${project.version}</version>
 			</dependency>

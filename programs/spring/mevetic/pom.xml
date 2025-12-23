@@ -28,7 +28,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>npc</artifactId>
+			<artifactId>esianon</artifactId>
 		</dependency>
 		<!--		other dependencies-->
 		<dependency>

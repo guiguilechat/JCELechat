@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 	<artifactId>connect</artifactId>
-	<name>Spring lib Connect</name>
+	<name>LIB Spring Connect</name>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
