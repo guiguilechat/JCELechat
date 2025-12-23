@@ -10,10 +10,9 @@
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>cli</artifactId>
 	<packaging>pom</packaging>
-	<name>programs cli</name>
+	<name>POM Programs CLI</name>
 	<description>programs that generate cli jar</description>
 	<modules>
-		<module>checkeiv</module>
 		<module>gankhistory</module>
 		<module>merstats</module>
 		<module>showattributes</module>

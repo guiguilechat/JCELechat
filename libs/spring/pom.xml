@@ -11,7 +11,7 @@
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>spring</artifactId>
 	<packaging>pom</packaging>
-	<name>POM Libs Spring</name>
+	<name>POM Spring Libs</name>
 	<description>pom of the JCELechat libraries made for spring</description>
 	<modules>
 		<module>connect</module>

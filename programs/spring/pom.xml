@@ -10,7 +10,7 @@
 	<groupId>fr.guiguilechat.jcelechat.programs</groupId>
 	<artifactId>spring</artifactId>
 	<packaging>pom</packaging>
-	<name>Spring programs</name>
+	<name>POM Programs Spring</name>
 	<description>programs that generate spring war</description>
 	<modules>
 <!--		<module>evehistory</module>-->
