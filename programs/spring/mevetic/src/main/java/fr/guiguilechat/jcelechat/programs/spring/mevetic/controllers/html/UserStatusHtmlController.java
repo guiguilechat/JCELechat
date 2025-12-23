@@ -12,11 +12,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAsset;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterAssetService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;

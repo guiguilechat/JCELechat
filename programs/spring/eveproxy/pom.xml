@@ -24,7 +24,7 @@
 		<!-- own dependencies -->
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>conflicts</artifactId>
+			<artifactId>esianon</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>

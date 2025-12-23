@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.alliance.AllianceInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact.CharacterContactList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.ACharDataRecordListService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;

@@ -7,14 +7,9 @@
 		<version>7.44.1</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-	<artifactId>npc</artifactId>
-	<name>Spring lib Npc</name>
+	<artifactId>esianon</artifactId>
+	<name>LIB Spring ESI Anon</name>
 	<dependencies>
-		<!-- self dependencies -->
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>esianon</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>remotefetching</artifactId>
@@ -23,15 +18,6 @@
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>sde</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>trade</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>universe</artifactId>
-		</dependency>
-		<!-- /self dependencies -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -48,5 +34,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<description>provide corporation, agent, faction</description>
+	<description>updates entities anonymously from ESI</description>
 </project>

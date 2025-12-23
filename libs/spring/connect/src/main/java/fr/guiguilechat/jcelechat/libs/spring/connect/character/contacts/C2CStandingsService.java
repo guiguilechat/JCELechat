@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationService;
 import lombok.RequiredArgsConstructor;
 
 /**

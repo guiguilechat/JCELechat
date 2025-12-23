@@ -19,12 +19,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformation;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.character.CharacterInformationService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.faction.FactionInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;

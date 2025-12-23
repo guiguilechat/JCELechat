@@ -12,7 +12,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-			<artifactId>affiliations</artifactId>
+			<artifactId>esianon</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

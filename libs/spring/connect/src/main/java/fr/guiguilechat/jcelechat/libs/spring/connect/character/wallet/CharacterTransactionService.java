@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.templates.AConnectedCharDataService;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
