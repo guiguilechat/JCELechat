@@ -23,6 +23,22 @@ import com.opencsv.bean.CsvToBeanBuilder;
  */
 public class KillDumpEntry {
 
+	/**
+	 * @return first object non null ; null if objects are null, empty, or does not
+	 *         contain non-null object
+	 */
+	@SafeVarargs
+	static <T> T coalesce(T... objects) {
+		if (objects != null) {
+			for (T o : objects) {
+				if (o != null) {
+					return o;
+				}
+			}
+		}
+		return null;
+	}
+
 	//
 	// general : date and place
 	//
@@ -35,7 +51,7 @@ public class KillDumpEntry {
 	public String kill_datetime;
 
 	public String killDateTime() {
-		return killTime != null ? killTime : kill_datetime;
+		return coalesce(killTime, kill_datetime);
 	}
 
 	static final DateTimeFormatter DATEREADER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss", Locale.ROOT);
@@ -54,13 +70,7 @@ public class KillDumpEntry {
 	public Integer kill_solarsystem_id;
 
 	public Integer solarSystemId() {
-		if (solarSystemID != null) {
-			return solarSystemID;
-		}
-		if (solarsystem_id != null) {
-			return solarsystem_id;
-		}
-		return kill_solarsystem_id;
+		return coalesce(solarSystemID, solarsystem_id, kill_solarsystem_id);
 	}
 
 	// solar system name
@@ -143,13 +153,7 @@ public class KillDumpEntry {
 	public Double ccp_isk_lost;
 
 	public Double iskLost() {
-		if (iskLost != null) {
-			return iskLost;
-		}
-		if (isk_lost != null) {
-			return isk_lost;
-		}
-		return ccp_isk_lost;
+		return coalesce(iskLost, isk_lost, ccp_isk_lost);
 	}
 
 	// isk destroyed (fit value - dropped value)
@@ -162,13 +166,7 @@ public class KillDumpEntry {
 	public Double ccp_isk_destroyed;
 
 	public Double iskDestroyed() {
-		if (iskDestroyed != null) {
-			return iskDestroyed;
-		}
-		if (isk_destroyed != null) {
-			return isk_destroyed;
-		}
-		return ccp_isk_destroyed;
+		return coalesce(iskDestroyed, isk_destroyed, ccp_isk_destroyed);
 	}
 
 	// bounty claimed

@@ -61,7 +61,7 @@ logging:
 
 mer:
    update:
-      skip: true
+#      skip: true
 
 sde:
    fetcher:

@@ -20,11 +20,11 @@ import lombok.Setter;
 
 @Entity(name = "MerKill")
 @Table(name = "mer_kill", indexes = {
-		@Index(columnList = "destroyed_ship_id"),
 		@Index(columnList = "killDate"),
+		@Index(columnList = "solarSystemId"),
+		@Index(columnList = "victimTypeId"),
 		@Index(columnList = "killerCorporationId"),
-		@Index(columnList = "killer_ship_id"),
-		@Index(columnList = "solar_system_id"),
+		@Index(columnList = "killerTypeId"),
 		@Index(columnList = "victimCorporationId"),
 		@Index(columnList = "mer_id")
 })
@@ -42,18 +42,33 @@ public class Kill {
 	@ManyToOne
 	private LoadedMer mer;
 
-	private Integer destroyedShipId;
-
-	private Integer killerShipId;
-
 	private Integer solarSystemId;
 
-	private double bountyClaimed;
-	private double iskDestroyed;
-	private double iskLost;
 	private Instant killDate;
-	private int killerCorporationId;
+
+	// victim
+
+	/** type of the ship/structure detroyed */
+	private Integer victimTypeId;
+
 	private int victimCorporationId;
+
+	private double bountyClaimed;
+
+	/** value of the hull + items that were destroyed */
+	private double iskDestroyed;
+
+	/** total value of the fitting */
+	private double iskLost;
+
+	// killer
+
+	/** last hit was made by a user controlling ship/structure */
+	private Integer killerTypeId;
+
+	private int killerCorporationId;
+
+	// parsing
 
 	public static Kill from(KillDumpEntry kde,
 			LoadedMer mer) {
@@ -63,12 +78,12 @@ public class Kill {
 		kde.victimShipTypeId().toString();
 		return builder()
 				.bountyClaimed(Objects.requireNonNullElse(kde.bountyClaimed(), 0.0))
-				.destroyedShipId(kde.victimShipTypeId())
+				.victimTypeId(kde.victimShipTypeId())
 				.iskDestroyed(Objects.requireNonNullElse(kde.iskDestroyed(), 0.0))
 				.iskLost(Objects.requireNonNullElse(kde.iskLost(), 0.0))
 				.killDate(kde.getKillDate())
 				.killerCorporationId(Objects.requireNonNullElse(kde.killerCorporationID(), 0))
-				.killerShipId(kde.killerShipTypeId())
+				.killerTypeId(kde.killerShipTypeId())
 				.mer(mer)
 				.solarSystemId(kde.solarSystemId())
 				.victimCorporationId(Objects.requireNonNullElse(kde.victimCorporationID(), 0))

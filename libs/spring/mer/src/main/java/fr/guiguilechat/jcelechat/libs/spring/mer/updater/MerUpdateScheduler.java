@@ -32,7 +32,7 @@ public class MerUpdateScheduler {
 	@Lazy
 	final private MerUpdateService merUpdateService;
 
-	private int max = 10;
+	private int max = 3;
 
 	private boolean skip = false;
 

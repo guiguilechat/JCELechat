@@ -7,80 +7,82 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.lang.NonNull;
 
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillStats;
+
 public interface KillRepository extends JpaRepository<Kill, Long> {
 
-	public List<Kill> findByDestroyedShipIdIn(Collection<Integer> destroyedShipTypeId);
+	List<Kill> findByVictimTypeIdIn(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC') date_month,
+	trunc( min(kill.killDate) , year) period_start,
+	DATEADD(year, 1, trunc( min(kill.killDate) , year)) period_end,
 	count(*) nb_kills,
-	sum(kill.isk_lost) iskLost,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
-	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+	sum(kill.iskLost) iskLost,
+	min(kill.iskDestroyed)
 from
-	mer_kill kill
+	#{#entityName} kill
 where
-	kill.destroyed_ship_id in :destroyedShipTypeId
+	kill.victimTypeId in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC')
+	trunc( kill.killDate , year)
 order by
-	DATE_TRUNC( 'month', kill.kill_date at time zone 'UTC') desc
-""", nativeQuery = true)
-	public List<Object[]> monthlyKills(Collection<Integer> destroyedShipTypeId);
+	trunc( min(kill.killDate) , year) desc
+""")
+	List<KillStats> yearlyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC') date_week,
+	trunc( min(kill.killDate) , month) period_start,
+	DATEADD(month, 1, trunc( min(kill.killDate) , month)) period_end,
 	count(*) nb_kills,
-	sum(kill.isk_lost) iskLost,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
-	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+	sum(kill.iskLost) iskLost,
+	min(kill.iskDestroyed)
 from
-	mer_kill kill
+	#{#entityName} kill
 where
-	kill.destroyed_ship_id in :destroyedShipTypeId
+	kill.victimTypeId in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC')
+	trunc( kill.killDate , month)
 order by
-	DATE_TRUNC( 'week', kill.kill_date at time zone 'UTC') desc
-""", nativeQuery = true)
-	public List<Object[]> weeklyKills(Collection<Integer> destroyedShipTypeId);
+	trunc( min(kill.killDate) , month) desc
+""")
+	List<KillStats> monthlyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC') date_week,
+	trunc( min(kill.killDate) , week) period_start,
+	DATEADD(week, 1, trunc( min(kill.killDate) , week)) period_end,
 	count(*) nb_kills,
-	sum(kill.isk_lost) iskLost,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
-	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+	sum(kill.iskLost) iskLost,
+	min(kill.iskDestroyed)
 from
-	mer_kill kill
+	#{#entityName} kill
 where
-	kill.destroyed_ship_id in :destroyedShipTypeId
+	kill.victimTypeId in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC')
+	trunc( kill.killDate , week)
 order by
-	DATE_TRUNC( 'year', kill.kill_date at time zone 'UTC') desc
-""", nativeQuery = true)
-	public List<Object[]> yearlyKills(Collection<Integer> destroyedShipTypeId);
+	trunc( min(kill.killDate) , week) desc
+""")
+	List<KillStats> weeklyKills(Collection<Integer> destroyedShipTypeId);
 
 	@Query(value = """
 select
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC') date_week,
+	trunc( min(kill.killDate) , day) period_start,
+	DATEADD(day, 1, trunc( min(kill.killDate) , day)) period_end,
 	count(*) nb_kills,
-	sum(kill.isk_lost) iskLost,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY kill.isk_lost),
-	percentile_cont(0) WITHIN GROUP (ORDER BY kill.isk_lost)
+	sum(kill.iskLost) iskLost,
+	min(kill.iskDestroyed)
 from
-	mer_kill kill
+	#{#entityName} kill
 where
-	kill.destroyed_ship_id in :destroyedShipTypeId
+	kill.victimTypeId in :destroyedShipTypeId
 group by
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC')
+	trunc( kill.killDate , day)
 order by
-	DATE_TRUNC( 'day', kill.kill_date at time zone 'UTC') desc
-""", nativeQuery = true)
-	public List<Object[]> dailyKills(@NonNull Collection<Integer> destroyedShipTypeId);
+	trunc( min(kill.killDate) , day) desc
+""")
+	List<KillStats> dailyKills(@NonNull Collection<Integer> destroyedShipTypeId);
 
 }

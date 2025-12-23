@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.
 
 import java.util.List;
 
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillsAggregation;
+
 public record KillsFilters(
-		List<Integer> types, String timeSort, AggregPeriod period) {
+		List<Integer> types, String timeSort, KillsAggregation period) {
 }

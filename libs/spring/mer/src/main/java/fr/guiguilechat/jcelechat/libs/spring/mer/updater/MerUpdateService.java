@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.libs.mer.MER;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher;
 import fr.guiguilechat.jcelechat.libs.mer.MERFetcher.MERFetch;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.Kill;
-import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillService;
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.KillRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class MerUpdateService {
 
-	final private KillService killService;
+	final private KillRepository killRepository;
 
 	final private LoadedMerService loadedMerService;
 
@@ -58,7 +58,7 @@ public class MerUpdateService {
 							.url(merfetch.url())
 							.build());
 			MER mer = new MER(merfetch).load();
-			killService.saveAll(mer.getKillDumpEntries().stream()
+			killRepository.saveAllAndFlush(mer.getKillDumpEntries().stream()
 					.map(kde -> Kill.from(
 							kde,
 							loadedMer))
