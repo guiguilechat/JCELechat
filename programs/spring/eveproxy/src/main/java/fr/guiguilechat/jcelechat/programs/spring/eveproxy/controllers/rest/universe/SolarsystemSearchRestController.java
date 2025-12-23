@@ -33,13 +33,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.SystemActivityType;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.SystemStatisticsService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.SystemDateActivity;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.selectors.SystemSelectorId;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.selectors.SystemSelectorName;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemActivityType;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.SystemStatisticsService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;

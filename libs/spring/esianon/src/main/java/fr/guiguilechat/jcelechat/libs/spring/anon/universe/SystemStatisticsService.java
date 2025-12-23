@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe;
 
 import java.time.Instant;
 import java.util.List;
@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumpsService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKillsService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps.SystemJumpsService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.kills.SystemKillsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

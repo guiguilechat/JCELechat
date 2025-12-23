@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps;
 
 import java.time.Instant;
 import java.util.List;

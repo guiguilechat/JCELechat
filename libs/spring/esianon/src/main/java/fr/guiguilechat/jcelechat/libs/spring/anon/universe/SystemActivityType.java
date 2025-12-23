@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe;
 
 public enum SystemActivityType {
 

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe.kills;
 
 import java.time.Instant;
 import java.util.List;
@@ -13,12 +13,12 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.DateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.kills.SystemKills.SystemKillsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills.SystemKills.SystemKillsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
 import lombok.RequiredArgsConstructor;

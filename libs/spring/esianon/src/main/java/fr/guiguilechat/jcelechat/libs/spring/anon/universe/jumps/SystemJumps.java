@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetch.BatchItem;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps;

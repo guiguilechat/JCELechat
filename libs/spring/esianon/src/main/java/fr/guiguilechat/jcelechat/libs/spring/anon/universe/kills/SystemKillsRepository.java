@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.kills;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe.kills;
 
 import java.time.Instant;
 import java.util.List;

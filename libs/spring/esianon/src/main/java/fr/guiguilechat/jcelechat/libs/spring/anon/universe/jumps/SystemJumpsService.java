@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps;
+package fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps;
 
 import java.time.Instant;
 import java.util.List;
@@ -13,13 +13,13 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.DateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.DateAggregation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.PeriodHeat;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.SystemDateActivity;
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.DateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.DateAggregation;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.PeriodHeat;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.aggregate.SystemDateActivity;
-import fr.guiguilechat.jcelechat.libs.spring.universe.statistics.jumps.SystemJumps.SystemJumpsFetch;
 import fr.guiguilechat.jcelechat.libs.spring.update.batch.BatchFetchService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps;
 import lombok.RequiredArgsConstructor;
