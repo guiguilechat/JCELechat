@@ -7,6 +7,7 @@ import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.time.temporal.ChronoField;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -14,12 +15,16 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.axis.PeriodAxis;
+import org.jfree.chart.axis.PeriodAxisLabelInfo;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.chart.renderer.xy.XYStepRenderer;
 import org.jfree.data.time.Day;
 import org.jfree.data.time.Month;
 import org.jfree.data.time.RegularTimePeriod;
@@ -103,7 +108,7 @@ public class MerKillsRestController {
 
 	@Operation(summary = "type kills chart", description = "create a chart of the kills of an type")
 	@Transactional
-	@GetMapping("/fortype/{typeId}/chart")
+	@GetMapping("/type/{typeId}/chart")
 	public void chartVictimTypeId(
 			@PathVariable int typeId,
 			HttpServletResponse response,
@@ -118,7 +123,7 @@ public class MerKillsRestController {
 		KillsAggregation ka = aggregation.orElse(KillsAggregation.MONTHLY);
 		List<KillStats> stats = killService.stats(ka, List.of(typeId));
 		JFreeChart chart = drawChart(stats,
-				"daily kills of " + t.toString() + ", aggregated " + ka.legend(),
+				"kills of " + t.toString() + ", aggregated " + ka.legend(),
 				ka);
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
@@ -137,49 +142,98 @@ public class MerKillsRestController {
 	static RegularTimePeriod period(KillsAggregation ka, Instant start) {
 		OffsetDateTime odt = start.atOffset(ZoneOffset.UTC);
 		return switch (ka) {
-		case DAYLY -> new Day(odt.getDayOfMonth(), odt.getMonthValue(), odt.getYear());
+		case DAILY -> new Day(odt.getDayOfMonth(), odt.getMonthValue(), odt.getYear());
 		case MONTHLY -> new Month(odt.getMonthValue(), odt.getYear());
 		case WEEKLY -> new Week(odt.get(ChronoField.ALIGNED_WEEK_OF_YEAR), odt.getYear());
 		case YEARLY -> new Year(odt.getYear());
 		default -> throw new NullPointerException("case " + ka + " not hanlded");
 		};
-
 	}
 
 	static JFreeChart drawChart(List<KillStats> stats, String title, KillsAggregation ka) {
+		Color bgCol = new Color(23, 23, 23);
+		Color textColor = new Color(150, 160, 150);
+		Color qttyCol = new Color(20, 80, 110);
+		Color avgFitValCol = new Color(180, 40, 20);
+		Color minDestroyedCol = new Color(152, 60, 60);
+
 		TimeSeries avgValueSeries = new TimeSeries("average value");
 		TimeSeries minValueSeries = new TimeSeries("min destroyed");
 		TimeSeries qttySeries = new TimeSeries("daily kills");
-		for (KillStats stat : stats) {
+
+		List<KillStats> sortedStats = new ArrayList<>(stats);
+		Collections.sort(sortedStats, Comparator.comparing(KillStats::periodStart));
+		KillStats lastStat = null;
+		for (KillStats stat : sortedStats) {
+			if (lastStat != null && lastStat.periodEnd().isBefore(stat.periodStart())) {
+				// a period was missing : add it
+				RegularTimePeriod period = period(ka, lastStat.periodEnd());
+				avgValueSeries.add(period, lastStat.avgFitPrice() / 1000000);
+				minValueSeries.add(period, lastStat.minIskDestroyed().doubleValue() / 1000000);
+				qttySeries.add(period, 0.0);
+			}
 			RegularTimePeriod period = period(ka, stat.periodStart());
 			avgValueSeries.add(period, stat.avgFitPrice() / 1000000);
 			minValueSeries.add(period, stat.minIskDestroyed().doubleValue() / 1000000);
 			qttySeries.add(period, stat.killPerDay());
+			lastStat = stat;
 		}
+		// need to add an additional period to show the last one
+		RegularTimePeriod period = period(ka, lastStat.periodEnd());
+		avgValueSeries.add(period, avgValueSeries.getValue(avgValueSeries.getItemCount() - 1));
+		minValueSeries.add(period, minValueSeries.getValue(minValueSeries.getItemCount() - 1));
+		qttySeries.add(period, qttySeries.getValue(qttySeries.getItemCount() - 1));
 
 		XYPlot plot = new XYPlot();
-		DateAxis timeAxis = new DateAxis(null);
-		timeAxis.setLowerMargin(0.02);
-		timeAxis.setUpperMargin(0.02);
-		plot.setDomainAxis(timeAxis);
+		plot.setBackgroundPaint(bgCol);
+		plot.setDomainGridlinePaint(textColor);
+		plot.setRangeGridlinePaint(textColor);
 
+		PeriodAxis xAxis = new PeriodAxis(null);
+		xAxis.setLowerMargin(0.02);
+		xAxis.setUpperMargin(0.02);
+		xAxis.setMajorTickTimePeriodClass(Year.class);
+		xAxis.setMinorTickTimePeriodClass(Month.class);
+		xAxis.setTickLabelPaint(textColor);
+		PeriodAxisLabelInfo[] lis = Stream.of(xAxis.getLabelInfo())
+				.map(li -> new PeriodAxisLabelInfo(
+						li.getPeriodClass(),
+						li.getDateFormat(),
+						li.getPadding(),
+						li.getLabelFont(),
+						textColor,
+						li.getDrawDividers(),
+						li.getDividerStroke(),
+						li.getDividerPaint()))
+				.toArray(PeriodAxisLabelInfo[]::new);
+		xAxis.setLabelInfo(lis);
+		xAxis.setAxisLinePaint(textColor);
+		plot.setDomainAxis(xAxis);
+
+		// quantity axis
 		{
 			NumberAxis qttyAxis = new NumberAxis("kills");
+			qttyAxis.setTickLabelPaint(textColor);
+			qttyAxis.setLabelPaint(textColor);
+
 			plot.setRangeAxis(0, qttyAxis);
 			TimeSeriesCollection qttyColl = new TimeSeriesCollection(qttySeries);
 			plot.setDataset(0, qttyColl);
-			XYLineAndShapeRenderer renderer0 = new XYLineAndShapeRenderer(false,
-					true);
+			XYStepRenderer renderer0 = new XYStepRenderer();
+			renderer0.setSeriesPaint(0, qttyCol);
 			plot.setRenderer(0, renderer0);
 			plot.mapDatasetToRangeAxis(0, 0);
 		}
 
+		// price axis
 		{
 			NumberAxis priceAxis = new NumberAxis("price (M)");
+			priceAxis.setTickLabelPaint(textColor);
+			priceAxis.setLabelPaint(textColor);
 			plot.setRangeAxis(1, priceAxis);
-			XYLineAndShapeRenderer renderer1 = new XYLineAndShapeRenderer(false,
-					true);
-
+			XYStepRenderer renderer1 = new XYStepRenderer();
+			renderer1.setSeriesPaint(0, avgFitValCol);
+			renderer1.setSeriesPaint(1, minDestroyedCol);
 			TimeSeriesCollection priceCollection = new TimeSeriesCollection(avgValueSeries);
 			priceCollection.addSeries(minValueSeries);
 			plot.setDataset(1, priceCollection);
@@ -192,7 +246,10 @@ public class MerKillsRestController {
 				JFreeChart.DEFAULT_TITLE_FONT,
 				plot,
 				true);
-		chart.setBackgroundPaint(Color.WHITE);
+		chart.setBackgroundPaint(bgCol);
+		chart.getLegend().setBackgroundPaint(bgCol);
+		chart.getTitle().setPaint(textColor);
+		chart.getLegend().setItemPaint(textColor);
 
 		return chart;
 	}

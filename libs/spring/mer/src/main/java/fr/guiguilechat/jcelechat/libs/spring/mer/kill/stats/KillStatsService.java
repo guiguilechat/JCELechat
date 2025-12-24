@@ -19,7 +19,7 @@ public class KillStatsService implements MerUpdateListener {
 	@Cacheable("merKillsStats")
 	public List<KillStats> stats(KillsAggregation aggreg, Collection<Integer> destroyedShipTypeId) {
 		return switch (aggreg) {
-		case DAYLY -> repo.dailyKills(destroyedShipTypeId);
+		case DAILY -> repo.dailyKills(destroyedShipTypeId);
 		case MONTHLY -> repo.monthlyKills(destroyedShipTypeId);
 		case WEEKLY -> repo.weeklyKills(destroyedShipTypeId);
 		case YEARLY -> repo.yearlyKills(destroyedShipTypeId);

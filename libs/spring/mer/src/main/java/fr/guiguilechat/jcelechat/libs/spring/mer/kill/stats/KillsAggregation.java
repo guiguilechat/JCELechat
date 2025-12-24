@@ -7,7 +7,7 @@ import java.time.temporal.ChronoField;
 
 /** how to aggregate kills */
 public enum KillsAggregation {
-	DAYLY {
+	DAILY {
 		@Override
 		public String format(OffsetDateTime offsetted) {
 			return new StringBuilder()
