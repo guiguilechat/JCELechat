@@ -211,34 +211,34 @@ public class MerKillsRestController {
 		xAxis.setAxisLinePaint(textColor);
 		plot.setDomainAxis(xAxis);
 
+		// price axis
+		{
+			NumberAxis priceAxis = new NumberAxis("price (M)");
+			priceAxis.setTickLabelPaint(textColor);
+			priceAxis.setLabelPaint(textColor);
+			plot.setRangeAxis(0, priceAxis);
+			XYStepRenderer renderer1 = new XYStepRenderer();
+			renderer1.setSeriesPaint(0, avgFitValCol);
+			renderer1.setSeriesPaint(1, minDestroyedCol);
+			TimeSeriesCollection priceCollection = new TimeSeriesCollection(avgValueSeries);
+			priceCollection.addSeries(minValueSeries);
+			plot.setDataset(0, priceCollection);
+			plot.setRenderer(0, renderer1);
+			plot.mapDatasetToRangeAxis(0, 0);
+		}
+
 		// quantity axis
 		{
 			NumberAxis qttyAxis = new NumberAxis("kills");
 			qttyAxis.setTickLabelPaint(textColor);
 			qttyAxis.setLabelPaint(textColor);
 
-			plot.setRangeAxis(0, qttyAxis);
+			plot.setRangeAxis(1, qttyAxis);
 			TimeSeriesCollection qttyColl = new TimeSeriesCollection(qttySeries);
-			plot.setDataset(0, qttyColl);
+			plot.setDataset(1, qttyColl);
 			XYStepRenderer renderer0 = new XYStepRenderer();
 			renderer0.setSeriesPaint(0, qttyCol);
-			plot.setRenderer(0, renderer0);
-			plot.mapDatasetToRangeAxis(0, 0);
-		}
-
-		// price axis
-		{
-			NumberAxis priceAxis = new NumberAxis("price (M)");
-			priceAxis.setTickLabelPaint(textColor);
-			priceAxis.setLabelPaint(textColor);
-			plot.setRangeAxis(1, priceAxis);
-			XYStepRenderer renderer1 = new XYStepRenderer();
-			renderer1.setSeriesPaint(0, avgFitValCol);
-			renderer1.setSeriesPaint(1, minDestroyedCol);
-			TimeSeriesCollection priceCollection = new TimeSeriesCollection(avgValueSeries);
-			priceCollection.addSeries(minValueSeries);
-			plot.setDataset(1, priceCollection);
-			plot.setRenderer(1, renderer1);
+			plot.setRenderer(1, renderer0);
 			plot.mapDatasetToRangeAxis(1, 1);
 		}
 
