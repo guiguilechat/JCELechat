@@ -277,4 +277,45 @@ order by pct_sales_above_so desc
 """, nativeQuery = true)
 	List<RankedOffer> rankGroupSellOffers(Iterable<Long> locationIds, int groupId);
 
+	// accelerators
+
+	public record RatedAccelerator(Number typeId, String typeName, Number spGain, Number price, Number spPMIsk) {
+
+	}
+
+	@Query("""
+select
+	t.id,
+	t.name,
+	(int_att.value*1.5*dur_att.value/60000),
+	(select
+			min(price)
+		from
+			EsiTradeMarketLine ml
+		where
+			ml.typeId=t.id
+			and not ml.isBuyOrder
+			and ml.locationId=:locationId
+	),
+	(int_att.value*1.5*dur_att.value/60000)
+		*1000000
+		/(select
+			min(price)
+		from
+			EsiTradeMarketLine ml
+		where
+			ml.typeId=t.id
+			and not ml.isBuyOrder
+			and ml.locationId=:locationId
+		)
+from
+	SdeItemsType t
+	join SdeItemsTypeAttribute int_att on t.id=int_att.typeId and int_att.attributeId=176
+	join SdeItemsTypeAttribute dur_att on t.id=dur_att.typeId and dur_att.attributeId=330
+where
+	t.marketGroup.id=2487
+	and t.published
+""")
+	List<RatedAccelerator> rateAccelerators(long locationId);
+
 }

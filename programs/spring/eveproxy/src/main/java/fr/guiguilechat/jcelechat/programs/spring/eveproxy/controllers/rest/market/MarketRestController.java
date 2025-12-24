@@ -26,8 +26,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.AcceleratorsRatingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RatedAccelerator;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.GroupCategoryChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
@@ -38,6 +40,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import io.swagger.v3.oas.annotations.Operation;
@@ -51,6 +54,8 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/api/market")
 @RequiredArgsConstructor
 public class MarketRestController {
+
+	private final AcceleratorsRatingService acceleratorsRatingService;
 
 	private final MarketLineService marketLineService;
 
@@ -391,6 +396,15 @@ public class MarketRestController {
 			default -> throw new UnsupportedOperationException("case "+catgroup+" not handled");
 			};
 		}
+		return RestControllerHelper.makeResponse(data, accept);
+	}
+
+	@Transactional
+	@GetMapping("/rate/accelerators")
+	public ResponseEntity<List<RatedAccelerator>> rateAccelerators(
+			@RequestParam Optional<Long> locationId,
+			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
+		List<RatedAccelerator> data = acceleratorsRatingService.rate(locationId.orElse(Station.JITA_HUB_ID));
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 }

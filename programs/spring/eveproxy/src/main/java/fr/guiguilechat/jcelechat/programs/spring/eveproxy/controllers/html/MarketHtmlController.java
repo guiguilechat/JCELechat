@@ -29,8 +29,9 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeN
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.AcceleratorsRatingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.GroupCategoryChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
@@ -58,6 +59,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/html/market")
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
+
+	private final AcceleratorsRatingService acceleratorsRatingService;
 
 	private final CategoryService categoryService;
 
@@ -249,6 +252,7 @@ public class MarketHtmlController {
 								.toList());
 			}
 		}
+		model.addAttribute("acceleratorsRatingJita", rateAcceleratorsURI(Station.JITA_HUB_ID).toString());
 		PERIOD periodValue = period.orElse(PERIOD.week);
 		model.addAttribute("periods", PERIOD.values());
 		model.addAttribute("period", periodValue);
@@ -463,4 +467,36 @@ public class MarketHtmlController {
 				.toList();
 	}
 
+	// accelerators rating
+
+	@Transactional
+	@GetMapping("rate/accelerators")
+	public String rateAccelerators(Model model,
+			@RequestParam Optional<Long> locationId)
+			throws InterruptedException, ExecutionException {
+		long locId = locationId.orElse(Station.JITA_HUB_ID);
+		model.addAttribute("accelerators", acceleratorsRatingService.rate(locId));
+
+		Station sta = locId > Integer.MAX_VALUE
+				? null
+				: stationService.byId((int) locId);
+		String locationName = sta == null ? "location:" + locationId : sta.name();
+		model.addAttribute("locationName", locationName);
+		model.addAttribute("amarrUrl", rateAcceleratorsURI(Station.AMARR_HUB_ID).toString());
+		model.addAttribute("dodixieUrl", rateAcceleratorsURI(Station.DODIXIE_HUB_ID).toString());
+		model.addAttribute("hekUrl", rateAcceleratorsURI(Station.HEK_HUB_ID).toString());
+		model.addAttribute("jitaUrl", rateAcceleratorsURI(Station.JITA_HUB_ID).toString());
+		model.addAttribute("rensUrl", rateAcceleratorsURI(Station.RENS_HUB_ID).toString());
+
+		return "market/accelerators";
+	}
+
+	public URI rateAcceleratorsURI(Long locationId) {
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "rateAccelerators", null,
+						locationId)
+				.build()
+				.toUri();
+
+	}
 }
