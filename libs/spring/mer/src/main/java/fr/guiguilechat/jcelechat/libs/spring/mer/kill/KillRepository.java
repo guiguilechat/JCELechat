@@ -85,4 +85,6 @@ order by
 """)
 	List<KillStats> dailyKills(@NonNull Collection<Integer> destroyedShipTypeId);
 
+	boolean existsByVictimTypeId(int typeId);
+
 }

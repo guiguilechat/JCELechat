@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer;
 
 import java.awt.Color;
 import java.io.IOException;
+import java.net.URI;
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
@@ -35,6 +36,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillStats;
 import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillStatsService;
@@ -101,30 +103,35 @@ public class MerKillsRestController {
 
 	@Operation(summary = "type kills chart", description = "create a chart of the kills of an type")
 	@Transactional
-	@GetMapping("/{filterBy}/{filter}/chart")
-	public void chartStatsByVictimType(
-	    @PathVariable @Parameter(description = "what is the filter : gi, gn, ti, tn for Group/Type Id/Name") String filterBy,
-	    @PathVariable @Parameter(description = "id or name to filter") String filter,
+	@GetMapping("/fortype/{typeId}/chart")
+	public void chartVictimTypeId(
+			@PathVariable int typeId,
 			HttpServletResponse response,
 			@RequestParam @Parameter(description = "period to aggregate over") Optional<KillsAggregation> aggregation,
 	    @RequestParam @Parameter(description = "format fo chart : png(default), jpg") Optional<String> accept)
 	    throws IOException {
-		TypeFiltering typeFilter = TypeFiltering.of(filterBy);
-		NamedTypelist resolved;
-		try {
-			resolved = typeFilter.resolve(filter, typeService, groupService);
-		} catch (NumberFormatException e) {
-			response.sendError(400, "param " + filter + " should be a number");
+		Type t = typeService.byId(typeId);
+		if (t == null) {
+			response.sendError(404, "can't resolve " + typeId + " to a type");
 			return;
 		}
 		KillsAggregation ka = aggregation.orElse(KillsAggregation.MONTHLY);
-		List<KillStats> stats = typeFilter == TypeFiltering.ERROR ? Collections.emptyList()
-				: killService.stats(ka, resolved.typeIds());
-		System.err.println("first kill stats is " + stats.get(0));
+		List<KillStats> stats = killService.stats(ka, List.of(typeId));
 		JFreeChart chart = drawChart(stats,
-				"daily kills of " + resolved.name() + ", aggregated " + ka.legend(),
+				"daily kills of " + t.toString() + ", aggregated " + ka.legend(),
 				ka);
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
+	}
+
+	public URI chartUri(int typeId, KillsAggregation aggreg, String accept) {
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "chartVictimTypeId",
+						typeId,
+						null,
+						Optional.ofNullable(aggreg),
+						Optional.ofNullable(accept))
+				.build()
+				.toUri();
 	}
 
 	static RegularTimePeriod period(KillsAggregation ka, Instant start) {
@@ -258,7 +265,7 @@ public class MerKillsRestController {
 		RestControllerHelper.addResponseJFreeChart(response, chart, accept);
 	}
 
-	private JFreeChart drawChart(Map<String, List<KillStats>> statsByType, String title,
+	static JFreeChart drawChart(Map<String, List<KillStats>> statsByType, String title,
 			KillsAggregation ka,
 			KillsDetail det) {
 		XYPlot plot = new XYPlot();

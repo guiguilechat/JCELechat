@@ -101,10 +101,18 @@
 					</tbody>
 				</table>
 			</div>
+		</div>
+		<div class="row border">
 			<div class="col" th:if="${historyUrl!=null}">
-				<h3>history</h3>
+				<h3>Trade history</h3>
 				<a th:href="${historyUrl}">
 					<img th:src="${historyUrl}" class="img-fluid" alt="history chart">
+				</a>
+			</div>
+			<div class="col" th:if="${killsUrl!=null}">
+				<h3>Kills</h3>
+				<a th:href="${killsUrl}">
+					<img th:src="${killsUrl}" class="img-fluid" alt="kills chart">
 				</a>
 			</div>
 		</div>

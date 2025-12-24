@@ -75,6 +75,9 @@ public class Type extends SdeEntity<Integer> {
 	private Type variationType;
 	private BigDecimal volume;
 
+	/**
+	 * @return the name if exists ; otherwise id description
+	 */
 	public String name() {
 		if (name != null) {
 			return name;

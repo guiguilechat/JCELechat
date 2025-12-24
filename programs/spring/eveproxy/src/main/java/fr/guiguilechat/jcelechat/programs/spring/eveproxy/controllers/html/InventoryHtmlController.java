@@ -28,6 +28,8 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService.LocatedBestOffer;
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillStatsService;
+import fr.guiguilechat.jcelechat.libs.spring.mer.kill.stats.KillsAggregation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterial;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.product.BlueprintProduct;
@@ -47,6 +49,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.MerKillsRestController;
 import fr.guiguilechat.tools.FormatTools;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -57,16 +60,20 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class InventoryHtmlController {
 
+	private final BlueprintMaterialService blueprintMaterialService;
+
 	private final CategoryService categoryService;
 
 	private final ContractMarketAggregator contractMarketAggregator;
 
 	private final EivService eivService;
 
-	private final GroupService groupService;
-
 	@Lazy
 	private final MarketHistoryRestController historyRestController;
+
+	private final GroupService groupService;
+
+	private final KillStatsService killStatsService;
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
@@ -75,7 +82,7 @@ public class InventoryHtmlController {
 
 	private final MarketLineService marketLineService;
 
-	private final BlueprintMaterialService materialService;
+	private final MerKillsRestController merKillsRestController;
 
 	@Lazy
 	private final NpcHtmlController npcHtmlController;
@@ -244,6 +251,12 @@ public class InventoryHtmlController {
 		model.addAttribute("name", t.name());
 		model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
 		model.addAttribute("historyUrl", historyRestController.uri(t).toString());
+		if (killStatsService.hasTypeStats(typeId)) {
+			model.addAttribute("killsUrl", merKillsRestController.chartUri(
+					typeId,
+					KillsAggregation.MONTHLY,
+					null).toString());
+		}
 		if (t.getMarketGroup() != null) {
 			model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
 		}
@@ -279,7 +292,7 @@ public class InventoryHtmlController {
 		model.addAttribute("manufacturingProd", manufProd);
 
 		log.trace("fetching manufacturingMats");
-		List<LinkedMaterial> manufMats = materialService.forBPActivity(t.getId(), ActivityType.manufacturing)
+		List<LinkedMaterial> manufMats = blueprintMaterialService.forBPActivity(t.getId(), ActivityType.manufacturing)
 				.stream()
 				.map(this::linkedMaterial)
 				.sorted(Comparator.comparing(u -> u.type().name()))
@@ -295,7 +308,7 @@ public class InventoryHtmlController {
 
 		log.trace("fetching reactionMats");
 		model.addAttribute("reactionMats",
-				materialService.forBPActivity(t.getId(), ActivityType.reaction).stream()
+				blueprintMaterialService.forBPActivity(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedMaterial)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
@@ -321,14 +334,14 @@ public class InventoryHtmlController {
 
 		log.trace("fetching manufacturingUses");
 		model.addAttribute("manufacturingUses",
-				materialService.findUsages(t.getId(), ActivityType.manufacturing).stream()
+				blueprintMaterialService.findUsages(t.getId(), ActivityType.manufacturing).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());
 
 		log.trace("fetching reactionUses");
 		model.addAttribute("reactionUses",
-				materialService.findUsages(t.getId(), ActivityType.reaction).stream()
+				blueprintMaterialService.findUsages(t.getId(), ActivityType.reaction).stream()
 						.map(this::linkedUsage)
 						.sorted(Comparator.comparing(u -> u.type().name()))
 						.toList());

@@ -27,6 +27,10 @@ public class KillStatsService implements MerUpdateListener {
 		};
 	}
 
+	public boolean hasTypeStats(int typeId) {
+		return repo.existsByVictimTypeId(typeId);
+	}
+
 	// caching
 
 	/** list of caches to invalidate */
@@ -37,5 +41,6 @@ public class KillStatsService implements MerUpdateListener {
 	public List<String> listMerCaches() {
 		return MER_KILLS_CACHES;
 	}
+
 
 }
