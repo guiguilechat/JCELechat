@@ -19,7 +19,7 @@ select
 	DATEADD(year, 1, trunc( min(kill.killDate) , year)) period_end,
 	count(*) nb_kills,
 	sum(kill.iskLost) iskLost,
-	min(kill.iskDestroyed)
+	min( case when kill.iskDestroyed=0 then kill.iskLost else kill.iskDestroyed end)
 from
 	#{#entityName} kill
 where
@@ -37,7 +37,7 @@ select
 	DATEADD(month, 1, trunc( min(kill.killDate) , month)) period_end,
 	count(*) nb_kills,
 	sum(kill.iskLost) iskLost,
-	min(kill.iskDestroyed)
+	min( case when kill.iskDestroyed=0 then kill.iskLost else kill.iskDestroyed end)
 from
 	#{#entityName} kill
 where
@@ -55,7 +55,7 @@ select
 	DATEADD(week, 1, trunc( min(kill.killDate) , week)) period_end,
 	count(*) nb_kills,
 	sum(kill.iskLost) iskLost,
-	min(kill.iskDestroyed)
+	min( case when kill.iskDestroyed=0 then kill.iskLost else kill.iskDestroyed end)
 from
 	#{#entityName} kill
 where
@@ -73,7 +73,7 @@ select
 	DATEADD(day, 1, trunc( min(kill.killDate) , day)) period_end,
 	count(*) nb_kills,
 	sum(kill.iskLost) iskLost,
-	min(kill.iskDestroyed)
+	min( case when kill.iskDestroyed=0 then kill.iskLost else kill.iskDestroyed end)
 from
 	#{#entityName} kill
 where

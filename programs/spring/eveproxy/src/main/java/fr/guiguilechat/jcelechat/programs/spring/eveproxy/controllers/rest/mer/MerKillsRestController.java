@@ -173,9 +173,10 @@ public class MerKillsRestController {
 				qttySeries.add(period, 0.0);
 			}
 			RegularTimePeriod period = period(ka, stat.periodStart());
-			avgValueSeries.add(period, stat.avgFitPrice() / 1000000);
-			minValueSeries.add(period, stat.minIskDestroyed().doubleValue() / 1000000);
-			qttySeries.add(period, stat.killPerDay());
+			// need addOrUpdate because they can overlap with filler values.
+			avgValueSeries.addOrUpdate(period, stat.avgFitPrice() / 1000000);
+			minValueSeries.addOrUpdate(period, stat.minIskDestroyed().doubleValue() / 1000000);
+			qttySeries.addOrUpdate(period, stat.killPerDay());
 			lastStat = stat;
 		}
 		// need to add an additional period to show the last one

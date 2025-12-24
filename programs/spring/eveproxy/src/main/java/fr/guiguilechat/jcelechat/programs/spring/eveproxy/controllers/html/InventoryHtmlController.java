@@ -249,8 +249,6 @@ public class InventoryHtmlController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
 		}
 		model.addAttribute("name", t.name());
-		model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
-		model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 		if (killStatsService.hasTypeStats(typeId)) {
 			model.addAttribute("killsUrl", merKillsRestController.chartUri(
 					typeId,
@@ -361,33 +359,39 @@ public class InventoryHtmlController {
 					eivService.eivs().getOrDefault(productOf.get(0).product().getActivity().getTypeId(), 0L));
 		}
 
-		log.trace("fetching jitabo");
-		List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
-		if (bos != null && !bos.isEmpty()) {
-			model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
-		}
+		if (t.isPublished() && t.getMarketGroup() != null) {
+			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
+			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 
-		log.trace("fetching jitaso");
-		List<MarketLine> jitaso = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
-		if (jitaso != null && !jitaso.isEmpty()) {
-			model.addAttribute("jitaso", FormatTools.formatPrice(jitaso.get(0).getPrice()));
-		}
+			log.trace("fetching jitabo");
+			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
+			if (bos != null && !bos.isEmpty()) {
+				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
+			}
 
-		Map<Integer, String> regionNamesById = regionService.namesById();
-		log.trace("fetching regionSell");
-		model.addAttribute("regionSell",
-				contractMarketAggregator.lowestSellByRegion(t.getId())
-						.entrySet().stream()
-						.map(e -> RegionBestPrice.of(e, regionNamesById))
-						.sorted(Comparator.comparing(RegionBestPrice::price))
-						.toList());
-		log.trace("fetching regionBuy");
-		model.addAttribute("regionBuy",
-				contractMarketAggregator.highestBuyByRegion(t.getId())
-						.entrySet().stream()
-						.map(e -> RegionBestPrice.of(e, regionNamesById))
-						.sorted(Comparator.comparing(rp -> -rp.price()))
-						.toList());
+			log.trace("fetching jitaso");
+			List<MarketLine> jitaso = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
+			if (jitaso != null && !jitaso.isEmpty()) {
+				model.addAttribute("jitaso", FormatTools.formatPrice(jitaso.get(0).getPrice()));
+			}
+
+			Map<Integer, String> regionNamesById = regionService.namesById();
+			log.trace("fetching regionSell");
+			model.addAttribute("regionSell",
+					contractMarketAggregator.lowestSellByRegion(t.getId())
+							.entrySet().stream()
+							.map(e -> RegionBestPrice.of(e, regionNamesById))
+							.sorted(Comparator.comparing(RegionBestPrice::price))
+							.toList());
+
+			log.trace("fetching regionBuy");
+			model.addAttribute("regionBuy",
+					contractMarketAggregator.highestBuyByRegion(t.getId())
+							.entrySet().stream()
+							.map(e -> RegionBestPrice.of(e, regionNamesById))
+							.sorted(Comparator.comparing(rp -> -rp.price()))
+							.toList());
+		}
 		return "inventory/type";
 	}
 
