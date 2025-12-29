@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,29 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapRechargeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CpuNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGangModules;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionSkillPropulsionStrengthBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Rechargeratebonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RepairBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRateMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class RigCore
     extends Module

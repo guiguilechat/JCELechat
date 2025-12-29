@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,34 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHazardSystem;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Deployable;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class MobileWarpDisruptor
     extends Deployable

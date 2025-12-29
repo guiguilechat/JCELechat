@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,25 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Drawback;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSkillBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Rechargeratebonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBoostCapacitorBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResistanceBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class RigShield
     extends Module

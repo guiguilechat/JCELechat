@@ -301,6 +301,11 @@
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+				<artifactId>typescompiler</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 				<artifactId>cache</artifactId>
 				<version>${project.version}</version>
@@ -378,11 +383,6 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>types</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>types-compiler</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<!-- /submodules -->

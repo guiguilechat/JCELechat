@@ -11,21 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
-import fr.guiguilechat.jcelechat.model.sde.types.Accessories;
-import fr.guiguilechat.jcelechat.model.sde.types.AncientRelics;
-import fr.guiguilechat.jcelechat.model.sde.types.Apparel;
-import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
-import fr.guiguilechat.jcelechat.model.sde.types.Celestial;
-import fr.guiguilechat.jcelechat.model.sde.types.Charge;
-import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
-import fr.guiguilechat.jcelechat.model.sde.types.Decryptors;
-import fr.guiguilechat.jcelechat.model.sde.types.Deployable;
-import fr.guiguilechat.jcelechat.model.sde.types.Drone;
-import fr.guiguilechat.jcelechat.model.sde.types.Entity;
-import fr.guiguilechat.jcelechat.model.sde.types.ExpertSystems;
-import fr.guiguilechat.jcelechat.model.sde.types.Fighter;
-import fr.guiguilechat.jcelechat.model.sde.types.Implant;
-import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
+import fr.guiguilechat.jcelechat.model.sde.types.*;
 
 public class ShowItemsNameContained {
 
@@ -48,9 +34,9 @@ public class ShowItemsNameContained {
 		compare = compare.thenComparing(e -> e.getKey().name);
 		sorted.sort(compare);
 		for (Entry<EveType, Set<EveType>> e : sorted) {
-			System.out.println(e.getKey().name + "\t" + e.getKey().id + "\t" + e.getValue().size());
+			java.lang.System.out.println(e.getKey().name + "\t" + e.getKey().id + "\t" + e.getValue().size());
 			for (EveType et2 : e.getValue()) {
-				System.out.println("\t\t\t" + et2.name + "\t" + et2.id);
+				java.lang.System.out.println("\t\t\t" + et2.name + "\t" + et2.id);
 			}
 		}
 	}

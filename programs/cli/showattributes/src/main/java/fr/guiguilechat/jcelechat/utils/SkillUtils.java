@@ -8,16 +8,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 
 public class SkillUtils {

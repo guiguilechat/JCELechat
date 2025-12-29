@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,46 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningAmount;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDischarge;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningMaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
-import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class NPCMiningFrigate
     extends Entity

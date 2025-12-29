@@ -13,8 +13,8 @@
 	<description>contains the DB of types from SDE</description>
 	<dependencies>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types-compiler</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>typescompiler</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -109,7 +109,7 @@
 								<configuration>
 									<cleanupDaemonThreads>false</cleanupDaemonThreads>
 									<mainClass>
-										fr.guiguilechat.jcelechat.model.sde.compile.MainCompile</mainClass>
+										fr.guiguilechat.jcelechat.libs.exports.items.compile.MainCompile</mainClass>
 									<arguments>
 										<!-- source folder to put classes in -->
 										<argument>${project.basedir}/src/generated/java</argument>

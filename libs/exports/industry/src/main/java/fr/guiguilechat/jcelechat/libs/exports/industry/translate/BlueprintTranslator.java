@@ -30,9 +30,9 @@ import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Eb
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EnpcCorporations;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
-import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

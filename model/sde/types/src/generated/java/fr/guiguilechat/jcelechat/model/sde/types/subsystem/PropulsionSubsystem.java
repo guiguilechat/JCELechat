@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,32 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonusAdd;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
-import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrPropulsion;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrPropulsion2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariPropulsion;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariPropulsion2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallentePropulsion;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallentePropulsion2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarPropulsion;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarPropulsion2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class PropulsionSubsystem
     extends Subsystem

@@ -7,28 +7,18 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1ID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1Multiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2ID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2Multiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3ID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3Multiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4ID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4Multiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class InformationCommandBurstCharges
     extends Charge

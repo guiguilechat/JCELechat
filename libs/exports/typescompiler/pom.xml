@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+		<artifactId>exports</artifactId>
+		<version>7.44.1</version>
+	</parent>
+	<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+	<artifactId>typescompiler</artifactId>
+	<name>LIB Exports TypesCompiler</name>
+	<description>Generate classes corresponding to the dogma structure of the Static Data Export from CCP.
+		This module is designed to be used pre-compile time in order to load the SDE from CCP and generate both the classes and the corresponding classes data.
+		At the moment it creates classes for items in the SDE, considering their attributes.</description>
+	<dependencies>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.lelouet.tools</groupId>
+			<artifactId>Compilation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

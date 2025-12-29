@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde;
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.util.Set;
+
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 

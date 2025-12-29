@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,31 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalMJDCapReductionBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercent;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveCapacitorNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRangeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.VelocityBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class Navigation
     extends Skill

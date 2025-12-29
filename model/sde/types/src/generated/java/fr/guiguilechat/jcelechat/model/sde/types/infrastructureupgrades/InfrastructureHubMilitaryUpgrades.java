@@ -7,48 +7,18 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexMilitary;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionID01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis04;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis05;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SovUpgradeRequiredUpgradeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class InfrastructureHubMilitaryUpgrades
     extends InfrastructureUpgrades

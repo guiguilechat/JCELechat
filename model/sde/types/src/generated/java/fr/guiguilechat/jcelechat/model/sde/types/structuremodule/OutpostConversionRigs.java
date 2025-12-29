@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,39 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeAdvCompManufactureTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeCapCompManufactureTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeCopyTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeEngRigMatBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeEquipmentManufactureTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeInventionCosts;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeInventionTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeMEResearchTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeResearchCosts;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeT1ShipManufactureTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeT2ShipManufactureTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.AttributeTEResearchTime;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ConversionRigHPCapBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigMaxTargetBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigMaxTargetRangeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigPDCapUseBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigPDRangeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureRigScanResBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureServiceRoleBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class OutpostConversionRigs
     extends StructureModule

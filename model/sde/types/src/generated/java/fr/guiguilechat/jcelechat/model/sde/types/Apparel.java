@@ -4,20 +4,12 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Set;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Augmentations;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Bottoms;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Eyewear;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Footwear;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Headwear;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Masks;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Outer;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Prosthetics;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Tattoos;
-import fr.guiguilechat.jcelechat.model.sde.types.apparel.Tops;
+import fr.guiguilechat.jcelechat.model.sde.types.apparel.*;
 
 public abstract class Apparel
     extends EveType

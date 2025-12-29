@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,44 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHPBonusAdd;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CargoCapacityAdd;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingCpuNeedBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CovertCloakCPUPenalty;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
-import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpConduitPassenger;
-import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpPortalPassenger;
-import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureHPBonusAdd;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMassAddition;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.VirusStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class DefensiveSubsystem
     extends Subsystem

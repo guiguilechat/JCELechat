@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,34 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMax;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Untargetable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class PrecursorCache
     extends Entity

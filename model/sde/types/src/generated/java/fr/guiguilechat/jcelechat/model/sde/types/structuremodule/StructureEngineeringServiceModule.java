@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -14,37 +18,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiresIHubUpgrade;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiresSovHubUpgrade;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelAmount;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelConsumptionGroup;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelOnlineAmount;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateArmorPlatingMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateHitpointMultiplier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.*;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
 
 public class StructureEngineeringServiceModule
     extends StructureModule

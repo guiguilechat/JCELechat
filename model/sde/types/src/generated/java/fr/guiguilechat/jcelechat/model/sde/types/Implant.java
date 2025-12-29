@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -14,26 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.Booster;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberArmor;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberBiology;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberDrones;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberElectronicSystems;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberEngineering;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberGunnery;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberLeadership;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberLearning;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberMissile;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberNavigation;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberProduction;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberResourceProcessing;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberScanning;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberScience;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberShields;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberTargeting;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.CyberXSpecials;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.Cyberimplant;
-import fr.guiguilechat.jcelechat.model.sde.types.implant.SpecialEditionImplant;
+import fr.guiguilechat.jcelechat.model.sde.types.implant.*;
 
 public abstract class Implant
     extends EveType
