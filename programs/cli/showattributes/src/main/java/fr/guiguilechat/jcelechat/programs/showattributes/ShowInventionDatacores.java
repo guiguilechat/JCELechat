@@ -4,9 +4,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.Activity;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Datacores;
 
 public class ShowInventionDatacores {

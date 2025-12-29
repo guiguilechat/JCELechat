@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
 
 public class EIVT1T2Ratio {
 

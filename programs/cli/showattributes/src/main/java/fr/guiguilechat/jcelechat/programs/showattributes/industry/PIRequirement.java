@@ -8,13 +8,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.IndustryUsage;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialProd;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
-import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryCommodities;
 
 public class PIRequirement {

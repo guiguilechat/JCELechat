@@ -7,9 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.utils.SkillUtils;
 

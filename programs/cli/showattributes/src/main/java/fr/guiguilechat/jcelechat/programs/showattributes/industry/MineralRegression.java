@@ -6,14 +6,14 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.IndustryUsage;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
-import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
-import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.AttackBattlecruiser;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Battleship;

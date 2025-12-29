@@ -49,7 +49,7 @@ public class TypeGrouper {
 		// replace a bp by its type
 		R_get_universe_types_type_id product = type;
 		if (BPGROUPS.contains(type.group_id)) {
-			fr.guiguilechat.jcelechat.model.sde.industry.Blueprint bp = fr.guiguilechat.jcelechat.model.sde.industry.Blueprint
+			fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint bp = fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint
 					.of(type.type_id);
 			product = access.universe.types(bp.manufacturing.products.get(0).id).get();
 		}
