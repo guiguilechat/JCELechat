@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>formula</artifactId>
-	<name>Lib formulas</name>
+	<name>LIB Formulas</name>
 	<description>centralize formula from Eve.</description>
 	<dependencies>
 		<dependency>

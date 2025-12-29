@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 	<artifactId>model</artifactId>
-	<name>Lib SDE model</name>
+	<name>LIB SDE model</name>
 	<description>Object model of the SDE, so additional representations</description>
 	<dependencies>
 		<dependency>

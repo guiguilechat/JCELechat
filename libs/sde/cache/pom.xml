@@ -7,7 +7,7 @@
   </parent>
   <groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
   <artifactId>cache</artifactId>
-  <name>Lib SDE cache</name>
+  <name>LIB SDE cache</name>
   <description>allows to download and cache SDE locally</description>
 	<dependencies>
 		<dependency>

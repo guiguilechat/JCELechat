@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 	<artifactId>common</artifactId>
-	<name>Lib Export commons</name>
+	<name>LIB Export commons</name>
 	<description>Common classes for local DB export/import/history</description>
 	<dependencies>
 		<dependency>
