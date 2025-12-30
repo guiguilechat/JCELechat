@@ -13,6 +13,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+			<artifactId>formula</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 			<artifactId>gameclient</artifactId>
 			<optional>true</optional>
 		</dependency>
@@ -21,13 +26,13 @@
 			<artifactId>common</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>types</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 			<artifactId>cache</artifactId>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

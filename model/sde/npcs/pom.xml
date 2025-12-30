@@ -12,6 +12,10 @@
 	<name>SDE-NPCs</name>
 	<dependencies>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>types</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>jcesi</artifactId>
 			<optional>true</optional>
@@ -25,10 +29,6 @@
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>raw</artifactId>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>

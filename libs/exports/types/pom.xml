@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat.jcelechat.model</groupId>
+		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+		<artifactId>exports</artifactId>
 		<version>7.44.1</version>
-		<artifactId>sde</artifactId>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+	<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 	<artifactId>types</artifactId>
-	<name>SDE Types</name>
+	<name>LIB Exports Types</name>
 	<description>contains the DB of types from SDE</description>
 	<dependencies>
 		<dependency>

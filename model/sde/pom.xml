@@ -13,12 +13,9 @@
 	<name>SDE Model</name>
 	<modules>
 		<module>full</module>
-		<module>industry</module>
 		<module>locations</module>
 		<module>npcs</module>
 		<module>raw</module>
-		<module>types</module>
-		<module>types-compiler</module>
 	</modules>
 	<build>
 		<plugins>

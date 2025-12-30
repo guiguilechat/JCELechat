@@ -24,16 +24,16 @@
 			<artifactId>mer</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>types</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>locations</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>raw</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.lelouet.tools.application</groupId>
