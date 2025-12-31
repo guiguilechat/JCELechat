@@ -16,11 +16,11 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
-			<artifactId>types</artifactId>
+			<artifactId>locations</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>locations</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>

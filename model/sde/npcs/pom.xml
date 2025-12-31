@@ -21,7 +21,7 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 			<artifactId>locations</artifactId>
 			<optional>true</optional>
 		</dependency>

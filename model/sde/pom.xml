@@ -13,7 +13,6 @@
 	<name>SDE Model</name>
 	<modules>
 		<module>full</module>
-		<module>locations</module>
 		<module>npcs</module>
 		<module>raw</module>
 	</modules>

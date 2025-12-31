@@ -27,7 +27,9 @@ public class EmapSolarSystems extends InSpace {
 	/** {@link EmapConstellations} */
 	public int constellationID;
 	public boolean corridor;
+	/** {@link Ecategories} */
 	public List<Integer> disallowedAnchorCategories = new ArrayList<>();
+	/** {@link Egroups} */
 	public List<Integer> disallowedAnchorGroups = new ArrayList<>();
 	/** {@link Efactions} */
 	public int factionID;

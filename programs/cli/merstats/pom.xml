@@ -28,7 +28,7 @@
 			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 			<artifactId>locations</artifactId>
 		</dependency>
 		<dependency>

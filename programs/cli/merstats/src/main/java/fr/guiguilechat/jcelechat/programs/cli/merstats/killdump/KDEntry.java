@@ -8,10 +8,10 @@ import java.util.Locale;
 
 import com.opencsv.bean.CsvBindByName;
 
+import fr.guiguilechat.jcelechat.libs.exports.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Etypes;
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 public class KDEntry {
 

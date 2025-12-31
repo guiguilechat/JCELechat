@@ -14,10 +14,11 @@
 	<name>POM Libs exports</name>
 	<description>Eve data exports</description>
 	<modules>
-	<module>common</module>
-	<module>industry</module>
-	<module>types</module>
-	<module>typescompiler</module>
+		<module>common</module>
+		<module>industry</module>
+		<module>locations</module>
+		<module>types</module>
+		<module>typescompiler</module>
 	</modules>
 	<profiles>
 		<profile>

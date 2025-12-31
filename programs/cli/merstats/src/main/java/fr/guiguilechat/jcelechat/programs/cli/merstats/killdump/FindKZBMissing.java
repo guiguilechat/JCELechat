@@ -34,7 +34,7 @@ public class FindKZBMissing {
 		Map<Integer, Diff> diffByType = new HashMap<>();
 		for (Entry<Integer, Map<Integer, Map<Integer, List<KDEntry>>>> e : grouped.entrySet()) {
 			int sys = e.getKey();
-			fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem ss = fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem
+			fr.guiguilechat.jcelechat.libs.exports.locations.SolarSystem ss = fr.guiguilechat.jcelechat.libs.exports.locations.SolarSystem
 					.getSystem(sys);
 			for (Entry<Integer, Map<Integer, List<KDEntry>>> e2 : e.getValue().entrySet()) {
 				int type_id = e2.getKey();

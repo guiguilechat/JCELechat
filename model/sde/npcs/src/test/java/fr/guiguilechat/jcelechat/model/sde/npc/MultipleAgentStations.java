@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.libs.exports.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_DIVISION;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;

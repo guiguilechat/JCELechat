@@ -14,15 +14,15 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>locations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 			<artifactId>types</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>jcesi</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>locations</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>

@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.libs.spring.trade.history;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 
-import org.junit.jupiter.api.Test;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.WeightStrategy;
 

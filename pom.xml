@@ -302,6 +302,11 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+				<artifactId>locations</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>types</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -363,11 +368,6 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>full</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>locations</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
