@@ -27,6 +27,7 @@ import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint.Consumed;
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint.Produced;
 import fr.guiguilechat.jcelechat.libs.sde.model.items.Type;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.Faction;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCharacter;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -148,7 +149,7 @@ public class NPCsTranslater {
 		NPCCorporation.CACHE.all().forEach(c -> {
 			Corporation add = new Corporation();
 			add.id = c.id();
-			fr.guiguilechat.jcelechat.libs.sde.model.npcs.Faction faction = c.faction();
+			Faction faction = c.faction();
 			if (faction != null) {
 				add.faction =  faction.name();
 				if (faction.source().militiaCorporationID == c.id()) {
