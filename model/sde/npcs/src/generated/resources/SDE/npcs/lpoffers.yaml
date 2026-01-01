@@ -38763,7 +38763,7 @@ offers:
       id: 25718
       quantity: 1
     requirements:
-      lp: 9000
+      lp: 3000
   19239:
     id: 19239
     name: Torpedo Specialization
@@ -38771,16 +38771,7 @@ offers:
       id: 20213
       quantity: 1
     requirements:
-      lp: 3000
-  19240:
-    id: 19240
-    name: Security Connections
-    product:
-      id: 3895
-      quantity: 1
-    requirements:
-      isk: 10000000
-      lp: 15000
+      lp: 9000
   19246:
     id: 19246
     name: Hubris Corporation Emblem
@@ -39052,7 +39043,7 @@ offers:
       id: 45645
       quantity: 1
     requirements:
-      isk: 25000000000
+      isk: 15000000000
       items:
       - id: 21009
         quantity: 8
@@ -39096,7 +39087,7 @@ offers:
         quantity: 1
       - id: 57488
         quantity: 1
-      lp: 25000000
+      lp: 15000000
   19280:
     bpid: 45646
     bpruns: 1
@@ -39183,7 +39174,7 @@ offers:
       - id: 57486
         quantity: 12
       - id: 83467
-        quantity: 40
+        quantity: 30
       lp: 12000
   19282:
     bpid: 78393
@@ -39215,7 +39206,7 @@ offers:
       - id: 57486
         quantity: 12
       - id: 83469
-        quantity: 40
+        quantity: 30
       lp: 12000
   19283:
     bpid: 78370
@@ -42710,3 +42701,448 @@ offers:
       items:
       - id: 87179
         quantity: 3
+  19447:
+    id: 19447
+    name: Pioneer Corporation Emblem
+    product:
+      id: 89487
+      quantity: 1
+    requirements:
+      lp: 7500
+  19448:
+    id: 19448
+    name: Pioneer Alliance Emblem
+    product:
+      id: 89488
+      quantity: 1
+    requirements:
+      lp: 7500
+  19449:
+    id: 19449
+    name: Expedition Command Mindlink
+    product:
+      id: 89617
+      quantity: 1
+    requirements:
+      isk: 20000000
+      lp: 20000
+  19450:
+    id: 19450
+    name: Sisters Expedition Command Mindlink
+    product:
+      id: 89618
+      quantity: 1
+    requirements:
+      isk: 100000000
+      items:
+      - id: 13209
+        quantity: 1
+      - id: 89617
+        quantity: 1
+      lp: 100000
+  19451:
+    id: 19451
+    name: Sisters Expedition Command Burst
+    product:
+      id: 89616
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - id: 89615
+        quantity: 1
+      lp: 50000
+  19452:
+    bpid: 89637
+    bpruns: 1
+    id: 19452
+    name: Odysseus(BPC)
+    product:
+      id: 89607
+      quantity: 1
+    requirements:
+      isk: 250000000
+      items:
+      - id: 34
+        quantity: 16000000
+      - id: 35
+        quantity: 6000000
+      - id: 36
+        quantity: 1200000
+      - id: 37
+        quantity: 600000
+      - id: 38
+        quantity: 60000
+      - id: 39
+        quantity: 16000
+      - id: 40
+        quantity: 8000
+      - id: 57478
+        quantity: 500
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 250
+      - id: 83473
+        quantity: 250
+      lp: 250000
+  19453:
+    id: 19453
+    name: Odysseus Corporation Emblem
+    product:
+      id: 89641
+      quantity: 1
+    requirements:
+      lp: 18500
+  19454:
+    id: 19454
+    name: Odysseus Alliance Emblem
+    product:
+      id: 89640
+      quantity: 1
+    requirements:
+      lp: 18500
+  19455:
+    id: 19455
+    name: Outrider Corporation Emblem
+    product:
+      id: 89666
+      quantity: 1
+    requirements:
+      lp: 9000
+  19456:
+    id: 19456
+    name: Outrider Alliance Emblem
+    product:
+      id: 89667
+      quantity: 1
+    requirements:
+      lp: 9000
+  19457:
+    bpid: 89676
+    bpruns: 1
+    id: 19457
+    name: Venture Consortium Issue(BPC)
+    product:
+      id: 89648
+      quantity: 1
+    requirements:
+      isk: 4000000
+      items:
+      - id: 34
+        quantity: 22400
+      - id: 35
+        quantity: 4200
+      - id: 36
+        quantity: 1750
+      - id: 37
+        quantity: 350
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 4000
+  19459:
+    bpid: 89675
+    bpruns: 1
+    id: 19459
+    name: Pioneer Consortium Issue(BPC)
+    product:
+      id: 89647
+      quantity: 1
+    requirements:
+      isk: 12000000
+      items:
+      - id: 34
+        quantity: 320000
+      - id: 35
+        quantity: 60000
+      - id: 36
+        quantity: 20000
+      - id: 37
+        quantity: 4000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 12000
+  19461:
+    id: 19461
+    name: Venture Consortium Issue Corporation Emblem
+    product:
+      id: 89679
+      quantity: 1
+    requirements:
+      lp: 5500
+  19462:
+    id: 19462
+    name: Venture Consortium Issue Alliance Emblem
+    product:
+      id: 89681
+      quantity: 1
+    requirements:
+      lp: 5500
+  19463:
+    id: 19463
+    name: Pioneer Consortium Issue Corporation Emblem
+    product:
+      id: 89677
+      quantity: 1
+    requirements:
+      lp: 8000
+  19464:
+    id: 19464
+    name: Pioneer Consortium Issue Alliance Emblem
+    product:
+      id: 89678
+      quantity: 1
+    requirements:
+      lp: 8000
+  19465:
+    bpid: 89676
+    bpruns: 1
+    id: 19465
+    name: Venture Consortium Issue(BPC)
+    product:
+      id: 89648
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 34
+        quantity: 22400
+      - id: 35
+        quantity: 4200
+      - id: 36
+        quantity: 1750
+      - id: 37
+        quantity: 350
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 10000
+  19466:
+    bpid: 89675
+    bpruns: 1
+    id: 19466
+    name: Pioneer Consortium Issue(BPC)
+    product:
+      id: 89647
+      quantity: 1
+    requirements:
+      isk: 30000000
+      items:
+      - id: 34
+        quantity: 320000
+      - id: 35
+        quantity: 60000
+      - id: 36
+        quantity: 20000
+      - id: 37
+        quantity: 4000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 30000
+  19524:
+    id: 19524
+    name: Integrated Sensor Array
+    product:
+      id: 90475
+      quantity: 1
+    requirements:
+      items:
+      - id: 41411
+        quantity: 1
+  19526:
+    bpid: 45045
+    bpruns: 1
+    id: 19526
+    name: Molok(BPC)
+    product:
+      id: 42241
+      quantity: 1
+    requirements:
+      isk: 165000000000
+      items:
+      - id: 21009
+        quantity: 80
+      - id: 21011
+        quantity: 400
+      - id: 21013
+        quantity: 100
+      - id: 21017
+        quantity: 400
+      - id: 21019
+        quantity: 400
+      - id: 21021
+        quantity: 300
+      - id: 21023
+        quantity: 50
+      - id: 21025
+        quantity: 300
+      - id: 21035
+        quantity: 200
+      - id: 21037
+        quantity: 200
+      - id: 24545
+        quantity: 500
+      - id: 24547
+        quantity: 500
+      - id: 24556
+        quantity: 500
+      - id: 24558
+        quantity: 500
+      - id: 24560
+        quantity: 500
+      - id: 57470
+        quantity: 96
+      - id: 57473
+        quantity: 96
+      - id: 57474
+        quantity: 125
+      - id: 57477
+        quantity: 125
+      - id: 57478
+        quantity: 3200
+      - id: 57486
+        quantity: 1600
+      - id: 57487
+        quantity: 25
+      - id: 57489
+        quantity: 1
+      lp: 165000000
+  19527:
+    bpid: 45044
+    bpruns: 1
+    id: 19527
+    name: Chemosh(BPC)
+    product:
+      id: 42243
+      quantity: 1
+    requirements:
+      isk: 15000000000
+      items:
+      - id: 21009
+        quantity: 5
+      - id: 21011
+        quantity: 20
+      - id: 21013
+        quantity: 4
+      - id: 21017
+        quantity: 5
+      - id: 21019
+        quantity: 2
+      - id: 21021
+        quantity: 2
+      - id: 21023
+        quantity: 5
+      - id: 21025
+        quantity: 2
+      - id: 21035
+        quantity: 4
+      - id: 21037
+        quantity: 4
+      - id: 21039
+        quantity: 20
+      - id: 24558
+        quantity: 5
+      - id: 24560
+        quantity: 2
+      - id: 57470
+        quantity: 8
+      - id: 57473
+        quantity: 8
+      - id: 57474
+        quantity: 2
+      - id: 57477
+        quantity: 2
+      - id: 57478
+        quantity: 400
+      - id: 57486
+        quantity: 200
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      lp: 15000000
+  19528:
+    bpid: 45043
+    bpruns: 1
+    id: 19528
+    name: Dagon(BPC)
+    product:
+      id: 42242
+      quantity: 1
+    requirements:
+      isk: 15000000000
+      items:
+      - id: 21009
+        quantity: 8
+      - id: 21013
+        quantity: 10
+      - id: 21017
+        quantity: 30
+      - id: 21019
+        quantity: 20
+      - id: 21021
+        quantity: 21
+      - id: 21023
+        quantity: 10
+      - id: 21025
+        quantity: 10
+      - id: 21029
+        quantity: 6
+      - id: 21035
+        quantity: 10
+      - id: 21037
+        quantity: 16
+      - id: 21039
+        quantity: 30
+      - id: 24558
+        quantity: 19
+      - id: 24560
+        quantity: 10
+      - id: 57470
+        quantity: 16
+      - id: 57473
+        quantity: 16
+      - id: 57474
+        quantity: 5
+      - id: 57477
+        quantity: 5
+      - id: 57478
+        quantity: 400
+      - id: 57486
+        quantity: 200
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
+      lp: 15000000

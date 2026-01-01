@@ -12,18 +12,25 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true)
 public class AgentType extends DataSourced<EagentTypes> {
 
-	public static final NamingMapper<EagentTypes, AgentType> CACHE = new NamingMapper<>(EagentTypes.LOADER.yaml(),
-			AgentType::new, AgentType::name);
+	public static final NamingMapper<EagentTypes, AgentType> CACHE = new NamingMapper<>(
+			EagentTypes.LOADER.yaml(),
+			AgentType::new,
+			AgentType::name);
 
-	private final String name;
+	@Getter(lazy = true)
+	private final String name = source().name;
 
 	public AgentType(DataSource datasource, int id, EagentTypes source) {
 		super(datasource, id, source);
-		name = source.name;
 	}
 
 	protected AgentType(int id, EagentTypes source) {
 		this(DataSourceLocalCache.INSTANCE, id, source);
+	}
+
+	@Override
+	public String toString() {
+		return "" + name() + " (" + id() + ")";
 	}
 
 }

@@ -88,6 +88,10 @@ public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 		return loader.load().keySet();
 	}
 
+	public Map<Integer, T> byIds() {
+		return loader.load();
+	}
+
 	@Override
 	public void forEachId(IntConsumer onId) {
 		try (var _ = lck.readLock()) {

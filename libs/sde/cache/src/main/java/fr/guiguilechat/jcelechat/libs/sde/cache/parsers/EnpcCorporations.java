@@ -35,6 +35,7 @@ public class EnpcCorporations {
 	 */
 	public HashMap<Integer, BigDecimal> exchangeRates = new HashMap<>();
 	public String extent;
+	/** {@link Efactions} */
 	public int factionID;
 	public int friendID;
 	public boolean hasPlayerPersonnelManager;

@@ -67,13 +67,23 @@ public class Agent {
 		return "" + name + "(" + id + ")";
 	}
 
-	public static enum AGENT_TYPE {
-		Basic(2), Tutorial(3), RnD(4), Concord(5), Storyline(6), StorylineMission(7), Event(8), FactionalWarfare(
-				9), EpicArc(10), Aura(11), Career(12), Paragon(13);
+	public enum AGENT_TYPE {
+		Basic(2),
+		Tutorial(3),
+		RnD(4),
+		Concord(5),
+		Storyline(6),
+		StorylineMission(7),
+		Event(8),
+		FactionalWarfare(9),
+		EpicArc(10),
+		Aura(11),
+		Career(12),
+		Paragon(13);
 
 		public final int typeID;
 
-		private AGENT_TYPE(int typeID) {
+		AGENT_TYPE(int typeID) {
 			this.typeID = typeID;
 		}
 
@@ -90,15 +100,22 @@ public class Agent {
 
 	public AGENT_TYPE type;
 
-	public static enum AGENT_DIVISION {
-		RnD(18), Distribution(22), Mining(23), Security(24), BusinessCareerPAth(25), ExplorationCareerPath(
-				26), IndustryCareerPath(27), MilitaryCareerPath(
-						28), AdvancedMilitaryPath(29), Interbus(37)
+	public enum AGENT_DIVISION {
+		RnD(18),
+		Distribution(22),
+		Mining(23),
+		Security(24),
+		BusinessCareerPAth(25),
+		ExplorationCareerPath(26),
+		IndustryCareerPath(27),
+		MilitaryCareerPath(28),
+		AdvancedMilitaryPath(29),
+		Interbus(37)
 		;
 
 		public final int divisionID;
 
-		private AGENT_DIVISION(int divisionID) {
+		AGENT_DIVISION(int divisionID) {
 			this.divisionID = divisionID;
 		}
 

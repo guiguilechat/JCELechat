@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.libs.sde.model.locations.Station;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationOperation;
 import fr.guiguilechat.jcelechat.libs.sde.model.locations.station.StationService;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.AgentType;
+import fr.guiguilechat.jcelechat.libs.sde.model.npcs.Faction;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCharacter;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporation;
 import fr.guiguilechat.jcelechat.libs.sde.model.npcs.NPCCorporationDivision;
@@ -69,6 +70,11 @@ public class DataSourceLocalCache implements DataSource {
 	@Override
 	public EntityMap<DynamicItem> dynamicItems() {
 		return DynamicItem.CACHE;
+	}
+
+	@Override
+	public EntityNameMap<Faction> factions() {
+		return Faction.CACHE;
 	}
 
 	@Override
