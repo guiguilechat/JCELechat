@@ -387,6 +387,7 @@ corporations:
     - 19432
     - 19524
     name: 24th Imperial Crusade
+    warfare: Amarr Empire
   AEGIS:
     faction: EDENCOM
     id: 1000297
@@ -6693,6 +6694,7 @@ corporations:
     - 19341
     - 19524
     name: Commando Guri
+    warfare: Guristas Pirates
   Commando Perkone:
     faction: Caldari State
     id: 1000237
@@ -10044,6 +10046,7 @@ corporations:
     - 19434
     - 19524
     name: Federal Defense Union
+    warfare: Gallente Federation
   Federal Freight:
     concordRate: 0.8
     faction: Gallente Federation
@@ -18594,6 +18597,7 @@ corporations:
     - 19438
     - 19524
     name: Malakim Zealots
+    warfare: Angel Cartel
   Mannar Focused Warfare:
     faction: Gallente Federation
     id: 1000244
@@ -29251,6 +29255,7 @@ corporations:
     - 19435
     - 19524
     name: State Protectorate
+    warfare: Caldari State
   State War Academy:
     concordRate: 0.8
     faction: Caldari State
@@ -31902,6 +31907,7 @@ corporations:
     - 19433
     - 19524
     name: Tribal Liberation Force
+    warfare: Minmatar Republic
   Tronhadar Free Guard:
     faction: Minmatar Republic
     id: 1000219

@@ -17,10 +17,10 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.libs.exports.npcs.Agent;
-import fr.guiguilechat.jcelechat.libs.exports.npcs.Corporation;
-import fr.guiguilechat.jcelechat.libs.exports.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.libs.exports.npcs.Agent.AGENT_DIVISION;
 import fr.guiguilechat.jcelechat.libs.exports.npcs.Agent.AGENT_TYPE;
+import fr.guiguilechat.jcelechat.libs.exports.npcs.Corporation;
+import fr.guiguilechat.jcelechat.libs.exports.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.libs.exports.npcs.LPOffer.ItemRef;
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint;
 import fr.guiguilechat.jcelechat.libs.sde.model.industry.BluePrint.Consumed;
@@ -149,7 +149,12 @@ public class NPCsTranslater {
 			Corporation add = new Corporation();
 			add.id = c.id();
 			fr.guiguilechat.jcelechat.libs.sde.model.npcs.Faction faction = c.faction();
-			add.faction = faction == null ? null : faction.name();
+			if (faction != null) {
+				add.faction =  faction.name();
+				if (faction.source().militiaCorporationID == c.id()) {
+					add.warfare = faction.name();
+				}
+			}
 			add.concordRate = concordRates.getOrDefault(add.id, BigDecimal.ZERO).doubleValue();
 			add.name = c.name();
 

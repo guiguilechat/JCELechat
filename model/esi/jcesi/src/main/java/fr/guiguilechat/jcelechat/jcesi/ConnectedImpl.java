@@ -703,10 +703,11 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				Requested<T> res = fetch(headerHandler);
 				if (res != null) {
+					// window rate reached.
 					if (res.getResponseCode() == 420) {
 						Integer remaining = res.getRemainingErrors();
 						if (remaining != null && remaining < 40) {
-							delay_ms = res.getErrorsReset() * default_wait_ms;
+							delay_ms = res.getErrorsReset() * 1000;
 						}
 					} else {
 						// manage the etag
@@ -892,8 +893,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	/**
-	 * repeatedly fetch a cache and put the value in the handler. The cache expire
-	 * is retrieved when fetching data, and used to schedule next retrieve.
+	 * repeatedly fetch a cache and put the value in the handler. The cache "expire"
+	 * header is retrieved when fetching data, and used to schedule next retrieve.
 	 *
 	 * @param fetcher      the function that actually fetch the T. This function
 	 *                     uses a handler to store the headers of the resource.

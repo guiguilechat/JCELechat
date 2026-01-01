@@ -86,7 +86,7 @@ public class Corporation {
 	public ArrayList<Integer> lpoffers = new ArrayList<>();
 	public double concordRate = 0.0;
 
-//	public String warfare;
+	public String warfare;
 
 	public List<LPOffer> lpOffers() {
 		LinkedHashMap<Integer, LPOffer> offers = LPOffer.load();
