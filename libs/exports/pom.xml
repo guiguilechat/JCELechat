@@ -15,8 +15,10 @@
 	<description>Eve data exports</description>
 	<modules>
 		<module>common</module>
+		<module>full</module>
 		<module>industry</module>
 		<module>locations</module>
+		<module>npcs</module>
 		<module>types</module>
 		<module>typescompiler</module>
 	</modules>

@@ -280,11 +280,11 @@
 				<artifactId>mer</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-<!--			<dependency>-->
-<!--				<groupId>fr.guiguilechat.jcelechat.libs</groupId>-->
-<!--				<artifactId>routesolver</artifactId>-->
-<!--				<version>${project.version}</version>-->
-<!--			</dependency>-->
+			<!-- <dependency>-->
+			<!-- <groupId>fr.guiguilechat.jcelechat.libs</groupId>-->
+			<!-- <artifactId>routesolver</artifactId>-->
+			<!-- <version>${project.version}</version>-->
+			<!-- </dependency>-->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
 				<artifactId>commons</artifactId>
@@ -297,12 +297,22 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+				<artifactId>full</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>industry</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 				<artifactId>locations</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+				<artifactId>npcs</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
@@ -363,16 +373,6 @@
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 				<artifactId>jcesi</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>full</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>npcs</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

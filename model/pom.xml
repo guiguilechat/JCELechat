@@ -7,7 +7,6 @@
 
 	<modules>
 		<module>esi</module>
-		<module>sde</module>
 	</modules>
 	
 	<artifactId>model</artifactId>
