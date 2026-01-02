@@ -6,7 +6,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 
 /**
  * mapper that also stores the elements by name
@@ -15,7 +15,7 @@ public class NamingMapper<T, U> extends Mapper<T, U> implements EntityNameMap<U>
 
 	private final Function<U, String> namer;
 
-	public NamingMapper(JacksonYamlLHMLoader<T> loader, BiFunction<Integer, T, U> constructor,
+	public NamingMapper(YamlMapIntLoader<T> loader, BiFunction<Integer, T, U> constructor,
 			Function<U, String> namer) {
 		super(loader, constructor);
 		this.namer = namer;

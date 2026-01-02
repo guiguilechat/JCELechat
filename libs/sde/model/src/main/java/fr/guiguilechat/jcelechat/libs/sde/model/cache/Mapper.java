@@ -12,8 +12,8 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.RWLockResource;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 import lombok.RequiredArgsConstructor;
 
 /**
@@ -30,7 +30,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 
-	protected final JacksonYamlLHMLoader<T> loader;
+	protected final YamlMapIntLoader<T> loader;
 
 	private final BiFunction<Integer, T, U> constructor;
 

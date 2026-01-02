@@ -19,7 +19,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class JacksonYamlLHMLoader<U> extends YAMLCacheListener {
+public class YamlMapIntLoader<U> extends YAMLCacheListener {
 
 	@Getter
 	private final String archiveFileName;

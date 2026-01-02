@@ -143,7 +143,7 @@ public class InventionDecryptor {
 		}
 		int skillsProbaPoints_base120 = 120;
 
-		for (TypeRef<Skill> skillRef : target.invention.skills.keySet()) {
+		for (TypeRef<Skill> skillRef : target.invention.skills) {
 			Skill sk = skillRef.type();
 			int skillMult = inventionProbaIncr_base120(sk);
 			if (skillMult != 0) {

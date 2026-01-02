@@ -4,7 +4,6 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
@@ -88,14 +87,17 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 					? "(p=" + probability + ")"
 							: "");
 		}
+	}
 
+	public static class SkillRequired extends TypeRef<Skill> {
+		public int level;
 	}
 
 	@SuppressWarnings("rawtypes")
 	public static class Activity {
 		public ArrayList<MaterialReq> materials = new ArrayList<>();
 		public ArrayList<MaterialProd> products = new ArrayList<>();
-		public LinkedHashMap<TypeRef<Skill>, Integer> skills = new LinkedHashMap<>();
+		public ArrayList<SkillRequired> skills = new ArrayList<>();
 		/**
 		 * time in seconds to execute one run of that activity.
 		 */
@@ -119,7 +121,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 
 	public int maxCopyRuns;
 
-	public boolean seeded;
+	public boolean seeded = false;
 
 	//
 	// usage
@@ -192,7 +194,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 				// bx-804 reduces by 4%
 				* 0.96;
 		// all engineering and physics skills have a 5% te bonus
-		for (TypeRef<Skill> s : manufacturing.skills.keySet()) {
+		for (TypeRef<Skill> s : manufacturing.skills) {
 			if (s.name().contains("Engineering") || s.name().contains("Physics")) {
 				temult *= 0.95;
 			}
