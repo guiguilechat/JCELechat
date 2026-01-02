@@ -1,23 +1,21 @@
 package fr.guiguilechat.jcelechat.libs.exports.common;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
-import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
-import org.yaml.snakeyaml.nodes.MappingNode;
-import org.yaml.snakeyaml.nodes.Node;
-import org.yaml.snakeyaml.representer.Representer;
 
-import fr.lelouet.tools.application.yaml.CleanRepresenter;
-import fr.lelouet.tools.application.yaml.YAMLTools;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.fasterxml.jackson.databind.MapperFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.type.MapType;
+import com.fasterxml.jackson.databind.type.TypeFactory;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator.Feature;
+import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -30,22 +28,20 @@ public class MapIntSerializer<T> {
 	private final Class<T> internalClass;
 
 	public LinkedHashMap<Integer, T> load(InputStream is) {
-		try (InputStreamReader reader = new InputStreamReader(is)) {
-			LoaderOptions options = new LoaderOptions();
-			options.setCodePointLimit(Integer.MAX_VALUE);
-			Constructor c = new Constructor(Map.class, options) {
-				@Override
-				protected Object constructObject(Node node) {
-					if (node instanceof MappingNode && node.getStartMark().getIndex() == 0) {
-						((MappingNode) node).setTypes(Integer.class, internalClass);
-					}
-					return super.constructObject(node);
-				}
-			};
-			Yaml yaml = new Yaml(c, new Representer(new DumperOptions()), new DumperOptions(), options);
-			return yaml.loadAs(reader, Map.class);
-		} catch (Exception exception) {
-			throw new RuntimeException(exception);
+		LoaderOptions loaderOptions = new LoaderOptions();
+		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
+		YAMLFactory yamlFactory = YAMLFactory.builder()
+				.loaderOptions(loaderOptions)
+				.build();
+		var mapper = new ObjectMapper(yamlFactory);
+		try {
+			MapType mapType = TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, Integer.class,
+					internalClass);
+			var reader = mapper.readerFor(mapType);
+			// can't call readValue with second param as it will close the stream.
+			return reader.readValue(reader.createParser(is), mapType);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
 		}
 	}
 
@@ -59,7 +55,12 @@ public class MapIntSerializer<T> {
 		output.mkdirs();
 		output.delete();
 		try {
-			new Yaml(new CleanRepresenter(), YAMLTools.blockDumper()).dump(data, new FileWriter(output));
+			var mapper = YAMLMapper.builder()
+					.disable(Feature.WRITE_DOC_START_MARKER)
+					.enable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY)
+					.build();
+			mapper.setDefaultPropertyInclusion(Include.NON_DEFAULT);
+			mapper.writeValue(output, data);
 		} catch (IOException e) {
 			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
 		}

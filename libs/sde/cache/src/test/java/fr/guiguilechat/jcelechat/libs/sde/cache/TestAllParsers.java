@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.*;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.JacksonYamlLHMLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 
 public class TestAllParsers {
 
@@ -77,7 +77,7 @@ public class TestAllParsers {
 		}) {
 			long start = System.currentTimeMillis();
 			Field f = cl.getField("LOADER");
-			JacksonYamlLHMLoader<?> loader = ((IntMapLoader<?>) f.get(null)).yaml();
+			YamlMapIntLoader<?> loader = ((IntMapLoader<?>) f.get(null)).yaml();
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);

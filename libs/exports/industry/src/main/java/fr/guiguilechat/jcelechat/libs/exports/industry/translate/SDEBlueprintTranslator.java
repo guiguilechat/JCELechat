@@ -14,10 +14,11 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
-import fr.guiguilechat.jcelechat.libs.exports.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialReq;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.SkillRequired;
+import fr.guiguilechat.jcelechat.libs.exports.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
@@ -27,8 +28,6 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.TypeRef;
-import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -164,9 +163,10 @@ public class SDEBlueprintTranslator {
 				log.error("missing skill " + s.typeID);
 				skip.set(true);
 			} else {
-				TypeRef<Skill> ref = new TypeRef<>();
-				ref.id = skill.id;
-				ret.skills.put(ref, s.level);
+				SkillRequired ref = new SkillRequired();
+				ref.id = s.typeID;
+				ref.level = s.level;
+				ret.skills.add(ref);
 			}
 		});
 		if (skip.get()) {

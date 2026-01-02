@@ -1,14 +1,18 @@
 package fr.guiguilechat.jcelechat.libs.exports.industry;
 
+/** hardcoded */
+//TODO use dynamic, using the activity modifiers
 public enum StructureIndustryRig {
 
-	NONE(0, 0, 0), T1(2, 20, 10), T2(2.4, 24, 12);
+	NONE(0, 0, 0),
+	T1(2, 20, 10),
+	T2(2.4, 24, 12);
 
 	private final double mepct;
 	private final double tepct;
 	private final double costpct;
 
-	private StructureIndustryRig(double mepct, double tepct, double costpct) {
+	StructureIndustryRig(double mepct, double tepct, double costpct) {
 		this.mepct = mepct;
 		this.tepct = tepct;
 		this.costpct = costpct;

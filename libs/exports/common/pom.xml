@@ -14,6 +14,10 @@
 	<description>Common classes for local DB export/import/history</description>
 	<dependencies>
 		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.lelouet.tools.application</groupId>
 			<artifactId>YamlSettings</artifactId>
 		</dependency>

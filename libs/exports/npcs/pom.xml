@@ -13,23 +13,27 @@
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
-			<artifactId>types</artifactId>
-			<optional>true</optional>
+			<artifactId>common</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>jcesi</artifactId>
-			<optional>true</optional>
+			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
+			<artifactId>types</artifactId>
+			<optional>true</optional><!--only required for loading the lp offers-->
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 			<artifactId>locations</artifactId>
-			<optional>true</optional>
+			<optional>true</optional><!--only required for loading the agents-->
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
 			<artifactId>model</artifactId>
-			<optional>true</optional>
+			<optional>true</optional><!--only required for loading the data-->
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>jcesi</artifactId>
+			<optional>true</optional><!--only required for loading the lp offers-->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

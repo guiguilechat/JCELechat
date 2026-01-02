@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.exports.industry;
+package fr.guiguilechat.jcelechat.libs.exports.industry.translate;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,8 +16,13 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
-import fr.guiguilechat.jcelechat.libs.exports.industry.translate.ActivityModifierSourceTranslator;
-import fr.guiguilechat.jcelechat.libs.exports.industry.translate.BlueprintTranslator;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Activity;
+import fr.guiguilechat.jcelechat.libs.exports.industry.ActivityModifierSource;
+import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
+import fr.guiguilechat.jcelechat.libs.exports.industry.IndustryUsage;
+import fr.guiguilechat.jcelechat.libs.exports.industry.InstallationType;
+import fr.guiguilechat.jcelechat.libs.exports.industry.InventionDecryptor;
+import fr.guiguilechat.jcelechat.libs.exports.industry.TargetFilter;
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
