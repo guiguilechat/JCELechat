@@ -107,7 +107,7 @@ public class MarketHtmlController {
 			Optional<Integer> me,
 			Optional<Integer> te,
 			Optional<Boolean> copy) {
-		Type type = typeService.byId(typeId);
+		Type type = typeService.ofId(typeId);
 		int meValue = me == null ? 0 : me.orElse(0);
 		int teValue = te == null ? 0 : te.orElse(0);
 		boolean copyValue = copy == null ? false : copy.orElse(false);
@@ -304,7 +304,7 @@ public class MarketHtmlController {
 	@Transactional
 	@GetMapping("/group/{marketGroupId}")
 	public String getMarketGroup(Model model, @PathVariable int marketGroupId) {
-		MarketGroup marketGroup = marketGroupService.byId(marketGroupId);
+		MarketGroup marketGroup = marketGroupService.ofId(marketGroupId);
 		if (marketGroup != null) {
 			model.addAttribute("name", marketGroup.name());
 			if (marketGroup.getParent() != null) {
@@ -369,7 +369,7 @@ public class MarketHtmlController {
 		}
 		switch (filter) {
 		case CATEGORY:
-			Category cat = categoryService.byId(filterId);
+			Category cat = categoryService.ofId(filterId);
 			if (cat == null) {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a category");
@@ -381,7 +381,7 @@ public class MarketHtmlController {
 					linkRankings(marketRankingService.rankCategoryOffers(locationIds, filterId, BoSoChoice.SO).get()));
 			break;
 		case GROUP:
-			Group group = groupService.byId(filterId);
+			Group group = groupService.ofId(filterId);
 			if (group == null) {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a group");
@@ -403,7 +403,7 @@ public class MarketHtmlController {
 			long locationId = locationIds.get(0);
 			Station sta = locationId > Integer.MAX_VALUE
 					? null
-					: stationService.byId((int) locationId);
+					: stationService.ofId((int) locationId);
 			locationName = sta == null ? "location:" + locationId : sta.name();
 		}
 		model.addAttribute("locationName", locationName);
@@ -457,7 +457,7 @@ public class MarketHtmlController {
 	}
 
 	public List<LinkedTypeRanking> linkRankings(List<RankedOffer> rankings) {
-		Map<Integer, Type> id2type = typeService.byId(rankings.stream().map(RankedOffer::type_id).toList()).stream()
+		Map<Integer, Type> id2type = typeService.ofId(rankings.stream().map(RankedOffer::type_id).toList()).stream()
 				.collect(Collectors.toMap(Type::getId, o -> o));
 		return rankings.stream()
 				.map(r -> new LinkedTypeRanking(
@@ -479,7 +479,7 @@ public class MarketHtmlController {
 
 		Station sta = locId > Integer.MAX_VALUE
 				? null
-				: stationService.byId((int) locId);
+				: stationService.ofId((int) locId);
 		String locationName = sta == null ? "location:" + locationId : sta.name();
 		model.addAttribute("locationName", locationName);
 		model.addAttribute("amarrUrl", rateAcceleratorsURI(Station.AMARR_HUB_ID).toString());

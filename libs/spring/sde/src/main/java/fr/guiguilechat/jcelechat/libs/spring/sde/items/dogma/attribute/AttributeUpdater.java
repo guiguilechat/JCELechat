@@ -18,7 +18,8 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.items.attribute")
-public class AttributeUpdater extends SdeEntityUpdater<Attribute, AttributeService, EdogmaAttributes> {
+public class AttributeUpdater
+		extends SdeEntityUpdater<Attribute, AttributeRepository, AttributeService, EdogmaAttributes> {
 
 	public AttributeUpdater() {
 		super(EdogmaAttributes.LOADER);
@@ -44,12 +45,12 @@ public class AttributeUpdater extends SdeEntityUpdater<Attribute, AttributeServi
 						.map(a -> a.attributeCategoryID)
 						.filter(i -> i != null && i != 0));
 		var getUnit = unitService.getterAll();
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getAttribute, getAttributeCategory, getUnit);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

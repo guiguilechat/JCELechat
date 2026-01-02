@@ -16,7 +16,8 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.solarsystem")
-public class SolarSystemUpdater extends SdeEntityUpdater<SolarSystem, SolarSystemService, EmapSolarSystems> {
+public class SolarSystemUpdater
+		extends SdeEntityUpdater<SolarSystem, SolarSystemRepository, SolarSystemService, EmapSolarSystems> {
 
 	public SolarSystemUpdater() {
 		super(EmapSolarSystems.LOADER);
@@ -30,12 +31,12 @@ public class SolarSystemUpdater extends SdeEntityUpdater<SolarSystem, SolarSyste
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapSolarSystems> sources) {
 		var getConstel = constellationService.getterAll();
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getConstel);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

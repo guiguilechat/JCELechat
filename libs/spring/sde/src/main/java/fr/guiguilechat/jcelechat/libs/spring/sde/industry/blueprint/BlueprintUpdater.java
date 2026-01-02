@@ -31,7 +31,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.industry.blueprint")
-public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintService, Eblueprints> {
+public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintRepository, BlueprintService, Eblueprints> {
 
 	public BlueprintUpdater() {
 		super(Eblueprints.LOADER);
@@ -59,7 +59,7 @@ public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintServi
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, Eblueprints> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		blueprintMaterialService().delete();
 		blueprintProductService().delete();
 		blueprintSkillService().delete();
@@ -90,7 +90,7 @@ public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintServi
 				}
 			}
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 		blueprintActivityService.saveAll(activities);
 		blueprintMaterialService.saveAll(materials);
 		blueprintProductService.saveAll(products);

@@ -88,7 +88,7 @@ public class ContractEvalController {
 
 	public LinkedContractEval LinkedContractEval(ContractEval eval) {
 		return new LinkedContractEval(uri(eval.getContract().getId()).toString(), eval,
-		    regionService.byId(eval.getContract().getRegion().getId()).name());
+		    regionService.ofId(eval.getContract().getRegion().getId()).name());
 	}
 
 	@Transactional
@@ -112,7 +112,7 @@ public class ContractEvalController {
 		locationFilters.put("HS", "High Security");
 		locationFilters.put("LS", "Low Security");
 		locationFilters.put("NS", "Null Security");
-		regionService.allById().values().stream()
+		regionService.mapAllById().values().stream()
 		    .sorted(Comparator.comparing(Region::name))
 		    .forEach(r -> locationFilters.put("" + r.getId(), r.name()));
 		model.addAttribute("locationFilters", locationFilters);

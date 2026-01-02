@@ -138,10 +138,10 @@ public class InventoryHtmlController {
 	List<Seed> seeds(List<LocatedBestOffer> offers) {
 		List<Integer> seedStationIds = offers.stream().filter(s -> s.locationId() < Integer.MAX_VALUE)
 				.mapToInt(s -> (int) s.locationId()).distinct().boxed().toList();
-		Map<Integer, Station> stationId2Station = stationService.byId(seedStationIds).stream()
+		Map<Integer, Station> stationId2Station = stationService.ofId(seedStationIds).stream()
 				.collect(Collectors.toMap((Function<? super Station, ? extends Integer>) Station::getId, s -> s));
 		List<Integer> seedRegionIds = offers.stream().mapToInt(LocatedBestOffer::regionId).distinct().boxed().toList();
-		Map<Integer, Region> regionId2Region = regionService.byId(seedRegionIds).stream()
+		Map<Integer, Region> regionId2Region = regionService.ofId(seedRegionIds).stream()
 				.collect(Collectors.toMap((Function<? super Region, ? extends Integer>) Region::getId, r -> r));
 		Map<Long, SolarSystem> stationId2SolSys = stationService.getSolarSystems(seedStationIds);
 		return offers.stream()
@@ -174,7 +174,7 @@ public class InventoryHtmlController {
 	public LinkedProduct linkedProduct(BlueprintProduct product) {
 		return new LinkedProduct(
 				typeUri(product.getTypeId()).toString(),
-				typeService.byId(product.getTypeId()),
+				typeService.ofId(product.getTypeId()),
 				product.getQuantity(),
 				product.getProbability());
 	}
@@ -185,7 +185,7 @@ public class InventoryHtmlController {
 	public LinkedMaterial linkedMaterial(BlueprintMaterial material) {
 		return new LinkedMaterial(
 				typeUri(material.getTypeId()).toString(),
-				typeService.byId(material.getTypeId()),
+				typeService.ofId(material.getTypeId()),
 				material.getQuantity());
 	}
 
@@ -197,7 +197,7 @@ public class InventoryHtmlController {
 	}
 
 	public LinkedMaterial linkedMaterial(int typeId, long quantity) {
-		return linkedMaterial(typeService.byId(typeId), quantity);
+		return linkedMaterial(typeService.ofId(typeId), quantity);
 	}
 
 	public static record LinkedActivity(String url, Type type, ActivityType activity, int quantity,
@@ -207,7 +207,7 @@ public class InventoryHtmlController {
 	public LinkedActivity linkedActivity(BlueprintProduct product) {
 		return new LinkedActivity(
 				typeUri(product.getActivity().getTypeId()).toString(),
-				typeService.byId(product.getActivity().getTypeId()),
+				typeService.ofId(product.getActivity().getTypeId()),
 				product.getActivity().getActivityType(),
 				product.getQuantity(),
 				product.getProbability(),
@@ -220,7 +220,7 @@ public class InventoryHtmlController {
 	public LinkedUsage linkedUsage(BlueprintMaterial material) {
 		return new LinkedUsage(
 				typeUri(material.getActivity().getTypeId()).toString(),
-				typeService.byId(material.getActivity().getTypeId()),
+				typeService.ofId(material.getActivity().getTypeId()),
 				material.getQuantity());
 	}
 
@@ -244,7 +244,7 @@ public class InventoryHtmlController {
 	public String getType(Model model,
 			@PathVariable int typeId) {
 		log.trace("fetching type");
-		Type t = typeService.byId(typeId);
+		Type t = typeService.ofId(typeId);
 		if (t == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
 		}
@@ -425,7 +425,7 @@ public class InventoryHtmlController {
 	@Transactional
 	@GetMapping("/type/search")
 	public String getTypesIndex(Model model) {
-		model.addAttribute("categories", categoryService.allById().values().stream()
+		model.addAttribute("categories", categoryService.mapAllById().values().stream()
 				.sorted(Comparator.comparing(Category::name))
 				.map(this::linkedCategory)
 				.toList());
@@ -450,7 +450,7 @@ public class InventoryHtmlController {
 			return null;
 		}
 		Map<Integer, Number> typeId2MetaLevel = typeAttributeService.valuesForTypes(633, variationIds);
-		return typeService.byId(variationIds).stream()
+		return typeService.ofId(variationIds).stream()
 				.map(this::linkedType)
 				.sorted(Comparator.comparing(LinkedType::name))
 				.sorted(Comparator.comparing(lt -> typeId2MetaLevel.getOrDefault(lt.type().getId(), 0).intValue()))
@@ -460,7 +460,7 @@ public class InventoryHtmlController {
 	@Transactional
 	@GetMapping("/group/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {
-		Group g = groupService.byId(groupId);
+		Group g = groupService.ofId(groupId);
 		if (g == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "group " + groupId + " does not exist");
 		}
@@ -509,7 +509,7 @@ public class InventoryHtmlController {
 	@Transactional
 	@GetMapping("/category/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
-		Category c = categoryService.byId(categoryId);
+		Category c = categoryService.ofId(categoryId);
 		if (c == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "category " + categoryId + " does not exist");
 		}

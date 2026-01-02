@@ -115,7 +115,7 @@ public class MerKillsRestController {
 			@RequestParam @Parameter(description = "period to aggregate over") Optional<KillsAggregation> aggregation,
 	    @RequestParam @Parameter(description = "format fo chart : png(default), jpg") Optional<String> accept)
 	    throws IOException {
-		Type t = typeService.byId(typeId);
+		Type t = typeService.ofId(typeId);
 		if (t == null) {
 			response.sendError(404, "can't resolve " + typeId + " to a type");
 			return;
@@ -272,7 +272,7 @@ public class MerKillsRestController {
 		}
 		String timeOrder = time.orElse("desc").toLowerCase();
 		KillsAggregation ka = period.orElse(KillsAggregation.MONTHLY);
-		Map<Integer, Type> typeId2Type = typeService.byId(resolved.typeIds()).stream()
+		Map<Integer, Type> typeId2Type = typeService.ofId(resolved.typeIds()).stream()
 		    .collect(Collectors.toMap(Type::getId, t -> t));
 		Map<String, TypesKillsStats> statsByType = resolved.typeIds().parallelStream().collect(
 		    Collectors.toMap(
@@ -311,7 +311,7 @@ public class MerKillsRestController {
 		}
 		KillsDetail det = KillsDetail.of(detail);
 		KillsAggregation ka = aggregate.orElse(KillsAggregation.MONTHLY);
-		Map<Integer, Type> typeId2Type = typeService.byId(resolved.typeIds()).stream()
+		Map<Integer, Type> typeId2Type = typeService.ofId(resolved.typeIds()).stream()
 		    .collect(Collectors.toMap(Type::getId, t -> t));
 		Map<String, List<KillStats>> statsByType = resolved.typeIds().parallelStream().collect(
 		    Collectors.toMap(

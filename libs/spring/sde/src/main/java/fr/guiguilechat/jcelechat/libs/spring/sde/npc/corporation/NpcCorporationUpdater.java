@@ -26,7 +26,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcCorporationService, EnpcCorporations> {
+public class NpcCorporationUpdater
+		extends SdeEntityUpdater<NpcCorporation, NpcCorporationRepository, NpcCorporationService, EnpcCorporations> {
 
 	public NpcCorporationUpdater() {
 		super(EnpcCorporations.LOADER);
@@ -67,12 +68,12 @@ public class NpcCorporationUpdater extends SdeEntityUpdater<NpcCorporation, NpcC
 				.getter(sources.values().stream()
 						.map(p -> p.stationID)
 						.filter(i -> i != 0));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getSystem, getStation);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 		updateExchanges(storedEntities, sources);
 		updateTrades(storedEntities, sources);
 	}

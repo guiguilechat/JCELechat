@@ -11,7 +11,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 
 @Service
 @ConfigurationProperties(prefix = "sde.items.marketgroup")
-public class MarketGroupUpdater extends SdeEntityUpdater<MarketGroup, MarketGroupService, EmarketGroups> {
+public class MarketGroupUpdater
+		extends SdeEntityUpdater<MarketGroup, MarketGroupRepository, MarketGroupService, EmarketGroups> {
 
 	public MarketGroupUpdater() {
 		super(EmarketGroups.LOADER);
@@ -21,12 +22,12 @@ public class MarketGroupUpdater extends SdeEntityUpdater<MarketGroup, MarketGrou
 	protected void processSource(LinkedHashMap<Integer, EmarketGroups> sources) {
 		var getGroup = service()
 				.getter(sources.values().stream().map(p -> p.parentGroupID).filter(i -> i != null && i > 0));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getGroup);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

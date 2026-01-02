@@ -223,14 +223,14 @@ public class PlanetEvalService {
 			double customTax = 0.0;
 			for (Entry<Integer, Long> e : fe.getProductById().entrySet()) {
 				long qtty = e.getValue();
-				Type t = typeService.byId(e.getKey());
+				Type t = typeService.ofId(e.getKey());
 				volCost += params.getProductValuator().haulingCost(qtty,
 						params.getVolumicPrice() * t.getVolume().doubleValue());
 				customTax += taxMult * exportTaxById.get(t.getId()) * qtty;
 			}
 			for (Entry<Integer, Long> e : fe.getMaterialsById().entrySet()) {
 				long qtty = e.getValue();
-				Type t = typeService.byId(e.getKey());
+				Type t = typeService.ofId(e.getKey());
 				volCost += params.getMaterialSourcing().haulingCost(qtty,
 						params.getVolumicPrice() * t.getVolume().doubleValue());
 				customTax += taxMult * importTaxById.get(t.getId()) * qtty;

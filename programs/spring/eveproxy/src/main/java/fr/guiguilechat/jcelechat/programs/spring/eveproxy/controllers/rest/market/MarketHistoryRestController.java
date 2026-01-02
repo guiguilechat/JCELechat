@@ -100,7 +100,7 @@ public class MarketHistoryRestController {
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept,
 			@RequestParam Optional<Integer> days) {
-		Type type = typeService.byId(typeId);
+		Type type = typeService.ofId(typeId);
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
@@ -143,7 +143,7 @@ public class MarketHistoryRestController {
 			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays,
 			@RequestParam @Parameter(description = "maximum days to show. Default 10 years") Optional<Integer> days)
 					throws IOException {
-		Type type = typeService.byId(typeId);
+		Type type = typeService.ofId(typeId);
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
@@ -199,7 +199,7 @@ public class MarketHistoryRestController {
 			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
 			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays)
 					throws IOException {
-		Type type = typeService.byId(typeId);
+		Type type = typeService.ofId(typeId);
 		Instant from = Instant.EPOCH;
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");

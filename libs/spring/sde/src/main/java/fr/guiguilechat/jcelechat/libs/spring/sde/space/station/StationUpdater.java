@@ -22,7 +22,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.station")
-public class StationUpdater extends SdeEntityUpdater<Station, StationService, EnpcStations> {
+public class StationUpdater extends SdeEntityUpdater<Station, StationRepository, StationService, EnpcStations> {
 
 	public StationUpdater() {
 		super(EnpcStations.LOADER);
@@ -75,7 +75,7 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 				.getter(sources.values().stream().filter(EnpcStations::orbitsStar).map(s -> s.orbitID));
 		var getSystem = solarSystemService().getterAll();
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(),
@@ -87,7 +87,7 @@ public class StationUpdater extends SdeEntityUpdater<Station, StationService, En
 					getStar,
 					getOperation);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

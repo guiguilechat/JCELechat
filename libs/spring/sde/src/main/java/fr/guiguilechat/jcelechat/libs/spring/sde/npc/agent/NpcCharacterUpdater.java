@@ -21,7 +21,8 @@ import lombok.experimental.Accessors;
  * deduce the agents names
  */
 @Service
-public class NpcCharacterUpdater extends SdeEntityUpdater<NpcCharacter, NpcCharacterService, EnpcCharacters> {
+public class NpcCharacterUpdater
+		extends SdeEntityUpdater<NpcCharacter, NpcCharacterRepository, NpcCharacterService, EnpcCharacters> {
 
 	public NpcCharacterUpdater() {
 		super(EnpcCharacters.LOADER);
@@ -48,13 +49,13 @@ public class NpcCharacterUpdater extends SdeEntityUpdater<NpcCharacter, NpcChara
 		var getDivision = divisionService().getterAll();
 		var getNpcCorp = npcCorpService.getterAll();
 		var getType = agentTypeService().getterAll();
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 
 		for (Entry<Integer, EnpcCharacters> e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getType, getDivision, getNpcCorp);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

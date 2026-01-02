@@ -16,7 +16,8 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.constellation")
-public class ConstellationUpdater extends SdeEntityUpdater<Constellation, ConstellationService, EmapConstellations> {
+public class ConstellationUpdater
+		extends SdeEntityUpdater<Constellation, ConstellationRepository, ConstellationService, EmapConstellations> {
 
 	public ConstellationUpdater() {
 		super(EmapConstellations.LOADER);
@@ -30,13 +31,13 @@ public class ConstellationUpdater extends SdeEntityUpdater<Constellation, Conste
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapConstellations> sources) {
 		var getRegion = regionService.getterAll();
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(),
 					getRegion);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

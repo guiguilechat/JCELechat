@@ -187,7 +187,7 @@ public class IndustryRestController {
 		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
 				.map(t -> new ActivityInfo(t, activity,
 		        materialService.forBPActivity(t.getId(), activity),
-						productService.findProducts(t.getId(), activity), typeService::byId))
+						productService.findProducts(t.getId(), activity), typeService::ofId))
 				.toList();
 		return RestControllerHelper.makeResponse(ret, accept);
 	}
@@ -254,7 +254,7 @@ public class IndustryRestController {
 				? productService.findProducts(List.of(ActivityType.manufacturing))
 				: productService.findProducers(tidFilters, List.of(ActivityType.manufacturing)))
 				.stream().collect(Collectors.toMap(p -> p.getActivity().getTypeId(), p -> p));
-		Map<Integer, Type> types = typeService.byId(acceptedBpIdToProduct.values().stream()
+		Map<Integer, Type> types = typeService.ofId(acceptedBpIdToProduct.values().stream()
 				.flatMap(bpp -> Stream.of(bpp.getTypeId(), bpp.getActivity().getTypeId())).distinct().toList())
 				.stream().collect(Collectors.toMap(Type::getId, o -> o));
 		if (publishedValue != null) {

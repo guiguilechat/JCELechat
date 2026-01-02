@@ -22,7 +22,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.items.dogmaeffect")
-public class EffectUpdater extends SdeEntityUpdater<Effect, EffectService, EdogmaEffects> {
+public class EffectUpdater extends SdeEntityUpdater<Effect, EffectRepository, EffectService, EdogmaEffects> {
 
 	public EffectUpdater() {
 		super(EdogmaEffects.LOADER);
@@ -65,11 +65,11 @@ public class EffectUpdater extends SdeEntityUpdater<Effect, EffectService, Edogm
 		BiConsumer<Effect, ModifierInfo> saveEffect = (e, mi) -> modifierService
 				.save(Modifier.of(mi, e, getGroup, getAttribute, getType));
 
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getAttribute, saveEffect);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 }

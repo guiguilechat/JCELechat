@@ -195,7 +195,7 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 
 	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
 		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
-		case "id", "ti", "tid", "typeid" -> List.of(byId(Integer.parseInt(typeFilter)));
+		case "id", "ti", "tid", "typeid" -> List.of(ofId(Integer.parseInt(typeFilter)));
 		case "name", "tn", "tname", "typename" -> searchByName(typeFilter);
 		case "gn", "gname", "groupname" -> searchByGroupName(typeFilter);
 		case "gi", "gid", "groupid" -> byGroupId(Integer.parseInt(typeFilter));
@@ -207,7 +207,7 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 
 	public Type typeFilter(String typeFiltering, String typeFilter) {
 		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
-		case "id", "ti", "tid", "typeid" -> byId(Integer.parseInt(typeFilter));
+		case "id", "ti", "tid", "typeid" -> ofId(Integer.parseInt(typeFilter));
 		case "name", "tn", "tname", "typename" -> searchByName(typeFilter).stream().findFirst().orElse(null);
 		default -> search(typeFilter).stream().findFirst().orElse(null);
 		};

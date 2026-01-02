@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.items.group")
-public class GroupUpdater extends SdeEntityUpdater<Group, GroupService, Egroups> {
+public class GroupUpdater extends SdeEntityUpdater<Group, GroupRepository, GroupService, Egroups> {
 
 	public GroupUpdater() {
 		super(Egroups.LOADER);
@@ -30,13 +30,13 @@ public class GroupUpdater extends SdeEntityUpdater<Group, GroupService, Egroups>
 	@Override
 	protected void processSource(LinkedHashMap<Integer, Egroups> sources) {
 		var getCategory = categoryService.getterAll();
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(),
 					getCategory);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

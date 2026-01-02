@@ -18,7 +18,7 @@ public enum TypeFiltering {
 		@Override
 		public NamedTypelist resolve(String filterparam, TypeService typeService, GroupService groupService) {
 			int typeId = Integer.parseInt(filterparam);
-			Type type = typeService.byId(typeId);
+			Type type = typeService.ofId(typeId);
 			return type == null ? new NamedTypelist("unknown t" + typeId, Collections.emptyList())
 			    : new NamedTypelist(type.name(), List.of(typeId));
 		}
@@ -27,7 +27,7 @@ public enum TypeFiltering {
 		@Override
 		public NamedTypelist resolve(String filterparam, TypeService typeService, GroupService groupService) {
 			int groupId = Integer.parseInt(filterparam);
-			Group group = groupService.byId(groupId);
+			Group group = groupService.ofId(groupId);
 			return group == null ? new NamedTypelist("unknown g" + groupId, Collections.emptyList())
 					: new NamedTypelist(group.getName(),
 			        typeService.byGroupId(groupId).stream().map(Type::getId).distinct().sorted().toList());

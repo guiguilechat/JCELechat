@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.moon")
-public class MoonUpdater extends SdeEntityUpdater<Moon, MoonService, EmapMoons> {
+public class MoonUpdater extends SdeEntityUpdater<Moon, MoonRepository, MoonService, EmapMoons> {
 
 	public MoonUpdater() {
 		super(EmapMoons.LOADER);
@@ -44,12 +44,12 @@ public class MoonUpdater extends SdeEntityUpdater<Moon, MoonService, EmapMoons> 
 		var getPlanet = planetService().getter(sources.values().stream().map(p -> p.orbitID));
 		var getSystem = solarSystemService.getterAll();
 		var getType = typeService.getter(sources.values().stream().map(p -> p.typeID));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getType, getSystem, getPlanet);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

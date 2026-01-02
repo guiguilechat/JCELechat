@@ -78,11 +78,11 @@ public class TravelRestController {
 			@RequestParam @Parameter(description = "align time, in s, of the ship") Optional<Double> align,
 			@RequestParam @Parameter(description = "warp speed, in AU/s, of the ship") Optional<Double> ws,
 			@RequestParam @Parameter(description = "json or xml. Default json") Optional<ACCEPT_TEXT> accept) {
-		Station stationFrom = stationService.byId(stationFromId);
+		Station stationFrom = stationService.ofId(stationFromId);
 		if (stationFrom == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationFromId + " unknown");
 		}
-		Station stationTo = stationService.byId(stationToId);
+		Station stationTo = stationService.ofId(stationToId);
 		if (stationTo == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "station " + stationToId + " unknown");
 		}

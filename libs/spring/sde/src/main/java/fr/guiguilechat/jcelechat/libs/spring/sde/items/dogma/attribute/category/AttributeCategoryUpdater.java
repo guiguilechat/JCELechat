@@ -12,7 +12,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 @Service
 @ConfigurationProperties(prefix = "sde.items.attribute.category")
 public class AttributeCategoryUpdater
-		extends SdeEntityUpdater<AttributeCategory, AttributeCategoryService, EdogmaAttributeCategories> {
+		extends
+		SdeEntityUpdater<AttributeCategory, AttributeCategoryRepository, AttributeCategoryService, EdogmaAttributeCategories> {
 
 	public AttributeCategoryUpdater() {
 		super(EdogmaAttributeCategories.LOADER);
@@ -20,13 +21,12 @@ public class AttributeCategoryUpdater
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EdogmaAttributeCategories> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
-
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

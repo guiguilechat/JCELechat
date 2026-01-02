@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EagentTypes;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 
 @Service
-public class AgentTypeUpdater extends SdeEntityUpdater<AgentType, AgentTypeService, EagentTypes> {
+public class AgentTypeUpdater extends SdeEntityUpdater<AgentType, AgentTypeRepository, AgentTypeService, EagentTypes> {
 
 	public AgentTypeUpdater() {
 		super(EagentTypes.LOADER);
@@ -17,12 +17,12 @@ public class AgentTypeUpdater extends SdeEntityUpdater<AgentType, AgentTypeServi
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EagentTypes> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

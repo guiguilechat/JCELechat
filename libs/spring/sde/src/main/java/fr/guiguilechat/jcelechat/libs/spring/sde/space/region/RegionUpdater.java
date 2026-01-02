@@ -11,7 +11,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.region")
-public class RegionUpdater extends SdeEntityUpdater<Region, RegionService, EmapRegions> {
+public class RegionUpdater extends SdeEntityUpdater<Region, RegionRepository, RegionService, EmapRegions> {
 
 	public RegionUpdater() {
 		super(EmapRegions.LOADER);
@@ -19,12 +19,12 @@ public class RegionUpdater extends SdeEntityUpdater<Region, RegionService, EmapR
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmapRegions> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

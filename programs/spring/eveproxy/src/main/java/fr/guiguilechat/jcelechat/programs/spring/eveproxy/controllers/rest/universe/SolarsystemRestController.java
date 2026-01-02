@@ -62,7 +62,7 @@ public class SolarsystemRestController {
 	public ResponseEntity<SolarSystemDTO> byId(
 			@PathVariable int solarSystemId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		SolarSystem ss = solarSystemService.byId(solarSystemId);
+		SolarSystem ss = solarSystemService.ofId(solarSystemId);
 		if (ss == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "system " + solarSystemId + " unknown");
 		}

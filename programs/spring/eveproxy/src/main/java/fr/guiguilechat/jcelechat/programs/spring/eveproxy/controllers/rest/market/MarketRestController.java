@@ -132,7 +132,7 @@ public class MarketRestController {
 		case "rid":
 		case "regionid":
 		case "ri":
-			reg = regionService.byId(Integer.parseInt(placeFilter));
+			reg = regionService.ofId(Integer.parseInt(placeFilter));
 			break;
 		case "rname":
 		case "rn":

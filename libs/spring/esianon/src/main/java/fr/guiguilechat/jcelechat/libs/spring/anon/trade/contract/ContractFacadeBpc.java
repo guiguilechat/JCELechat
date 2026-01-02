@@ -141,7 +141,7 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.byId(
+		Map<Integer, String> typeId2Name = typeService.ofId(
 				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
 				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
 		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit)

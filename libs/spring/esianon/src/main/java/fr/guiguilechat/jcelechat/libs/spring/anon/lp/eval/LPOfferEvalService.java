@@ -77,7 +77,7 @@ public class LPOfferEvalService {
 				throw new RuntimeException("activity " + manuf + " has not 1 product");
 			}
 			BlueprintProduct manufProd = manuf.getProducts().get(0);
-			product = typeService.byId(manufProd.getTypeId());
+			product = typeService.ofId(manufProd.getTypeId());
 			productQuantity *= manufProd.getQuantity();
 			int hours = (int) Math.ceil(1.0 * manuf.getTime() / 3600);
 			timeMarginPct = hours * marginPctPerHour;

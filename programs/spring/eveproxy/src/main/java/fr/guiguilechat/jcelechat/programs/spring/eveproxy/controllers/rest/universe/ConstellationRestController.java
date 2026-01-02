@@ -41,7 +41,7 @@ public class ConstellationRestController {
 	public ResponseEntity<ConstellationDTO> byId(
 			@PathVariable int constellationId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		Constellation c = constellationService.byId(constellationId);
+		Constellation c = constellationService.ofId(constellationId);
 		if (c == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "constellation " + constellationId + " unknown");
 		}

@@ -111,7 +111,7 @@ public class NpcHtmlController {
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
 			LPEvalParams params) {
 
-		NpcCorporation corp = npcCorporationService.byId(corporationId);
+		NpcCorporation corp = npcCorporationService.ofId(corporationId);
 		model.addAttribute("corpName", corp == null ? "corporation:" + corporationId : corp.nameOrId());
 
 		LPCorporation prevCorp = lpCorporationService.prevCorp(corp.nameOrId());

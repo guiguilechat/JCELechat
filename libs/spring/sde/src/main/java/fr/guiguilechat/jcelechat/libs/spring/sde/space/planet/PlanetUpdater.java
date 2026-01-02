@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.planet")
-public class PlanetUpdater extends SdeEntityUpdater<Planet, PlanetService, EmapPlanets> {
+public class PlanetUpdater extends SdeEntityUpdater<Planet, PlanetRepository, PlanetService, EmapPlanets> {
 
 	public PlanetUpdater() {
 		super(EmapPlanets.LOADER);
@@ -37,12 +37,12 @@ public class PlanetUpdater extends SdeEntityUpdater<Planet, PlanetService, EmapP
 	protected void processSource(LinkedHashMap<Integer, EmapPlanets> sources) {
 		var getSystem = solarSystemService().getterAll();
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getType, getSystem);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

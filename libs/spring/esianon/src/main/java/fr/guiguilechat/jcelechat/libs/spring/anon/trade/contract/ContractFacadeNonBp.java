@@ -105,7 +105,7 @@ public class ContractFacadeNonBp {
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.byId(
+		Map<Integer, String> typeId2Name = typeService.ofId(
 		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
 		    .collect(Collectors.toMap(Type::getId, Type::getName));
 		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit)

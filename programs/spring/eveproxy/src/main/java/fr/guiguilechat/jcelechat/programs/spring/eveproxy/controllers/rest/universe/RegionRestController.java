@@ -44,7 +44,7 @@ public class RegionRestController {
 	public ResponseEntity<RegionDTO> byId(
 			@PathVariable int regionId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		Region region = regionService.byId(regionId);
+		Region region = regionService.ofId(regionId);
 		if (region == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "region " + regionId + " unknown");
 		}

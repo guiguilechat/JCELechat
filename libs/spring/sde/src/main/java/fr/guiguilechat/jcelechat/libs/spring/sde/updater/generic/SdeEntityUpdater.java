@@ -18,9 +18,15 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RequiredArgsConstructor
-public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Service extends SdeEntityService<Entity, Integer, ?>, SdeSource>
+public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Repo extends SdeEntityRepository<Entity, Integer>, Service extends SdeEntityService<Entity, Integer, Repo>, SdeSource>
 		implements SdeListener {
 
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private Repo repo;
+
+	/** required to create */
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
@@ -52,7 +58,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 					getClass().getSimpleName(),
 					loader.yamlFileName());
 			long startTime = System.currentTimeMillis();
-			service().setAllRemoved();
+			repo().setAllRemoved();
 			var sources = loader.yaml().from(fileContent.get());
 			processSource(sources);
 			receivedFile = true;
@@ -75,7 +81,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Servic
 					getClass().getSimpleName(),
 					loader.yamlFileName());
 		}
-		List<Entity> notReceived = service().listNotReceived();
+		List<Entity> notReceived = repo().findAllByReceivedFalse();
 		if (!notReceived.isEmpty()) {
 			log.warn("service {} has {} non received entities with ids {}",
 					getClass().getSimpleName(),

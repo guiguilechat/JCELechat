@@ -11,7 +11,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 
 @Service
 @ConfigurationProperties(prefix = "sde.items.metagroup")
-public class MetaGroupUpdater extends SdeEntityUpdater<MetaGroup, MetaGroupService, EmetaGroups> {
+public class MetaGroupUpdater extends SdeEntityUpdater<MetaGroup, MetaGroupRepository, MetaGroupService, EmetaGroups> {
 
 	public MetaGroupUpdater() {
 		super(EmetaGroups.LOADER);
@@ -19,12 +19,12 @@ public class MetaGroupUpdater extends SdeEntityUpdater<MetaGroup, MetaGroupServi
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EmetaGroups> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

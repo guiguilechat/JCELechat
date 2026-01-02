@@ -12,7 +12,8 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdate
 @Service
 @ConfigurationProperties(prefix = "sde.space.station.operation")
 public class StationOperationUpdater
-		extends SdeEntityUpdater<StationOperation, StationOperationService, EstationOperations> {
+		extends
+		SdeEntityUpdater<StationOperation, StationOperationRepository, StationOperationService, EstationOperations> {
 
 	public StationOperationUpdater() {
 		super(EstationOperations.LOADER);
@@ -20,12 +21,12 @@ public class StationOperationUpdater
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EstationOperations> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

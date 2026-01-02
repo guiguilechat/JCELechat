@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.stargate")
-public class StargateUpdater extends SdeEntityUpdater<Stargate, StargateService, EmapStargates> {
+public class StargateUpdater extends SdeEntityUpdater<Stargate, StargateRepository, StargateService, EmapStargates> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -40,7 +40,7 @@ public class StargateUpdater extends SdeEntityUpdater<Stargate, StargateService,
 		var getSystem = solarSystemService().getter(
 				sources.values().stream().flatMap(sg -> Stream.of(sg.solarSystemID, sg.destination.solarSystemID)));
 		var getType = typeService().getter(sources.values().stream().map(p -> p.typeID));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		Function<Integer, Stargate> getStargate = stargateId -> storedEntities.computeIfAbsent(stargateId, service()::create);
 		for (var e : sources.entrySet()) {
 			var stored = getStargate.apply(e.getKey());
@@ -49,7 +49,7 @@ public class StargateUpdater extends SdeEntityUpdater<Stargate, StargateService,
 					getSystem,
 					getStargate);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

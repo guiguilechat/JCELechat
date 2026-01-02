@@ -18,7 +18,8 @@ import lombok.experimental.Accessors;
 
 @Service
 @ConfigurationProperties(prefix = "sde.space.asteroidbelt")
-public class AsteroidBeltUpdater extends SdeEntityUpdater<AsteroidBelt, AsteroidBeltService, EmapAsteroidBelts> {
+public class AsteroidBeltUpdater
+		extends SdeEntityUpdater<AsteroidBelt, AsteroidBeltRepository, AsteroidBeltService, EmapAsteroidBelts> {
 
 	public AsteroidBeltUpdater() {
 		super(EmapAsteroidBelts.LOADER);
@@ -44,7 +45,7 @@ public class AsteroidBeltUpdater extends SdeEntityUpdater<AsteroidBelt, Asteroid
 		var getType = typeService.getter(sources.values().stream().map(p -> p.typeID));
 		var getSystem = solarSystemService.getterAll();
 		var getPlanet = planetService.getter(sources.values().stream().map(p -> p.orbitID));
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(),
@@ -52,7 +53,7 @@ public class AsteroidBeltUpdater extends SdeEntityUpdater<AsteroidBelt, Asteroid
 					getSystem,
 					getPlanet);
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

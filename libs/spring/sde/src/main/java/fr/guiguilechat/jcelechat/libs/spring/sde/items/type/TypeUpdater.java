@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @ConfigurationProperties(prefix = "sde.items.type")
-public class TypeUpdater extends SdeEntityUpdater<Type, TypeService, Etypes> {
+public class TypeUpdater extends SdeEntityUpdater<Type, TypeRepository, TypeService, Etypes> {
 
 	public TypeUpdater() {
 		super(Etypes.LOADER);
@@ -53,13 +53,13 @@ public class TypeUpdater extends SdeEntityUpdater<Type, TypeService, Etypes> {
 		var getMetaGroup = metaGroupService()
 				.getter(sources.values().stream().map(p -> p.metaGroupID).filter(i -> i > 0));
 
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue(), getType, getGroup, getMarketGroup, getMetaGroup);
 		}
 		log.trace(" saving " + storedEntities.size() + " entities");
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }

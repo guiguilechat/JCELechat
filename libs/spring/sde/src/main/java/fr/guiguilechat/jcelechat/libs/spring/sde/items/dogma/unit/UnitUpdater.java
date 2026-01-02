@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaUnits;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityUpdater;
 
 @Service
-public class UnitUpdater extends SdeEntityUpdater<Unit, UnitService, EdogmaUnits> {
+public class UnitUpdater extends SdeEntityUpdater<Unit, UnitRepository, UnitService, EdogmaUnits> {
 
 	public UnitUpdater() {
 		super(EdogmaUnits.LOADER);
@@ -17,12 +17,12 @@ public class UnitUpdater extends SdeEntityUpdater<Unit, UnitService, EdogmaUnits
 
 	@Override
 	protected void processSource(LinkedHashMap<Integer, EdogmaUnits> sources) {
-		var storedEntities = new HashMap<>(service().allById());
+		var storedEntities = new HashMap<>(repo().mapAllById());
 		for (var e : sources.entrySet()) {
 			var stored = storedEntities.computeIfAbsent(e.getKey(), service()::create);
 			stored.update(e.getValue());
 		}
-		service().saveAll(storedEntities.values());
+		repo().saveAllAndFlush(storedEntities.values());
 	}
 
 }
