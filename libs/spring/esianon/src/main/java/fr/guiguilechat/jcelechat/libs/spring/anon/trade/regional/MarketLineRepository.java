@@ -23,7 +23,7 @@ from
 	#{#entityName} e
 where
 	not isBuyOrder
-	and locationId in :locationId
+	and locationId in :locationIds
 	and typeId in :typeIds
 group by typeId
 """)

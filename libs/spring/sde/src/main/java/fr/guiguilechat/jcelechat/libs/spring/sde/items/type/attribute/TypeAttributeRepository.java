@@ -12,6 +12,8 @@ public interface TypeAttributeRepository extends DeducedEntityRepository<TypeAtt
 
 	List<TypeAttribute> findAllByTypeId(int typeId);
 
+	List<TypeAttribute> findAllByTypeIdIn(Iterable<Integer> typeIds);
+
 	@Query("""
 select
 	ta.typeId type_id,

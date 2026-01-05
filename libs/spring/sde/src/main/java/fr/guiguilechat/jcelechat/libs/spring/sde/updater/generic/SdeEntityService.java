@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
@@ -132,6 +133,10 @@ public abstract class SdeEntityService<Entity extends SdeEntity<IdType>, IdType 
 	 */
 	public Function<IdType, Entity> getter(Stream<IdType> ids) {
 		return createIfAbsent(ids.distinct().toList())::get;
+	}
+
+	public Function<IdType, Entity> getter(Set<IdType> ids) {
+		return createIfAbsent(ids)::get;
 	}
 
 	// hardcoded inList to limit the query in(ids) quantity

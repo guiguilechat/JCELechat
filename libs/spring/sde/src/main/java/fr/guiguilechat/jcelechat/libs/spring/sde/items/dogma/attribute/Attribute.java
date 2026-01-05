@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute;
 
 import java.math.BigDecimal;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.function.Function;
 
 import org.hibernate.annotations.Cache;
@@ -9,12 +11,14 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.category.AttributeCategory;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.unit.Unit;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dynamic.multiplier.MutaMultiplier;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -52,6 +56,9 @@ public class Attribute extends SdeEntity<Integer> {
 	private boolean stackable;
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Unit unit;
+
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "attribute")
+	private Set<MutaMultiplier> multipliers = new HashSet<>();
 
 	public void update(EdogmaAttributes source,
 			Function<Integer, Attribute> attributes,

@@ -62,7 +62,8 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Repo e
 			var sources = loader.yaml().from(fileContent.get());
 			processSource(sources);
 			receivedFile = true;
-			log.info(" {} processed {} entries in {} ms",
+			log.info(" {} processed by {}, {} entries in {} ms",
+					loader.yamlFileName(),
 					getClass().getSimpleName(),
 					sources.size(),
 					System.currentTimeMillis() - startTime);

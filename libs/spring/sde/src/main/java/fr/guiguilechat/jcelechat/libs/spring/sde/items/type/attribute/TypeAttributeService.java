@@ -8,9 +8,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.DeducedEntityService;
-import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor
 @Service
 public class TypeAttributeService extends DeducedEntityService<TypeAttribute, TypeAttributeRepository> {
 
@@ -20,6 +18,10 @@ public class TypeAttributeService extends DeducedEntityService<TypeAttribute, Ty
 
 	public List<TypeAttribute> byAttribute(Attribute attribute) {
 		return repo().findAllByAttributeId(attribute.getId());
+	}
+
+	public List<TypeAttribute> byTypeId(Iterable<Integer> typeIds) {
+		return repo().findAllByTypeIdIn(typeIds);
 	}
 
 	public List<TypeAttribute> findAll() {

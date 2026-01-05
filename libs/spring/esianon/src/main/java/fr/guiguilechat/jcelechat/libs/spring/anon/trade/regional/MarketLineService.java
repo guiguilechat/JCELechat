@@ -133,7 +133,7 @@ public class MarketLineService implements MarketRegionListener {
 	 * @return all the buy orders of given types, grouped by type id, by price
 	 *         descending
 	 */
-	// @Cacheable("marketLocationTypesBo")
+	@Cacheable("marketLocationTypesBo")
 	public Map<Integer, List<MarketLine>> locationBos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo
@@ -149,7 +149,7 @@ public class MarketLineService implements MarketRegionListener {
 	 * @return all the sell orders of given types, grouped by type id, by price
 	 *         ascending
 	 */
-	// @Cacheable("marketLocationTypesSo")
+	@Cacheable("marketLocationTypesSo")
 	public Map<Integer, List<MarketLine>> locationSos(long locationId, Set<Integer> typeIds) {
 		long start = System.currentTimeMillis();
 		Map<Integer, List<MarketLine>> ret = repo

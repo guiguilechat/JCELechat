@@ -1,0 +1,83 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="'Mutating '+${type.name}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="d-flex">
+		<div class="sidebar d-flex flex-column flex-shrink-0">
+			<a th:href="${@mutationHTMLController.productsUrl()}">&lt;list products</a>
+			<h5>Base attributes</h5>
+			<nav th:each="sourceType : ${@mutaMappingService.sourcesFor(type.id)}">
+				<a
+					th:href="${@mutationHTMLController.productUrl(type.id, sourceType.id)}"
+				 	th:text="${sourceType.name}" />
+			</nav>
+		</div>
+	<div class="container-fluid">
+  		<div class="col">
+			<h1 th:text="${'Mutating for '+type.name+' ('+type.id+')'}"/>
+		</div>
+		<div class="col" th:if="${attParams != null}">
+			<form method="get" action="">
+				<table class="table table-striped w-auto">
+					<thead>
+						<tr>
+							<th>attribute</th>
+							<th>min</th>
+							<th>required</th>
+							<th>max</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="att : ${attParams}">
+							<td th:text="${att.attributeName()+' ('+att.attributeId()+')'}"></td>
+							<td>
+								<span th:text="${att.min()}"  th:style="${att.highIsGood()?'color : red;' : 'color : green;'}"></span>
+							</td>
+							<td>
+								<input type="text" inputmode="numeric" class="form-control"
+									th:name="${'filter['+att.attributeId()+']'}"
+									th:value="${att.limit()}" >
+							</td>
+							
+							<td>
+								<span th:text="${att.max()}"  th:style="${att.highIsGood()?'color : green;' : 'color : red;'}"></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<input type="submit" value="search" />
+			</form>
+		</div>
+		<div class="col overflow-auto" style="height: 70vh;"
+			th:if="${evaluations != null && !evaluations.isEmpty()}" >
+		<table class="table table-striped table-hover w-auto">
+			<thead>
+				<tr>
+					<th>base type</th>
+					<th>mutaplasmid</th>
+					<th>average product cost</th>
+					<th>roll cost</th>
+					<th>success chance</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="evaluation : ${evaluations}">
+					<td th:text="${evaluation.type()}"/>
+					<td th:text="${evaluation.muta()}"/>
+					<td th:text="${evaluation.formatUnitCost()}"/>
+					<td th:text="${evaluation.formatRollCost()}"/>
+					<td th:text="${evaluation.formatChance()}"/>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
+	</div>
+</body>

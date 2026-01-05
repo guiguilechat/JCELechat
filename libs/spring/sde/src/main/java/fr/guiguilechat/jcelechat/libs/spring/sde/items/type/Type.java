@@ -2,12 +2,15 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.items.type;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
 
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Etypes;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dynamic.mapping.MutaMapping;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.metagroup.MetaGroup;
@@ -74,6 +77,9 @@ public class Type extends SdeEntity<Integer> {
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Type variationType;
 	private BigDecimal volume;
+
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "product")
+	private Set<MutaMapping> mutationOf = new HashSet<>();
 
 	/**
 	 * @return the name if exists ; otherwise id description

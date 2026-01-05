@@ -88,10 +88,10 @@ public class EsiUserService implements EsiUserListener {
 
 	public ESIConnected esiConnected(int characterId, Set<String> requiredScopes) {
 		ScopedEsiKey key = new ScopedEsiKey(characterId, requiredScopes);
-		EsiUser user = scopedEsiUserCache.computeIfAbsent(key, k -> searchUserScopes(characterId, requiredScopes));
+		EsiUser user = scopedEsiUserCache.computeIfAbsent(key, _ -> searchUserScopes(characterId, requiredScopes));
 		return user == null ? null
 		    : esiUserIdConnectedCache.computeIfAbsent(user.getId(),
-		        ui -> new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()));
+						_ -> new ESIConnected(user.getRefreshToken(), user.getApp().getAppBase64()));
 	}
 
 

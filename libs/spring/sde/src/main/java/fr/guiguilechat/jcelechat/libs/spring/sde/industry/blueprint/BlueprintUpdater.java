@@ -91,10 +91,10 @@ public class BlueprintUpdater extends SdeEntityUpdater<Blueprint, BlueprintRepos
 			}
 		}
 		repo().saveAllAndFlush(storedEntities.values());
-		blueprintActivityService.saveAll(activities);
-		blueprintMaterialService.saveAll(materials);
-		blueprintProductService.saveAll(products);
-		blueprintSkillService.saveAll(skills);
+		blueprintActivityService().saveAll(activities);
+		blueprintMaterialService().saveAll(materials);
+		blueprintProductService().saveAll(products);
+		blueprintSkillService().saveAll(skills);
 	}
 
 	protected void addActivityDetails(int bpId, ActivityDetails act, ActivityType activityType,

@@ -27,7 +27,7 @@ public class EdynamicItemAttributes {
 	//
 
 	public static class MinMax {
-		public boolean highIsGood;
+		public Boolean highIsGood;
 		public BigDecimal max;
 		public BigDecimal min;
 	}

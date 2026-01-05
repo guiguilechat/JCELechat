@@ -26,7 +26,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
     CharacterTransactionList,
 		R_get_characters_character_id_wallet_transactions[],
 		CharacterTransactionListRepository> {
-	
+
 	@Accessors(fluent = true)
 	private final CharacterTransactionRepository recordRepo;
 
@@ -79,7 +79,7 @@ public class CharacterTransactionService extends AConnectedCharDataService<
 		    // filter out those already known, that is id <= highest n=known id
 		    .filter(t -> lastStored == null || lastStored.getTransactionId() < t.transaction_id)
 		    .toList();
-		return lastResponse.mapBody(arr -> ret.toArray(R_get_characters_character_id_wallet_transactions[]::new));
+		return lastResponse.mapBody(_ -> ret.toArray(R_get_characters_character_id_wallet_transactions[]::new));
 	}
 
 	@Override
