@@ -23,10 +23,11 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.lp.eval.LPOfferEvalService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.Offer;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedMaterial;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -36,7 +37,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class NpcHtmlController {
 
-	private final NpcCorporationService npcCorporationService;
+	@Lazy
+	private final InventoryHtmlController dogmaHtmlController;
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
@@ -44,8 +46,10 @@ public class NpcHtmlController {
 
 	private final LPOfferEvalService lpOfferEvalService;
 
+	private final NpcCorporationService npcCorporationService;
+
 	@Lazy
-	private final InventoryHtmlController dogmaHtmlController;
+	private final TypeHTMLController typeHTMLController;
 
 	@Transactional
 	@GetMapping("/corporation/{corporationId}/offer/{offerId}")
@@ -59,11 +63,11 @@ public class NpcHtmlController {
 		Offer offer = link.getOffer();
 		model.addAttribute("offer", offer);
 		model.addAttribute("offerMats", offer.getRequirements().stream()
-				.map(mat -> dogmaHtmlController.linkedMaterial(mat.getType(), mat.getQuantity()))
+				.map(mat -> typeHTMLController.linkedMaterial(mat.getType(), mat.getQuantity()))
 				.toList());
 		model.addAttribute("corporation",
 				linkedObservedCorporation(link.getLpCorp(), link.getLpCorp().getNbOffers()));
-		model.addAttribute("product", dogmaHtmlController.linkedType(offer.getType()));
+		model.addAttribute("product", offer.getType());
 		return "npc/offer";
 	}
 
@@ -86,7 +90,7 @@ public class NpcHtmlController {
 		return new LinkedLPOffer(uri(offer.getOffer(), offer.getLpCorp().getId()).toString(), offer);
 	}
 
-	public static record LinkedLPOfferEval(String url, LPOfferEval eval, LinkedType finalProduct,
+	public static record LinkedLPOfferEval(String url, LPOfferEval eval, Type finalProduct,
 			List<LinkedMaterial> materials) {
 
 		public String name() {
@@ -99,9 +103,9 @@ public class NpcHtmlController {
 		return new LinkedLPOfferEval(
 				uri(eval.getOffer(), corporationId).toString(),
 				eval,
-				dogmaHtmlController.linkedType(eval.getFinalProduct()),
+				eval.getFinalProduct(),
 				eval.getMaterialsByTypeId().entrySet().stream()
-						.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue()))
+						.map(e -> typeHTMLController.linkedMaterial(e.getKey(), e.getValue()))
 						.sorted(Comparator.comparing(lm -> lm.type().name()))
 						.toList());
 	}

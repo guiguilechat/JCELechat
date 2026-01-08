@@ -12,21 +12,29 @@
 	<div class="container-fluid border">
 		<div class="row border">
 			<div class="col">
-				<a th:if="${prvType != null}" th:href="${prvTypeUrl}"
-					th:text="${prvType.name}">previous</a>
+				<a 	th:if="${prvType != null}"
+					th:href="${@typeHTMLController.typeUrl(prvType)}"
+					th:text="${prvType.name}" />
 			</div>
 			<div class="col-6">
-				category : <a th:if="${category != null}" th:href="${catUrl}"
+				category : <a
+					th:if="${category != null}"
+					th:href="${@categoryHTMLController.categoryUrl(category)}"
 					th:text="${category.name}" /><br />
-				group : <a th:if="${group != null}" th:href="${groupUrl}"
+				group : <a
+					th:if="${group != null}"
+					th:href="${@groupHTMLController.groupUrl(group)}"
 					th:text="${group.name}" /><br />
-				market group : <a th:if="${marketGroup != null}" th:href="${marketGroup.url}"
+				market group : <a
+					th:if="${marketGroup != null}"
+					th:href="${marketGroup.url}"
 					th:text="${marketGroup.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>
 			<div class="col">
-				<a th:if="${nxtType != null}" th:href="${nxtTypeUrl}"
-					th:text="${nxtType.name}">previous</a>
+				<a 	th:if="${nxtType != null}"
+					th:href="${@typeHTMLController.typeUrl(nxtType)}"
+					th:text="${nxtType.name}" />
 			</div>
 		</div>
 		<div class="row border">

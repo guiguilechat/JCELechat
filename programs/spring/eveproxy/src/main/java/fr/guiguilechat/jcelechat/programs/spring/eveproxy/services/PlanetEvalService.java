@@ -27,7 +27,8 @@ import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedMaterial;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2P1;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.NLaunchpadsWithSchematics;
@@ -51,6 +52,9 @@ public class PlanetEvalService {
 	final private SchemProductService schemProductService;
 
 	final private SchematicService schematicService;
+
+	@Lazy
+	private final TypeHTMLController typeHTMLController;
 
 	final private TypeService typeService;
 
@@ -263,14 +267,16 @@ public class PlanetEvalService {
 		ConsumeProduct prod = pf.production(params.getHours());
 		ret.setLinkedMats(prod.materials().entrySet().stream()
 		    .sorted(Comparator.comparing(e -> e.getKey().name()))
-				.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue().intValue() * params.getNbPlanets()))
+				.map(e -> typeHTMLController.linkedMaterial(e.getKey(),
+						e.getValue().intValue() * params.getNbPlanets()))
 				.toList());
 		ret.setMaterialsById(
 				prod.materials().entrySet().stream()
 		        .collect(Collectors.toMap(e -> e.getKey().getId(), e -> e.getValue() * params.getNbPlanets())));
 		ret.setLinkedProd(prod.product().entrySet().stream()
 		    .sorted(Comparator.comparing(e -> e.getKey().name()))
-				.map(e -> dogmaHtmlController.linkedMaterial(e.getKey(), e.getValue().intValue() * params.getNbPlanets()))
+				.map(e -> typeHTMLController.linkedMaterial(e.getKey(),
+						e.getValue().intValue() * params.getNbPlanets()))
 				.toList());
 		ret.setProductById(
 				prod.product.entrySet().stream()

@@ -5,25 +5,42 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityService;
+import jakarta.transaction.Transactional;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
 public class TypeService extends SdeEntityService<Type, Integer, TypeRepository> {
 
+	@Autowired // can't use constructor injection for generic service
+	@Accessors(fluent = true)
+	@Getter(value = AccessLevel.PROTECTED)
+	private TypeAttributeService typeAttributeService;
+
 	public TypeService() {
 		super(Type::new);
 	}
 
+	/**
+	 * @return types in the group id, sorted by type name
+	 */
 	public List<Type> byGroupId(int groupId) {
-		return repo().findByGroupId(groupId);
+		return repo().findByGroupIdOrderByName(groupId);
 	}
 
+	/**
+	 * @return types in the group ids, sorted by type name
+	 */
 	public List<Type> byGroupIdIn(Iterable<Integer> groupIds) {
-		return repo().findByGroupIdIn(groupIds);
+		return repo().findByGroupIdInOrderByName(groupIds);
 	}
 
 	public List<Type> byCategoryId(int categoryId) {
@@ -49,6 +66,17 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 	 */
 	public List<Integer> listVariationIds(int typeId) {
 		return repo().listVariationIds(typeId);
+	}
+
+	/**
+	 * @return variations of a type, sorted by type metalevel
+	 */
+	@Transactional
+	public List<Type> variations(Type type) {
+		if (type == null) {
+			return List.of();
+		}
+		return typeAttributeService.sortByMetaLevel(repo().findAllById(listVariationIds(type.getId())));
 	}
 
 	/**

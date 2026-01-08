@@ -50,7 +50,7 @@ public class MutationHTMLController {
 
 	@Transactional
 	@GetMapping("/products")
-	public String products(Model model) {
+	public String getProducts(Model model) {
 		return "mutation/products";
 	}
 
@@ -110,7 +110,7 @@ public class MutationHTMLController {
 
 	@Transactional
 	@GetMapping("/product/{productTypeId}")
-	public String product(
+	public String getProduct(
 			Model model,
 			@PathVariable int productTypeId,
 			ProductFilter attFilter,

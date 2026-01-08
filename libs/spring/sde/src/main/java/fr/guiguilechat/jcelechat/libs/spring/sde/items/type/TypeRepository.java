@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.SdeEntityReposi
 
 public interface TypeRepository extends SdeEntityRepository<Type, Integer> {
 
-	List<Type> findByGroupId(int groupId);
+	List<Type> findByGroupIdOrderByName(int groupId);
 
 	List<Type> findByGroupCategoryId(int categoryId);
 
@@ -35,7 +35,7 @@ public interface TypeRepository extends SdeEntityRepository<Type, Integer> {
 
 	Type findTop1ByGroupAndNameGreaterThanOrderByNameAsc(Group group, String name);
 
-	List<Type> findByGroupIdIn(Iterable<Integer> groupIds);
+	List<Type> findByGroupIdInOrderByName(Iterable<Integer> groupIds);
 
 	List<Type> findByGroupCategoryIdIn(Iterable<Integer> categoryIds);
 

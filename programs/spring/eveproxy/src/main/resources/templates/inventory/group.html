@@ -12,15 +12,21 @@
 	<div class="container-fluid border">
 		<div class="row">
 			<div class="col">
-				<a  th:if="${prvGrp != null}" th:href="${prvGrpUrl}" th:text="${prvGrp.name}"/>
+				<a  th:if="${prvGrp != null}"
+					th:href="${@groupHTMLController.groupUrl(prvGrp)}"
+					th:text="${prvGrp.name}"/>
 			</div>
 			<div class="col-6">
-				category : <a th:if="${category != null}" th:href="${catUrl}"
+				category : <a
+					th:if="${category != null}"
+					th:href="${@categoryHTMLController.categoryUrl(category)}"
 					th:text="${category.name}" /><br />
 				<h1 th:text="${grp.name}" />
 			</div>
 			<div class="col">
-				<a th:if="${nxtGrp != null}" th:href="${nxtGrpUrl}" th:text="${nxtGrp.name}" />
+				<a 	th:if="${nxtGrp != null}"
+					th:href="${@groupHTMLController.groupUrl(nxtGrp)}"
+					th:text="${nxtGrp.name}" />
 			</div>
 		</div>
 
@@ -35,8 +41,8 @@
 				<h3>Types</h3>
 					<table>
 						<tbody>
-							<tr th:each="tl : ${types}">
-								<td><a th:href="${tl.url}" th:text="${tl.type.name()}" /></td>
+							<tr th:each="type : ${@typeService.byGroupId(grp.id)}">
+								<td><a th:href="${@typeHTMLController.typeUrl(type)}" th:text="${type.name()}" /></td>
 							</tr>
 						</tbody>
 					</table>

@@ -13,7 +13,7 @@ public interface GroupRepository extends SdeEntityRepository<Group, Integer> {
 
 	List<Group> findByNameInIgnoreCase(Iterable<String> names);
 
-	List<Group> findByCategoryId(int catId);
+	List<Group> findByCategoryIdOrderByNameAsc(int catId);
 
 	Group findTop1ByCategoryAndNameGreaterThanOrderByNameAsc(Category category, String name);
 

@@ -46,7 +46,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController.LinkedType;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.transaction.Transactional;
@@ -99,6 +99,9 @@ public class MarketHtmlController {
 
 	private final StationService stationService;
 
+	@Lazy
+	private final TypeHTMLController typeHTMLController;
+
 	private final TypeService typeService;
 
 	@Transactional
@@ -114,7 +117,7 @@ public class MarketHtmlController {
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		String name = null;
 		if (type != null) {
-			model.addAttribute("typeUrl", dogmaHtmlController.uri(type).toString());
+			model.addAttribute("typeUrl", typeHTMLController.typeUrl(type));
 			name = type.name();
 		} else {
 			name = "unknown" + typeId;
@@ -317,9 +320,9 @@ public class MarketHtmlController {
 						.toList());
 			}
 			if (marketGroup.getTypes() != null && !marketGroup.getTypes().isEmpty()) {
-				model.addAttribute("types", marketGroup.getTypes().stream()
-						.map(dogmaHtmlController::linkedType)
-						.sorted(Comparator.comparing(LinkedType::name))
+				model.addAttribute("types",
+						marketGroup.getTypes().stream()
+								.sorted(Comparator.comparing(Type::name))
 						.toList());
 			}
 		} else {
@@ -452,7 +455,7 @@ public class MarketHtmlController {
 		return new LinkedRanking(category, rankingURI(category, locationIds).toString());
 	}
 
-	public static record LinkedTypeRanking(LinkedType type, String formattedPrice, String formattedRank) {
+	public static record LinkedTypeRanking(Type type, String formattedPrice, String formattedRank) {
 
 	}
 
@@ -461,7 +464,7 @@ public class MarketHtmlController {
 				.collect(Collectors.toMap(Type::getId, o -> o));
 		return rankings.stream()
 				.map(r -> new LinkedTypeRanking(
-						inventoryHtmlController.linkedType(id2type.get(r.type_id())),
+						id2type.get(r.type_id()),
 						FormatTools.formatPrice(r.price().doubleValue()),
 						"" + r.rank()))
 				.toList();

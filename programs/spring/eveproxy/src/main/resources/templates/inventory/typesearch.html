@@ -1,18 +1,18 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title>dogma types</title>
-<link rel="stylesheet" type="text/css"
+	<title>Inventory Search</title>
+	<link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
-<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
-<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 </head>
 <body>
 	<header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="container-fluid border">
 		<div class="row border">
 			<div class="col">
-				<h1>Type search</h1>
+				<h1>Inventory search</h1>
 					<h2>By name</h2>
 					<form method="get" th:action="@{/html/inventory/type/search/tn}">
 						<input type="text" name="filter" th:value="${param.filter}" />
@@ -40,10 +40,14 @@
 		</div>
 	</div>
 	<div class="row border">
-		<div class="col" th:if="${categories!=null && !categories.isEmpty()}">
+		<div class="col">
 			<h1>Categories</h1>
 			<ul>
-				<li th:each="cl : ${categories}"><a th:href="${cl.url}" th:text="${cl.category.name()}"/></li>
+				<li th:each="category : ${@categoryService.sortedByName()}">
+					<a
+						th:href="${@categoryHTMLController.categoryUrl(category)}"
+						th:text="${category.name()}"/>
+				</li>
 			</ul>
 		</div>		
 	</div>

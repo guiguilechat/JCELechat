@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -7,12 +8,16 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeRepository.SkillIdMaxRequired;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeRepository.TypeIdValue;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.DeducedEntityService;
+import jakarta.transaction.Transactional;
 
 @Service
 public class TypeAttributeService extends DeducedEntityService<TypeAttribute, TypeAttributeRepository> {
+
+	public static final int METALEVEL_ATTRID=633;
 
 	public List<TypeAttribute> byAttributeId(int attributeId) {
 		return repo().findAllByAttributeId(attributeId);
@@ -44,6 +49,15 @@ public class TypeAttributeService extends DeducedEntityService<TypeAttribute, Ty
 	public List<RequiredSkill> requiredSkills(Iterable<Integer> typeIds) {
 		return repo().requiredSkills(typeIds).stream()
 				.map(RequiredSkill::of)
+				.toList();
+	}
+
+	@Transactional
+	public List<Type> sortByMetaLevel(List<Type> types){
+		Map<Integer, Number> id2mlevel = valuesForTypes(METALEVEL_ATTRID, types.stream().map(Type::getId).toList());
+		return types.stream()
+				.sorted(Comparator.comparing(
+						t -> id2mlevel.getOrDefault(t.getId(), 0).doubleValue()))
 				.toList();
 	}
 

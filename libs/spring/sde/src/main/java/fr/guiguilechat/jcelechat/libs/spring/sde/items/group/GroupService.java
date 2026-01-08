@@ -29,7 +29,7 @@ public class GroupService extends SdeEntityService<
 	}
 
 	public List<Group> byCatId(int catId) {
-		return repo().findByCategoryId(catId);
+		return repo().findByCategoryIdOrderByNameAsc(catId);
 	}
 
 	public Group prevGroup(Group group) {
