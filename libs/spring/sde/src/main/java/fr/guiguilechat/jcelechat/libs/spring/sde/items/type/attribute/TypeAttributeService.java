@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dogma.attribute.Attribute;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeRepository.SkillIdMaxRequired;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.attribute.TypeAttributeRepository.TypeIdValue;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.DeducedEntityService;
 
 @Service
@@ -30,15 +32,18 @@ public class TypeAttributeService extends DeducedEntityService<TypeAttribute, Ty
 
 	public Map<Integer, Number> valuesForTypes(int attributeId, Iterable<Integer> typeIds) {
 		return repo().listValuesByAttributeIdTypeIdIn(attributeId, typeIds).stream()
-				.collect(Collectors.toMap(arr -> (Integer) arr[0], arr -> ((Number) arr[1])));
+				.collect(Collectors.toMap(TypeIdValue::typeId, TypeIdValue::attributeValue));
 	}
 
 	public static record RequiredSkill(int id, int level) {
+		public static RequiredSkill of(SkillIdMaxRequired source) {
+			return new RequiredSkill(source.skillTypeId(), source.maxRequired().intValue());
+		}
 	}
 
 	public List<RequiredSkill> requiredSkills(Iterable<Integer> typeIds) {
 		return repo().requiredSkills(typeIds).stream()
-				.map(arr -> new RequiredSkill(((Number) arr[0]).intValue(), ((Number) arr[1]).intValue()))
+				.map(RequiredSkill::of)
 				.toList();
 	}
 

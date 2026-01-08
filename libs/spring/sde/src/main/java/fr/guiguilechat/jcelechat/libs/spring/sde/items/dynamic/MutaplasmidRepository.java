@@ -47,11 +47,13 @@ from
 	join SdeItemsTypeAttribute attValue on attValue.typeId=sourceType.id and attValue.attributeId=multi.attribute.id
 where
 	mapping.product.id=:productTypeId
-group by multi.attribute
+group by
+	multi.attribute.id,
+	multi.attribute.name
 select
 	multi.attribute.id,
 	multi.attribute.name,
-	max(coalesce(multi.highIsGood, multi.attribute.highIsGood)),
+	any(coalesce(multi.highIsGood, multi.attribute.highIsGood)),
 	least(min(multi.min*attValue.value), min(multi.max*attValue.value)),
 	greatest(max(multi.max*attValue.value), max(multi.min*attValue.value))
 order by multi.attribute.name

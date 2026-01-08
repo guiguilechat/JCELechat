@@ -14,6 +14,9 @@ public interface TypeAttributeRepository extends DeducedEntityRepository<TypeAtt
 
 	List<TypeAttribute> findAllByTypeIdIn(Iterable<Integer> typeIds);
 
+	public static record TypeIdValue(int typeId, Number attributeValue) {
+	}
+
 	@Query("""
 select
 	ta.typeId type_id,
@@ -24,7 +27,10 @@ where
 	ta.attributeId=:attributeId
 	and ta.typeId in :typeIds
 """)
-	List<Object[]> listValuesByAttributeIdTypeIdIn(int attributeId, Iterable<Integer> typeIds);
+	List<TypeIdValue> listValuesByAttributeIdTypeIdIn(int attributeId, Iterable<Integer> typeIds);
+
+	public static record SkillIdMaxRequired(int skillTypeId, Number maxRequired) {
+	}
 
 	@Query(value = """
 select
@@ -53,5 +59,5 @@ order by
 	 * fetch the [skillId, skillLevel] couples required to board/use the list of
 	 * types provided. Those should be cast as Number.
 	 */
-	List<Object[]> requiredSkills(Iterable<Integer> typeIds);
+	List<SkillIdMaxRequired> requiredSkills(Iterable<Integer> typeIds);
 }

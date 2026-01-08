@@ -20,6 +20,7 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.dynamic.MutaplasmidRepository.AttributeRange;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dynamic.MutaplasmidService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.dynamic.MutaplasmidService.MutatedRange;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
@@ -108,30 +109,32 @@ public class MutationHTMLController {
 	}
 
 	@Transactional
-	@GetMapping("/product/{typeId}")
+	@GetMapping("/product/{productTypeId}")
 	public String product(
 			Model model,
-			@PathVariable int typeId,
+			@PathVariable int productTypeId,
 			ProductFilter attFilter,
 			Optional<Integer> baseTypeId) {
-		Type type = typeService.ofId(typeId);
-		if (type == null) {
+		Type productType = typeService.ofId(productTypeId);
+		if (productType == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND,
-					"type with id " + typeId + " not found");
+					"type with id " + productTypeId + " not found");
 		}
-//		System.out.println("receveid att filters " + attFilter);
-		model.addAttribute("type", type);
-//		System.out.println("received ranges : " + ranges);
+		model.addAttribute("type", productType);
 
 		Map<Integer, Number> requiredAttributeValue = new HashMap<>();
+		Map<Integer, AttributeRange> attrId2Range = mutaplasmidService.listAttributesRanges(productTypeId)
+				.stream()
+				.collect(Collectors.toMap(AttributeRange::attributeId, o -> o));
 		if (baseTypeId != null && baseTypeId.isPresent()) {
-			typeAttributeService.byTypeId(List.of(baseTypeId.get())).forEach(ta -> {
+			typeAttributeService.byTypeId(List.of(baseTypeId.get())).stream()
+					.filter(ta -> attrId2Range.containsKey(ta.getAttributeId()))
+					.forEach(ta -> {
 				requiredAttributeValue.put(ta.getAttributeId(), ta.getValue());
 			});
 		}
-		var ranges = mutaplasmidService.listAttributesRanges(typeId);
-		if (!ranges.isEmpty()) {
-			List<AttRangeLimit> attParams = ranges.stream()
+		if (!attrId2Range.isEmpty()) {
+			List<AttRangeLimit> attParams = attrId2Range.values().stream()
 					.map(r -> {
 						Number limit = r.highIsGood() ? r.min() : r.max();
 						if (requiredAttributeValue.containsKey(r.attributeId())) {
@@ -148,8 +151,9 @@ public class MutationHTMLController {
 					.toList();
 			model.addAttribute("attParams", attParams);
 		}
+//		System.err.println("required attributes : " + requiredAttributeValue);
 
-		List<MutatedRange> possibleMutations = mutaplasmidService.listOutputs(typeId);
+		List<MutatedRange> possibleMutations = mutaplasmidService.listOutputs(productTypeId);
 		Set<Integer> purchasebleTypes = possibleMutations.stream().flatMap(mr -> mr.mutaplasmid() == null
 				? Stream.of(mr.sourceType().getId())
 				: Stream.of(mr.sourceType().getId(), mr.mutaplasmid().getId()))
