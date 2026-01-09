@@ -21,7 +21,8 @@ public class AcceleratorsRatingService implements MarketRegionListener {
 	public List<RatedAccelerator> rate(long locationId) {
 		return repo.rateAccelerators(locationId)
 				.stream()
-				.sorted(Comparator.comparing(ar -> -ar.spPMIsk().doubleValue()))
+				.filter(ar -> ar.price() != null && !ar.isExpired())
+				.sorted(Comparator.comparing(ar -> -ar.spPIsk()))
 				.toList();
 	}
 

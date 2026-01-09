@@ -1,0 +1,7 @@
+#!/bin/bash
+# deploy to the tomcat specified in the remote fold.
+
+source $HOME/.config/EveProxy/remote.cfg\
+ && mvn -T2C -pl :eveproxy -am clean package\
+ && scp programs/spring/eveproxy/target/EveProxy.war $RMT_SSH:/var/lib/tomcat10/webapps/
+

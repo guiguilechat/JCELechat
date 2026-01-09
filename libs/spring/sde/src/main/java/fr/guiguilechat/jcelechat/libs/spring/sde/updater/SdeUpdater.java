@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.sde.updater;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -107,10 +108,15 @@ public class SdeUpdater implements EntityUpdater {
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
 
 		service.save(ur);
-		log.debug(" sde udpate result is {}, previous was {}", ur, lastRelease);
+		log.debug(" sde udpate result is {}, previous was on {}", ur, lastRelease);
 
 		force = false;
 		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
+		if (ur.getStatus() == Status.FAIL) {
+			// if we failed, we add additional 30 minutes wait
+			// to not have the SDE loader hog the resources
+			nextFetch = nextFetch.plus(30, ChronoUnit.MINUTES);
+		}
 		return ur.getStatus() != Status.SUCCESS;
 	}
 

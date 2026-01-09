@@ -474,7 +474,7 @@ public class MarketHtmlController {
 
 	@Transactional
 	@GetMapping("rate/accelerators")
-	public String rateAccelerators(Model model,
+	public String getAccelerators(Model model,
 			@RequestParam Optional<Long> locationId)
 			throws InterruptedException, ExecutionException {
 		long locId = locationId.orElse(Station.JITA_HUB_ID);
@@ -496,7 +496,7 @@ public class MarketHtmlController {
 
 	public URI rateAcceleratorsURI(Long locationId) {
 		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "rateAccelerators", null,
+				.fromMethodName(getClass(), "getAccelerators", null,
 						locationId)
 				.build()
 				.toUri();

@@ -1,11 +1,13 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking;
 
+import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
+import fr.guiguilechat.tools.FormatTools;
 
 /**
  * actually does not manage the entity, used to have direct HQL
@@ -277,16 +279,38 @@ order by pct_sales_above_so desc
 """, nativeQuery = true)
 	List<RankedOffer> rankGroupSellOffers(Iterable<Long> locationIds, int groupId);
 
+	//
 	// accelerators
+	//
 
-	public record RatedAccelerator(Number typeId, String typeName, Number spGain, Number price, Number spPMIsk) {
+	public record RatedAccelerator(
+			Number typeId, String typeName, Number expiresEpochDays,
+			Number spGain, Number price) {
 
+		public Instant expires() {
+			return expiresEpochDays() == null ? null
+					: Instant.EPOCH.plusSeconds((long) (expiresEpochDays.doubleValue() * 24 * 3600));
+		}
+
+		public boolean isExpired() {
+			Instant expires = expires();
+			return expires != null && expires.isBefore(Instant.now());
+		}
+
+		public double spPIsk() {
+			return spGain().doubleValue() / price().doubleValue();
+		}
+
+		public String formatedSpPMIsk() {
+			return FormatTools.formatPrice(spPIsk() * 1000000);
+		}
 	}
 
 	@Query("""
 select
 	t.id,
 	t.name,
+	expires_att.value,
 	(int_att.value*1.5*dur_att.value/60000),
 	(select
 			min(price)
@@ -296,22 +320,12 @@ select
 			ml.typeId=t.id
 			and not ml.isBuyOrder
 			and ml.locationId=:locationId
-	),
-	(int_att.value*1.5*dur_att.value/60000)
-		*1000000
-		/(select
-			min(price)
-		from
-			EsiTradeMarketLine ml
-		where
-			ml.typeId=t.id
-			and not ml.isBuyOrder
-			and ml.locationId=:locationId
-		)
+	)
 from
 	SdeItemsType t
 	join SdeItemsTypeAttribute int_att on t.id=int_att.typeId and int_att.attributeId=176
 	join SdeItemsTypeAttribute dur_att on t.id=dur_att.typeId and dur_att.attributeId=330
+	left join SdeItemsTypeAttribute expires_att on t.id=expires_att.typeId and expires_att.attributeId=2422
 where
 	t.marketGroup.id=2487
 	and t.published
