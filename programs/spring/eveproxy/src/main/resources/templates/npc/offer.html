@@ -26,7 +26,7 @@
 			<div class="col">
 				<h3>Info</h3>
 				corporation : <a th:href="${corporation.url}" th:text="${corporation.name}" /><br />
-				product : <span th:text="${offer.quantity}"/>×<a th:href="${product.url}" th:text="${product.type.name}" />
+				product : <span th:text="${offer.quantity}"/>×<a th:href="${@typeHTMLController.typeUrl(product)}" th:text="${product.name}" />
 			</div>
 			
 			<div class="col">

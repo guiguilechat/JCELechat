@@ -109,8 +109,8 @@
 								<td>
 									<span class="user-select-all border border-info bg-light">
 										<span th:text="${offer.eval.productQuantity}" />
-										<a 	th:href="${offer.finalProduct.url}"
-											th:text="${offer.finalProduct.type.name}" />
+										<a 	th:href="${@typeHTMLController.typeUrl(offer.finalProduct)}"
+											th:text="${offer.finalProduct.name}" />
 									</span> @ <span	th:text="${offer.eval.formatedProductUnitPrice}" />/u
 								</td>
 								<td>

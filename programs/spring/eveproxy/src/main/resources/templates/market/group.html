@@ -34,7 +34,7 @@
 				<table class="table">
 					<tbody>
 						<tr th:each="type : ${types}">
-							<td><a th:href="${type.url}" th:text="${type.name}" /></td>
+							<td><a th:href="${@typeHTMLController.typeUrl(type)}" th:text="${type.name}" /></td>
 						</tr>
 					</tbody>
 				</table>

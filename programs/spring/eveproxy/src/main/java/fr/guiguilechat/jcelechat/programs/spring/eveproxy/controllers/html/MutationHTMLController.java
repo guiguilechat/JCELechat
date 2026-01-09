@@ -57,8 +57,9 @@ public class MutationHTMLController {
 	public String productsUrl() {
 		return MvcUriComponentsBuilder.fromMethodName(
 				getClass(),
-				"products",
-				(Model) null).build()
+				"getProducts",
+				(Model) null
+				).build()
 				.toUri()
 				.toString();
 	}
@@ -179,7 +180,7 @@ public class MutationHTMLController {
 	public String productUrl(int productTypeId) {
 		return MvcUriComponentsBuilder.fromMethodName(
 				getClass(),
-				"product",
+				"getProduct",
 				null, // no model
 				productTypeId,
 				null, // no filter
@@ -191,7 +192,7 @@ public class MutationHTMLController {
 	public String productUrl(int productTypeId, int sourceTypeId) {
 		return MvcUriComponentsBuilder.fromMethodName(
 				getClass(),
-				"product",
+				"getProduct",
 				null, // no model
 				productTypeId,
 				null, // no filter
