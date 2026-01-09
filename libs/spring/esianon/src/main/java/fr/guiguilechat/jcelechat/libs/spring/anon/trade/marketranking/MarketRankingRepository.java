@@ -301,7 +301,11 @@ order by pct_sales_above_so desc
 			return spGain().doubleValue() / price().doubleValue();
 		}
 
-		public String formatedSpPMIsk() {
+		public String formattedPrice() {
+			return FormatTools.formatPrice(price().doubleValue());
+		}
+
+		public String formattedSpPMIsk() {
 			return FormatTools.formatPrice(spPIsk() * 1000000);
 		}
 	}

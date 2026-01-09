@@ -40,9 +40,9 @@
 								th:href="${@typeHTMLController.typeUrl(accelerator.typeId)}"
 							/>
 						</td>
-						<td th:text="${accelerator.price}"/>
-						<td th:text="${accelerator.spGain}"/>
-						<td th:text="${accelerator.formatedSpPMIsk()}"/>
+						<td th:text="${accelerator.formattedPrice()}"/>
+						<td th:text="${accelerator.spGain.longValue()}"/>
+						<td th:text="${accelerator.formattedSpPMIsk()}"/>
 					</tr>
 				</tbody>
 			</table>
