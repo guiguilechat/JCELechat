@@ -31,9 +31,9 @@ public class InventoryHtmlController {
 
 	@Transactional
 	@GetMapping("/search/{typeFiltering}/{typeFilter}")
-	public String searchType(Model model, @PathVariable String typeFiltering,
+	public String getSearch(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
-		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
+		List<Type> types = typeService.matching(typeFiltering, typeFilter);
 		if (types.size() == 1) {
 			return "redirect:" + typeHTMLController.typeUrl(types.get(0));
 		}
@@ -44,9 +44,9 @@ public class InventoryHtmlController {
 
 	@Transactional
 	@GetMapping("/search/{typeFiltering}")
-	public String searchTypeQuery(Model model, @PathVariable String typeFiltering,
+	public String getSearchQuery(Model model, @PathVariable String typeFiltering,
 			String filter) {
-		return searchType(model, typeFiltering, filter);
+		return getSearch(model, typeFiltering, filter);
 	}
 
 	@Transactional

@@ -210,7 +210,7 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 	 * @param targetName name to find a corresponding type
 	 * @return first non-empty list of types, or empty list
 	 */
-	public List<Type> search(String targetName) {
+	public List<Type> matchingName(String targetName) {
 		List<Type> ret = searchByName(targetName);
 		if (ret.isEmpty()) {
 			ret = searchByGroupName(targetName);
@@ -221,7 +221,7 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 		return ret;
 	}
 
-	public List<Type> typesFilter(String typeFiltering, String typeFilter) {
+	public List<Type> matching(String typeFiltering, String typeFilter) {
 		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
 		case "id", "ti", "tid", "typeid" -> List.of(ofId(Integer.parseInt(typeFilter)));
 		case "name", "tn", "tname", "typename" -> searchByName(typeFilter);
@@ -229,15 +229,7 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 		case "gi", "gid", "groupid" -> byGroupId(Integer.parseInt(typeFilter));
 		case "cn", "cname", "categoryname" -> searchByCategoryName(typeFilter);
 		case "ci", "cid", "categoryid" -> byCategoryId(Integer.parseInt(typeFilter));
-		default -> search(typeFilter);
-		};
-	}
-
-	public Type typeFilter(String typeFiltering, String typeFilter) {
-		return switch (Objects.requireNonNullElse(typeFiltering, "name").toLowerCase()) {
-		case "id", "ti", "tid", "typeid" -> ofId(Integer.parseInt(typeFilter));
-		case "name", "tn", "tname", "typename" -> searchByName(typeFilter).stream().findFirst().orElse(null);
-		default -> search(typeFilter).stream().findFirst().orElse(null);
+		default -> matchingName(typeFilter);
 		};
 	}
 

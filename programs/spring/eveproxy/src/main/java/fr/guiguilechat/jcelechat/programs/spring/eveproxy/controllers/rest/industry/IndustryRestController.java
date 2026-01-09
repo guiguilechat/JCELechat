@@ -110,7 +110,7 @@ public class IndustryRestController {
 	public ResponseEntity<List<IndustryInfo>> showInformation(@PathVariable String typeFiltering,
 			@PathVariable String typeFilter,
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws IOException {
-		List<IndustryInfo> ret = typeService.typesFilter(typeFiltering, typeFilter)
+		List<IndustryInfo> ret = typeService.matching(typeFiltering, typeFilter)
 				.stream().map(type -> {
 			    List<LocatedBestOffer> seeds = type.getMarketGroup() != null ? marketLineService.seedLocations(type.getId())
 							: Collections.emptyList();
@@ -184,7 +184,7 @@ public class IndustryRestController {
 			@PathVariable String typeFilter,
 			@PathVariable ActivityType activity,
 			Optional<ACCEPT_TEXT> accept) throws IOException {
-		List<ActivityInfo> ret = typeService.typesFilter(typeFiltering, typeFilter).stream()
+		List<ActivityInfo> ret = typeService.matching(typeFiltering, typeFilter).stream()
 				.map(t -> new ActivityInfo(t, activity,
 		        materialService.forBPActivity(t.getId(), activity),
 						productService.findProducts(t.getId(), activity), typeService::ofId))

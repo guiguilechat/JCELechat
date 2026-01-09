@@ -14,7 +14,7 @@
 			<div class="col">
 				<h1>Inventory search</h1>
 					<h2>By name</h2>
-					<form method="get" th:action="@{/html/inventory/type/search/tn}">
+					<form method="get" th:action="@{/html/inventory/search/tn}">
 						<input type="text" name="filter" th:value="${param.filter}" />
 						<input type="submit" value="search" />
 					</form>
@@ -26,20 +26,22 @@
 			</div>
 			<div class="col">
 				<h1>Group search</h1>
-<!-- 					<h2>By name</h2> -->
-<!-- 					<form method="get" action="type/gn"> -->
-<!-- 						<input type="text" name="filter" /> <input type="submit" -->
-<!-- 							value="search" /> -->
-<!-- 					</form> -->
 					<h2>By id</h2>
-					<form method="get" action="group/gi">
-						<input type="number" name="groupId" />
+					<form method="get" th:action="@{/html/inventory/search/gi}">
+						<input type="number" name="filter" />
 						<input type="submit" value="search" />
 					</form>
 			</div>
 		</div>
 	</div>
 	<div class="row border">
+		<div th:if="${types!=null}" class="col">
+			<h1>Types result</h1>
+			<ul>
+				<li th:each="type: ${types}"><a th:href="${@typeHTMLController.typeUrl(type)}"
+					th:text="${type.name}" /></li>
+			</ul>
+		</div>
 		<div class="col">
 			<h1>Categories</h1>
 			<ul>
@@ -50,22 +52,6 @@
 				</li>
 			</ul>
 		</div>		
-	</div>
-	<div class="row border">
-		<div th:if="${types!=null}" class="col">
-			<h1>Types result</h1>
-			<ul>
-				<li th:each="type: ${types}"><a th:href="${type.url}"
-					th:text="${type.name}" /></li>
-			</ul>
-		</div>
-		<div th:if="${groups!=null}" class="col">
-			<h1>Groups result</h1>
-			<ul>
-				<li th:each="group: ${groups}"><a th:href="${group.url}"
-					th:text="${group.name}" /></li>
-			</ul>
-		</div>
 	</div>
 </body>
 </html>

@@ -246,7 +246,7 @@ public class MarketHtmlController {
 	@GetMapping("/search")
 	public String getSearch(Model model, Optional<String> typeName, Optional<PERIOD> period, Optional<Integer> limit) {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
-			List<Type> types = typeService.search(typeName.get());
+			List<Type> types = typeService.matchingName(typeName.get());
 			if (types.size() == 1) {
 				return "redirect:" + types.get(0).getId();
 			} else {

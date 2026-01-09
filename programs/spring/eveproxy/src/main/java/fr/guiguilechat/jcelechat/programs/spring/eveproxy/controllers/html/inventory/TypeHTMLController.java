@@ -382,7 +382,7 @@ public class TypeHTMLController {
 	}
 
 	@Transactional
-	@GetMapping("/")
+	@GetMapping("")
 	public String getTypeQuery(
 			Model model,
 			int typeId) {

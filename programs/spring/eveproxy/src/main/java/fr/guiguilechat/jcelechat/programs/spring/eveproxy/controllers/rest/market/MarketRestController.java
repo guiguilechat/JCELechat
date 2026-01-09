@@ -302,7 +302,7 @@ public class MarketRestController {
 			HttpServletResponse response,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		List<Type> types = typeService.typesFilter(typeFiltering, typeFilter);
+		List<Type> types = typeService.matching(typeFiltering, typeFilter);
 		PlaceFilter place = placeFilter(placeFiltering, placeFilter);
 
 		XYSeriesCollection ds = new XYSeriesCollection();
