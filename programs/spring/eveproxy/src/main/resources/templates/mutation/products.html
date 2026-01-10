@@ -11,18 +11,44 @@
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="container-fluid border">
 		<div class="row">
-			<div class="col col-md-auto border" th:each="productGroup : ${@mutaMappingService.listProductGroups()}">
-				<h5 th:text="${productGroup.catName+' : '+ productGroup.groupName}" />
-				<table class="table table-striped table-hover">
-					<tbody>
-						<tr th:each="product : ${productGroup.products()}">						
-							<td><a class="text-nowrap"
-									th:href="${@mutationHTMLController.productUrl(product.typeId)}"
-								 	th:text="${product.typeName()}" />
-							 </td>
-						</tr>
-					</tbody>
-				</table>
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li
+			  	class="nav-item"
+				role="presentation"
+			  	th:each="catProds : ${@mutaMappingService.listCategoryProducts()}">
+			    <button
+					th:id="${catProds.category().name+'-tab'}"
+					th:text="${catProds.category().name}"
+					class="nav-link"
+					data-bs-toggle="tab"
+					th:data-bs-target="${'#'+catProds.category().name}"
+					type="button"
+					role="tab"
+					th:aria-controls="${catProds.category().name}"
+					aria-selected="true">
+				</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div th:each="catProds : ${@mutaMappingService.listCategoryProducts()}"
+					class="tab-pane fade"
+					th:id="${catProds.category().name}"
+					role="tabpanel"
+					th:aria-labelledby="${catProds.category().name+'-tab'}">
+					<div
+						th:each="groupProds : ${catProds.groups}">
+						<h5	th:text="${groupProds.group().name}"></h5>
+						<ul>
+							<li
+								th:each="type : ${groupProds.types()}">
+								<a class="text-nowrap"
+									th:href="${@mutationHTMLController.productUrl(type.id)}"
+									th:text="${type.name()}">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

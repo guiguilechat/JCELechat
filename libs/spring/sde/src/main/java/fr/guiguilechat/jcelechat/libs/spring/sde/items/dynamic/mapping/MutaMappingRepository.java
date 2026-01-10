@@ -4,14 +4,17 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
+import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.generic.DeducedEntityRepository;
 
 public interface MutaMappingRepository extends DeducedEntityRepository<MutaMapping> {
 
-	public static record MutaProduct(int categoryId, String categoryName,
-			int groupId, String groupName,
-			int typeId, String typeName) {
+	public static record MutaProduct(
+			Category category,
+			Group group,
+			Type type) {
 	}
 
 	@Query("""
@@ -29,12 +32,9 @@ from
 		and sourceType.marketGroup is not null
 	)
 select
-	typ.group.category.id,
-	typ.group.category.name,
-	typ.group.id,
-	typ.group.name,
-	typ.id,
-	typ.name
+	typ.group.category,
+	typ.group,
+	typ
 order by
 	typ.group.category.name,
 	typ.group.name,
