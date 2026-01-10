@@ -259,7 +259,7 @@ public class MarketHtmlController {
 		PERIOD periodValue = period.orElse(PERIOD.week);
 		model.addAttribute("periods", PERIOD.values());
 		model.addAttribute("period", periodValue);
-		int limitValue = limit.orElse(100);
+		int limitValue = limit.orElse(20);
 
 		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
 				limitValue);
