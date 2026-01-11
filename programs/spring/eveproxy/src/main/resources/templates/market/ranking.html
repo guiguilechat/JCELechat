@@ -34,7 +34,7 @@
 					</thead>
 					<tbody>
 						<tr th:each="type : ${rankBO}">
-							<td><a th:href="${type.type.url}" th:text="${type.type.name}" /></td>
+							<td><a th:href="${@typeHTMLController.typeUrl(type.type)}" th:text="${type.type.name}" /></td>
 							<td th:text="${type.formattedPrice}"/>
 							<td th:text="${type.formattedRank}"/>
 						</tr>
@@ -53,7 +53,7 @@
 				</thead>
 				<tbody>
 					<tr th:each="type : ${rankSO}">
-						<td><a th:href="${type.type.url}" th:text="${type.type.name}" /></td>
+						<td><a th:href="${@typeHTMLController.typeUrl(type.type)}" th:text="${type.type.name}" /></td>
 						<td th:text="${type.formattedPrice}"/>
 						<td th:text="${type.formattedRank}"/>
 					</tr>

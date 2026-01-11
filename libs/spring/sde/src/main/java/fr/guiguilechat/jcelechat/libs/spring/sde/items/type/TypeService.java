@@ -18,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
+@Transactional
 public class TypeService extends SdeEntityService<Type, Integer, TypeRepository> {
 
 	@Autowired // can't use constructor injection for generic service
@@ -71,7 +72,6 @@ public class TypeService extends SdeEntityService<Type, Integer, TypeRepository>
 	/**
 	 * @return variations of a type, sorted by type metalevel
 	 */
-	@Transactional
 	public List<Type> variations(Type type) {
 		if (type == null) {
 			return List.of();
