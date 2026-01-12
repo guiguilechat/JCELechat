@@ -71,6 +71,24 @@ public class ContractItem extends AFetchedListElementAutoId<ContractItem, Contra
 	 */
 	private int timeEfficiency;
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		if (quantity > 1) {
+			sb.append(quantity).append("× ");
+		}
+		sb.append(type.name());
+		if (blueprintCopy || materialEfficiency > 0 || timeEfficiency > 0) {
+			sb.append(" (");
+			sb.append(materialEfficiency).append("/").append(timeEfficiency);
+			if (runs > 0) {
+				sb.append(" ").append(runs).append("runs");
+			}
+			sb.append(")");
+		}
+		return sb.toString();
+	}
+
 	public static ContractItem of(ContractInfo contract, Type type, R_get_contracts_public_items_contract_id line) {
 		ContractItem ret = builder()
 				.type(type)

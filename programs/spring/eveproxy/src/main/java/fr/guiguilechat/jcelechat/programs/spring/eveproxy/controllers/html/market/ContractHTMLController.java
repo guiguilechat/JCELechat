@@ -13,6 +13,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractItemService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,6 +26,8 @@ public class ContractHTMLController {
 
 	private final ContractInfoService contractInfoService;
 
+	private final ContractItemService contractItemService;
+
 	@GetMapping("{contractId}")
 	public String getContract(Model model,
 			@PathVariable int contractId) {
@@ -33,6 +36,7 @@ public class ContractHTMLController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "contract " + contractId + " does not exist");
 		}
 		model.addAttribute("contract", contract);
+		model.addAttribute("items", contractItemService.loadWithType(contract));
 		return "market/contract";
 	}
 

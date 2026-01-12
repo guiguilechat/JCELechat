@@ -34,6 +34,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRank
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.GroupCategoryChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder.OrderType;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
@@ -70,6 +71,9 @@ public class MarketHtmlController {
 	private final ContractFacadeBpo contractFacadeBpo;
 
 	private final ContractFacadeNonBp contractFacadeNonBp;
+
+	@Lazy
+	private final ContractHTMLController contractHTMLController;
 
 	private final ContractInfoService contractInfoService;
 
@@ -142,17 +146,28 @@ public class MarketHtmlController {
 
 			model.addAttribute("sos",
 					contractMarketAggregator.sellOrders(typeId).stream()
-							.peek(mo -> mo.resolveRegionName(regionNamesById)).toList());
+							.peek(mo -> mo.resolveRegionName(regionNamesById))
+							.peek(mo -> {
+								if (mo.getOrderType() == OrderType.CONTRACT) {
+									mo.setUrl(contractHTMLController.contractUrl(mo.getContractId()));
+								}
+							})
+							.toList());
 			model.addAttribute("bos",
 					contractMarketAggregator.buyOrders(typeId).stream()
 							.peek(mo -> mo.resolveRegionName(regionNamesById))
+							.peek(mo -> {
+								if (mo.getOrderType() == OrderType.CONTRACT) {
+									mo.setUrl(contractHTMLController.contractUrl(mo.getContractId()));
+								}
+							})
 							.toList());
 		} else {
 			// working with researched BPO
 			model.addAttribute("showDetails", true);
 			List<MarketOrder> sos = contractFacadeBpo.sos(typeId, meValue, teValue).stream()
 					.peek(mo -> mo.resolveRegionName(regionNamesById))
-					.peek(mo -> mo.setUrl(contractEvalController.uri(mo.getContractId()).toString()))
+					.peek(mo -> mo.setUrl(contractHTMLController.contractUrl(mo.getContractId())))
 					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);

@@ -5,9 +5,11 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service
+@Transactional
 @RequiredArgsConstructor
 public class ContractItemService {
 
@@ -24,6 +26,10 @@ public class ContractItemService {
 
 	public List<Category> categories() {
 		return repo.listCategories();
+	}
+
+	public List<ContractItem> loadWithType(ContractInfo contract) {
+		return repo.findWithTypeNameByFetchResourceOrderByTypeNameAsc(contract);
 	}
 
 }

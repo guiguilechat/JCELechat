@@ -74,7 +74,10 @@
 								<td th:text="${order.formatedExpires}" />
 								<td th:text="${order.orderType}" />
 								<td th:text="${order.regionName}" />
-								<td th:text="${order.locationName}" />
+								<td >
+									<span th:if="${order.url==null}" th:text="${order.locationName}" />
+									<a th:if="${order.url!=null}" th:text="${order.locationName}" th:href="${order.url}"/>
+								</td>
 							</tr>
 						</tbody>
 					</table>

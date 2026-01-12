@@ -13,7 +13,9 @@ public interface ContractItemRepository extends IFetchedListElementRepositoryAut
 select
 	distinct(type.group.category)
 from
-	EsiMarketContractItem
+	#{#entityName}
 """) List<Category> listCategories();
+
+	List<ContractItem> findWithTypeNameByFetchResourceOrderByTypeNameAsc(ContractInfo fetchResource);
 
 }

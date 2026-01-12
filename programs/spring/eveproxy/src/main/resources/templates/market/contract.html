@@ -1,0 +1,55 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="${'Contract '+contract.id}"></title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="container-fluid border">
+		<div class="row border">
+			<div class="col-6">
+				<h1 th:text="${'Contract '+contract.id}"></h1>
+			</div>
+		</div>
+		<div class = "row border">
+		<div class="col border">
+			<h3>Information</h3>
+			<span th:text="${'issued '+contract.dateIssued}"></span> <br />
+			<span th:text="${'expires '+contract.dateExpired}"></span>
+		</div>
+		<div class="col border">
+			<h3>Offers</h3>
+			<ul>
+				<li th:if="${contract.reward>0}"
+					th:text="${T(fr.guiguilechat.tools.FormatTools).formatPrice(contract.reward)+' isk'}">
+				</li>
+				<li th:each=" item : ${items}" th:if="${item.included}">
+					<a 
+						th:text="${item}"
+						th:href="${@typeHTMLController.typeUrl(item.type)}">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col border">
+			<h3>Requires</h3>
+			<ul>
+				<li th:if="${contract.price>0}"
+					th:text="${T(fr.guiguilechat.tools.FormatTools).formatPrice(contract.price)+' isk'}">
+				</li>
+				<li th:each=" item : ${items}" th:if="${!item.included}">
+					<a 
+						th:text="${item}"
+						th:href="${@typeHTMLController.typeUrl(item.type)}">
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+
+</body>

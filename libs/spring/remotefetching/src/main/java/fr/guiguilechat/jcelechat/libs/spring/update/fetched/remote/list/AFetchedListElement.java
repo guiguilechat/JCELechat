@@ -19,7 +19,6 @@ import lombok.experimental.SuperBuilder;
 public abstract class AFetchedListElement<Self extends AFetchedListElement<?, ?>, FetchResource extends AFetchedList<?, ?, Self>> {
 
 	@ManyToOne
-	// @JoinColumn(foreignKey = @ForeignKey(name = "none"))
 	private FetchResource fetchResource;
 
 }
