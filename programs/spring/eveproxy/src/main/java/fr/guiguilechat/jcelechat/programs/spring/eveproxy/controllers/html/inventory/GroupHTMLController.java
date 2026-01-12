@@ -16,12 +16,13 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.MarketHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/html/inventory/group")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
 public class GroupHTMLController {
@@ -31,7 +32,6 @@ public class GroupHTMLController {
 	@Lazy
 	private final MarketHtmlController marketHtmlController;
 
-	@Transactional
 	@GetMapping("/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {
 		Group g = groupService.ofId(groupId);
@@ -56,7 +56,6 @@ public class GroupHTMLController {
 	}
 
 	/** with group id as query param */
-	@Transactional
 	@GetMapping("/gi")
 	public String getGroupQuery(Model model, int groupId) {
 		return getGroup(model, groupId);

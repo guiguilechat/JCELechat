@@ -12,8 +12,8 @@
 	<div class="container-fluid border">
 		<div class="row border">
 			<div class="col-6">
-				<a href="../groups">Roots</a><br />
-				parent : <a th:if="${parent != null}" th:href="${parent.url}" th:text="${parent.name}" /><br />
+				<a th:href="${@marketGroupHTMLController.rootUrl()}">Roots</a><br />
+				parent : <a th:if="${parent != null}" th:href="${@marketGroupHTMLController.marketGroupUrl(parent)}" th:text="${parent.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 				<table class="table">
 					<tbody>
 						<tr th:each="child : ${children}">
-							<td><a th:href="${child.url}" th:text="${child.name}" /></td>
+							<td><a th:href="${@marketGroupHTMLController.marketGroupUrl(child)}" th:text="${child.name}" /></td>
 						</tr>
 					</tbody>
 				</table>

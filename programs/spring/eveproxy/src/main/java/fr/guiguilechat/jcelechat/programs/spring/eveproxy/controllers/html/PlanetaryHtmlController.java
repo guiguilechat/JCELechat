@@ -12,12 +12,12 @@ import lombok.RequiredArgsConstructor;
 
 @Controller
 @RequestMapping("/html/planet")
+@Transactional
 @RequiredArgsConstructor
 public class PlanetaryHtmlController {
 
 	private final PlanetEvalService planetEvalService;
 
-	@Transactional
 	@GetMapping("/factories")
 	public String getFactories(Model model, PlanetEvalParams params) {
 

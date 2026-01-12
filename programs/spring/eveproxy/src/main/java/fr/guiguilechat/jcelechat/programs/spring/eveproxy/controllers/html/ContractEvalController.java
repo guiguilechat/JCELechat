@@ -29,6 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 @RequestMapping("/html/contracts")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractEvalController {
 
@@ -38,7 +39,6 @@ public class ContractEvalController {
 
 	private final RegionService regionService;
 
-	@Transactional
 	@GetMapping("/id/{contractid}")
 	public String getContractEval(Model model, @PathVariable int contractid, EvalParams params) {
 		return "market/contract";
@@ -91,7 +91,6 @@ public class ContractEvalController {
 		    regionService.ofId(eval.getContract().getRegion().getId()).name());
 	}
 
-	@Transactional
 	@GetMapping("/evaluate")
 	public String getEvaluatedContracts(Model model, EvalParams params) {
 		model.addAttribute("params", params);

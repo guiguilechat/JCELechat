@@ -26,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import lombok.RequiredArgsConstructor;
@@ -34,6 +35,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 @RequestMapping("/html/npc")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class NpcHtmlController {
 
@@ -51,7 +53,6 @@ public class NpcHtmlController {
 	@Lazy
 	private final TypeHTMLController typeHTMLController;
 
-	@Transactional
 	@GetMapping("/corporation/{corporationId}/offer/{offerId}")
 	public String getOffer(Model model, @PathVariable int corporationId, @PathVariable int offerId) {
 		List<LinkCorporationOffer> offers = linkCorporationOfferService.forCorporationOffer(corporationId, offerId);
@@ -110,7 +111,6 @@ public class NpcHtmlController {
 						.toList());
 	}
 
-	@Transactional
 	@GetMapping("/corporation/{corporationId}")
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
 			LPEvalParams params) {
@@ -168,7 +168,6 @@ public class NpcHtmlController {
 		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(), nbLpOffers);
 	}
 
-	@Transactional
 	@GetMapping("/corporations")
 	public String corporationsIndex(Model model) {
 		long startMs = System.currentTimeMillis();

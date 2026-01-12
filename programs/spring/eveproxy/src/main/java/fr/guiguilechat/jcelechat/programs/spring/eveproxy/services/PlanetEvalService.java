@@ -26,7 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.InventoryHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;

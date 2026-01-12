@@ -35,6 +35,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 @RequestMapping("/html/mutation")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MutationHTMLController {
 
@@ -48,7 +49,6 @@ public class MutationHTMLController {
 
 	// list products
 
-	@Transactional
 	@GetMapping("/products")
 	public String getProducts(Model model) {
 		return "mutation/products";
@@ -109,7 +109,6 @@ public class MutationHTMLController {
 		}
 	}
 
-	@Transactional
 	@GetMapping("/product/{productTypeId}")
 	public String getProduct(
 			Model model,

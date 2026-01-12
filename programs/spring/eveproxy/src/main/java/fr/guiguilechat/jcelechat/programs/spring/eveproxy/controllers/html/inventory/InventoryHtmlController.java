@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory;
 
 import java.util.Comparator;
 import java.util.List;
@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/html/inventory")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
 public class InventoryHtmlController {
@@ -29,7 +29,6 @@ public class InventoryHtmlController {
 	private final TypeService typeService;
 
 
-	@Transactional
 	@GetMapping("/search/{typeFiltering}/{typeFilter}")
 	public String getSearch(Model model, @PathVariable String typeFiltering,
 			@PathVariable String typeFilter) {
@@ -42,14 +41,12 @@ public class InventoryHtmlController {
 		return "inventory/typesearch";
 	}
 
-	@Transactional
 	@GetMapping("/search/{typeFiltering}")
 	public String getSearchQuery(Model model, @PathVariable String typeFiltering,
 			String filter) {
 		return getSearch(model, typeFiltering, filter);
 	}
 
-	@Transactional
 	@GetMapping("/search")
 	public String getSearch(Model model) {
 		return "inventory/typesearch";

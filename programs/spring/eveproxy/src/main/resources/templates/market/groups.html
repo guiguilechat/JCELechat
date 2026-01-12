@@ -22,7 +22,7 @@
 				<table class="table">
 					<tbody>
 						<tr th:each="root : ${roots}">
-							<td><a th:href="${root.url}" th:text="${root.name}" /></td>
+							<td><a th:href="${@marketGroupHTMLController.marketGroupUrl(root)}" th:text="${root.name}" /></td>
 						</tr>
 					</tbody>
 				</table>

@@ -43,9 +43,9 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.MarketHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.MerKillsRestController;
 import fr.guiguilechat.tools.FormatTools;
@@ -54,6 +54,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/html/inventory/type")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
 public class TypeHTMLController {
@@ -97,7 +98,6 @@ public class TypeHTMLController {
 
 	private final TypeService typeService;
 
-	@Transactional
 	@GetMapping("/{typeId}")
 	public String getType(Model model,
 			@PathVariable int typeId) {
@@ -114,7 +114,8 @@ public class TypeHTMLController {
 					null).toString());
 		}
 		if (t.getMarketGroup() != null) {
-			model.addAttribute("marketGroup", marketHtmlController.linkedMarketGroup(t.getMarketGroup()));
+			t.getMarketGroup().getName();
+			model.addAttribute("marketGroup", t.getMarketGroup());
 		}
 		Group group = t.getGroup();
 		if (group != null) {
@@ -381,7 +382,6 @@ public class TypeHTMLController {
 				.toList();
 	}
 
-	@Transactional
 	@GetMapping("")
 	public String getTypeQuery(
 			Model model,

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market;
 
 import java.net.URI;
 import java.util.Comparator;
@@ -29,7 +29,6 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeN
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService.ContractTypeVariant;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.AcceleratorsRatingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
@@ -39,13 +38,13 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroup;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.marketgroup.MarketGroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.ContractEvalController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.tools.FormatTools;
@@ -57,10 +56,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 @RequestMapping("/html/market")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHtmlController {
-
-	private final AcceleratorsRatingService acceleratorsRatingService;
 
 	private final CategoryService categoryService;
 
@@ -91,8 +89,6 @@ public class MarketHtmlController {
 	@Lazy
 	private final InventoryHtmlController inventoryHtmlController;
 
-	private final MarketGroupService marketGroupService;
-
 	private final MarketRankingService marketRankingService;
 
 	private final RegionService regionService;
@@ -104,7 +100,6 @@ public class MarketHtmlController {
 
 	private final TypeService typeService;
 
-	@Transactional
 	@GetMapping("/{typeId}")
 	public String getTypeMarket(Model model, @PathVariable int typeId,
 			Optional<Integer> me,
@@ -242,7 +237,6 @@ public class MarketHtmlController {
 		private final int days;
 	}
 
-	@Transactional
 	@GetMapping("/search")
 	public String getSearch(Model model, Optional<String> typeName, Optional<PERIOD> period, Optional<Integer> limit) {
 		if (typeName.isPresent() && !typeName.get().isBlank()) {
@@ -255,7 +249,6 @@ public class MarketHtmlController {
 								.toList());
 			}
 		}
-		model.addAttribute("acceleratorsRatingJita", rateAcceleratorsURI(Station.JITA_HUB_ID).toString());
 		PERIOD periodValue = period.orElse(PERIOD.week);
 		model.addAttribute("periods", PERIOD.values());
 		model.addAttribute("period", periodValue);
@@ -296,70 +289,13 @@ public class MarketHtmlController {
 		return "market/index";
 	}
 
-	@Transactional
 	@GetMapping("/search/")
 	public String getSearchSlash(Model model, Optional<String> typeName) {
 		return getSearch(model, typeName, null, null);
 	}
 
-	// market groups
-
-	@Transactional
-	@GetMapping("/group/{marketGroupId}")
-	public String getMarketGroup(Model model, @PathVariable int marketGroupId) {
-		MarketGroup marketGroup = marketGroupService.ofId(marketGroupId);
-		if (marketGroup != null) {
-			model.addAttribute("name", marketGroup.name());
-			if (marketGroup.getParent() != null) {
-				model.addAttribute("parent", linkedMarketGroup(marketGroup.getParent()));
-			}
-			if (marketGroup.getSubGroups() != null && !marketGroup.getSubGroups().isEmpty()) {
-				model.addAttribute("children", marketGroup.getSubGroups().stream()
-						.map(this::linkedMarketGroup)
-						.sorted(Comparator.comparing(l -> l.name))
-						.toList());
-			}
-			if (marketGroup.getTypes() != null && !marketGroup.getTypes().isEmpty()) {
-				model.addAttribute("types",
-						marketGroup.getTypes().stream()
-								.sorted(Comparator.comparing(Type::name))
-						.toList());
-			}
-		} else {
-			model.addAttribute("name", "unknown" + marketGroupId);
-		}
-		return "market/group";
-	}
-
-	//
-
-	@Transactional
-	@GetMapping("/groups")
-	public String getMarketGroups(Model model) {
-		model.addAttribute("roots",
-				marketGroupService.roots().stream()
-						.sorted(Comparator.comparing(MarketGroup::name))
-						.map(this::linkedMarketGroup)
-						.toList());
-		return "market/groups";
-	}
-
-	public URI uri(MarketGroup marketGroup) {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroup", null, "" + marketGroup.getId())
-				.build()
-				.toUri();
-	}
-
-	public static record LinkedMarketGroup(String name, String url) {
-	}
-
-	public LinkedMarketGroup linkedMarketGroup(MarketGroup marketGroup) {
-		return new LinkedMarketGroup(marketGroup.name(), uri(marketGroup).toString());
-	}
-
 	// group ranking
 
-	@Transactional
 	@GetMapping("ranking/{filter}/{filterId}")
 	public String getRanking(Model model,
 			@PathVariable GroupCategoryChoice filter,
@@ -470,36 +406,4 @@ public class MarketHtmlController {
 				.toList();
 	}
 
-	// accelerators rating
-
-	@Transactional
-	@GetMapping("rate/accelerators")
-	public String getAccelerators(Model model,
-			@RequestParam Optional<Long> locationId)
-			throws InterruptedException, ExecutionException {
-		long locId = locationId.orElse(Station.JITA_HUB_ID);
-		model.addAttribute("accelerators", acceleratorsRatingService.rate(locId));
-
-		Station sta = locId > Integer.MAX_VALUE
-				? null
-				: stationService.ofId((int) locId);
-		String locationName = sta == null ? "location:" + locationId : sta.name();
-		model.addAttribute("locationName", locationName);
-		model.addAttribute("amarrUrl", rateAcceleratorsURI(Station.AMARR_HUB_ID).toString());
-		model.addAttribute("dodixieUrl", rateAcceleratorsURI(Station.DODIXIE_HUB_ID).toString());
-		model.addAttribute("hekUrl", rateAcceleratorsURI(Station.HEK_HUB_ID).toString());
-		model.addAttribute("jitaUrl", rateAcceleratorsURI(Station.JITA_HUB_ID).toString());
-		model.addAttribute("rensUrl", rateAcceleratorsURI(Station.RENS_HUB_ID).toString());
-
-		return "market/accelerators";
-	}
-
-	public URI rateAcceleratorsURI(Long locationId) {
-		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "getAccelerators", null,
-						locationId)
-				.build()
-				.toUri();
-
-	}
 }

@@ -27,7 +27,7 @@
 					th:text="${group.name}" /><br />
 				market group : <a
 					th:if="${marketGroup != null}"
-					th:href="${marketGroup.url}"
+					th:href="${@marketGroupHTMLController.marketGroupUrl(marketGroup)}"
 					th:text="${marketGroup.name}" /><br />
 				<h1 th:text="${name}" />
 			</div>

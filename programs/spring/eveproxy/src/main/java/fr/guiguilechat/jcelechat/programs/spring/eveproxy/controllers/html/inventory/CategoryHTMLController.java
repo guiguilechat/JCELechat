@@ -15,13 +15,14 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.MarketHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/html/inventory/category")
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
 public class CategoryHTMLController {
@@ -31,7 +32,6 @@ public class CategoryHTMLController {
 	@Lazy
 	private final MarketHtmlController marketHtmlController;
 
-	@Transactional
 	@GetMapping("/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {
 		Category c = categoryService.ofId(categoryId);
