@@ -12,38 +12,31 @@ import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.core.annotation.Order;
 import org.springframework.data.domain.Limit;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
+import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
-@Order(6) // depends on type and contractregion for the items ; then set to a higher
-// number because it's likely to create more errors
+@Transactional
+@RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractInfoService extends RemoteEntityService<
 ContractInfo,
 Integer,
 R_get_contracts_public_items_contract_id[],
 ContractInfoRepository> {
-
-	//
-	// implementation
-	//
 
 	@Lazy
 	private final ContractItemService contractItemService;
@@ -280,47 +273,6 @@ ContractInfoRepository> {
 
 	public List<ContractTypeVariant> variants(int typeId) {
 		return repo().listTypeVariants(typeId).stream().map(arr -> new ContractTypeVariant(typeId, arr)).toList();
-	}
-
-
-	//
-	// specifications to help criterions
-	//
-
-	public static Specification<ContractInfo> valid() {
-		return (ci, _, cb) -> cb.and(cb.isTrue(ci.get("fetched")), cb.isFalse(ci.get("removed")));
-	}
-
-	public static Specification<ContractInfo> forType(get_contracts_public_region_id_type type) {
-		return (ci, _, cb) -> cb.equal(ci.get("type"), type);
-	}
-
-	public static Specification<ContractInfo> isHs() {
-		return (ci, _, cb) -> cb.isTrue(ci.get("secHigh"));
-	}
-
-	public static Specification<ContractInfo> isLs() {
-		return (ci, _, cb) -> cb.isTrue(ci.get("secLow"));
-	}
-
-	public static Specification<ContractInfo> isNs() {
-		return (ci, _, cb) -> cb.isTrue(ci.get("secNull"));
-	}
-
-	public static Specification<ContractInfo> inRegion(Region region) {
-		return (ci, _, cb) -> cb.equal(ci.get("regionId"), region.getId());
-	}
-
-	public static Specification<ContractInfo> requestsItem(boolean requests) {
-		return (ci, _, cb) -> cb.equal(ci.get("requestsItem"), requests);
-	}
-
-	public static Specification<ContractInfo> offersItem(boolean offers) {
-		return (ci, _, cb) -> cb.equal(ci.get("offersItem"), offers);
-	}
-
-	public static Specification<ContractInfo> offersNonBpc(boolean offers) {
-		return (ci, _, cb) -> cb.equal(ci.get("offersNonBpc"), offers);
 	}
 
 	//

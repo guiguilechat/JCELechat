@@ -19,8 +19,10 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoSer
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractItem;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.model.formula.industry.Research;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
+import fr.guiguilechat.tools.FormatTools;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -53,7 +55,7 @@ public class ContractEvalService {
 		 */
 		private boolean itemrequest = false;
 
-		private long location = MarketLineService.JITAIV_ID;
+		private long location = Station.JITA_HUB_ID;
 
 		// can be HS, LS, NS or a region id.
 		private String locationFilter = "HS";
@@ -107,6 +109,18 @@ public class ContractEvalService {
 				gain = valueProvided - valueRequired - valueMargin;
 			}
 			return gain;
+		}
+
+		public String formatGain() {
+			return FormatTools.formatPrice(gain());
+		}
+
+		public String cost() {
+			return FormatTools.formatPrice(getValueRequired());
+		}
+
+		public String value() {
+			return FormatTools.formatPrice(getValueProvided());
 		}
 
 	}

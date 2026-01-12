@@ -39,12 +39,12 @@
 								<td th:text="${order.volumeRemain}" />
 								<td th:text="${order.minVolume}" />
 								<td th:text="${order.formatedExpires}" />
-								<td th:text="${order.orderType}" />
-								<td th:text="${order.regionName}" />
 								<td >
-									<span th:if="${order.url==null}" th:text="${order.locationName}" />
-									<a th:if="${order.url!=null}" th:text="${order.locationName}" th:href="${order.url}"/>
+									<span th:if="${order.url==null}" th:text="${order.orderType}" />
+									<a th:if="${order.url!=null}" th:text="${order.orderType}" th:href="${order.url}"/>
 								</td>
+								<td th:text="${order.regionName}" />
+								<td th:text="${order.locationName}" />
 								<td th:if="${showDetails}" th:text="${order.details}" />
 							</tr>
 						</tbody>
@@ -72,12 +72,12 @@
 								<td th:text="${order.volumeRemain}" />
 								<td th:text="${order.minVolume}" />
 								<td th:text="${order.formatedExpires}" />
-								<td th:text="${order.orderType}" />
-								<td th:text="${order.regionName}" />
 								<td >
-									<span th:if="${order.url==null}" th:text="${order.locationName}" />
-									<a th:if="${order.url!=null}" th:text="${order.locationName}" th:href="${order.url}"/>
+									<span th:if="${order.url==null}" th:text="${order.orderType}" />
+									<a th:if="${order.url!=null}" th:text="${order.orderType}" th:href="${order.url}"/>
 								</td>
+								<td th:text="${order.regionName}" />
+								<td th:text="${order.locationName}" />
 							</tr>
 						</tbody>
 					</table>
@@ -107,11 +107,11 @@
 								<td th:text="${order.formatedPrice}" />
 								<td th:text="${order.volumeRemain}" />
 								<td th:text="${order.regionName}" />
-								<td >
-									<span th:if="${order.url==null}" th:text="${order.locationName}" />
-									<a th:if="${order.url!=null}" th:text="${order.locationName}" th:href="${order.url}"/>
+								<td th:text="${order.locationName}" />
+								<td>
+									<span th:if="${order.url==null}" th:text="${order.details}" />
+									<a th:if="${order.url!=null}" th:text="${order.details}" th:href="${order.url}"/>
 								</td>
-								<td th:text="${order.details}" />
 							</tr>
 						</tbody>
 					</table>

@@ -220,13 +220,13 @@ public class TypeHTMLController {
 			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 
 			log.trace("fetching jitabo");
-			List<MarketLine> bos = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), true);
+			List<MarketLine> bos = marketLineService.forLocation(Station.JITA_HUB_ID, t.getId(), true);
 			if (bos != null && !bos.isEmpty()) {
 				model.addAttribute("jitabo", FormatTools.formatPrice(bos.get(0).getPrice()));
 			}
 
 			log.trace("fetching jitaso");
-			List<MarketLine> jitaso = marketLineService.forLocation(MarketLineService.JITAIV_ID, t.getId(), false);
+			List<MarketLine> jitaso = marketLineService.forLocation(Station.JITA_HUB_ID, t.getId(), false);
 			if (jitaso != null && !jitaso.isEmpty()) {
 				model.addAttribute("jitaso", FormatTools.formatPrice(jitaso.get(0).getPrice()));
 			}

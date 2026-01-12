@@ -79,13 +79,13 @@
 					</tr>
 				</thead>
 					<tbody>
-						<tr th:each="contract : ${contracts}">
-							<td><a th:href="${contract.url}" th:text="${contract.name()}" /></td>
-							<td th:text="${contract.region}"></td>
-							<td><span class="user-select-all border border-info bg-light" th:text="${contract.gameLink()}"/></td>
-							<td th:text="${contract.gain()}"></td>
-							<td th:text="${contract.cost()}"></td>
-							<td th:text="${contract.value()}"></td>
+						<tr th:each="eval : ${contracts}">
+							<td><a th:href="${@contractHTMLController.contractUrl(eval.contract)}" th:text="${eval.contract.name()}" /></td>
+							<td th:text="${eval.contract.region.region.name}"></td>
+							<td><span class="user-select-all border border-info bg-light" th:text="${eval.contract.gameLink()}"/></td>
+							<td th:text="${eval.formatGain()}"></td>
+							<td th:text="${eval.cost()}"></td>
+							<td th:text="${eval.value()}"></td>
 						</tr>
 					</tbody>
 				</table>

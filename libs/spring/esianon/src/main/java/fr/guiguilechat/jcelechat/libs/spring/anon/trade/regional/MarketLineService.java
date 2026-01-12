@@ -119,13 +119,6 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 	//
-	// tools
-	//
-
-	/** common value to get to get Jita specific orders */
-	public static final long JITAIV_ID = 60003760;
-
-	//
 	// retrieve actual orders
 	//
 

@@ -23,6 +23,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.ProductValuator;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
+import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
@@ -133,7 +134,7 @@ public class PlanetEvalService {
 		private PRODUCT_FILTER filter = PRODUCT_FILTER.ANY;
 		private int hours = 2 * 24;
 		private boolean hs = false;
-		private long location = MarketLineService.JITAIV_ID;
+		private long location = Station.JITA_HUB_ID;
 		private double margin = 5.0;
 		private MaterialSourcing materialSourcing = MaterialSourcing.BUY_SO_MASS;
 		private int nbPlanets = 6;

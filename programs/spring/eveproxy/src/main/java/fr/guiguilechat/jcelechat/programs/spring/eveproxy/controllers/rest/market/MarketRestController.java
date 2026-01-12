@@ -249,7 +249,7 @@ public class MarketRestController {
 	@GetMapping("/jita/typeId/{typeId}/stats")
 	public ResponseEntity<TypeMarketStats> statsJitaByType(@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return statsByPlaceByType("lid", "" + MarketLineService.JITAIV_ID, typeId, accept);
+		return statsByPlaceByType("lid", "" + Station.JITA_HUB_ID, typeId, accept);
 	}
 
 	public static record MarketOffer(int volume, double price) {
@@ -277,7 +277,7 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> sosJitaByType(
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, false),
+		return RestControllerHelper.makeResponse(offers("lid", "" + Station.JITA_HUB_ID, typeId, false),
 				accept);
 	}
 
@@ -293,7 +293,7 @@ public class MarketRestController {
 	public ResponseEntity<List<MarketOffer>> bosJitaByType(
 			@PathVariable int typeId,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		return RestControllerHelper.makeResponse(offers("lid", "" + MarketLineService.JITAIV_ID, typeId, true), accept);
+		return RestControllerHelper.makeResponse(offers("lid", "" + Station.JITA_HUB_ID, typeId, true), accept);
 	}
 
 	@GetMapping("/{placeFiltering}/{placeFilter}/{typeFiltering}/{typeFilter}/chart")
@@ -345,7 +345,7 @@ public class MarketRestController {
 			HttpServletResponse response,
 			@RequestParam Optional<String> accept,
 			@RequestParam Optional<String> bcolor) throws IOException {
-		chartbyLocationByType("lid", "" + MarketLineService.JITAIV_ID, typeFiltering, typeFilter, response, accept,
+		chartbyLocationByType("lid", "" + Station.JITA_HUB_ID, typeFiltering, typeFilter, response, accept,
 				bcolor);
 	}
 

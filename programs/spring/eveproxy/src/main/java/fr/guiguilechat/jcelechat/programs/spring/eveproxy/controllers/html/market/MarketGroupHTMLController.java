@@ -61,7 +61,7 @@ public class MarketGroupHTMLController {
 	//
 
 	@GetMapping("/list")
-	public String getMarketGroups(Model model) {
+	public String getRoot(Model model) {
 		model.addAttribute("roots",
 				marketGroupService.roots().stream()
 						.sorted(Comparator.comparing(MarketGroup::name))
@@ -70,7 +70,7 @@ public class MarketGroupHTMLController {
 	}
 
 	public String rootUrl() {
-		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getMarketGroups", (Model) null)
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getRoot", (Model) null)
 				.build()
 				.toUri()
 				.toString();

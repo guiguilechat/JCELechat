@@ -132,12 +132,16 @@ public class MarketHtmlController {
 			log.trace("fetching contract facade sos");
 			List<MarketOrder> sos = contractFacadeBpc.sos(typeId, meValue, teValue).stream()
 					.peek(mo -> mo.resolveRegionName(regionNamesById))
+					.peek(mo -> {
+						mo.setUrl(contractHTMLController.contractUrl(mo.getContractId()));
+					})
 					.toList();
 			// System.err.println("found " + sos.size() + " orders for " + name);
 			model.addAttribute("sos", sos);
 
 			List<MarketOrder> completed = contractFacadeBpc.streamSold(typeId, meValue, teValue, Limit.of(100))
 					.peek(mo -> mo.resolveRegionName(regionNamesById))
+					.peek(mo -> mo.setUrl(contractHTMLController.contractUrl(mo.getContractId())))
 					.toList();
 			model.addAttribute("completed", completed);
 		} else // working wit non-copy
