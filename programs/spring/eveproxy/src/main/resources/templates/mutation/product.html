@@ -11,7 +11,7 @@
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="d-flex">
 		<div class="sidebar d-flex flex-column flex-shrink-0">
-			<a th:href="${@mutationHTMLController.productsUrl()}">&lt;list products</a>
+			<a th:href="${@mutationHTMLController.productsUrl()}"> &lt; list products</a>
 			<h5>Base type attributes</h5>
 			<nav th:each="sourceType : ${@mutaMappingService.sourcesFor(type.id)}">
 				<a

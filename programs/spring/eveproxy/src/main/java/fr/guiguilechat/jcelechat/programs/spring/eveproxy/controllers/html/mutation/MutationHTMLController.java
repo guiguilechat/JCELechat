@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.mutation;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -159,7 +159,6 @@ public class MutationHTMLController {
 					.toList();
 			model.addAttribute("attParams", attParams);
 		}
-//		System.err.println("required attributes : " + requiredAttributeValue);
 
 		List<MutatedRange> possibleMutations = mutaplasmidService.listOutputs(productTypeId);
 		Set<Integer> purchasebleTypes = possibleMutations.stream().flatMap(mr -> mr.mutaplasmid() == null
@@ -170,7 +169,6 @@ public class MutationHTMLController {
 		List<MutatedChance> evaluations = possibleMutations.stream()
 				.map(mr -> {
 					double chance = mr.chance(requiredAttributeValue);
-//					System.out.println(mr.sourceType() + " + " + mr.mutaplasmid() + " : " + chance);
 					double price = typeId2Price.getOrDefault(mr.sourceType().getId(), Double.POSITIVE_INFINITY);
 					if (mr.mutaplasmid() != null) {
 						price += typeId2Price.getOrDefault(mr.mutaplasmid().getId(), Double.POSITIVE_INFINITY);

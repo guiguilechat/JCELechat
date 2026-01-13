@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
@@ -21,7 +22,7 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Slf4j
-public class InventoryHtmlController {
+public class InventoryHTMLController {
 
 	@Lazy
 	private final TypeHTMLController typeHTMLController;
@@ -48,8 +49,14 @@ public class InventoryHtmlController {
 	}
 
 	@GetMapping("/search")
-	public String getSearch(Model model) {
+	public String getSearch() {
 		return "inventory/typesearch";
+	}
+
+	public String rootUrl() {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getSearch").build()
+				.toUri()
+				.toString();
 	}
 
 }

@@ -6,13 +6,11 @@
 		<div class="collapse navbar-collapse">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link active" th:href="@{/}">Home</a>
-				<a class="nav-item nav-link active" th:href="@{/html/inventory/search}">Inventory</a>
-				<a class="nav-item nav-link active" th:href="@{/html/market/search}">Market</a>
-				<a class="nav-item nav-link active" th:href="@{/html/market/accelerators/rate}">Accelerators</a>
-				<a class="nav-item nav-link active" th:href="@{/html/npc/corporations}">Loyalty</a>
-				<a class="nav-item nav-link active" th:href="@{/html/mutation/products}">Mutations</a>
-<!--				<a class="nav-item nav-link active" th:href="@{/html/contracts/evaluate}">Contracts</a>-->
-<!--				<a class="nav-item nav-link active" th:href="@{/html/planet/factories}">Planetary</a>-->
+				<a class="nav-item nav-link active" th:href="${@inventoryHTMLController.rootUrl()}">Inventory</a>
+				<a class="nav-item nav-link active" th:href="${@marketHTMLController.rootUrl()}">Market</a>
+				<a class="nav-item nav-link active" th:href="${@acceleratorHTMLController.rootUrl()}">Accelerators</a>
+				<a class="nav-item nav-link active" th:href="${@loyaltyHTMLController.rootUrl()}">Loyalty</a>
+				<a class="nav-item nav-link active" th:href="${@mutationHTMLController.productsUrl()}">Mutations</a>
 			</div>
 		</div>
 	</nav>

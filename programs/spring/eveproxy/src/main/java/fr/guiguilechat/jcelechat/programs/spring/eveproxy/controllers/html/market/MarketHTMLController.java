@@ -45,7 +45,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.ContractEvalController;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.tools.FormatTools;
@@ -59,7 +59,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/html/market")
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class MarketHtmlController {
+public class MarketHTMLController {
 
 	private final CategoryService categoryService;
 
@@ -82,7 +82,7 @@ public class MarketHtmlController {
 	private final GroupService groupService;
 
 	@Lazy
-	private final InventoryHtmlController dogmaHtmlController;
+	private final InventoryHTMLController dogmaHtmlController;
 
 	@Lazy
 	private final HistoryLineService historyLineService;
@@ -91,7 +91,7 @@ public class MarketHtmlController {
 	private final MarketHistoryRestController historyRestController;
 
 	@Lazy
-	private final InventoryHtmlController inventoryHtmlController;
+	private final InventoryHTMLController inventoryHtmlController;
 
 	private final MarketRankingService marketRankingService;
 
@@ -250,6 +250,12 @@ public class MarketHtmlController {
 	@GetMapping("")
 	public String getRoot() {
 		return "redirect:market/search";
+	}
+
+	public String rootUrl() {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getRoot").build()
+				.toUri()
+				.toString();
 	}
 
 	@RequiredArgsConstructor

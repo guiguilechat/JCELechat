@@ -60,4 +60,10 @@ public class AcceleratorHTMLController {
 				.toUri();
 	}
 
+	public String rootUrl() {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getAccelerators", (Model) null, null).build()
+				.toUri()
+				.toString();
+	}
+
 }

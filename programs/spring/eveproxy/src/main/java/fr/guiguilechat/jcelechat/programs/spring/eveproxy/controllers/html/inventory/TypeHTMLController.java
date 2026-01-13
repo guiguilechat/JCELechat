@@ -43,9 +43,9 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.Space;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.NpcHtmlController.LinkedLPOffer;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.loyalty.LoyaltyHTMLController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.loyalty.LoyaltyHTMLController.LinkedLPOffer;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.MarketHistoryRestController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mer.MerKillsRestController;
 import fr.guiguilechat.tools.FormatTools;
@@ -81,14 +81,14 @@ public class TypeHTMLController {
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
 	@Lazy
-	private final MarketHtmlController marketHtmlController;
+	private final MarketHTMLController marketHtmlController;
 
 	private final MarketLineService marketLineService;
 
 	private final MerKillsRestController merKillsRestController;
 
 	@Lazy
-	private final NpcHtmlController npcHtmlController;
+	private final LoyaltyHTMLController npcHtmlController;
 
 	private final PriceService priceService;
 

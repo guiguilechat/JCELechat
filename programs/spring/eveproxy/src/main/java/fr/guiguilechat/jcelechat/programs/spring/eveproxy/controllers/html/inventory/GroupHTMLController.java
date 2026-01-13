@@ -16,7 +16,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.Group;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.group.GroupService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHTMLController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -30,7 +30,7 @@ public class GroupHTMLController {
 	private final GroupService groupService;
 
 	@Lazy
-	private final MarketHtmlController marketHtmlController;
+	private final MarketHTMLController marketHtmlController;
 
 	@GetMapping("/{groupId}")
 	public String getGroup(Model model, @PathVariable int groupId) {

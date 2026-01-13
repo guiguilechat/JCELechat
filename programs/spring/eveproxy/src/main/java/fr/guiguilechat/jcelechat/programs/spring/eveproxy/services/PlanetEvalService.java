@@ -27,7 +27,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerFee;
 import fr.guiguilechat.jcelechat.model.formula.market.BrokerRelist;
 import fr.guiguilechat.jcelechat.model.formula.market.Tax;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.planetary.CuratedP4FromP2;
@@ -59,7 +59,7 @@ public class PlanetEvalService {
 
 	final private TypeService typeService;
 
-	private final @Lazy InventoryHtmlController dogmaHtmlController;
+	private final @Lazy InventoryHTMLController dogmaHtmlController;
 
 	public static record ConsumeProduct(Map<Type, Long> materials, Map<Type, Long> product) {
 	}

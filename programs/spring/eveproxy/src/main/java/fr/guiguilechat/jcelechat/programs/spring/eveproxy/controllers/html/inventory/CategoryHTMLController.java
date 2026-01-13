@@ -15,7 +15,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.Category;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.category.CategoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.Station;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.market.MarketHTMLController;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -30,7 +30,7 @@ public class CategoryHTMLController {
 	private final CategoryService categoryService;
 
 	@Lazy
-	private final MarketHtmlController marketHtmlController;
+	private final MarketHTMLController marketHtmlController;
 
 	@GetMapping("/{categoryId}")
 	public String getCategory(Model model, @PathVariable int categoryId) {

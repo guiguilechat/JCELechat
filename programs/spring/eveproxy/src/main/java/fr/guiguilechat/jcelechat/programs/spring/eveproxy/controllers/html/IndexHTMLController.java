@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/")
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class IndexHtmlController {
+public class IndexHTMLController {
 
 	@GetMapping("/")
 	public String getIndex() {

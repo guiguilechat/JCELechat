@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html;
+package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.loyalty;
 
 import java.net.URI;
 import java.util.Comparator;
@@ -26,7 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporation;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHtmlController;
+import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.InventoryHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.html.inventory.TypeHTMLController.LinkedMaterial;
 import lombok.RequiredArgsConstructor;
@@ -34,13 +34,13 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Controller
-@RequestMapping("/html/npc")
+@RequestMapping("/html/loyalty")
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class NpcHtmlController {
+public class LoyaltyHTMLController {
 
 	@Lazy
-	private final InventoryHtmlController dogmaHtmlController;
+	private final InventoryHTMLController dogmaHtmlController;
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
@@ -53,7 +53,7 @@ public class NpcHtmlController {
 	@Lazy
 	private final TypeHTMLController typeHTMLController;
 
-	@GetMapping("/corporation/{corporationId}/offer/{offerId}")
+	@GetMapping("/{corporationId}/{offerId}")
 	public String getOffer(Model model, @PathVariable int corporationId, @PathVariable int offerId) {
 		List<LinkCorporationOffer> offers = linkCorporationOfferService.forCorporationOffer(corporationId, offerId);
 		if (offers.size() != 1) {
@@ -69,7 +69,7 @@ public class NpcHtmlController {
 		model.addAttribute("corporation",
 				linkedObservedCorporation(link.getLpCorp(), link.getLpCorp().getNbOffers()));
 		model.addAttribute("product", offer.getType());
-		return "npc/offer";
+		return "loyalty/offer";
 	}
 
 	public URI uri(Offer offer, int corporationId) {
@@ -111,7 +111,7 @@ public class NpcHtmlController {
 						.toList());
 	}
 
-	@GetMapping("/corporation/{corporationId}")
+	@GetMapping("/{corporationId}")
 	public String getCorporationOffers(Model model, @PathVariable int corporationId,
 			LPEvalParams params) {
 
@@ -147,7 +147,7 @@ public class NpcHtmlController {
 
 		model.addAttribute("params", params);
 
-		return "npc/corporation";
+		return "loyalty/corporation";
 	}
 
 	public URI uri(LPCorporation corporation, LPEvalParams params) {
@@ -168,8 +168,8 @@ public class NpcHtmlController {
 		return new LinkedObservedCorporation(uri(corp).toString(), corp.getCorporation().nameOrId(), nbLpOffers);
 	}
 
-	@GetMapping("/corporations")
-	public String corporationsIndex(Model model) {
+	@GetMapping("")
+	public String getIndex(Model model) {
 		long startMs = System.currentTimeMillis();
 		List<LinkedObservedCorporation> npcCorporations = linkCorporationOfferService
 				.listCorporationsWithLPOffers().stream()
@@ -179,7 +179,13 @@ public class NpcHtmlController {
 		long postFetch = System.currentTimeMillis();
 		log.trace("fetched {} observed LP corporations in {}s", npcCorporations.size(), (postFetch - startMs) / 1000);
 		model.addAttribute("corporations", npcCorporations);
-		return "npc/corporations";
+		return "loyalty/corporations";
+	}
+
+	public String rootUrl() {
+		return MvcUriComponentsBuilder.fromMethodName(getClass(), "getIndex", (Model) null).build()
+				.toUri()
+				.toString();
 	}
 
 }
