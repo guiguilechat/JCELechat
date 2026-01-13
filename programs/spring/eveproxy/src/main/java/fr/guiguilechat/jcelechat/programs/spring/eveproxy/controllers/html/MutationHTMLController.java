@@ -80,6 +80,14 @@ public class MutationHTMLController {
 				return -max.doubleValue() / 10000;
 			}
 		}
+
+		public String formattedMax() {
+			return "" + max.doubleValue();
+		}
+
+		public String formattedMin() {
+			return "" + min.doubleValue();
+		}
 	}
 
 	public static record MutatedChance(MutatedRange mutation, double chance, double rollCost) {

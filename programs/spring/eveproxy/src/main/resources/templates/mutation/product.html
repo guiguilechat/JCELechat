@@ -38,16 +38,25 @@
 						<tr th:each="att : ${attParams}">
 							<td th:text="${att.attributeName()+' ('+att.attributeId()+')'}"></td>
 							<td>
-								<span th:text="${att.min()}"  th:style="${att.highIsGood()?'color : red;' : 'color : green;'}"></span>
+								<input type="button"
+									th:value="${att.formattedMin()}"
+									th:style="${att.highIsGood()?'color : red;' : 'color : green;'}"
+									th:onclick="document.getElementById('filter_[[${att.attributeId()}]]').value=[[${att.formattedMin()}]]"
+								/>
 							</td>
 							<td>
 								<input type="text" inputmode="numeric" class="form-control"
 									th:name="${'filter['+att.attributeId()+']'}"
-									th:value="${att.limit()}" >
+									th:value="${att.limit()}"
+									th:id="${'filter_'+att.attributeId()}" >
 							</td>
 							
 							<td>
-								<span th:text="${att.max()}"  th:style="${att.highIsGood()?'color : green;' : 'color : red;'}"></span>
+								<input type="button"
+									th:value="${att.formattedMax()}"
+									th:style="${att.highIsGood()?'color : green;' : 'color : red;'}"
+									th:onclick="document.getElementById('filter_[[${att.attributeId()}]]').value=[[${att.formattedMax()}]]"
+								/>
 							</td>
 						</tr>
 					</tbody>
