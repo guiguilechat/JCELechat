@@ -12,7 +12,7 @@
 	<div class="d-flex">
 		<div class="sidebar d-flex flex-column flex-shrink-0">
 			<a th:href="${@mutationHTMLController.productsUrl()}">&lt;list products</a>
-			<h5>Base attributes</h5>
+			<h5>Base type attributes</h5>
 			<nav th:each="sourceType : ${@mutaMappingService.sourcesFor(type.id)}">
 				<a
 					th:href="${@mutationHTMLController.productUrl(type.id, sourceType.id)}"
@@ -24,21 +24,21 @@
 			<h1 th:text="${'Mutating for '+type.name+' ('+type.id+')'}"/>
 		</div>
 		<div class="col" th:if="${attParams != null}">
-			<form method="get" action="">
+			<form method="get" action="" class="border">
 				<table class="table table-striped w-auto">
 					<thead>
 						<tr>
-							<th>attribute</th>
-							<th>min</th>
-							<th>required</th>
-							<th>max</th>
+							<th>Attribute</th>
+							<th>Min</th>
+							<th>Required</th>
+							<th>Max</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr th:each="att : ${attParams}">
-							<td th:text="${att.attributeName()+' ('+att.attributeId()+')'}"></td>
+							<td  class="form-control" th:text="${att.attributeName()+' ('+att.attributeId()+')'}"></td>
 							<td>
-								<input type="button"
+								<input type="button" class="form-control input-sm"
 									th:value="${att.formattedMin()}"
 									th:style="${att.highIsGood()?'color : red;' : 'color : green;'}"
 									th:onclick="document.getElementById('filter_[[${att.attributeId()}]]').value=[[${att.formattedMin()}]]"
@@ -52,7 +52,7 @@
 							</td>
 							
 							<td>
-								<input type="button"
+								<input type="button" class="form-control input-sm"
 									th:value="${att.formattedMax()}"
 									th:style="${att.highIsGood()?'color : green;' : 'color : red;'}"
 									th:onclick="document.getElementById('filter_[[${att.attributeId()}]]').value=[[${att.formattedMax()}]]"
@@ -66,14 +66,14 @@
 		</div>
 		<div class="col overflow-auto" style="height: 70vh;"
 			th:if="${evaluations != null && !evaluations.isEmpty()}" >
-		<table class="table table-striped table-hover w-auto">
+		<table class="table table-striped table-hover w-auto border">
 			<thead>
 				<tr>
-					<th>base type</th>
-					<th>mutaplasmid</th>
-					<th>average product cost</th>
-					<th>roll cost</th>
-					<th>success chance</th>
+					<th>Base type</th>
+					<th>Mutaplasmid</th>
+					<th>Average product cost</th>
+					<th>Roll cost</th>
+					<th>Success % chance</th>
 				</tr>
 			</thead>
 			<tbody>
