@@ -226,6 +226,10 @@ public class MarketHtmlController {
 		return uri(type.getId(), me, te, copy);
 	}
 
+	public String typeUrl(int typeId, int me, int te, boolean copy) {
+		return uri(typeId, me, te, copy).toString();
+	}
+
 	public static record LinkedMarketType(String name, String url) {
 	}
 

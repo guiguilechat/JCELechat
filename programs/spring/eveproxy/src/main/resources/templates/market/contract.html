@@ -30,7 +30,7 @@
 				<li th:each=" item : ${items}" th:if="${item.included}">
 					<a 
 						th:text="${item}"
-						th:href="${@typeHTMLController.typeUrl(item.type)}">
+						th:href="${@marketHtmlController.typeUrl(item.type.id, item.materialEfficiency, item.timeEfficiency, item.blueprintCopy)}">
 					</a>
 				</li>
 			</ul>
