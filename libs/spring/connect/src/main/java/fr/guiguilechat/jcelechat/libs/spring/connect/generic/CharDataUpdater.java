@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
+package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import java.util.Map;
 import java.util.Set;
@@ -9,11 +9,12 @@ import org.springframework.context.annotation.Lazy;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -23,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
  * service to manage Character data that needs to be connected. For example, its
  * wallet. Since it needs to be connected it also has optional scopes that the
  * {@link EsiUser} must have to be allowed to fetch it.
- * 
+ *
  * @param <Entity>     Char data representation
  * @param <Fetched>    Remote resource type
  * @param <Repository> jpa repository to store the char data.
@@ -31,11 +32,12 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 @Getter
-public abstract class AConnectedCharDataService<
-			Entity extends RemoteEntity<Integer, Fetched>,
-			Fetched,
-			Repository extends RemoteEntityRepository<Entity, Integer>>
-    extends RemoteEntityService<Entity, Integer, Fetched, Repository>
+public abstract class CharDataUpdater<
+		Entity extends RemoteEntity<Integer, Fetched>,
+		Fetched,
+		Repository extends RemoteEntityRepository<Entity, Integer>,
+		Service extends RemoteEntityService<Entity, Integer, Repository>>
+	extends RemoteEntityUpdater<Entity, Integer, Fetched, Repository, Service>
     implements EsiUserListener {
 
 	@Autowired

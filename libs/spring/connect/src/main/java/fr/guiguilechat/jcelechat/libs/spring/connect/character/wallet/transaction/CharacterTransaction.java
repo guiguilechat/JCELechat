@@ -1,10 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.transaction;
 
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction.CharacterTransactionList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import jakarta.persistence.Entity;
@@ -27,19 +25,6 @@ import lombok.ToString;
 @ToString
 public class CharacterTransaction extends
 		AFetchedListElementAutoId<CharacterTransaction, CharacterTransactionList> {
-
-	@Entity(name = "EsiConnectCharacterTransactionList")
-	@Table(name = "esi_connect_charactertransactionlist", indexes = {
-			@Index(columnList = "fetch_active,fetch_priority,expires")
-	})
-	@NoArgsConstructor
-	@Getter
-	@Setter
-	@ToString
-	public static class CharacterTransactionList
-	    extends AFetchedList<Integer, R_get_characters_character_id_wallet_transactions, CharacterTransaction> {
-
-	}
 
 	/**
 	 * is_buy boolean

@@ -11,6 +11,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityUpdater;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -24,12 +25,13 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class AResourceBatchFetcher<
+public abstract class AResourceBatchUpdater<
 		Entity extends FetchedEntity<Id>,
-    Id extends Number,
-    Fetched,
-    Repository extends FetchedEntityRepository<Entity, Id>>
-    extends FetchedEntityService<Entity, Id, Repository> {
+		Id extends Number,
+		Fetched,
+		Repository extends FetchedEntityRepository<Entity, Id>,
+		Service extends FetchedEntityService<Entity, Id, Repository>>
+		extends FetchedEntityUpdater<Entity, Id, Repository, Service> {
 
 	@Override
 	public long nbToUpdate() {
@@ -65,7 +67,7 @@ public abstract class AResourceBatchFetcher<
 		if (resp != null) {
 			processResponse(resp);
 			switch (resp.getResponseCode()) {
-			case 200:
+			case 200 -> {
 				List<Fetched> fetched = resp.getOK();
 				updateFromFetched(fetched);
 				lastListEtag = resp.getETag();
@@ -76,14 +78,12 @@ public abstract class AResourceBatchFetcher<
 				    fetched.size(),
 				    endTimeMs - startTimeMs);
 				updated = true;
-				break;
-			case 304:
-				nextUpdate = resp.getExpiresInstant();
-				break;
-			default:
-				log.warn("update {} received invalid response {} when requesting list of entities",
-				    getClass().getSimpleName(), resp);
 			}
+			case 304 -> nextUpdate = resp.getExpiresInstant();
+			default -> log.warn("update {} received invalid response {} when requesting list of entities",
+			    getClass().getSimpleName(), resp);
+			}
+
 		} else {
 			log.warn("update {} received null list of entities",
 			    fetcherName());

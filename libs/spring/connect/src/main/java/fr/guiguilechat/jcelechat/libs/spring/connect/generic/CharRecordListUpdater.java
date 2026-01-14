@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
+package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import java.util.List;
 import java.util.Map;
@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
@@ -28,13 +29,14 @@ import lombok.experimental.Accessors;
  */
 @NoArgsConstructor
 @Getter
-public abstract class ACharDataRecordListService<
+public abstract class CharRecordListUpdater<
     	Entity extends AFetchedList<Integer, Fetched, ListRecord>,
     	Fetched,
     	Repository extends RemoteEntityRepository<Entity, Integer>,
+		Service extends RemoteEntityService<Entity, Integer, Repository>,
 		ListRecord extends AFetchedListElementAutoId<?, Entity>,
 		RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
-    extends AConnectedCharDataService<Entity, Fetched[], Repository> {
+		extends CharDataUpdater<Entity, Fetched[], Repository, Service> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -63,11 +65,5 @@ public abstract class ACharDataRecordListService<
 	}
 
 	protected abstract ListRecord transformRecord(Fetched f);
-
-	// service use
-
-	public List<ListRecord> list(int Id) {
-		return recordRepo().findAllByFetchResourceId(Id);
-	}
 
 }

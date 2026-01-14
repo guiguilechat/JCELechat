@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
+package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;

@@ -1,8 +1,7 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.journal;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
 
 public interface CharacterJournalRepository

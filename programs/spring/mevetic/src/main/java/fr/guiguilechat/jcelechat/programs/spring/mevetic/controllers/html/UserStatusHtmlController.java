@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
@@ -22,13 +22,13 @@ import fr.guiguilechat.jcelechat.libs.spring.connect.character.assets.CharacterA
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContact;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.CharacterContactService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRoles;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRolesService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournalService;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransaction;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterTransactionService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.informations.CharacterRolesUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.journal.CharacterJournal;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.journal.CharacterJournalService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.transaction.CharacterTransaction;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.transaction.CharacterTransactionService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
 import lombok.RequiredArgsConstructor;
@@ -39,7 +39,7 @@ import lombok.RequiredArgsConstructor;
 public class UserStatusHtmlController {
 
 	@Lazy
-	private final CharacterAffiliationService characterAffiliationService;
+	private final CharacterAffiliationUpdater characterAffiliationService;
 
 	@Lazy
 	private final CharacterAssetService characterAssetService;
@@ -54,10 +54,10 @@ public class UserStatusHtmlController {
 	private final CharacterJournalService characterJournalService;
 
 	@Lazy
-	private final CharacterRolesService characterRolesService;
+	private final CharacterRolesUpdater characterRolesService;
 
 	@Lazy
-	private final CharacterStandingService characterStandingService;
+	private final CharacterStandingUpdater characterStandingService;
 
 	@Lazy
 	private final CharacterTransactionService characterTransactionService;

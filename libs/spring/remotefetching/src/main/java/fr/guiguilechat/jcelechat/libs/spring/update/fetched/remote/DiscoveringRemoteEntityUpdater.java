@@ -17,8 +17,8 @@ import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * A {@link RemoteEntityService} that also allows to list the existing ids prior
- * to updating them ( with {@link #listRemoteIds(Map)})
+ * A {@link RemoteEntityService} that also allows to discover the existing ids
+ * prior to updating them ( with {@link #discoverRemoteIds(Map)})
  *
  * @param <Entity>
  * @param <IdType>
@@ -26,21 +26,22 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class ListingRemoteEntityService <
+public abstract class DiscoveringRemoteEntityUpdater <
 		Entity extends RemoteEntity<IdType, Fetched>,
 		IdType extends Number,
 		Fetched,
-		Repository extends RemoteEntityRepository<Entity, IdType>>
-	extends RemoteEntityService<Entity, IdType, Fetched, Repository> {
+		Repository extends RemoteEntityRepository<Entity, IdType>,
+		Service extends RemoteEntityService<Entity, IdType, Repository>>
+	extends RemoteEntityUpdater<Entity, IdType, Fetched, Repository, Service> {
 
 	/**
-	 * list the remote ids that need to be managed. They will then be created
+	 * discover the remote ids that need to be managed. They will then be created
 	 * locally and scheduled for update
 	 *
 	 * @param params parameters to be sent (typically the etag header)
 	 * @return the result of requesting the list of ids
 	 */
-	protected abstract Requested<List<IdType>> listRemoteIds(Map<String, String> params);
+	protected abstract Requested<List<IdType>> discoverRemoteIds(Map<String, String> params);
 
 	@Override
 	protected Map<String, Object> propertiesMap() {
@@ -104,25 +105,26 @@ public abstract class ListingRemoteEntityService <
 			if (lastListEtag != null) {
 				properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
 			}
-			Requested<List<IdType>> resp = listRemoteIds(properties);
+			Requested<List<IdType>> resp = discoverRemoteIds(properties);
 			if (resp != null) {
 				processResponse(resp);
+				listExpires = resp.getExpiresInstant();
 				switch (resp.getResponseCode()) {
-				case 200:
+				case 200: {
 					long postFetch = System.currentTimeMillis();
 					log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(),
 							(postFetch - startms) / 1000);
 					onNewListFetched(insertIfAbsent(resp.getOK()));
 					lastListEtag = resp.getETag();
 					listExpires = resp.getExpiresInstant();
-					break;
-				case 304:
+				}
+				case 304: {
 					listExpires = resp.getExpiresInstant();
 					log.trace(" {} received no list change", fetcherName());
-					break;
+				}
 				default:
 					log.warn("update service {} received invalid response {} when requesting list of entities",
-							getClass().getSimpleName(), resp);
+						getClass().getSimpleName(), resp);
 				}
 			} else {
 				log.warn("update service {} received null list of entities",

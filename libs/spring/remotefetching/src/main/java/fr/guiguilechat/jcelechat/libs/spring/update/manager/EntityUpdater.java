@@ -2,10 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.update.manager;
 
 import java.time.Instant;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -20,15 +17,7 @@ import lombok.Setter;
 /**
  * General interface for service which update local entities.
  */
-public interface EntityUpdater {
-
-	/**
-	 * @return actual class name. Used to avoid proxy name when called from outside
-	 *           service
-	 */
-	default String fetcherName() {
-		return getClass().getSimpleName();
-	}
+public interface EntityUpdater extends EntityService {
 
 	/** access the prefix to set its properties at launch. Used to debug config */
 	default String propertiesPrefix() {
@@ -176,37 +165,6 @@ public interface EntityUpdater {
 			}
 		}
 		return now.plusSeconds(delay);
-	}
-
-	/**
-	 * TODO use actual implementation : 1000 for oracle, Integer.maxInt for others
-	 *
-	 * @return maximum elements we can add in a list query param.
-	 */
-	default int maxInList() {
-		return 1000;
-	}
-
-	default <T> Stream<List<T>> partitionInList(List<T> elements) {
-		return partition(elements, maxInList());
-	}
-
-	/**
-	 * partition a list of items into a list of limited-size sublists
-	 *
-	 * @param <T>
-	 * @param elements
-	 * @return
-	 */
-	static <T> Stream<List<T>> partition(List<T> elements, int maxSize) {
-		if (elements == null) {
-			return Stream.of();
-		}
-		if (maxSize >= elements.size()) {
-			return Stream.of(elements);
-		}
-		return IntStream.iterate(0, i -> i < elements.size(), i -> i + maxSize)
-		    .mapToObj(i -> elements.subList(i, Math.min(elements.size(), i + maxSize)));
 	}
 
 

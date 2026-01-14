@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionService.MarketRegionListener;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

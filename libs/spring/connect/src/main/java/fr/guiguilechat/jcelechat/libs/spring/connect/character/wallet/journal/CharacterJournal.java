@@ -1,10 +1,8 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
+package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.journal;
 
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.CharacterJournal.CharacterJournalList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
@@ -31,19 +29,6 @@ import lombok.ToString;
 @ToString
 public class CharacterJournal extends
 		AFetchedListElementAutoId<CharacterJournal, CharacterJournalList> {
-
-	@Entity(name = "EsiConnectCharacterJournalList")
-	@Table(name = "esi_connect_characterjournallist", indexes = {
-			@Index(columnList = "fetch_active,fetch_priority,expires")
-	})
-	@NoArgsConstructor
-	@Getter
-	@Setter
-	@ToString
-	public static class CharacterJournalList
-	    extends AFetchedList<Integer, M_get_journal_13, CharacterJournal> {
-
-	}
 
 	/**
 	 * The amount of ISK given or taken from the wallet as a result of the given

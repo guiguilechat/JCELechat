@@ -20,15 +20,16 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformation;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterInformationUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts.C2CStandingsService;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding;
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingList;
 import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingService;
+import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStandingUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
 import lombok.RequiredArgsConstructor;
@@ -42,10 +43,13 @@ public class StandingsHtmlController {
 	private final C2CStandingsService c2cStandingsService;
 
 	@Lazy
-	private final CharacterInformationService characterInformationService;
+	private final CharacterInformationUpdater characterInformationService;
 
 	@Lazy
 	private final CharacterStandingService characterStandingService;
+
+	@Lazy
+	private final CharacterStandingUpdater characterStandingUpdater;
 
 	@Lazy
 	private final CorporationInfoService corporationService;
@@ -95,7 +99,7 @@ public class StandingsHtmlController {
 	protected void addNPCStandings(Model model, int charId) {
 		CharacterInformation CharInfo = characterInformationService.createFetch(charId);
 		model.addAttribute("charName", CharInfo.getName());
-		CharacterStandingList charFetch = characterStandingService.createFetch(charId);
+		CharacterStandingList charFetch = characterStandingUpdater.createFetch(charId);
 		List<CharacterStanding> userStandings = characterStandingService
 		    .list(charId);
 		if (userStandings != null) {

@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliation;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character.CharacterAffiliationUpdater;
 import lombok.RequiredArgsConstructor;
 
 /**
@@ -22,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 public class C2CStandingsService {
 
 	@Lazy
-	private final CharacterAffiliationService characterAffiliationService;
+	private final CharacterAffiliationUpdater characterAffiliationUpdater;
 
 	@Lazy
 	private final CharacterContactService characterContactService;
@@ -52,7 +52,7 @@ public class C2CStandingsService {
 	 *           if no standing affected.
 	 */
 	public float effectiveStanding(int characterFromId, int characterToId) {
-		CharacterAffiliation ca = characterAffiliationService.createFetch(characterToId);
+		CharacterAffiliation ca = characterAffiliationUpdater.createFetch(characterToId);
 		if (characterFromId == characterToId) {
 			return 100.0f;
 		}
@@ -84,7 +84,7 @@ public class C2CStandingsService {
 	}
 
 	public Map<Integer, Float> effectiveStandings(int characterToId) {
-		CharacterAffiliation ca = characterAffiliationService.createFetch(characterToId);
+		CharacterAffiliation ca = characterAffiliationUpdater.createFetch(characterToId);
 		List<Integer> toIds = new ArrayList<>();
 		toIds.add(characterToId);
 		if (ca != null) {

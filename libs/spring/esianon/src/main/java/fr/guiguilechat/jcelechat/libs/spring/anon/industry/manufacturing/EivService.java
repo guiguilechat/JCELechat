@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceService.PriceListener;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceUpdater.PriceListener;
 import fr.guiguilechat.jcelechat.libs.spring.sde.industry.blueprint.activity.material.BlueprintMaterialService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

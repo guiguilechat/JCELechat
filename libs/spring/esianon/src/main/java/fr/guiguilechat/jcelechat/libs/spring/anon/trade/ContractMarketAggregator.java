@@ -16,11 +16,11 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeNonBp;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService.ContractItemsListener;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionService.MarketRegionListener;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import jakarta.transaction.Transactional;

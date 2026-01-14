@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
 
-import fr.guiguilechat.jcelechat.libs.spring.connect.character.standings.CharacterStanding.CharacterStandingList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_standings_from_type;
@@ -25,18 +23,6 @@ import lombok.Setter;
 @Setter
 public class CharacterStanding extends
 		AFetchedListElementAutoId<CharacterStanding, CharacterStandingList> {
-
-	@Entity(name = "EsiConnectCharacterStandingList")
-	@Table(name = "esi_connect_characterstandinglist", indexes = {
-			@Index(columnList = "fetch_active,fetch_priority,expires")
-	})
-	@NoArgsConstructor
-	@Getter
-	@Setter
-	public static class CharacterStandingList
-	    extends AFetchedList<Integer, M_get_standings_3, CharacterStanding> {
-
-	}
 
 	private int fromId;
 

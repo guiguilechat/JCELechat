@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryReqService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryReqUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdateService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdater;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
@@ -25,11 +25,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ExecRestController {
 
-	private final ContractInfoService contractInfoService;
+	private final ContractInfoUpdater contractInfoUpdater;
 
 	private final GameClientUpdateService gameClientUpdateService;
 
-	private final HistoryReqService historyReqService;
+	private final HistoryReqUpdater historyReqUpdater;
 
 	private final SdeUpdater sdeUpdater;
 
@@ -68,7 +68,7 @@ public class ExecRestController {
 	})
 	@GetMapping("/contract/reanalyze")
 	public ResponseEntity<?> analizeContracts() {
-		contractInfoService.requestAnalize();
+		contractInfoUpdater.requestAnalize();
 		return ResponseEntity.ok("");
 	}
 
@@ -79,7 +79,7 @@ public class ExecRestController {
 	@GetMapping("/history/deduplicate")
 	public ResponseEntity<?> deduplicateHistory(boolean deduplicate) {
 		log.info("history deduplicate set to " + deduplicate);
-		historyReqService.setDeduplicate(deduplicate);
+		historyReqUpdater.setDeduplicate(deduplicate);
 		return ResponseEntity.ok("");
 	}
 

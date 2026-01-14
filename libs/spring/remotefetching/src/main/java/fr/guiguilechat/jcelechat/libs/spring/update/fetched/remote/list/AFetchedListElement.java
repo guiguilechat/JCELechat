@@ -16,7 +16,9 @@ import lombok.experimental.SuperBuilder;
 @MappedSuperclass
 @NoArgsConstructor
 @Setter
-public abstract class AFetchedListElement<Self extends AFetchedListElement<?, ?>, FetchResource extends AFetchedList<?, ?, Self>> {
+public abstract class AFetchedListElement<
+	Self extends AFetchedListElement<?, ?>,
+	FetchResource extends AFetchedList<?, ?, Self>> {
 
 	@ManyToOne
 	private FetchResource fetchResource;

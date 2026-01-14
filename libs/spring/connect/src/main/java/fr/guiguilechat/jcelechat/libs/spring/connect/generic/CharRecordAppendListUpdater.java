@@ -1,8 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.connect.templates;
+package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
@@ -10,13 +11,14 @@ import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetched
 /**
  * Only append the new entries instead of deleting the old ones.
  */
-public abstract class AAppendCharDataRecordListService <
-    Entity extends AFetchedList<Integer, Fetched, ListRecord>,
-	Fetched,
-    Repository extends RemoteEntityRepository<Entity, Integer>,
-		ListRecord extends AFetchedListElementAutoId<?, Entity>,
-		RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
-extends ACharDataRecordListService<Entity, Fetched, Repository, ListRecord, RecordRepo> {
+public abstract class CharRecordAppendListUpdater <
+		    Entity extends AFetchedList<Integer, Fetched, ListRecord>,
+			Fetched,
+		    Repository extends RemoteEntityRepository<Entity, Integer>,
+			Service extends RemoteEntityService<Entity, Integer, Repository>,
+			ListRecord extends AFetchedListElementAutoId<?, Entity>,
+			RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
+	extends CharRecordListUpdater<Entity, Fetched, Repository, Service, ListRecord, RecordRepo> {
 
 	@Override
 	protected void updateResponseOk(Entity data, Fetched[] arr) {
