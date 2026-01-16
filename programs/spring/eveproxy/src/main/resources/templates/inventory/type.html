@@ -38,7 +38,6 @@
 			</div>
 		</div>
 		<div class="row border">
-			<h2>Informations</h2>
 			<div class="col">
 				<h3>Prices</h3>
 				<span th:if="${marketUrl!=null}"> <a th:href="${marketUrl}">type
@@ -214,13 +213,12 @@
 			</div>
 		</div>
 
-		<div class="row border"
-			th:if="${variations !=null}">
+		<div class="row border">
 			<h2>Variations</h2>
 			<div class="col">
 				<ul>
-					<li th:each="variation : ${variations}">
-						<a th:href="${variation.url}"
+					<li th:each="variation : ${@typeService.variations(type)}">
+						<a th:href="${@typeHTMLController.typeUrl(variation)}"
 							th:text="${variation.name}"> type </a>
 					</li>
 				</ul>
@@ -231,7 +229,6 @@
 			th:if="${seeded !=null && !seeded.isEmpty()
 						|| productOf !=null && !productOf.isEmpty()
 						|| offers !=null && !offers.isEmpty()}">
-			<h2>Source</h2>
 			<div class="col" th:if="${seeded !=null && !seeded.isEmpty()}">
 				<h3>NPC seed</h3>
 
@@ -258,7 +255,7 @@
 			</div>
 
 			<div class="col" th:if="${productOf !=null && !productOf.isEmpty()}">
-				<h3>Product of</h3>
+				<h3>Produced by</h3>
 				<table class="table table-striped table-hover">
 					<thead>
 						<tr>
@@ -274,15 +271,14 @@
 								th:text="${product.type.name}"> type </a></td>
 							<td><span th:text="${product.activity}"> activity </span></td>
 							<td><span th:text="${product.quantity}"> quantity </span></td>
-							<th><span th:text="${product.probability}">
-									probability </span></th>
+							<td><span th:text="${product.probability}"></span></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 
 			<div class="col" th:if="${offers !=null && !offers.isEmpty()}">
-				<h3>Loyalty</h3>
+				<h3>Loyalty Offers</h3>
 
 				<table class="table table-striped table-hover">
 					<thead>

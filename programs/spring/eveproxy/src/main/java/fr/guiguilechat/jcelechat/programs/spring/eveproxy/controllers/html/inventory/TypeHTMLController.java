@@ -106,6 +106,7 @@ public class TypeHTMLController {
 		if (t == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
 		}
+		model.addAttribute("type", t);
 		model.addAttribute("name", t.name());
 		if (killStatsService.hasTypeStats(typeId)) {
 			model.addAttribute("killsUrl", merKillsRestController.chartUri(

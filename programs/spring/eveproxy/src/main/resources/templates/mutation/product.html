@@ -78,8 +78,17 @@
 			</thead>
 			<tbody>
 				<tr th:each="evaluation : ${evaluations}">
-					<td th:text="${evaluation.type()}"/>
-					<td th:text="${evaluation.muta()}"/>
+					<td><a
+							th:href="${@typeHTMLController.typeUrl(evaluation.mutation.sourceType())}"
+							th:text="${evaluation.type()}"/>
+					</td>
+					<td>
+						<a
+							th:if="${evaluation.mutation.mutaplasmid()!=null}"
+							th:href="${@typeHTMLController.typeUrl(evaluation.mutation.mutaplasmid())}"
+							th:text="${evaluation.muta()}">							
+						</a>
+					</td>
 					<td th:text="${evaluation.formatUnitCost()}"/>
 					<td th:text="${evaluation.formatRollCost()}"/>
 					<td th:text="${evaluation.formatChance()}"/>
