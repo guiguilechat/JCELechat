@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -18,8 +14,36 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.*;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrCore;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrCore2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrCore3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariCore;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariCore2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariCore3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteCore;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteCore2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteCore3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarCore;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarCore2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarCore3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemEnergyNeutFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class CoreSubsystem
     extends Subsystem

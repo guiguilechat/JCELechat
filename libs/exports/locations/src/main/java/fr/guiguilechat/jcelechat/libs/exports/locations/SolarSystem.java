@@ -37,7 +37,7 @@ public class SolarSystem extends ALocation {
 					SolarSystem.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
 				cache = new Yaml(LOADEROPTIONS).loadAs(reader, Container.class).locations;
 			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
+				throw new UnsupportedOperationException(exception);
 			}
 		}
 		return cache;

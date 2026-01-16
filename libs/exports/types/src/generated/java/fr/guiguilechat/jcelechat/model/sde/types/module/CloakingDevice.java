@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -18,8 +14,43 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.*;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType12;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingTargetingDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertCloakCPUAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StabilizeCloakDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class CloakingDevice
     extends Module

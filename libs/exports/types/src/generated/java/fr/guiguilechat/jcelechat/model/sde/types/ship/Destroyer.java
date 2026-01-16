@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -18,8 +14,156 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.*;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AffectedByIndustrialInvulnModule;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AllowedInCapIndustrialMaintenanceBay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GeneralMiningHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntegratedMiningScanner;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpConduitPassenger;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsBlackOpsJumpPortalPassenger;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsIndustrialJumpConduitPassenger;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsIndustrialJumpPortalPassenger;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxDirectionalScanRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxDirectionalVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxPassengers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MinTargetVelDmgMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreExecutiveRoleBonusSalvageDroneAdditionalAccessDifficulty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RookieDroneBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusABC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAD1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCD1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGD1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGasCloudDurationRoleBonusOreMiningDestroyer;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMD1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerAmarr7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerCaldari5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerGallente5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusNavyDestroyerMinmatar5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreDestroyer1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreDestroyer2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreDestroyer3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusOreDestroyer4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPD1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPD2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole8;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipMiningBonusYieldOreDestroyerRoleBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusPerseveranceIceMiningCriticalHitChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipRoleBonusWarpSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipScanResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class Destroyer
     extends Ship
@@ -558,6 +702,13 @@ public class Destroyer
     @DefaultIntValue(0)
     public int shiprolebonusoreexecutiveissueminingcriticalhitchance;
     /**
+     * Role Bonus for Perseverance Ice Mining Critical Hit Role bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shiprolebonusperseveranceiceminingcriticalhitchance;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -599,7 +750,7 @@ public class Destroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradeslotsleft;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, ShipBonusGasCloudDurationRoleBonusOreMiningDestroyer.INSTANCE, SensorDampenerResistance.INSTANCE, ShipBonusOreDestroyer4 .INSTANCE, WeaponDisruptionResistance.INSTANCE, OreExecutiveRoleBonusSalvageDroneAdditionalAccessDifficulty.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, IntegratedMiningScanner.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipMiningBonusYieldOreDestroyerRoleBonus.INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ShipBonusOreDestroyer1 .INSTANCE, CargoScanResistance.INSTANCE, ShipBonusOreDestroyer2 .INSTANCE, ShipBonusOreDestroyer3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole2 .INSTANCE, IsIndustrialJumpConduitPassenger.INSTANCE, IsIndustrialJumpPortalPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE, ShipBonusRole6 .INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, GeneralMiningHoldCapacity.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, RookieDroneBonus.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, ShipBonusGasCloudDurationRoleBonusOreMiningDestroyer.INSTANCE, SensorDampenerResistance.INSTANCE, ShipBonusOreDestroyer4 .INSTANCE, WeaponDisruptionResistance.INSTANCE, OreExecutiveRoleBonusSalvageDroneAdditionalAccessDifficulty.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, IntegratedMiningScanner.INSTANCE, MaxRangeBonus.INSTANCE, ShipBonusAD1 .INSTANCE, ShipBonusAD2 .INSTANCE, ShipBonusABC2 .INSTANCE, ShipMiningBonusYieldOreDestroyerRoleBonus.INSTANCE, ShipBonusNavyDestroyerAmarr1 .INSTANCE, AllowedInCapIndustrialMaintenanceBay.INSTANCE, ShipBonusNavyDestroyerAmarr2 .INSTANCE, ShipBonusNavyDestroyerAmarr3 .INSTANCE, ShipBonusNavyDestroyerAmarr4 .INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr5 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusNavyDestroyerAmarr6 .INSTANCE, ShipBonusNavyDestroyerAmarr7 .INSTANCE, ShipBonusNavyDestroyerCaldari1 .INSTANCE, ShipBonusNavyDestroyerCaldari5 .INSTANCE, ShipBonusNavyDestroyerCaldari4 .INSTANCE, UpgradeCapacity.INSTANCE, ShipBonusNavyDestroyerCaldari2 .INSTANCE, ShipBonusNavyDestroyerCaldari3 .INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente5 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente2 .INSTANCE, RigSlots.INSTANCE, ShipBonusNavyDestroyerGallente3 .INSTANCE, EmDamageResonance.INSTANCE, ShipBonusNavyDestroyerGallente4 .INSTANCE, ShipBonusNavyDestroyerMinmatar1 .INSTANCE, ShipBonusNavyDestroyerMinmatar2 .INSTANCE, ShipBonusNavyDestroyerMinmatar3 .INSTANCE, ShipBonusNavyDestroyerMinmatar4 .INSTANCE, ShipBonusNavyDestroyerMinmatar5 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, AffectedByIndustrialInvulnModule.INSTANCE, ShipRoleBonusOREExecutiveIssueMiningCriticalHitChance.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, ShipRoleBonusPerseveranceIceMiningCriticalHitChance.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ShipBonusOreDestroyer1 .INSTANCE, CargoScanResistance.INSTANCE, ShipBonusOreDestroyer2 .INSTANCE, ShipBonusOreDestroyer3 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShipBonusMD1 .INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusCD1 .INSTANCE, ShipBonusCD2 .INSTANCE, ShieldRechargeRate.INSTANCE, ShipBonusGD1 .INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusGD2 .INSTANCE, ShipBonusMD2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, ShipBonusPD1 .INSTANCE, ShipBonusPD2 .INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole2 .INSTANCE, IsIndustrialJumpConduitPassenger.INSTANCE, IsIndustrialJumpPortalPassenger.INSTANCE, EnergyWarfareResistance.INSTANCE, ShipScanResistance.INSTANCE, ShipBonusRole6 .INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Destroyer.MetaGroup METAGROUP = new Destroyer.MetaGroup();
 
     @Override
@@ -916,6 +1067,10 @@ public class Destroyer
             case  6048 :
             {
                 return shiprolebonusoreexecutiveissueminingcriticalhitchance;
+            }
+            case  6062 :
+            {
+                return shiprolebonusperseveranceiceminingcriticalhitchance;
             }
             case  2789 :
             {

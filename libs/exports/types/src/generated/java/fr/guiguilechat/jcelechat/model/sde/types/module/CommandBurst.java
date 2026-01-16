@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -18,8 +14,51 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.*;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup08;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup09;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup11;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CommandBurstDbuffEffectStrengthFAKE;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateInForcefield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareLinkCPUAdd;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class CommandBurst
     extends Module
@@ -108,6 +147,20 @@ public class CommandBurst
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup11;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshiptype2;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -283,7 +336,7 @@ public class CommandBurst
     @Stackable(true)
     @DefaultIntValue(0)
     public int warfarelinkcpuadd;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup09 .INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipGroup06 .INSTANCE, RequiredSkill3Level.INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, WarfareLinkCPUAdd.INSTANCE, ChargeGroup1 .INSTANCE, CanFitShipGroup10 .INSTANCE, Power.INSTANCE, WarfareBuff1Value.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, WarfareBuff2Value.INSTANCE, BuffDuration.INSTANCE, WarfareBuff3Value.INSTANCE, WarfareBuff4Value.INSTANCE, CanFitShipGroup11 .INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, CommandBurstDbuffEffectStrengthFAKE.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, ReloadTime.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup09 .INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup06 .INSTANCE, RequiredSkill3Level.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, WarfareLinkCPUAdd.INSTANCE, ChargeGroup1 .INSTANCE, CanFitShipGroup10 .INSTANCE, Power.INSTANCE, WarfareBuff1Value.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, WarfareBuff2Value.INSTANCE, BuffDuration.INSTANCE, WarfareBuff3Value.INSTANCE, WarfareBuff4Value.INSTANCE, CanFitShipGroup11 .INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, CommandBurstDbuffEffectStrengthFAKE.INSTANCE })));
     public static final CommandBurst.MetaGroup METAGROUP = new CommandBurst.MetaGroup();
 
     @Override
@@ -336,6 +389,14 @@ public class CommandBurst
             case  2476 :
             {
                 return canfitshipgroup11;
+            }
+            case  1302 :
+            {
+                return canfitshiptype1;
+            }
+            case  1303 :
+            {
+                return canfitshiptype2;
             }
             case  6 :
             {

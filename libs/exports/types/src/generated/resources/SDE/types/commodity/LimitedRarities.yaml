@@ -17,3 +17,12 @@ types:
     price: 100000.0
     published: true
     volume: 0.1
+  91105:
+    id: 91105
+    marketGroup: 3737
+    mass: 0.1
+    name: Nation Stormhive Shard
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.1

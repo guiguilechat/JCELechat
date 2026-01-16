@@ -138,7 +138,7 @@ types:
     volume: 400000.0
   46381:
     id: 46381
-    marketGroup: 1661
+    marketGroup: 3835
     name: Agency Support Drop
     portionSize: 1
     published: true
@@ -180,14 +180,14 @@ types:
     volume: 400000.0
   46771:
     id: 46771
-    marketGroup: 1661
+    marketGroup: 3835
     name: Arms Race Battlecruiser Assembler
     portionSize: 1
     published: true
     volume: 15000.0
   46772:
     id: 46772
-    marketGroup: 1661
+    marketGroup: 3835
     name: Arms Race Battleship Assembler
     portionSize: 1
     published: true

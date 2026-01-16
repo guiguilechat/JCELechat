@@ -5,7 +5,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -21,7 +20,21 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.types.deployable.*;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.EncounterSurveillanceSystem;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWListeningOutpost;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.FWPropagandaBroadcastStructure;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MercenaryDen;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileAnalysisBeacon;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynoInhibitor;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileCynosuralBeacon;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileDepot;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileMicroJumpUnit;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileObservatory;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobilePhaseAnchor;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileScanInhibitor;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileSiphonUnit;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileTractorUnit;
+import fr.guiguilechat.jcelechat.model.sde.types.deployable.MobileWarpDisruptor;
 
 public abstract class Deployable
     extends EveType

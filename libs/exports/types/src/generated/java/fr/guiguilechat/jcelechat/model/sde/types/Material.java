@@ -4,12 +4,26 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Set;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.types.material.*;
+import fr.guiguilechat.jcelechat.model.sde.types.material.AbyssalMaterials;
+import fr.guiguilechat.jcelechat.model.sde.types.material.AncientSalvage;
+import fr.guiguilechat.jcelechat.model.sde.types.material.BiochemicalMaterial;
+import fr.guiguilechat.jcelechat.model.sde.types.material.Composite;
+import fr.guiguilechat.jcelechat.model.sde.types.material.FuelBlock;
+import fr.guiguilechat.jcelechat.model.sde.types.material.HybridPolymers;
+import fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct;
+import fr.guiguilechat.jcelechat.model.sde.types.material.IntermediateMaterials;
+import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
+import fr.guiguilechat.jcelechat.model.sde.types.material.MolecularForgedMaterials;
+import fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials;
+import fr.guiguilechat.jcelechat.model.sde.types.material.NamedComponents;
+import fr.guiguilechat.jcelechat.model.sde.types.material.Prismaticite;
+import fr.guiguilechat.jcelechat.model.sde.types.material.RogueDroneComponents;
+import fr.guiguilechat.jcelechat.model.sde.types.material.SalvagedMaterials;
+import fr.guiguilechat.jcelechat.model.sde.types.material.UnrefinedMineral;
 
 public abstract class Material
     extends EveType

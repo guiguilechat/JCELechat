@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -24,6 +20,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRemovesCategory2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRuleException;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Gender;
 import fr.guiguilechat.jcelechat.model.sde.types.Apparel;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class Outer
     extends Apparel

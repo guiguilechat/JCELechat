@@ -4049,3 +4049,33 @@ types:
     name: Venture Consortium Issue Alliance Emblem
     portionSize: 1
     published: true
+  91176:
+    id: 91176
+    name: Perseverance Alliance Emblem
+    portionSize: 1
+    published: true
+  91177:
+    id: 91177
+    name: Perseverance Corporation Emblem
+    portionSize: 1
+    published: true
+  91276:
+    id: 91276
+    name: Skua Corporation Emblem
+    portionSize: 1
+    published: true
+  91277:
+    id: 91277
+    name: Skua Alliance Emblem
+    portionSize: 1
+    published: true
+  91278:
+    id: 91278
+    name: Anhinga Corporation Emblem
+    portionSize: 1
+    published: true
+  91279:
+    id: 91279
+    name: Anhinga Alliance Emblem
+    portionSize: 1
+    published: true

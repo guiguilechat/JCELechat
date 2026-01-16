@@ -5,7 +5,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
@@ -19,7 +18,30 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
-import fr.guiguilechat.jcelechat.model.sde.types.skill.*;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Armor;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.CorporationManagement;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Drones;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.ElectronicSystems;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Engineering;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.FleetSupport;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Gunnery;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Missiles;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Navigation;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.NeuralEnhancement;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.PlanetManagement;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Production;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.ResourceProcessing;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Rigging;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Scanning;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Science;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Sequencing;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Shields;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Social;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.SpaceshipCommand;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.StructureManagement;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Subsystems;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Targeting;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Trade;
 
 public abstract class Skill
     extends EveType

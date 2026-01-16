@@ -37611,18 +37611,21 @@ types:
     volume: 0.01
   86110:
     id: 86110
+    marketGroup: 2095
     name: Ark Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86111:
     id: 86111
+    marketGroup: 1975
     name: Wyvern Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86112:
     id: 86112
+    marketGroup: 2089
     name: Crane Aurora Universalis SKIN
     portionSize: 1
     published: true
@@ -37636,18 +37639,21 @@ types:
     volume: 0.01
   86114:
     id: 86114
+    marketGroup: 1976
     name: Nyx Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86115:
     id: 86115
+    marketGroup: 2090
     name: Viator Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86116:
     id: 86116
+    marketGroup: 2097
     name: Anshar Aurora Universalis SKIN
     portionSize: 1
     published: true
@@ -37661,30 +37667,35 @@ types:
     volume: 0.01
   86118:
     id: 86118
+    marketGroup: 2091
     name: Mastodon Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86119:
     id: 86119
+    marketGroup: 2098
     name: Nomad Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86120:
     id: 86120
+    marketGroup: 2362
     name: Enforcer Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86121:
     id: 86121
+    marketGroup: 2361
     name: Pacifier Aurora Universalis SKIN
     portionSize: 1
     published: true
     volume: 0.01
   86122:
     id: 86122
+    marketGroup: 2406
     name: Marshal Aurora Universalis SKIN
     portionSize: 1
     published: true
@@ -38895,9 +38906,588 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  91162:
+    id: 91162
+    marketGroup: 3567
+    name: Odysseus One Eden SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91163:
+    id: 91163
+    marketGroup: 3567
+    name: Odysseus Sanctuary SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91164:
+    id: 91164
+    marketGroup: 3567
+    name: Odysseus Spectral Shift SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91165:
+    id: 91165
+    marketGroup: 3567
+    name: Odysseus Yoiul Festival YC121 SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91166:
+    id: 91166
+    marketGroup: 3567
+    name: Odysseus Yoiul Star SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91167:
+    id: 91167
+    marketGroup: 3567
+    name: Odysseus Crystal Blast SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91168:
+    id: 91168
+    marketGroup: 3567
+    name: Odysseus Deathglow Remnant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91169:
+    id: 91169
+    marketGroup: 3567
+    name: Odysseus Arkombine Arisen SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91170:
+    id: 91170
+    marketGroup: 3567
+    name: Odysseus Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91171:
+    id: 91171
+    marketGroup: 3567
+    name: Odysseus SOE Gold Cell SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91172:
+    id: 91172
+    marketGroup: 3567
+    name: Odysseus SOE Fire Cell SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91173:
+    id: 91173
+    marketGroup: 3567
+    name: Odysseus SOE Blue Cell SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
   91193:
     id: 91193
     name: Pioneer Paydirt Prospector SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91235:
+    id: 91235
+    name: Anathema Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91236:
+    id: 91236
+    name: Bhaalgorn Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91237:
+    id: 91237
+    name: Confessor Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91238:
+    id: 91238
+    name: Paladin Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91239:
+    id: 91239
+    name: Babaroga Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91240:
+    id: 91240
+    name: Buzzard Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91241:
+    id: 91241
+    name: Golem Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91242:
+    id: 91242
+    marketGroup: 2391
+    name: Jackdaw Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91243:
+    id: 91243
+    marketGroup: 1963
+    name: Rattlesnake Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91244:
+    id: 91244
+    name: Svipul Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91245:
+    id: 91245
+    name: Cheetah Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91246:
+    id: 91246
+    name: Endurance Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91247:
+    id: 91247
+    name: Hulk Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91248:
+    id: 91248
+    marketGroup: 3818
+    name: Outrider Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91249:
+    id: 91249
+    name: Perseverance Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91250:
+    id: 91250
+    name: Pioneer Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91251:
+    id: 91251
+    marketGroup: 3497
+    name: Pioneer Consortium Issue Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91252:
+    id: 91252
+    marketGroup: 2000
+    name: Venture Consortium Issue Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91253:
+    id: 91253
+    name: Venture Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91254:
+    id: 91254
+    marketGroup: 2356
+    name: Hecate Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91255:
+    id: 91255
+    marketGroup: 2053
+    name: Helios Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91256:
+    id: 91256
+    marketGroup: 2026
+    name: Kronos Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91257:
+    id: 91257
+    marketGroup: 2027
+    name: Vargur Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91258:
+    id: 91258
+    name: Machariel Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91259:
+    id: 91259
+    name: Nightmare Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91260:
+    id: 91260
+    marketGroup: 3567
+    name: Odysseus Aurora Universalis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91280:
+    id: 91280
+    marketGroup: 2320
+    name: Endurance Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91281:
+    id: 91281
+    marketGroup: 2320
+    name: Prospect Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91282:
+    id: 91282
+    marketGroup: 2319
+    name: Covetor Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91283:
+    id: 91283
+    marketGroup: 2012
+    name: Hulk Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91284:
+    id: 91284
+    marketGroup: 2331
+    name: Primae Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91285:
+    id: 91285
+    marketGroup: 2338
+    name: Porpoise Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91286:
+    id: 91286
+    marketGroup: 2328
+    name: Noctis Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91287:
+    id: 91287
+    marketGroup: 2318
+    name: Bowhead Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91288:
+    id: 91288
+    marketGroup: 1969
+    name: Rorqual Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91289:
+    id: 91289
+    marketGroup: 3567
+    name: Odysseus Refined Resourcer SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91516:
+    id: 91516
+    marketGroup: 2120
+    name: Caldari Victory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91567:
+    id: 91567
+    marketGroup: 2030
+    name: Gila GalNet StreamCast Unit SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91568:
+    id: 91568
+    marketGroup: 2421
+    name: Praxis GalNet StreamCast Unit SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91569:
+    id: 91569
+    marketGroup: 2059
+    name: Malediction GalNet StreamCast Unit SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91570:
+    id: 91570
+    marketGroup: 3813
+    name: Pioneer GalNet StreamCast Unit SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91571:
+    id: 91571
+    marketGroup: 1992
+    name: Vexor GalNet StreamCast Unit SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91610:
+    id: 91610
+    marketGroup: 2316
+    name: Apotheosis Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91611:
+    id: 91611
+    marketGroup: 3549
+    name: Metamorphosis Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91612:
+    id: 91612
+    marketGroup: 2314
+    name: Sunesis Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91613:
+    id: 91613
+    marketGroup: 2312
+    name: Gnosis Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91614:
+    id: 91614
+    marketGroup: 2421
+    name: Praxis Friendship League SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91615:
+    id: 91615
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91616:
+    id: 91616
+    marketGroup: 3495
+    name: Revelation Navy Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91617:
+    id: 91617
+    marketGroup: 2024
+    name: Paladin Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91618:
+    id: 91618
+    marketGroup: 2039
+    name: Flycatcher Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91619:
+    id: 91619
+    marketGroup: 2025
+    name: Golem Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91620:
+    id: 91620
+    marketGroup: 3495
+    name: Phoenix Navy Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91621:
+    id: 91621
+    marketGroup: 3497
+    name: Catalyst Navy Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91622:
+    id: 91622
+    marketGroup: 2063
+    name: Exequror Navy Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91623:
+    id: 91623
+    marketGroup: 2071
+    name: Ishtar Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91624:
+    id: 91624
+    marketGroup: 2041
+    name: Sabre Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91625:
+    id: 91625
+    marketGroup: 3497
+    name: Thrasher Fleet Issue Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91626:
+    id: 91626
+    marketGroup: 1983
+    name: Naglfar Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91627:
+    id: 91627
+    marketGroup: 3813
+    name: Pioneer Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91628:
+    id: 91628
+    marketGroup: 3818
+    name: Outrider Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91629:
+    id: 91629
+    marketGroup: 1963
+    name: Machariel Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91630:
+    id: 91630
+    marketGroup: 2030
+    name: Gila Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91631:
+    id: 91631
+    marketGroup: 1963
+    name: Rattlesnake Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91632:
+    id: 91632
+    marketGroup: 3567
+    name: Odysseus Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91633:
+    id: 91633
+    marketGroup: 3540
+    name: Stormbringer Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91634:
+    id: 91634
+    marketGroup: 3539
+    name: Thunderchild Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91635:
+    id: 91635
+    marketGroup: 3672
+    name: Squall Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91636:
+    id: 91636
+    marketGroup: 2521
+    name: Kikimora Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91637:
+    id: 91637
+    marketGroup: 2704
+    name: Zirnitra Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91638:
+    id: 91638
+    marketGroup: 2009
+    name: Nereus Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91639:
+    id: 91639
+    marketGroup: 2009
+    name: Kryos Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  91640:
+    id: 91640
+    marketGroup: 2026
+    name: Kronos Media Miasma SKIN
     portionSize: 1
     published: true
     volume: 0.01

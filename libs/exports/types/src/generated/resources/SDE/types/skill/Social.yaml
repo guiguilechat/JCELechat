@@ -1,5 +1,6 @@
 types:
   3355:
+    cannotbetrainedontrial: 1
     id: 3355
     marketGroup: 376
     name: Social
@@ -12,6 +13,7 @@ types:
     socialmutator: 5
     volume: 0.01
   3356:
+    cannotbetrainedontrial: 1
     id: 3356
     marketGroup: 376
     name: Negotiation
@@ -26,6 +28,7 @@ types:
     skilltimeconstant: 2.0
     volume: 0.01
   3357:
+    cannotbetrainedontrial: 1
     diplomacymutator: 0.4
     id: 3357
     marketGroup: 376
@@ -40,6 +43,7 @@ types:
     skilltimeconstant: 1.0
     volume: 0.01
   3358:
+    cannotbetrainedontrial: 1
     fasttalkmutator: 5
     id: 3358
     marketGroup: 376
@@ -54,6 +58,7 @@ types:
     skilltimeconstant: 4.0
     volume: 0.01
   3359:
+    cannotbetrainedontrial: 1
     connectionbonusmutator: 0.4
     id: 3359
     marketGroup: 376
@@ -68,6 +73,7 @@ types:
     skilltimeconstant: 3.0
     volume: 0.01
   3361:
+    cannotbetrainedontrial: 1
     criminalconnectionsmutator: 0.4
     id: 3361
     marketGroup: 376
@@ -82,6 +88,7 @@ types:
     skilltimeconstant: 3.0
     volume: 0.01
   3893:
+    cannotbetrainedontrial: 1
     id: 3893
     marketGroup: 376
     name: Mining Connections
@@ -97,6 +104,7 @@ types:
     skilltimeconstant: 2.0
     volume: 0.01
   3894:
+    cannotbetrainedontrial: 1
     id: 3894
     marketGroup: 376
     name: Distribution Connections
@@ -112,6 +120,7 @@ types:
     skilltimeconstant: 2.0
     volume: 0.01
   3895:
+    cannotbetrainedontrial: 1
     id: 3895
     marketGroup: 376
     name: Security Connections
@@ -124,5 +133,17 @@ types:
     requiredskill2: 3348
     requiredskill2level: 3
     secondaryattribute: 165
+    skilltimeconstant: 2.0
+    volume: 0.01
+  91017:
+    cannotbetrainedontrial: 1
+    id: 91017
+    marketGroup: 376
+    name: Freelancing
+    portionSize: 1
+    price: 1000000.0
+    primaryattribute: 164
+    published: true
+    secondaryattribute: 167
     skilltimeconstant: 2.0
     volume: 0.01

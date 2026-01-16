@@ -29,7 +29,6 @@ public class SDECompiler {
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(SDECompiler.class);
 
-
 	protected JCodeModel cm;
 
 	protected JPackage rootPackage() {
@@ -199,7 +198,8 @@ public class SDECompiler {
 				// with one instance that is returned
 				JVar metaInstance = groupClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaGroup, "METAGROUP")
 						.init(JExpr._new(metaGroup));
-				JMethod groupGetMeta = groupClass.method(JMod.PUBLIC, ret.metaGroupClass.narrow(groupClass), "getGroup");
+				JMethod groupGetMeta = groupClass.method(JMod.PUBLIC, ret.metaGroupClass.narrow(groupClass),
+						"getGroup");
 				groupGetMeta.annotate(Override.class);
 				groupGetMeta.body()._return(metaInstance);
 
@@ -224,7 +224,8 @@ public class SDECompiler {
 
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException(
-						"while creating class " + e1.getExistingClass() + " for group name=" + name + " id=" + groupEntry.getKey(),
+						"while creating class " + e1.getExistingClass() + " for group name=" + name + " id="
+								+ groupEntry.getKey(),
 						e1);
 			}
 		}
@@ -248,7 +249,8 @@ public class SDECompiler {
 			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(cm.ref(Integer.class))
 					.narrow(ret.eveTypeClass.wildcardExtends());
 			JVar groupcache = ret.typeIndexClass
-					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
+					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType),
+							"groupcache")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 
 			// create the method that uses this cache
@@ -266,7 +268,7 @@ public class SDECompiler {
 			// convert the group to the classname
 			JVar className = tryblock.body().decl(strRef, "className").init(
 					JExpr.lit(TypePackage().name() + ".")
-					.plus(grpStr.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
+							.plus(grpStr.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
 			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
 			loadclass.init(ret.typeIndexClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
 			JBlock assignblock = tryblock.body()._if(loadclass.neNull())._then();
@@ -281,7 +283,7 @@ public class SDECompiler {
 			// if exception loading the class
 			JCatchBlock catchblock = tryblock._catch(cm.ref(Exception.class));
 			catchblock.body()
-			._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(catchblock.param("exception")));
+					._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(catchblock.param("exception")));
 
 			// if map is still nul, assing it an empty map
 			createBlock._if(mapId2Type.eq(JExpr._null()))._then().assign(mapId2Type,
@@ -297,7 +299,7 @@ public class SDECompiler {
 			getTypes.body()._return(ret.typeIndexClass.staticInvoke("load").ref(name2Ids)
 					.invoke("getOrDefault").arg(typeName).arg(cm.ref(ArrayList.class).narrowEmpty()._new())
 					.invoke("stream")
-					.invoke("map").arg(new JLambdaMethodRef(ret.typeIndexClass,getType.name()))
+					.invoke("map").arg(new JLambdaMethodRef(ret.typeIndexClass, getType.name()))
 					.invoke("collect").arg(cm.ref(Collectors.class).staticInvoke("toList")));
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
@@ -306,47 +308,68 @@ public class SDECompiler {
 		// create the TypeRef class
 
 		try {
-			JDefinedClass clazz = rootPackage()._class("TypeRef");
-			ret.typeRefClass = clazz;
-			JTypeVar generic = clazz.generify("T", ret.eveTypeClass);
-			JFieldVar id_f = clazz.field(JMod.PUBLIC, intType(), "id");
+			JDefinedClass typeRefClass = rootPackage()._class("TypeRef");
+			ret.typeRefClass = typeRefClass;
+			JTypeVar typeParam = typeRefClass.generify("T", ret.eveTypeClass);
+			JFieldVar id_f = typeRefClass.field(JMod.PUBLIC, intType(), "id");
+			JFieldVar type_f = typeRefClass.field(JMod.PRIVATE | JMod.TRANSIENT, typeParam, "type");
+
+			// empty constructor
+			typeRefClass.constructor(JMod.PUBLIC);
+
+			// id constructor
+			{
+				JMethod constructor_id_m = typeRefClass.constructor(JMod.PUBLIC);
+				JVar id_param = constructor_id_m.param(intType(), "id");
+				constructor_id_m.body().assign(JExpr.refthis(id_f), id_param);
+			}
+
+			// type constructor
+			{
+				JMethod constructor_type_m = typeRefClass.constructor(JMod.PUBLIC);
+				JVar type_param = constructor_type_m.param(typeParam, "type");
+				constructor_type_m.body().assign(JExpr.refthis(type_f), type_param);
+				constructor_type_m.body()
+						._if(type_param.neNull())
+						._then()
+						.assign(id_f, JExpr.ref(type_param, "id"));
+			}
 
 			// access to the type
-			JFieldVar type_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, generic, "type");
-			JMethod type_m = clazz.method(JMod.PUBLIC, generic, "type");
+			JMethod type_m = typeRefClass.method(JMod.PUBLIC, typeParam, "type");
 			type_m.annotate(SuppressWarnings.class).param("unchecked");
 			type_m.body()._if(type_f.eqNull())._then().assign(type_f,
-					ret.typeIndexClass.staticInvoke("getType").arg(id_f).castTo(generic));
+					ret.typeIndexClass.staticInvoke("getType").arg(id_f).castTo(typeParam));
 			type_m.body()._return(type_f);
 
 			// access to category
-			JFieldVar cat_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "category");
-			JMethod cat_m = clazz.method(JMod.PUBLIC, strRef, "category");
+			JFieldVar cat_f = typeRefClass.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "category");
+			JMethod cat_m = typeRefClass.method(JMod.PUBLIC, strRef, "category");
 			cat_m.body()._if(cat_f.eqNull())._then().assign(cat_f,
 					JExpr.invoke(type_m).invoke("getCategory").invoke("getName"));
 			cat_m.body()._return(cat_f);
 
 			// access to group
-			JFieldVar group_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "group");
-			JMethod group_m = clazz.method(JMod.PUBLIC, strRef, "group");
+			JFieldVar group_f = typeRefClass.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "group");
+			JMethod group_m = typeRefClass.method(JMod.PUBLIC, strRef, "group");
 			group_m.body()._if(group_f.eqNull())._then().assign(group_f,
 					JExpr.invoke(type_m).invoke("getGroup").invoke("getName"));
 			group_m.body()._return(group_f);
 
 			// access to name
-			JFieldVar name_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "name");
-			JMethod name_m = clazz.method(JMod.PUBLIC, strRef, "name");
+			JFieldVar name_f = typeRefClass.field(JMod.PRIVATE | JMod.TRANSIENT, strRef, "name");
+			JMethod name_m = typeRefClass.method(JMod.PUBLIC, strRef, "name");
 			name_m.body()._if(name_f.eqNull())._then().assign(name_f, JExpr.invoke(type_m).ref("name"));
 			name_m.body()._return(name_f);
 
 			// makeString method
-			JMethod makestring_m = clazz.method(JMod.PROTECTED, strRef, "makeString");
+			JMethod makestring_m = typeRefClass.method(JMod.PROTECTED, strRef, "makeString");
 			makestring_m.body()._return(JExpr.invoke(name_m).plus(JExpr.lit("(")).plus(id_f).plus(JExpr.lit(")")));
 			makestring_m.javadoc().addReturn().add("the return value of the {@link #toString} method");
 
 			// tostring method
-			JFieldVar tostring_f = clazz.field(JMod.PUBLIC | JMod.TRANSIENT, strRef, "toString");
-			JMethod tostring_m = clazz.method(JMod.PUBLIC, strRef, "toString");
+			JFieldVar tostring_f = typeRefClass.field(JMod.PROTECTED | JMod.TRANSIENT, strRef, "toString");
+			JMethod tostring_m = typeRefClass.method(JMod.PUBLIC | JMod.SYNCHRONIZED, strRef, "toString");
 			tostring_m.annotate(Override.class);
 			tostring_m.body()._if(tostring_f.eqNull())._then().assign(tostring_f,
 					JExpr.invoke(makestring_m));
@@ -401,7 +424,8 @@ public class SDECompiler {
 			ret.metaGroupClass.method(JMod.PUBLIC, intType(), "getGroupId");
 
 			ret.catGetGroups = ret.metaCatClass.method(JMod.PUBLIC,
-					cm.ref(Collection.class).narrow(ret.metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
+					cm.ref(Collection.class).narrow(ret.metaGroupClass.narrow(paramMetaCat.wildcardExtends())),
+					"groups");
 			ret.metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
 
 			// create a load() method;
@@ -409,7 +433,8 @@ public class SDECompiler {
 			JMethod loadMethod = ret.metaCatClass.method(JMod.PUBLIC | JMod.DEFAULT,
 					cm.ref(Map.class).narrow(cm.ref(Integer.class), paramMetaCat), "load");
 			// HashMap<String, T> ret = new HashMap<>()
-			JVar loadRet = loadMethod.body().decl(cm.ref(HashMap.class).narrow(cm.ref(Integer.class), paramMetaCat), "ret")
+			JVar loadRet = loadMethod.body()
+					.decl(cm.ref(HashMap.class).narrow(cm.ref(Integer.class), paramMetaCat), "ret")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 			// groups().stream().flatMap(img ->
 			// img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(),
@@ -420,13 +445,16 @@ public class SDECompiler {
 			JLambda lambdafe = new JLambda();
 			JLambdaParam lambdafepar = lambdafe.addParam("e");
 			lambdafe.body()
-			.add(JExpr.invoke(loadRet, "put").arg(lambdafepar.invoke("getKey")).arg(lambdafepar.invoke("getValue")));
+					.add(JExpr.invoke(loadRet, "put").arg(lambdafepar.invoke("getKey"))
+							.arg(lambdafepar.invoke("getValue")));
 			loadMethod.body()
-			.add(JExpr.invoke("groups").invoke("stream").invoke("flatMap").arg(lambdafm).invoke("forEach").arg(lambdafe));
+					.add(JExpr.invoke("groups").invoke("stream").invoke("flatMap").arg(lambdafm).invoke("forEach")
+							.arg(lambdafe));
 			// return ret;
 			loadMethod.body()._return(loadRet);
 
-			ret.groupGetCat = ret.metaGroupClass.method(JMod.PUBLIC, ret.metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
+			ret.groupGetCat = ret.metaGroupClass.method(JMod.PUBLIC,
+					ret.metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
 					"category");
 			ret.groupGetTypes = ret.metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT,
 					cm.ref(Map.class).narrow(cm.ref(Integer.class), paramMetaGroup), "load");
@@ -441,11 +469,11 @@ public class SDECompiler {
 
 		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaGroupClass.narrow(cm.wildcard()), "getGroup");
 		ret.eveTypeClass.method(JMod.PUBLIC, intType(), "getGroupId").body()
-		._return(JExpr.invoke("getGroup").invoke("getGroupId"));
+				._return(JExpr.invoke("getGroup").invoke("getGroupId"));
 
 		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaCatClass.narrow(cm.wildcard()), "getCategory");
 		ret.eveTypeClass.method(JMod.PUBLIC, intType(), "getCategoryId").body()
-		._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
+				._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
 
 		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "id");
 		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "marketGroup");
@@ -588,13 +616,13 @@ public class SDECompiler {
 	 * create the attributes as java classes.
 	 *
 	 * @param hierarchy
-	 *          the hierarchy, used to get attribute details eg name
+	 *                         the hierarchy, used to get attribute details eg name
 	 * @param compilation
-	 *          used to store the attribute name for an attribute id.
+	 *                         used to store the attribute name for an attribute id.
 	 * @param allAttributesIds
-	 *          all the attribute ids used by types in the hierarchy.
+	 *                         all the attribute ids used by types in the hierarchy.
 	 * @param attID2Class
-	 *          the map to store the class of an attribute.
+	 *                         the map to store the class of an attribute.
 	 * @throws JCodeModelException
 	 */
 	protected void createAttributes(TypeHierarchy hierarchy,
@@ -722,7 +750,8 @@ public class SDECompiler {
 			return;
 		}
 		Integer[] sortedAttIds = attributeIDs.stream()
-				.sorted((i1, i2) -> hierarchy.attID2Details.get(i1).name.compareTo(hierarchy.attID2Details.get(i2).name))
+				.sorted((i1, i2) -> hierarchy.attID2Details.get(i1).name
+						.compareTo(hierarchy.attID2Details.get(i2).name))
 				.toArray(Integer[]::new);
 
 		JSwitch jsAttr = null;
@@ -732,7 +761,8 @@ public class SDECompiler {
 			if (IGNORED_FIELD_NAMES.contains(attr.name.toLowerCase())) {
 				continue;
 			}
-			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? realType() : intType(), sanitize(attr.name).toLowerCase());
+			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? realType() : intType(),
+					sanitize(attr.name).toLowerCase());
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (attr.hasFloat) {
@@ -755,7 +785,9 @@ public class SDECompiler {
 	}
 
 	/**
-	 * create a getAttributes() method in the class that refers to the the static set of attributes
+	 * create a getAttributes() method in the class that refers to the the static
+	 * set of attributes
+	 *
 	 * @param catClass
 	 * @param hashSet
 	 * @param hierarchy
@@ -765,25 +797,28 @@ public class SDECompiler {
 			CompileData ret) {
 		// public static final Set<Attributes> ATTRIBUTES =
 		JVar attField = catClass
-				.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, ret.model.ref(Set.class).narrow(attributeClass), "ATTRIBUTES");
-		if(hashSet.isEmpty()) {
+				.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, ret.model.ref(Set.class).narrow(attributeClass),
+						"ATTRIBUTES");
+		if (hashSet.isEmpty()) {
 			// ATTRIBUTES = Collections.emptySet();
 			attField.init(ret.model.ref(Collections.class).staticInvoke("emptySet"));
-		}else {
+		} else {
 			// create an array of the attribute instances
 			// array = new Attribute[]{attribute1.INSTANCe, attribute2.INSTANCE};
 			JArray array = JExpr.newArray(attributeClass);
-			for(Integer attId : hashSet) {
+			for (Integer attId : hashSet) {
 				JDefinedClass attributecl = ret.attID2Class.get(attId);
 				if (attributecl != null) {
 					array.add(attributecl.staticRef("INSTANCE"));
 				}
 			}
-			//convert it into an unmodifiableset
+			// convert it into an unmodifiableset
 			// set = Collections.unmodifiableSet(new
 			// LinkedHasSet<>(Arrays.aslist(array)))
-			JInvocation set = ret.model.ref(Collections.class).staticInvoke("unmodifiableSet").arg(JExpr._new(ret.model.ref(LinkedHashSet.class).narrowEmpty()).arg(ret.model.ref(Arrays.class).staticInvoke("asList").arg(array)));
-			//ATTRIBUTES= set
+			JInvocation set = ret.model.ref(Collections.class).staticInvoke("unmodifiableSet")
+					.arg(JExpr._new(ret.model.ref(LinkedHashSet.class).narrowEmpty())
+							.arg(ret.model.ref(Arrays.class).staticInvoke("asList").arg(array)));
+			// ATTRIBUTES= set
 			attField.init(set);
 		}
 

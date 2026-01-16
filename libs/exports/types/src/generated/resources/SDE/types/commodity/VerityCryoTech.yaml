@@ -1,0 +1,73 @@
+types:
+  90894:
+    id: 90894
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostorm Clarifier
+    portionSize: 1
+    published: true
+    volume: 0.1
+  90895:
+    id: 90895
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostorm Mapper
+    portionSize: 1
+    published: true
+    volume: 0.1
+  90896:
+    id: 90896
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostorm Reconciler
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91019:
+    id: 91019
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostatic Estimator
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91020:
+    id: 91020
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostatic Suppressor
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91021:
+    id: 91021
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryostatic Nullifier
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91082:
+    id: 91082
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryograph Diffractor
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91083:
+    id: 91083
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryograph Exactor
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91084:
+    id: 91084
+    marketGroup: 3833
+    mass: 0.1
+    name: Cryograph Resolver
+    portionSize: 1
+    published: true
+    volume: 0.1

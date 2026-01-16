@@ -70,6 +70,7 @@ types:
     shielduniformity: 0.75
     shipbonusabc1: -10.0
     shipbonusabc2: 5.0
+    shipbonusmb: 5.0
     signatureradius: 210.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -155,6 +156,7 @@ types:
     shielduniformity: 0.75
     shipbonuscbc1: 10.0
     shipbonuscbc2: 5.0
+    shipbonusmb: 5.0
     signatureradius: 215.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -242,6 +244,7 @@ types:
     shielduniformity: 0.75
     shipbonusgbc1: 7.5
     shipbonusgbc2: 5.0
+    shipbonusmb: 5.0
     signatureradius: 220.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -325,6 +328,7 @@ types:
     shieldrechargerate: 1400000.0
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
+    shipbonusmb: 5.0
     shipbonusmbc1: -5.0
     shipbonusmbc2: 7.5
     signatureradius: 195.0
@@ -338,6 +342,96 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 216000.0
+    warpcapacitorneed: 8.13E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  89807:
+    agility: 0.45
+    anhingalargemissilecpufittingbonus: 0.5
+    anhingalargemissilepowerfittingbonus: 0.05
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 1800.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    bclargeturretcap: 0.5
+    bclargeturretcpu: 0.5
+    bclargeturretpower: 0.05
+    capacitorcapacity: 2900.0
+    cpuoutput: 595
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 200
+    gfxboosterid: 395
+    heatattenuationhi: 0.82
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.79
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.65
+    hislots: 8
+    hp: 1755.0
+    id: 89807
+    kineticdamageresonance: 0.67
+    launcherslotsleft: 8
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 1698
+    mass: 14760000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 8
+    maxpassengers: 450
+    maxtargetrange: 85000.0
+    maxvelocity: 225.0
+    medslots: 7
+    mintargetveldmgmultiplier: 0.25
+    name: Anhinga
+    portionSize: 1
+    poweroutput: 1075.0
+    powertospeed: 1
+    price: 52500000.0
+    propulsiongraphicid: 395
+    published: true
+    radius: 263.0
+    rechargerate: 625000.0
+    requiredskill1: 33096
+    requiredskill1level: 1
+    rigsize: 2
+    rigslots: 3
+    scangravimetricstrength: 21.0
+    scanresolution: 200.0
+    scanspeed: 6000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 7500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonuscbc1: -5.0
+    shipbonuscbc2: 5.0
+    shipbonusci2: -5.0
+    shipbonusmb: 5.0
+    signatureradius: 215.0
+    stanceswitchtime: 10000
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    typecolorscheme: 11324
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 252000.0
     warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

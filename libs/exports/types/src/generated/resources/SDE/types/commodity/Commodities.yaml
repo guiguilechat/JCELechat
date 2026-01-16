@@ -2748,7 +2748,7 @@ types:
     volume: 0.1
   54225:
     id: 54225
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 10.0
     name: Used Ectoplasmic Fluid
     portionSize: 1
@@ -2757,7 +2757,7 @@ types:
     volume: 0.1
   54226:
     id: 54226
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Burned Transneural Scanner
     portionSize: 1
@@ -2766,7 +2766,7 @@ types:
     volume: 0.01
   54227:
     id: 54227
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Melted Scraps of Capsule Plating
     portionSize: 1
@@ -2774,7 +2774,7 @@ types:
     volume: 0.01
   54228:
     id: 54228
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 70.0
     name: DED Informant's Frozen Corpse
     portionSize: 1
@@ -2782,7 +2782,7 @@ types:
     volume: 1.0
   54808:
     id: 54808
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 20.0
     name: Predictive Light Cone Plotter
     portionSize: 1
@@ -2790,7 +2790,7 @@ types:
     volume: 0.01
   54809:
     id: 54809
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 20.0
     name: Spatiotemporal Boundary Detector
     portionSize: 1
@@ -2798,7 +2798,7 @@ types:
     volume: 0.01
   54810:
     id: 54810
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 20.0
     name: String Charge Evaluation Couple
     portionSize: 1
@@ -2806,7 +2806,7 @@ types:
     volume: 0.01
   54811:
     id: 54811
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 20.0
     name: OODA Loop Expert System Package
     portionSize: 1
@@ -2985,7 +2985,7 @@ types:
     volume: 5.0
   63698:
     id: 63698
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 70.0
     name: Guristas Infiltrator Clone Corpse
     portionSize: 1

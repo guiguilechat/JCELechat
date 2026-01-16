@@ -3253,7 +3253,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     missilevelocitybonus: -13.0
-    name: Scout  Imperial Navy Pilgrim
+    name: Scout Imperial Navy Pilgrim
     npcbehaviormaximumcombatorbitrange: 22000.0
     npcguidancedisruptordischarge: 5.0
     npcguidancedisruptorduration: 6700.0

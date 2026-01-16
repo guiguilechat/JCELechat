@@ -231,3 +231,12 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  91175:
+    id: 91175
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
+    name: Perseverance Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

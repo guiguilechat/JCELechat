@@ -7,10 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -18,8 +14,39 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.attributes.*;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHpBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullHpBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxActiveDroneBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionSkillPropulsionStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RofBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillBonusFighterHangarSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecAccessDifficultyBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
+import org.yaml.snakeyaml.LoaderOptions;
+import org.yaml.snakeyaml.Yaml;
 
 public class Drones
     extends Skill

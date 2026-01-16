@@ -294,6 +294,7 @@ types:
     volume: 5.0
   37450:
     canfitshipgroup01: 1283
+    canfitshiptype1: 91174
     capacitorneed: 10.0
     cpu: 50.0
     duration: 360000.0
@@ -318,6 +319,7 @@ types:
     volume: 5.0
   37451:
     canfitshipgroup01: 1283
+    canfitshiptype1: 91174
     capacitorneed: 15.0
     cpu: 60.0
     duration: 300000.0
@@ -344,6 +346,7 @@ types:
     volume: 5.0
   37452:
     canfitshipgroup01: 1283
+    canfitshiptype1: 91174
     capacitorneed: 15.0
     cpu: 60.0
     duration: 300000.0
@@ -398,6 +401,7 @@ types:
     volume: 5.0
   90502:
     canfitshipgroup01: 1283
+    canfitshiptype1: 91174
     id: 90502
     miningwastedvolumemultiplier: 1
     name: Abyssal Ice Mining Laser

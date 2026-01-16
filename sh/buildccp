@@ -1,4 +1,4 @@
 #!/bin/bash
 # 
 reset ; 
-mvn -T2C -Pbuildccp -pl :jcesi,:raw,:gameclient -am -amd clean install -e
+mvn -T2C -Pbuildccp clean install -e

@@ -6758,7 +6758,7 @@ types:
     exporttaxmultiplier: 1
     id: 56788
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Warclone Blanks
     portionSize: 1
@@ -7459,7 +7459,7 @@ types:
     exporttaxmultiplier: 1
     id: 62709
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     name: ORE Research Data Fragment
     portionSize: 1
     price: 500000.0
@@ -7473,7 +7473,7 @@ types:
     exporttaxmultiplier: 1
     id: 63699
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     name: Classified Caldari Databank
     portionSize: 1
     price: 1000000.0
@@ -7487,7 +7487,7 @@ types:
     exporttaxmultiplier: 1
     id: 63704
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-001
     portionSize: 1
@@ -7501,7 +7501,7 @@ types:
     exporttaxmultiplier: 1
     id: 63705
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-004
     portionSize: 1
@@ -7515,7 +7515,7 @@ types:
     exporttaxmultiplier: 1
     id: 63706
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-005
     portionSize: 1
@@ -7529,7 +7529,7 @@ types:
     exporttaxmultiplier: 1
     id: 63707
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-006
     portionSize: 1
@@ -7543,7 +7543,7 @@ types:
     exporttaxmultiplier: 1
     id: 63708
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-007
     portionSize: 1
@@ -7557,7 +7557,7 @@ types:
     exporttaxmultiplier: 1
     id: 63709
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-008
     portionSize: 1
@@ -7571,7 +7571,7 @@ types:
     exporttaxmultiplier: 1
     id: 63710
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-009
     portionSize: 1
@@ -7585,7 +7585,7 @@ types:
     exporttaxmultiplier: 1
     id: 63711
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-010
     portionSize: 1
@@ -7599,7 +7599,7 @@ types:
     exporttaxmultiplier: 1
     id: 63712
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-002
     portionSize: 1
@@ -7613,7 +7613,7 @@ types:
     exporttaxmultiplier: 1
     id: 63713
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: Capsule Subsystem Holostorage EH-CN-J44-003
     portionSize: 1
@@ -7627,7 +7627,7 @@ types:
     exporttaxmultiplier: 1
     id: 64033
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Smuggler Lockbox
     portionSize: 1
@@ -7758,7 +7758,7 @@ types:
     exporttaxmultiplier: 1
     id: 76203
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.75
     name: Stellar Transmuter Datacore
     portionSize: 1
@@ -7773,7 +7773,7 @@ types:
     exporttaxmultiplier: 1
     id: 76204
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.75
     name: Transport Relay Datacore
     portionSize: 1
@@ -7788,7 +7788,7 @@ types:
     exporttaxmultiplier: 1
     id: 76207
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Stellar Transmuter Research Index File
     portionSize: 1
     price: 50000.0
@@ -7802,7 +7802,7 @@ types:
     exporttaxmultiplier: 1
     id: 76208
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Stellar Transmuter Research Data Fragment
     portionSize: 1
     price: 3000.0
@@ -7816,7 +7816,7 @@ types:
     exporttaxmultiplier: 1
     id: 76209
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Stellar Transmuter Research Encryption Key
     portionSize: 1
     price: 100000.0
@@ -7830,7 +7830,7 @@ types:
     exporttaxmultiplier: 1
     id: 76210
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Transport Relay Research Index File
     portionSize: 1
     price: 50000.0
@@ -7844,7 +7844,7 @@ types:
     exporttaxmultiplier: 1
     id: 76211
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Transport Relay Research Data Fragment
     portionSize: 1
     price: 3000.0
@@ -7858,7 +7858,7 @@ types:
     exporttaxmultiplier: 1
     id: 76212
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     name: Transport Relay Research Encryption Key
     portionSize: 1
     price: 100000.0
@@ -8055,7 +8055,7 @@ types:
     exporttaxmultiplier: 1
     id: 85178
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Tetrimonic Warclone Blanks
     portionSize: 1
@@ -8070,7 +8070,7 @@ types:
     exporttaxmultiplier: 1
     id: 85179
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Overseer Sabik Vial
     portionSize: 1
@@ -8085,7 +8085,7 @@ types:
     exporttaxmultiplier: 1
     id: 85242
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Hypercatabolic Clone Tissue
     portionSize: 1
@@ -8100,7 +8100,7 @@ types:
     exporttaxmultiplier: 1
     id: 85712
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.05.29 - Arceho. Student Yosef Okada Journal entry
     portionSize: 1
@@ -8115,7 +8115,7 @@ types:
     exporttaxmultiplier: 1
     id: 85713
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.06.09 - Asst. Archeo. Yosef Okada Journal entry
     portionSize: 1
@@ -8130,7 +8130,7 @@ types:
     exporttaxmultiplier: 1
     id: 85714
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.08.20 - Asst. Archeo. Yosef Okada Journal entry
     portionSize: 1
@@ -8145,7 +8145,7 @@ types:
     exporttaxmultiplier: 1
     id: 85715
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.11.30 - Asst. Archeo. Yosef Okada Journal entry
     portionSize: 1
@@ -8160,7 +8160,7 @@ types:
     exporttaxmultiplier: 1
     id: 85716
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.12.04 - Asst. Archeo. Yosef Okada Journal entry
     portionSize: 1
@@ -8175,7 +8175,7 @@ types:
     exporttaxmultiplier: 1
     id: 85717
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC110.12.10 - Asst. Archeo. Yosef Okada Journal entry
     portionSize: 1
@@ -8190,7 +8190,7 @@ types:
     exporttaxmultiplier: 1
     id: 85718
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC113.01.15 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8205,7 +8205,7 @@ types:
     exporttaxmultiplier: 1
     id: 85719
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC113.04.15 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8220,7 +8220,7 @@ types:
     exporttaxmultiplier: 1
     id: 85720
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC113.05.01 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8235,7 +8235,7 @@ types:
     exporttaxmultiplier: 1
     id: 85721
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC113.05.24 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8250,7 +8250,7 @@ types:
     exporttaxmultiplier: 1
     id: 85722
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC113.11.09 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8265,7 +8265,7 @@ types:
     exporttaxmultiplier: 1
     id: 85723
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC114.01.19 - Dr. Yosef Okada Journal entry
     portionSize: 1
@@ -8280,7 +8280,7 @@ types:
     exporttaxmultiplier: 1
     id: 85724
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC115.08.19 - Yosef Okada Journal entry
     portionSize: 1
@@ -8295,7 +8295,7 @@ types:
     exporttaxmultiplier: 1
     id: 85725
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.02.06 - Yosef Okada Journal entry
     portionSize: 1
@@ -8310,7 +8310,7 @@ types:
     exporttaxmultiplier: 1
     id: 85726
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.02.20 - Yosef Okada Journal entry
     portionSize: 1
@@ -8325,7 +8325,7 @@ types:
     exporttaxmultiplier: 1
     id: 85727
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.10.15 - Yosef Okada Journal entry
     portionSize: 1
@@ -8340,7 +8340,7 @@ types:
     exporttaxmultiplier: 1
     id: 85728
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.10.30 - Yosef Okada Journal entry
     portionSize: 1
@@ -8355,7 +8355,7 @@ types:
     exporttaxmultiplier: 1
     id: 85729
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.11.01 - Yosef Okada Journal entry
     portionSize: 1
@@ -8370,7 +8370,7 @@ types:
     exporttaxmultiplier: 1
     id: 85730
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.11.06 - dictated record
     portionSize: 1
@@ -8385,7 +8385,7 @@ types:
     exporttaxmultiplier: 1
     id: 85731
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 1.0
     name: YC117.11.08 - dictated record
     portionSize: 1
@@ -8670,7 +8670,7 @@ types:
     exporttaxmultiplier: 1
     id: 87374
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Matar
     portionSize: 1
@@ -8684,7 +8684,7 @@ types:
     exporttaxmultiplier: 1
     id: 87389
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Gallente Prime
     portionSize: 1
@@ -8698,7 +8698,7 @@ types:
     exporttaxmultiplier: 1
     id: 87390
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Torment
     portionSize: 1
@@ -8712,7 +8712,7 @@ types:
     exporttaxmultiplier: 1
     id: 87391
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Annihilation
     portionSize: 1
@@ -8726,7 +8726,7 @@ types:
     exporttaxmultiplier: 1
     id: 87392
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Amarr
     portionSize: 1
@@ -8740,7 +8740,7 @@ types:
     exporttaxmultiplier: 1
     id: 87393
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Reconstructed Spectral Vision Jita
     portionSize: 1
@@ -8754,7 +8754,7 @@ types:
     exporttaxmultiplier: 1
     id: 87618
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Warden Connection Harmonics
     portionSize: 1
@@ -8769,7 +8769,7 @@ types:
     exporttaxmultiplier: 1
     id: 87982
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Gratuity for Warden Connection Harmonic
     portionSize: 1
@@ -8784,7 +8784,7 @@ types:
     exporttaxmultiplier: 1
     id: 88172
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Narrowband Emission Amplifier
     portionSize: 1
@@ -8798,7 +8798,7 @@ types:
     exporttaxmultiplier: 1
     id: 88173
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Narrowband Emission Limiter
     portionSize: 1
@@ -8812,7 +8812,7 @@ types:
     exporttaxmultiplier: 1
     id: 88174
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Midband Emission Amplifier
     portionSize: 1
@@ -8826,7 +8826,7 @@ types:
     exporttaxmultiplier: 1
     id: 88175
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Midband Emission Limiter
     portionSize: 1
@@ -8840,7 +8840,7 @@ types:
     exporttaxmultiplier: 1
     id: 88176
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Wideband Emission Amplifier
     portionSize: 1
@@ -8854,7 +8854,7 @@ types:
     exporttaxmultiplier: 1
     id: 88177
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3833
     mass: 0.1
     name: Wideband Emission Limiter
     portionSize: 1
@@ -8868,7 +8868,7 @@ types:
     exporttaxmultiplier: 1
     id: 89784
     importtaxmultiplier: 1
-    marketGroup: 1661
+    marketGroup: 3835
     mass: 0.1
     name: Sealed Projects Container
     portionSize: 1

@@ -109,7 +109,7 @@
 								<configuration>
 									<cleanupDaemonThreads>false</cleanupDaemonThreads>
 									<mainClass>
-										fr.guiguilechat.jcelechat.libs.exports.items.compile.MainCompile</mainClass>
+										fr.guiguilechat.jcelechat.libs.exports.typecompiler.compile.MainCompile</mainClass>
 									<arguments>
 										<!-- source folder to put classes in -->
 										<argument>${project.basedir}/src/generated/java</argument>

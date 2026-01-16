@@ -43146,3 +43146,51 @@ offers:
       - id: 57488
         quantity: 1
       lp: 15000000
+  19530:
+    id: 19530
+    name: Perseverance Corporation Emblem
+    product:
+      id: 91177
+      quantity: 1
+    requirements:
+      lp: 8000
+  19531:
+    id: 19531
+    name: Perseverance Alliance Emblem
+    product:
+      id: 91176
+      quantity: 1
+    requirements:
+      lp: 8000
+  19532:
+    id: 19532
+    name: Skua Corporation Emblem
+    product:
+      id: 91276
+      quantity: 1
+    requirements:
+      lp: 9000
+  19533:
+    id: 19533
+    name: Skua Alliance Emblem
+    product:
+      id: 91277
+      quantity: 1
+    requirements:
+      lp: 9000
+  19534:
+    id: 19534
+    name: Anhinga Corporation Emblem
+    product:
+      id: 91278
+      quantity: 1
+    requirements:
+      lp: 12500
+  19535:
+    id: 19535
+    name: Anhinga Alliance Emblem
+    product:
+      id: 91279
+      quantity: 1
+    requirements:
+      lp: 12500

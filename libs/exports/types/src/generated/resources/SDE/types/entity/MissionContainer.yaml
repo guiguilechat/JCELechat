@@ -1790,3 +1790,53 @@ types:
     signatureradius: 100.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+  90886:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 90886
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    name: Sansha's Transit Modulator
+    portionSize: 1
+    published: false
+    radius: 400.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+  91043:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 91043
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    name: Sansha's Stormfield Projector
+    portionSize: 1
+    published: false
+    radius: 750.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0

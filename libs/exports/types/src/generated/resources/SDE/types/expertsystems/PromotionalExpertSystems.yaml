@@ -83,3 +83,10 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  91517:
+    id: 91517
+    mass: 1.0
+    name: Perseverance Expert System
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -1,6 +1,7 @@
 types:
   37479:
     canfitshipgroup02: 1534
+    canfitshiptype2: 89808
     capacitorneed: 85.0
     cpu: 31.0
     disallowearlydeactivation: 1

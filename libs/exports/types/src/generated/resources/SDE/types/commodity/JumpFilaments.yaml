@@ -68,94 +68,10 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
-  85281:
-    filamentdescriptionmessageid: 554513
-    filamentspooluptimeseconds: 30
-    id: 85281
-    marketGroup: 1663
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: DNCR-05H Highsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85282:
-    filamentdescriptionmessageid: 554512
-    filamentspooluptimeseconds: 15
-    id: 85282
-    marketGroup: 1663
-    mjdshipjumpcap: 1
-    mjfgradius: 6000
-    name: DSHR-01H Highsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85283:
-    filamentdescriptionmessageid: 554514
-    filamentspooluptimeseconds: 60
-    id: 85283
-    marketGroup: 1663
-    mjdshipjumpcap: 10
-    mjfgradius: 6000
-    name: PRNCR-10H Highsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85284:
-    filamentdescriptionmessageid: 554520
-    filamentspooluptimeseconds: 60
-    id: 85284
-    marketGroup: 1663
-    mjdshipjumpcap: 10
-    mjfgradius: 6000
-    name: RDLF-10L Lowsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85285:
-    filamentdescriptionmessageid: 554515
-    filamentspooluptimeseconds: 15
-    id: 85285
-    marketGroup: 1663
-    mjdshipjumpcap: 1
-    mjfgradius: 6000
-    name: VXN-01N Nullsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85286:
-    filamentdescriptionmessageid: 554519
-    filamentspooluptimeseconds: 30
-    id: 85286
-    marketGroup: 1663
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: BLTZN-05L Lowsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85287:
-    filamentdescriptionmessageid: 554516
-    filamentspooluptimeseconds: 30
-    id: 85287
-    marketGroup: 1663
-    mjdshipjumpcap: 5
-    mjfgradius: 6000
-    name: CMT-05N Nullsec Ice Storm Filament
-    portionSize: 1
-    price: 1000.0
-    published: true
-    volume: 0.1
-  85288:
+  90697:
     filamentdescriptionmessageid: 554517
     filamentspooluptimeseconds: 60
-    id: 85288
+    id: 90697
     marketGroup: 1663
     mjdshipjumpcap: 10
     mjfgradius: 6000
@@ -164,14 +80,98 @@ types:
     price: 1000.0
     published: true
     volume: 0.1
-  85289:
+  90698:
+    filamentdescriptionmessageid: 554516
+    filamentspooluptimeseconds: 30
+    id: 90698
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: CMT-05N Nullsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90699:
+    filamentdescriptionmessageid: 554519
+    filamentspooluptimeseconds: 30
+    id: 90699
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: BLTZN-05L Lowsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90700:
+    filamentdescriptionmessageid: 554515
+    filamentspooluptimeseconds: 15
+    id: 90700
+    marketGroup: 1663
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: VXN-01N Nullsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90701:
+    filamentdescriptionmessageid: 554520
+    filamentspooluptimeseconds: 60
+    id: 90701
+    marketGroup: 1663
+    mjdshipjumpcap: 10
+    mjfgradius: 6000
+    name: RDLF-10L Lowsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90702:
+    filamentdescriptionmessageid: 554514
+    filamentspooluptimeseconds: 60
+    id: 90702
+    marketGroup: 1663
+    mjdshipjumpcap: 10
+    mjfgradius: 6000
+    name: PRNCR-10H Highsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90703:
+    filamentdescriptionmessageid: 554512
+    filamentspooluptimeseconds: 15
+    id: 90703
+    marketGroup: 1663
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: DSHR-01H Highsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90704:
     filamentdescriptionmessageid: 554518
     filamentspooluptimeseconds: 15
-    id: 85289
+    id: 90704
     marketGroup: 1663
     mjdshipjumpcap: 1
     mjfgradius: 6000
     name: DNNR-01L Lowsec Ice Storm Filament
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 0.1
+  90705:
+    filamentdescriptionmessageid: 554513
+    filamentspooluptimeseconds: 30
+    id: 90705
+    marketGroup: 1663
+    mjdshipjumpcap: 5
+    mjfgradius: 6000
+    name: DNCR-05H Highsec Ice Storm Filament
     portionSize: 1
     price: 1000.0
     published: true

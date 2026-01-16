@@ -375,11 +375,6 @@
 				<artifactId>jcesi</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-				<artifactId>raw</artifactId>
-				<version>${project.version}</version>
-			</dependency>
 			<!-- /submodules -->
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
