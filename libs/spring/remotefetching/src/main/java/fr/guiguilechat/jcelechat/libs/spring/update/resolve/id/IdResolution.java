@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * name and type of a resolve id
+ * name and type of a resolved id
  */
 @Entity(name = "EsiRemoteIdResolution")
 @Table(name = "esi_remote_idresolution", indexes = {

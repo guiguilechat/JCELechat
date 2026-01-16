@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -24,6 +25,9 @@ import lombok.extern.slf4j.Slf4j;
 public class IdResolutionUpdater extends
 		RemoteEntityUpdater<IdResolution, Integer, R_post_universe_names, IdResolutionRepository, IdResolutionService> {
 
+	@Lazy
+	private final Optional<List<IdResolutionListener>> idResolutionListeners;
+
 	@Override
 	protected Requested<R_post_universe_names> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_post_universe_names[]> ret = ESIRawPublic.INSTANCE.post_universe_names(new int[] { id },
@@ -43,10 +47,10 @@ public class IdResolutionUpdater extends
 		if (data == null || data.isEmpty()) {
 			return Map.of();
 		}
-		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		int[] elementsIds = data.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 		int responseCode = response.getResponseCode();
+		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		switch (responseCode) {
 		case 200:
 			Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())

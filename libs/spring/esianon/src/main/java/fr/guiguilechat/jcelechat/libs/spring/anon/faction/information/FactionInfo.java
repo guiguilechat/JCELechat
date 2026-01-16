@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction;
+package fr.guiguilechat.jcelechat.libs.spring.anon.faction.information;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import jakarta.persistence.Entity;
@@ -15,8 +15,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiAffiliationsFactionInfo")
-@Table(name = "esi_affiliations_factioninfo")
+@Entity(name = "EsiFactionInfo")
+@Table(name = "esi_faction_info")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @AllArgsConstructor
 @NoArgsConstructor

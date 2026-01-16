@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character;
+package fr.guiguilechat.jcelechat.libs.spring.anon.character.information;
 
 import java.util.Map;
 
@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
@@ -22,7 +22,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.affiliations.charinfo")
+@ConfigurationProperties(prefix = "esi.character.info")
 public class CharacterInformationUpdater extends
 		RemoteEntityUpdater<CharacterInformation, Integer, R_get_characters_character_id, CharacterInformationRepository, CharacterInformationService>
 		implements IdResolutionListener {

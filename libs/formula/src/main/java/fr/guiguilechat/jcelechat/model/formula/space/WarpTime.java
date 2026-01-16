@@ -12,24 +12,23 @@ public class WarpTime {
 	 */
 	public static int of(double distance_au, double warpspeed_aups, double subwarpspeed_mps) {
 		// exit speed
-		double s = Math.min(100, subwarpspeed_mps / 2);
+		double exit_speed_mps = Math.min(100, subwarpspeed_mps / 2);
 		double daccel_au = 1.0f;
-		double k = warpspeed_aups;
-		double j = Math.min(warpspeed_aups / 3, 2.0f);
-		double ddecel_au = warpspeed_aups / j;
+		double decel_speed_aups = Math.min(warpspeed_aups / 3, 2.0f);
+		double ddecel_au = warpspeed_aups / decel_speed_aups;
 		double dcruise_au = distance_au - daccel_au - ddecel_au;
 		if (dcruise_au < 0) {
 			// short jump
-			double vmax_aups = distance_au * k * j / (k + j);
-			double accel_time = Math.log(AU_IN_M * vmax_aups / k) / k;
-			double decel_time = Math.log(AU_IN_M * vmax_aups / s) / j;
+			double vmax_aups = distance_au * warpspeed_aups * decel_speed_aups / (warpspeed_aups + decel_speed_aups);
+			double accel_time = Math.log(AU_IN_M * vmax_aups / warpspeed_aups) / warpspeed_aups;
+			double decel_time = Math.log(AU_IN_M * vmax_aups / exit_speed_mps) / decel_speed_aups;
 			return (int) Math.ceil(
 					accel_time+decel_time);
 		} else {
 			// long jump
-			double accel_time = Math.log(AU_IN_M) / k;
-			double cruise_time = dcruise_au / k;
-			double decel_time=  Math.log(AU_IN_M *k / s) / j;
+			double accel_time = Math.log(AU_IN_M) / warpspeed_aups;
+			double cruise_time = dcruise_au / warpspeed_aups;
+			double decel_time = Math.log(AU_IN_M * warpspeed_aups / exit_speed_mps) / decel_speed_aups;
 			return (int) Math.ceil(
 					accel_time
 					+cruise_time

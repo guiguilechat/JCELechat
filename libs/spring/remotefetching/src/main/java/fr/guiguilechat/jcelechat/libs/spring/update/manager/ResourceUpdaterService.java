@@ -68,6 +68,12 @@ public class ResourceUpdaterService {
 	@Value("${jcesi.manager.skip:false}")
 	private boolean skip;
 
+	/**
+	 * should we skip services that don't have their skip value set ?
+	 */
+	@Value("${jcesi.manager.default.skip:true}")
+	private boolean defaultSkip;
+
 	@Value("${jcesi.manager.updateddelay:30}")
 	private int updatedDelay;
 
@@ -131,12 +137,6 @@ public class ResourceUpdaterService {
 		return instant.atZone(ZoneId.systemDefault()).truncatedTo(ChronoUnit.SECONDS)
 		    .format(DateTimeFormatter.ISO_LOCAL_TIME);
 	}
-
-	/**
-	 * should we skip services that don't have their skip value set ?
-	 */
-	@Value("${jcesi.manager.default.skip:true}")
-	private boolean defaultSkip;
 
 	/**
 	 * tells whether an existing updater service should be skipped

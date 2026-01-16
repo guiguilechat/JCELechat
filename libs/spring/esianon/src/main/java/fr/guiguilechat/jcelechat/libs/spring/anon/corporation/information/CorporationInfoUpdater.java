@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information;
 
 import java.util.List;
 import java.util.Map;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.DiscoveringRemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import lombok.RequiredArgsConstructor;
@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.affiliations.corporation")
+@ConfigurationProperties(prefix = "esi.corporation.info")
 public class CorporationInfoUpdater extends
 		DiscoveringRemoteEntityUpdater<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository, CorporationInfoService> {
 

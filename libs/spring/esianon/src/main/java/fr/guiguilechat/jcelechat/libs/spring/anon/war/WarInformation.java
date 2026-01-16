@@ -6,8 +6,8 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import jakarta.persistence.Entity;

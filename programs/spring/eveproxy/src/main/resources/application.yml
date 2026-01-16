@@ -1,16 +1,18 @@
-
-
 gameclient:
    fetcher:
       update:
          skip: true
 
 esi:
+   affiliations:
+      charaffil:
+         update:
+            skip: false
    conflicts:
       war:
          info:
             update:
-               skip: false
+               skip: true
    npc:
       lpcorporation:
          update:

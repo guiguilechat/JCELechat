@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction;
+package fr.guiguilechat.jcelechat.libs.spring.anon.faction.information;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;

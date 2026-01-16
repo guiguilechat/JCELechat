@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

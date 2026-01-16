@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation;
+package fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
 

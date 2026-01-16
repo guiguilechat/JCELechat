@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction;
+package fr.guiguilechat.jcelechat.libs.spring.anon.faction.information;
 
 import java.util.List;
 import java.util.Map;
@@ -9,15 +9,15 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.batch.AResourceBatchUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.affiliations.faction")
+@ConfigurationProperties(prefix = "esi.faction.info")
 public class FactionInfoUpdater
 		extends	AResourceBatchUpdater<
 			FactionInfo,

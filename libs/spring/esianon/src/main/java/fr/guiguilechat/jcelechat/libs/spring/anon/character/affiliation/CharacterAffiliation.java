@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character;
+package fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfo;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import jakarta.persistence.Entity;
@@ -17,8 +17,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "EsiAffiliationsCharacterAffiliation")
-@Table(name = "esi_affiliations_characteraffiliation", indexes = {
+@Entity(name = "EsiCharacterAffiliation")
+@Table(name = "esi_character_affiliation", indexes = {
 		@Index(columnList = "fetch_active,fetch_priority,expires"),
     @Index(columnList = "alliance_id"),
     @Index(columnList = "corporation_id"),

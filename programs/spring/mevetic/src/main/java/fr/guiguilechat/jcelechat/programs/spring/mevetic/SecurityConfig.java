@@ -18,7 +18,7 @@ public class SecurityConfig {
 		http
 				.authorizeHttpRequests(authorize -> authorize
 		        .requestMatchers("/", "/index", "/webjars/**").permitAll()
-						.requestMatchers("/h2-console/**").permitAll()
+				.requestMatchers("/h2-console/**").permitAll()
 		        .anyRequest().hasAuthority(EsiConnectionInterceptor.LECHAT_AUTHORITIES))
 				.oauth2Login(
 						Customizer.withDefaults())

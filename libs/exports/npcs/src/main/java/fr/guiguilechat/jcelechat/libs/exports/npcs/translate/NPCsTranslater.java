@@ -125,7 +125,7 @@ public class NPCsTranslater {
 			}
 			add.division = AGENT_DIVISION.of(ag.data().npcCorporationDivision().id());
 			if (add.division == null) {
-				logger.warn("null division conversin for agent " + add.id + " division="
+				logger.warn("null agent_division conversion for agent " + add.id + " division="
 						+ ag.data().npcCorporationDivision());
 			}
 			add.id = ag.id();
@@ -136,7 +136,6 @@ public class NPCsTranslater {
 			if (add.type == null) {
 				logger.warn("null type conversion for agent " + add.id + " type=" + ag.data().agentType());
 			}
-
 			agents.add(add);
 		});
 

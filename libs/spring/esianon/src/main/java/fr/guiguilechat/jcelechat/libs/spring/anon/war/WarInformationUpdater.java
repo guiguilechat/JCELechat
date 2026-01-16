@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Lazy;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.DiscoveringRemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import lombok.RequiredArgsConstructor;

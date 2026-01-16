@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.character;
+package fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,11 +12,11 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.alliance.AllianceInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.corporation.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction.FactionInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-@ConfigurationProperties(prefix = "esi.affiliations.charaffil")
+@ConfigurationProperties(prefix = "esi.character.affiliation")
 public class CharacterAffiliationUpdater extends
 		RemoteEntityUpdater<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository, CharacterAffiliationService>
 		implements IdResolutionListener {

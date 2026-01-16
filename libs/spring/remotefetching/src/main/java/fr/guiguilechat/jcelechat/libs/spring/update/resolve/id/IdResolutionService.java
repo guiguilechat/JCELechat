@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.context.annotation.Lazy;
@@ -15,9 +14,6 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class IdResolutionService
 		extends RemoteEntityService<IdResolution, Integer, IdResolutionRepository> {
-
-	@Lazy
-	private final Optional<List<IdResolutionListener>> idResolutionListeners;
 
 	@Override
 	protected IdResolution create(Integer entityId) {

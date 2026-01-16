@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.affiliations.faction;
+package fr.guiguilechat.jcelechat.libs.spring.anon.faction.information;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
 
