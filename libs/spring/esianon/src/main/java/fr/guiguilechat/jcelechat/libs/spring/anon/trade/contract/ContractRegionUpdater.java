@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -16,6 +17,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -29,6 +31,9 @@ public class ContractRegionUpdater extends
 
 	@Lazy
 	private final ContractInfoService contractInfoService;
+
+	@Lazy
+	private final IdResolutionService idResolutionService;
 
 	@Lazy
 	private final StationService stationService;
@@ -104,8 +109,14 @@ public class ContractRegionUpdater extends
 						.updateContract(region, c)
 						.updateSystem(stationId2SolarSystem))
 				.toList();
-		log.debug(" contract list in {}({}) : {} new, {} removed", region.getRegion().getName(), region.getId(),
-				newContracts.size(), removed.size());
+		idResolutionService.createMissing(
+				newContracts.stream()
+						.flatMap(ci -> Stream.of(ci.getIssuerId(), ci.getIssuerCorporationId())));
+		log.debug(" contract list in {}({}) : {} new, {} removed",
+				region.getRegion().getName(),
+				region.getId(),
+				newContracts.size(),
+				removed.size());
 		ret.addAll(newContracts);
 		return ret;
 	}

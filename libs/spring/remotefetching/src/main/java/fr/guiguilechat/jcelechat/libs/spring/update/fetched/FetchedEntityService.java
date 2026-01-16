@@ -120,6 +120,11 @@ public abstract class FetchedEntityService<
 		return toCreate;
 	}
 
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
+	public Set<Id> createMissing(Stream<Id> entityIds) {
+		return createMissing(entityIds.distinct().toList());
+	}
+
 	/**
 	 * ensure an entity for given id exists, does not start fetch
 	 *

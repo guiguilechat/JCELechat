@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.agent.NpcCharacterService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.npc.agent.NpcCharacterService.AgentDetails;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import jakarta.transaction.Transactional;
@@ -43,27 +42,28 @@ public class AgentRestController {
 		if (ls != null && ls.isPresent()) {
 			lineSeparator = ls.get();
 		}
-		StringBuilder sb = new StringBuilder();
-		for(AgentDetails ad : npcCharacterService.agentDetails()) {
-			sb.append(ad.agent().getId());
-			sb.append(fieldSeparator).append(ad.agent().getName());
-			sb.append(fieldSeparator).append(ad.agent().getAgentType().getName());
-			sb.append(fieldSeparator).append(ad.agent().getDivision().getName());
-			sb.append(fieldSeparator).append(ad.agent().getLevel());
-			sb.append(fieldSeparator).append(ad.agent().isLocator());
-			sb.append(fieldSeparator).append(ad.corporation().getId());
-			sb.append(fieldSeparator).append(ad.corporation().getName());
-			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getId() : "");
-			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().name() : "");
-			sb.append(fieldSeparator).append(ad.solarSystem().getId());
-			sb.append(fieldSeparator).append(ad.solarSystem().getName());
-			sb.append(fieldSeparator).append(ad.solarSystem().getSecurityStatus());
-			sb.append(fieldSeparator).append(ad.region().getId());
-			sb.append(fieldSeparator).append(ad.region().getName());
-
-			sb.append(lineSeparator);
-		}
-		return sb.toString();
+		String str = """
+			""";
+//		for(AgentDetails ad : npcCharacterService.agentDetails()) {
+//			sb.append(ad.agent().getId());
+//			sb.append(fieldSeparator).append(ad.agent().getName());
+//			sb.append(fieldSeparator).append(ad.agent().getAgentType().getName());
+//			sb.append(fieldSeparator).append(ad.agent().getDivision().getName());
+//			sb.append(fieldSeparator).append(ad.agent().getLevel());
+//			sb.append(fieldSeparator).append(ad.agent().isLocator());
+//			sb.append(fieldSeparator).append(ad.corporation().getId());
+//			sb.append(fieldSeparator).append(ad.corporation().getName());
+//			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().getId() : "");
+//			sb.append(fieldSeparator).append(ad.station() != null ? ad.station().name() : "");
+//			sb.append(fieldSeparator).append(ad.solarSystem().getId());
+//			sb.append(fieldSeparator).append(ad.solarSystem().getName());
+//			sb.append(fieldSeparator).append(ad.solarSystem().getSecurityStatus());
+//			sb.append(fieldSeparator).append(ad.region().getId());
+//			sb.append(fieldSeparator).append(ad.region().getName());
+//
+//			sb.append(lineSeparator);
+//		}
+		return str;
 	}
 
 }

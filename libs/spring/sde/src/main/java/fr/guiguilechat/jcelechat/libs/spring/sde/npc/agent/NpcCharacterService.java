@@ -22,12 +22,6 @@ public class NpcCharacterService extends SdeEntityService<NpcCharacter, Integer,
 			Constellation constellation, Region region, NpcCorporation corporation) {
 	}
 
-	public List<AgentDetails> agentDetails() {
-		return repo().listFullAgents().stream().map(arr -> new AgentDetails((NpcCharacter) arr[0], (Station) arr[1],
-				(SolarSystem) arr[2], (Constellation) arr[3], (Region) arr[4], (NpcCorporation) arr[5]))
-				.toList();
-	}
-
 	public List<Integer> listIds() {
 		return repo().listIds();
 	}

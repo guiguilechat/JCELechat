@@ -55,6 +55,7 @@ public class IdResolutionUpdater extends
 			for (IdResolution idr : data) {
 				R_post_universe_names result = retMapById.get(idr.getId());
 				if (result != null) {
+					idr.setFetchActive(false);
 					ret.put(idr, result);
 				} else {
 					log.error(

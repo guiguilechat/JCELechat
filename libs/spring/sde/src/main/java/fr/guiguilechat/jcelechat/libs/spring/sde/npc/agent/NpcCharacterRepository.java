@@ -10,22 +10,6 @@ public interface NpcCharacterRepository extends SdeEntityRepository<NpcCharacter
 
 	@Query("""
 select
-	agent,
-	station,
-	solsys,
-	solsys.constellation,
-	solsys.constellation.region,
-	corpinfo
-from
-	#{#entityName} agent
-	left join SdeSpaceStation station  on agent.locationId = station.id
-	left join SdeSpaceSolarSystem solsys on station.solarSystem=solsys or agent.locationId = solsys.id
-	left join EsiAffiliationsCorporationInfo corpinfo on agent.corporation.id = corpinfo.id
-""")
-	List<Object[]> listFullAgents();
-
-	@Query("""
-select
 	agent.id
 from
 	#{#entityName} agent

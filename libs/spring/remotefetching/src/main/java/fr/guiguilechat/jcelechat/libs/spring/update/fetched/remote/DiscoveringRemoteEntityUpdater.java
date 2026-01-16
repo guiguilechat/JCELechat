@@ -26,13 +26,13 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class DiscoveringRemoteEntityUpdater <
-		Entity extends RemoteEntity<IdType, Fetched>,
-		IdType extends Number,
-		Fetched,
-		Repository extends RemoteEntityRepository<Entity, IdType>,
-		Service extends RemoteEntityService<Entity, IdType, Repository>>
-	extends RemoteEntityUpdater<Entity, IdType, Fetched, Repository, Service> {
+public abstract class DiscoveringRemoteEntityUpdater<
+	Entity extends RemoteEntity<IdType, Fetched>,
+	IdType extends Number,
+	Fetched,
+	Repository extends RemoteEntityRepository<Entity, IdType>,
+	Service extends RemoteEntityService<Entity, IdType, Repository>>
+		extends RemoteEntityUpdater<Entity, IdType, Fetched, Repository, Service> {
 
 	/**
 	 * discover the remote ids that need to be managed. They will then be created
@@ -110,21 +110,21 @@ public abstract class DiscoveringRemoteEntityUpdater <
 				processResponse(resp);
 				listExpires = resp.getExpiresInstant();
 				switch (resp.getResponseCode()) {
-				case 200: {
+				case 200:
 					long postFetch = System.currentTimeMillis();
 					log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(),
 							(postFetch - startms) / 1000);
 					onNewListFetched(createMissing(resp.getOK()));
 					lastListEtag = resp.getETag();
 					listExpires = resp.getExpiresInstant();
-				}
-				case 304: {
-					listExpires = resp.getExpiresInstant();
+					break;
+				case 304:
 					log.trace(" {} received no list change", fetcherName());
-				}
+					listExpires = resp.getExpiresInstant();
+					break;
 				default:
-					log.warn("update service {} received invalid response {} when requesting list of entities",
-						getClass().getSimpleName(), resp);
+					log.warn("update service {} received invalid response code {} when requesting list of entities",
+							getClass().getSimpleName(), resp.getResponseCode());
 				}
 			} else {
 				log.warn("update service {} received null list of entities",

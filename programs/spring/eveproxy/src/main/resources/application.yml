@@ -4,10 +4,6 @@ gameclient:
          skip: true
 
 esi:
-   affiliations:
-      charaffil:
-         update:
-            skip: false
    conflicts:
       war:
          info:
@@ -17,6 +13,10 @@ esi:
       lpcorporation:
          update:
             delayUpdated: 3600
+            skip: false
+   resolve:
+      name:
+         update:
             skip: false
    trade:
       contract:
