@@ -9,6 +9,10 @@ esi:
          info:
             update:
                skip: true
+   corporation:
+      info:
+         update:
+            skip: false
    npc:
       lpcorporation:
          update:
