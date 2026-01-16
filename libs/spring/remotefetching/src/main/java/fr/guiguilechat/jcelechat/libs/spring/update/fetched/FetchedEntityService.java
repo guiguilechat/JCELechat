@@ -85,7 +85,9 @@ public abstract class FetchedEntityService<
 
 	/**
 	 * ensure an entity for given ids exist. If missing creates them with
-	 * {@link #createMinimal(Number)}
+	 * {@link #createMinimal(Number)}.<br />
+	 * The difference with {@link #createIfAbsent(List)} is that it does not fetch
+	 * the data if corresponding entity already exists
 	 *
 	 * @param entityIds list of ids we need to exist in the DB
 	 * @return the set of ids that have been created

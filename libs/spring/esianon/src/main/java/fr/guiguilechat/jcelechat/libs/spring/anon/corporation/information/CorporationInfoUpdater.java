@@ -22,7 +22,8 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.corporation.info")
-public class CorporationInfoUpdater extends
+public class CorporationInfoUpdater
+		extends
 		DiscoveringRemoteEntityUpdater<CorporationInfo, Integer, R_get_corporations_corporation_id, CorporationInfoRepository, CorporationInfoService> {
 
 	@Lazy

@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information;
 
+import java.util.Collection;
+
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class CorporationInfoService extends
 		RemoteEntityService<CorporationInfo, Integer, CorporationInfoRepository>
-implements IdResolutionListener {
+		implements IdResolutionListener {
 
 	@Override
 	protected CorporationInfo create(Integer entityId) {
@@ -24,13 +26,13 @@ implements IdResolutionListener {
 		return ret;
 	}
 
-	// create new entries when needed
-
 	@Override
-	public void onNewIdResolution(IdResolution idResolution) {
-		if (idResolution.getCategory() == post_universe_names_category.corporation) {
-			createIfAbsent(idResolution.getId());
-		}
+	public void onNewIdResolutions(Collection<IdResolution> idResolutions) {
+		insertIfAbsent(
+				idResolutions.stream()
+						.filter(idr -> idr.getCategory() == post_universe_names_category.corporation)
+						.map(IdResolution::getId)
+						.distinct().toList());
 	}
 
 }

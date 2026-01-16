@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Stream;
@@ -59,14 +58,6 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 
 	protected List<Entity> saveAll(Iterable<Entity> data) {
 		return service().saveAll(data);
-	}
-
-	protected Map<Id, Entity> createIfAbsent(List<Id> entityIds) {
-		return service().createIfAbsent(entityIds);
-	}
-
-	protected Entity createIfAbsent(Id entityId) {
-		return service().createIfAbsent(entityId);
 	}
 
 	protected Set<Id> insertIfAbsent(List<Id> entityIds) {

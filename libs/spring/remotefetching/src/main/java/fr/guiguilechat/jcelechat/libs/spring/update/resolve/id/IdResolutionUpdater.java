@@ -36,14 +36,10 @@ public class IdResolutionUpdater extends
 	}
 
 	@Override
-	public void updateMetaOk(IdResolution data, Requested<R_post_universe_names> response) {
-		data.setFetchActive(false);
-		super.updateMetaOk(data, response);
-	}
-
-	@Override
 	protected Map<IdResolution, R_post_universe_names> fetchData(List<IdResolution> data) {
-		log.debug(" updating list of {} elements service {}", data.size(), getClass().getSimpleName());
+		log.trace("service {} updating list of {} ids",
+				fetcherName(),
+				data.size());
 		if (data == null || data.isEmpty()) {
 			return Map.of();
 		}
@@ -53,7 +49,8 @@ public class IdResolutionUpdater extends
 		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		switch (responseCode) {
 		case 200:
-			Map<Integer, R_post_universe_names> retMapById = Stream.of(response.getOK())
+			Map<Integer, R_post_universe_names> retMapById = Stream.of(
+					response.getOK())
 					.collect(Collectors.toMap(r -> r.id, r -> r));
 			for (IdResolution idr : data) {
 				R_post_universe_names result = retMapById.get(idr.getId());
@@ -79,4 +76,19 @@ public class IdResolutionUpdater extends
 
 	}
 
+	@Override
+	public void updateMetaOk(IdResolution data, Requested<R_post_universe_names> response) {
+		data.setFetchActive(false);
+		super.updateMetaOk(data, response);
+	}
+
+	@Override
+	protected void updateResponseOk(Map<IdResolution, R_post_universe_names> responseOk) {
+		super.updateResponseOk(responseOk);
+		if (idResolutionListeners.isPresent()) {
+			for (IdResolutionListener l : idResolutionListeners.get()) {
+				l.onNewIdResolutions(responseOk.keySet());
+			}
+		}
+	}
 }

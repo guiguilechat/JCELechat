@@ -102,7 +102,7 @@ public abstract class AResourceBatchUpdater<
 	/** called when the list has been updated */
 	protected void updateFromFetched(List<Fetched> list) {
 		log.debug(" {} listed {} new entries", fetcherName(), list.size());
-		Map<Id, Entity> idToEntities = createIfAbsent(list.stream().map(this::extractId).toList());
+		Map<Id, Entity> idToEntities = service().createIfAbsent(list.stream().map(this::extractId).toList());
 		updateEntities(list.stream().collect(Collectors.toMap(e -> idToEntities.get(extractId(e)), e -> e)));
 		saveAll(idToEntities.values());
 	}

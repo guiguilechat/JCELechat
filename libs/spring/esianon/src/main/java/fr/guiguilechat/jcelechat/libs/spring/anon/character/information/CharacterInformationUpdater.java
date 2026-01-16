@@ -14,18 +14,14 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.Corpor
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
-import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.character.info")
 public class CharacterInformationUpdater extends
-		RemoteEntityUpdater<CharacterInformation, Integer, R_get_characters_character_id, CharacterInformationRepository, CharacterInformationService>
-		implements IdResolutionListener {
+		RemoteEntityUpdater<CharacterInformation, Integer, R_get_characters_character_id, CharacterInformationRepository, CharacterInformationService> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;
@@ -66,13 +62,6 @@ public class CharacterInformationUpdater extends
 						.boxed().toList());
 		responseOk.entrySet().stream()
 				.forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAlliance, idToCorporation));
-	}
-
-	@Override
-	public void onNewIdResolution(IdResolution idResolution) {
-		if (idResolution.getCategory() == post_universe_names_category.character) {
-			createIfAbsent(idResolution.getId());
-		}
 	}
 
 }

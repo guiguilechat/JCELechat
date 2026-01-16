@@ -13,12 +13,12 @@ import lombok.Setter;
 
 /**
  * managed resource that is linked to a remote entity, and therefore whose
- * informations are fetched from. The actual implementation +
+ * informations are fetched from. The actual class +
  * {@link #getId()} should identify the remote resource completely.
  *
  * @param <IdType>  type of id used, typically int or long.
  * @param <Fetched> structure returned from remote server to describe this
- *                    entity
+ *                  entity
  */
 @AllArgsConstructor
 @NoArgsConstructor
