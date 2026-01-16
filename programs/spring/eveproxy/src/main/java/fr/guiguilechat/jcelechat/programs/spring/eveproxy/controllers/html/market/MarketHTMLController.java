@@ -21,13 +21,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.AggregatedTypeHistory;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.ContractMarketAggregator;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeBpc;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeBpo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService.ContractTypeVariant;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeNonBp;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;

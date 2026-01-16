@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import fr.guiguilechat.tools.FormatTools;
 import lombok.Getter;

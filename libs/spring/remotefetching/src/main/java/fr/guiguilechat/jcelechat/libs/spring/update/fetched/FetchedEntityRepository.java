@@ -19,4 +19,7 @@ extends JpaRepository<Entity, Id> {
 	@Query("select id from #{#entityName} where id in :ids")
 	List<Id> findExistingIds(Iterable<Id> ids);
 
+	@Query("select id from #{#entityName} where id = :id")
+	Id findExistingId(Id id);
+
 }

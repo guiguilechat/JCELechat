@@ -57,7 +57,7 @@ public abstract class DiscoveringRemoteEntityUpdater <
 	public void addListInit() {
 		if (list.init != null && !list.init.isEmpty()) {
 			log.trace("{} init={}", fetcherName(), list.init);
-			insertIfAbsent(list.init);
+			createMissing(list.init);
 		}
 	}
 
@@ -114,7 +114,7 @@ public abstract class DiscoveringRemoteEntityUpdater <
 					long postFetch = System.currentTimeMillis();
 					log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(),
 							(postFetch - startms) / 1000);
-					onNewListFetched(insertIfAbsent(resp.getOK()));
+					onNewListFetched(createMissing(resp.getOK()));
 					lastListEtag = resp.getETag();
 					listExpires = resp.getExpiresInstant();
 				}

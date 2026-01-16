@@ -66,7 +66,7 @@ public abstract class CharDataUpdater<
 	@Override
 	public void onNewEsiUser(EsiUser user) {
 		if (user.getScopes().containsAll(getRequiredScopes())) {
-			service().createIfAbsent(user.getCharacterId());
+			service().createMissing(user.getCharacterId());
 		}
 	}
 

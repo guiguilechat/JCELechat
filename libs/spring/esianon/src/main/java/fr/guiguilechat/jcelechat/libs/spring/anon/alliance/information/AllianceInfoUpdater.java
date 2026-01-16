@@ -38,14 +38,14 @@ public class AllianceInfoUpdater extends
 			Map<Integer, CorporationInfo> idToCorporation) {
 		data.setCreatorCorporation(idToCorporation.get(response.creator_corporation_id));
 		data.setExecutorCorporation(idToCorporation.get(response.executor_corporation_id));
-		data.setFaction(factionInfoService.createIfAbsent(response.faction_id));
+		data.setFaction(factionInfoService.getOrCreate(response.faction_id));
 	}
 
 	@Override
 	protected void updateResponseOk(Map<AllianceInfo, R_get_alliances_alliance_id> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, CorporationInfo> idToCorporation = corporationInfoService
-				.createIfAbsent(responseOk.values().stream()
+				.getOrCreate(responseOk.values().stream()
 						.flatMapToInt(r -> IntStream.of(r.creator_corporation_id, r.executor_corporation_id))
 						.distinct().filter(i -> i > 0)
 						.boxed().toList());

@@ -28,7 +28,7 @@ public class CorporationInfoService extends
 
 	@Override
 	public void onNewIdResolutions(Collection<IdResolution> idResolutions) {
-		insertIfAbsent(
+		createMissing(
 				idResolutions.stream()
 						.filter(idr -> idr.getCategory() == post_universe_names_category.corporation)
 						.map(IdResolution::getId)

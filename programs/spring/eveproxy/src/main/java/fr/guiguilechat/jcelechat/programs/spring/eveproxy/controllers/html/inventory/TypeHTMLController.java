@@ -22,7 +22,7 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.ActivityType;
 import fr.guiguilechat.jcelechat.libs.spring.anon.industry.manufacturing.EivService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.LinkCorporationOfferService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.ContractMarketAggregator;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLine;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;

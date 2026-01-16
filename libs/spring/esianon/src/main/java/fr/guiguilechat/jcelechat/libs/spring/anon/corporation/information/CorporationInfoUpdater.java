@@ -41,14 +41,14 @@ public class CorporationInfoUpdater
 			R_get_corporations_corporation_id response,
 			Map<Integer, AllianceInfo> idToAlliance) {
 		data.setAlliance(idToAlliance.get(response.alliance_id));
-		data.setFaction(factionInfoService.createIfAbsent(response.faction_id));
+		data.setFaction(factionInfoService.getOrCreate(response.faction_id));
 	}
 
 	@Override
 	protected void updateResponseOk(Map<CorporationInfo, R_get_corporations_corporation_id> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, AllianceInfo> idToAlliance = allianceInfoService
-				.createIfAbsent(responseOk.values().stream()
+				.getOrCreate(responseOk.values().stream()
 						.mapToInt(r -> r.alliance_id)
 						.distinct().filter(i -> i > 0)
 						.boxed().toList());

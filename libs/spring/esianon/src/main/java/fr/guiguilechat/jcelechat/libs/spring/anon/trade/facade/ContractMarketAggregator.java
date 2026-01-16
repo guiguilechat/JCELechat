@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
 import java.util.Comparator;
@@ -14,8 +14,6 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeBpo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;

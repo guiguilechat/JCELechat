@@ -41,7 +41,7 @@ public class FactionInfoUpdater
 
 	@Override
 	protected void updateEntities(Map<FactionInfo, R_get_universe_factions> mapped) {
-		Map<Integer, CorporationInfo> idToCorporationInfo = corporationInfoService.createIfAbsent(
+		Map<Integer, CorporationInfo> idToCorporationInfo = corporationInfoService.getOrCreate(
 				mapped.values().stream().map(d -> d.corporation_id)
 						.distinct().filter(i -> i > 0)
 						.toList());

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -12,7 +12,8 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;

@@ -3,8 +3,6 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.core.annotation.Order;
-
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
@@ -30,7 +28,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-@Order(2) // depends on regions
 public class ContractRegion extends RemoteEntity<Integer, List<R_get_contracts_public_region_id>> {
 
 	@OneToOne

@@ -1,19 +1,26 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
@@ -21,17 +28,19 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
+import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * facade to propose BPO contract history and offers methods.
+ * facade to propose BPC contract history and offers methods. For BPC, the unit
+ * is not the number of items sold, but the total runs
  */
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class ContractFacadeBpo implements ContractItemsListener, MarketRegionListener {
+public class ContractFacadeBpc implements ContractItemsListener, MarketRegionListener {
 
 	@Lazy
 	private final ContractInfoRepository contractInfoRepository;
@@ -43,18 +52,18 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 	private final TypeService typeService;
 
 	/**
-	 * find contracts that are open and offer a given original type, with ME/TE ge
+	 * find contracts that are open and offer a given type as copy, with ME/TE ge
 	 * requested
 	 *
 	 * @param typeId
 	 * @return list of open contracts that provide only given type, with
-	 *           iscopy=false and me and te GE the one specified
+	 *           iscopy=true and me and te GE the one specified
 	 */
 	public List<ContractInfo> selling(int typeId, int me, int te) {
 		return contractInfoRepository
 				.findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdAndOfferedCopyAndOfferedMeGreaterThanEqualAndOfferedTeGreaterThanEqual(
 						typeId,
-						false, me, te);
+						true, me, te);
 	}
 
 	protected void resolveNames(List<MarketOrder> orders) {
@@ -66,7 +75,7 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 		}
 	}
 
-	@Cacheable("BpoFacadeSellOrdersForType")
+	@Cacheable("BpcFacadeSellOrdersForType")
 	public List<MarketOrder> sos(int typeId, int me, int te) {
 		List<MarketOrder> ret = selling(typeId, me, te).stream()
 				.map(MarketOrder::of)
@@ -77,58 +86,81 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 	}
 
 	/**
-	 * find contracts that sold a given type, with given ME/TE and 0 runs
+	 * find contracts that sold a given type, with given ME/TE and iscopy=true
 	 *
 	 * @param typeId
 	 * @return list of completed contracts that provide only given type, with
-	 *           iscopy=false and given me and te
+	 *           iscopy=true and given me and te
 	 */
 	public List<ContractInfo> sold(int typeId, int me, int te, Limit limit) {
 		return contractInfoRepository
 				.findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 						List.of(typeId),
-						false, me, te, limit);
+						true, me, te, limit);
 	}
 
-	protected AggregatedHL convert(Object[] line) {
-		return new AggregatedHL(
-		    ((Instant) line[0]).truncatedTo(ChronoUnit.DAYS),
-				((Number) line[1]).longValue(),
-				((Number) line[2]).doubleValue(),
-				((Number) line[3]).doubleValue(),
-				((Number) line[4]).doubleValue(),
-				((Number) line[5]).intValue());
+	@Transactional
+	public Stream<MarketOrder> streamSold(int typeId, int me, int te, Limit limit) {
+		return sold(typeId, me, te, limit).stream().map(MarketOrder::of);
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
-		return contractInfoRepository.aggregatedSales(typeId, from, me, te).stream()
-				.map(this::convert)
-				.toList();
+		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
+				.stream()
+				.filter(ci -> ci.getRemovedBefore() != null && !ci.getRemovedBefore().isBefore(from))
+				.collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
+		List<AggregatedHL> ret = new ArrayList<>();
+		for (Entry<Instant, List<ContractInfo>> e : byDay.entrySet()) {
+			Instant date = e.getKey();
+			long volume = 0L;
+			double totalValue = 0.0;
+			double highestPrice = 0.0;
+			double lowestPrice = Double.MAX_VALUE;
+			Set<Integer> regionIds = new HashSet<>();
+			for (ContractInfo ci : e.getValue()) {
+				volume += ci.getOfferedRuns();
+				totalValue += ci.getPrice();
+				double unitPrice = ci.getPrice() / ci.getOfferedRuns();
+				if (unitPrice > highestPrice) {
+					highestPrice = unitPrice;
+				}
+				if (unitPrice < lowestPrice) {
+					lowestPrice = unitPrice;
+				}
+				regionIds.add(ci.getRegion().getId());
+			}
+			ret.add(new AggregatedHL(date, volume,
+					totalValue,
+					highestPrice,
+					lowestPrice,
+			    regionIds.size()));
+		}
+		return ret;
 	}
 
 	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<Object[]> fetched = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit);
+		List<Object[]> fetched = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
 		Map<Integer, String> typeId2Name = typeService.ofId(
 				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
 				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit)
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit)
 				.stream()
 				.map(arr -> {
 					int typeId = ((Number) arr[0]).intValue();
 					int me = ((Number) arr[1]).intValue();
 					int te = ((Number) arr[2]).intValue();
 					double totalValue = ((Number) arr[3]).doubleValue();
-					long totalQuantity = ((Number) arr[4]).longValue();
+					long totalRuns = ((Number) arr[4]).longValue();
 					String typeName = typeId2Name.get(typeId);
 					if (typeName == null) {
 						typeName = "unknown " + typeId;
 					}
-					typeName += " " + me + "/" + te;
+					typeName += me + "/" + te;
 					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
-							totalQuantity);
+							totalRuns);
 					line.setMe(me);
 					line.setTe(te);
 					return line;
@@ -141,6 +173,6 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 
 	@Getter
 	private final List<String> cacheList = List.of(
-			"BpoFacadeSellOrdersForType");
+			"BpcFacadeSellOrdersForType");
 
 }

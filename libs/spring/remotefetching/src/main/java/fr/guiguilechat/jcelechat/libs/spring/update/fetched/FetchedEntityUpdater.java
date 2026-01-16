@@ -60,8 +60,8 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 		return service().saveAll(data);
 	}
 
-	protected Set<Id> insertIfAbsent(List<Id> entityIds) {
-		return service().insertIfAbsent(entityIds);
+	protected Set<Id> createMissing(List<Id> entityIds) {
+		return service().createMissing(entityIds);
 	}
 
 	protected Entity createMinimal(Id entityId) {

@@ -33,8 +33,8 @@ public class CharacterJournalUpdater
 	@Override
 	protected CharacterJournal transformRecord(M_get_journal_13 f) {
 		CharacterJournal ret = CharacterJournal.from(f);
-		idResolutionService.createIfAbsent(ret.getFirstPartyId());
-		idResolutionService.createIfAbsent(ret.getSecondPartyId());
+		idResolutionService.createMissing(ret.getFirstPartyId());
+		idResolutionService.createMissing(ret.getSecondPartyId());
 		return ret;
 	}
 

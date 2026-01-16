@@ -42,14 +42,14 @@ public class WarInformationUpdater extends DiscoveringRemoteEntityUpdater<WarInf
 	@Override
 	protected void updateResponseOk(Map<WarInformation, R_get_wars_war_id> responseOk) {
 		super.updateResponseOk(responseOk);
-		Map<Integer, AllianceInfo> idToAllianceInfo = allianceInfoService.createIfAbsent(
+		Map<Integer, AllianceInfo> idToAllianceInfo = allianceInfoService.getOrCreate(
 				responseOk.values().stream()
 						.flatMap(w -> Stream.concat(
 								Stream.of(w.aggressor.alliance_id, w.defender.alliance_id),
 								Stream.of(w.allies).map(ally -> ally.alliance_id)))
 						.filter(i -> i != null && i != 0)
 						.distinct().toList());
-		Map<Integer, CorporationInfo> idToCorporationInfo = corporationInfoService.createIfAbsent(
+		Map<Integer, CorporationInfo> idToCorporationInfo = corporationInfoService.getOrCreate(
 				responseOk.values().stream()
 						.flatMap(w -> Stream.concat(
 								Stream.of(w.aggressor.corporation_id, w.defender.corporation_id),

@@ -84,15 +84,31 @@ public abstract class FetchedEntityService<
 	}
 
 	/**
+	 * ensure an entity for given id exists.
+	 *
+	 * @return true if new entity was created
+	 */
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
+	public boolean createMissing(Id id) {
+		Id found = repo().findExistingId(id);
+		if (found == null) {
+			save(createMinimal(id));
+			return true;
+		}
+		return false;
+	}
+
+	/**
 	 * ensure an entity for given ids exist. If missing creates them with
 	 * {@link #createMinimal(Number)}.<br />
-	 * The difference with {@link #createIfAbsent(List)} is that it does not fetch
+	 * The difference with {@link #getOrCreate(List)} is that it does not fetch
 	 * the data if corresponding entity already exists
 	 *
 	 * @param entityIds list of ids we need to exist in the DB
 	 * @return the set of ids that have been created
 	 */
-	public Set<Id> insertIfAbsent(List<Id> entityIds) {
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
+	public Set<Id> createMissing(List<Id> entityIds) {
 		Set<Id> toCreate = new HashSet<>(entityIds);
 		partitionInList(entityIds)
 		.map(repo()::findExistingIds)
@@ -111,7 +127,7 @@ public abstract class FetchedEntityService<
 	 * @return entity for corresponding id
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Entity createIfAbsent(Id entityId) {
+	public Entity getOrCreate(Id entityId) {
 		Entity e = repo().findById(entityId).orElse(null);
 		if (e == null) {
 			e = save(createMinimal(entityId));
@@ -120,7 +136,7 @@ public abstract class FetchedEntityService<
 	}
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
-	public Map<Id, Entity> createIfAbsent(List<Id> entityIds) {
+	public Map<Id, Entity> getOrCreate(List<Id> entityIds) {
 		long start = System.currentTimeMillis();
 		Map<Id, Entity> storedEntities = new HashMap<>();
 		if (entityIds.isEmpty()) {

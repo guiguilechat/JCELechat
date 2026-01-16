@@ -44,19 +44,19 @@ public class CharacterInformationUpdater extends
 			Map<Integer, CorporationInfo> idToCorporation) {
 		data.setAlliance(idToAlliance.get(response.alliance_id));
 		data.setCorporation(idToCorporation.get(response.corporation_id));
-		data.setFaction(factionInfoService.createIfAbsent(response.faction_id));
+		data.setFaction(factionInfoService.getOrCreate(response.faction_id));
 	}
 
 	@Override
 	protected void updateResponseOk(Map<CharacterInformation, R_get_characters_character_id> responseOk) {
 		super.updateResponseOk(responseOk);
 		Map<Integer, AllianceInfo> idToAlliance = allianceInfoService
-				.createIfAbsent(responseOk.values().stream()
+				.getOrCreate(responseOk.values().stream()
 						.mapToInt(r -> r.alliance_id)
 						.distinct().filter(i -> i > 0)
 						.boxed().toList());
 		Map<Integer, CorporationInfo> idToCorporation = corporationInfoService
-				.createIfAbsent(responseOk.values().stream()
+				.getOrCreate(responseOk.values().stream()
 						.mapToInt(r -> r.corporation_id)
 						.distinct().filter(i -> i > 0)
 						.boxed().toList());

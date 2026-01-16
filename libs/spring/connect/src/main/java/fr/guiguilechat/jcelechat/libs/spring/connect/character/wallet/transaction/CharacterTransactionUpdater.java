@@ -117,7 +117,7 @@ public class CharacterTransactionUpdater
 				.map(CharacterTransaction::getClientId)
 				.distinct()
 				.toList();
-		idResolutionService.createIfAbsent(allIds);
+		idResolutionService.createMissing(allIds);
 	}
 
 	@Override
