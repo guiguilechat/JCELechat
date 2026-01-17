@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 
+import java.time.Instant;
+
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
+import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import jakarta.persistence.Entity;
@@ -21,7 +24,7 @@ import lombok.Setter;
  */
 @Entity(name = "EsiRemoteIdResolution")
 @Table(name = "esi_remote_idresolution", indexes = {
-		@Index(columnList = "fetch_active,fetch_priority,expires"),
+		@Index(columnList = "fetch_priority,next_fetch"),
 		@Index(columnList = "name"),
 		@Index(columnList = "category")
 })
@@ -30,7 +33,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class IdResolution extends RemoteEntity<Integer, R_post_universe_names> {
+public class IdResolution extends FetchedEntity<Integer> {
 
 	/**
 	 * category string
@@ -43,10 +46,17 @@ public class IdResolution extends RemoteEntity<Integer, R_post_universe_names> {
 	 */
 	private String name;
 
-	@Override
+	@ColumnDefault("current_timestamp")
+	private Instant nextFetch = null;
+
+	@ColumnDefault("100")
+	private int fetchPriority = 100;
+
 	public void update(R_post_universe_names data) {
 		setCategory(data.category);
 		setName(data.name);
+		setFetchPriority(0);
+		updateMetaOk();
 	}
 
 }

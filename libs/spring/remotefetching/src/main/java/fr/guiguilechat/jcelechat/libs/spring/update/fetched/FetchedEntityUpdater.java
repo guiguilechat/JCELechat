@@ -24,8 +24,12 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id extends Number, Repository extends FetchedEntityRepository<Entity, Id>, Service extends FetchedEntityService<Entity, Id, Repository>>
-		implements EntityUpdater {
+public abstract class FetchedEntityUpdater<
+		Entity extends FetchedEntity<Id>,
+		Id extends Number,
+		Repository extends FetchedEntityRepository<Entity, Id>,
+		Service extends FetchedEntityService<Entity, Id, Repository>
+	> implements EntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -114,6 +118,21 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 		setNextUpdate(null);
 	}
 
+	protected void postUpdate() {
+		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
+		Stream<EntityUpdateListener> ls = Stream.empty();
+		if (isSelfInvalidate() && this instanceof EntityUpdateListener) {
+			ls = Stream.concat(ls, Stream.of((EntityUpdateListener) this));
+		}
+		if (listeners != null && listeners.isPresent()) {
+			ls = Stream.concat(ls, listeners.get().stream());
+		}
+		ls.forEach(eul -> {
+			eul.getCacheList().stream().forEach(cacheName -> cacheManager.getCache(cacheName).clear());
+			eul.onUpdate();
+		});
+	}
+
 	/**
 	 * actually update the updatable data
 	 *
@@ -194,15 +213,15 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 	private CacheManager cacheManager;
 
 	/**
-	 * react to updates. to use it, define your own interface, and create a field
-	 * with getter to have {@link #getListeners}
+	 * reacts to updates. to use it, define your own interface, and create a field
+	 * with getter to have {@link #getListeners}, eg :
 	 *
 	 * <pre>{@code
 	 * public static interface XListener extends EntityUpdateListener {
 	 * }
 	 *
 	 * @Getter
-	 * private final Optional<List<XListener>> listeners;
+	 * private final Optional&lt;List&lt;XListener>> listeners;
 	 * }</pre>
 	 */
 	public interface EntityUpdateListener {
@@ -232,14 +251,10 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 	/**
 	 * override this to provide your own list of listeners, eg
 	 *
-	 * <pre>
-	 * {
-	 * 	&#64;code
-	 * 	&#64;Getter
-	 * 	@Lazy
-	 * 	private final Optional<List<MyListener>> listeners;
-	 * }
-	 * </pre>
+	 * <pre>{@code
+	 * @Getter @Lazy
+	 * private final Optional<List<MyListener>> listeners;
+	 * }</pre>
 	 */
 	protected Optional<? extends List<? extends EntityUpdateListener>> getListeners() {
 		return null;
@@ -248,7 +263,7 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 	/**
 	 * override this to return true, and make the class implement
 	 * {@link EntityUpdateListener}, to have its own caches invalidated on entity
-	 * update.Code to override :
+	 * update. Code to override :
 	 *
 	 * <pre>{@code
 	 * @Getter(lazy = true)
@@ -257,21 +272,6 @@ public abstract class FetchedEntityUpdater<Entity extends FetchedEntity<Id>, Id 
 	 */
 	protected boolean isSelfInvalidate() {
 		return false;
-	}
-
-	protected void postUpdate() {
-		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
-		Stream<EntityUpdateListener> ls = Stream.empty();
-		if (isSelfInvalidate() && this instanceof EntityUpdateListener) {
-			ls = Stream.concat(ls, Stream.of((EntityUpdateListener) this));
-		}
-		if (listeners != null && listeners.isPresent()) {
-			ls = Stream.concat(ls, listeners.get().stream());
-		}
-		ls.forEach(eul -> {
-			eul.getCacheList().stream().forEach(cacheName -> cacheManager.getCache(cacheName).clear());
-			eul.onUpdate();
-		});
 	}
 
 

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.update.resolve.id;
 
-import java.util.HashMap;
+import java.time.Instant;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -9,11 +10,12 @@ import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,73 +25,60 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionUpdater extends
-		RemoteEntityUpdater<IdResolution, Integer, R_post_universe_names, IdResolutionRepository, IdResolutionService> {
+		FetchedEntityUpdater<IdResolution, Integer, IdResolutionRepository, IdResolutionService> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;
 
 	@Override
-	protected Requested<R_post_universe_names> fetchData(Integer id, Map<String, String> properties) {
-		Requested<R_post_universe_names[]> ret = ESIRawPublic.INSTANCE.post_universe_names(new int[] { id },
-				properties);
-		return ret.mapBody(arr -> arr[0]);
+	public long nbToUpdate() {
+		return repo().countByNextFetchBefore(Instant.now());
 	}
 
 	@Override
-	protected Map<IdResolution, R_post_universe_names> fetchData(List<IdResolution> data) {
-		log.trace("service {} updating list of {} ids",
-				fetcherName(),
-				data.size());
-		if (data == null || data.isEmpty()) {
-			return Map.of();
+	protected boolean fetchUpdate() {
+		List<IdResolution> list = repo().findByNextFetchBeforeOrderByFetchPriorityDescNextFetchAsc(
+				Instant.now(),
+				Limit.of(1000));
+		if (list == null || list.isEmpty()) {
+			return false;
 		}
-		int[] elementsIds = data.stream().mapToInt(IdResolution::getId).toArray();
+		log.trace("{} updating {} ids", fetcherName(), list.size());
+		int[] elementsIds = list.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
+		Instant now = Instant.now();
 		int responseCode = response.getResponseCode();
-		Map<IdResolution, R_post_universe_names> ret = new HashMap<>();
 		switch (responseCode) {
 		case 200:
 			Map<Integer, R_post_universe_names> retMapById = Stream.of(
 					response.getOK())
 					.collect(Collectors.toMap(r -> r.id, r -> r));
-			for (IdResolution idr : data) {
+			List<IdResolution> updated = new ArrayList<>();
+			for (IdResolution idr : list) {
 				R_post_universe_names result = retMapById.get(idr.getId());
 				if (result != null) {
-					idr.setFetchActive(false);
-					ret.put(idr, result);
+					idr.update(result);
+					idr.setNextFetch(now.plusSeconds(getUpdate().getDelayUpdated()));
+					updated.add(idr);
 				} else {
 					log.error(
 							"fetched character affiliation for " + idr.getId() + " but got ids for "
 									+ retMapById.keySet());
-					updateNullResponse(idr);
 				}
 			}
 			break;
 		default:
 			log.error("while resolving ids, received response code {} and error {}", responseCode,
 					response.getError());
-			for (IdResolution idr : data) {
+			// spread out the requests to have the errored ones less likely with many other
+			// ones.
+			for (int i = 0; i < list.size(); i++) {
+				IdResolution idr = list.get(i);
 				idr.increaseSuccessiveErrors();
-				idr.setExpiresInRandom(idr.getSuccessiveErrors() * 60);
+				idr.setFetchPriority(1);
+				idr.setNextFetch(now.plusSeconds(i * idr.getSuccessiveErrors()));
 			}
 		}
-		return ret;
-
-	}
-
-	@Override
-	public void updateMetaOk(IdResolution data, Requested<R_post_universe_names> response) {
-		data.setFetchActive(false);
-		super.updateMetaOk(data, response);
-	}
-
-	@Override
-	protected void updateResponseOk(Map<IdResolution, R_post_universe_names> responseOk) {
-		super.updateResponseOk(responseOk);
-		if (idResolutionListeners.isPresent()) {
-			for (IdResolutionListener l : idResolutionListeners.get()) {
-				l.onNewIdResolutions(responseOk.keySet());
-			}
-		}
+		return true;
 	}
 }

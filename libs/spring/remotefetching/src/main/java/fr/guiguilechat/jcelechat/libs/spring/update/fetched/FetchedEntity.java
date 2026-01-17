@@ -2,6 +2,10 @@ package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
@@ -25,15 +29,20 @@ public abstract class FetchedEntity<IdType extends Number> {
 	private IdType id;
 
 	/** date it was created, managed by service */
+	@CreationTimestamp
+	@ColumnDefault("current_timestamp")
 	private Instant created;
 
 	/** true when the resource has already been successfully fetched */
+	@ColumnDefault("false")
 	private boolean fetched = false;
 
 	/** date of the last save, managed by service */
+	@UpdateTimestamp
 	private Instant lastUpdate;
 
 	/** number of failures we had since the last success or creation date */
+	@ColumnDefault("0")
 	private int successiveErrors = 0;
 
 	protected void resetErrors() {
