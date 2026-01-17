@@ -43,7 +43,7 @@ public class IdResolutionUpdater extends
 		if (list == null || list.isEmpty()) {
 			return false;
 		}
-		log.debug(" {} has {} ids to update", serviceName(), list.size());
+		log.debug(" {} will update {} ids, first is {}", serviceName(), list.size(), list.get(0));
 		int[] elementsIds = list.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 		Instant now = Instant.now();
@@ -58,7 +58,7 @@ public class IdResolutionUpdater extends
 				R_post_universe_names result = retMapById.get(idr.getId());
 				if (result != null) {
 					idr.update(result);
-					idr.setNextFetch(now.plusSeconds(getUpdate().getDelayUpdated()));
+					idr.setNextFetch(now.plusSeconds(3600 * 12));
 					updated.add(idr);
 				} else {
 					log.error(

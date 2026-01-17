@@ -46,6 +46,7 @@ public class CharacterAffiliation extends RemoteEntity<Integer, R_post_character
 
 	@Override
 	public void update(R_post_characters_affiliation data) {
+
 	}
 
 }

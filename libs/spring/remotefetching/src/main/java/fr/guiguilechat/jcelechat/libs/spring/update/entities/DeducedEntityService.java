@@ -147,19 +147,20 @@ public abstract class DeducedEntityService<
 		if (entityIds.isEmpty()) {
 			return storedEntities;
 		}
-		log.trace("{} getOrCreate {} entities", serviceName(), entityIds.size());
+		log.trace("  {} getOrCreate {} entities", serviceName(), entityIds.size());
 		partitionInList(entityIds)
 		    .map(repo()::findAllById)
 		    .flatMap(List::stream)
 		.forEach(r -> storedEntities.put(r.getId(), r));
 		long postRetrieved = System.currentTimeMillis();
-		log.trace(" {} getOrCreate retrieved {} stored entities in {} ms @ {}/s", serviceName(), storedEntities.size(),
+		log.trace("   {} getOrCreate retrieved {} stored entities in {} ms @ {}/s", serviceName(),
+				storedEntities.size(),
 				postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
 		List<Entity> newEntities = saveAll(entityIds.stream()
 				.filter(id -> !storedEntities.containsKey(id)).distinct()
 				.map(this::createMinimal)
 				.toList());
-		log.trace(" {} getOrCreate created {} new entities", serviceName(), newEntities.size());
+		log.trace("    {} getOrCreate created {} new entities", serviceName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
 				.collect(Collectors.toMap(DeducedEntity::getId, e -> e));
 	}

@@ -435,7 +435,7 @@ public abstract class RemoteEntityUpdater<
 		 *         not changed, or failed, are not counted.
 		 */
 		protected int update(List<Entity> data) {
-			log.trace("{} updating {} entities", serviceName(), data.size());
+			log.trace(" {} updating {} entities", serviceName(), data.size());
 			Map<Entity, Fetched> successes = fetchData(data);
 			int nbSuccess = successes.size();
 			// remove those with null Fetched : they are 304

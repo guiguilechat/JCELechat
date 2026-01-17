@@ -174,7 +174,7 @@ public abstract class DeducedEntityUpdater<
 		}
 		int maxFromRateLimit = tokensBucket().availQueries();
 		int ret = Math.min(maxFromErrors, maxFromRateLimit);
-		log.trace("{} max queries is {} from errorsRemain={} errorsMin={} errorsMax={} max={} tokensQueries={}",
+		log.trace(" {} max queries is {} from errorsRemain={} errorsMin={} errorsMax={} max={} tokensQueries={}",
 				serviceName(),
 				ret,
 				remainErrors,

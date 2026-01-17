@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation;
 
+import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -64,17 +65,16 @@ public class CharacterAffiliationUpdater extends
 				R_post_characters_affiliation result = retMap.get(caf.getId());
 				if (result != null) {
 					ret.put(caf, result);
-					log.trace(
-							"saved new affiliation for character " + caf.getId() + " , expires at " + caf.getExpires());
 				} else {
 					log.error(
-							"fetched character affiliation for " + caf.getId() + " but got ids for " + retMap.keySet());
+							" fetched character affiliation for " + caf.getId() + " but got ids for "
+									+ retMap.keySet());
 					updateNullResponse(caf);
 				}
 			}
 			break;
 		default:
-			log.error("while updating affiliations, received response code {} and error {}", responseCode,
+			log.error(" while updating affiliations, received response code {} and error {}", responseCode,
 					response.getError());
 			for (CharacterAffiliation ca : toUpdate) {
 				ca.increaseSuccessiveErrors();
@@ -96,6 +96,7 @@ public class CharacterAffiliationUpdater extends
 	@Override
 	protected void updateResponseOk(Map<CharacterAffiliation, R_post_characters_affiliation> responseOk) {
 		super.updateResponseOk(responseOk);
+		Instant nextFetch = Instant.now().plusSeconds(3600 * 12);
 		Map<Integer, AllianceInfo> idToAlliance = allianceInfoService
 				.getOrCreate(responseOk.values().stream()
 						.mapToInt(r -> r.alliance_id)
@@ -107,6 +108,9 @@ public class CharacterAffiliationUpdater extends
 						.distinct().filter(i -> i > 0)
 						.boxed().toList());
 		responseOk.entrySet().stream()
-				.forEach(e -> updateResponseOk(e.getKey(), e.getValue(), idToAlliance, idToCorporation));
+				.forEach(e -> {
+					updateResponseOk(e.getKey(), e.getValue(), idToAlliance, idToCorporation);
+					e.getKey().setExpires(nextFetch);
+				});
 	}
 }
