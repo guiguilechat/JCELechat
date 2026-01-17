@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -56,7 +56,7 @@ public abstract class DiscoveringRemoteEntityUpdater<
 	@EventListener(ApplicationReadyEvent.class)
 	public void addListInit() {
 		if (list.init != null && !list.init.isEmpty()) {
-			log.trace("{} init={}", fetcherName(), list.init);
+			log.trace("{} init={}", serviceName(), list.init);
 			createMissing(list.init);
 		}
 	}
@@ -96,11 +96,11 @@ public abstract class DiscoveringRemoteEntityUpdater<
 			// TODO also use a specific list token bucket ?
 			int nbRemainingErrors = globalErrors().availErrors();
 			if (nbRemainingErrors <= getUpdate().getErrorsMin()) {
-				log.trace("{} skip pre update as only {} remaining errors", fetcherName(), nbRemainingErrors);
+				log.trace("{} skip pre update as only {} remaining errors", serviceName(), nbRemainingErrors);
 				return;
 			}
 			long startms = System.currentTimeMillis();
-			log.trace("{} started listing new entries", fetcherName());
+			log.trace("{} started listing new entries", serviceName());
 			Map<String, String> properties = new HashMap<>();
 			if (lastListEtag != null) {
 				properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
@@ -112,14 +112,14 @@ public abstract class DiscoveringRemoteEntityUpdater<
 				switch (resp.getResponseCode()) {
 				case 200:
 					long postFetch = System.currentTimeMillis();
-					log.debug(" {} listed {} entries in {}s", fetcherName(), resp.getOK().size(),
+					log.debug(" {} listed {} entries in {}s", serviceName(), resp.getOK().size(),
 							(postFetch - startms) / 1000);
 					onNewListFetched(createMissing(resp.getOK()));
 					lastListEtag = resp.getETag();
 					listExpires = resp.getExpiresInstant();
 					break;
 				case 304:
-					log.trace(" {} received no list change", fetcherName());
+					log.trace(" {} received no list change", serviceName());
 					listExpires = resp.getExpiresInstant();
 					break;
 				default:
@@ -137,7 +137,7 @@ public abstract class DiscoveringRemoteEntityUpdater<
 				}
 			}
 			long endms = System.currentTimeMillis();
-			log.trace("{} finished listing new entries in {}s", fetcherName(), (endms - startms) / 1000);
+			log.trace("{} finished listing new entries in {}s", serviceName(), (endms - startms) / 1000);
 		}
 	}
 

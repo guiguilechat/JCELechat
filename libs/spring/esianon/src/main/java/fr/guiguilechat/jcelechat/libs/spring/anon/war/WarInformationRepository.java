@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.war;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 
 public interface WarInformationRepository extends RemoteEntityRepository<WarInformation, Integer> {
 

@@ -8,9 +8,10 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
@@ -37,7 +38,7 @@ public class AllianceInfo extends RemoteEntity<Integer, R_get_alliances_alliance
 	/**
 	 * ID of the corporation that created the alliance
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private CorporationInfo creatorCorporation;
 
 	/**
@@ -53,14 +54,14 @@ public class AllianceInfo extends RemoteEntity<Integer, R_get_alliances_alliance
 	/**
 	 * the executor corporation ID, if this alliance is not closed
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private CorporationInfo executorCorporation;
 
 	/**
 	 * Faction ID this alliance is fighting for, if this alliance is enlisted in
 	 * factional warfare
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private FactionInfo faction;
 
 	/**

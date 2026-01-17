@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

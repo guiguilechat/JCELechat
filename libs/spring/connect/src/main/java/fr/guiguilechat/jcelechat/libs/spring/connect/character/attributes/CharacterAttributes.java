@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.attributes;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

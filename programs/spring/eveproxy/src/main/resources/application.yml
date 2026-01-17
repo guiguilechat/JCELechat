@@ -4,12 +4,27 @@ gameclient:
          skip: true
 
 esi:
+   alliance:
+      info:
+         update:
+            skip: false
+   character:
+      affiliation:
+         update:
+            skip: false
+      info:
+         update:
+            skip: false
    conflicts:
       war:
          info:
             update:
                skip: true
    corporation:
+      info:
+         update:
+            skip: false
+   faction:
       info:
          update:
             skip: false

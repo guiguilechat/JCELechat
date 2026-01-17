@@ -5,12 +5,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.Function;
 
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
+import fr.guiguilechat.jcelechat.libs.spring.anon.character.information.CharacterInformation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
@@ -41,11 +44,11 @@ import lombok.ToString;
 @Setter
 public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_items_contract_id, ContractItem> {
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private ContractRegion region;
 
 	@ToString.Exclude
-	@OneToMany(mappedBy = "fetchResource", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "fetchResource", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	private List<ContractItem> items;
 
 	//
@@ -121,14 +124,16 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private boolean forCorporation;
 
 	/**
-	 * Character's corporation ID for the issuer
-	 */
-	private int issuerCorporationId;
-
-	/**
 	 * Character ID for the issuer
 	 */
-	private int issuerId;
+	@ManyToOne(fetch = FetchType.LAZY)
+	private CharacterInformation issuer;
+
+	/**
+	 * Character's corporation ID for the issuer
+	 */
+	@ManyToOne(fetch = FetchType.LAZY)
+	private CorporationInfo issuerCorporation;
 
 	/**
 	 * Price of contract (for ItemsExchange and Auctions)
@@ -172,27 +177,30 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	 */
 	private double volume;
 
-	public ContractInfo updateContract(ContractRegion region, R_get_contracts_public_region_id line) {
+	public ContractInfo updateContract(ContractRegion region,
+			R_get_contracts_public_region_id fetched,
+			Function<Integer, CharacterInformation> getCharacter,
+			Function<Integer, CorporationInfo> getCorporation) {
 		setRegion(region);
 
-		setBuyout(line.buyout);
-		setCollateral(line.collateral);
-		setDateExpired(ESIDateTools.fieldInstant(line.date_expired));
-		setDateIssued(ESIDateTools.fieldInstant(line.date_issued));
-		setDaysToComplete(line.days_to_complete);
-		setEndLocationId(line.end_location_id);
-		setForCorporation(line.for_corporation);
-		setIssuerCorporationId(line.issuer_corporation_id);
-		setIssuerId(line.issuer_id);
-		setPrice(line.price);
-		setReward(line.reward);
-		setStartLocationId(line.start_location_id);
-		setText(new ContractInfoText(null, this, line.title));
-		setType(line.type);
-		setVolume(line.volume);
+		setBuyout(fetched.buyout);
+		setCollateral(fetched.collateral);
+		setDateExpired(ESIDateTools.fieldInstant(fetched.date_expired));
+		setDateIssued(ESIDateTools.fieldInstant(fetched.date_issued));
+		setDaysToComplete(fetched.days_to_complete);
+		setEndLocationId(fetched.end_location_id);
+		setForCorporation(fetched.for_corporation);
+		setIssuerCorporation(getCorporation.apply(fetched.issuer_corporation_id));
+		setIssuer(getCharacter.apply(fetched.issuer_id));
+		setPrice(fetched.price);
+		setReward(fetched.reward);
+		setStartLocationId(fetched.start_location_id);
+		setText(new ContractInfoText(null, this, fetched.title));
+		setType(fetched.type);
+		setVolume(fetched.volume);
 
-		if (line.type != get_contracts_public_region_id_type.auction
-		    && line.type != get_contracts_public_region_id_type.item_exchange) {
+		if (fetched.type != get_contracts_public_region_id_type.auction
+		    && fetched.type != get_contracts_public_region_id_type.item_exchange) {
 			setFetched(true);
 			setFetchActive(false);
 		}

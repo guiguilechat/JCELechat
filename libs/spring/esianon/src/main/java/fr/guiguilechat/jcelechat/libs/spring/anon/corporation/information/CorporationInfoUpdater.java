@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

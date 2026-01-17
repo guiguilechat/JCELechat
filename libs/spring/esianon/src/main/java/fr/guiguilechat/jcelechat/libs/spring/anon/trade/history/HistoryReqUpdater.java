@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

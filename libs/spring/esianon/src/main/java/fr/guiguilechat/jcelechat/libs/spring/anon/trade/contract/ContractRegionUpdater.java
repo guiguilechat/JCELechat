@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -14,9 +15,13 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.anon.character.information.CharacterInformation;
+import fr.guiguilechat.jcelechat.libs.spring.anon.character.information.CharacterInformationService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
@@ -30,7 +35,13 @@ public class ContractRegionUpdater extends
 		DiscoveringRemoteEntityUpdater<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository, ContractRegionService> {
 
 	@Lazy
+	private final CharacterInformationService characterInformationService;
+
+	@Lazy
 	private final ContractInfoService contractInfoService;
+
+	@Lazy
+	private final CorporationInfoService corporationInfoService;
 
 	@Lazy
 	private final IdResolutionService idResolutionService;
@@ -98,20 +109,41 @@ public class ContractRegionUpdater extends
 				.map(c -> (int) c.start_location_id)
 				.distinct().toList());
 		long postFetchStations = System.currentTimeMillis();
-		log.trace("{} retrieved {} stations's solar systems in {} ms", fetcherName(), stationId2SolarSystem.size(),
+		log.trace("{} retrieved {} stations's solar systems in {} ms", serviceName(), stationId2SolarSystem.size(),
 				postFetchStations - preFetchStations);
 		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
 
 		// then create the new ones
+		List<Integer> referencedCharacterIds = contracts.stream()
+				.map(ci -> ci.issuer_id)
+				.distinct().toList();
+		log.trace("getting {} issuers for {} new received contracts",
+				referencedCharacterIds.size(),
+				contracts.size());
+		Function<Integer, CharacterInformation> getCharacter = characterInformationService
+				.getOrCreate(referencedCharacterIds)::get;
+
+		List<Integer> referencedCorporationIds = contracts.stream()
+				.map(ci -> ci.issuer_corporation_id)
+				.distinct().toList();
+		log.trace("getting {} issuer corporations for {} new received contracts",
+				referencedCorporationIds.size(),
+				contracts.size());
+		Function<Integer, CorporationInfo> getCorporation = corporationInfoService
+				.getOrCreate(referencedCorporationIds)::get;
+
 		List<ContractInfo> newContracts = contracts.stream()
 				.filter(c -> !existingPresent.containsKey(c.contract_id))
 				.map(c -> contractInfoService.createMinimal(c.contract_id)
-						.updateContract(region, c)
+						.updateContract(
+								region,
+								c,
+								getCharacter,
+								getCorporation)
 						.updateSystem(stationId2SolarSystem))
 				.toList();
 		idResolutionService.createMissing(
-				newContracts.stream()
-						.flatMap(ci -> Stream.of(ci.getIssuerId(), ci.getIssuerCorporationId())));
+				Stream.concat(referencedCharacterIds.stream(), referencedCorporationIds.stream()));
 		log.debug(" contract list in {}({}) : {} new, {} removed",
 				region.getRegion().getName(),
 				region.getId(),

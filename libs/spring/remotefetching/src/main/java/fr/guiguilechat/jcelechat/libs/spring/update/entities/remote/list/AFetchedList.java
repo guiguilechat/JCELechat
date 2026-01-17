@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.OneToMany;
 import lombok.Getter;

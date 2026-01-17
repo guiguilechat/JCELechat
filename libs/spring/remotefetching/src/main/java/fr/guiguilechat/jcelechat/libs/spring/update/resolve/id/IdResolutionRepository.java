@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.springframework.data.domain.Limit;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityRepository;
 
-public interface IdResolutionRepository extends FetchedEntityRepository<IdResolution, Integer> {
+public interface IdResolutionRepository extends DeducedEntityRepository<IdResolution, Integer> {
 
 	int countByNextFetchBefore(Instant max);
 

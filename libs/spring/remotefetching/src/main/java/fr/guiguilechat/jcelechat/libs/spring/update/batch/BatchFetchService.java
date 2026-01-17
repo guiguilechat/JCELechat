@@ -89,7 +89,7 @@ public abstract class BatchFetchService<
 			return true;
 		}
 
-		log.debug("{} fetching data with last etag {}", fetcherName(), lastSuccess == null ? null : lastSuccess.getEtag());
+		log.debug("{} fetching data with last etag {}", serviceName(), lastSuccess == null ? null : lastSuccess.getEtag());
 		Map<String, String> properties = new HashMap<>();
 		if (lastSuccess != null) {
 			properties.put(ConnectedImpl.IFNONEMATCH, lastSuccess.getEtag());
@@ -122,7 +122,7 @@ public abstract class BatchFetchService<
 					break;
 				default:
 					log.error("{} while fetching, received response code {} and error {}",
-					    fetcherName(), responseCode, response.getError());
+					    serviceName(), responseCode, response.getError());
 					throw new UnsupportedOperationException("case " + responseCode + " not handled for url" + response.getURL());
 				}
 			}
@@ -143,7 +143,7 @@ public abstract class BatchFetchService<
 		converted.forEach(it -> it.setFetch(fetchResult));
 		itemRepository().saveAllAndFlush(converted);
 		fetchResult.setNbItems(converted.size());
-		log.debug(" {} saving {} new items", fetcherName(), converted.size());
+		log.debug(" {} saving {} new items", serviceName(), converted.size());
 	}
 
 	protected void updateMetaOk(Fetch fetchResult, Requested<Structure> response) {

@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.transaction;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 
 public interface CharacterTransactionListRepository
     extends RemoteEntityRepository<CharacterTransactionList, Integer> {

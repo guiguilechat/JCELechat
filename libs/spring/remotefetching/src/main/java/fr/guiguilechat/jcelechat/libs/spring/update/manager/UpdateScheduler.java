@@ -40,7 +40,7 @@ jcesi.manager:
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Getter
-public class ResourceUpdaterService {
+public class UpdateScheduler {
 
 	@Lazy
 	private final ESIStatusService esiStatusService;
@@ -99,18 +99,18 @@ public class ResourceUpdaterService {
 		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))
 		    .toList();
 		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
-			Instant next = fetcherNameToNextUpdate.get(s.fetcherName());
+			Instant next = fetcherNameToNextUpdate.get(s.serviceName());
 			return next == null || !next.isAfter(start);
 		}).toList();
 		log.debug("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
 		    registeredServices.size());
 		for (EntityUpdater s : readyServices) {
-			log.debug("updating {}", s.fetcherName());
+			log.debug("updating {}", s.serviceName());
 			boolean remain = s.fetch();
 			remainService |= remain;
 			Instant serviceNextUpdate = s.nextUpdate(remain, start);
-			fetcherNameToNextUpdate.put(s.fetcherName(), serviceNextUpdate);
-			log.debug(" updated {} remaining={} next={}", s.fetcherName(), remain, format(serviceNextUpdate));
+			fetcherNameToNextUpdate.put(s.serviceName(), serviceNextUpdate);
+			log.debug(" updated {} remaining={} next={}", s.serviceName(), remain, format(serviceNextUpdate));
 			if (!esiStatusService.isOk()) {
 				log.debug("skip next services as esi status is error");
 				remainService = true;

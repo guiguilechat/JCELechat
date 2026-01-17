@@ -2,11 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedListElementAutoId;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.IFetchedListElementRepositoryAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedListElementAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.IFetchedListElementRepositoryAutoId;
 
 /**
  * Only append the new entries instead of deleting the old ones.

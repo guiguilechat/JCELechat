@@ -4,13 +4,14 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
 public interface EntityService {
 
 	/**
 	 * @return actual class name. Used to avoid proxy name when called from outside
 	 *         service
 	 */
-	default String fetcherName() {
+	default String serviceName() {
 		return getClass().getSimpleName();
 	}
 

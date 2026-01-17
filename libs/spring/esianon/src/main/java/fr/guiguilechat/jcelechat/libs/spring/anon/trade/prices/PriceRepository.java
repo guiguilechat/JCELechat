@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityRepository;
 
-public interface PriceRepository extends FetchedEntityRepository<Price, Integer> {
+public interface PriceRepository extends DeducedEntityRepository<Price, Integer> {
 
 }

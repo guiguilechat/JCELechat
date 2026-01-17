@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -26,10 +26,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class FetchedEntityService<
-		Entity extends FetchedEntity<Id>,
+public abstract class DeducedEntityService<
+		Entity extends DeducedEntity<Id>,
 		Id extends Number,
-		Repository extends FetchedEntityRepository<Entity, Id>>
+		Repository extends DeducedEntityRepository<Entity, Id>>
 	implements EntityService {
 
 	@Autowired // can't use constructor injection for generic service
@@ -147,21 +147,21 @@ public abstract class FetchedEntityService<
 		if (entityIds.isEmpty()) {
 			return storedEntities;
 		}
-		log.trace("{} createIfAbsent {} entities", fetcherName(), entityIds.size());
+		log.trace("{} getOrCreate {} entities", serviceName(), entityIds.size());
 		partitionInList(entityIds)
 		    .map(repo()::findAllById)
 		    .flatMap(List::stream)
 		.forEach(r -> storedEntities.put(r.getId(), r));
 		long postRetrieved = System.currentTimeMillis();
-		log.trace(" {} createIfAbsent retrieved {} stored entities in {} ms @ {}/s", fetcherName(), storedEntities.size(),
+		log.trace(" {} getOrCreate retrieved {} stored entities in {} ms @ {}/s", serviceName(), storedEntities.size(),
 				postRetrieved - start, storedEntities.size() * 1000 / Math.max(1, postRetrieved - start));
 		List<Entity> newEntities = saveAll(entityIds.stream()
 				.filter(id -> !storedEntities.containsKey(id)).distinct()
 				.map(this::createMinimal)
 				.toList());
-		log.trace(" {} createIfAbsent created {} new entities", fetcherName(), newEntities.size());
+		log.trace(" {} getOrCreate created {} new entities", serviceName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-				.collect(Collectors.toMap(FetchedEntity::getId, e -> e));
+				.collect(Collectors.toMap(DeducedEntity::getId, e -> e));
 	}
 
 	//

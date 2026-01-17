@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -27,8 +27,8 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -40,7 +40,7 @@ public abstract class RemoteEntityUpdater<
 		Fetched,
 		Repository extends RemoteEntityRepository<Entity, IdType>,
 		Service extends RemoteEntityService<Entity, IdType, Repository>
-	>extends FetchedEntityUpdater<Entity, IdType, Repository, Service> {
+	>extends DeducedEntityUpdater<Entity, IdType, Repository, Service> {
 
 		//
 		// updating entity data
@@ -271,7 +271,7 @@ public abstract class RemoteEntityUpdater<
 				update404(data, response);
 				return;
 			default:
-				log.warn("unhandled error code {} for service {}", response.getResponseCode(), fetcherName());
+				log.warn("unhandled error code {} for service {}", response.getResponseCode(), serviceName());
 			}
 		}
 
@@ -331,7 +331,7 @@ public abstract class RemoteEntityUpdater<
 		 */
 		protected void updateNullBody(Entity data, Requested<Fetched> response) {
 			updateMetaOk(data, response);
-			log.warn("{} received null body (204) for entity {}", fetcherName(), data.getId());
+			log.warn("{} received null body (204) for entity {}", serviceName(), data.getId());
 		}
 
 		@Override
@@ -377,7 +377,7 @@ public abstract class RemoteEntityUpdater<
 				long nbRemain = nbToUpdate();
 				long endTimeMs = System.currentTimeMillis();
 				log.debug(" {} updated {}/{} in {} ms, remain {}",
-						fetcherName(),
+						serviceName(),
 						nbSuccess, nbUpdates,
 						endTimeMs - startTimeMs, nbRemain);
 			}
@@ -388,7 +388,7 @@ public abstract class RemoteEntityUpdater<
 
 		/**
 		 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
-		 * {@link FetchedEntityService#maxAllowedQueries}
+		 * {@link DeducedEntityService#maxAllowedQueries}
 		 */
 		@Override
 		protected int maxAllowedQueries() {
@@ -400,7 +400,8 @@ public abstract class RemoteEntityUpdater<
 				maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000 - lastBatchSize);
 			}
 			int ret = Math.min(maxFromCycle, maxFromRate);
-			log.debug(" {} max={} from rate={} cycle={}", fetcherName(), ret, maxFromRate, maxFromCycle);
+			log.debug(" {} maxAllowedQueries={} from : rate={} cycle={}", serviceName(), ret, maxFromRate,
+					maxFromCycle);
 			return ret;
 		}
 
@@ -411,7 +412,7 @@ public abstract class RemoteEntityUpdater<
 		 * {@link #maxAllowedQueries()}
 		 * </p>
 		 *
-		 * @return the next entities that are to be updated
+		 * @return the entities that are to be updated in the next cycle
 		 */
 		protected List<Entity> listToUpdate() {
 			lastBatchSize = maxAllowedQueries();
@@ -419,7 +420,10 @@ public abstract class RemoteEntityUpdater<
 					? List.of()
 					: repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant.now(),
 							Limit.of(lastBatchSize));
-			log.trace(" {} has {} entities to update with max batch size {}", fetcherName(), ret.size(), lastBatchSize);
+			log.debug(" {} will update {} entities with max batch size {}",
+					serviceName(),
+					ret.size(),
+					lastBatchSize);
 			return ret;
 		}
 
@@ -431,7 +435,7 @@ public abstract class RemoteEntityUpdater<
 		 *         not changed, or failed, are not counted.
 		 */
 		protected int update(List<Entity> data) {
-			log.trace("{} updating {} entities", fetcherName(), data.size());
+			log.trace("{} updating {} entities", serviceName(), data.size());
 			Map<Entity, Fetched> successes = fetchData(data);
 			int nbSuccess = successes.size();
 			// remove those with null Fetched : they are 304
@@ -440,7 +444,7 @@ public abstract class RemoteEntityUpdater<
 				updateResponseOk(successes);
 			}
 			saveAll(data);
-			log.trace(" {} updated {} entities with {} changes", fetcherName(), data.size(), successes.size());
+			log.trace(" {} updated {} entities with {} changes", serviceName(), data.size(), successes.size());
 			return nbSuccess;
 		}
 

@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.batch;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.batch;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,12 +26,12 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public abstract class AResourceBatchUpdater<
-		Entity extends FetchedEntity<Id>,
+		Entity extends DeducedEntity<Id>,
 		Id extends Number,
 		Fetched,
-		Repository extends FetchedEntityRepository<Entity, Id>,
-		Service extends FetchedEntityService<Entity, Id, Repository>>
-		extends FetchedEntityUpdater<Entity, Id, Repository, Service> {
+		Repository extends DeducedEntityRepository<Entity, Id>,
+		Service extends DeducedEntityService<Entity, Id, Repository>>
+		extends DeducedEntityUpdater<Entity, Id, Repository, Service> {
 
 	@Override
 	public long nbToUpdate() {
@@ -53,7 +53,7 @@ public abstract class AResourceBatchUpdater<
 	protected boolean fetchUpdate() {
 		int remainErrors = globalErrors().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
-			log.trace("{} skip updates as only {} remaining errors", fetcherName(), remainErrors);
+			log.trace("{} skip updates as only {} remaining errors", serviceName(), remainErrors);
 			return false;
 		}
 		boolean updated = false;
@@ -74,7 +74,7 @@ public abstract class AResourceBatchUpdater<
 				nextUpdate = resp.getExpiresInstant();
 				long endTimeMs = System.currentTimeMillis();
 				log.debug("{} updated {} values in {} ms",
-				    fetcherName(),
+				    serviceName(),
 				    fetched.size(),
 				    endTimeMs - startTimeMs);
 				updated = true;
@@ -86,7 +86,7 @@ public abstract class AResourceBatchUpdater<
 
 		} else {
 			log.warn("update {} received null list of entities",
-			    fetcherName());
+			    serviceName());
 		}
 		return updated;
 	}
@@ -101,7 +101,7 @@ public abstract class AResourceBatchUpdater<
 
 	/** called when the list has been updated */
 	protected void updateFromFetched(List<Fetched> list) {
-		log.debug(" {} listed {} new entries", fetcherName(), list.size());
+		log.debug(" {} listed {} new entries", serviceName(), list.size());
 		Map<Id, Entity> idToEntities = service().getOrCreate(list.stream().map(this::extractId).toList());
 		updateEntities(list.stream().collect(Collectors.toMap(e -> idToEntities.get(extractId(e)), e -> e)));
 		saveAll(idToEntities.values());

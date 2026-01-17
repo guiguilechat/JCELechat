@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.lp.corp;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 
 public interface LPCorporationRepository extends RemoteEntityRepository<LPCorporation, Integer> {
 

@@ -6,7 +6,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
 import jakarta.persistence.Entity;
@@ -33,7 +33,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class IdResolution extends FetchedEntity<Integer> {
+public class IdResolution extends DeducedEntity<Integer> {
 
 	/**
 	 * category string

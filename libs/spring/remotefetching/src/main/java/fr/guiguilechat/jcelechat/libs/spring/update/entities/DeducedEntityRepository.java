@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
-public interface FetchedEntityRepository<Entity extends FetchedEntity<Id>, Id extends Number>
+public interface DeducedEntityRepository<Entity extends DeducedEntity<Id>, Id extends Number>
 extends JpaRepository<Entity, Id> {
 
 	/**

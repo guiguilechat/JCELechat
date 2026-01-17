@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 
 import java.time.Instant;
 
@@ -14,16 +14,16 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * abstract class that represent a local representation of a fetched
- * information. The fetched information can be an aggregation, meaning there is
- * no 1-1 link between this entity and the fetched(remote) one.
+ * abstract class that represent a local deduced information.
+ * The information can be an retrieved as an aggregation, meaning there is
+ * no 1-1 link between the deduced entity and the information source.
  */
 @MappedSuperclass
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class FetchedEntity<IdType extends Number> {
+public abstract class DeducedEntity<IdType extends Number> {
 
 	@Id
 	private IdType id;

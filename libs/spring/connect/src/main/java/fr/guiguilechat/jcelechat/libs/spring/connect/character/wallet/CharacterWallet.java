@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;

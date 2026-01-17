@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.assets;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

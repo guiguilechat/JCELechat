@@ -11,7 +11,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.batch.AResourceBatchUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.batch.AResourceBatchUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import lombok.RequiredArgsConstructor;
 

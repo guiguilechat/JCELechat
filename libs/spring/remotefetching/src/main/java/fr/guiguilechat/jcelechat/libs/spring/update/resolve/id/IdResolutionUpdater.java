@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionUpdater extends
-		FetchedEntityUpdater<IdResolution, Integer, IdResolutionRepository, IdResolutionService> {
+		DeducedEntityUpdater<IdResolution, Integer, IdResolutionRepository, IdResolutionService> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;
@@ -43,7 +43,7 @@ public class IdResolutionUpdater extends
 		if (list == null || list.isEmpty()) {
 			return false;
 		}
-		log.trace("{} updating {} ids", fetcherName(), list.size());
+		log.debug(" {} has {} ids to update", serviceName(), list.size());
 		int[] elementsIds = list.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 		Instant now = Instant.now();
@@ -66,6 +66,11 @@ public class IdResolutionUpdater extends
 									+ retMapById.keySet());
 				}
 			}
+			if (!updated.isEmpty() && idResolutionListeners != null && idResolutionListeners.isPresent()) {
+				for (IdResolutionListener idrl : idResolutionListeners.get()) {
+					idrl.onNewIdResolutions(updated);
+				}
+			}
 			break;
 		default:
 			log.error("while resolving ids, received response code {} and error {}", responseCode,
@@ -79,6 +84,7 @@ public class IdResolutionUpdater extends
 				idr.setNextFetch(now.plusSeconds(i * idr.getSuccessiveErrors()));
 			}
 		}
+		repo().saveAllAndFlush(list);
 		return true;
 	}
 }

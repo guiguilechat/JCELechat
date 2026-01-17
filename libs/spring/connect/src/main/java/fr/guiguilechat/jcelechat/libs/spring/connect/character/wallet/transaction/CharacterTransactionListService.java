@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.transacti
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
 import lombok.RequiredArgsConstructor;
 
 @Service

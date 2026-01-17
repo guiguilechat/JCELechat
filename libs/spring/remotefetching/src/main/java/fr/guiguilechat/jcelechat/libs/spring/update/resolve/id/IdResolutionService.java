@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class IdResolutionService
-		extends FetchedEntityService<IdResolution, Integer, IdResolutionRepository> {
+		extends DeducedEntityService<IdResolution, Integer, IdResolutionRepository> {
 
 	@Override
 	protected IdResolution create(Integer entityId) {

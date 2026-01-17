@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.list;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list;
 
 import org.springframework.data.repository.NoRepositoryBean;
 

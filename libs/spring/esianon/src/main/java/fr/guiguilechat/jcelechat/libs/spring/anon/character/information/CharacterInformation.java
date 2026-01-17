@@ -7,18 +7,14 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
+import fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation.CharacterAffiliation;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.Index;
-import jakarta.persistence.Lob;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -39,7 +35,11 @@ import lombok.Setter;
 @Setter
 public class CharacterInformation extends RemoteEntity<Integer, R_get_characters_character_id> {
 
-	@ManyToOne
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "id")
+	private CharacterAffiliation affiliation = null;
+
+	@ManyToOne(fetch = FetchType.LAZY)
 	private AllianceInfo alliance;
 
 	/**
@@ -55,7 +55,7 @@ public class CharacterInformation extends RemoteEntity<Integer, R_get_characters
 	/**
 	 * The character's corporation ID
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private CorporationInfo corporation;
 
 	/**
@@ -68,7 +68,7 @@ public class CharacterInformation extends RemoteEntity<Integer, R_get_characters
 	 * ID of the faction the character is fighting for, if the character is enlisted
 	 * in Factional Warfare
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private FactionInfo faction;
 
 	/**
@@ -76,6 +76,10 @@ public class CharacterInformation extends RemoteEntity<Integer, R_get_characters
 	 */
 	@Enumerated(EnumType.STRING)
 	private get_characters_character_id_gender gender;
+
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "id")
+	private IdResolution idResolution = null;
 
 	/**
 	 * name string

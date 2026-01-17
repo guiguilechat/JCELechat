@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.generic;
 
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 
 public interface IConnectedCharDataService<
 			Entity extends RemoteEntity<Integer, Fetched>,

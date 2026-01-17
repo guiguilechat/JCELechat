@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 
 public interface HistoryReqRepository extends RemoteEntityRepository<HistoryReq, Long> {
 

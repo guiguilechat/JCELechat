@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

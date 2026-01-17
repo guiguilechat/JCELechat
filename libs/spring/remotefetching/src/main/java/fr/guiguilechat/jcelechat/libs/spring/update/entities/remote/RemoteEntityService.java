@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
 
 import java.time.Instant;
 import java.util.stream.StreamSupport;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.FetchedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -24,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @NoArgsConstructor
 public abstract class RemoteEntityService<Entity extends RemoteEntity<IdType, ?>, IdType extends Number, Repository extends RemoteEntityRepository<Entity, IdType>>
-		extends FetchedEntityService<Entity, IdType, Repository> {
+		extends DeducedEntityService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save

@@ -8,12 +8,16 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.fetched.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -41,7 +45,7 @@ public class CorporationInfo extends RemoteEntity<Integer, R_get_corporations_co
 	/**
 	 * ID of the alliance that corporation is a member of, if any
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private AllianceInfo alliance;
 	/**
 	 * ceo_id integer
@@ -56,10 +60,11 @@ public class CorporationInfo extends RemoteEntity<Integer, R_get_corporations_co
 	 */
 	@Lob
 	private String description;
+
 	/**
 	 * faction_id integer
 	 */
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private FactionInfo faction;
 	/**
 	 * date_founded string
@@ -69,6 +74,10 @@ public class CorporationInfo extends RemoteEntity<Integer, R_get_corporations_co
 	 * home_station_id integer
 	 */
 	private int homeStationId;
+
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "id")
+	private IdResolution idResolution = null;
 	/**
 	 * member_count integer
 	 */

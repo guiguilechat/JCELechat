@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.update.manager.ResourceUpdaterService;
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.UpdateScheduler;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ManagerConfigLogger {
 
-	private final ResourceUpdaterService s;
+	private final UpdateScheduler s;
 
 	@PostConstruct
 	protected void debugConfig() {
@@ -34,14 +34,14 @@ public class ManagerConfigLogger {
 			if (s.shouldSkip(l)) {
 				inactive.add(l);
 			} else {
-				log.trace(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
+				log.trace(" {} : {}={}", l.serviceName(), l.propertiesPrefix(), l.propertiesAsString());
 			}
 			propertiesPrefixToServices.computeIfAbsent(l.propertiesPrefix(), _ -> new ArrayList<>())
-					.add(l.fetcherName());
+					.add(l.serviceName());
 		}
 		log.trace("{} inactive services :", inactive.size());
 		for (EntityUpdater l : inactive) {
-			log.trace(" {} : {}={}", l.fetcherName(), l.propertiesPrefix(), l.propertiesAsString());
+			log.trace(" {} : {}={}", l.serviceName(), l.propertiesPrefix(), l.propertiesAsString());
 
 		}
 		for (Entry<String, List<String>> e : propertiesPrefixToServices.entrySet()) {

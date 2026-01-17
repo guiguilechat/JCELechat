@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.fetched;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 
 import java.time.Instant;
 import java.util.List;
@@ -24,11 +24,11 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class FetchedEntityUpdater<
-		Entity extends FetchedEntity<Id>,
+public abstract class DeducedEntityUpdater<
+		Entity extends DeducedEntity<Id>,
 		Id extends Number,
-		Repository extends FetchedEntityRepository<Entity, Id>,
-		Service extends FetchedEntityService<Entity, Id, Repository>
+		Repository extends DeducedEntityRepository<Entity, Id>,
+		Service extends DeducedEntityService<Entity, Id, Repository>
 	> implements EntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service
@@ -175,7 +175,7 @@ public abstract class FetchedEntityUpdater<
 		int maxFromRateLimit = tokensBucket().availQueries();
 		int ret = Math.min(maxFromErrors, maxFromRateLimit);
 		log.trace("{} max queries is {} from errorsRemain={} errorsMin={} errorsMax={} max={} tokensQueries={}",
-				fetcherName(),
+				serviceName(),
 				ret,
 				remainErrors,
 				errorsMin,
