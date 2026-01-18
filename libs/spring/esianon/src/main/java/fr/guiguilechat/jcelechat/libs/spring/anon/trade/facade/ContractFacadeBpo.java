@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
@@ -103,9 +102,7 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
-		return contractInfoRepository.aggregatedSales(typeId, from, me, te).stream()
-				.map(this::convert)
-				.toList();
+		return contractInfoRepository.aggregatedSales(typeId, from, me, te);
 	}
 
 	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
@@ -114,10 +111,13 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit);
 		Map<Integer, String> typeId2Name = typeService.ofId(
-				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
-				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit)
+				fetched.stream()
+						.map(arr -> ((Number) arr[0]).intValue())
+						.toList())
 				.stream()
+				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId,
+						(Function<? super Type, ? extends String>) Type::name));
+		List<AggregatedTypeHistory> ret = fetched.stream()
 				.map(arr -> {
 					int typeId = ((Number) arr[0]).intValue();
 					int me = ((Number) arr[1]).intValue();
@@ -129,7 +129,7 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 						typeName = "unknown " + typeId;
 					}
 					typeName += " " + me + "/" + te;
-					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, totalValue,
 							totalQuantity);
 					line.setMe(me);
 					line.setTe(te);

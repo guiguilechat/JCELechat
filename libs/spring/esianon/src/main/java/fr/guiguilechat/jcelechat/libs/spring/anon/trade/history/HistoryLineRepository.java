@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.IFetchedListElementRepositoryAutoId;
 
 public interface HistoryLineRepository extends IFetchedListElementRepositoryAutoId<HistoryReq, HistoryLine> {
@@ -65,10 +66,10 @@ group by
 	 */
 	@Query("""
 select
-	sum(average*volume) totalvalue,
-	sum(volume) totalQuantity,
 	line.fetchResource.type.id typeId,
-	line.fetchResource.type.name typeName
+	line.fetchResource.type.name typeName,
+	sum(average*volume) totalvalue,
+	sum(volume) totalQuantity
 from
 	EsiTradeHistoryLine line
 where
@@ -80,6 +81,7 @@ group by
 order by
  	sum(average*volume) desc
 limit :limit
-""") List<Object[]> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
+""")
+	List<AggregatedTypeHistory> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
 
 }

@@ -107,10 +107,13 @@ public class ContractFacadeNonBp {
 		long start = System.currentTimeMillis();
 		List<Object[]> fetched = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit);
 		Map<Integer, String> typeId2Name = typeService.ofId(
-		    fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
-		    .collect(Collectors.toMap(Type::getId, Type::getName));
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit)
-		    .stream()
+				fetched.stream()
+						.map(arr -> ((Number) arr[0]).intValue())
+						.toList())
+				.stream()
+				.collect(Collectors.toMap(Type::getId,
+						Type::name));
+		List<AggregatedTypeHistory> ret = fetched.stream()
 		    .map(arr -> {
 			    int typeId = ((Number) arr[0]).intValue();
 			    double totalValue = ((Number) arr[1]).doubleValue();
@@ -119,7 +122,7 @@ public class ContractFacadeNonBp {
 			    if (typeName == null) {
 						typeName="unknown "+typeId;
 					}
-			    return new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+					return new AggregatedTypeHistory(typeId, typeName, totalValue,
 			        totalQuantity);
 		    })
 		    .toList();

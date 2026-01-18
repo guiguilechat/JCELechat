@@ -20,7 +20,6 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
@@ -159,7 +158,7 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 						typeName = "unknown " + typeId;
 					}
 					typeName += me + "/" + te;
-					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, days, totalValue,
+					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, totalValue,
 							totalRuns);
 					line.setMe(me);
 					line.setTe(te);

@@ -217,7 +217,7 @@ public class TypeHTMLController {
 		}
 
 		if (t.isPublished() && t.getMarketGroup() != null) {
-			model.addAttribute("marketUrl", marketHtmlController.uri(t).toString());
+			model.addAttribute("marketUrl", marketHtmlController.typeUrl(t));
 			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 
 			log.trace("fetching jitabo");

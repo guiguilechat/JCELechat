@@ -81,16 +81,7 @@ public class HistoryLineService {
 		var now = Instant.now().truncatedTo(ChronoUnit.DAYS);
 		var minDay = now.minus(days, ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit).stream()
-				.map(arr -> {
-					int typeId = ((Number)arr[2]).intValue();
-					String typeName = (String) arr[3];
-					double totalValue =  ((Number) arr[0]).doubleValue();
-					long totalQuantity = ((Number) arr[1]).longValue();
-					return new AggregatedTypeHistory(typeId, typeName, days,totalValue,
-							totalQuantity);
-				})
-				.toList();
+		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;

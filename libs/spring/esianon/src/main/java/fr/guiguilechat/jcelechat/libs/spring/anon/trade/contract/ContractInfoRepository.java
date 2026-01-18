@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
@@ -54,7 +55,7 @@ where
 	and removedBefore>=:from
 group by date_trunc('day', removedBefore)
 """)
-	List<Object[]> aggregatedSales(int typeId, Instant from, int me, int te);
+	List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te);
 
 	/** open contracts providing only given type and iscopy, me, te */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
@@ -117,7 +118,7 @@ select
 	sum(price) totalValue,
 	sum(offeredQuantity) totalQuantity
 from
-	EsiTradeContractInfo
+	#{#entityName}
 where
 	completed
 	and offersItem

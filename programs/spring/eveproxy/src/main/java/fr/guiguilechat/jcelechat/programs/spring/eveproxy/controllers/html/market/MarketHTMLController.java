@@ -105,7 +105,8 @@ public class MarketHTMLController {
 	private final TypeService typeService;
 
 	@GetMapping("/{typeId}")
-	public String getTypeMarket(Model model, @PathVariable int typeId,
+	public String getTypeMarket(Model model,
+			@PathVariable int typeId,
 			Optional<Integer> me,
 			Optional<Integer> te,
 			Optional<Boolean> copy) {
@@ -177,7 +178,7 @@ public class MarketHTMLController {
 			model.addAttribute("sos", sos);
 		}
 		if (meValue > 0 || teValue > 0 || copyValue) {
-			model.addAttribute("baseTypeUrl", uri(typeId).toString());
+			model.addAttribute("baseTypeUrl", typeUrl(typeId));
 			model.addAttribute("historyChartUrl",
 					historyRestController.uri(typeId, copyValue, meValue, teValue).toString());
 		}
@@ -206,41 +207,40 @@ public class MarketHTMLController {
 		return "market/type";
 	}
 
-	public URI uri(int typeId) {
+	public String typeUrl(int typeId) {
 		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, null, null, null).build()
-				.toUri();
+				.fromMethodName(getClass(), "getTypeMarket", null, typeId, null, null, null).build()
+				.toUri()
+				.toString()
+		;
 	}
 
-	public URI uri(Type type) {
-		return uri(type.getId());
-	}
-
-	public URI uri(int typeId, int me, int te, boolean copy) {
-		return MvcUriComponentsBuilder
-				.fromMethodName(getClass(), "getTypeMarket", null, "" + typeId, me, te, copy).build()
-				.toUri();
-	}
-
-	public URI uri(Type type, int me, int te, boolean copy) {
-		return uri(type.getId(), me, te, copy);
+	public String typeUrl(Type type) {
+		return typeUrl(type.getId());
 	}
 
 	public String typeUrl(int typeId, int me, int te, boolean copy) {
-		return uri(typeId, me, te, copy).toString();
+		return MvcUriComponentsBuilder
+				.fromMethodName(getClass(), "getTypeMarket", null, typeId, me, te, copy).build()
+				.toUri()
+				.toString();
+	}
+
+	public String typeUrl(Type type, int me, int te, boolean copy) {
+		return typeUrl(type.getId(), me, te, copy);
 	}
 
 	public static record LinkedMarketType(String name, String url) {
 	}
 
 	public LinkedMarketType linkedMarketType(Type type) {
-		return new LinkedMarketType(type.name(), uri(type).toString());
+		return new LinkedMarketType(type.name(), typeUrl(type));
 	}
 
 	public LinkedMarketType linkedMarketType(Type type, int me, int te, boolean copy) {
 		String name = type == null ? "null" : type.name();
 		return new LinkedMarketType(name + (copy ? "(cp)" : "") + "  " + me + "/" + te,
-				uri(type, me, te, copy).toString());
+				typeUrl(type, me, te, copy).toString());
 	}
 
 	public LinkedMarketType linkedMarketType(Type type, ContractTypeVariant ctv) {
@@ -286,7 +286,7 @@ public class MarketHTMLController {
 		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
 				limitValue);
 		for (AggregatedTypeHistory line : regionalSales) {
-			line.setUrl(uri(line.getTypeId()).toString());
+			line.setUrl(typeUrl(line.getTypeId()));
 		}
 		model.addAttribute("regionalMarketSales", regionalSales);
 
@@ -294,7 +294,7 @@ public class MarketHTMLController {
 				periodValue.getDays(),
 				limitValue);
 		for (AggregatedTypeHistory line : unresearchedContractSales) {
-			line.setUrl(uri(line.getTypeId()).toString());
+			line.setUrl(typeUrl(line.getTypeId()));
 		}
 		model.addAttribute("unresearchedContractSales", unresearchedContractSales);
 
@@ -302,7 +302,7 @@ public class MarketHTMLController {
 				periodValue.getDays(),
 				limitValue);
 		for (AggregatedTypeHistory line : bpoContractSales) {
-			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), false).toString());
+			line.setUrl(typeUrl(line.getTypeId(), line.getMe(), line.getTe(), false));
 		}
 		model.addAttribute("bpoContractSales", bpoContractSales);
 
@@ -310,11 +310,9 @@ public class MarketHTMLController {
 				periodValue.getDays(),
 				limitValue);
 		for (AggregatedTypeHistory line : bpcContractSales) {
-			line.setUrl(uri(line.getTypeId(), line.getMe(), line.getTe(), true).toString());
+			line.setUrl(typeUrl(line.getTypeId(), line.getMe(), line.getTe(), true));
 		}
 		model.addAttribute("bpcContractSales", bpcContractSales);
-
-		// TODO add period most sold for contracts (unresearched, BPO, BPC)
 		return "market/index";
 	}
 

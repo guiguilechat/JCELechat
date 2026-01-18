@@ -9,6 +9,7 @@ import lombok.Setter;
  * Common representation of historical trades for regional markets and contracts
  */
 @RequiredArgsConstructor
+
 @Getter
 @Setter
 public class AggregatedTypeHistory {
@@ -22,8 +23,6 @@ public class AggregatedTypeHistory {
 	 * representation of the item traded.
 	 */
 	private final String typeName;
-
-	private final int days;
 
 	private final double valueSold;
 
