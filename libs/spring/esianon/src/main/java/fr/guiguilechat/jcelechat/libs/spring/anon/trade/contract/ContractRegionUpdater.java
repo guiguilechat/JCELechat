@@ -85,7 +85,8 @@ public class ContractRegionUpdater extends
 	protected List<ContractInfo> createForRegion(ContractRegion region,
 			List<R_get_contracts_public_region_id> contracts,
 			Map<Integer, ContractInfo> existingPresent) {
-		log.debug("contracts list {}({}) : received {}, stored active {}", region.getRegion().getName(), region.getId(),
+		log.debug(" contracts list {}({}) : received {}, stored active {}", region.getRegion().getName(),
+				region.getId(),
 				contracts.size(),
 				existingPresent.size());
 

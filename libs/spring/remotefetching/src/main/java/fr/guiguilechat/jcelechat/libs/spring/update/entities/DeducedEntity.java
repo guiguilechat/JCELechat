@@ -39,6 +39,7 @@ public abstract class DeducedEntity<IdType extends Number> {
 
 	/** date of the last save, managed by service */
 	@UpdateTimestamp
+	@ColumnDefault("null")
 	private Instant lastUpdate;
 
 	/** number of failures we had since the last success or creation date */

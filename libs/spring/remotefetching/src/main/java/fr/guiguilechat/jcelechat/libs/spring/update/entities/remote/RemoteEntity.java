@@ -40,16 +40,20 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Deduc
 	private int fetchPriority = 1;
 
 	/** true if we need to keep it up to date */
+	@ColumnDefault("true")
 	private boolean fetchActive = true;
 
 	/** returned etag value of the last successful update */
+	@ColumnDefault("null")
 	private String lastEtag;
 
 	/** date the last successful update had its remote value changed */
+	@ColumnDefault("null")
 	private Instant lastModified;
 
 	/** set to true once a 404 is returned */
-	private boolean removed;
+	@ColumnDefault("false")
+	private boolean removed = false;
 
 	public void setExpiresIn(int seconds) {
 		setExpires(Instant.now().plusSeconds(seconds));

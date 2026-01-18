@@ -43,7 +43,7 @@ public class IdResolutionUpdater extends
 		if (list == null || list.isEmpty()) {
 			return false;
 		}
-		log.debug(" {} will update {} ids, first is {}", serviceName(), list.size(), list.get(0));
+		log.debug(" {} will update {} ids, first is {}", serviceName(), list.size(), list.get(0).getId());
 		int[] elementsIds = list.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
 		Instant now = Instant.now();

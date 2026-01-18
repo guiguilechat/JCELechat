@@ -107,7 +107,11 @@ public abstract class DeducedEntityUpdater<
 		if (fetchUpdate()) {
 			postUpdate();
 		}
-		return nbToUpdate() > 0;
+		long nbToUpdate = nbToUpdate();
+		log.trace("  {} has {} to update",
+				serviceName(),
+				nbToUpdate);
+		return nbToUpdate > 0;
 	}
 
 	/**

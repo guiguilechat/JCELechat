@@ -104,6 +104,7 @@ public class CorporationInfo extends RemoteEntity<Integer, R_get_corporations_co
 	/**
 	 * url string
 	 */
+	@Lob
 	private String url;
 	/**
 	 * war_eligible boolean

@@ -25,10 +25,10 @@ import lombok.Setter;
 @SuppressWarnings("serial")
 @Entity(name = "EsiTradeMarketLine")
 @Table(name = "esi_trade_market_line", indexes = {
-		@Index(columnList = "fetch_resource_id"),
-		@Index(columnList = "locationId"),
-		@Index(columnList = "solarSystemId"),
-		@Index(columnList = "typeId, isBuyOrder")
+		@Index(columnList = "locationId, typeId, isBuyOrder"), // find by station
+		@Index(columnList = "solarSystemId"), // find by system
+		@Index(columnList = "fetch_resource_id"), // find by region
+		@Index(columnList = "typeId, isBuyOrder") // find globally
 })
 @AllArgsConstructor
 @NoArgsConstructor

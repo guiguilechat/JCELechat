@@ -109,14 +109,21 @@ public abstract class DeducedEntityService<
 	 */
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public Set<Id> createMissing(List<Id> entityIds) {
+		if (entityIds == null || entityIds.isEmpty()) {
+			return Set.of();
+		}
 		Set<Id> toCreate = new HashSet<>(entityIds);
 		partitionInList(entityIds)
-		.map(repo()::findExistingIds)
-		.flatMap(List::stream)
-		.forEach(toCreate::remove);
+				.map(repo()::findExistingIds)
+				.flatMap(List::stream)
+				.forEach(toCreate::remove);
 		saveAll(toCreate.stream()
 				.map(this::createMinimal)
 				.toList());
+		log.trace("  {} created {} entities when requested to ensure {}",
+				serviceName(),
+				toCreate.size(),
+				entityIds.size());
 		return toCreate;
 	}
 
