@@ -23,7 +23,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class DeducedEntity<IdType extends Number> {
+public abstract class LocalEntity<IdType extends Number> {
 
 	@Id
 	private IdType id;

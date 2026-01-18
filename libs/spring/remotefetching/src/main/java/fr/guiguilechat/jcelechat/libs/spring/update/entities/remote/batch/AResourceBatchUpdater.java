@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,12 +26,12 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public abstract class AResourceBatchUpdater<
-		Entity extends DeducedEntity<Id>,
+		Entity extends LocalEntity<Id>,
 		Id extends Number,
 		Fetched,
-		Repository extends DeducedEntityRepository<Entity, Id>,
-		Service extends DeducedEntityService<Entity, Id, Repository>>
-		extends DeducedEntityUpdater<Entity, Id, Repository, Service> {
+		Repository extends LocalEntityRepository<Entity, Id>,
+		Service extends LocalEntityService<Entity, Id, Repository>>
+		extends LocalEntityUpdater<Entity, Id, Repository, Service> {
 
 	@Override
 	public long nbToUpdate() {

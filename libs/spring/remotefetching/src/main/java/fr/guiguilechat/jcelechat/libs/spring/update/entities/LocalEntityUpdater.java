@@ -24,11 +24,11 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class DeducedEntityUpdater<
-		Entity extends DeducedEntity<Id>,
+public abstract class LocalEntityUpdater<
+		Entity extends LocalEntity<Id>,
 		Id extends Number,
-		Repository extends DeducedEntityRepository<Entity, Id>,
-		Service extends DeducedEntityService<Entity, Id, Repository>
+		Repository extends LocalEntityRepository<Entity, Id>,
+		Service extends LocalEntityService<Entity, Id, Repository>
 	> implements EntityUpdater {
 
 	@Autowired // can't use constructor injection for generic service

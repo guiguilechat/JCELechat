@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices.PriceUpdater.PriceListener;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
-public class PriceService extends DeducedEntityService<Price, Integer, PriceRepository>
+public class PriceService extends LocalEntityService<Price, Integer, PriceRepository>
 		implements PriceListener {
 
 	@Lazy

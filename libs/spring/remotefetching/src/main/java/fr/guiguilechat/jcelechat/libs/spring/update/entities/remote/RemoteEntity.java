@@ -4,7 +4,7 @@ import java.time.Instant;
 
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntity;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,7 +25,7 @@ import lombok.Setter;
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class RemoteEntity<IdType extends Number, Fetched> extends DeducedEntity<IdType> {
+public abstract class RemoteEntity<IdType extends Number, Fetched> extends LocalEntity<IdType> {
 
 	/** date the last successful update expires at */
 	private Instant expires;

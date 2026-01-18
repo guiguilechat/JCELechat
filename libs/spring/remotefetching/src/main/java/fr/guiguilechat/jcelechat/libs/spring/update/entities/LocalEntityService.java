@@ -26,10 +26,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class DeducedEntityService<
-		Entity extends DeducedEntity<Id>,
+public abstract class LocalEntityService<
+		Entity extends LocalEntity<Id>,
 		Id extends Number,
-		Repository extends DeducedEntityRepository<Entity, Id>>
+		Repository extends LocalEntityRepository<Entity, Id>>
 	implements EntityService {
 
 	@Autowired // can't use constructor injection for generic service
@@ -169,7 +169,7 @@ public abstract class DeducedEntityService<
 				.toList());
 		log.trace("    {} getOrCreate created {} new entities", serviceName(), newEntities.size());
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-				.collect(Collectors.toMap(DeducedEntity::getId, e -> e));
+				.collect(Collectors.toMap(LocalEntity::getId, e -> e));
 	}
 
 	//

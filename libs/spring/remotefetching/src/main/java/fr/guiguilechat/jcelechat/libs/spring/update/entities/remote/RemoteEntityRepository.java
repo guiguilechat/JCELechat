@@ -8,11 +8,11 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityRepository;
 
 @NoRepositoryBean
 public interface RemoteEntityRepository<Entity extends RemoteEntity<Id, ?>, Id extends Number>
-    extends DeducedEntityRepository<Entity, Id> {
+    extends LocalEntityRepository<Entity, Id> {
 
 	List<Entity> findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant now, Limit limit);
 

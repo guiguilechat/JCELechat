@@ -27,8 +27,8 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -40,7 +40,7 @@ public abstract class RemoteEntityUpdater<
 		Fetched,
 		Repository extends RemoteEntityRepository<Entity, IdType>,
 		Service extends RemoteEntityService<Entity, IdType, Repository>
-	>extends DeducedEntityUpdater<Entity, IdType, Repository, Service> {
+	>extends LocalEntityUpdater<Entity, IdType, Repository, Service> {
 
 		//
 		// updating entity data
@@ -388,7 +388,7 @@ public abstract class RemoteEntityUpdater<
 
 		/**
 		 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
-		 * {@link DeducedEntityService#maxAllowedQueries}
+		 * {@link LocalEntityService#maxAllowedQueries}
 		 */
 		@Override
 		protected int maxAllowedQueries() {

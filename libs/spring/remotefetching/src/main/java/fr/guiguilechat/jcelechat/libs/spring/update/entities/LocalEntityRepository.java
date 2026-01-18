@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
-public interface DeducedEntityRepository<Entity extends DeducedEntity<Id>, Id extends Number>
+public interface LocalEntityRepository<Entity extends LocalEntity<Id>, Id extends Number>
 extends JpaRepository<Entity, Id> {
 
 	/**

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.DeducedEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.resolve.name")
 public class IdResolutionUpdater extends
-		DeducedEntityUpdater<IdResolution, Integer, IdResolutionRepository, IdResolutionService> {
+		LocalEntityUpdater<IdResolution, Integer, IdResolutionRepository, IdResolutionService> {
 
 	@Lazy
 	private final Optional<List<IdResolutionListener>> idResolutionListeners;
