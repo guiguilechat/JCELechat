@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
@@ -43,7 +43,7 @@ select
 	min(price/offeredQuantity) lowestPrice,
 	count(distinct region) regions
 from
-	EsiTradeContractInfo contract
+	#{#entityName} contract
 where
 	completed
 	and offersItem
@@ -55,7 +55,7 @@ where
 	and removedBefore>=:from
 group by date_trunc('day', removedBefore)
 """)
-	List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te);
+	List<Object[]> aggregatedSales(int typeId, Instant from, int me, int te);
 
 	/** open contracts providing only given type and iscopy, me, te */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
@@ -84,7 +84,7 @@ group by date_trunc('day', removedBefore)
 select
 	id
 from
-	EsiTradeContractInfo
+	#{#entityName}
 where
 	id>:lastId
 	and fetched
@@ -105,7 +105,7 @@ limit :limit
 select
 	offeredMe, offeredTe, offeredCopy
 from
-	EsiTradeContractInfo
+	#{#entityName}
 where
 	offeredTypeId=:typeId
 	and (offeredMe>0 or offeredTe>0 or offeredCopy)
@@ -115,10 +115,15 @@ group by offeredMe, offeredTe, offeredCopy
 	@Query("""
 select
 	offeredTypeId typeId,
+	coalesce(t.name, 'type:'||offeredTypeId),
 	sum(price) totalValue,
-	sum(offeredQuantity) totalQuantity
+	sum(offeredQuantity) totalQuantity,
+	false,
+	0,
+	0
 from
-	#{#entityName}
+	#{#entityName} c
+	left join SdeItemsType t on t.id=c.offeredTypeId
 where
 	completed
 	and offersItem
@@ -128,20 +133,26 @@ where
 	and not offeredCopy
 	and removedBefore>= :minDate
 	and removedBefore<= :maxDate
-group by offeredTypeId
+group by
+	offeredTypeId,
+	t.name
 order by sum(price) desc
 limit :limit
-""") List<Object[]> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+""")
+	List<AggregatedTypeHistory> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
 	offeredTypeId typeId,
-	offeredMe,
-	offeredTe,
+	coalesce(t.name, 'type:'||offeredTypeId),
 	sum(price) totalValue,
-	sum(offeredQuantity) totalQuantity
+	sum(offeredQuantity) totalQuantity,
+	false,
+	offeredMe,
+	offeredTe
 from
-	EsiTradeContractInfo
+	#{#entityName} c
+	left join SdeItemsType t on t.id=c.offeredTypeId
 where
 	completed
 	and offersItem
@@ -152,21 +163,26 @@ where
 	and removedBefore<= :maxDate
 group by
 	offeredTypeId,
+	t.name,
 	offeredMe,
 	offeredTe
 order by sum(price) desc
 limit :limit
-""") List<Object[]> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+""")
+	List<AggregatedTypeHistory> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
 	offeredTypeId typeId,
-	offeredMe,
-	offeredTe,
+	coalesce(t.name, 'type:'||offeredTypeId),
 	sum(price) totalValue,
-	sum(offeredRuns) totalRuns
+	sum(offeredRuns) totalRuns,
+	true,
+	offeredMe,
+	offeredTe
 from
-	EsiTradeContractInfo
+	#{#entityName} ci
+	left join SdeItemsType t on t.id=ci.offeredTypeId
 where
 	completed
 	and offersItem
@@ -176,10 +192,12 @@ where
 	and removedBefore<= :maxDate
 group by
 	offeredTypeId,
+	t.name,
 	offeredMe,
 	offeredTe
 order by sum(price) desc
 limit :limit
-""") List<Object[]> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
+""")
+	List<AggregatedTypeHistory> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
 
 }

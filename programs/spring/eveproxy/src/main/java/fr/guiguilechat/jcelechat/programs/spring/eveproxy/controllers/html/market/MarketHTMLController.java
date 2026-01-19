@@ -230,6 +230,10 @@ public class MarketHTMLController {
 		return typeUrl(type.getId(), me, te, copy);
 	}
 
+	public String typeUrl(AggregatedTypeHistory ath) {
+		return typeUrl(ath.getTypeId(), ath.getMe(), ath.getTe(), ath.isCopy());
+	}
+
 	public static record LinkedMarketType(String name, String url) {
 	}
 
@@ -283,35 +287,24 @@ public class MarketHTMLController {
 		model.addAttribute("period", periodValue);
 		int limitValue = limit.orElse(20);
 
-		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(periodValue.getDays(),
+		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(
+				periodValue.getDays(),
 				limitValue);
-		for (AggregatedTypeHistory line : regionalSales) {
-			line.setUrl(typeUrl(line.getTypeId()));
-		}
 		model.addAttribute("regionalMarketSales", regionalSales);
 
 		List<AggregatedTypeHistory> unresearchedContractSales = contractFacadeNonBp.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
-		for (AggregatedTypeHistory line : unresearchedContractSales) {
-			line.setUrl(typeUrl(line.getTypeId()));
-		}
 		model.addAttribute("unresearchedContractSales", unresearchedContractSales);
 
 		List<AggregatedTypeHistory> bpoContractSales = contractFacadeBpo.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
-		for (AggregatedTypeHistory line : bpoContractSales) {
-			line.setUrl(typeUrl(line.getTypeId(), line.getMe(), line.getTe(), false));
-		}
 		model.addAttribute("bpoContractSales", bpoContractSales);
 
 		List<AggregatedTypeHistory> bpcContractSales = contractFacadeBpc.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
-		for (AggregatedTypeHistory line : bpcContractSales) {
-			line.setUrl(typeUrl(line.getTypeId(), line.getMe(), line.getTe(), true));
-		}
 		model.addAttribute("bpcContractSales", bpcContractSales);
 		return "market/index";
 	}

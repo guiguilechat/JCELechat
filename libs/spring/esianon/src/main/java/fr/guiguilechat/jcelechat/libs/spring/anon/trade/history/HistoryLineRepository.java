@@ -69,7 +69,10 @@ select
 	line.fetchResource.type.id typeId,
 	line.fetchResource.type.name typeName,
 	sum(average*volume) totalvalue,
-	sum(volume) totalQuantity
+	sum(volume) totalQuantity,
+	false,
+	0,
+	0
 from
 	EsiTradeHistoryLine line
 where

@@ -5,8 +5,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
@@ -19,7 +17,6 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpd
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import lombok.Getter;
@@ -102,40 +99,16 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
-		return contractInfoRepository.aggregatedSales(typeId, from, me, te);
+		return contractInfoRepository.aggregatedSales(typeId, from, me, te).stream()
+				.map(this::convert)
+				.toList();
 	}
 
 	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<Object[]> fetched = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.ofId(
-				fetched.stream()
-						.map(arr -> ((Number) arr[0]).intValue())
-						.toList())
-				.stream()
-				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId,
-						(Function<? super Type, ? extends String>) Type::name));
-		List<AggregatedTypeHistory> ret = fetched.stream()
-				.map(arr -> {
-					int typeId = ((Number) arr[0]).intValue();
-					int me = ((Number) arr[1]).intValue();
-					int te = ((Number) arr[2]).intValue();
-					double totalValue = ((Number) arr[3]).doubleValue();
-					long totalQuantity = ((Number) arr[4]).longValue();
-					String typeName = typeId2Name.get(typeId);
-					if (typeName == null) {
-						typeName = "unknown " + typeId;
-					}
-					typeName += " " + me + "/" + te;
-					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, totalValue,
-							totalQuantity);
-					line.setMe(me);
-					line.setTe(te);
-					return line;
-				})
-				.toList();
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateResearchedHighestSales(minDay, now, limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;

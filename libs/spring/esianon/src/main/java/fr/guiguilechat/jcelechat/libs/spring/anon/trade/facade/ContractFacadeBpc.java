@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -24,7 +23,6 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpd
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import jakarta.transaction.Transactional;
@@ -141,30 +139,7 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<Object[]> fetched = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.ofId(
-				fetched.stream().map(arr -> ((Number) arr[0]).intValue()).toList()).stream()
-				.collect(Collectors.toMap((Function<? super Type, ? extends Integer>) Type::getId, (Function<? super Type, ? extends String>) Type::getName));
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit)
-				.stream()
-				.map(arr -> {
-					int typeId = ((Number) arr[0]).intValue();
-					int me = ((Number) arr[1]).intValue();
-					int te = ((Number) arr[2]).intValue();
-					double totalValue = ((Number) arr[3]).doubleValue();
-					long totalRuns = ((Number) arr[4]).longValue();
-					String typeName = typeId2Name.get(typeId);
-					if (typeName == null) {
-						typeName = "unknown " + typeId;
-					}
-					typeName += me + "/" + te;
-					AggregatedTypeHistory line = new AggregatedTypeHistory(typeId, typeName, totalValue,
-							totalRuns);
-					line.setMe(me);
-					line.setTe(te);
-					return line;
-				})
-				.toList();
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;

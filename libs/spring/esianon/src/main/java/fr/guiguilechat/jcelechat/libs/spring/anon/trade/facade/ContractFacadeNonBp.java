@@ -4,8 +4,6 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.context.annotation.Lazy;
@@ -15,7 +13,6 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -105,27 +102,8 @@ public class ContractFacadeNonBp {
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<Object[]> fetched = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now, limit);
-		Map<Integer, String> typeId2Name = typeService.ofId(
-				fetched.stream()
-						.map(arr -> ((Number) arr[0]).intValue())
-						.toList())
-				.stream()
-				.collect(Collectors.toMap(Type::getId,
-						Type::name));
-		List<AggregatedTypeHistory> ret = fetched.stream()
-		    .map(arr -> {
-			    int typeId = ((Number) arr[0]).intValue();
-			    double totalValue = ((Number) arr[1]).doubleValue();
-			    long totalQuantity = ((Number) arr[2]).longValue();
-			    String typeName = typeId2Name.get(typeId);
-			    if (typeName == null) {
-						typeName="unknown "+typeId;
-					}
-					return new AggregatedTypeHistory(typeId, typeName, totalValue,
-			        totalQuantity);
-		    })
-		    .toList();
+		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now,
+				limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
