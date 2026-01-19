@@ -54,6 +54,7 @@ where
 	and offeredTe=:te
 	and removedBefore>=:from
 group by date_trunc('day', removedBefore)
+order by date_trunc('day', removedBefore)
 """)
 	List<Object[]> aggregatedSales(int typeId, Instant from, int me, int te);
 

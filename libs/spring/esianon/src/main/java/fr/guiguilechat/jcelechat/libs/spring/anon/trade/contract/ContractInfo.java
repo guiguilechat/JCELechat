@@ -28,15 +28,12 @@ import lombok.ToString;
 
 @Entity(name = "EsiTradeContractInfo")
 @Table(name = "esi_trade_contractinfo", indexes = {
-	@Index(columnList = "fetch_active,fetch_priority,expires"),
-    @Index(columnList = "fetched,removed,requestsItem,offersNonBpc,offersItem"),
-    @Index(columnList = "region_id"),
-    @Index(columnList = "secHigh"),
-    @Index(columnList = "secLow"),
-    @Index(columnList = "secNull"),
-    @Index(columnList = "offersOneTypeForIsk,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns"),
-    @Index(columnList = "removedBefore"),
-
+		@Index(columnList = "fetch_active,fetch_priority,expires"),
+		@Index(columnList = "fetched,completed,removed,requestsItem,offersNonBpc,offersItem"),
+		/** {@link ContractInfoRepository#aggregatedSales(int, Instant, int, int)} */
+		@Index(columnList = "completed,offersItem,requestsItem,offeredTypeId,offeredCopy,offeredMe,offeredTe,removedBefore"),
+		@Index(columnList = "region_id"),
+		@Index(columnList = "offersOneTypeForIsk,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns")
 })
 @AllArgsConstructor
 @RequiredArgsConstructor
@@ -60,7 +57,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	 */
 	@Entity(name = "EsiTradeContractInfoText")
 	@Table(name = "esi_trade_contractinfotext", indexes = {
-	    @Index(columnList = "contract_id")
+			@Index(columnList = "contract_id")
 	})
 	@AllArgsConstructor
 	@NoArgsConstructor
@@ -141,7 +138,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private double price;
 
 	/**
-	 * Remuneration for contract (for Couriers only)
+	 * Renumeration for contract (for Couriers only)
 	 */
 	private double reward;
 
@@ -200,7 +197,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		setVolume(fetched.volume);
 
 		if (fetched.type != get_contracts_public_region_id_type.auction
-		    && fetched.type != get_contracts_public_region_id_type.item_exchange) {
+				&& fetched.type != get_contracts_public_region_id_type.item_exchange) {
 			setFetched(true);
 			setFetchActive(false);
 		}
@@ -217,8 +214,8 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	protected STATUS makeStatus() {
 		if (!isFetched()) {
 			return getType().equals(get_contracts_public_region_id_type.item_exchange)
-			    ? STATUS.created_need_fetch
-			    : STATUS.created;
+					? STATUS.created_need_fetch
+					: STATUS.created;
 		}
 		if (!isRemoved()) {
 			return STATUS.fetched;
@@ -380,7 +377,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 
 		public static ItemHash of(ContractItem item) {
 			return new ItemHash(item.getType().getId(), item.isBlueprintCopy(), item.getMaterialEfficiency(),
-			    item.getTimeEfficiency());
+					item.getTimeEfficiency());
 		}
 	}
 
@@ -410,11 +407,11 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	}
 
 	protected void updateFromAnalyzis(
-	    Map<ItemHash, Long> includedItemQuantity,
-	    Map<Integer, Long> askedItemQuantity,
-	    boolean offersBpc,
-	    boolean offersNonBpc,
-	    long offeredRuns) {
+			Map<ItemHash, Long> includedItemQuantity,
+			Map<Integer, Long> askedItemQuantity,
+			boolean offersBpc,
+			boolean offersNonBpc,
+			long offeredRuns) {
 		setNbTypesIncluded(includedItemQuantity.size());
 		setOffersOneTypeForIsk(!offersBpc && includedItemQuantity.size() == 1 && askedItemQuantity.isEmpty());
 		if (includedItemQuantity.size() == 1) {
@@ -427,7 +424,8 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 			setOfferedTypeId(itemHash.typeId());
 		}
 		setOffersBpc(offersBpc);
-		setOffersBpcForIsk(offersBpc && !offersNonBpc && includedItemQuantity.size() == 1 && askedItemQuantity.isEmpty());
+		setOffersBpcForIsk(
+				offersBpc && !offersNonBpc && includedItemQuantity.size() == 1 && askedItemQuantity.isEmpty());
 		setOffersItem(!includedItemQuantity.isEmpty());
 		setOffersNonBpc(offersNonBpc);
 
@@ -450,7 +448,8 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 		for (ContractItem item : getItems()) {
 			if (item.isIncluded()) {
 				ItemHash itemHash = ItemHash.of(item);
-				includedItemQuantity.put(itemHash, item.getQuantity() + includedItemQuantity.getOrDefault(itemHash, 0L));
+				includedItemQuantity.put(itemHash,
+						item.getQuantity() + includedItemQuantity.getOrDefault(itemHash, 0L));
 				if (item.isBlueprintCopy()) {
 					offersBpc = true;
 					offeredRuns += item.getRuns();
@@ -459,7 +458,7 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 				}
 			} else {
 				askedItemQuantity.put(item.getType().getId(),
-				    item.getQuantity() + askedItemQuantity.getOrDefault(item.getType().getId(), 0L));
+						item.getQuantity() + askedItemQuantity.getOrDefault(item.getType().getId(), 0L));
 			}
 		}
 		updateFromAnalyzis(includedItemQuantity, askedItemQuantity, offersBpc, offersNonBpc, offeredRuns);

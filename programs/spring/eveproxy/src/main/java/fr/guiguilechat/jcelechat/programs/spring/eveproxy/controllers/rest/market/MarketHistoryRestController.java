@@ -50,9 +50,9 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.PriceVolumeAcc;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.WeightStrategy;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
@@ -65,7 +65,9 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/market/history")
 @RequiredArgsConstructor
@@ -199,13 +201,16 @@ public class MarketHistoryRestController {
 			@RequestParam @Parameter(description = "theme to use for the chart color. Can be a number (0x123, 547 , etc) or a racial style(from the game styling)") Optional<String> theme,
 			@RequestParam @Parameter(description = "list of days to use to draw the average price") Optional<List<Integer>> averageDays)
 					throws IOException {
+		log.trace("start page creation for type " + typeId);
 		Type type = typeService.ofId(typeId);
 		Instant from = Instant.EPOCH;
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
+		log.trace("requesting history aggregates for type " + typeId);
 		List<AggregatedHL> fetchedData = copy ? contractFacadeBpc.aggregatedSales(typeId, from, me, te)
 				: contractFacadeBpo.aggregatedSales(typeId, from, me, te);
+		log.trace(" received history aggregates for type " + typeId);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
@@ -215,6 +220,7 @@ public class MarketHistoryRestController {
 				Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
 		        null, 0)))
 				.sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
+		log.trace(" sorted history aggregates for type " + typeId);
 
 		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te;
@@ -234,6 +240,7 @@ public class MarketHistoryRestController {
 		default:
 			throw new UnsupportedOperationException("unsupported case " + ChartBuilder.orDefault(builder));
 		}
+		log.trace(" completed page creation for type " + typeId);
 
 	}
 

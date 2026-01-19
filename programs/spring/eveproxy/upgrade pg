@@ -1,0 +1,10 @@
+https://www.paulox.net/2024/05/20/upgrading-postgresql-from-version-15-to-16-on-ubuntu-24-04-noble-numbat/
+
+sudo service tomcat10 stop
+sudo pg_dropcluster 16 main --stop
+sudo pg_upgradecluster --method=upgrade --link 15 main
+sudo pg_dropcluster 15 main
+sudo apt purge \
+postgresql-15 \
+postgresql-client-15
+sudo service tomcat10 start

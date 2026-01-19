@@ -99,7 +99,10 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
-		return contractInfoRepository.aggregatedSales(typeId, from, me, te).stream()
+		log.trace("  requesting objects");
+		List<Object[]> objects = contractInfoRepository.aggregatedSales(typeId, from, me, te);
+		log.trace("  received objects");
+		return objects.stream()
 				.map(this::convert)
 				.toList();
 	}
