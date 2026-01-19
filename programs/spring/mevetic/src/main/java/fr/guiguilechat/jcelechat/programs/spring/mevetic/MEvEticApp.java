@@ -15,7 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication
 @EnableJpaRepositories
-@EntityScan()
+@EntityScan
 public class MEvEticApp extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {

@@ -40,7 +40,7 @@ public class SdeEntity<IdType extends Number> {
 	@ColumnDefault("false")
 	private boolean removed = false;
 
-	@Setter(value = AccessLevel.PRIVATE)
+	@Setter(value = AccessLevel.NONE)
 	@CreationTimestamp
 	@ColumnDefault("current_timestamp")
 	private Instant created;
