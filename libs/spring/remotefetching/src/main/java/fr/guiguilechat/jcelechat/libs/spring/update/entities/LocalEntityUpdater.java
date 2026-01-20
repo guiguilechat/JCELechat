@@ -170,22 +170,22 @@ public abstract class LocalEntityUpdater<
 		int errorsMax = getUpdate().getErrorsForMax();
 		int remainErrors = globalErrors().availErrors();
 		int maxQueries = getUpdate().getMax();
-		int maxFromErrors = maxQueries;
+		int errorQueries = maxQueries;
 		if (remainErrors <= errorsMin) {
-			maxFromErrors = 0;
+			errorQueries = 0;
 		} else if (remainErrors < errorsMax) {
-			maxFromErrors = (int) Math.ceil(1.0 * maxQueries * (remainErrors - errorsMin) / (errorsMax - errorsMin));
+			errorQueries = (int) Math.ceil(1.0 * maxQueries * (remainErrors - errorsMin) / (errorsMax - errorsMin));
 		}
-		int maxFromRateLimit = tokensBucket().availQueries();
-		int ret = Math.min(maxFromErrors, maxFromRateLimit);
-		log.trace(" {} max queries is {} from errorsRemain={} errorsMin={} errorsMax={} max={} tokensQueries={}",
+		int bucketQueries = tokensBucket().availQueries();
+		int ret = Math.min(errorQueries, bucketQueries);
+		log.trace(" {} max queries is {} from remaining errors={}[{}:0;{}:{}] bucketQueries={}",
 				serviceName(),
 				ret,
 				remainErrors,
 				errorsMin,
 				errorsMax,
 				maxQueries,
-				maxFromRateLimit);
+				bucketQueries);
 		return ret;
 	}
 
@@ -193,7 +193,7 @@ public abstract class LocalEntityUpdater<
 	 * transmit a single received response to the global error service and the
 	 * tokens bucket, to update them.
 	 */
-	protected void processResponse(Requested<?> response) {
+	protected void processEsiResponse(Requested<?> response) {
 		globalErrors().processResponse(response);
 		tokensBucket().processResponse(response);
 	}
@@ -202,7 +202,7 @@ public abstract class LocalEntityUpdater<
 	 * transmit the last response of a list to the global error service and the
 	 * tokens bucket, to update them.
 	 */
-	protected void processResponses(Iterable<Requested<?>> responses) {
+	protected void processEsiResponses(Iterable<Requested<?>> responses) {
 		globalErrors().processResponse(responses);
 		tokensBucket().processResponse(responses);
 	}

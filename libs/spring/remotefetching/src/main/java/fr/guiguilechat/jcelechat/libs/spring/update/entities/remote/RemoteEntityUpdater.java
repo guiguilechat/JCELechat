@@ -114,7 +114,7 @@ public abstract class RemoteEntityUpdater<
 					dataToRequested.put(e.getKey(), null);
 				}
 			}
-			processResponses(responses);
+			processEsiResponses(responses);
 			Map<Entity, Fetched> responseOk = new HashMap<>();
 			for (Entry<Entity, Requested<Fetched>> e : dataToRequested.entrySet()) {
 				Entity data = e.getKey();
@@ -357,6 +357,7 @@ public abstract class RemoteEntityUpdater<
 		// actual update
 		//
 
+
 		protected int lastBatchSize = 0;
 
 		/**
@@ -400,8 +401,13 @@ public abstract class RemoteEntityUpdater<
 				maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000 - lastBatchSize);
 			}
 			int ret = Math.min(maxFromCycle, maxFromRate);
-			log.debug(" {} maxAllowedQueries={} from : rate={} cycle={}", serviceName(), ret, maxFromRate,
-					maxFromCycle);
+			if (ret != maxFromCycle) {
+				log.debug("  {} reduced max queries to {} from : rate={} cycle={}",
+						serviceName(),
+						ret,
+						maxFromRate,
+						maxFromCycle);
+			}
 			return ret;
 		}
 
@@ -420,7 +426,7 @@ public abstract class RemoteEntityUpdater<
 					? List.of()
 					: repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant.now(),
 							Limit.of(lastBatchSize));
-			log.debug(" {} will update {} entities with max batch size {}",
+			log.debug(" {} listed {} entities to update with max batch size {}",
 					serviceName(),
 					ret.size(),
 					lastBatchSize);

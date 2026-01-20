@@ -65,7 +65,7 @@ public abstract class AResourceBatchUpdater<
 		Requested<List<Fetched>> resp = fetchList(properties);
 		nextUpdate = null;
 		if (resp != null) {
-			processResponse(resp);
+			processEsiResponse(resp);
 			switch (resp.getResponseCode()) {
 			case 200 -> {
 				List<Fetched> fetched = resp.getOK();

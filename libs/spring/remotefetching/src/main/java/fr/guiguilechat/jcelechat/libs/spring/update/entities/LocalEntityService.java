@@ -120,10 +120,12 @@ public abstract class LocalEntityService<
 		saveAll(toCreate.stream()
 				.map(this::createMinimal)
 				.toList());
-		log.trace("  {} created {} entities when requested to ensure {}",
-				serviceName(),
-				toCreate.size(),
-				entityIds.size());
+		if (!toCreate.isEmpty()) {
+			log.trace("  {} created {} entities when requested to ensure {}",
+					serviceName(),
+					toCreate.size(),
+					entityIds.size());
+		}
 		return toCreate;
 	}
 
@@ -167,7 +169,9 @@ public abstract class LocalEntityService<
 				.filter(id -> !storedEntities.containsKey(id)).distinct()
 				.map(this::createMinimal)
 				.toList());
-		log.trace("    {} getOrCreate created {} new entities", serviceName(), newEntities.size());
+		if (!newEntities.isEmpty()) {
+			log.trace("    {} getOrCreate created {} new entities", serviceName(), newEntities.size());
+		}
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
 				.collect(Collectors.toMap(LocalEntity::getId, e -> e));
 	}

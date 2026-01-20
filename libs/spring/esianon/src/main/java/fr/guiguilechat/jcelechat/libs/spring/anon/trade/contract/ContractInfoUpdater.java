@@ -123,7 +123,8 @@ public class ContractInfoUpdater extends
 			}
 		} else {
 			ContractInfo firstCI = ret.get(0);
-			// if the first contract is older than a day, it's likely to fail : only fetch
+			// if the first contract is older than a day, it's likely to fail (we are
+			// catching up on old contracts) : only fetch
 			// with pessimistic batch size, so half the remaining esi errors
 			if (ChronoUnit.DAYS.between(firstCI.getDateIssued(), Instant.now()) >= 1) {
 				int pessimisticBatchSize = pessimisticBatchSize(batchSize);

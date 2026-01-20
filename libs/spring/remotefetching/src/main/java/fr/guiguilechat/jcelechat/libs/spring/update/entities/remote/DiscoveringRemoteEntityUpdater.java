@@ -100,14 +100,14 @@ public abstract class DiscoveringRemoteEntityUpdater<
 				return;
 			}
 			long startms = System.currentTimeMillis();
-			log.trace("{} started listing new entries", serviceName());
+			log.trace(" {} started listing new entries", serviceName());
 			Map<String, String> properties = new HashMap<>();
 			if (lastListEtag != null) {
 				properties.put(ConnectedImpl.IFNONEMATCH, lastListEtag);
 			}
 			Requested<List<IdType>> resp = discoverRemoteIds(properties);
 			if (resp != null) {
-				processResponse(resp);
+				processEsiResponse(resp);
 				listExpires = resp.getExpiresInstant();
 				switch (resp.getResponseCode()) {
 				case 200:
@@ -119,7 +119,7 @@ public abstract class DiscoveringRemoteEntityUpdater<
 					listExpires = resp.getExpiresInstant();
 					break;
 				case 304:
-					log.trace(" {} received no list change", serviceName());
+					log.trace("  {} received no list change", serviceName());
 					listExpires = resp.getExpiresInstant();
 					break;
 				default:
@@ -137,7 +137,7 @@ public abstract class DiscoveringRemoteEntityUpdater<
 				}
 			}
 			long endms = System.currentTimeMillis();
-			log.trace("{} finished listing new entries in {}s", serviceName(), (endms - startms) / 1000);
+			log.trace(" {} finished listing new entries in {}s", serviceName(), (endms - startms) / 1000);
 		}
 	}
 
