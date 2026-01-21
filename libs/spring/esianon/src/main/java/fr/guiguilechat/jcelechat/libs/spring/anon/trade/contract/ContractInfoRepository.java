@@ -17,6 +17,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 public interface ContractInfoRepository
     extends RemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
+	boolean existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndCompletedTrueAndOffersOneTypeForIskTrue(int typeId, int me,
+			int te);
+
 	List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 
 	List<ContractInfo> findByRegionInAndRemovedFalse(Iterable<ContractRegion> regions);
@@ -52,7 +55,7 @@ where
 	and not offeredCopy
 	and offeredMe=:me
 	and offeredTe=:te
-	and removedBefore>=:from
+	and (:from is null or removedBefore>=:from)
 group by date_trunc('day', removedBefore)
 order by date_trunc('day', removedBefore)
 """)

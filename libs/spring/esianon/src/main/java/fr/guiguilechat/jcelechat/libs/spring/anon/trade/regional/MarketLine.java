@@ -11,10 +11,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -74,8 +71,7 @@ public class MarketLine extends AFetchedListElementAutoId<MarketLine, MarketRegi
 	/**
 	 * range string
 	 */
-	@Enumerated(EnumType.STRING)
-	private get_markets_region_id_orders_range range;
+	private String range;
 
 	private int solarSystemId;
 
@@ -103,7 +99,7 @@ public class MarketLine extends AFetchedListElementAutoId<MarketLine, MarketRegi
 		setMinVolume(order.min_volume);
 		setOrderId(order.order_id);
 		setPrice(order.price);
-		setRange(order.range);
+		setRange(order.range.toString());
 		setSolarSystemId(order.system_id);
 		setTypeId(order.type_id);
 		setVolumeRemain(order.volume_remain);
@@ -175,7 +171,7 @@ public class MarketLine extends AFetchedListElementAutoId<MarketLine, MarketRegi
 				Integer.toString(minVolume),
 				Long.toString(orderId),
 				Double.toString(price),
-				range.name(),
+				range.toString(),
 				Integer.toString(solarSystemId),
 				Integer.toString(typeId),
 				Integer.toString(volumeRemain),

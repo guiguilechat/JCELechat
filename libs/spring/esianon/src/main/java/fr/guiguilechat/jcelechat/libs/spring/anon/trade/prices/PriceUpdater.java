@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -22,6 +23,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.prices")
 public class PriceUpdater
@@ -39,7 +41,7 @@ public class PriceUpdater
 
 	@Override
 	public long nbToUpdate() {
-		return 0;
+		return nextUpdateReached()?1:0;
 	}
 
 	@Override

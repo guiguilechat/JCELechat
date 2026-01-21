@@ -41,7 +41,7 @@ from
 	EsiTradeHistoryLine line
 where
 	line.fetchResource.type.id = :typeId
-	and line.date>=:from
+	and (:from is null or line.date>=:from)
 group by date
 """) List<Object[]> aggregated(int typeId, Instant from);
 
@@ -76,8 +76,8 @@ select
 from
 	EsiTradeHistoryLine line
 where
-	line.date <= :maxInstant
-	and line.date >= :minInstant
+	(:maxInstant is null or line.date <= :maxInstant)
+	and (:minInstant is null or line.date >= :minInstant)
 group by
 	line.fetchResource.type.id,
 	line.fetchResource.type.name
@@ -86,5 +86,20 @@ order by
 limit :limit
 """)
 	List<AggregatedTypeHistory> sortSalesByTotalValue(Instant minInstant, Instant maxInstant, int limit);
+
+	@Query("""
+from
+	(
+	from #{#entityName} l
+	where
+		l.fetchResource.type.id=:typeId
+	select
+		1 as n
+	)
+select
+	count(*)>0
+""")
+
+	boolean existsByFetchResourceTypeId(int typeId);
 
 }

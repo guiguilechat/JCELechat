@@ -11,9 +11,11 @@
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="container-fluid border">
 		<div class="row border">
-			<h1 th:text="'Market orders for '+ ${name}"></h1>
-			<span th:if="${typeUrl!=null}"><a th:href="${typeUrl}"
-				th:text="'type info'" /></span>
+			<h1>Market orders for <a
+				th:href="${typeUrl}"
+				th:text="${name}"
+				/>
+			</h1>
 		</div>
 
 		<div class="row border">
@@ -85,9 +87,17 @@
 			</div>
 			<div class="col" th:if="${historyChartUrl!=null}">
 				<h2>history</h2>
-				<a th:href="${historyChartUrl}">
-					<img th:src="${historyChartUrl}" class="img-fluid" alt="history chart">
-				</a>
+				<div th:switch="${@contractMarketAggregator.hasHistory(type.id)}">
+					<a 
+						th:case="true"
+						th:href="${historyChartUrl}">
+						<img th:src="${historyChartUrl}" class="img-fluid" alt="history chart">
+					</a>
+					<span
+						th:case="false">
+						No history (yet)
+					</span>
+				</div>	
 			</div>
 			<div class="col" th:if="${completed!=null}">
 				<h2>Completed</h2>
@@ -119,8 +129,10 @@
 			</div>
 		</div>
 		<div class="row border" th:if="${bpoVariants!=null && !bpoVariants.isEmpty() || bpcVariants!=null && !bpcVariants.isEmpty()}">
-			<h1 th:text="'Variants of '+ ${name}"></h1>
-			<a th:if="${baseTypeUrl!=null}" th:href="${baseTypeUrl}">Base type</a>
+			<h1>Modifications</h1>
+			<div class="col">
+				<a th:if="${baseTypeUrl!=null}" th:href="${baseTypeUrl}">Base type</a>
+			</div>
 			<div class="col" th:if="${bpoVariants!=null && !bpoVariants.isEmpty()}">
 				<h2>Bpos</h2>
 				<ul class="overflow-auto">

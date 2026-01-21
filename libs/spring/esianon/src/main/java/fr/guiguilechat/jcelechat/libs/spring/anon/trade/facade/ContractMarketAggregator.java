@@ -34,6 +34,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractMarketAggregator implements ContractItemsListener, MarketRegionListener {
 
@@ -89,7 +90,6 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		return ret;
 	}
 
-	@Transactional
 	@Cacheable("MarketOrdersLowestSellForType")
 	public Map<Integer, Double> lowestSellByRegion(int typeId) {
 		return Stream
@@ -101,7 +101,6 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 						k -> k.getValue().stream().mapToDouble(MarketOrder::getPrice).min().orElse(Double.POSITIVE_INFINITY)));
 	}
 
-	@Transactional
 	@Cacheable("MarketOrdersHighestBuyForType")
 	public Map<Integer, Double> highestBuyByRegion(int typeId) {
 		return Stream
@@ -139,8 +138,15 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		return ret;
 	}
 
+	@Cacheable("MarketHistoryAggregatedPresent")
+	public boolean hasHistory(int typeId) {
+		return historyLineService.hasEntry(typeId)
+				|| contractFacadeNonBp.hasEntry(typeId);
+	}
+
 	@Getter
 	private final List<String> cacheList = List.of(
+			"MarketHistoryAggregatedPresent",
 			"MarketOrdersSellOrdersForType",
 			"MarketOrdersBuyOrdersForType",
 			"MarketOrdersLowestSellForType",

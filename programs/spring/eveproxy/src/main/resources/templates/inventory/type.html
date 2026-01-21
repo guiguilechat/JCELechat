@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-<title th:text="${name}" />
+<title th:text="${type.name()}" />
 <link rel="stylesheet" type="text/css"
 	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
 <script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
@@ -14,7 +14,7 @@
 			<div class="col">
 				<a 	th:if="${prvType != null}"
 					th:href="${@typeHTMLController.typeUrl(prvType)}"
-					th:text="${prvType.name}" />
+					th:text="${prvType.name()}" />
 			</div>
 			<div class="col-6">
 				category : <a
@@ -29,19 +29,20 @@
 					th:if="${marketGroup != null}"
 					th:href="${@marketGroupHTMLController.marketGroupUrl(marketGroup)}"
 					th:text="${marketGroup.name}" /><br />
-				<h1 th:text="${name}" />
+				<h1 th:text="${type.name()}" />
 			</div>
 			<div class="col">
 				<a 	th:if="${nxtType != null}"
 					th:href="${@typeHTMLController.typeUrl(nxtType)}"
-					th:text="${nxtType.name}" />
+					th:text="${nxtType.name()}" />
 			</div>
 		</div>
 		<div class="row border">
 			<div class="col">
 				<h3>Prices</h3>
-				<span th:if="${marketUrl!=null}"> <a th:href="${marketUrl}">type
-						market</a>
+				<span>
+					<a
+						th:href="${@marketHTMLController.typeUrl(type)}">orders</a>
 				</span>
 				<table class="table table-striped table-hover">
 					<tbody>
@@ -110,10 +111,10 @@
 			</div>
 		</div>
 		<div class="row border">
-			<div class="col" th:if="${historyUrl!=null}">
+			<div class="col" th:if="${@contractMarketAggregator.hasHistory(type.id)}">
 				<h3>Trade history</h3>
-				<a th:href="${historyUrl}">
-					<img th:src="${historyUrl}" class="img-fluid" alt="history chart">
+				<a th:href="${@marketHistoryRestController.typeUrl(type)}">
+					<img th:src="${@marketHistoryRestController.typeUrl(type)}" class="img-fluid" alt="history chart">
 				</a>
 			</div>
 			<div class="col" th:if="${killsUrl!=null}">
@@ -213,7 +214,9 @@
 			</div>
 		</div>
 
-		<div class="row border">
+		<div
+			class="row border"
+			th:if="${@typeService.variations(type).size()>1}">
 			<h2>Variations</h2>
 			<div class="col">
 				<ul>

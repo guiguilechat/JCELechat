@@ -73,22 +73,22 @@ public class TypeHTMLController {
 	@Lazy
 	private final GroupHTMLController groupHTMLController;
 
-	@Lazy
-	private final MarketHistoryRestController historyRestController;
-
 	private final KillStatsService killStatsService;
 
 	private final LinkCorporationOfferService linkCorporationOfferService;
 
 	@Lazy
-	private final MarketHTMLController marketHtmlController;
+	private final LoyaltyHTMLController loyaltyHTMLController;
+
+	@Lazy
+	private final MarketHistoryRestController marketHistoryRestController;
+
+	@Lazy
+	private final MarketHTMLController marketHTMLController;
 
 	private final MarketLineService marketLineService;
 
 	private final MerKillsRestController merKillsRestController;
-
-	@Lazy
-	private final LoyaltyHTMLController npcHtmlController;
 
 	private final PriceService priceService;
 
@@ -107,7 +107,6 @@ public class TypeHTMLController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
 		}
 		model.addAttribute("type", t);
-		model.addAttribute("name", t.name());
 		if (killStatsService.hasTypeStats(typeId)) {
 			model.addAttribute("killsUrl", merKillsRestController.chartUri(
 					typeId,
@@ -140,7 +139,8 @@ public class TypeHTMLController {
 		}
 
 //		log.trace("fetching manufacturingProd");
-		List<LinkedProduct> manufProd = blueprintProductService.findProducts(t.getId(), ActivityType.manufacturing).stream()
+		List<LinkedProduct> manufProd = blueprintProductService.findProducts(t.getId(), ActivityType.manufacturing)
+				.stream()
 				.map(this::linkedProduct)
 				.sorted(Comparator.comparing(u -> u.type().name()))
 				.toList();
@@ -182,7 +182,7 @@ public class TypeHTMLController {
 
 //		log.trace("fetching offers");
 		List<LinkedLPOffer> offers = linkCorporationOfferService.producing(t).stream()
-				.map(npcHtmlController::linkedLPOffer)
+				.map(loyaltyHTMLController::linkedLPOffer)
 				.sorted(Comparator.comparing(LinkedLPOffer::name))
 				.toList();
 		model.addAttribute("offers", offers);
@@ -217,8 +217,6 @@ public class TypeHTMLController {
 		}
 
 		if (t.isPublished() && t.getMarketGroup() != null) {
-			model.addAttribute("marketUrl", marketHtmlController.typeUrl(t));
-			model.addAttribute("historyUrl", historyRestController.uri(t).toString());
 
 //			log.trace("fetching jitabo");
 			List<MarketLine> bos = marketLineService.forLocation(Station.JITA_HUB_ID, t.getId(), true);

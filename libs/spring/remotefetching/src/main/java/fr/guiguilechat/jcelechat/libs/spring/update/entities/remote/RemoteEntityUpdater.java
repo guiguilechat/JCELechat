@@ -270,6 +270,9 @@ public abstract class RemoteEntityUpdater<
 			case 404:
 				update404(data, response);
 				return;
+			case 429:
+				update429(data, response);
+				return;
 			default:
 				log.warn("unhandled error code {} for service {}", response.getResponseCode(), serviceName());
 			}
@@ -299,6 +302,13 @@ public abstract class RemoteEntityUpdater<
 			if (data.getSuccessiveErrors() > 4) {
 				data.setFetchActive(false);
 			}
+		}
+
+		/**
+		 * path has specific rate limit not handled. Ignore generally, implement
+		 * per-service.
+		 */
+		protected void update429(Entity data, Requested<Fetched> response) {
 		}
 
 		/** error limit exceeded */

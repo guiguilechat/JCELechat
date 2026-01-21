@@ -79,7 +79,7 @@ public class MarketHistoryRestController {
 
 	final private ContractMarketAggregator contractMarketAggregator;
 
-	final private HistoryLineService hlService;
+	final private HistoryLineService historyLineService;
 
 	private final TypeService typeService;
 
@@ -90,7 +90,7 @@ public class MarketHistoryRestController {
 			@PathVariable String weightname,
 			@RequestParam Optional<ACCEPT_TEXT> accept) {
 		WeightStrategy weighter = WeightStrategy.of(weightname);
-		List<PriceVolumeAcc> priceVolumes = hlService.groupPrices(regionId, typeId, weighter, NB_STEPS);
+		List<PriceVolumeAcc> priceVolumes = historyLineService.groupPrices(regionId, typeId, weighter, NB_STEPS);
 		return RestControllerHelper.makeResponse(
 				DailyExchanges.of(new HistoryAggreg(typeId, regionId, weighter.toString(), NB_STEPS), priceVolumes),
 				accept);
@@ -512,6 +512,22 @@ public class MarketHistoryRestController {
 
 	public URI uri(Type type, boolean copy, int me, int te) {
 		return uri(type.getId(), copy, me, te);
+	}
+
+	public String typeUrl(int typeId, boolean copy, int me, int te) {
+		return uri(typeId, copy, me, te).toString();
+	}
+
+	public String typeUrl(Type type, boolean copy, int me, int te) {
+		return typeUrl(type.getId(), copy, me, te);
+	}
+
+	public String typeUrl(int typeId) {
+		return uri(typeId, null, null, null, null).toString();
+	}
+
+	public String typeUrl(Type type) {
+		return typeUrl(type.getId());
 	}
 
 }

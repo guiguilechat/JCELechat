@@ -33,6 +33,11 @@ public class ContractFacadeNonBp {
 	@Lazy
 	private final TypeService typeService;
 
+	public boolean hasEntry(int typeId) {
+		return contractInfoRepository
+				.existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndCompletedTrueAndOffersOneTypeForIskTrue(typeId, 0, 0);
+	}
+
 	/**
 	 * find contracts that are open and offer a given type, with 0 ME/TE/runs
 	 *

@@ -73,6 +73,10 @@ public class HistoryLineService {
 				.collect(Collectors.toMap(arr -> (HistoryReq) arr[0], arr -> (Instant) arr[1]));
 	}
 
+	public boolean hasEntry(int typeId) {
+		return repo.existsByFetchResourceTypeId(typeId);
+	}
+
 	//
 	// highest sales since last X days
 	//

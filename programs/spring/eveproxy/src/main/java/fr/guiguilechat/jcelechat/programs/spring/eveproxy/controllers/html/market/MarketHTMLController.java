@@ -111,17 +111,18 @@ public class MarketHTMLController {
 			Optional<Integer> te,
 			Optional<Boolean> copy) {
 		Type type = typeService.ofId(typeId);
+		if (type == null) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " does not exist");
+		}
+		model.addAttribute("type", type);
+
 		int meValue = me == null ? 0 : me.orElse(0);
 		int teValue = te == null ? 0 : te.orElse(0);
 		boolean copyValue = copy == null ? false : copy.orElse(false);
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		String name = null;
-		if (type != null) {
 			model.addAttribute("typeUrl", typeHTMLController.typeUrl(type));
 			name = type.name();
-		} else {
-			name = "unknown" + typeId;
-		}
 		if (meValue > 0 || teValue > 0 || copyValue) {
 			name = name + (copyValue ? "(CP)" : "") + " " + meValue + "/" + teValue;
 		}
