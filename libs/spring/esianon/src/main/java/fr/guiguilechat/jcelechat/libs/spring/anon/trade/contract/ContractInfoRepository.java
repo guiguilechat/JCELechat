@@ -55,7 +55,7 @@ where
 	and not offeredCopy
 	and offeredMe=:me
 	and offeredTe=:te
-	and (:from is null or removedBefore>=:from)
+	and (cast(:from as timestamp) is null or removedBefore>=:from)
 group by date_trunc('day', removedBefore)
 order by date_trunc('day', removedBefore)
 """)
@@ -135,8 +135,8 @@ where
 	and offeredMe=0
 	and offeredTe=0
 	and not offeredCopy
-	and removedBefore>= :minDate
-	and removedBefore<= :maxDate
+	and (cast(:minDate as timestamp) is null or removedBefore>=:minDate)
+	and (cast(:maxDate as timestamp) is null or removedBefore<=:maxDate)
 group by
 	offeredTypeId,
 	t.name
@@ -163,8 +163,8 @@ where
 	and not requestsItem
 	and (offeredMe>0 or offeredTe>0)
 	and not offeredCopy
-	and removedBefore>= :minDate
-	and removedBefore<= :maxDate
+	and (cast(:minDate as timestamp) is null or removedBefore>=:minDate)
+	and (cast(:maxDate as timestamp) is null or removedBefore<=:maxDate)
 group by
 	offeredTypeId,
 	t.name,
@@ -192,8 +192,8 @@ where
 	and offersItem
 	and not requestsItem
 	and offeredCopy
-	and removedBefore>= :minDate
-	and removedBefore<= :maxDate
+	and (cast(:minDate as timestamp) is null or removedBefore>=:minDate)
+	and (cast(:maxDate as timestamp) is null or removedBefore<=:maxDate)
 group by
 	offeredTypeId,
 	t.name,

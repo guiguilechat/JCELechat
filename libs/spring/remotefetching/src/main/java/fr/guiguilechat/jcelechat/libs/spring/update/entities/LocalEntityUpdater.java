@@ -151,10 +151,6 @@ public abstract class LocalEntityUpdater<
 	@Setter(value = AccessLevel.PROTECTED)
 	private Instant nextUpdate = null;
 
-	protected boolean nextUpdateReached() {
-		return nextUpdate == null || nextUpdate.isAfter(Instant.now());
-	}
-
 	@Override
 	public Instant nextUpdate(boolean remain, Instant now) {
 		if (nextUpdate != null) {

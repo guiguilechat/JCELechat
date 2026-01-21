@@ -41,7 +41,7 @@ public class PriceUpdater
 
 	@Override
 	public long nbToUpdate() {
-		return nextUpdateReached()?1:0;
+		return 0;
 	}
 
 	@Override

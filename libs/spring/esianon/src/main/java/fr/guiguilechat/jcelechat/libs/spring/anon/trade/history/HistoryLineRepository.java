@@ -41,7 +41,7 @@ from
 	EsiTradeHistoryLine line
 where
 	line.fetchResource.type.id = :typeId
-	and (:from is null or line.date>=:from)
+	and (cast(:from as timestamp) is null or line.date>=:from)
 group by date
 """) List<Object[]> aggregated(int typeId, Instant from);
 
@@ -76,8 +76,8 @@ select
 from
 	EsiTradeHistoryLine line
 where
-	(:maxInstant is null or line.date <= :maxInstant)
-	and (:minInstant is null or line.date >= :minInstant)
+	(cast(:maxInstant as timestamp) is null or line.date <= :maxInstant)
+	and (cast(:minInstant as timestamp)is null or line.date >= :minInstant)
 group by
 	line.fetchResource.type.id,
 	line.fetchResource.type.name
