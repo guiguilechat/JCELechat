@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history;
 
-import java.math.BigDecimal;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,12 +30,11 @@ public class SlidingAverage {
 	}
 
 	public long volume() {
-		return getList().stream().mapToLong(hl -> hl.getVolume()).sum();
+		return getList().stream().mapToLong(AggregatedHL::getVolume).sum();
 	}
 
-	public BigDecimal totalValue() {
-		return new BigDecimal(getList().stream().mapToDouble(hl -> hl.getTotalValue().doubleValue()).sum(),
-		    AggregatedHL.MC);
+	public Double totalValue() {
+		return getList().stream().mapToDouble(hl -> hl.getTotalValue().doubleValue()).sum();
 	}
 
 }

@@ -2,14 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.cache.annotation.Cacheable;
@@ -97,10 +92,17 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 	 *           iscopy=true and given me and te
 	 */
 	public List<ContractInfo> sold(int typeId, int me, int te, Limit limit) {
-		return contractInfoRepository
+		log.trace("  fetching BPC sales for type {} {}/{} limit {}",
+				typeId,
+				me,
+				te,
+				limit);
+		List<ContractInfo> ret = contractInfoRepository
 				.findByCompletedTrueAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTeOrderByRemovedBeforeDesc(
 						List.of(typeId),
 						true, me, te, limit);
+		log.trace("   received {} daily sales", ret.size());
+		return ret;
 	}
 
 	@Transactional
@@ -109,36 +111,7 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
-		Map<Instant, List<ContractInfo>> byDay = sold(typeId, me, te, Limit.unlimited())
-				.stream()
-				.filter(ci -> ci.getRemovedBefore() != null && !ci.getRemovedBefore().isBefore(from))
-				.collect(Collectors.groupingBy(ci -> ci.getRemovedBefore().truncatedTo(ChronoUnit.DAYS)));
-		List<AggregatedHL> ret = new ArrayList<>();
-		for (Entry<Instant, List<ContractInfo>> e : byDay.entrySet()) {
-			Instant date = e.getKey();
-			long volume = 0L;
-			double totalValue = 0.0;
-			double highestPrice = 0.0;
-			double lowestPrice = Double.MAX_VALUE;
-			Set<Integer> regionIds = new HashSet<>();
-			for (ContractInfo ci : e.getValue()) {
-				volume += ci.getOfferedRuns();
-				totalValue += ci.getPrice();
-				double unitPrice = ci.getPrice() / ci.getOfferedRuns();
-				if (unitPrice > highestPrice) {
-					highestPrice = unitPrice;
-				}
-				if (unitPrice < lowestPrice) {
-					lowestPrice = unitPrice;
-				}
-				regionIds.add(ci.getRegion().getId());
-			}
-			ret.add(new AggregatedHL(date, volume,
-					totalValue,
-					highestPrice,
-					lowestPrice,
-			    regionIds.size()));
-		}
+		List<AggregatedHL> ret = contractInfoRepository.aggregatedBPCSales(from, typeId, me, te);
 		return ret;
 	}
 

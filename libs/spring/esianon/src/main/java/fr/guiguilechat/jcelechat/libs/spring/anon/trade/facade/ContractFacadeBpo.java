@@ -95,23 +95,11 @@ public class ContractFacadeBpo implements ContractItemsListener, MarketRegionLis
 						false, me, te, limit);
 	}
 
-	protected AggregatedHL convert(Object[] line) {
-		return new AggregatedHL(
-		    ((Instant) line[0]).truncatedTo(ChronoUnit.DAYS),
-				((Number) line[1]).longValue(),
-				((Number) line[2]).doubleValue(),
-				((Number) line[3]).doubleValue(),
-				((Number) line[4]).doubleValue(),
-				((Number) line[5]).intValue());
-	}
-
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from, int me, int te) {
 		log.trace("  requesting objects");
-		List<Object[]> objects = contractInfoRepository.aggregatedSales(typeId, from, me, te);
+		List<AggregatedHL> ret = contractInfoRepository.aggregatedOriginalSales(from, typeId, me, te);
 		log.trace("  received objects");
-		return objects.stream()
-				.map(this::convert)
-				.toList();
+		return ret;
 	}
 
 	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {

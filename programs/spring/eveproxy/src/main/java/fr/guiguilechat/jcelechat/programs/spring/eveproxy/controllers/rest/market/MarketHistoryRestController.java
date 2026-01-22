@@ -4,9 +4,11 @@ import java.awt.Color;
 import java.io.IOException;
 import java.net.URI;
 import java.time.Instant;
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
+import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +24,6 @@ import org.jfree.chart.renderer.xy.ClusteredXYBarRenderer;
 import org.jfree.chart.renderer.xy.StandardXYBarPainter;
 import org.jfree.chart.renderer.xy.XYBarRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.ui.RectangleEdge;
 import org.jfree.data.time.Day;
 import org.jfree.data.time.Month;
 import org.jfree.data.time.RegularTimePeriod;
@@ -203,17 +204,12 @@ public class MarketHistoryRestController {
 		log.trace("requesting history aggregates for type " + typeId);
 		List<AggregatedHL> fetchedData = copy ? contractFacadeBpc.aggregatedSales(typeId, from, me, te)
 				: contractFacadeBpo.aggregatedSales(typeId, from, me, te);
-		log.trace(" received history aggregates for type " + typeId);
+		log.trace(" received {} history aggregates for type {}",
+				fetchedData.size(),
+				typeId);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
-		// add now with 0 value to ensure the chart shows now.
-		List<AggregatedHL> sortedData = Stream.concat(
-				fetchedData.stream(),
-				Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
-		        null, 0)))
-				.sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
-		log.trace(" sorted history aggregates for type " + typeId);
 
 		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te;
@@ -224,11 +220,11 @@ public class MarketHistoryRestController {
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
 			RestControllerHelper.addResponseJFreeChart(response,
-					drawJFreeChart(sortedData, averageDays, title, copy ? "runs" : "items", ct),
+					drawJFreeChart(fetchedData, averageDays, title, copy ? "runs" : "items", ct),
 					accept);
 			break;
 		case xchart:
-			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
+			RestControllerHelper.addResponseXChart(response, drawXChart(fetchedData, title), accept);
 			break;
 		default:
 			throw new UnsupportedOperationException("unsupported case " + ChartBuilder.orDefault(builder));
@@ -296,8 +292,8 @@ public class MarketHistoryRestController {
 		xAxis.setAxisLinePaint(textColor);
 		plot.setDomainAxis(xAxis);
 
-		TimeSeries averagePrice = new TimeSeries("average price");
-		TimeSeries volumeTraded = new TimeSeries("daily " + quantityUnit + " traded");
+		TimeSeries averagePriceSeries = new TimeSeries("average price");
+		TimeSeries volumeTradedSeries = new TimeSeries("daily " + quantityUnit + " traded");
 		List<SlidingAverage> slidingAverages = cumulatedDays.stream().map(SlidingAverage::new).toList();
 		List<TimeSeries> cumulatedPriceSeries = IntStream.range(0,
 				Math.min(nbCumulAverages, priceColors.size() - 1))
@@ -308,30 +304,16 @@ public class MarketHistoryRestController {
 				.mapToObj(
 						daysIndex -> new TimeSeries("daily " + quantityUnit + " traded " + cumulatedDays.get(daysIndex) + "d"))
 				.toList();
-		Instant lastDate = null;
 		for (AggregatedHL e : sortedData) {
-			Instant aggregDate = e.getDate();
-			if (lastDate != null) {
-				long daysDiff = ChronoUnit.DAYS.between(lastDate, aggregDate);
-				for (int days = 1; days < daysDiff; days++) {
-					Date missingDate = Date.from(lastDate.plus(days, ChronoUnit.DAYS));
-					// System.err
-					// .println("adding missing day " + missingDate + " as missing days " + days + "
-					// out of " + daysDiff
-					// + " from " + lastDate + " to " + aggregDate);
-					RegularTimePeriod period = new Day(missingDate);
-					volumeTraded.add(period, 0);
-				}
-			}
-			lastDate = aggregDate;
-			if (aggregDate.equals(Instant.now().truncatedTo(ChronoUnit.DAYS))) {
-				continue;
-			}
-			RegularTimePeriod period = new Day(Date.from(aggregDate));
+			OffsetDateTime aggregDate = e.getDate().atOffset(ZoneOffset.UTC);
+			aggregDate.get(ChronoField.DAY_OF_MONTH);
+			RegularTimePeriod period = new Day(aggregDate.getDayOfMonth(),
+					aggregDate.getMonthValue(),
+					aggregDate.getYear());
 			if (e.getAveragePrice() != null) {
-				averagePrice.add(period, e.getAveragePrice().doubleValue());
+				averagePriceSeries.add(period, e.getAveragePrice());
 			}
-			volumeTraded.add(period, e.getVolume());
+			volumeTradedSeries.add(period, e.getVolume());
 			for (int i = 0; i < slidingAverages.size(); i++) {
 				SlidingAverage sa = slidingAverages.get(i);
 				sa.add(e);
@@ -353,7 +335,7 @@ public class MarketHistoryRestController {
 		priceAxis.setLabelPaint(textColor);
 		plot.setRangeAxis(0, priceAxis);
 		TimeSeriesCollection priceCollections = new TimeSeriesCollection();
-		priceCollections.addSeries(averagePrice);
+		priceCollections.addSeries(averagePriceSeries);
 		cumulatedPriceSeries.forEach(priceCollections::addSeries);
 		plot.setDataset(0, priceCollections);
 		XYLineAndShapeRenderer priceRenderer = new XYLineAndShapeRenderer(false, true);
@@ -377,7 +359,7 @@ public class MarketHistoryRestController {
 
 		plot.setRangeAxis(1, quantityAxis);
 		TimeSeriesCollection qttyCollections = new TimeSeriesCollection();
-		qttyCollections.addSeries(volumeTraded);
+		qttyCollections.addSeries(volumeTradedSeries);
 		cumulatedVolumeSeries.forEach(qttyCollections::addSeries);
 		plot.setDataset(1, qttyCollections);
 
@@ -401,7 +383,6 @@ public class MarketHistoryRestController {
 		chart.getTitle().setPaint(textColor);
 		chart.getLegend().setItemPaint(textColor);
 		chart.getLegend().setBackgroundPaint(bgColor);
-		chart.getLegend().setPosition(RectangleEdge.TOP);
 		return chart;
 	}
 
@@ -437,7 +418,7 @@ public class MarketHistoryRestController {
 			}
 			if (e.getAveragePrice() != null) {
 				xData.add(Date.from(aggregDate));
-				double val = e.getAveragePrice().doubleValue();
+				double val = e.getAveragePrice();
 				if (lastVal != null) {
 					openData.add(lastVal);
 				} else {

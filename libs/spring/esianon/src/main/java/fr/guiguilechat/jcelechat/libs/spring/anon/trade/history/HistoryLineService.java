@@ -55,7 +55,7 @@ public class HistoryLineService {
 	 */
 	public List<AggregatedHL> byType(int typeId, Instant from) {
 		hrService.prioritizeType(typeId);
-		return repo.aggregated(typeId, from).stream().map(this::convert).toList();
+		return repo.aggregated(typeId, from);
 	}
 
 	protected AggregatedHL convert(Object[] line) {

@@ -1,8 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
 import java.time.Instant;
 
 import lombok.Getter;
@@ -17,22 +14,6 @@ import lombok.Setter;
 @RequiredArgsConstructor
 public class AggregatedHL {
 
-	public static final MathContext MC = new MathContext(4, RoundingMode.HALF_UP);
-
-	public AggregatedHL(Instant date,
-			long volume,
-			double totalValue,
-			double highestPrice,
-			double lowestPrice,
-			int nbRegions ) {
-		this(date,
-		    volume,
-				new BigDecimal(totalValue, MC),
-				new BigDecimal(highestPrice, MC),
-				new BigDecimal(lowestPrice, MC),
-				nbRegions);
-	}
-
 	/**
 	 * The date of this historical statistic entry
 	 */
@@ -41,29 +22,33 @@ public class AggregatedHL {
 	/**
 	 * total items that have been exchanged
 	 */
-	private final long volume;
+	private final Number volume;
+
+	public long getVolume() {
+		return volume.longValue();
+	}
 
 	/**
 	 * total value of total items that have been exchanged
 	 */
-	private final BigDecimal totalValue;
+	private final Number totalValue;
 
 	/**
 	 * highest price of an exchange
 	 */
-	private final BigDecimal highestPrice;
+	private final Number highestPrice;
 
 	/**
 	 * lowest price of an exchange
 	 */
-	private final BigDecimal lowestPrice;
+	private final Number lowestPrice;
 
 	@Getter(lazy = true)
-	private final BigDecimal averagePrice = totalValue == null ? null
-			: new BigDecimal(totalValue.doubleValue() / volume, MC);
+	private final Double averagePrice = totalValue == null ? null
+			: totalValue.doubleValue() / volume.longValue();
 
 	/** number of regions which had a corresponding trade on that period */
-	private final int nbRegions;
+	private final long nbRegions;
 
 	public AggregatedHL merge(AggregatedHL other) {
 		if (!other.getDate().equals(getDate())) {
@@ -72,7 +57,7 @@ public class AggregatedHL {
 		}
 		return new AggregatedHL(getDate(),
 				getVolume() + other.getVolume(),
-				getTotalValue().add(other.getTotalValue()),
+				getTotalValue().doubleValue() + other.getTotalValue().doubleValue(),
 				getHighestPrice().doubleValue() > other.getHighestPrice().doubleValue() ? getHighestPrice()
 						: other.getHighestPrice(),
 						getLowestPrice().doubleValue() < other.getLowestPrice().doubleValue() ? getLowestPrice()

@@ -31,19 +31,21 @@ where
 
 	@Query("""
 select
-	date date,
-	sum(volume) volume,
-	sum(volume*average) totalValue,
-	max(highest) highestPrice,
-	min(lowest) lowestPrice,
-	count(*) regions
+	date_trunc('day', date),
+	sum(volume),
+	sum(volume*average),
+	max(highest),
+	min(lowest),
+	count(*)
 from
 	EsiTradeHistoryLine line
 where
 	line.fetchResource.type.id = :typeId
 	and (cast(:from as timestamp) is null or line.date>=:from)
-group by date
-""") List<Object[]> aggregated(int typeId, Instant from);
+group by
+	date_trunc('day', date)
+""")
+	List<AggregatedHL> aggregated(int typeId, Instant from);
 
 	@Query("""
 select

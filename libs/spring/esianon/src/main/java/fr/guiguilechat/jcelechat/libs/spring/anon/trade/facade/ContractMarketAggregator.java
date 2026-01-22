@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -122,7 +123,9 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 		List<AggregatedHL> contractHistory = contractFacadeBpo.aggregatedSales(typeId, from, 0, 0);
 		long postContractFetch = System.currentTimeMillis();
 		Map<? extends Instant, List<AggregatedHL>> byDate = Stream.concat(marketHistory.stream(), contractHistory.stream())
-				.collect(Collectors.groupingBy((Function<? super AggregatedHL, ? extends Instant>) AggregatedHL::getDate));
+				.collect(Collectors.groupingBy(
+						(Function<? super AggregatedHL, ? extends Instant>) ahl -> ahl.getDate()
+								.truncatedTo(ChronoUnit.DAYS)));
 		List<AggregatedHL> ret = byDate.values().stream()
 		    .map(l -> l.stream().reduce((BinaryOperator<AggregatedHL>) AggregatedHL::merge).get())
 				.sorted(Comparator.comparing(AggregatedHL::getDate))

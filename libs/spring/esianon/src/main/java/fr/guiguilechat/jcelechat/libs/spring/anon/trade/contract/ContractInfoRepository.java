@@ -11,6 +11,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
@@ -40,14 +41,14 @@ public interface ContractInfoRepository
 
 	@Query("""
 select
-	date_trunc('day', removedBefore) date,
-	sum(offeredQuantity) volume,
-	sum(price) totalValue,
-	max(price/offeredQuantity) highestPrice,
-	min(price/offeredQuantity) lowestPrice,
-	count(distinct region) regions
+	date_trunc('day', removedBefore),
+	sum(offeredQuantity),
+	sum(price),
+	max(price/offeredQuantity),
+	min(price/offeredQuantity),
+	count(distinct region)
 from
-	#{#entityName} contract
+	#{#entityName}
 where
 	completed
 	and offersItem
@@ -60,7 +61,31 @@ where
 group by date_trunc('day', removedBefore)
 order by date_trunc('day', removedBefore)
 """)
-	List<Object[]> aggregatedSales(int typeId, Instant from, int me, int te);
+	List<AggregatedHL> aggregatedOriginalSales(Instant from, int typeId, int me, int te);
+
+	@Query("""
+select
+	date_trunc('day', removedBefore),
+	sum(offeredRuns),
+	sum(price),
+	max(price/offeredRuns),
+	min(price/offeredRuns),
+	count(distinct region)
+from
+	#{#entityName}
+where
+	completed
+	and offersItem
+	and not requestsItem
+	and offeredTypeId=:typeId
+	and offeredCopy
+	and offeredMe=:me
+	and offeredTe=:te
+	and (cast(:from as timestamp) is null or removedBefore>=:from)
+group by date_trunc('day', removedBefore)
+order by date_trunc('day', removedBefore)
+""")
+	List<AggregatedHL> aggregatedBPCSales(Instant from, int typeId, int me, int te);
 
 	/** open contracts providing only given type and iscopy, me, te */
 	List<ContractInfo> findByRemovedFalseAndOffersItemTrueAndRequestsItemFalseAndOfferedTypeIdInAndOfferedCopyAndOfferedMeAndOfferedTe(
