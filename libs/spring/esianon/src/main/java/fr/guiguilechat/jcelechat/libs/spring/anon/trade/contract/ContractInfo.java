@@ -30,9 +30,9 @@ import lombok.ToString;
 @Table(name = "esi_trade_contractinfo", indexes = {
 		@Index(columnList = "fetch_active,fetch_priority,expires"),
 		@Index(columnList = "fetched,completed,removed,requestsItem,offersNonBpc,offersItem"),
-		/**
+		/** 
 		 * for
-		 * {@link ContractInfoRepository#}
+		 * {@link ContractInfoRepository#aggregatedSales(int, Instant, int, int)}
 		 */
 		@Index(columnList = "completed,offersItem,requestsItem,offeredTypeId,offeredCopy,offeredMe,offeredTe,removedBefore"),
 		@Index(columnList = "region_id"),
