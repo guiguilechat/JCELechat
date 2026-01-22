@@ -42,6 +42,9 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 	private final ContractFacadeBpo contractFacadeBpo;
 
 	@Lazy
+	private final ContractFacadeBpc contractFacadeBpc;
+
+	@Lazy
 	private final ContractFacadeNonBp contractFacadeNonBp;
 
 	@Lazy
@@ -139,9 +142,17 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 	}
 
 	@Cacheable("MarketHistoryAggregatedPresent")
-	public boolean hasHistory(int typeId) {
-		return historyLineService.hasEntry(typeId)
-				|| contractFacadeNonBp.hasEntry(typeId);
+	public boolean hasHistory(int typeId, int me, int te, boolean copy) {
+		boolean ret = false;
+		if (!copy && me == 0 && te == 0) {
+			ret = historyLineService.hasEntry(typeId)
+					|| contractFacadeNonBp.hasEntry(typeId);
+		} else if(copy) {
+			ret = contractFacadeBpc.hasEntry(typeId, me, te);
+		} else {
+			ret = contractFacadeBpo.hasEntry(typeId, me, te);
+		}
+		return ret;
 	}
 
 	@Getter

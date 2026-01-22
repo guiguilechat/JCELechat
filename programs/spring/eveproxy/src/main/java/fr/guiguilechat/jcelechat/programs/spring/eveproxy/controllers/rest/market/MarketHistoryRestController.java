@@ -3,23 +3,20 @@ package fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.mark
 import java.awt.Color;
 import java.io.IOException;
 import java.net.URI;
-import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
-import java.util.TimeZone;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.jfree.chart.JFreeChart;
-import org.jfree.chart.axis.DateAxis;
-import org.jfree.chart.axis.DateTickUnit;
 import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.axis.PeriodAxis;
+import org.jfree.chart.axis.PeriodAxisLabelInfo;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.ClusteredXYBarRenderer;
 import org.jfree.chart.renderer.xy.StandardXYBarPainter;
@@ -27,9 +24,11 @@ import org.jfree.chart.renderer.xy.XYBarRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.chart.ui.RectangleEdge;
 import org.jfree.data.time.Day;
+import org.jfree.data.time.Month;
 import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
+import org.jfree.data.time.Year;
 import org.knowm.xchart.OHLCChart;
 import org.knowm.xchart.OHLCChartBuilder;
 import org.knowm.xchart.internal.chartpart.Chart;
@@ -154,25 +153,19 @@ public class MarketHistoryRestController {
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
-		// add now with 0 value to ensure the chart shows now.
-		List<AggregatedHL> sortedData = Stream.concat(
-				fetchedData.stream(),
-				Stream.of(new AggregatedHL(Instant.now().truncatedTo(ChronoUnit.DAYS), 0, null, null,
-						null, 0)))
-				.sorted(Comparator.comparing(AggregatedHL::getDate)).toList();
-
-		String title = "universe sales of " + type.name() + "(" + type.getId() + ")"
+		String title = "universe sales of " + type.nameId()
 				+ (days.isPresent() ? " over the last " + days.get() + " days" : "");
 		RestControllerHelper.setResponseTitle(response, type.name());
 
 		ChartTheme ct = ChartTheme.forName(theme.orElse(null));
 		switch (ChartBuilder.orDefault(builder)) {
 		case jfreechart:
-			RestControllerHelper.addResponseJFreeChart(response, drawJFreeChart(sortedData, averageDays, title, "items", ct),
+			RestControllerHelper.addResponseJFreeChart(response,
+					drawJFreeChart(fetchedData, averageDays, title, "items", ct),
 					accept);
 			break;
 		case xchart:
-			RestControllerHelper.addResponseXChart(response, drawXChart(sortedData, title), accept);
+			RestControllerHelper.addResponseXChart(response, drawXChart(fetchedData, title), accept);
 			break;
 		default:
 			throw new UnsupportedOperationException("unsupported case " + ChartBuilder.orDefault(builder));
@@ -275,33 +268,33 @@ public class MarketHistoryRestController {
 		List<Integer> cumulatedDays = nbCumulAverages < requestedCumulatedDays.size()
 				? requestedCumulatedDays.subList(0, nbCumulAverages)
 						: requestedCumulatedDays;
-
 		XYPlot plot = new XYPlot();
 		plot.setBackgroundPaint(bgColor);
+		plot.setDomainGridlinePaint(textColor);
+		plot.setRangeGridlinePaint(textColor);
 		// plot.setDomainGridlinesVisible(false);
-		// tick on first day of week https://stackoverflow.com/a/11052090
-		DateAxis timeAxis = new DateAxis(null) {
-			@Override
-			protected Date previousStandardDate(Date date, DateTickUnit unit) {
-				Date prevDate = super.previousStandardDate(date, unit);
 
-				Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
-				calendar.setTime(prevDate);
-
-				int firstDayOfWeek = calendar.getFirstDayOfWeek();
-				if (firstDayOfWeek != calendar.get(Calendar.DAY_OF_WEEK)) {
-					calendar.set(Calendar.DAY_OF_WEEK, firstDayOfWeek);
-				}
-
-				return calendar.getTime();
-			}
-		};
-		timeAxis.setDateFormatOverride(new SimpleDateFormat("YY-MM-dd"));
-		timeAxis.setTickLabelPaint(textColor);
-		timeAxis.setLabelPaint(textColor);
-		timeAxis.setLowerMargin(0.02);
-		timeAxis.setUpperMargin(0.01);
-		plot.setDomainAxis(timeAxis);
+		PeriodAxis xAxis = new PeriodAxis(null);
+		xAxis.setLowerMargin(0.02);
+		xAxis.setUpperMargin(0.02);
+		xAxis.setMajorTickTimePeriodClass(Year.class);
+		xAxis.setMinorTickTimePeriodClass(Month.class);
+		xAxis.setTickLabelPaint(textColor);
+		// change the text color of the domain labels
+		PeriodAxisLabelInfo[] lis = Stream.of(xAxis.getLabelInfo())
+				.map(li -> new PeriodAxisLabelInfo(
+						li.getPeriodClass(),
+						li.getDateFormat(),
+						li.getPadding(),
+						li.getLabelFont(),
+						textColor,
+						li.getDrawDividers(),
+						li.getDividerStroke(),
+						li.getDividerPaint()))
+				.toArray(PeriodAxisLabelInfo[]::new);
+		xAxis.setLabelInfo(lis);
+		xAxis.setAxisLinePaint(textColor);
+		plot.setDomainAxis(xAxis);
 
 		TimeSeries averagePrice = new TimeSeries("average price");
 		TimeSeries volumeTraded = new TimeSeries("daily " + quantityUnit + " traded");
@@ -409,7 +402,6 @@ public class MarketHistoryRestController {
 		chart.getLegend().setItemPaint(textColor);
 		chart.getLegend().setBackgroundPaint(bgColor);
 		chart.getLegend().setPosition(RectangleEdge.TOP);
-
 		return chart;
 	}
 

@@ -119,6 +119,10 @@ public class MarketHTMLController {
 		int meValue = me == null ? 0 : me.orElse(0);
 		int teValue = te == null ? 0 : te.orElse(0);
 		boolean copyValue = copy == null ? false : copy.orElse(false);
+		model.addAttribute("me", meValue);
+		model.addAttribute("te", teValue);
+		model.addAttribute("isCopy", copyValue);
+
 		Map<Integer, String> regionNamesById = regionService.namesById();
 		String name = null;
 			model.addAttribute("typeUrl", typeHTMLController.typeUrl(type));

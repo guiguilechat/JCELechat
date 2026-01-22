@@ -91,6 +91,12 @@ public class Type extends SdeEntity<Integer> {
 		return "type:" + getId();
 	}
 
+	public String nameId() {
+		StringBuilder ret = new StringBuilder(name == null ? "unknown" : name);
+		ret.append(" (").append(getId()).append(")");
+		return ret.toString();
+	}
+
 	@Override
 	public String toString() {
 		return name == null ? "type:" + getId() : name + "(" + getId() + ")";

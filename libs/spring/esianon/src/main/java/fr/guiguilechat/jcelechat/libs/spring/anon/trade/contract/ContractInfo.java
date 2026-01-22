@@ -30,10 +30,17 @@ import lombok.ToString;
 @Table(name = "esi_trade_contractinfo", indexes = {
 		@Index(columnList = "fetch_active,fetch_priority,expires"),
 		@Index(columnList = "fetched,completed,removed,requestsItem,offersNonBpc,offersItem"),
-		/** {@link ContractInfoRepository#aggregatedSales(int, Instant, int, int)} */
+		/**
+		 * for
+		 * {@link ContractInfoRepository#}
+		 */
 		@Index(columnList = "completed,offersItem,requestsItem,offeredTypeId,offeredCopy,offeredMe,offeredTe,removedBefore"),
 		@Index(columnList = "region_id"),
-		@Index(columnList = "offersOneTypeForIsk,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns")
+		/**
+		 * for
+		 * {@link ContractInfoRepository#existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndOfferedCopyAndCompletedTrue(int, int, int, boolean)}
+		 */
+		@Index(columnList = "completed,offeredTypeId,offeredCopy,offeredMe,offeredTe,offeredQuantity,offeredRuns")
 })
 @AllArgsConstructor
 @RequiredArgsConstructor

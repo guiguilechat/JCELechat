@@ -17,7 +17,7 @@ import lombok.Setter;
  */
 @Entity(name = "EsiTradeHistoryReq")
 @Table(name = "esi_trade_historyreq", indexes = {
-		@Index(columnList = "fetch_active,fetch_priority,expires"),
+		@Index(columnList = "id,fetch_active,fetch_priority,expires"),
 		@Index(columnList = "regionId,typeId"),
 		@Index(columnList = "typeId")
 })

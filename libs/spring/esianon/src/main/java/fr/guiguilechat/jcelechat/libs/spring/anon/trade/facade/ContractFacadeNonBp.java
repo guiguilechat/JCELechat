@@ -35,7 +35,8 @@ public class ContractFacadeNonBp {
 
 	public boolean hasEntry(int typeId) {
 		return contractInfoRepository
-				.existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndCompletedTrueAndOffersOneTypeForIskTrue(typeId, 0, 0);
+				.existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndOfferedCopyAndCompletedTrue(
+						typeId, 0, 0, false);
 	}
 
 	/**

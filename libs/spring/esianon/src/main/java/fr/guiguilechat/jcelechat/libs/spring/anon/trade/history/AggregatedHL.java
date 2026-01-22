@@ -80,4 +80,9 @@ public class AggregatedHL {
 								Math.max(getNbRegions(), other.getNbRegions()));
 	}
 
+	@Override
+	public String toString() {
+		return "[" + date + "]";
+	}
+
 }

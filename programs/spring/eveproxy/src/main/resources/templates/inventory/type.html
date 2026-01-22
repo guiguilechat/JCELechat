@@ -111,7 +111,7 @@
 			</div>
 		</div>
 		<div class="row border">
-			<div class="col" th:if="${@contractMarketAggregator.hasHistory(type.id)}">
+			<div class="col" th:if="${@contractMarketAggregator.hasHistory(type.id, 0, 0, false)}">
 				<h3>Trade history</h3>
 				<a th:href="${@marketHistoryRestController.typeUrl(type)}">
 					<img th:src="${@marketHistoryRestController.typeUrl(type)}" class="img-fluid" alt="history chart">

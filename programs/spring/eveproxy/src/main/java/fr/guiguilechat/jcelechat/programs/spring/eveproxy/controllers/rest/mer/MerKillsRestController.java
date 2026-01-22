@@ -196,6 +196,7 @@ public class MerKillsRestController {
 		xAxis.setMajorTickTimePeriodClass(Year.class);
 		xAxis.setMinorTickTimePeriodClass(Month.class);
 		xAxis.setTickLabelPaint(textColor);
+		// change the text color of the domain labels
 		PeriodAxisLabelInfo[] lis = Stream.of(xAxis.getLabelInfo())
 				.map(li -> new PeriodAxisLabelInfo(
 						li.getPeriodClass(),

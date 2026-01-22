@@ -17,8 +17,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_co
 public interface ContractInfoRepository
     extends RemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
-	boolean existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndCompletedTrueAndOffersOneTypeForIskTrue(int typeId, int me,
-			int te);
+	boolean existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndOfferedCopyAndCompletedTrue(
+			int typeId, int me,
+			int te, boolean copy);
 
 	List<ContractInfo> findByRegionIdAndRemovedFalseAndFetchedTrue(int regionId);
 

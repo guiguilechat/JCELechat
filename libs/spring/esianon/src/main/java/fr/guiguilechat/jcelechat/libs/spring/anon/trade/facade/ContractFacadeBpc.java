@@ -48,6 +48,13 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 	@Lazy
 	private final TypeService typeService;
 
+	public boolean hasEntry(int typeId, int me, int te) {
+		return contractInfoRepository
+				.existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndOfferedCopyAndCompletedTrue(
+						typeId, me,
+						te, true);
+	}
+
 	/**
 	 * find contracts that are open and offer a given type as copy, with ME/TE ge
 	 * requested

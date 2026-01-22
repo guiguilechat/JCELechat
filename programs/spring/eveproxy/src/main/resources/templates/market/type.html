@@ -87,7 +87,7 @@
 			</div>
 			<div class="col" th:if="${historyChartUrl!=null}">
 				<h2>history</h2>
-				<div th:switch="${@contractMarketAggregator.hasHistory(type.id)}">
+				<div th:switch="${@contractMarketAggregator.hasHistory(type.id, me, te, isCopy)}">
 					<a 
 						th:case="true"
 						th:href="${historyChartUrl}">

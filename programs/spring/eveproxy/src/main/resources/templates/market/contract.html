@@ -18,16 +18,22 @@
 		<div class = "row border">
 		<div class="col border">
 			<h3>Information</h3>
+			<span
+				th:text="${'type: '+contract.type}">
+			</span><br />
 			<span th:text="${'issued '+contract.dateIssued}"></span> <br />
 			<span th:text="${'expires '+contract.dateExpired}"></span> <br />
 			<span
 				th:if="${issuer!=null}"
-				th:text="${'issued by '+issuer.name}"
-			/> <br />
+				th:text="${'issued by '+issuer.name}">
+			</span><br />
 			<span
 				th:if="${issuerCorporation!=null && contract.forCorporation}"
-				th:text="${' for '+issuerCorporation.name}"
-			/>
+				th:text="${' for '+issuerCorporation.name}">
+			</span><br />
+			<span
+				th:text="${'status: '+contract.status}">
+			</span><br />
 		</div>
 		<div class="col border">
 			<h3>Offers</h3>
