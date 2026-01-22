@@ -72,7 +72,7 @@ public class MarketRegionUpdater extends
 		}
 		long postCreated = System.currentTimeMillis();
 		log.trace(" translated the {} orders in {}s", translated.size(), (postCreated - postClear) / 1000);
-		marketLineService.createAll(translated);
+		marketLineService.insertAll(translated);
 		long postSaved = System.currentTimeMillis();
 		log.trace(" saved {} orders for {} regions in {}s, at {} orders/s", translated.size(), responseOk.size(),
 				(postSaved - postCreated) / 1000,
@@ -94,7 +94,7 @@ public class MarketRegionUpdater extends
 	/**
 	 * try to fetch only that amount of lines at a time, to reduce server DB hogging
 	 */
-	long maxLinesToFetch = 100000;
+	private final static long TARGET_LINE_FETCH = 400000;
 
 	@Override
 	protected List<MarketRegion> listToUpdate() {
@@ -106,7 +106,7 @@ public class MarketRegionUpdater extends
 		long totalDoneLines = 0L;
 		for (MarketRegion mr : ret) {
 			totalDoneLines += mr.getElementsSize();
-			if (totalDoneLines + mr.getElementsSize() > maxLinesToFetch) {
+			if (totalDoneLines + mr.getElementsSize() > TARGET_LINE_FETCH) {
 				if (reduced.isEmpty()) {
 					reduced.add(mr);
 					totalDoneLines += mr.getElementsSize();
@@ -115,7 +115,7 @@ public class MarketRegionUpdater extends
 					log.trace("  market regions list reduced to {}, total last lines={}, max is {}",
 							reduced.size(),
 							totalDoneLines,
-							maxLinesToFetch);
+							TARGET_LINE_FETCH);
 					return reduced;
 				}
 			} else {
@@ -126,7 +126,7 @@ public class MarketRegionUpdater extends
 		log.trace("  market regions list kept to {}, total {} fetched lines, max={}",
 				ret.size(),
 				totalDoneLines,
-				maxLinesToFetch);
+				TARGET_LINE_FETCH);
 		return ret;
 	}
 

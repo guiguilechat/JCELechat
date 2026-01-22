@@ -15,7 +15,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import java.util.stream.StreamSupport;
 
 import javax.sql.DataSource;
 
@@ -50,40 +49,35 @@ public class MarketLineService implements MarketRegionListener {
 		return repo.saveAndFlush(entity);
 	}
 
-	public List<MarketLine> saveAll(Iterable<MarketLine> entities) {
-		return repo.saveAllAndFlush(entities);
-	}
-
-	public void createAll(Iterable<MarketLine> entities) {
+	public void insertAll(List<MarketLine> entities) {
 		try {
 			Connection conn = DataSourceUtils.getConnection(datasource);
 			if (conn.isWrapperFor(PGConnection.class)) {
-				log.debug("using PG connection");
-				if (createPGCopy(entities, conn.unwrap(PGConnection.class).getCopyAPI())) {
+				log.debug("using PG connection to insert {} orders", entities.size());
+				if (insertPGCopy(entities, conn.unwrap(PGConnection.class).getCopyAPI())) {
 					return;
 				} else {
-					log.warn("failed to create using postgresql copy, delegating to hibernate");
+					log.warn("failed to insert using postgresql copy, delegating to hibernate");
 				}
 			} else {
-				log.trace("no PG connection, falling back to hibernate's saveall");
+				log.trace("no PG connection, falling back to hibernate's saveAll");
 			}
 		} catch (SQLException e) {
 			log.warn("error using datasource, letting hibernate handle that crap", e);
 		}
-		saveAll(entities);
+		repo.saveAllAndFlush(entities);
 	}
 
-	protected boolean createPGCopy(Iterable<MarketLine> entities, CopyManager cm) {
+	protected boolean insertPGCopy(List<MarketLine> entities, CopyManager cm) {
 		long start = System.currentTimeMillis();
-		List<MarketLine> list = StreamSupport.stream(entities.spliterator(), false).toList();
 		long postList = System.currentTimeMillis();
-		Iterator<Long> it = repo.reservePGIds(list.size()).iterator();
+		Iterator<Long> it = repo.reservePGIds(entities.size()).iterator();
 		long postIds = System.currentTimeMillis();
-		log.trace("PG copy received next {} indexes for the new records", list.size());
+		log.trace("PG copy received next {} indexes for the new records", entities.size());
 		entities.forEach(ml -> ml.setId(it.next()));
 		long postUpdateIds = System.currentTimeMillis();
 		StringReader reader = new StringReader(
-				list.stream()
+				entities.stream()
 						.map(MarketLine::csv)
 						// .reduce(new StringBuilder(), (BiFunction<StringBuilder, ? super String,
 						// StringBuilder>) StringBuilder::append, (BinaryOperator<StringBuilder>)
@@ -94,13 +88,13 @@ public class MarketLineService implements MarketRegionListener {
 			cm.copyIn("COPY esi_trade_market_line (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
 					+ MarketLine.CSV_SEP + "'", reader);
 		} catch (SQLException | IOException e) {
-			log.error("while copying entities", e);
+			log.error("while PG copy " + entities.size() + " entities", e);
 			return false;
 		}
 
 		long end = System.currentTimeMillis();
 		log.trace("performed copy of {} entries in {} ms (aggreg={} fetchids={} updateids={} concat={} send={}",
-				list.size(),
+				entities.size(),
 				end - start,
 				postList - start,
 				postIds - postList,
