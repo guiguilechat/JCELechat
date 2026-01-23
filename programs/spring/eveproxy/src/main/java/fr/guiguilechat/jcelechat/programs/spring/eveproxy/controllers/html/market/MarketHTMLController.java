@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -331,6 +332,8 @@ public class MarketHTMLController {
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
 					"requires filter, received " + filter);
 		}
+		CompletableFuture<List<RankedOffer>> futBOs;
+		CompletableFuture<List<RankedOffer>> futSOs;
 		switch (filter) {
 		case CATEGORY:
 			Category cat = categoryService.ofId(filterId);
@@ -338,11 +341,13 @@ public class MarketHTMLController {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a category");
 			}
+			futBOs = marketRankingService.rankCategoryOffers(locationIds, filterId,
+					BoSoChoice.BO);
+			futSOs = marketRankingService.rankCategoryOffers(locationIds, filterId,
+					BoSoChoice.SO);
 			model.addAttribute("filterName", "category " + cat.getName());
-			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankCategoryOffers(locationIds, filterId, BoSoChoice.BO).get()));
-			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankCategoryOffers(locationIds, filterId, BoSoChoice.SO).get()));
+			model.addAttribute("rankBO", linkRankings(futBOs.get()));
+			model.addAttribute("rankSO", linkRankings(futSOs.get()));
 			break;
 		case GROUP:
 			Group group = groupService.ofId(filterId);
@@ -350,11 +355,13 @@ public class MarketHTMLController {
 				throw new ResponseStatusException(HttpStatus.NOT_FOUND,
 						"filter id " + filterId + " can't be resolved to a group");
 			}
+			futBOs = marketRankingService.rankGroupOffers(locationIds, filterId,
+					BoSoChoice.BO);
+			futSOs = marketRankingService.rankGroupOffers(locationIds, filterId,
+					BoSoChoice.SO);
 			model.addAttribute("filterName", "group " + group.getName());
-			model.addAttribute("rankBO",
-					linkRankings(marketRankingService.rankGroupOffers(locationIds, filterId, BoSoChoice.BO).get()));
-			model.addAttribute("rankSO",
-					linkRankings(marketRankingService.rankGroupOffers(locationIds, filterId, BoSoChoice.SO).get()));
+			model.addAttribute("rankBO", linkRankings(futBOs.get()));
+			model.addAttribute("rankSO", linkRankings(futSOs.get()));
 			break;
 		default:
 			throw new UnsupportedOperationException("case " + filter + " not handled");
