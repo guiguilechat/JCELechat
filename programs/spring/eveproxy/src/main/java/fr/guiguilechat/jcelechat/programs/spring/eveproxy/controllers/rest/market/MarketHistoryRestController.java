@@ -211,7 +211,7 @@ public class MarketHistoryRestController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
 
-		String title = "public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
+		String title = "Public contract sales of " + type.name() + "(" + type.getId() + ")" + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te;
 		RestControllerHelper.setResponseTitle(response, type.name() + " " + (copy ? " (CP)" : "")
 				+ " " + me + "/" + te);
@@ -253,7 +253,7 @@ public class MarketHistoryRestController {
 		// first color is for immediate, next colors are for cumulated
 		List<Color> priceColors = theme.firstAxisColor(1 + requestedCumulatedDays.size());
 		List<Color> volColors = theme.secondAxisColor(1 + requestedCumulatedDays.size());
-		// we limit the number of cumulated series to how much colors we have.
+		// limit the number of cumulated series to how much colors we have.
 		// if we have 1 vol and 1 price colors, these will be assigned to the immediate
 		// series
 		// if we have 2 vol and 1 price colors, we have the immediate and first
@@ -376,6 +376,24 @@ public class MarketHistoryRestController {
 
 		plot.setRenderer(1, quantityRenderer);
 		plot.mapDatasetToRangeAxis(1, 1);
+
+		// ensure the x axis contains both one year ago and tomorrow
+		boolean changedRange = false;
+		double lowerRange = xAxis.getRange().getLowerBound();
+		double upperRange = xAxis.getRange().getUpperBound();
+		double maxLowerRange = Instant.now().plus(-40, ChronoUnit.DAYS).toEpochMilli();
+		if (lowerRange > maxLowerRange) {
+			changedRange = true;
+			lowerRange = maxLowerRange;
+		}
+		double minUpperRange = Instant.now().plus(0, ChronoUnit.DAYS).toEpochMilli();
+		if (upperRange < minUpperRange) {
+			changedRange = true;
+			upperRange = minUpperRange;
+		}
+		if (changedRange) {
+			xAxis.setRange(lowerRange, upperRange);
+		}
 
 		JFreeChart chart = new JFreeChart(title, JFreeChart.DEFAULT_TITLE_FONT,
 				plot, true);
