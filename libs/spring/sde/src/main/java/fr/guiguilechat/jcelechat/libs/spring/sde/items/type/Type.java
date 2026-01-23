@@ -43,6 +43,11 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Type extends SdeEntity<Integer> {
 
+
+	public static final int LARGE_SKILL_INJECTOR_ID = 40520;
+	public static final int PLEX_ID = 44992;
+	public static final int SMALL_SKILL_INJECTOR_ID = 45635;
+
 	@OneToMany(mappedBy = "typeId", fetch = FetchType.LAZY)
 	private List<TypeAttribute> attributes = new ArrayList<>();
 	private BigDecimal basePrice;

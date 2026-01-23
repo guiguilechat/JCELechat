@@ -283,7 +283,7 @@ order by pct_sales_above_so desc
 	// accelerators
 	//
 
-	public record RatedAccelerator(
+	public record RatedSPGain(
 			Number typeId, String typeName, Number expiresEpochDays,
 			Number spGain, Number price) {
 
@@ -334,6 +334,6 @@ where
 	t.marketGroup.id=2487
 	and t.published
 """)
-	List<RatedAccelerator> rateAccelerators(long locationId);
+	List<RatedSPGain> rateAccelerators(long locationId);
 
 }

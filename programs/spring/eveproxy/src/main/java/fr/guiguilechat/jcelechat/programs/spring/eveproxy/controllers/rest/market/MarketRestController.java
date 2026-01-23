@@ -26,9 +26,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.AcceleratorsRatingService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.SpRateService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RatedAccelerator;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RatedSPGain;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.GroupCategoryChoice;
@@ -55,7 +55,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MarketRestController {
 
-	private final AcceleratorsRatingService acceleratorsRatingService;
+	private final SpRateService acceleratorsRatingService;
 
 	private final MarketLineService marketLineService;
 
@@ -401,10 +401,11 @@ public class MarketRestController {
 
 	@Transactional
 	@GetMapping("/rate/accelerators")
-	public ResponseEntity<List<RatedAccelerator>> rateAccelerators(
+	public ResponseEntity<List<RatedSPGain>> rateAccelerators(
 			@RequestParam Optional<Long> locationId,
+			@RequestParam Optional<Long> sps,
 			@RequestParam Optional<ACCEPT_TEXT> accept) throws InterruptedException, ExecutionException {
-		List<RatedAccelerator> data = acceleratorsRatingService.rate(locationId.orElse(Station.JITA_HUB_ID));
+		List<RatedSPGain> data = acceleratorsRatingService.rate(locationId.orElse(Station.JITA_HUB_ID), sps);
 		return RestControllerHelper.makeResponse(data, accept);
 	}
 }

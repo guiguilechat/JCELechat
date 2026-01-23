@@ -29,6 +29,17 @@ group by typeId
 """)
 	Stream<Object[]> lowestSOAt(Iterable<Long> locationIds, Iterable<Integer> typeIds);
 
+	@Query("""
+select
+	min(price)
+from
+	#{#entityName} e
+where
+	not isBuyOrder
+	and typeId = :typeId
+""")
+	Double lowestSO(int typeId);
+
 	/**
 	 * get the (typeid, min price) for SOs at a given location and for given types,
 	 * past a given total value

@@ -11,14 +11,22 @@
     <header th:insert="~{fragments/general.html :: header}"> </header>
 	<div class="container-fluid border">
 		<div class="row border">
-		<h1 th:text="${'Rating of accelerators at '+locationName}"/>
-			<span>
+		<h1 th:text="${'SP price at '+locationName+' with '+T(fr.guiguilechat.tools.FormatTools).formatPrice(sp)+' SP'}"/>
+			<div>
+				Location : 
 				<a th:href="${jitaUrl}">Jita</a>
 				<a th:href="${amarrUrl}">Amarr</a>
 				<a th:href="${dodixieUrl}">Dodixie</a>
 				<a th:href="${hekUrl}">Hek</a>
 				<a th:href="${rensUrl}">Rens</a>
-			</span>
+			</div>
+			<div>
+				With : 
+				<a th:href="${@spRateHTMLController.rateAcceleratorsUrl(locId, 0)}">0SP</a>
+				<a th:href="${@spRateHTMLController.rateAcceleratorsUrl(locId, 5000000)}">5MSP</a>
+				<a th:href="${@spRateHTMLController.rateAcceleratorsUrl(locId, 50000000)}">50MSP</a>
+				<a th:href="${@spRateHTMLController.rateAcceleratorsUrl(locId, 80000000)}">80MSP</a>
+			</div>
 		</div>
 
 		<div class="row">
@@ -26,8 +34,8 @@
 			<table class="table table-striped table-hover">
 				<thead class="thead-light sticky-top bg-light">
 					<tr>
-						<th>type</th>
-						<th>price</th>
+						<th>Type</th>
+						<th>Price</th>
 						<th>SP</th>
 						<th>SP/Misk</th>
 					</tr>

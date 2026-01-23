@@ -287,6 +287,10 @@ public class MarketLineService implements MarketRegionListener {
 		return price(forLocation(locationId, typeId, false), quantity, !dump, true);
 	}
 
+	public Double globalSOPrice(int typeId) {
+		return repo.lowestSO(typeId);
+	}
+
 	/**
 	 * @param locationIds  location ids to filter the orders
 	 * @param discardValue amount of SO total value we ignore
