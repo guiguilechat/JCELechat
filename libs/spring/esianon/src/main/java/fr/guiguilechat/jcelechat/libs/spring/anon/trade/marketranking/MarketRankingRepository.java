@@ -26,7 +26,7 @@ with
 location_prices as (
 select
 	"type_id" type_id,
-	coalesce (max("price") filter(where "is_buy_order"), 'Infinity') bo_price
+	coalesce (max("price") filter(where "is_buy_order"), 0) bo_price
 from
 	"esi_trade_market_line"
 where
