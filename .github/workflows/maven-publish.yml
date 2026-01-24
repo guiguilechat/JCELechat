@@ -24,7 +24,7 @@ jobs:
       -  name: Set up JDK
          uses: actions/setup-java@v4
          with:
-            java-version: '24'
+            java-version: '25'
             distribution: temurin
             server-id: github-guiguilechat-jcelechat # Value of the distributionManagement/repository/id field of the pom.xml
             settings-path: ${{ github.workspace }} # location for the settings.xml file
