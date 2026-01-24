@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 		<artifactId>exports</artifactId>
-		<version>7.44.1</version>
+		<version>8.0.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 	<artifactId>types</artifactId>
