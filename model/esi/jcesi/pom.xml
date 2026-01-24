@@ -11,16 +11,20 @@
 	<artifactId>jcesi</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
-			<artifactId>model</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model</groupId>
-			<artifactId>formula</artifactId>
+			<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+			<artifactId>commons</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.exports</groupId>
 			<artifactId>locations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.sde</groupId>
+			<artifactId>model</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+			<artifactId>compiled</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -34,14 +38,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
-			<artifactId>commons</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
-			<artifactId>compiled</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
