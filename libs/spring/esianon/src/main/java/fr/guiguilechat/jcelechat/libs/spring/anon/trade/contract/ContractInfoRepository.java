@@ -43,9 +43,9 @@ public interface ContractInfoRepository
 select
 	date_trunc('day', removedBefore),
 	sum(offeredQuantity),
-	sum(price),
-	max(price/offeredQuantity),
-	min(price/offeredQuantity),
+	sum(greatest(price, buyout)),
+	max(greatest(price, buyout)/offeredQuantity),
+	min(greatest(price, buyout)/offeredQuantity),
 	count(distinct region)
 from
 	#{#entityName}
@@ -67,9 +67,9 @@ order by date_trunc('day', removedBefore)
 select
 	date_trunc('day', removedBefore),
 	sum(offeredRuns),
-	sum(price),
-	max(price/offeredRuns),
-	min(price/offeredRuns),
+	sum(greatest(price, buyout)),
+	max(greatest(price, buyout)/offeredRuns),
+	min(greatest(price, buyout)/offeredRuns),
 	count(distinct region)
 from
 	#{#entityName}
@@ -146,7 +146,7 @@ group by offeredMe, offeredTe, offeredCopy
 select
 	offeredTypeId typeId,
 	coalesce(t.name, 'type:'||offeredTypeId),
-	sum(price) totalValue,
+	sum(greatest(price, buyout)) totalValue,
 	sum(offeredQuantity) totalQuantity,
 	false,
 	0,
@@ -166,7 +166,7 @@ where
 group by
 	offeredTypeId,
 	t.name
-order by sum(price) desc
+order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
 	List<AggregatedTypeHistory> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
@@ -175,7 +175,7 @@ limit :limit
 select
 	offeredTypeId typeId,
 	coalesce(t.name, 'type:'||offeredTypeId),
-	sum(price) totalValue,
+	sum(greatest(price, buyout)) totalValue,
 	sum(offeredQuantity) totalQuantity,
 	false,
 	offeredMe,
@@ -196,7 +196,7 @@ group by
 	t.name,
 	offeredMe,
 	offeredTe
-order by sum(price) desc
+order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
 	List<AggregatedTypeHistory> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
@@ -205,7 +205,7 @@ limit :limit
 select
 	offeredTypeId typeId,
 	coalesce(t.name, 'type:'||offeredTypeId),
-	sum(price) totalValue,
+	sum(greatest(price, buyout)) totalValue,
 	sum(offeredRuns) totalRuns,
 	true,
 	offeredMe,
@@ -225,7 +225,7 @@ group by
 	t.name,
 	offeredMe,
 	offeredTe
-order by sum(price) desc
+order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
 	List<AggregatedTypeHistory> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);

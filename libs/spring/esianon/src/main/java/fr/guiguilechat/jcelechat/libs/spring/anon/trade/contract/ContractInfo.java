@@ -30,7 +30,7 @@ import lombok.ToString;
 @Table(name = "esi_trade_contractinfo", indexes = {
 		@Index(columnList = "fetch_active,fetch_priority,expires"),
 		@Index(columnList = "fetched,completed,removed,requestsItem,offersNonBpc,offersItem"),
-		/** 
+		/**
 		 * for
 		 * {@link ContractInfoRepository#aggregatedSales(int, Instant, int, int)}
 		 */
@@ -94,12 +94,11 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	/**
 	 * Buyout price (for Auctions only)
 	 */
-
 	private double buyout;
+
 	/**
 	 * Collateral price (for Couriers only)
 	 */
-
 	private double collateral;
 
 	/**
@@ -524,6 +523,16 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 
 	public String gameLink() {
 		return "<url=contract:0//" + getId() + ">contract " + getId() + "</url>";
+	}
+
+	/**
+	 * @return buyout for auctions, price otherwise
+	 */
+	public double directPrice() {
+		if (type == get_contracts_public_region_id_type.auction) {
+			return getBuyout();
+		}
+		return getPrice();
 	}
 
 }

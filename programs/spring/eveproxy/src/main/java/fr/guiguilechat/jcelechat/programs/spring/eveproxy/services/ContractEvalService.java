@@ -196,10 +196,11 @@ public class ContractEvalService {
 		double valueProvided = 0;
 		double valueRigsAloneProvided = 0;
 		boolean containsShip = false;
-		if (ci.getPrice() > 0) {
-			valueRequired += ci.getPrice();
-		} else {
-			valueProvided += -ci.getPrice();
+		if (ci.directPrice() > 0) {
+			valueRequired += ci.directPrice();
+		}
+		if (ci.getReward() > 0) {
+			valueProvided += ci.getReward();
 		}
 		for (ContractItem item : ci.getItems()) {
 			if (item.isIncluded()) {
