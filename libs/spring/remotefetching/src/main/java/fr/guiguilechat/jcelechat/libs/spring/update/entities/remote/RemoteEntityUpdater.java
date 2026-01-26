@@ -148,7 +148,6 @@ public abstract class RemoteEntityUpdater<
 								"case " + responseCode + " not handled for url" + response.getURL());
 					}
 					}
-					;
 				}
 			}
 			return responseOk;

@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater.EntityUpdateListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -57,6 +56,7 @@ public class PriceUpdater
 			properties.put(ConnectedImpl.IFNONEMATCH, lastEtag);
 		}
 		Requested<R_get_markets_prices[]> prices = ESIRawPublic.INSTANCE.get_markets_prices(properties);
+		processEsiResponse(prices);
 		if (prices.isOk()) {
 			Map<Integer, Type> idToType = typeService.createIfAbsent(
 					Stream.of(prices.getOK()).map(p -> p.type_id).distinct().toList());

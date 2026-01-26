@@ -46,6 +46,7 @@ public class IdResolutionUpdater extends
 		log.debug(" {} will update {} ids, first is {}", serviceName(), list.size(), list.get(0).getId());
 		int[] elementsIds = list.stream().mapToInt(IdResolution::getId).toArray();
 		Requested<R_post_universe_names[]> response = ESIRawPublic.INSTANCE.post_universe_names(elementsIds, null);
+		processEsiResponse(response);
 		Instant now = Instant.now();
 		int responseCode = response.getResponseCode();
 		switch (responseCode) {
@@ -81,7 +82,7 @@ public class IdResolutionUpdater extends
 				IdResolution idr = list.get(i);
 				idr.increaseSuccessiveErrors();
 				idr.setFetchPriority(1);
-				idr.setNextFetch(now.plusSeconds(i * idr.getSuccessiveErrors()));
+				idr.setNextFetch(now.plusSeconds((1 + i) * 60 + idr.getSuccessiveErrors()));
 			}
 		}
 		repo().saveAllAndFlush(list);
