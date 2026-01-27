@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.resolve.status.ESIStatusService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -41,9 +40,6 @@ jcesi.manager:
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @Getter
 public class UpdateScheduler {
-
-	@Lazy
-	private final ESIStatusService esiStatusService;
 
 	@Lazy
 	private final Optional<List<EntityUpdater>> fetchedServices;
@@ -77,6 +73,7 @@ public class UpdateScheduler {
 	@Value("${jcesi.manager.updateddelay:30}")
 	private int updatedDelay;
 
+	/** when not null, time before which we skip the update cycles */
 	private Instant nextUpdate = Instant.now();
 
 	private Map<String, Instant> fetcherNameToNextUpdate = new HashMap<>();
@@ -87,11 +84,7 @@ public class UpdateScheduler {
 			return;
 		}
 		Instant start = Instant.now();
-		if (start.isBefore(nextUpdate)) {
-			return;
-		}
-		if (!esiStatusService.isOk()) {
-			log.debug("skip updating as esi status is error");
+		if (nextUpdate != null && start.isBefore(nextUpdate)) {
 			return;
 		}
 		boolean remainService = false;
@@ -111,11 +104,6 @@ public class UpdateScheduler {
 			Instant serviceNextUpdate = s.nextUpdate(remain, start);
 			fetcherNameToNextUpdate.put(s.serviceName(), serviceNextUpdate);
 			log.debug(" updated {} remaining={} next={}", s.serviceName(), remain, format(serviceNextUpdate));
-			if (!esiStatusService.isOk()) {
-				log.debug("skip next services as esi status is error");
-				remainService = true;
-				break;
-			}
 		}
 
 		if (!remainService) {
@@ -126,7 +114,7 @@ public class UpdateScheduler {
 			}
 			nextUpdate = Instant.now().plusSeconds(updatedDelay);
 		} else {
-			nextUpdate = Instant.now().plusSeconds(1);
+			nextUpdate = null;
 		}
 	}
 

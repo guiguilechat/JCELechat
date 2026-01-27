@@ -160,36 +160,6 @@ public abstract class LocalEntityUpdater<
 	}
 
 	/**
-	 * deduce the limit we are allowed on the queries. This limits takes both the
-	 * global error limiter and the entity-specific token bucket
-	 *
-	 * @return number of simultaneous queries we are allowed to send
-	 */
-	protected int maxAllowedQueries() {
-		int errorsMin = getUpdate().getErrorsMin();
-		int errorsMax = getUpdate().getErrorsForMax();
-		int remainErrors = globalErrors().availErrors();
-		int maxQueries = getUpdate().getMax();
-		int errorQueries = maxQueries;
-		if (remainErrors <= errorsMin) {
-			errorQueries = 0;
-		} else if (remainErrors < errorsMax) {
-			errorQueries = (int) Math.ceil(1.0 * maxQueries * (remainErrors - errorsMin) / (errorsMax - errorsMin));
-		}
-		int bucketQueries = tokensBucket().availQueries();
-		int ret = Math.min(errorQueries, bucketQueries);
-		log.trace(" {} max queries is {} from remaining errors={}[{}:0;{}:{}] bucketQueries={}",
-				serviceName(),
-				ret,
-				remainErrors,
-				errorsMin,
-				errorsMax,
-				maxQueries,
-				bucketQueries);
-		return ret;
-	}
-
-	/**
 	 * transmit a single received response to the global error service and the
 	 * tokens bucket, to update them.
 	 */

@@ -161,4 +161,16 @@ public class HistoryReqUpdater extends
 				postDelete - postAnalyze);
 	}
 
+	/**
+	 * on request error, expires in 10days +1hour per successive error + random
+	 * 0-1hour to spread the calls
+	 */
+	@Override
+	protected void updateExpiresError(HistoryReq data, int respCode) {
+		int hours = 10 * 24;
+		int nbErrors = data.increaseSuccessiveErrors();
+		hours += nbErrors;
+		data.setExpiresInRandom(hours * 3600, 3600);
+	}
+
 }

@@ -400,9 +400,27 @@ public abstract class RemoteEntityUpdater<
 		 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
 		 * {@link LocalEntityService#maxAllowedQueries}
 		 */
-		@Override
 		protected int maxAllowedQueries() {
-			int maxFromCycle = super.maxAllowedQueries();
+			int errorsMin = getUpdate().getErrorsMin();
+			int errorsMax = getUpdate().getErrorsForMax();
+			int remainErrors = globalErrors().availErrors();
+			int maxQueries = getUpdate().getMax();
+			int errorQueries = maxQueries;
+			if (remainErrors <= errorsMin) {
+				errorQueries = 0;
+			} else if (remainErrors < errorsMax) {
+				errorQueries = (int) Math.ceil(1.0 * maxQueries * (remainErrors - errorsMin) / (errorsMax - errorsMin));
+			}
+			int bucketQueries = tokensBucket().availQueries();
+			int maxFromCycle = Math.min(errorQueries, bucketQueries);
+			log.trace(" {} max queries is {} from remaining errors={}[{}:0;{}:{}] bucketQueries={}",
+					serviceName(),
+					maxFromCycle,
+					remainErrors,
+					errorsMin,
+					errorsMax,
+					maxQueries,
+					bucketQueries);
 			// define qtty to get from the rate
 			int maxFromRate = getUpdate().getMax();
 			if (lastUpdateTime != null) {
