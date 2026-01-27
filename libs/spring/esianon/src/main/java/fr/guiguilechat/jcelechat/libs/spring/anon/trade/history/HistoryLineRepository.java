@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import java.time.Instant;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.springframework.data.jpa.repository.Query;
 
@@ -103,5 +104,27 @@ select
 """)
 
 	boolean existsByFetchResourceTypeId(int typeId);
+
+	// for everef updates
+
+	@Query("""
+from
+	#{#entityName} l
+where
+	l.extsource=:extsource
+select
+	max(date_trunc('day', date))
+""")
+	CompletableFuture<Instant> maxDateSaved(String extsource);
+
+	@Query("""
+from
+	#{#entityName} l
+where
+	l.extsource is null
+select
+	min(date_trunc('day', date))
+""")
+	CompletableFuture<Instant> minEsiDateSaved();
 
 }

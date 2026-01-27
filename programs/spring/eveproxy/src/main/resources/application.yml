@@ -61,6 +61,13 @@ esi:
       statskills:
          update:
             skip: false
+            
+everef:
+   trade:
+      history:
+         update:
+            skip: false
+
 jcesi:
    manager:
       default:

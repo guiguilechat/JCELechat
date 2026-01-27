@@ -20,10 +20,8 @@ import lombok.Setter;
 @Table(name = "esi_trade_historyline", indexes = {
 		@Index(columnList = "fetch_resource_id"),
 		@Index(columnList = "date"),
+		@Index(columnList = "extsource,date")
 }
-// , uniqueConstraints = {
-// @UniqueConstraint(columnNames = { "fetched_resource_id", "date" })
-// }
 		)
 @AllArgsConstructor
 @NoArgsConstructor
@@ -54,6 +52,9 @@ public class HistoryLine extends AFetchedListElementAutoId<HistoryLine, HistoryR
 	 * Total
 	 */
 	private long volume;
+
+	/** when the data was sourced from outside of ESI, the source. eg: "everef" */
+	private String extsource;
 
 	public static HistoryLine of(HistoryReq req, R_get_markets_region_id_history line) {
 		HistoryLine ret = builder()

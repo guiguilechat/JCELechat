@@ -33,7 +33,7 @@
 		<jackson.version>2.20.0</jackson.version>
 		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
 		<javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-		<logback.version>1.5.20</logback.version>
+		<logback.version>1.5.26</logback.version>
 		<lombok.version>1.18.42</lombok.version>
 		<openjfx.version>22.0.2</openjfx.version>
 		<slf4j.version>2.0.17</slf4j.version>
@@ -267,6 +267,11 @@
 			<!-- sub modules -->
 			<dependency>
 				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>everef</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 				<artifactId>formula</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -447,6 +452,11 @@
 				<artifactId>javax.servlet-api</artifactId>
 				<version>${javax.servlet-api.version}</version>
 				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-compress</artifactId>
+				<version>1.28.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven</groupId>

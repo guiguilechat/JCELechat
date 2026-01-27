@@ -149,7 +149,7 @@ public class MarketHistoryRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		Instant from = Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS);
+		Instant from = Instant.now().minus(days.orElse(365 * 50) + 1, ChronoUnit.DAYS);
 		List<AggregatedHL> fetchedData = contractMarketAggregator.aggregatedSales(typeId, from);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");

@@ -11,6 +11,10 @@
 	<name>LIB Spring ESI Anon</name>
 	<dependencies>
 		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+			<artifactId>everef</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
 			<artifactId>gameclient</artifactId>
 		</dependency>
