@@ -7,6 +7,9 @@ public enum Universe {
 	Void,
 	Hidden;
 
+	/**
+	 * @see https://developers.eveonline.com/docs/guides/id-ranges/#regions
+	 */
 	public static Universe of(int regionId) {
 		if (regionId < 11000000) {
 			return Eve;
