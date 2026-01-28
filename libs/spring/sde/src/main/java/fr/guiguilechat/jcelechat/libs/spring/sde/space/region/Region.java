@@ -10,6 +10,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.constellation.Constellati
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.generic.SdeInSpace;
 import fr.guiguilechat.jcelechat.model.formula.space.Universe;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Index;
 import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
@@ -28,7 +29,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Region extends SdeInSpace {
 
-	@OneToMany(mappedBy = "region")
+	@OneToMany(mappedBy = "region", fetch = FetchType.LAZY)
 	private List<Constellation> constellations;
 
 	@Lob

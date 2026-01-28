@@ -44,6 +44,8 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
+	private LocalDate minESIDate = null;
+
 	protected boolean completed = false;
 
 	@Override
@@ -51,30 +53,36 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		if (completed) {
 			return false;
 		}
-		CompletableFuture<Instant> f_i_max = repo.maxDateSaved(EXTSOURCE);
-		CompletableFuture<Instant> f_i_min = repo.minEsiDateSaved();
-		Instant minEsiSaved;
-		try {
-			minEsiSaved = f_i_min.get();
-		} catch (InterruptedException | ExecutionException e) {
-			throw new RuntimeException(e);
-		}
-		if (minEsiSaved == null) {
-			log.info("no esi data saved, waiting for data to start fetching everef");
-			return false;
-		}
-		LocalDate maxFetchDate = minEsiSaved.atOffset(ZoneOffset.UTC).toLocalDate();
 
-		Instant maxEverefSaved;
+		CompletableFuture<LocalDate> f_ld_max = hrepo.maxId(EXTSOURCE).thenApply(EveRefDayHistory::date);
+
+		if (minESIDate == null) {
+			CompletableFuture<Instant> f_i_min = repo.minEsiDateSaved();
+			try {
+				Instant minEsiSaved = f_i_min.get();
+				if (minEsiSaved == null) {
+					log.info("no esi data saved, waiting for data to start fetching everef");
+					return false;
+				} else {
+					minESIDate = minEsiSaved.atOffset(ZoneOffset.UTC).toLocalDate();
+					log.trace("found min esi date as {}", minESIDate);
+				}
+			} catch (InterruptedException | ExecutionException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		LocalDate maxEverefSaved;
 		try {
-			maxEverefSaved = f_i_max.get();
+			maxEverefSaved = f_ld_max.get();
 		} catch (InterruptedException | ExecutionException e) {
 			throw new RuntimeException(e);
 		}
 
 		List<LocalDate> toFetchDates = new ArrayList<>();
 		for (LocalDate fetchDate = firstFetch(maxEverefSaved); toFetchDates.size() < getUpdate().getMax()
-				&& fetchDate.isBefore(maxFetchDate); fetchDate = fetchDate.plusDays(1L)) {
+				&& fetchDate.isBefore(minESIDate); fetchDate = fetchDate.plusDays(1L)) {
 			toFetchDates.add(fetchDate);
 		}
 		if (toFetchDates.isEmpty()) {
@@ -113,7 +121,8 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 			LocalDate d = e.getKey();
 			Instant instant = d.atStartOfDay().toInstant(ZoneOffset.UTC);
 			EveRefDayHistory newEveRefHistory = new EveRefDayHistory(
-					EveRefDayHistory.makeId(d.getYear(), d.getMonthValue(), d.getDayOfMonth()), true, 0, 0, Instant.now(),
+					EveRefDayHistory.makeId(d.getYear(), d.getMonthValue(), d.getDayOfMonth()), true, 0, 0,
+					Instant.now(),
 					null);
 			try {
 				List<HistoryEntry> l = e.getValue().get();
@@ -141,7 +150,11 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 			}
 			newEveRefHistories.add(newEveRefHistory);
 		});
+		log.trace("  saving {} everefhistories",
+				newEveRefHistories.size());
 		hrepo.saveAllAndFlush(newEveRefHistories);
+		log.trace("  saving {} historylines",
+				newHistoryLines.size());
 		repo.saveAllAndFlush(newHistoryLines);
 		log.trace("saved {} historylines from {} everefhistories",
 				newHistoryLines.size(),
@@ -155,6 +168,13 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 			return EverefHistoryFetcher.FIRST_DATE;
 		}
 		return lastDone.atOffset(ZoneOffset.UTC).toLocalDate().plusDays(1L);
+	}
+
+	public LocalDate firstFetch(LocalDate lastDone) {
+		if (lastDone == null) {
+			return EverefHistoryFetcher.FIRST_DATE;
+		}
+		return lastDone.plusDays(1L);
 	}
 
 }

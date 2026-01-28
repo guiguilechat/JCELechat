@@ -33,11 +33,16 @@ public class EveRefDayHistory {
 		return 10000 * year + 100 * month + day;
 	}
 
-	public LocalDate date() {
+	public static LocalDate date(int id) {
 		int year = id / 10000;
 		int month = id % 10000 / 100;
 		int day = id % 100;
 		return LocalDate.of(year, month, day);
+
+	}
+
+	public LocalDate date() {
+		return date(id);
 	}
 
 	private boolean success;
