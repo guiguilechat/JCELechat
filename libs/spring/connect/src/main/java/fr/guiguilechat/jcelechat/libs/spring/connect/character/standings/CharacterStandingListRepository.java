@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.standings;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 
 public interface CharacterStandingListRepository
-    extends RemoteEntityRepository<CharacterStandingList, Integer> {
+    extends RemoteNumberEntityRepository<CharacterStandingList, Integer> {
 
 }

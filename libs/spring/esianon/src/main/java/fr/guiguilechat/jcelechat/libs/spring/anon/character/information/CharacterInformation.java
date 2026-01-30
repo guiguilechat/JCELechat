@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceI
 import fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation.CharacterAffiliation;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfo;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
@@ -33,7 +33,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CharacterInformation extends RemoteEntity<Integer, R_get_characters_character_id> {
+public class CharacterInformation extends RemoteNumberEntity<Integer, R_get_characters_character_id> {
 
 	@OneToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id")

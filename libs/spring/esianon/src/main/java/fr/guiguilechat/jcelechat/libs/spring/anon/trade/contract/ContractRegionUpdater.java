@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.Corpor
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import lombok.RequiredArgsConstructor;
@@ -32,7 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.contract.region")
 public class ContractRegionUpdater extends
-		DiscoveringRemoteEntityUpdater<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository, ContractRegionService> {
+		DiscoveringRemoteNumberEntityUpdater<ContractRegion, Integer, List<R_get_contracts_public_region_id>, ContractRegionRepository, ContractRegionService> {
 
 	@Lazy
 	private final CharacterInformationService characterInformationService;

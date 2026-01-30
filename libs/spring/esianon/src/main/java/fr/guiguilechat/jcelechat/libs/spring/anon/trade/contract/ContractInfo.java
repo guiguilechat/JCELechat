@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.libs.spring.anon.character.information.CharacterInformation;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystem;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;

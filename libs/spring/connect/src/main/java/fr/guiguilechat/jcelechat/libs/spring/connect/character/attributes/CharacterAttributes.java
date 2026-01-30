@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.attributes;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -23,7 +23,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CharacterAttributes extends RemoteEntity<Integer, R_get_characters_character_id_attributes> {
+public class CharacterAttributes extends RemoteNumberEntity<Integer, R_get_characters_character_id_attributes> {
 
 	private Instant accruedRemapCooldown;
 

@@ -18,8 +18,8 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.EntityUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
@@ -32,7 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractInfoUpdater extends
-		RemoteEntityUpdater<ContractInfo, Integer, R_get_contracts_public_items_contract_id[], ContractInfoRepository, ContractInfoService> {
+		RemoteNumberEntityUpdater<ContractInfo, Integer, R_get_contracts_public_items_contract_id[], ContractInfoRepository, ContractInfoService> {
 
 	@Lazy
 	private final ContractItemService contractItemService;
@@ -206,7 +206,7 @@ public class ContractInfoUpdater extends
 	/**
 	 * notified when one+ item of a contract is modified
 	 */
-	public interface ContractItemsListener extends EntityUpdateListener {
+	public interface ContractItemsListener extends CacheInvalidator {
 	}
 
 	@Getter

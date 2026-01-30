@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 
-public interface HistoryReqRepository extends RemoteEntityRepository<HistoryReq, Long> {
+public interface HistoryReqRepository extends RemoteNumberEntityRepository<HistoryReq, Long> {
 
 	List<HistoryReq> findByTypeId(int typeId);
 

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketRegionService
 		extends
-		RemoteEntityService<MarketRegion, Integer, MarketRegionRepository> {
+		RemoteNumberEntityService<MarketRegion, Integer, MarketRegionRepository> {
 
 	@Lazy
 	private final MarketLineService marketLineService;

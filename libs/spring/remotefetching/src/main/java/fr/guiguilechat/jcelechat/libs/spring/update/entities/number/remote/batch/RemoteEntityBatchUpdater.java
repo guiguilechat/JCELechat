@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.batch;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.batch;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityUpdater;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,13 +25,13 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class AResourceBatchUpdater<
-		Entity extends LocalEntity<Id>,
+public abstract class RemoteEntityBatchUpdater<
+		Entity extends NumberEntity<Id>,
 		Id extends Number,
 		Fetched,
-		Repository extends LocalEntityRepository<Entity, Id>,
-		Service extends LocalEntityService<Entity, Id, Repository>>
-		extends LocalEntityUpdater<Entity, Id, Repository, Service> {
+		Repository extends NumberEntityRepository<Entity, Id>,
+		Service extends NumberEntityService<Entity, Id, Repository>>
+		extends NumberEntityUpdater<Entity, Id, Repository, Service> {
 
 	@Override
 	public long nbToUpdate() {

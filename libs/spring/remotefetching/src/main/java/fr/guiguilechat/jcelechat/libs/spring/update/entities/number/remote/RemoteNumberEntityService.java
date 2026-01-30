@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote;
 
 import java.time.Instant;
 import java.util.stream.StreamSupport;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityService;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -23,8 +23,11 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @NoArgsConstructor
-public abstract class RemoteEntityService<Entity extends RemoteEntity<IdType, ?>, IdType extends Number, Repository extends RemoteEntityRepository<Entity, IdType>>
-		extends LocalEntityService<Entity, IdType, Repository> {
+public abstract class RemoteNumberEntityService<
+			Entity extends RemoteNumberEntity<IdType, ?>,
+			IdType extends Number,
+			Repository extends RemoteNumberEntityRepository<Entity, IdType>>
+		extends NumberEntityService<Entity, IdType, Repository> {
 
 	//
 	// entity create & save
@@ -79,14 +82,14 @@ public abstract class RemoteEntityService<Entity extends RemoteEntity<IdType, ?>
 	public void prioritize(int priority, Iterable<Entity> entities) {
 		prioritizeIds(priority,
 				StreamSupport.stream(entities.spliterator(), false)
-						.map(RemoteEntity::getId)
+						.map(RemoteNumberEntity::getId)
 						.distinct().toList());
 	}
 
 	public void prioritize(Iterable<Entity> entities) {
 		prioritizeIds(
 				StreamSupport.stream(entities.spliterator(), false)
-						.map(RemoteEntity::getId)
+						.map(RemoteNumberEntity::getId)
 						.distinct().toList());
 	}
 

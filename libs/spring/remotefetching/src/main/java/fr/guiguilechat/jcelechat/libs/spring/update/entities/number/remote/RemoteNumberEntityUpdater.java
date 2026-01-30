@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -27,20 +27,20 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityUpdater;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class RemoteEntityUpdater<
-		Entity extends RemoteEntity<IdType, Fetched>,
+public abstract class RemoteNumberEntityUpdater<
+		Entity extends RemoteNumberEntity<IdType, Fetched>,
 		IdType extends Number,
 		Fetched,
-		Repository extends RemoteEntityRepository<Entity, IdType>,
-		Service extends RemoteEntityService<Entity, IdType, Repository>
-	>extends LocalEntityUpdater<Entity, IdType, Repository, Service> {
+		Repository extends RemoteNumberEntityRepository<Entity, IdType>,
+		Service extends RemoteNumberEntityService<Entity, IdType, Repository>
+	>extends NumberEntityUpdater<Entity, IdType, Repository, Service> {
 
 		//
 		// updating entity data
@@ -241,7 +241,7 @@ public abstract class RemoteEntityUpdater<
 
 		/**
 		 * Called when the request returned a 304 (no change). Defaults to
-		 * {@link #updateMetaOk(RemoteEntity, Requested)}
+		 * {@link #updateMetaOk(RemoteNumberEntity, Requested)}
 		 */
 		protected void updateNoChange(Entity data, Requested<Fetched> response) {
 			updateMetaOk(data, response);
@@ -398,7 +398,7 @@ public abstract class RemoteEntityUpdater<
 
 		/**
 		 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
-		 * {@link LocalEntityService#maxAllowedQueries}
+		 * {@link NumberEntityService#maxAllowedQueries}
 		 */
 		protected int maxAllowedQueries() {
 			int errorsMin = getUpdate().getErrorsMin();

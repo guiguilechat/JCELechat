@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 
-public interface CharacterWalletRepository extends RemoteEntityRepository<CharacterWallet, Integer> {
+public interface CharacterWalletRepository extends RemoteNumberEntityRepository<CharacterWallet, Integer> {
 
 }

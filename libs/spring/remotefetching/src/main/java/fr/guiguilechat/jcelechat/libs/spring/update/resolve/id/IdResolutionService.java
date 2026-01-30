@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class IdResolutionService
-		extends LocalEntityService<IdResolution, Integer, IdResolutionRepository> {
+		extends NumberEntityService<IdResolution, Integer, IdResolutionRepository> {
 
 	@Override
 	protected IdResolution create(Integer entityId) {

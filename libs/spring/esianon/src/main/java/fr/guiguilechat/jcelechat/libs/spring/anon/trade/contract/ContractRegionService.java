@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractRegionService
 		extends
-		RemoteEntityService<ContractRegion, Integer, ContractRegionRepository> {
+		RemoteNumberEntityService<ContractRegion, Integer, ContractRegionRepository> {
 
 	@Lazy
 	private final RegionService regionService;

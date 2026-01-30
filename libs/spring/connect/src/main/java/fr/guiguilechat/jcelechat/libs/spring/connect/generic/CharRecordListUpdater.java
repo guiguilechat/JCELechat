@@ -6,11 +6,11 @@ import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedListElementAutoId;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.IFetchedListElementRepositoryAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedListElementAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.IFetchedListElementRepositoryAutoId;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
@@ -32,8 +32,8 @@ import lombok.experimental.Accessors;
 public abstract class CharRecordListUpdater<
     	Entity extends AFetchedList<Integer, Fetched, ListRecord>,
     	Fetched,
-    	Repository extends RemoteEntityRepository<Entity, Integer>,
-		Service extends RemoteEntityService<Entity, Integer, Repository>,
+    	Repository extends RemoteNumberEntityRepository<Entity, Integer>,
+		Service extends RemoteNumberEntityService<Entity, Integer, Repository>,
 		ListRecord extends AFetchedListElementAutoId<?, Entity>,
 		RecordRepo extends IFetchedListElementRepositoryAutoId<Entity, ListRecord>>
 		extends CharDataUpdater<Entity, Fetched[], Repository, Service> {

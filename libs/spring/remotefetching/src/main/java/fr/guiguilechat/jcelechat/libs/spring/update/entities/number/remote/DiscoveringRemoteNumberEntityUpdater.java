@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -17,7 +17,7 @@ import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * A {@link RemoteEntityService} that also allows to discover the existing ids
+ * A {@link RemoteNumberEntityService} that also allows to discover the existing ids
  * prior to updating them ( with {@link #discoverRemoteIds(Map)})
  *
  * @param <Entity>
@@ -26,13 +26,13 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class DiscoveringRemoteEntityUpdater<
-	Entity extends RemoteEntity<IdType, Fetched>,
+public abstract class DiscoveringRemoteNumberEntityUpdater<
+	Entity extends RemoteNumberEntity<IdType, Fetched>,
 	IdType extends Number,
 	Fetched,
-	Repository extends RemoteEntityRepository<Entity, IdType>,
-	Service extends RemoteEntityService<Entity, IdType, Repository>>
-		extends RemoteEntityUpdater<Entity, IdType, Fetched, Repository, Service> {
+	Repository extends RemoteNumberEntityRepository<Entity, IdType>,
+	Service extends RemoteNumberEntityService<Entity, IdType, Repository>>
+		extends RemoteNumberEntityUpdater<Entity, IdType, Fetched, Repository, Service> {
 
 	/**
 	 * discover the remote ids that need to be managed. They will then be created

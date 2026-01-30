@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.everef.history.EverefHistoryFetcher;
 import fr.guiguilechat.jcelechat.libs.everef.history.HistoryEntry;
@@ -25,7 +24,6 @@ import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "everef.trade.history")
 @Getter

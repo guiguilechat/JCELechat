@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceI
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.faction.information.FactionInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.character.affiliation")
 public class CharacterAffiliationUpdater extends
-		RemoteEntityUpdater<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository, CharacterAffiliationService> {
+		RemoteNumberEntityUpdater<CharacterAffiliation, Integer, R_post_characters_affiliation, CharacterAffiliationRepository, CharacterAffiliationService> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;

@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.prices;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Price extends LocalEntity<Integer> {
+public class Price extends NumberEntity<Integer> {
 
 	@OneToOne
 	private Type type;

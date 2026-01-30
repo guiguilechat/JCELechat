@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.corporation.NpcCorporationService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class LPCorporationService extends
-		RemoteEntityService<LPCorporation, Integer, LPCorporationRepository> {
+		RemoteNumberEntityService<LPCorporation, Integer, LPCorporationRepository> {
 
 	@Lazy
 	private final NpcCorporationService npcCorporationService;

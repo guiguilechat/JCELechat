@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.spring.connect.character.wallet.journal;
 import java.time.Instant;
 
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedListElementAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_context_id_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;

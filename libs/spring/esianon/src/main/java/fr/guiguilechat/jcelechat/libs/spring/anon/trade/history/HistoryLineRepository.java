@@ -7,7 +7,7 @@ import java.util.concurrent.CompletableFuture;
 import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.IFetchedListElementRepositoryAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.IFetchedListElementRepositoryAutoId;
 
 public interface HistoryLineRepository extends IFetchedListElementRepositoryAutoId<HistoryReq, HistoryLine> {
 

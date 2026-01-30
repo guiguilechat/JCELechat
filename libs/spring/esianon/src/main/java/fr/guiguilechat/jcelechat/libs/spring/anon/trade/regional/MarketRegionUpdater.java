@@ -17,8 +17,8 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.EntityUpdateListener;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import lombok.Getter;
@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 @ConfigurationProperties(prefix = "esi.trade.market")
 @Order(4) // depends on region, type
 public class MarketRegionUpdater extends
-		DiscoveringRemoteEntityUpdater<MarketRegion, Integer, R_get_markets_region_id_orders[], MarketRegionRepository, MarketRegionService> {
+		DiscoveringRemoteNumberEntityUpdater<MarketRegion, Integer, R_get_markets_region_id_orders[], MarketRegionRepository, MarketRegionService> {
 
 	@Lazy
 	private final MarketLineService marketLineService;
@@ -136,7 +136,7 @@ public class MarketRegionUpdater extends
 	/**
 	 * notified when one+ region has its orders modified
 	 */
-	public interface MarketRegionListener extends EntityUpdateListener {
+	public interface MarketRegionListener extends CacheInvalidator {
 	}
 
 	@Getter

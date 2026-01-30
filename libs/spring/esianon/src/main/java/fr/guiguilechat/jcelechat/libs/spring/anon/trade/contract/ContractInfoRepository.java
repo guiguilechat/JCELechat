@@ -12,11 +12,11 @@ import org.springframework.data.jpa.repository.Query;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
 public interface ContractInfoRepository
-    extends RemoteEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
+    extends RemoteNumberEntityRepository<ContractInfo, Integer>, JpaSpecificationExecutor<ContractInfo> {
 
 	boolean existsByOfferedTypeIdAndOfferedMeAndOfferedTeAndOfferedCopyAndCompletedTrue(
 			int typeId, int me,

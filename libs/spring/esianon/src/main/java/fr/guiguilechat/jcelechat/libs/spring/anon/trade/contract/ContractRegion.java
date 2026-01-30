@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
@@ -28,7 +28,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ContractRegion extends RemoteEntity<Integer, List<R_get_contracts_public_region_id>> {
+public class ContractRegion extends RemoteNumberEntity<Integer, List<R_get_contracts_public_region_id>> {
 
 	@OneToOne
 	private Region region;

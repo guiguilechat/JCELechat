@@ -3,7 +3,9 @@ package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 import java.util.List;
 
 /**
- * reacts to updates. to use it, define your own interface, and create a field
+ * reacts to updates, typically to invalidate cache.
+ * <p>
+ * to use it, define your own sub interface, and create a field
  * with getter to have {@link #getListeners}, eg :
  *
  * <pre>{@code
@@ -13,8 +15,13 @@ import java.util.List;
  * @Getter
  * private final Optional&lt;List&lt;XListener>> listeners;
  * }</pre>
+ * </p>
+ * <p>
+ * Then the service that implement your XListener can provide their own cache
+ * List to invalidate on update with {@link #getCacheList()}
+ * </p>
  */
-public interface EntityUpdateListener {
+public interface CacheInvalidator {
 
 	/** triggered when at least an item is updated */
 	default void onUpdate() {

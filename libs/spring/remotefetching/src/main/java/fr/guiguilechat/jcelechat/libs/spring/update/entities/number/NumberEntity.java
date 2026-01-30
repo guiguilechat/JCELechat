@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number;
 
 import java.time.Instant;
 
@@ -14,16 +14,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * abstract class that represent a local deduced information.
- * The information can be an retrieved as an aggregation, meaning there is
- * no 1-1 link between the deduced entity and the information source.
+ * Entity identified by its #id field, a number
  */
 @MappedSuperclass
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class LocalEntity<IdType extends Number> {
+public abstract class NumberEntity<IdType extends Number> {
 
 	@Id
 	private IdType id;

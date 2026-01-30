@@ -3,78 +3,28 @@ package fr.guiguilechat.jcelechat.libs.spring.update.entities;
 import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
-import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokenBucketResolver;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
 import lombok.AccessLevel;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@NoArgsConstructor
-public abstract class LocalEntityUpdater<
-		Entity extends LocalEntity<Id>,
-		Id extends Number,
-		Repository extends LocalEntityRepository<Entity, Id>,
-		Service extends LocalEntityService<Entity, Id, Repository>
-	> implements EntityUpdater {
+public abstract class ManagedEntityUpdater implements EntityUpdater {
 
+	/** service to call parrallel fetch */
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
 	private ExecutionService executionService;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private GlobalErrors globalErrors;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private Repository repo;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private Service service;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private TokenBucketResolver tokensBucket;
-
-	protected Entity save(Entity data) {
-		return service().save(data);
-	}
-
-	protected List<Entity> saveAll(Iterable<Entity> data) {
-		return service().saveAll(data);
-	}
-
-	protected Set<Id> createMissing(List<Id> entityIds) {
-		return service().createMissing(entityIds);
-	}
-
-	protected Entity createMinimal(Id entityId) {
-		return service().createMinimal(entityId);
-	}
-
-	//
-	// update management
-	//
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
@@ -123,10 +73,10 @@ public abstract class LocalEntityUpdater<
 	}
 
 	protected void postUpdate() {
-		Optional<? extends List<? extends EntityUpdateListener>> listeners = getListeners();
-		Stream<EntityUpdateListener> ls = Stream.empty();
-		if (isSelfInvalidate() && this instanceof EntityUpdateListener) {
-			ls = Stream.concat(ls, Stream.of((EntityUpdateListener) this));
+		Optional<? extends List<? extends CacheInvalidator>> listeners = getListeners();
+		Stream<CacheInvalidator> ls = Stream.empty();
+		if (isSelfInvalidate() && this instanceof CacheInvalidator) {
+			ls = Stream.concat(ls, Stream.of((CacheInvalidator) this));
 		}
 		if (listeners != null && listeners.isPresent()) {
 			ls = Stream.concat(ls, listeners.get().stream());
@@ -153,28 +103,10 @@ public abstract class LocalEntityUpdater<
 
 	@Override
 	public Instant nextUpdate(boolean remain, Instant now) {
-		if (nextUpdate != null) {
-			return nextUpdate;
+		if (nextUpdate == null) {
+			nextUpdate = EntityUpdater.super.nextUpdate(remain, now);
 		}
-		return EntityUpdater.super.nextUpdate(remain, now);
-	}
-
-	/**
-	 * transmit a single received response to the global error service and the
-	 * tokens bucket, to update them.
-	 */
-	protected void processEsiResponse(Requested<?> response) {
-		globalErrors().processResponse(response);
-		tokensBucket().processResponse(response);
-	}
-
-	/**
-	 * transmit the last response of a list to the global error service and the
-	 * tokens bucket, to update them.
-	 */
-	protected void processEsiResponses(Iterable<Requested<?>> responses) {
-		globalErrors().processResponse(responses);
-		tokensBucket().processResponse(responses);
+		return nextUpdate;
 	}
 
 	//
@@ -190,17 +122,18 @@ public abstract class LocalEntityUpdater<
 	 * override this to provide your own list of listeners, eg
 	 *
 	 * <pre>{@code
-	 * @Getter @Lazy
+	 * @Getter
+	 * @Lazy
 	 * private final Optional<List<MyListener>> listeners;
 	 * }</pre>
 	 */
-	protected Optional<? extends List<? extends EntityUpdateListener>> getListeners() {
+	protected Optional<? extends List<? extends CacheInvalidator>> getListeners() {
 		return null;
 	}
 
 	/**
 	 * override this to return true, and make the class implement
-	 * {@link EntityUpdateListener}, to have its own caches invalidated on entity
+	 * {@link CacheInvalidator}, to have its own caches invalidated on entity
 	 * update. Code to override :
 	 *
 	 * <pre>{@code
@@ -211,6 +144,5 @@ public abstract class LocalEntityUpdater<
 	protected boolean isSelfInvalidate() {
 		return false;
 	}
-
 
 }

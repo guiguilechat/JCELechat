@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.OneToMany;
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Fetched resource that contains a list of elements
+ * Remote entity that contains a list of elements
  *
  * @param <Fetched>    type fetched in a array, from the remote.
  * @param <RecordType> entity to store the record as
@@ -25,7 +25,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 public abstract class AFetchedList<Id extends Number, Fetched, RecordType extends AFetchedListElement<?, ?>>
-    extends RemoteEntity<Id, Fetched[]> {
+    extends RemoteNumberEntity<Id, Fetched[]> {
 
 	@OneToMany(mappedBy = "fetchResource", fetch = FetchType.LAZY)
 	private List<RecordType> elements = new ArrayList<>();

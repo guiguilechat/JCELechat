@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.FetchedListElementService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.FetchedListElementService;
 import lombok.RequiredArgsConstructor;
 
 @Service

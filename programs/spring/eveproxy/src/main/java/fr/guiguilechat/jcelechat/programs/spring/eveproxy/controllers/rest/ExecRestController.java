@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryReqUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.gameclient.updater.GameClientUpdateService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeUpdater;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
@@ -28,8 +27,6 @@ public class ExecRestController {
 	private final ContractInfoUpdater contractInfoUpdater;
 
 	private final GameClientUpdateService gameClientUpdateService;
-
-	private final HistoryReqUpdater historyReqUpdater;
 
 	private final SdeUpdater sdeUpdater;
 
@@ -69,17 +66,6 @@ public class ExecRestController {
 	@GetMapping("/contract/reanalyze")
 	public ResponseEntity<?> analizeContracts() {
 		contractInfoUpdater.requestAnalize();
-		return ResponseEntity.ok("");
-	}
-
-	@Operation(summary = "request deduplicate of market history", description = "request the history updated to perform deduplication")
-	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "request accepted")
-	})
-	@GetMapping("/history/deduplicate")
-	public ResponseEntity<?> deduplicateHistory(boolean deduplicate) {
-		log.info("history deduplicate set to " + deduplicate);
-		historyReqUpdater.setDeduplicate(deduplicate);
 		return ResponseEntity.ok("");
 	}
 

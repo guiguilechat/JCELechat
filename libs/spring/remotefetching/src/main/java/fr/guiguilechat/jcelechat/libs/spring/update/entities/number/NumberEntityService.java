@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -17,7 +17,6 @@ import org.springframework.transaction.annotation.Transactional;
 import fr.guiguilechat.jcelechat.libs.spring.update.limits.GlobalErrors;
 import fr.guiguilechat.jcelechat.libs.spring.update.limits.TokenBucketResolver;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.tools.ExecutionService;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,21 +25,16 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @NoArgsConstructor
-public abstract class LocalEntityService<
-		Entity extends LocalEntity<Id>,
+public abstract class NumberEntityService<
+		Entity extends NumberEntity<Id>,
 		Id extends Number,
-		Repository extends LocalEntityRepository<Entity, Id>>
+		Repository extends NumberEntityRepository<Entity, Id>>
 	implements EntityService {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
 	@Getter(value = AccessLevel.PROTECTED)
 	private Repository repo;
-
-	@Autowired // can't use constructor injection for generic service
-	@Accessors(fluent = true)
-	@Getter(value = AccessLevel.PROTECTED)
-	private ExecutionService executionService;
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)
@@ -173,7 +167,7 @@ public abstract class LocalEntityService<
 			log.trace("    {} getOrCreate created {} new entities", serviceName(), newEntities.size());
 		}
 		return Stream.concat(storedEntities.values().stream(), newEntities.stream())
-				.collect(Collectors.toMap(LocalEntity::getId, e -> e));
+				.collect(Collectors.toMap(NumberEntity::getId, e -> e));
 	}
 
 	//

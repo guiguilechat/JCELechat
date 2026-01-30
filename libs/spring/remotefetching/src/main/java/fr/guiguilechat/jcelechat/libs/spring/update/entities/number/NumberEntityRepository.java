@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean
-public interface LocalEntityRepository<Entity extends LocalEntity<Id>, Id extends Number>
+public interface NumberEntityRepository<Entity extends NumberEntity<Id>, Id extends Number>
 extends JpaRepository<Entity, Id> {
 
 	/**

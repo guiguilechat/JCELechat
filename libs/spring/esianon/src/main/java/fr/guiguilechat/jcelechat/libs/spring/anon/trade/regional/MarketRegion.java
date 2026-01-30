@@ -1,7 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional;
 
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedList;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedList;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;

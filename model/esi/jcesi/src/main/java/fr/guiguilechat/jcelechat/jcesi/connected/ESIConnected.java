@@ -73,6 +73,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	public static record R_Verify(
 			int CharacterID,
 			String CharacterName,
+			String ClientID,
 			String ExpiresOn,
 			String Scopes,
 			String TokenType,
@@ -83,6 +84,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	public static final R_Verify NULLVERIFY = new R_Verify(
 			0,
 			"DISCONNECTED",
+			"",
 			"",
 			"",
 			"",

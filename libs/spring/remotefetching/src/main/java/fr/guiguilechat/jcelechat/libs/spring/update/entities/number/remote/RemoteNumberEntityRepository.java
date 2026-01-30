@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote;
 
 import java.time.Instant;
 import java.util.List;
@@ -8,11 +8,11 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.NoRepositoryBean;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityRepository;
 
 @NoRepositoryBean
-public interface RemoteEntityRepository<Entity extends RemoteEntity<Id, ?>, Id extends Number>
-    extends LocalEntityRepository<Entity, Id> {
+public interface RemoteNumberEntityRepository<Entity extends RemoteNumberEntity<Id, ?>, Id extends Number>
+    extends NumberEntityRepository<Entity, Id> {
 
 	List<Entity> findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant now, Limit limit);
 

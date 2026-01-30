@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.update.entities.remote;
+package fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote;
 
 import java.time.Instant;
 
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntity;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,7 +25,7 @@ import lombok.Setter;
 @Getter
 @MappedSuperclass
 @Setter
-public abstract class RemoteEntity<IdType extends Number, Fetched> extends LocalEntity<IdType> {
+public abstract class RemoteNumberEntity<IdType extends Number, Fetched> extends NumberEntity<IdType> {
 
 	/** date the last successful update expires at */
 	private Instant expires;
@@ -87,7 +87,7 @@ public abstract class RemoteEntity<IdType extends Number, Fetched> extends Local
 	 * update that entity's scalar values from a newly fetched remote data.
 	 * non-scalar values (eg reference to other entities) must be updated in the
 	 * service's
-	 * {@link RemoteEntityService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
+	 * {@link RemoteNumberEntityService#updateResponseOk(ARemoteFetchedResource, fr.guiguilechat.jcelechat.jcesi.interfaces.Requested)
 	 * updateResponseOk}
 	 */
 	public abstract void update(Fetched data);

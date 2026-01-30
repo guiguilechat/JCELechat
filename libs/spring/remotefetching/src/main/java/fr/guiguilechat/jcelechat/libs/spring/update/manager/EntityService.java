@@ -5,6 +5,9 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 
+/**
+ * implement to have default entities management methods
+ */
 public interface EntityService {
 
 	/**

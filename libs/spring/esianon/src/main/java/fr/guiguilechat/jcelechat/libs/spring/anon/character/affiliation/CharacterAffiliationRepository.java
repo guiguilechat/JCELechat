@@ -1,8 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.character.affiliation;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 
 public interface CharacterAffiliationRepository
-    extends RemoteEntityRepository<CharacterAffiliation, Integer> {
+    extends RemoteNumberEntityRepository<CharacterAffiliation, Integer> {
 
 }

@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceI
 import fr.guiguilechat.jcelechat.libs.spring.anon.alliance.information.AllianceInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.corporation.information.CorporationInfoService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 // @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.conflicts.war.info")
-public class WarInformationUpdater extends DiscoveringRemoteEntityUpdater<WarInformation, Integer, R_get_wars_war_id, WarInformationRepository, WarInformationService> {
+public class WarInformationUpdater extends DiscoveringRemoteNumberEntityUpdater<WarInformation, Integer, R_get_wars_war_id, WarInformationRepository, WarInformationService> {
 
 	@Lazy
 	private final AllianceInfoService allianceInfoService;

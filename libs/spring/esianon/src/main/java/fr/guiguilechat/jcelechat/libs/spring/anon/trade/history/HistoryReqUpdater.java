@@ -12,12 +12,11 @@ import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -25,13 +24,12 @@ import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.history")
 @Getter
 @Setter
 public class HistoryReqUpdater extends
-		RemoteEntityUpdater<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository, HistoryReqService>
+		RemoteNumberEntityUpdater<HistoryReq, Long, R_get_markets_region_id_history[], HistoryReqRepository, HistoryReqService>
 {
 	@Lazy
 	private final HistoryLineService historyLineService;

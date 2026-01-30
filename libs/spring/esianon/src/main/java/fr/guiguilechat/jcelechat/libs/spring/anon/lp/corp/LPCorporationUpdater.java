@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.LinkCorporationOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.LinkCorporationOfferService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.Offer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.lp.offer.OfferService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.DiscoveringRemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.npc.lpcorporation")
 public class LPCorporationUpdater extends
-		DiscoveringRemoteEntityUpdater<LPCorporation, Integer, List<R_get_loyalty_stores_corporation_id_offers>, LPCorporationRepository, LPCorporationService> {
+		DiscoveringRemoteNumberEntityUpdater<LPCorporation, Integer, List<R_get_loyalty_stores_corporation_id_offers>, LPCorporationRepository, LPCorporationService> {
 
 	@Lazy
 	private final LinkCorporationOfferService linkCorporationOfferService;

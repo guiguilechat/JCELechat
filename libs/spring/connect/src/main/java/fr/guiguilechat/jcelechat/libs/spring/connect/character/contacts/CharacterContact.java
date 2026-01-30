@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.spring.connect.character.contacts;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.list.AFetchedListElementAutoId;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedListElementAutoId;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_contacts_contact_type;
 import jakarta.persistence.Entity;

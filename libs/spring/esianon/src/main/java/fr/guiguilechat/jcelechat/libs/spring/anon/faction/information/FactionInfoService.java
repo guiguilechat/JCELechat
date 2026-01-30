@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.LocalEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityService;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolution;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionListener;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.post_universe_names_category;
@@ -18,7 +18,7 @@ import lombok.RequiredArgsConstructor;
 @ConfigurationProperties(prefix = "esi.affiliations.faction")
 @Order(2)
 public class FactionInfoService
-		extends LocalEntityService<FactionInfo, Integer, FactionInfoRepository>
+		extends NumberEntityService<FactionInfo, Integer, FactionInfoRepository>
 		implements IdResolutionListener {
 
 	@Override

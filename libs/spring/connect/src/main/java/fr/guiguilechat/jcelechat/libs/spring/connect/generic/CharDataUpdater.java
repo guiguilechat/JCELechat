@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Lazy;
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiConnectionInterceptor.EsiUserListener;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntity;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityRepository;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityService;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.remote.RemoteEntityUpdater;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityService;
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUser;
 import fr.guiguilechat.jcelechat.libs.spring.connect.user.EsiUserService;
 import lombok.Getter;
@@ -33,11 +33,11 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @Getter
 public abstract class CharDataUpdater<
-		Entity extends RemoteEntity<Integer, Fetched>,
+		Entity extends RemoteNumberEntity<Integer, Fetched>,
 		Fetched,
-		Repository extends RemoteEntityRepository<Entity, Integer>,
-		Service extends RemoteEntityService<Entity, Integer, Repository>>
-	extends RemoteEntityUpdater<Entity, Integer, Fetched, Repository, Service>
+		Repository extends RemoteNumberEntityRepository<Entity, Integer>,
+		Service extends RemoteNumberEntityService<Entity, Integer, Repository>>
+	extends RemoteNumberEntityUpdater<Entity, Integer, Fetched, Repository, Service>
     implements EsiUserListener {
 
 	@Autowired
