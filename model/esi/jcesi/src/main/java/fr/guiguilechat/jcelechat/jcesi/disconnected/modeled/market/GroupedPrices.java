@@ -19,9 +19,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class GroupedPrices {
 
-	private final RegionalMarket[] markets;
+	private final IPricing[] markets;
 
-	private final BiFunction<RegionalMarket, Integer, ListHolder<R_get_markets_region_id_orders>> marketGetter;
+	private final BiFunction<IPricing, Integer, ListHolder<R_get_markets_region_id_orders>> marketGetter;
 
 	private final Function<List<? extends List<R_get_markets_region_id_orders>>, Double> reducer;
 

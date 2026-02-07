@@ -64,6 +64,8 @@ public class Markets {
 		return rm;
 	}
 
+	// regional shortcuts
+
 	public RegionalMarket domain() {
 		return getMarket(10000043);
 	}
@@ -71,10 +73,6 @@ public class Markets {
 	public RegionalMarket heimatar() {
 		return getMarket(10000030);
 	}
-
-	@Getter(lazy = true)
-	@Accessors(fluent = true)
-	private final IPricing jita = getLocalMarket(60003760);
 
 	public RegionalMarket metropolis() {
 		return getMarket(10000042);
@@ -87,6 +85,33 @@ public class Markets {
 	public RegionalMarket theForge() {
 		return getMarket(10000002);
 	}
+
+	// station shortcuts
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing amarr_hub = getLocalMarket(60008494);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing dodixie_hub = getLocalMarket(60011866);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing hek_hub = getLocalMarket(60005686);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing jita_hub = getLocalMarket(60003760);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final IPricing rens_hub = getLocalMarket(60004588);
+
+	@Getter(lazy = true)
+	private final IPricing[] empireHubs = { jita_hub(), amarr_hub(), dodixie_hub(), hek_hub(), rens_hub() };
+
+	//
 
 	private Map<Integer, IPricing> stationsMarket = Collections.synchronizedMap(new HashMap<>());
 
@@ -109,23 +134,23 @@ public class Markets {
 		if (locationId >= 10000000L && locationId < 12000000L) {
 			return getMarket((int) locationId);
 		}
-		IPricing ip = localMarket.get(locationId);
-		if (ip == null) {
+		IPricing ret = localMarket.get(locationId);
+		if (ret == null) {
 			synchronized (localMarket) {
-				ip = localMarket.get(locationId);
-				if (ip == null) {
+				ret = localMarket.get(locationId);
+				if (ret == null) {
 					Location loc = Location.resolve(null, locationId);
 					if (loc.type == LOCTYPE.STATION) {
-						ip = getStationMarket((int) loc.id, loc.region().region_id);
+						ret = getStationMarket((int) loc.id, loc.region().region_id);
 					} else {
 						RegionalMarket rm = getMarket(loc.region().region_id);
-						ip = rm.filter((int) locationId, 0, false);
+						ret = rm.filter((int) locationId, 0, false);
 					}
-					localMarket.put(locationId, ip);
+					localMarket.put(locationId, ret);
 				}
 			}
 		}
-		return ip;
+		return ret;
 	}
 
 	//
@@ -195,12 +220,12 @@ public class Markets {
 	}
 
 	/**
-	 * @param regional list of orders for the empires
-	 * @return lowest existing BO price in empire for given item
+	 * @param ordersLists list of orders list
+	 * @return minimum value of the provided list at index 0
 	 */
-	protected Double min(List<? extends List<R_get_markets_region_id_orders>> regional) {
+	protected Double min(List<? extends List<R_get_markets_region_id_orders>> ordersLists) {
 		double min = Double.POSITIVE_INFINITY;
-		for (List<R_get_markets_region_id_orders> l : regional) {
+		for (List<R_get_markets_region_id_orders> l : ordersLists) {
 			if (l.size() > 0) {
 				double price = l.get(0).price;
 				if (price < min) {
@@ -216,17 +241,18 @@ public class Markets {
 	 */
 	@Getter(lazy = true)
 	private final GroupedPrices empireAvgBoPrice = new GroupedPrices(
-			new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
+			new IPricing[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
 			(market, typeId) -> market.listBuyOrders(typeId),
 			this::average);
 
+	private static final double DISCARD_SO_MIN = 200000000;
+
 	/**
-	 * get empire min BO price
+	 * lowest empire hub price, discarding {@value #DISCARD_SO_MIN}
 	 */
 	@Getter(lazy = true)
-	private final GroupedPrices empireMinBoPrice = new GroupedPrices(
-			new RegionalMarket[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
-			(market, typeId) -> market.listBuyOrders(typeId),
+	private final GroupedPrices empireHubsLowestSoPrice = new GroupedPrices(getEmpireHubs(),
+			(market, typeId) -> market.listSellOrdersDiscarding(typeId, DISCARD_SO_MIN),
 			this::min);
 
 	/**

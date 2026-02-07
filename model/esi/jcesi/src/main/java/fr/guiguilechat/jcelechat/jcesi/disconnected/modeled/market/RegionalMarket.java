@@ -84,20 +84,6 @@ public class RegionalMarket implements IPricing {
 		return ret;
 	}
 
-	/**
-	 * @return a holder on the buy orders for given type, sorted by price desc
-	 */
-	public ListHolder<R_get_markets_region_id_orders> listBuyOrders(int typeId) {
-		return getMarketOrders(typeId, true).getFilteredOrders();
-	}
-
-	/**
-	 * @return a holder on the sell orders for given type, sorted by price inc
-	 */
-	public ListHolder<R_get_markets_region_id_orders> listSellOrders(int typeId) {
-		return getMarketOrders(typeId, false).getFilteredOrders();
-	}
-
 	//
 	// filtering
 	//
@@ -209,6 +195,7 @@ public class RegionalMarket implements IPricing {
 		getAllOrders().follow(follower);
 	}
 
+	@Override
 	public void delOnUpdate(Runnable r) {
 		Consumer<List<R_get_markets_region_id_orders>> follower = convertedUpdated.get(r);
 		if (follower == null) {
