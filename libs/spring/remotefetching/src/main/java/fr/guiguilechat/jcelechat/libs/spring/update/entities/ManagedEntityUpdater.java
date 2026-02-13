@@ -17,8 +17,13 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * abstract parent for services that update a given entity using update pulses
+ *
+ * @param <Entity>
+ */
 @Slf4j
-public abstract class ManagedEntityUpdater implements EntityUpdater {
+public abstract class ManagedEntityUpdater<Entity> implements EntityUpdater {
 
 	/** service to call parrallel fetch */
 	@Autowired // can't use constructor injection for generic service
@@ -36,11 +41,35 @@ public abstract class ManagedEntityUpdater implements EntityUpdater {
 	public abstract long nbToUpdate();
 
 	/**
-	 * request to fetch the resources that need it.
+	 * instant of the last entities update completion.
+	 */
+	private Instant lastUpdateTime = null;
+
+	/**
+	 * following fetch date, if any. If not set, default method to use the
+	 * {@link UpdateConfig}. It is reset during the {@link #preUpdate()}
+	 */
+	@Setter(value = AccessLevel.PROTECTED)
+	private Instant nextUpdate = null;
+
+	/**
+	 * number of entities we can concurrently update on the incoming update pulse
+	 */
+	public int maxUpdate() {
+		int maxFromRate = getUpdate().getMax();
+		if (lastUpdateTime != null && getUpdate().getRate() > 0) {
+			long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
+			maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000);
+		}
+		return maxFromRate;
+	}
+
+	/**
+	 * request to update the resources that need it.
 	 * <ol>
 	 * <li>verifies that its own delays are respected ;</li>
 	 * <li>checks if new resource exists in {@link #preUpdate()}</li>
-	 * <li>perform the actual fetch in {@link #fetchUpdate()}</li>
+	 * <li>perform the actual update in {@link #updateNextBatch()}</li>
 	 * <li>update corresponding data, stats, cache in {@link #postUpdate()}</li>
 	 * <li>update the delay and own status</li>
 	 * </ol>
@@ -52,9 +81,9 @@ public abstract class ManagedEntityUpdater implements EntityUpdater {
 	 */
 	@Override
 	@Transactional
-	public boolean fetch() {
+	public boolean updatePulse() {
 		preUpdate();
-		if (fetchUpdate()) {
+		if (updateNextBatch()) {
 			postUpdate();
 		}
 		long nbToUpdate = nbToUpdate();
@@ -73,6 +102,7 @@ public abstract class ManagedEntityUpdater implements EntityUpdater {
 	}
 
 	protected void postUpdate() {
+		lastUpdateTime = Instant.now();
 		Optional<? extends List<? extends CacheInvalidator>> listeners = getListeners();
 		Stream<CacheInvalidator> ls = Stream.empty();
 		if (isSelfInvalidate() && this instanceof CacheInvalidator) {
@@ -88,23 +118,16 @@ public abstract class ManagedEntityUpdater implements EntityUpdater {
 	}
 
 	/**
-	 * actually update the updatable data
+	 * actually update the updatable entities
 	 *
 	 * @return true if at least an item was updated
 	 */
-	protected abstract boolean fetchUpdate();
-
-	/**
-	 * following fetch date, if any. If not set, default method to use the
-	 * {@link UpdateConfig}. It is reset during the {@link #preUpdate()}
-	 */
-	@Setter(value = AccessLevel.PROTECTED)
-	private Instant nextUpdate = null;
+	protected abstract boolean updateNextBatch();
 
 	@Override
-	public Instant nextUpdate(boolean remain, Instant now) {
+	public Instant nextPulse(boolean remain, Instant now) {
 		if (nextUpdate == null) {
-			nextUpdate = EntityUpdater.super.nextUpdate(remain, now);
+			setNextUpdate(EntityUpdater.super.nextPulse(remain, now));
 		}
 		return nextUpdate;
 	}

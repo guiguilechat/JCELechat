@@ -22,7 +22,7 @@ public abstract class NumberEntityUpdater<
 		Id extends Number,
 		Repository extends NumberEntityRepository<Entity, Id>,
 		Service extends NumberEntityService<Entity, Id, Repository>
-> extends ManagedEntityUpdater {
+> extends ManagedEntityUpdater<Entity> {
 
 	@Autowired // can't use constructor injection for generic service
 	@Accessors(fluent = true)

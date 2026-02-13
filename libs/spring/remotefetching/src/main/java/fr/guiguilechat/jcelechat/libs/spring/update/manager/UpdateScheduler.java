@@ -76,10 +76,10 @@ public class UpdateScheduler {
 	/** when not null, time before which we skip the update cycles */
 	private Instant nextUpdate = Instant.now();
 
-	private Map<String, Instant> fetcherNameToNextUpdate = new HashMap<>();
+	private Map<String, Instant> fetcherNameToNextPulse = new HashMap<>();
 
 	@Scheduled(fixedRateString = "${jcesi.manager.period:1000}", initialDelayString = "${jcesi.manager.delay:1000}")
-	public void fetchResources() throws IOException {
+	public void pulseLoop() throws IOException {
 		if (skip) {
 			return;
 		}
@@ -87,26 +87,31 @@ public class UpdateScheduler {
 		if (nextUpdate != null && start.isBefore(nextUpdate)) {
 			return;
 		}
-		boolean remainService = false;
+		boolean nextPulseReady = false;
 		List<EntityUpdater> registeredServices = fetchedServices.orElse(List.of());
 		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))
 		    .toList();
 		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
-			Instant next = fetcherNameToNextUpdate.get(s.serviceName());
+			Instant next = fetcherNameToNextPulse.get(s.serviceName());
 			return next == null || !next.isAfter(start);
 		}).toList();
-		log.debug("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
-		    registeredServices.size());
+		if (readyServices.isEmpty()) {
+			log.trace("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
+					registeredServices.size());
+		} else {
+			log.debug("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
+			    registeredServices.size());
+		}
 		for (EntityUpdater s : readyServices) {
 			log.debug("updating {}", s.serviceName());
-			boolean remain = s.fetch();
-			remainService |= remain;
-			Instant serviceNextUpdate = s.nextUpdate(remain, start);
-			fetcherNameToNextUpdate.put(s.serviceName(), serviceNextUpdate);
-			log.debug(" updated {} remaining={} next={}", s.serviceName(), remain, format(serviceNextUpdate));
+			boolean remain = s.updatePulse();
+			nextPulseReady |= remain;
+			Instant serviceNextPulse = s.nextPulse(remain, start);
+			fetcherNameToNextPulse.put(s.serviceName(), serviceNextPulse);
+			log.debug(" updated {} remaining={} next={}", s.serviceName(), remain, format(serviceNextPulse));
 		}
 
-		if (!remainService) {
+		if (!nextPulseReady) {
 			if (listeners.isPresent()) {
 				for (IRemoteResourceUpdateListener l : listeners.get()) {
 					l.onNoUpdateRemain();

@@ -71,7 +71,7 @@ public class GameClientUpdateService implements EntityUpdater {
 
 	@Override
 	@Transactional
-	public boolean fetch() {
+	public boolean updatePulse() {
 		Instant startDate = Instant.now();
 		if (nextFetch != null && nextFetch.isAfter(startDate)) {
 			return false;

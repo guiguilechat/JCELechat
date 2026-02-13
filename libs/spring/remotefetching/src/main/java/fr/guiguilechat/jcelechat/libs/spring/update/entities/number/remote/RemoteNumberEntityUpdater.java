@@ -366,9 +366,6 @@ public abstract class RemoteNumberEntityUpdater<
 		// actual update
 		//
 
-
-		protected int lastBatchSize = 0;
-
 		/**
 		 * @return number of remaining entities that could be updated
 		 */
@@ -378,7 +375,7 @@ public abstract class RemoteNumberEntityUpdater<
 		}
 
 		@Override
-		protected boolean fetchUpdate() {
+		protected boolean updateNextBatch() {
 			long startTimeMs = System.currentTimeMillis();
 			List<Entity> list = listToUpdate();
 			int nbUpdates = list.size();
@@ -393,8 +390,6 @@ public abstract class RemoteNumberEntityUpdater<
 			}
 			return nbUpdates > 0;
 		}
-
-		private Instant lastUpdateTime = null;
 
 		/**
 		 * for those remote 1-1 entities, we also enforce the rate limit, in addition to
@@ -422,11 +417,7 @@ public abstract class RemoteNumberEntityUpdater<
 					maxQueries,
 					bucketQueries);
 			// define qtty to get from the rate
-			int maxFromRate = getUpdate().getMax();
-			if (lastUpdateTime != null) {
-				long elapsedms = Instant.now().toEpochMilli() - lastUpdateTime.toEpochMilli();
-				maxFromRate = (int) (getUpdate().getRate() * elapsedms / 1000 - lastBatchSize);
-			}
+			int maxFromRate = maxUpdate();
 			int ret = Math.min(maxFromCycle, maxFromRate);
 			if (ret != maxFromCycle) {
 				log.debug("  {} reduced max queries to {} from : rate={} cycle={}",
@@ -437,6 +428,8 @@ public abstract class RemoteNumberEntityUpdater<
 			}
 			return ret;
 		}
+
+		protected int lastBatchSize = 0;
 
 		/**
 		 * List the next entities to update.
@@ -479,16 +472,6 @@ public abstract class RemoteNumberEntityUpdater<
 			saveAll(data);
 			log.trace(" {} updated {} entities with {} changes", serviceName(), data.size(), successes.size());
 			return nbSuccess;
-		}
-
-		//
-		// post update is saving end of fetch to use as base for rate limit.
-		//
-
-		@Override
-		protected void postUpdate() {
-			super.postUpdate();
-			lastUpdateTime = Instant.now();
 		}
 
 }

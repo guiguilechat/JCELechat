@@ -61,11 +61,11 @@ public abstract class BatchFetchService<
 	private Instant nextUpdate = null;
 
 	@Override
-	public Instant nextUpdate(boolean remain, Instant now) {
+	public Instant nextPulse(boolean remain, Instant now) {
 		if (nextUpdate != null) {
 			return nextUpdate;
 		}
-		return EntityUpdater.super.nextUpdate(remain, now);
+		return EntityUpdater.super.nextPulse(remain, now);
 	}
 
 	protected abstract Requested<Structure> fetchData(Map<String, String> properties);
@@ -78,7 +78,7 @@ public abstract class BatchFetchService<
 
 
 	@Override
-	public boolean fetch() {
+	public boolean updatePulse() {
 		Fetch lastSuccess = lastSuccess();
 		if (lastSuccess != null && Instant.now().isBefore(lastSuccess.getExpires())) {
 			return false;

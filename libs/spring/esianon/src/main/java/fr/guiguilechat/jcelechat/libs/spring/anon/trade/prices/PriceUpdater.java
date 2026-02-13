@@ -45,17 +45,17 @@ public class PriceUpdater
 	}
 
 	@Override
-	public boolean fetch() {
+	public boolean updatePulse() {
 		if (globalErrors().availErrors() < 1) {
 			log.debug("skip update as only {} errors remaining",
 					globalErrors().availErrors());
 			return true;
 		}
-		return super.fetch();
+		return super.updatePulse();
 	}
 
 	@Override
-	protected boolean fetchUpdate() {
+	protected boolean updateNextBatch() {
 		int remainErrors = globalErrors().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
 			log.trace("{} skip updates as only {} remaining errors", serviceName(), remainErrors);

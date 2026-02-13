@@ -2,12 +2,9 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -218,42 +215,6 @@ public class HistoryLineService {
 			}
 			return this;
 		}
-	}
-
-	List<PriceVolumeAcc> groupPrices(double minPrice, double maxPrice, int nbSteps, List<DayWeight> dayWeights,
-			double totalWeight) {
-		double stepInc = 1.0 * (maxPrice - minPrice) / (nbSteps - 1);
-		return IntStream.rangeClosed(0, nbSteps - 1).mapToDouble(step -> minPrice + stepInc * step)
-				.mapToObj(PriceVolumeAcc::new)
-				.map(pv -> pv.accumulate(dayWeights, totalWeight)).toList();
-	}
-
-	List<PriceVolumeAcc> groupPrices(List<HistoryLine> lines, WeightStrategy weighter, int nbSteps) {
-		List<DayWeight> weights = new ArrayList<>();
-		Double min = Double.POSITIVE_INFINITY;
-		Double max = 0.0;
-		for (HistoryLine hl : lines) {
-			DayWeight dw = DayWeight.of(hl, weighter);
-			if (dw.weight > 0.0) {
-				min = Math.min(min, hl.getLowest());
-				max = Math.max(max, hl.getHighest());
-				weights.add(dw);
-			}
-		}
-		return groupPrices(min, max, nbSteps, weights, weighter.totalWeight());
-	}
-
-	/**
-	 * Group the prices following thresholds and weighter
-	 *
-	 * @param nbSteps must be >1
-	 */
-	public List<PriceVolumeAcc> groupPrices(int regionId, int typeId, WeightStrategy weighter, int nbSteps) {
-		List<HistoryLine> lines = byRegionType(regionId, typeId);
-		if (lines.isEmpty()) {
-			return Collections.emptyList();
-		}
-		return groupPrices(lines, weighter, nbSteps);
 	}
 
 }

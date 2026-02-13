@@ -306,36 +306,36 @@ public class ContractInfo extends AFetchedList<Integer, R_get_contracts_public_i
 	private int nbTypesIncluded = 0;
 
 	/**
-	 * when the contract provides only one type, is the item provided a copy? false
+	 * when the contract provides only one item, is the item provided a copy? false
 	 * for non-bpc
 	 */
 	private Boolean offeredCopy = null;
 
 	/**
-	 * when the contract provides only one type, the ME of the item provided. 0 for
+	 * when the contract provides only one item, the ME of the item provided. 0 for
 	 * non-BP
 	 */
 	private Integer offeredMe = null;
 
 	/**
-	 * when the contract provides only one type, the quantity provided
+	 * when the contract provides only one item, the quantity provided
 	 */
 	private Long offeredQuantity = null;
 
 	/**
-	 * when the contract provides only one type, the runs of the item provided. 0 if
+	 * when the contract provides only one item, the runs of the item provided. 0 if
 	 * non-bp or BPO
 	 */
 	private Long offeredRuns = null;
 
 	/**
-	 * when the contract provides only one type, the TE of the item provided. 0 for
+	 * when the contract provides only one item, the TE of the item provided. 0 for
 	 * non-bp
 	 */
 	private Integer offeredTe = null;
 
 	/**
-	 * when the contract provides only one type, the type id provided
+	 * when the contract provides only one item, the type id provided
 	 */
 	private Integer offeredTypeId = null;
 

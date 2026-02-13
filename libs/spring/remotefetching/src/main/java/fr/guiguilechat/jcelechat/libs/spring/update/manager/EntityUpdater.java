@@ -143,17 +143,17 @@ public interface EntityUpdater extends EntityService {
 	 * @return true if more data are to be updated the moment this call exits (that
 	 *         is, if the update was partial)
 	 */
-	boolean fetch();
+	boolean updatePulse();
 
 	/**
 	 * deduce the next Instant to fetch based on previous execution of
-	 * {@link #fetch()}
+	 * {@link #updatePulse()}
 	 *
 	 * @param remain    result of last fetch
 	 * @param startTime time when the fetch started
 	 * @return Instant after which next fetch can be performed
 	 */
-	default Instant nextUpdate(boolean remain, Instant now) {
+	default Instant nextPulse(boolean remain, Instant now) {
 		int delay = getUpdate().getDelay();
 		if (delay < 0) {
 			delay = 0;

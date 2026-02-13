@@ -29,7 +29,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;
@@ -62,6 +62,9 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class MarketHTMLController {
 
+	@Lazy
+	private final AggregatedDailyHistoryService aggregatedDailyHistoryService;
+
 	private final CategoryService categoryService;
 
 	@Lazy
@@ -84,9 +87,6 @@ public class MarketHTMLController {
 
 	@Lazy
 	private final InventoryHTMLController dogmaHtmlController;
-
-	@Lazy
-	private final HistoryLineService historyLineService;
 
 	@Lazy
 	private final MarketHistoryRestController historyRestController;
@@ -293,7 +293,7 @@ public class MarketHTMLController {
 		model.addAttribute("period", periodValue);
 		int limitValue = limit.orElse(20);
 
-		List<AggregatedTypeHistory> regionalSales = historyLineService.aggregateHighestIskVolume(
+		List<AggregatedTypeHistory> regionalSales = aggregatedDailyHistoryService.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
 		model.addAttribute("regionalMarketSales", regionalSales);

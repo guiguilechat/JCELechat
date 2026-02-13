@@ -55,7 +55,7 @@ logging:
                jcesi: info
                libs:
                   spring:
-                     trade: debug # prices, market, etc
+                     anon: debug
                      update: debug # all the maanager stuff
                      update.limits: trace # manager stuff related to queries limitations
 

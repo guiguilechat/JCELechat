@@ -36,17 +36,17 @@ public class IdResolutionUpdater extends
 	}
 
 	@Override
-	public boolean fetch() {
+	public boolean updatePulse() {
 		if (globalErrors().availErrors() < 1) {
 			log.debug("skip update as only {} errors remaining",
 					globalErrors().availErrors());
 			return true;
 		}
-		return super.fetch();
+		return super.updatePulse();
 	}
 
 	@Override
-	protected boolean fetchUpdate() {
+	protected boolean updateNextBatch() {
 		List<IdResolution> list = repo().findByNextFetchBeforeOrderByFetchPriorityDescNextFetchAsc(
 				Instant.now(),
 				Limit.of(1000));

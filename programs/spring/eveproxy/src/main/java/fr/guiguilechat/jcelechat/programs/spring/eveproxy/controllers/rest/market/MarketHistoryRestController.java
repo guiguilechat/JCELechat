@@ -49,9 +49,6 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.PriceVolumeAcc;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService.WeightStrategy;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
@@ -59,8 +56,6 @@ import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.Chart
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.dto.TypeData;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.DailyExchanges;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.market.history.HistoryAggreg;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import jakarta.servlet.http.HttpServletResponse;
@@ -79,22 +74,7 @@ public class MarketHistoryRestController {
 
 	final private ContractMarketAggregator contractMarketAggregator;
 
-	final private HistoryLineService historyLineService;
-
 	private final TypeService typeService;
-
-	private final int NB_STEPS = 10;
-
-	@GetMapping("/byRegionId/{regionId}/byTypeId/{typeId}/byWeightName/{weightname}/daily")
-	public ResponseEntity<DailyExchanges> byRegionByType(@PathVariable int regionId, @PathVariable int typeId,
-			@PathVariable String weightname,
-			@RequestParam Optional<ACCEPT_TEXT> accept) {
-		WeightStrategy weighter = WeightStrategy.of(weightname);
-		List<PriceVolumeAcc> priceVolumes = historyLineService.groupPrices(regionId, typeId, weighter, NB_STEPS);
-		return RestControllerHelper.makeResponse(
-				DailyExchanges.of(new HistoryAggreg(typeId, regionId, weighter.toString(), NB_STEPS), priceVolumes),
-				accept);
-	}
 
 	@GetMapping("/byTypeId/{typeId}")
 	@Transactional

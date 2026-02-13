@@ -1,7 +1,3 @@
-gameclient:
-   fetcher:
-      update:
-         skip: true
 
 esi:
    alliance:
@@ -67,6 +63,18 @@ everef:
       history:
          update:
             skip: false
+
+gameclient:
+   fetcher:
+      update:
+         skip: true
+
+jcelechat:
+   trade:
+      history:
+         aggreg:
+            update:
+               skip: false
 
 jcesi:
    manager:

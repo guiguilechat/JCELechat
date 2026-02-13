@@ -28,7 +28,12 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+/**
+ * client to fetch everef history entries. stateful userAgent to transmit.
+ */
+@Slf4j
 @RequiredArgsConstructor
 public class EverefHistoryFetcher {
 
@@ -73,7 +78,7 @@ public class EverefHistoryFetcher {
 				throw new RuntimeException(e);
 			}
 		} else {
-			System.err.println("received status " + response.statusCode() + " for " + response.uri().toString());
+			log.warn("received status " + response.statusCode() + " for " + response.uri().toString());
 		}
 		return null;
 	}

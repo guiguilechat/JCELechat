@@ -53,12 +53,12 @@ public class HistoryReqUpdater extends
 
 	@Override
 	@Transactional
-	public Instant nextUpdate(boolean remain, Instant now) {
+	public Instant nextPulse(boolean remain, Instant now) {
 		if (!remain || nextMissingPairs == null || nextMissingPairs.isBefore(Instant.now())) {
 			addMissingPairs();
 			remain = nbToUpdate() > 0;
 		}
-		return super.nextUpdate(remain, now);
+		return super.nextPulse(remain, now);
 	}
 
 	protected void addMissingPairs() {

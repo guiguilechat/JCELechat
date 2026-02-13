@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
  * @param <Repository>
  */
 @Slf4j
-public abstract class RemoteEntityBatchUpdater<
+public abstract class NumberEntityBatchUpdater<
 		Entity extends NumberEntity<Id>,
 		Id extends Number,
 		Fetched,
@@ -50,7 +50,7 @@ public abstract class RemoteEntityBatchUpdater<
 	/** check new entries */
 
 	@Override
-	protected boolean fetchUpdate() {
+	protected boolean updateNextBatch() {
 		int remainErrors = globalErrors().availErrors();
 		if (remainErrors <= getUpdate().getErrorsMin()) {
 			log.trace("{} skip updates as only {} remaining errors", serviceName(), remainErrors);
@@ -92,11 +92,11 @@ public abstract class RemoteEntityBatchUpdater<
 	}
 
 	@Override
-	public Instant nextUpdate(boolean remain, Instant now) {
+	public Instant nextPulse(boolean remain, Instant now) {
 		if (nextUpdate != null) {
 			return nextUpdate;
 		}
-		return super.nextUpdate(remain, now);
+		return super.nextPulse(remain, now);
 	}
 
 	/** called when the list has been updated */
