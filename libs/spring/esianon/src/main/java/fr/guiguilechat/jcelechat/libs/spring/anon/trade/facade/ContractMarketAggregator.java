@@ -1,13 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
 import java.time.Instant;
-import java.time.temporal.ChronoUnit;
+import java.time.ZoneOffset;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -15,9 +13,11 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
@@ -38,6 +38,9 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class ContractMarketAggregator implements ContractItemsListener, MarketRegionListener {
+
+	@Lazy
+	private final AggregatedDailyHistoryService aggregatedDailyHistoryService;
 
 	@Lazy
 	private final ContractFacadeBpo contractFacadeBpo;
@@ -117,45 +120,15 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 	}
 
 	public List<AggregatedHL> aggregatedSales(int typeId, Instant from) {
-		long start = System.currentTimeMillis();
-		List<AggregatedHL> marketHistory = historyLineService.byType(typeId, from);
-		long postMarketFetch = System.currentTimeMillis();
-		List<AggregatedHL> contractHistory = contractFacadeBpo.aggregatedSales(typeId, from, 0, 0);
-		long postContractFetch = System.currentTimeMillis();
-		Map<? extends Instant, List<AggregatedHL>> byDate = Stream.concat(marketHistory.stream(), contractHistory.stream())
-				.collect(Collectors.groupingBy(
-						(Function<? super AggregatedHL, ? extends Instant>) ahl -> ahl.getDate()
-								.truncatedTo(ChronoUnit.DAYS)));
-		List<AggregatedHL> ret = byDate.values().stream()
-		    .map(l -> l.stream().reduce((BinaryOperator<AggregatedHL>) AggregatedHL::merge).get())
-				.sorted(Comparator.comparing(AggregatedHL::getDate))
+		return aggregatedDailyHistoryService.typeHistory(typeId, from.atOffset(ZoneOffset.UTC).toLocalDate(), null)
+				.stream()
+				.map(AggregatedDailyHistory::toAggregtedHL)
 				.toList();
-		long postMerge = System.currentTimeMillis();
-		log.trace(
-				"fetched history for type {} since {} in {} ms (fetch {} market in {}, {} contract in {}, merge in {})",
-				typeId,
-				from,
-				postMerge - start,
-				marketHistory.size(),
-				postMarketFetch - start,
-				contractHistory.size(),
-				postContractFetch - postMarketFetch,
-				postMerge - postContractFetch);
-		return ret;
 	}
 
 	@Cacheable("MarketHistoryAggregatedPresent")
 	public boolean hasHistory(int typeId, int me, int te, boolean copy) {
-		boolean ret = false;
-		if (!copy && me == 0 && te == 0) {
-			ret = historyLineService.hasEntry(typeId)
-					|| contractFacadeNonBp.hasEntry(typeId);
-		} else if(copy) {
-			ret = contractFacadeBpc.hasEntry(typeId, me, te);
-		} else {
-			ret = contractFacadeBpo.hasEntry(typeId, me, te);
-		}
-		return ret;
+		return aggregatedDailyHistoryService.hasEntry(typeId, me, te, copy);
 	}
 
 	@Getter

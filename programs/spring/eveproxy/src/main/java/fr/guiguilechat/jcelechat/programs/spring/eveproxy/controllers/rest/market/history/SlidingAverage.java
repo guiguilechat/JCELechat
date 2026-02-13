@@ -4,7 +4,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

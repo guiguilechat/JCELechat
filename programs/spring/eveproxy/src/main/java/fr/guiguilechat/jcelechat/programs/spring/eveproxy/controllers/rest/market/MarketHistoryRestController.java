@@ -45,10 +45,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;

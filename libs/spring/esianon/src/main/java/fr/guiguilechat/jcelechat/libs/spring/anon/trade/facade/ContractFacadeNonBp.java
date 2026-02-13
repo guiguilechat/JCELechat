@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
@@ -104,11 +105,11 @@ public class ContractFacadeNonBp {
 				.map(MarketOrder::of);
 	}
 
-	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
+	public List<AggregatedTypeDetails> aggregateHighestIskVolume(int days, int limit) {
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now,
+		List<AggregatedTypeDetails> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now,
 				limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());

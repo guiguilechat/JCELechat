@@ -6,7 +6,7 @@ import java.time.temporal.ChronoUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
 
 public class SlidingAverageTest {

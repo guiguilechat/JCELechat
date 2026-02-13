@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoService.ContractTypeVariant;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeNonBp;
@@ -236,7 +236,7 @@ public class MarketHTMLController {
 		return typeUrl(type.getId(), me, te, copy);
 	}
 
-	public String typeUrl(AggregatedTypeHistory ath) {
+	public String typeUrl(AggregatedTypeDetails ath) {
 		return typeUrl(ath.getTypeId(), ath.getMe(), ath.getTe(), ath.isCopy());
 	}
 
@@ -293,22 +293,22 @@ public class MarketHTMLController {
 		model.addAttribute("period", periodValue);
 		int limitValue = limit.orElse(20);
 
-		List<AggregatedTypeHistory> regionalSales = aggregatedDailyHistoryService.aggregateHighestIskVolume(
+		List<AggregatedTypeDetails> regionalSales = aggregatedDailyHistoryService.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
 		model.addAttribute("regionalMarketSales", regionalSales);
 
-		List<AggregatedTypeHistory> unresearchedContractSales = contractFacadeNonBp.aggregateHighestIskVolume(
+		List<AggregatedTypeDetails> unresearchedContractSales = contractFacadeNonBp.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
 		model.addAttribute("unresearchedContractSales", unresearchedContractSales);
 
-		List<AggregatedTypeHistory> bpoContractSales = contractFacadeBpo.aggregateHighestIskVolume(
+		List<AggregatedTypeDetails> bpoContractSales = contractFacadeBpo.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
 		model.addAttribute("bpoContractSales", bpoContractSales);
 
-		List<AggregatedTypeHistory> bpcContractSales = contractFacadeBpc.aggregateHighestIskVolume(
+		List<AggregatedTypeDetails> bpcContractSales = contractFacadeBpc.aggregateHighestIskVolume(
 				periodValue.getDays(),
 				limitValue);
 		model.addAttribute("bpcContractSales", bpcContractSales);

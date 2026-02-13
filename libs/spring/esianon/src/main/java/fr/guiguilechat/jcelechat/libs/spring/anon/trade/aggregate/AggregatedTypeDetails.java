@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate;
 
 import fr.guiguilechat.tools.FormatTools;
 import lombok.Getter;
@@ -6,13 +6,13 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 /**
- * Common representation of historical trades for regional markets and contracts
+ * Common representation of trades for regional markets and contracts, including
+ * type id and name
  */
 @RequiredArgsConstructor
-
 @Getter
 @Setter
-public class AggregatedTypeHistory {
+public class AggregatedTypeDetails {
 
 	/**
 	 * base type id. for a BPC, it will be the BP id.
@@ -25,19 +25,19 @@ public class AggregatedTypeHistory {
 	private final String typeName;
 
 	/** total isk value of the transactions performed */
-	private final double valueSold;
+	private final Number valueSold;
 
 	@Getter(lazy = true)
-	private final String valueSoldString = FormatTools.formatPrice(getValueSold());
+	private final String formattedValueSold = FormatTools.formatPrice(getValueSold().doubleValue());
 
 	/** quantity when {@link #original}, runs for BPC */
-	private final long quantitySold;
+	private final Number quantitySold;
 
 	@Getter(lazy = true)
-	private final double unitPrice = getValueSold() / getQuantitySold();
+	private final double unitPrice = getValueSold().doubleValue() / getQuantitySold().longValue();
 
 	@Getter(lazy = true)
-	private final String unitPriceString = FormatTools.formatPrice(getUnitPrice());
+	private final String formattedUnitPrice = FormatTools.formatPrice(getUnitPrice());
 
 	/** set to true for BPC ; false for base type or BPO */
 	private final boolean copy;
@@ -46,6 +46,7 @@ public class AggregatedTypeHistory {
 
 	private final int te;
 
+	/** represent the type with cp/me/te values if needed */
 	public String name() {
 		StringBuilder sb = new StringBuilder(typeName);
 		if (me > 0 || te > 0 || copy) {

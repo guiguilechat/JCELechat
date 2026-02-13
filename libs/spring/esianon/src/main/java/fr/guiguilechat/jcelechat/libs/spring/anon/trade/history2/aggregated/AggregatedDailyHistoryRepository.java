@@ -7,39 +7,39 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 
 public interface AggregatedDailyHistoryRepository
 		extends JpaRepository<AggregatedDailyHistory, AggregatedDailyHistory.AggregatedDailyTypeKey> {
 
 	// query for one item
 
-	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopy(int typeId, int me, int te, boolean copy);
+	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyOrderByDate(int typeId, int me, int te, boolean copy);
 
-	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqual(int typeId, int me,
+	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(int typeId, int me,
 			int te, boolean copy, LocalDate startDate);
 
-	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateLessThanEqual(int typeId, int me,
+	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateLessThanEqualOrderByDate(int typeId, int me,
 			int te, boolean copy, LocalDate endDate);
 
-	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqual(
+	List<AggregatedDailyHistory> findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(
 			int typeId,
 			int me, int te, boolean copy, LocalDate startDate, LocalDate endDate);
 
 	// query for several items
 
-	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopy(Iterable<Integer> typeIds, int me, int te,
+	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyOrderByDate(Iterable<Integer> typeIds, int me, int te,
 			boolean copy);
 
-	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqual(Iterable<Integer> typeIds,
+	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(Iterable<Integer> typeIds,
 			int me,
 			int te, boolean copy, LocalDate startDate);
 
-	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateLessThanEqual(Iterable<Integer> typeIds,
+	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateLessThanEqualOrderByDate(Iterable<Integer> typeIds,
 			int me,
 			int te, boolean copy, LocalDate endDate);
 
-	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqual(
+	List<AggregatedDailyHistory> findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(
 			Iterable<Integer> typeIds,
 			int me, int te, boolean copy, LocalDate startDate, LocalDate endDate);
 
@@ -136,24 +136,30 @@ group by
 select
 	tp.id typeId,
 	tp.name typeName,
-	sum(average*volume) totalvalue,
-	sum(volume) totalQuantity,
+	sum(average*line.volume) totalvalue,
+	sum(line.volume) totalQuantity,
 	false,
 	0,
 	0
 from
-	#{entityName} line
+	#{#entityName} line
 	join SdeItemsType tp on line.typeId=tp.id
 where
-	(cast(:maxDate as timestamp) is null or line.date <= :maxDate)
-	and (cast(:minDate as timestamp)is null or line.date >= :minDate)
+	(cast(:maxDate as date) is null or line.date <= :maxDate)
+	and (cast(:minDate as date)is null or line.date >= :minDate)
 group by
 	tp.id,
 	tp.name
 order by
- 	sum(average*volume) desc
+ 	sum(average*line.volume) desc
 limit :limit
 """)
-	List<AggregatedTypeHistory> sortSalesByTotalValue(LocalDate minDate, LocalDate maxDate, int limit);
+	List<AggregatedTypeDetails> sortSalesByTotalValue(LocalDate minDate, LocalDate maxDate, int limit);
+
+	/** search for existence of history */
+
+	boolean existsByTypeIdAndMeAndTeAndCopy(
+			int typeId, int me,
+			int te, boolean copy);
 
 }

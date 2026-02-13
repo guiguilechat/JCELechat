@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,9 +31,6 @@ public class HistoryLineService {
 		return repo.saveAndFlush(entity);
 	}
 
-	public List<HistoryLine> byRegionType(int regionId, int typeId) {
-		return repo.findByFetchResourceRegionIdAndFetchResourceTypeId(regionId, typeId);
-	}
 
 	public List<HistoryLine> byReq(Iterable<HistoryReq> req) {
 		return repo.findAllByFetchResourceIn(req);
@@ -72,20 +69,6 @@ public class HistoryLineService {
 
 	public boolean hasEntry(int typeId) {
 		return repo.existsByFetchResourceTypeId(typeId);
-	}
-
-	//
-	// highest sales since last X days
-	//
-
-	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
-		var now = Instant.now().truncatedTo(ChronoUnit.DAYS);
-		var minDay = now.minus(days, ChronoUnit.DAYS);
-		long start = System.currentTimeMillis();
-		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit);
-		long stop = System.currentTimeMillis();
-		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
-		return ret;
 	}
 
 	//

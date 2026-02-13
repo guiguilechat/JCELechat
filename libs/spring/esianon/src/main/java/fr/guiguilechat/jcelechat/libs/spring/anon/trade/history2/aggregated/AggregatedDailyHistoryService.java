@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -26,16 +26,16 @@ public class AggregatedDailyHistoryService {
 	protected List<AggregatedDailyHistory> itemHistory(int typeId, int me, int te, boolean copy, LocalDate start,
 			LocalDate end) {
 		if (start != null && end != null) {
-			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqual(typeId, me,
+			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(typeId, me,
 					te, copy, start, end);
 		}
 		if (start != null) {
-			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqual(typeId, me, te, copy, start);
+			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(typeId, me, te, copy, start);
 		}
 		if (end != null) {
-			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateLessThanEqual(typeId, me, te, copy, end);
+			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateLessThanEqualOrderByDate(typeId, me, te, copy, end);
 		}
-		return repo.findAllByTypeIdAndMeAndTeAndCopy(typeId, me, te, copy);
+		return repo.findAllByTypeIdAndMeAndTeAndCopyOrderByDate(typeId, me, te, copy);
 	}
 
 	public List<AggregatedDailyHistory> typeHistory(int typeId, LocalDate start, LocalDate end) {
@@ -56,16 +56,16 @@ public class AggregatedDailyHistoryService {
 			LocalDate start,
 			LocalDate end) {
 		if (start != null && end != null) {
-			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqual(typeIds, me,
+			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(typeIds, me,
 					te, copy, start, end);
 		}
 		if (start != null) {
-			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqual(typeIds, me, te, copy, start);
+			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(typeIds, me, te, copy, start);
 		}
 		if (end != null) {
-			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateLessThanEqual(typeIds, me, te, copy, end);
+			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateLessThanEqualOrderByDate(typeIds, me, te, copy, end);
 		}
-		return repo.findAllByTypeIdInAndMeAndTeAndCopy(typeIds, me, te, copy);
+		return repo.findAllByTypeIdInAndMeAndTeAndCopyOrderByDate(typeIds, me, te, copy);
 	}
 
 	public List<AggregatedDailyHistory> typesHistory(Iterable<Integer> typeIds, LocalDate start, LocalDate end) {
@@ -74,14 +74,18 @@ public class AggregatedDailyHistoryService {
 
 	// find most sold
 
-	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
+	public List<AggregatedTypeDetails> aggregateHighestIskVolume(int days, int limit) {
 		var now = LocalDate.now();
 		var minDay = now.minusDays(days);
 		long start = System.currentTimeMillis();
-		List<AggregatedTypeHistory> ret = repo.sortSalesByTotalValue(minDay, now, limit);
+		List<AggregatedTypeDetails> ret = repo.sortSalesByTotalValue(minDay, now, limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
+	}
+
+	public boolean hasEntry(int typeId, int me, int te, boolean copy) {
+		return repo.existsByTypeIdAndMeAndTeAndCopy(typeId, me, te, copy);
 	}
 
 }

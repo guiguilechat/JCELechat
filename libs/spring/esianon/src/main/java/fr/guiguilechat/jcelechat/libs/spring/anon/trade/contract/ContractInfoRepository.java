@@ -10,8 +10,8 @@ import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.AggregatedTypeHistory;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntityRepository;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 
@@ -169,7 +169,7 @@ group by
 order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
-	List<AggregatedTypeHistory> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+	List<AggregatedTypeDetails> aggregateUnresearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
@@ -199,7 +199,7 @@ group by
 order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
-	List<AggregatedTypeHistory> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
+	List<AggregatedTypeDetails> aggregateResearchedHighestSales(Instant minDate, Instant maxDate, int limit);
 
 	@Query("""
 select
@@ -228,6 +228,6 @@ group by
 order by sum(greatest(price, buyout)) desc
 limit :limit
 """)
-	List<AggregatedTypeHistory> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
+	List<AggregatedTypeDetails> aggregateBpcHighestSales(Instant minDate, Instant maxDate, int limit);
 
 }

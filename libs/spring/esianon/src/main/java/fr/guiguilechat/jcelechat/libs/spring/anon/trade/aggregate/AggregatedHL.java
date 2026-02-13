@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate;
 
 import java.time.Instant;
 
@@ -8,6 +8,7 @@ import lombok.Setter;
 
 /**
  * daily aggregated sales data, with high, low, total value and number of sales.
+ * This does not contain type
  */
 @Getter
 @Setter

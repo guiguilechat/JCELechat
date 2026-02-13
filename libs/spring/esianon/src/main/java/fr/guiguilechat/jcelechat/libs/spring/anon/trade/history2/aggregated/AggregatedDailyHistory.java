@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated;
 
 import java.time.LocalDate;
+import java.time.ZoneOffset;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistory.AggregatedDailyTypeKey;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
@@ -67,5 +69,14 @@ public class AggregatedDailyHistory {
 	 * Total amount of items traded
 	 */
 	private long volume;
+
+	public AggregatedHL toAggregtedHL() {
+		return new AggregatedHL(getDate().atStartOfDay().atOffset(ZoneOffset.UTC).toInstant(),
+				getVolume(),
+				getVolume() * getAverage(),
+				null,
+				null,
+				0);
+	}
 
 }

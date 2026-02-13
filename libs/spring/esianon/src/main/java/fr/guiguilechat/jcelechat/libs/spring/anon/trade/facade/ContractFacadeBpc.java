@@ -12,10 +12,11 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
@@ -115,11 +116,11 @@ public class ContractFacadeBpc implements ContractItemsListener, MarketRegionLis
 		return ret;
 	}
 
-	public List<AggregatedTypeHistory> aggregateHighestIskVolume(int days, int limit) {
+	public List<AggregatedTypeDetails> aggregateHighestIskVolume(int days, int limit) {
 		var now = Instant.now();
 		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<AggregatedTypeHistory> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
+		List<AggregatedTypeDetails> ret = contractInfoRepository.aggregateBpcHighestSales(minDay, now, limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());
 		return ret;
