@@ -9,7 +9,7 @@
 </head>
 <body>
     <header th:insert="~{fragments/general.html :: header}"> </header>
-	<div class="container-fluid border">
+	<div class="container-fluid">
 		<div class="row">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 			  <li
@@ -31,22 +31,25 @@
 			</ul>
 			<div class="tab-content" id="myTabContent">
 				<div th:each="catProds : ${@mutaMappingService.listCategoryProducts()}"
-					class="tab-pane fade"
+					class="tab-pane fade container-fluid"
 					th:id="${catProds.category().name}"
 					role="tabpanel"
 					th:aria-labelledby="${catProds.category().name+'-tab'}">
-					<div
-						th:each="groupProds : ${catProds.groups}">
-						<h5	th:text="${groupProds.group().name}"></h5>
-						<ul>
-							<li
-								th:each="type : ${groupProds.types()}">
-								<a class="text-nowrap"
-									th:href="${@mutationHTMLController.productUrl(type.id)}"
-									th:text="${type.name()}">
-								</a>
-							</li>
-						</ul>
+					<div class="row">
+						<div
+							class="col-sm-auto"
+							th:each="groupProds : ${catProds.groups}">
+							<h5	th:text="${groupProds.group().name}"></h5>
+							<ul>
+								<li
+									th:each="type : ${groupProds.types()}">
+									<a class="text-nowrap"
+										th:href="${@mutationHTMLController.productUrl(type.id)}"
+										th:text="${type.name()}">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

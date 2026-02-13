@@ -51,21 +51,6 @@ public class AggregatedHL {
 	/** number of regions which had a corresponding trade on that period */
 	private final long nbRegions;
 
-	public AggregatedHL merge(AggregatedHL other) {
-		if (!other.getDate().equals(getDate())) {
-			throw new RuntimeException(
-					"trying to merge two aggregated data with this.date " + getDate() + " and other.date " + other.getDate());
-		}
-		return new AggregatedHL(getDate(),
-				getVolume() + other.getVolume(),
-				getTotalValue().doubleValue() + other.getTotalValue().doubleValue(),
-				getHighestPrice().doubleValue() > other.getHighestPrice().doubleValue() ? getHighestPrice()
-						: other.getHighestPrice(),
-						getLowestPrice().doubleValue() < other.getLowestPrice().doubleValue() ? getLowestPrice()
-								: other.getLowestPrice(),
-								Math.max(getNbRegions(), other.getNbRegions()));
-	}
-
 	@Override
 	public String toString() {
 		return "[" + date + "]";
