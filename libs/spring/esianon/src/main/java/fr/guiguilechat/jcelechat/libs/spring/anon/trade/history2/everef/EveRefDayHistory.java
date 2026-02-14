@@ -17,7 +17,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
+/**
+ * a day we want to fetch from everef history
+ */
 @Entity(name = "EverefTradeFetchedHistory")
 @Table(name = "everef_trade_fetchedhistory", indexes = {
 		@Index(columnList = "success,nextFetch"),

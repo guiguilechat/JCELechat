@@ -41,7 +41,8 @@ public class EverefHistoryFetcher {
 			"'https://data.everef.net/market-history/'yyyy'/market-history-'yyyy-MM-dd'.csv.bz2'",
 			Locale.ENGLISH);
 
-	public static final LocalDate FIRST_DATE = LocalDate.of(2003, 10, 01);
+	public static final String FIRST_DATE_STR = "2003-10-01";
+	public static final LocalDate FIRST_DATE = LocalDate.parse(FIRST_DATE_STR);
 
 	private final String userAgent;
 

@@ -40,6 +40,13 @@ esi:
       statskills:
          update:
             skip: false
+
+everef:
+   trade:
+      history:
+         firstDate: "2026-01-01"
+      
+
 jcesi:
    manager:
 #      default:
