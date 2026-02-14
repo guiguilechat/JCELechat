@@ -52,23 +52,21 @@ where
 		select
 			1
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=location_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=location_prices.type_id
 	)
 ),
 location_ranked as(
 select
 	named_prices.*,
 	0.01* floor(100*(select
-		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average"<named_prices.bo_price), 0)
-			/sum("esi_trade_historyline"."volume")
+		100*coalesce(sum("esi_trade_aggregatedhistory"."volume") filter (where "average"<named_prices.bo_price), 0)
+			/sum("esi_trade_aggregatedhistory"."volume")
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=named_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=named_prices.type_id
 	)) pct_sales_below_bo
 from
 	named_prices
@@ -117,23 +115,21 @@ where
 		select
 			1
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=location_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=location_prices.type_id
 	)
 ),
 location_ranked as(
 select
 	named_prices.*,
 	0.01* floor(100*(select
-		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average">named_prices.so_price), 0)
-			/sum("esi_trade_historyline"."volume")
+		100*coalesce(sum("esi_trade_aggregatedhistory"."volume") filter (where "average">named_prices.so_price), 0)
+			/sum("esi_trade_aggregatedhistory"."volume")
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=named_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=named_prices.type_id
 	)) pct_sales_above_so
 from
 	named_prices
@@ -181,23 +177,21 @@ where
 		select
 			1
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=location_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=location_prices.type_id
 	)
 ),
 location_ranked as(
 select
 	named_prices.*,
 	0.01* floor(100*(select
-		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average"<named_prices.bo_price), 0)
-			/sum("esi_trade_historyline"."volume")
+		100*coalesce(sum("esi_trade_aggregatedhistory"."volume") filter (where "average"<named_prices.bo_price), 0)
+			/sum("esi_trade_aggregatedhistory"."volume")
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=named_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=named_prices.type_id
 	)) pct_sales_below_bo
 from
 	named_prices
@@ -245,23 +239,21 @@ where
 		select
 			1
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=location_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=location_prices.type_id
 	)
 ),
 location_ranked as(
 select
 	named_prices.*,
 	0.01* floor(100*(select
-		100*coalesce(sum("esi_trade_historyline"."volume") filter (where "average">named_prices.so_price), 0)
-			/sum("esi_trade_historyline"."volume")
+		100*coalesce(sum("esi_trade_aggregatedhistory"."volume") filter (where "average">named_prices.so_price), 0)
+			/sum("esi_trade_aggregatedhistory"."volume")
 		from
-			"esi_trade_historyline"
-			join "esi_trade_historyreq" on "esi_trade_historyline"."fetch_resource_id"="esi_trade_historyreq"."id"
+			"esi_trade_aggregatedhistory"
 		where
-			"esi_trade_historyreq"."type_id"=named_prices.type_id
+			"esi_trade_aggregatedhistory"."type_id"=named_prices.type_id
 	)) pct_sales_above_so
 from
 	named_prices
