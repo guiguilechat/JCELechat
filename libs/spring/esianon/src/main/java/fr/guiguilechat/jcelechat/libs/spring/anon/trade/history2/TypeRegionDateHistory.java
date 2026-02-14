@@ -26,8 +26,7 @@ import lombok.Setter;
 		@Index(columnList = "date"),
 		@Index(columnList = "extsource,date"),
 		@Index(columnList = "typeId,date")
-}
-		)
+})
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder

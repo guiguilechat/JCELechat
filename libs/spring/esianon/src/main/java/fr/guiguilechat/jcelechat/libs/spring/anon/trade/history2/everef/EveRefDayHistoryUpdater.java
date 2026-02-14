@@ -48,7 +48,6 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
-
 	protected boolean completed = false;
 
 	/** time/days fetched for the last pulse */
@@ -72,15 +71,18 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		}
 		// retry at most half the errors
 		if (maxFetch >= 2) {
-			toFetch.addAll(eveRefDayHistoryRepository.findBySuccessFalseAndNextFetchBeforeOrderByNextFetchAsc(Instant.now(),
-					Limit.of(maxFetch / 2)));
+			toFetch.addAll(
+					eveRefDayHistoryRepository.findBySuccessFalseAndNextFetchBeforeOrderByNextFetchAsc(Instant.now(),
+							Limit.of(maxFetch / 2)));
 		}
 		if (!toFetch.isEmpty()) {
 			log.debug("  retrying {} errored fetches", toFetch.size());
 		}
 		LocalDate maxEverefSaved = eveRefDayHistoryRepository.maxDate();
-		for (LocalDate fetchDate = firstFetch(maxEverefSaved); toFetch.size() < maxFetch; fetchDate = fetchDate
-				.plusDays(1L)) {
+		for (
+				LocalDate fetchDate = firstFetch(maxEverefSaved);
+				toFetch.size() < maxFetch && fetchDate.isBefore(LocalDate.now().minusDays(1));
+				fetchDate = fetchDate.plusDays(1L)) {
 			toFetch.add(EveRefDayHistory.builder()
 					.date(fetchDate)
 					.build());
@@ -110,10 +112,11 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 				toFetch.get(0).getDate(),
 				toFetch.get(toFetch.size() - 1).getDate());
 		EverefHistoryFetcher fetcher = new EverefHistoryFetcher("jcelechat");
-		Map<EveRefDayHistory, CompletableFuture<List<HistoryEntry>>> results = toFetch.stream()
-				.collect(Collectors.toMap(
-						d -> d,
-						d -> fetcher.fetch(d.getDate())));
+		Map<EveRefDayHistory, CompletableFuture<List<HistoryEntry>>> results =
+				toFetch.stream()
+						.collect(Collectors.toMap(
+								d -> d,
+								d -> fetcher.fetch(d.getDate())));
 
 		// delete existing entries so we don't add doubles, eg from esi
 		typeRegionDateHistoryRepository

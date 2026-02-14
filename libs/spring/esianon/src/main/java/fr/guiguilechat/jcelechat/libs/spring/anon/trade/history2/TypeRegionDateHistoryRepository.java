@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 public interface TypeRegionDateHistoryRepository
-		extends JpaRepository<TypeRegionDateHistory, TypeRegionDateHistory.TypeRegionDateKey> {
+		extends
+			JpaRepository<TypeRegionDateHistory, TypeRegionDateHistory.TypeRegionDateKey> {
 
 	@Modifying
 	@Query("""

@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class TypeRegionHistoryService
-		extends PulseUpdatedService<TypeRegionHistory, TypeRegionKey, TypeRegionHistoryRepository> {
+		extends
+			PulseUpdatedService<TypeRegionHistory, TypeRegionKey, TypeRegionHistoryRepository> {
 
 }

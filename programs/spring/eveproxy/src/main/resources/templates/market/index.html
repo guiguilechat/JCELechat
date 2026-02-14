@@ -57,9 +57,9 @@
 					<tbody>
 						<tr th:each="line : ${regionalMarketSales}">
 							<td><a th:href="${@marketHTMLController.typeUrl(line)}" th:text="${line.name()}" /></td>
-							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.formattedValueSold}" />
 							<td th:text="${line.quantitySold}" />
-							<td th:text="${line.unitPriceString}" />
+							<td th:text="${line.formattedUnitPrice}" />
 						</tr>
 					</tbody>
 				</table>
@@ -78,9 +78,9 @@
 					<tbody>
 						<tr th:each="line : ${unresearchedContractSales}">
 							<td><a th:href="${@marketHTMLController.typeUrl(line)}" th:text="${line.name()}" /></td>
-							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.formattedValueSold}" />
 							<td th:text="${line.quantitySold}" />
-							<td th:text="${line.unitPriceString}" />
+							<td th:text="${line.formattedUnitPrice}" />
 						</tr>
 					</tbody>
 				</table>
@@ -99,9 +99,9 @@
 					<tbody>
 						<tr th:each="line : ${bpoContractSales}">
 							<td><a th:href="${@marketHTMLController.typeUrl(line)}" th:text="${line.name()}" /></td>
-							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.formattedValueSold}" />
 							<td th:text="${line.quantitySold}" />
-							<td th:text="${line.unitPriceString}" />
+							<td th:text="${line.formattedUnitPrice}" />
 						</tr>
 					</tbody>
 				</table>
@@ -120,9 +120,9 @@
 					<tbody>
 						<tr th:each="line : ${bpcContractSales}">
 							<td><a th:href="${@marketHTMLController.typeUrl(line)}" th:text="${line.name()}" /></td>
-							<td th:text="${line.valueSoldString}" />
+							<td th:text="${line.formattedValueSold}" />
 							<td th:text="${line.quantitySold}" />
-							<td th:text="${line.unitPriceString}" />
+							<td th:text="${line.formattedUnitPrice}" />
 						</tr>
 					</tbody>
 				</table>

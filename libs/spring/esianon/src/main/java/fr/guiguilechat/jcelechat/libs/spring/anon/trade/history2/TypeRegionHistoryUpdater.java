@@ -16,8 +16,13 @@ import lombok.extern.slf4j.Slf4j;
 @Getter
 @Setter
 //@Service
-public class TypeRegionHistoryUpdater extends
-		PulseUpdatedUpdater<TypeRegionHistory, TypeRegionKey, TypeRegionHistoryRepository, TypeRegionHistoryService> {
+public class TypeRegionHistoryUpdater
+		extends
+			PulseUpdatedUpdater<
+					TypeRegionHistory,
+					TypeRegionKey,
+					TypeRegionHistoryRepository,
+					TypeRegionHistoryService> {
 
 	@Override
 	protected boolean updateNextBatch() {

@@ -27,10 +27,11 @@ public class SpRateService implements MarketRegionListener {
 
 	@Cacheable("rateSPGain")
 	public List<RatedSPGain> rate(long locationId, Optional<Long> sps) {
-		List<RatedSPGain> ret = new ArrayList<>(repo.rateAccelerators(locationId)
-				.stream()
-				.filter(ar -> ar.price() != null && !ar.isExpired())
-				.toList());
+		List<RatedSPGain> ret =
+				new ArrayList<>(repo.rateAccelerators(locationId)
+						.stream()
+						.filter(ar -> ar.price() != null && !ar.isExpired())
+						.toList());
 		Double plexPrice = marketLineService.globalSOPrice(Type.PLEX_ID);
 		if (plexPrice != null) {
 			int primAtt = 32;
@@ -110,7 +111,8 @@ public class SpRateService implements MarketRegionListener {
 	}
 
 	@Getter(lazy = true)
-	private final List<String> cacheList = List.of(
-			"rateSPGain");
+	private final List<String> cacheList =
+			List.of(
+					"rateSPGain");
 
 }

@@ -28,7 +28,8 @@ public class MarketRankingService implements MarketRegionListener {
 
 	@Async
 	@Cacheable("rankCategoryOffers")
-	public CompletableFuture<List<RankedOffer>> rankCategoryOffers(Iterable<Long> locationIds, int categoryId,
+	public CompletableFuture<List<RankedOffer>> rankCategoryOffers(Iterable<Long> locationIds,
+			int categoryId,
 			BoSoChoice boso) {
 		return CompletableFuture.completedFuture(
 				boso == BoSoChoice.BO
@@ -38,7 +39,8 @@ public class MarketRankingService implements MarketRegionListener {
 
 	@Async
 	@Cacheable("rankGroupOffers")
-	public CompletableFuture<List<RankedOffer>> rankGroupOffers(Iterable<Long> locationIds, int groupId,
+	public CompletableFuture<List<RankedOffer>> rankGroupOffers(Iterable<Long> locationIds,
+			int groupId,
 			BoSoChoice boso) {
 		return CompletableFuture.completedFuture(
 				boso == BoSoChoice.BO
@@ -47,8 +49,8 @@ public class MarketRankingService implements MarketRegionListener {
 	}
 
 	@Getter(lazy = true)
-	private final List<String> cacheList = List.of(
-			"rankCategoryOffers",
-			"rankGroupOffers"
-			);
+	private final List<String> cacheList =
+			List.of(
+					"rankCategoryOffers",
+					"rankGroupOffers");
 }

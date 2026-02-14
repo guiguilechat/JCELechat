@@ -288,7 +288,8 @@ order by pct_sales_above_so desc
 			Number spGain, Number price) {
 
 		public Instant expires() {
-			return expiresEpochDays() == null ? null
+			return expiresEpochDays() == null
+					? null
 					: Instant.EPOCH.plusSeconds((long) (expiresEpochDays.doubleValue() * 24 * 3600));
 		}
 
