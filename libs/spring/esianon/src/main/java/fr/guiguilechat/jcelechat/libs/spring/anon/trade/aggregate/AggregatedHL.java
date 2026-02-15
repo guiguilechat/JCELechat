@@ -8,7 +8,7 @@ import lombok.Setter;
 
 /**
  * daily aggregated sales data, with high, low, total value and number of sales.
- * This does not contain type
+ * This does not contain type information.
  */
 @Getter
 @Setter

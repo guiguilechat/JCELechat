@@ -40,7 +40,7 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 				AggregationStatus.AVAIL,
 				Limit.of(getUpdate().getMax()));
 		if (toAggregate.isEmpty()) {
-			log.debug("no avail everef yet ; retrying failed ones if any");
+			log.debug(" no everef to aggregate ; retrying failed aggregates if any");
 			toAggregate = eveRefDayHistoryRepository.findByAggregationStatusOrderByDateAsc(
 					AggregationStatus.FAILED,
 					Limit.of(getUpdate().getMax()));

@@ -72,11 +72,12 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		// retry at most half the errors
 		if (maxFetch >= 2) {
 			toFetch.addAll(
-					eveRefDayHistoryRepository.findBySuccessFalseAndNextFetchBeforeOrderByNextFetchAsc(Instant.now(),
+					eveRefDayHistoryRepository.findBySuccessFalseAndNextFetchBeforeOrderByNextFetchAsc(
+							Instant.now(),
 							Limit.of(maxFetch / 2)));
 		}
 		if (!toFetch.isEmpty()) {
-			log.debug("  retrying {} errored fetches", toFetch.size());
+			log.debug("  fetch again {} errored days", toFetch.size());
 		}
 		LocalDate maxEverefSaved = eveRefDayHistoryRepository.maxDate();
 		for (
@@ -100,7 +101,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		long start = System.currentTimeMillis();
 		List<EveRefDayHistory> toFetch = selectNext();
 		if (toFetch.isEmpty()) {
-			log.info("completed everef fetching");
+			log.info(" everef fetching complete");
 			completed = true;
 			return false;
 		}
