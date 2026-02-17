@@ -5,6 +5,9 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -42,7 +45,7 @@ jcesi.manager:
 public class UpdateScheduler {
 
 	@Lazy
-	private final Optional<List<EntityUpdater>> fetchedServices;
+	private final Optional<List<EntityUpdater>> updaters;
 
 	//
 	// those are mostly used for debuging and stopping
@@ -88,7 +91,7 @@ public class UpdateScheduler {
 			return;
 		}
 		boolean nextPulseReady = false;
-		List<EntityUpdater> registeredServices = fetchedServices.orElse(List.of());
+		List<EntityUpdater> registeredServices = updaters.orElse(List.of());
 		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))
 		    .toList();
 		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
@@ -139,6 +142,38 @@ public class UpdateScheduler {
 	 */
 	public boolean shouldSkip(EntityUpdater updater) {
 		return Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
+	}
+
+	// introspection
+
+	public record ActiveUpdater(EntityUpdater updater, Instant ready) {
+		public String name() {
+			return updater.serviceName();
+		}
+	}
+
+	public record UpdatersList(
+			List<ActiveUpdater> active,
+			List<EntityUpdater> inactive) {
+	}
+
+	public UpdatersList updatersStatus() {
+		List<EntityUpdater> updaters = new ArrayList<>(this.updaters.orElse(List.of()));
+		Collections.sort(updaters, Comparator.comparing(EntityUpdater::serviceName));
+		List<ActiveUpdater> active = new ArrayList<>();
+		List<EntityUpdater> inactive = new ArrayList<>();
+		for (EntityUpdater eu : updaters) {
+			if (shouldSkip(eu)) {
+				inactive.add(eu);
+			} else {
+				Instant readyAt = fetcherNameToNextPulse.get(eu.serviceName());
+				if (readyAt != null && !readyAt.isAfter(Instant.now())) {
+					readyAt=null;
+				}
+				active.add(new ActiveUpdater(eu, readyAt));
+			}
+		}
+		return new UpdatersList(active, inactive);
 	}
 
 }

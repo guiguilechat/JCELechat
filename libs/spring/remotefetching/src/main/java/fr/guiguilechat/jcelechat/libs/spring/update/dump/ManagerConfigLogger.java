@@ -25,12 +25,12 @@ public class ManagerConfigLogger {
 	@PostConstruct
 	protected void debugConfig() {
 		log.trace("configuration of {} registered updaters, with manager skip={} defaultSkip={} updatedDelay={}",
-		    s.getFetchedServices().orElse(List.of()).size(), s.isSkip(), s.isDefaultSkip(), s.getUpdatedDelay());
+				s.getUpdaters().orElse(List.of()).size(), s.isSkip(), s.isDefaultSkip(), s.getUpdatedDelay());
 		Map<String, List<String>> propertiesPrefixToServices = new HashMap<>();
 		log.trace("{} active services :",
-		    s.getFetchedServices().orElse(List.of()).stream().filter(l -> !s.shouldSkip(l)).count());
+				s.getUpdaters().orElse(List.of()).stream().filter(l -> !s.shouldSkip(l)).count());
 		List<EntityUpdater> inactive = new ArrayList<>();
-		for (EntityUpdater l : s.getFetchedServices().orElse(List.of())) {
+		for (EntityUpdater l : s.getUpdaters().orElse(List.of())) {
 			if (s.shouldSkip(l)) {
 				inactive.add(l);
 			} else {

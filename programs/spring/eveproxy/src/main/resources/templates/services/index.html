@@ -1,0 +1,64 @@
+<!doctype html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title th:text="'Services'" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/dist/css/bootstrap.min.css}" />
+<script th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+</head>
+<body>
+    <header th:insert="~{fragments/general.html :: header}"> </header>
+	<div class="container-fluid">
+		<div class="row">
+			<ul class="nav nav-tabs" id="servicesTab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<button	class="nav-link active" id="active-tab" type="button" role="tab"
+						data-bs-toggle="tab" data-bs-target="#activeservices"
+						aria-controls="activetab" aria-selected="true">
+						Active
+					</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button	class="nav-link" id="inactive-tab" type="button" role="tab"
+						data-bs-toggle="tab" data-bs-target="#inactiveservices"
+						aria-controls="inactivetab">
+						Inactive
+					</button>
+				<li>
+			</ul>
+			<div class="tab-content" id="servicesTabContent">
+				<div class="tab-pane container-fluid show active" id="activeservices" role="tabpanel" aria-labelledby="activetab">
+					<table class="table table-striped table-hover w-auto">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Ready</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="active : ${active}">
+								<td th:text="${active.name()}"/>
+								<td th:text="${active.ready()}"/>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane container-fluid" id="inactiveservices" role="tabpanel" aria-labelledby="inactivetab">
+				<table class="table table-striped table-hover w-auto">
+					<thead>
+						<tr>
+							<th>Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="inactive : ${inactive}">
+							<td th:text="${inactive.serviceName()}"/>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
