@@ -1,7 +1,10 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated;
 
+import java.time.Instant;
 import java.time.LocalDate;
+import java.time.ZoneOffset;
 import java.util.List;
+import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -40,15 +43,18 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 				AggregationStatus.AVAIL,
 				Limit.of(getUpdate().getMax()));
 		if (toAggregate.isEmpty()) {
-			log.debug(" no everef to aggregate ; retrying failed aggregates if any");
 			toAggregate = eveRefDayHistoryRepository.findByAggregationStatusOrderByDateAsc(
 					AggregationStatus.FAILED,
 					Limit.of(getUpdate().getMax()));
+			log.debug(" no everef to aggregate ; retrying failed {} aggregates", toAggregate.size());
 		}
+		// we add today to aggregte completed contracts
 		if (toAggregate.isEmpty()) {
-			return false;
+			log.debug(" no region history to aggregate ; aggregate today's contract");
 		}
-		List<LocalDate> dates = toAggregate.stream().map(EveRefDayHistory::getDate).toList();
+		List<LocalDate> dates =
+				Stream.concat(Stream.of(Instant.now().atOffset(ZoneOffset.UTC).toLocalDate()),
+						toAggregate.stream().map(EveRefDayHistory::getDate)).toList();
 		int deleted = repo.deleteForDates(dates);
 		if (deleted > 0) {
 			log.trace("deleted {} existing lines for {} dates", deleted, dates.size());
@@ -63,7 +69,7 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 		toAggregate.forEach(dh -> {
 			dh.setAggregationStatus(AggregationStatus.DONE);
 		});
-		return true;
+		return !toAggregate.isEmpty();
 	}
 
 }

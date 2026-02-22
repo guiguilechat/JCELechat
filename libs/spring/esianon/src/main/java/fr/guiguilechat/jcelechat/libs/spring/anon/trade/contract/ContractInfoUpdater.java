@@ -40,6 +40,8 @@ public class ContractInfoUpdater extends
 	@Lazy
 	private final TypeService typeService;
 
+	public int pessimisticFetchAge = 7;
+
 	@Override
 	protected Requested<R_get_contracts_public_items_contract_id[]> fetchData(Integer id,
 			Map<String, String> properties) {
@@ -127,7 +129,7 @@ public class ContractInfoUpdater extends
 			// if the first contract is older than a day, it's likely to fail (we are
 			// catching up on old contracts) : only fetch
 			// with pessimistic batch size, so half the remaining esi errors
-			if (ChronoUnit.DAYS.between(firstCI.getDateIssued(), Instant.now()) >= 1) {
+			if (ChronoUnit.DAYS.between(firstCI.getDateIssued(), Instant.now()) >= pessimisticFetchAge) {
 				int pessimisticBatchSize = pessimisticBatchSize(batchSize);
 				log.debug("pessimistic batch sized from {} to {} with first contract issued date {}",
 						batchSize,

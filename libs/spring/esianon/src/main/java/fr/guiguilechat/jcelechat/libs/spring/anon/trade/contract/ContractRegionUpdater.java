@@ -110,7 +110,8 @@ public class ContractRegionUpdater extends
 				.map(c -> (int) c.start_location_id)
 				.distinct().toList());
 		long postFetchStations = System.currentTimeMillis();
-		log.trace("{} retrieved {} stations's solar systems in {} ms", serviceName(), stationId2SolarSystem.size(),
+		log.trace(" retrieved {} stations's solar systems in {} ms",
+				stationId2SolarSystem.size(),
 				postFetchStations - preFetchStations);
 		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
 
@@ -118,7 +119,7 @@ public class ContractRegionUpdater extends
 		List<Integer> referencedCharacterIds = contracts.stream()
 				.map(ci -> ci.issuer_id)
 				.distinct().toList();
-		log.trace("getting {} issuers for {} new received contracts",
+		log.trace(" getting {} issuers for {} new received contracts",
 				referencedCharacterIds.size(),
 				contracts.size());
 		Function<Integer, CharacterInformation> getCharacter = characterInformationService
@@ -145,7 +146,7 @@ public class ContractRegionUpdater extends
 				.toList();
 		idResolutionService.createMissing(
 				Stream.concat(referencedCharacterIds.stream(), referencedCorporationIds.stream()));
-		log.debug(" contract list in {}({}) : {} new, {} removed",
+		log.debug("  contract list in {}({}) : {} new, {} removed",
 				region.getRegion().getName(),
 				region.getId(),
 				newContracts.size(),
