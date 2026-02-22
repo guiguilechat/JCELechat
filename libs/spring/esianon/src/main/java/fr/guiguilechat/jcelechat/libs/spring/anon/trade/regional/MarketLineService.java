@@ -8,8 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -70,15 +68,9 @@ public class MarketLineService implements MarketRegionListener {
 
 	protected boolean insertPGCopy(List<MarketLine> entities, CopyManager cm) {
 		long start = System.currentTimeMillis();
-		long postList = System.currentTimeMillis();
-		Iterator<Long> it = repo.reservePGIds(entities.size()).iterator();
-		long postIds = System.currentTimeMillis();
-		log.trace("PG copy received next {} indexes for the new records", entities.size());
-		entities.forEach(ml -> ml.setId(it.next()));
-		long postUpdateIds = System.currentTimeMillis();
 		StringReader reader = new StringReader(
 				entities.stream()
-						.map(MarketLine::csv)
+						.map(CommonMarketLine::csv)
 						// .reduce(new StringBuilder(), (BiFunction<StringBuilder, ? super String,
 						// StringBuilder>) StringBuilder::append, (BinaryOperator<StringBuilder>)
 						// StringBuilder::append)
@@ -93,23 +85,20 @@ public class MarketLineService implements MarketRegionListener {
 		}
 
 		long end = System.currentTimeMillis();
-		log.trace("performed copy of {} entries in {} ms (aggreg={} fetchids={} updateids={} concat={} send={}",
+		log.trace("performed copy of {} entries in {} ms (convert={} insert={})",
 				entities.size(),
 				end - start,
-				postList - start,
-				postIds - postList,
-				postUpdateIds - postIds,
-				postReader - postUpdateIds,
+				postReader - start,
 				end - postReader);
 		return true;
 	}
 
-	public void clearRegions(Iterable<MarketRegion> regions) {
-		repo.removeForFetcher(regions);
+	public void clearRegions(Iterable<Integer> regions) {
+		repo.deleteByRegionIds(regions);
 	}
 
-	public void deleteAll(Iterable<MarketLine> lines) {
-		repo.deleteAll(lines);
+	public void clearRegions(Set<MarketRegion> regions) {
+		clearRegions(regions.stream().map(MarketRegion::getId).toList());
 	}
 
 	//
@@ -175,33 +164,8 @@ public class MarketLineService implements MarketRegionListener {
 	 */
 	@Cacheable("marketRegion")
 	public List<MarketLine> forRegion(int regionId, int type_id, boolean isBuyOrder) {
-		return reverseIf(repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
+		return reverseIf(repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, type_id, isBuyOrder),
 				isBuyOrder);
-	}
-
-	/**
-	 * @param regionId a region id.
-	 * @return unsorted list of records stored in a region. Will return empty list
-	 *         if regionId invalid.
-	 */
-	protected List<MarketLine> forRegion(int regionId) {
-		return repo.findAllByFetchResourceId(regionId);
-	}
-
-	/**
-	 * a cache of the stored orders per region id
-	 */
-	private final Map<Integer, Map<Long, MarketLine>> lastStoredLinesByRegionId = new HashMap<>();
-
-	Map<Long, MarketLine> cachedOrders(int regionId) {
-		return lastStoredLinesByRegionId.computeIfAbsent(regionId,
-				_ -> forRegion(regionId)
-						.stream()
-						.collect(Collectors.toMap(MarketLine::getOrderId, ml -> ml)));
-	}
-
-	void updateCachedOrders(int regionId, Map<Long, MarketLine> orders) {
-		lastStoredLinesByRegionId.put(regionId, orders);
 	}
 
 	/**
@@ -404,9 +368,9 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 	public List<OfferStat> offerStatsRegion(int regionId, int typeId) {
-		List<MarketLine> sos = repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
+		List<MarketLine> sos = repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, false);
 		List<MarketLine> bos = new ArrayList<>(
-				repo.findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
+				repo.findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(regionId, typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
 	}
@@ -416,6 +380,10 @@ public class MarketLineService implements MarketRegionListener {
 		List<MarketLine> bos = new ArrayList<>(repo.findByTypeIdAndIsBuyOrderOrderByPriceAsc(typeId, true));
 		Collections.reverse(bos);
 		return sellGain(sos, bos);
+	}
+
+	public void copyFromTemp() {
+
 	}
 
 	@Getter(lazy = true)
@@ -428,5 +396,6 @@ public class MarketLineService implements MarketRegionListener {
 			"marketSoValueLocation",
 			"marketLocationTypesBo",
 			"marketLocationTypesSo");
+
 
 }

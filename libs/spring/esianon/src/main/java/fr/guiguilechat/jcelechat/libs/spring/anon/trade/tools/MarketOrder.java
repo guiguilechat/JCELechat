@@ -113,29 +113,29 @@ public class MarketOrder implements Serializable {
 
 	public static MarketOrder of(MarketLine line) {
 		return builder()
-		    .expires(line.getIssued().plus(line.getDuration(), ChronoUnit.DAYS))
-		    .isBuyOrder(line.isBuyOrder())
-		    .issued(line.getIssued())
-		    .locationId(line.getLocationId())
-		    .minVolume(line.getMinVolume())
-		    .orderType(OrderType.MARKET)
-		    .price(line.getPrice())
-		    .regionId(line.getFetchResource().getId())
-		    .systemId(line.getSolarSystemId())
-		    .typeId(line.getTypeId())
-		    .volumeRemain(line.getVolumeRemain())
-		    .volumeTotal(line.getVolumeTotal())
-		    .build();
+				.expires(line.getIssued().plus(line.getDuration(), ChronoUnit.DAYS))
+				.isBuyOrder(line.isBuyOrder())
+				.issued(line.getIssued())
+				.locationId(line.getLocationId())
+				.minVolume(line.getMinVolume())
+				.orderType(OrderType.MARKET)
+				.price(line.getPrice())
+				.regionId(line.getRegionId())
+				.systemId(line.getSolarSystemId())
+				.typeId(line.getTypeId())
+				.volumeRemain(line.getVolumeRemain())
+				.volumeTotal(line.getVolumeTotal())
+				.build();
 	}
 
 	public static MarketOrder of(ContractInfo contract) {
 		// can't make an order out of a contract unless exactly one item is either
 		// offered or required.
 		if (contract.getNbTypesAsked() > 1 ||
-		    contract.getNbTypesIncluded() > 1
-		    || contract.getNbTypesAsked() + contract.getNbTypesIncluded() != 1) {
+				contract.getNbTypesIncluded() > 1
+				|| contract.getNbTypesAsked() + contract.getNbTypesIncluded() != 1) {
 			throw new RuntimeException(
-			    "contract id=" + contract.getId() + " has several items, can't be used as a market order");
+					"contract id=" + contract.getId() + " has several items, can't be used as a market order");
 		}
 		int volume = 0;
 		int typeId = 0;
@@ -147,10 +147,11 @@ public class MarketOrder implements Serializable {
 			volume = contract.getAskedQuantity().intValue();
 		} else {
 			if (contract.getOfferedCopy()
-			    || contract.getOfferedMe() != null && contract.getOfferedMe() > 0
-			    || contract.getOfferedTe() != null && contract.getOfferedTe() > 0) {
-				details = "" + contract.getOfferedMe() + "/" + contract.getOfferedTe()
-				    + (contract.getOfferedCopy() ? "(" + contract.getOfferedRuns() + "r)" : "");
+					|| contract.getOfferedMe() != null && contract.getOfferedMe() > 0
+					|| contract.getOfferedTe() != null && contract.getOfferedTe() > 0) {
+				details =
+						"" + contract.getOfferedMe() + "/" + contract.getOfferedTe()
+								+ (contract.getOfferedCopy() ? "(" + contract.getOfferedRuns() + "r)" : "");
 			}
 			price = contract.directPrice();
 			typeId = contract.getOfferedTypeId();
@@ -162,21 +163,21 @@ public class MarketOrder implements Serializable {
 		}
 		long locationId = contract.getEndLocationId();
 		return builder()
-		    .contractId(contract.getId())
-		    .details(details)
-		    .expires(contract.getDateExpired())
-		    .isBuyOrder(contract.isAsksOneTypeForIsk())
-		    .issued(contract.getDateIssued())
-		    .locationId(contract.getEndLocationId())
-		    .minVolume(volume)
-		    .orderType(OrderType.CONTRACT)
-		    .price(price / volume)// actually unit price for an order
-		    .regionId(contract.getRegion().getId())
-		    .systemId((int) (locationId < 100000000 ? locationId : 0))
-		    .typeId(typeId)
-		    .volumeRemain(volume)
-		    .volumeTotal(volume)
-		    .build();
+				.contractId(contract.getId())
+				.details(details)
+				.expires(contract.getDateExpired())
+				.isBuyOrder(contract.isAsksOneTypeForIsk())
+				.issued(contract.getDateIssued())
+				.locationId(contract.getEndLocationId())
+				.minVolume(volume)
+				.orderType(OrderType.CONTRACT)
+				.price(price / volume)// actually unit price for an order
+				.regionId(contract.getRegion().getId())
+				.systemId((int) (locationId < 100000000 ? locationId : 0))
+				.typeId(typeId)
+				.volumeRemain(volume)
+				.volumeTotal(volume)
+				.build();
 	}
 
 	public MarketOrder resolveRegionName(Map<Integer, String> regionNames) {

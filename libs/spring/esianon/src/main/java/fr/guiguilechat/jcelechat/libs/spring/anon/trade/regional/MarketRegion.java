@@ -1,11 +1,11 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional;
 
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.AFetchedList;
+import org.hibernate.annotations.ColumnDefault;
+
+import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Index;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,9 +20,14 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class MarketRegion extends AFetchedList<Integer, R_get_markets_region_id_orders, MarketLine> {
+public class MarketRegion extends RemoteNumberEntity<Integer, R_get_markets_region_id_orders[]> {
 
-	@OneToOne
-	private Region region;
+	@ColumnDefault("0")
+	private int nbLines = 0;
+
+	@Override
+	public void update(R_get_markets_region_id_orders[] data) {
+		nbLines = data == null ? 0 : data.length;
+	}
 
 }

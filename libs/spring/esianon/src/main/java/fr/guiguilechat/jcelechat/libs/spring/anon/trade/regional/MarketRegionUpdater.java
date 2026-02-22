@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.RegionService;
-import fr.guiguilechat.jcelechat.libs.spring.sde.space.solarsystem.SolarSystemService;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -30,30 +27,33 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 @ConfigurationProperties(prefix = "esi.trade.market")
 @Order(4) // depends on region, type
-public class MarketRegionUpdater extends
-		DiscoveringRemoteNumberEntityUpdater<MarketRegion, Integer, R_get_markets_region_id_orders[], MarketRegionRepository, MarketRegionService> {
+public class MarketRegionUpdater
+		extends
+			DiscoveringRemoteNumberEntityUpdater<
+					MarketRegion,
+					Integer,
+					R_get_markets_region_id_orders[],
+					MarketRegionRepository,
+					MarketRegionService> {
 
 	@Lazy
 	private final MarketLineService marketLineService;
 
 	@Lazy
-	private final RegionService regionService;
-
-	@Lazy
-	private final SolarSystemService solarSystemService;
-
-	@Lazy
-	private final TypeService typeService;
+	private final TempMarketLineService tempMarketLineService;
 
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
-		Requested<R_get_markets_region_id_orders[]> ret = ESIRawPublic.INSTANCE
-				.requestGetPages((p, props) -> ESIRawPublic.INSTANCE.get_markets_orders(
-						order_type.all,
-						p, id, null, props), properties)
-				.mapBody(l -> l.toArray(R_get_markets_region_id_orders[]::new));
+		Requested<R_get_markets_region_id_orders[]> ret =
+				ESIRawPublic.INSTANCE
+						.requestGetPages((p, props) -> ESIRawPublic.INSTANCE.get_markets_orders(
+								order_type.all,
+								p, id, null, props), properties)
+						.mapBody(l -> l.toArray(R_get_markets_region_id_orders[]::new));
 		return ret;
 	}
+
+	public boolean useTempTable = true;
 
 	@Override
 	protected void updateResponseOk(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
@@ -61,6 +61,10 @@ public class MarketRegionUpdater extends
 		log.trace("applying {} market orders updates for regions {}", responseOk.size(),
 				responseOk.keySet().stream().map(MarketRegion::getId).toList());
 		super.updateResponseOk(responseOk);
+		if (useTempTable) {
+			updateTempTable(responseOk);
+			return;
+		}
 
 		marketLineService.clearRegions(responseOk.keySet());
 		long postClear = System.currentTimeMillis();
@@ -81,9 +85,34 @@ public class MarketRegionUpdater extends
 
 	}
 
+	/**
+	 * update the list of orders by puting them in temp table first
+	 *
+	 * @param responseOk
+	 */
+	public void updateTempTable(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
+		tempMarketLineService.clear();
+		List<TempMarketLine> translated = new ArrayList<>();
+		for (Entry<MarketRegion, R_get_markets_region_id_orders[]> e : responseOk.entrySet()) {
+			translated.addAll(createTMLForRegion(e.getKey(), e.getValue()));
+		}
+		tempMarketLineService.insertAll(translated);
+
+		// TODO process the changes
+
+		marketLineService.clearRegions(responseOk.keySet());
+		marketLineService.copyFromTemp();
+	}
+
 	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
 		return Stream.of(orders)
-				.map(order -> MarketLine.of(order, region))
+				.map(order -> MarketLine.of(order, region.getId(), region.getLastModified()))
+				.toList();
+	}
+
+	public List<TempMarketLine> createTMLForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
+		return Stream.of(orders)
+				.map(order -> TempMarketLine.of(order, region.getId(), region.getLastModified()))
 				.toList();
 	}
 
@@ -106,11 +135,11 @@ public class MarketRegionUpdater extends
 		List<MarketRegion> reduced = new ArrayList<>();
 		long totalDoneLines = 0L;
 		for (MarketRegion mr : ret) {
-			totalDoneLines += mr.getElementsSize();
-			if (totalDoneLines + mr.getElementsSize() > TARGET_LINE_FETCH) {
+			totalDoneLines += mr.getNbLines();
+			if (totalDoneLines + mr.getNbLines() > TARGET_LINE_FETCH) {
 				if (reduced.isEmpty()) {
 					reduced.add(mr);
-					totalDoneLines += mr.getElementsSize();
+					totalDoneLines += mr.getNbLines();
 				}
 				if (reduced.size() != ret.size()) {
 					log.trace("  market regions list reduced to {}, total last lines={}, max is {}",
@@ -121,7 +150,7 @@ public class MarketRegionUpdater extends
 				}
 			} else {
 				reduced.add(mr);
-				totalDoneLines += mr.getElementsSize();
+				totalDoneLines += mr.getNbLines();
 			}
 		}
 		log.trace("  market regions list kept to {}, total {} fetched lines, max={}",

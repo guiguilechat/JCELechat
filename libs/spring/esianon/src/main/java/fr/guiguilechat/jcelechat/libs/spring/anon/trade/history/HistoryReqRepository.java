@@ -23,7 +23,7 @@ select
 from
 	(select distinct
 		typeId as tid,
-		fetchResource.id as rid
+		regionId as rid
 	from EsiTradeMarketLine
 	) re
 	left join #{#entityName} hr

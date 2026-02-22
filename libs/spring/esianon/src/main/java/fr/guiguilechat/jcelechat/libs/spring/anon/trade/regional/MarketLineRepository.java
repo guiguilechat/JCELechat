@@ -4,11 +4,21 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.list.IFetchedListElementRepositoryAutoId;
+public interface MarketLineRepository extends JpaRepository<MarketLine, Integer> {
 
-public interface MarketLineRepository extends IFetchedListElementRepositoryAutoId<MarketRegion, MarketLine> {
+	@Modifying
+	@Query("""
+delete
+from
+	#{#entityName} e
+where
+	regionId in :regionIds
+""")
+	void deleteByRegionIds(Iterable<Integer> regionIds);
 
 	// calculate prices
 
@@ -50,15 +60,15 @@ select
 	coalesce ( min("price") filter(where vol_before>=:discardValue)
 		, max("price") )
 from (select
-	*,
-	sum("volume_remain"*"price") over(partition by "type_id" order by "price" asc) vol_before
-from
-	"esi_trade_market_line"
-where
-	"location_id" in :locationIds
-	and "type_id" in :typeIds
-	and not "is_buy_order"
-) foo
+		*,
+		sum("volume_remain"*"price") over(partition by "type_id" order by "price" asc) vol_before
+	from
+		"esi_trade_market_line"
+	where
+		"location_id" in :locationIds
+		and "type_id" in :typeIds
+		and not "is_buy_order"
+	) foo
 group by "type_id"
 """, nativeQuery = true)
 	Stream<Object[]> lowestSOAt(Iterable<Long> locationIds, double discardValue, Iterable<Integer> typeIds);
@@ -76,8 +86,8 @@ group by "type_id"
 			long locationId,
 			Set<Integer> typeids);
 
-	List<MarketLine> findByFetchResourceIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
-			long regionId,
+	List<MarketLine> findByRegionIdAndTypeIdAndIsBuyOrderOrderByPriceAsc(
+			int regionId,
 			int typeid,
 			boolean isBuyOrder);
 
@@ -96,7 +106,7 @@ group by "type_id"
 	Stream<MarketLine> findByTypeIdInAndLocationIdAndIsBuyOrderTrueOrderByPriceDesc(
 			Iterable<Integer> typeids, long locationId);
 
-	List<MarketLine> findByFetchResourceIdAndTypeIdInOrderByPriceAsc(
+	List<MarketLine> findByRegionIdAndTypeIdInOrderByPriceAsc(
 			int regionId, List<Integer> typeids);
 
 	List<MarketLine> findByLocationIdAndTypeIdInOrderByPriceAsc(
@@ -110,16 +120,16 @@ group by "type_id"
 	 */
 	@Query("""
 select
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId,
 	min(line.price)
 from
-	EsiTradeMarketLine line
+	#{#entityName} line
 where
 	line.typeId=:typeid
 	and not line.isBuyOrder
 group by
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId
 order by
 	min(line.price) asc
@@ -127,21 +137,22 @@ order by
 	List<Object[]> findSellOfferLocations(int typeid);
 
 	/**
-	 * @return lines grouped in format (regionId, location_id, min price)
+	 * @return lines grouped in format (regionId, location_id, min price) for seeded
+	 *         (NPC, duration=365) orders
 	 */
 	@Query("""
 select
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId,
 	min(line.price)
 from
-	EsiTradeMarketLine line
+	#{#entityName} line
 where
 	line.typeId=:typeid
 	and not line.isBuyOrder
 	and line.duration=365
 group by
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId
 order by
 	min(line.price) asc
@@ -153,25 +164,57 @@ order by
 	 */
 	@Query("""
 select
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId,
 	max(line.price)
 from
-	EsiTradeMarketLine line
+	#{#entityName} line
 where
 	line.typeId=:typeid
 	and line.isBuyOrder
 group by
-	line.fetchResource.id,
+	line.regionId,
 	line.locationId
 order by
 	max(line.price) asc
 """)
 	List<Object[]> findBuyOfferLocations(int typeid);
 
-	@Query(value = """
-SELECT NEXTVAL('esi_trade_market_line_seq') FROM generate_series(1,:nb)
-""", nativeQuery = true)
-	List<Long> reservePGIds(int nb);
+	@Modifying
+	@Query("""
+insert EsiTradeMarketLine(
+	id
+	, duration
+	, isBuyOrder
+	, issued
+	, lastModified
+	, locationId
+	, minVolume
+	, price
+	, range
+	, regionId
+	, solarSystemId
+	, typeId
+	, volumeRemain
+	, volumeTotal
+) select
+	t.id
+	, t.duration
+	, t.isBuyOrder
+	, t.issued
+	, t.lastModified
+	, t.locationId
+	, t.minVolume
+	, t.price
+	, t.range
+	, t.regionId
+	, t.solarSystemId
+	, t.typeId
+	, t.volumeRemain
+	, t.volumeTotal
+from
+	EsiTradeMarketLineTemp t
+""")
+	void copyFromTemp();
 
 }
