@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-public interface TempMarketLineRepository extends JpaRepository<TempMarketLine, Integer> {
+public interface TempMarketLineRepository extends JpaRepository<TempMarketLine, Long> {
 
 	/**
 	 * delete all records from the table

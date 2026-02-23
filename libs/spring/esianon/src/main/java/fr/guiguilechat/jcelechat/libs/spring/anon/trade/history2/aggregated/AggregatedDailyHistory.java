@@ -21,8 +21,8 @@ import lombok.Setter;
  * aggregated value of sales for a type and a day. This should include performed
  * contracts, as well as sales for all regions
  */
-@Entity(name = "EsiTradeAggregatedHistory")
-@Table(name = "esi_trade_aggregatedhistory", indexes = {
+@Entity(name = "JcelechatTradeAggregatedHistory")
+@Table(name = "jcelechat_trade_aggregatedhistory", indexes = {
 		@Index(columnList = "typeId, me, te, copy")
 })
 @AllArgsConstructor

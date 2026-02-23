@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderCreationRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -41,6 +42,8 @@ public class MarketRegionUpdater
 
 	@Lazy
 	private final TempMarketLineService tempMarketLineService;
+
+	private final OrderCreationRepository orderCreationRepository;
 
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
@@ -90,27 +93,36 @@ public class MarketRegionUpdater
 	 *
 	 * @param responseOk
 	 */
-	public void updateTempTable(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
+	protected void updateTempTable(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
 		tempMarketLineService.clear();
 		List<TempMarketLine> translated = new ArrayList<>();
 		for (Entry<MarketRegion, R_get_markets_region_id_orders[]> e : responseOk.entrySet()) {
-			translated.addAll(createTMLForRegion(e.getKey(), e.getValue()));
+			translated.addAll(createTempForRegion(e.getKey(), e.getValue()));
 		}
 		tempMarketLineService.insertAll(translated);
 
-		// TODO process the changes
+		// process the changes
+		for (MarketRegion r : responseOk.keySet()) {
+			log.trace("  creating new orders for region {}", r.getId());
+			int newOrders =
+						orderCreationRepository.addFromTempTable(r.getId(),
+							r.getPreviousLastModified());
+			if (newOrders > 0) {
+				log.debug("  created {} new orders for region {}", newOrders, r.getId());
+			}
+		}
 
 		marketLineService.clearRegions(responseOk.keySet());
 		marketLineService.copyFromTemp();
 	}
 
-	public List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
+	protected List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
 		return Stream.of(orders)
 				.map(order -> MarketLine.of(order, region.getId(), region.getLastModified()))
 				.toList();
 	}
 
-	public List<TempMarketLine> createTMLForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
+	protected List<TempMarketLine> createTempForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {
 		return Stream.of(orders)
 				.map(order -> TempMarketLine.of(order, region.getId(), region.getLastModified()))
 				.toList();

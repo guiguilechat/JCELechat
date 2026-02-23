@@ -31,7 +31,7 @@
 			</ul>
 			<div class="tab-content" id="myTabContent">
 				<div th:each="catProds : ${@mutaMappingService.listCategoryProducts()}"
-					class="tab-pane fade container-fluid"
+					class="tab-pane container-fluid"
 					th:id="${catProds.category().name}"
 					role="tabpanel"
 					th:aria-labelledby="${catProds.category().name+'-tab'}">

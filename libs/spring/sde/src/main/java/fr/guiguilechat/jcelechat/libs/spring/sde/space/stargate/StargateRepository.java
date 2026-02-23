@@ -25,7 +25,7 @@ select
 		+  ( s1.posZ-s2.posZ )*( s1.posZ-s2.posZ ) ) dst
 from
 	#{#entityName} s1
-	join #{#entityName} s2 on s1.solarSystem=s2.solarSystem and s1!=s2
+	join SdeSpaceStargate s2 on s1.solarSystem=s2.solarSystem and s1!=s2
 order by
 	s1.id,
 	s2.id
@@ -41,7 +41,7 @@ select
 		+  ( s1.posZ-s2.posZ )*( s1.posZ-s2.posZ ) ) dst
 from
 	#{#entityName} s1
-	join #{#entityName} s2 on s1.solarSystem=s2.solarSystem and s1!=s2
+	join SdeSpaceStargate s2 on s1.solarSystem=s2.solarSystem and s1!=s2
 where
 	s1.solarSystem.securityStatus>0.45
 order by

@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional;
 
+import java.time.Instant;
+
 import org.hibernate.annotations.ColumnDefault;
 
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.RemoteNumberEntity;
@@ -25,9 +27,17 @@ public class MarketRegion extends RemoteNumberEntity<Integer, R_get_markets_regi
 	@ColumnDefault("0")
 	private int nbLines = 0;
 
+	private Instant previousLastModified;
+
 	@Override
 	public void update(R_get_markets_region_id_orders[] data) {
 		nbLines = data == null ? 0 : data.length;
+	}
+
+	@Override
+	public void updateMetaOk(Instant lastModified, Instant expires, String etag) {
+		setPreviousLastModified(getLastModified());
+		super.updateMetaOk(lastModified, expires, etag);
 	}
 
 }

@@ -38,7 +38,7 @@ select
     max(skLvl.value)
 from
     #{#entityName} skId
-    join #{#entityName} skLvl on skLvl.typeId=skId.typeId
+    join SdeItemsTypeAttribute skLvl on skLvl.typeId=skId.typeId
 where
     skId.typeId in :typeIds
     and skId.value != 0

@@ -26,7 +26,7 @@ from
 		regionId as rid
 	from EsiTradeMarketLine
 	) re
-	left join #{#entityName} hr
+	left join EsiTradeHistoryReq hr
 		on re.tid=hr.type.id
 		and re.rid=hr.region.id
 where

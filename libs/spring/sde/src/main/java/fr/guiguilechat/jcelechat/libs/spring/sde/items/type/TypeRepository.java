@@ -44,7 +44,7 @@ select
 	v.id id
 from
 	#{#entityName} t
-	join #{#entityName} v on
+	join SdeItemsType v on
 		t.id=v.id
 		or t.variationType.id=v.id
 		or t.id=v.variationType.id

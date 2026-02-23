@@ -117,7 +117,7 @@ public class SdeUpdater implements EntityUpdater {
 			// to not have the SDE loader hog the resources
 			nextFetch = nextFetch.plus(30, ChronoUnit.MINUTES);
 		}
-		return ur.getStatus() != Status.SUCCESS;
+		return ur.getStatus() != Status.SUCCESS && ur.getStatus() != Status.CACHED;
 	}
 
 	protected void updateNewSDE(Success s, String lastRelease) throws IOException {
