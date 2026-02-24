@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderCreationRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderDeletionRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -45,6 +46,8 @@ public class MarketRegionUpdater
 
 	private final OrderCreationRepository orderCreationRepository;
 
+	private final OrderDeletionRepository orderDeletionRepository;
+
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_get_markets_region_id_orders[]> ret =
@@ -64,6 +67,7 @@ public class MarketRegionUpdater
 		log.trace("applying {} market orders updates for regions {}", responseOk.size(),
 				responseOk.keySet().stream().map(MarketRegion::getId).toList());
 		super.updateResponseOk(responseOk);
+
 		if (useTempTable) {
 			updateTempTable(responseOk);
 			return;
@@ -94,26 +98,34 @@ public class MarketRegionUpdater
 	 * @param responseOk
 	 */
 	protected void updateTempTable(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
-		tempMarketLineService.clear();
-		List<TempMarketLine> translated = new ArrayList<>();
 		for (Entry<MarketRegion, R_get_markets_region_id_orders[]> e : responseOk.entrySet()) {
-			translated.addAll(createTempForRegion(e.getKey(), e.getValue()));
-		}
-		tempMarketLineService.insertAll(translated);
+			MarketRegion r = e.getKey();
+			int rid = r.getId();
 
-		// process the changes
-		for (MarketRegion r : responseOk.keySet()) {
-			log.trace("  creating new orders for region {}", r.getId());
+			// put lines in the temp table
+			// delete from seems to keep records, so truncate instead
+			tempMarketLineService.truncate();
+			tempMarketLineService.insertAll(createTempForRegion(r, e.getValue()));
+
+			// process new orders
+			log.trace("  creating new orders for region {}", rid);
 			int newOrders =
-						orderCreationRepository.addFromTempTable(r.getId(),
-							r.getPreviousLastModified());
+					orderCreationRepository.addFromTempTable(rid, r.getPreviousLastModified());
 			if (newOrders > 0) {
-				log.debug("  created {} new orders for region {}", newOrders, r.getId());
+				log.debug("  creation of {} new orders for region {}", newOrders, rid);
 			}
-		}
 
-		marketLineService.clearRegions(responseOk.keySet());
-		marketLineService.copyFromTemp();
+			// process orders deletion
+			int deletedOrders =
+					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
+			if (deletedOrders > 0) {
+				log.debug("  deleted {} orders for region {}", deletedOrders, rid);
+			}
+
+			// move data from temp to the actual
+			marketLineService.clearRegions(rid);
+			marketLineService.copyFromTemp();
+		}
 	}
 
 	protected List<MarketLine> createForRegion(MarketRegion region, R_get_markets_region_id_orders[] orders) {

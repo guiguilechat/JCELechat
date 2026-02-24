@@ -16,9 +16,9 @@ delete
 from
 	#{#entityName} e
 where
-	regionId in :regionIds
+	regionId = :regionId
 """)
-	void deleteByRegionIds(Iterable<Integer> regionIds);
+	void deleteByRegionId(int regionId);
 
 	// calculate prices
 
@@ -216,5 +216,7 @@ from
 	EsiTradeMarketLineTemp t
 """)
 	void copyFromTemp();
+
+	long countByRegionId(int regionId);
 
 }

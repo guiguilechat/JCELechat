@@ -12,10 +12,10 @@ import lombok.ToString;
 
 @Entity(name = "JcelechatTradeOrderCreation")
 @Table(name = "jcelechat_trade_ordercreation", indexes = {
-		@Index(columnList = "regionId, typeId"), // find by region
-		@Index(columnList = "locationId, typeId, isBuyOrder"), // find by station
-		@Index(columnList = "solarSystemId, typeId, isBuyOrder"), // find by system
-		@Index(columnList = "typeId, isBuyOrder") // find globally
+		@Index(columnList = "typeId, isBuyOrder, dateMax, dateMin"), // find globally
+		@Index(columnList = "regionId, typeId, isBuyOrder, dateMax, dateMin"), // find by region
+		@Index(columnList = "locationId, typeId, isBuyOrder, dateMax, dateMin"), // find by station
+		@Index(columnList = "solarSystemId, typeId, isBuyOrder, dateMax, dateMin"), // find by system
 })
 @Getter
 @Setter
@@ -31,8 +31,15 @@ public class OrderCreation {
 
 	private boolean isBuyOrder;
 
+	/**
+	 * price of the order when we created this. this may or may not be same as
+	 * initial order price.
+	 */
 	private double price;
 
+	/**
+	 * quantity of items on the order
+	 */
 	private int volume;
 
 	private int duration;

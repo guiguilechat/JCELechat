@@ -76,8 +76,8 @@ public class TempMarketLineService {
 		return true;
 	}
 
-	public void clear() {
-		repo.clear();
+	public void truncate() {
+		repo.truncate();
 	}
 
 }

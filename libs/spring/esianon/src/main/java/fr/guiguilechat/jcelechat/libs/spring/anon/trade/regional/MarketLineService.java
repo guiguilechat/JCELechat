@@ -93,12 +93,14 @@ public class MarketLineService implements MarketRegionListener {
 		return true;
 	}
 
-	public void clearRegions(Iterable<Integer> regions) {
-		repo.deleteByRegionIds(regions);
+	public void clearRegions(int regionId) {
+		repo.deleteByRegionId(regionId);
 	}
 
 	public void clearRegions(Set<MarketRegion> regions) {
-		clearRegions(regions.stream().map(MarketRegion::getId).toList());
+		for (MarketRegion r : regions) {
+			clearRegions(r.getId());
+		}
 	}
 
 	//
@@ -383,7 +385,7 @@ public class MarketLineService implements MarketRegionListener {
 	}
 
 	public void copyFromTemp() {
-
+		repo.copyFromTemp();
 	}
 
 	@Getter(lazy = true)
