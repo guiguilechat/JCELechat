@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderCreationRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderDeletionRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderUpdateRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -47,6 +48,8 @@ public class MarketRegionUpdater
 	private final OrderCreationRepository orderCreationRepository;
 
 	private final OrderDeletionRepository orderDeletionRepository;
+
+	private final OrderUpdateRepository orderUpdateRepository;
 
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
@@ -104,27 +107,57 @@ public class MarketRegionUpdater
 
 			// put lines in the temp table
 			// delete from seems to keep records, so truncate instead
+			long preDump = System.currentTimeMillis();
 			tempMarketLineService.truncate();
-			tempMarketLineService.insertAll(createTempForRegion(r, e.getValue()));
+			List<TempMarketLine> created = createTempForRegion(r, e.getValue());
+			tempMarketLineService.insertAll(created);
+			long postDump = System.currentTimeMillis();
+			log.debug("  dumped {} records for region {} in {}ms, @{}r/s",
+					created.size(),
+					rid,
+					postDump - preDump,
+					1000 * created.size() / (postDump - preDump));
 
 			// process new orders
-			log.trace("  creating new orders for region {}", rid);
+			long preNew = System.currentTimeMillis();
 			int newOrders =
 					orderCreationRepository.addFromTempTable(rid, r.getPreviousLastModified());
+			long postNew = System.currentTimeMillis();
 			if (newOrders > 0) {
-				log.debug("  creation of {} new orders for region {}", newOrders, rid);
+				log.debug("  added {} orders creation for region {} in {}ms, @{}i/s", newOrders, rid, postNew - preNew,
+						1000 * newOrders / (postNew - preNew));
 			}
 
 			// process orders deletion
+			long preDelete = System.currentTimeMillis();
 			int deletedOrders =
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
+			long postDelete = System.currentTimeMillis();
 			if (deletedOrders > 0) {
-				log.debug("  deleted {} orders for region {}", deletedOrders, rid);
+				log.debug("  added {} orders deletion for region {} in {}ms, @{}i/s", deletedOrders, rid,
+						postDelete - preDelete,
+						1000 * deletedOrders / (postDelete - preDelete));
+			}
+
+			long preUpdate = System.currentTimeMillis();
+			int updatedorders = orderUpdateRepository.addFromTempTable();
+			long postUpdate = System.currentTimeMillis();
+			if (updatedorders > 0) {
+				log.debug("  added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
+						postUpdate - preUpdate, 1000 * deletedOrders / (postUpdate - preUpdate));
 			}
 
 			// move data from temp to the actual
+			long preMove = System.currentTimeMillis();
 			marketLineService.clearRegions(rid);
 			marketLineService.copyFromTemp();
+			long postMove = System.currentTimeMillis();
+			log.debug("  moved {} records for region {} in {} ms, @ {}i/s",
+					created.size(),
+					rid,
+					postMove - preMove,
+					1000 * created.size() / (postMove - preMove));
+			log.debug("   processed {} orders for region {} in {}ms", created.size(), rid, postMove - preDump);
 		}
 	}
 
