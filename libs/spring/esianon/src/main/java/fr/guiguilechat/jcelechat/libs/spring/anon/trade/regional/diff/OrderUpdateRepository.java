@@ -16,6 +16,7 @@ public interface OrderUpdateRepository extends JpaRepository<OrderUpdate, Long> 
 	@Query("""
 insert into #{#entityName} (
 	orderId,
+	typeId,
 	newPrice,
 	date
 )
@@ -26,6 +27,7 @@ where
 	old.price <> young.price
 select
 	young.id,
+	young.typeId,
 	young.price,
 	young.issued
 """)
@@ -39,6 +41,7 @@ where
 	old.price <> young.price
 select
 	young.id orderId,
+	young.typeId typeId,
 	young.price price,
 	young.issued date
 """)

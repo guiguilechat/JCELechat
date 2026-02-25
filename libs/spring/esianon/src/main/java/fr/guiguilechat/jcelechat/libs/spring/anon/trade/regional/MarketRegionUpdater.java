@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderCreationRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderDeletionRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderSaleRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff.OrderUpdateRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
@@ -50,6 +51,8 @@ public class MarketRegionUpdater
 	private final OrderDeletionRepository orderDeletionRepository;
 
 	private final OrderUpdateRepository orderUpdateRepository;
+
+	private final OrderSaleRepository orderSaleRepository;
 
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
@@ -124,7 +127,7 @@ public class MarketRegionUpdater
 					orderCreationRepository.addFromTempTable(rid, r.getPreviousLastModified());
 			long postNew = System.currentTimeMillis();
 			if (newOrders > 0) {
-				log.debug("  added {} orders creation for region {} in {}ms, @{}i/s", newOrders, rid, postNew - preNew,
+				log.debug("  added {} order creations for region {} in {}ms, @{}i/s", newOrders, rid, postNew - preNew,
 						1000 * newOrders / (postNew - preNew));
 			}
 
@@ -134,7 +137,7 @@ public class MarketRegionUpdater
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
 			long postDelete = System.currentTimeMillis();
 			if (deletedOrders > 0) {
-				log.debug("  added {} orders deletion for region {} in {}ms, @{}i/s", deletedOrders, rid,
+				log.debug("  added {} order deletions for region {} in {}ms, @{}i/s", deletedOrders, rid,
 						postDelete - preDelete,
 						1000 * deletedOrders / (postDelete - preDelete));
 			}
@@ -144,7 +147,15 @@ public class MarketRegionUpdater
 			long postUpdate = System.currentTimeMillis();
 			if (updatedorders > 0) {
 				log.debug("  added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
-						postUpdate - preUpdate, 1000 * deletedOrders / (postUpdate - preUpdate));
+						postUpdate - preUpdate, 1000 * updatedorders / (postUpdate - preUpdate));
+			}
+
+			long preSales = System.currentTimeMillis();
+			int salesOrders = orderSaleRepository.addFromTempTable();
+			long postSales = System.currentTimeMillis();
+			if (salesOrders > 0) {
+				log.debug("  added {} order sales for region {} in {} ms, @{}i/s", salesOrders, rid,
+						postSales - preSales, 1000 * salesOrders / (postSales - preSales));
 			}
 
 			// move data from temp to the actual

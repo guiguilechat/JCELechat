@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -33,8 +35,13 @@ public class OrderUpdate {
 
 	private long orderId;
 
+	/** same as order's */
+	@ColumnDefault("0")
+	private int typeId;
+
 	private double newPrice;
 
+	/** new "issued" */
 	private Instant date;
 
 }
