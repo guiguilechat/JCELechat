@@ -30,12 +30,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- dependencies -->
 		<choco.version>4.10.14</choco.version>
-		<jackson.version>2.20.0</jackson.version>
+		<!-- using last verion 2.21.2 actually creates bugs on sh/install with classnotfound.-->
+		<jackson.version>2.20.2</jackson.version>
 		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
 		<javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-		<logback.version>1.5.26</logback.version>
+		<logback.version>1.5.32</logback.version>
 		<lombok.version>1.18.42</lombok.version>
-		<openjfx.version>22.0.2</openjfx.version>
+		<openjfx.version>27-ea+5</openjfx.version>
 		<slf4j.version>2.0.17</slf4j.version>
 		<springboot.version>3.5.11</springboot.version>
 		<tools.version>1.8.2</tools.version>
