@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.guiguilechat.jcelechat.libs.spring.sde.npc.agent.NpcCharacterService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.RestControllerHelper.ACCEPT_TEXT;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -29,21 +28,21 @@ public class AgentRestController {
 				accept);
 	}
 
-	@Transactional
-	@GetMapping(value = "/csvdetails", produces = "text/csv")
-	public String csvDetails(
-			@RequestParam Optional<String> fs,
-			@RequestParam Optional<String> ls) {
-		String fieldSeparator = ",";
-		if (fs != null && fs.isPresent()) {
-			fieldSeparator = fs.get();
-		}
-		String lineSeparator = "\n";
-		if (ls != null && ls.isPresent()) {
-			lineSeparator = ls.get();
-		}
-		String str = """
-			""";
+//	@Transactional
+//	@GetMapping(value = "/csvdetails", produces = "text/csv")
+//	public String csvDetails(
+//			@RequestParam Optional<String> fs,
+//			@RequestParam Optional<String> ls) {
+//		String fieldSeparator = ",";
+//		if (fs != null && fs.isPresent()) {
+//			fieldSeparator = fs.get();
+//		}
+//		String lineSeparator = "\n";
+//		if (ls != null && ls.isPresent()) {
+//			lineSeparator = ls.get();
+//		}
+//		String str = """
+//			""";
 //		for(AgentDetails ad : npcCharacterService.agentDetails()) {
 //			sb.append(ad.agent().getId());
 //			sb.append(fieldSeparator).append(ad.agent().getName());
@@ -63,7 +62,7 @@ public class AgentRestController {
 //
 //			sb.append(lineSeparator);
 //		}
-		return str;
-	}
+//		return str;
+//	}
 
 }
