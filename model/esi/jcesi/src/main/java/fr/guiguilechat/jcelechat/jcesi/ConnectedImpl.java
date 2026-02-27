@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -53,13 +55,16 @@ public abstract class ConnectedImpl implements ITransfer {
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
 
-	private final static AppUserAgent SELF_USER_AGENT = new AppUserAgent("jcelechat", null, "lechatguigui@gmail.com",
-			"https://github.com/guiguilechat/JCELechat/");
+	private final static AppUserAgent SELF_USER_AGENT =
+			new AppUserAgent("jcelechat", null, "lechatguigui@gmail.com",
+					"https://github.com/guiguilechat/JCELechat/");
 
 	private static final Logger csvLogger = LoggerFactory.getLogger(ConnectedImpl.class.getCanonicalName() + ".csv");
 
 	/** to be called before sending a request */
-	public static void logRequest(String method, String url, String transmit,
+	public static void logRequest(String method,
+			String url,
+			String transmit,
 			Map<String, String> transmitHeaders) {
 		transmit = toCSVField(transmit);
 		String headersStr = transmitHeaders == null ? "" : toCSVField(transmitHeaders.toString());
@@ -74,7 +79,11 @@ public abstract class ConnectedImpl implements ITransfer {
 				headersStr);
 	}
 
-	public static void logResponse(String method, String url, Integer responseCode, Number durationMs, String error,
+	public static void logResponse(String method,
+			String url,
+			Integer responseCode,
+			Number durationMs,
+			String error,
 			String warning,
 			String transmit,
 			Map<String, ?> receivedHeaders) {
@@ -130,14 +139,15 @@ public abstract class ConnectedImpl implements ITransfer {
 	private final List<AppUserAgent> userAgents;
 
 	@Getter(lazy = true)
-	private final String userAgent = userAgents.stream()
-			.collect(
-					StringBuilder::new,
-					(sb, ua) -> ua.toHeader(sb),
-					(s1, s2) -> {
-						s1.append(" ").append(s2);
-					})
-			.toString();
+	private final String userAgent =
+			userAgents.stream()
+					.collect(
+							StringBuilder::new,
+							(sb, ua) -> ua.toHeader(sb),
+							(s1, s2) -> {
+								s1.append(" ").append(s2);
+							})
+					.toString();
 
 	public ConnectedImpl(List<AppUserAgent> userAgents) {
 		this.userAgents = appendSelfUserAgent(userAgents);
@@ -163,23 +173,24 @@ public abstract class ConnectedImpl implements ITransfer {
 	private final static long TIMEOUT_S = 12;
 
 	@Getter(lazy = true)
-	private final OkHttpClient client = new OkHttpClient.Builder()
-			.addNetworkInterceptor(chain -> chain.proceed(
-					chain.request()
-							.newBuilder()
-							.header("User-Agent", getUserAgent())
-							.build()))
+	private final OkHttpClient client =
+			new OkHttpClient.Builder()
+					.addNetworkInterceptor(chain -> chain.proceed(
+							chain.request()
+									.newBuilder()
+									.header("User-Agent", getUserAgent())
+									.build()))
 //			.addNetworkInterceptor(chain -> {
 //				Request request = chain.request();
 //				System.err.println("sent headers " + request.headers());
 //				return chain.proceed(request);
 //			})
 
-			.callTimeout(TIMEOUT_S, TimeUnit.SECONDS)
-			.connectTimeout(TIMEOUT_S, TimeUnit.SECONDS)
-			.readTimeout(TIMEOUT_S, TimeUnit.SECONDS)
-			.writeTimeout(TIMEOUT_S, TimeUnit.SECONDS)
-			.build();
+					.callTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+					.connectTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+					.readTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+					.writeTimeout(TIMEOUT_S, TimeUnit.SECONDS)
+					.build();
 
 	/**
 	 * request an url
@@ -193,8 +204,12 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
-	protected <T> Requested<T> request(String url, String method, Map<String, String> sendHeaders,
-			Map<String, Object> transmitAsJson, Class<T> expectedClass, int... retries) {
+	protected <T> Requested<T> request(String url,
+			String method,
+			Map<String, String> sendHeaders,
+			Map<String, Object> transmitAsJson,
+			Class<T> expectedClass,
+			int... retries) {
 		int remainingRetry = 2;
 		if (retries != null && retries.length != 0) {
 			remainingRetry = Math.max(0, retries[0]);
@@ -205,8 +220,9 @@ public abstract class ConnectedImpl implements ITransfer {
 		sendHeaders.put(ESIDateTools.COMPATIBILITY_DATE_HEADER, ESIMeta.COMPILED_DATE);
 		addConnection(sendHeaders);
 
-		Builder builder = new Request.Builder()
-				.url(url);
+		Builder builder =
+				new Request.Builder()
+						.url(url);
 		sendHeaders.entrySet().forEach(e -> builder.addHeader(e.getKey(), e.getValue()));
 		String transmitStr = null;
 		if (transmitAsJson != null && !transmitAsJson.isEmpty()) {
@@ -236,18 +252,21 @@ public abstract class ConnectedImpl implements ITransfer {
 				needRetry = lastResponseCode / 100 == 5;
 				if (needRetry && remainingRetry >= 1) {
 					// the response will be discarded, so we need to log it now.
-					String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url,
-							transmitStr);
-					long milliseconds = lastResponse.receivedResponseAtMillis()
-							- lastResponse.sentRequestAtMillis();
+					String errorMessage =
+							extractErrorMessage(lastResponse, method, lastResponseCode, url,
+									transmitStr);
+					long milliseconds =
+							lastResponse.receivedResponseAtMillis()
+									- lastResponse.sentRequestAtMillis();
 					logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
 							lastResponse.headers().toMultimap());
 				} else {
 					// try with resource to close the response.body at the end.
 					try (var body = lastResponse.body()) {
 						Map<String, List<String>> headers = lastResponse.headers().toMultimap();
-						long milliseconds = lastResponse.receivedResponseAtMillis()
-								- lastResponse.sentRequestAtMillis();
+						long milliseconds =
+								lastResponse.receivedResponseAtMillis()
+										- lastResponse.sentRequestAtMillis();
 						switch (lastResponseCode) {
 						// 2xx ok
 						case HttpURLConnection.HTTP_OK:
@@ -273,8 +292,10 @@ public abstract class ConnectedImpl implements ITransfer {
 										transmitStr,
 										lastResponse.headers().toMultimap());
 								headers = new HashMap<>(headers);
-								String newExpiry = ESIDateTools
-										.offsetDateTimeHeader(ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
+								String newExpiry =
+										ESIDateTools
+												.offsetDateTimeHeader(
+														ESIDateTools.headerOffsetDateTime(date).plusSeconds(20));
 								headers.put("Expires", List.of(newExpiry));
 							} else {
 								logResponse(method, url, lastResponseCode, milliseconds, null, null, transmitStr,
@@ -294,8 +315,9 @@ public abstract class ConnectedImpl implements ITransfer {
 						case HttpURLConnection.HTTP_UNAVAILABLE:
 						case HttpURLConnection.HTTP_GATEWAY_TIMEOUT:
 						default:
-							String errorMessage = extractErrorMessage(lastResponse, method, lastResponseCode, url,
-									transmitStr);
+							String errorMessage =
+									extractErrorMessage(lastResponse, method, lastResponseCode, url,
+											transmitStr);
 							logResponse(method, url, lastResponseCode, milliseconds, errorMessage, null, transmitStr,
 									lastResponse.headers().toMultimap());
 							return new RequestedImpl<>(url, lastResponseCode, errorMessage, null, headers);
@@ -323,14 +345,18 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	}
 
-	protected String extractErrorMessage(Response response, String method, int responseCode, String url,
+	protected String extractErrorMessage(Response response,
+			String method,
+			int responseCode,
+			String url,
 			String transmitStr) throws IOException {
 		String errorMessage = null;
 		if (response.body() != null) {
 			errorMessage = response.body().string();
 		} else {
-			StringBuilder sb = new StringBuilder(
-					"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
+			StringBuilder sb =
+					new StringBuilder(
+							"[" + method + ":" + responseCode + "]" + url + " data=" + transmitStr + " ");
 			if (response.message() != null) {
 				sb.append(response.message());
 			}
@@ -354,7 +380,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 	@Override
-	public <T> Requested<T> requestPost(String url, Map<String, String> properties, Map<String, Object> transmit,
+	public <T> Requested<T> requestPost(String url,
+			Map<String, String> properties,
+			Map<String, Object> transmit,
 			Class<T> expectedClass) {
 		return request(url, "POST", properties, transmit, expectedClass);
 	}
@@ -368,14 +396,18 @@ public abstract class ConnectedImpl implements ITransfer {
 	public <T> Requested<List<T>> requestGetPages(
 			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
-
+		if (parameters != null && parameters.containsKey(ConnectedImpl.IFNONEMATCH)) {
+			parameters = new HashMap<>(parameters);
+			parameters.remove(ConnectedImpl.IFNONEMATCH);
+		}
+		int retries = 2;
 		Requested<T[]> applied = null;
-		for (int retry = 3; retry > 0; retry--) {
-			log.debug("calling pages, retry=" + retry + " params=" + parameters);
+		for (int retry = retries; retry >= 0; retry--) {
+			log.trace("calling pages, retry=" + retry + " params=" + parameters);
 			applied = resourceAccess.apply(1, parameters);
 			RequestedImpl<List<T>> page1 = convertToList(applied);
 			if (page1 == null) {
-				log.debug("received null for " + applied.getURL());
+				log.trace("received null for " + applied.getURL());
 				return null;
 			}
 			int nbPages = page1.getNbPages();
@@ -401,9 +433,118 @@ public abstract class ConnectedImpl implements ITransfer {
 		return null;
 	}
 
+	/**
+	 * last received page
+	 *
+	 * @param <T>
+	 */
+	public record PageCache<T>(T[] received, String etag) {
+
+	}
+
+	/**
+	 * @param <T>            record type
+	 * @param resourceAccess how to access resource from page, properties
+	 * @param baseParameters base headers to send
+	 * @param lastPages      cache storage per page. Will be modified.
+	 * @param retries        max number of retries on server error
+	 * @return
+	 */
+	public <T> Requested<List<T>> requestGetPages(
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+			Map<String, String> baseParameters,
+			Map<Integer, PageCache<T>> lastPages,
+			int retries) {
+		// first get first page
+		HashMap<String, String> page1params = new HashMap<>(baseParameters);
+		PageCache<T> lastPage1 = lastPages.get(1);
+		if (lastPage1 != null && lastPage1.etag() != null) {
+			page1params.put(ConnectedImpl.IFNONEMATCH, lastPage1.etag());
+		}
+		Requested<T[]> receivedPage1 = fetchPage(resourceAccess, 1, page1params, retries);
+		if (receivedPage1 == null) {
+			return null;
+		}
+		if (receivedPage1.isClientError() || receivedPage1.isServerError()) {
+			return convertToList(receivedPage1);
+		}
+
+		int nbPages = receivedPage1.getNbPages();
+		lastPages.keySet().removeIf(p -> p > nbPages);
+		// only one page : save and return
+		if (nbPages == 1) {
+			T[] data = receivedPage1.getResponseCode() == 304 ? lastPages.get(1).received : receivedPage1.getOK();
+			String etag = receivedPage1.getETag();
+			lastPages.put(1, new PageCache<>(data, etag));
+			return convertToList(receivedPage1);
+		}
+		@SuppressWarnings("unchecked")
+		Requested<T[]>[] pages = new Requested[nbPages];
+		IntStream.rangeClosed(2, nbPages).parallel().forEach(page -> {
+			pages[page] = fetchPage(resourceAccess, page, page1params, retries);
+		});
+
+		boolean modified = receivedPage1.getResponseCode() != 304;
+		String lastModifiedP1Str = receivedPage1.getLastModified();
+		boolean mismatchLM = false;
+		Requested<T[]> firstError = null;
+		List<T> ret = new ArrayList<>();
+		ret.addAll(Arrays.asList(receivedPage1.getOK()));
+		for (int pi = 2; pi < pages.length && !mismatchLM && firstError == null; pi++) {
+			Requested<T[]> rp = pages[pi];
+			if (rp.isClientError() || rp.isServerError()) {
+				firstError = rp;
+				break;
+			}
+			String lastModifiedStr = rp.getLastModified();
+			if (!Objects.equals(lastModifiedStr, lastModifiedP1Str)) {
+				mismatchLM = true;
+				break;
+			}
+			String etag = rp.getETag();
+			T[] data = null;
+			if (rp.getResponseCode() == 304) {
+				data = lastPages.get(pi).received;
+			} else {
+				data = rp.getOK();
+				modified = true;
+			}
+			lastPages.put(pi, new PageCache<>(data, etag));
+		}
+
+		if (firstError != null) {
+			return convertToList(firstError);
+		}
+		if (!modified) {
+			return convertToList(receivedPage1);
+		}
+		return new RequestedImpl<>(
+				receivedPage1.getURL(),
+				receivedPage1.getResponseCode(),
+				receivedPage1.getError(),
+				ret,
+				receivedPage1.getHeaders());
+	}
+
+	protected <T> Requested<T[]> fetchPage(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+			int page,
+			Map<String, String> params,
+			int retries) {
+		Requested<T[]> received = resourceAccess.apply(page, params);
+		for (int pageretry = 1; received.isServerError() && pageretry <= retries; pageretry++) {
+			log.debug(
+					"fetching " + received.getURL() + " again because error " + received.getResponseCode() + " : "
+							+ received.getError());
+			received = resourceAccess.apply(page, params);
+		}
+		return received;
+	}
+
 	protected <T> List<T> fetchPagesFrom2(int nbPages,
-			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess, Map<String, String> parameters,
-			RequestedImpl<List<T>> firstPage, boolean[] mismatch) {
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
+			Map<String, String> parameters,
+			RequestedImpl<List<T>> firstPage,
+			boolean[] mismatch) {
 		List<Requested<T[]>> pages = IntStream.rangeClosed(2, nbPages).parallel().mapToObj(page -> {
 			Requested<T[]> ret = resourceAccess.apply(page, parameters);
 			if (ret.isServerError()) {
@@ -424,19 +565,20 @@ public abstract class ConnectedImpl implements ITransfer {
 		}).toList();
 		if (!mismatcheds.isEmpty()) {
 			String firstUrl = firstPage.getURL();
-			String message = new StringBuilder("mismatching ")
-					.append(mismatcheds.size())
-					.append(" lastmodified , first page  is ")
-					.append(firstUrl)
-					.append(" (")
-					.append(firstLastModified)
-					.append("), different page is ")
-					.append(mismatcheds.get(0).getURL())
-					.append(" (")
-					.append(mismatcheds.get(0).getLastModified())
-					.append(")")
+			String message =
+					new StringBuilder("mismatching ")
+							.append(mismatcheds.size())
+							.append(" lastmodified , first page  is ")
+							.append(firstUrl)
+							.append(" (")
+							.append(firstLastModified)
+							.append("), different page is ")
+							.append(mismatcheds.get(0).getURL())
+							.append(" (")
+							.append(mismatcheds.get(0).getLastModified())
+							.append(")")
 
-					.toString();
+							.toString();
 			logResponse("GET", firstUrl, firstPage.getResponseCode(), null, null, message, null,
 					firstPage.getHeaders());
 			mismatch[0] = true;
@@ -448,22 +590,26 @@ public abstract class ConnectedImpl implements ITransfer {
 			}
 		}
 
-		List<T> listret = pages.stream()
-				.filter(Requested::isOk)
-				.map(Requested::getOK)
-				.flatMap(Stream::of).toList();
+		List<T> listret =
+				pages.stream()
+						.filter(Requested::isOk)
+						.map(Requested::getOK)
+						.flatMap(Stream::of).toList();
 		return listret;
 	}
 
 	protected <T> RequestedImpl<List<T>> convertToList(Requested<T[]> apply) {
-		return new RequestedImpl<>(apply.getURL(), apply.getResponseCode(), apply.getError(),
+		return new RequestedImpl<>(
+				apply.getURL(),
+				apply.getResponseCode(),
+				apply.getError(),
 				new ArrayList<>(apply.isOk() && apply.getOK() != null ? List.of(apply.getOK()) : List.of()),
 				apply.getHeaders());
 	}
 
-	////
 	//
-	////
+	//
+	//
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
@@ -529,9 +675,9 @@ public abstract class ConnectedImpl implements ITransfer {
 		}
 	}
 
-	////
+	//
 	// scheduling
-	////
+	//
 
 	/**
 	 * shared executor among all esi connections
@@ -790,8 +936,9 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (requiredRoles == null || requiredRoles.length == 0) {
 				resume();
 			} else {
-				BoolHolder hasRoleVar = getRoles()
-						.test(set -> Stream.of(requiredRoles).filter(set::contains).findAny().isPresent());
+				BoolHolder hasRoleVar =
+						getRoles()
+								.test(set -> Stream.of(requiredRoles).filter(set::contains).findAny().isPresent());
 				hasRoleVar.follow(b -> {
 					if (b) {
 						resume();
@@ -857,7 +1004,8 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T> the type of object the fetched array contains.
 	 */
 	public <T> SelfExecutableFetcher<List<T>> addFetchCacheArray(String name,
-			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher, Consumer<List<T>> cacheHandler,
+			BiFunction<Integer, Map<String, String>, Requested<T[]>> fetcher,
+			Consumer<List<T>> cacheHandler,
 			String... requiredRoles) {
 		SelfExecutableFetcher<List<T>> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
@@ -909,7 +1057,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @param <T> the type of object that represents the cache.
 	 */
 	public <T> SelfExecutableFetcher<T> addFetchCacheObject(String name,
-			Function<Map<String, String>, Requested<T>> fetcher, Consumer<T> cacheHandler, String... requiredRoles) {
+			Function<Map<String, String>, Requested<T>> fetcher,
+			Consumer<T> cacheHandler,
+			String... requiredRoles) {
 		SelfExecutableFetcher<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
