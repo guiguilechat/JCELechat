@@ -73,8 +73,20 @@ public class UpdateScheduler {
 	@Value("${jcesi.manager.default.skip:true}")
 	private boolean defaultSkip;
 
+	/**
+	 * When all services are updated, the delay in s we additionally wait.
+	 */
 	@Value("${jcesi.manager.updateddelay:30}")
 	private int updatedDelay;
+
+	/**
+	 * this is required because the scheduler only advances the next execution by
+	 * given delay, even if that next execution is in the past. So we need to skip
+	 * execution untill it reaches the past when the execution took longer than the
+	 * requested rate
+	 */
+	@Value("${jcesi.manager.period:1000}")
+	private int cyclePeriodMs;
 
 	/** when not null, time before which we skip the update cycles */
 	private Instant nextUpdate = Instant.now();
@@ -122,7 +134,9 @@ public class UpdateScheduler {
 			}
 			nextUpdate = Instant.now().plusSeconds(updatedDelay);
 		} else {
-			nextUpdate = null;
+			// the spring scheduler may take several cycle to catch up to rate, we write the
+			// next minimal update time.
+			nextUpdate = start.plusMillis(Math.max(10, cyclePeriodMs));
 		}
 	}
 
