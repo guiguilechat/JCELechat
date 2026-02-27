@@ -120,7 +120,7 @@ public class MarketRegionUpdater
 						created.size(),
 						rid,
 						postDump - preDump,
-						1000 * created.size() / (postDump - preDump));
+						1000 * created.size() / Math.max(1, postDump - preDump));
 
 				// process new orders
 				long preNew = System.currentTimeMillis();
@@ -130,7 +130,7 @@ public class MarketRegionUpdater
 				if (newOrders > 0) {
 					log.debug("  added {} order creations for region {} in {}ms, @{}i/s", newOrders, rid,
 							postNew - preNew,
-							1000 * newOrders / (postNew - preNew));
+							1000 * newOrders / Math.max(1, postNew - preNew));
 				}
 
 				// updated orders
@@ -139,7 +139,7 @@ public class MarketRegionUpdater
 				long postUpdate = System.currentTimeMillis();
 				if (updatedorders > 0) {
 					log.debug("  added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
-							postUpdate - preUpdate, 1000 * updatedorders / (postUpdate - preUpdate));
+							postUpdate - preUpdate, 1000 * updatedorders / Math.max(1, postUpdate - preUpdate));
 				}
 
 				// sales
@@ -148,7 +148,7 @@ public class MarketRegionUpdater
 				long postSales = System.currentTimeMillis();
 				if (salesOrders > 0) {
 					log.debug("  added {} order sales for region {} in {} ms, @{}i/s", salesOrders, rid,
-							postSales - preSales, 1000 * salesOrders / (postSales - preSales));
+							postSales - preSales, 1000 * salesOrders / Math.max(1, postSales - preSales));
 				}
 			}
 
@@ -160,7 +160,7 @@ public class MarketRegionUpdater
 			if (deletedOrders > 0) {
 				log.debug("  added {} order deletions for region {} in {}ms, @{}i/s", deletedOrders, rid,
 						postDelete - preDelete,
-						1000 * deletedOrders / (postDelete - preDelete));
+						1000 * deletedOrders / Math.max(1, postDelete - preDelete));
 			}
 
 			if (!created.isEmpty()) {
@@ -173,8 +173,9 @@ public class MarketRegionUpdater
 						created.size(),
 						rid,
 						postMove - preMove,
-						1000 * created.size() / (postMove - preMove));
-				log.debug("   processed {} orders for region {} in {}ms", created.size(), rid, postMove - preDump);
+						1000 * created.size() / Math.max(1, postMove - preMove));
+				log.debug("   processed {} orders for region {} in {}ms", created.size(), rid,
+						Math.max(1, postMove - preDump));
 			}
 		}
 	}

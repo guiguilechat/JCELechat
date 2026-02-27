@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.libs.exports.items.TypesTools;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.types.module.ShieldExtender;
 
