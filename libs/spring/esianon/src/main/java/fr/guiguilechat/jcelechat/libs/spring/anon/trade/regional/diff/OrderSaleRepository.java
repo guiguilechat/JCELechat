@@ -14,10 +14,14 @@ public interface OrderSaleRepository extends JpaRepository<OrderSale, Long> {
 insert into #{#entityName} (
 	orderId,
 	typeId,
+	locationId,
+	solarSystemId,
+	regionId,
+	date,
 	dateMax,
 	dateMin,
 	volume,
-	priceEnd
+	priceAfter
 )
 from
 	EsiTradeMarketLineTemp young
@@ -27,6 +31,10 @@ where
 select
 	young.id,
 	young.typeId,
+	young.locationId,
+	young.solarSystemId,
+	young.regionId,
+	greatest(young.issued, old.lastModified),
 	young.lastModified,
 	old.lastModified,
 	old.volumeRemain-young.volumeRemain,
