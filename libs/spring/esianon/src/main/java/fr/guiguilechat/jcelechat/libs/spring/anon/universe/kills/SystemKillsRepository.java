@@ -4,9 +4,12 @@ import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-public interface SystemKillsRepository extends JpaRepository<SystemKills, Long> {
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.SystemPeriodEndKey;
+
+public interface SystemKillsRepository extends JpaRepository<SystemKills, SystemPeriodEndKey> {
 
 	//
 	// npc kills
@@ -14,77 +17,77 @@ public interface SystemKillsRepository extends JpaRepository<SystemKills, Long> 
 
 	@Query("""
 select
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	truncate(e.date, hour),
 	e.npcKills npcKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id = :systemId
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId = :systemId
+	and e.date>=:since
 """)
 	List<Object[]> npcKillsForSystemId(int systemId, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.solarSystemId,
+	truncate(e.date, hour),
 	sum(e.npcKills) npcKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, hour),
-	e.solarSystem
+	truncate(e.date, hour),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateNpcKillsHourly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, day),
+	e.solarSystemId,
+	truncate(e.date, day),
 	sum(e.npcKills) npcKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, day),
-	e.solarSystem
+	truncate(e.date, day),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateNpcKillsDaily(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, week),
+	e.solarSystemId,
+	truncate(e.date, week),
 	sum(e.npcKills) npcKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, week),
-	e.solarSystem
+	truncate(e.date, week),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateNpcKillsWeekly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, month),
+	e.solarSystemId,
+	truncate(e.date, month),
 	sum(e.npcKills) npcKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, month),
-	e.solarSystem
+	truncate(e.date, month),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateNpcKillsMonthly(Iterable<Integer> systemsIds, Instant since);
 
@@ -94,77 +97,77 @@ group by
 
 	@Query("""
 select
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	truncate(e.date, hour),
 	e.podKills podKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id = :systemId
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId = :systemId
+	and e.date>=:since
 """)
 	List<Object[]> podKillsForSystemId(int systemId, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.solarSystemId,
+	truncate(e.date, hour),
 	sum(e.podKills) podKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, hour),
-	e.solarSystem
+	truncate(e.date, hour),
+	e.solarSystemId
 """)
 	List<Object[]> aggregatePodKillsHourly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, day),
+	e.solarSystemId,
+	truncate(e.date, day),
 	sum(e.podKills) podKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, day),
-	e.solarSystem
+	truncate(e.date, day),
+	e.solarSystemId
 """)
 	List<Object[]> aggregatePodKillsDaily(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, week),
+	e.solarSystemId,
+	truncate(e.date, week),
 	sum(e.podKills) podKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, week),
-	e.solarSystem
+	truncate(e.date, week),
+	e.solarSystemId
 """)
 	List<Object[]> aggregatePodKillsWeekly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, month),
+	e.solarSystemId,
+	truncate(e.date, month),
 	sum(e.podKills) podKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, month),
-	e.solarSystem
+	truncate(e.date, month),
+	e.solarSystemId
 """)
 	List<Object[]> aggregatePodKillsMonthly(Iterable<Integer> systemsIds, Instant since);
 
@@ -174,78 +177,93 @@ group by
 
 	@Query("""
 select
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	truncate(e.date, hour),
 	e.shipKills shipKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id = :systemId
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId = :systemId
+	and e.date>=:since
 """)
 	List<Object[]> shipKillsForSystemId(int systemId, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.solarSystemId,
+	truncate(e.date, hour),
 	sum(e.shipKills) shipKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, hour),
-	e.solarSystem
+	truncate(e.date, hour),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateShipKillsHourly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, day),
+	e.solarSystemId,
+	truncate(e.date, day),
 	sum(e.shipKills) shipKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, day),
-	e.solarSystem
+	truncate(e.date, day),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateShipKillsDaily(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, week),
+	e.solarSystemId,
+	truncate(e.date, week),
 	sum(e.shipKills) shipKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, week),
-	e.solarSystem
+	truncate(e.date, week),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateShipKillsWeekly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, month),
+	e.solarSystemId,
+	truncate(e.date, month),
 	sum(e.shipKills) shipKills
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute>=:since
+	e.solarSystemId in :systemsIds
+	and e.date>=:since
 group by
-	truncate(e.fetch.lastModified - 30 minute, month),
-	e.solarSystem
+	truncate(e.date, month),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateShipKillsMonthly(Iterable<Integer> systemsIds, Instant since);
+
+	@Modifying
+	@Query("""
+delete from #{#entityName}
+where periodEnd=:periodEnd
+""")
+	void deleteByPeriondEnd(Instant periodEnd);
+
+	@Query("""
+select
+	max(periodEnd)
+from
+	#{#entityName}
+""")
+	Instant maxLastModified();
 
 }

@@ -4,85 +4,86 @@ import java.time.Instant;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-public interface SystemJumpsRepository extends JpaRepository<SystemJumps, Long> {
+import fr.guiguilechat.jcelechat.libs.spring.anon.universe.SystemPeriodEndKey;
+
+public interface SystemJumpsRepository extends JpaRepository<SystemJumps, SystemPeriodEndKey> {
 
 	@Query("""
 select
-	e.fetch.lastModified - 30 minute,
+	e.date,
 	e.shipJumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id = :systemId
-	and e.fetch.lastModified - 30 minute >= :since
+	e.solarSystemId = :systemId
+	and e.date >= :since
 """)
 	List<Object[]> jumpsForSystemId(int systemId, Instant since);
 
-	// hql interval should be constructor-agnostic regarding interval
-
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, hour),
+	e.solarSystemId,
+	truncate(e.date, hour),
 	sum(e.shipJumps) jumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute >= :since
+	e.solarSystemId in :systemsIds
+	and e.date >= :since
 group by
-	truncate(e.fetch.lastModified - 30 minute, hour),
-	e.solarSystem
+	truncate(e.date, hour),
+	e.solarSystemId
 """)
 	List<Object[]> aggregateJumpsHourly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, day),
+	e.solarSystemId,
+	truncate(e.date, day),
 	sum(e.shipJumps) jumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute >= :since
+	e.solarSystemId in :systemsIds
+	and e.date >= :since
 group by
-	truncate(e.fetch.lastModified - 30 minute, day),
-	e.solarSystem
+	truncate(e.date, day),
+	e.solarSystemId
 	""")
 	List<Object[]> aggregateJumpsDaily(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, week),
+	e.solarSystemId,
+	truncate(e.date, week),
 	sum(e.shipJumps) jumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute >= :since
+	e.solarSystemId in :systemsIds
+	and e.date >= :since
 group by
-	truncate(e.fetch.lastModified - 30 minute, week),
-	e.solarSystem
+	truncate(e.date, week),
+	e.solarSystemId
 	""")
 	List<Object[]> aggregateJumpsWeekly(Iterable<Integer> systemsIds, Instant since);
 
 	@Query("""
 select
-	e.solarSystem.id,
-	truncate(e.fetch.lastModified - 30 minute, month),
+	e.solarSystemId,
+	truncate(e.date, month),
 	sum(e.shipJumps) jumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute >= :since
+	e.solarSystemId in :systemsIds
+	and e.date >= :since
 group by
-	truncate(e.fetch.lastModified - 30 minute, month),
-	e.solarSystem
+	truncate(e.date, month),
+	e.solarSystemId
 	""")
 	List<Object[]> aggregateJumpsMonthly(Iterable<Integer> systemsIds, Instant since);
 
@@ -91,20 +92,35 @@ group by
 	 */
 	@Query("""
 select
-	e.solarSystem.id,
-	extract(day of week from e.fetch.lastModified - 30 minute),
-	extract(hour from e.fetch.lastModified - 30 minute),
+	e.solarSystemId,
+	extract(day of week from e.date),
+	extract(hour from e.date),
 	sum(e.shipJumps)/:weeks daily_jumps
 from
 	#{#entityName} e
 where
-	e.solarSystem.id in :systemsIds
-	and e.fetch.lastModified - 30 minute >= current_date() - :weeks * 7 * 1 day
+	e.solarSystemId in :systemsIds
+	and e.date >= current_date() - :weeks * 7 * 1 day
 group by
-	extract(day of week from e.fetch.lastModified - 30 minute),
-	extract(hour from e.fetch.lastModified - 30 minute),
-	e.solarSystem
+	extract(day of week from e.date),
+	extract(hour from e.date),
+	e.solarSystemId
 """)
 	List<Object[]> activity(Iterable<Integer> systemsIds, int weeks);
+
+	@Modifying
+	@Query("""
+delete from #{#entityName}
+where periodEnd=:periodEnd
+""")
+	void deleteByPeriondEnd(Instant periodEnd);
+
+	@Query("""
+select
+	max(periodEnd)
+from
+	#{#entityName}
+""")
+	Instant maxLastModified();
 
 }
