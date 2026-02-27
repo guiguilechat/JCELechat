@@ -3,11 +3,12 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 		<artifactId>esi</artifactId>
-		<version>7.44.1</version>
+		<version>8.0.2</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
 	<artifactId>oa3compiler-maven-plugin</artifactId>
 	<name>OpenApi3 compiler maven plugin</name>
+	<packaging>maven-plugin</packaging>
 
 	<dependencies>
 		<dependency>
@@ -43,5 +44,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<packaging>maven-plugin</packaging>
 </project>
