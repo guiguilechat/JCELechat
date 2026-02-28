@@ -24,6 +24,10 @@ esi:
       info:
          update:
             skip: false
+   industry:
+      costindices:
+         update:
+            skip: false
    npc:
       lpcorporation:
          update:

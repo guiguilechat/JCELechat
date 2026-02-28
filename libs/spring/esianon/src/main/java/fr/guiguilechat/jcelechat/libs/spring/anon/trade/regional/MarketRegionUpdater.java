@@ -128,7 +128,7 @@ public class MarketRegionUpdater
 						orderCreationRepository.addFromTempTable(rid, r.getPreviousLastModified());
 				long postNew = System.currentTimeMillis();
 				if (newOrders > 0) {
-					log.debug("  added {} order creations for region {} in {}ms, @{}i/s", newOrders, rid,
+					log.debug("   added {} order creations for region {} in {}ms, @{}i/s", newOrders, rid,
 							postNew - preNew,
 							1000 * newOrders / Math.max(1, postNew - preNew));
 				}
@@ -138,7 +138,7 @@ public class MarketRegionUpdater
 				int updatedorders = orderUpdateRepository.addFromTempTable();
 				long postUpdate = System.currentTimeMillis();
 				if (updatedorders > 0) {
-					log.debug("  added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
+					log.debug("   added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
 							postUpdate - preUpdate, 1000 * updatedorders / Math.max(1, postUpdate - preUpdate));
 				}
 
@@ -147,7 +147,7 @@ public class MarketRegionUpdater
 				int salesOrders = orderSaleRepository.addFromTempTable();
 				long postSales = System.currentTimeMillis();
 				if (salesOrders > 0) {
-					log.debug("  added {} order sales for region {} in {} ms, @{}i/s", salesOrders, rid,
+					log.debug("   added {} order sales for region {} in {} ms, @{}i/s", salesOrders, rid,
 							postSales - preSales, 1000 * salesOrders / Math.max(1, postSales - preSales));
 				}
 			}
@@ -158,7 +158,7 @@ public class MarketRegionUpdater
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
 			long postDelete = System.currentTimeMillis();
 			if (deletedOrders > 0) {
-				log.debug("  added {} order deletions for region {} in {}ms, @{}i/s", deletedOrders, rid,
+				log.debug("   added {} order deletions for region {} in {}ms, @{}i/s", deletedOrders, rid,
 						postDelete - preDelete,
 						1000 * deletedOrders / Math.max(1, postDelete - preDelete));
 			}
@@ -169,12 +169,12 @@ public class MarketRegionUpdater
 				marketLineService.clearRegions(rid);
 				marketLineService.copyFromTemp();
 				long postMove = System.currentTimeMillis();
-				log.debug("  moved {} records for region {} in {} ms, @ {}i/s",
+				log.debug("   moved {} records for region {} in {} ms, @ {}i/s",
 						created.size(),
 						rid,
 						postMove - preMove,
 						1000 * created.size() / Math.max(1, postMove - preMove));
-				log.debug("   processed {} orders for region {} in {}ms", created.size(), rid,
+				log.debug("  processed {} orders for region {} in {}ms", created.size(), rid,
 						Math.max(1, postMove - preDump));
 			}
 		}
