@@ -128,6 +128,9 @@ public class MarketRegionUpdater
 			long preDump = System.currentTimeMillis();
 			tempMarketLineService.truncate();
 			log.trace("  truncated temp market lines");
+			int nbNew = 0;
+			int nbUpdated = 0;
+			int nbSales = 0;
 			List<TempMarketLine> created = createTempForRegion(r, e.getValue());
 			if (!created.isEmpty()) {
 				tempMarketLineService.insertAll(created);
@@ -145,31 +148,31 @@ public class MarketRegionUpdater
 
 				// process new orders
 				long preNew = System.currentTimeMillis();
-				int newOrders =
+				nbNew =
 						orderCreationRepository.addFromTempTable(rid, r.getPreviousLastModified());
 				long postNew = System.currentTimeMillis();
-				if (newOrders > 0) {
-					log.debug("   added {} order creations for region {} in {}ms, @{}i/s", newOrders, rid,
+				if (nbNew > 0) {
+					log.debug("   added {} order creations for region {} in {}ms, @{}i/s", nbNew, rid,
 							postNew - preNew,
-							1000 * newOrders / Math.max(1, postNew - preNew));
+							1000 * nbNew / Math.max(1, postNew - preNew));
 				}
 
 				// updated orders
 				long preUpdate = System.currentTimeMillis();
-				int updatedorders = orderUpdateRepository.addFromTempTable();
+				nbUpdated = orderUpdateRepository.addFromTempTable();
 				long postUpdate = System.currentTimeMillis();
-				if (updatedorders > 0) {
-					log.debug("   added {} order updates for region {} in {} ms, @{}i/s", updatedorders, rid,
-							postUpdate - preUpdate, 1000 * updatedorders / Math.max(1, postUpdate - preUpdate));
+				if (nbUpdated > 0) {
+					log.debug("   added {} order updates for region {} in {} ms, @{}i/s", nbUpdated, rid,
+							postUpdate - preUpdate, 1000 * nbUpdated / Math.max(1, postUpdate - preUpdate));
 				}
 
 				// sales
 				long preSales = System.currentTimeMillis();
-				int salesOrders = orderSaleRepository.addFromTempTable();
+				nbSales = orderSaleRepository.addFromTempTable();
 				long postSales = System.currentTimeMillis();
-				if (salesOrders > 0) {
-					log.debug("   added {} order sales for region {} in {} ms, @{}i/s", salesOrders, rid,
-							postSales - preSales, 1000 * salesOrders / Math.max(1, postSales - preSales));
+				if (nbSales > 0) {
+					log.debug("   added {} order sales for region {} in {} ms, @{}i/s", nbSales, rid,
+							postSales - preSales, 1000 * nbSales / Math.max(1, postSales - preSales));
 				}
 			}
 
@@ -187,13 +190,13 @@ public class MarketRegionUpdater
 			}
 
 			long preDelete = System.currentTimeMillis();
-			int deletedOrders =
+			int nbDeleted =
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
 			long postDelete = System.currentTimeMillis();
-			if (deletedOrders > 0) {
-				log.debug("   added {} order deletions for region {} in {}ms, @{}i/s", deletedOrders, rid,
+			if (nbDeleted > 0) {
+				log.debug("   added {} order deletions for region {} in {}ms, @{}i/s", nbDeleted, rid,
 						postDelete - preDelete,
-						1000 * deletedOrders / Math.max(1, postDelete - preDelete));
+						1000 * nbDeleted / Math.max(1, postDelete - preDelete));
 			}
 
 			if (!created.isEmpty()) {
@@ -207,8 +210,14 @@ public class MarketRegionUpdater
 						rid,
 						postMove - preMove,
 						1000 * created.size() / Math.max(1, postMove - preMove));
-				log.debug("  processed {} orders for region {} in {}ms", created.size(), rid,
-						Math.max(1, postMove - preDump));
+				log.debug(
+						"  processed {} orders for region {} in {}ms with {} creations, {} deletions, {} updates, {} sales",
+						created.size(), rid,
+						Math.max(1, postMove - preDump),
+						nbNew,
+						nbDeleted,
+						nbUpdated,
+						nbSales);
 			}
 		}
 	}
