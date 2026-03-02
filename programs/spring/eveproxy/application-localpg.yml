@@ -1,0 +1,86 @@
+# used for local launch, not embeded in the app
+
+gameclient:
+   fetcher:
+      update:
+         skip: true
+
+esi:
+   conflicts:
+      war:
+         info:
+            update:
+#               skip: false
+   npc:
+      lpcorporation:
+         update:
+            delayUpdated: 3600
+            skip: false
+   trade:
+      contract:
+         info:
+            update:
+               skip: false
+         region:
+            update:
+               skip: false
+      history:
+         update:
+            skip: false
+      market:
+         update:
+            skip: false
+      prices:
+         update:
+            skip: false
+   universe:
+      statsjumps:
+         update:
+            skip: false
+      statskills:
+         update:
+            skip: false
+
+everef:
+   trade:
+      history:
+         firstDate: "2026-02-01"
+      
+
+jcesi:
+   manager:
+#      default:
+#         skip: true
+      delay: 0
+      period: 2000
+
+logging:
+   level:
+      fr:
+         guiguilechat:
+            jcelechat:
+               jcesi: info
+               libs:
+                  spring:
+                     anon: debug
+                     update: debug # all the maanager stuff
+                     update.limits: trace # manager stuff related to queries limitations
+
+mer:
+   update:
+      skip: true
+
+sde:
+   fetcher:
+      update:
+         skip: false
+   space:
+#      moon.skip: true
+         
+spring:
+   cache:
+      type: simple
+   datasource:
+      password: eveproxy
+      url: jdbc:postgresql://localhost:5432/eveproxy?reWriteBatchedInserts=true
+      username: eveproxy

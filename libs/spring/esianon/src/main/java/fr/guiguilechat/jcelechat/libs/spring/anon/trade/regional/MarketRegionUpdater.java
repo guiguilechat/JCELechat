@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -54,6 +56,21 @@ public class MarketRegionUpdater
 
 	private final OrderSaleRepository orderSaleRepository;
 
+	private final TempMarketLineRepository tempMarketLineRepository;
+
+	private final MarketLineRepository marketLineRepository;
+
+	/**
+	 * when true, store the region orders in a temp table, then compare them to the
+	 * old ones. When false, directly remove the old entries, and add new ones.
+	 */
+	public boolean useTempTable = true;
+
+	/**
+	 * additional debug on the temp table creation/filling and comparison
+	 */
+	public boolean debugTempTable = false;
+
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_get_markets_region_id_orders[]> ret =
@@ -64,8 +81,6 @@ public class MarketRegionUpdater
 						.mapBody(l -> l.toArray(R_get_markets_region_id_orders[]::new));
 		return ret;
 	}
-
-	public boolean useTempTable = true;
 
 	@Override
 	protected void updateResponseOk(Map<MarketRegion, R_get_markets_region_id_orders[]> responseOk) {
@@ -112,6 +127,7 @@ public class MarketRegionUpdater
 			// delete from seems to keep records, so truncate instead
 			long preDump = System.currentTimeMillis();
 			tempMarketLineService.truncate();
+			log.trace("  truncated temp market lines");
 			List<TempMarketLine> created = createTempForRegion(r, e.getValue());
 			if (!created.isEmpty()) {
 				tempMarketLineService.insertAll(created);
@@ -121,6 +137,11 @@ public class MarketRegionUpdater
 						rid,
 						postDump - preDump,
 						1000 * created.size() / Math.max(1, postDump - preDump));
+				if (debugTempTable) {
+					log.debug("    temp market contains " + tempMarketLineRepository.countAll() + " records");
+					log.debug("    temp lines for region " + tempMarketLineRepository.countByRegionId(rid));
+					log.debug("    old lines for region " + marketLineRepository.countByRegionId(rid));
+				}
 
 				// process new orders
 				long preNew = System.currentTimeMillis();
@@ -153,6 +174,18 @@ public class MarketRegionUpdater
 			}
 
 			// process orders deletion
+			if (debugTempTable) {
+				log.debug("received deletions for region {} :\n{}",
+						rid,
+						orderDeletionRepository.debugInsert(rid, r.getPreviousLastModified(), r.getLastModified())
+								.stream()
+								.map(m -> m.entrySet().stream()
+										.sorted(Comparator.comparing(Entry::getKey))
+										.map(Entry::toString)
+										.collect(Collectors.joining(",")))
+								.collect(Collectors.joining("\n")));
+			}
+
 			long preDelete = System.currentTimeMillis();
 			int deletedOrders =
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());

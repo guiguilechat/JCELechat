@@ -10,7 +10,8 @@ import org.springframework.data.jpa.repository.Query;
 public interface TempMarketLineRepository extends JpaRepository<TempMarketLine, Long> {
 
 	/**
-	 * delete all records from the table
+	 * delete all records from the table. Faster at startup to ensure the table is
+	 * empty
 	 */
 	@Modifying
 	@Query(value = """
@@ -28,5 +29,23 @@ select
 	exi.regionId existRegionId
 """)
 	List<Map<String, Object>> debugMergeConflicts();
+
+	@Query("""
+from
+	#{#entityName} e
+select
+	count(e)
+""")
+	long countAll();
+
+	@Query("""
+from
+	#{#entityName} e
+where
+	e.regionId=:regionId
+select
+	count(e)
+""")
+	long countByRegionId(int regionId);
 
 }

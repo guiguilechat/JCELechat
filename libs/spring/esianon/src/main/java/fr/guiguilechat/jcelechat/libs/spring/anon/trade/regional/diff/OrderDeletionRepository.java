@@ -1,10 +1,13 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff;
 
 import java.time.Instant;
+import java.util.List;
+import java.util.Map;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
 
 public interface OrderDeletionRepository extends JpaRepository<OrderDeletion, Long> {
 	/**
@@ -47,6 +50,28 @@ select
 	:previousLastModified,
 	dateadd(day, deleted.duration, deleted.issued) between :previousLastModified and :lastModified
 """)
+	@Transactional
 	int addFromTempTable(int regionId, Instant previousLastModified, Instant lastModified);
+
+	@Query("""
+from
+	EsiTradeMarketLine deleted
+where
+	deleted.regionId=:regionId
+	and not exists (select 1 from EsiTradeMarketLineTemp newer where newer.id=deleted.id)
+select
+	deleted.id orderId,
+	deleted.typeId typeId,
+	deleted.isBuyOrder isBuyOrder,
+	deleted.price price,
+	deleted.volumeRemain volumeRemain,
+	deleted.locationId locationId,
+	deleted.solarSystemId solarSystemId,
+	deleted.regionId regionId,
+	:lastModified dateMax,
+	:previousLastModified dateMin,
+	dateadd(day, deleted.duration, deleted.issued) between :previousLastModified and :lastModified canExpire
+""")
+	List<Map<String, Object>> debugInsert(int regionId, Instant previousLastModified, Instant lastModified);
 
 }

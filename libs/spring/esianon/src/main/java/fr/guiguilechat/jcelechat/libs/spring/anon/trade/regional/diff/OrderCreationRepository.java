@@ -7,6 +7,7 @@ import java.util.Map;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
 
 public interface OrderCreationRepository extends JpaRepository<OrderCreation, Long> {
 
@@ -56,6 +57,7 @@ select
 	order.issued,
 	:previousLastModified
 """)
+	@Transactional
 	int addFromTempTable(int regionId, Instant previousLastModified);
 
 	/**

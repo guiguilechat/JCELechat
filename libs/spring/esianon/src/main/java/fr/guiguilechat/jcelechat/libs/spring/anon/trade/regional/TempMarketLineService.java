@@ -33,17 +33,17 @@ public class TempMarketLineService {
 		try {
 			Connection conn = DataSourceUtils.getConnection(datasource);
 			if (conn.isWrapperFor(PGConnection.class)) {
-				log.debug("using PG connection to insert {} orders", entities.size());
+				log.debug("  using PG connection to insert {} orders", entities.size());
 				if (insertPGCopy(entities, conn.unwrap(PGConnection.class).getCopyAPI())) {
 					return;
 				} else {
-					log.warn("failed to insert using postgresql copy, delegating to hibernate");
+					log.warn("  failed to insert using postgresql copy, delegating to hibernate");
 				}
 			} else {
-				log.trace("no PG connection, falling back to hibernate's saveAll");
+				log.trace("  no PG connection, falling back to hibernate's saveAll");
 			}
 		} catch (SQLException e) {
-			log.warn("error using datasource, letting hibernate handle that crap", e);
+			log.warn("  error using datasource, letting hibernate handle that crap", e);
 		}
 		repo.saveAllAndFlush(entities);
 	}
@@ -60,7 +60,7 @@ public class TempMarketLineService {
 								.collect(Collectors.joining("\n")));
 		long postReader = System.currentTimeMillis();
 		try {
-			cm.copyIn("COPY esi_trade_market_line (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
+			cm.copyIn("COPY esi_trade_market_line_temp (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
 					+ MarketLine.CSV_SEP + "'", reader);
 		} catch (SQLException | IOException e) {
 			log.error("while PG copy " + entities.size() + " entities", e);
@@ -68,7 +68,7 @@ public class TempMarketLineService {
 		}
 
 		long end = System.currentTimeMillis();
-		log.trace("performed copy of {} entries in {} ms (convert={} insert={})",
+		log.trace("   performed copy of {} entries in {} ms (convert={} insert={})",
 				entities.size(),
 				end - start,
 				postReader - start,

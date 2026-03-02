@@ -41,9 +41,29 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 
 	public long targetPulseMS = 10000;
 
+	/**
+	 * first date to start fetching from
+	 */
 	public String firstDate = EverefHistoryFetcher.FIRST_DATE_STR;
+
+	/**
+	 * amount of days we fetch before today
+	 */
+	public int startDays = -1;
+
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
-	private final LocalDate startDate = LocalDate.parse(firstDate);
+	private final LocalDate startDate = makeStartDate();
+
+	protected LocalDate makeStartDate() {
+		LocalDate ret = LocalDate.parse(firstDate);
+		if (startDays > 0) {
+			LocalDate fromDays = LocalDate.now().minusDays(startDays);
+			if (fromDays.isAfter(ret)) {
+					ret=fromDays;
+				}
+		}
+		return ret;
+	}
 
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
@@ -81,7 +101,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		}
 		LocalDate maxEverefSaved = eveRefDayHistoryRepository.maxDate();
 		for (
-				LocalDate fetchDate = firstFetch(maxEverefSaved);
+				LocalDate fetchDate = nextFetch(maxEverefSaved);
 				toFetch.size() < maxFetch && fetchDate.isBefore(LocalDate.now().minusDays(1));
 				fetchDate = fetchDate.plusDays(1L)) {
 			toFetch.add(EveRefDayHistory.builder()
@@ -168,7 +188,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		return true;
 	}
 
-	public LocalDate firstFetch(LocalDate lastDone) {
+	public LocalDate nextFetch(LocalDate lastDone) {
 		if (lastDone == null) {
 			return getStartDate();
 		}

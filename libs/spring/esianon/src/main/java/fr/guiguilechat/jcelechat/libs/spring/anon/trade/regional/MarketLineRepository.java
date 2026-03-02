@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-public interface MarketLineRepository extends JpaRepository<MarketLine, Integer> {
+public interface MarketLineRepository extends JpaRepository<MarketLine, Long> {
 
 	@Modifying
 	@Query("""
@@ -217,6 +217,14 @@ from
 """)
 	void copyFromTemp();
 
+	@Query("""
+from
+	#{#entityName} e
+where
+	e.regionId=:regionId
+select
+	count(e)
+""")
 	long countByRegionId(int regionId);
 
 }
