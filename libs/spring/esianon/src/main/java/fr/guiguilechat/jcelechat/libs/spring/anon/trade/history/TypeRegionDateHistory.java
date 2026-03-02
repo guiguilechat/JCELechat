@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.libs.everef.history.HistoryEntry;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistory.TypeRegionDateKey;
@@ -104,6 +106,51 @@ public class TypeRegionDateHistory {
 				.typeId(he.getType_id())
 				.volume(he.getVolume())
 				.build();
+	}
+
+	// csv dump
+
+	public static final String CSV_SEP = ",";
+
+	public static final String CSV_HEADER =
+			Stream.of(
+					"average",
+					"date",
+					"extsource",
+					"highest",
+					"lowest",
+					"order_count",
+					"region_id",
+					"type_id",
+					"volume"
+			//
+			)
+					.collect(Collectors.joining(CSV_SEP));
+
+	/**
+	 * convert to csv to send through PG copy function
+	 *
+	 * @return
+	 */
+	public String csv() {
+		return Stream.of(
+				Double.toString(getAverage()),
+				convertPGLocalDate(getDate()),
+				getExtsource(),
+				Double.toString(getHighest()),
+				Double.toString(getLowest()),
+				Long.toString(getOrderCount()),
+				Integer.toString(getRegionId()),
+				Integer.toString(getTypeId()),
+				Long.toString(getVolume())
+		//
+		).collect(Collectors.joining(CSV_SEP));
+	}
+
+	private static final DateTimeFormatter PG_INSTANT_FORMATER = DateTimeFormatter.ISO_DATE;
+
+	protected static String convertPGLocalDate(LocalDate source) {
+		return PG_INSTANT_FORMATER.format(source);
 	}
 
 }

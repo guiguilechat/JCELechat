@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.libs.everef.history.EverefHistoryFetcher;
 import fr.guiguilechat.jcelechat.libs.everef.history.HistoryEntry;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistory;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistoryRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistory.AggregationStatus;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;
@@ -38,6 +39,8 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	private final EveRefDayHistoryRepository eveRefDayHistoryRepository;
 
 	private final TypeRegionDateHistoryRepository typeRegionDateHistoryRepository;
+
+	private final TypeRegionDateHistoryService typeRegionDateHistoryService;
 
 	public long targetPulseMS = 10000;
 
@@ -175,7 +178,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		eveRefDayHistoryRepository.saveAllAndFlush(newEveRefHistories);
 		log.trace("  saving {} historylines",
 				newHistoryLines.size());
-		typeRegionDateHistoryRepository.saveAllAndFlush(newHistoryLines);
+		typeRegionDateHistoryService.insertAll(newHistoryLines);
 		long postSave = System.currentTimeMillis();
 		long saveTime = postSave - postFetch;
 		log.debug(" saved {} history lines for {} days in select={}ms, fetch={}ms, save={}ms",

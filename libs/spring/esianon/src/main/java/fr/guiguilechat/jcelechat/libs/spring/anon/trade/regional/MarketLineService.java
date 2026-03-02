@@ -77,8 +77,8 @@ public class MarketLineService implements MarketRegionListener {
 						.collect(Collectors.joining("\n")));
 		long postReader = System.currentTimeMillis();
 		try {
-			cm.copyIn("COPY esi_trade_market_line (" + MarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
-					+ MarketLine.CSV_SEP + "'", reader);
+			cm.copyIn("COPY esi_trade_market_line (" + CommonMarketLine.CSV_HEADER + ") FROM STDIN WITH DELIMITER '"
+					+ CommonMarketLine.CSV_SEP + "'", reader);
 		} catch (SQLException | IOException e) {
 			log.error("while PG copy " + entities.size() + " entities", e);
 			return false;
