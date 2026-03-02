@@ -127,7 +127,6 @@ public class MarketRegionUpdater
 			// delete from seems to keep records, so truncate instead
 			long preDump = System.currentTimeMillis();
 			tempMarketLineService.truncate();
-			log.trace("  truncated temp market lines");
 			int nbNew = 0;
 			int nbUpdated = 0;
 			int nbSales = 0;
@@ -199,10 +198,10 @@ public class MarketRegionUpdater
 						1000 * nbDeleted / Math.max(1, postDelete - preDelete));
 			}
 
+			marketLineService.clearRegions(rid);
 			if (!created.isEmpty()) {
 				// move data from temp to the actual
 				long preMove = System.currentTimeMillis();
-				marketLineService.clearRegions(rid);
 				marketLineService.copyFromTemp();
 				long postMove = System.currentTimeMillis();
 				log.trace("   moved {} records for region {} in {} ms, @ {}i/s",
@@ -210,15 +209,15 @@ public class MarketRegionUpdater
 						rid,
 						postMove - preMove,
 						1000 * created.size() / Math.max(1, postMove - preMove));
-				log.debug(
-						"  processed {} orders for region {} in {}ms with {} creations, {} deletions, {} updates, {} sales",
-						created.size(), rid,
-						Math.max(1, postMove - preDump),
-						nbNew,
-						nbDeleted,
-						nbUpdated,
-						nbSales);
 			}
+			log.debug(
+					"  processed {} orders for region {} in {}ms with {} creations, {} deletions, {} updates, {} sales",
+					created.size(), rid,
+					System.currentTimeMillis() - preDump,
+					nbNew,
+					nbDeleted,
+					nbUpdated,
+					nbSales);
 		}
 	}
 
