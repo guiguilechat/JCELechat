@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.everef;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -16,9 +16,9 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.everef.history.EverefHistoryFetcher;
 import fr.guiguilechat.jcelechat.libs.everef.history.HistoryEntry;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.TypeRegionDateHistory;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.TypeRegionDateHistoryRepository;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.everef.EveRefDayHistory.AggregationStatus;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistoryRepository;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistory.AggregationStatus;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;
 import lombok.AccessLevel;

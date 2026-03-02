@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.TypeRegionHistory.TypeRegionKey;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionHistory.TypeRegionKey;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.PulseUpdatedUpdater;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

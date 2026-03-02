@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated;
 
 import java.time.LocalDate;
 import java.time.ZoneOffset;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistory.AggregatedDailyTypeKey;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistory.AggregatedDailyTypeKey;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import java.time.Instant;
 import java.time.LocalDate;
 
 import org.hibernate.annotations.ColumnDefault;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.TypeRegionHistory.TypeRegionKey;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionHistory.TypeRegionKey;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.space.region.Region;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.PulseUpdated;

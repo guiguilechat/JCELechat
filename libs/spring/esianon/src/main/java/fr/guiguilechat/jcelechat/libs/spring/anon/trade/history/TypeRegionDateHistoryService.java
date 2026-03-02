@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;

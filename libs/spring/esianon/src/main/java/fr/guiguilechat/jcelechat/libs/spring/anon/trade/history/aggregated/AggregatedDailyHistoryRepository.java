@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated;
 
 import java.time.LocalDate;
 import java.util.List;

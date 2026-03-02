@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.everef;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef;
 
 import java.time.Instant;
 import java.time.LocalDate;

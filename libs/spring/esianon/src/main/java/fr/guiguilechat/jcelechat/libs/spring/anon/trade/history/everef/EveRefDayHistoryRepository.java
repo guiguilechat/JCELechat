@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.everef;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -8,7 +8,7 @@ import org.springframework.data.domain.Limit;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.everef.EveRefDayHistory.AggregationStatus;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistory.AggregationStatus;
 
 public interface EveRefDayHistoryRepository extends JpaRepository<EveRefDayHistory, LocalDate> {
 

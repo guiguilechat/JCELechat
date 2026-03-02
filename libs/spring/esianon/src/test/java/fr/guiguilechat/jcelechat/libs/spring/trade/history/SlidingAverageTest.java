@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.SlidingAverage;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.SlidingAverage;
 
 public class SlidingAverageTest {
 

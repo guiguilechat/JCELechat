@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2;
+package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 import fr.guiguilechat.jcelechat.libs.everef.history.HistoryEntry;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.TypeRegionDateHistory.TypeRegionDateKey;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.TypeRegionDateHistory.TypeRegionDateKey;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;

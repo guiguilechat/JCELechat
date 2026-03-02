@@ -29,7 +29,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeNonBp;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistoryService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingRepository.RankedOffer;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.marketranking.MarketRankingService.BoSoChoice;

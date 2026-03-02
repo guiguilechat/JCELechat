@@ -15,9 +15,8 @@ import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.HistoryLineService;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistory;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history2.aggregated.AggregatedDailyHistoryService;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistory;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.tools.MarketOrder;
@@ -53,9 +52,6 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 
 	@Lazy
 	private final MarketLineService marketLineService;
-
-	@Lazy
-	final private HistoryLineService historyLineService;
 
 	@Lazy
 	private final StationService stationService;
