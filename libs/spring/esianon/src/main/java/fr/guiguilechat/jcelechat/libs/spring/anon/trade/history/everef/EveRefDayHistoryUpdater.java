@@ -176,7 +176,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		log.trace("  saving {} everefhistories",
 				newEveRefHistories.size());
 		eveRefDayHistoryRepository.saveAllAndFlush(newEveRefHistories);
-		log.trace("  saving {} historylines",
+		log.trace("  saving {} typeregiondate histories",
 				newHistoryLines.size());
 		typeRegionDateHistoryService.insertAll(newHistoryLines);
 		long postSave = System.currentTimeMillis();

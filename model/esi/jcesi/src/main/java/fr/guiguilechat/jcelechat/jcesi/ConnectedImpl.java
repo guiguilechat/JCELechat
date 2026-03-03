@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi;
 
+import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
@@ -42,6 +43,7 @@ import javafx.collections.ObservableSet;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
+import okhttp3.Cache;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -173,6 +175,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	private final static long TIMEOUT_S = 12;
 
 	@Getter(lazy = true)
+	private final File cachedir = new File("./.okhttpcache");
+
+	@Getter(lazy = true)
 	private final OkHttpClient client =
 			new OkHttpClient.Builder()
 					.addNetworkInterceptor(chain -> chain.proceed(
@@ -186,6 +191,7 @@ public abstract class ConnectedImpl implements ITransfer {
 //				return chain.proceed(request);
 //			})
 
+					.cache(new Cache(getCachedir(), 1024 * 1024 * 1024))// 1GB
 					.callTimeout(TIMEOUT_S, TimeUnit.SECONDS)
 					.connectTimeout(TIMEOUT_S, TimeUnit.SECONDS)
 					.readTimeout(TIMEOUT_S, TimeUnit.SECONDS)

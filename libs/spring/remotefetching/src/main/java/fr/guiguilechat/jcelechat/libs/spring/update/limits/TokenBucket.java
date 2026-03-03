@@ -24,6 +24,9 @@ public class TokenBucket {
 	 */
 	public static final int DEFAULT_TOKENS = Integer.MAX_VALUE;
 
+	/** start waiting when less than this ratio of tokens are avail */
+	public static final double MAX_FILL_FACTOR = 0.1;
+
 	/**
 	 * the group identifies of the bucket
 	 */
@@ -51,7 +54,7 @@ public class TokenBucket {
 
 		// only process response within that group
 		String responseGroup = response.getRateLimitGroup();
-		if (!this.group.equals(responseGroup)) {
+		if (!group.equals(responseGroup)) {
 			return;
 		}
 
@@ -80,17 +83,40 @@ public class TokenBucket {
 		lastProcessedDate = responseDate;
 		lastRateLimits = limits;
 
-		if (response.getResponseCode() == 429 && lastRetryAfter != null) {
-			lastRemainingTokens = 0;
-			lastRetryAfter = response.getRetryAfterInstant();
+		if (response.getResponseCode() == 429) {
+			if (lastRetryAfter != null) {
+				lastRemainingTokens = 0;
+				lastRetryAfter = response.getRetryAfterInstant();
+				log.trace("reached rate limit, set retry after to {}", lastRetryAfter);
+			} else {
+				// we already know we are in rate limit, no need to update the last retry
+			}
 		} else {
 			Integer remaining = response.getRateLimitRemaining();
 			if (remaining == null) {
+				// WTF ?
+				log.warn("url {} received null rate limit remaining but rate limit group {}, discarding",
+						response.getURL(), responseGroup);
+				lastRemainingTokens = DEFAULT_TOKENS;
 				return;
 			}
 			lastRemainingTokens = remaining;
-			lastRetryAfter = null;// should check if remaining=0 but then the next avail bucket is not in the
-									// headers.
+			lastRetryAfter = null;
+			if (lastRateLimits != null) {
+				if (remaining < MAX_FILL_FACTOR * lastRateLimits.windowTokens()) {
+					lastRetryAfter =
+							Instant.now()
+									.plusSeconds((long) Math.ceil(MAX_FILL_FACTOR * lastRateLimits.windowDurationS()));
+					log.trace("low {} remaining for group {} with spec {} : wait until {}",
+							remaining,
+							group,
+							lastRateLimits,
+							lastRetryAfter);
+				}
+			} else if (remaining <= 10) {
+				log.trace("replaced low remaing {} with fixed value to workaround missing retry-after", remaining);
+				lastRemainingTokens = 10;
+			}
 		}
 		log.trace("bucket {} processed response {}:{} limitations={} ; lastRemaining={} lastRetryAfter={}",
 				responseGroup,
@@ -133,7 +159,7 @@ public class TokenBucket {
 	 */
 	public int availTokens() {
 		checkReset();
-		return lastRemainingTokens;
+		return lastRetryAfter == null ? lastRemainingTokens : 0;
 	}
 
 	/**
