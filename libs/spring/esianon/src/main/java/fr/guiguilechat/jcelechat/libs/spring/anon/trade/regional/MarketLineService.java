@@ -93,13 +93,13 @@ public class MarketLineService implements MarketRegionListener {
 		return true;
 	}
 
-	public void clearRegions(int regionId) {
+	public void clearRegion(int regionId) {
 		repo.deleteByRegionId(regionId);
 	}
 
 	public void clearRegions(Set<MarketRegion> regions) {
 		for (MarketRegion r : regions) {
-			clearRegions(r.getId());
+			clearRegion(r.getId());
 		}
 	}
 

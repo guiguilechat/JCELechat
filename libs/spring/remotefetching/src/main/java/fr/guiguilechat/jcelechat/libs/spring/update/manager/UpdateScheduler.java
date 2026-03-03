@@ -18,6 +18,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.update.manager.servicepulse.UpdaterPulseService;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -46,6 +47,8 @@ public class UpdateScheduler {
 
 	@Lazy
 	private final Optional<List<EntityUpdater>> updaters;
+
+	private final UpdaterPulseService updaterPulseService;
 
 	//
 	// those are mostly used for debuging and stopping
@@ -104,8 +107,9 @@ public class UpdateScheduler {
 		}
 		boolean nextPulseReady = false;
 		List<EntityUpdater> registeredServices = updaters.orElse(List.of());
-		List<EntityUpdater> activeServices = registeredServices.stream().filter(s -> !shouldSkip(s))
-		    .toList();
+		List<EntityUpdater> activeServices =
+				registeredServices.stream().filter(s -> !shouldSkip(s))
+						.toList();
 		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
 			Instant next = fetcherNameToNextPulse.get(s.serviceName());
 			return next == null || !next.isAfter(start);
@@ -115,15 +119,22 @@ public class UpdateScheduler {
 					registeredServices.size());
 		} else {
 			log.debug("updating : {} ready / {} active / {} registered", readyServices.size(), activeServices.size(),
-			    registeredServices.size());
+					registeredServices.size());
 		}
 		for (EntityUpdater s : readyServices) {
-			log.debug("updating {}", s.serviceName());
+			Instant serviceStart = Instant.now();
+			log.trace("updating {}", s.serviceName());
 			boolean remain = s.updatePulse();
 			nextPulseReady |= remain;
 			Instant serviceNextPulse = s.nextPulse(remain, start);
 			fetcherNameToNextPulse.put(s.serviceName(), serviceNextPulse);
-			log.debug(" updated {} remaining={} next={}", s.serviceName(), remain, format(serviceNextPulse));
+			Instant serviceEnd = Instant.now();
+			updaterPulseService.save(s.serviceName(), serviceStart, serviceEnd);
+			log.trace(" updated {} in {} ms, remaining={} next={}",
+					s.serviceName(),
+					serviceEnd.toEpochMilli() - serviceStart.toEpochMilli(),
+					remain,
+					format(serviceNextPulse));
 		}
 
 		if (!nextPulseReady) {
@@ -145,7 +156,7 @@ public class UpdateScheduler {
 			return "null";
 		}
 		return instant.atZone(ZoneId.systemDefault()).truncatedTo(ChronoUnit.SECONDS)
-		    .format(DateTimeFormatter.ISO_LOCAL_TIME);
+				.format(DateTimeFormatter.ISO_LOCAL_TIME);
 	}
 
 	/**
@@ -160,9 +171,24 @@ public class UpdateScheduler {
 
 	// introspection
 
-	public record ActiveUpdater(EntityUpdater updater, Instant ready) {
+	public record ActiveUpdater(EntityUpdater updater, Instant ready, double pctActive1h, double pctActive1d) {
 		public String name() {
 			return updater.serviceName();
+		}
+
+		public String formatedPctActive1h() {
+			return String.format("%.3f", pctActive1h());
+		}
+
+		public String formatedPctActive1d() {
+			return String.format("%.3f", pctActive1d());
+		}
+
+		public String formattedReady() {
+			if (ready == null || ready.isBefore(Instant.now())) {
+				return "";
+			}
+			return "" + (ready.toEpochMilli() - Instant.now().toEpochMilli()) / 1000 + "s";
 		}
 	}
 
@@ -176,15 +202,19 @@ public class UpdateScheduler {
 		Collections.sort(updaters, Comparator.comparing(EntityUpdater::serviceName));
 		List<ActiveUpdater> active = new ArrayList<>();
 		List<EntityUpdater> inactive = new ArrayList<>();
+		Map<String, Double> usages1h = updaterPulseService.recentUsage(3600);
+		Map<String, Double> usages1d = updaterPulseService.recentUsage(3600 * 24);
 		for (EntityUpdater eu : updaters) {
 			if (shouldSkip(eu)) {
 				inactive.add(eu);
 			} else {
 				Instant readyAt = fetcherNameToNextPulse.get(eu.serviceName());
 				if (readyAt != null && !readyAt.isAfter(Instant.now())) {
-					readyAt=null;
+					readyAt = null;
 				}
-				active.add(new ActiveUpdater(eu, readyAt));
+				double usage1h = usages1h.getOrDefault(eu.serviceName(), 0.0);
+				double usage1d = usages1d.getOrDefault(eu.serviceName(), 0.0);
+				active.add(new ActiveUpdater(eu, readyAt, usage1h, usage1d));
 			}
 		}
 		return new UpdatersList(active, inactive);

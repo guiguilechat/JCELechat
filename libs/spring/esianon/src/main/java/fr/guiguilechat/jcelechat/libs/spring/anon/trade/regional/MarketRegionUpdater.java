@@ -130,15 +130,15 @@ public class MarketRegionUpdater
 			int nbNew = 0;
 			int nbUpdated = 0;
 			int nbSales = 0;
-			List<TempMarketLine> created = createTempForRegion(r, e.getValue());
-			if (!created.isEmpty()) {
-				tempMarketLineService.insertAll(created);
+			List<TempMarketLine> tempOrders = createTempForRegion(r, e.getValue());
+			if (!tempOrders.isEmpty()) {
+				tempMarketLineService.insertAll(tempOrders);
 				long postDump = System.currentTimeMillis();
 				log.trace("  dumped {} records for region {} in {}ms, @{}r/s",
-						created.size(),
+						tempOrders.size(),
 						rid,
 						postDump - preDump,
-						1000 * created.size() / Math.max(1, postDump - preDump));
+						1000 * tempOrders.size() / Math.max(1, postDump - preDump));
 				if (traceTempTable) {
 					log.trace("    temp market contains " + tempMarketLineRepository.countAll() + " records");
 					log.trace("    temp lines for region " + tempMarketLineRepository.countByRegionId(rid));
@@ -198,21 +198,26 @@ public class MarketRegionUpdater
 						1000 * nbDeleted / Math.max(1, postDelete - preDelete));
 			}
 
-			marketLineService.clearRegions(rid);
-			if (!created.isEmpty()) {
-				// move data from temp to the actual
+			// the only case we don't rewrite the orders is when empty AND no change. If no
+			// change but not empty, the orders are still udpated with their last-updated
+			// value
+			if (nbDeleted + nbNew + nbSales + nbUpdated > 0 || !tempOrders.isEmpty()) {
+			marketLineService.clearRegion(rid);
+			if (!tempOrders.isEmpty()) {
+				// move data from temp
 				long preMove = System.currentTimeMillis();
 				marketLineService.copyFromTemp();
 				long postMove = System.currentTimeMillis();
 				log.trace("   moved {} records for region {} in {} ms, @ {}i/s",
-						created.size(),
+						tempOrders.size(),
 						rid,
 						postMove - preMove,
-						1000 * created.size() / Math.max(1, postMove - preMove));
+						1000 * tempOrders.size() / Math.max(1, postMove - preMove));
 			}
+		}
 			log.debug(
 					"  processed {} orders for region {} in {}ms with {} creations, {} deletions, {} updates, {} sales",
-					created.size(), rid,
+					tempOrders.size(), rid,
 					System.currentTimeMillis() - preDump,
 					nbNew,
 					nbDeleted,

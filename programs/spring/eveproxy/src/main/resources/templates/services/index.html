@@ -33,13 +33,17 @@
 						<thead>
 							<tr>
 								<th>Name</th>
-								<th>Ready</th>
+								<th>Wait</th>
+								<th>1H% active</th>
+								<th>1d% active</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr th:each="active : ${active}">
 								<td th:text="${active.name()}"/>
-								<td th:text="${active.ready()}"/>
+								<td th:text="${active.formattedReady()}"/>
+								<td th:text="${active.formatedPctActive1h()}"/>
+								<td th:text="${active.formatedPctActive1d()}"/>
 							</tr>
 						</tbody>
 					</table>
