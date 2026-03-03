@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneOffset;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
@@ -12,8 +12,8 @@ import org.springframework.data.domain.Limit;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistory;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistoryRepository;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistory.AggregationStatus;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.everef.EveRefDayHistoryRepository;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;
 import lombok.Getter;
@@ -36,6 +36,10 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
+	public int todayDelayS = 3600;
+
+	private Instant todayNextAggreg = null;
+
 	@Override
 	@Transactional
 	public boolean updatePulse() {
@@ -49,12 +53,20 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 			log.debug(" no everef to aggregate ; retrying failed {} aggregates", toAggregate.size());
 		}
 		// we add today to aggregte completed contracts
+		List<LocalDate> dates = new ArrayList<>();
 		if (toAggregate.isEmpty()) {
-			log.debug(" no region history to aggregate ; aggregate today's contract");
+			if (todayNextAggreg == null || todayNextAggreg.isBefore(Instant.now())) {
+				log.debug(" no region history to aggregate , aggregate today's contract");
+				dates.add(Instant.now().atOffset(ZoneOffset.UTC).toLocalDate());
+				todayNextAggreg = Instant.now().plusSeconds(todayDelayS);
+			}
+		} else {
+			toAggregate.stream().map(EveRefDayHistory::getDate).forEach(dates::add);
 		}
-		List<LocalDate> dates =
-				Stream.concat(Stream.of(Instant.now().atOffset(ZoneOffset.UTC).toLocalDate()),
-						toAggregate.stream().map(EveRefDayHistory::getDate)).toList();
+
+		if (dates.isEmpty()) {
+			return false;
+		}
 		int deleted = repo.deleteForDates(dates);
 		if (deleted > 0) {
 			log.trace("deleted {} existing lines for {} dates", deleted, dates.size());
