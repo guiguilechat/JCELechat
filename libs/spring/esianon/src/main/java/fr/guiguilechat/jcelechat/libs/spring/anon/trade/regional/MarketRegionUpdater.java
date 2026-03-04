@@ -71,6 +71,12 @@ public class MarketRegionUpdater
 	 */
 	public boolean traceTempTable = false;
 
+	/**
+	 * when true, we copy the temp table that we worked on for a region ; when
+	 * false, we dump the orders in the base table again.
+	 */
+	public boolean copyTempTable = false;
+
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {
 		Requested<R_get_markets_region_id_orders[]> ret =
@@ -207,8 +213,11 @@ public class MarketRegionUpdater
 				// move data from temp
 				long preMove = System.currentTimeMillis();
 				// seems to be slower on long run than plain csv dump ?
-				marketLineService.copyFromTemp();
-//				marketLineService.insertAll(createForRegion(r, e.getValue()));
+				if (copyTempTable) {
+					marketLineService.copyFromTemp();
+				} else {
+					marketLineService.insertAll(createForRegion(r, e.getValue()));
+				}
 				long postMove = System.currentTimeMillis();
 				log.trace("   inserted {} records for region {} in {} ms, @ {}i/s",
 						tempOrders.size(),

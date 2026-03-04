@@ -15,6 +15,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.event.ContextClosedEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -91,6 +93,13 @@ public class UpdateScheduler {
 	@Value("${jcesi.manager.period:1000}")
 	private int cyclePeriodMs;
 
+	private boolean stopping = false;
+
+	@EventListener(ContextClosedEvent.class)
+	public void onContextClosedEvent(ContextClosedEvent contextClosedEvent) {
+		stopping = true;
+	}
+
 	/** when not null, time before which we skip the update cycles */
 	private Instant nextUpdate = Instant.now();
 
@@ -122,6 +131,10 @@ public class UpdateScheduler {
 					registeredServices.size());
 		}
 		for (EntityUpdater s : readyServices) {
+			if (stopping) {
+				log.info("System stopping, cancel update loop");
+				return;
+			}
 			Instant serviceStart = Instant.now();
 			log.trace("updating {}", s.serviceName());
 			boolean remain = s.updatePulse();
