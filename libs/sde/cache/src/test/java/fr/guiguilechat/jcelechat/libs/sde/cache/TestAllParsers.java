@@ -56,6 +56,7 @@ public class TestAllParsers {
 				EmapStars.class,
 				EmarketGroups.class,
 				Emasteries.class,
+				EmercenaryTacticalOperations.class,
 				EmetaGroups.class,
 				EnpcCharacters.class,
 				EnpcCorporationDivisions.class,
@@ -82,7 +83,7 @@ public class TestAllParsers {
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);
-			m.invoke(null, new Object[] { null });
+			m.invoke(null, new Object[] { null });// need to add param otherwise call exception
 			System.out.println(" in " + (System.currentTimeMillis() - start) + "ms");
 			var classes = loader.load().values().stream().map(v -> v.getClass().getSimpleName())
 					.collect(Collectors.toSet());
