@@ -177,11 +177,11 @@ public class UpdateScheduler {
 		}
 
 		public String formatedPctActive1h() {
-			return String.format("%.3f", pctActive1h());
+			return String.format("%.2f", pctActive1h());
 		}
 
 		public String formatedPctActive1d() {
-			return String.format("%.3f", pctActive1d());
+			return String.format("%.2f", pctActive1d());
 		}
 
 		public String formattedReady() {

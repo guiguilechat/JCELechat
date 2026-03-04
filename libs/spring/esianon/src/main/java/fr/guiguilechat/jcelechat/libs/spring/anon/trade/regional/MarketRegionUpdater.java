@@ -207,8 +207,8 @@ public class MarketRegionUpdater
 				// move data from temp
 				long preMove = System.currentTimeMillis();
 				// seems to be slower on long run than plain csv dump ?
-//				marketLineService.copyFromTemp();
-				marketLineService.insertAll(createForRegion(r, e.getValue()));
+				marketLineService.copyFromTemp();
+//				marketLineService.insertAll(createForRegion(r, e.getValue()));
 				long postMove = System.currentTimeMillis();
 				log.trace("   inserted {} records for region {} in {} ms, @ {}i/s",
 						tempOrders.size(),
