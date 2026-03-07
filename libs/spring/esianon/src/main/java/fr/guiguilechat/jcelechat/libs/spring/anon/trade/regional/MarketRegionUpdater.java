@@ -75,7 +75,7 @@ public class MarketRegionUpdater
 	 * when true, we copy the temp table that we worked on for a region ; when
 	 * false, we dump the orders in the base table again.
 	 */
-	public boolean copyTempTable = false;
+	public boolean copyTempTable = true;
 
 	@Override
 	protected Requested<R_get_markets_region_id_orders[]> fetchData(Integer id, Map<String, String> properties) {

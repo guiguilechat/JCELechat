@@ -1,12 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff;
 
-import java.util.List;
-import java.util.Map;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.transaction.annotation.Transactional;
 
 public interface OrderUpdateRepository extends JpaRepository<OrderUpdate, Long> {
 
@@ -17,6 +13,7 @@ public interface OrderUpdateRepository extends JpaRepository<OrderUpdate, Long> 
 	@Query("""
 insert into #{#entityName} (
 	orderId,
+	regionId,
 	typeId,
 	newPrice,
 	date
@@ -28,25 +25,11 @@ where
 	old.price <> young.price
 select
 	young.id,
+	young.regionId,
 	young.typeId,
 	young.price,
 	young.issued
 """)
 	int addFromTempTable();
-
-	@Query("""
-from
-	EsiTradeMarketLineTemp young
-	join EsiTradeMarketLine old on old.id=young.id
-where
-	old.price <> young.price
-select
-	young.id orderId,
-	young.typeId typeId,
-	young.price price,
-	young.issued date
-""")
-	@Transactional
-	List<Map<String, Object>> debugFromTempTable();
 
 }

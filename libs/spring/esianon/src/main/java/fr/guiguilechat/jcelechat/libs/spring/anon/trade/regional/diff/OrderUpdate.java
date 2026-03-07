@@ -2,6 +2,8 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff;
 
 import java.time.Instant;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -32,6 +34,9 @@ public class OrderUpdate {
 	private Long id;
 
 	private long orderId;
+
+	@ColumnDefault("0")
+	private int regionId;
 
 	/** same as order's */
 	private int typeId;

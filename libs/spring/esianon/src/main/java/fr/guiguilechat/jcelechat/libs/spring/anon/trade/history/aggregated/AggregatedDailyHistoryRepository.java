@@ -147,6 +147,9 @@ from
 where
 	(cast(:maxDate as date) is null or line.date <= :maxDate)
 	and (cast(:minDate as date)is null or line.date >= :minDate)
+	and not copy
+	and me=0
+	and te=0
 group by
 	tp.id,
 	tp.name
