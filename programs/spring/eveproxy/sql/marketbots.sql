@@ -1,27 +1,30 @@
-with params(days) as(
-	values(7)
+with params(days, mininterval) as(
+	values(7, 14*interval '1 hour')
 ),
-aggregated(order_id, type_id, dailyupdates, dailyhours, spread, datestart, dateend, nbhours, spreadhours) as(
+aggregated(order_id, type_id, hourlyupdates, dailyhours, spread, datestart, dateend, nbhours, spreadhours) as(
 	select
 		line.order_id,
 		line.type_id,
 		1.0*count(*)
-			/(1.0*extract (epoch from interval '1 hour' + greatest(date_trunc('hour', max(line.date))
-											-date_trunc('hour', min(line.date)),
-										interval '1 day')
-						)/3600/24),
+			/(1.0*extract (epoch from greatest(	interval '1 hour' 
+													+ date_trunc('hour', max(line.date))
+													-date_trunc('hour', min(line.date)),
+												p.mininterval)
+						)/3600),
 		1.0*count(distinct(date_trunc('hour', line.date)))
-			/(1.0*extract (epoch from greatest(interval '1 hour' + date_trunc('hour', max(line.date))
-												-date_trunc('hour', min(line.date)),
-											interval '1 day')
+			/(1.0*extract (epoch from greatest(	interval '1 hour'
+													+ date_trunc('hour', max(line.date))
+													-date_trunc('hour', min(line.date)),
+												p.mininterval)
 						)/3600/24),
 		max(line.date)-min(line.date),
 		min(line.date),
 		max(line.date),
 		count(distinct(date_trunc('hour', line.date))),
-		(1.0*extract (epoch from greatest(interval '1 hour' + date_trunc('hour', max(line.date))
+		(1.0*extract (epoch from greatest(	interval '1 hour'
+												+ date_trunc('hour', max(line.date))
 												-date_trunc('hour', min(line.date)),
-											interval '1 day')
+											p.mininterval)
 						)/3600)
 	from
 		params p,
@@ -30,6 +33,7 @@ aggregated(order_id, type_id, dailyupdates, dailyhours, spread, datestart, datee
 		line.date> now()-p.days*interval '1 day'
 	group by
 		p.days,
+		p.mininterval,
 		line.order_id,
 		line.type_id
 )
@@ -40,7 +44,7 @@ select
 	line.type_id,
 	created.is_buy_order,
 	it.name typename,
-	to_char(line.dailyupdates, '99D9') "updates/d",
+	to_char(line.hourlyupdates, '99D9') "updates/h",
 	to_char(line.dailyhours, '99D9') "hours/d",
 	line.spread,
 	line.dateend
@@ -53,5 +57,5 @@ where
 	created.duration <>365 -- remove ccp bots
 order by
 	line.dailyhours desc
-	, line.dailyupdates desc
+	, line.hourlyupdates desc
 limit 100
