@@ -23,8 +23,7 @@ import lombok.Setter;
  */
 @Entity(name = "JcelechatTradeAggregatedHistory")
 @Table(name = "jcelechat_trade_aggregatedhistory", indexes = {
-		@Index(columnList = "typeId, me, te, copy"),
-		@Index(columnList = "date, typeId, me, te, copy")
+		@Index(columnList = "typeId, me, te, copy, date")
 })
 @AllArgsConstructor
 @NoArgsConstructor
@@ -39,7 +38,7 @@ public class AggregatedDailyHistory {
 	}
 
 	/**
-	 * average number
+	 * average price
 	 */
 	private double average;
 

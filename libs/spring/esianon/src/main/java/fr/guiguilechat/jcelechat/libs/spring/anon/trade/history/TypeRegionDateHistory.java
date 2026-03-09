@@ -25,9 +25,9 @@ import lombok.Setter;
  */
 @Entity(name = "EsiTradeTypeRegionDateHistory")
 @Table(name = "esi_trade_typeregiondatehistory", indexes = {
+		@Index(columnList = "typeId, date, regionId"),
 		@Index(columnList = "date"),
-		@Index(columnList = "extsource,date"),
-		@Index(columnList = "typeId,date")
+		@Index(columnList = "extsource, date")
 })
 @AllArgsConstructor
 @NoArgsConstructor

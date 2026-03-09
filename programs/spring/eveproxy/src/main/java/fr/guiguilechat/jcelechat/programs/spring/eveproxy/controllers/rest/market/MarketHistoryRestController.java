@@ -130,10 +130,16 @@ public class MarketHistoryRestController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
 		Instant from = Instant.now().minus(days.orElse(365 * 50) + 1, ChronoUnit.DAYS);
+		long start = System.currentTimeMillis();
 		List<AggregatedHL> fetchedData = contractMarketAggregator.aggregatedSales(typeId, from);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
+		log.trace("retrieved {} days for {}, since {}, in {}ms",
+				fetchedData.size(),
+				type.nameId(),
+				from,
+				System.currentTimeMillis() - start);
 		String title = "universe sales of " + type.nameId()
 				+ (days.isPresent() ? " over the last " + days.get() + " days" : "");
 		RestControllerHelper.setResponseTitle(response, type.name());
