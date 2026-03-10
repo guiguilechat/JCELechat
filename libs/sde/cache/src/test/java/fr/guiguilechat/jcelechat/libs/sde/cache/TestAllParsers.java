@@ -51,6 +51,7 @@ public class TestAllParsers {
 				EmapMoons.class,
 				EmapPlanets.class,
 				EmapRegions.class,
+				EmapSecondarySuns.class,
 				EmapSolarSystems.class,
 				EmapStargates.class,
 				EmapStars.class,

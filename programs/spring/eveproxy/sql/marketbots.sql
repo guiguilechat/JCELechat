@@ -1,5 +1,5 @@
 with params(days, mininterval) as(
-	values(7, 24*interval '1 hour')
+	values(8, 24*interval '1 hour')
 ),
 aggregated(order_id, type_id, hourlyupdates, dailyhours, spread, datestart, dateend, nbhours, spreadhours) as(
 	select
