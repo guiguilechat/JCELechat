@@ -408,14 +408,15 @@ public abstract class RemoteNumberEntityUpdater<
 			}
 			int bucketQueries = tokensBucket().availQueries();
 			int maxFromCycle = Math.min(errorQueries, bucketQueries);
-			log.trace(" {} max queries is {} from remaining errors={}[{}:0;{}:{}] bucketQueries={}",
+			log.trace(" {} max queries is {} from remaining errors={}[{}:0;{}:{}] bucketQueries={}, bucketLock={}",
 					serviceName(),
 					maxFromCycle,
 					remainErrors,
 					errorsMin,
 					errorsMax,
 					maxQueries,
-					bucketQueries);
+					bucketQueries,
+					tokensBucket().retryAfter());
 			// define qtty to get from the rate
 			int maxFromRate = maxUpdate();
 			int ret = Math.min(maxFromCycle, maxFromRate);

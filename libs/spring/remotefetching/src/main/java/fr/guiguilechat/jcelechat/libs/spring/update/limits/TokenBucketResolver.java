@@ -77,6 +77,10 @@ public class TokenBucketResolver {
 		return (bucket == null ? TokenBucket.DEFAULT_TOKENS : bucket.availTokens()) / TOKEN_PER_QUERY;
 	}
 
+	public Instant retryAfter() {
+		return bucket == null ? null : bucket.getLastRetryAfter();
+	}
+
 	/**
 	 * @return time at which we can start sending queries
 	 */

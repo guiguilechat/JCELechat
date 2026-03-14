@@ -85,15 +85,19 @@ public class ContractRegionUpdater extends
 	protected List<ContractInfo> createForRegion(ContractRegion region,
 			List<R_get_contracts_public_region_id> contracts,
 			Map<Integer, ContractInfo> existingPresent) {
-		log.debug(" contracts list {}({}) : received {}, stored active {}", region.getRegion().getName(),
+		log.trace(" contracts list {}({}) : received {}, stored active {}", region.getRegion().getName(),
 				region.getId(),
 				contracts.size(),
 				existingPresent.size());
+		if (contracts.isEmpty() && existingPresent.isEmpty()) {
+			return List.of();
+		}
 
 		// contract stored that are no more present are marked as removed and to be
 		// fetched again, to find out if they are completed (403) or canceled (404)
 		Map<Integer, R_get_contracts_public_region_id> newById = contracts.stream()
 				.collect(Collectors.toMap(c -> c.contract_id, c -> c));
+
 		List<ContractInfo> removed = new ArrayList<>();
 		for (Entry<Integer, ContractInfo> e : existingPresent.entrySet()) {
 			if (!newById.containsKey(e.getKey())) {
@@ -104,55 +108,66 @@ public class ContractRegionUpdater extends
 			}
 		}
 
-		long preFetchStations = System.currentTimeMillis();
-		Map<Long, SolarSystem> stationId2SolarSystem = stationService.getSolarSystems(contracts.stream()
-				.filter(c -> c.start_location_id < Integer.MAX_VALUE)
-				.map(c -> (int) c.start_location_id)
-				.distinct().toList());
-		long postFetchStations = System.currentTimeMillis();
-		log.trace(" retrieved {} stations's solar systems in {} ms",
-				stationId2SolarSystem.size(),
-				postFetchStations - preFetchStations);
-		ArrayList<ContractInfo> ret = new ArrayList<>(removed);
+		ArrayList<ContractInfo> modifiedContracts = new ArrayList<>(removed);
 
 		// then create the new ones
-		List<Integer> referencedCharacterIds = contracts.stream()
-				.map(ci -> ci.issuer_id)
-				.distinct().toList();
-		log.trace(" getting {} issuers for {} new received contracts",
-				referencedCharacterIds.size(),
-				contracts.size());
-		Function<Integer, CharacterInformation> getCharacter = characterInformationService
-				.getOrCreate(referencedCharacterIds)::get;
+		List<ContractInfo> newContracts = List.of();
+		if (!contracts.isEmpty()) {
 
-		List<Integer> referencedCorporationIds = contracts.stream()
-				.map(ci -> ci.issuer_corporation_id)
-				.distinct().toList();
-		log.trace("getting {} issuer corporations for {} new received contracts",
-				referencedCorporationIds.size(),
-				contracts.size());
-		Function<Integer, CorporationInfo> getCorporation = corporationInfoService
-				.getOrCreate(referencedCorporationIds)::get;
+			long preFetchStations = System.currentTimeMillis();
+			Map<Long, SolarSystem> stationId2SolarSystem =
+					stationService.getSolarSystems(contracts.stream()
+							.filter(c -> c.start_location_id < Integer.MAX_VALUE)
+							.map(c -> (int) c.start_location_id)
+							.distinct().toList());
+			long postFetchStations = System.currentTimeMillis();
+			log.trace("  retrieved {} stations's solar systems in {} ms",
+					stationId2SolarSystem.size(),
+					postFetchStations - preFetchStations);
 
-		List<ContractInfo> newContracts = contracts.stream()
-				.filter(c -> !existingPresent.containsKey(c.contract_id))
-				.map(c -> contractInfoService.createMinimal(c.contract_id)
-						.updateContract(
-								region,
-								c,
-								getCharacter,
-								getCorporation)
-						.updateSystem(stationId2SolarSystem))
-				.toList();
-		idResolutionService.createMissing(
-				Stream.concat(referencedCharacterIds.stream(), referencedCorporationIds.stream()));
+			List<Integer> referencedCharacterIds =
+					contracts.stream()
+							.map(ci -> ci.issuer_id)
+							.distinct().toList();
+			log.trace("  getting {} issuers for {} new received contracts",
+					referencedCharacterIds.size(),
+					contracts.size());
+			Function<Integer, CharacterInformation> getCharacter =
+					characterInformationService
+							.getOrCreate(referencedCharacterIds)::get;
+
+			List<Integer> referencedCorporationIds =
+					contracts.stream()
+							.map(ci -> ci.issuer_corporation_id)
+							.distinct().toList();
+			log.trace("  getting {} issuer corporations for {} new received contracts",
+					referencedCorporationIds.size(),
+					contracts.size());
+			Function<Integer, CorporationInfo> getCorporation =
+					corporationInfoService
+							.getOrCreate(referencedCorporationIds)::get;
+
+			newContracts =
+					contracts.stream()
+							.filter(c -> !existingPresent.containsKey(c.contract_id))
+							.map(c -> contractInfoService.createMinimal(c.contract_id)
+									.updateContract(
+											region,
+											c,
+											getCharacter,
+											getCorporation)
+									.updateSystem(stationId2SolarSystem))
+							.toList();
+			idResolutionService.createMissing(
+					Stream.concat(referencedCharacterIds.stream(), referencedCorporationIds.stream()));
+			modifiedContracts.addAll(newContracts);
+		}
 		log.debug("  contract list in {}({}) : {} new, {} removed",
 				region.getRegion().getName(),
 				region.getId(),
 				newContracts.size(),
 				removed.size());
-		ret.addAll(newContracts);
-		return ret;
+		return modifiedContracts;
 	}
 
 	@Override

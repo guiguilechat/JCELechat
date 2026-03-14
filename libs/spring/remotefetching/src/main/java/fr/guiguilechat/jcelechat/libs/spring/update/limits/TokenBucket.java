@@ -89,6 +89,8 @@ public class TokenBucket {
 				lastRetryAfter = response.getRetryAfterInstant();
 				log.trace("reached rate limit, set retry after to {}", lastRetryAfter);
 			} else {
+				log.trace("already reached rate limit, discarding code {} until {}", response.getResponseCode(),
+						lastRetryAfter);
 				// we already know we are in rate limit, no need to update the last retry
 			}
 		} else {
@@ -114,11 +116,11 @@ public class TokenBucket {
 							lastRetryAfter);
 				}
 			} else if (remaining <= 10) {
-				log.trace("replaced low remaing {} with fixed value to workaround missing retry-after", remaining);
+				log.trace("replaced low remaining {} with fixed value to workaround missing retry-after", remaining);
 				lastRemainingTokens = 10;
 			}
 		}
-		log.trace("bucket {} processed response {}:{} limitations={} ; lastRemaining={} lastRetryAfter={}",
+		log.trace("bucket {} processed response {}:{} limitations={} ; remaining={} retryAfter={}",
 				responseGroup,
 				response.getResponseCode(),
 				response.getURL(),
