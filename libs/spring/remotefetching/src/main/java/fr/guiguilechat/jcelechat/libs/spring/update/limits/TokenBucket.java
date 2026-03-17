@@ -25,7 +25,7 @@ public class TokenBucket {
 	public static final int DEFAULT_TOKENS = Integer.MAX_VALUE;
 
 	/** start waiting when less than this ratio of tokens are avail */
-	public static final double MAX_FILL_FACTOR = 0.1;
+	public static final double MAX_FILL_FACTOR = 0.05;
 
 	/**
 	 * the group identifies of the bucket
