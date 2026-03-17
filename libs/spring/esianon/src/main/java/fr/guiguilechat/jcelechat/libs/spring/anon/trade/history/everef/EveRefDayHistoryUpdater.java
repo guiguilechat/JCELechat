@@ -71,8 +71,6 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
-	protected boolean completed = false;
-
 	/** time/days fetched for the last pulse */
 	protected Long lastMsPerDay = null;
 
@@ -117,18 +115,11 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	@Transactional
 	@Override
 	public boolean updatePulse() {
-		if (completed) {
-			return false;
-		}
-
 		long start = System.currentTimeMillis();
 		List<EveRefDayHistory> toFetch = selectNext();
 		if (toFetch.isEmpty()) {
-			log.info(" everef fetching complete");
-			completed = true;
 			return false;
 		}
-		completed = false;
 		long postSelect = System.currentTimeMillis();
 		long selectTime = postSelect - start;
 		log.debug(" selected {} days to fetch, from {} to {}",
