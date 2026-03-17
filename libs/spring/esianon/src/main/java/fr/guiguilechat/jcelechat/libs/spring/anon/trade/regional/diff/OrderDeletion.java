@@ -13,7 +13,7 @@ import lombok.ToString;
 @Entity(name = "JcelechatTradeOrderDeletion")
 @Table(name = "jcelechat_trade_orderdeletion", indexes = {
 		@Index(columnList = "dateMax, dateMin"),
-		@Index(columnList = "typeId, dateMax, dateMin"),
+		@Index(columnList = "typeId, dateMax, dateMin")
 })
 @Getter
 @Setter

@@ -10,6 +10,16 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.transaction.annotation.Transactional;
 
 public interface OrderDeletionRepository extends JpaRepository<OrderDeletion, Long> {
+
+	@Modifying
+	@Query("""
+delete from
+	#{#entityName} already
+where
+	exists(select 1 from EsiTradeMarketLine line where already.orderId=line.id)
+""")
+	int deleteReAdded();
+
 	/**
 	 * deduce the removed orders by comparing the temp table and the existing orders
 	 * <p>
@@ -37,6 +47,7 @@ from
 where
 	deleted.regionId=:regionId
 	and not exists (select 1 from EsiTradeMarketLineTemp newer where newer.id=deleted.id)
+	and not exists (select 1 from  #{#entityName} already where already.orderId=deleted.id)
 select
 	deleted.id,
 	deleted.typeId,

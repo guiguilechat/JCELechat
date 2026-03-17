@@ -195,6 +195,11 @@ public class MarketRegionUpdater
 			}
 
 			long preDelete = System.currentTimeMillis();
+			int phantomRemoved = orderDeletionRepository.deleteReAdded();
+			if (phantomRemoved > 0) {
+				log.warn("deleted {} deletions for orders present again",
+						phantomRemoved);
+			}
 			int nbDeleted =
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
 			long postDelete = System.currentTimeMillis();
