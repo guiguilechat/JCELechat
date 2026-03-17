@@ -120,7 +120,7 @@ public class MarketRegionUpdater
 	}
 
 	/**
-	 * update the list of orders by puting them in temp table first
+	 * update the list of orders by putting them in temp table first
 	 *
 	 * @param responseOk
 	 */
