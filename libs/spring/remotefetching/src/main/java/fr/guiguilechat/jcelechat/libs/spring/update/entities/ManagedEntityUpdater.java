@@ -34,6 +34,10 @@ public abstract class ManagedEntityUpdater<Entity> implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
+	@Getter
+	@Setter
+	private Instant nextPulse = null;
+
 	/**
 	 * return the number of items that are still to be updated. This is used to
 	 * decide if all the entities are updated.
@@ -87,9 +91,11 @@ public abstract class ManagedEntityUpdater<Entity> implements EntityUpdater {
 			postUpdate();
 		}
 		long nbToUpdate = nbToUpdate();
-		log.trace("  {} has {} to update",
-				serviceName(),
-				nbToUpdate);
+		if (nbToUpdate > 0) {
+			log.trace("  {} has {} to update",
+					serviceName(),
+					nbToUpdate);
+		}
 		return nbToUpdate > 0;
 	}
 

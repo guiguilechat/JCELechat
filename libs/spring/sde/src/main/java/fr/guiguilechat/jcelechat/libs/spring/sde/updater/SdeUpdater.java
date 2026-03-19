@@ -54,6 +54,10 @@ public class SdeUpdater implements EntityUpdater {
 	private UpdateConfig update = new UpdateConfig();
 
 	@Getter
+	@Setter
+	private Instant nextPulse = null;
+
+	@Getter
 	// setter required to set from properties
 	@Setter
 	private boolean force = false;
@@ -76,7 +80,7 @@ public class SdeUpdater implements EntityUpdater {
 		if (nextFetch != null && nextFetch.isAfter(startDate)) {
 			return false;
 		}
-		log.debug("updating SDE, force={}", force);
+		log.trace("updating SDE, force={}", force);
 		SdeResult ur = SdeResult.builder().startedDate(startDate).build();
 		SdeResult lastSuccess = service.findLastSuccess();
 		String lastRelease = lastSuccess != null ? lastSuccess.getReleaseDate() : null;
@@ -108,7 +112,9 @@ public class SdeUpdater implements EntityUpdater {
 		ur.setProcessDurationMs(processedDate.toEpochMilli() - fetchedDate.toEpochMilli());
 
 		service.save(ur);
-		log.debug(" sde udpate result is {}, previous was on {}", ur, lastRelease);
+		if (ur.getStatus() != Status.CACHED) {
+			log.trace(" sde update result is {}, previous was on {}", ur, lastRelease);
+		}
 
 		force = false;
 		nextFetch = startDate.plusSeconds(getUpdate().getDelay());
@@ -121,7 +127,7 @@ public class SdeUpdater implements EntityUpdater {
 	}
 
 	protected void updateNewSDE(Success s, String lastRelease) throws IOException {
-		log.info("update SDE new(build:{} released:{}) previous=(released:{})",
+		log.debug("update SDE new(build:{} released:{}) previous=(released:{})",
 				s.meta().buildNumber,
 				s.meta().releaseDate,
 				lastRelease);
@@ -149,7 +155,7 @@ public class SdeUpdater implements EntityUpdater {
 			listeners.stream().flatMap(l -> l.listSDECaches().stream())
 					.forEach(cacheName -> cacheManager.getCache(cacheName).clear());
 		}
-		log.info(" updated SDE in {} ms",
+		log.trace(" updated SDE in {} ms",
 				System.currentTimeMillis() - startUpdate);
 	}
 

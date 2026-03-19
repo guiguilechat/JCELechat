@@ -7,11 +7,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -214,5 +216,16 @@ public class ContractInfoUpdater extends
 	@Getter
 	@Lazy
 	private final Optional<List<ContractItemsListener>> listeners;
+
+	// autonomous pulse
+
+	@Scheduled(fixedRateString = "${esi.trade.contract.info.update.delay}", timeUnit = TimeUnit.SECONDS)
+	@Transactional
+	public void update() {
+		if (getUpdate().isPulsed()) {
+			return;
+		}
+		updatePulse();
+	}
 
 }

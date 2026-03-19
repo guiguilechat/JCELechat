@@ -36,7 +36,10 @@ public class AggregatedDailyHistoryUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
+	private Instant nextPulse = null;
+
 	public int todayDelayS = 3600;
+
 
 	private Instant todayNextAggreg = null;
 

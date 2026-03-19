@@ -7,11 +7,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Limit;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.libs.everef.history.EverefHistoryFetcher;
@@ -43,6 +45,8 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 	private final TypeRegionDateHistoryService typeRegionDateHistoryService;
 
 	public long targetPulseMS = 10000;
+
+	private Instant nextPulse = null;
 
 	/**
 	 * first date to start fetching from
@@ -187,6 +191,17 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 			return getStartDate();
 		}
 		return lastDone.plusDays(1L);
+	}
+
+	// autonomous pulse
+
+	@Scheduled(fixedRateString = "${everef.trade.history.update.delay}", timeUnit = TimeUnit.SECONDS)
+	@Transactional
+	public void update() {
+		if (getUpdate().isPulsed()) {
+			return;
+		}
+		updatePulse();
 	}
 
 }

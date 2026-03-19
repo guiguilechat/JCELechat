@@ -31,7 +31,7 @@ public class SystemKillsUpdater implements EntityUpdater {
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
-	private Instant nextUpdate = null;
+	private Instant nextPulse = null;
 
 	/** lastmodified of last fetch */
 	private Instant previousLastModified = null;
@@ -39,7 +39,7 @@ public class SystemKillsUpdater implements EntityUpdater {
 	@Transactional
 	@Override
 	public boolean updatePulse() {
-		if (nextUpdate != null && nextUpdate.isAfter(Instant.now())) {
+		if (nextPulse != null && nextPulse.isAfter(Instant.now())) {
 			return false;
 		}
 		if (previousLastModified == null) {
@@ -85,18 +85,18 @@ public class SystemKillsUpdater implements EntityUpdater {
 				log.debug(" received data with same last-modified as previously received {} , skipping to {}",
 						lastModified, expires);
 			}
-			nextUpdate = expires;
+			nextPulse = expires;
 			previousLastModified = lastModified;
 			return false;
 		}
-		nextUpdate = Instant.now().plusSeconds(5 * 60);
+		nextPulse = Instant.now().plusSeconds(5 * 60);
 		return true;
 	}
 
 	@Override
 	public Instant nextPulse(boolean remain, Instant now) {
-		if (nextUpdate != null) {
-			return nextUpdate;
+		if (nextPulse != null) {
+			return nextPulse;
 		}
 		return EntityUpdater.super.nextPulse(remain, now);
 	}

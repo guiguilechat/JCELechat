@@ -5,12 +5,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.scheduling.annotation.Scheduled;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.json.JsonReadFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 
+import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -42,6 +44,12 @@ public interface EntityUpdater extends EntityService {
 		 * RemoteResourceUpdaterService value
 		 */
 		private Boolean skip = null;
+
+		/**
+		 * when set to false, the service is not managed by the scheduler but using its
+		 * own {@link Scheduled} method. This method should also respect this field
+		 */
+		private boolean pulsed = true;
 
 		/** max number of fetch each cycle */
 		private int max = 1000;
@@ -165,6 +173,20 @@ public interface EntityUpdater extends EntityService {
 			}
 		}
 		return now.plusSeconds(delay);
+	}
+
+	void setNextPulse(Instant nextPule);
+
+	Instant getNextPulse();
+
+	@Transactional
+	default boolean pulseSchedule() {
+		if (getNextPulse() != null && getNextPulse().isAfter(Instant.now())) {
+			return true;
+		}
+		boolean ret = updatePulse();
+		setNextPulse(nextPulse(ret, Instant.now()));
+		return ret;
 	}
 
 

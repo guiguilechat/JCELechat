@@ -37,6 +37,10 @@ public class GameClientUpdateService implements EntityUpdater {
 	@Getter
 	private UpdateConfig update = new UpdateConfig();
 
+	@Getter
+	@Setter
+	private Instant nextPulse = null;
+
 	/**
 	 * when true, force next fetch
 	 */

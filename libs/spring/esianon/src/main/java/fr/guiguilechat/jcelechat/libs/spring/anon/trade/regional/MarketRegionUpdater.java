@@ -6,12 +6,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -24,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.update.entities.CacheInvalidator;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
+import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -197,8 +200,9 @@ public class MarketRegionUpdater
 			long preDelete = System.currentTimeMillis();
 			int phantomRemoved = orderDeletionRepository.deleteReAdded();
 			if (phantomRemoved > 0) {
-				log.warn("deleted {} deletions for orders present again",
-						phantomRemoved);
+				log.warn("deleted {} deletions for orders present again in region {}",
+						phantomRemoved,
+						rid);
 			}
 			int nbDeleted =
 					orderDeletionRepository.addFromTempTable(rid, r.getPreviousLastModified(), r.getLastModified());
@@ -309,5 +313,16 @@ public class MarketRegionUpdater
 	@Getter
 	@Lazy
 	private final Optional<List<MarketRegionListener>> listeners;
+
+	// autonomous pulse
+
+	@Scheduled(fixedRateString = "${esi.trade.market.update.delay:10}", timeUnit = TimeUnit.SECONDS)
+	@Transactional
+	public void update() {
+		if (getUpdate().isPulsed()) {
+			return;
+		}
+		updatePulse();
+	}
 
 }

@@ -53,6 +53,10 @@ public abstract class BatchFetchService<
 	@Getter
 	private final UpdateConfig update = new UpdateConfig();
 
+	@Getter
+	@Setter
+	private Instant nextPulse = null;
+
 	/**
 	 * following fetch date, if any. If not set, default method to use the
 	 * {@link UpdateConfig}. It is reset during the {@link #preUpdate()}

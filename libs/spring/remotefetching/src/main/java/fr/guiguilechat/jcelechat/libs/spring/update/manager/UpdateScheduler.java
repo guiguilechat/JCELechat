@@ -8,7 +8,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -103,8 +102,6 @@ public class UpdateScheduler {
 	/** when not null, time before which we skip the update cycles */
 	private Instant nextUpdate = Instant.now();
 
-	private Map<String, Instant> fetcherNameToNextPulse = new HashMap<>();
-
 	@Scheduled(fixedRateString = "${jcesi.manager.period:1000}", initialDelayString = "${jcesi.manager.delay:1000}")
 	public void pulseLoop() throws IOException {
 		if (skip) {
@@ -120,7 +117,7 @@ public class UpdateScheduler {
 				registeredServices.stream().filter(s -> !shouldSkip(s))
 						.toList();
 		List<EntityUpdater> readyServices = activeServices.stream().filter(s -> {
-			Instant next = fetcherNameToNextPulse.get(s.serviceName());
+			Instant next = s.getNextPulse();
 			return next == null || !next.isAfter(start);
 		}).toList();
 		if (readyServices.isEmpty()) {
@@ -137,17 +134,15 @@ public class UpdateScheduler {
 			}
 			Instant serviceStart = Instant.now();
 			log.trace("updating {}", s.serviceName());
-			boolean remain = s.updatePulse();
+			boolean remain = s.pulseSchedule();
 			nextPulseReady |= remain;
-			Instant serviceNextPulse = s.nextPulse(remain, start);
-			fetcherNameToNextPulse.put(s.serviceName(), serviceNextPulse);
 			Instant serviceEnd = Instant.now();
 			updaterPulseService.save(s.serviceName(), serviceStart, serviceEnd);
 			log.trace(" updated {} in {} ms, remaining={} next={}",
 					s.serviceName(),
 					serviceEnd.toEpochMilli() - serviceStart.toEpochMilli(),
 					remain,
-					format(serviceNextPulse));
+					format(s.getNextPulse()));
 		}
 
 		if (!nextPulseReady) {
@@ -179,7 +174,8 @@ public class UpdateScheduler {
 	 * @return
 	 */
 	public boolean shouldSkip(EntityUpdater updater) {
-		return Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
+		return !updater.getUpdate().isPulsed()
+				|| Optional.ofNullable(updater.getUpdate().getSkip()).orElse(defaultSkip);
 	}
 
 	// introspection
@@ -221,7 +217,7 @@ public class UpdateScheduler {
 			if (shouldSkip(eu)) {
 				inactive.add(eu);
 			} else {
-				Instant readyAt = fetcherNameToNextPulse.get(eu.serviceName());
+				Instant readyAt = eu.getNextPulse();
 				if (readyAt != null && !readyAt.isAfter(Instant.now())) {
 					readyAt = null;
 				}

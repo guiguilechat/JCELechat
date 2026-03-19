@@ -383,7 +383,7 @@ public abstract class RemoteNumberEntityUpdater<
 				int nbSuccess = update(list);
 				long nbRemain = nbToUpdate();
 				long endTimeMs = System.currentTimeMillis();
-				log.debug(" {} updated {}/{} in {} ms, remain {}",
+				log.trace(" {} updated {}/{} in {} ms, remain {}",
 						serviceName(),
 						nbSuccess, nbUpdates,
 						endTimeMs - startTimeMs, nbRemain);
@@ -443,14 +443,18 @@ public abstract class RemoteNumberEntityUpdater<
 		 */
 		protected List<Entity> listToUpdate() {
 			lastBatchSize = maxAllowedQueries();
-			List<Entity> ret = lastBatchSize < 1
-					? List.of()
-					: repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant.now(),
+			if (lastBatchSize < 1) {
+				return List.of();
+			}
+			List<Entity> ret =
+					repo().findByFetchActiveTrueAndExpiresBeforeOrderByFetchPriorityDescExpiresAsc(Instant.now(),
 							Limit.of(lastBatchSize));
-			log.debug(" {} listed {} entities to update with max batch size {}",
-					serviceName(),
-					ret.size(),
-					lastBatchSize);
+			if (!ret.isEmpty()) {
+				log.trace(" {} listed {} entities to update with max batch size {}",
+						serviceName(),
+						ret.size(),
+						lastBatchSize);
+			}
 			return ret;
 		}
 

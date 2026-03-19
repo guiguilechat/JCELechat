@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * manage the global errors of ESI
+ * manage the global errors of ESI, synchronized
  *
  * @see https://developers.eveonline.com/blog/error-rate-limiting-imminent
  */
