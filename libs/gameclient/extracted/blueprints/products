@@ -5601,12 +5601,15 @@ bpId	activity	typeId	quantity	probability
 52977	manufacturing	52921	1	1.0
 52978	manufacturing	52922	1	1.0
 53029	manufacturing	52907	1	1.0
+53030	invention	92654	5	0.34
 53030	manufacturing	52915	1	1.0
 53031	manufacturing	52916	5000	1.0
 53032	manufacturing	53035	1	1.0
 53033	manufacturing	53036	1	1.0
 53034	manufacturing	53037	1	1.0
+53303	invention	92956	5	0.34
 53303	manufacturing	53301	5000	1.0
+53304	invention	92957	5	0.34
 53304	manufacturing	53302	5000	1.0
 53722	manufacturing	53704	1	1.0
 53723	manufacturing	53705	1	1.0
@@ -6298,3 +6301,7 @@ bpId	activity	typeId	quantity	probability
 90476	manufacturing	90475	1	1.0
 90734	manufacturing	90733	500	1.0
 91175	manufacturing	91174	1	1.0
+92182	manufacturing	92183	1	1.0
+92654	manufacturing	92514	1	1.0
+92956	manufacturing	92954	5000	1.0
+92957	manufacturing	92952	5000	1.0
