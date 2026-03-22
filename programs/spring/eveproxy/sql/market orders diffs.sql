@@ -1,5 +1,10 @@
 with params(resolution, period, regionid, typeid, groupid, categoryid) as (
-	values(5, 7*interval '1 days', null::integer, null::integer, null::integer, null::integer)
+	values(5, 7*interval '1 days',
+	10000002::integer, --regionid
+	null::integer, --typeid
+	null::integer, --groupid
+	null::integer --categoryid
+	)
 ),
 allowed(id) as(
 	select
