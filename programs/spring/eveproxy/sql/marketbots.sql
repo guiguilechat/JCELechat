@@ -1,5 +1,5 @@
 with params(days, mininterval) as(
-	values(8, 16*interval '1 hour')
+	values(31, 16*interval '1 hour')
 ),
 aggregated(order_id, type_id, datestart, dateend, spread, spread_hours, trunc_spread_hours, trunc_hours, nbupdates) as(
 	select
@@ -34,8 +34,8 @@ select
 	line.type_id,
 	created.is_buy_order bo,
 	it.name typename,
-	to_char(1.0*line.nbupdates/line.spread_hours, '99D99') "updates/h",
-	to_char(1.0*line.trunc_hours/line.trunc_spread_hours*24, '99D99') "hours/d",
+	to_char(1.0*line.nbupdates/line.spread_hours, '90D99') "updates/h",
+	to_char(1.0*line.trunc_hours/line.trunc_spread_hours*100, '990D99') "trunc%",
 	line.nbupdates,
 	line.trunc_hours,
 	date_trunc('second', line.spread) update_spread,
@@ -57,6 +57,6 @@ where
 	created.duration <>365 -- remove ccp bots
 order by
 --	1.0*line.nbupdates/line.spread_hours desc ,
-	1.0*line.trunc_hours/line.trunc_spread_hours*24 desc
+	1.0*line.trunc_hours/line.trunc_spread_hours desc
 	, 1.0*line.nbupdates/line.spread_hours desc
 limit 1000

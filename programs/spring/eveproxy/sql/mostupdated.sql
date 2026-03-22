@@ -1,5 +1,5 @@
-with params(days, regionId) as (
-	values(21, 10000002)
+with params(days, regionId, mindayactivity) as (
+	values(31, 10000002, 16)
 ),
 updates as(
 select
@@ -33,13 +33,17 @@ group by
 select
 	updates.type_id,
 	t.name,
-	updates.nb nbupdates,
-	creations.nb nbcreations,
-	to_char(updates.nb/creations.nb, '990D99') ratio
+	coalesce(updates.nb, 0) nbupdates,
+	coalesce(creations.nb, 0) nbcreations,
+	to_char(100.0*coalesce(updates.nb, 0)/(coalesce(creations.nb, 0)+coalesce(updates.nb, 0)), '990D99') update_pct
 from
+	params,
 	updates
-	left join creations on updates.type_id=creations.type_id
-	left join sde_items_type t on t.id=updates.type_id
+	full join creations on updates.type_id=creations.type_id
+	left join sde_items_type t on t.id=coalesce(updates.type_id, creations.type_id)
+where
+	coalesce(creations.nb, 0)+coalesce(updates.nb, 0)>params.days*params.mindayactivity
 order by
-	updates.nb desc
-limit 200
+	100.0*coalesce(updates.nb, 0)/(coalesce(creations.nb, 0)+coalesce(updates.nb, 0)) desc,
+	coalesce(updates.nb, 0) desc
+limit 1000
