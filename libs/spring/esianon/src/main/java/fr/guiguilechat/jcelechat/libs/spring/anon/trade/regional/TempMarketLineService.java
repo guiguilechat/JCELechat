@@ -33,7 +33,7 @@ public class TempMarketLineService {
 		try {
 			Connection conn = DataSourceUtils.getConnection(datasource);
 			if (conn.isWrapperFor(PGConnection.class)) {
-				log.debug("  using PG connection to insert {} orders", entities.size());
+				log.trace("  using PG connection to insert {} orders", entities.size());
 				if (insertPGCopy(entities, conn.unwrap(PGConnection.class).getCopyAPI())) {
 					return;
 				} else {

@@ -225,7 +225,7 @@ public class ContractInfoUpdater extends
 		if (getUpdate().isPulsed()) {
 			return;
 		}
-		updatePulse();
+		pulseSchedule();
 	}
 
 }

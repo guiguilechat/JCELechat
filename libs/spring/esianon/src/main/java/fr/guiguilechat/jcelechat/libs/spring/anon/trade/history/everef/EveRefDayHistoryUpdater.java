@@ -201,7 +201,7 @@ public class EveRefDayHistoryUpdater implements EntityUpdater {
 		if (getUpdate().isPulsed()) {
 			return;
 		}
-		updatePulse();
+		pulseSchedule();
 	}
 
 }

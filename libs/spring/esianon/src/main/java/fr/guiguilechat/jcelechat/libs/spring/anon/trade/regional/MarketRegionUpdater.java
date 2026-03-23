@@ -196,7 +196,6 @@ public class MarketRegionUpdater
 										.collect(Collectors.joining(",")))
 								.collect(Collectors.joining("\n")));
 			}
-
 			long preDelete = System.currentTimeMillis();
 			int phantomRemoved = orderDeletionRepository.deleteReAdded();
 			if (phantomRemoved > 0) {
@@ -235,7 +234,7 @@ public class MarketRegionUpdater
 						1000 * tempOrders.size() / Math.max(1, postMove - preMove));
 			}
 		}
-			log.debug(
+		log.trace(
 					"  processed {} orders for region {} in {}ms with {} creations, {} deletions, {} updates, {} sales",
 					tempOrders.size(), rid,
 					System.currentTimeMillis() - preDump,
@@ -322,7 +321,7 @@ public class MarketRegionUpdater
 		if (getUpdate().isPulsed()) {
 			return;
 		}
-		updatePulse();
+		pulseSchedule();
 	}
 
 }
