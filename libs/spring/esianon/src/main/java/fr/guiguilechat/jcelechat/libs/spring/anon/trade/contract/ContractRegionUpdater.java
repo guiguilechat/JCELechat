@@ -162,7 +162,7 @@ public class ContractRegionUpdater extends
 					Stream.concat(referencedCharacterIds.stream(), referencedCorporationIds.stream()));
 			modifiedContracts.addAll(newContracts);
 		}
-		log.debug("  contract list in {}({}) : {} new, {} removed",
+		log.trace("  contract list in {}({}) : {} new, {} removed",
 				region.getRegion().getName(),
 				region.getId(),
 				newContracts.size(),

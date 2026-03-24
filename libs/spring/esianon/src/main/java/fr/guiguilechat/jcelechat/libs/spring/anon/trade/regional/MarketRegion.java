@@ -44,7 +44,7 @@ public class MarketRegion extends RemoteNumberEntity<Integer, R_get_markets_regi
 		// no data => wait additional time.
 		if (nbLines == 0) {
 			setExpires(getExpires().plusSeconds(10 * 60));
-			log.debug("  region {} received {} lines, push back expires to {}",
+			log.trace("  region {} received {} lines, push back expires to {}",
 					getId(),
 					nbLines,
 					getExpires());

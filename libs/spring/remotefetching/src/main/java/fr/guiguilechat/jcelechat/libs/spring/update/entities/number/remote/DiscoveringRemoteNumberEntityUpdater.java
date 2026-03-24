@@ -112,7 +112,7 @@ public abstract class DiscoveringRemoteNumberEntityUpdater<
 				switch (resp.getResponseCode()) {
 				case 200:
 					long postFetch = System.currentTimeMillis();
-					log.debug(" {} listed {} entries in {}s", serviceName(), resp.getOK().size(),
+					log.trace(" {} listed {} entries in {}s", serviceName(), resp.getOK().size(),
 							(postFetch - startms) / 1000);
 					onNewListFetched(createMissing(resp.getOK()));
 					lastListEtag = resp.getETag();

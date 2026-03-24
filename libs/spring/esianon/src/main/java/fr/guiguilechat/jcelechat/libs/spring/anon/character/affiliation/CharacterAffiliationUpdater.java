@@ -49,7 +49,7 @@ public class CharacterAffiliationUpdater extends
 
 	@Override
 	public Map<CharacterAffiliation, R_post_characters_affiliation> fetchData(List<CharacterAffiliation> toUpdate) {
-		log.debug(" updating list of {} elements service {}", toUpdate.size(), getClass().getSimpleName());
+		log.trace(" updating list of {} elements service {}", toUpdate.size(), getClass().getSimpleName());
 		if (toUpdate == null || toUpdate.isEmpty()) {
 			return Map.of();
 		}
