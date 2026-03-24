@@ -11,20 +11,18 @@ do
 	target="structure/"$(echo $sqlfile | sed s/.*staticdata/staticdata/g) 
 	echo "$sqlfile -> $target"
 	# https://sqlite.org/cli.html#changing_output_formats
-	sqlite3 -csv -separator $'\t' "$sqlfile" \
-		>"$target" \
-		<<EOF
-	select 
-		replace(tree.fullkey, '"', '') "path",
-		tree.type "type"
-	from
-		cache c,
-		json_tree(c.value) tree
-	WHERE
-		not tree.fullkey regexp '.*\[[1-9].*' --ignore index more than 0
-		and not tree.type in ('array', 'object')
-	group by tree.fullkey, tree.type
-	order by replace(tree.fullkey, '"', ''), tree.type
+	sqlite3 -csv -separator $'\t' "$sqlfile" <<EOF | sed -E "s/\\.[0-9]+/.0/g" | sort | uniq >"$target"
+select 
+	replace(tree.fullkey, '"', '') "path",
+	tree.type "type"
+from
+	cache c,
+	json_tree(c.value) tree
+WHERE
+	not tree.fullkey regexp '.*\[[1-9].*' --ignore index more than 0
+	and not tree.type in ('array', 'object')
+group by tree.fullkey, tree.type
+order by replace(tree.fullkey, '"', ''), tree.type
 EOF
 		
 done
