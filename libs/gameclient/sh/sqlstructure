@@ -4,11 +4,11 @@
 last_cache=$(find .evecache/* -maxdepth 0 -type d -printf '%T+ %p\n'| sort | tail -n 1 | cut -d ' ' -f 2)
 echo "last cache is $last_cache"
 
-rm -rf structure/staticdata
-mkdir -p structure/staticdata
+rm -rf extracted/structure/staticdata
+mkdir -p extracted/structure/staticdata
 for sqlfile in $(file $last_cache/staticdata/* | grep "SQLite" | cut -d':' -f1) ;
 do
-	target="structure/"$(echo $sqlfile | sed s/.*staticdata/staticdata/g) 
+	target="extracted/structure/"$(echo $sqlfile | sed s/.*staticdata/staticdata/g) 
 	echo "$sqlfile -> $target"
 	# https://sqlite.org/cli.html#changing_output_formats
 	sqlite3 -csv -separator $'\t' "$sqlfile" <<EOF | sed -E "s/\\.[0-9]+/.0/g" | sort | uniq >"$target"
