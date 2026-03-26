@@ -1,11 +1,16 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated;
 
+import java.time.Instant;
 import java.time.LocalDate;
+import java.time.ZoneOffset;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedTypeDetails;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -23,10 +28,15 @@ public class AggregatedDailyHistoryService {
 
 	// query for one type
 
-	protected List<AggregatedDailyHistory> itemHistory(int typeId, int me, int te, boolean copy, LocalDate start,
+	protected List<AggregatedDailyHistory> itemHistory(int typeId,
+			int me,
+			int te,
+			boolean copy,
+			LocalDate start,
 			LocalDate end) {
 		if (start != null && end != null) {
-			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(typeId, me,
+			return repo.findAllByTypeIdAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(typeId,
+					me,
 					te, copy, start, end);
 		}
 		if (start != null) {
@@ -42,6 +52,18 @@ public class AggregatedDailyHistoryService {
 		return itemHistory(typeId, 0, 0, false, start, end);
 	}
 
+	public List<AggregatedHL> typeHistory(int typeId, Optional<Integer> days) {
+		return typeHistory(typeId,
+				days != null && days.isPresent()
+						? Instant.now().minus(days.get() + 1, ChronoUnit.DAYS).atOffset(ZoneOffset.UTC)
+								.toLocalDate()
+						: null,
+				null)
+				.stream()
+				.map(AggregatedDailyHistory::toAggregtedHL)
+				.toList();
+	}
+
 	public List<AggregatedDailyHistory> bpoHistory(int typeId, int me, int te, LocalDate start, LocalDate end) {
 		return itemHistory(typeId, me, te, false, start, end);
 	}
@@ -52,15 +74,20 @@ public class AggregatedDailyHistoryService {
 
 	// query for several types
 
-	protected List<AggregatedDailyHistory> itemsHistory(Iterable<Integer> typeIds, int me, int te, boolean copy,
+	protected List<AggregatedDailyHistory> itemsHistory(Iterable<Integer> typeIds,
+			int me,
+			int te,
+			boolean copy,
 			LocalDate start,
 			LocalDate end) {
 		if (start != null && end != null) {
-			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(typeIds, me,
+			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualAndDateLessThanEqualOrderByDate(
+					typeIds, me,
 					te, copy, start, end);
 		}
 		if (start != null) {
-			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(typeIds, me, te, copy, start);
+			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateGreaterThanEqualOrderByDate(typeIds, me, te, copy,
+					start);
 		}
 		if (end != null) {
 			return repo.findAllByTypeIdInAndMeAndTeAndCopyAndDateLessThanEqualOrderByDate(typeIds, me, te, copy, end);

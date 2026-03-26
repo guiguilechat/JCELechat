@@ -1,7 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade;
 
-import java.time.Instant;
-import java.time.ZoneOffset;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -13,9 +11,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.contract.ContractInfoUpdater.ContractItemsListener;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistory;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketLineService;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.MarketRegionUpdater.MarketRegionListener;
@@ -40,12 +36,6 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 
 	@Lazy
 	private final AggregatedDailyHistoryService aggregatedDailyHistoryService;
-
-	@Lazy
-	private final ContractFacadeBpo contractFacadeBpo;
-
-	@Lazy
-	private final ContractFacadeBpc contractFacadeBpc;
 
 	@Lazy
 	private final ContractFacadeNonBp contractFacadeNonBp;
@@ -113,13 +103,6 @@ public class ContractMarketAggregator implements ContractItemsListener, MarketRe
 				.entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey,
 						k -> k.getValue().stream().mapToDouble(MarketOrder::getPrice).max().orElse(Double.POSITIVE_INFINITY)));
-	}
-
-	public List<AggregatedHL> aggregatedSales(int typeId, Instant from) {
-		return aggregatedDailyHistoryService.typeHistory(typeId, from.atOffset(ZoneOffset.UTC).toLocalDate(), null)
-				.stream()
-				.map(AggregatedDailyHistory::toAggregtedHL)
-				.toList();
 	}
 
 	@Cacheable("MarketHistoryAggregatedPresent")

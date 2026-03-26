@@ -106,10 +106,10 @@ public class ContractFacadeNonBp {
 	}
 
 	public List<AggregatedTypeDetails> aggregateHighestIskVolume(int days, int limit) {
-		var now = Instant.now();
-		var minDay = now.minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<AggregatedTypeDetails> ret = contractInfoRepository.aggregateUnresearchedHighestSales(minDay, now,
+		var minDay = Instant.now().minus(days, ChronoUnit.DAYS).truncatedTo(ChronoUnit.DAYS);
+		List<AggregatedTypeDetails> ret =
+				contractInfoRepository.aggregateUnresearchedHighestSales(minDay, null,
 				limit);
 		long stop = System.currentTimeMillis();
 		log.trace("fetched most sold over {} days in {} ms, returning {} records", days, stop - start, ret.size());

@@ -34,6 +34,7 @@ import org.knowm.xchart.OHLCChart;
 import org.knowm.xchart.OHLCChartBuilder;
 import org.knowm.xchart.internal.chartpart.Chart;
 import org.knowm.xchart.style.Styler.LegendPosition;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -49,7 +50,7 @@ import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.AggregatedHL;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.aggregate.SlidingAverage;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpc;
 import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractFacadeBpo;
-import fr.guiguilechat.jcelechat.libs.spring.anon.trade.facade.ContractMarketAggregator;
+import fr.guiguilechat.jcelechat.libs.spring.anon.trade.history.aggregated.AggregatedDailyHistoryService;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.Type;
 import fr.guiguilechat.jcelechat.libs.spring.sde.items.type.TypeService;
 import fr.guiguilechat.jcelechat.programs.spring.eveproxy.controllers.rest.ChartTheme;
@@ -68,11 +69,12 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class MarketHistoryRestController {
 
+	@Lazy
+	private final AggregatedDailyHistoryService aggregatedDailyHistoryService;
+
 	final private ContractFacadeBpc contractFacadeBpc;
 
 	final private ContractFacadeBpo contractFacadeBpo;
-
-	final private ContractMarketAggregator contractMarketAggregator;
 
 	private final TypeService typeService;
 
@@ -86,8 +88,7 @@ public class MarketHistoryRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		Instant from = Instant.now().minus(days.orElse(365 * 10) + 1, ChronoUnit.DAYS);
-		List<AggregatedHL> data = contractMarketAggregator.aggregatedSales(typeId, from);
+		List<AggregatedHL> data = aggregatedDailyHistoryService.typeHistory(typeId, days);
 		return RestControllerHelper.makeResponse(TypeData.of(type, data),
 				accept);
 	}
@@ -129,16 +130,17 @@ public class MarketHistoryRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		Instant from = Instant.now().minus(days.orElse(365 * 50) + 1, ChronoUnit.DAYS);
 		long start = System.currentTimeMillis();
-		List<AggregatedHL> fetchedData = contractMarketAggregator.aggregatedSales(typeId, from);
+		List<AggregatedHL> fetchedData =
+				aggregatedDailyHistoryService
+						.typeHistory(typeId, days);
 		if (fetchedData.isEmpty()) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " has no sale record");
 		}
-		log.trace("retrieved {} days for {}, since {}, in {}ms",
+		log.trace("retrieved {} days for {}, on {} days, in {}ms",
 				fetchedData.size(),
 				type.nameId(),
-				from,
+				days,
 				System.currentTimeMillis() - start);
 		String title = "universe sales of " + type.nameId()
 				+ (days.isPresent() ? " over the last " + days.get() + " days" : "");
