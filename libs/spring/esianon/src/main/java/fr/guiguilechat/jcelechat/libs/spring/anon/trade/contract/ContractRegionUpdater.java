@@ -5,12 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
@@ -24,6 +26,7 @@ import fr.guiguilechat.jcelechat.libs.spring.sde.space.station.StationService;
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.remote.DiscoveringRemoteNumberEntityUpdater;
 import fr.guiguilechat.jcelechat.libs.spring.update.resolve.id.IdResolutionService;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -173,6 +176,17 @@ public class ContractRegionUpdater extends
 	@Override
 	protected Requested<List<Integer>> discoverRemoteIds(Map<String, String> p) {
 		return ESIRawPublic.INSTANCE.get_universe_regions(p).mapBody(List::of);
+	}
+
+	// autonomous pulse
+
+	@Scheduled(fixedRateString = "${esi.trade.contract.region.update.delay:10}", timeUnit = TimeUnit.SECONDS)
+	@Transactional
+	public void update() {
+		if (getUpdate().isPulsed()) {
+			return;
+		}
+		pulseSchedule();
 	}
 
 }

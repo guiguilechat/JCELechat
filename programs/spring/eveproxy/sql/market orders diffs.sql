@@ -1,9 +1,11 @@
 with params(resolution, period, regionid, typeid, groupid, categoryid) as (
-	values(5, 7*interval '1 days',
-	10000002::integer, --regionid
-	null::integer, --typeid
-	null::integer, --groupid
-	null::integer --categoryid
+	values(
+		10,-- resolution, as minutes to aggregate
+		8*interval '1 days', -- period we observe the events on
+		10000002::integer, --regionid
+		null::integer, --typeid
+		null::integer, --groupid
+		null::integer --categoryid
 	)
 ),
 allowed(id) as(

@@ -28,6 +28,9 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * updates the contract infos, so owner, items, status.
+ */
 @Slf4j
 @Service
 @ConfigurationProperties(prefix = "esi.trade.contract.info")
@@ -219,7 +222,7 @@ public class ContractInfoUpdater extends
 
 	// autonomous pulse
 
-	@Scheduled(fixedRateString = "${esi.trade.contract.info.update.delay}", timeUnit = TimeUnit.SECONDS)
+	@Scheduled(fixedRateString = "${esi.trade.contract.info.update.delay:10}", timeUnit = TimeUnit.SECONDS)
 	@Transactional
 	public void update() {
 		if (getUpdate().isPulsed()) {

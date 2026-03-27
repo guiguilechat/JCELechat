@@ -52,12 +52,13 @@ public class AggregatedDailyHistoryService {
 		return itemHistory(typeId, 0, 0, false, start, end);
 	}
 
+	private final int DEFAULT_DAYS = 730;
+
 	public List<AggregatedHL> typeHistory(int typeId, Optional<Integer> days) {
+		int idays = days == null || days.isEmpty() ? DEFAULT_DAYS : days.get();
 		return typeHistory(typeId,
-				days != null && days.isPresent()
-						? Instant.now().minus(days.get() + 1, ChronoUnit.DAYS).atOffset(ZoneOffset.UTC)
-								.toLocalDate()
-						: null,
+				Instant.now().minus(idays, ChronoUnit.DAYS).atOffset(ZoneOffset.UTC)
+						.toLocalDate(),
 				null)
 				.stream()
 				.map(AggregatedDailyHistory::toAggregtedHL)
