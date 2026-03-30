@@ -43,44 +43,65 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Type extends SdeEntity<Integer> {
 
-
 	public static final int LARGE_SKILL_INJECTOR_ID = 40520;
 	public static final int PLEX_ID = 44992;
 	public static final int SMALL_SKILL_INJECTOR_ID = 45635;
 
 	@OneToMany(mappedBy = "typeId", fetch = FetchType.LAZY)
 	private List<TypeAttribute> attributes = new ArrayList<>();
+
 	private BigDecimal basePrice;
+
 	private BigDecimal capacity;
+
 	@OneToOne(mappedBy = "type", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	private TypeDescription description;
+
 	@OneToMany(mappedBy = "typeId", fetch = FetchType.LAZY)
 	private List<TypeEffect> effects = new ArrayList<>();
+
 	@ColumnDefault("0")
 	private int factionId;
+
 	@ColumnDefault("0")
 	private int graphicId;
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Group group;
+
 	@ColumnDefault("0")
 	private int iconId;
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	private MarketGroup marketGroup;
+
 	private BigDecimal mass;
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	private MetaGroup metaGroup;
+
+	@ColumnDefault("0")
+	private int metalLevel;
+
 	private String name;
+
 	@ColumnDefault("0")
 	private int portionSize;
+
 	@ColumnDefault("true")
 	private boolean published;
+
 	@ColumnDefault("0")
 	private int raceId;
+
 	private BigDecimal radius;
+
 	@ColumnDefault("0")
 	private int soundId;
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Type variationType;
+
 	private BigDecimal volume;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "product")
@@ -129,6 +150,7 @@ public class Type extends SdeEntity<Integer> {
 		if (source.metaGroupID > 0) {
 			setMetaGroup(metaGroups.apply(source.metaGroupID));
 		}
+		setMetalLevel(source.metaLevel);
 		setName(source.enName());
 		setPortionSize(source.portionSize);
 		setPublished(source.published);

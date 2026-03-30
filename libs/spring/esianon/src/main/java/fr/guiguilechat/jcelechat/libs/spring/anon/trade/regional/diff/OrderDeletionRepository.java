@@ -11,6 +11,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 public interface OrderDeletionRepository extends JpaRepository<OrderDeletion, Long> {
 
+	/**
+	 * delete deletions when the corresponding order is present in the new temp
+	 * table of orders. This can happen when CCP send invalid pages and we don't
+	 * catch it.
+	 */
 	@Modifying
 	@Query("""
 delete from

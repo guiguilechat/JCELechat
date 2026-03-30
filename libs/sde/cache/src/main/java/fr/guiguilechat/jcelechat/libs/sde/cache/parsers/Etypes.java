@@ -38,6 +38,7 @@ public class Etypes {
 	public BigDecimal mass;
 	/** {@link EmetaGroups} */
 	public int metaGroupID;
+	public int metaLevel;
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
