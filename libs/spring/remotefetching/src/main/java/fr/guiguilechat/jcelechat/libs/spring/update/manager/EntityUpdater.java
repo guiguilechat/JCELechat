@@ -109,8 +109,7 @@ public interface EntityUpdater extends EntityService {
 	 * just set a private field to implement
 	 *
 	 * <pre>{@code
-	 * @Getter
-	 * private final UpdateConfig update = new UpdateConfig();
+	 * @Getter private final UpdateConfig update = new UpdateConfig();
 	 * }</pre>
 	 */
 	UpdateConfig getUpdate();

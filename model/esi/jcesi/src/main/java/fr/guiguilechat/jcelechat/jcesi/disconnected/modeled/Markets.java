@@ -220,6 +220,78 @@ public class Markets {
 	}
 
 	/**
+	 * how many isk we removed from the existing BOs to get the max ones on regional
+	 * market
+	 */
+	private static final double DISCARD_BO_MAX = 100000000.0;
+
+	/**
+	 * find the lowest, for each region's market, of the median price of this
+	 * region's BO with the previous ones.
+	 * <p>
+	 * for example if BO prices are 4, 5, 1, 1, 3, then :
+	 * <ol>
+	 * <li>median of 4 is 4</li>
+	 * <li>median of 4,5 is 5</li>
+	 * <li>median of 4,5,1 is 4</li>
+	 * <li>median of 4,5,1,1 is 4</li>
+	 * <li>median of 4,5,1,1,3 is 3</li>
+	 * </ol>
+	 * so return 3. If the last one was removed, then return 4 ; if it was 1 then
+	 * return 1
+	 * </p>
+	 * <p>
+	 * the goal is to always return first price if it is lower than the others, then
+	 * use median price in most cases.
+	 * </p>
+	 * <p>
+	 * tries to discard {@link #BO_VAL_REMOVE} from the existing BOs before taking
+	 * the highest one. If there is no matching order at all, uses the first found
+	 * region's first(highest) BO. if there is no order at all, return 0.0
+	 * </p>
+	 */
+	protected Double lowFirstMedian(List<? extends List<R_get_markets_region_id_orders>> regional) {
+		Double ret = null;
+		// in case we have 0 order above the discard value, need to keep the first price
+		// (typically theforge )
+		Double firstPrice = null;
+		List<Double> sortedPrices = new ArrayList<>();
+		for (List<R_get_markets_region_id_orders> l : regional) {
+			Double price = null;
+			if (l.size() > 0) {
+				double toremove = DISCARD_BO_MAX;
+				for (R_get_markets_region_id_orders o : l) {
+					if (firstPrice == null) {
+						firstPrice=o.price;
+					}
+					if (o.price * o.volume_remain > toremove) {
+						price = o.price;
+						break;
+					} else {
+						toremove -= o.price * o.volume_remain;
+					}
+				}
+			}
+			if (price != null) {
+				sortedPrices.add(price);
+				sortedPrices.sort(Double::compareTo);
+				int medIndex = (int) Math.ceil(0.5 * (sortedPrices.size() - 1));
+				double medValue = sortedPrices.get(medIndex);
+				if (ret == null || medValue < ret) {
+					ret = medValue;
+				}
+			}
+		}
+		if (ret != null) {
+			return ret;
+		}
+		if (firstPrice != null) {
+			return firstPrice;
+		}
+		return 0.0;
+	}
+
+	/**
 	 * @param ordersLists list of orders list
 	 * @return minimum value of the provided list at index 0
 	 */
@@ -243,7 +315,7 @@ public class Markets {
 	private final GroupedPrices empireAvgBoPrice = new GroupedPrices(
 			new IPricing[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
 			(market, typeId) -> market.listBuyOrders(typeId),
-			this::average);
+			this::lowFirstMedian);
 
 	private static final double DISCARD_SO_MIN = 200000000;
 

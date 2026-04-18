@@ -1,8 +1,8 @@
 with params(resolution, period, regionid, typeid, groupid, categoryid) as (
 	values(
-		10,-- resolution, as minutes to aggregate
+		5,-- resolution, as minutes to aggregate
 		8*interval '1 days', -- period we observe the events on
-		10000002::integer, --regionid
+		null::integer, --regionid
 		null::integer, --typeid
 		null::integer, --groupid
 		null::integer --categoryid
