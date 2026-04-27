@@ -27,6 +27,7 @@ import lombok.ToString;
 		@Index(columnList = "locationId, typeId, date"), // by type, by location
 //		@Index(columnList = "solarSystemId, typeId, date"), // not really used ? So no index
 		@Index(columnList = "regionId, typeId, date"),// by type, by region
+		@Index(columnList = "date"), // by date
 })
 @Getter
 @Setter

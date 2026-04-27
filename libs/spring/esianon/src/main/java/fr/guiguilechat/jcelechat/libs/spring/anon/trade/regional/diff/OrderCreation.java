@@ -16,6 +16,7 @@ import lombok.ToString;
 		@Index(columnList = "regionId, typeId, isBuyOrder, dateMax, dateMin"), // find by region
 		@Index(columnList = "locationId, typeId, isBuyOrder, dateMax, dateMin"), // find by station
 		@Index(columnList = "solarSystemId, typeId, isBuyOrder, dateMax, dateMin"), // find by system
+		@Index(columnList = "dateMax"), // for queries that aggregate on datemax
 })
 @Getter
 @Setter

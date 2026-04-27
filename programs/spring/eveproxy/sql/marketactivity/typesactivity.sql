@@ -47,3 +47,4 @@ order by
 	100.0*coalesce(updates.nb, 0)/(coalesce(creations.nb, 0)+coalesce(updates.nb, 0)) desc,
 	coalesce(updates.nb, 0) desc
 limit 1000
+;
