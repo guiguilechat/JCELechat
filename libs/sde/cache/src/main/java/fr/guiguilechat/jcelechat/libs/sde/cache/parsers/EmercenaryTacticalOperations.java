@@ -19,10 +19,11 @@ public class EmercenaryTacticalOperations {
 	// file structure
 	//
 
-	public int anarchy_impact;
+	public int anarchyImpact;
 	public LinkedHashMap<String, String> description = new LinkedHashMap<>();
-	public int development_impact;
-	public int infomorph_bonus;
+	public int developmentImpact;
+	public int dungeonID;
+	public int infomorphBonus;
 	public LinkedHashMap<String, String> name = new LinkedHashMap<>();
 
 	public String enDescription() {
@@ -39,7 +40,7 @@ public class EmercenaryTacticalOperations {
 		var loaded = LOADER.yaml().load();
 		System.out.println("loaded : " + loaded.size());
 		var first = loaded.entrySet().iterator().next().getValue();
-		System.out.println("first : anarchy_impact=" + first.anarchy_impact + " name=" + first.enName());
+		System.out.println("first : anarchy_impact=" + first.anarchyImpact + " name=" + first.enName());
 	}
 
 }
