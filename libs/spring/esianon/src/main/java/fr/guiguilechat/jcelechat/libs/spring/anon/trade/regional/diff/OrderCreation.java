@@ -14,6 +14,7 @@ import lombok.ToString;
 @Table(name = "jcelechat_trade_ordercreation", indexes = {
 		@Index(columnList = "typeId, isBuyOrder, dateMax, dateMin"), // find globally
 		@Index(columnList = "regionId, typeId, isBuyOrder, dateMax, dateMin"), // find by region
+		@Index(columnList = "regionId, typeId, dateMin"), // for selecting which order were created before a time
 		@Index(columnList = "locationId, typeId, isBuyOrder, dateMax, dateMin"), // find by station
 		@Index(columnList = "solarSystemId, typeId, isBuyOrder, dateMax, dateMin"), // find by system
 		@Index(columnList = "dateMax"), // for queries that aggregate on datemax

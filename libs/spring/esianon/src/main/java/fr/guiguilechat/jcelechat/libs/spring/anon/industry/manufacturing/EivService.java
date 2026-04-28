@@ -19,8 +19,6 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor(onConstructor = @__(@Lazy))
 public class EivService implements PriceListener {
 
-//	private final EntityManager entityManager;
-
 	private final EivRepository eivRepository;
 
 	/** only need for the entities, as we do the query */
