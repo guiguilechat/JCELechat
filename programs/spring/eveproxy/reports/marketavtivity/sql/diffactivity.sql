@@ -16,9 +16,11 @@ updates(date, nb) as (
 		params p,
 		limits l,
 		jcelechat_trade_orderupdate line
+		join jcelechat_trade_ordercreation created on line.order_id=created.order_id
 	where
 		(p.regionid is null or p.regionid=line.region_id)
 		and l.start<= date
+		and created.duration<>365
 	group by
 		date_trunc('minute', date) - (CAST(EXTRACT(MINUTE FROM date) AS integer) % p.resolution) * interval '1 minute'
 	order by
@@ -76,9 +78,9 @@ select
 	gen.date "period start",
 	1.0*coalesce(updates.nb, 0)/p.resolution "updates/m",
 	1.0*coalesce(creations.nb, 0)/p.resolution "creations/m",
-	1.0*coalesce(sales.nb, 0)/p.resolution "sales/m",
-	1.0*coalesce(deletions.nb, 0)/p.resolution "deletions/m",
-	1.0*(coalesce(updates.nb, 0)+coalesce(creations.nb, 0)+coalesce(sales.nb, 0)+coalesce(deletions.nb, 0))/p.resolution "total/m"
+	1.0*coalesce(sales.nb, 0)/p.resolution "sales/m"
+--	, 1.0*coalesce(deletions.nb, 0)/p.resolution "deletions/m"
+--	, 1.0*(coalesce(updates.nb, 0)+coalesce(creations.nb, 0)+coalesce(sales.nb, 0)+coalesce(deletions.nb, 0))/p.resolution "total/m"
 from
 	params p,
 	(	select generate_series(

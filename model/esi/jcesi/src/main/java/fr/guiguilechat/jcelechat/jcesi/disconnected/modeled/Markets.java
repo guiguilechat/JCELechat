@@ -237,8 +237,8 @@ public class Markets {
 	 * <li>median of 4,5,1,1 is 4</li>
 	 * <li>median of 4,5,1,1,3 is 3</li>
 	 * </ol>
-	 * so return 3. If the last one was removed, then return 4 ; if it was 1 then
-	 * return 1
+	 * so return 3. If the last one was removed, then return 4 ; if it was only
+	 * first item, then return 1
 	 * </p>
 	 * <p>
 	 * the goal is to always return first price if it is lower than the others, then
@@ -262,7 +262,7 @@ public class Markets {
 				double toremove = DISCARD_BO_MAX;
 				for (R_get_markets_region_id_orders o : l) {
 					if (firstPrice == null) {
-						firstPrice=o.price;
+						firstPrice = o.price;
 					}
 					if (o.price * o.volume_remain > toremove) {
 						price = o.price;
@@ -274,11 +274,14 @@ public class Markets {
 			}
 			if (price != null) {
 				sortedPrices.add(price);
-				sortedPrices.sort(Double::compareTo);
-				int medIndex = (int) Math.ceil(0.5 * (sortedPrices.size() - 1));
-				double medValue = sortedPrices.get(medIndex);
-				if (ret == null || medValue < ret) {
-					ret = medValue;
+				if (sortedPrices.size() % 2 == 1) {
+					sortedPrices.sort(Double::compareTo);
+					// 1 elements -> index 0 , 3->1, 5->2, etc.
+					int medIndex = (sortedPrices.size() - 1) / 2;
+					double medValue = sortedPrices.get(medIndex);
+					if (ret == null || medValue < ret) {
+						ret = medValue;
+					}
 				}
 			}
 		}
@@ -290,6 +293,28 @@ public class Markets {
 		}
 		return 0.0;
 	}
+
+	/// get empire hub BO orders, remove a few orders value, then return the lowest
+	/// of first (in the list) , median of three firsts, median of 5 firsts.
+	///
+	/// @see #lowFirstMedian(List) list reduction implementation
+	@Getter(lazy = true)
+	private final GroupedPrices empireAvgBoPrice =
+			new GroupedPrices(
+					new IPricing[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
+					(market, typeId) -> market.listBuyOrders(typeId),
+					this::lowFirstMedian);
+
+	private static final double DISCARD_SO_MIN = 200000000;
+
+	/**
+	 * lowest empire hub SO price, discarding {@value #DISCARD_SO_MIN}
+	 */
+	@Getter(lazy = true)
+	private final GroupedPrices empireHubsLowestSoPrice =
+			new GroupedPrices(getEmpireHubs(),
+					(market, typeId) -> market.listSellOrdersDiscarding(typeId, DISCARD_SO_MIN),
+					this::min);
 
 	/**
 	 * @param ordersLists list of orders list
@@ -309,34 +334,42 @@ public class Markets {
 	}
 
 	/**
-	 * get empire average BO price after removing the highest and lowest values.
+	 * highest empire hub BO price, discarding {@value #DISCARD_BO_MAX}
 	 */
 	@Getter(lazy = true)
-	private final GroupedPrices empireAvgBoPrice = new GroupedPrices(
-			new IPricing[] { theForge(), domain(), sinqLaison(), metropolis(), heimatar() },
-			(market, typeId) -> market.listBuyOrders(typeId),
-			this::lowFirstMedian);
-
-	private static final double DISCARD_SO_MIN = 200000000;
+	private final GroupedPrices empireHubsHighestBoPrice =
+			new GroupedPrices(getEmpireHubs(),
+					(market, typeId) -> market.listBuyOrdersDiscarding(typeId, DISCARD_BO_MAX),
+					this::max);
 
 	/**
-	 * lowest empire hub price, discarding {@value #DISCARD_SO_MIN}
+	 * @param ordersLists list of orders list
+	 * @return minimum value of the provided list at index 0
 	 */
-	@Getter(lazy = true)
-	private final GroupedPrices empireHubsLowestSoPrice = new GroupedPrices(getEmpireHubs(),
-			(market, typeId) -> market.listSellOrdersDiscarding(typeId, DISCARD_SO_MIN),
-			this::min);
+	protected Double max(List<? extends List<R_get_markets_region_id_orders>> ordersLists) {
+		double max = 0.0;
+		for (List<R_get_markets_region_id_orders> l : ordersLists) {
+			if (l.size() > 0) {
+				double price = l.get(0).price;
+				if (price > max) {
+					max = price;
+				}
+			}
+		}
+		return max;
+	}
 
 	/**
 	 * list of type ids that are seeded (sold by NPC) in empire
 	 */
 	@Getter(lazy = true)
-	private final SetHolder<Integer> empireSeeded = SetHolderImpl.union(
-			domain().getSeeded(),
-			heimatar().getSeeded(),
-			metropolis().getSeeded(),
-			sinqLaison().getSeeded(),
-			theForge().getSeeded());
+	private final SetHolder<Integer> empireSeeded =
+			SetHolderImpl.union(
+					domain().getSeeded(),
+					heimatar().getSeeded(),
+					metropolis().getSeeded(),
+					sinqLaison().getSeeded(),
+					theForge().getSeeded());
 
 	//
 	// prices : adjusted and average
@@ -347,8 +380,9 @@ public class Markets {
 	private final ListHolder<R_get_markets_prices> marketPrices = esiConnection.cache().markets.prices();
 
 	@Getter(lazy = true)
-	private final MapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
-			p -> p.adjusted_price);
+	private final MapHolder<Integer, Double> adjusteds =
+			marketPrices().toMap(p -> p.type_id,
+					p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
 		return getAdjusteds().get().getOrDefault(itemId, 0.0);

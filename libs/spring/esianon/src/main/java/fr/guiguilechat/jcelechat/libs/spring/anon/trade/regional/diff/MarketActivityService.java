@@ -2,7 +2,11 @@ package fr.guiguilechat.jcelechat.libs.spring.anon.trade.regional.diff;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -36,7 +40,7 @@ public class MarketActivityService {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<MarketActivity> listActivities(int regionId, int typeId, Instant periodStart, Instant periodEnd) {
+	protected List<MarketActivity> listActivities(int regionId, int typeId, Instant periodStart, Instant periodEnd) {
 		return entityManager.createNativeQuery("""
 with params(typeid, regionid) as (
 	values(
@@ -155,6 +159,48 @@ order by
 				+ " entries :");
 		System.out.println(
 				fetched.stream().map(Objects::toString).collect(Collectors.joining("\n")));
+	}
+
+	public enum OrderUpdateKind {
+		CREATE,
+		UPDATE,
+		SALE,
+		DELETE;
+
+		public static OrderUpdateKind parse(String from) {
+			return switch (from) {
+			case "create" -> CREATE;
+			case "delete" -> DELETE;
+			case "sale" -> SALE;
+			case "update" -> UPDATE;
+			default -> throw new IllegalArgumentException("Unexpected value: " + from);
+			};
+		}
+	}
+
+	/**
+	 * numeric values can be 0 when no change.
+	 */
+	public static final record OrderUpdate(Instant date, OrderUpdateKind kind, long volAfter, double priceAfter) {
+
+	}
+
+	/**
+	 * aggregate the orders activities in a completely deterministic way.
+	 */
+	protected LinkedHashMap<Long, List<OrderUpdate>> aggregateByOrder(List<MarketActivity> activities) {
+		Map<Long, List<MarketActivity>> grouped =
+				activities.stream().collect(Collectors.groupingBy(MarketActivity::orderId));
+		LinkedHashMap<Long, List<OrderUpdate>> ret = new LinkedHashMap<>();
+		grouped.entrySet().stream()
+				.sorted(Comparator.comparing(Entry::getKey))
+				.forEach(e -> ret.put(e.getKey(), extractOrderActivities(e.getValue())));
+		return ret;
+	}
+
+	protected List<OrderUpdate> extractOrderActivities(List<MarketActivity> values) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException();
 	}
 
 }
