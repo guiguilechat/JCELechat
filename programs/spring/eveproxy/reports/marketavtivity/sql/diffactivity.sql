@@ -61,25 +61,27 @@ sales(date, nb) as (
 ),
 deletions(date, nb) as(
 	select	
-		date_trunc('minute', date_max) - (CAST(EXTRACT(MINUTE FROM date_max) AS integer) % p.resolution) * interval '1 minute' date,
+		date_trunc('minute', line.date_max) - (CAST(EXTRACT(MINUTE FROM line.date_max) AS integer) % p.resolution) * interval '1 minute' date,
 		count(*) nb
 	from
 		params p,
 		limits l,
 		jcelechat_trade_orderdeletion line
+		join jcelechat_trade_ordercreation created on line.order_id=created.order_id
 	where
 		(p.regionid is null or p.regionid=line.region_id)
-		and l.start<= date_max
+		and l.start<= line.date_max
+		and created.duration<>365 -- we ignore NPC orders deleted because they are mass deletd at DT
 	group by
-		date_trunc('minute', date_max) - (CAST(EXTRACT(MINUTE FROM date_max) AS integer) % p.resolution) * interval '1 minute'
+		date_trunc('minute', line.date_max) - (CAST(EXTRACT(MINUTE FROM line.date_max) AS integer) % p.resolution) * interval '1 minute'
 	order by
-		date_trunc('minute', date_max) - (CAST(EXTRACT(MINUTE FROM date_max) AS integer) % p.resolution) * interval '1 minute')
+		date_trunc('minute', line.date_max) - (CAST(EXTRACT(MINUTE FROM line.date_max) AS integer) % p.resolution) * interval '1 minute')
 select
 	gen.date "period start",
 	1.0*coalesce(updates.nb, 0)/p.resolution "updates/m",
 	1.0*coalesce(creations.nb, 0)/p.resolution "creations/m",
 	1.0*coalesce(sales.nb, 0)/p.resolution "sales/m"
---	, 1.0*coalesce(deletions.nb, 0)/p.resolution "deletions/m"
+	, 1.0*coalesce(deletions.nb, 0)/p.resolution "deletions/m"
 --	, 1.0*(coalesce(updates.nb, 0)+coalesce(creations.nb, 0)+coalesce(sales.nb, 0)+coalesce(deletions.nb, 0))/p.resolution "total/m"
 from
 	params p,

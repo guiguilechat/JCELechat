@@ -1,7 +1,7 @@
 with params(days, mininterval) as(
 	values(8, 16*interval '1 hour')
 ),
-aggregated(order_id, type_id, datestart, dateend, spread, spread_hours, trunc_spread_hours, trunc_hours, nbupdates) as(
+aggregated_updates(order_id, type_id, datestart, dateend, spread, spread_hours, trunc_spread_hours, trunc_hours, nbupdates) as(
 	select
 		line.order_id,
 		line.type_id,
@@ -49,7 +49,7 @@ select
 	end orderlife
 from
 	params p,
-	aggregated line
+	aggregated_updates line
 	join sde_items_type it on it.id=line.type_id
 	join jcelechat_trade_ordercreation created on line.order_id=created.order_id
 	left join jcelechat_trade_orderdeletion deletion on line.order_id=deletion.order_id
