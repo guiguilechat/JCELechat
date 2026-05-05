@@ -24,6 +24,7 @@ public class TestAllParsers {
 				EagentsInSpace.class,
 				EagentTypes.class,
 				Eancestries.class,
+				Earchetypes.class,
 				Ebloodlines.class,
 				Eblueprints.class,
 				Ecategories.class,
@@ -39,6 +40,7 @@ public class TestAllParsers {
 				EdogmaAttributes.class,
 				EdogmaEffects.class,
 				EdogmaUnits.class,
+				Edungeons.class,
 				EdynamicItemAttributes.class,
 				Efactions.class,
 				EfreelanceJobSchemas.class,
@@ -75,6 +77,7 @@ public class TestAllParsers {
 				// translation languages // won't do, indexed by string key
 				EtypeBonus.class,
 				EtypeDogma.class,
+				EtypeLists.class,
 				EtypeMaterials.class,
 				Etypes.class
 		}) {
