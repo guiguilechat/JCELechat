@@ -103,7 +103,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Signal Disruption Amplifier II
     portionSize: 1
     published: true
@@ -119,7 +119,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Particle Dispersion Augmentor II
     portionSize: 1
     published: true
@@ -136,7 +136,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Inverted Signal Field Projector II
     portionSize: 1
     published: true
@@ -153,7 +153,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Tracking Diagnostic Subroutines II
     portionSize: 1
     published: true
@@ -170,7 +170,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Particle Dispersion Projector II
     portionSize: 1
     published: true
@@ -188,7 +188,7 @@ types:
     marketGroup: 1221
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Targeting Systems Stabilizer II
     portionSize: 1
     published: true
@@ -253,7 +253,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Signal Disruption Amplifier II
     portionSize: 1
     published: true
@@ -270,7 +270,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Signal Disruption Amplifier II
     portionSize: 1
     published: true
@@ -287,7 +287,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Signal Disruption Amplifier II
     portionSize: 1
     published: true
@@ -351,7 +351,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Inverted Signal Field Projector II
     portionSize: 1
     published: true
@@ -368,7 +368,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Inverted Signal Field Projector II
     portionSize: 1
     published: true
@@ -385,7 +385,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Inverted Signal Field Projector II
     portionSize: 1
     published: true
@@ -450,7 +450,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Particle Dispersion Augmentor II
     portionSize: 1
     published: true
@@ -467,7 +467,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Particle Dispersion Augmentor II
     portionSize: 1
     published: true
@@ -484,7 +484,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Particle Dispersion Augmentor II
     portionSize: 1
     published: true
@@ -549,7 +549,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Particle Dispersion Projector II
     portionSize: 1
     published: true
@@ -566,7 +566,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Particle Dispersion Projector II
     portionSize: 1
     published: true
@@ -583,7 +583,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Particle Dispersion Projector II
     portionSize: 1
     published: true
@@ -649,7 +649,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Targeting Systems Stabilizer II
     portionSize: 1
     published: true
@@ -666,7 +666,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Targeting Systems Stabilizer II
     portionSize: 1
     published: true
@@ -683,7 +683,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Targeting Systems Stabilizer II
     portionSize: 1
     published: true
@@ -747,7 +747,7 @@ types:
     marketGroup: 1219
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Tracking Diagnostic Subroutines II
     portionSize: 1
     published: true
@@ -764,7 +764,7 @@ types:
     marketGroup: 1220
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Tracking Diagnostic Subroutines II
     portionSize: 1
     published: true
@@ -781,7 +781,7 @@ types:
     marketGroup: 1737
     mass: 200.0
     maxtargetrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Tracking Diagnostic Subroutines II
     portionSize: 1
     published: true

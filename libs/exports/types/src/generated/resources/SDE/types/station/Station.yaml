@@ -642,3 +642,11 @@ types:
     radius: 100000.0
     signatureradius: 100.0
     volume: 1.0
+  92885:
+    id: 92885
+    name: AIR Trade Hub
+    portionSize: 1
+    published: false
+    radius: 70000.0
+    signatureradius: 100.0
+    volume: 1.0

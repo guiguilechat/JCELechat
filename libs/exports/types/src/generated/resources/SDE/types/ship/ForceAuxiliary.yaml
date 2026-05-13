@@ -98,6 +98,7 @@ types:
     shipbonusforceauxiliarya2: -4
     shipbonusforceauxiliarya3: 5
     shipbonusforceauxiliarya4: 1
+    shipbonusforceauxiliarya5: 20
     shipbonusrole1: -50.0
     shipbonusrole2: 200
     shipbonusrole3: 1.0
@@ -217,6 +218,7 @@ types:
     shipbonusforceauxiliaryc2: -4
     shipbonusforceauxiliaryc3: 5
     shipbonusforceauxiliaryc4: 1
+    shipbonusforceauxiliaryc5: 20
     shipbonusrole1: -50.0
     shipbonusrole2: 200
     shipbonusrole3: 1.0
@@ -336,6 +338,7 @@ types:
     shipbonusforceauxiliarym2: 7.5
     shipbonusforceauxiliarym3: 10
     shipbonusforceauxiliarym4: 1
+    shipbonusforceauxiliarym5: 30
     shipbonusrole1: -50.0
     shipbonusrole2: 200
     shipbonusrole3: 1.0
@@ -455,6 +458,7 @@ types:
     shipbonusforceauxiliaryg2: 7.5
     shipbonusforceauxiliaryg3: 10
     shipbonusforceauxiliaryg4: 1
+    shipbonusforceauxiliaryg5: 30
     shipbonusrole1: -50.0
     shipbonusrole2: 200
     shipbonusrole3: 1.0
@@ -542,7 +546,7 @@ types:
     maxvelocity: 85.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dagon
     nosoverride: 1
     portionSize: 1
@@ -576,6 +580,7 @@ types:
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusforceauxiliarya1: 30
+    shipbonusforceauxiliarya5: 20
     shipbonusforceauxiliarym1: -5
     shipbonusforceauxiliarym2: 5.0
     shipbonusrole1: -50.0
@@ -668,7 +673,7 @@ types:
     maxvelocity: 80.0
     medslots: 8
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Loggerhead
     portionSize: 1
     poweroutput: 530000.0
@@ -702,6 +707,7 @@ types:
     shielduniformity: 0.75
     shipbonusforceauxiliaryc2: -4
     shipbonusforceauxiliaryg1: 5
+    shipbonusforceauxiliaryg5: 20
     shipbonusrole1: -50.0
     shipbonusrole2: 1000
     shipbonusrole3: 1.0

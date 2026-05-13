@@ -8,7 +8,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Power Diagnostic System'
     portionSize: 1
     poweroutputmultiplier: 1.025
@@ -47,7 +47,7 @@ types:
     id: 1541
     marketGroup: 658
     mass: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Power Diagnostic System II
     portionSize: 1
     poweroutputmultiplier: 1.06
@@ -67,7 +67,7 @@ types:
     id: 8225
     marketGroup: 658
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.055
@@ -88,7 +88,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075
@@ -109,7 +109,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075
@@ -130,7 +130,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075
@@ -151,7 +151,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.07875
@@ -172,7 +172,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.07875
@@ -193,7 +193,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Selynne's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.0825
@@ -214,7 +214,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Raysere's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.0825
@@ -235,7 +235,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vizan's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.08625
@@ -256,7 +256,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Ahremen's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.08625
@@ -277,7 +277,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Chelm's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.09
@@ -298,7 +298,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Draclira's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.09
@@ -319,7 +319,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.07875
@@ -340,7 +340,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Tuvan's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.0825
@@ -361,7 +361,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Setele's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.08625
@@ -382,7 +382,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Cormack's Modified Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.09
@@ -403,7 +403,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075
@@ -424,7 +424,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Cartel'' Power Diagnostic System I'
     portionSize: 1
     poweroutputmultiplier: 1.055
@@ -445,7 +445,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Thukker Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075
@@ -466,7 +466,7 @@ types:
     marketGroup: 658
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Power Diagnostic System
     portionSize: 1
     poweroutputmultiplier: 1.075

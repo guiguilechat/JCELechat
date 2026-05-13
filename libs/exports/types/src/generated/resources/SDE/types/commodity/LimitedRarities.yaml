@@ -26,3 +26,30 @@ types:
     price: 1000000.0
     published: true
     volume: 0.1
+  92149:
+    id: 92149
+    marketGroup: 3737
+    mass: 0.1
+    name: Drone Iteration Data
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.1
+  93877:
+    id: 93877
+    marketGroup: 3737
+    mass: 0.1
+    name: Warpath Supply Cache
+    portionSize: 1
+    price: 200000.0
+    published: true
+    volume: 0.1
+  93924:
+    id: 93924
+    marketGroup: 3737
+    mass: 0.1
+    name: Warpath Strategic Data
+    portionSize: 1
+    price: 200000.0
+    published: true
+    volume: 0.1

@@ -16,7 +16,7 @@ types:
     id: 4248
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Warp Disruption Field Generator II
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     id: 37608
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Pitfall Compact Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -120,7 +120,7 @@ types:
     id: 37610
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Clutch Restrained Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -155,7 +155,7 @@ types:
     id: 37611
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: M-36 Enduring Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -191,7 +191,7 @@ types:
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -227,7 +227,7 @@ types:
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: CONCORD Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1
@@ -263,7 +263,7 @@ types:
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Nija's Modified Warp Disruption Field Generator
     overloadselfdurationbonus: -33.3
     portionSize: 1

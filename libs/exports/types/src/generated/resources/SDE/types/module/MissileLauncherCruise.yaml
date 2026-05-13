@@ -38,7 +38,7 @@ types:
     id: 13927
     marketGroup: 643
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Domination Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -68,7 +68,7 @@ types:
     id: 13929
     marketGroup: 643
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -98,7 +98,7 @@ types:
     id: 14516
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -128,7 +128,7 @@ types:
     id: 14518
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Hakim's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -158,7 +158,7 @@ types:
     id: 14520
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Gotan's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -188,7 +188,7 @@ types:
     id: 14522
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Tobias' Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -218,7 +218,7 @@ types:
     id: 14672
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -248,7 +248,7 @@ types:
     id: 14674
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Thon's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -278,7 +278,7 @@ types:
     id: 14676
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vepas' Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -308,7 +308,7 @@ types:
     id: 14678
     marketGroup: 643
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Estamel's Modified Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -338,7 +338,7 @@ types:
     id: 16062
     marketGroup: 643
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -366,7 +366,7 @@ types:
     hp: 40.0
     id: 16513
     marketGroup: 643
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Malkuth'' Cruise Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -394,7 +394,7 @@ types:
     hp: 40.0
     id: 16515
     marketGroup: 643
-    metalevelold: 2
+    metalevelold: 2.0
     name: '''Limos'' Cruise Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -422,7 +422,7 @@ types:
     hp: 40.0
     id: 16517
     marketGroup: 643
-    metalevelold: 3
+    metalevelold: 3.0
     name: XT-9000 Cruise Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -450,7 +450,7 @@ types:
     hp: 40.0
     id: 16519
     marketGroup: 643
-    metalevelold: 4
+    metalevelold: 4.0
     name: '''Arbalest'' Cruise Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -480,7 +480,7 @@ types:
     id: 17485
     marketGroup: 643
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Republic Fleet Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -509,7 +509,7 @@ types:
     hp: 40.0
     id: 19739
     marketGroup: 643
-    metalevelold: 5
+    metalevelold: 5.0
     name: Cruise Missile Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -539,7 +539,7 @@ types:
     id: 20601
     marketGroup: 643
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Noose'' Cruise Missile Launcher'
     overloadrofbonus: -15
     portionSize: 1
@@ -569,7 +569,7 @@ types:
     id: 22568
     marketGroup: 643
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: True Sansha Cruise Missile Launcher
     overloadrofbonus: -15
     portionSize: 1

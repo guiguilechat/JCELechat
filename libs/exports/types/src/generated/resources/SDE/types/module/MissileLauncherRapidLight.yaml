@@ -37,7 +37,7 @@ types:
     hp: 40.0
     id: 1877
     marketGroup: 641
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rapid Light Missile Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -65,7 +65,7 @@ types:
     hp: 40.0
     id: 8007
     marketGroup: 641
-    metalevelold: 3
+    metalevelold: 3.0
     name: Experimental SV-2000 Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -93,7 +93,7 @@ types:
     hp: 40.0
     id: 8023
     marketGroup: 641
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded 'Malkuth' Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -121,7 +121,7 @@ types:
     hp: 40.0
     id: 8025
     marketGroup: 641
-    metalevelold: 2
+    metalevelold: 2.0
     name: Limited 'Limos' Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -149,7 +149,7 @@ types:
     hp: 40.0
     id: 8027
     marketGroup: 641
-    metalevelold: 4
+    metalevelold: 4.0
     name: Prototype 'Arbalest' Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -179,7 +179,7 @@ types:
     id: 13919
     marketGroup: 641
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Domination Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -209,7 +209,7 @@ types:
     id: 13920
     marketGroup: 641
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     id: 16061
     marketGroup: 641
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -269,7 +269,7 @@ types:
     id: 17484
     marketGroup: 641
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Republic Fleet Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -299,7 +299,7 @@ types:
     id: 20597
     marketGroup: 641
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Pickaxe'' Rapid Light Missile Launcher'
     overloadrofbonus: -15
     portionSize: 1
@@ -329,7 +329,7 @@ types:
     id: 22566
     marketGroup: 641
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: True Sansha Rapid Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1

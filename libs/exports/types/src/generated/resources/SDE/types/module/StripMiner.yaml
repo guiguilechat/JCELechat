@@ -60,7 +60,7 @@ types:
     id: 22229
     marketGroup: 1038
     maxrange: 10000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 1000
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -87,7 +87,7 @@ types:
     marketGroup: 1038
     maxrange: 12500.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 1000
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -114,7 +114,7 @@ types:
     marketGroup: 1040
     maxrange: 18750.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 200
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -142,7 +142,7 @@ types:
     marketGroup: 1040
     maxrange: 18750.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 133
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -178,7 +178,7 @@ types:
     canfitshipgroup02: 543
     id: 90498
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningwastedvolumemultiplier: 1
     name: Abyssal Deep Core Strip Miner
     portionSize: 1

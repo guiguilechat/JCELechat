@@ -29,7 +29,7 @@ types:
     id: 11577
     marketGroup: 675
     maxvelocitymodifier: 0.25
-    metalevelold: 5
+    metalevelold: 5.0
     modulereactivationdelay: 30000
     name: Improved Cloaking Device II
     portionSize: 1
@@ -50,6 +50,7 @@ types:
     canfitshipgroup03: 833
     canfitshipgroup04: 834
     canfitshipgroup05: 1202
+    canfitshipgroup06: 5087
     canfitshiptype1: 32790
     canfitshiptype10: 85086
     canfitshiptype12: 89607
@@ -68,7 +69,7 @@ types:
     id: 11578
     marketGroup: 675
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     modulereactivationdelay: 30000
     name: Covert Ops Cloaking Device II
     portionSize: 1
@@ -91,7 +92,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.275
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     modulereactivationdelay: 30000
     name: Dread Guristas Cloaking Device
     portionSize: 1
@@ -114,7 +115,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.28875
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     modulereactivationdelay: 30000
     name: Kaikka's Modified Cloaking Device
     portionSize: 1
@@ -137,7 +138,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.3025
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     modulereactivationdelay: 30000
     name: Thon's Modified Cloaking Device
     portionSize: 1
@@ -160,7 +161,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.31625
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     modulereactivationdelay: 30000
     name: Vepas' Modified Cloaking Device
     portionSize: 1
@@ -183,7 +184,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.33
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     modulereactivationdelay: 30000
     name: Estamel's Modified Cloaking Device
     portionSize: 1
@@ -206,7 +207,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.275
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     modulereactivationdelay: 30000
     name: Caldari Navy Cloaking Device
     portionSize: 1
@@ -229,7 +230,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.3025
     metagroupid: 4
-    metalevelold: 12
+    metalevelold: 12.0
     modulereactivationdelay: 30000
     name: CONCORD Modified Cloaking Device
     portionSize: 1
@@ -252,7 +253,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.1
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 30000
     name: Prototype 'Poncho' Cloaking Device I
     portionSize: 1
@@ -273,6 +274,7 @@ types:
     canfitshipgroup03: 833
     canfitshipgroup04: 834
     canfitshipgroup05: 1202
+    canfitshipgroup06: 5087
     canfitshiptype1: 32790
     canfitshiptype10: 85086
     canfitshiptype12: 89607
@@ -292,7 +294,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 30000
     name: '''Smokescreen'' Covert Ops Cloaking Device II'
     portionSize: 1
@@ -315,7 +317,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.25
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 30000
     name: Improved 'Guise' Cloaking Device II
     portionSize: 1
@@ -339,7 +341,7 @@ types:
     marketGroup: 675
     maxvelocitymodifier: 0.1
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 24000
     name: Syndicate Cloaking Device
     portionSize: 1

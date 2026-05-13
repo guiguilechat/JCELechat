@@ -144,3 +144,10 @@ types:
     price: 43006260.0
     published: true
     volume: 0.01
+  92654:
+    id: 92654
+    name: Ultratidal Entropic Disintegrator II Blueprint
+    portionSize: 1
+    price: 43006260.0
+    published: true
+    volume: 0.01

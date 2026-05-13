@@ -141,7 +141,7 @@ types:
     id: 26436
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large EM Shield Reinforcer II
     portionSize: 1
     published: true
@@ -157,7 +157,7 @@ types:
     id: 26438
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Explosive Shield Reinforcer II
     portionSize: 1
     published: true
@@ -173,7 +173,7 @@ types:
     kineticdamageresistancebonus: -35.0
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Kinetic Shield Reinforcer II
     portionSize: 1
     published: true
@@ -188,7 +188,7 @@ types:
     id: 26442
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Thermal Shield Reinforcer II
     portionSize: 1
     published: true
@@ -204,7 +204,7 @@ types:
     id: 26444
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Core Defense Capacitor Safeguard II
     portionSize: 1
     published: true
@@ -220,7 +220,7 @@ types:
     id: 26446
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Core Defense Charge Economizer II
     portionSize: 1
     powerneedbonus: -15
@@ -236,7 +236,7 @@ types:
     id: 26448
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Core Defense Field Extender II
     portionSize: 1
     published: true
@@ -252,7 +252,7 @@ types:
     id: 26450
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Core Defense Field Purger II
     portionSize: 1
     published: true
@@ -269,7 +269,7 @@ types:
     id: 26452
     marketGroup: 1236
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Core Defense Operational Solidifier II
     portionSize: 1
     published: true
@@ -330,7 +330,7 @@ types:
     id: 31722
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small EM Shield Reinforcer II
     portionSize: 1
     published: true
@@ -346,7 +346,7 @@ types:
     id: 31724
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium EM Shield Reinforcer II
     portionSize: 1
     published: true
@@ -362,7 +362,7 @@ types:
     id: 31726
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital EM Shield Reinforcer II
     portionSize: 1
     published: true
@@ -423,7 +423,7 @@ types:
     id: 31734
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Explosive Shield Reinforcer II
     portionSize: 1
     published: true
@@ -439,7 +439,7 @@ types:
     id: 31736
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Explosive Shield Reinforcer II
     portionSize: 1
     published: true
@@ -455,7 +455,7 @@ types:
     id: 31738
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Explosive Shield Reinforcer II
     portionSize: 1
     published: true
@@ -516,7 +516,7 @@ types:
     kineticdamageresistancebonus: -35.0
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Kinetic Shield Reinforcer II
     portionSize: 1
     published: true
@@ -532,7 +532,7 @@ types:
     kineticdamageresistancebonus: -35.0
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Kinetic Shield Reinforcer II
     portionSize: 1
     published: true
@@ -548,7 +548,7 @@ types:
     kineticdamageresistancebonus: -35.0
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Kinetic Shield Reinforcer II
     portionSize: 1
     published: true
@@ -608,7 +608,7 @@ types:
     id: 31758
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Thermal Shield Reinforcer II
     portionSize: 1
     published: true
@@ -624,7 +624,7 @@ types:
     id: 31760
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Thermal Shield Reinforcer II
     portionSize: 1
     published: true
@@ -640,7 +640,7 @@ types:
     id: 31762
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Thermal Shield Reinforcer II
     portionSize: 1
     published: true
@@ -701,7 +701,7 @@ types:
     id: 31770
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Core Defense Capacitor Safeguard II
     portionSize: 1
     published: true
@@ -717,7 +717,7 @@ types:
     id: 31772
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Core Defense Capacitor Safeguard II
     portionSize: 1
     published: true
@@ -733,7 +733,7 @@ types:
     id: 31774
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Core Defense Capacitor Safeguard II
     portionSize: 1
     published: true
@@ -794,7 +794,7 @@ types:
     id: 31782
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Core Defense Charge Economizer II
     portionSize: 1
     powerneedbonus: -15
@@ -810,7 +810,7 @@ types:
     id: 31784
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Core Defense Charge Economizer II
     portionSize: 1
     powerneedbonus: -15
@@ -826,7 +826,7 @@ types:
     id: 31786
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Core Defense Charge Economizer II
     portionSize: 1
     powerneedbonus: -15
@@ -887,7 +887,7 @@ types:
     id: 31794
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Core Defense Field Extender II
     portionSize: 1
     published: true
@@ -903,7 +903,7 @@ types:
     id: 31796
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Core Defense Field Extender II
     portionSize: 1
     published: true
@@ -919,7 +919,7 @@ types:
     id: 31798
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Core Defense Field Extender II
     portionSize: 1
     published: true
@@ -980,7 +980,7 @@ types:
     id: 31810
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Core Defense Field Purger II
     portionSize: 1
     published: true
@@ -996,7 +996,7 @@ types:
     id: 31812
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Core Defense Field Purger II
     portionSize: 1
     published: true
@@ -1012,7 +1012,7 @@ types:
     id: 31814
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Core Defense Field Purger II
     portionSize: 1
     published: true
@@ -1074,7 +1074,7 @@ types:
     id: 31822
     marketGroup: 1234
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Core Defense Operational Solidifier II
     portionSize: 1
     published: true
@@ -1090,7 +1090,7 @@ types:
     id: 31824
     marketGroup: 1235
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Core Defense Operational Solidifier II
     portionSize: 1
     published: true
@@ -1106,7 +1106,7 @@ types:
     id: 31826
     marketGroup: 1732
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Core Defense Operational Solidifier II
     portionSize: 1
     published: true

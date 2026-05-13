@@ -1,8 +1,7 @@
 types:
   41411:
     cancloak: 1
-    canfitshipgroup01: 547
-    canfitshipgroup02: 659
+    canfitshipgroup01: 659
     capacitorneed: 3000.0
     cpu: 70.0
     disallowactivateonwarp: 1

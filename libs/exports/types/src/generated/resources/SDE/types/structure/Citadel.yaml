@@ -292,7 +292,7 @@ types:
     maxtargetrange: 420000.0
     medslots: 8
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Upwell Palatine Keepstar
     pausearmorrepairdpsthreshold: 7500
     pausehullrepairdpsthreshold: 7500
@@ -379,7 +379,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: '''Moreau'' Fortizar'
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500
@@ -467,7 +467,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: '''Draccous'' Fortizar'
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500
@@ -554,7 +554,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: '''Horizon'' Fortizar'
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500
@@ -641,7 +641,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: '''Marginis'' Fortizar'
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500
@@ -728,7 +728,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: '''Prometheus'' Fortizar'
     pausearmorrepairdpsthreshold: 1500
     pausehullrepairdpsthreshold: 1500

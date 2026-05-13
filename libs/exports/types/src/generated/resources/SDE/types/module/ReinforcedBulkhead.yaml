@@ -8,7 +8,7 @@ types:
     marketGroup: 1195
     mass: 200.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Reinforced Bulkheads'
     portionSize: 1
     power: 1
@@ -45,7 +45,7 @@ types:
     id: 1335
     marketGroup: 1195
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Reinforced Bulkheads II
     portionSize: 1
     power: 1
@@ -64,7 +64,7 @@ types:
     id: 5647
     marketGroup: 1195
     mass: 200.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Reinforced Bulkheads
     portionSize: 1
     power: 1
@@ -83,7 +83,7 @@ types:
     id: 5649
     marketGroup: 1195
     mass: 200.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Reinforced Bulkheads
     portionSize: 1
     power: 1
@@ -103,7 +103,7 @@ types:
     marketGroup: 1195
     mass: 200.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Synthetic Hull Conversion Reinforced Bulkheads
     portionSize: 1
     power: 1
@@ -123,7 +123,7 @@ types:
     marketGroup: 1195
     mass: 200.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: ORE Reinforced Bulkheads
     portionSize: 1
     power: 1
@@ -142,7 +142,7 @@ types:
     marketGroup: 1195
     mass: 200.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate Reinforced Bulkheads
     portionSize: 1
     power: 1

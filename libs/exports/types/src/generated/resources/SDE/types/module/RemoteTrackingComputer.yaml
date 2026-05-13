@@ -44,7 +44,7 @@ types:
     marketGroup: 708
     maxrange: 48000.0
     maxrangebonus: 7.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Remote Tracking Computer II
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -74,7 +74,7 @@ types:
     marketGroup: 708
     maxrange: 44000.0
     maxrangebonus: 6.75
-    metalevelold: 1
+    metalevelold: 1.0
     name: F-293 Scoped Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -104,7 +104,7 @@ types:
     marketGroup: 708
     maxrange: 40000.0
     maxrangebonus: 6.75
-    metalevelold: 1
+    metalevelold: 1.0
     name: P-S Compact Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -134,7 +134,7 @@ types:
     marketGroup: 708
     maxrange: 40000.0
     maxrangebonus: 6.75
-    metalevelold: 1
+    metalevelold: 1.0
     name: Alfven Enduring Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -165,7 +165,7 @@ types:
     maxrange: 56000.0
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -196,7 +196,7 @@ types:
     maxrange: 56000.0
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Remote Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -227,7 +227,7 @@ types:
     maxrange: 48000.0
     maxrangebonus: 7.5
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Enterprise'' Remote Tracking Computer'
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1

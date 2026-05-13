@@ -3937,21 +3937,21 @@ types:
     volume: 28600.0
     warpspeedmultiplier: 3.0
   84633:
-    agility: 0.2
+    agility: 2.4
     aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 0.7
-    armorhp: 4200.0
+    armorhp: 4000.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
     behaviorenergyneutralizerdischarge: 40.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 4000.0
-    behaviorenergyneutralizerrange: 6000.0
-    capacitorcapacity: 700.0
-    damagemultiplier: 4.7
+    behaviorenergyneutralizerfalloff: 3750.0
+    behaviorenergyneutralizerrange: 7500.0
+    capacitorcapacity: 750.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 100.0
     emdamageresonance: 1.0
     energyneutralizeramount: 90.0
     entityattackrange: 15000
@@ -3960,7 +3960,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 450.0
+    entitycruisespeed: 500.0
     entityequipmentgroupmax: 1
     entityfactionloss: 0.15
     entityflyrange: 500.0
@@ -3970,20 +3970,20 @@ types:
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 100.0
     explosivedamageresonance: 1.0
     falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 4044
-    hp: 800.0
+    hp: 1000.0
     id: 84633
-    kineticdamage: 20.0
+    kineticdamage: 100.0
     kineticdamageresonance: 1.0
-    mass: 1800000.0
-    maxlockedtargets: 6
+    mass: 1500000.0
+    maxlockedtargets: 8
     maxrange: 30000.0
     maxtargetrange: 100000.0
-    maxvelocity: 1350.0
+    maxvelocity: 1500.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -4000,35 +4000,37 @@ types:
     portionSize: 1
     published: false
     radius: 150.0
-    rechargerate: 230000.0
-    scanradarstrength: 12.0
-    scanresolution: 656.0
+    rechargerate: 240000.0
+    scangravimetricstrength: 9.0
+    scanladarstrength: 9.0
+    scanmagnetometricstrength: 9.0
+    scanradarstrength: 9.0
+    scanresolution: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 120.0
+    signatureradius: 160.0
     speed: 2200.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 100.0
     thermaldamageresonance: 1.0
     trackingspeed: 400.0
-    volume: 28600.0
     warpspeedmultiplier: 3.0
   84634:
-    agility: 0.2
+    agility: 2.4
     aitankingmodifierdrone: 0.7
     armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 0.7
-    armorhp: 3800.0
+    armorhp: 3500.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
-    capacitorcapacity: 875.0
-    damagemultiplier: 4.7
+    capacitorcapacity: 600.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 100.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -4036,7 +4038,7 @@ types:
     entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 500.0
+    entitycruisespeed: 550.0
     entityequipmentgroupmax: 1
     entityfactionloss: 0.15
     entityflyrange: 500.0
@@ -4046,20 +4048,20 @@ types:
     entityreactionfactor: 1.0
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 100.0
     explosivedamageresonance: 1.0
     falloff: 20000.0
     gfxboosterid: 397
     gfxturretid: 4044
-    hp: 700.0
+    hp: 1000.0
     id: 84634
-    kineticdamage: 20.0
+    kineticdamage: 100.0
     kineticdamageresonance: 1.0
-    mass: 1800000.0
-    maxlockedtargets: 5
+    mass: 1500000.0
+    maxlockedtargets: 8
     maxrange: 30000.0
     maxtargetrange: 100000.0
-    maxvelocity: 1500.0
+    maxvelocity: 1650.0
     mintargetveldmgmultiplier: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -4076,22 +4078,24 @@ types:
     portionSize: 1
     published: false
     radius: 144.0
-    rechargerate: 500000.0
-    scanradarstrength: 12.0
-    scanresolution: 656.0
+    rechargerate: 240000.0
+    scangravimetricstrength: 9.0
+    scanladarstrength: 9.0
+    scanmagnetometricstrength: 9.0
+    scanradarstrength: 9.0
+    scanresolution: 600.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 120.0
-    speed: 1900.0
+    signatureradius: 160.0
+    speed: 1800.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 100.0
     thermaldamageresonance: 1.0
     trackingspeed: 400.0
-    volume: 28600.0
     warpspeedmultiplier: 3.0
   86421:
     agility: 1.8

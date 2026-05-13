@@ -7,7 +7,7 @@ types:
     mass: 50.0
     maxvelocitymodifier: 0.8
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Expanded Cargohold'
     portionSize: 1
     published: true
@@ -40,7 +40,7 @@ types:
     marketGroup: 1197
     mass: 50.0
     maxvelocitymodifier: 0.82
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expanded Cargohold II
     portionSize: 1
     published: true
@@ -57,7 +57,7 @@ types:
     marketGroup: 1197
     mass: 50.0
     maxvelocitymodifier: 0.87
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Expanded Cargo
     portionSize: 1
     published: true
@@ -75,7 +75,7 @@ types:
     mass: 50.0
     maxvelocitymodifier: 0.9
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Limited Expanded 'Archiver' Cargo
     portionSize: 1
     published: true
@@ -107,7 +107,7 @@ types:
     mass: 50.0
     maxvelocitymodifier: 0.9
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: ORE Expanded Cargohold
     portionSize: 1
     published: true
@@ -115,4 +115,21 @@ types:
     requiredskill1level: 1
     structurehpmultiplier: 0.8
     techlevel: 1
+    volume: 5.0
+  93905:
+    cargocapacitymultiplier: 1.29
+    hp: 40.0
+    id: 93905
+    marketGroup: 1197
+    mass: 50.0
+    maxvelocitymodifier: 0.95
+    metalevelold: 7.0
+    name: xer Qosh’s Modified Expanded Cargohold
+    portionSize: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    structurehpmultiplier: 0.85
+    techlevel: 5
     volume: 5.0

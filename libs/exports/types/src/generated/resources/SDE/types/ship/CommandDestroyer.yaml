@@ -48,7 +48,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 345.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     mwdsignatureradiusbonus: -50
     name: Bifrost
@@ -148,7 +148,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 330.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     mwdsignatureradiusbonus: -50
     name: Pontifex
@@ -247,7 +247,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 335.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     mwdsignatureradiusbonus: -50
     name: Stork
@@ -347,7 +347,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 325.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     mwdsignatureradiusbonus: -50
     name: Magus
@@ -551,7 +551,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 300.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Outrider

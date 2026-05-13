@@ -98,8 +98,8 @@ public class StructureWeaponUpgrade
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Additional percentage to the characters missile damage multiplier.
      */

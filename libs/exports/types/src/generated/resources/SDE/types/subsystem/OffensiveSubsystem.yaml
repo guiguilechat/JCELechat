@@ -8,7 +8,7 @@ types:
     id: 45598
     marketGroup: 1130
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Offensive - Liquid Crystal Magnifiers
     portionSize: 1
     poweroutput: 400.0
@@ -36,7 +36,7 @@ types:
     launcherhardpointmodifier: 5
     marketGroup: 1130
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Offensive - Assault Optimization
     portionSize: 1
     poweroutput: 200.0
@@ -63,7 +63,7 @@ types:
     marketGroup: 1130
     mass: 800000.0
     maxlockedtargetsbonus: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Offensive - Support Processor
     portionSize: 1
     poweroutput: 75.0
@@ -92,7 +92,7 @@ types:
     launcherhardpointmodifier: 6
     marketGroup: 1131
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Offensive - Accelerated Ejection Bay
     portionSize: 1
     poweroutput: 190.0
@@ -117,7 +117,7 @@ types:
     id: 45602
     marketGroup: 1131
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Offensive - Magnetic Infusion Basin
     portionSize: 1
     poweroutput: 420.0
@@ -145,7 +145,7 @@ types:
     marketGroup: 1131
     mass: 800000.0
     maxlockedtargetsbonus: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Offensive - Support Processor
     portionSize: 1
     poweroutput: 60.0
@@ -174,7 +174,7 @@ types:
     id: 45604
     marketGroup: 1132
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Offensive - Hybrid Encoding Platform
     portionSize: 1
     poweroutput: 430.0
@@ -201,7 +201,7 @@ types:
     id: 45605
     marketGroup: 1132
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Offensive - Drone Synthesis Projector
     portionSize: 1
     poweroutput: 130.0
@@ -229,7 +229,7 @@ types:
     marketGroup: 1132
     mass: 800000.0
     maxlockedtargetsbonus: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Offensive - Support Processor
     portionSize: 1
     poweroutput: 75.0
@@ -260,7 +260,7 @@ types:
     launcherhardpointmodifier: 2
     marketGroup: 1133
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Offensive - Projectile Scoping Array
     portionSize: 1
     poweroutput: 300.0
@@ -288,7 +288,7 @@ types:
     launcherhardpointmodifier: 5
     marketGroup: 1133
     mass: 800000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Offensive - Launcher Efficiency Configuration
     portionSize: 1
     poweroutput: 150.0
@@ -316,7 +316,7 @@ types:
     marketGroup: 1133
     mass: 800000.0
     maxlockedtargetsbonus: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Offensive - Support Processor
     portionSize: 1
     poweroutput: 60.0

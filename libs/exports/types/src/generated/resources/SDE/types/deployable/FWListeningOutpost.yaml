@@ -6,7 +6,7 @@ types:
     id: 73270
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Amarr Listening Outpost
     portionSize: 1
     published: true
@@ -31,7 +31,7 @@ types:
     id: 73271
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Minmatar Listening Outpost
     portionSize: 1
     published: true
@@ -56,7 +56,7 @@ types:
     id: 73272
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Caldari Listening Outpost
     portionSize: 1
     published: true
@@ -81,7 +81,7 @@ types:
     id: 73273
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Gallente Listening Outpost
     portionSize: 1
     published: true

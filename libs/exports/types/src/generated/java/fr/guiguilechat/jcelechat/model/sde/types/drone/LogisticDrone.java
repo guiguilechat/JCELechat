@@ -203,8 +203,8 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      */

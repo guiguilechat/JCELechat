@@ -70,7 +70,7 @@ types:
     shieldrechargerate: 2500000.0
     shieldthermaldamageresonance: 0.725
     shielduniformity: 0.75
-    shipbonusrole7: 25.0
+    shipbonusrole7: 20.0
     shipbonusrole8: 37.5
     signatureradius: 275.0
     stasiswebifierresistance: 1.0
@@ -829,7 +829,7 @@ types:
     maxvelocity: 165.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Brutix Navy Issue
     portionSize: 1
@@ -919,7 +919,7 @@ types:
     maxvelocity: 180.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Drake Navy Issue
     portionSize: 1
@@ -1007,7 +1007,7 @@ types:
     maxvelocity: 175.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Harbinger Navy Issue
     portionSize: 1
@@ -1098,7 +1098,7 @@ types:
     maxvelocity: 185.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Hurricane Fleet Issue
     portionSize: 1
@@ -1633,7 +1633,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 160.0
     medslots: 6
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Alligator
     portionSize: 1
@@ -1724,7 +1724,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 200.0
     medslots: 5
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Khizriel
     portionSize: 1
@@ -1820,7 +1820,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 170.0
     medslots: 7
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Cenotaph
     portionSize: 1

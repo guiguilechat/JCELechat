@@ -89,8 +89,8 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * when authored alongside the effectTractorBeamCan it will determine if it only tractors corpses instead of wrecks and cans
      */

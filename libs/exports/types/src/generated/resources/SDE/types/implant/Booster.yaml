@@ -9,7 +9,7 @@ types:
     intelligencebonus: 5
     mass: 1.0
     memorybonus: 5
-    metalevelold: 8
+    metalevelold: 8.0
     name: Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -30,7 +30,7 @@ types:
     id: 3898
     marketGroup: 2506
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Quafe Zero Classic
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     id: 9947
     marketGroup: 2500
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Crash Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     id: 9950
     marketGroup: 2491
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -114,7 +114,7 @@ types:
     id: 10151
     marketGroup: 2500
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Crash Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -142,7 +142,7 @@ types:
     id: 10152
     marketGroup: 2500
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Crash Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -169,7 +169,7 @@ types:
     id: 10155
     marketGroup: 2491
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -197,7 +197,7 @@ types:
     id: 10156
     marketGroup: 2491
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Blue Pill Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -226,7 +226,7 @@ types:
     id: 10164
     marketGroup: 2498
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -254,7 +254,7 @@ types:
     id: 10165
     marketGroup: 2498
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -282,7 +282,7 @@ types:
     id: 10166
     marketGroup: 2498
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Sooth Sayer Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -309,7 +309,7 @@ types:
     id: 15457
     marketGroup: 2494
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -337,7 +337,7 @@ types:
     id: 15458
     marketGroup: 2494
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -365,7 +365,7 @@ types:
     id: 15459
     marketGroup: 2494
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong X-Instinct Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -393,7 +393,7 @@ types:
     id: 15460
     marketGroup: 2497
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Frentix Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -421,7 +421,7 @@ types:
     id: 15461
     marketGroup: 2497
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Frentix Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -449,7 +449,7 @@ types:
     id: 15462
     marketGroup: 2497
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Frentix Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -478,7 +478,7 @@ types:
     id: 15463
     marketGroup: 2493
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Mindflood Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -506,7 +506,7 @@ types:
     id: 15464
     marketGroup: 2493
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Mindflood Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     id: 15465
     marketGroup: 2493
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Mindflood Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -561,7 +561,7 @@ types:
     id: 15466
     marketGroup: 2496
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Drop Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -589,7 +589,7 @@ types:
     id: 15477
     marketGroup: 2496
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Drop Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -617,7 +617,7 @@ types:
     id: 15478
     marketGroup: 2496
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Drop Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -646,7 +646,7 @@ types:
     id: 15479
     marketGroup: 2492
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Standard Exile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -674,7 +674,7 @@ types:
     id: 15480
     marketGroup: 2492
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Improved Exile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -702,7 +702,7 @@ types:
     id: 25349
     marketGroup: 2492
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Strong Exile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -928,7 +928,7 @@ types:
     id: 36908
     marketGroup: 2495
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Antipharmakon Thureo
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -948,7 +948,7 @@ types:
     id: 36909
     marketGroup: 2495
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Antipharmakon Kosybo
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -966,7 +966,7 @@ types:
     id: 36910
     marketGroup: 2499
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Antipharmakon Iokira
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -986,7 +986,7 @@ types:
     marketGroup: 2501
     mass: 1.0
     maxflighttimebonus: 8
-    metalevelold: 3
+    metalevelold: 3.0
     name: Antipharmakon Toxot
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1005,7 +1005,7 @@ types:
     id: 36912
     marketGroup: 2495
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Antipharmakon Aeolis
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1040,7 +1040,7 @@ types:
     id: 45999
     marketGroup: 2505
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Agency 'Pyrolancea' DB5 Dose II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1057,7 +1057,7 @@ types:
     id: 46000
     marketGroup: 2505
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Agency 'Pyrolancea' DB7 Dose III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1091,7 +1091,7 @@ types:
     id: 46002
     marketGroup: 2503
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Agency 'Hardshell' TB5 Dose II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1109,7 +1109,7 @@ types:
     id: 46003
     marketGroup: 2503
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Agency 'Hardshell' TB7 Dose III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1142,7 +1142,7 @@ types:
     id: 46005
     marketGroup: 2504
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Agency 'Overclocker' SB5 Dose II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1159,7 +1159,7 @@ types:
     id: 46006
     marketGroup: 2504
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Agency 'Overclocker' SB7 Dose III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1345,7 +1345,7 @@ types:
     id: 48113
     marketGroup: 2503
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Agency 'Hardshell' TB9 Dose IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1362,7 +1362,7 @@ types:
     id: 48114
     marketGroup: 2504
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Agency 'Overclocker' SB9 Dose IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -1380,7 +1380,7 @@ types:
     id: 48115
     marketGroup: 2505
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Agency 'Pyrolancea' DB9 Dose IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -5777,7 +5777,7 @@ types:
     id: 59190
     mass: 1.0
     maxrangebonus: 20.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Mining Blitz Range Booster Dose II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -5793,7 +5793,7 @@ types:
     id: 59191
     mass: 1.0
     maxrangebonus: 30.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mining Blitz Range Booster Dose III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -5823,7 +5823,7 @@ types:
     damagemultiplier: 1.0
     id: 59193
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     miningamountbonus: 10
     name: Mining Blitz Yield Booster Dose II
     nondiminishingskillinjectoruses: 1
@@ -5839,7 +5839,7 @@ types:
     damagemultiplier: 1.0
     id: 59194
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 15
     name: Mining Blitz Yield Booster Dose III
     nondiminishingskillinjectoruses: 1
@@ -7371,7 +7371,7 @@ types:
     id: 60575
     marketGroup: 2506
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Quafe Zero Green Apple
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7447,7 +7447,7 @@ types:
     mass: 1.0
     maxrangebonus: 6.0
     maxscandeviationmodifier: -6
-    metalevelold: 3
+    metalevelold: 3.0
     name: Halcyon R-3 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7475,7 +7475,7 @@ types:
     mass: 1.0
     maxrangebonus: 8.0
     maxscandeviationmodifier: -8
-    metalevelold: 5
+    metalevelold: 5.0
     name: Halcyon R-4 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7503,7 +7503,7 @@ types:
     mass: 1.0
     maxrangebonus: 10.0
     maxscandeviationmodifier: -10
-    metalevelold: 6
+    metalevelold: 6.0
     name: Halcyon R-5 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7596,7 +7596,7 @@ types:
     id: 63603
     mass: 1.0
     maxflighttimebonus: 3
-    metalevelold: 3
+    metalevelold: 3.0
     name: Halcyon B-3 Booster
     nondiminishingskillinjectoruses: 1
     passiveemdamageresistancebonus: -3
@@ -7630,7 +7630,7 @@ types:
     id: 63604
     mass: 1.0
     maxflighttimebonus: 4
-    metalevelold: 5
+    metalevelold: 5.0
     name: Halcyon B-4 Booster
     nondiminishingskillinjectoruses: 1
     passiveemdamageresistancebonus: -4
@@ -7664,7 +7664,7 @@ types:
     id: 63605
     mass: 1.0
     maxflighttimebonus: 5
-    metalevelold: 6
+    metalevelold: 6.0
     name: Halcyon B-5 Booster
     nondiminishingskillinjectoruses: 1
     passiveemdamageresistancebonus: -5
@@ -7761,7 +7761,7 @@ types:
     id: 63608
     mass: 1.0
     maxtargetrangebonus: 6.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Halcyon G-3 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7792,7 +7792,7 @@ types:
     id: 63609
     mass: 1.0
     maxtargetrangebonus: 8.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Halcyon G-4 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -7823,7 +7823,7 @@ types:
     id: 63610
     mass: 1.0
     maxtargetrangebonus: 10.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Halcyon G-5 Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8004,7 +8004,7 @@ types:
     boosterness: 14
     damagemultiplier: 1.0
     id: 64374
-    metalevelold: 3
+    metalevelold: 3.0
     name: Grand Prix Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8023,7 +8023,7 @@ types:
     boosterness: 14
     damagemultiplier: 1.0
     id: 64375
-    metalevelold: 5
+    metalevelold: 5.0
     name: Grand Prix Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8042,7 +8042,7 @@ types:
     boosterness: 14
     damagemultiplier: 1.0
     id: 64376
-    metalevelold: 6
+    metalevelold: 6.0
     name: Grand Prix Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8228,7 +8228,7 @@ types:
     id: 81083
     marketGroup: 2506
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Starsi Blast! Classic
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8246,7 +8246,7 @@ types:
     id: 81084
     marketGroup: 2506
     mass: 1.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Starsi Blast! Orange
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8283,7 +8283,7 @@ types:
     damagemultiplier: 1.0
     id: 87711
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Aegytica Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8302,7 +8302,7 @@ types:
     damagemultiplier: 1.0
     id: 87726
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Vis Vitalis Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8320,7 +8320,7 @@ types:
     damagemultiplier: 1.0
     id: 87727
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Balneum Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8339,7 +8339,7 @@ types:
     damagemultiplier: 1.0
     id: 87728
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Theriac Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8359,7 +8359,7 @@ types:
     id: 87729
     mass: 1.0
     maxflighttimebonus: 16
-    metalevelold: 3
+    metalevelold: 3.0
     name: Expired Mithridate Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8379,7 +8379,7 @@ types:
     id: 88350
     marketGroup: 2792
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Aegytica Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8398,7 +8398,7 @@ types:
     id: 88351
     marketGroup: 2792
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Vis Vitalis Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8416,7 +8416,7 @@ types:
     id: 88352
     marketGroup: 2792
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Balneum Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8435,7 +8435,7 @@ types:
     id: 88353
     marketGroup: 2792
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Theriac Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8455,7 +8455,7 @@ types:
     marketGroup: 2792
     mass: 1.0
     maxflighttimebonus: 16
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expired Mithridate Volatile Booster
     nondiminishingskillinjectoruses: 1
     portionSize: 1
@@ -8465,14 +8465,37 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90669:
+  92876:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 17
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
     damagemultiplier: 1.0
-    id: 90669
-    marketGroup: 2792
-    name: Wightstorm Manasikara Booster I
+    durationbonus: -4
+    falloffbonus: 4.0
+    id: 92876
+    marketGroup: 2531
+    name: Federation Electronics Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92948:
+    armorrepairbonus: 12
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    hulldamageresistancebonus: -8
+    id: 92948
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: Federation Defense Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8480,17 +8503,358 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    trackingspeedbonus: 8.0
     volume: 1.0
-  90670:
+  92953:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -16
+    falloffbonus: 16.0
+    id: 92953
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: Federation Electronics Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 16
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 16
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92955:
+    agilitybonus: -2.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -3
+    damagemultiplier: 1.0
+    id: 92955
+    marketGroup: 2791
+    name: Federation Mobility Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    warpsbonus: 3
+  92972:
+    agilitybonus: -6.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -9
+    damagemultiplier: 1.0
+    id: 92972
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Federation Mobility Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    warpsbonus: 9
+  92973:
+    agilitybonus: -8.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -12
+    damagemultiplier: 1.0
+    id: 92973
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: Federation Mobility Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    warpsbonus: 12
+  92974:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.02
+    damagemultiplierbonus: 2.0
+    id: 92974
+    marketGroup: 2792
+    name: Federation Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92975:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.04
+    damagemultiplierbonus: 4.0
+    id: 92975
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: Federation Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92976:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.06
+    damagemultiplierbonus: 6.0
+    id: 92976
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: Federation Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92978:
+    armorhpbonus: 3
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 3.0
+    hullhpbonus: 3.0
+    id: 92978
+    marketGroup: 2790
+    maxrangebonus: 3.0
+    name: Federation Projection Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 3.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92979:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 17
     damagemultiplier: 1.0
-    id: 90670
+    dronetrackingbonus: 3
+    id: 92979
     marketGroup: 2792
-    metalevelold: 3
-    name: Wightstorm Manasikara Booster II
+    maxvelocitybonus: 3
+    name: Federation Application Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 3.0
+    volume: 1.0
+  92981:
+    armorrepairbonus: 3
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    hulldamageresistancebonus: -2
+    id: 92981
+    marketGroup: 2790
+    name: Federation Defense Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92983:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -8
+    falloffbonus: 8.0
+    id: 92983
+    marketGroup: 2531
+    metalevelold: 3.0
+    name: Federation Electronics Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 8
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92987:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.08
+    damagemultiplierbonus: 8.0
+    id: 92987
+    marketGroup: 2792
+    metalevelold: 6.0
+    name: Federation Damage Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92989:
+    armorhpbonus: 6
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    hullhpbonus: 6.0
+    id: 92989
+    marketGroup: 2790
+    maxrangebonus: 6.0
+    metalevelold: 3.0
+    name: Federation Projection Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 6
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 6.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92992:
+    armorhpbonus: 9
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 9.0
+    hullhpbonus: 9.0
+    id: 92992
+    marketGroup: 2790
+    maxrangebonus: 9.0
+    metalevelold: 5.0
+    name: Federation Projection Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 9
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 9.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92994:
+    armorhpbonus: 12
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 12.0
+    hullhpbonus: 12.0
+    id: 92994
+    marketGroup: 2790
+    maxrangebonus: 12.0
+    metalevelold: 6.0
+    name: Federation Projection Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 12
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 12.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  92996:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    dronetrackingbonus: 6
+    id: 92996
+    marketGroup: 2792
+    maxvelocitybonus: 6
+    metalevelold: 3.0
+    name: Federation Application Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  92998:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    dronetrackingbonus: 9
+    id: 92998
+    marketGroup: 2792
+    maxvelocitybonus: 9
+    metalevelold: 5.0
+    name: Federation Application Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 9.0
+    volume: 1.0
+  92999:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    dronetrackingbonus: 12
+    id: 92999
+    marketGroup: 2792
+    maxvelocitybonus: 12
+    metalevelold: 6.0
+    name: Federation Application Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8500,15 +8864,17 @@ types:
     speedfactor: 1.0
     trackingspeedbonus: 12.0
     volume: 1.0
-  90671:
+  93017:
+    armorrepairbonus: 6
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 17
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
     damagemultiplier: 1.0
-    id: 90671
-    marketGroup: 2792
-    metalevelold: 5
-    name: Wightstorm Manasikara Booster III
+    hulldamageresistancebonus: -4
+    id: 93017
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Federation Defense Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8516,17 +8882,18 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    trackingspeedbonus: 16.0
     volume: 1.0
-  90672:
+  93018:
+    armorrepairbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 17
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
     damagemultiplier: 1.0
-    id: 90672
-    marketGroup: 2792
-    metalevelold: 6
-    name: Wightstorm Manasikara Booster IV
+    hulldamageresistancebonus: -6
+    id: 93018
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Federation Defense Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8534,16 +8901,94 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    trackingspeedbonus: 20.0
     volume: 1.0
-  90673:
+  93019:
+    agilitybonus: -4.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -6
+    damagemultiplier: 1.0
+    id: 93019
+    marketGroup: 2791
+    metalevelold: 3.0
+    name: Federation Mobility Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    warpsbonus: 6
+  93020:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -9
+    damagemultiplier: 1.0
+    id: 93020
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Republic Mobility Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 6.0
+    volume: 1.0
+    warpsbonus: 9
+  93021:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -12
+    damagemultiplier: 1.0
+    id: 93021
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: Republic Mobility Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 8.0
+    volume: 1.0
+    warpsbonus: 12
+  93022:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.02
+    id: 93022
+    marketGroup: 2792
+    missiledamagemultiplierbonus: 1.02
+    name: Republic Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93023:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 17
     damagemultiplier: 1.04
-    id: 90673
+    id: 93023
     marketGroup: 2792
-    name: Wightstorm Vitarka Booster I
+    metalevelold: 3.0
+    missiledamagemultiplierbonus: 1.04
+    name: Republic Damage Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8552,15 +8997,16 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90674:
+  93024:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 17
     damagemultiplier: 1.06
-    id: 90674
+    id: 93024
     marketGroup: 2792
-    metalevelold: 3
-    name: Wightstorm Vitarka Booster II
+    metalevelold: 5.0
+    missiledamagemultiplierbonus: 1.06
+    name: Republic Damage Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8569,15 +9015,16 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90675:
+  93025:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 17
     damagemultiplier: 1.08
-    id: 90675
+    id: 93025
     marketGroup: 2792
-    metalevelold: 5
-    name: Wightstorm Vitarka Booster III
+    metalevelold: 6.0
+    missiledamagemultiplierbonus: 1.08
+    name: Republic Damage Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8586,15 +9033,94 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90676:
+  93026:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 3.0
+    id: 93026
+    marketGroup: 2790
+    maxflighttimebonus: 4
+    maxrangebonus: 3.0
+    name: Republic Projection Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93027:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    id: 93027
+    marketGroup: 2790
+    maxflighttimebonus: 8
+    maxrangebonus: 6.0
+    metalevelold: 3.0
+    name: Republic Projection Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93028:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 9.0
+    id: 93028
+    marketGroup: 2790
+    maxflighttimebonus: 12
+    maxrangebonus: 9.0
+    metalevelold: 5.0
+    name: Republic Projection Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93029:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 12.0
+    id: 93029
+    marketGroup: 2790
+    maxflighttimebonus: 16
+    maxrangebonus: 12.0
+    metalevelold: 6.0
+    name: Republic Projection Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93050:
+    aoevelocitybonus: 4.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 17
-    damagemultiplier: 1.1
-    id: 90676
+    damagemultiplier: 1.0
+    id: 93050
     marketGroup: 2792
-    metalevelold: 6
-    name: Wightstorm Vitarka Booster IV
+    name: Republic Application Booster I
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8602,15 +9128,232 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
+    trackingspeedbonus: 3.0
     volume: 1.0
-  90677:
+  93051:
+    aoevelocitybonus: 8.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93051
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: Republic Application Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  93052:
+    aoevelocitybonus: 12.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93052
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: Republic Application Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 9.0
+    volume: 1.0
+  93053:
+    aoevelocitybonus: 16.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93053
+    marketGroup: 2792
+    metalevelold: 6.0
+    name: Republic Application Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  93054:
+    armorrepairbonus: 3
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93054
+    marketGroup: 2790
+    name: Republic Defense Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 3.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93055:
+    armorrepairbonus: 6
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93055
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Republic Defense Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 6.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93058:
+    armorrepairbonus: 9
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93058
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Republic Defense Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 9.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93059:
+    armorrepairbonus: 12
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93059
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: Republic Defense Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 12.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93060:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -4
+    falloffbonus: 4.0
+    id: 93060
+    marketGroup: 2531
+    name: Republic Electronics Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93061:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -8
+    falloffbonus: 8.0
+    id: 93061
+    marketGroup: 2531
+    metalevelold: 3.0
+    name: Republic Electronics Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 8
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93062:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -12
+    falloffbonus: 12.0
+    id: 93062
+    marketGroup: 2531
+    metalevelold: 5.0
+    name: Republic Electronics Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 12
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 12
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93063:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -16
+    falloffbonus: 16.0
+    id: 93063
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: Republic Electronics Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 16
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 16
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93064:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 16
+    capneedbonus: -3
     damagemultiplier: 1.0
-    id: 90677
+    id: 93064
     marketGroup: 2791
-    name: Wightstorm Cetana Booster I
+    name: Republic Mobility Booster I
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8618,17 +9361,19 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    speedfbonus: 8
+    velocitybonus: 2.0
     volume: 1.0
-  90678:
+    warpsbonus: 3
+  93065:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 16
+    capneedbonus: -6
     damagemultiplier: 1.0
-    id: 90678
+    id: 93065
     marketGroup: 2791
-    metalevelold: 3
-    name: Wightstorm Cetana Booster II
+    metalevelold: 3.0
+    name: Republic Mobility Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8636,17 +9381,187 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    speedfbonus: 12
+    velocitybonus: 4.0
     volume: 1.0
-  90679:
+    warpsbonus: 6
+  93066:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.02
+    id: 93066
+    marketGroup: 2792
+    missiledamagemultiplierbonus: 1.02
+    name: State Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93067:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.04
+    id: 93067
+    marketGroup: 2792
+    metalevelold: 3.0
+    missiledamagemultiplierbonus: 1.04
+    name: State Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93068:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.06
+    id: 93068
+    marketGroup: 2792
+    metalevelold: 5.0
+    missiledamagemultiplierbonus: 1.06
+    name: State Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93085:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.08
+    id: 93085
+    marketGroup: 2792
+    metalevelold: 6.0
+    missiledamagemultiplierbonus: 1.08
+    name: State Damage Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93087:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    id: 93087
+    marketGroup: 2790
+    maxrangebonus: 6.0
+    metalevelold: 3.0
+    name: State Projection Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 6.0
+    volume: 1.0
+  93088:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 9.0
+    id: 93088
+    marketGroup: 2790
+    maxrangebonus: 9.0
+    metalevelold: 5.0
+    name: State Projection Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 9.0
+    volume: 1.0
+  93093:
+    aoecloudsizebonus: -9.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93093
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: State Application Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 9.0
+    volume: 1.0
+  93095:
+    aoecloudsizebonus: -12.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93095
+    marketGroup: 2792
+    metalevelold: 6.0
+    name: State Application Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  93096:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93096
+    marketGroup: 2790
+    name: State Defense Booster I
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -2
+    passiveexplosivedamageresistancebonus: -2
+    passivekineticdamageresistancebonus: -2
+    passivethermicdamageresistancebonus: -2
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93098:
+    agilitybonus: -4.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 16
+    capneedbonus: -6
     damagemultiplier: 1.0
-    id: 90679
+    id: 93098
     marketGroup: 2791
-    metalevelold: 5
-    name: Wightstorm Cetana Booster III
+    metalevelold: 3.0
+    name: State Mobility Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8654,35 +9569,19 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    speedfbonus: 16
     volume: 1.0
-  90680:
+    warpsbonus: 6
+  93101:
+    agilitybonus: -6.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 16
+    capneedbonus: -9
     damagemultiplier: 1.0
-    id: 90680
+    id: 93101
     marketGroup: 2791
-    metalevelold: 6
-    name: Wightstorm Cetana Booster IV
-    nondiminishingskillinjectoruses: 1
-    portionSize: 1
-    published: true
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    speedfbonus: 20
-    volume: 1.0
-  90682:
-    boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 15
-    caprechargebonus: -4.0
-    damagemultiplier: 1.0
-    id: 90682
-    marketGroup: 2790
-    name: Wightstorm Rapture Booster I
+    metalevelold: 5.0
+    name: State Mobility Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8691,16 +9590,18 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90683:
+    warpsbonus: 9
+  93102:
+    agilitybonus: -8.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 15
-    caprechargebonus: -6.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -12
     damagemultiplier: 1.0
-    id: 90683
-    marketGroup: 2790
-    metalevelold: 3
-    name: Wightstorm Rapture Booster II
+    id: 93102
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: State Mobility Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8709,16 +9610,182 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90684:
+    warpsbonus: 12
+  93103:
+    aoecloudsizebonus: -6.0
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 15
-    caprechargebonus: -8.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
     damagemultiplier: 1.0
-    id: 90684
+    id: 93103
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: State Application Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  93106:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93106
     marketGroup: 2790
-    metalevelold: 5
-    name: Wightstorm Rapture Booster III
+    metalevelold: 3.0
+    name: State Defense Booster II
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -4
+    passiveexplosivedamageresistancebonus: -4
+    passivekineticdamageresistancebonus: -4
+    passivethermicdamageresistancebonus: -4
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93107:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93107
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: State Defense Booster III
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -6
+    passiveexplosivedamageresistancebonus: -6
+    passivekineticdamageresistancebonus: -6
+    passivethermicdamageresistancebonus: -6
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93108:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93108
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: State Defense Booster IV
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -8
+    passiveexplosivedamageresistancebonus: -8
+    passivekineticdamageresistancebonus: -8
+    passivethermicdamageresistancebonus: -8
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93109:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -4
+    falloffbonus: 4.0
+    id: 93109
+    marketGroup: 2531
+    name: State Electronics Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93110:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -8
+    falloffbonus: 8.0
+    id: 93110
+    marketGroup: 2531
+    metalevelold: 3.0
+    name: State Electronics Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 8
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93111:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -12
+    falloffbonus: 12.0
+    id: 93111
+    marketGroup: 2531
+    metalevelold: 5.0
+    name: State Electronics Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 12
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 12
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93112:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -16
+    falloffbonus: 16.0
+    id: 93112
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: State Electronics Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 16
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 16
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93113:
+    agilitybonus: -2.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -3
+    damagemultiplier: 1.0
+    id: 93113
+    marketGroup: 2791
+    name: State Mobility Booster I
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8727,16 +9794,154 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90685:
+    warpsbonus: 3
+  93114:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 15
-    caprechargebonus: -10.0
     damagemultiplier: 1.0
-    id: 90685
+    falloffbonus: 3.0
+    id: 93114
     marketGroup: 2790
-    metalevelold: 6
-    name: Wightstorm Rapture Booster IV
+    maxrangebonus: 3.0
+    name: State Projection Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 3.0
+    volume: 1.0
+  93115:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 12.0
+    id: 93115
+    marketGroup: 2790
+    maxrangebonus: 12.0
+    metalevelold: 6.0
+    name: State Projection Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 12.0
+    volume: 1.0
+  93116:
+    aoecloudsizebonus: -3.0
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 93116
+    marketGroup: 2792
+    name: State Application Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 3.0
+    volume: 1.0
+  93117:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -4
+    falloffbonus: 4.0
+    id: 93117
+    marketGroup: 2531
+    name: Imperial Electronics Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 4
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93118:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -8
+    falloffbonus: 8.0
+    id: 93118
+    marketGroup: 2531
+    metalevelold: 3.0
+    name: Imperial Electronics Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 8
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93119:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -12
+    falloffbonus: 12.0
+    id: 93119
+    marketGroup: 2531
+    metalevelold: 5.0
+    name: Imperial Electronics Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 12
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 12
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93120:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    durationbonus: -16
+    falloffbonus: 16.0
+    id: 93120
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: Imperial Electronics Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 16
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 16
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93121:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.02
+    damagemultiplierbonus: 2.0
+    id: 93121
+    marketGroup: 2792
+    name: Imperial Damage Booster I
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8745,85 +9950,161 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90686:
+  93122:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 90686
-    marketGroup: 2790
-    name: Wightstorm Nirvana Booster I
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.04
+    damagemultiplierbonus: 4.0
+    id: 93122
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: Imperial Damage Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
     requiredskill1: 3405
     requiredskill1level: 1
-    shieldcapacitybonus: 4.0
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90687:
+  93123:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 15
-    damagemultiplier: 1.0
-    id: 90687
-    marketGroup: 2790
-    metalevelold: 3
-    name: Wightstorm Nirvana Booster II
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.06
+    damagemultiplierbonus: 6.0
+    id: 93123
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: Imperial Damage Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93124:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
+    damagemultiplier: 1.08
+    damagemultiplierbonus: 8.0
+    id: 93124
+    marketGroup: 2792
+    metalevelold: 6.0
+    name: Imperial Damage Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93125:
+    armorhpbonus: 3
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 3.0
+    hullhpbonus: 3.0
+    id: 93125
+    marketGroup: 2790
+    maxrangebonus: 3.0
+    name: Imperial Projection Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldcapacitybonus: 3.0
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93126:
+    armorhpbonus: 6
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    falloffbonus: 6.0
+    hullhpbonus: 6.0
+    id: 93126
+    marketGroup: 2790
+    maxrangebonus: 6.0
+    metalevelold: 3.0
+    name: Imperial Projection Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    rangeskillbonus: 6
     requiredskill1: 3405
     requiredskill1level: 1
     shieldcapacitybonus: 6.0
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90688:
+  93127:
+    armorhpbonus: 9
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 15
     damagemultiplier: 1.0
-    id: 90688
+    falloffbonus: 9.0
+    hullhpbonus: 9.0
+    id: 93127
     marketGroup: 2790
-    metalevelold: 5
-    name: Wightstorm Nirvana Booster III
+    maxrangebonus: 9.0
+    metalevelold: 5.0
+    name: Imperial Projection Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
+    rangeskillbonus: 9
     requiredskill1: 3405
     requiredskill1level: 1
-    shieldcapacitybonus: 8.0
+    shieldcapacitybonus: 9.0
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90689:
+  93128:
+    armorhpbonus: 12
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 15
     damagemultiplier: 1.0
-    id: 90689
+    falloffbonus: 12.0
+    hullhpbonus: 12.0
+    id: 93128
     marketGroup: 2790
-    metalevelold: 6
-    name: Wightstorm Nirvana Booster IV
+    maxrangebonus: 12.0
+    metalevelold: 6.0
+    name: Imperial Projection Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
+    rangeskillbonus: 12
     requiredskill1: 3405
     requiredskill1level: 1
-    shieldcapacitybonus: 10.0
+    shieldcapacitybonus: 12.0
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
-  90690:
+  93129:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 14
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
     damagemultiplier: 1.0
-    id: 90690
-    marketGroup: 2531
-    name: Wightstorm Sunyata Booster I
+    dronetrackingbonus: 3
+    id: 93129
+    marketGroup: 2792
+    maxvelocitybonus: 3
+    name: Imperial Application Booster I
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8831,17 +10112,19 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    thermodynamicsheatdamage: -8
+    trackingspeedbonus: 3.0
     volume: 1.0
-  90691:
+  93130:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 14
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
     damagemultiplier: 1.0
-    id: 90691
-    marketGroup: 2531
-    metalevelold: 3
-    name: Wightstorm Sunyata Booster II
+    dronetrackingbonus: 6
+    id: 93130
+    marketGroup: 2792
+    maxvelocitybonus: 6
+    metalevelold: 3.0
+    name: Imperial Application Booster II
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8849,17 +10132,19 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    thermodynamicsheatdamage: -12
+    trackingspeedbonus: 6.0
     volume: 1.0
-  90692:
+  93131:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 14
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
     damagemultiplier: 1.0
-    id: 90692
-    marketGroup: 2531
-    metalevelold: 5
-    name: Wightstorm Sunyata Booster III
+    dronetrackingbonus: 9
+    id: 93131
+    marketGroup: 2792
+    maxvelocitybonus: 9
+    metalevelold: 5.0
+    name: Imperial Application Booster III
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8867,17 +10152,19 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    thermodynamicsheatdamage: -16
+    trackingspeedbonus: 9.0
     volume: 1.0
-  90693:
+  93132:
     boosterduration: 7200000.0
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 14
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 17
     damagemultiplier: 1.0
-    id: 90693
-    marketGroup: 2531
-    metalevelold: 6
-    name: Wightstorm Sunyata Booster IV
+    dronetrackingbonus: 12
+    id: 93132
+    marketGroup: 2792
+    maxvelocitybonus: 12
+    metalevelold: 6.0
+    name: Imperial Application Booster IV
     nondiminishingskillinjectoruses: 1
     portionSize: 1
     published: true
@@ -8885,20 +10172,199 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     speedfactor: 1.0
-    thermodynamicsheatdamage: -20
+    trackingspeedbonus: 12.0
     volume: 1.0
-  90694:
+  93133:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93133
+    marketGroup: 2790
+    name: Imperial Defense Booster I
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -2
+    passiveexplosivedamageresistancebonus: -2
+    passivekineticdamageresistancebonus: -2
+    passivethermicdamageresistancebonus: -2
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93134:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93134
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Imperial Defense Booster II
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -4
+    passiveexplosivedamageresistancebonus: -4
+    passivekineticdamageresistancebonus: -4
+    passivethermicdamageresistancebonus: -4
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93135:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93135
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Imperial Defense Booster III
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -6
+    passiveexplosivedamageresistancebonus: -6
+    passivekineticdamageresistancebonus: -6
+    passivethermicdamageresistancebonus: -6
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93136:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 93136
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: Imperial Defense Booster IV
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -8
+    passiveexplosivedamageresistancebonus: -8
+    passivekineticdamageresistancebonus: -8
+    passivethermicdamageresistancebonus: -8
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93137:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -3
+    damagemultiplier: 1.0
+    id: 93137
+    marketGroup: 2791
+    name: Imperial Mobility Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 2.0
+    volume: 1.0
+    warpsbonus: 3
+  93138:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -6
+    damagemultiplier: 1.0
+    id: 93138
+    marketGroup: 2791
+    metalevelold: 3.0
+    name: Imperial Mobility Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 4.0
+    volume: 1.0
+    warpsbonus: 6
+  93139:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -9
+    damagemultiplier: 1.0
+    id: 93139
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Imperial Mobility Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 6.0
+    volume: 1.0
+    warpsbonus: 9
+  93140:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 16
+    capneedbonus: -12
+    damagemultiplier: 1.0
+    id: 93140
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: Imperial Mobility Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    velocitybonus: 8.0
+    volume: 1.0
+    warpsbonus: 12
+  93260:
+    boosterduration: 7200000.0
+    boosterness: 5
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 6.0
+    id: 93260
+    metalevelold: 5.0
+    missiledamagemultiplierbonus: 1.06
+    name: Guristas Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  93775:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 10
     charismabonus: 4
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 90694
+    id: 93775
     intelligencebonus: 4
     marketGroup: 2487
     memorybonus: 4
-    name: Basic 'Brainfreeze' Cerebral Accelerator
+    name: Basic Capsuleer Day XXIII Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     perceptionbonus: 4
@@ -8911,42 +10377,18 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 4
-  90695:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 20503.45763888889
-    boosterness: 10
-    charismabonus: 8
-    damagemultiplier: 1.0
-    followsjumpclones: 1
-    id: 90695
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Potent 'Brainfreeze' Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    perceptionbonus: 8
-    portionSize: 1
-    price: 32768.0
-    published: true
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    speedfactor: 1.0
-    volume: 1.0
-    willpowerbonus: 8
-  90696:
+  93776:
     boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 20503.45763888889
+    boosterlastinjectiondatetime: 20613.45763888889
     boosterness: 10
     charismabonus: 6
     damagemultiplier: 1.0
     followsjumpclones: 1
-    id: 90696
+    id: 93776
     intelligencebonus: 6
     marketGroup: 2487
     memorybonus: 6
-    name: Extended 'Brainfreeze' Cerebral Accelerator
+    name: Extended Capsuleer Day XXIII Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     perceptionbonus: 6
@@ -8959,3 +10401,90 @@ types:
     speedfactor: 1.0
     volume: 1.0
     willpowerbonus: 6
+  93777:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 10
+    charismabonus: 8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 93777
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent Capsuleer Day XXIII Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 8
+  93778:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 12
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 93778
+    marketGroup: 3837
+    mass: 1.0
+    name: Basic Capsuleer Day XXIII Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 20
+    socialmutator: 20
+    speedfactor: 1.0
+    volume: 1.0
+  93779:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 12
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 93779
+    marketGroup: 2487
+    mass: 1.0
+    name: Extended Capsuleer Day XXIII Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 25
+    socialmutator: 25
+    speedfactor: 1.0
+    volume: 1.0
+  93780:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 20613.45763888889
+    boosterness: 12
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 93780
+    marketGroup: 3837
+    mass: 1.0
+    name: Potent Capsuleer Day XXIII Glamourex Booster
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 50
+    socialmutator: 50
+    speedfactor: 1.0
+    volume: 1.0

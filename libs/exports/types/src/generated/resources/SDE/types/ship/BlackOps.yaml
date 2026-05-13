@@ -9,8 +9,6 @@ types:
     armoruniformity: 0.75
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     canjump: 1
     capacitorcapacity: 5912.5
     conduitjumpdriveconsumptionamount: 1000
@@ -66,7 +64,7 @@ types:
     maxtargetrange: 70600.0
     maxvelocity: 117.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Redeemer
     portionSize: 1
@@ -105,7 +103,7 @@ types:
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.67
-    turretslotsleft: 6
+    turretslotsleft: 5
     typecolorscheme: 11319
     uniformity: 1.0
     upgradecapacity: 400
@@ -124,8 +122,6 @@ types:
     armoruniformity: 0.75
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     canjump: 1
     capacitorcapacity: 5000.0
     conduitjumpdriveconsumptionamount: 1000
@@ -182,7 +178,7 @@ types:
     maxtargetrange: 72800.0
     maxvelocity: 117.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Sin
     portionSize: 1
@@ -212,7 +208,7 @@ types:
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
-    shipbonusgb: 10.0
+    shipbonusgb: 20.0
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
     shipbonusrole1: 7.5
@@ -241,8 +237,6 @@ types:
     armoruniformity: 0.75
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     canjump: 1
     capacitorcapacity: 5312.5
     conduitjumpdriveconsumptionamount: 1000
@@ -299,7 +293,7 @@ types:
     maxtargetrange: 93600.0
     maxvelocity: 106.0
     medslots: 8
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Widow
     portionSize: 1
@@ -327,7 +321,7 @@ types:
     shieldrechargerate: 3125000.0
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
-    shipbonus2cb: -7.5
+    shipbonus2cb: -10.0
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonuscb3: 10
@@ -357,8 +351,6 @@ types:
     armoruniformity: 0.75
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
-    battleshipextenderhpbonus: 100
-    battleshipplatehpbonus: 50
     canjump: 1
     capacitorcapacity: 5000.0
     conduitjumpdriveconsumptionamount: 1000
@@ -372,6 +364,7 @@ types:
     durationbonus: -50
     elitebonusblackops1: 7.5
     elitebonusblackops2: 7.5
+    elitebonusblackops3: 20
     emdamageresonance: 0.67
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.67
@@ -414,7 +407,7 @@ types:
     maxtargetrange: 66400.0
     maxvelocity: 182.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Panther
     portionSize: 1
@@ -533,7 +526,7 @@ types:
     maxtargetrange: 91000.0
     maxvelocity: 110.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Marshal
     portionSize: 1
@@ -664,7 +657,7 @@ types:
     maxtargetrange: 93600.0
     maxvelocity: 182.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Python
     portionSize: 1

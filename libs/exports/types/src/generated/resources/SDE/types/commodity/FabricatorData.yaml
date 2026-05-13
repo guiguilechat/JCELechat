@@ -1,0 +1,10 @@
+types:
+  91773:
+    id: 91773
+    marketGroup: 2799
+    mass: 0.1
+    name: Rampancy Data Dump
+    portionSize: 1
+    price: 200000.0
+    published: true
+    volume: 0.01

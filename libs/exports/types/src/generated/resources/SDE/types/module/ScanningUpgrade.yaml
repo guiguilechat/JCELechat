@@ -35,7 +35,7 @@ types:
     id: 33199
     marketGroup: 1709
     maxscandeviationmodifiermodule: -20
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scan Pinpointing Array II
     portionSize: 1
     power: 1
@@ -50,7 +50,7 @@ types:
     hp: 40.0
     id: 33201
     marketGroup: 1709
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scan Rangefinding Array II
     portionSize: 1
     power: 1
@@ -66,7 +66,7 @@ types:
     hp: 40.0
     id: 87323
     marketGroup: 1709
-    metalevelold: 8
+    metalevelold: 8.0
     name: Navy Scan Rangefinding Array
     portionSize: 1
     power: 1
@@ -83,7 +83,7 @@ types:
     id: 87324
     marketGroup: 1709
     maxscandeviationmodifiermodule: -15
-    metalevelold: 8
+    metalevelold: 8.0
     name: Navy Scan Pinpointing Array
     portionSize: 1
     power: 1

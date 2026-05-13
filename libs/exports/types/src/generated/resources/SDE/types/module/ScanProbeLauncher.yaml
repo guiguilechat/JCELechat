@@ -4,12 +4,14 @@ types:
     chargegroup1: 479
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 2083
     mass: 5.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 4
+    metalevelold: 4.0
     name: Prototype Iris Probe Launcher
     portionSize: 1
     price: 6000.0
@@ -26,12 +28,14 @@ types:
     cpu: 20.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 4258
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Core Probe Launcher II
     portionSize: 1
     power: 1
@@ -50,12 +54,14 @@ types:
     cpu: 242.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 4260
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expanded Probe Launcher II
     portionSize: 1
     power: 1
@@ -74,6 +80,8 @@ types:
     cpu: 15.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 17938
     marketGroup: 712
@@ -96,6 +104,8 @@ types:
     cpu: 220.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 18639
     marketGroup: 712
@@ -118,13 +128,15 @@ types:
     cpu: 210.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 28756
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Sisters Expanded Probe Launcher
     portionSize: 1
     power: 1
@@ -143,13 +155,15 @@ types:
     cpu: 10.0
     disallowrepeatingactivation: 1
     duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
     hp: 40.0
     id: 28758
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Sisters Core Probe Launcher
     portionSize: 1
     power: 1
@@ -159,6 +173,32 @@ types:
     requiredskill1: 3412
     requiredskill1level: 1
     scanstrengthbonus: 10
+    slots: 1
+    speed: 1500.0
+    techlevel: 1
+    volume: 5.0
+  92453:
+    chargegroup1: 479
+    cpu: 220.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    expeditioncommandburstprobedeviationbonuscharid: 1
+    expeditioncommandburstprobestrengthbonuscharid: 1
+    hp: 40.0
+    id: 92453
+    marketGroup: 712
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metagroupid: 4
+    metalevelold: 6.0
+    name: Moreau’s Modified Expanded Scan Probe Launcher
+    portionSize: 1
+    power: 1
+    published: true
+    reloadtime: 10000.0
+    requiredskill1: 3412
+    requiredskill1level: 2
+    scanstrengthbonus: 15
     slots: 1
     speed: 1500.0
     techlevel: 1

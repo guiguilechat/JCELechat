@@ -21,6 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup08;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -95,6 +96,13 @@ public class InterdictionNullifier
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup07;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup08;
     /**
      * 
      */
@@ -205,7 +213,7 @@ public class InterdictionNullifier
     @Stackable(false)
     @DefaultIntValue(0)
     public int warpbubbleimmunebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, DurationHighisGood.INSTANCE, WarpBubbleImmuneBonus.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, DurationHighisGood.INSTANCE, WarpBubbleImmuneBonus.INSTANCE, Cpu.INSTANCE, CanActivateInGateCloak.INSTANCE, DroneBandwidthPercentage.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final InterdictionNullifier.MetaGroup METAGROUP = new InterdictionNullifier.MetaGroup();
 
     @Override
@@ -238,6 +246,10 @@ public class InterdictionNullifier
             case  1880 :
             {
                 return canfitshipgroup07;
+            }
+            case  1881 :
+            {
+                return canfitshipgroup08;
             }
             case  1302 :
             {

@@ -445,8 +445,8 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * This will make the item non-destructible upon podding.  ONLY FOR IMPLANTS AND BOOSTERS
      */

@@ -38,7 +38,7 @@ types:
     id: 1978
     marketGroup: 706
     maxrangebonus: 7.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tracking Computer II
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -65,7 +65,7 @@ types:
     id: 6173
     marketGroup: 706
     maxrangebonus: 6.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Optical Compact Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -92,7 +92,7 @@ types:
     id: 6176
     marketGroup: 706
     maxrangebonus: 6.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: F-12 Enduring Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -120,7 +120,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -148,7 +148,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.7
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -176,7 +176,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.1
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -204,7 +204,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.5
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -232,7 +232,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.9
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -260,7 +260,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -288,7 +288,7 @@ types:
     marketGroup: 706
     maxrangebonus: 7.5
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Marketeer'' Tracking Computer'
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1

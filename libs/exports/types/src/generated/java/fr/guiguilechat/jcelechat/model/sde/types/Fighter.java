@@ -157,8 +157,8 @@ public abstract class Fighter
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      */

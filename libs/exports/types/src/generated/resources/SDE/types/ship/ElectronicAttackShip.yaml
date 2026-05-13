@@ -44,7 +44,7 @@ types:
     maxtargetrange: 64500.0
     maxvelocity: 350.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Keres
     portionSize: 1
@@ -135,7 +135,7 @@ types:
     maxtargetrange: 64000.0
     maxvelocity: 340.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Sentinel
     portionSize: 1
@@ -223,7 +223,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 315.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Kitsune
     portionSize: 1
@@ -312,7 +312,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 375.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Hyena
     portionSize: 1
@@ -402,7 +402,7 @@ types:
     maxvelocity: 440.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.05
     name: Raiju
     portionSize: 1

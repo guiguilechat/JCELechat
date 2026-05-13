@@ -47,7 +47,7 @@ types:
     maxgrouponline: 1
     maxrange: 300000.0
     maxvelocitymultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     modulereactivationdelay: 60000
     name: Standup Focused Warp Disruptor II
     portionSize: 1

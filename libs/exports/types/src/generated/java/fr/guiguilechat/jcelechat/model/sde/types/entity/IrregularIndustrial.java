@@ -102,7 +102,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmune;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStatus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
@@ -732,12 +734,26 @@ public class IrregularIndustrial
     @DefaultRealValue(0.0)
     public double trackingspeed;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int warpbubbleimmune;
+    /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerange;
+    /**
+     * Warp ability of a ship.  If greater than zero than the ship cannot warp.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int warpscramblestatus;
     /**
      * Amount to modify ships warp scramble status by.
      */
@@ -752,7 +768,7 @@ public class IrregularIndustrial
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, Falloff.INSTANCE, EntityFlyRange.INSTANCE, TrackingSpeed.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, EntityLootCountMin.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {WarpBubbleImmune.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, Falloff.INSTANCE, EntityFlyRange.INSTANCE, TrackingSpeed.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, EntityEquipmentMin.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStatus.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, EntityLootCountMin.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final IrregularIndustrial.MetaGroup METAGROUP = new IrregularIndustrial.MetaGroup();
 
     @Override
@@ -1110,9 +1126,17 @@ public class IrregularIndustrial
             {
                 return trackingspeed;
             }
+            case  1538 :
+            {
+                return warpbubbleimmune;
+            }
             case  103 :
             {
                 return warpscramblerange;
+            }
+            case  104 :
+            {
+                return warpscramblestatus;
             }
             case  105 :
             {

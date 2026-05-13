@@ -22,7 +22,7 @@ types:
     id: 47909
     marketGroup: 2471
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact Entropic Radiation Sink
     portionSize: 1
     power: 1
@@ -39,7 +39,7 @@ types:
     id: 47911
     marketGroup: 2471
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Entropic Radiation Sink II
     portionSize: 1
     power: 1
@@ -69,7 +69,7 @@ types:
     id: 52242
     marketGroup: 2471
     mass: 1.0
-    metalevelold: 12
+    metalevelold: 12.0
     name: Zorya's Entropic Radiation Sink
     portionSize: 1
     power: 1
@@ -86,7 +86,7 @@ types:
     id: 52244
     marketGroup: 2471
     mass: 1.0
-    metalevelold: 8
+    metalevelold: 8.0
     name: Veles Entropic Radiation Sink
     portionSize: 1
     power: 1

@@ -1,0 +1,10 @@
+types:
+  92179:
+    id: 92179
+    marketGroup: 2480
+    mass: 1.0
+    name: Hyper-Vigilance Core
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 0.01

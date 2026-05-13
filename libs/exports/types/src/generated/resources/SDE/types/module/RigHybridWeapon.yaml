@@ -139,7 +139,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Discharge Elutriation II
     portionSize: 1
     published: true
@@ -158,7 +158,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Burst Aerator II
     portionSize: 1
     published: true
@@ -177,7 +177,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Collision Accelerator II
     portionSize: 1
     published: true
@@ -197,7 +197,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Algid Hybrid Administrations Unit II
     portionSize: 1
     published: true
@@ -217,7 +217,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Ambit Extension II
     portionSize: 1
     published: true
@@ -237,7 +237,7 @@ types:
     mass: 200.0
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Locus Coordinator II
     portionSize: 1
     published: true
@@ -256,7 +256,7 @@ types:
     marketGroup: 1230
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hybrid Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -334,7 +334,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Algid Hybrid Administrations Unit II
     portionSize: 1
     published: true
@@ -354,7 +354,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Algid Hybrid Administrations Unit II
     portionSize: 1
     published: true
@@ -374,7 +374,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Algid Hybrid Administrations Unit II
     portionSize: 1
     published: true
@@ -451,7 +451,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Ambit Extension II
     portionSize: 1
     published: true
@@ -471,7 +471,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Ambit Extension II
     portionSize: 1
     published: true
@@ -491,7 +491,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Ambit Extension II
     portionSize: 1
     published: true
@@ -564,7 +564,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Burst Aerator II
     portionSize: 1
     published: true
@@ -583,7 +583,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Burst Aerator II
     portionSize: 1
     published: true
@@ -602,7 +602,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Burst Aerator II
     portionSize: 1
     published: true
@@ -675,7 +675,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Collision Accelerator II
     portionSize: 1
     published: true
@@ -694,7 +694,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Collision Accelerator II
     portionSize: 1
     published: true
@@ -713,7 +713,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Collision Accelerator II
     portionSize: 1
     published: true
@@ -790,7 +790,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Discharge Elutriation II
     portionSize: 1
     published: true
@@ -810,7 +810,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Discharge Elutriation II
     portionSize: 1
     published: true
@@ -830,7 +830,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Discharge Elutriation II
     portionSize: 1
     published: true
@@ -907,7 +907,7 @@ types:
     mass: 200.0
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Locus Coordinator II
     portionSize: 1
     published: true
@@ -927,7 +927,7 @@ types:
     mass: 200.0
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Locus Coordinator II
     portionSize: 1
     published: true
@@ -947,7 +947,7 @@ types:
     mass: 200.0
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Locus Coordinator II
     portionSize: 1
     published: true
@@ -1023,7 +1023,7 @@ types:
     marketGroup: 1228
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hybrid Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -1043,7 +1043,7 @@ types:
     marketGroup: 1229
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hybrid Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -1063,7 +1063,7 @@ types:
     marketGroup: 1734
     mass: 200.0
     maxrangemultiplier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hybrid Metastasis Adjuster II
     portionSize: 1
     published: true

@@ -44,7 +44,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 200.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Onyx
     portionSize: 1
@@ -134,7 +134,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 220.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Broadsword
     portionSize: 1
@@ -227,7 +227,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 215.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Devoter
     portionSize: 1
@@ -318,7 +318,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 205.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Phobos
     portionSize: 1
@@ -407,7 +407,7 @@ types:
     maxvelocity: 240.0
     medslots: 7
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Fiend
     portionSize: 1
@@ -505,7 +505,7 @@ types:
     maxvelocity: 230.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Laelaps
     portionSize: 1

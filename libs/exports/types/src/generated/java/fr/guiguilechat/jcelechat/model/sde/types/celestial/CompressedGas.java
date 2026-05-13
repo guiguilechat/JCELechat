@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.types.Celestial;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -22,18 +23,29 @@ public class CompressedGas
     extends Celestial
 {
     /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
+    /**
      * If set to true, this results in no mining waste.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ignoreminingwaste;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE, IgnoreMiningCrits.INSTANCE })));
     public static final CompressedGas.MetaGroup METAGROUP = new CompressedGas.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  6108 :
+            {
+                return ignoreminingcrits;
+            }
             case  3236 :
             {
                 return ignoreminingwaste;

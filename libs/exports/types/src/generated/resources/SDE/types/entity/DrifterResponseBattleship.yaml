@@ -95,7 +95,7 @@ types:
     aitargetswitchtimer: 60000
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 0.5
-    armorhp: 600000.0
+    armorhp: 400000.0
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
@@ -121,7 +121,7 @@ types:
     falloff: 150000.0
     gfxboosterid: 397
     gfxturretid: 34580
-    hp: 75000.0
+    hp: 50000.0
     id: 86498
     kineticdamage: 80.0
     mass: 10900000.0
@@ -142,7 +142,7 @@ types:
     scanmagnetometricstrength: 500.0
     scanradarstrength: 500.0
     scanresolution: 100.0
-    shieldcapacity: 400000.0
+    shieldcapacity: 270000.0
     shieldemdamageresonance: 0.51
     shieldexplosivedamageresonance: 0.51
     shieldkineticdamageresonance: 0.51

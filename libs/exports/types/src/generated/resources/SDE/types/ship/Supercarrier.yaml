@@ -73,7 +73,7 @@ types:
     maxvelocity: 80.0
     medslots: 7
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Revenant
     portionSize: 1
     poweroutput: 625000.0
@@ -710,7 +710,7 @@ types:
     maxvelocity: 85.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Vendetta
     portionSize: 1
     poweroutput: 907500.0

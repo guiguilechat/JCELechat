@@ -7,7 +7,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Capacitor Power Relay'
     portionSize: 1
     published: true
@@ -40,7 +40,7 @@ types:
     id: 1447
     marketGroup: 667
     mass: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capacitor Power Relay II
     portionSize: 1
     published: true
@@ -57,7 +57,7 @@ types:
     id: 8175
     marketGroup: 667
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Capacitor Power Relay
     portionSize: 1
     published: true
@@ -74,7 +74,7 @@ types:
     id: 8177
     marketGroup: 667
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Capacitor Power Relay
     portionSize: 1
     published: true
@@ -92,7 +92,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Capacitor Power Relay
     portionSize: 1
     published: true
@@ -110,7 +110,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Capacitor Power Relay
     portionSize: 1
     published: true
@@ -128,7 +128,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -146,7 +146,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -164,7 +164,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Selynne's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -182,7 +182,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Raysere's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -200,7 +200,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vizan's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -218,7 +218,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Ahremen's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -236,7 +236,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Chelm's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -254,7 +254,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Draclira's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -272,7 +272,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Makur's Modified Capacitor Power Relay
     portionSize: 1
     published: true
@@ -290,7 +290,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Capacitor Power Relay
     portionSize: 1
     published: true
@@ -308,7 +308,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Capacitor Power Relay
     portionSize: 1
     published: true
@@ -326,7 +326,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Motte'' Capacitor Power Relay I'
     portionSize: 1
     published: true
@@ -344,7 +344,7 @@ types:
     marketGroup: 667
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Capacitor Power Relay
     portionSize: 1
     published: true

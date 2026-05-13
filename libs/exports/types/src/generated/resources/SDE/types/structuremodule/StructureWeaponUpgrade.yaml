@@ -50,7 +50,7 @@ types:
     id: 47340
     marketGroup: 2235
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     missilevelocitybonus: 6.0
     name: Standup Missile Guidance Enhancer II
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     id: 47342
     marketGroup: 2234
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplierbonus: 1.1
     name: Standup Ballistic Control System II
     portionSize: 1

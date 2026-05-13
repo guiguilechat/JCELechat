@@ -3,22 +3,19 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * Reduces the cycle time and capacitor cost of Shield Booster and Armor Repairer modules for the bastion module. 
- */
-public class BastionModeArmorRepairAndShieldBoosterCapDurationBonus
+public class ExpeditionCommandBurstProbeStrengthBonusCharID
     extends IntAttribute
 {
-    public static final BastionModeArmorRepairAndShieldBoosterCapDurationBonus INSTANCE = new BastionModeArmorRepairAndShieldBoosterCapDurationBonus();
+    public static final ExpeditionCommandBurstProbeStrengthBonusCharID INSTANCE = new ExpeditionCommandBurstProbeStrengthBonusCharID();
 
     @Override
     public int getId() {
-        return  5964;
+        return  6118;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return false;
+        return true;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class BastionModeArmorRepairAndShieldBoosterCapDurationBonus
 
     @Override
     public boolean getPublished() {
-        return true;
+        return false;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class BastionModeArmorRepairAndShieldBoosterCapDurationBonus
 
     @Override
     public String toString() {
-        return "BastionModeArmorRepairAndShieldBoosterCapDurationBonus";
+        return "ExpeditionCommandBurstProbeStrengthBonusCharID";
     }
 }

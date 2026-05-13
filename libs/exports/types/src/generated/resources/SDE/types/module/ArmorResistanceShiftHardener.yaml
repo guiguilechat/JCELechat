@@ -15,7 +15,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Reactive Armor Hardener
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -44,7 +44,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Reactive Armor Hardener
     overloadselfdurationbonus: -15.0
     portionSize: 1

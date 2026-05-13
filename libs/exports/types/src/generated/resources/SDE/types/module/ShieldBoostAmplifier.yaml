@@ -22,7 +22,7 @@ types:
     id: 14045
     marketGroup: 613
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -40,7 +40,7 @@ types:
     id: 14047
     marketGroup: 613
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -58,7 +58,7 @@ types:
     id: 14636
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -76,7 +76,7 @@ types:
     id: 14638
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -94,7 +94,7 @@ types:
     id: 14708
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -112,7 +112,7 @@ types:
     id: 14710
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -130,7 +130,7 @@ types:
     id: 14712
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -148,7 +148,7 @@ types:
     id: 14714
     marketGroup: 613
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -166,7 +166,7 @@ types:
     id: 15905
     marketGroup: 613
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -184,7 +184,7 @@ types:
     id: 15907
     marketGroup: 613
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -201,7 +201,7 @@ types:
     hp: 40.0
     id: 16533
     marketGroup: 613
-    metalevelold: 1
+    metalevelold: 1.0
     name: Stalwart Restrained Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -218,7 +218,7 @@ types:
     hp: 40.0
     id: 16535
     marketGroup: 613
-    metalevelold: 1
+    metalevelold: 1.0
     name: Copasetic Compact Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -236,7 +236,7 @@ types:
     id: 19289
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Pith C-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -254,7 +254,7 @@ types:
     id: 19293
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Gist A-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -272,7 +272,7 @@ types:
     id: 19295
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Pith X-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -290,7 +290,7 @@ types:
     id: 19297
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Gist C-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -308,7 +308,7 @@ types:
     id: 19299
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Gist B-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -326,7 +326,7 @@ types:
     id: 19301
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Gist X-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -344,7 +344,7 @@ types:
     id: 19303
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Pith B-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -362,7 +362,7 @@ types:
     id: 19311
     marketGroup: 613
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Pith A-Type Shield Boost Amplifier
     portionSize: 1
     power: 1
@@ -380,7 +380,7 @@ types:
     id: 20613
     marketGroup: 613
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Glycerine'' Shield Boost Amplifier'
     portionSize: 1
     power: 1
@@ -397,7 +397,7 @@ types:
     hp: 40.0
     id: 24443
     marketGroup: 613
-    metalevelold: 5
+    metalevelold: 5.0
     name: Shield Boost Amplifier II
     portionSize: 1
     power: 1

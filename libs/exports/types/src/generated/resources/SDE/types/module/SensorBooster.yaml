@@ -11,7 +11,7 @@ types:
     id: 1952
     marketGroup: 671
     maxtargetrangebonus: 30.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Sensor Booster II
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -70,7 +70,7 @@ types:
     id: 6159
     marketGroup: 671
     maxtargetrangebonus: 27.5
-    metalevelold: 1
+    metalevelold: 1.0
     name: Alumel-Wired Enduring Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -100,7 +100,7 @@ types:
     id: 6160
     marketGroup: 671
     maxtargetrangebonus: 27.5
-    metalevelold: 1
+    metalevelold: 1.0
     name: F-90 Compact Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -131,7 +131,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 32.5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -162,7 +162,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 34.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -193,7 +193,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 36.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -224,7 +224,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 37.5
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -255,7 +255,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 39.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -286,7 +286,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 32.5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -317,7 +317,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 30.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Shady'' Sensor Booster'
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -347,7 +347,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 32.5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Sentient Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -378,7 +378,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 34.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Unit D-34343's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -409,7 +409,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 36.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Unit F-435454's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -440,7 +440,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 37.5
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Unit P-343554's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1
@@ -471,7 +471,7 @@ types:
     marketGroup: 671
     maxtargetrangebonus: 39.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Unit W-634's Modified Sensor Booster
     overloadsensormodulestrengthbonus: 15
     portionSize: 1

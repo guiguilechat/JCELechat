@@ -111,8 +111,8 @@ public class MiningCrystal
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * The type ID of the skill that is required.
      */

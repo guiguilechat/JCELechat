@@ -89,7 +89,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 150.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Capsule - Genolution 'Auroral' 197-variant
     portionSize: 1
     poweroutput: 1.0

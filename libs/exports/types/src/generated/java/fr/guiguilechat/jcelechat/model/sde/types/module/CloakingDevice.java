@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType12;
@@ -97,6 +98,13 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup05;
+    /**
+     * Can be fitted to
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup06;
     /**
      * 
      */
@@ -277,7 +285,7 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultIntValue(0)
     public int stabilizecloakduration;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, ShieldCapacityMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, CapacitorCapacityMultiplier.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, TechLevel.INSTANCE, AgilityMultiplier.INSTANCE, StabilizeCloakDuration.INSTANCE, CloakingTargetingDelay.INSTANCE, Cpu.INSTANCE, MaxVelocityModifier.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, CanFitShipType12 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Hp.INSTANCE, CovertCloakCPUAdd.INSTANCE, CanFitShipGroup05 .INSTANCE, ShieldCapacityMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, CapacitorCapacityMultiplier.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, TechLevel.INSTANCE, AgilityMultiplier.INSTANCE, StabilizeCloakDuration.INSTANCE, CloakingTargetingDelay.INSTANCE, Cpu.INSTANCE, MaxVelocityModifier.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, CanFitShipType12 .INSTANCE })));
     public static final CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
 
     @Override
@@ -306,6 +314,10 @@ public class CloakingDevice
             case  1872 :
             {
                 return canfitshipgroup05;
+            }
+            case  1879 :
+            {
+                return canfitshipgroup06;
             }
             case  1302 :
             {

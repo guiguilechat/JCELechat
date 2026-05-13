@@ -151,7 +151,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Mjolnir Cruise Missile
     portionSize: 100
     price: 15000.0
@@ -186,7 +186,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Mjolnir Cruise Missile
     portionSize: 100
     price: 15000.0
@@ -221,7 +221,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Mjolnir Cruise Missile
     portionSize: 100
     price: 15000.0
@@ -256,7 +256,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Scourge Cruise Missile
     portionSize: 100
     price: 10000.0
@@ -291,7 +291,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Scourge Cruise Missile
     portionSize: 100
     price: 10000.0
@@ -326,7 +326,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Scourge Cruise Missile
     portionSize: 100
     price: 10000.0
@@ -360,7 +360,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Inferno Cruise Missile
     portionSize: 100
     price: 12500.0
@@ -395,7 +395,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Inferno Cruise Missile
     portionSize: 100
     price: 12500.0
@@ -430,7 +430,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Inferno Cruise Missile
     portionSize: 100
     price: 12500.0
@@ -466,7 +466,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Nova Cruise Missile
     portionSize: 100
     price: 7500.0
@@ -501,7 +501,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Nova Cruise Missile
     portionSize: 100
     price: 7500.0
@@ -536,7 +536,7 @@ types:
     mass: 1250.0
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Nova Cruise Missile
     portionSize: 100
     price: 7500.0

@@ -50,7 +50,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 160.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     name: Crane
     portionSize: 1
     poweroutput: 125.0
@@ -146,7 +146,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 170.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     name: Prorator
     portionSize: 1
     poweroutput: 150.0
@@ -244,7 +244,7 @@ types:
     maxtargetrange: 30000.0
     maxvelocity: 220.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Prowler
     portionSize: 1
     poweroutput: 130.0
@@ -341,7 +341,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 165.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Viator
     portionSize: 1
     poweroutput: 135.0
@@ -438,7 +438,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 265.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     name: Deluge
     portionSize: 1
     poweroutput: 190.0

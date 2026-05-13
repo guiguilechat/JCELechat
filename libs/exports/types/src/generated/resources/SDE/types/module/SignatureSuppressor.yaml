@@ -13,7 +13,7 @@ types:
     marketGroup: 1426
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     modulereactivationdelay: 150000
     name: Signature Radius Suppressor I
     portionSize: 1
@@ -41,7 +41,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     modulereactivationdelay: 150000
     name: Domination Signature Radius Suppressor
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     modulereactivationdelay: 150000
     name: Dread Guristas Signature Radius Suppressor
     portionSize: 1
@@ -97,7 +97,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     modulereactivationdelay: 150000
     name: Zohar's Modified Signature Radius Suppressor
     portionSize: 1
@@ -125,7 +125,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     modulereactivationdelay: 150000
     name: Hakuzosu's Modified Signature Radius Suppressor
     portionSize: 1

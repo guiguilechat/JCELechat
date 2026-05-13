@@ -184,8 +184,8 @@ public abstract class Module
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item

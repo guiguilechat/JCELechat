@@ -123,8 +123,8 @@ public class HeavyFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilityattackmissiledamageexp;
+    @DefaultRealValue(0.0)
+    public double fighterabilityattackmissiledamageexp;
     /**
      * Kinetic Damage
      */
@@ -144,8 +144,8 @@ public class HeavyFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilityattackmissiledamagetherm;
+    @DefaultRealValue(0.0)
+    public double fighterabilityattackmissiledamagetherm;
     /**
      * Rate of fire
      */
@@ -284,8 +284,8 @@ public class HeavyFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitymissilesdamageem;
+    @DefaultRealValue(0.0)
+    public double fighterabilitymissilesdamageem;
     /**
      * Explosive Damage
      */
@@ -326,8 +326,8 @@ public class HeavyFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int fighterabilitymissilesdamagetherm;
+    @DefaultRealValue(0.0)
+    public double fighterabilitymissilesdamagetherm;
     /**
      * Rate of fire
      */

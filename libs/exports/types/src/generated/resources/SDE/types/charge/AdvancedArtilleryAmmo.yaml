@@ -11,7 +11,7 @@ types:
     marketGroup: 856
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Quake S
     portionSize: 5000
     price: 150000.0
@@ -35,7 +35,7 @@ types:
     marketGroup: 856
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tremor S
     portionSize: 5000
     price: 150000.0
@@ -59,7 +59,7 @@ types:
     marketGroup: 854
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Quake L
     portionSize: 5000
     price: 1500000.0
@@ -83,7 +83,7 @@ types:
     marketGroup: 854
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tremor L
     portionSize: 5000
     price: 1500000.0
@@ -107,7 +107,7 @@ types:
     marketGroup: 855
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Quake M
     portionSize: 5000
     price: 600000.0
@@ -131,7 +131,7 @@ types:
     marketGroup: 855
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tremor M
     portionSize: 5000
     price: 600000.0
@@ -155,7 +155,7 @@ types:
     marketGroup: 2252
     mass: 1.0
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tremor XL
     portionSize: 100
     price: 20000.0
@@ -180,7 +180,7 @@ types:
     marketGroup: 2252
     mass: 1.0
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Quake XL
     portionSize: 100
     price: 60000.0

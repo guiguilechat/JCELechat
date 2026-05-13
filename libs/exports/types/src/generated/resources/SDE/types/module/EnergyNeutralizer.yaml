@@ -41,7 +41,7 @@ types:
     marketGroup: 689
     mass: 2000.0
     maxrange: 4500.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -68,7 +68,7 @@ types:
     marketGroup: 689
     mass: 2000.0
     maxrange: 4000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Gremlin Compact Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -121,7 +121,7 @@ types:
     marketGroup: 690
     mass: 2000.0
     maxrange: 10000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Energy Neutralizer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -174,7 +174,7 @@ types:
     marketGroup: 691
     mass: 2000.0
     maxrange: 20000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Heavy Energy Neutralizer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -201,7 +201,7 @@ types:
     marketGroup: 689
     mass: 2000.0
     maxrange: 5000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Energy Neutralizer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -229,7 +229,7 @@ types:
     mass: 2000.0
     maxrange: 6000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -257,7 +257,7 @@ types:
     mass: 2000.0
     maxrange: 6000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -285,7 +285,7 @@ types:
     mass: 2000.0
     maxrange: 12000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -313,7 +313,7 @@ types:
     mass: 2000.0
     maxrange: 12000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -341,7 +341,7 @@ types:
     mass: 2000.0
     maxrange: 24000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -369,7 +369,7 @@ types:
     mass: 2000.0
     maxrange: 24000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -397,7 +397,7 @@ types:
     mass: 2000.0
     maxrange: 26000.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -425,7 +425,7 @@ types:
     mass: 2000.0
     maxrange: 26000.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -453,7 +453,7 @@ types:
     mass: 2000.0
     maxrange: 28000.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -481,7 +481,7 @@ types:
     mass: 2000.0
     maxrange: 28000.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -509,7 +509,7 @@ types:
     mass: 2000.0
     maxrange: 30000.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -537,7 +537,7 @@ types:
     mass: 2000.0
     maxrange: 30000.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -565,7 +565,7 @@ types:
     mass: 2000.0
     maxrange: 32000.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -593,7 +593,7 @@ types:
     mass: 2000.0
     maxrange: 32000.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -621,7 +621,7 @@ types:
     mass: 2000.0
     maxrange: 6000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -649,7 +649,7 @@ types:
     mass: 2000.0
     maxrange: 12000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -677,7 +677,7 @@ types:
     mass: 2000.0
     maxrange: 24000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -705,7 +705,7 @@ types:
     mass: 2000.0
     maxrange: 6000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -733,7 +733,7 @@ types:
     mass: 2000.0
     maxrange: 12000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -761,7 +761,7 @@ types:
     mass: 2000.0
     maxrange: 24000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -788,7 +788,7 @@ types:
     marketGroup: 690
     mass: 2000.0
     maxrange: 8000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Gremlin Compact Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -815,7 +815,7 @@ types:
     marketGroup: 690
     mass: 2000.0
     maxrange: 9000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -842,7 +842,7 @@ types:
     marketGroup: 691
     mass: 2000.0
     maxrange: 16000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Heavy Gremlin Compact Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -869,7 +869,7 @@ types:
     marketGroup: 691
     mass: 2000.0
     maxrange: 18000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Heavy Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -897,7 +897,7 @@ types:
     mass: 2000.0
     maxrange: 5000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Small 'Caltrop' Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -925,7 +925,7 @@ types:
     mass: 2000.0
     maxrange: 10000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Medium 'Ditch' Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -953,7 +953,7 @@ types:
     mass: 2000.0
     maxrange: 20000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Heavy 'Moat' Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -981,7 +981,7 @@ types:
     mass: 2000.0
     maxrange: 7000.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1009,7 +1009,7 @@ types:
     mass: 2000.0
     maxrange: 8000.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1037,7 +1037,7 @@ types:
     mass: 2000.0
     maxrange: 9000.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1065,7 +1065,7 @@ types:
     mass: 2000.0
     maxrange: 13500.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpum C-Type Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1093,7 +1093,7 @@ types:
     mass: 2000.0
     maxrange: 15000.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpum B-Type Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1121,7 +1121,7 @@ types:
     mass: 2000.0
     maxrange: 16500.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpum A-Type Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1149,7 +1149,7 @@ types:
     mass: 2000.0
     maxrange: 26000.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpus C-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1177,7 +1177,7 @@ types:
     mass: 2000.0
     maxrange: 28000.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpus B-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1205,7 +1205,7 @@ types:
     mass: 2000.0
     maxrange: 30000.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpus A-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1233,7 +1233,7 @@ types:
     mass: 2000.0
     maxrange: 32000.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Corpus X-Type Heavy Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1288,7 +1288,7 @@ types:
     marketGroup: 2250
     mass: 2000.0
     maxrange: 30000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Gremlin Compact Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1316,7 +1316,7 @@ types:
     marketGroup: 2250
     mass: 2000.0
     maxrange: 33000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1344,7 +1344,7 @@ types:
     marketGroup: 2250
     mass: 2000.0
     maxrange: 36000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Energy Neutralizer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1373,7 +1373,7 @@ types:
     mass: 2000.0
     maxrange: 40000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Capital Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1402,7 +1402,7 @@ types:
     mass: 2000.0
     maxrange: 40000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Capital Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1481,7 +1481,7 @@ types:
     marketGroup: 689
     mass: 2000.0
     maxrange: 10000.0
-    metalevelold: 15
+    metalevelold: 15.0
     name: Makra's Modified Small Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1508,7 +1508,7 @@ types:
     marketGroup: 690
     mass: 2000.0
     maxrange: 18000.0
-    metalevelold: 16
+    metalevelold: 16.0
     name: Ryhad's Modified Medium Energy Neutralizer
     overloadselfdurationbonus: -15.0
     portionSize: 1

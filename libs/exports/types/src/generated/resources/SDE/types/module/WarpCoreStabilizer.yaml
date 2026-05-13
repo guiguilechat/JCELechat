@@ -34,7 +34,7 @@ types:
     marketGroup: 1088
     maxgroupfitted: 1
     maxtargetrangebonus: -40.0
-    metalevelold: 5
+    metalevelold: 5.0
     modulereactivationdelay: 150000
     name: Warp Core Stabilizer II
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     marketGroup: 1088
     maxgroupfitted: 1
     maxtargetrangebonus: -48.0
-    metalevelold: 1
+    metalevelold: 1.0
     modulereactivationdelay: 150000
     name: '''Accord'' Core Compensation'
     portionSize: 1
@@ -82,7 +82,7 @@ types:
     marketGroup: 1088
     maxgroupfitted: 1
     maxtargetrangebonus: -46.0
-    metalevelold: 2
+    metalevelold: 2.0
     modulereactivationdelay: 150000
     name: '''Repose'' Core Compensation'
     portionSize: 1
@@ -106,7 +106,7 @@ types:
     marketGroup: 1088
     maxgroupfitted: 1
     maxtargetrangebonus: -44.0
-    metalevelold: 3
+    metalevelold: 3.0
     modulereactivationdelay: 150000
     name: '''Stoic'' Core Equalizer I'
     portionSize: 1
@@ -130,7 +130,7 @@ types:
     marketGroup: 1088
     maxgroupfitted: 1
     maxtargetrangebonus: -42.0
-    metalevelold: 4
+    metalevelold: 4.0
     modulereactivationdelay: 150000
     name: '''Halcyon'' Core Equalizer I'
     portionSize: 1
@@ -155,7 +155,7 @@ types:
     maxgroupfitted: 1
     maxtargetrangebonus: -44.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 150000
     name: '''Aura'' Warp Core Stabilizer I'
     portionSize: 1
@@ -180,7 +180,7 @@ types:
     maxgroupfitted: 1
     maxtargetrangebonus: -40.0
     metagroupid: 3
-    metalevelold: 7
+    metalevelold: 7.0
     modulereactivationdelay: 150000
     name: '''Natura'' Warp Core Stabilizer I'
     portionSize: 1

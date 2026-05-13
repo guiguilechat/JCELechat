@@ -147,7 +147,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Nova Heavy Assault Missile
     portionSize: 100
     price: 2000.0
@@ -181,7 +181,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Nova Heavy Assault Missile
     portionSize: 100
     price: 2000.0
@@ -215,7 +215,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Nova Heavy Assault Missile
     portionSize: 100
     price: 2000.0
@@ -248,7 +248,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Inferno Heavy Assault Missile
     portionSize: 100
     price: 3000.0
@@ -282,7 +282,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Inferno Heavy Assault Missile
     portionSize: 100
     price: 3000.0
@@ -316,7 +316,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Inferno Heavy Assault Missile
     portionSize: 100
     price: 3000.0
@@ -351,7 +351,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Scourge Heavy Assault Missile
     portionSize: 100
     price: 2516.0
@@ -385,7 +385,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Scourge Heavy Assault Missile
     portionSize: 100
     price: 2516.0
@@ -419,7 +419,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Scourge Heavy Assault Missile
     portionSize: 100
     price: 2516.0
@@ -453,7 +453,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 1
+    metalevelold: 1.0
     name: Guristas Mjolnir Heavy Assault Missile
     portionSize: 100
     price: 3500.0
@@ -487,7 +487,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 2
+    metalevelold: 2.0
     name: Caldari Navy Mjolnir Heavy Assault Missile
     portionSize: 100
     price: 3500.0
@@ -521,7 +521,7 @@ types:
     mass: 1000.0
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevelold: 3
+    metalevelold: 3.0
     name: Dread Guristas Mjolnir Heavy Assault Missile
     portionSize: 100
     price: 3500.0

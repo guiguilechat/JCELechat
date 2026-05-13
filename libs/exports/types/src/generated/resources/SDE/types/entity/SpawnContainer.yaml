@@ -12382,3 +12382,453 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     tierdifficulty: 2
+  92144:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 92144
+    ishacking: 1
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Iteration Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  92145:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 92145
+    ishacking: 1
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Iteration Vault
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  93550:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93550
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Imperial Strategic Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  93551:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93551
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: State Strategic Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  93552:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93552
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Federal Strategic Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  93554:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93554
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Republic Strategic Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  93575:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93575
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Siren Node
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+  93623:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93623
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  93624:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93624
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Expansive Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  93625:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93625
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Fully Stocked Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  93630:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93630
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Imperial Intelligence Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+  93631:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93631
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: State Intelligence Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+  93632:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93632
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Federal Intelligence Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+  93633:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93633
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Republic Intelligence Databank
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+  93850:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93850
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Master Security Node
+    portionSize: 1
+    published: false
+    radius: 241.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+  93878:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    id: 93878
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Complex Alpha
+    portionSize: 1
+    published: false
+    radius: 15000.0
+    signatureradius: 100.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+  93879:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    id: 93879
+    lootrespawntime: 8.64E7
+    name: Complex Alpha
+    portionSize: 1
+    published: false
+    radius: 10000.0
+    signatureradius: 100.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+  93880:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    id: 93880
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Complex Alpha
+    portionSize: 1
+    published: false
+    radius: 12000.0
+    signatureradius: 100.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+  93881:
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    id: 93881
+    lootrespawntime: 8.64E7
+    name: Complex Alpha
+    portionSize: 1
+    published: false
+    radius: 5000.0
+    signatureradius: 100.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+  93896:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93896
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  93897:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93897
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Expansive Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  93898:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 93898
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Fully Stocked Supply Cache
+    portionSize: 1
+    published: false
+    radius: 1060.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0

@@ -5,7 +5,7 @@ types:
     id: 3469
     marketGroup: 676
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Co-Processor'
     portionSize: 1
     power: 1
@@ -32,7 +32,7 @@ types:
     hp: 40.0
     id: 3888
     marketGroup: 676
-    metalevelold: 5
+    metalevelold: 5.0
     name: Co-Processor II
     portionSize: 1
     power: 1
@@ -46,7 +46,7 @@ types:
     hp: 40.0
     id: 8748
     marketGroup: 676
-    metalevelold: 1
+    metalevelold: 1.0
     name: Photonic Upgraded Co-Processor
     portionSize: 1
     power: 1
@@ -61,7 +61,7 @@ types:
     id: 14230
     marketGroup: 676
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Co-Processor
     portionSize: 1
     power: 1
@@ -76,7 +76,7 @@ types:
     id: 14232
     marketGroup: 676
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Co-Processor
     portionSize: 1
     power: 1
@@ -91,7 +91,7 @@ types:
     id: 14768
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -106,7 +106,7 @@ types:
     id: 14770
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Thon's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -121,7 +121,7 @@ types:
     id: 14772
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vepas' Modified Co-Processor
     portionSize: 1
     power: 1
@@ -136,7 +136,7 @@ types:
     id: 14774
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Estamel's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -151,7 +151,7 @@ types:
     id: 15308
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -166,7 +166,7 @@ types:
     id: 15310
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Tuvan's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -181,7 +181,7 @@ types:
     id: 15312
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Setele's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -196,7 +196,7 @@ types:
     id: 15314
     marketGroup: 676
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Cormack's Modified Co-Processor
     portionSize: 1
     power: 1
@@ -211,7 +211,7 @@ types:
     id: 15675
     marketGroup: 676
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Co-Processor
     portionSize: 1
     power: 1
@@ -226,7 +226,7 @@ types:
     id: 15677
     marketGroup: 676
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Co-Processor
     portionSize: 1
     power: 1
@@ -241,7 +241,7 @@ types:
     id: 20567
     marketGroup: 676
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Dyad'' Co-Processor I'
     portionSize: 1
     power: 1
@@ -256,7 +256,7 @@ types:
     id: 20569
     marketGroup: 676
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Deuce'' Co-Processor I'
     portionSize: 1
     power: 1
@@ -271,7 +271,7 @@ types:
     id: 28561
     marketGroup: 676
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Co-Processor
     portionSize: 1
     power: 1

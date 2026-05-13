@@ -7,7 +7,7 @@ types:
     marketGroup: 1087
     mass: 50.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Overdrive Injector System'
     portionSize: 1
     published: true
@@ -23,7 +23,7 @@ types:
     implantbonusvelocity: 12.5
     marketGroup: 1087
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Overdrive Injector System II
     portionSize: 1
     published: true
@@ -54,7 +54,7 @@ types:
     implantbonusvelocity: 11.75
     marketGroup: 1087
     mass: 50.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Overdrive Injector
     portionSize: 1
     published: true
@@ -71,7 +71,7 @@ types:
     marketGroup: 1087
     mass: 50.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Overdrive Injector
     portionSize: 1
     published: true
@@ -88,7 +88,7 @@ types:
     marketGroup: 1087
     mass: 50.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Overdrive Injector
     portionSize: 1
     published: true
@@ -105,7 +105,7 @@ types:
     marketGroup: 1087
     mass: 50.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Synthetic Hull Conversion Overdrive Injector
     portionSize: 1
     published: true

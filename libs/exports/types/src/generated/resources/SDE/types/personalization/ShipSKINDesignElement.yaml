@@ -5280,7 +5280,7 @@ types:
   91138:
     id: 91138
     marketGroup: 3655
-    name: Twilight Treasure Gloss
+    name: Twilight Treasure Gloss - Limited
     portionSize: 1
     published: true
     volume: 0.1
@@ -5386,6 +5386,293 @@ types:
     id: 91156
     marketGroup: 3632
     name: Gilded Glory Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91986:
+    id: 91986
+    marketGroup: 3633
+    name: Momentous Churn - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  91987:
+    id: 91987
+    marketGroup: 3632
+    name: Blazing Teal Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92573:
+    id: 92573
+    marketGroup: 3633
+    name: Federation Ascent - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92574:
+    id: 92574
+    marketGroup: 3633
+    name: Federation Ascent - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92575:
+    id: 92575
+    marketGroup: 3633
+    name: Federation Field - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92576:
+    id: 92576
+    marketGroup: 3633
+    name: Federation Field - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92577:
+    id: 92577
+    marketGroup: 3655
+    name: Verdigris Referendum Gloss - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92578:
+    id: 92578
+    marketGroup: 3655
+    name: Verdigris Referendum Gloss - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92579:
+    id: 92579
+    marketGroup: 3653
+    name: Civic Ember Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92580:
+    id: 92580
+    marketGroup: 3653
+    name: Civic Ember Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92581:
+    id: 92581
+    marketGroup: 3653
+    name: Diverse Unakite Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92582:
+    id: 92582
+    marketGroup: 3653
+    name: Diverse Unakite Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92583:
+    id: 92583
+    marketGroup: 3632
+    name: Senatorial Swamp Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92584:
+    id: 92584
+    marketGroup: 3632
+    name: Senatorial Swamp Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92585:
+    id: 92585
+    marketGroup: 3632
+    name: Turquoise Accord Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92586:
+    id: 92586
+    marketGroup: 3632
+    name: Turquoise Accord Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92587:
+    id: 92587
+    marketGroup: 3632
+    name: Tei-Su Meadow Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92588:
+    id: 92588
+    marketGroup: 3632
+    name: Tei-Su Meadow Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92589:
+    id: 92589
+    marketGroup: 3632
+    name: Caille Steel Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92590:
+    id: 92590
+    marketGroup: 3632
+    name: Caille Steel Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92591:
+    id: 92591
+    marketGroup: 3632
+    name: Intaki Obsidian Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92592:
+    id: 92592
+    marketGroup: 3632
+    name: Intaki Obsidian Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93256:
+    id: 93256
+    marketGroup: 3633
+    name: Rage of the 7 - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93343:
+    id: 93343
+    marketGroup: 3633
+    name: Imperial Supremacy - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93344:
+    id: 93344
+    marketGroup: 3633
+    name: Imperial Supremacy - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93345:
+    id: 93345
+    marketGroup: 3633
+    name: Federation Charge - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93346:
+    id: 93346
+    marketGroup: 3633
+    name: Federation Charge - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93347:
+    id: 93347
+    marketGroup: 3633
+    name: Fortified State - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93348:
+    id: 93348
+    marketGroup: 3633
+    name: Fortified State - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93349:
+    id: 93349
+    marketGroup: 3633
+    name: Guerilla Republic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93350:
+    id: 93350
+    marketGroup: 3633
+    name: Guerilla Republic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93355:
+    id: 93355
+    marketGroup: 3633
+    name: Chaotic Skies - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93356:
+    id: 93356
+    marketGroup: 3633
+    name: Chaotic Skies - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93357:
+    id: 93357
+    marketGroup: 3633
+    name: Echoes of Action - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93358:
+    id: 93358
+    marketGroup: 3633
+    name: Echoes of Action - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93359:
+    id: 93359
+    marketGroup: 3633
+    name: Advancing Lines - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93360:
+    id: 93360
+    marketGroup: 3633
+    name: Advancing Lines - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93361:
+    id: 93361
+    marketGroup: 3633
+    name: War Fatigue - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93362:
+    id: 93362
+    marketGroup: 3633
+    name: War Fatigue - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93363:
+    id: 93363
+    marketGroup: 3633
+    name: Combined Forces - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93364:
+    id: 93364
+    marketGroup: 3633
+    name: Combined Forces - Unlimited
     portionSize: 1
     published: true
     volume: 0.1

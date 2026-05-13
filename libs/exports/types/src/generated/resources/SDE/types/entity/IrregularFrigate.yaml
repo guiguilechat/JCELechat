@@ -12467,7 +12467,7 @@ types:
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   84619:
-    agility: 0.2
+    agility: 2.4
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
@@ -12478,14 +12478,14 @@ types:
     armorthermaldamageresonance: 0.7
     behaviorenergyneutralizerdischarge: 40.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 2250.0
-    behaviorenergyneutralizerrange: 4500.0
-    capacitorcapacity: 433.0
-    damagemultiplier: 2.6
+    behaviorenergyneutralizerfalloff: 3750.0
+    behaviorenergyneutralizerrange: 7500.0
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 50.0
     emdamageresonance: 1.0
-    energyneutralizeramount: 45.0
+    energyneutralizeramount: 90.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -12503,17 +12503,17 @@ types:
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 50.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 4044
     hp: 500.0
     id: 84619
-    kineticdamage: 20.0
+    kineticdamage: 50.0
     kineticdamageresonance: 1.0
-    mass: 1200000.0
-    maxlockedtargets: 6
+    mass: 1000000.0
+    maxlockedtargets: 8
     maxrange: 20000.0
     maxtargetrange: 100000.0
     maxtargetrangemultiplier: 1.0
@@ -12531,45 +12531,47 @@ types:
     portionSize: 1
     published: false
     radius: 39.0
-    rechargerate: 135000.0
-    scanradarstrength: 16.8
-    scanresolution: 675.0
+    rechargerate: 120000.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
+    scanresolution: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
     signatureradius: 80.0
-    speed: 1700.0
+    speed: 1650.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 50.0
     thermaldamageresonance: 1.0
     trackingspeed: 600.0
-    volume: 28100.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   84620:
-    agility: 0.2
+    agility: 2.4
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
     armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 0.7
-    armorhp: 3400.0
+    armorhp: 2500.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
     behaviorenergyneutralizerdischarge: 40.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 2250.0
-    behaviorenergyneutralizerrange: 4500.0
-    capacitorcapacity: 665.0
-    damagemultiplier: 2.8
+    behaviorenergyneutralizerfalloff: 3750.0
+    behaviorenergyneutralizerrange: 7500.0
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 60.0
     emdamageresonance: 1.0
-    energyneutralizeramount: 55.0
+    energyneutralizeramount: 90.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -12581,23 +12583,23 @@ types:
     entityfactionloss: 0.15
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000
+    entitykillbounty: 75000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 60.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 4044
-    hp: 600.0
+    hp: 500.0
     id: 84620
-    kineticdamage: 20.0
+    kineticdamage: 60.0
     kineticdamageresonance: 1.0
-    mass: 1200000.0
-    maxlockedtargets: 4
+    mass: 1000000.0
+    maxlockedtargets: 8
     maxrange: 20000.0
     maxtargetrange: 100000.0
     maxtargetrangemultiplier: 1.0
@@ -12616,7 +12618,10 @@ types:
     published: false
     radius: 34.0
     rechargerate: 120000.0
-    scanradarstrength: 12.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
     scanresolution: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -12624,18 +12629,17 @@ types:
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
     signatureradius: 80.0
-    speed: 1400.0
+    speed: 1500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 60.0
     thermaldamageresonance: 1.0
     trackingspeed: 600.0
-    volume: 28100.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   84631:
-    agility: 0.2
+    agility: 2.4
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
@@ -12649,7 +12653,7 @@ types:
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 17500
     behaviorremotearmorrepairrange: 10500
-    capacitorcapacity: 757.0
+    capacitorcapacity: 750.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     emdamageresonance: 1.0
@@ -12676,8 +12680,8 @@ types:
     hp: 500.0
     id: 84631
     kineticdamageresonance: 1.0
-    mass: 1200000.0
-    maxlockedtargets: 7
+    mass: 1000000.0
+    maxlockedtargets: 8
     maxtargetrange: 100000.0
     maxtargetrangemultiplier: 1.0
     maxvelocity: 1800.0
@@ -12694,9 +12698,12 @@ types:
     portionSize: 1
     published: false
     radius: 20.5
-    rechargerate: 142648.0
-    scanradarstrength: 12.0
-    scanresolution: 1125.0
+    rechargerate: 120000.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
+    scanresolution: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -12706,12 +12713,11 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 28700.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   84632:
-    agility: 0.2
+    agility: 2.4
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
@@ -12720,10 +12726,10 @@ types:
     armorhp: 1750.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
-    capacitorcapacity: 665.0
-    damagemultiplier: 2.6
+    capacitorcapacity: 400.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 50.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -12742,17 +12748,17 @@ types:
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 50.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 4044
     hp: 500.0
     id: 84632
-    kineticdamage: 20.0
+    kineticdamage: 50.0
     kineticdamageresonance: 1.0
-    mass: 1200000.0
-    maxlockedtargets: 4
+    mass: 1000000.0
+    maxlockedtargets: 8
     maxrange: 20000.0
     maxtargetrange: 100000.0
     maxtargetrangemultiplier: 1.0
@@ -12771,7 +12777,10 @@ types:
     published: false
     radius: 34.0
     rechargerate: 120000.0
-    scanradarstrength: 12.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
     scanresolution: 800.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -12779,13 +12788,12 @@ types:
     shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
     signatureradius: 80.0
-    speed: 1400.0
+    speed: 1350.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 50.0
     thermaldamageresonance: 1.0
     trackingspeed: 600.0
-    volume: 28600.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
@@ -14577,22 +14585,22 @@ types:
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   88258:
-    agility: 0.2
+    agility: 2.4
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
     armoremdamageresonance: 0.7
     armorexplosivedamageresonance: 0.7
-    armorhp: 3000.0
+    armorhp: 2250.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
     behaviorwebifierdischarge: 1.0
     behaviorwebifierduration: 5000.0
     behaviorwebifierrange: 10000.0
-    capacitorcapacity: 665.0
-    damagemultiplier: 2.8
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 20.0
+    emdamage: 60.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -14605,23 +14613,23 @@ types:
     entityfactionloss: 0.15
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
-    entitykillbounty: 100000
+    entitykillbounty: 75000
     entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
-    explosivedamage: 20.0
+    explosivedamage: 60.0
     explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxboosterid: 397
     gfxturretid: 88349
-    hp: 600.0
+    hp: 500.0
     id: 88258
-    kineticdamage: 20.0
+    kineticdamage: 60.0
     kineticdamageresonance: 1.0
-    mass: 1200000.0
-    maxlockedtargets: 4
+    mass: 1000000.0
+    maxlockedtargets: 8
     maxrange: 20000.0
     maxtargetrange: 100000.0
     maxtargetrangemultiplier: 1.0
@@ -14640,23 +14648,25 @@ types:
     published: false
     radius: 34.0
     rechargerate: 120000.0
-    scanradarstrength: 12.0
+    scangravimetricstrength: 6.0
+    scanladarstrength: 6.0
+    scanmagnetometricstrength: 6.0
+    scanradarstrength: 6.0
     scanresolution: 800.0
-    shieldcapacity: 400.0
+    shieldcapacity: 250.0
     shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 0.7
     shieldkineticdamageresonance: 0.7
-    shieldrechargerate: 431250.0
+    shieldrechargerate: 120000.0
     shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     signatureradius: 80.0
-    speed: 1400.0
+    speed: 1500.0
     speedfactor: -40.0
     structureuniformity: 1.0
-    thermaldamage: 20.0
+    thermaldamage: 60.0
     thermaldamageresonance: 1.0
     trackingspeed: 600.0
-    volume: 28100.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0

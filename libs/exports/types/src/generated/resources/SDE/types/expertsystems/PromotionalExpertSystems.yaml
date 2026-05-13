@@ -90,3 +90,10 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  92958:
+    id: 92958
+    mass: 1.0
+    name: Gallente Election Expert System
+    portionSize: 1
+    published: true
+    volume: 1.0

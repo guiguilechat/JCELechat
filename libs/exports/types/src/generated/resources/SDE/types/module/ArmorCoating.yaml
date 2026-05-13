@@ -6,7 +6,7 @@ types:
     id: 1193
     marketGroup: 1668
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' EM Coating'
     portionSize: 1
     power: 1
@@ -39,7 +39,7 @@ types:
     id: 1198
     marketGroup: 1668
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: EM Coating II
     portionSize: 1
     power: 1
@@ -56,7 +56,7 @@ types:
     id: 1262
     marketGroup: 1667
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Explosive Coating'
     portionSize: 1
     power: 1
@@ -89,7 +89,7 @@ types:
     id: 1266
     marketGroup: 1667
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Explosive Coating II
     portionSize: 1
     power: 1
@@ -105,7 +105,7 @@ types:
     id: 1272
     marketGroup: 1669
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Layered Coating'
     portionSize: 1
     power: 1
@@ -136,7 +136,7 @@ types:
     id: 1276
     marketGroup: 1669
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Layered Coating II
     portionSize: 1
     power: 1
@@ -153,7 +153,7 @@ types:
     kineticdamageresistancebonus: -21.6
     marketGroup: 1666
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Kinetic Coating'
     portionSize: 1
     power: 1
@@ -186,7 +186,7 @@ types:
     kineticdamageresistancebonus: -27.61
     marketGroup: 1666
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Kinetic Coating II
     portionSize: 1
     power: 1
@@ -202,7 +202,7 @@ types:
     id: 1292
     marketGroup: 1665
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Thermal Coating'
     portionSize: 1
     power: 1
@@ -235,7 +235,7 @@ types:
     id: 1296
     marketGroup: 1665
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Thermal Coating II
     portionSize: 1
     power: 1
@@ -255,7 +255,7 @@ types:
     kineticdamageresistancebonus: -9.84
     marketGroup: 1670
     mass: 1.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Multispectrum Coating'
     portionSize: 1
     power: 1
@@ -294,7 +294,7 @@ types:
     kineticdamageresistancebonus: -15.36
     marketGroup: 1670
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Multispectrum Coating II
     portionSize: 1
     power: 1
@@ -315,7 +315,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Multispectrum Coating
     portionSize: 1
     power: 1
@@ -336,7 +336,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Multispectrum Coating
     portionSize: 1
     power: 1
@@ -357,7 +357,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Multispectrum Coating
     portionSize: 1
     power: 1
@@ -376,7 +376,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Kinetic Coating
     portionSize: 1
     power: 1
@@ -394,7 +394,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Kinetic Coating
     portionSize: 1
     power: 1
@@ -412,7 +412,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Kinetic Coating
     portionSize: 1
     power: 1
@@ -430,7 +430,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Explosive Coating
     portionSize: 1
     power: 1
@@ -448,7 +448,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Explosive Coating
     portionSize: 1
     power: 1
@@ -466,7 +466,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Explosive Coating
     portionSize: 1
     power: 1
@@ -484,7 +484,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination EM Coating
     portionSize: 1
     power: 1
@@ -502,7 +502,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha EM Coating
     portionSize: 1
     power: 1
@@ -520,7 +520,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood EM Coating
     portionSize: 1
     power: 1
@@ -537,7 +537,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Thermal Coating
     portionSize: 1
     power: 1
@@ -555,7 +555,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Thermal Coating
     portionSize: 1
     power: 1
@@ -573,7 +573,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Thermal Coating
     portionSize: 1
     power: 1
@@ -594,7 +594,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Multispectrum Coating
     portionSize: 1
     power: 1
@@ -613,7 +613,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Kinetic Coating
     portionSize: 1
     power: 1
@@ -631,7 +631,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Explosive Coating
     portionSize: 1
     power: 1
@@ -649,7 +649,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis EM Coating
     portionSize: 1
     power: 1
@@ -666,7 +666,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Thermal Coating
     portionSize: 1
     power: 1
@@ -687,7 +687,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -708,7 +708,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -727,7 +727,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -745,7 +745,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -763,7 +763,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -781,7 +781,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -799,7 +799,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified EM Coating
     portionSize: 1
     power: 1
@@ -817,7 +817,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified EM Coating
     portionSize: 1
     power: 1
@@ -834,7 +834,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -852,7 +852,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -873,7 +873,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -894,7 +894,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -915,7 +915,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -936,7 +936,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -957,7 +957,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -978,7 +978,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -999,7 +999,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1020,7 +1020,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1039,7 +1039,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1057,7 +1057,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1075,7 +1075,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1093,7 +1093,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1111,7 +1111,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1129,7 +1129,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1147,7 +1147,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1165,7 +1165,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1183,7 +1183,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1201,7 +1201,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1219,7 +1219,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1237,7 +1237,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1255,7 +1255,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1273,7 +1273,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1291,7 +1291,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1309,7 +1309,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1327,7 +1327,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1345,7 +1345,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1363,7 +1363,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1381,7 +1381,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1399,7 +1399,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1417,7 +1417,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1435,7 +1435,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1453,7 +1453,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1470,7 +1470,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1488,7 +1488,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1506,7 +1506,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1524,7 +1524,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1542,7 +1542,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1560,7 +1560,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1578,7 +1578,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1596,7 +1596,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1617,7 +1617,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1638,7 +1638,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1659,7 +1659,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1680,7 +1680,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Multispectrum Coating
     portionSize: 1
     power: 1
@@ -1698,7 +1698,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1716,7 +1716,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1734,7 +1734,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1752,7 +1752,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Thermal Coating
     portionSize: 1
     power: 1
@@ -1771,7 +1771,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1789,7 +1789,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1807,7 +1807,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1825,7 +1825,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified EM Coating
     portionSize: 1
     power: 1
@@ -1843,7 +1843,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1861,7 +1861,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1879,7 +1879,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1897,7 +1897,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Explosive Coating
     portionSize: 1
     power: 1
@@ -1915,7 +1915,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1933,7 +1933,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1951,7 +1951,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1969,7 +1969,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Kinetic Coating
     portionSize: 1
     power: 1
@@ -1986,7 +1986,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Thermal Coating
     portionSize: 1
     power: 1
@@ -2005,7 +2005,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy EM Coating
     portionSize: 1
     power: 1
@@ -2023,7 +2023,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Explosive Coating
     portionSize: 1
     power: 1
@@ -2041,7 +2041,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Kinetic Coating
     portionSize: 1
     power: 1
@@ -2061,7 +2061,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2079,7 +2079,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Thermal Coating
     portionSize: 1
     power: 1
@@ -2098,7 +2098,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet EM Coating
     portionSize: 1
     power: 1
@@ -2116,7 +2116,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Explosive Coating
     portionSize: 1
     power: 1
@@ -2134,7 +2134,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Kinetic Coating
     portionSize: 1
     power: 1
@@ -2154,7 +2154,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2174,7 +2174,7 @@ types:
     kineticdamageresistancebonus: -13.52
     marketGroup: 1670
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded Multispectrum Coating I
     portionSize: 1
     power: 1
@@ -2192,7 +2192,7 @@ types:
     kineticdamageresistancebonus: -25.97
     marketGroup: 1666
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded Kinetic Coating I
     portionSize: 1
     power: 1
@@ -2209,7 +2209,7 @@ types:
     id: 16321
     marketGroup: 1667
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded Explosive Coating I
     portionSize: 1
     power: 1
@@ -2226,7 +2226,7 @@ types:
     id: 16329
     marketGroup: 1668
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded EM Coating I
     portionSize: 1
     power: 1
@@ -2242,7 +2242,7 @@ types:
     id: 16337
     marketGroup: 1665
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded Thermal Coating I
     portionSize: 1
     power: 1
@@ -2259,7 +2259,7 @@ types:
     id: 16345
     marketGroup: 1669
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded Layered Coating I
     portionSize: 1
     power: 1
@@ -2277,7 +2277,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Kinetic Coating
     portionSize: 1
     power: 1
@@ -2297,7 +2297,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2316,7 +2316,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Explosive Coating
     portionSize: 1
     power: 1
@@ -2334,7 +2334,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy EM Coating
     portionSize: 1
     power: 1
@@ -2354,7 +2354,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2373,7 +2373,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Kinetic Coating
     portionSize: 1
     power: 1
@@ -2391,7 +2391,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Explosive Coating
     portionSize: 1
     power: 1
@@ -2409,7 +2409,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy EM Coating
     portionSize: 1
     power: 1
@@ -2426,7 +2426,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Thermal Coating
     portionSize: 1
     power: 1
@@ -2447,7 +2447,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2468,7 +2468,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2489,7 +2489,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2510,7 +2510,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2531,7 +2531,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2552,7 +2552,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -2571,7 +2571,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2589,7 +2589,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2607,7 +2607,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2625,7 +2625,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2643,7 +2643,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type EM Coating
     portionSize: 1
     power: 1
@@ -2661,7 +2661,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type EM Coating
     portionSize: 1
     power: 1
@@ -2678,7 +2678,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpii C-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -2696,7 +2696,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -2714,7 +2714,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -2732,7 +2732,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -2751,7 +2751,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2769,7 +2769,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2787,7 +2787,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2805,7 +2805,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2823,7 +2823,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpii B-Type EM Coating
     portionSize: 1
     power: 1
@@ -2841,7 +2841,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type EM Coating
     portionSize: 1
     power: 1
@@ -2859,7 +2859,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2877,7 +2877,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -2895,7 +2895,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2913,7 +2913,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -2931,7 +2931,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type EM Coating
     portionSize: 1
     power: 1
@@ -2949,7 +2949,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type EM Coating
     portionSize: 1
     power: 1
@@ -2966,7 +2966,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpii A-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -2984,7 +2984,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -3005,7 +3005,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -3024,7 +3024,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -3042,7 +3042,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -3060,7 +3060,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type EM Coating
     portionSize: 1
     power: 1
@@ -3077,7 +3077,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -3098,7 +3098,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -3117,7 +3117,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -3135,7 +3135,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -3153,7 +3153,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type EM Coating
     portionSize: 1
     power: 1
@@ -3170,7 +3170,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -3191,7 +3191,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type Multispectrum Coating
     portionSize: 1
     power: 1
@@ -3210,7 +3210,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type Kinetic Coating
     portionSize: 1
     power: 1
@@ -3228,7 +3228,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type Explosive Coating
     portionSize: 1
     power: 1
@@ -3246,7 +3246,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type EM Coating
     portionSize: 1
     power: 1
@@ -3263,7 +3263,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type Thermal Coating
     portionSize: 1
     power: 1
@@ -3284,7 +3284,7 @@ types:
     marketGroup: 1670
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Multispectrum Coating
     portionSize: 1
     power: 1
@@ -3303,7 +3303,7 @@ types:
     marketGroup: 1666
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Kinetic Coating
     portionSize: 1
     power: 1
@@ -3321,7 +3321,7 @@ types:
     marketGroup: 1667
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Explosive Coating
     portionSize: 1
     power: 1
@@ -3339,7 +3339,7 @@ types:
     marketGroup: 1668
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy EM Coating
     portionSize: 1
     power: 1
@@ -3356,7 +3356,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Thermal Coating
     portionSize: 1
     power: 1
@@ -3374,7 +3374,7 @@ types:
     marketGroup: 1665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Thermal Coating
     portionSize: 1
     power: 1

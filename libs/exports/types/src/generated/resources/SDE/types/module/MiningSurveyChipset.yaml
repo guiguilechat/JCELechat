@@ -25,7 +25,7 @@ types:
     marketGroup: 714
     maxgroupfitted: 1
     maxgrouponline: 1
-    metalevelold: 5
+    metalevelold: 5.0
     miningcritbonusyieldbonus: 20
     miningcritchancebonus: 20
     miningscannerupgrade: 1
@@ -45,7 +45,7 @@ types:
     marketGroup: 714
     maxgroupfitted: 1
     maxgrouponline: 1
-    metalevelold: 1
+    metalevelold: 1.0
     miningcritbonusyieldbonus: 16
     miningcritchancebonus: 16
     miningscannerupgrade: 1
@@ -64,7 +64,7 @@ types:
     id: 6571
     maxgroupfitted: 1
     maxgrouponline: 1
-    metalevelold: 1
+    metalevelold: 1.0
     miningcritbonusyieldbonus: 4
     miningcritchancebonus: 4
     miningscannerupgrade: 1

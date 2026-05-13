@@ -47,10 +47,10 @@ types:
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
     maxpassengers: 580
-    maxtargetrange: 120000.0
+    maxtargetrange: 102000.0
     maxvelocity: 192.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Falcon
     portionSize: 1
@@ -143,10 +143,10 @@ types:
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
     maxpassengers: 580
-    maxtargetrange: 100000.0
+    maxtargetrange: 90000.0
     maxvelocity: 230.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Rapier
     portionSize: 1
@@ -240,10 +240,10 @@ types:
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
     maxpassengers: 580
-    maxtargetrange: 104000.0
+    maxtargetrange: 88400.0
     maxvelocity: 198.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Pilgrim
     portionSize: 1
@@ -337,10 +337,10 @@ types:
     maxdirectionalvelocity: 1
     maxlockedtargets: 8
     maxpassengers: 580
-    maxtargetrange: 112000.0
+    maxtargetrange: 95200.0
     maxvelocity: 207.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Arazu
     portionSize: 1
@@ -435,7 +435,7 @@ types:
     maxvelocity: 260.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Moracha
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     maxtargetrange: 110000.0
     maxvelocity: 170.0
     medslots: 7
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 1.0
     name: Chameleon
     portionSize: 1
@@ -636,7 +636,7 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 190.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Enforcer
     portionSize: 1
@@ -746,7 +746,7 @@ types:
     maxvelocity: 220.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Victor
     portionSize: 1
@@ -951,7 +951,7 @@ types:
     maxtargetrange: 100000.0
     maxvelocity: 240.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Cobra
     portionSize: 1

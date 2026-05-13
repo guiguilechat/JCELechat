@@ -81,7 +81,7 @@ types:
     id: 11309
     marketGroup: 1674
     massaddition: 350000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 400mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 28
@@ -97,7 +97,7 @@ types:
     id: 11311
     marketGroup: 1674
     massaddition: 300000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 400mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 30
@@ -113,7 +113,7 @@ types:
     id: 11317
     marketGroup: 1675
     massaddition: 1350000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 800mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 190
@@ -129,7 +129,7 @@ types:
     id: 11319
     marketGroup: 1675
     massaddition: 1200000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 800mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 200
@@ -145,7 +145,7 @@ types:
     id: 11325
     marketGroup: 1676
     massaddition: 3500000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 1600mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 480
@@ -161,7 +161,7 @@ types:
     id: 11327
     marketGroup: 1676
     massaddition: 3000000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 1600mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 500
@@ -177,7 +177,7 @@ types:
     id: 11341
     marketGroup: 1672
     massaddition: 35000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 100mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 4
@@ -193,7 +193,7 @@ types:
     id: 11343
     marketGroup: 1672
     massaddition: 32500
-    metalevelold: 1
+    metalevelold: 1.0
     name: 100mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 5
@@ -209,7 +209,7 @@ types:
     id: 11349
     marketGroup: 1673
     massaddition: 140000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 200mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 9
@@ -225,7 +225,7 @@ types:
     id: 11351
     marketGroup: 1673
     massaddition: 120000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 200mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 10
@@ -241,7 +241,7 @@ types:
     id: 20345
     marketGroup: 1672
     massaddition: 37500
-    metalevelold: 5
+    metalevelold: 5.0
     name: 100mm Steel Plates II
     portionSize: 1
     power: 6
@@ -257,7 +257,7 @@ types:
     id: 20347
     marketGroup: 1673
     massaddition: 150000
-    metalevelold: 5
+    metalevelold: 5.0
     name: 200mm Steel Plates II
     portionSize: 1
     power: 12
@@ -273,7 +273,7 @@ types:
     id: 20349
     marketGroup: 1674
     massaddition: 375000
-    metalevelold: 5
+    metalevelold: 5.0
     name: 400mm Steel Plates II
     portionSize: 1
     power: 35
@@ -289,7 +289,7 @@ types:
     id: 20351
     marketGroup: 1675
     massaddition: 1450000
-    metalevelold: 5
+    metalevelold: 5.0
     name: 800mm Steel Plates II
     portionSize: 1
     power: 230
@@ -305,7 +305,7 @@ types:
     id: 20353
     marketGroup: 1676
     massaddition: 3750000
-    metalevelold: 5
+    metalevelold: 5.0
     name: 1600mm Steel Plates II
     portionSize: 1
     power: 550
@@ -322,7 +322,7 @@ types:
     marketGroup: 1672
     massaddition: 35000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Abatis'' 100mm Steel Plates'
     portionSize: 1
     power: 3
@@ -339,7 +339,7 @@ types:
     marketGroup: 1676
     massaddition: 3500000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Bailey'' 1600mm Steel Plates'
     portionSize: 1
     power: 470
@@ -356,7 +356,7 @@ types:
     marketGroup: 1673
     massaddition: 140000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Chainmail'' 200mm Steel Plates'
     portionSize: 1
     power: 8
@@ -373,7 +373,7 @@ types:
     marketGroup: 1674
     massaddition: 350000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Bastion'' 400mm Steel Plates'
     portionSize: 1
     power: 27
@@ -390,7 +390,7 @@ types:
     marketGroup: 1672
     massaddition: 25000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Citadella'' 100mm Steel Plates'
     portionSize: 1
     power: 2
@@ -407,7 +407,7 @@ types:
     marketGroup: 1675
     massaddition: 1350000
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Barbican'' 800mm Steel Plates'
     portionSize: 1
     power: 185
@@ -424,7 +424,7 @@ types:
     marketGroup: 1672
     massaddition: 25000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate 100mm Steel Plates
     portionSize: 1
     power: 4
@@ -441,7 +441,7 @@ types:
     marketGroup: 1676
     massaddition: 2500000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate 1600mm Steel Plates
     portionSize: 1
     power: 495
@@ -458,7 +458,7 @@ types:
     marketGroup: 1673
     massaddition: 100000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate 200mm Steel Plates
     portionSize: 1
     power: 9
@@ -475,7 +475,7 @@ types:
     marketGroup: 1674
     massaddition: 250000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate 400mm Steel Plates
     portionSize: 1
     power: 29
@@ -492,7 +492,7 @@ types:
     marketGroup: 1675
     massaddition: 1000000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate 800mm Steel Plates
     portionSize: 1
     power: 195
@@ -509,7 +509,7 @@ types:
     marketGroup: 1672
     massaddition: 32500
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy 100mm Steel Plates
     portionSize: 1
     power: 7
@@ -526,7 +526,7 @@ types:
     marketGroup: 1672
     massaddition: 20000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy 100mm Steel Plates
     portionSize: 1
     power: 6
@@ -543,7 +543,7 @@ types:
     marketGroup: 1676
     massaddition: 3000000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy 1600mm Steel Plates
     portionSize: 1
     power: 575
@@ -560,7 +560,7 @@ types:
     marketGroup: 1676
     massaddition: 2250000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy 1600mm Steel Plates
     portionSize: 1
     power: 550
@@ -577,7 +577,7 @@ types:
     marketGroup: 1673
     massaddition: 120000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy 200mm Steel Plates
     portionSize: 1
     power: 13
@@ -594,7 +594,7 @@ types:
     marketGroup: 1673
     massaddition: 90000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy 200mm Steel Plates
     portionSize: 1
     power: 11
@@ -611,7 +611,7 @@ types:
     marketGroup: 1674
     massaddition: 300000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy 400mm Steel Plates
     portionSize: 1
     power: 40
@@ -628,7 +628,7 @@ types:
     marketGroup: 1674
     massaddition: 225000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy 400mm Steel Plates
     portionSize: 1
     power: 35
@@ -645,7 +645,7 @@ types:
     marketGroup: 1675
     massaddition: 1200000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy 800mm Steel Plates
     portionSize: 1
     power: 245
@@ -662,7 +662,7 @@ types:
     marketGroup: 1675
     massaddition: 900000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy 800mm Steel Plates
     portionSize: 1
     power: 230
@@ -693,7 +693,7 @@ types:
     id: 40349
     marketGroup: 2240
     massaddition: 68000000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 25000mm Crystalline Carbonide Restrained Plates
     portionSize: 1
     power: 100000
@@ -709,7 +709,7 @@ types:
     id: 40350
     marketGroup: 2240
     massaddition: 80000000
-    metalevelold: 1
+    metalevelold: 1.0
     name: 25000mm Rolled Tungsten Compact Plates
     portionSize: 1
     power: 85000
@@ -725,7 +725,7 @@ types:
     id: 40351
     marketGroup: 2240
     massaddition: 88000000
-    metalevelold: 5
+    metalevelold: 5.0
     name: 25000mm Steel Plates II
     portionSize: 1
     power: 110000
@@ -742,7 +742,7 @@ types:
     marketGroup: 2240
     massaddition: 68000000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: CONCORD 25000mm Steel Plates
     portionSize: 1
     power: 85000
@@ -759,7 +759,7 @@ types:
     marketGroup: 2240
     massaddition: 68000000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood 25000mm Steel Plates
     portionSize: 1
     power: 85000
@@ -776,7 +776,7 @@ types:
     marketGroup: 2240
     massaddition: 68000000
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis 25000mm Steel Plates
     portionSize: 1
     power: 85000

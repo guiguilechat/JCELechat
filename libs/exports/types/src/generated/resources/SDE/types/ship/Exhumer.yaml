@@ -54,7 +54,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 160.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountmultiplier: 1.0
     miningbargebonusgasharvestingduration: -3
     miningbargebonusiceharvestingduration: -3
@@ -159,7 +159,7 @@ types:
     maxtargetrange: 67500.0
     maxvelocity: 110.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountmultiplier: 1.0
     miningbargebonusiceharvestingduration: -4
     miningbargebonusoreminingyield: 2
@@ -261,7 +261,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 130.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountmultiplier: 1.0
     miningbargebonusgasharvestingduration: -3
     miningbargebonusgeneralminingholdcapacity: 5

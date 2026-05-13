@@ -26,7 +26,7 @@ types:
     id: 35771
     marketGroup: 2033
     mass: 30.0
-    metalevelold: 5
+    metalevelold: 5.0
     missilevelocitybonus: 6.0
     name: Missile Guidance Enhancer II
     portionSize: 1
@@ -45,7 +45,7 @@ types:
     id: 35774
     marketGroup: 2033
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     missilevelocitybonus: 5.5
     name: Pro-Nav Compact Missile Guidance Enhancer
     portionSize: 1

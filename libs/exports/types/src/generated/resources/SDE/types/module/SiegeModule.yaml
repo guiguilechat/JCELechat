@@ -26,7 +26,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Siege Module II
     portionSize: 1
     power: 105000
@@ -84,7 +84,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxlockedtargetsbonus: 5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Triage Module II
     portionSize: 1
     power: 105000
@@ -286,7 +286,8 @@ types:
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.7
     bastionmissilerofbonus: -50
-    bastionmodearmorrepairandshieldboostercapdurationbonus: -20
+    bastionmodearmorrepaircapdurationbonus: -20
+    bastionmodeshieldboostercapdurationbonus: -20
     bastionturretrofbonus: -50
     canfitshipgroup01: 900
     cpu: 10.0
@@ -372,7 +373,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Industrial Core II
     portionSize: 1
     power: 150000
@@ -665,7 +666,7 @@ types:
     mass: 1.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Strategos' Modified Siege Module
     portionSize: 1
     power: 120000
@@ -693,3 +694,239 @@ types:
     techlevel: 2
     volume: 4000.0
     weapondisruptionresistancebonus: -75
+  93999:
+    activationblockedstrenght: 1
+    armordamageamountbonus: 75
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
+    bastionmissilerofbonus: -50
+    bastionmodearmorrepaircapdurationbonus: -30
+    bastionmodeshieldboostercapdurationbonus: -20
+    bastionturretrofbonus: -55
+    canfitshipgroup01: 900
+    cpu: 10.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 60000.0
+    ecmresistance: 1.0
+    falloffbonus: 20.0
+    hp: 999999.0
+    hullemdamageresonance: 0.7
+    hullexplosivedamageresonance: 0.7
+    hullkineticdamageresonance: 0.7
+    hullthermaldamageresonance: 0.7
+    id: 93999
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrangebonus: 20.0
+    metalevelold: 8.0
+    missilevelocitybonus: 25.0
+    name: Imperial Navy Bastion Module
+    portionSize: 1
+    power: 80
+    price: 5000000.0
+    published: true
+    remoteassistanceimpedancebonus: -95
+    remoterepairimpedancebonus: -99.9999
+    requiredskill1: 11207
+    requiredskill1level: 5
+    requiredskill2: 3424
+    requiredskill2level: 5
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    shieldboostmultiplier: 60.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldthermaldamageresonance: 0.8
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    speedfactorfloor: -100
+    techlevel: 1
+    volume: 200.0
+  94008:
+    activationblockedstrenght: 1
+    armordamageamountbonus: 50
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
+    bastionmissilerofbonus: -50
+    bastionmodearmorrepaircapdurationbonus: -10
+    bastionmodeshieldboostercapdurationbonus: -10
+    bastionturretrofbonus: -55
+    canfitshipgroup01: 900
+    cpu: 10.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 60000.0
+    ecmresistance: 1.0
+    falloffbonus: 20.0
+    hp: 999999.0
+    hullemdamageresonance: 0.7
+    hullexplosivedamageresonance: 0.7
+    hullkineticdamageresonance: 0.7
+    hullthermaldamageresonance: 0.7
+    id: 94008
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrangebonus: 20.0
+    metalevelold: 8.0
+    missilevelocitybonus: 25.0
+    name: Republic Fleet Bastion Module
+    portionSize: 1
+    power: 80
+    price: 5000000.0
+    published: true
+    remoteassistanceimpedancebonus: -95
+    remoterepairimpedancebonus: -99.9999
+    requiredskill1: 11207
+    requiredskill1level: 5
+    requiredskill2: 3424
+    requiredskill2level: 5
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    shieldboostmultiplier: 50.0
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
+    shieldthermaldamageresonance: 0.6
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    speedfactorfloor: -100
+    techlevel: 1
+    volume: 200.0
+  94009:
+    activationblockedstrenght: 1
+    armordamageamountbonus: 55
+    armoremdamageresonance: 0.7
+    armorexplosivedamageresonance: 0.7
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.7
+    bastionmissilerofbonus: -50
+    bastionmodearmorrepaircapdurationbonus: -15
+    bastionmodeshieldboostercapdurationbonus: -15
+    bastionturretrofbonus: -60
+    canfitshipgroup01: 900
+    cpu: 10.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 60000.0
+    ecmresistance: 1.0
+    falloffbonus: 10.0
+    hp: 999999.0
+    hullemdamageresonance: 0.7
+    hullexplosivedamageresonance: 0.7
+    hullkineticdamageresonance: 0.7
+    hullthermaldamageresonance: 0.7
+    id: 94009
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrangebonus: 10.0
+    metalevelold: 8.0
+    missilevelocitybonus: 25.0
+    name: Federation Navy Bastion Module
+    portionSize: 1
+    power: 80
+    price: 5000000.0
+    published: true
+    remoteassistanceimpedancebonus: -95
+    remoterepairimpedancebonus: -99.9999
+    requiredskill1: 11207
+    requiredskill1level: 5
+    requiredskill2: 3424
+    requiredskill2level: 5
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    shieldboostmultiplier: 55.0
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.7
+    shieldkineticdamageresonance: 0.7
+    shieldthermaldamageresonance: 0.7
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    speedfactorfloor: -100
+    techlevel: 1
+    volume: 200.0
+  94010:
+    activationblockedstrenght: 1
+    armordamageamountbonus: 60
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.8
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.8
+    bastionmissilerofbonus: -60
+    bastionmodearmorrepaircapdurationbonus: -20
+    bastionmodeshieldboostercapdurationbonus: -25
+    bastionturretrofbonus: -50
+    canfitshipgroup01: 900
+    cpu: 10.0
+    deactivateifoffensive: 1
+    disallowactivateonwarp: 1
+    disallowdocking: 1
+    disallowearlydeactivation: 1
+    disallowtethering: 1
+    duration: 60000.0
+    ecmresistance: 1.0
+    falloffbonus: 25.0
+    hp: 999999.0
+    hullemdamageresonance: 0.7
+    hullexplosivedamageresonance: 0.7
+    hullkineticdamageresonance: 0.7
+    hullthermaldamageresonance: 0.7
+    id: 94010
+    marketGroup: 801
+    mass: 1.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxrangebonus: 25.0
+    metalevelold: 8.0
+    missilevelocitybonus: 10.0
+    name: Caldari Navy Bastion Module
+    portionSize: 1
+    power: 80
+    price: 5000000.0
+    published: true
+    remoteassistanceimpedancebonus: -95
+    remoterepairimpedancebonus: -99.9999
+    requiredskill1: 11207
+    requiredskill1level: 5
+    requiredskill2: 3424
+    requiredskill2level: 5
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    shieldboostmultiplier: 70.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.8
+    shieldkineticdamageresonance: 0.8
+    shieldthermaldamageresonance: 0.8
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    speedfactorfloor: -100
+    techlevel: 1
+    volume: 200.0

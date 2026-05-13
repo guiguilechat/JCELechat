@@ -241,7 +241,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mining Foreman Burst II
     portionSize: 1
     power: 110
@@ -288,7 +288,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Armor Command Burst II
     portionSize: 1
     power: 110
@@ -335,7 +335,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Information Command Burst II
     portionSize: 1
     power: 110
@@ -382,7 +382,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Shield Command Burst II
     portionSize: 1
     power: 110
@@ -429,7 +429,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Skirmish Command Burst II
     portionSize: 1
     power: 110
@@ -476,7 +476,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 18000.0
-    metalevelold: 8
+    metalevelold: 8.0
     name: ‘Vigilant’ Shield Command Burst
     portionSize: 1
     power: 100
@@ -523,7 +523,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 18000.0
-    metalevelold: 8
+    metalevelold: 8.0
     name: ‘Tyrannos’ Armor Command Burst
     portionSize: 1
     power: 100
@@ -613,7 +613,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Expedition Command Burst II
     portionSize: 1
     power: 110
@@ -660,7 +660,7 @@ types:
     maxgroupactive: 1
     maxgrouponline: 1
     maxrange: 18000.0
-    metalevelold: 8
+    metalevelold: 8.0
     name: Sisters Expedition Command Burst
     portionSize: 1
     power: 100
@@ -673,6 +673,146 @@ types:
     requiredskill3: 89610
     requiredskill3level: 1
     techlevel: 1
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  92455:
+    buffduration: 80000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    canfitshiptype1: 89808
+    capacitorneed: 25.0
+    chargegroup1: 1773
+    chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 92455
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 18000.0
+    metalevelold: 5.0
+    name: Presidential Information Command Burst
+    portionSize: 1
+    power: 100
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 20495
+    requiredskill2level: 5
+    requiredskill3: 3352
+    requiredskill3level: 1
+    techlevel: 2
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  92456:
+    buffduration: 80000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    capacitorneed: 25.0
+    chargegroup1: 1771
+    chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 92456
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 18000.0
+    metalevelold: 5.0
+    name: Presidential Mining Foreman Burst
+    portionSize: 1
+    power: 100
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 22536
+    requiredskill2level: 5
+    requiredskill3: 22552
+    requiredskill3level: 1
+    techlevel: 2
+    volume: 60.0
+    warfarebuff1value: 1.25
+    warfarebuff2value: 1.25
+    warfarebuff3value: 1.25
+    warfarebuff4value: 1.25
+  92458:
+    buffduration: 80000
+    canfitshipgroup01: 1534
+    canfitshipgroup02: 963
+    canfitshipgroup03: 419
+    canfitshipgroup04: 540
+    canfitshipgroup05: 941
+    canfitshipgroup06: 883
+    canfitshipgroup07: 547
+    canfitshipgroup08: 1538
+    canfitshipgroup09: 659
+    canfitshipgroup10: 30
+    canfitshipgroup11: 4902
+    canfitshiptype1: 89808
+    capacitorneed: 25.0
+    chargegroup1: 1772
+    chargerate: 1
+    commandburstdbuffeffectstrengthfake: 25
+    cpu: 50.0
+    disallowactivateinforcefield: 1
+    disallowdocking: 1
+    disallowtethering: 1
+    duration: 60000.0
+    hp: 40.0
+    id: 92458
+    marketGroup: 1633
+    maxgroupactive: 1
+    maxgrouponline: 1
+    maxrange: 18000.0
+    metalevelold: 5.0
+    name: Presidential Skirmish Command Burst
+    portionSize: 1
+    power: 100
+    published: true
+    reloadtime: 60000.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 3349
+    requiredskill2level: 5
+    requiredskill3: 11572
+    requiredskill3level: 1
+    techlevel: 2
     volume: 60.0
     warfarebuff1value: 1.25
     warfarebuff2value: 1.25

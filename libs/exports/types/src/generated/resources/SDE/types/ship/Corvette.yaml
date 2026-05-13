@@ -368,7 +368,7 @@ types:
     maxvelocity: 330.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.05
     name: Immolator
     portionSize: 1
@@ -448,7 +448,7 @@ types:
     maxvelocity: 360.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.05
     name: Echo
     portionSize: 1
@@ -527,7 +527,7 @@ types:
     maxvelocity: 310.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 1.0
     name: Hematos
     portionSize: 1
@@ -611,7 +611,7 @@ types:
     maxvelocity: 295.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 1.0
     name: Taipan
     portionSize: 1
@@ -691,7 +691,7 @@ types:
     maxvelocity: 340.0
     medslots: 2
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 1.0
     name: Violator
     portionSize: 1

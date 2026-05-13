@@ -6,7 +6,7 @@ types:
     id: 57319
     marketGroup: 2763
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mobile Cynosural Beacon
     portionSize: 1
     published: true
@@ -32,7 +32,7 @@ types:
     iscovert: 1
     marketGroup: 2763
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Covert Mobile Cynosural Beacon
     portionSize: 1
     published: true

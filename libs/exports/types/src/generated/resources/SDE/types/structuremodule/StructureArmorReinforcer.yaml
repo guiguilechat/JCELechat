@@ -20,7 +20,7 @@ types:
     id: 47362
     marketGroup: 2414
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Layered Armor Plating II
     portionSize: 1
     power: 240000

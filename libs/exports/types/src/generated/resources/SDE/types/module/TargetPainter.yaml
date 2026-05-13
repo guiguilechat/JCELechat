@@ -34,7 +34,7 @@ types:
     id: 19806
     marketGroup: 757
     maxrange: 36000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Target Painter II
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     id: 19810
     marketGroup: 757
     maxrange: 30000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Peripheral Compact Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -84,7 +84,7 @@ types:
     id: 19812
     marketGroup: 757
     maxrange: 30000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Parallel Enduring Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -109,7 +109,7 @@ types:
     id: 19814
     marketGroup: 757
     maxrange: 33000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Phased Scoped Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -135,7 +135,7 @@ types:
     marketGroup: 757
     maxrange: 36000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Inception'' Target Painter'
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -161,7 +161,7 @@ types:
     marketGroup: 757
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -187,7 +187,7 @@ types:
     marketGroup: 757
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1
@@ -213,7 +213,7 @@ types:
     marketGroup: 757
     maxrange: 39000.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tisiphone's Modified Target Painter
     overloadpainterstrengthbonus: 20
     portionSize: 1

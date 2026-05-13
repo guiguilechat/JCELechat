@@ -18,7 +18,7 @@ types:
     marketGroup: 929
     mass: 1500.0
     maxvelocity: 2700.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Javelin Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -51,7 +51,7 @@ types:
     marketGroup: 931
     mass: 1000.0
     maxvelocity: 1500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Rage Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -86,7 +86,7 @@ types:
     marketGroup: 931
     mass: 1000.0
     maxvelocity: 1500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Rage Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -120,7 +120,7 @@ types:
     marketGroup: 931
     mass: 1000.0
     maxvelocity: 1500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Rage Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -154,7 +154,7 @@ types:
     marketGroup: 931
     mass: 1000.0
     maxvelocity: 1500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Rage Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -188,7 +188,7 @@ types:
     marketGroup: 929
     mass: 1500.0
     maxvelocity: 2700.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Javelin Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -224,7 +224,7 @@ types:
     marketGroup: 929
     mass: 1500.0
     maxvelocity: 2700.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Javelin Torpedo
     portionSize: 5000
     price: 1500245.0
@@ -259,7 +259,7 @@ types:
     marketGroup: 929
     mass: 1500.0
     maxvelocity: 2700.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Javelin Torpedo
     portionSize: 5000
     price: 1500245.0

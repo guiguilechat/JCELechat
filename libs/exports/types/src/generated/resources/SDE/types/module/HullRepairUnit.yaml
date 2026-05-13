@@ -32,7 +32,7 @@ types:
     id: 2355
     marketGroup: 1053
     mass: 1000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Hull Repairer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -79,7 +79,7 @@ types:
     id: 3655
     marketGroup: 1054
     mass: 1000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Hull Repairer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -126,7 +126,7 @@ types:
     id: 3665
     marketGroup: 1055
     mass: 1000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Hull Repairer II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -150,7 +150,7 @@ types:
     id: 5683
     marketGroup: 1054
     mass: 1000.0
-    metalevelold: 4
+    metalevelold: 4.0
     name: Medium Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -174,7 +174,7 @@ types:
     id: 5693
     marketGroup: 1053
     mass: 1000.0
-    metalevelold: 4
+    metalevelold: 4.0
     name: Small Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -198,7 +198,7 @@ types:
     id: 5697
     marketGroup: 1055
     mass: 1000.0
-    metalevelold: 4
+    metalevelold: 4.0
     name: Large Inefficient Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -222,7 +222,7 @@ types:
     id: 5719
     marketGroup: 1054
     mass: 1000.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Medium 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -246,7 +246,7 @@ types:
     id: 5721
     marketGroup: 1054
     mass: 1000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Automated Structural Restoration
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -270,7 +270,7 @@ types:
     id: 5723
     marketGroup: 1054
     mass: 1000.0
-    metalevelold: 2
+    metalevelold: 2.0
     name: Medium I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -294,7 +294,7 @@ types:
     id: 5743
     marketGroup: 1053
     mass: 1000.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Small 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -318,7 +318,7 @@ types:
     id: 5745
     marketGroup: 1053
     mass: 1000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Automated Structural Restoration
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -342,7 +342,7 @@ types:
     id: 5747
     marketGroup: 1053
     mass: 1000.0
-    metalevelold: 2
+    metalevelold: 2.0
     name: Small I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -366,7 +366,7 @@ types:
     id: 5755
     marketGroup: 1055
     mass: 1000.0
-    metalevelold: 3
+    metalevelold: 3.0
     name: Large 'Hope' Hull Reconstructor I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -390,7 +390,7 @@ types:
     id: 5757
     marketGroup: 1055
     mass: 1000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Automated Structural Restoration
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -414,7 +414,7 @@ types:
     id: 5759
     marketGroup: 1055
     mass: 1000.0
-    metalevelold: 2
+    metalevelold: 2.0
     name: Large I-b Polarized Structural Regenerator
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -439,7 +439,7 @@ types:
     marketGroup: 1053
     mass: 1000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Small 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -464,7 +464,7 @@ types:
     marketGroup: 1054
     mass: 1000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Medium 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -489,7 +489,7 @@ types:
     marketGroup: 1055
     mass: 1000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Large 'Integrative' Hull Repair Unit
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -538,7 +538,7 @@ types:
     id: 41512
     marketGroup: 2244
     mass: 1000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital I-b Enduring Hull Repairer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -564,7 +564,7 @@ types:
     id: 41513
     marketGroup: 2244
     mass: 1000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital IEF Compact Hull Repairer
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -590,7 +590,7 @@ types:
     id: 41514
     marketGroup: 2244
     mass: 1000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Hull Repairer II
     overloadselfdurationbonus: -15.0
     portionSize: 1

@@ -6,7 +6,7 @@ types:
     id: 518
     marketGroup: 646
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Gyrostabilizer'
     portionSize: 1
     power: 1
@@ -22,7 +22,7 @@ types:
     hp: 40.0
     id: 519
     marketGroup: 646
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gyrostabilizer II
     portionSize: 1
     power: 1
@@ -53,7 +53,7 @@ types:
     hp: 40.0
     id: 5933
     marketGroup: 646
-    metalevelold: 1
+    metalevelold: 1.0
     name: Counterbalanced Compact Gyrostabilizer
     portionSize: 1
     power: 1
@@ -70,7 +70,7 @@ types:
     id: 13939
     marketGroup: 646
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Gyrostabilizer
     portionSize: 1
     power: 1
@@ -87,7 +87,7 @@ types:
     id: 14536
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Gyrostabilizer
     portionSize: 1
     power: 1
@@ -104,7 +104,7 @@ types:
     id: 14538
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified Gyrostabilizer
     portionSize: 1
     power: 1
@@ -121,7 +121,7 @@ types:
     id: 14540
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gotan's Modified Gyrostabilizer
     portionSize: 1
     power: 1
@@ -138,7 +138,7 @@ types:
     id: 14542
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified Gyrostabilizer
     portionSize: 1
     power: 1
@@ -155,7 +155,7 @@ types:
     id: 15447
     marketGroup: 646
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Shaqil's Modified Gyrostabilizer
     portionSize: 1
     power: 1
@@ -172,7 +172,7 @@ types:
     id: 15806
     marketGroup: 646
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Gyrostabilizer
     portionSize: 1
     power: 1
@@ -189,7 +189,7 @@ types:
     id: 21486
     marketGroup: 646
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Kindred'' Gyrostabilizer'
     portionSize: 1
     power: 1
@@ -206,7 +206,7 @@ types:
     id: 44112
     marketGroup: 646
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Vadari's Custom Gyrostabilizer
     portionSize: 1
     power: 1

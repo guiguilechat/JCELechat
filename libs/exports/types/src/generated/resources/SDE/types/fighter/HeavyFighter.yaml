@@ -6,7 +6,7 @@ types:
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamageem: 200.0
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 200
+    fighterabilityattackmissiledamagetherm: 200.0
     fighterabilityattackmissileduration: 3500
     fighterabilityattackmissileexplosionradius: 2000
     fighterabilityattackmissileexplosionvelocity: 60
@@ -34,7 +34,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 814.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow
     portionSize: 1
     price: 20336332.0
@@ -65,7 +65,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 366
+    fighterabilityattackmissiledamagetherm: 366.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
     fighterabilityattackmissileexplosionvelocity: 40
@@ -80,7 +80,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 2926
+    fighterabilitymissilesdamagetherm: 2926.0
     fighterabilitymissilesduration: 40000
     fighterabilitymissilesexplosionradius: 5000
     fighterabilitymissilesexplosionvelocity: 50
@@ -140,7 +140,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 2527
+    fighterabilitymissilesdamageem: 2527.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -190,7 +190,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 299
+    fighterabilityattackmissiledamageexp: 299.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -427,7 +427,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 293
+    fighterabilityattackmissiledamagetherm: 293.0
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
     fighterabilityattackmissileexplosionvelocity: 80
@@ -481,7 +481,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 239
+    fighterabilityattackmissiledamageexp: 239.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -563,7 +563,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 578.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ametat II
     portionSize: 1
     published: true
@@ -605,7 +605,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 2793
+    fighterabilitymissilesdamageem: 2793.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -626,7 +626,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 900.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Malleus II
     portionSize: 1
     published: true
@@ -656,7 +656,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 323
+    fighterabilityattackmissiledamagetherm: 323.0
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
     fighterabilityattackmissileexplosionvelocity: 80
@@ -682,7 +682,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 495.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Antaeus II
     portionSize: 1
     published: true
@@ -712,7 +712,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 404
+    fighterabilityattackmissiledamagetherm: 404.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
     fighterabilityattackmissileexplosionvelocity: 40
@@ -727,7 +727,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 3234
+    fighterabilitymissilesdamagetherm: 3234.0
     fighterabilitymissilesduration: 40000
     fighterabilitymissilesexplosionradius: 5000
     fighterabilitymissilesexplosionvelocity: 50
@@ -745,7 +745,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 771.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Cyclops II
     portionSize: 1
     published: true
@@ -774,7 +774,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 265
+    fighterabilityattackmissiledamageexp: 265.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 570
@@ -801,7 +801,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 605.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gungnir II
     portionSize: 1
     published: true
@@ -830,7 +830,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 331
+    fighterabilityattackmissiledamageexp: 331.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -864,7 +864,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 942.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tyrfing II
     portionSize: 1
     published: true
@@ -920,7 +920,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 523.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Termite II
     portionSize: 1
     published: true
@@ -983,7 +983,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 814.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mantis II
     portionSize: 1
     published: true

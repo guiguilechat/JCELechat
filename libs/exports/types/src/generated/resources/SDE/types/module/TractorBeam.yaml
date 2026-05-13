@@ -10,7 +10,7 @@ types:
     mass: 50.0
     maxrange: 24000.0
     maxtractorvelocity: 600
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Tractor Beam II
     portionSize: 1
     power: 7
@@ -35,7 +35,7 @@ types:
     mass: 50.0
     maxrange: 240000.0
     maxtractorvelocity: 3600
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Tractor Beam II
     portionSize: 1
     power: 55000
@@ -106,7 +106,7 @@ types:
     mass: 50.0
     maxrange: 28000.0
     maxtractorvelocity: 700
-    metalevelold: 8
+    metalevelold: 8.0
     name: Consortium Small Tractor Beam
     portionSize: 1
     power: 7
@@ -131,7 +131,7 @@ types:
     mass: 50.0
     maxrange: 280000.0
     maxtractorvelocity: 4200
-    metalevelold: 8
+    metalevelold: 8.0
     name: Consortium Capital Tractor Beam
     portionSize: 1
     power: 50000

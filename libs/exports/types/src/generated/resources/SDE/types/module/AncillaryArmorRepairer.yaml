@@ -15,7 +15,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -46,7 +46,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -77,7 +77,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -108,7 +108,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -199,7 +199,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Capital Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -230,7 +230,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Large Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -261,7 +261,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Medium Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -292,7 +292,7 @@ types:
     mass: 500.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Small Ancillary Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0

@@ -7706,6 +7706,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -7733,6 +7734,7 @@ types:
     portionSize: 1
     published: false
     radius: 15000.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 6000.0
     shieldemdamageresonance: 1.0
@@ -7753,6 +7755,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -7780,6 +7783,7 @@ types:
     portionSize: 1
     published: false
     radius: 1672.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -8029,6 +8033,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -8056,6 +8061,7 @@ types:
     portionSize: 1
     published: false
     radius: 450.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -8167,6 +8173,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -8194,6 +8201,7 @@ types:
     portionSize: 1
     published: false
     radius: 459.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -8259,6 +8267,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -8286,6 +8295,7 @@ types:
     portionSize: 1
     published: false
     radius: 550.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -8351,6 +8361,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -8378,6 +8389,7 @@ types:
     portionSize: 1
     published: false
     radius: 700.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -10657,6 +10669,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -10684,6 +10697,7 @@ types:
     portionSize: 1
     published: false
     radius: 1500.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 1000.0
     shieldemdamageresonance: 1.0
@@ -12008,6 +12022,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -12035,6 +12050,7 @@ types:
     portionSize: 1
     published: false
     radius: 550.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -12284,6 +12300,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -12311,6 +12328,7 @@ types:
     portionSize: 1
     published: false
     radius: 500.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 600.0
     shieldemdamageresonance: 1.0
@@ -14373,6 +14391,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14400,6 +14419,7 @@ types:
     portionSize: 1
     published: false
     radius: 705.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 5000.0
     shieldemdamageresonance: 1.0
@@ -14419,6 +14439,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14446,6 +14467,7 @@ types:
     portionSize: 1
     published: false
     radius: 3394.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 20000.0
     shieldemdamageresonance: 1.0
@@ -14461,7 +14483,7 @@ types:
   29168:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 10000.0
+    armorhp: 30000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
@@ -14511,6 +14533,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14538,6 +14561,7 @@ types:
     portionSize: 1
     published: false
     radius: 3275.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 20000.0
     shieldemdamageresonance: 1.0
@@ -14557,6 +14581,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14584,6 +14609,7 @@ types:
     portionSize: 1
     published: false
     radius: 3666.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 20000.0
     shieldemdamageresonance: 1.0
@@ -14603,6 +14629,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14630,6 +14657,7 @@ types:
     portionSize: 1
     published: false
     radius: 3346.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 20000.0
     shieldemdamageresonance: 1.0
@@ -14815,7 +14843,7 @@ types:
     published: false
     radius: 700.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 10000.0
+    shieldcapacity: 30000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -14829,7 +14857,7 @@ types:
   29176:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 10000.0
+    armorhp: 30000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
@@ -14907,7 +14935,7 @@ types:
     published: false
     radius: 2300.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 10000.0
+    shieldcapacity: 30000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -14925,6 +14953,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14952,6 +14981,7 @@ types:
     portionSize: 1
     published: false
     radius: 850.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 5000.0
     shieldemdamageresonance: 1.0
@@ -14971,6 +15001,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -14998,6 +15029,7 @@ types:
     portionSize: 1
     published: false
     radius: 750.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 5000.0
     shieldemdamageresonance: 1.0
@@ -15017,6 +15049,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -15044,6 +15077,7 @@ types:
     portionSize: 1
     published: false
     radius: 713.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 5000.0
     shieldemdamageresonance: 1.0
@@ -15247,6 +15281,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -15274,6 +15309,7 @@ types:
     portionSize: 1
     published: false
     radius: 459.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 1200.0
     shieldemdamageresonance: 1.0
@@ -15293,6 +15329,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -15320,6 +15357,7 @@ types:
     portionSize: 1
     published: false
     radius: 459.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 50000.0
     shieldemdamageresonance: 1.0
@@ -15385,6 +15423,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    capacitorcapacity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
@@ -15412,6 +15451,7 @@ types:
     portionSize: 1
     published: false
     radius: 459.0
+    rechargerate: 1000000.0
     remoterepairimpedance: 1.0
     shieldcapacity: 950.0
     shieldemdamageresonance: 1.0
@@ -18409,6 +18449,7 @@ types:
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
+    entityfactionloss: 0.15
     entityflyrange: 500.0
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
@@ -18424,7 +18465,7 @@ types:
     optimalsigradius: 1000
     portionSize: 1
     published: false
-    radius: 14.0
+    radius: 30.0
     remoterepairimpedance: 1.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
@@ -18433,7 +18474,6 @@ types:
     signatureradius: 5000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    volume: 27500.0
     warpscrambleduration: 8000
   60144:
     armoremdamageresonance: 1.0
@@ -20000,26 +20040,26 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
-    damagemultiplierbonusmax: 50.0
-    damagemultiplierbonuspercycle: 0.5
-    emdamage: 150.0
+    damagemultiplierbonusmax: 72.0
+    damagemultiplierbonuspercycle: 0.6
+    emdamage: 300.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entityreactionfactor: 1.0
-    explosivedamage: 150.0
+    explosivedamage: 300.0
     explosivedamageresonance: 1.0
     falloff: 300000.0
     gfxturretid: 47274
     hp: 15000.0
     id: 86100
-    kineticdamage: 150.0
+    kineticdamage: 300.0
     kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     mass: 1000.0
-    maxlockedtargets: 6
+    maxlockedtargets: 15
     maxrange: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -20043,7 +20083,7 @@ types:
     signatureradius: 400.0
     speed: 3000.0
     structureuniformity: 1.0
-    thermaldamage: 150.0
+    thermaldamage: 300.0
     thermaldamageresonance: 1.0
     trackingspeed: 300.0
     volume: 1000.0
@@ -20908,4 +20948,330 @@ types:
     structureuniformity: 1.0
     thermaldamage: 350.0
     thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  93179:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 93179
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Warpath Complex
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 10000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  93180:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 93180
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Warpath Complex
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 12000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  93181:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 93181
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Warpath Complex
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 15000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  93182:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    id: 93182
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Warpath Complex
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 5000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
+  93567:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 5000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 200.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 200.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 93567
+    kineticdamage: 200.0
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Tripwire Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 10.0
+    rechargerate: 1800000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamage: 200.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+    warpscrambleduration: 8000
+  93568:
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
+    capacitorcapacity: 1000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamage: 60.0
+    explosivedamageresonance: 1.0
+    falloff: 60000.0
+    gfxturretid: 37289
+    hackable: 1
+    hp: 5000.0
+    id: 93568
+    kineticdamage: 60.0
+    kineticdamageresonance: 1.0
+    lootrespawntime: 8.64E7
+    mass: 1000.0
+    maxlockedtargets: 6
+    maxrange: 30000.0
+    maxtargetrange: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Sentry Node
+    optimalsigradius: 100
+    portionSize: 1
+    published: false
+    radius: 241.0
+    rechargerate: 500000.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    scanresolution: 180.0
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.54
+    signatureradius: 400.0
+    spawnwithoutguardstoo: 1
+    speed: 5000.0
+    structureuniformity: 1.0
+    thermaldamage: 60.0
+    thermaldamageresonance: 1.0
+    tierdifficulty: 2
+    trackingspeed: 35.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  93574:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 5000.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 100000.0
+    id: 93574
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 100000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Sentinel Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 241.0
+    rechargerate: 1800000.0
+    remoterepairimpedance: 1.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+    warpscrambleduration: 8000
+  93868:
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.45
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.72
+    armorthermaldamageresonance: 0.54
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hackable: 1
+    hp: 5000.0
+    id: 93868
+    kineticdamageresonance: 1.0
+    lootrespawntime: 8.64E7
+    mass: 1000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Confinement Node
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 241.0
+    remoterepairimpedance: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    shieldcapacity: 5000.0
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.72
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.54
+    signatureradius: 400.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    tierdifficulty: 1
     warpscrambleduration: 8000

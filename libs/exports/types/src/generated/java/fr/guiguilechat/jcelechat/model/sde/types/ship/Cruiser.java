@@ -28,12 +28,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakM
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneArmorDamageAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneShieldBonusBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyTransferAmountBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
@@ -134,7 +132,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
 import fr.guiguilechat.jcelechat.model.sde.attributes.VirusStrengthBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmune;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -158,13 +155,6 @@ public class Cruiser
     @DefaultIntValue(30000)
     public int covertopsandreconopscloakmoduledelay;
     /**
-     * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int disallowoffensivemodifiers;
-    /**
      * Bonus to drone armor repair amount
      */
     @HighIsGood(true)
@@ -178,13 +168,6 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int droneshieldbonusbonus;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double duration;
     /**
      * 
      */
@@ -579,14 +562,7 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrengthbonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int warpbubbleimmune;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxRangeBonus2 .INSTANCE, BaseWarpSpeed.INSTANCE, WarpBubbleImmune.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusAC3 .INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EnergyTransferAmountBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, DisallowOffensiveModifiers.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShipBonusMC3 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, VirusStrengthBonus.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, DroneArmorDamageAmountBonus.INSTANCE, DroneShieldBonusBonus.INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPC1 .INSTANCE, ShipBonusPC2 .INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusAC.INSTANCE, ShipBonusGC3 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusUC1 .INSTANCE, ShipBonusUC2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, EnergyWarfareResistance.INSTANCE, ShipBonusCC3 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxRangeBonus2 .INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, RequiredSkill1Level.INSTANCE, WarpFactor.INSTANCE, RequiredSkill2Level.INSTANCE, ShipBonusAC3 .INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EnergyTransferAmountBonus.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, StasisWebifierResistance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShipBonusMC3 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, VirusStrengthBonus.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, ShipBonusRole8 .INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, MaxDirectionalScanRange.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CargoScanResistance.INSTANCE, MaxLockedTargets.INSTANCE, DroneArmorDamageAmountBonus.INSTANCE, DroneShieldBonusBonus.INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPC1 .INSTANCE, ShipBonusPC2 .INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusAC.INSTANCE, ShipBonusGC3 .INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShipBonusUC1 .INSTANCE, ShipBonusUC2 .INSTANCE, ShieldUniformity.INSTANCE, ShipRoleBonusWarpSpeed.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsBlackOpsJumpPortalPassenger.INSTANCE, IsBlackOpsJumpConduitPassenger.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, EnergyWarfareResistance.INSTANCE, ShipBonusCC3 .INSTANCE })));
     public static final Cruiser.MetaGroup METAGROUP = new Cruiser.MetaGroup();
 
     @Override
@@ -600,10 +576,6 @@ public class Cruiser
             {
                 return covertopsandreconopscloakmoduledelay;
             }
-            case  872 :
-            {
-                return disallowoffensivemodifiers;
-            }
             case  1219 :
             {
                 return dronearmordamageamountbonus;
@@ -611,10 +583,6 @@ public class Cruiser
             case  1220 :
             {
                 return droneshieldbonusbonus;
-            }
-            case  73 :
-            {
-                return duration;
             }
             case  1840 :
             {
@@ -839,10 +807,6 @@ public class Cruiser
             case  1918 :
             {
                 return virusstrengthbonus;
-            }
-            case  1538 :
-            {
-                return warpbubbleimmune;
             }
             default:
             {

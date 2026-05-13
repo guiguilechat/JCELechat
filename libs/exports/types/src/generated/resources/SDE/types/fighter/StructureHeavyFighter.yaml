@@ -63,7 +63,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 789
+    fighterabilityattackmissiledamageexp: 789.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
@@ -128,7 +128,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 8339
+    fighterabilitymissilesdamageem: 8339.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -175,7 +175,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 1208
+    fighterabilityattackmissiledamagetherm: 1208.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
     fighterabilityattackmissileexplosionvelocity: 40
@@ -190,7 +190,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 9656
+    fighterabilitymissilesdamagetherm: 9656.0
     fighterabilitymissilesduration: 40000
     fighterabilitymissilesexplosionradius: 5000
     fighterabilitymissilesexplosionvelocity: 50
@@ -233,7 +233,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 987
+    fighterabilityattackmissiledamageexp: 987.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -305,7 +305,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 9217
+    fighterabilitymissilesdamageem: 9217.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -326,7 +326,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1800.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Malleus II
     portionSize: 1
     published: true
@@ -386,7 +386,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1629.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Mantis II
     portionSize: 1
     published: true
@@ -413,7 +413,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 1333
+    fighterabilityattackmissiledamagetherm: 1333.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
     fighterabilityattackmissileexplosionvelocity: 40
@@ -428,7 +428,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.5
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 10672
+    fighterabilitymissilesdamagetherm: 10672.0
     fighterabilitymissilesduration: 40000
     fighterabilitymissilesexplosionradius: 5000
     fighterabilitymissilesexplosionvelocity: 50
@@ -446,7 +446,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1542.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Cyclops II
     portionSize: 1
     published: true
@@ -472,7 +472,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 1092
+    fighterabilityattackmissiledamageexp: 1092.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 3000
@@ -506,7 +506,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1884.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Tyrfing II
     portionSize: 1
     published: true
@@ -535,7 +535,7 @@ types:
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamageem: 660.0
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 660
+    fighterabilityattackmissiledamagetherm: 660.0
     fighterabilityattackmissileduration: 3500
     fighterabilityattackmissileexplosionradius: 2000
     fighterabilityattackmissileexplosionvelocity: 60
@@ -563,7 +563,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 1629.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Standup Shadow
     portionSize: 1
     published: true
@@ -694,7 +694,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 967
+    fighterabilityattackmissiledamagetherm: 967.0
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
     fighterabilityattackmissileexplosionvelocity: 110
@@ -772,7 +772,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1156.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Ametat II
     portionSize: 1
     published: true
@@ -825,7 +825,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1046.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Termite II
     portionSize: 1
     published: true
@@ -852,7 +852,7 @@ types:
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 1066
+    fighterabilityattackmissiledamagetherm: 1066.0
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
     fighterabilityattackmissileexplosionvelocity: 110
@@ -878,7 +878,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 990.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Antaeus II
     portionSize: 1
     published: true
@@ -904,7 +904,7 @@ types:
     agility: 500.0
     fighterabilityafterburnerspeedbonus: 100
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 875
+    fighterabilityattackmissiledamageexp: 875.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 8000
     fighterabilityattackmissileexplosionradius: 495
@@ -931,7 +931,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1210.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Gungnir II
     portionSize: 1
     published: true

@@ -31,7 +31,7 @@ types:
     id: 47298
     marketGroup: 2231
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Multirole Missile Launcher II
     portionSize: 1
     power: 120000

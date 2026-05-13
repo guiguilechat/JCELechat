@@ -11,7 +11,7 @@ types:
     id: 17912
     marketGroup: 1040
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 120
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -41,7 +41,7 @@ types:
     id: 18068
     marketGroup: 1039
     maxrange: 10000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 30
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -75,7 +75,7 @@ types:
     id: 24305
     marketGroup: 1040
     maxrange: 15000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 80
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -103,7 +103,7 @@ types:
     chargesize: 1
     duration: 45000.0
     id: 90467
-    metalevelold: 5
+    metalevelold: 5.0
     miningwastedvolumemultiplier: 1
     name: Abyssal Modulated Strip Miner
     portionSize: 1
@@ -122,7 +122,7 @@ types:
     chargegroup2: 482
     chargesize: 1
     id: 90474
-    metalevelold: 5
+    metalevelold: 5.0
     miningwastedvolumemultiplier: 1
     name: Abyssal Modulated Deep Core Miner
     portionSize: 1
@@ -145,7 +145,7 @@ types:
     chargegroup2: 482
     chargesize: 1
     id: 90487
-    metalevelold: 5
+    metalevelold: 5.0
     miningwastedvolumemultiplier: 1
     name: Abyssal Modulated Deep Core Strip Miner
     portionSize: 1

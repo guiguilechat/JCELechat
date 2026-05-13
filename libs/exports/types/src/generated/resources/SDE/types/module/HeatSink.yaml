@@ -7,7 +7,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Heat Sink'
     portionSize: 1
     power: 1
@@ -40,7 +40,7 @@ types:
     id: 2364
     marketGroup: 647
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Heat Sink II
     portionSize: 1
     power: 1
@@ -57,7 +57,7 @@ types:
     id: 5849
     marketGroup: 647
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Extruded Compact Heat Sink
     portionSize: 1
     power: 1
@@ -75,7 +75,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Heat Sink
     portionSize: 1
     power: 1
@@ -93,7 +93,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Heat Sink
     portionSize: 1
     power: 1
@@ -111,7 +111,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -129,7 +129,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -147,7 +147,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -165,7 +165,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -183,7 +183,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -201,7 +201,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -219,7 +219,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -237,7 +237,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Heat Sink
     portionSize: 1
     power: 1
@@ -255,7 +255,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Heat Sink
     portionSize: 1
     power: 1
@@ -273,7 +273,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Heat Sink
     portionSize: 1
     power: 1
@@ -291,7 +291,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Trebuchet'' Heat Sink I'
     portionSize: 1
     power: 1
@@ -309,7 +309,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Tahron's Custom Heat Sink
     portionSize: 1
     power: 1
@@ -340,7 +340,7 @@ types:
     marketGroup: 647
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Strategos' Modified Heat Sink
     portionSize: 1
     power: 1

@@ -15,7 +15,7 @@ types:
     volume: 0.1
   56066:
     filamentdescriptionmessageid: 569130
-    filamentspooluptimeseconds: 90
+    filamentspooluptimeseconds: 120
     id: 56066
     lightyeardistancemax: 1.0
     locationlistid: 4516
@@ -28,7 +28,7 @@ types:
     volume: 0.1
   56067:
     filamentdescriptionmessageid: 569130
-    filamentspooluptimeseconds: 150
+    filamentspooluptimeseconds: 180
     id: 56067
     lightyeardistancemax: 1.0
     locationlistid: 4516
@@ -41,7 +41,7 @@ types:
     volume: 0.1
   56068:
     filamentdescriptionmessageid: 569131
-    filamentspooluptimeseconds: 120
+    filamentspooluptimeseconds: 150
     id: 56068
     lightyeardistancemax: 2.5
     locationlistid: 4569
@@ -54,7 +54,7 @@ types:
     volume: 0.1
   56069:
     filamentdescriptionmessageid: 569131
-    filamentspooluptimeseconds: 180
+    filamentspooluptimeseconds: 210
     id: 56069
     lightyeardistancemax: 2.5
     locationlistid: 4569
@@ -80,7 +80,7 @@ types:
     volume: 0.1
   56071:
     filamentdescriptionmessageid: 569132
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56071
     lightyeardistancemax: 1.0
     locationlistid: 4510
@@ -106,7 +106,7 @@ types:
     volume: 0.1
   56073:
     filamentdescriptionmessageid: 569134
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56073
     lightyeardistancemax: 1.0
     locationlistid: 4512
@@ -132,7 +132,7 @@ types:
     volume: 0.1
   56075:
     filamentdescriptionmessageid: 569133
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56075
     lightyeardistancemax: 1.0
     locationlistid: 4511
@@ -158,7 +158,7 @@ types:
     volume: 0.1
   56077:
     filamentdescriptionmessageid: 569135
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56077
     lightyeardistancemax: 1.0
     locationlistid: 4513
@@ -184,7 +184,7 @@ types:
     volume: 0.1
   56079:
     filamentdescriptionmessageid: 569136
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56079
     lightyeardistancemax: 1.0
     locationlistid: 4514
@@ -210,7 +210,7 @@ types:
     volume: 0.1
   56081:
     filamentdescriptionmessageid: 569137
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 56081
     lightyeardistancemax: 1.0
     locationlistid: 4515

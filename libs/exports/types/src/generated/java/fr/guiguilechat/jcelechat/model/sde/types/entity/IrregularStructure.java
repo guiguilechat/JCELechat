@@ -14,16 +14,29 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -32,12 +45,40 @@ public class IrregularStructure
     extends Entity
 {
     /**
+     * Multiplies EM damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armoremdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorexplosivedamageresonance;
+    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double armorhp;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorkineticdamageresonance;
+    /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double armorthermaldamageresonance;
     /**
      * Capacitor capacity
      */
@@ -53,6 +94,13 @@ public class IrregularStructure
     @DefaultIntValue(0)
     public int disallowassistance;
     /**
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double emdamageresonance;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -67,12 +115,33 @@ public class IrregularStructure
     @DefaultIntValue(0)
     public int entitykillbounty;
     /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double explosivedamageresonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilityantifightermissileresistance;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double kineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -88,6 +157,27 @@ public class IrregularStructure
     @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
+     * Multiplies EM damage taken by shield
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldemdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldexplosivedamageresonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldkineticdamageresonance;
+    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
@@ -95,21 +185,51 @@ public class IrregularStructure
     @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
+     * Multiplies THERMAL damage taken by Shield. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double shieldthermaldamageresonance;
+    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(100.0)
     public double signatureradius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, EntityFactionLoss.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double thermaldamageresonance;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, KineticDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final IrregularStructure.MetaGroup METAGROUP = new IrregularStructure.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  267 :
+            {
+                return armoremdamageresonance;
+            }
+            case  268 :
+            {
+                return armorexplosivedamageresonance;
+            }
             case  265 :
             {
                 return armorhp;
+            }
+            case  269 :
+            {
+                return armorkineticdamageresonance;
+            }
+            case  270 :
+            {
+                return armorthermaldamageresonance;
             }
             case  482 :
             {
@@ -119,6 +239,10 @@ public class IrregularStructure
             {
                 return disallowassistance;
             }
+            case  113 :
+            {
+                return emdamageresonance;
+            }
             case  562 :
             {
                 return entityfactionloss;
@@ -127,9 +251,21 @@ public class IrregularStructure
             {
                 return entitykillbounty;
             }
+            case  111 :
+            {
+                return explosivedamageresonance;
+            }
+            case  2189 :
+            {
+                return fighterabilityantifightermissileresistance;
+            }
             case  9 :
             {
                 return hp;
+            }
+            case  109 :
+            {
+                return kineticdamageresonance;
             }
             case  55 :
             {
@@ -139,13 +275,33 @@ public class IrregularStructure
             {
                 return shieldcapacity;
             }
+            case  271 :
+            {
+                return shieldemdamageresonance;
+            }
+            case  272 :
+            {
+                return shieldexplosivedamageresonance;
+            }
+            case  273 :
+            {
+                return shieldkineticdamageresonance;
+            }
             case  479 :
             {
                 return shieldrechargerate;
             }
+            case  274 :
+            {
+                return shieldthermaldamageresonance;
+            }
             case  552 :
             {
                 return signatureradius;
+            }
+            case  110 :
+            {
+                return thermaldamageresonance;
             }
             default:
             {

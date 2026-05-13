@@ -45,7 +45,7 @@ types:
     maxtargetrange: 32500.0
     maxvelocity: 430.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Crow
     portionSize: 1
@@ -139,7 +139,7 @@ types:
     maxtargetrange: 27500.0
     maxvelocity: 420.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Raptor
     portionSize: 1
@@ -231,7 +231,7 @@ types:
     maxtargetrange: 25000.0
     maxvelocity: 455.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Crusader
     portionSize: 1
@@ -323,7 +323,7 @@ types:
     maxtargetrange: 31500.0
     maxvelocity: 470.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Malediction
     portionSize: 1
@@ -417,7 +417,7 @@ types:
     maxtargetrange: 22500.0
     maxvelocity: 480.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Claw
     portionSize: 1
@@ -510,7 +510,7 @@ types:
     maxtargetrange: 29500.0
     maxvelocity: 435.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Stiletto
     portionSize: 1
@@ -606,7 +606,7 @@ types:
     maxtargetrange: 22500.0
     maxvelocity: 420.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Taranis
     portionSize: 1
@@ -698,7 +698,7 @@ types:
     maxtargetrange: 30500.0
     maxvelocity: 425.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Ares
     portionSize: 1
@@ -795,7 +795,7 @@ types:
     maxtargetrange: 32500.0
     maxvelocity: 430.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Whiptail
     portionSize: 1
@@ -891,7 +891,7 @@ types:
     maxvelocity: 450.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.05
     name: Imp
     portionSize: 1

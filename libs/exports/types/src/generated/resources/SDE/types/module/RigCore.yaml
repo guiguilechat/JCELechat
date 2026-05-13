@@ -38,7 +38,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Processor Overclocking Unit II
     portionSize: 1
     published: true
@@ -55,7 +55,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Processor Overclocking Unit II
     portionSize: 1
     published: true
@@ -168,7 +168,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Liquid Cooled Electronics II
     portionSize: 1
     published: true
@@ -185,7 +185,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Egress Port Maximizer II
     portionSize: 1
     published: true
@@ -201,7 +201,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Ancillary Current Router II
     portionSize: 1
     powerengineeringoutputbonus: 15.0
@@ -219,7 +219,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Powergrid Subroutine Maximizer II
     portionSize: 1
     published: true
@@ -236,7 +236,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Capacitor Control Circuit II
     portionSize: 1
     published: true
@@ -253,7 +253,7 @@ types:
     marketGroup: 1224
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Semiconductor Memory Cell II
     portionSize: 1
     published: true
@@ -286,7 +286,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Processor Overclocking Unit II
     portionSize: 1
     published: true
@@ -351,7 +351,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Liquid Cooled Electronics II
     portionSize: 1
     published: true
@@ -368,7 +368,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Liquid Cooled Electronics II
     portionSize: 1
     published: true
@@ -385,7 +385,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Liquid Cooled Electronics II
     portionSize: 1
     published: true
@@ -449,7 +449,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Ancillary Current Router II
     portionSize: 1
     powerengineeringoutputbonus: 15.0
@@ -466,7 +466,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Ancillary Current Router II
     portionSize: 1
     powerengineeringoutputbonus: 15.0
@@ -483,7 +483,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Ancillary Current Router II
     portionSize: 1
     powerengineeringoutputbonus: 15.0
@@ -549,7 +549,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Capacitor Control Circuit II
     portionSize: 1
     published: true
@@ -566,7 +566,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Capacitor Control Circuit II
     portionSize: 1
     published: true
@@ -583,7 +583,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Capacitor Control Circuit II
     portionSize: 1
     published: true
@@ -648,7 +648,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Egress Port Maximizer II
     portionSize: 1
     published: true
@@ -665,7 +665,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Egress Port Maximizer II
     portionSize: 1
     published: true
@@ -682,7 +682,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Egress Port Maximizer II
     portionSize: 1
     published: true
@@ -747,7 +747,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Powergrid Subroutine Maximizer II
     portionSize: 1
     published: true
@@ -764,7 +764,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Powergrid Subroutine Maximizer II
     portionSize: 1
     published: true
@@ -781,7 +781,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Powergrid Subroutine Maximizer II
     portionSize: 1
     published: true
@@ -846,7 +846,7 @@ types:
     marketGroup: 1222
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Semiconductor Memory Cell II
     portionSize: 1
     published: true
@@ -863,7 +863,7 @@ types:
     marketGroup: 1223
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Semiconductor Memory Cell II
     portionSize: 1
     published: true
@@ -880,7 +880,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Semiconductor Memory Cell II
     portionSize: 1
     published: true
@@ -913,7 +913,7 @@ types:
     marketGroup: 1736
     mass: 200.0
     maxgangmodules: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Processor Overclocking Unit II
     portionSize: 1
     published: true

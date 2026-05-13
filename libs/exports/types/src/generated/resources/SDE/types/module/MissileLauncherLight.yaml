@@ -37,7 +37,7 @@ types:
     hp: 40.0
     id: 2404
     marketGroup: 640
-    metalevelold: 5
+    metalevelold: 5.0
     name: Light Missile Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -65,7 +65,7 @@ types:
     hp: 40.0
     id: 8089
     marketGroup: 640
-    metalevelold: 1
+    metalevelold: 1.0
     name: Arbalest Compact Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -93,7 +93,7 @@ types:
     hp: 40.0
     id: 8091
     marketGroup: 640
-    metalevelold: 1
+    metalevelold: 1.0
     name: TE-2100 Ample Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -123,7 +123,7 @@ types:
     id: 13925
     marketGroup: 640
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -153,7 +153,7 @@ types:
     id: 13926
     marketGroup: 640
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -183,7 +183,7 @@ types:
     id: 16068
     marketGroup: 640
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -213,7 +213,7 @@ types:
     id: 17491
     marketGroup: 640
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -243,7 +243,7 @@ types:
     id: 20595
     marketGroup: 640
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Gallows'' Light Missile Launcher'
     overloadrofbonus: -15
     portionSize: 1
@@ -273,7 +273,7 @@ types:
     id: 22565
     marketGroup: 640
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Light Missile Launcher
     overloadrofbonus: -15
     portionSize: 1

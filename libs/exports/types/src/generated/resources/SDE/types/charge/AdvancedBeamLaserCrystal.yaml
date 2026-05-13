@@ -12,7 +12,7 @@ types:
     maincolor: 2833864
     marketGroup: 868
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gleam S
     portionSize: 4
     price: 134400.0
@@ -39,7 +39,7 @@ types:
     maincolor: 2833864
     marketGroup: 868
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Aurora S
     portionSize: 4
     price: 134400.0
@@ -66,7 +66,7 @@ types:
     maincolor: 2833864
     marketGroup: 867
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Aurora M
     portionSize: 4
     price: 537600.0
@@ -93,7 +93,7 @@ types:
     maincolor: 2833864
     marketGroup: 866
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Aurora L
     portionSize: 4
     price: 1344000.0
@@ -120,7 +120,7 @@ types:
     maincolor: 2833864
     marketGroup: 867
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gleam M
     portionSize: 4
     price: 768000.0
@@ -147,7 +147,7 @@ types:
     maincolor: 2833864
     marketGroup: 866
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gleam L
     portionSize: 4
     price: 1344000.0
@@ -174,7 +174,7 @@ types:
     maincolor: 2833864
     marketGroup: 2257
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gleam XL
     portionSize: 1
     published: true
@@ -200,7 +200,7 @@ types:
     maincolor: 2833864
     marketGroup: 2257
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Aurora XL
     portionSize: 1
     published: true

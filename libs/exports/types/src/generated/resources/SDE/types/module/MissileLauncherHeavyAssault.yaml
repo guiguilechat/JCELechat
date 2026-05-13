@@ -34,7 +34,7 @@ types:
     hp: 40.0
     id: 25707
     marketGroup: 974
-    metalevelold: 4
+    metalevelold: 4.0
     name: Prototype 'Arbalest' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
     portionSize: 1
@@ -61,7 +61,7 @@ types:
     hp: 40.0
     id: 25709
     marketGroup: 974
-    metalevelold: 1
+    metalevelold: 1.0
     name: Upgraded 'Malkuth' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
     portionSize: 1
@@ -88,7 +88,7 @@ types:
     hp: 40.0
     id: 25711
     marketGroup: 974
-    metalevelold: 2
+    metalevelold: 2.0
     name: Limited 'Limos' Heavy Assault Missile Launcher I
     overloadrofbonus: -15
     portionSize: 1
@@ -115,7 +115,7 @@ types:
     hp: 40.0
     id: 25713
     marketGroup: 974
-    metalevelold: 3
+    metalevelold: 3.0
     name: Experimental XT-2800 Heavy Assault Missile Launcher I
     overloadrofbonus: -15
     portionSize: 1
@@ -143,7 +143,7 @@ types:
     hp: 40.0
     id: 25715
     marketGroup: 974
-    metalevelold: 5
+    metalevelold: 5.0
     name: Heavy Assault Missile Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -172,7 +172,7 @@ types:
     id: 28375
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Republic Fleet Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -201,7 +201,7 @@ types:
     id: 28377
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -230,7 +230,7 @@ types:
     id: 28379
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Domination Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -259,7 +259,7 @@ types:
     id: 28381
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -288,7 +288,7 @@ types:
     id: 28383
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: True Sansha Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -317,7 +317,7 @@ types:
     id: 28565
     marketGroup: 974
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -345,7 +345,7 @@ types:
     hp: 40.0
     id: 34292
     marketGroup: 974
-    metalevelold: 9
+    metalevelold: 9.0
     name: Polarized Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -376,7 +376,7 @@ types:
     id: 85023
     marketGroup: 974
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Hanaruwa's Modified Heavy Assault Missile Launcher
     overloadrofbonus: -15
     portionSize: 1

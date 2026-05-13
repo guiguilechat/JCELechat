@@ -19,6 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
@@ -54,6 +55,13 @@ public class Mercoxit
     @DefaultIntValue(0)
     public int damagecloudtype;
     /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
+    /**
      * If set to true, this results in no mining waste.
      */
     @HighIsGood(false)
@@ -81,7 +89,7 @@ public class Mercoxit
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageCloudType.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, OreBasicType.INSTANCE, DamageCloudChance.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageCloudType.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, OreBasicType.INSTANCE, DamageCloudChance.INSTANCE, AsteroidMetaLevel.INSTANCE, IgnoreMiningCrits.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
 
     @Override
@@ -98,6 +106,10 @@ public class Mercoxit
             case  546 :
             {
                 return damagecloudtype;
+            }
+            case  6108 :
+            {
+                return ignoreminingcrits;
             }
             case  3236 :
             {

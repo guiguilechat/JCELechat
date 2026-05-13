@@ -6,7 +6,7 @@ types:
     id: 33591
     marketGroup: 1844
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mobile Micro Jump Unit
     portionSize: 1
     published: true
@@ -34,7 +34,7 @@ types:
     hp: 3000.0
     id: 33990
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tournament Micro Jump Unit
     portionSize: 1
     published: true

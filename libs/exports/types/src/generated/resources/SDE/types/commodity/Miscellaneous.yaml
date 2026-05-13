@@ -8022,6 +8022,7 @@ types:
     asteroidradiusgrowthfactor: 3.5
     exporttaxmultiplier: 1
     id: 79785
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     importtaxmultiplier: 1
     marketGroup: 20

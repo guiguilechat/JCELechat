@@ -18,7 +18,7 @@ types:
     marketGroup: 973
     mass: 700.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Rage Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -53,7 +53,7 @@ types:
     marketGroup: 972
     mass: 625.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Javelin Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -87,7 +87,7 @@ types:
     marketGroup: 973
     mass: 700.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Rage Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -123,7 +123,7 @@ types:
     marketGroup: 973
     mass: 700.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Rage Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -158,7 +158,7 @@ types:
     marketGroup: 973
     mass: 700.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Rage Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -193,7 +193,7 @@ types:
     marketGroup: 972
     mass: 625.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Javelin Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -228,7 +228,7 @@ types:
     marketGroup: 972
     mass: 625.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Javelin Heavy Assault Missile
     portionSize: 5000
     price: 126160.0
@@ -262,7 +262,7 @@ types:
     marketGroup: 972
     mass: 625.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Javelin Heavy Assault Missile
     portionSize: 5000
     price: 126160.0

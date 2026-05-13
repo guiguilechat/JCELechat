@@ -43194,3 +43194,143 @@ offers:
       quantity: 1
     requirements:
       lp: 12500
+  19548:
+    bpid: 92182
+    bpruns: 5
+    id: 19548
+    name: 5* CONCORD-Carrier Rogue Analysis Beacon(BPC)
+    product:
+      id: 92183
+      quantity: 5
+    requirements:
+      isk: 20000000
+      items:
+      - id: 34
+        quantity: 7000000
+      - id: 35
+        quantity: 2000000
+      - id: 37
+        quantity: 30000
+      - id: 39
+        quantity: 50000
+      - id: 40
+        quantity: 25000
+      - id: 2867
+        quantity: 10
+      - id: 2872
+        quantity: 5
+      - id: 2875
+        quantity: 5
+      - id: 2876
+        quantity: 5
+      lp: 9000
+  19549:
+    id: 19549
+    name: 2250* Trinary State Processor
+    product:
+      id: 52313
+      quantity: 2250
+    requirements:
+      isk: 18000000
+      items:
+      - id: 92179
+        quantity: 72
+  19550:
+    id: 19550
+    name: 4500* Trinary State Processor
+    product:
+      id: 52313
+      quantity: 4500
+    requirements:
+      isk: 36000000
+      items:
+      - id: 86216
+        quantity: 24
+  19551:
+    id: 19551
+    name: 900* Lattice Locked Dekaisogen
+    product:
+      id: 52314
+      quantity: 900
+    requirements:
+      isk: 18000000
+      items:
+      - id: 92179
+        quantity: 72
+  19552:
+    id: 19552
+    name: 1800* Lattice Locked Dekaisogen
+    product:
+      id: 52314
+      quantity: 1800
+    requirements:
+      isk: 36000000
+      items:
+      - id: 86216
+        quantity: 24
+  19553:
+    id: 19553
+    name: 900* Radiation Absorption Thruster
+    product:
+      id: 52310
+      quantity: 900
+    requirements:
+      isk: 18000000
+      items:
+      - id: 92179
+        quantity: 72
+  19554:
+    id: 19554
+    name: 1800* Radiation Absorption Thruster
+    product:
+      id: 52310
+      quantity: 1800
+    requirements:
+      isk: 36000000
+      items:
+      - id: 86216
+        quantity: 24
+  19555:
+    id: 19555
+    name: 100* Zero-Point Field Manipulator
+    product:
+      id: 52312
+      quantity: 100
+    requirements:
+      isk: 18000000
+      items:
+      - id: 92179
+        quantity: 72
+  19556:
+    id: 19556
+    name: 200* Zero-Point Field Manipulator
+    product:
+      id: 52312
+      quantity: 200
+    requirements:
+      isk: 36000000
+      items:
+      - id: 86216
+        quantity: 24
+  19557:
+    id: 19557
+    name: 120* Singularity Radiation Convertor
+    product:
+      id: 52311
+      quantity: 120
+    requirements:
+      isk: 18000000
+      items:
+      - id: 92179
+        quantity: 72
+  19558:
+    id: 19558
+    name: 240* Singularity Radiation Convertor
+    product:
+      id: 52311
+      quantity: 240
+    requirements:
+      isk: 36000000
+      items:
+      - id: 86216
+        quantity: 24

@@ -13,7 +13,7 @@ types:
   53983:
     activesystemjump: 1
     filamentdescriptionmessageid: 561098
-    filamentspooluptimeseconds: 90
+    filamentspooluptimeseconds: 60
     id: 53983
     marketGroup: 2706
     mjdshipjumpcap: 25
@@ -36,7 +36,7 @@ types:
     volume: 0.1
   53985:
     filamentdescriptionmessageid: 561098
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 53985
     marketGroup: 2706
     mjdshipjumpcap: 15
@@ -48,7 +48,7 @@ types:
   53986:
     activesystemjump: 1
     filamentdescriptionmessageid: 561098
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 53986
     marketGroup: 2706
     mjdshipjumpcap: 15
@@ -59,7 +59,7 @@ types:
     volume: 0.1
   53987:
     filamentdescriptionmessageid: 561098
-    filamentspooluptimeseconds: 90
+    filamentspooluptimeseconds: 60
     id: 53987
     marketGroup: 2706
     mjdshipjumpcap: 25
@@ -70,7 +70,7 @@ types:
     volume: 0.1
   90697:
     filamentdescriptionmessageid: 554517
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 90697
     marketGroup: 1663
     mjdshipjumpcap: 10
@@ -118,7 +118,7 @@ types:
     volume: 0.1
   90701:
     filamentdescriptionmessageid: 554520
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 90701
     marketGroup: 1663
     mjdshipjumpcap: 10
@@ -130,7 +130,7 @@ types:
     volume: 0.1
   90702:
     filamentdescriptionmessageid: 554514
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 90702
     marketGroup: 1663
     mjdshipjumpcap: 10

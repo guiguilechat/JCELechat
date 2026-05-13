@@ -18,7 +18,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 309
+    fighterabilitymissilesdamageem: 309.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -181,7 +181,7 @@ types:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 195
+    fighterabilityattackmissiledamagetherm: 195.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
     fighterabilityattackmissileexplosionvelocity: 150
@@ -199,7 +199,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 359
+    fighterabilitymissilesdamagetherm: 359.0
     fighterabilitymissilesduration: 14000
     fighterabilitymissilesexplosionradius: 350
     fighterabilitymissilesexplosionvelocity: 100
@@ -241,7 +241,7 @@ types:
   47140:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 161
+    fighterabilityattackmissiledamageexp: 161.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -318,7 +318,7 @@ types:
     fighterabilitymicrowarpdriveduration: 20000
     fighterabilitymicrowarpdrivesignatureradiusbonus: 500
     fighterabilitymicrowarpdrivespeedbonus: 500
-    fighterabilitymissilesdamageem: 341
+    fighterabilitymissilesdamageem: 341.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -338,7 +338,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1733.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Templar II
     portionSize: 1
     price: 20047340.0
@@ -400,7 +400,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1570.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Dragonfly II
     portionSize: 1
     price: 20047340.0
@@ -427,7 +427,7 @@ types:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
     fighterabilityattackmissiledamagemultiplier: 1
-    fighterabilityattackmissiledamagetherm: 216
+    fighterabilityattackmissiledamagetherm: 216.0
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
     fighterabilityattackmissileexplosionvelocity: 150
@@ -445,7 +445,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 5.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 395
+    fighterabilitymissilesdamagetherm: 395.0
     fighterabilitymissilesduration: 14000
     fighterabilitymissilesexplosionradius: 350
     fighterabilitymissilesexplosionvelocity: 100
@@ -462,7 +462,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1487.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Firbolg II
     portionSize: 1
     price: 20047340.0
@@ -488,7 +488,7 @@ types:
   47144:
     agility: 700.0
     fighterabilityantifightermissileresistance: 1
-    fighterabilityattackmissiledamageexp: 177
+    fighterabilityattackmissiledamageexp: 177.0
     fighterabilityattackmissiledamagemultiplier: 1
     fighterabilityattackmissileduration: 5000
     fighterabilityattackmissileexplosionradius: 160
@@ -524,7 +524,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1816.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Einherji II
     portionSize: 1
     price: 20047340.0
@@ -557,7 +557,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageem: 99
+    fighterabilitymissilesdamageem: 99.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -672,7 +672,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 109
+    fighterabilitymissilesdamagetherm: 109.0
     fighterabilitymissilesduration: 3500
     fighterabilitymissilesexplosionradius: 15
     fighterabilitymissilesexplosionvelocity: 300
@@ -725,7 +725,7 @@ types:
     fighterabilityevasivemaneuverssignatureradiusbonus: -80
     fighterabilityevasivemaneuversspeedbonus: 200
     fighterabilityevasivemaneuversthermresonance: 0.5
-    fighterabilitymissilesdamageem: 109
+    fighterabilitymissilesdamageem: 109.0
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
@@ -750,7 +750,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2601.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Equite II
     portionSize: 1
     published: true
@@ -807,7 +807,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2354.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Locust II
     portionSize: 1
     published: true
@@ -842,7 +842,7 @@ types:
     fighterabilitymissilesdamagemultiplier: 1
     fighterabilitymissilesdamagereductionfactor: 2.0
     fighterabilitymissilesdamagereductionsensitivity: 5.5
-    fighterabilitymissilesdamagetherm: 120
+    fighterabilitymissilesdamagetherm: 120.0
     fighterabilitymissilesduration: 3500
     fighterabilitymissilesexplosionradius: 15
     fighterabilitymissilesexplosionvelocity: 300
@@ -864,7 +864,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2230.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Satyr II
     portionSize: 1
     published: true
@@ -921,7 +921,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2725.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Gram II
     portionSize: 1
     published: true

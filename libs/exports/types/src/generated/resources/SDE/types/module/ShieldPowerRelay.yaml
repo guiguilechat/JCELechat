@@ -8,7 +8,7 @@ types:
     marketGroup: 688
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Shield Power Relay'
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -28,7 +28,7 @@ types:
     id: 1422
     marketGroup: 688
     mass: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Shield Power Relay II
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -67,7 +67,7 @@ types:
     id: 8335
     marketGroup: 688
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Shield Power Relay
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -87,7 +87,7 @@ types:
     id: 8337
     marketGroup: 688
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Shield Power Relay
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -108,7 +108,7 @@ types:
     marketGroup: 688
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Shield Power Relay
     portionSize: 1
     poweroutputmultiplier: 1.0

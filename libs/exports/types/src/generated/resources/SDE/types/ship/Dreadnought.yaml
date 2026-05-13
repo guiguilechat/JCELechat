@@ -523,7 +523,7 @@ types:
     maxvelocity: 80.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Vehement
     portionSize: 1
@@ -642,7 +642,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Chemosh
     nosoverride: 1
@@ -767,7 +767,7 @@ types:
     maxvelocity: 75.0
     medslots: 7
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Caiman
     portionSize: 1
@@ -1465,7 +1465,7 @@ types:
     maxtargetrange: 102500.0
     maxvelocity: 90.0
     medslots: 7
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Sarathiel
     portionSize: 1

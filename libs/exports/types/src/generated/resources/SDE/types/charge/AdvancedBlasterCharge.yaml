@@ -11,7 +11,7 @@ types:
     maincolor: 11835778
     marketGroup: 862
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Void S
     portionSize: 5000
     powerneedmultiplier: 1
@@ -36,7 +36,7 @@ types:
     maincolor: 11835778
     marketGroup: 862
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Null S
     portionSize: 5000
     powerneedmultiplier: 1
@@ -61,7 +61,7 @@ types:
     maincolor: 11835778
     marketGroup: 861
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Null M
     portionSize: 5000
     powerneedmultiplier: 1
@@ -86,7 +86,7 @@ types:
     maincolor: 11835778
     marketGroup: 860
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Null L
     portionSize: 5000
     powerneedmultiplier: 1
@@ -112,7 +112,7 @@ types:
     maincolor: 11835778
     marketGroup: 861
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Void M
     portionSize: 5000
     powerneedmultiplier: 1
@@ -138,7 +138,7 @@ types:
     maincolor: 11835778
     marketGroup: 860
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: Void L
     portionSize: 5000
     powerneedmultiplier: 1
@@ -164,7 +164,7 @@ types:
     maincolor: 11835778
     marketGroup: 2254
     mass: 0.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Void XL
     portionSize: 100
     powerneedmultiplier: 1
@@ -190,7 +190,7 @@ types:
     maincolor: 11835778
     marketGroup: 2254
     mass: 0.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Null XL
     portionSize: 100
     powerneedmultiplier: 1

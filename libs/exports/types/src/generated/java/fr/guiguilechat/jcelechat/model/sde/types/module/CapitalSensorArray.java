@@ -16,7 +16,6 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
-import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
@@ -65,13 +64,6 @@ public class CapitalSensorArray
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup01;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int canfitshipgroup02;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -240,7 +232,7 @@ public class CapitalSensorArray
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, NetworkedSensorArrayDisallowCapitalMicroJump.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, DisallowActivateOnWarp.INSTANCE, MaximumRangeCap.INSTANCE, Power.INSTANCE, SiegeLocalLogisticsCapacitorNeedBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, WarpScrambleStrength.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, NetworkedSensorArrayDisallowCapitalMicroJump.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, DisallowActivateOnWarp.INSTANCE, MaximumRangeCap.INSTANCE, Power.INSTANCE, SiegeLocalLogisticsCapacitorNeedBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, WarpScrambleStrength.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
 
     @Override
@@ -253,10 +245,6 @@ public class CapitalSensorArray
             case  1298 :
             {
                 return canfitshipgroup01;
-            }
-            case  1299 :
-            {
-                return canfitshipgroup02;
             }
             case  6 :
             {

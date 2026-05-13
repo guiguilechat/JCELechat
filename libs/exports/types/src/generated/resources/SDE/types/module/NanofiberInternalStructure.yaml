@@ -7,7 +7,7 @@ types:
     marketGroup: 1196
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Nanofiber Internal Structure'
     portionSize: 1
     published: true
@@ -40,7 +40,7 @@ types:
     implantbonusvelocity: 9.5
     marketGroup: 1196
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nanofiber Internal Structure II
     portionSize: 1
     published: true
@@ -57,7 +57,7 @@ types:
     implantbonusvelocity: 8.5
     marketGroup: 1196
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Nanofiber Structure
     portionSize: 1
     published: true
@@ -75,7 +75,7 @@ types:
     marketGroup: 1196
     mass: 100.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Nanofiber Structure
     portionSize: 1
     published: true
@@ -93,7 +93,7 @@ types:
     marketGroup: 1196
     mass: 100.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Nanofiber Structure
     portionSize: 1
     published: true
@@ -111,7 +111,7 @@ types:
     marketGroup: 1196
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Synthetic Hull Conversion Nanofiber Structure
     portionSize: 1
     published: true
@@ -119,5 +119,23 @@ types:
     requiredskill1: 3394
     requiredskill1level: 1
     structurehpmultiplier: 0.9
+    techlevel: 1
+    volume: 5.0
+  92454:
+    agilitymultiplier: -16.5
+    hp: 40.0
+    id: 92454
+    implantbonusvelocity: 10.0
+    marketGroup: 1196
+    mass: 100.0
+    metagroupid: 4
+    metalevelold: 8.5
+    name: Roden’s Modified Nanofiber Internal Structure
+    portionSize: 1
+    published: true
+    radius: 50.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 0.85
     techlevel: 1
     volume: 5.0

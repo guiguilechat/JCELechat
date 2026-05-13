@@ -31,7 +31,7 @@ types:
     marketGroup: 1717
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Survey Probe Launcher II
     portionSize: 1
     power: 1

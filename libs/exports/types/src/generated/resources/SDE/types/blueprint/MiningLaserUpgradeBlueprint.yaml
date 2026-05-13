@@ -46,3 +46,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  93919:
+    id: 93919
+    name: Filmir's Modified Mining Laser Upgrade Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 2
+    volume: 0.01

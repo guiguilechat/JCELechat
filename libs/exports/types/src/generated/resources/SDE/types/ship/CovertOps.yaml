@@ -49,7 +49,7 @@ types:
     maxtargetrange: 47500.0
     maxvelocity: 330.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Helios
     portionSize: 1
@@ -145,7 +145,7 @@ types:
     maxtargetrange: 37500.0
     maxvelocity: 381.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Cheetah
     portionSize: 1
@@ -241,7 +241,7 @@ types:
     maxtargetrange: 42500.0
     maxvelocity: 282.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Anathema
     portionSize: 1
@@ -336,7 +336,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 306.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Buzzard
     portionSize: 1
@@ -434,7 +434,7 @@ types:
     maxvelocity: 440.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Chremoas
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     maxvelocity: 375.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Caedes
     nosoverride: 1
@@ -639,7 +639,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 340.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Pacifier
     portionSize: 1
@@ -850,7 +850,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 375.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Sidewinder
     portionSize: 1

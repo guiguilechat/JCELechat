@@ -6,7 +6,7 @@ types:
     id: 73225
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Amarr Propaganda Broadcast Structure
     portionSize: 1
     published: true
@@ -31,7 +31,7 @@ types:
     id: 73226
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Minmatar Propaganda Broadcast Structure
     portionSize: 1
     published: true
@@ -56,7 +56,7 @@ types:
     id: 73227
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Caldari Propaganda Broadcast Structure
     portionSize: 1
     published: true
@@ -81,7 +81,7 @@ types:
     id: 73228
     marketGroup: 3450
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Gallente Propaganda Broadcast Structure
     portionSize: 1
     published: true

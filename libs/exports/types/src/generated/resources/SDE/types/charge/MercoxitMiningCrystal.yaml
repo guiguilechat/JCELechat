@@ -3,7 +3,7 @@ types:
     capneedbonus: 100
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.1
+    crystalvolatilitychance: 0.025
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 18054
@@ -29,7 +29,7 @@ types:
     capneedbonus: 100
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.12
+    crystalvolatilitychance: 0.03
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 18608
@@ -37,7 +37,7 @@ types:
     maincolor: 5215864
     marketGroup: 3805
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mercoxit Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 3360000.0
@@ -57,7 +57,7 @@ types:
     capneedbonus: 125
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.15
+    crystalvolatilitychance: 0.0375
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 60309
@@ -84,7 +84,7 @@ types:
     capneedbonus: 150
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.24
+    crystalvolatilitychance: 0.06
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 60310
@@ -112,7 +112,7 @@ types:
     capneedbonus: 125
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.196
+    crystalvolatilitychance: 0.05
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 60311
@@ -120,7 +120,7 @@ types:
     maincolor: 5215864
     marketGroup: 3805
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mercoxit Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 4200000.0
@@ -140,7 +140,7 @@ types:
     capneedbonus: 150
     chargesize: 1
     crystalsgetdamaged: 1
-    crystalvolatilitychance: 0.3
+    crystalvolatilitychance: 0.075
     crystalvolatilitydamage: 0.05
     hp: 1.0
     id: 60312
@@ -148,7 +148,7 @@ types:
     maincolor: 5215864
     marketGroup: 3805
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mercoxit Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 5040000.0

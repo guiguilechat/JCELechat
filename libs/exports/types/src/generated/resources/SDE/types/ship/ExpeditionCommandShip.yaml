@@ -52,7 +52,7 @@ types:
     maxvelocity: 150.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Odysseus
     portionSize: 1

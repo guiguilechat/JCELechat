@@ -12,7 +12,7 @@ types:
     maincolor: 11835778
     marketGroup: 2737
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: StrikeSnipe Ultra S
     portionSize: 200
     price: 100000.0
@@ -35,7 +35,7 @@ types:
     maincolor: 11835778
     marketGroup: 2739
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: StrikeSnipe Ultra L
     portionSize: 200
     price: 100000.0
@@ -58,7 +58,7 @@ types:
     maincolor: 11835778
     marketGroup: 2739
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: ElectroPunch Ultra L
     portionSize: 200
     price: 100000.0
@@ -81,7 +81,7 @@ types:
     maincolor: 11835778
     marketGroup: 2737
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: ElectroPunch Ultra S
     portionSize: 200
     price: 100000.0
@@ -104,7 +104,7 @@ types:
     maincolor: 11835778
     marketGroup: 2738
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: StrikeSnipe Ultra M
     portionSize: 200
     price: 100000.0
@@ -127,7 +127,7 @@ types:
     maincolor: 11835778
     marketGroup: 2738
     mass: 0.01
-    metalevelold: 5
+    metalevelold: 5.0
     name: ElectroPunch Ultra M
     portionSize: 200
     price: 100000.0

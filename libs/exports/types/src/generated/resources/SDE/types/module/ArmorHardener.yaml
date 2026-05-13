@@ -98,7 +98,7 @@ types:
     id: 11642
     marketGroup: 1681
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: EM Armor Hardener II
     overloadhardeningbonus: 20
     portionSize: 1
@@ -121,7 +121,7 @@ types:
     kineticdamageresistancebonus: -55.0
     marketGroup: 1679
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Kinetic Armor Hardener II
     overloadhardeningbonus: 20
     portionSize: 1
@@ -144,7 +144,7 @@ types:
     id: 11646
     marketGroup: 1680
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Explosive Armor Hardener II
     overloadhardeningbonus: 20
     portionSize: 1
@@ -166,7 +166,7 @@ types:
     id: 11648
     marketGroup: 1678
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Thermal Armor Hardener II
     overloadhardeningbonus: 20
     portionSize: 1
@@ -191,7 +191,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -215,7 +215,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -263,7 +263,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -287,7 +287,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -311,7 +311,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -334,7 +334,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -358,7 +358,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -383,7 +383,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -407,7 +407,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -431,7 +431,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -454,7 +454,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -479,7 +479,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -503,7 +503,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -527,7 +527,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -550,7 +550,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -575,7 +575,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -599,7 +599,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -623,7 +623,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -647,7 +647,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -671,7 +671,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -695,7 +695,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -719,7 +719,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -743,7 +743,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -766,7 +766,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -790,7 +790,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -814,7 +814,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -838,7 +838,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -862,7 +862,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -886,7 +886,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -910,7 +910,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -934,7 +934,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -959,7 +959,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -983,7 +983,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1007,7 +1007,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1031,7 +1031,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1055,7 +1055,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1079,7 +1079,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1103,7 +1103,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1127,7 +1127,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1151,7 +1151,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1175,7 +1175,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1199,7 +1199,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Selynne's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1223,7 +1223,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Raysere's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1247,7 +1247,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vizan's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1271,7 +1271,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ahremen's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1295,7 +1295,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Chelm's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1319,7 +1319,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Draclira's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1343,7 +1343,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1367,7 +1367,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1391,7 +1391,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1415,7 +1415,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1438,7 +1438,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1462,7 +1462,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1486,7 +1486,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1510,7 +1510,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1535,7 +1535,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1559,7 +1559,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1583,7 +1583,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1607,7 +1607,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1631,7 +1631,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1655,7 +1655,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Tuvan's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1679,7 +1679,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Setele's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1703,7 +1703,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Cormack's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1726,7 +1726,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1751,7 +1751,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1775,7 +1775,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1799,7 +1799,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1822,7 +1822,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1847,7 +1847,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1871,7 +1871,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1895,7 +1895,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1918,7 +1918,7 @@ types:
     id: 16357
     marketGroup: 1681
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Experimental Enduring EM Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1941,7 +1941,7 @@ types:
     id: 16359
     marketGroup: 1681
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Prototype Compact EM Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1964,7 +1964,7 @@ types:
     id: 16365
     marketGroup: 1680
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Experimental Enduring Explosive Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -1987,7 +1987,7 @@ types:
     id: 16367
     marketGroup: 1680
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Prototype Compact Explosive Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2010,7 +2010,7 @@ types:
     kineticdamageresistancebonus: -52.5
     marketGroup: 1679
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Experimental Enduring Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2033,7 +2033,7 @@ types:
     kineticdamageresistancebonus: -52.5
     marketGroup: 1679
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Prototype Compact Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2055,7 +2055,7 @@ types:
     id: 16381
     marketGroup: 1678
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Experimental Enduring Thermal Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2078,7 +2078,7 @@ types:
     id: 16383
     marketGroup: 1678
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Prototype Compact Thermal Armor Hardener I
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2103,7 +2103,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2127,7 +2127,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2151,7 +2151,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2174,7 +2174,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2199,7 +2199,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2223,7 +2223,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2247,7 +2247,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2270,7 +2270,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2295,7 +2295,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2319,7 +2319,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2343,7 +2343,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2367,7 +2367,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2391,7 +2391,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2415,7 +2415,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2438,7 +2438,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corpus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2462,7 +2462,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2487,7 +2487,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2511,7 +2511,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2535,7 +2535,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2559,7 +2559,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2583,7 +2583,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2607,7 +2607,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2630,7 +2630,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corpus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2654,7 +2654,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2678,7 +2678,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2702,7 +2702,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2727,7 +2727,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2751,7 +2751,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2775,7 +2775,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2799,7 +2799,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2823,7 +2823,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corpus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2847,7 +2847,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2871,7 +2871,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Corpus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2895,7 +2895,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Centus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2919,7 +2919,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Corpus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2943,7 +2943,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Centus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2967,7 +2967,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Corpus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -2991,7 +2991,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Centus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3014,7 +3014,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Corpus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3038,7 +3038,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Centus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3063,7 +3063,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Core C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3087,7 +3087,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Core C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3111,7 +3111,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Core C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3134,7 +3134,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Core C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3159,7 +3159,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Core B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3183,7 +3183,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Core B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3207,7 +3207,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Core B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3230,7 +3230,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Core B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3255,7 +3255,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Core A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3279,7 +3279,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Core A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3303,7 +3303,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Core A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3326,7 +3326,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Core A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3351,7 +3351,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Core X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3375,7 +3375,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Core X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3399,7 +3399,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Core X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3422,7 +3422,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 6
-    metalevelold: 16
+    metalevelold: 16.0
     name: Core X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3447,7 +3447,7 @@ types:
     marketGroup: 1681
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy EM Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3471,7 +3471,7 @@ types:
     marketGroup: 1680
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3495,7 +3495,7 @@ types:
     marketGroup: 1679
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -3518,7 +3518,7 @@ types:
     marketGroup: 1678
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1

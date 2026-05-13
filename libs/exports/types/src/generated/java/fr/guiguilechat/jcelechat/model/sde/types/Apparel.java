@@ -15,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.apparel.Footwear;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Headwear;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Masks;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Outer;
+import fr.guiguilechat.jcelechat.model.sde.types.apparel.PortraitBackgrounds;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Prosthetics;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Tattoos;
 import fr.guiguilechat.jcelechat.model.sde.types.apparel.Tops;
@@ -51,7 +52,7 @@ public abstract class Apparel
 
         @Override
         public Collection<IMetaGroup<? extends Apparel>> groups() {
-            return Arrays.asList(Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP, Masks.METAGROUP);
+            return Arrays.asList(PortraitBackgrounds.METAGROUP, Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP, Masks.METAGROUP);
         }
     }
 }

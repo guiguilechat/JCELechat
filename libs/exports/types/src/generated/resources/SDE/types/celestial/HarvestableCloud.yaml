@@ -65,6 +65,7 @@ types:
     volume: 10.0
   28629:
     id: 28629
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     name: Gamboge Cytoserocin
     portionSize: 1
@@ -74,6 +75,7 @@ types:
     volume: 10.0
   28630:
     id: 28630
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     name: Chartreuse Cytoserocin
     portionSize: 1

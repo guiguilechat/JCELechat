@@ -6,7 +6,7 @@ types:
     id: 1798
     marketGroup: 1691
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' EM Shield Amplifier'
     portionSize: 1
     published: true
@@ -20,7 +20,7 @@ types:
     id: 1800
     marketGroup: 1688
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Thermal Shield Amplifier'
     portionSize: 1
     published: true
@@ -36,7 +36,7 @@ types:
     kineticdamageresistancebonus: -25.0
     marketGroup: 1689
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Kinetic Shield Amplifier'
     portionSize: 1
     published: true
@@ -51,7 +51,7 @@ types:
     id: 1804
     marketGroup: 1690
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Explosive Shield Amplifier'
     portionSize: 1
     published: true
@@ -93,7 +93,7 @@ types:
     hp: 40.0
     id: 2531
     marketGroup: 1690
-    metalevelold: 5
+    metalevelold: 5.0
     name: Explosive Shield Amplifier II
     portionSize: 1
     power: 1
@@ -121,7 +121,7 @@ types:
     hp: 40.0
     id: 2539
     marketGroup: 1688
-    metalevelold: 5
+    metalevelold: 5.0
     name: Thermal Shield Amplifier II
     portionSize: 1
     power: 1
@@ -151,7 +151,7 @@ types:
     id: 2547
     kineticdamageresistancebonus: -37.5
     marketGroup: 1689
-    metalevelold: 5
+    metalevelold: 5.0
     name: Kinetic Shield Amplifier II
     portionSize: 1
     power: 1
@@ -166,7 +166,7 @@ types:
     hp: 40.0
     id: 2553
     marketGroup: 1691
-    metalevelold: 5
+    metalevelold: 5.0
     name: EM Shield Amplifier II
     portionSize: 1
     power: 1
@@ -181,7 +181,7 @@ types:
     hp: 40.0
     id: 9556
     marketGroup: 1690
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -195,7 +195,7 @@ types:
     hp: 40.0
     id: 9568
     marketGroup: 1688
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -211,7 +211,7 @@ types:
     hp: 40.0
     id: 9580
     marketGroup: 1691
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -226,7 +226,7 @@ types:
     id: 9582
     kineticdamageresistancebonus: -35.0
     marketGroup: 1689
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -242,7 +242,7 @@ types:
     id: 14029
     marketGroup: 1690
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -258,7 +258,7 @@ types:
     id: 14031
     marketGroup: 1690
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -273,7 +273,7 @@ types:
     id: 14033
     marketGroup: 1688
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -289,7 +289,7 @@ types:
     id: 14035
     marketGroup: 1688
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -306,7 +306,7 @@ types:
     kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -322,7 +322,7 @@ types:
     kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -338,7 +338,7 @@ types:
     id: 14041
     marketGroup: 1691
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -354,7 +354,7 @@ types:
     id: 14043
     marketGroup: 1691
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -370,7 +370,7 @@ types:
     id: 14606
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -386,7 +386,7 @@ types:
     id: 14610
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -401,7 +401,7 @@ types:
     id: 14614
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -417,7 +417,7 @@ types:
     id: 14618
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -434,7 +434,7 @@ types:
     kineticdamageresistancebonus: -41.71
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -450,7 +450,7 @@ types:
     kineticdamageresistancebonus: -46.33
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -466,7 +466,7 @@ types:
     id: 14630
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Hakim's Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -482,7 +482,7 @@ types:
     id: 14634
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Tobias' Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -498,7 +498,7 @@ types:
     id: 14716
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -514,7 +514,7 @@ types:
     id: 14718
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -530,7 +530,7 @@ types:
     id: 14720
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -546,7 +546,7 @@ types:
     id: 14722
     marketGroup: 1690
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -561,7 +561,7 @@ types:
     id: 14724
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -577,7 +577,7 @@ types:
     id: 14726
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -593,7 +593,7 @@ types:
     id: 14728
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -609,7 +609,7 @@ types:
     id: 14730
     marketGroup: 1688
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -626,7 +626,7 @@ types:
     kineticdamageresistancebonus: -41.71
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -642,7 +642,7 @@ types:
     kineticdamageresistancebonus: -44.02
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -658,7 +658,7 @@ types:
     kineticdamageresistancebonus: -46.33
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -674,7 +674,7 @@ types:
     kineticdamageresistancebonus: -48.64
     marketGroup: 1689
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -690,7 +690,7 @@ types:
     id: 14740
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -706,7 +706,7 @@ types:
     id: 14742
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -722,7 +722,7 @@ types:
     id: 14744
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -738,7 +738,7 @@ types:
     id: 14746
     marketGroup: 1691
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -754,7 +754,7 @@ types:
     id: 15909
     marketGroup: 1691
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -770,7 +770,7 @@ types:
     kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -785,7 +785,7 @@ types:
     id: 15913
     marketGroup: 1688
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -802,7 +802,7 @@ types:
     id: 15915
     marketGroup: 1690
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -818,7 +818,7 @@ types:
     id: 15917
     marketGroup: 1691
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -834,7 +834,7 @@ types:
     kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -849,7 +849,7 @@ types:
     id: 15921
     marketGroup: 1688
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -866,7 +866,7 @@ types:
     id: 15923
     marketGroup: 1690
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -882,7 +882,7 @@ types:
     id: 19209
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Pithum C-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -897,7 +897,7 @@ types:
     id: 19211
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Pithum C-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -914,7 +914,7 @@ types:
     kineticdamageresistancebonus: -40.32
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Pithum C-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -930,7 +930,7 @@ types:
     id: 19215
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Pithum C-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -946,7 +946,7 @@ types:
     id: 19217
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Pithum B-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -961,7 +961,7 @@ types:
     id: 19219
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Pithum B-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -978,7 +978,7 @@ types:
     kineticdamageresistancebonus: -42.63
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Pithum B-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -994,7 +994,7 @@ types:
     id: 19223
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Pithum B-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -1010,7 +1010,7 @@ types:
     id: 19225
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Pithum A-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -1025,7 +1025,7 @@ types:
     id: 19227
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Pithum A-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -1042,7 +1042,7 @@ types:
     kineticdamageresistancebonus: -44.94
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Pithum A-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -1058,7 +1058,7 @@ types:
     id: 19231
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Pithum A-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -1074,7 +1074,7 @@ types:
     id: 19233
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Gistum C-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -1090,7 +1090,7 @@ types:
     id: 19235
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Gistum B-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -1105,7 +1105,7 @@ types:
     id: 19237
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Gistum C-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -1121,7 +1121,7 @@ types:
     id: 19239
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Gistum B-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -1138,7 +1138,7 @@ types:
     kineticdamageresistancebonus: -39.4
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Gistum C-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -1154,7 +1154,7 @@ types:
     kineticdamageresistancebonus: -40.32
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Gistum B-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -1170,7 +1170,7 @@ types:
     id: 19245
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Gistum C-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -1186,7 +1186,7 @@ types:
     id: 19247
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Gistum B-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -1202,7 +1202,7 @@ types:
     id: 19249
     marketGroup: 1690
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Gistum A-Type Explosive Shield Amplifier
     portionSize: 1
     power: 1
@@ -1217,7 +1217,7 @@ types:
     id: 19251
     marketGroup: 1688
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Gistum A-Type Thermal Shield Amplifier
     portionSize: 1
     power: 1
@@ -1234,7 +1234,7 @@ types:
     kineticdamageresistancebonus: -42.63
     marketGroup: 1689
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Gistum A-Type Kinetic Shield Amplifier
     portionSize: 1
     power: 1
@@ -1250,7 +1250,7 @@ types:
     id: 19255
     marketGroup: 1691
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Gistum A-Type EM Shield Amplifier
     portionSize: 1
     power: 1
@@ -1266,7 +1266,7 @@ types:
     id: 20605
     marketGroup: 1690
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Whiskey'' Explosive Shield Amplifier'
     portionSize: 1
     power: 1
@@ -1281,7 +1281,7 @@ types:
     id: 20607
     marketGroup: 1688
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''High Noon'' Thermal Shield Amplifier'
     portionSize: 1
     power: 1
@@ -1298,7 +1298,7 @@ types:
     kineticdamageresistancebonus: -37.5
     marketGroup: 1689
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Cactus'' Kinetic Shield Amplifier'
     portionSize: 1
     power: 1
@@ -1314,7 +1314,7 @@ types:
     id: 20611
     marketGroup: 1691
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Prospector'' EM Shield Amplifier'
     portionSize: 1
     power: 1

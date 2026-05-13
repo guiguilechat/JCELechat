@@ -48,8 +48,8 @@ public class CommandCenters
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * This type can only be found/used/created on a planet matching this type ID.
      */

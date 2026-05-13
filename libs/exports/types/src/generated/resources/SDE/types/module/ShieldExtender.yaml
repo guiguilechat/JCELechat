@@ -20,7 +20,7 @@ types:
     hp: 40.0
     id: 380
     marketGroup: 605
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Shield Extender II
     portionSize: 1
     power: 3
@@ -51,7 +51,7 @@ types:
     hp: 40.0
     id: 3831
     marketGroup: 606
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Shield Extender II
     portionSize: 1
     power: 30
@@ -82,7 +82,7 @@ types:
     hp: 40.0
     id: 3841
     marketGroup: 608
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Shield Extender II
     portionSize: 1
     power: 160
@@ -98,7 +98,7 @@ types:
     hp: 40.0
     id: 8419
     marketGroup: 608
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Azeotropic Restrained Shield Extender
     portionSize: 1
     power: 150
@@ -114,7 +114,7 @@ types:
     hp: 40.0
     id: 8427
     marketGroup: 605
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Azeotropic Restrained Shield Extender
     portionSize: 1
     power: 2
@@ -129,7 +129,7 @@ types:
     hp: 40.0
     id: 8433
     marketGroup: 606
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Azeotropic Restrained Shield Extender
     portionSize: 1
     power: 28
@@ -145,7 +145,7 @@ types:
     hp: 40.0
     id: 8517
     marketGroup: 606
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium F-S9 Regolith Compact Shield Extender
     portionSize: 1
     power: 26
@@ -161,7 +161,7 @@ types:
     hp: 40.0
     id: 8521
     marketGroup: 605
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small F-S9 Regolith Compact Shield Extender
     portionSize: 1
     power: 2
@@ -177,7 +177,7 @@ types:
     hp: 40.0
     id: 8529
     marketGroup: 608
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large F-S9 Regolith Compact Shield Extender
     portionSize: 1
     power: 140
@@ -194,7 +194,7 @@ types:
     id: 20625
     marketGroup: 605
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Small 'Wolf' Shield Extender
     portionSize: 1
     power: 1
@@ -211,7 +211,7 @@ types:
     id: 20627
     marketGroup: 605
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Small 'Trapper' Shield Extender
     portionSize: 1
     power: 1
@@ -227,7 +227,7 @@ types:
     id: 20629
     marketGroup: 606
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Medium 'Canyon' Shield Extender
     portionSize: 1
     power: 25
@@ -244,7 +244,7 @@ types:
     id: 20631
     marketGroup: 608
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Large 'Sheriff' Shield Extender
     portionSize: 1
     power: 135
@@ -261,7 +261,7 @@ types:
     id: 28742
     marketGroup: 605
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Thukker Small Shield Extender
     portionSize: 1
     power: 3
@@ -277,7 +277,7 @@ types:
     id: 28744
     marketGroup: 608
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Thukker Large Shield Extender
     portionSize: 1
     power: 155
@@ -294,7 +294,7 @@ types:
     id: 28746
     marketGroup: 606
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Thukker Medium Shield Extender
     portionSize: 1
     power: 30
@@ -311,7 +311,7 @@ types:
     id: 31922
     marketGroup: 605
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Small Shield Extender
     portionSize: 1
     power: 2
@@ -328,7 +328,7 @@ types:
     id: 31924
     marketGroup: 605
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Small Shield Extender
     portionSize: 1
     power: 2
@@ -345,7 +345,7 @@ types:
     id: 31926
     marketGroup: 606
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Medium Shield Extender
     portionSize: 1
     power: 28
@@ -362,7 +362,7 @@ types:
     id: 31928
     marketGroup: 606
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Medium Shield Extender
     portionSize: 1
     power: 26
@@ -379,7 +379,7 @@ types:
     id: 31930
     marketGroup: 608
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Large Shield Extender
     portionSize: 1
     power: 150
@@ -396,7 +396,7 @@ types:
     id: 31932
     marketGroup: 608
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Large Shield Extender
     portionSize: 1
     power: 145
@@ -427,7 +427,7 @@ types:
     hp: 40.0
     id: 40355
     marketGroup: 2241
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Azeotropic Restrained Shield Extender
     portionSize: 1
     power: 75000
@@ -443,7 +443,7 @@ types:
     hp: 40.0
     id: 40356
     marketGroup: 2241
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital F-S9 Regolith Compact Shield Extender
     portionSize: 1
     power: 62500
@@ -459,7 +459,7 @@ types:
     hp: 40.0
     id: 40357
     marketGroup: 2241
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Shield Extender II
     portionSize: 1
     power: 82500
@@ -476,7 +476,7 @@ types:
     id: 41459
     marketGroup: 2241
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: CONCORD Capital Shield Extender
     portionSize: 1
     power: 62500
@@ -493,7 +493,7 @@ types:
     id: 41460
     marketGroup: 2241
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Capital Shield Extender
     portionSize: 1
     power: 62500
@@ -510,7 +510,7 @@ types:
     id: 41461
     marketGroup: 2241
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Capital Shield Extender
     portionSize: 1
     power: 62500
@@ -527,7 +527,7 @@ types:
     id: 41462
     marketGroup: 2241
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Domination Capital Shield Extender
     portionSize: 1
     power: 62500

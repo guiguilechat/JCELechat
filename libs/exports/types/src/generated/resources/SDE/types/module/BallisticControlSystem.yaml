@@ -22,7 +22,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.12
     name: Domination Ballistic Control System
     portionSize: 1
@@ -40,7 +40,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.12
     name: Dread Guristas Ballistic Control System
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     missiledamagemultiplierbonus: 1.135
     name: Hakim's Modified Ballistic Control System
     portionSize: 1
@@ -76,7 +76,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     missiledamagemultiplierbonus: 1.13
     name: Mizuro's Modified Ballistic Control System
     portionSize: 1
@@ -94,7 +94,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     missiledamagemultiplierbonus: 1.14
     name: Gotan's Modified Ballistic Control System
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     missiledamagemultiplierbonus: 1.145
     name: Tobias' Modified Ballistic Control System
     portionSize: 1
@@ -130,7 +130,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     missiledamagemultiplierbonus: 1.13
     name: Kaikka's Modified Ballistic Control System
     portionSize: 1
@@ -148,7 +148,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     missiledamagemultiplierbonus: 1.135
     name: Thon's Modified Ballistic Control System
     portionSize: 1
@@ -166,7 +166,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     missiledamagemultiplierbonus: 1.14
     name: Vepas' Modified Ballistic Control System
     portionSize: 1
@@ -184,7 +184,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     missiledamagemultiplierbonus: 1.145
     name: Estamel's Modified Ballistic Control System
     portionSize: 1
@@ -202,7 +202,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.12
     name: Caldari Navy Ballistic Control System
     portionSize: 1
@@ -220,7 +220,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.12
     name: Republic Fleet Ballistic Control System
     portionSize: 1
@@ -237,7 +237,7 @@ types:
     id: 16457
     marketGroup: 645
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     missiledamagemultiplierbonus: 1.08
     name: Crosslink Compact Ballistic Control System
     portionSize: 1
@@ -255,7 +255,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplierbonus: 1.1
     name: '''Full Duplex'' Ballistic Control System'
     portionSize: 1
@@ -272,7 +272,7 @@ types:
     id: 22291
     marketGroup: 645
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplierbonus: 1.1
     name: Ballistic Control System II
     portionSize: 1
@@ -290,7 +290,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.12
     name: Khanid Navy Ballistic Control System
     portionSize: 1
@@ -308,7 +308,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplierbonus: 1.1
     name: Kaatara's Custom Ballistic Control System
     portionSize: 1
@@ -327,7 +327,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.07
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
     portionSize: 1
@@ -348,7 +348,7 @@ types:
     marketGroup: 645
     mass: 1.0
     metagroupid: 4
-    metalevelold: 12
+    metalevelold: 12.0
     missiledamagemultiplierbonus: 1.1
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
     portionSize: 1
@@ -380,7 +380,7 @@ types:
     id: 49790
     marketGroup: 645
     mass: 1.0
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplierbonus: 1.08
     name: ML-EKP 'Polybolos' Ballistic Control System
     portionSize: 1

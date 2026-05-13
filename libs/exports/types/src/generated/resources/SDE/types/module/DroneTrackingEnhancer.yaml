@@ -28,7 +28,7 @@ types:
     marketGroup: 938
     mass: 20.0
     maxrangebonus: 10.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Omnidirectional Tracking Enhancer II
     portionSize: 1
     power: 1
@@ -49,7 +49,7 @@ types:
     mass: 20.0
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Sentient Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -70,7 +70,7 @@ types:
     mass: 20.0
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Dread Guristas Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -91,7 +91,7 @@ types:
     mass: 20.0
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Imperial Navy Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -112,7 +112,7 @@ types:
     mass: 20.0
     maxrangebonus: 10.5
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -133,7 +133,7 @@ types:
     mass: 20.0
     maxrangebonus: 11.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -154,7 +154,7 @@ types:
     mass: 20.0
     maxrangebonus: 11.5
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -175,7 +175,7 @@ types:
     mass: 20.0
     maxrangebonus: 12.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Unit W-634's Modified Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1
@@ -195,7 +195,7 @@ types:
     marketGroup: 938
     mass: 20.0
     maxrangebonus: 8.25
-    metalevelold: 1
+    metalevelold: 1.0
     name: N-JM Compact Omnidirectional Tracking Enhancer
     portionSize: 1
     power: 1

@@ -1,0 +1,25 @@
+types:
+  92550:
+    id: 92550
+    marketGroup: 3846
+    mass: 0.5
+    name: Tenzin’s Gallente Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92554:
+    id: 92554
+    marketGroup: 3846
+    mass: 0.5
+    name: Moreau’s Gallente Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92555:
+    id: 92555
+    marketGroup: 3846
+    mass: 0.5
+    name: Roden’s Gallente Background
+    portionSize: 1
+    published: true
+    volume: 0.1

@@ -53,7 +53,7 @@ types:
     maxtargetrange: 20000.0
     maxvelocity: 380.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountmultiplier: 2.0
     miningfrigatebonusgascloudharvestingduration: -5
     miningfrigatesbonusoreminingyield: 5
@@ -157,7 +157,7 @@ types:
     maxtargetrange: 20000.0
     maxvelocity: 420.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountmultiplier: 1.0
     miningfrigatebonusiceharvestingduration: -5
     miningfrigatesbonusoreminingyield: 5

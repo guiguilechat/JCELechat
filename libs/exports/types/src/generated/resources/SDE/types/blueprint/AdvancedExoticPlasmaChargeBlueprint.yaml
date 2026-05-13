@@ -41,3 +41,17 @@ types:
     price: 10000000000.0
     published: true
     volume: 0.01
+  92956:
+    id: 92956
+    name: Occult XL Blueprint
+    portionSize: 1
+    price: 10000000000.0
+    published: true
+    volume: 0.01
+  92957:
+    id: 92957
+    name: Mystic XL Blueprint
+    portionSize: 1
+    price: 10000000000.0
+    published: true
+    volume: 0.01

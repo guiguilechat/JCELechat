@@ -40,7 +40,7 @@ types:
     id: 22611
     marketGroup: 935
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     miningamountbonus: 8
     name: Elara Restrained Mining Laser Upgrade
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     marketGroup: 935
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     miningamountbonus: 9
     name: '''Carpo'' Mining Laser Upgrade'
     portionSize: 1
@@ -78,7 +78,7 @@ types:
     marketGroup: 935
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     miningamountbonus: 10
     name: '''Aoede'' Mining Laser Upgrade'
     portionSize: 1
@@ -97,7 +97,7 @@ types:
     id: 22619
     marketGroup: 935
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Frigoris Restrained Ice Harvester Upgrade
     portionSize: 1
     power: 1
@@ -116,7 +116,7 @@ types:
     marketGroup: 935
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Anguis'' Ice Harvester Upgrade'
     portionSize: 1
     power: 1
@@ -135,7 +135,7 @@ types:
     marketGroup: 935
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Ingenii'' Ice Harvester Upgrade'
     portionSize: 1
     power: 1
@@ -152,7 +152,7 @@ types:
     id: 28576
     marketGroup: 935
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 9
     name: Mining Laser Upgrade II
     portionSize: 1
@@ -171,7 +171,7 @@ types:
     id: 28578
     marketGroup: 935
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ice Harvester Upgrade II
     portionSize: 1
     power: 1
@@ -214,4 +214,22 @@ types:
     requiredskill1: 22578
     requiredskill1level: 1
     techlevel: 1
+    volume: 5.0
+  93906:
+    cpu: 30.0
+    cpupenaltypercent: 15.0
+    hp: 40.0
+    id: 93906
+    marketGroup: 935
+    mass: 1.0
+    metalevelold: 5.0
+    miningamountbonus: 11
+    name: Filmir’s Modified Mining Laser Upgrade
+    portionSize: 1
+    power: 1
+    price: 24960.0
+    published: true
+    requiredskill1: 22578
+    requiredskill1level: 5
+    techlevel: 2
     volume: 5.0

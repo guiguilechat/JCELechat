@@ -452,3 +452,63 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 6.0
     volume: 0.01
+  92397:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2.0
+    id: 92397
+    marketGroup: 366
+    name: Amarr Fighter Specialization
+    portionSize: 1
+    price: 110000000.0
+    primaryattribute: 166
+    published: true
+    requiredskill1: 23069
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
+    volume: 0.01
+  92398:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2.0
+    id: 92398
+    marketGroup: 366
+    name: Gallente Fighter Specialization
+    portionSize: 1
+    price: 110000000.0
+    primaryattribute: 166
+    published: true
+    requiredskill1: 23069
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
+    volume: 0.01
+  92399:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2.0
+    id: 92399
+    marketGroup: 366
+    name: Minmatar Fighter Specialization
+    portionSize: 1
+    price: 110000000.0
+    primaryattribute: 166
+    published: true
+    requiredskill1: 23069
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
+    volume: 0.01
+  92400:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2.0
+    id: 92400
+    marketGroup: 366
+    name: Caldari Fighter Specialization
+    portionSize: 1
+    price: 110000000.0
+    primaryattribute: 166
+    published: true
+    requiredskill1: 23069
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
+    volume: 0.01

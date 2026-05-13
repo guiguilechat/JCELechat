@@ -89,7 +89,7 @@ types:
     mass: 500.0
     maxrange: 180000.0
     maxrangebonus: -66.0
-    metalevelold: 5
+    metalevelold: 5.0
     missilevelocitybonus: -41.0
     name: Standup Weapon Disruptor II
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     marketGroup: 2214
     mass: 500.0
     maxrange: 90000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Target Painter II
     portionSize: 1
     power: 60000
@@ -136,7 +136,7 @@ types:
     mass: 500.0
     maxrange: 90000.0
     maxtargetrangebonus: -61.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Remote Sensor Dampener II
     portionSize: 1
     power: 60000

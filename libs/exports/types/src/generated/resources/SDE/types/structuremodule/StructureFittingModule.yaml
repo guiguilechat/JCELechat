@@ -42,7 +42,7 @@ types:
     id: 47344
     marketGroup: 2218
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Co-Processor Array II
     portionSize: 1
     power: 6000
@@ -61,7 +61,7 @@ types:
     id: 47347
     marketGroup: 2222
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Reactor Control Unit II
     portionSize: 1
     poweroutputmultiplier: 1.15

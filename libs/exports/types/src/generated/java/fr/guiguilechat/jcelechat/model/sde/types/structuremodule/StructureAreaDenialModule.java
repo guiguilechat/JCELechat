@@ -233,8 +233,8 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 

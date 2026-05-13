@@ -19,7 +19,7 @@ types:
     marketGroup: 930
     mass: 100.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Rage Rocket
     portionSize: 5000
     price: 62340.0
@@ -54,7 +54,7 @@ types:
     marketGroup: 928
     mass: 100.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Javelin Rocket
     portionSize: 5000
     price: 62340.0
@@ -90,7 +90,7 @@ types:
     marketGroup: 930
     mass: 100.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Rage Rocket
     portionSize: 5000
     price: 62340.0
@@ -126,7 +126,7 @@ types:
     marketGroup: 930
     mass: 100.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Rage Rocket
     portionSize: 5000
     price: 62340.0
@@ -161,7 +161,7 @@ types:
     marketGroup: 930
     mass: 100.0
     maxvelocity: 1875.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Rage Rocket
     portionSize: 5000
     price: 62340.0
@@ -197,7 +197,7 @@ types:
     marketGroup: 928
     mass: 100.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Javelin Rocket
     portionSize: 5000
     price: 62340.0
@@ -232,7 +232,7 @@ types:
     marketGroup: 928
     mass: 100.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Javelin Rocket
     portionSize: 5000
     price: 62340.0
@@ -266,7 +266,7 @@ types:
     marketGroup: 928
     mass: 100.0
     maxvelocity: 3375.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Javelin Rocket
     portionSize: 5000
     price: 62340.0

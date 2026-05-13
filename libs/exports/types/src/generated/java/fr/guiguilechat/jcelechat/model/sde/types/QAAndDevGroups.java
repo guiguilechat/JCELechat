@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -20,6 +21,13 @@ import fr.guiguilechat.jcelechat.model.sde.types.qaanddevgroups.QAPhasedAsteroid
 public abstract class QAAndDevGroups
     extends EveType
 {
+    /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
     /**
      * If set to true, this results in no mining waste.
      */
@@ -41,12 +49,16 @@ public abstract class QAAndDevGroups
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, IgnoreMiningCrits.INSTANCE })));
     public static final QAAndDevGroups.MetaCat METACAT = new QAAndDevGroups.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  6108 :
+            {
+                return ignoreminingcrits;
+            }
             case  3236 :
             {
                 return ignoreminingwaste;

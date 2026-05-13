@@ -13,7 +13,7 @@ types:
     maincolor: 2833864
     marketGroup: 871
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scorch S
     portionSize: 4
     price: 80000.0
@@ -41,7 +41,7 @@ types:
     maincolor: 2833864
     marketGroup: 871
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Conflagration S
     portionSize: 4
     price: 80000.0
@@ -69,7 +69,7 @@ types:
     maincolor: 2833864
     marketGroup: 870
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Conflagration M
     portionSize: 4
     price: 320000.0
@@ -97,7 +97,7 @@ types:
     maincolor: 2833864
     marketGroup: 869
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Conflagration L
     portionSize: 4
     price: 800000.0
@@ -124,7 +124,7 @@ types:
     maincolor: 2833864
     marketGroup: 870
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scorch M
     portionSize: 4
     price: 320000.0
@@ -151,7 +151,7 @@ types:
     maincolor: 2833864
     marketGroup: 869
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scorch L
     portionSize: 4
     price: 800000.0
@@ -178,7 +178,7 @@ types:
     maincolor: 2833864
     marketGroup: 2256
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scorch XL
     portionSize: 1
     published: true
@@ -205,7 +205,7 @@ types:
     maincolor: 2833864
     marketGroup: 2256
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Conflagration XL
     portionSize: 1
     published: true

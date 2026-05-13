@@ -185,3 +185,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  93920:
+    id: 93920
+    name: Torigo's Modified Capacitor Flux Coil Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 2
+    volume: 0.01

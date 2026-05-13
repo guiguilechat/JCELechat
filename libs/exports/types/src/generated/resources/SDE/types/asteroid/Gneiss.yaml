@@ -112,6 +112,7 @@ types:
     asteroidradiusgrowthfactor: 1.0
     asteroidradiusunitsize: 600
     id: 28622
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     mass: 1.0E+35
     name: Green Arisite

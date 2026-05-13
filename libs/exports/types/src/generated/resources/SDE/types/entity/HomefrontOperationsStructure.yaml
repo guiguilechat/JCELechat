@@ -31,14 +31,14 @@ types:
   77120:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 127500.0
+    armorhp: 125000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     falloff: 1.0
-    hp: 82500.0
+    hp: 100000.0
     id: 77120
     mass: 100000.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -52,7 +52,7 @@ types:
     published: false
     radius: 3346.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 127500.0
+    shieldcapacity: 125000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -92,14 +92,14 @@ types:
   77195:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 127500.0
+    armorhp: 125000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     falloff: 1.0
-    hp: 82500.0
+    hp: 100000.0
     id: 77195
     mass: 100000.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -113,7 +113,7 @@ types:
     published: false
     radius: 3346.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 127500.0
+    shieldcapacity: 125000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -124,14 +124,14 @@ types:
   77199:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 127500.0
+    armorhp: 125000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     falloff: 1.0
-    hp: 82500.0
+    hp: 100000.0
     id: 77199
     mass: 100000.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -145,7 +145,7 @@ types:
     published: false
     radius: 3346.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 127500.0
+    shieldcapacity: 125000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -156,14 +156,14 @@ types:
   77200:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 127500.0
+    armorhp: 125000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     falloff: 1.0
-    hp: 82500.0
+    hp: 100000.0
     id: 77200
     mass: 100000.0
     missileentityaoecloudsizemultiplier: 1.0
@@ -177,7 +177,7 @@ types:
     published: false
     radius: 3346.0
     remoterepairimpedance: 1.0
-    shieldcapacity: 127500.0
+    shieldcapacity: 125000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

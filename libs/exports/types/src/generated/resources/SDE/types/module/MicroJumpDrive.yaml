@@ -13,7 +13,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     modulereactivationdelay: 180000
     name: Large Micro Jump Drive
     portionSize: 1
@@ -43,7 +43,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     modulereactivationdelay: 180000
     name: Medium Micro Jump Drive
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 150000
     name: Xarasier Large Micro Jump Drive
     portionSize: 1
@@ -99,7 +99,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     modulereactivationdelay: 150000
     name: Xarasier Medium Micro Jump Drive
     portionSize: 1

@@ -47,7 +47,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 150.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Eos
     portionSize: 1
@@ -142,7 +142,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 165.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Sleipnir
     portionSize: 1
@@ -235,7 +235,7 @@ types:
     maxtargetrange: 95000.0
     maxvelocity: 140.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Vulture
     portionSize: 1
@@ -327,7 +327,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 158.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Absolution
     portionSize: 1
@@ -420,7 +420,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 165.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Astarte
     portionSize: 1
@@ -513,7 +513,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 170.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Claymore
     portionSize: 1
@@ -607,7 +607,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 150.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Nighthawk
     portionSize: 1
@@ -700,7 +700,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 150.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Damnation
     portionSize: 1

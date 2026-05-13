@@ -34,7 +34,7 @@ types:
     id: 1549
     marketGroup: 382
     mass: 40.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Proton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -81,7 +81,7 @@ types:
     kineticdamage: 70.0
     marketGroup: 382
     mass: 40.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -127,7 +127,7 @@ types:
     id: 1559
     marketGroup: 382
     mass: 40.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -175,7 +175,7 @@ types:
     id: 1565
     marketGroup: 382
     mass: 40.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small EMP Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -222,7 +222,7 @@ types:
     id: 3899
     marketGroup: 380
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Micro Proton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -269,7 +269,7 @@ types:
     kineticdamage: 35.0
     marketGroup: 380
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Micro Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -315,7 +315,7 @@ types:
     id: 3909
     marketGroup: 380
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Micro Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -363,7 +363,7 @@ types:
     id: 3915
     marketGroup: 380
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Micro EMP Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -410,7 +410,7 @@ types:
     id: 3939
     marketGroup: 383
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Proton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -457,7 +457,7 @@ types:
     kineticdamage: 140.0
     marketGroup: 383
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -503,7 +503,7 @@ types:
     id: 3949
     marketGroup: 383
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -551,7 +551,7 @@ types:
     id: 3955
     marketGroup: 383
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium EMP Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -598,7 +598,7 @@ types:
     id: 3979
     marketGroup: 381
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Proton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -645,7 +645,7 @@ types:
     kineticdamage: 300.0
     marketGroup: 381
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Graviton Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -691,7 +691,7 @@ types:
     id: 3989
     marketGroup: 381
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Plasma Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -739,7 +739,7 @@ types:
     id: 3995
     marketGroup: 381
     mass: 100.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large EMP Smartbomb II
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -763,7 +763,7 @@ types:
     kineticdamage: 275.0
     marketGroup: 381
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Concussion'' Compact Large Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -787,7 +787,7 @@ types:
     kineticdamage: 60.0
     marketGroup: 382
     mass: 10.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Concussion'' Compact Small Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -811,7 +811,7 @@ types:
     id: 9678
     marketGroup: 381
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Vehemence'' Compact Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -835,7 +835,7 @@ types:
     id: 9680
     marketGroup: 382
     mass: 10.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Vehemence'' Compact Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -859,7 +859,7 @@ types:
     kineticdamage: 30.0
     marketGroup: 380
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Micro Rudimentary Concussion Bomb I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -883,7 +883,7 @@ types:
     id: 9706
     marketGroup: 380
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Micro 'Vehemence' Shockwave Charge
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -907,7 +907,7 @@ types:
     kineticdamage: 120.0
     marketGroup: 383
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Concussion'' Compact Medium Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -931,7 +931,7 @@ types:
     id: 9734
     marketGroup: 383
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Vehemence'' Compact Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -955,7 +955,7 @@ types:
     id: 9744
     marketGroup: 382
     mass: 10.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Notos'' Compact Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -979,7 +979,7 @@ types:
     id: 9750
     marketGroup: 380
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Micro 'Notos' Explosive Charge I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1003,7 +1003,7 @@ types:
     id: 9762
     marketGroup: 383
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Notos'' Compact Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1027,7 +1027,7 @@ types:
     id: 9772
     marketGroup: 381
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Notos'' Compact Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1050,7 +1050,7 @@ types:
     id: 9784
     marketGroup: 382
     mass: 10.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''YF-12a'' Compact Small Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1074,7 +1074,7 @@ types:
     id: 9790
     marketGroup: 380
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Micro YF-12a Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1098,7 +1098,7 @@ types:
     id: 9800
     marketGroup: 383
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''YF-12a'' Compact Medium Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1122,7 +1122,7 @@ types:
     id: 9808
     marketGroup: 381
     mass: 100.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''YF-12a'' Compact Large Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1148,7 +1148,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dark Blood Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1173,7 +1173,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: True Sansha Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1198,7 +1198,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dark Blood Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1223,7 +1223,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: True Sansha Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1248,7 +1248,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dark Blood Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1273,7 +1273,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: True Sansha Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1298,7 +1298,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dark Blood Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1323,7 +1323,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: True Sansha Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1348,7 +1348,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dread Guristas Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1372,7 +1372,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Shadow Serpentis Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1398,7 +1398,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Domination Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1423,7 +1423,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dread Guristas Medium Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1448,7 +1448,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dread Guristas Micro Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1473,7 +1473,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Dread Guristas Small Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1497,7 +1497,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Shadow Serpentis Micro Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1522,7 +1522,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Shadow Serpentis Medium Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1548,7 +1548,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Domination Medium Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1573,7 +1573,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Domination Micro Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1598,7 +1598,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Domination Small Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1622,7 +1622,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Shadow Serpentis Small Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1648,7 +1648,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Mizuro's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1673,7 +1673,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Hakim's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1698,7 +1698,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Gotan's Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1723,7 +1723,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Tobias' Modified Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1748,7 +1748,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1773,7 +1773,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Thon's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1798,7 +1798,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vepas' Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1823,7 +1823,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Estamel's Modified Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1848,7 +1848,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1873,7 +1873,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1898,7 +1898,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Selynne's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1923,7 +1923,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Raysere's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1948,7 +1948,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vizan's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1973,7 +1973,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Ahremen's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -1998,7 +1998,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Chelm's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2023,7 +2023,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Draclira's Modified Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2047,7 +2047,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brynn's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2072,7 +2072,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Tuvan's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2097,7 +2097,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Setele's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2122,7 +2122,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Cormack's Modified Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2148,7 +2148,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Caldari Navy Small Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2173,7 +2173,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Caldari Navy Micro Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2198,7 +2198,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Caldari Navy Medium Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2223,7 +2223,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Caldari Navy Large Graviton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2248,7 +2248,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Republic Fleet Micro Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2273,7 +2273,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Republic Fleet Small Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2298,7 +2298,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Republic Fleet Medium Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2323,7 +2323,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Republic Fleet Large Proton Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2348,7 +2348,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Ammatar Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2373,7 +2373,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Ammatar Navy Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2398,7 +2398,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Ammatar Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2423,7 +2423,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Ammatar Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2447,7 +2447,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Federation Navy Small Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2472,7 +2472,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Federation Navy Micro Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2497,7 +2497,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Federation Navy Medium Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2522,7 +2522,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Federation Navy Large Plasma Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2548,7 +2548,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Imperial Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2573,7 +2573,7 @@ types:
     marketGroup: 380
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Imperial Navy Micro EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2598,7 +2598,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Imperial Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2623,7 +2623,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Imperial Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2648,7 +2648,7 @@ types:
     marketGroup: 380
     mass: 10.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Micro Degenerative Concussion Bomb I
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2673,7 +2673,7 @@ types:
     marketGroup: 382
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Degenerative'' Small Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2698,7 +2698,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Dwindling'' Medium Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2723,7 +2723,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Regressive'' Large Proton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2748,7 +2748,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Pike'' Small EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2773,7 +2773,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Lance'' Medium EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2798,7 +2798,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Warhammer'' Large EMP Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2823,7 +2823,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Khanid Navy Large EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2848,7 +2848,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Khanid Navy Medium EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -2873,7 +2873,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Khanid Navy Small EMP Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3042,7 +3042,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Blasting'' Large Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3066,7 +3066,7 @@ types:
     marketGroup: 381
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Scalding'' Large Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3092,7 +3092,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Booming'' Medium Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3116,7 +3116,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Boiling'' Medium Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3142,7 +3142,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Roaring'' Small Graviton Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3166,7 +3166,7 @@ types:
     marketGroup: 382
     mass: 10.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Seething'' Small Plasma Smartbomb'
     overloadselfdurationbonus: -15.0
     portionSize: 1
@@ -3194,7 +3194,7 @@ types:
     marketGroup: 383
     mass: 100.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Allecto's Modified Medium Multispectrum Smartbomb
     overloadselfdurationbonus: -15.0
     portionSize: 1

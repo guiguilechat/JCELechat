@@ -29,7 +29,7 @@ types:
     mass: 500.0
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 15.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Signal Amplifier II
     portionSize: 1
     power: 60000

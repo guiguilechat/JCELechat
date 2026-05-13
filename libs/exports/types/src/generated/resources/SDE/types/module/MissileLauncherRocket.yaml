@@ -35,7 +35,7 @@ types:
     hp: 40.0
     id: 10631
     marketGroup: 639
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rocket Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -64,7 +64,7 @@ types:
     id: 13931
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Domination Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -93,7 +93,7 @@ types:
     id: 13933
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -122,7 +122,7 @@ types:
     id: 16065
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -149,7 +149,7 @@ types:
     hp: 40.0
     id: 16521
     marketGroup: 639
-    metalevelold: 1
+    metalevelold: 1.0
     name: '''Malkuth'' Rocket Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -176,7 +176,7 @@ types:
     hp: 40.0
     id: 16523
     marketGroup: 639
-    metalevelold: 2
+    metalevelold: 2.0
     name: '''Limos'' Rocket Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -203,7 +203,7 @@ types:
     hp: 40.0
     id: 16525
     marketGroup: 639
-    metalevelold: 3
+    metalevelold: 3.0
     name: OE-5200 Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -230,7 +230,7 @@ types:
     hp: 40.0
     id: 16527
     marketGroup: 639
-    metalevelold: 4
+    metalevelold: 4.0
     name: '''Arbalest'' Rocket Launcher I'
     overloadrofbonus: -15
     portionSize: 1
@@ -259,7 +259,7 @@ types:
     id: 17488
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: Republic Fleet Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -288,7 +288,7 @@ types:
     id: 20593
     marketGroup: 639
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Balefire'' Rocket Launcher'
     overloadrofbonus: -15
     portionSize: 1
@@ -317,7 +317,7 @@ types:
     id: 21542
     marketGroup: 639
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: N-1 Neon Type Rocket Bay
     overloadrofbonus: -15
     portionSize: 1
@@ -346,7 +346,7 @@ types:
     id: 22564
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     name: True Sansha Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -375,7 +375,7 @@ types:
     id: 28511
     marketGroup: 639
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -403,7 +403,7 @@ types:
     hp: 40.0
     id: 34290
     marketGroup: 639
-    metalevelold: 9
+    metalevelold: 9.0
     name: Polarized Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -435,7 +435,7 @@ types:
     id: 85021
     marketGroup: 639
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Panola's Modified Rocket Launcher
     overloadrofbonus: -15
     portionSize: 1

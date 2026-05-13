@@ -210,7 +210,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Cenobite II
     portionSize: 1
     published: true
@@ -261,7 +261,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scarab II
     portionSize: 1
     published: true
@@ -306,7 +306,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Siren II
     portionSize: 1
     published: true
@@ -354,7 +354,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Dromi II
     portionSize: 1
     published: true
@@ -403,7 +403,7 @@ types:
     maxtargetrange: 54000.0
     maxvelocity: 744.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Cenobite
     portionSize: 1
     published: true
@@ -455,7 +455,7 @@ types:
     maxtargetrange: 54000.0
     maxvelocity: 744.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Caldari Navy Scarab
     portionSize: 1
     published: true
@@ -501,7 +501,7 @@ types:
     maxtargetrange: 54000.0
     maxvelocity: 744.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Siren
     portionSize: 1
     published: true
@@ -550,7 +550,7 @@ types:
     maxtargetrange: 54000.0
     maxvelocity: 744.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Dromi
     portionSize: 1
     published: true

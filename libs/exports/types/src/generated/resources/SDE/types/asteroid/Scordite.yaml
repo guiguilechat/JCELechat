@@ -215,3 +215,37 @@ types:
     requiredskill1level: 1
     stasiswebifierresistance: 1.0
     volume: 0.0015
+  92373:
+    asteroidmaxradius: 16255
+    asteroidradiusgrowthfactor: 0.5
+    asteroidradiusunitsize: 90
+    id: 92373
+    marketGroup: 519
+    mass: 1.0E+35
+    name: Scordite 0-Grade
+    orebasictype: 1228
+    portionSize: 100
+    price: 2497.0
+    published: true
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.15
+  92374:
+    asteroidmaxradius: 16255
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    id: 92374
+    marketGroup: 519
+    mass: 1.0E+35
+    name: Compressed Scordite 0-Grade
+    orebasictype: 1228
+    portionSize: 100
+    price: 62425.0
+    published: true
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.0015

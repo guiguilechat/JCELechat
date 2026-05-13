@@ -26,7 +26,7 @@ types:
     marketGroup: 670
     mass: 40.0
     maxlockedtargetsbonus: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Auto Targeting System II
     portionSize: 1
     power: 1
@@ -44,7 +44,7 @@ types:
     marketGroup: 670
     mass: 30.0
     maxlockedtargetsbonus: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Hostile Target Acquisition I
     portionSize: 1
     power: 1
@@ -62,7 +62,7 @@ types:
     marketGroup: 670
     mass: 30.0
     maxlockedtargetsbonus: 2
-    metalevelold: 2
+    metalevelold: 2.0
     name: '''Recusant'' Hostile Targeting Array I'
     portionSize: 1
     power: 1
@@ -80,7 +80,7 @@ types:
     marketGroup: 670
     mass: 30.0
     maxlockedtargetsbonus: 2
-    metalevelold: 3
+    metalevelold: 3.0
     name: Responsive Auto-Targeting System I
     portionSize: 1
     power: 1
@@ -98,7 +98,7 @@ types:
     marketGroup: 670
     mass: 30.0
     maxlockedtargetsbonus: 2
-    metalevelold: 4
+    metalevelold: 4.0
     name: Automated Targeting Unit I
     portionSize: 1
     power: 1

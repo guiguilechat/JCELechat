@@ -11,7 +11,7 @@ types:
     hp: 40.0
     id: 4391
     marketGroup: 611
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -38,7 +38,7 @@ types:
     hp: 40.0
     id: 32772
     marketGroup: 610
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -64,7 +64,7 @@ types:
     hp: 40.0
     id: 32774
     marketGroup: 609
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -91,7 +91,7 @@ types:
     hp: 40.0
     id: 32780
     marketGroup: 612
-    metalevelold: 1
+    metalevelold: 1.0
     name: X-Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -119,7 +119,7 @@ types:
     id: 41504
     marketGroup: 778
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -203,7 +203,7 @@ types:
     id: 88713
     marketGroup: 778
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Capital Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -230,7 +230,7 @@ types:
     hp: 40.0
     id: 88714
     marketGroup: 612
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier X-Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -257,7 +257,7 @@ types:
     hp: 40.0
     id: 88715
     marketGroup: 611
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -284,7 +284,7 @@ types:
     hp: 40.0
     id: 88716
     marketGroup: 610
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Medium Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -310,7 +310,7 @@ types:
     hp: 40.0
     id: 88717
     marketGroup: 609
-    metalevelold: 6
+    metalevelold: 6.0
     name: Xarasier Small Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10

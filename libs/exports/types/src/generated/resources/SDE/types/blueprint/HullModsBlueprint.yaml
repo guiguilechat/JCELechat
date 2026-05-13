@@ -198,3 +198,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  93914:
+    id: 93914
+    name: xer Qosh’s Modified Expanded Cargohold Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 2
+    volume: 0.01

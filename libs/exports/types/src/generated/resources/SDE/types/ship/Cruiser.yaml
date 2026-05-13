@@ -1409,97 +1409,6 @@ types:
     warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0
-  635:
-    agility: 0.65
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
-    armorhp: 1250.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.65
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    capacitorcapacity: 800.0
-    covertopsandreconopscloakmoduledelay: 30000
-    cpuoutput: 400
-    dronebandwidth: 50
-    dronecapacity: 50
-    emdamageresonance: 0.67
-    energywarfareresistance: 1.0
-    explosivedamageresonance: 0.67
-    gfxboosterid: 394
-    heatattenuationhi: 0.71
-    heatattenuationlow: 0.76
-    heatattenuationmed: 0.5
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.01
-    heatdissipationratelow: 0.01
-    heatdissipationratemed: 0.01
-    heatgenerationmultiplier: 0.75
-    hislots: 5
-    hp: 1250.0
-    hullemdamageresonance: 1.0
-    hullexplosivedamageresonance: 1.0
-    hullkineticdamageresonance: 1.0
-    hullthermaldamageresonance: 1.0
-    id: 635
-    kineticdamageresonance: 0.67
-    launcherslotsleft: 2
-    lowslots: 6
-    maincolor: 16777215
-    marketGroup: 1699
-    mass: 13075000.0
-    maxdirectionalscanrange: 2.147483647E12
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 5
-    maxpassengers: 500
-    maxtargetrange: 20000.0
-    maxvelocity: 250.0
-    medslots: 3
-    metalevelold: 9
-    mintargetveldmgmultiplier: 0.25
-    name: Opux Luxury Yacht
-    portionSize: 1
-    poweroutput: 600.0
-    powertospeed: 1
-    propulsiongraphicid: 394
-    published: true
-    radius: 287.0
-    rechargerate: 375000.0
-    requiredskill1: 3332
-    requiredskill1level: 1
-    rigsize: 2
-    rigslots: 3
-    scanradarstrength: 19.0
-    scanresolution: 300.0
-    scanspeed: 3000
-    sensordampenerresistance: 1.0
-    shieldcapacity: 900.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.8
-    shielduniformity: 0.75
-    shipbonuscc: 5.0
-    shipbonusgc: 5.0
-    shipbonusuc1: 1.0
-    shipbonusuc2: 1
-    signatureradius: 100.0
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 0.67
-    turretslotsleft: 2
-    typecolorscheme: 11331
-    uniformity: 1.0
-    upgradecapacity: 300
-    upgradeslotsleft: 3
-    volume: 115000.0
-    warpcapacitorneed: 8.13E-7
-    warpspeedmultiplier: 4.0
-    weapondisruptionresistance: 1.0
   2006:
     agility: 0.43
     armoremdamageresonance: 0.5
@@ -1643,7 +1552,7 @@ types:
     maxvelocity: 180.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Guardian-Vexor
     portionSize: 1
@@ -1738,7 +1647,7 @@ types:
     maxvelocity: 210.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Caracal Navy Issue
     portionSize: 1
@@ -1831,7 +1740,7 @@ types:
     maxvelocity: 265.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Omen Navy Issue
     portionSize: 1
@@ -1927,7 +1836,7 @@ types:
     maxvelocity: 250.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Stabber Fleet Issue
     portionSize: 1
@@ -2024,7 +1933,7 @@ types:
     maxvelocity: 195.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Gila
     portionSize: 1
@@ -2122,7 +2031,7 @@ types:
     maxvelocity: 228.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Phantasm
     portionSize: 1
@@ -2220,7 +2129,7 @@ types:
     maxvelocity: 263.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Cynabal
     portionSize: 1
@@ -2318,7 +2227,7 @@ types:
     maxvelocity: 242.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Vigilant
     portionSize: 1
@@ -2415,7 +2324,7 @@ types:
     maxvelocity: 210.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Vexor Navy Issue
     portionSize: 1
@@ -2510,7 +2419,7 @@ types:
     maxvelocity: 215.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Ashimmu
     nosoverride: 1
@@ -2613,7 +2522,7 @@ types:
     maxvelocity: 280.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Scythe Fleet Issue
     portionSize: 1
@@ -2708,7 +2617,7 @@ types:
     maxvelocity: 215.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Augoror Navy Issue
     portionSize: 1
@@ -2805,7 +2714,7 @@ types:
     maxvelocity: 260.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Osprey Navy Issue
     portionSize: 1
@@ -2900,7 +2809,7 @@ types:
     maxvelocity: 270.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Exequror Navy Issue
     portionSize: 1
@@ -2997,7 +2906,7 @@ types:
     maxvelocity: 182.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Stratios
     portionSize: 1
@@ -3098,7 +3007,7 @@ types:
     maxvelocity: 195.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Stratios Emergency Responder
     portionSize: 1
@@ -3199,7 +3108,7 @@ types:
     maxvelocity: 230.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Orthrus
     portionSize: 1
@@ -3244,101 +3153,6 @@ types:
     upgradecapacity: 350
     upgradeslotsleft: 3
     volume: 101000.0
-    warpcapacitorneed: 8.13E-7
-    warpspeedmultiplier: 4.0
-    weapondisruptionresistance: 1.0
-  34590:
-    agility: 4.0
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
-    armorhp: 4000.0
-    armorkineticdamageresonance: 0.65
-    armorthermaldamageresonance: 0.65
-    armoruniformity: 0.75
-    basewarpspeed: 1
-    capacitorcapacity: 3500.0
-    covertopsandreconopscloakmoduledelay: 30000
-    cpuoutput: 130
-    emdamageresonance: 0.67
-    energywarfareresistance: 1.0
-    explosivedamageresonance: 0.67
-    gfxboosterid: 394
-    heatattenuationhi: 0.25
-    heatattenuationlow: 0.63
-    heatattenuationmed: 1.0
-    heatcapacityhi: 100
-    heatcapacitylow: 100
-    heatcapacitymed: 100
-    heatdissipationratehi: 0.01
-    heatdissipationratelow: 0.01
-    heatdissipationratemed: 0.01
-    heatgenerationmultiplier: 0.75
-    hislots: 2
-    hp: 4000.0
-    hullemdamageresonance: 1.0
-    hullexplosivedamageresonance: 1.0
-    hullkineticdamageresonance: 1.0
-    hullthermaldamageresonance: 1.0
-    id: 34590
-    isblackopsjumpconduitpassenger: 1
-    isblackopsjumpportalpassenger: 1
-    kineticdamageresonance: 0.67
-    lowslots: 4
-    maincolor: 16777215
-    marketGroup: 1699
-    mass: 1000000.0
-    maxdirectionalscanrange: 2.147483647E12
-    maxdirectionalvelocity: 2000
-    maxlockedtargets: 10
-    maxpassengers: 500
-    maxtargetrange: 60000.0
-    maxvelocity: 250.0
-    medslots: 1
-    metagroupid: 4
-    metalevelold: 9
-    mintargetveldmgmultiplier: 0.25
-    name: Victorieux Luxury Yacht
-    portionSize: 1
-    poweroutput: 100.0
-    powertospeed: 1
-    price: 25600000.0
-    propulsiongraphicid: 394
-    published: true
-    radius: 287.0
-    rechargerate: 875000.0
-    requiredskill1: 3327
-    requiredskill1level: 1
-    rigsize: 2
-    rigslots: 3
-    scanmagnetometricstrength: 20.0
-    scanresolution: 250.0
-    scanspeed: 3000
-    sensordampenerresistance: 1.0
-    shieldcapacity: 3000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6
-    shieldrechargerate: 1250000.0
-    shieldthermaldamageresonance: 0.8
-    shielduniformity: 0.75
-    shipbonuscc: 5.0
-    shipbonusgc: 5.0
-    shipbonusrole1: -80.0
-    shipbonusrole2: 100
-    shipbonusrole7: -100.0
-    shipbonusuc1: 1.0
-    shipbonusuc2: 1
-    shiprolebonuswarpspeed: 100
-    signatureradius: 150.0
-    stasiswebifierresistance: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    thermaldamageresonance: 0.67
-    typecolorscheme: 11331
-    uniformity: 1.0
-    upgradecapacity: 400
-    upgradeslotsleft: 3
-    volume: 115000.0
     warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.0
     weapondisruptionresistance: 1.0

@@ -8,7 +8,6 @@ types:
     volume: 0.01
   34133:
     id: 34133
-    marketGroup: 1942
     name: Multiple Pilot Training Certificate
     portionSize: 1
     published: true

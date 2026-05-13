@@ -7,6 +7,7 @@ types:
     canfitshipgroup04: 963
     canfitshipgroup05: 830
     canfitshipgroup07: 28
+    canfitshipgroup08: 5087
     canfitshiptype1: 34590
     capacitorneed: 50.0
     cpu: 38.0
@@ -39,6 +40,7 @@ types:
     canfitshipgroup04: 963
     canfitshipgroup05: 830
     canfitshipgroup07: 28
+    canfitshipgroup08: 5087
     canfitshiptype1: 34590
     capacitorneed: 50.0
     cpu: 32.0
@@ -70,6 +72,7 @@ types:
     canfitshipgroup04: 963
     canfitshipgroup05: 830
     canfitshipgroup07: 28
+    canfitshipgroup08: 5087
     canfitshiptype1: 34590
     capacitorneed: 35.0
     cpu: 38.0
@@ -101,6 +104,7 @@ types:
     canfitshipgroup04: 963
     canfitshipgroup05: 830
     canfitshipgroup07: 28
+    canfitshipgroup08: 5087
     canfitshiptype1: 34590
     capacitorneed: 50.0
     cpu: 46.0

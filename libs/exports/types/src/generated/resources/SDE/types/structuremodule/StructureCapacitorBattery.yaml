@@ -20,7 +20,7 @@ types:
     id: 47353
     marketGroup: 2224
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Cap Battery II
     portionSize: 1
     power: 360000

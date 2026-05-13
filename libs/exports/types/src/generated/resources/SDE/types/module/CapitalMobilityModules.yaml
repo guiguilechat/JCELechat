@@ -12,7 +12,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     mjdjumprange: 250000
     mjdshipjumpcap: 1
     modulereactivationdelay: 180000
@@ -42,7 +42,7 @@ types:
     marketGroup: 2135
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 1
+    metalevelold: 1.0
     mjdcapitalshipjumpcap: 4
     mjdjumprange: 250000
     mjdpostactivationscramduration: 5000
@@ -72,7 +72,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 6
+    metalevelold: 6.0
     mjdjumprange: 250000
     mjdshipjumpcap: 1
     modulereactivationdelay: 150000

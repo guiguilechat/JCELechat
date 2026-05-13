@@ -6,7 +6,7 @@ types:
     id: 33589
     marketGroup: 1845
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mobile Scan Inhibitor
     portionSize: 1
     published: true

@@ -42,7 +42,7 @@ types:
     maxtargetrange: 250000.0
     maxvelocity: 220.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Monitor
     portionSize: 1
     poweroutput: 3.0

@@ -55,8 +55,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityDefenderChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityGroupRespawnChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityReactionFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySensorDampenDuration;
@@ -413,6 +415,13 @@ public class PoliceDrone
     @DefaultIntValue(0)
     public int entityequipmentmin;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entityfactionloss;
+    /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
@@ -426,6 +435,13 @@ public class PoliceDrone
     @Stackable(true)
     @DefaultIntValue(1)
     public int entitygrouprespawnchance;
+    /**
+     * Reward for destroying this entity.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitykillbounty;
     /**
      * This attribute is used on entities to link them to a player ship group. This is then used to determine which overview icon they should get, among other things
      */
@@ -832,7 +848,7 @@ public class PoliceDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, DroneBandwidthMultiplier.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, ScanResolutionMultiplier.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, ScanSpeed.INSTANCE, DisallowAssistance.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStatus.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EmDamage.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, ExplosiveDamage.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, EntityArmorRepairDuration.INSTANCE, EntityArmorRepairAmount.INSTANCE, AITankingModifierDrone.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE, EntityGroupRespawnChance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, ECMEntityChance.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, EntitySensorDampenDurationChance.INSTANCE, ECMRangeOptimal.INSTANCE, EntitySensorDampenMaxRange.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntitySensorDampenDuration.INSTANCE, EntitySensorDampenFallOff.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceSmall.INSTANCE, ScanLadarStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceMedium.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceLarge.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, EntityArmorRepairDelayChanceSmall.INSTANCE, EntityArmorRepairDelayChanceMedium.INSTANCE, EntityArmorRepairDelayChanceLarge.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, DroneBandwidthMultiplier.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, ScanResolutionMultiplier.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, ScanSpeed.INSTANCE, DisallowAssistance.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStatus.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EmDamage.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, ExplosiveDamage.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, EntityArmorRepairDuration.INSTANCE, EntityArmorRepairAmount.INSTANCE, AITankingModifierDrone.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE, EntityGroupRespawnChance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, ECMDuration.INSTANCE, ECMEntityChance.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, EntitySensorDampenDurationChance.INSTANCE, ECMRangeOptimal.INSTANCE, EntitySensorDampenMaxRange.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntitySensorDampenDuration.INSTANCE, EntitySensorDampenFallOff.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, MaxTargetRangeMultiplier.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceSmall.INSTANCE, ScanLadarStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceMedium.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, EntityShieldBoostDelayChanceLarge.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, EntityArmorRepairDelayChanceSmall.INSTANCE, EntityArmorRepairDelayChanceMedium.INSTANCE, EntityArmorRepairDelayChanceLarge.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final PoliceDrone.MetaGroup METAGROUP = new PoliceDrone.MetaGroup();
 
     @Override
@@ -1002,6 +1018,10 @@ public class PoliceDrone
             {
                 return entityequipmentmin;
             }
+            case  562 :
+            {
+                return entityfactionloss;
+            }
             case  416 :
             {
                 return entityflyrange;
@@ -1009,6 +1029,10 @@ public class PoliceDrone
             case  640 :
             {
                 return entitygrouprespawnchance;
+            }
+            case  481 :
+            {
+                return entitykillbounty;
             }
             case  1766 :
             {

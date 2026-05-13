@@ -42,7 +42,7 @@ types:
     marketGroup: 680
     maxrange: 48000.0
     maxrangebonus: -17.19
-    metalevelold: 5
+    metalevelold: 5.0
     name: Tracking Disruptor II
     overloadtrackingmodulestrengthbonus: 20
     portionSize: 1
@@ -71,7 +71,7 @@ types:
     marketGroup: 680
     maxrange: 40000.0
     maxrangebonus: -16.24
-    metalevelold: 1
+    metalevelold: 1.0
     name: Baker Nunn Enduring Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     portionSize: 1
@@ -100,7 +100,7 @@ types:
     marketGroup: 680
     maxrange: 40000.0
     maxrangebonus: -16.24
-    metalevelold: 1
+    metalevelold: 1.0
     name: Balmer Series Compact Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     portionSize: 1
@@ -130,7 +130,7 @@ types:
     id: 5321
     marketGroup: 680
     maxrange: 40000.0
-    metalevelold: 1
+    metalevelold: 1.0
     missilevelocitybonus: -8.5
     name: C-IR Compact Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -159,7 +159,7 @@ types:
     marketGroup: 680
     maxrange: 44000.0
     maxrangebonus: -16.24
-    metalevelold: 1
+    metalevelold: 1.0
     name: DDO Scoped Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     portionSize: 1
@@ -190,7 +190,7 @@ types:
     marketGroup: 680
     maxrange: 48000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     missilevelocitybonus: -9.0
     name: '''Distributor'' Guidance Disruptor'
     overloadtrackingmodulestrengthbonus: 20
@@ -220,7 +220,7 @@ types:
     maxrange: 48000.0
     maxrangebonus: -17.19
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Investor'' Tracking Disruptor I'
     overloadtrackingmodulestrengthbonus: 20
     portionSize: 1
@@ -279,7 +279,7 @@ types:
     id: 37544
     marketGroup: 680
     maxrange: 44000.0
-    metalevelold: 1
+    metalevelold: 1.0
     missilevelocitybonus: -8.5
     name: Highstroke Scoped Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -309,7 +309,7 @@ types:
     id: 37545
     marketGroup: 680
     maxrange: 40000.0
-    metalevelold: 1
+    metalevelold: 1.0
     missilevelocitybonus: -8.5
     name: A-211 Enduring Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -339,7 +339,7 @@ types:
     id: 37546
     marketGroup: 680
     maxrange: 48000.0
-    metalevelold: 5
+    metalevelold: 5.0
     missilevelocitybonus: -9.0
     name: Guidance Disruptor II
     overloadtrackingmodulestrengthbonus: 20
@@ -352,4 +352,33 @@ types:
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
     techlevel: 2
+    volume: 5.0
+  92451:
+    aoecloudsizebonus: 13.0
+    aoevelocitybonus: -13.0
+    capacitorneed: 15.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    explosiondelaybonus: -10.0
+    falloffeffectiveness: 26000
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 3.4
+    hp: 40.0
+    id: 92451
+    marketGroup: 680
+    maxrange: 52000.0
+    metalevelold: 5.0
+    missilevelocitybonus: -10.0
+    name: Tenzin’s Modified Guidance Disruptor
+    overloadtrackingmodulestrengthbonus: 20
+    portionSize: 1
+    power: 1
+    published: true
+    reloadtime: 0.01
+    requiredskill1: 3434
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0

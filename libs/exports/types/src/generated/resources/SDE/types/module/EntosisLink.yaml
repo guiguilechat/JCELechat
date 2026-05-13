@@ -40,7 +40,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 50000.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Entosis Link II
     portionSize: 1
     power: 20
@@ -69,7 +69,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Noir. Modified Entosis Link
     portionSize: 1
     power: 10
@@ -98,7 +98,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Spectre Fleet's Modified Entosis Link
     portionSize: 1
     power: 7
@@ -127,7 +127,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Affirmative. Modified Entosis Link
     portionSize: 1
     power: 10
@@ -156,7 +156,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 24000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Pandemic SPHERE Modified Entosis Link
     portionSize: 1
     power: 10

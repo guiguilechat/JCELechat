@@ -56,7 +56,7 @@ types:
     mass: 1000.0
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Guided Bomb Launcher II
     onlinemaxsecurityclass: 1
     portionSize: 1

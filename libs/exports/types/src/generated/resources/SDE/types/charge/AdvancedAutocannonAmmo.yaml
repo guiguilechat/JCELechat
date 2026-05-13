@@ -13,7 +13,7 @@ types:
     marketGroup: 859
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Hail S
     portionSize: 5000
     powerneedmultiplier: 1
@@ -40,7 +40,7 @@ types:
     marketGroup: 859
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Barrage S
     portionSize: 5000
     powerneedmultiplier: 1
@@ -67,7 +67,7 @@ types:
     marketGroup: 858
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Barrage M
     portionSize: 5000
     powerneedmultiplier: 1
@@ -94,7 +94,7 @@ types:
     marketGroup: 857
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Barrage L
     portionSize: 5000
     powerneedmultiplier: 1
@@ -121,7 +121,7 @@ types:
     marketGroup: 858
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Hail M
     portionSize: 5000
     powerneedmultiplier: 1
@@ -148,7 +148,7 @@ types:
     marketGroup: 857
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Hail L
     portionSize: 5000
     powerneedmultiplier: 1
@@ -175,7 +175,7 @@ types:
     marketGroup: 2253
     mass: 1.0
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Hail XL
     portionSize: 100
     powerneedmultiplier: 1
@@ -203,7 +203,7 @@ types:
     marketGroup: 2253
     mass: 1.0
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Barrage XL
     portionSize: 100
     powerneedmultiplier: 1

@@ -127,7 +127,7 @@ types:
     id: 26324
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Drone Control Range Augmentor II
     portionSize: 1
     published: true
@@ -143,7 +143,7 @@ types:
     id: 26326
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Drone Durability Enhancer II
     portionSize: 1
     published: true
@@ -158,7 +158,7 @@ types:
     id: 26328
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 15
     name: Large Drone Mining Augmentor II
     portionSize: 1
@@ -176,7 +176,7 @@ types:
     id: 26330
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Drone Repair Augmentor II
     portionSize: 1
     published: true
@@ -191,7 +191,7 @@ types:
     id: 26332
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Drone Scope Chip II
     portionSize: 1
     published: true
@@ -208,7 +208,7 @@ types:
     id: 26334
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Drone Speed Augmentor II
     portionSize: 1
     published: true
@@ -225,7 +225,7 @@ types:
     id: 26338
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Sentry Damage Augmentor II
     portionSize: 1
     published: true
@@ -240,7 +240,7 @@ types:
     id: 26340
     marketGroup: 1215
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Stasis Drone Augmentor II
     portionSize: 1
     published: true
@@ -287,7 +287,7 @@ types:
     id: 32029
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Drone Control Range Augmentor II
     portionSize: 1
     published: true
@@ -303,7 +303,7 @@ types:
     id: 32031
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Drone Control Range Augmentor II
     portionSize: 1
     published: true
@@ -349,7 +349,7 @@ types:
     id: 32037
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Drone Durability Enhancer II
     portionSize: 1
     published: true
@@ -365,7 +365,7 @@ types:
     id: 32039
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Drone Durability Enhancer II
     portionSize: 1
     published: true
@@ -412,7 +412,7 @@ types:
     id: 32045
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 15
     name: Small Drone Mining Augmentor II
     portionSize: 1
@@ -429,7 +429,7 @@ types:
     id: 32047
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 15
     name: Medium Drone Mining Augmentor II
     portionSize: 1
@@ -477,7 +477,7 @@ types:
     id: 32053
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Drone Repair Augmentor II
     portionSize: 1
     published: true
@@ -493,7 +493,7 @@ types:
     id: 32055
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Drone Repair Augmentor II
     portionSize: 1
     published: true
@@ -539,7 +539,7 @@ types:
     id: 32061
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Drone Speed Augmentor II
     portionSize: 1
     published: true
@@ -556,7 +556,7 @@ types:
     id: 32063
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Drone Speed Augmentor II
     portionSize: 1
     published: true
@@ -602,7 +602,7 @@ types:
     id: 32073
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Drone Scope Chip II
     portionSize: 1
     published: true
@@ -618,7 +618,7 @@ types:
     id: 32075
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Drone Scope Chip II
     portionSize: 1
     published: true
@@ -665,7 +665,7 @@ types:
     id: 32085
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Sentry Damage Augmentor II
     portionSize: 1
     published: true
@@ -681,7 +681,7 @@ types:
     id: 32087
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Sentry Damage Augmentor II
     portionSize: 1
     published: true
@@ -726,7 +726,7 @@ types:
     id: 32093
     marketGroup: 1213
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Stasis Drone Augmentor II
     portionSize: 1
     published: true
@@ -742,7 +742,7 @@ types:
     id: 32095
     marketGroup: 1214
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Stasis Drone Augmentor II
     portionSize: 1
     published: true
@@ -774,7 +774,7 @@ types:
     id: 33279
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Drone Control Range Augmentor II
     portionSize: 1
     published: true
@@ -805,7 +805,7 @@ types:
     id: 33283
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Drone Durability Enhancer II
     portionSize: 1
     published: true
@@ -836,7 +836,7 @@ types:
     id: 33287
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamountbonus: 15
     name: Capital Drone Mining Augmentor II
     portionSize: 1
@@ -869,7 +869,7 @@ types:
     id: 33291
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Drone Repair Augmentor II
     portionSize: 1
     published: true
@@ -899,7 +899,7 @@ types:
     id: 33295
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Drone Scope Chip II
     portionSize: 1
     published: true
@@ -931,7 +931,7 @@ types:
     id: 33298
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Drone Speed Augmentor II
     portionSize: 1
     published: true
@@ -962,7 +962,7 @@ types:
     id: 33309
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Sentry Damage Augmentor II
     portionSize: 1
     published: true
@@ -992,7 +992,7 @@ types:
     id: 33313
     marketGroup: 1739
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Stasis Drone Augmentor II
     portionSize: 1
     published: true

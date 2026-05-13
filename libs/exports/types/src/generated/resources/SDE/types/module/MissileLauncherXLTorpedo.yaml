@@ -10,7 +10,7 @@ types:
     id: 3565
     marketGroup: 777
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: CONCORD XL Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -62,7 +62,7 @@ types:
     hp: 40.0
     id: 37294
     marketGroup: 777
-    metalevelold: 5
+    metalevelold: 5.0
     name: XL Torpedo Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -90,7 +90,7 @@ types:
     hp: 40.0
     id: 41180
     marketGroup: 777
-    metalevelold: 1
+    metalevelold: 1.0
     name: Arbalest Compact XL Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -116,7 +116,7 @@ types:
     hp: 40.0
     id: 41181
     marketGroup: 777
-    metalevelold: 1
+    metalevelold: 1.0
     name: TE-2100 Ample XL Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -144,7 +144,7 @@ types:
     id: 41182
     marketGroup: 777
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas XL Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1

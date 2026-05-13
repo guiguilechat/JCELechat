@@ -125,3 +125,45 @@ types:
     trackingspeedmultiplier: 0.5
     volume: 0.01
     weaponrangemultiplier: 1.5
+  92952:
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 1295.0
+    hp: 1.0
+    id: 92952
+    launchergroup: 1986
+    maincolor: 11646664
+    marketGroup: 3851
+    mass: 1.0
+    metagroupid: 2
+    name: Mystic XL
+    portionSize: 5000
+    published: true
+    requiredskill1: 92541
+    requiredskill1level: 1
+    techlevel: 2
+    thermaldamage: 2590.0
+    trackingspeedmultiplier: 0.5
+    volume: 0.01
+    weaponrangemultiplier: 1.5
+  92954:
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 2240.0
+    hp: 1.0
+    id: 92954
+    launchergroup: 1986
+    maincolor: 11646664
+    marketGroup: 3851
+    mass: 1.0
+    metagroupid: 2
+    name: Occult XL
+    portionSize: 5000
+    published: true
+    requiredskill1: 92541
+    requiredskill1level: 1
+    techlevel: 2
+    thermaldamage: 3150.0
+    trackingspeedmultiplier: 0.75
+    volume: 0.01
+    weaponrangemultiplier: 0.6

@@ -9,7 +9,7 @@ types:
     marketGroup: 865
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Spike S
     portionSize: 5000
     price: 150000.0
@@ -33,7 +33,7 @@ types:
     marketGroup: 865
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Javelin S
     portionSize: 5000
     price: 150000.0
@@ -57,7 +57,7 @@ types:
     marketGroup: 864
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Javelin M
     portionSize: 5000
     price: 600000.0
@@ -81,7 +81,7 @@ types:
     marketGroup: 863
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Javelin L
     portionSize: 5000
     price: 1500000.0
@@ -105,7 +105,7 @@ types:
     marketGroup: 864
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Spike M
     portionSize: 5000
     price: 600000.0
@@ -129,7 +129,7 @@ types:
     marketGroup: 863
     mass: 0.01
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Spike L
     portionSize: 5000
     price: 1500000.0
@@ -153,7 +153,7 @@ types:
     marketGroup: 2255
     mass: 0.5
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Javelin XL
     portionSize: 100
     price: 40000.0
@@ -178,7 +178,7 @@ types:
     marketGroup: 2255
     mass: 0.5
     maxvelocitymodifier: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Spike XL
     portionSize: 100
     price: 80000.0

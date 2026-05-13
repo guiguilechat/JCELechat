@@ -116,6 +116,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.ship.Marauder;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.MiningBarge;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.PrototypeExplorationShip;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Shuttle;
+import fr.guiguilechat.jcelechat.model.sde.types.ship.SpecialEditionYachts;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.StealthBomber;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.StrategicCruiser;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Supercarrier;
@@ -362,8 +363,8 @@ public abstract class Ship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Current load of power core
      */
@@ -848,7 +849,7 @@ public abstract class Ship
 
         @Override
         public Collection<IMetaGroup<? extends Ship>> groups() {
-            return Arrays.asList(Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Hauler.METAGROUP, Capsule.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, LancerDreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, ExpeditionCommandShip.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP);
+            return Arrays.asList(Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Hauler.METAGROUP, Capsule.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, LancerDreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, ExpeditionCommandShip.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, SpecialEditionYachts.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP);
         }
     }
 }

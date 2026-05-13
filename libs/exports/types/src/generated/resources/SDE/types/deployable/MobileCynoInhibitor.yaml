@@ -6,7 +6,7 @@ types:
     id: 33476
     marketGroup: 1832
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mobile Cynosural Inhibitor
     portionSize: 1
     published: true

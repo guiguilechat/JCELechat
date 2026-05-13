@@ -8,7 +8,7 @@ types:
     marketGroup: 666
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Capacitor Flux Coil'
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -47,7 +47,7 @@ types:
     id: 1248
     marketGroup: 666
     mass: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capacitor Flux Coil II
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -67,7 +67,7 @@ types:
     id: 8133
     marketGroup: 666
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Capacitor Flux Coil
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -87,7 +87,7 @@ types:
     id: 8135
     marketGroup: 666
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Capacitor Flux Coil
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -108,7 +108,7 @@ types:
     marketGroup: 666
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Page'' Capacitor Flux Coil I'
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -119,4 +119,24 @@ types:
     shieldcapacitymultiplier: 1.0
     shieldrechargeratemultiplier: 1.0
     techlevel: 1
+    volume: 5.0
+  93910:
+    capacitorcapacitymultiplier: 0.8
+    capacitorrechargeratemultiplier: 0.58
+    cpu: 16.0
+    hp: 40.0
+    id: 93910
+    marketGroup: 666
+    mass: 20.0
+    metalevelold: 5.0
+    name: Torigo’s Modified Capacitor Flux Coil
+    portionSize: 1
+    poweroutputmultiplier: 1.0
+    published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 5
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
     volume: 5.0

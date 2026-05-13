@@ -145,7 +145,7 @@ types:
     id: 2559
     marketGroup: 716
     maxrange: 34560.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ladar ECM II
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -173,7 +173,7 @@ types:
     id: 2563
     marketGroup: 715
     maxrange: 34560.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Magnetometric ECM II
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -201,7 +201,7 @@ types:
     id: 2567
     marketGroup: 719
     maxrange: 23040.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Multispectral ECM II
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -229,7 +229,7 @@ types:
     id: 2571
     marketGroup: 717
     maxrange: 34560.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Gravimetric ECM II
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -257,7 +257,7 @@ types:
     id: 2575
     marketGroup: 718
     maxrange: 34560.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Radar ECM II
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -285,7 +285,7 @@ types:
     id: 9521
     marketGroup: 719
     maxrange: 19200.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Initiated Enduring Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -313,7 +313,7 @@ types:
     id: 19923
     marketGroup: 715
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Morpheus Enduring Magnetometric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -341,7 +341,7 @@ types:
     id: 19925
     marketGroup: 715
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Aergia Compact Magnetometric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -369,7 +369,7 @@ types:
     id: 19927
     marketGroup: 715
     maxrange: 31680.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Hypnos Scoped Magnetometric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -397,7 +397,7 @@ types:
     id: 19929
     marketGroup: 719
     maxrange: 19200.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Induced Compact Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -425,7 +425,7 @@ types:
     id: 19931
     marketGroup: 719
     maxrange: 21120.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compulsive Scoped Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -453,7 +453,7 @@ types:
     id: 19935
     marketGroup: 716
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Languid Enduring Ladar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -481,7 +481,7 @@ types:
     id: 19937
     marketGroup: 716
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Halting Compact Ladar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -509,7 +509,7 @@ types:
     id: 19939
     marketGroup: 716
     maxrange: 31680.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Enfeebling Scoped Ladar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -537,7 +537,7 @@ types:
     id: 19942
     marketGroup: 717
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: FZ-3a Enduring Gravimetric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -565,7 +565,7 @@ types:
     id: 19944
     marketGroup: 717
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: CZ-4 Compact Gravimetric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -593,7 +593,7 @@ types:
     id: 19946
     marketGroup: 717
     maxrange: 31680.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: BZ-5 Scoped Gravimetric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -621,7 +621,7 @@ types:
     id: 19948
     marketGroup: 718
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Gloom Enduring Radar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -649,7 +649,7 @@ types:
     id: 19950
     marketGroup: 718
     maxrange: 28800.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Shade Compact Radar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -677,7 +677,7 @@ types:
     id: 19952
     marketGroup: 718
     maxrange: 31680.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Umbra Scoped Radar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -706,7 +706,7 @@ types:
     marketGroup: 719
     maxrange: 24960.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -735,7 +735,7 @@ types:
     marketGroup: 719
     maxrange: 27840.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Kaikka's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -764,7 +764,7 @@ types:
     marketGroup: 719
     maxrange: 30720.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Thon's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -793,7 +793,7 @@ types:
     marketGroup: 719
     maxrange: 33600.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Vepas' Modified Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -822,7 +822,7 @@ types:
     marketGroup: 719
     maxrange: 36480.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Estamel's Modified Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -851,7 +851,7 @@ types:
     marketGroup: 715
     maxrange: 34560.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Marshall'' Magnetometric ECM'
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -880,7 +880,7 @@ types:
     marketGroup: 716
     maxrange: 34560.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Gambler'' Ladar ECM'
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -909,7 +909,7 @@ types:
     marketGroup: 717
     maxrange: 34560.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Plunderer'' Gravimetric ECM'
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -938,7 +938,7 @@ types:
     marketGroup: 718
     maxrange: 34560.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Heist'' Radar ECM'
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -967,7 +967,7 @@ types:
     marketGroup: 715
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Legion Magnetometric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -996,7 +996,7 @@ types:
     marketGroup: 719
     maxrange: 26880.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Legion Multispectral ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1025,7 +1025,7 @@ types:
     marketGroup: 716
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Legion Ladar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1054,7 +1054,7 @@ types:
     marketGroup: 717
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Legion Gravimetric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1083,7 +1083,7 @@ types:
     marketGroup: 718
     maxrange: 36000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Legion Radar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1112,7 +1112,7 @@ types:
     marketGroup: 716
     maxrange: 35000.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Panola's Modified Ladar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1140,7 +1140,7 @@ types:
     id: 85003
     marketGroup: 718
     maxrange: 35000.0
-    metalevelold: 15
+    metalevelold: 15.0
     name: Panola's Modified Radar ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1168,7 +1168,7 @@ types:
     id: 85004
     marketGroup: 715
     maxrange: 35000.0
-    metalevelold: 15
+    metalevelold: 15.0
     name: Panola's Modified Magnetometric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1
@@ -1196,7 +1196,7 @@ types:
     id: 85005
     marketGroup: 717
     maxrange: 35000.0
-    metalevelold: 15
+    metalevelold: 15.0
     name: Panola's Modified Gravimetric ECM
     overloadecmstrengthbonus: 20
     portionSize: 1

@@ -71,7 +71,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 350.0
     metagroupid: 4
-    metalevelold: 7
+    metalevelold: 7.0
     miningamount: 42
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
@@ -173,7 +173,7 @@ types:
     maxlockedtargets: 8
     maxrange: 5000.0
     maxvelocity: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 33
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
@@ -228,7 +228,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 250.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 80
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 60
@@ -283,7 +283,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 90.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 1000
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 60
@@ -338,7 +338,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 550.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 37
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 40
@@ -442,7 +442,7 @@ types:
     maxlockedtargets: 8
     maxrange: 5000.0
     maxvelocity: 250.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 1000
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
@@ -497,7 +497,7 @@ types:
     maxrange: 5000.0
     maxvelocity: 275.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 1000
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 40
@@ -642,7 +642,7 @@ types:
     kineticdamageresonance: 1.0
     maxlockedtargets: 8
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningwastedvolumemultiplier: 1
     name: Mutated 'Excavator' Mining Drone
     orbitrange: 200
@@ -694,7 +694,7 @@ types:
     marketGroup: 158
     maxlockedtargets: 8
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningwastedvolumemultiplier: 1
     name: Mutated 'Excavator' Ice Harvesting Drone
     orbitrange: 200

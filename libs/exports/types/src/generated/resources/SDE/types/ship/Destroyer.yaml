@@ -708,7 +708,7 @@ types:
     warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0
   42685:
-    agility: 2.0
+    agility: 2.85
     armoremdamageresonance: 0.675
     armorexplosivedamageresonance: 0.675
     armorhp: 800.0
@@ -744,7 +744,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 2350
-    mass: 1500000.0
+    mass: 1550000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 2000
     maxlockedtargets: 6
@@ -781,7 +781,7 @@ types:
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
-    shipbonusrole7: 25.0
+    shipbonusrole7: 20.0
     shipbonusrole8: 37.5
     signatureradius: 65.0
     stasiswebifierresistance: 1.0

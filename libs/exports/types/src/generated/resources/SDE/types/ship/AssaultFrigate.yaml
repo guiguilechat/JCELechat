@@ -44,7 +44,7 @@ types:
     maxvelocity: 320.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Utu
     portionSize: 1
@@ -132,7 +132,7 @@ types:
     maxvelocity: 295.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Malice
     portionSize: 1
@@ -224,7 +224,7 @@ types:
     maxtargetrange: 38000.0
     maxvelocity: 295.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Vengeance
@@ -315,7 +315,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 375.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Wolf
@@ -407,7 +407,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 290.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Hawk
@@ -499,7 +499,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 281.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Harpy
@@ -590,7 +590,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 275.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Retribution
@@ -683,7 +683,7 @@ types:
     maxtargetrange: 37500.0
     maxvelocity: 368.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Jaguar
@@ -776,7 +776,7 @@ types:
     maxtargetrange: 47500.0
     maxvelocity: 308.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Ishkur
@@ -870,7 +870,7 @@ types:
     maxtargetrange: 42500.0
     maxvelocity: 306.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Enyo
@@ -959,7 +959,7 @@ types:
     maxvelocity: 355.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Freki
     portionSize: 1
@@ -1051,7 +1051,7 @@ types:
     maxvelocity: 350.0
     medslots: 5
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Cambion
     portionSize: 1
@@ -1240,7 +1240,7 @@ types:
     maxtargetrange: 42000.0
     maxvelocity: 460.0
     medslots: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Geri
@@ -1336,7 +1336,7 @@ types:
     maxvelocity: 325.0
     medslots: 4
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Shapash
     portionSize: 1

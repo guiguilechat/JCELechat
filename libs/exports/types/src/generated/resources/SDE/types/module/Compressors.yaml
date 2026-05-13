@@ -10,7 +10,7 @@ types:
     id: 62622
     marketGroup: 2815
     maxrange: 44000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Asteroid Ore Compressor I
     portionSize: 1
     power: 50
@@ -32,7 +32,7 @@ types:
     id: 62624
     marketGroup: 2815
     maxrange: 44000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Gas Compressor I
     portionSize: 1
     power: 50
@@ -54,7 +54,7 @@ types:
     id: 62625
     marketGroup: 2815
     maxrange: 83000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Asteroid Ore Compressor I
     portionSize: 1
     power: 50
@@ -76,7 +76,7 @@ types:
     id: 62626
     marketGroup: 2815
     maxrange: 83000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Gas Compressor I
     portionSize: 1
     power: 50
@@ -98,7 +98,7 @@ types:
     id: 62628
     marketGroup: 2815
     maxrange: 83000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Ice Compressor I
     portionSize: 1
     power: 50
@@ -120,7 +120,7 @@ types:
     id: 62630
     marketGroup: 2815
     maxrange: 83000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Mercoxit Compressor I
     portionSize: 1
     power: 50
@@ -142,7 +142,7 @@ types:
     id: 62631
     marketGroup: 2815
     maxrange: 83000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Moon Ore Compressor I
     portionSize: 1
     power: 50
@@ -164,7 +164,7 @@ types:
     id: 62632
     marketGroup: 2815
     maxrange: 144000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Asteroid Ore Compressor I
     portionSize: 1
     power: 100000
@@ -186,7 +186,7 @@ types:
     id: 62633
     marketGroup: 2815
     maxrange: 144000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Ice Compressor I
     portionSize: 1
     power: 100000
@@ -208,7 +208,7 @@ types:
     id: 62634
     marketGroup: 2815
     maxrange: 144000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Gas Compressor I
     portionSize: 1
     power: 100000
@@ -230,7 +230,7 @@ types:
     id: 62635
     marketGroup: 2815
     maxrange: 144000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Mercoxit Compressor I
     portionSize: 1
     power: 100000
@@ -252,7 +252,7 @@ types:
     id: 62636
     marketGroup: 2815
     maxrange: 144000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Moon Ore Compressor I
     portionSize: 1
     power: 100000

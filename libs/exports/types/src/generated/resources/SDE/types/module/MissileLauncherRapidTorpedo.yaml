@@ -40,7 +40,7 @@ types:
     hp: 40.0
     id: 37292
     marketGroup: 2247
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rapid Torpedo Launcher II
     overloadrofbonus: -15
     portionSize: 1
@@ -74,7 +74,7 @@ types:
     id: 37293
     marketGroup: 2247
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Rapid Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -104,7 +104,7 @@ types:
     hp: 40.0
     id: 41223
     marketGroup: 2247
-    metalevelold: 1
+    metalevelold: 1.0
     name: Arbalest Compact Rapid Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1
@@ -134,7 +134,7 @@ types:
     hp: 40.0
     id: 41224
     marketGroup: 2247
-    metalevelold: 1
+    metalevelold: 1.0
     name: TE-2100 Ample Rapid Torpedo Launcher
     overloadrofbonus: -15
     portionSize: 1

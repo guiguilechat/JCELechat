@@ -19,7 +19,7 @@ types:
     hp: 40.0
     id: 394
     marketGroup: 126
-    metalevelold: 5
+    metalevelold: 5.0
     name: Shield Recharger II
     portionSize: 1
     power: 1
@@ -35,7 +35,7 @@ types:
     hp: 40.0
     id: 6485
     marketGroup: 126
-    metalevelold: 1
+    metalevelold: 1.0
     name: M51 Benefactor Compact Shield Recharger
     portionSize: 1
     power: 1
@@ -52,7 +52,7 @@ types:
     id: 37805
     marketGroup: 126
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Republic Fleet Shield Recharger
     portionSize: 1
     power: 1

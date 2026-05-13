@@ -21,7 +21,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResona
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BastionMissileROFBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BastionModeArmorRepairAndShieldBoosterCapDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BastionModeArmorRepairCapDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BastionModeShieldBoosterCapDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BastionTurretROFBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
@@ -161,12 +162,19 @@ public class SiegeModule
     @DefaultIntValue(0)
     public int bastionmissilerofbonus;
     /**
-     * Reduces the cycle time and capacitor cost of Shield Booster and Armor Repairer modules for the bastion module. 
+     * Reduces the cycle time and capacitor cost of Armor Repairer modules for the bastion module. 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int bastionmodearmorrepairandshieldboostercapdurationbonus;
+    public int bastionmodearmorrepaircapdurationbonus;
+    /**
+     * Reduces the cycle time and capacitor cost of Shield Booster modules for the bastion module. 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int bastionmodeshieldboostercapdurationbonus;
     /**
      * Bastion effect bonus to turret rate of fire
      */
@@ -664,7 +672,7 @@ public class SiegeModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int weapondisruptionresistancebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SiegeTorpedoVelocityBonus.INSTANCE, SiegeLauncherROFBonus.INSTANCE, SiegeMissileDamageBonus.INSTANCE, SiegeTurretDamageBonus.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, SiegeHAWMissileROFBonus.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, DeactivateIfOffensive.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, ShieldThermalDamageResonance.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, IndustrialCoreBonusDroneDamageHP.INSTANCE, IndustrialCoreBonusDroneVelocity.INSTANCE, IndustrialCoreBonusDroneMining.INSTANCE, IndustrialCoreBonusDroneIceHarvesting.INSTANCE, IndustrialCoreBonusMiningBurstStrength.INSTANCE, IndustrialCoreBonusCommandBurstRange.INSTANCE, Power.INSTANCE, MissileVelocityBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, BastionMissileROFBonus.INSTANCE, BastionTurretROFBonus.INSTANCE, RemoteRepairImpedanceBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, SiegeRemoteLogisticsDurationBonus.INSTANCE, SiegeRemoteLogisticsAmountBonus.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, SiegeLocalLogisticsAmountBonus.INSTANCE, SiegeRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsDurationBonus.INSTANCE, IndustrialCoreLocalLogisticsDurationBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, IndustrialCoreLocalLogisticsAmountBonus.INSTANCE, RemoteAssistanceImpedanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SiegeMassMultiplier.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, ConsumptionQuantity.INSTANCE, BastionModeArmorRepairAndShieldBoosterCapDurationBonus.INSTANCE, ECMResistance.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, SpeedBonus.INSTANCE, HullKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, SiegeModeWarpStatus.INSTANCE, CommandBonusEffectiveAdd.INSTANCE, SpeedFactorFloor.INSTANCE, DisallowActivateOnWarp.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, DroneDamageBonus.INSTANCE, MaxLockedTargetsBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ArmorDamageAmountBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SiegeTorpedoVelocityBonus.INSTANCE, SiegeLauncherROFBonus.INSTANCE, SiegeMissileDamageBonus.INSTANCE, SiegeTurretDamageBonus.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, SiegeHAWMissileROFBonus.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, DeactivateIfOffensive.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, ShieldThermalDamageResonance.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, IndustrialCoreBonusDroneDamageHP.INSTANCE, IndustrialCoreBonusDroneVelocity.INSTANCE, IndustrialCoreBonusDroneMining.INSTANCE, IndustrialCoreBonusDroneIceHarvesting.INSTANCE, IndustrialCoreBonusMiningBurstStrength.INSTANCE, IndustrialCoreBonusCommandBurstRange.INSTANCE, Power.INSTANCE, MissileVelocityBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, BastionMissileROFBonus.INSTANCE, BastionTurretROFBonus.INSTANCE, RemoteRepairImpedanceBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, TechLevel.INSTANCE, DisallowTethering.INSTANCE, SiegeRemoteLogisticsDurationBonus.INSTANCE, SiegeRemoteLogisticsAmountBonus.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, SiegeLocalLogisticsAmountBonus.INSTANCE, BastionModeShieldBoosterCapDurationBonus.INSTANCE, SiegeRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsDurationBonus.INSTANCE, IndustrialCoreLocalLogisticsDurationBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, IndustrialCoreLocalLogisticsAmountBonus.INSTANCE, RemoteAssistanceImpedanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SiegeMassMultiplier.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, ConsumptionQuantity.INSTANCE, BastionModeArmorRepairCapDurationBonus.INSTANCE, ECMResistance.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, SpeedBonus.INSTANCE, HullKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, SiegeModeWarpStatus.INSTANCE, CommandBonusEffectiveAdd.INSTANCE, SpeedFactorFloor.INSTANCE, DisallowActivateOnWarp.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, DroneDamageBonus.INSTANCE, MaxLockedTargetsBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ArmorDamageAmountBonus.INSTANCE })));
     public static final SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
 
     @Override
@@ -704,7 +712,11 @@ public class SiegeModule
             }
             case  5964 :
             {
-                return bastionmodearmorrepairandshieldboostercapdurationbonus;
+                return bastionmodearmorrepaircapdurationbonus;
+            }
+            case  6187 :
+            {
+                return bastionmodeshieldboostercapdurationbonus;
             }
             case  3109 :
             {

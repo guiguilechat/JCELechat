@@ -23,7 +23,7 @@ types:
     id: 25563
     marketGroup: 967
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Signal Distortion Amplifier II
     portionSize: 1
     power: 1
@@ -40,7 +40,7 @@ types:
     id: 25565
     marketGroup: 967
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Hypnos Compact Signal Distortion Amplifier I
     portionSize: 1
     power: 1
@@ -57,7 +57,7 @@ types:
     id: 85006
     marketGroup: 967
     mass: 1.0
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Signal Distortion Amplifier
     portionSize: 1
     power: 1
@@ -74,7 +74,7 @@ types:
     id: 85007
     marketGroup: 967
     mass: 1.0
-    metalevelold: 15
+    metalevelold: 15.0
     name: Hanaruwa's Modified Signal Distortion Amplifier
     portionSize: 1
     power: 1

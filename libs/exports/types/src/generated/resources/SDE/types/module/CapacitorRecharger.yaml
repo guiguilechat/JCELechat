@@ -7,7 +7,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Capacitor Recharger'
     portionSize: 1
     power: 1
@@ -38,7 +38,7 @@ types:
     id: 2032
     marketGroup: 665
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Cap Recharger II
     portionSize: 1
     power: 1
@@ -54,7 +54,7 @@ types:
     id: 4435
     marketGroup: 665
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Eutectic Compact Cap Recharger
     portionSize: 1
     power: 1
@@ -71,7 +71,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: True Sansha Cap Recharger
     portionSize: 1
     power: 1
@@ -88,7 +88,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Cap Recharger
     portionSize: 1
     power: 1
@@ -105,7 +105,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Ammatar Navy Cap Recharger
     portionSize: 1
     power: 1
@@ -122,7 +122,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Brokara's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -139,7 +139,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Selynne's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -156,7 +156,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Vizan's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -173,7 +173,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Chelm's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -190,7 +190,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Cap Recharger
     portionSize: 1
     power: 1
@@ -207,7 +207,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Tairei's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -224,7 +224,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 12
+    metalevelold: 12.0
     name: Raysere's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -241,7 +241,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Ahremen's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -258,7 +258,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 5
-    metalevelold: 14
+    metalevelold: 14.0
     name: Draclira's Modified Cap Recharger
     portionSize: 1
     power: 1
@@ -275,7 +275,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Palisade'' Cap Recharger I'
     portionSize: 1
     power: 1
@@ -292,7 +292,7 @@ types:
     marketGroup: 665
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Khanid Navy Cap Recharger
     portionSize: 1
     power: 1

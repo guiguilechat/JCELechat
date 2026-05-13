@@ -61,7 +61,7 @@ types:
     id: 60315
     marketGroup: 2795
     maxrange: 1500.0
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 100
     miningwastedvolumemultiplier: 1
     name: ORE Gas Cloud Harvester

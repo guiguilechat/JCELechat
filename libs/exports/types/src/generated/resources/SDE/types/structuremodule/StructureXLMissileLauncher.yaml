@@ -31,7 +31,7 @@ types:
     id: 47323
     marketGroup: 2230
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Anticapital Missile Launcher II
     portionSize: 1
     power: 180000

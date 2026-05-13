@@ -42,7 +42,7 @@ types:
     id: 24438
     marketGroup: 938
     maxrangebonus: 7.5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Omnidirectional Tracking Link II
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -72,7 +72,7 @@ types:
     marketGroup: 938
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Federation Navy Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -102,7 +102,7 @@ types:
     marketGroup: 938
     maxrangebonus: 8.7
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Unit D-34343's Modified Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -132,7 +132,7 @@ types:
     marketGroup: 938
     maxrangebonus: 9.1
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Unit F-435454's Modified Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -162,7 +162,7 @@ types:
     marketGroup: 938
     maxrangebonus: 9.5
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Unit P-343554's Modified Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -192,7 +192,7 @@ types:
     marketGroup: 938
     maxrangebonus: 9.9
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Unit W-634's Modified Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -222,7 +222,7 @@ types:
     marketGroup: 938
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Sentient Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -251,7 +251,7 @@ types:
     id: 41031
     marketGroup: 938
     maxrangebonus: 6.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: AML Compact Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1
@@ -280,7 +280,7 @@ types:
     id: 41032
     marketGroup: 938
     maxrangebonus: 6.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Denny Enduring Omnidirectional Tracking Link
     overloadtrackingmodulestrengthbonus: 15
     portionSize: 1

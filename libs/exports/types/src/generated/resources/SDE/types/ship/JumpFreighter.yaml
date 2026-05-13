@@ -54,7 +54,7 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 150
     maxvelocity: 72.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rhea
     portionSize: 1
     poweroutput: 3.0
@@ -148,7 +148,7 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 150
     maxvelocity: 96.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nomad
     portionSize: 1
     poweroutput: 3.0
@@ -242,7 +242,7 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 150
     maxvelocity: 78.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Anshar
     portionSize: 1
     poweroutput: 3.0
@@ -336,7 +336,7 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 150
     maxvelocity: 84.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ark
     portionSize: 1
     poweroutput: 3.0

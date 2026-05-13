@@ -42,10 +42,10 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 10
     maxpassengers: 580
-    maxtargetrange: 150000.0
+    maxtargetrange: 127500.0
     maxvelocity: 194.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rook
     portionSize: 1
     poweroutput: 740.0
@@ -132,10 +132,10 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 10
     maxpassengers: 580
-    maxtargetrange: 125000.0
+    maxtargetrange: 112000.0
     maxvelocity: 240.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     name: Huginn
     portionSize: 1
     poweroutput: 750.0
@@ -223,10 +223,10 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 10
     maxpassengers: 580
-    maxtargetrange: 140000.0
+    maxtargetrange: 119000.0
     maxvelocity: 220.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     name: Lachesis
     portionSize: 1
     poweroutput: 850.0
@@ -314,10 +314,10 @@ types:
     maxdirectionalscanrange: 2.147483647E12
     maxlockedtargets: 10
     maxpassengers: 580
-    maxtargetrange: 130000.0
+    maxtargetrange: 110500.0
     maxvelocity: 205.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     name: Curse
     portionSize: 1
     poweroutput: 900.0

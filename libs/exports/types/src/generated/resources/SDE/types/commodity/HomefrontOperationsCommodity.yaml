@@ -98,4 +98,4 @@ types:
     portionSize: 1
     price: 350000.0
     published: true
-    volume: 5.0
+    volume: 0.01

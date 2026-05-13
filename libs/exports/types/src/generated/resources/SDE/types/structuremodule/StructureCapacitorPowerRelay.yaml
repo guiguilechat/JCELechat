@@ -20,7 +20,7 @@ types:
     id: 47358
     marketGroup: 2220
     mass: 500.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Capacitor Power Relay II
     portionSize: 1
     power: 60000

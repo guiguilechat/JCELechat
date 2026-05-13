@@ -14,7 +14,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: CONCORD Capital Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -119,7 +119,7 @@ types:
     mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small I-ax Enduring Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -146,7 +146,7 @@ types:
     mass: 20.0
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Coaxial Compact Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -173,7 +173,7 @@ types:
     mass: 20.0
     maxrange: 7700.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Small Solace Scoped Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -200,7 +200,7 @@ types:
     mass: 20.0
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium I-ax Enduring Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -227,7 +227,7 @@ types:
     mass: 20.0
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Coaxial Compact Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -254,7 +254,7 @@ types:
     mass: 20.0
     maxrange: 9625.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Medium Solace Scoped Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -281,7 +281,7 @@ types:
     mass: 20.0
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large I-ax Enduring Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -308,7 +308,7 @@ types:
     mass: 20.0
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Coaxial Compact Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -335,7 +335,7 @@ types:
     mass: 20.0
     maxrange: 13200.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Large Solace Scoped Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -363,7 +363,7 @@ types:
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Coreli C-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -391,7 +391,7 @@ types:
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Coreli B-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -419,7 +419,7 @@ types:
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Coreli A-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -447,7 +447,7 @@ types:
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Corelum C-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -475,7 +475,7 @@ types:
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Corelum B-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -503,7 +503,7 @@ types:
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Corelum A-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -531,7 +531,7 @@ types:
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centii C-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -559,7 +559,7 @@ types:
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centii B-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -587,7 +587,7 @@ types:
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centii A-Type Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -615,7 +615,7 @@ types:
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 10
+    metalevelold: 10.0
     name: Centum C-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -643,7 +643,7 @@ types:
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 12
+    metalevelold: 12.0
     name: Centum B-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -671,7 +671,7 @@ types:
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevelold: 14
+    metalevelold: 14.0
     name: Centum A-Type Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -699,7 +699,7 @@ types:
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Beatnik'' Small Remote Armor Repairer'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -727,7 +727,7 @@ types:
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Love'' Medium Remote Armor Repairer'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -755,7 +755,7 @@ types:
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Peace'' Large Remote Armor Repairer'
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -807,7 +807,7 @@ types:
     mass: 20.0
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Remote Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -834,7 +834,7 @@ types:
     mass: 20.0
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Remote Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -861,7 +861,7 @@ types:
     mass: 20.0
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Remote Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -911,7 +911,7 @@ types:
     mass: 20.0
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital I-ax Enduring Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -938,7 +938,7 @@ types:
     mass: 20.0
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Coaxial Compact Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -965,7 +965,7 @@ types:
     mass: 20.0
     maxrange: 16500.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Capital Solace Scoped Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -992,7 +992,7 @@ types:
     mass: 20.0
     maxrange: 18000.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Remote Armor Repairer II
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1020,7 +1020,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Capital Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1048,7 +1048,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Capital Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1075,7 +1075,7 @@ types:
     mass: 20.0
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 15
+    metalevelold: 15.0
     name: Asine's Modified Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1102,7 +1102,7 @@ types:
     mass: 20.0
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 15
+    metalevelold: 15.0
     name: Makra's Modified Small Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1129,7 +1129,7 @@ types:
     mass: 20.0
     maxrange: 13126.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 15
+    metalevelold: 15.0
     name: Gara's Modified Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1156,7 +1156,7 @@ types:
     mass: 20.0
     maxrange: 13126.0
     mediumremoterepfittingmultiplier: 1
-    metalevelold: 15
+    metalevelold: 15.0
     name: Ryhad's Modified Medium Remote Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0

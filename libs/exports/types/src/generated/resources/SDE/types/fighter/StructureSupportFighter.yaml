@@ -198,7 +198,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Cenobite II
     portionSize: 1
     published: true
@@ -246,7 +246,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Scarab II
     portionSize: 1
     published: true
@@ -288,7 +288,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Siren II
     portionSize: 1
     published: true
@@ -333,7 +333,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Standup Dromi II
     portionSize: 1
     published: true

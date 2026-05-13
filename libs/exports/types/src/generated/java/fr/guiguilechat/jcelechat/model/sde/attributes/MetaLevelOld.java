@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
  * The ranking of the module within its tech level
  */
 public class MetaLevelOld
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final MetaLevelOld INSTANCE = new MetaLevelOld();
 

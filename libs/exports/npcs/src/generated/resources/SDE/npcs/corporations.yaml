@@ -4207,6 +4207,7 @@ corporations:
     - 17184
     - 19449
     - 19524
+    - 19548
     name: CONCORD
   CONCORD Aerospace:
     faction: CONCORD Assembly
@@ -23184,6 +23185,16 @@ corporations:
     - 19441
     - 19442
     - 19446
+    - 19549
+    - 19550
+    - 19551
+    - 19552
+    - 19553
+    - 19554
+    - 19555
+    - 19556
+    - 19557
+    - 19558
     name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
@@ -30159,6 +30170,16 @@ corporations:
     - 19441
     - 19442
     - 19446
+    - 19549
+    - 19550
+    - 19551
+    - 19552
+    - 19553
+    - 19554
+    - 19555
+    - 19556
+    - 19557
+    - 19558
     name: Svarog Clade
   Tal-Romon Legion:
     faction: Amarr Empire
@@ -30396,6 +30417,16 @@ corporations:
     - 19441
     - 19442
     - 19446
+    - 19549
+    - 19550
+    - 19551
+    - 19552
+    - 19553
+    - 19554
+    - 19555
+    - 19556
+    - 19557
+    - 19558
     name: The Convocation of Triglav
   The Equilibrium of Mankind:
     id: 1000409
@@ -32775,6 +32806,16 @@ corporations:
     - 19441
     - 19442
     - 19446
+    - 19549
+    - 19550
+    - 19551
+    - 19552
+    - 19553
+    - 19554
+    - 19555
+    - 19556
+    - 19557
+    - 19558
     name: Veles Clade
   Verity Enhancements:
     faction: EverMore

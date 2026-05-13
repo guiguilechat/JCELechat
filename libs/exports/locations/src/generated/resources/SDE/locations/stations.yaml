@@ -87,6 +87,7 @@ locations:
     name: 0LTQ-C V - Moon 18 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -793,6 +794,7 @@ locations:
     name: 37S-KO VI - Moon 14 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -813,6 +815,7 @@ locations:
     name: 37S-KO VI - Moon 9 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1209,6 +1212,7 @@ locations:
     name: 54-VNO V - Moon 2 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1312,6 +1316,7 @@ locations:
     name: 54-VNO X - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1435,6 +1440,7 @@ locations:
     name: 5J-UEX IV - Moon 1 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1605,6 +1611,7 @@ locations:
     name: 6-HFD6 V - Moon 14 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1625,6 +1632,7 @@ locations:
     name: 6-HFD6 V - Moon 19 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1688,6 +1696,7 @@ locations:
     name: 69A-54 VIII - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1834,6 +1843,7 @@ locations:
     name: 6Y-0TW II - Moon 16 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -1875,6 +1885,7 @@ locations:
     name: 6Y-0TW III - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2064,6 +2075,7 @@ locations:
     name: 9-BUSQ VII - Moon 4 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2199,6 +2211,7 @@ locations:
     name: 98Q-8O V - Moon 8 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2239,6 +2252,7 @@ locations:
     name: 9GYL-O V - Moon 13 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2384,6 +2398,7 @@ locations:
     name: A-ELE2 VI - Blood Raiders Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2594,6 +2609,7 @@ locations:
     name: Aakari VII - Moon 6 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2711,6 +2727,7 @@ locations:
     name: Abaim V - Moon 1 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -2918,6 +2935,26 @@ locations:
     - Reprocessing Plant
     solarSystem: Abrat
     solarSystemId: 30013410
+  Abstention V - AIR Laboratories:
+    id: 60015209
+    name: Abstention V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Abstention
+    solarSystemId: 30100056
   Abudban IV - Tribal Liberation Force Logistic Support:
     id: 60015139
     name: Abudban IV - Tribal Liberation Force Logistic Support
@@ -3272,6 +3309,28 @@ locations:
     - Reprocessing Plant
     solarSystem: Adallier
     solarSystemId: 30015305
+  Adaz V - Emperor Family Bureau:
+    id: 60015230
+    name: Adaz V - Emperor Family Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Adaz
+    solarSystemId: 30100078
   Adeel VIII - Moon 1 - CONCORD Treasury:
     id: 60012364
     name: Adeel VIII - Moon 1 - CONCORD Treasury
@@ -3573,6 +3632,26 @@ locations:
     - Reprocessing Plant
     solarSystem: Adreland
     solarSystemId: 30002639
+  Adroit V - AIR Laboratories:
+    id: 60015202
+    name: Adroit V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Adroit
+    solarSystemId: 30100048
   Aedald VI - Moon 3 - Caldari Business Tribunal:
     id: 60003712
     name: Aedald VI - Moon 3 - Caldari Business Tribunal
@@ -3742,6 +3821,7 @@ locations:
     name: Aeditide V - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -5009,6 +5089,7 @@ locations:
     name: Airkio IX - Moon 7 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -5029,6 +5110,7 @@ locations:
     name: Airkio VII - Moon 2 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -5713,6 +5795,7 @@ locations:
     name: Akonoinen I - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -5855,6 +5938,7 @@ locations:
     name: Akora IX - Moon 8 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -6003,6 +6087,7 @@ locations:
     name: Alakgur VII - Moon 3 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -6342,6 +6427,26 @@ locations:
     - Reprocessing Plant
     solarSystem: Aldilur
     solarSystemId: 30003379
+  Aldoras VI - Science and Trade Institute:
+    id: 60015217
+    name: Aldoras VI - Science and Trade Institute
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Aldoras
+    solarSystemId: 30100065
   Aldranette IX - Moon 1 - FedMart Warehouse:
     id: 60011014
     name: Aldranette IX - Moon 1 - FedMart Warehouse
@@ -6567,6 +6672,7 @@ locations:
     name: Alenia V - Moon 5 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -6840,6 +6946,7 @@ locations:
     name: Algasienan IV - Moon 1 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -7868,6 +7975,7 @@ locations:
     name: Amamake IV - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -8628,6 +8736,7 @@ locations:
     name: Amo VIII - Moon 2 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -9228,6 +9337,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -9419,6 +9529,7 @@ locations:
     name: Anin IX - Moon 11 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10130,6 +10241,7 @@ locations:
     name: Ansila VI - Moon 2 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10229,6 +10341,7 @@ locations:
     name: Ansila X - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10330,6 +10443,7 @@ locations:
     name: Antem VI - Moon 7 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10350,6 +10464,7 @@ locations:
     name: Antem VIII - Moon 18 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10603,6 +10718,7 @@ locations:
     name: Anttiri V - Moon 14 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10661,6 +10777,7 @@ locations:
     name: Anttiri V - Moon 21 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -10681,6 +10798,7 @@ locations:
     name: Anttiri V - Moon 6 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -11279,6 +11397,7 @@ locations:
     name: Arant IV - Moon 1 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -11336,6 +11455,7 @@ locations:
     name: Arasare V - Moon 7 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -11812,6 +11932,7 @@ locations:
     name: Arifsdald III - Moon 10 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -11891,6 +12012,7 @@ locations:
     name: Aring VIII - Moon 7 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -12049,6 +12171,7 @@ locations:
     name: Arlulf III - Moon 11 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -12108,6 +12231,7 @@ locations:
     name: Arlulf VI - Moon 1 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -12437,6 +12561,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -12456,6 +12581,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -12475,6 +12601,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -12527,6 +12654,7 @@ locations:
     name: Arwa X - Moon 3 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -12778,6 +12906,7 @@ locations:
     name: Asesamy VI - Moon 8 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -12895,6 +13024,7 @@ locations:
     name: Asghatil IX - Moon 3 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -13370,6 +13500,7 @@ locations:
     name: Assah VII - Moon 7 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -13430,6 +13561,7 @@ locations:
     name: Assiad III - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -13450,6 +13582,7 @@ locations:
     name: Assiad VI - Moon 3 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14326,6 +14459,7 @@ locations:
     name: Auga VIII - Moon 2 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14515,6 +14649,7 @@ locations:
     name: Aulbres V - Moon 5 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14597,6 +14732,7 @@ locations:
     name: Aulbres VII - Moon 16 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14748,6 +14884,7 @@ locations:
     name: Aunenen III - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14928,6 +15065,7 @@ locations:
     name: Aunia I - Moon 11 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -14996,6 +15134,7 @@ locations:
     name: Aunsou II - Moon 1 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15035,6 +15174,7 @@ locations:
     name: Aunsou III - Moon 1 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15055,6 +15195,7 @@ locations:
     name: Aunsou III - Moon 4 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15347,6 +15488,7 @@ locations:
     name: Autaris I - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15367,6 +15509,7 @@ locations:
     name: Autaris IV - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15507,6 +15650,7 @@ locations:
     name: Auvergne V - Moon 5 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15658,6 +15802,7 @@ locations:
     name: Auviken VII - Moon 8 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -15696,6 +15841,7 @@ locations:
     name: Avada V - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -16015,6 +16161,46 @@ locations:
     - Stock Exchange
     solarSystem: Averon
     solarSystemId: 30003047
+  Axiosere V - Moon 1 - Federation Navy Logistic Support:
+    id: 60015223
+    name: Axiosere V - Moon 1 - Federation Navy Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Axiosere
+    solarSystemId: 30100060
+  Axiosere VII - Astral Mining Inc. Mining Outpost:
+    id: 60015224
+    name: Axiosere VII - Astral Mining Inc. Mining Outpost
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Refinery
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Axiosere
+    solarSystemId: 30100060
   Aydoteaux II - CreoDron Factory:
     id: 60010129
     name: Aydoteaux II - CreoDron Factory
@@ -16319,6 +16505,7 @@ locations:
     name: Azer VI - Moon 3 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -16602,6 +16789,7 @@ locations:
     name: BMNV-P XI - Moon 11 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -16950,6 +17138,7 @@ locations:
     name: Bahromab IX - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17039,6 +17228,7 @@ locations:
     name: Bahromab VIII - Moon 6 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17249,6 +17439,7 @@ locations:
     name: Bapraya X - Moon 6 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17442,6 +17633,7 @@ locations:
     name: Barleguet VII - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17482,6 +17674,7 @@ locations:
     name: Barleguet VII - Moon 9 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17577,6 +17770,7 @@ locations:
     name: Bashakru IV - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -17936,6 +18130,7 @@ locations:
     name: Bawilan V - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -18155,6 +18350,7 @@ locations:
     name: Bereye VI - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -18882,6 +19078,7 @@ locations:
     name: Bosboger VI - Moon 7 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -18921,6 +19118,7 @@ locations:
     name: Bosena V - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -18981,6 +19179,7 @@ locations:
     name: Boystin V - Moon 6 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -19614,6 +19813,7 @@ locations:
     name: CL-1JE III - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -19697,6 +19897,7 @@ locations:
     name: CL-85V IX - Moon 2 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -19737,6 +19938,7 @@ locations:
     name: CL-85V VI - Moon 8 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -19870,6 +20072,7 @@ locations:
     name: CZ-CED IV - Moon 18 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -19992,6 +20195,7 @@ locations:
     name: Caretyn VII - Moon 13 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -20012,6 +20216,7 @@ locations:
     name: Caretyn VII - Moon 18 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -20323,6 +20528,28 @@ locations:
     - Storage
     solarSystem: Cat
     solarSystemId: 30005026
+  Celerity V - Moon 1 - Mercantile Club Bureau:
+    id: 60015244
+    name: Celerity V - Moon 1 - Mercantile Club Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Celerity
+    solarSystemId: 30100039
   Chainelant VIII - Moon 3 - Imperial Armaments Factory:
     id: 60006547
     name: Chainelant VIII - Moon 3 - Imperial Armaments Factory
@@ -20367,6 +20594,7 @@ locations:
     name: Chamemi VI - Moon 1 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -21062,6 +21290,7 @@ locations:
     name: Chej VI - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -21241,6 +21470,7 @@ locations:
     name: Chidah V - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -21283,6 +21513,7 @@ locations:
     name: Chidah VIII - Moon 17 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -21334,6 +21565,26 @@ locations:
     - Stock Exchange
     solarSystem: Chiga
     solarSystemId: 30005253
+  Chivalric II - AIR Laboratories:
+    id: 60015207
+    name: Chivalric II - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Chivalric
+    solarSystemId: 30100054
   Choga II - Caldari Business Tribunal:
     id: 60003475
     name: Choga II - Caldari Business Tribunal
@@ -21924,6 +22175,45 @@ locations:
     - Reprocessing Plant
     solarSystem: Couster
     solarSystemId: 30014971
+  Couth III - Moon 1 - Inner Zone Shipping Storage:
+    id: 60015241
+    name: Couth III - Moon 1 - Inner Zone Shipping Storage
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Couth
+    solarSystemId: 30100044
+  Couth VIII - Moon 4 - CONCORD Assembly Plant:
+    id: 60015242
+    name: Couth VIII - Moon 4 - CONCORD Assembly Plant
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Couth
+    solarSystemId: 30100044
   Covryn III - Federal Defense Union Logistic Support:
     id: 60015090
     name: Covryn III - Federal Defense Union Logistic Support
@@ -22183,6 +22473,7 @@ locations:
     name: D87E-A VII - Moon 16 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22203,6 +22494,7 @@ locations:
     name: D87E-A VII - Moon 6 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22262,6 +22554,7 @@ locations:
     name: DLY-RG VIII - Moon 3 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22401,6 +22694,7 @@ locations:
     name: Dabrid IV - Moon 6 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22525,6 +22819,7 @@ locations:
     name: Dal III - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22659,6 +22954,7 @@ locations:
     name: Danera IV - Moon 1 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22679,6 +22975,7 @@ locations:
     name: Danera IV - Moon 9 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -22968,6 +23265,7 @@ locations:
     name: Dantumi VI - Moon 1 - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23125,6 +23423,7 @@ locations:
     name: Daras III - Ishukone Watch Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23222,6 +23521,7 @@ locations:
     name: Decon VI - Moon 10 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23262,6 +23562,7 @@ locations:
     name: Defsunun IV - Moon 1 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23282,6 +23583,7 @@ locations:
     name: Defsunun IX - Moon 15 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23427,6 +23729,48 @@ locations:
     - Stock Exchange
     solarSystem: Derririntel
     solarSystemId: 30005025
+  Dettisolin II - Tribal Liberation Force Logistic Support:
+    id: 60015236
+    name: Dettisolin II - Tribal Liberation Force Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Dettisolin
+    solarSystemId: 30100077
+  Dettisolin VII - Moon 2 - Republic Security Services Logistic Support:
+    id: 60015237
+    name: Dettisolin VII - Moon 2 - Republic Security Services Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Dettisolin
+    solarSystemId: 30100077
   Deven V - Moon 16 - Ducia Foundry Mining Outpost:
     id: 60006790
     name: Deven V - Moon 16 - Ducia Foundry Mining Outpost
@@ -23451,6 +23795,7 @@ locations:
     name: Diaderi II - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23511,6 +23856,7 @@ locations:
     name: Diaderi VIII - Moon 4 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23749,6 +24095,7 @@ locations:
     name: Dodixie IX - Moon 20 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23825,6 +24172,7 @@ locations:
     name: Doril I - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -23885,6 +24233,7 @@ locations:
     name: Dour VII - Moon 2 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -24043,6 +24392,26 @@ locations:
     - Stock Exchange
     solarSystem: Doza
     solarSystemId: 30005293
+  Dranga III - Republic University:
+    id: 60015213
+    name: Dranga III - Republic University
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Dranga
+    solarSystemId: 30100073
   Dresi I - Moon 1 - Freedom Extension Storage:
     id: 60005941
     name: Dresi I - Moon 1 - Freedom Extension Storage
@@ -24138,6 +24507,7 @@ locations:
     name: Dresi I - Moon 18 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -24300,6 +24670,7 @@ locations:
     name: Dudreda V - Moon 3 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -24342,6 +24713,7 @@ locations:
     name: Dudreda VI - Moon 12 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -24583,6 +24955,7 @@ locations:
     name: Dysa II - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25113,6 +25486,7 @@ locations:
     name: Ebtesham V - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25151,6 +25525,7 @@ locations:
     name: Ebtesham VI - Moon 2 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25577,6 +25952,7 @@ locations:
     name: Egghelende VII - Moon 20 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25616,6 +25992,7 @@ locations:
     name: Eglennaert I - Moon 1 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25694,6 +26071,7 @@ locations:
     name: Eglennaert I - Moon 14 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -25776,6 +26154,7 @@ locations:
     name: Eglennaert I - Moon 4 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -26027,6 +26406,7 @@ locations:
     name: Eitu III - Moon 12 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -26083,6 +26463,7 @@ locations:
     name: Eitu VI - Moon 10 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -26103,6 +26484,7 @@ locations:
     name: Eitu VI - Moon 21 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -26515,6 +26897,7 @@ locations:
     name: Eletta IX - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -26994,6 +27377,7 @@ locations:
     name: Emolgranlan VI - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27233,6 +27617,7 @@ locations:
     name: Enaluri V - State Protectorate Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27342,6 +27727,7 @@ locations:
     name: Endatoh VII - Moon 2 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27402,6 +27788,7 @@ locations:
     name: Enderailen VI - Moon 11 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27422,6 +27809,7 @@ locations:
     name: Enderailen VI - Moon 17 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27442,6 +27830,7 @@ locations:
     name: Enderailen VII - Moon 6 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27483,6 +27872,7 @@ locations:
     name: Enderailen VIII - Moon 3 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -27622,6 +28012,26 @@ locations:
     - Stock Exchange
     solarSystem: Ennur
     solarSystemId: 30002412
+  Equity V - AIR Laboratories:
+    id: 60015208
+    name: Equity V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Equity
+    solarSystemId: 30100055
   Eram IX - Moon 4 - Sebiestor Tribe Bureau:
     id: 60004486
     name: Eram IX - Moon 4 - Sebiestor Tribe Bureau
@@ -27872,6 +28282,7 @@ locations:
     name: Erenta II - Moon 2 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28071,6 +28482,26 @@ locations:
     - Stock Exchange
     solarSystem: Erstur
     solarSystemId: 30003419
+  Erudite III - AIR Laboratories:
+    id: 60015203
+    name: Erudite III - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Erudite
+    solarSystemId: 30100050
   Eruka II - Propel Dynamics Warehouse:
     id: 60002374
     name: Eruka II - Propel Dynamics Warehouse
@@ -28310,6 +28741,7 @@ locations:
     name: Eskunen X - Moon 13 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28330,6 +28762,7 @@ locations:
     name: Eskunen X - Moon 16 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28565,6 +28998,7 @@ locations:
     name: Eszur III - Tribal Liberation Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28732,6 +29166,7 @@ locations:
     name: Eugales V - Federal Defense Union Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28875,6 +29310,7 @@ locations:
     name: Evati IX - Moon 1 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -28895,6 +29331,7 @@ locations:
     name: Evati IX - Moon 12 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29199,6 +29636,7 @@ locations:
     name: Eystur III - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29219,6 +29657,7 @@ locations:
     name: Eystur III - Moon 1 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29335,6 +29774,7 @@ locations:
     name: F9SX-1 V - Moon 1 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29373,6 +29813,7 @@ locations:
     name: FD-MLJ VII - Moon 4 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29587,6 +30028,7 @@ locations:
     name: FR-RCH IV - Moon 2 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29834,6 +30276,7 @@ locations:
     name: Faswiba IX - Moon 8 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -29874,6 +30317,7 @@ locations:
     name: Faswiba VIII - Moon 11 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -30259,6 +30703,7 @@ locations:
     name: Finid X - Moon 1 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -30628,6 +31073,48 @@ locations:
     - Reprocessing Plant
     solarSystem: Fora
     solarSystemId: 30023489
+  Forte V - Moon 2 - DED Assembly Plant:
+    id: 60015248
+    name: Forte V - Moon 2 - DED Assembly Plant
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Forte
+    solarSystemId: 30100035
+  Fortitude III - Poteque Pharmaceuticals Biotech Production:
+    id: 60015247
+    name: Fortitude III - Poteque Pharmaceuticals Biotech Production
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - DNA Therapy
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Reprocessing Plant
+    - Surgery
+    solarSystem: Fortitude
+    solarSystemId: 30100034
   Foves V - Center for Advanced Studies School:
     id: 60014734
     name: Foves V - Center for Advanced Studies School
@@ -30653,6 +31140,7 @@ locations:
     name: Foves VII - Moon 10 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -30693,6 +31181,7 @@ locations:
     name: Foves VII - Moon 4 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -31302,6 +31791,7 @@ locations:
     name: Fricoure VIII - Moon 2 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -31654,6 +32144,7 @@ locations:
     name: Funtanainen VIII - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -31776,6 +32267,7 @@ locations:
     name: G-0Q86 VII - Moon 1 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -31838,6 +32330,7 @@ locations:
     name: G-G78S XI - Moon 3 - Dominations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32045,6 +32538,7 @@ locations:
     name: GDO-7H VI - Moon 1 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32107,6 +32601,7 @@ locations:
     name: GU-54G VIII - Moon 5 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32147,6 +32642,7 @@ locations:
     name: Gaha IV - Moon 5 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32736,6 +33232,7 @@ locations:
     name: Gehi IX - Moon 4 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32907,6 +33404,7 @@ locations:
     name: Gelfiven III - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -32949,6 +33447,7 @@ locations:
     name: Gelfiven IX - Moon 17 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -33098,6 +33597,7 @@ locations:
     name: Gelhan IX - Moon 6 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -33118,6 +33618,7 @@ locations:
     name: Gelhan V - Moon 1 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -33218,6 +33719,7 @@ locations:
     name: Gensela VIII - Moon 3 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -33746,6 +34248,7 @@ locations:
     name: Ghekon IV - Moon 8 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -34499,6 +35002,7 @@ locations:
     name: Goram VII - Moon 4 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -34655,6 +35159,7 @@ locations:
     name: Grinacanne I - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35470,6 +35975,7 @@ locations:
     name: H-ADOC IV - Moon 1 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35551,6 +36057,7 @@ locations:
     name: H-EDXD VIII - Moon 3 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35571,6 +36078,7 @@ locations:
     name: H-PA29 IV - Moon 2 - Guristas Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35591,6 +36099,7 @@ locations:
     name: H-PA29 V - Moon 1 - Guristas Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35655,6 +36164,7 @@ locations:
     name: H7OL-I IV - Moon 6 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35695,6 +36205,7 @@ locations:
     name: HLW-HP III - Moon 3 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35757,6 +36268,7 @@ locations:
     name: HLW-HP VI - Moon 1 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35819,6 +36331,7 @@ locations:
     name: HLW-HP VI - Moon 7 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35881,6 +36394,7 @@ locations:
     name: HM-UVD VIII - Moon 2 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -35970,6 +36484,7 @@ locations:
     name: Haajinen XI - Moon 7 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -36187,6 +36702,7 @@ locations:
     name: Haatomo VI - Moon 3 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -36507,6 +37023,7 @@ locations:
     name: Hadozeko IV - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -36546,6 +37063,7 @@ locations:
     name: Hadozeko VIII - Moon 5 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -36585,6 +37103,7 @@ locations:
     name: Hageken V - Moon 2 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -36952,6 +37471,7 @@ locations:
     name: Haimeh IX - Moon 8 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37042,6 +37562,7 @@ locations:
     name: Haine VI - Moon 6 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37307,6 +37828,7 @@ locations:
     name: Hakonen IX - Moon 9 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37549,6 +38071,7 @@ locations:
     name: Half VII - Moon 4 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37589,6 +38112,7 @@ locations:
     name: Half X - Moon 10 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37666,6 +38190,7 @@ locations:
     name: Hallanen IV - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37745,6 +38270,7 @@ locations:
     name: Halle VII - Moon 6 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -37804,6 +38330,7 @@ locations:
     name: Halmah IV - 24th Imperial Crusade Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -38752,6 +39279,7 @@ locations:
     name: Hegfunden IV - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -38892,6 +39420,7 @@ locations:
     name: Heild VII - Moon 12 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -38912,6 +39441,7 @@ locations:
     name: Heild VII - Moon 21 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -39092,6 +39622,7 @@ locations:
     name: Helgatild VII - Moon 10 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -39956,6 +40487,7 @@ locations:
     name: Hilaban II - Moon 1 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -40234,6 +40766,7 @@ locations:
     name: Hilaban VI - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -40469,6 +41002,7 @@ locations:
     name: Hirtamon VI - Moon 18 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -40619,6 +41153,7 @@ locations:
     name: Hisoufad X - Moon 15 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -41280,6 +41815,7 @@ locations:
     name: Hostni VII - Moon 18 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -41317,11 +41853,52 @@ locations:
     - Stock Exchange
     solarSystem: Hostni
     solarSystemId: 30001690
+  Hotak III - Moon 1 - Caldari Navy Logistic Support:
+    id: 60015218
+    name: Hotak III - Moon 1 - Caldari Navy Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Hotak
+    solarSystemId: 30100067
+  Hotak IX - Deep Core Mining Inc. Mining Outpost:
+    id: 60015219
+    name: Hotak IX - Deep Core Mining Inc. Mining Outpost
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Refinery
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Hotak
+    solarSystemId: 30100067
   Hothomouh VII - Moon 2 - Ammatar Fleet Assembly Plant:
     id: 60012130
     name: Hothomouh VII - Moon 2 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -41479,6 +42056,7 @@ locations:
     name: Hrokkur V - Moon 17 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42009,6 +42587,7 @@ locations:
     name: Hysera II - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42126,6 +42705,7 @@ locations:
     name: I0AB-R VI - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42168,6 +42748,7 @@ locations:
     name: I3Q-II VII - Moon 2 - Blood Raiders Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42188,6 +42769,7 @@ locations:
     name: I9D-0D II - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42208,6 +42790,7 @@ locations:
     name: I9D-0D VI - Moon 3 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42609,6 +43192,48 @@ locations:
     - Reprocessing Plant
     solarSystem: Ichinumi
     solarSystemId: 30041407
+  Ichorah IV - 24th Imperial Crusade Logistic Support:
+    id: 60015228
+    name: Ichorah IV - 24th Imperial Crusade Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Ichorah
+    solarSystemId: 30100084
+  Ichorah VII - Moon 1 - Ministry of Internal Order Testing Facilities:
+    id: 60015229
+    name: Ichorah VII - Moon 1 - Ministry of Internal Order Testing Facilities
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Laboratory
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Ichorah
+    solarSystemId: 30100084
   Ichoriya V - Veles Clade Mutaplasmid Farm:
     id: 60015147
     name: Ichoriya V - Veles Clade Mutaplasmid Farm
@@ -42617,6 +43242,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -42636,6 +43262,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -42751,6 +43378,7 @@ locations:
     name: Iges I - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42809,6 +43437,7 @@ locations:
     name: Iges VI - Moon 12 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -42929,6 +43558,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -42948,6 +43578,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -43216,6 +43847,7 @@ locations:
     name: Iivinen VIII - Moon 10 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -45040,6 +45672,7 @@ locations:
     name: Ipref II - Moon 1 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -45182,6 +45815,7 @@ locations:
     name: Irjunen II - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -45681,6 +46315,7 @@ locations:
     name: Isaziwa X - Moon 3 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -45771,6 +46406,7 @@ locations:
     name: Isaziwa XI - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -45870,6 +46506,7 @@ locations:
     name: Isbrabata VIII - Moon 5 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -46562,6 +47199,7 @@ locations:
     name: Ishomilken IX - Moon 4 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -46641,6 +47279,7 @@ locations:
     name: Isikano IV - Moon 1 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -46738,6 +47377,7 @@ locations:
     name: Isikemi I - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -46835,6 +47475,7 @@ locations:
     name: Isikemi V - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -47447,6 +48088,7 @@ locations:
     name: Istodard IX - Moon 5 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -48534,6 +49176,7 @@ locations:
     name: Jarizza II - Moon 1 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -49105,6 +49748,7 @@ locations:
     name: Jel VIII - Moon 20 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -49493,6 +50137,42 @@ locations:
     - Stock Exchange
     solarSystem: Jinkah
     solarSystemId: 30005046
+  Jita II - Sebiestor Tribe Trade Embassy:
+    id: 60015260
+    name: Jita II - Sebiestor Tribe Trade Embassy
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Jita
+    solarSystemId: 30000142
+  Jita III - Moon 1 - Tash-Murkon Family Trade Embassy:
+    id: 60015261
+    name: Jita III - Moon 1 - Tash-Murkon Family Trade Embassy
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Jita
+    solarSystemId: 30000142
   Jita IV - Caldari Business Tribunal Information Center:
     id: 60003469
     name: Jita IV - Caldari Business Tribunal Information Center
@@ -49596,6 +50276,7 @@ locations:
     name: Jita IV - Moon 4 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -49616,6 +50297,7 @@ locations:
     name: Jita IV - Moon 5 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -49780,6 +50462,24 @@ locations:
     - Stock Exchange
     solarSystem: Jita
     solarSystemId: 30000142
+  Jita VIII - Quafe Company Trade Embassy:
+    id: 60015262
+    name: Jita VIII - Quafe Company Trade Embassy
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Jita
+    solarSystemId: 30000142
   Jolevier VII - Moon 17 - TransStellar Shipping Storage:
     id: 60009163
     name: Jolevier VII - Moon 17 - TransStellar Shipping Storage
@@ -49936,6 +50636,7 @@ locations:
     name: Jorund VI - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50040,6 +50741,7 @@ locations:
     name: Josameto IV - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50118,6 +50820,7 @@ locations:
     name: Josameto VIII - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50511,6 +51214,7 @@ locations:
     name: Junsoraert VI - Moon 1 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50630,6 +51334,7 @@ locations:
     name: Juunigaishi III - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50685,6 +51390,7 @@ locations:
     name: Juunigaishi X - Moon 5 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50724,6 +51430,7 @@ locations:
     name: Juunigaishi XII - Moon 16 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50786,6 +51493,7 @@ locations:
     name: K-QWHE V - Moon 4 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50869,6 +51577,7 @@ locations:
     name: K-QWHE VII - Moon 8 - Dominations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50889,6 +51598,7 @@ locations:
     name: K3JR-J VIII - Guristas Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50952,6 +51662,7 @@ locations:
     name: KF1-DU VII - Moon 3 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -50972,6 +51683,7 @@ locations:
     name: KFIE-Z III - Moon 7 - Blood Raiders Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51033,6 +51745,7 @@ locations:
     name: KFR-ZE VII - Moon 6 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51241,6 +51954,7 @@ locations:
     name: KP-FQ1 III - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51561,6 +52275,7 @@ locations:
     name: Kaimon I - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51581,6 +52296,7 @@ locations:
     name: Kaimon II - Moon 10 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51640,6 +52356,7 @@ locations:
     name: Kaimon III - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51660,6 +52377,7 @@ locations:
     name: Kaimon III - Moon 10 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51777,6 +52495,7 @@ locations:
     name: Kakakela VI - Moon 15 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51797,6 +52516,7 @@ locations:
     name: Kakakela VI - Moon 18 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51847,6 +52567,7 @@ locations:
     name: Kakakela VII - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51867,6 +52588,7 @@ locations:
     name: Kakakela VII - Moon 13 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51887,6 +52609,7 @@ locations:
     name: Kakakela VII - Moon 16 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -51907,6 +52630,7 @@ locations:
     name: Kakakela VII - Moon 9 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -52208,6 +52932,26 @@ locations:
     - Stock Exchange
     solarSystem: Kamokor
     solarSystemId: 30001406
+  Kanta IV - Royal Amarr Institute:
+    id: 60015211
+    name: Kanta IV - Royal Amarr Institute
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Kanta
+    solarSystemId: 30100080
   Kappas VIII - Moon 1 - Science and Trade Institute School:
     id: 60015006
     name: Kappas VIII - Moon 1 - Science and Trade Institute School
@@ -52350,6 +53094,7 @@ locations:
     name: Kasrasi IX - Moon 7 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -52392,6 +53137,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52411,6 +53157,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52430,6 +53177,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52449,6 +53197,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52468,6 +53217,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52487,6 +53237,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52506,6 +53257,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52525,6 +53277,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52544,6 +53297,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -52820,6 +53574,7 @@ locations:
     name: Kenahehab IX - Moon 4 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -52840,6 +53595,7 @@ locations:
     name: Kenahehab VI - Moon 11 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -52860,6 +53616,7 @@ locations:
     name: Kenahehab VII - Moon 4 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -52936,6 +53693,7 @@ locations:
     name: Keproh VIII - Moon 3 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -53693,6 +54451,7 @@ locations:
     name: Kiereend VII - Moon 3 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -53757,6 +54516,7 @@ locations:
     name: Kihtaled VIII - Moon 7 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -53777,6 +54537,7 @@ locations:
     name: Kihtaled VIII - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -53830,6 +54591,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -53849,6 +54611,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -53868,6 +54631,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -53887,6 +54651,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -53906,6 +54671,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -53925,6 +54691,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -54109,6 +54876,28 @@ locations:
     - Reprocessing Plant
     solarSystem: Kisogo
     solarSystemId: 30000141
+  Kita-Aino V - Moon 8 - Chief Executive Panel Bureau:
+    id: 60015220
+    name: Kita-Aino V - Moon 8 - Chief Executive Panel Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Kita-Aino
+    solarSystemId: 30100064
   Kizama V - Moon 3 - The Scope Development Studio:
     id: 60010708
     name: Kizama V - Moon 3 - The Scope Development Studio
@@ -54199,6 +54988,7 @@ locations:
     name: Klingt III - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54237,6 +55027,7 @@ locations:
     name: Klingt IX - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54493,6 +55284,7 @@ locations:
     name: Klogori II - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54592,6 +55384,7 @@ locations:
     name: Klogori V - Moon 2 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54612,6 +55405,7 @@ locations:
     name: Klogori VI - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54805,6 +55599,7 @@ locations:
     name: Komaa VII - Moon 10 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54862,6 +55657,7 @@ locations:
     name: Komaa VII - Moon 7 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -54885,6 +55681,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -54904,6 +55701,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -55361,6 +56159,7 @@ locations:
     name: Korama VI - Moon 20 - Ishukone Watch Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -55381,6 +56180,7 @@ locations:
     name: Korama VI - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -55808,6 +56608,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -55827,6 +56628,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -55846,6 +56648,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -55902,6 +56705,7 @@ locations:
     name: Kubinen IX - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -56802,6 +57606,7 @@ locations:
     name: LGK-VP V - Moon 3 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -56864,6 +57669,7 @@ locations:
     name: LH-J8H X - Moon 1 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -57254,6 +58060,7 @@ locations:
     name: Lasleinur II - Moon 3 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -57342,6 +58149,7 @@ locations:
     name: Lasleinur V - Moon 11 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -57392,6 +58200,7 @@ locations:
     name: Lasleinur VI - Moon 17 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -57500,6 +58309,27 @@ locations:
     - Storage
     solarSystem: Lela
     solarSystemId: 30005259
+  Lenity V - Genolution Biotech Research Center:
+    id: 60015243
+    name: Lenity V - Genolution Biotech Research Center
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - DNA Therapy
+    - Docking
+    - Fitting
+    - Insurance
+    - Laboratory
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Reprocessing Plant
+    - Surgery
+    solarSystem: Lenity
+    solarSystemId: 30100042
   Leran VI - Civic Court Accounting:
     id: 60008824
     name: Leran VI - Civic Court Accounting
@@ -57788,6 +58618,7 @@ locations:
     name: Liekuri VI - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -57839,6 +58670,26 @@ locations:
     - Reprocessing Plant
     solarSystem: Liekuri
     solarSystemId: 30000154
+  Ligare V - University of Caille:
+    id: 60015214
+    name: Ligare V - University of Caille
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Ligare
+    solarSystemId: 30100059
   Liparer I - Joint Harvesting Mining Outpost:
     id: 60007363
     name: Liparer I - Joint Harvesting Mining Outpost
@@ -58397,6 +59248,7 @@ locations:
     name: Litom XI - Moon 2 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -58951,6 +59803,7 @@ locations:
     name: Luminaire VII (Caldari Prime) - Moon 5 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -58971,6 +59824,7 @@ locations:
     name: Luminaire VII (Caldari Prime) - Moon 6 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59009,6 +59863,7 @@ locations:
     name: Luse VI - Moon 1 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59042,6 +59897,28 @@ locations:
     - Stock Exchange
     solarSystem: Luse
     solarSystemId: 30005316
+  Lustre VI - Sisters of EVE Bureau:
+    id: 60015246
+    name: Lustre VI - Sisters of EVE Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Lustre
+    solarSystemId: 30100038
   Lustrevik III - Moon 2 - Quafe Company Warehouse:
     id: 60010054
     name: Lustrevik III - Moon 2 - Quafe Company Warehouse
@@ -59210,6 +60087,7 @@ locations:
     name: Lustrevik VIII - Moon 9 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59299,6 +60177,7 @@ locations:
     name: M-N7WD VIII - Moon 12 - Dominations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59398,6 +60277,7 @@ locations:
     name: MN5N-X VII - Moon 5 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59418,6 +60298,7 @@ locations:
     name: MN5N-X VIII - Moon 15 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59652,6 +60533,7 @@ locations:
     name: Madirmilire VI - Moon 12 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -59859,6 +60741,7 @@ locations:
     name: Maila V - Moon 2 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60004,6 +60887,7 @@ locations:
     name: Maire VI - Moon 23 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60085,6 +60969,7 @@ locations:
     name: Malkalen III - Ishukone Watch Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60420,6 +61305,7 @@ locations:
     name: Mani VII - Moon 10 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60435,6 +61321,64 @@ locations:
     - Security Office
     solarSystem: Mani
     solarSystemId: 30001658
+  Manifest IV - Moon 5 - Paragon Fulfillment Center:
+    id: 60015251
+    name: Manifest IV - Moon 5 - Paragon Fulfillment Center
+    services:
+    - Cloning
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Storage
+    solarSystem: Manifest
+    solarSystemId: 30100032
+  Manifest V - AIR Laboratories Trade Center:
+    id: 60015249
+    name: Manifest V - AIR Laboratories Trade Center
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Surgery
+    solarSystem: Manifest
+    solarSystemId: 30100032
+  Manifest VI - Moon 1 - CONCORD Bureau:
+    id: 60015252
+    name: Manifest VI - Moon 1 - CONCORD Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Manifest
+    solarSystemId: 30100032
   Manjonakko VI - Moon 3 - Corporate Police Force Testing Facilities:
     id: 60004315
     name: Manjonakko VI - Moon 3 - Corporate Police Force Testing Facilities
@@ -60860,6 +61804,7 @@ locations:
     name: Maspah IV - Moon 7 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60880,6 +61825,7 @@ locations:
     name: Maspah V - Moon 6 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60922,6 +61868,7 @@ locations:
     name: Mastakomon IX - Moon 2 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -60942,6 +61889,7 @@ locations:
     name: Mastakomon IX - Moon 3 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -61070,6 +62018,7 @@ locations:
     name: Mastakomon XI - Moon 2 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -61341,6 +62290,7 @@ locations:
     name: Maurasi IX - Moon 12 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -61394,6 +62344,26 @@ locations:
     - Storage
     solarSystem: Maut
     solarSystemId: 30003835
+  Mazor V - Hedion University:
+    id: 60015210
+    name: Mazor V - Hedion University
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Mazor
+    solarSystemId: 30100079
   Mehatoor I - Ministry of Internal Order Logistic Support:
     id: 60008221
     name: Mehatoor I - Ministry of Internal Order Logistic Support
@@ -61501,6 +62471,7 @@ locations:
     name: Melmaniel VI - Moon 5 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -61560,6 +62531,7 @@ locations:
     name: Melmaniel VIII - Moon 11 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -61839,6 +62811,26 @@ locations:
     - Storage
     solarSystem: Metserel
     solarSystemId: 30002637
+  Mettle IV - AIR Laboratories:
+    id: 60015198
+    name: Mettle IV - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Mettle
+    solarSystemId: 30100045
   Meunvon IV - Moon 3 - Impro Factory:
     id: 60013351
     name: Meunvon IV - Moon 3 - Impro Factory
@@ -61971,6 +62963,7 @@ locations:
     name: Mies V - Moon 3 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -62619,6 +63612,7 @@ locations:
     name: Misha IV - Moon 3 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -62682,6 +63676,7 @@ locations:
     name: Mishi VIII - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -62962,6 +63957,48 @@ locations:
     - Reprocessing Plant
     solarSystem: Mollin
     solarSystemId: 30003814
+  Mondaekus IV - Moon 1 - Federal Defense Union Logistic Support:
+    id: 60015226
+    name: Mondaekus IV - Moon 1 - Federal Defense Union Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Mondaekus
+    solarSystemId: 30100063
+  Mondaekus VIII - Federal Intelligence Office Testing Facilities:
+    id: 60015227
+    name: Mondaekus VIII - Federal Intelligence Office Testing Facilities
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Laboratory
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    solarSystem: Mondaekus
+    solarSystemId: 30100063
   Mora VI - Moon 4 - Ishukone Corporation Factory:
     id: 60002215
     name: Mora VI - Moon 4 - Ishukone Corporation Factory
@@ -63369,6 +64406,7 @@ locations:
     name: Murema IV - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -63389,6 +64427,7 @@ locations:
     name: Murethand VIII - Moon 2 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -63448,6 +64487,7 @@ locations:
     name: Muvolailen IX - Moon 11 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -63468,6 +64508,7 @@ locations:
     name: Muvolailen VIII - Moon 2 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -63890,6 +64931,7 @@ locations:
     name: NZG-LF VI - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64138,6 +65180,7 @@ locations:
     name: Nahol II - Moon 1 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64158,6 +65201,7 @@ locations:
     name: Nahol IV - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64239,6 +65283,7 @@ locations:
     name: Nahol X - Moon 2 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64318,6 +65363,7 @@ locations:
     name: Nahyeen IX - Moon 3 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64338,6 +65384,7 @@ locations:
     name: Nahyeen VI - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64780,6 +65827,7 @@ locations:
     name: Nakri V - Moon 5 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64944,6 +65992,7 @@ locations:
     name: Nalnifan IV - Moon 2 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -64983,6 +66032,7 @@ locations:
     name: Nalnifan VI - Moon 3 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -65126,6 +66176,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65145,6 +66196,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65256,6 +66308,7 @@ locations:
     name: Nandeza IX - Moon 13 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -65279,6 +66332,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65298,6 +66352,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65317,6 +66372,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65336,6 +66392,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -65373,6 +66430,7 @@ locations:
     name: Nannaras VII - Ishukone Watch Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66011,6 +67069,7 @@ locations:
     name: Neesher VI - Moon 15 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66031,6 +67090,7 @@ locations:
     name: Neesher VI - Moon 20 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66291,6 +67351,7 @@ locations:
     name: Nennamaila X - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66637,6 +67698,7 @@ locations:
     name: Neziel I - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66657,6 +67719,7 @@ locations:
     name: Nibainkier VII - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -66934,6 +67997,7 @@ locations:
     name: Niyabainen IV - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67247,6 +68311,7 @@ locations:
     name: Nomaa IV - Moon 2 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67307,6 +68372,7 @@ locations:
     name: Nonni I - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67452,6 +68518,7 @@ locations:
     name: Nonni III - Moon 1 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67528,6 +68595,7 @@ locations:
     name: Nonni IV - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67597,6 +68665,7 @@ locations:
     name: Nonni V - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67827,6 +68896,7 @@ locations:
     name: Notoras II - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67847,6 +68917,7 @@ locations:
     name: Notoras III - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67867,6 +68938,7 @@ locations:
     name: Notoras V - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67905,6 +68977,7 @@ locations:
     name: Nourvukaiken III - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67925,6 +68998,7 @@ locations:
     name: Nourvukaiken III - Moon 1 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -67985,6 +69059,7 @@ locations:
     name: Nourvukaiken VI - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -68023,6 +69098,7 @@ locations:
     name: Nourvukaiken VII - Moon 10 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -68061,6 +69137,7 @@ locations:
     name: Nourvukaiken VII - Moon 14 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -68409,6 +69486,7 @@ locations:
     name: Octanneve III - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -68450,6 +69528,7 @@ locations:
     name: Octanneve IV - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -68549,6 +69628,7 @@ locations:
     name: Octanneve V - Moon 1 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69271,6 +70351,7 @@ locations:
     name: Ohmahailen V - Moon 6 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69291,6 +70372,7 @@ locations:
     name: Ohmahailen V - Moon 7 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69371,6 +70453,7 @@ locations:
     name: Oichiya VI - Moon 19 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69484,6 +70567,7 @@ locations:
     name: Oijamon VI - Moon 17 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69504,6 +70588,7 @@ locations:
     name: Oimmo IV - Moon 10 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69524,6 +70609,7 @@ locations:
     name: Oimmo V - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69563,6 +70649,7 @@ locations:
     name: Oimmo VII - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69764,6 +70851,7 @@ locations:
     name: Oipo IV - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69784,6 +70872,7 @@ locations:
     name: Oipo IV - Moon 10 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69862,6 +70951,7 @@ locations:
     name: Oisio V - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69882,6 +70972,7 @@ locations:
     name: Oisio V - Moon 10 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69902,6 +70993,7 @@ locations:
     name: Oisio V - Moon 6 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69922,6 +71014,7 @@ locations:
     name: Oisio VI - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69963,6 +71056,7 @@ locations:
     name: Okkamon III - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -69983,6 +71077,7 @@ locations:
     name: Okkamon VII - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -70305,6 +71400,7 @@ locations:
     name: Olide IV - Moon 7 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -70542,6 +71638,7 @@ locations:
     name: Olo II - Moon 3 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -70699,6 +71796,7 @@ locations:
     name: Ommare VI - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -70719,6 +71817,7 @@ locations:
     name: Ommare VII - Moon 5 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -70777,6 +71876,7 @@ locations:
     name: Onatoh IV - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -71231,6 +72331,7 @@ locations:
     name: Onuse VII - Moon 11 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -71266,6 +72367,7 @@ locations:
     name: Oppold III - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72007,6 +73109,7 @@ locations:
     name: Orkashu VI - Moon 7 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72027,6 +73130,7 @@ locations:
     name: Orvolle I - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72221,6 +73325,7 @@ locations:
     name: Oshaima VII - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72320,6 +73425,7 @@ locations:
     name: Osmeden VII - Moon 18 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72376,6 +73482,7 @@ locations:
     name: Osmeden XII - Moon 1 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -72894,6 +74001,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -72913,6 +74021,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -72932,6 +74041,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -72951,6 +74061,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -72970,6 +74081,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -72989,6 +74101,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -73008,6 +74121,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -73027,6 +74141,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -73365,6 +74480,7 @@ locations:
     name: Otsasai VIII - Moon 18 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -73385,6 +74501,7 @@ locations:
     name: Otsasai VIII - Moon 3 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -73405,6 +74522,7 @@ locations:
     name: Otsasai VIII - Moon 8 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -73552,6 +74670,7 @@ locations:
     name: Oulley IV - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -73572,6 +74691,7 @@ locations:
     name: Oulley IV - Moon 1 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -73985,6 +75105,7 @@ locations:
     name: Oyonata IV - Moon 1 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74026,6 +75147,7 @@ locations:
     name: P-VYVL VII - Moon 1 - Guristas Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74212,6 +75334,7 @@ locations:
     name: PO4F-3 V - Moon 6 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74253,6 +75376,7 @@ locations:
     name: PO4F-3 VI - Moon 4 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74356,6 +75480,7 @@ locations:
     name: PQWA-L VII - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74466,6 +75591,7 @@ locations:
     name: PZP1-D IX - Moon 5 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74932,6 +76058,7 @@ locations:
     name: Palas II - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -74952,6 +76079,7 @@ locations:
     name: Palas VII - Moon 11 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75119,6 +76247,26 @@ locations:
     - Storage
     solarSystem: Pamah
     solarSystemId: 30005232
+  Pamirasu VI - School of Applied Knowledge:
+    id: 60015216
+    name: Pamirasu VI - School of Applied Knowledge
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Pamirasu
+    solarSystemId: 30100066
   Pananan VIII - Moon 3 - Amarr Constructions Warehouse:
     id: 60006178
     name: Pananan VIII - Moon 3 - Amarr Constructions Warehouse
@@ -75282,6 +76430,7 @@ locations:
     name: Parses VI - Moon 11 - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75385,6 +76534,7 @@ locations:
     name: Parts V - Moon 1 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75463,6 +76613,7 @@ locations:
     name: Pashanai III - Moon 2 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75685,6 +76836,7 @@ locations:
     name: Pator III (Huggar) - Moon 2 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75786,6 +76938,7 @@ locations:
     name: Pator VII (Kulheim) - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -75957,6 +77110,7 @@ locations:
     name: Pelille III - Moon 5 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76026,6 +77180,7 @@ locations:
     name: Pelille VI - Moon 10 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76259,6 +77414,7 @@ locations:
     name: Penirgman IX - Moon 3 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76442,6 +77598,7 @@ locations:
     name: Penirgman VI - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76492,6 +77649,7 @@ locations:
     name: Penirgman VII - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76658,6 +77816,7 @@ locations:
     name: Perimeter II - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -76999,6 +78158,7 @@ locations:
     name: Piak III - Moon 19 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77152,6 +78312,7 @@ locations:
     name: Piekura VII - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77192,6 +78353,7 @@ locations:
     name: Piekura VIII - Moon 11 - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77252,6 +78414,7 @@ locations:
     name: Piekura VIII - Moon 8 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77434,6 +78597,7 @@ locations:
     name: Pochelympe IX - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77665,6 +78829,7 @@ locations:
     name: Poinen V - Moon 12 - Internal Security Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77705,6 +78870,7 @@ locations:
     name: Poinen V - Moon 26 - Internal Security Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77767,6 +78933,7 @@ locations:
     name: Poitot VI - Moon 17 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -77847,6 +79014,7 @@ locations:
     name: Polfaly V - Moon 2 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78046,6 +79214,7 @@ locations:
     name: Prism VII - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78365,6 +79534,7 @@ locations:
     name: QFEW-K IV - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78427,6 +79597,7 @@ locations:
     name: QFEW-K VI - Moon 1 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78596,6 +79767,7 @@ locations:
     name: RA-NXN I - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78616,6 +79788,7 @@ locations:
     name: RA-NXN VII - Moon 18 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78710,6 +79883,7 @@ locations:
     name: RLL-9R IX - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78768,6 +79942,7 @@ locations:
     name: RPS-0K VIII - Moon 1 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -78845,6 +80020,7 @@ locations:
     name: RV5-DW VII - Moon 2 - True Power Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79153,6 +80329,7 @@ locations:
     name: Rakapas V - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79327,6 +80504,7 @@ locations:
     name: Raneilles III - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79347,6 +80525,7 @@ locations:
     name: Raneilles V - Moon 2 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79547,6 +80726,7 @@ locations:
     name: Rannoze VII - Moon 2 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79585,6 +80765,7 @@ locations:
     name: Raravath IV - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79743,6 +80924,7 @@ locations:
     name: Rashy VI - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -79840,6 +81022,28 @@ locations:
     - Stock Exchange
     solarSystem: Ratillose
     solarSystemId: 30003602
+  Ratiocinate IX - Inner Circle Bureau:
+    id: 60015245
+    name: Ratiocinate IX - Inner Circle Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Ratiocinate
+    solarSystemId: 30100040
   Raussinen IX - Moon 13 - Poksu Mineral Group Mining Outpost:
     id: 60000715
     name: Raussinen IX - Moon 13 - Poksu Mineral Group Mining Outpost
@@ -80072,6 +81276,7 @@ locations:
     name: Reblier VII - Moon 10 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -80092,6 +81297,7 @@ locations:
     name: Reblier VII - Moon 4 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -80448,6 +81654,7 @@ locations:
     name: Renyn IX - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -80503,11 +81710,32 @@ locations:
     - Reprocessing Plant
     solarSystem: Renyn
     solarSystemId: 30004970
+  Repute IV - AIR Laboratories:
+    id: 60015199
+    name: Repute IV - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Repute
+    solarSystemId: 30100047
   Resbroko I - Moon 7 - Republic Fleet Assembly Plant:
     id: 60004891
     name: Resbroko I - Moon 7 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -81010,6 +82238,22 @@ locations:
     - Stock Exchange
     solarSystem: Ridoner
     solarSystemId: 30003457
+  Rigor V - Native Freshfood Warehouse:
+    id: 60015238
+    name: Rigor V - Native Freshfood Warehouse
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Rigor
+    solarSystemId: 30100041
   Riramia VI - Moon 12 - TransStellar Shipping Storage:
     id: 60009298
     name: Riramia VI - Moon 12 - TransStellar Shipping Storage
@@ -81232,6 +82476,26 @@ locations:
     - Security Office
     solarSystem: Rorsins
     solarSystemId: 30002721
+  Rotonos IV - Moon 2 - Center for Advanced Studies:
+    id: 60015215
+    name: Rotonos IV - Moon 2 - Center for Advanced Studies
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Rotonos
+    solarSystemId: 30100058
   Roushzar II - Emperor Family Bureau:
     id: 60008551
     name: Roushzar II - Emperor Family Bureau
@@ -81488,6 +82752,7 @@ locations:
     name: Ruvas IV - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -81889,6 +83154,7 @@ locations:
     name: Saatuban IX - Moon 2 - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -81986,6 +83252,7 @@ locations:
     name: Saatuban VIII - Moon 2 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -82123,6 +83390,7 @@ locations:
     name: Safizon II - Moon 1 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -82156,6 +83424,26 @@ locations:
     - Storage
     solarSystem: Safshela
     solarSystemId: 30003879
+  Sagacity VII - AIR Laboratories:
+    id: 60015201
+    name: Sagacity VII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Sagacity
+    solarSystemId: 30100049
   Sagain V - Inherent Implants Biotech Production:
     id: 60006961
     name: Sagain V - Inherent Implants Biotech Production
@@ -82472,6 +83760,7 @@ locations:
     name: Saila VII - Moon 14 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -82652,6 +83941,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -83001,6 +84291,7 @@ locations:
     name: Sankkasen II - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83081,6 +84372,7 @@ locations:
     name: Sankkasen VII - Moon 10 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83156,6 +84448,7 @@ locations:
     name: Sankkasen VII - Moon 8 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83332,6 +84625,7 @@ locations:
     name: Sarekuwa III - Moon 8 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83352,6 +84646,7 @@ locations:
     name: Sarenemi V - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83444,6 +84739,7 @@ locations:
     name: Sarline VII - Moon 16 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83464,6 +84760,7 @@ locations:
     name: Sarline VII - Moon 18 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83502,6 +84799,7 @@ locations:
     name: Sarline VIII - Moon 7 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83542,6 +84840,7 @@ locations:
     name: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -83664,6 +84963,7 @@ locations:
     name: Sasta VI - Moon 3 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84116,6 +85416,7 @@ locations:
     name: Scolluzer XI - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84398,6 +85699,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -84647,6 +85949,7 @@ locations:
     name: Shafrak VIII - Moon 9 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84667,6 +85970,7 @@ locations:
     name: Shaha IV - Moon 1 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84687,6 +85991,7 @@ locations:
     name: Shaha IV - Moon 2 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84813,6 +86118,7 @@ locations:
     name: Sharhelund VI - Moon 3 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84851,6 +86157,7 @@ locations:
     name: Sharhelund VIII - Moon 5 - Sarum Family Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -84871,6 +86178,7 @@ locations:
     name: Sharza III - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -85607,6 +86915,7 @@ locations:
     name: Shuria X - Moon 16 - Ministry of Internal Order Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -86314,6 +87623,7 @@ locations:
     name: Sirseshin VIII - Moon 3 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -86690,6 +88000,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -86869,6 +88180,7 @@ locations:
     name: Sobaseki VIII - Moon 1 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -86889,6 +88201,7 @@ locations:
     name: Sobaseki X - Moon 1 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -86955,6 +88268,7 @@ locations:
     name: Sobaseki XI - Moon 1 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -87009,6 +88323,26 @@ locations:
     - Storage
     solarSystem: Sobaseki
     solarSystemId: 30001363
+  Solemn V - AIR Laboratories:
+    id: 60015205
+    name: Solemn V - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Solemn
+    solarSystemId: 30100051
   Soliara IX - Moon 13 - Impro Factory:
     id: 60013312
     name: Soliara IX - Moon 13 - Impro Factory
@@ -87325,6 +88659,7 @@ locations:
     name: Sortet V - Moon 1 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -87900,6 +89235,7 @@ locations:
     name: Stacmon V - Moon 9 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -88041,6 +89377,22 @@ locations:
     - Reprocessing Plant
     solarSystem: Stayme
     solarSystemId: 30002675
+  Steadfast IV - Moon 1 - Nurtura Warehouse:
+    id: 60015240
+    name: Steadfast IV - Moon 1 - Nurtura Warehouse
+    services:
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Steadfast
+    solarSystemId: 30100043
   Stegette III - Moon 6 - Duvolle Laboratories Factory:
     id: 60010942
     name: Stegette III - Moon 6 - Duvolle Laboratories Factory
@@ -88787,6 +90139,7 @@ locations:
     name: Straloin VI - Moon 11 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -88849,6 +90202,7 @@ locations:
     name: Sujarento VIII - Moon 1 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89076,6 +90430,7 @@ locations:
     name: Suroken IX - Moon 18 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89135,6 +90490,7 @@ locations:
     name: Suroken VI - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89155,6 +90511,7 @@ locations:
     name: Suroken VII - Moon 1 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89194,6 +90551,7 @@ locations:
     name: Suroken VIII - Moon 12 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89214,6 +90572,7 @@ locations:
     name: Suroken VIII - Moon 13 - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89543,6 +90902,7 @@ locations:
     name: T-YWDD VII - Moon 13 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89812,6 +91172,7 @@ locations:
     name: TO21-U VIII - Moon 1 - Jove Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89967,6 +91328,7 @@ locations:
     name: Taff V - Moon 13 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -89987,6 +91349,7 @@ locations:
     name: Taff V - Moon 16 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -90060,6 +91423,46 @@ locations:
     - Reprocessing Plant
     solarSystem: Tahli
     solarSystemId: 30005245
+  Taikud IV - Amarr Navy Logistic Support:
+    id: 60015231
+    name: Taikud IV - Amarr Navy Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Taikud
+    solarSystemId: 30100081
+  Taikud XI - Moon 1 - HZO Refinery Mining Outpost:
+    id: 60015232
+    name: Taikud XI - Moon 1 - HZO Refinery Mining Outpost
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Refinery
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Taikud
+    solarSystemId: 30100081
   Taisy III - Minedrill Refinery:
     id: 60000826
     name: Taisy III - Minedrill Refinery
@@ -90184,6 +91587,7 @@ locations:
     name: Tamo V - Moon 11 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -90623,6 +92027,7 @@ locations:
     name: Tarta IX - Moon 14 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -90841,6 +92246,7 @@ locations:
     name: Tasabeshi I - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -91013,6 +92419,7 @@ locations:
     name: Tash-Murkon Prime III - Moon 1 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -91253,6 +92660,46 @@ locations:
     - Reprocessing Plant
     solarSystem: Tasti
     solarSystemId: 30000195
+  Tatrys II - House of Records Information Center:
+    id: 60015221
+    name: Tatrys II - House of Records Information Center
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Reprocessing Plant
+    - Stock Exchange
+    solarSystem: Tatrys
+    solarSystemId: 30100070
+  Tatrys V - Moon 3 - State Protectorate Logistic Support:
+    id: 60015222
+    name: Tatrys V - Moon 3 - State Protectorate Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Tatrys
+    solarSystemId: 30100070
   Tekaima I - Moon 1 - CONCORD Bureau:
     id: 60012259
     name: Tekaima I - Moon 1 - CONCORD Bureau
@@ -91280,6 +92727,7 @@ locations:
     name: Tekaima V - Moon 9 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -91295,6 +92743,26 @@ locations:
     - Security Office
     solarSystem: Tekaima
     solarSystemId: 30005200
+  Tenacity VI - AIR Laboratories:
+    id: 60015204
+    name: Tenacity VI - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Tenacity
+    solarSystemId: 30100052
   Tendhyes VIII - Kaalakiota Corporation Factory:
     id: 60001069
     name: Tendhyes VIII - Kaalakiota Corporation Factory
@@ -91359,6 +92827,7 @@ locations:
     name: Tennen VIII - Moon 4 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -91398,6 +92867,7 @@ locations:
     name: Teonusude III - Moon 1 - Republic Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -91685,6 +93155,7 @@ locations:
     name: Teskanen IV - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -92162,6 +93633,7 @@ locations:
     name: Thiarer VII - Moon 4 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -92177,6 +93649,28 @@ locations:
     - Security Office
     solarSystem: Thiarer
     solarSystemId: 30000069
+  Tiberis III - President Bureau:
+    id: 60015225
+    name: Tiberis III - President Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Tiberis
+    solarSystemId: 30100057
   Tidacha VIII - Moon 13 - Ammatar Consulate Bureau:
     id: 60012553
     name: Tidacha VIII - Moon 13 - Ammatar Consulate Bureau
@@ -92215,6 +93709,46 @@ locations:
     - Storage
     solarSystem: Tierijev
     solarSystemId: 30005334
+  Tindfjalla IV - Minmatar Mining Corporation Mining Outpost:
+    id: 60015235
+    name: Tindfjalla IV - Minmatar Mining Corporation Mining Outpost
+    services:
+    - Bounty Missions
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Refinery
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Tindfjalla
+    solarSystemId: 30100074
+  Tindfjalla V - Republic Fleet Logistic Support:
+    id: 60015234
+    name: Tindfjalla V - Republic Fleet Logistic Support
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Surgery
+    solarSystem: Tindfjalla
+    solarSystemId: 30100074
   Tintoh V - Moon 5 - Sukuuvestaa Corporation Warehouse:
     id: 60002776
     name: Tintoh V - Moon 5 - Sukuuvestaa Corporation Warehouse
@@ -92393,6 +93927,7 @@ locations:
     name: Tividu IV - Moon 10 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -92413,6 +93948,7 @@ locations:
     name: Tividu IV - Moon 3 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -92581,6 +94117,7 @@ locations:
     name: Todifrauan VII - Moon 8 - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -92917,6 +94454,7 @@ locations:
     name: Torrinos V - Moon 6 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -93130,6 +94668,7 @@ locations:
     name: Tourier III - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -93150,6 +94689,7 @@ locations:
     name: Tourier VI - Moon 13 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -93192,6 +94732,7 @@ locations:
     name: Toustain VI - Moon 16 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -93738,6 +95279,7 @@ locations:
     name: Tsuguwa VI - Caldari Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -93844,6 +95386,26 @@ locations:
     - Surgery
     solarSystem: Tukanas
     solarSystemId: 30004275
+  Tungna IV - Moon 6 - Pator Tech School:
+    id: 60015212
+    name: Tungna IV - Moon 6 - Pator Tech School
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Tungna
+    solarSystemId: 30100072
   Tunttaras IX - Moon 11 - Ytiri Storage:
     id: 60000370
     name: Tunttaras IX - Moon 11 - Ytiri Storage
@@ -93891,6 +95453,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -93910,6 +95473,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -93990,6 +95554,7 @@ locations:
     name: Turnur II - Moon 5 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94066,6 +95631,7 @@ locations:
     name: Tuuriainas II - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94470,6 +96036,7 @@ locations:
     name: Uchat X - Moon 18 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94512,6 +96079,7 @@ locations:
     name: Uchoshi I - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94532,6 +96100,7 @@ locations:
     name: Uchoshi IX - Moon 2 - CONCORD Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94814,6 +96383,7 @@ locations:
     name: Uemisaisen V - Moon 5 - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94855,6 +96425,7 @@ locations:
     name: Uemisaisen VII - Moon 16 - Home Guard Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -94875,6 +96446,7 @@ locations:
     name: Uemisaisen VII - Wiyrkomi Peace Corps Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -95012,6 +96584,7 @@ locations:
     name: Uesuro V - Moon 15 - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -95110,6 +96683,7 @@ locations:
     name: Uisper IX - Moon 5 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -95814,6 +97388,7 @@ locations:
     name: Unpas VI - Moon 3 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -96113,6 +97688,7 @@ locations:
     name: Uphallant V - Moon 14 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -96348,6 +97924,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -96643,6 +98220,7 @@ locations:
     name: Utopia VI - Moon 22 - Dominations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -96804,6 +98382,7 @@ locations:
     name: Uuhulanen X - Lai Dai Protection Service Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -96959,6 +98538,7 @@ locations:
     name: Uzistoon VI - Moon 3 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -96979,6 +98559,7 @@ locations:
     name: Uzistoon VII - Moon 15 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -97048,6 +98629,7 @@ locations:
     name: V4-L0X IV - Moon 1 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -97087,6 +98669,7 @@ locations:
     name: V7D-JD IX - Moon 17 - Archangels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -97521,6 +99104,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -97540,6 +99124,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -97551,6 +99136,26 @@ locations:
     - Storage
     solarSystem: Vale
     solarSystemId: 30005029
+  Valiance IV - AIR Laboratories:
+    id: 60015206
+    name: Valiance IV - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Valiance
+    solarSystemId: 30100053
   Van III - Moon 1 - Amarr Constructions Warehouse:
     id: 60006187
     name: Van III - Moon 1 - Amarr Constructions Warehouse
@@ -97805,6 +99410,28 @@ locations:
     - Surgery
     solarSystem: Vashkah
     solarSystemId: 30002230
+  Vatna III - Republic Parliament Bureau:
+    id: 60015233
+    name: Vatna III - Republic Parliament Bureau
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Fitting
+    - Insurance
+    - Interbus
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    - Security Office
+    - Stock Exchange
+    solarSystem: Vatna
+    solarSystemId: 30100071
   Vattuolen IX - Chief Executive Panel Bureau:
     id: 60003364
     name: Vattuolen IX - Chief Executive Panel Bureau
@@ -97832,6 +99459,7 @@ locations:
     name: Vattuolen X - Moon 14 - Peace and Order Unit Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -98275,6 +99903,26 @@ locations:
     - Surgery
     solarSystem: Vellaine
     solarSystemId: 30001380
+  Venerate VIII - AIR Laboratories:
+    id: 60015200
+    name: Venerate VIII - AIR Laboratories
+    services:
+    - Bounty Missions
+    - Cloning
+    - Courier Missions
+    - Docking
+    - Factory
+    - Fitting
+    - Insurance
+    - Loyalty Point Store
+    - Market
+    - Navy Offices
+    - News
+    - Office Rental
+    - Repair Facilities
+    - Reprocessing Plant
+    solarSystem: Venerate
+    solarSystemId: 30100046
   Venilen IX - Moon 10 - Expert Distribution Warehouse:
     id: 60002623
     name: Venilen IX - Moon 10 - Expert Distribution Warehouse
@@ -98613,6 +100261,7 @@ locations:
     name: Vezila IV - Royal Khanid Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -98957,6 +100606,7 @@ locations:
     name: Vittenyn VI - Moon 13 - Federation Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -98995,6 +100645,7 @@ locations:
     name: Vivanier II - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -99103,6 +100754,7 @@ locations:
     name: Vivanier VI - Moon 8 - Federation Customs Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -99123,6 +100775,7 @@ locations:
     name: Vivanier VII - Moon 12 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -99890,6 +101543,7 @@ locations:
     name: Vuorrassi V - Moon 1 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -99940,6 +101594,7 @@ locations:
     name: Vuorrassi V - Moon 13 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -100031,6 +101686,7 @@ locations:
     name: Vuorrassi VI - Moon 3 - Spacelane Patrol Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -100169,6 +101825,7 @@ locations:
     name: W-VXL9 IV - Moon 21 - True Creations Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -100679,6 +102336,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -100698,6 +102356,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -100717,6 +102376,7 @@ locations:
     - Docking
     - Factory
     - Fitting
+    - Insurance
     - Jump Clone Facility
     - Loyalty Point Store
     - Market
@@ -100853,6 +102513,7 @@ locations:
     name: Wysalan VIII - Moon 1 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -101361,6 +103022,7 @@ locations:
     name: YZ-LQL VII - Moon 1 - Guardian Angels Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -101381,6 +103043,7 @@ locations:
     name: YZ9-F6 V - Blood Raiders Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -101478,6 +103141,7 @@ locations:
     name: Yarebap VI - Moon 5 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -101498,6 +103162,7 @@ locations:
     name: Yarebap VII - Moon 18 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -101933,6 +103598,7 @@ locations:
     name: Ylandoki V - Moon 10 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102105,6 +103771,7 @@ locations:
     name: Yona VIII - Moon 8 - Republic Security Services Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102208,6 +103875,7 @@ locations:
     name: Yria III - Moon 6 - Corporate Police Force Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102406,6 +104074,7 @@ locations:
     name: Yulai X - DED Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102445,6 +104114,7 @@ locations:
     name: Yuzier V - Moon 1 - Ammatar Fleet Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102509,6 +104179,7 @@ locations:
     name: Yvaeroure X - Moon 14 - Federal Intelligence Office Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102727,6 +104398,7 @@ locations:
     name: Z3V-1W VII - Blood Raiders Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102824,6 +104496,7 @@ locations:
     name: ZN0-SR VI - Moon 4 - Intaki Space Police Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory
@@ -102906,6 +104579,7 @@ locations:
     name: Zaimeth IX - Moon 15 - Amarr Navy Assembly Plant
     services:
     - Bounty Missions
+    - Cloning
     - Courier Missions
     - Docking
     - Factory

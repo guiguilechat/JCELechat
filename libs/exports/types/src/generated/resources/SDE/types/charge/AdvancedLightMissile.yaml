@@ -18,7 +18,7 @@ types:
     marketGroup: 927
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Fury Light Missile
     portionSize: 5000
     price: 101160.0
@@ -52,7 +52,7 @@ types:
     marketGroup: 917
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Precision Light Missile
     portionSize: 5000
     price: 101160.0
@@ -88,7 +88,7 @@ types:
     marketGroup: 927
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Fury Light Missile
     portionSize: 5000
     price: 101160.0
@@ -123,7 +123,7 @@ types:
     marketGroup: 927
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Fury Light Missile
     portionSize: 5000
     price: 101160.0
@@ -157,7 +157,7 @@ types:
     marketGroup: 927
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Fury Light Missile
     portionSize: 5000
     price: 101160.0
@@ -193,7 +193,7 @@ types:
     marketGroup: 917
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Precision Light Missile
     portionSize: 5000
     price: 101160.0
@@ -228,7 +228,7 @@ types:
     marketGroup: 917
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Precision Light Missile
     portionSize: 5000
     price: 101160.0
@@ -263,7 +263,7 @@ types:
     marketGroup: 917
     mass: 700.0
     maxvelocity: 3750.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Precision Light Missile
     portionSize: 5000
     price: 101160.0

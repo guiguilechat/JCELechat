@@ -35,7 +35,7 @@ types:
     maincolor: 5215864
     marketGroup: 3809
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ubiquitous Moon Mining Crystal Type A II
     portionSize: 1
     price: 1537920.0
@@ -89,7 +89,7 @@ types:
     maincolor: 5215864
     marketGroup: 3808
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Common Moon Mining Crystal Type A II
     portionSize: 1
     price: 1634688.0
@@ -143,7 +143,7 @@ types:
     maincolor: 5215864
     marketGroup: 3810
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Uncommon Moon Mining Crystal Type A II
     portionSize: 1
     price: 1731456.0
@@ -197,7 +197,7 @@ types:
     maincolor: 5215864
     marketGroup: 3811
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rare Moon Mining Crystal Type A II
     portionSize: 1
     price: 1828224.0
@@ -251,7 +251,7 @@ types:
     maincolor: 5215864
     marketGroup: 3812
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Exceptional Moon Mining Crystal Type A II
     portionSize: 1
     price: 1924992.0
@@ -358,7 +358,7 @@ types:
     maincolor: 5215864
     marketGroup: 3801
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Simple Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 480000.0
@@ -386,7 +386,7 @@ types:
     maincolor: 5215864
     marketGroup: 3801
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Simple Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 600000.0
@@ -414,7 +414,7 @@ types:
     maincolor: 5215864
     marketGroup: 3801
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Simple Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 720000.0
@@ -524,7 +524,7 @@ types:
     maincolor: 5215864
     marketGroup: 3802
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Coherent Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 864000.0
@@ -552,7 +552,7 @@ types:
     maincolor: 5215864
     marketGroup: 3802
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Coherent Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 1080000.0
@@ -580,7 +580,7 @@ types:
     maincolor: 5215864
     marketGroup: 3802
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Coherent Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 1296000.0
@@ -690,7 +690,7 @@ types:
     maincolor: 5215864
     marketGroup: 3803
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Variegated Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 1368000.0
@@ -718,7 +718,7 @@ types:
     maincolor: 5215864
     marketGroup: 3803
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Variegated Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 1710000.0
@@ -746,7 +746,7 @@ types:
     maincolor: 5215864
     marketGroup: 3803
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Variegated Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 2052000.0
@@ -856,7 +856,7 @@ types:
     maincolor: 5215864
     marketGroup: 3804
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Complex Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 1728000.0
@@ -884,7 +884,7 @@ types:
     maincolor: 5215864
     marketGroup: 3804
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Complex Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 2160000.0
@@ -912,7 +912,7 @@ types:
     maincolor: 5215864
     marketGroup: 3804
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Complex Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 2592000.0
@@ -1022,7 +1022,7 @@ types:
     maincolor: 5215864
     marketGroup: 3806
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Abyssal Asteroid Mining Crystal Type A II
     portionSize: 1
     price: 1728000.0
@@ -1050,7 +1050,7 @@ types:
     maincolor: 5215864
     marketGroup: 3806
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Abyssal Asteroid Mining Crystal Type B II
     portionSize: 1
     price: 2160000.0
@@ -1078,7 +1078,7 @@ types:
     maincolor: 5215864
     marketGroup: 3806
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Abyssal Asteroid Mining Crystal Type C II
     portionSize: 1
     price: 2592000.0
@@ -1162,7 +1162,7 @@ types:
     maincolor: 5215864
     marketGroup: 3809
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ubiquitous Moon Mining Crystal Type B II
     portionSize: 1
     price: 1922400.0
@@ -1190,7 +1190,7 @@ types:
     maincolor: 5215864
     marketGroup: 3809
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Ubiquitous Moon Mining Crystal Type C II
     portionSize: 1
     price: 2306880.0
@@ -1274,7 +1274,7 @@ types:
     maincolor: 5215864
     marketGroup: 3808
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Common Moon Mining Crystal Type B II
     portionSize: 1
     price: 2043360.0
@@ -1302,7 +1302,7 @@ types:
     maincolor: 5215864
     marketGroup: 3808
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Common Moon Mining Crystal Type C II
     portionSize: 1
     price: 2452032.0
@@ -1386,7 +1386,7 @@ types:
     maincolor: 5215864
     marketGroup: 3810
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Uncommon Moon Mining Crystal Type B II
     portionSize: 1
     price: 2164320.0
@@ -1414,7 +1414,7 @@ types:
     maincolor: 5215864
     marketGroup: 3810
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Uncommon Moon Mining Crystal Type C II
     portionSize: 1
     price: 2597184.0
@@ -1498,7 +1498,7 @@ types:
     maincolor: 5215864
     marketGroup: 3811
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rare Moon Mining Crystal Type B II
     portionSize: 1
     price: 2285280.0
@@ -1526,7 +1526,7 @@ types:
     maincolor: 5215864
     marketGroup: 3811
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Rare Moon Mining Crystal Type C II
     portionSize: 1
     price: 2742336.0
@@ -1610,7 +1610,7 @@ types:
     maincolor: 5215864
     marketGroup: 3812
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Exceptional Moon Mining Crystal Type B II
     portionSize: 1
     price: 2406240.0
@@ -1638,7 +1638,7 @@ types:
     maincolor: 5215864
     marketGroup: 3812
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Exceptional Moon Mining Crystal Type C II
     portionSize: 1
     price: 2887488.0
@@ -1720,7 +1720,7 @@ types:
     maincolor: 5215864
     marketGroup: 3807
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Erratic Ore Mining Crystal Type A II
     portionSize: 1
     price: 1728000.0
@@ -1776,7 +1776,7 @@ types:
     maincolor: 5215864
     marketGroup: 3807
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Erratic Ore Mining Crystal Type C II
     portionSize: 1
     price: 2592000.0
@@ -1805,7 +1805,7 @@ types:
     maincolor: 5215864
     marketGroup: 3807
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Erratic Ore Mining Crystal Type B II
     portionSize: 1
     price: 2160000.0

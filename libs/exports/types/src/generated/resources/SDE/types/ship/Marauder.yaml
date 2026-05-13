@@ -48,7 +48,7 @@ types:
     maxtargetrange: 118300.0
     maxvelocity: 100.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Paladin
     portionSize: 1
@@ -143,7 +143,7 @@ types:
     maxtargetrange: 117000.0
     maxvelocity: 105.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Kronos
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     maxtargetrange: 105300.0
     maxvelocity: 110.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Vargur
     portionSize: 1
@@ -335,7 +335,7 @@ types:
     maxtargetrange: 123500.0
     maxvelocity: 100.0
     medslots: 7
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Golem
     portionSize: 1
@@ -429,7 +429,7 @@ types:
     maxtargetrange: 93000.0
     maxvelocity: 115.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Babaroga
     portionSize: 1

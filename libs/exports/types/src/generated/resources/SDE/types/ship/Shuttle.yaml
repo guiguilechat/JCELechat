@@ -306,7 +306,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: Goru's Shuttle
     portionSize: 1
     poweroutput: 25.0
@@ -375,7 +375,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     name: Guristas Shuttle
     portionSize: 1
     poweroutput: 25.0
@@ -443,7 +443,7 @@ types:
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: Apotheosis
     portionSize: 1
     poweroutput: 25.0
@@ -515,7 +515,7 @@ types:
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
-    metalevelold: 6
+    metalevelold: 6.0
     name: InterBus Shuttle
     portionSize: 1
     poweroutput: 25.0
@@ -652,7 +652,7 @@ types:
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
-    metalevelold: 7
+    metalevelold: 7.0
     name: Council Diplomatic Shuttle
     portionSize: 1
     poweroutput: 25.0

@@ -119,6 +119,7 @@ types:
     damagecloudchance: 0.05
     damagecloudtype: 11546
     id: 28626
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     mass: 1.0E+35
     name: Zuthrine

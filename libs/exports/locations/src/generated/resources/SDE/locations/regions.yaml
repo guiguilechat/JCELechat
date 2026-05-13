@@ -1777,6 +1777,35 @@ locations:
     isVoid: false
     isWormhole: false
     name: Everyshore
+  Exordium:
+    adjacentConstellations:
+    - Sanctum
+    adjacentRegions:
+    - Genesis
+    adjacentSystems:
+    - Yulai
+    centerX: -1.83940979265E+17
+    centerY: -878696763069323.0
+    centerZ: 5.08859601995E+16
+    constellations:
+    - 1st Accord District
+    - 2nd Accord District
+    - 3rd Accord District
+    - 4th Accord District
+    - Federation Free-Zone
+    - Haven
+    - Manifest District
+    - Strokar
+    - The Crucible
+    id: 10001004
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: Exordium
   F-R00030:
     centerX: 7.305532907080496E+18
     centerY: 1.5393885287433692E+18
@@ -2028,6 +2057,7 @@ locations:
     - Heti
     - Ihilakken
     - Jatari
+    - Manifest District
     - Megeh
     - Panorad
     - Parrosa
@@ -2038,6 +2068,7 @@ locations:
     - Aridia
     - Essence
     - Everyshore
+    - Exordium
     - Kador
     - Kor-Azor
     - Metropolis
@@ -2060,6 +2091,7 @@ locations:
     - Iaokit
     - Irgrus
     - Kamda
+    - Manifest
     - Merolles
     - Nebian
     - Oursulaert

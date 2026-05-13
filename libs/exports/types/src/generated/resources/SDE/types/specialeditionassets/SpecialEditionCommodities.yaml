@@ -3880,7 +3880,7 @@ types:
   88134:
     cpumultiplier: 1.0
     id: 88134
-    marketGroup: 1663
+    marketGroup: 3837
     mass: 1.0
     name: Historic Capsuleer Day Apparel Crate
     portionSize: 1
@@ -4048,22 +4048,6 @@ types:
     id: 90736
     marketGroup: 3841
     name: Ice Storm Filaments Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  90737:
-    cpumultiplier: 1.0
-    id: 90737
-    marketGroup: 3841
-    name: Yoiul Festival Booster Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  90738:
-    cpumultiplier: 1.0
-    id: 90738
-    marketGroup: 3841
-    name: Yoiul Festival Brainfreeze Crate
     portionSize: 1
     published: true
     volume: 1.0
@@ -4464,6 +4448,258 @@ types:
     marketGroup: 3835
     mass: 1.0
     name: Unfinished Romance Novel
+    portionSize: 1
+    published: true
+    volume: 1.0
+  91938:
+    cpumultiplier: 1.0
+    id: 91938
+    marketGroup: 3832
+    name: Historic Gallente SKINs Crate
+    portionSize: 1
+    published: true
+    volume: 5.0
+  92092:
+    cpumultiplier: 1.0
+    id: 92092
+    marketGroup: 3845
+    name: Gallente Election Y128 SKINs Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  92180:
+    cpumultiplier: 1.0
+    id: 92180
+    marketGroup: 3845
+    name: Federal Defender Apparel Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  92278:
+    cpumultiplier: 1.0
+    id: 92278
+    name: Unbridled Glory Crate
+    portionSize: 1
+    published: true
+    volume: 4.0
+  92375:
+    cpumultiplier: 1.0
+    id: 92375
+    marketGroup: 3845
+    name: Gallente Election SKINr Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  92391:
+    cpumultiplier: 1.0
+    id: 92391
+    marketGroup: 3845
+    mass: 0.1
+    name: Political Favor
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92392:
+    cpumultiplier: 1.0
+    id: 92392
+    marketGroup: 3845
+    mass: 0.1
+    name: Presidential Candidate Favor
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93236:
+    cpumultiplier: 1.0
+    id: 93236
+    marketGroup: 3837
+    name: Capsuleer Day Amarr SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93237:
+    cpumultiplier: 1.0
+    id: 93237
+    marketGroup: 3837
+    name: Capsuleer Day Caldari SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93238:
+    cpumultiplier: 1.0
+    id: 93238
+    marketGroup: 3837
+    name: Capsuleer Day Gallente SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93241:
+    cpumultiplier: 1.0
+    id: 93241
+    marketGroup: 3837
+    name: Capsuleer Day Minmatar SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93270:
+    cpumultiplier: 1.0
+    id: 93270
+    marketGroup: 3832
+    name: Historic Carrier SKINs Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93592:
+    cpumultiplier: 1.0
+    id: 93592
+    marketGroup: 3837
+    mass: 0.1
+    name: Warpath Operational Intel
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93593:
+    cpumultiplier: 1.0
+    id: 93593
+    marketGroup: 3837
+    mass: 0.1
+    name: Warpath Command Intel
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93645:
+    cpumultiplier: 1.0
+    id: 93645
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Fireworks Package
+    portionSize: 1
+    published: true
+    volume: 4.0
+  93754:
+    cpumultiplier: 1.0
+    id: 93754
+    marketGroup: 3835
+    mass: 1.0
+    name: Crimson Skill Injector
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93781:
+    cpumultiplier: 1.0
+    id: 93781
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Glamourex Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93783:
+    cpumultiplier: 1.0
+    id: 93783
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Accelerator Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93831:
+    cpumultiplier: 1.0
+    id: 93831
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Amarr Booster Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93832:
+    cpumultiplier: 1.0
+    id: 93832
+    marketGroup: 3837
+    name: Capsuleer Day Empire SKINR Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93833:
+    cpumultiplier: 1.0
+    id: 93833
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Caldari Booster Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93834:
+    cpumultiplier: 1.0
+    id: 93834
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Gallente Booster Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93835:
+    cpumultiplier: 1.0
+    id: 93835
+    marketGroup: 3837
+    name: Capsuleer Day XXIII Minmatar Booster Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93991:
+    cpumultiplier: 1.0
+    id: 93991
+    marketGroup: 3837
+    name: Officer Integrated Analyzer Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93992:
+    cpumultiplier: 1.0
+    id: 93992
+    marketGroup: 3837
+    name: Officer Expanded Cargohold Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93993:
+    cpumultiplier: 1.0
+    id: 93993
+    marketGroup: 3837
+    name: Officer Mining Laser Upgrade Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  93997:
+    cpumultiplier: 1.0
+    id: 93997
+    marketGroup: 3837
+    name: Officer Capacitor Flux Coil Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94011:
+    cpumultiplier: 1.0
+    id: 94011
+    marketGroup: 3837
+    name: Imperial Navy Bastion Module Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94012:
+    cpumultiplier: 1.0
+    id: 94012
+    marketGroup: 3837
+    name: Caldari Navy Bastion Module Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94013:
+    cpumultiplier: 1.0
+    id: 94013
+    marketGroup: 3837
+    name: Federation Navy Bastion Module Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94014:
+    cpumultiplier: 1.0
+    id: 94014
+    marketGroup: 3837
+    name: Republic Fleet Bastion Module Blueprint Crate
     portionSize: 1
     published: true
     volume: 1.0

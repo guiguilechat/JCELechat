@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
@@ -37,6 +38,13 @@ public class Griemeer
     @Stackable(true)
     @DefaultIntValue(90)
     public int asteroidradiusunitsize;
+    /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
     /**
      * If set to true, this results in no mining waste.
      */
@@ -65,7 +73,7 @@ public class Griemeer
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, OreBasicType.INSTANCE, AsteroidMetaLevel.INSTANCE, IgnoreMiningCrits.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Griemeer.MetaGroup METAGROUP = new Griemeer.MetaGroup();
 
     @Override
@@ -74,6 +82,10 @@ public class Griemeer
             case  1981 :
             {
                 return asteroidradiusunitsize;
+            }
+            case  6108 :
+            {
+                return ignoreminingcrits;
             }
             case  3236 :
             {

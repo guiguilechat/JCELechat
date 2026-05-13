@@ -1067,3 +1067,20 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 14.0
     volume: 0.01
+  92541:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2.0
+    id: 92541
+    marketGroup: 364
+    name: Capital Disintegrator Specialization
+    portionSize: 1
+    price: 30000000.0
+    primaryattribute: 167
+    published: true
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 52998
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
+    volume: 0.01

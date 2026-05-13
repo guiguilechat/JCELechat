@@ -128,7 +128,7 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Guristas Nova XL Torpedo
     portionSize: 100
     price: 250000.0
@@ -157,7 +157,7 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Guristas Inferno XL Torpedo
     portionSize: 100
     price: 325000.0
@@ -188,7 +188,7 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Guristas Scourge XL Torpedo
     portionSize: 100
     price: 300000.0
@@ -218,7 +218,7 @@ types:
     mass: 1500.0
     maxvelocity: 3480.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Guristas Mjolnir XL Torpedo
     portionSize: 100
     price: 350000.0

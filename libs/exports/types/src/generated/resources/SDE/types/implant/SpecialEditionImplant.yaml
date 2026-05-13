@@ -5,7 +5,7 @@ types:
     implantness: 1
     implantsetchristmas: 1.5
     marketGroup: 618
-    metalevelold: 7
+    metalevelold: 7.0
     name: Genolution Core Augmentation CA-1
     perceptionbonus: 3
     portionSize: 1
@@ -24,7 +24,7 @@ types:
     implantsetchristmas: 1.4
     intelligencebonus: 3
     marketGroup: 621
-    metalevelold: 7
+    metalevelold: 7.0
     name: Genolution Core Augmentation CA-2
     portionSize: 1
     price: 800000.0
@@ -52,7 +52,7 @@ types:
     implantness: 3
     implantsetchristmas: 1.3
     marketGroup: 620
-    metalevelold: 7
+    metalevelold: 7.0
     name: Genolution Core Augmentation CA-3
     portionSize: 1
     price: 800000.0
@@ -71,7 +71,7 @@ types:
     implantsetchristmas: 1.2
     marketGroup: 619
     memorybonus: 3
-    metalevelold: 7
+    metalevelold: 7.0
     name: Genolution Core Augmentation CA-4
     portionSize: 1
     price: 800000.0

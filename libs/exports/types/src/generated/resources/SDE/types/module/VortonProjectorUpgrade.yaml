@@ -20,7 +20,7 @@ types:
     hp: 40.0
     id: 54974
     marketGroup: 2740
-    metalevelold: 1
+    metalevelold: 1.0
     name: Compact Vorton Tuning System I
     portionSize: 1
     power: 1
@@ -36,7 +36,7 @@ types:
     hp: 40.0
     id: 54975
     marketGroup: 2740
-    metalevelold: 5
+    metalevelold: 5.0
     name: Vorton Tuning System II
     portionSize: 1
     power: 1
@@ -65,7 +65,7 @@ types:
     hp: 40.0
     id: 78740
     marketGroup: 2740
-    metalevelold: 8
+    metalevelold: 8.0
     name: Consortium Vorton Tuning System
     portionSize: 1
     power: 1
@@ -81,7 +81,7 @@ types:
     hp: 40.0
     id: 78741
     marketGroup: 2740
-    metalevelold: 13
+    metalevelold: 13.0
     name: Kasiha's Modified Vorton Tuning System
     portionSize: 1
     power: 1

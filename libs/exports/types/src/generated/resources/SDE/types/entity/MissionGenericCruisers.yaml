@@ -2019,7 +2019,6 @@ types:
     entityequipmentgroupmax: 1
     entityequipmentmax: 6
     entityequipmentmin: 4
-    entityfactionloss: 0.009
     entityflyrange: 15000.0
     entitygrouprespawnchance: 1
     entitykillbounty: 85000

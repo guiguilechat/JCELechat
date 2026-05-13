@@ -6,7 +6,7 @@ types:
     id: 58904
     marketGroup: 2771
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mobile Observatory
     portionSize: 1
     published: true

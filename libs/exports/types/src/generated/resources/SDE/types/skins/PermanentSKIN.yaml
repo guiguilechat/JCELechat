@@ -1251,6 +1251,7 @@ types:
     volume: 0.01
   34816:
     id: 34816
+    marketGroup: 2026
     name: Kronos Inner Zone Shipping SKIN
     portionSize: 1
     published: true
@@ -18536,6 +18537,7 @@ types:
     volume: 0.01
   49333:
     id: 49333
+    marketGroup: 2318
     name: Bowhead Gallente Industrial Livery Serenity Only SKIN
     portionSize: 1
     published: true
@@ -26740,6 +26742,7 @@ types:
     volume: 0.01
   57414:
     id: 57414
+    marketGroup: 1958
     name: Brutix Luminaire Zenith SKIN
     portionSize: 1
     published: true
@@ -26752,6 +26755,7 @@ types:
     volume: 0.01
   57416:
     id: 57416
+    marketGroup: 1992
     name: Vexor Luminaire Zenith SKIN
     portionSize: 1
     published: true
@@ -26850,12 +26854,14 @@ types:
     volume: 0.01
   57592:
     id: 57592
+    marketGroup: 2103
     name: Brutix Navy Issue Luminaire Zenith SKIN
     portionSize: 1
     published: true
     volume: 0.01
   57593:
     id: 57593
+    marketGroup: 2063
     name: Vexor Navy Issue Luminaire Zenith SKIN
     portionSize: 1
     published: true
@@ -29257,18 +29263,21 @@ types:
     volume: 0.01
   60577:
     id: 60577
+    marketGroup: 2004
     name: Tristan Quafe Green Apple SKIN
     portionSize: 1
     published: true
     volume: 0.01
   60578:
     id: 60578
+    marketGroup: 1992
     name: Vexor Quafe Green Apple SKIN
     portionSize: 1
     published: true
     volume: 0.01
   60579:
     id: 60579
+    marketGroup: 1996
     name: Dominix Quafe Green Apple SKIN
     portionSize: 1
     published: true
@@ -29401,7 +29410,7 @@ types:
     volume: 0.01
   60675:
     id: 60675
-    marketGroup: 1990
+    marketGroup: 2063
     name: Augoror Navy Issue Ardishapur SKIN
     portionSize: 1
     published: true
@@ -30515,12 +30524,14 @@ types:
     volume: 0.01
   63174:
     id: 63174
+    marketGroup: 2144
     name: Magus Hunter's Quiver SKIN
     portionSize: 1
     published: true
     volume: 0.01
   63175:
     id: 63175
+    marketGroup: 1992
     name: Vexor Hunter's Quiver SKIN
     portionSize: 1
     published: true
@@ -32253,6 +32264,7 @@ types:
     volume: 0.01
   63638:
     id: 63638
+    marketGroup: 2063
     name: Vexor Navy Issue Hunter's Quiver SKIN
     portionSize: 1
     published: true
@@ -39488,6 +39500,439 @@ types:
     id: 91640
     marketGroup: 2026
     name: Kronos Media Miasma SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92379:
+    id: 92379
+    marketGroup: 1990
+    name: Augoror Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92380:
+    id: 92380
+    marketGroup: 2047
+    name: Retribution Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92381:
+    id: 92381
+    marketGroup: 2059
+    name: Malediction Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92382:
+    id: 92382
+    marketGroup: 3495
+    name: Revelation Navy Issue Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92383:
+    id: 92383
+    marketGroup: 2069
+    name: Sacrilege Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92384:
+    id: 92384
+    marketGroup: 2356
+    name: Hecate Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92385:
+    id: 92385
+    marketGroup: 2063
+    name: Exequror Navy Issue Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92386:
+    id: 92386
+    marketGroup: 1963
+    name: Machariel Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92387:
+    id: 92387
+    marketGroup: 2485
+    name: Vedmak Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92388:
+    id: 92388
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Unbridled Glory SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92661:
+    id: 92661
+    marketGroup: 2054
+    name: Cheetah Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92662:
+    id: 92662
+    marketGroup: 2038
+    name: Heretic Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92663:
+    id: 92663
+    marketGroup: 2082
+    name: Rook Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92664:
+    id: 92664
+    marketGroup: 2111
+    name: Widow Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92666:
+    id: 92666
+    marketGroup: 2106
+    name: Astarte Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92667:
+    id: 92667
+    marketGroup: 3521
+    name: Hubris Zydrine Burn SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92669:
+    id: 92669
+    marketGroup: 2419
+    name: Monitor Discovery Bound SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92963:
+    id: 92963
+    marketGroup: 2031
+    name: Worm Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92964:
+    id: 92964
+    marketGroup: 3568
+    name: Mamba Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92965:
+    id: 92965
+    marketGroup: 2030
+    name: Gila Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92966:
+    id: 92966
+    marketGroup: 3567
+    name: Alligator Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92967:
+    id: 92967
+    marketGroup: 1963
+    name: Rattlesnake Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92968:
+    id: 92968
+    marketGroup: 2380
+    name: Caiman Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92969:
+    id: 92969
+    marketGroup: 2376
+    name: Loggerhead Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92970:
+    id: 92970
+    marketGroup: 2383
+    name: Komodo Cryptic Ecdysis SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93069:
+    id: 93069
+    marketGroup: 2049
+    name: Enyo Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93070:
+    id: 93070
+    marketGroup: 2083
+    name: Lachesis Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93071:
+    id: 93071
+    marketGroup: 1976
+    name: Thanatos Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93072:
+    id: 93072
+    marketGroup: 2090
+    name: Viator Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93073:
+    id: 93073
+    marketGroup: 2009
+    name: Epithal Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93074:
+    id: 93074
+    marketGroup: 2079
+    name: Oneiros Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93075:
+    id: 93075
+    marketGroup: 2103
+    name: Myrmidon Navy Issue Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93076:
+    id: 93076
+    marketGroup: 2108
+    name: Megathron Navy Issue Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93077:
+    id: 93077
+    marketGroup: 2004
+    name: Tristan Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93078:
+    id: 93078
+    marketGroup: 2040
+    name: Eris Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93726:
+    id: 93726
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93727:
+    id: 93727
+    name: Imperial Navy Slicer Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93728:
+    id: 93728
+    name: Magnate Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93729:
+    id: 93729
+    marketGroup: 2063
+    name: Augoror Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93733:
+    id: 93733
+    marketGroup: 2000
+    name: Caldari Navy Hookbill Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93734:
+    id: 93734
+    name: Heron Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93735:
+    id: 93735
+    name: Osprey Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93736:
+    id: 93736
+    marketGroup: 2108
+    name: Raven Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93738:
+    id: 93738
+    marketGroup: 2000
+    name: Federation Navy Comet Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93739:
+    id: 93739
+    name: Imicus Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93740:
+    id: 93740
+    name: Vexor Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93741:
+    id: 93741
+    marketGroup: 2108
+    name: Megathron Navy Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93742:
+    id: 93742
+    marketGroup: 2000
+    name: Republic Fleet Firetail Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93743:
+    id: 93743
+    name: Probe Fleet Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93744:
+    id: 93744
+    name: Stabber Fleet Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93745:
+    id: 93745
+    marketGroup: 2108
+    name: Tempest Fleet Issue Capsuleer Day XXIII SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93784:
+    id: 93784
+    marketGroup: 1990
+    name: Omen Lavacore Imperial SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93785:
+    id: 93785
+    marketGroup: 3495
+    name: Revelation Navy Issue Lavacore Imperial SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94032:
+    id: 94032
+    marketGroup: 2047
+    name: Vengeance Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94033:
+    id: 94033
+    marketGroup: 2143
+    name: Stork State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94034:
+    id: 94034
+    marketGroup: 2048
+    name: Harpy State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94035:
+    id: 94035
+    marketGroup: 2071
+    name: Deimos Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94036:
+    id: 94036
+    marketGroup: 1967
+    name: Maelstrom Stark Strategist SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94052:
+    id: 94052
+    marketGroup: 2049
+    name: Ishkur Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94053:
+    id: 94053
+    marketGroup: 1966
+    name: Hyperion Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94054:
+    id: 94054
+    marketGroup: 2142
+    name: Pontifex Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94055:
+    id: 94055
+    marketGroup: 2050
+    name: Wolf Stark Strategist SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94056:
+    id: 94056
+    marketGroup: 2072
+    name: Vagabond Stark Strategist SKIN
     portionSize: 1
     published: true
     volume: 0.01

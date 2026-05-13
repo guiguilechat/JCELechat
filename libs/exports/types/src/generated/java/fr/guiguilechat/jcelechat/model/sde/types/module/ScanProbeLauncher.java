@@ -20,6 +20,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionCommandBurstProbeDeviationBonusCharID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExpeditionCommandBurstProbeStrengthBonusCharID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
@@ -84,6 +86,14 @@ public class ScanProbeLauncher
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double duration;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int expeditioncommandburstprobedeviationbonuscharid;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int expeditioncommandburstprobestrengthbonuscharid;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -176,7 +186,7 @@ public class ScanProbeLauncher
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double speed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ScanStrengthBonus.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, ExpeditionCommandBurstProbeStrengthBonusCharID.INSTANCE, TechLevel.INSTANCE, ExpeditionCommandBurstProbeDeviationBonusCharID.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ScanStrengthBonus.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
     public static final ScanProbeLauncher.MetaGroup METAGROUP = new ScanProbeLauncher.MetaGroup();
 
     @Override
@@ -205,6 +215,14 @@ public class ScanProbeLauncher
             case  73 :
             {
                 return duration;
+            }
+            case  6119 :
+            {
+                return expeditioncommandburstprobedeviationbonuscharid;
+            }
+            case  6118 :
+            {
+                return expeditioncommandburstprobestrengthbonuscharid;
             }
             case  763 :
             {

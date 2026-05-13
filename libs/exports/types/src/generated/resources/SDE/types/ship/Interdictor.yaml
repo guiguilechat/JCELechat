@@ -48,7 +48,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 310.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Heretic
     portionSize: 1
@@ -142,7 +142,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 320.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Sabre
     portionSize: 1
@@ -236,7 +236,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 316.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Eris
     portionSize: 1
@@ -330,7 +330,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 315.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Flycatcher
     portionSize: 1

@@ -7,7 +7,7 @@ types:
     id: 482
     marketGroup: 1039
     maxrange: 12000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 15
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -79,7 +79,7 @@ types:
     marketGroup: 1039
     maxrange: 11000.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 7
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -102,7 +102,7 @@ types:
     id: 5239
     marketGroup: 1039
     maxrange: 16000.0
-    metalevelold: 1
+    metalevelold: 1.0
     miningamount: 13
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -126,7 +126,7 @@ types:
     id: 5245
     marketGroup: 1039
     maxrange: 11000.0
-    metalevelold: 1
+    metalevelold: 1.0
     miningamount: 13
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -177,7 +177,7 @@ types:
     marketGroup: 1039
     maxrange: 10000.0
     metagroupid: 3
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 12
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -201,7 +201,7 @@ types:
     hp: 40.0
     id: 22921
     maxrange: 12000.0
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 14
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -224,7 +224,7 @@ types:
     id: 22923
     marketGroup: 1039
     maxrange: 12400.0
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 15
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -249,7 +249,7 @@ types:
     marketGroup: 1039
     maxrange: 7000.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 20
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -276,7 +276,7 @@ types:
     marketGroup: 1039
     maxrange: 16000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 21
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -327,7 +327,7 @@ types:
     id: 37451
     marketGroup: 2151
     maxrange: 8000.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 1000
     miningcritbonusyield: 2
     miningcritchance: 0.01
@@ -355,7 +355,7 @@ types:
     marketGroup: 2151
     maxrange: 11000.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     miningamount: 1000
     miningcritbonusyield: 2
     miningcritchance: 0.01

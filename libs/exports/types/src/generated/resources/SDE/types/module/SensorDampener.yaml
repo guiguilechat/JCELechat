@@ -41,7 +41,7 @@ types:
     marketGroup: 679
     maxrange: 30000.0
     maxtargetrangebonus: -15.3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Remote Sensor Dampener II
     overloadsensormodulestrengthbonus: 20
     portionSize: 1
@@ -70,7 +70,7 @@ types:
     marketGroup: 679
     maxrange: 25000.0
     maxtargetrangebonus: -14.5
-    metalevelold: 1
+    metalevelold: 1.0
     name: LFT Enduring Sensor Dampener
     overloadsensormodulestrengthbonus: 20
     portionSize: 1
@@ -99,7 +99,7 @@ types:
     marketGroup: 679
     maxrange: 25000.0
     maxtargetrangebonus: -14.5
-    metalevelold: 1
+    metalevelold: 1.0
     name: Kapteyn Compact Sensor Dampener
     overloadsensormodulestrengthbonus: 20
     portionSize: 1
@@ -128,7 +128,7 @@ types:
     marketGroup: 679
     maxrange: 27500.0
     maxtargetrangebonus: -14.5
-    metalevelold: 1
+    metalevelold: 1.0
     name: Phased Muon Scoped Sensor Dampener
     overloadsensormodulestrengthbonus: 20
     portionSize: 1
@@ -158,7 +158,7 @@ types:
     maxrange: 30000.0
     maxtargetrangebonus: -15.57
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Executive'' Remote Sensor Dampener'
     overloadsensormodulestrengthbonus: 20
     portionSize: 1

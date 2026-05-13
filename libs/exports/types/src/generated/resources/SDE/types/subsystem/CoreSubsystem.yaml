@@ -8,7 +8,7 @@ types:
     mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Core - Dissolution Sequencer
     portionSize: 1
     published: true
@@ -29,7 +29,7 @@ types:
     marketGroup: 1122
     mass: 1200000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Core - Augmented Antimatter Reactor
     portionSize: 1
     powerengineeringoutputbonus: 20.0
@@ -50,7 +50,7 @@ types:
     marketGroup: 1122
     mass: 1200000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Core - Energy Parasitic Complex
     portionSize: 1
     published: true
@@ -73,7 +73,7 @@ types:
     mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 3
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Core - Electronic Efficiency Gate
     portionSize: 1
     published: true
@@ -93,7 +93,7 @@ types:
     marketGroup: 1123
     mass: 1200000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Core - Augmented Graviton Reactor
     portionSize: 1
     powerengineeringoutputbonus: 20.0
@@ -113,7 +113,7 @@ types:
     marketGroup: 1123
     mass: 1200000.0
     medslotmodifier: 3
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Core - Obfuscation Manifold
     portionSize: 1
     published: true
@@ -135,7 +135,7 @@ types:
     mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Core - Electronic Efficiency Gate
     portionSize: 1
     published: true
@@ -155,7 +155,7 @@ types:
     marketGroup: 1124
     mass: 1200000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Core - Augmented Fusion Reactor
     portionSize: 1
     powerengineeringoutputbonus: 20.0
@@ -175,7 +175,7 @@ types:
     marketGroup: 1124
     mass: 1200000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Core - Friction Extension Processor
     portionSize: 1
     published: true
@@ -196,7 +196,7 @@ types:
     mass: 1200000.0
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Core - Dissolution Sequencer
     portionSize: 1
     published: true
@@ -217,7 +217,7 @@ types:
     marketGroup: 1125
     mass: 1200000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Core - Augmented Nuclear Reactor
     portionSize: 1
     powerengineeringoutputbonus: 20.0
@@ -237,7 +237,7 @@ types:
     marketGroup: 1125
     mass: 1200000.0
     medslotmodifier: 3
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Core - Immobility Drivers
     portionSize: 1
     published: true

@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
@@ -79,6 +80,13 @@ public class Miscellaneous
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
+    /**
      * If set to true, this results in no mining waste.
      */
     @HighIsGood(false)
@@ -106,7 +114,7 @@ public class Miscellaneous
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AspectRatioHeight.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AspectRatioWidth.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AspectRatioHeight.INSTANCE, StasisWebifierResistance.INSTANCE, IgnoreMiningWaste.INSTANCE, OreBasicType.INSTANCE, ImportTaxMultiplier.INSTANCE, Hp.INSTANCE, ExportTaxMultiplier.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, IgnoreMiningCrits.INSTANCE, AspectRatioWidth.INSTANCE })));
     public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
@@ -135,6 +143,10 @@ public class Miscellaneous
             case  9 :
             {
                 return hp;
+            }
+            case  6108 :
+            {
+                return ignoreminingcrits;
             }
             case  3236 :
             {

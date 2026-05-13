@@ -7,7 +7,7 @@ types:
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 23.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Signal Amplifier'
     portionSize: 1
     power: 1
@@ -48,7 +48,7 @@ types:
     marketGroup: 669
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 30.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Signal Amplifier II
     portionSize: 1
     power: 1
@@ -69,7 +69,7 @@ types:
     marketGroup: 669
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 27.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: F-89 Compact Signal Amplifier
     portionSize: 1
     power: 1
@@ -91,7 +91,7 @@ types:
     maxlockedtargetsbonus: 1
     maxtargetrangebonus: 30.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Firewall'' Signal Amplifier'
     portionSize: 1
     power: 1
@@ -113,7 +113,7 @@ types:
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 34.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Sentient Signal Amplifier
     portionSize: 1
     power: 1
@@ -135,7 +135,7 @@ types:
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 34.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Syndicate Signal Amplifier
     portionSize: 1
     power: 1

@@ -2705,3 +2705,39 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  92631:
+    gender: 2
+    id: 92631
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Select Freedom Combat Suit
+    portionSize: 1
+    published: true
+    volume: 0.1
+  92644:
+    gender: 2
+    id: 92644
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Select Freedom Combat Suit
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93725:
+    gender: 2
+    id: 93725
+    marketGroup: 1405
+    mass: 0.5
+    name: Women's Blood Collector Lab Coat
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93737:
+    gender: 2
+    id: 93737
+    marketGroup: 1399
+    mass: 0.5
+    name: Men's Blood Collector Lab Coat
+    portionSize: 1
+    published: true
+    volume: 0.1

@@ -23,7 +23,7 @@ types:
     id: 4405
     marketGroup: 938
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Drone Damage Amplifier II
     portionSize: 1
     power: 1
@@ -42,7 +42,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 5
-    metalevelold: 11
+    metalevelold: 11.0
     name: Unit D-34343's Modified Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -59,7 +59,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 5
-    metalevelold: 13
+    metalevelold: 13.0
     name: Unit F-435454's Modified Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -76,7 +76,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 5
-    metalevelold: 15
+    metalevelold: 15.0
     name: Unit P-343554's Modified Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -95,7 +95,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 5
-    metalevelold: 17
+    metalevelold: 17.0
     name: Unit W-634's Modified Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -114,7 +114,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Federation Navy Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -133,7 +133,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Imperial Navy Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -152,7 +152,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -171,7 +171,7 @@ types:
     marketGroup: 938
     mass: 1.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Sentient Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -189,7 +189,7 @@ types:
     id: 41034
     marketGroup: 938
     mass: 1.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: AE-K Compact Drone Damage Amplifier
     portionSize: 1
     power: 1
@@ -206,7 +206,7 @@ types:
     hp: 40.0
     id: 60482
     mass: 1.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mutated Drone Damage Amplifier
     portionSize: 1
     power: 1

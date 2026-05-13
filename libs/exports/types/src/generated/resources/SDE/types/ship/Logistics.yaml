@@ -49,7 +49,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 253.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scimitar
     portionSize: 1
     poweroutput: 735.0
@@ -145,7 +145,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 205.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Basilisk
     portionSize: 1
     poweroutput: 1050.0
@@ -240,7 +240,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 209.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     name: Guardian
     portionSize: 1
     poweroutput: 1075.0
@@ -336,7 +336,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 245.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     name: Oneiros
     portionSize: 1
     poweroutput: 1050.0
@@ -433,7 +433,7 @@ types:
     maxvelocity: 200.0
     medslots: 6
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Etana
     portionSize: 1
     poweroutput: 1150.0
@@ -533,7 +533,7 @@ types:
     maxvelocity: 250.0
     medslots: 3
     metagroupid: 4
-    metalevelold: 9
+    metalevelold: 9.0
     name: Rabisu
     nosoverride: 1
     portionSize: 1
@@ -636,7 +636,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 238.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     name: Zarmazd
     portionSize: 1
     poweroutput: 950.0

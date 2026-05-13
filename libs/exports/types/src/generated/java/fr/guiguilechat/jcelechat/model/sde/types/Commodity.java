@@ -32,6 +32,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.commodity.ESSReserveBankKeys;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.EmpireInsigniaDrops;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.ExpiredAbyssalBattlefieldsFilaments;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.ExpiredJumpFilaments;
+import fr.guiguilechat.jcelechat.model.sde.types.commodity.FabricatorData;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Frozen;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.General;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.HomefrontOperationsCommodity;
@@ -65,6 +66,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.commodity.TriglavianDatastreams
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.TriglavianSpaceFilaments;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.UnknownComponents;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.VerityCryoTech;
+import fr.guiguilechat.jcelechat.model.sde.types.commodity.VigilancePointData;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.WarpMatrixFilaments;
 
 public abstract class Commodity
@@ -99,7 +101,7 @@ public abstract class Commodity
 
         @Override
         public Collection<IMetaGroup<? extends Commodity>> groups() {
-            return Arrays.asList(ESSReserveBankKeys.METAGROUP, RogueDroneAnalysisData.METAGROUP, WarpMatrixFilaments.METAGROUP, PeculiarMaterials.METAGROUP, General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, HomefrontOperationsCommodity.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StructureComponents.METAGROUP, AbyssalBattlefieldFilamentMaterials.METAGROUP, Lease.METAGROUP, ExpiredAbyssalBattlefieldsFilaments.METAGROUP, DataInterfaces.METAGROUP, Atavum.METAGROUP, InfomorphSystems.METAGROUP, EDENCOMData.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, LimitedRarities.METAGROUP, StabilityTelemetry.METAGROUP, CapitalConstructionComponents.METAGROUP, VerityCryoTech.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, BountyEncryptedBonds.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, TriglavianData.METAGROUP, TriglavianDatastreams.METAGROUP, JumpFilaments.METAGROUP, ExpiredJumpFilaments.METAGROUP, TriglavianSpaceFilaments.METAGROUP);
+            return Arrays.asList(ESSReserveBankKeys.METAGROUP, RogueDroneAnalysisData.METAGROUP, WarpMatrixFilaments.METAGROUP, PeculiarMaterials.METAGROUP, General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, HomefrontOperationsCommodity.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StructureComponents.METAGROUP, AbyssalBattlefieldFilamentMaterials.METAGROUP, Lease.METAGROUP, ExpiredAbyssalBattlefieldsFilaments.METAGROUP, DataInterfaces.METAGROUP, Atavum.METAGROUP, InfomorphSystems.METAGROUP, EDENCOMData.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, LimitedRarities.METAGROUP, StabilityTelemetry.METAGROUP, CapitalConstructionComponents.METAGROUP, VerityCryoTech.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, FabricatorData.METAGROUP, VigilancePointData.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, BountyEncryptedBonds.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, TriglavianData.METAGROUP, TriglavianDatastreams.METAGROUP, JumpFilaments.METAGROUP, ExpiredJumpFilaments.METAGROUP, TriglavianSpaceFilaments.METAGROUP);
         }
     }
 }

@@ -99,3 +99,11 @@ types:
     published: true
     techlevel: 2
     volume: 0.01
+  93965:
+    id: 93965
+    industryblueprintrank: 6.0
+    name: Revelli’s Modified Integrated Analyzer Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

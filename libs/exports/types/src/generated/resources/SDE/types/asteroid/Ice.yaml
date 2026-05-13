@@ -411,6 +411,7 @@ types:
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     id: 28627
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     mass: 1000.0
     name: Azure Ice
@@ -427,6 +428,7 @@ types:
     asteroidradiusgrowthfactor: 80.0
     asteroidradiusunitsize: 1000
     id: 28628
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     mass: 1000.0
     name: Crystalline Icicle

@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningCrits;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IgnoreMiningWaste;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -35,6 +36,13 @@ public class Rakovene
     @DefaultIntValue(90)
     public int asteroidradiusunitsize;
     /**
+     * If set to true, this results in no mining crits when mining this typeID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ignoreminingcrits;
+    /**
      * If set to true, this results in no mining waste.
      */
     @HighIsGood(false)
@@ -48,7 +56,7 @@ public class Rakovene
     @Stackable(true)
     @DefaultIntValue(0)
     public int reprocessingskilltype;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IgnoreMiningWaste.INSTANCE, RequiredSkill1Level.INSTANCE, ReprocessingSkillType.INSTANCE, RequiredSkill1 .INSTANCE, AsteroidMetaLevel.INSTANCE, IgnoreMiningCrits.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Rakovene.MetaGroup METAGROUP = new Rakovene.MetaGroup();
 
     @Override
@@ -57,6 +65,10 @@ public class Rakovene
             case  1981 :
             {
                 return asteroidradiusunitsize;
+            }
+            case  6108 :
+            {
+                return ignoreminingcrits;
             }
             case  3236 :
             {

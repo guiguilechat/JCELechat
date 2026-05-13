@@ -48,7 +48,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 80.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     name: Bustard
     portionSize: 1
     poweroutput: 200.0
@@ -143,7 +143,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 110.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     name: Occator
     portionSize: 1
     poweroutput: 290.0
@@ -239,7 +239,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 120.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mastodon
     portionSize: 1
     poweroutput: 230.0
@@ -336,7 +336,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 90.0
     medslots: 2
-    metalevelold: 5
+    metalevelold: 5.0
     name: Impel
     portionSize: 1
     poweroutput: 330.0
@@ -432,7 +432,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 100.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     name: Torrent
     portionSize: 1
     poweroutput: 265.0

@@ -18,7 +18,7 @@ types:
     marketGroup: 926
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Fury Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -53,7 +53,7 @@ types:
     marketGroup: 919
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Precision Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -88,7 +88,7 @@ types:
     marketGroup: 926
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Nova Fury Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -123,7 +123,7 @@ types:
     marketGroup: 926
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Fury Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -157,7 +157,7 @@ types:
     marketGroup: 926
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Fury Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -193,7 +193,7 @@ types:
     marketGroup: 919
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Scourge Precision Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -227,7 +227,7 @@ types:
     marketGroup: 919
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Inferno Precision Heavy Missile
     portionSize: 5000
     price: 600080.0
@@ -263,7 +263,7 @@ types:
     marketGroup: 919
     mass: 1000.0
     maxvelocity: 4300.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Mjolnir Precision Heavy Missile
     portionSize: 5000
     price: 600080.0

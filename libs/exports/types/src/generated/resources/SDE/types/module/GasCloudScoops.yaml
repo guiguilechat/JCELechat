@@ -31,7 +31,7 @@ types:
     id: 25540
     marketGroup: 1037
     maxrange: 1500.0
-    metalevelold: 1
+    metalevelold: 1.0
     miningamount: 20
     miningwastedvolumemultiplier: 2
     miningwasteprobability: 100
@@ -56,7 +56,7 @@ types:
     id: 25542
     marketGroup: 1037
     maxrange: 1500.0
-    metalevelold: 1
+    metalevelold: 1.0
     miningamount: 20
     miningwastedvolumemultiplier: 4
     miningwasteprobability: 100
@@ -81,7 +81,7 @@ types:
     id: 25812
     marketGroup: 1037
     maxrange: 1500.0
-    metalevelold: 5
+    metalevelold: 5.0
     miningamount: 20
     miningwastedvolumemultiplier: 1
     miningwasteprobability: 34
@@ -107,7 +107,7 @@ types:
     marketGroup: 1037
     maxrange: 1500.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     miningamount: 20
     miningwastedvolumemultiplier: 1
     name: Syndicate Gas Cloud Scoop

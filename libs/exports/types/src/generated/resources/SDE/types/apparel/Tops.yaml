@@ -1612,3 +1612,21 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  93589:
+    gender: 2
+    id: 93589
+    marketGroup: 1406
+    mass: 0.5
+    name: Women's 'Humanitarian' T-shirt YC 128
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93590:
+    gender: 2
+    id: 93590
+    marketGroup: 1398
+    mass: 0.5
+    name: Men's 'Humanitarian' T-shirt YC 128
+    portionSize: 1
+    published: true
+    volume: 0.1

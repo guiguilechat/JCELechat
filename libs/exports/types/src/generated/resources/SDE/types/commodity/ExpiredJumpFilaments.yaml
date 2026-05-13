@@ -36,7 +36,7 @@ types:
     volume: 0.1
   88202:
     filamentdescriptionmessageid: 1011870
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 88202
     locationlistid: 4918
     marketGroup: 2706
@@ -48,7 +48,7 @@ types:
     volume: 0.1
   88203:
     filamentdescriptionmessageid: 1011870
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 88203
     locationlistid: 4919
     marketGroup: 2706
@@ -60,7 +60,7 @@ types:
     volume: 0.1
   88204:
     filamentdescriptionmessageid: 1011870
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 88204
     locationlistid: 4920
     marketGroup: 2706
@@ -72,7 +72,7 @@ types:
     volume: 0.1
   88205:
     filamentdescriptionmessageid: 1011870
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 88205
     locationlistid: 4921
     marketGroup: 2706
@@ -84,7 +84,7 @@ types:
     volume: 0.1
   88206:
     filamentdescriptionmessageid: 1011870
-    filamentspooluptimeseconds: 60
+    filamentspooluptimeseconds: 45
     id: 88206
     locationlistid: 4922
     marketGroup: 2706

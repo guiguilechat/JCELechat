@@ -12,7 +12,7 @@ types:
     id: 85230
     marketGroup: 3680
     mass: 10000.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mercenary Den
     portionSize: 1
     published: true
@@ -45,7 +45,7 @@ types:
     id: 85980
     marketGroup: 3680
     mass: 10000.0
-    metalevelold: 4
+    metalevelold: 4.0
     name: '''Seneschal'' Mercenary Den'
     portionSize: 1
     published: true

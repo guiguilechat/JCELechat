@@ -46,7 +46,7 @@ types:
     marketGroup: 2245
     mass: 1.0
     maxgroupfitted: 1
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Flex Armor Hardener II
     overloadhardeningbonus: 20
     portionSize: 1
@@ -79,7 +79,7 @@ types:
     mass: 1.0
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dark Blood Capital Flex Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     mass: 1.0
     maxgroupfitted: 1
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Shadow Serpentis Capital Flex Armor Hardener
     overloadhardeningbonus: 20
     portionSize: 1

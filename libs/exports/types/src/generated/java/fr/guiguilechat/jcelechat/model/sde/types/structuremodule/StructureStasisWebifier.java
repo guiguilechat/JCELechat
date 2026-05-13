@@ -138,8 +138,8 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int metalevelold;
+    @DefaultRealValue(0.0)
+    public double metalevelold;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */

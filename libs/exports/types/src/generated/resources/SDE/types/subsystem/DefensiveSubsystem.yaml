@@ -13,7 +13,7 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Defensive - Covert Reconfiguration
     portionSize: 1
     published: true
@@ -40,7 +40,7 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Defensive - Augmented Plating
     portionSize: 1
     published: true
@@ -64,7 +64,7 @@ types:
     marketGroup: 1126
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Legion Defensive - Nanobot Injector
     portionSize: 1
     published: true
@@ -91,7 +91,7 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     medslotmodifier: 3
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Defensive - Covert Reconfiguration
     portionSize: 1
     published: true
@@ -116,7 +116,7 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Defensive - Supplemental Screening
     portionSize: 1
     published: true
@@ -141,7 +141,7 @@ types:
     marketGroup: 1127
     mass: 1400000.0
     medslotmodifier: 3
-    metalevelold: 1
+    metalevelold: 1.0
     name: Tengu Defensive - Amplification Node
     portionSize: 1
     published: true
@@ -168,7 +168,7 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Defensive - Covert Reconfiguration
     portionSize: 1
     published: true
@@ -195,7 +195,7 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     medslotmodifier: 1
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Defensive - Augmented Plating
     portionSize: 1
     published: true
@@ -220,7 +220,7 @@ types:
     marketGroup: 1129
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Proteus Defensive - Nanobot Injector
     portionSize: 1
     published: true
@@ -247,7 +247,7 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Defensive - Covert Reconfiguration
     portionSize: 1
     published: true
@@ -273,7 +273,7 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Defensive - Augmented Durability
     portionSize: 1
     published: true
@@ -298,7 +298,7 @@ types:
     marketGroup: 1128
     mass: 1400000.0
     medslotmodifier: 2
-    metalevelold: 1
+    metalevelold: 1.0
     name: Loki Defensive - Adaptive Defense Node
     portionSize: 1
     published: true

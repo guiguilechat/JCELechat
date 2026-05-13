@@ -8,7 +8,7 @@ types:
     marketGroup: 687
     mass: 20.0
     metagroupid: 3
-    metalevelold: 6
+    metalevelold: 6.0
     name: '''Basic'' Shield Flux Coil'
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -47,7 +47,7 @@ types:
     id: 1256
     marketGroup: 687
     mass: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Shield Flux Coil II
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -67,7 +67,7 @@ types:
     id: 8295
     marketGroup: 687
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Type-D Restrained Shield Flux Coil
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -87,7 +87,7 @@ types:
     id: 8297
     marketGroup: 687
     mass: 20.0
-    metalevelold: 1
+    metalevelold: 1.0
     name: Mark I Compact Shield Flux Coil
     portionSize: 1
     poweroutputmultiplier: 1.0
@@ -108,7 +108,7 @@ types:
     marketGroup: 687
     mass: 20.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     name: Dread Guristas Shield Flux Coil
     portionSize: 1
     poweroutputmultiplier: 1.0

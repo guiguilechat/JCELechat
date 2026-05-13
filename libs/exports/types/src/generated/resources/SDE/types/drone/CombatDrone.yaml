@@ -10,7 +10,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.5
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -58,6 +60,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -75,8 +78,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamage: 32.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -123,6 +128,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -140,8 +146,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamage: 32.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -163,7 +171,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 2760.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Infiltrator II
@@ -191,6 +199,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -208,7 +217,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.6
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -255,6 +266,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 32.0
@@ -273,7 +285,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -295,7 +309,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 2016.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hammerhead II
@@ -323,6 +337,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 32.0
@@ -341,8 +356,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -389,6 +406,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -406,8 +424,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -429,7 +449,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 1656.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Praetor II
@@ -457,6 +477,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -474,8 +495,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamage: 20.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -522,6 +545,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -539,8 +563,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamage: 20.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -562,7 +588,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2400.0
     maxvelocity: 4620.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Acolyte II
@@ -590,6 +616,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -607,7 +634,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -630,7 +659,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 1350.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Wasp II
@@ -658,6 +687,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -675,7 +705,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.6
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -722,6 +754,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 64.0
@@ -740,7 +773,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -762,7 +797,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1200.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Ogre II
@@ -790,6 +825,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 64.0
@@ -808,7 +844,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.6
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -855,6 +893,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 20.0
@@ -873,7 +912,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -895,7 +936,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2100.0
     maxvelocity: 3360.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hobgoblin II
@@ -923,6 +964,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 20.0
@@ -941,7 +983,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.5
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -989,6 +1033,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1006,7 +1051,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1029,7 +1076,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2400.0
     maxvelocity: 3780.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hornet II
@@ -1057,6 +1104,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1074,7 +1122,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.3
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1122,6 +1172,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1139,7 +1190,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1162,7 +1215,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1800.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Berserker II
@@ -1190,6 +1243,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1207,7 +1261,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.3
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1255,6 +1311,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1272,7 +1329,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1295,7 +1354,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2100.0
     maxvelocity: 5040.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Warrior II
@@ -1323,6 +1382,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1340,7 +1400,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.5
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1388,6 +1450,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1405,7 +1468,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.3
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1453,6 +1518,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1470,7 +1536,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1493,7 +1561,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 2268.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Vespa II
@@ -1521,6 +1589,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1538,7 +1607,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -1561,7 +1632,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 3000.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Valkyrie II
@@ -1589,6 +1660,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1606,8 +1678,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.55
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1653,6 +1727,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1670,7 +1745,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1717,6 +1794,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1734,7 +1812,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.65
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1781,6 +1861,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 64.0
@@ -1799,7 +1880,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.45
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1846,6 +1929,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -1863,7 +1947,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1885,7 +1971,7 @@ types:
     maxlockedtargets: 8
     maxrange: 60000.0
     maxvelocity: 1.0E-5
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Warden II
@@ -1913,6 +1999,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -1930,7 +2017,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.65
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -1952,7 +2041,7 @@ types:
     maxlockedtargets: 8
     maxrange: 18000.0
     maxvelocity: 1.0E-5
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Garde II
@@ -1980,6 +2069,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamage: 64.0
@@ -1998,8 +2088,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.55
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -2020,7 +2112,7 @@ types:
     maxlockedtargets: 8
     maxrange: 42000.0
     maxvelocity: 1.0E-5
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Curator II
@@ -2048,6 +2140,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -2065,7 +2158,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.45
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -2087,7 +2182,7 @@ types:
     maxlockedtargets: 8
     maxrange: 36000.0
     maxvelocity: 1.0E-5
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Bouncer II
@@ -2115,6 +2210,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -2132,8 +2228,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.61
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamage: 13.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2156,7 +2254,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4235.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Acolyte'
@@ -2182,6 +2280,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 7.0
@@ -2200,8 +2299,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.848
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamage: 13.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2224,7 +2325,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 5082.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Acolyte'
@@ -2252,6 +2353,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 7.0
@@ -2270,7 +2372,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.495
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2295,7 +2399,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1650.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Berserker'
@@ -2321,6 +2425,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -2338,7 +2443,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.716
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2363,7 +2470,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1980.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Berserker'
@@ -2391,6 +2498,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -2408,7 +2516,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.84
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2432,7 +2542,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1848.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hammerhead'
@@ -2458,6 +2568,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 19.0
@@ -2476,7 +2587,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 2.112
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2500,7 +2613,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2218.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hammerhead'
@@ -2528,6 +2641,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 19.0
@@ -2546,7 +2660,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.84
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2570,7 +2686,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3080.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hobgoblin'
@@ -2596,6 +2712,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -2614,7 +2731,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 2.112
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2638,7 +2757,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3696.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hobgoblin'
@@ -2666,6 +2785,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -2684,7 +2804,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.725
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2708,7 +2830,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 3465.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hornet'
@@ -2734,6 +2856,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 7.0
@@ -2752,7 +2875,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.98
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2776,7 +2901,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4158.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hornet'
@@ -2804,6 +2929,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 7.0
@@ -2822,8 +2948,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.61
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamage: 19.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2846,7 +2974,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2530.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Infiltrator'
@@ -2872,6 +3000,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -2890,8 +3019,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.848
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamage: 19.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2914,7 +3045,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 3036.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Infiltrator'
@@ -2942,6 +3073,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -2960,7 +3092,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.84
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -2984,7 +3118,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1100.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Ogre'
@@ -3010,6 +3144,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 35.0
@@ -3028,7 +3163,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 2.112
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3052,7 +3189,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1320.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Ogre'
@@ -3080,6 +3217,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 35.0
@@ -3098,8 +3236,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.61
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 35.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3122,7 +3262,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1518.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Praetor'
@@ -3148,6 +3288,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 29.0
@@ -3166,8 +3307,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.848
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 35.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3190,7 +3333,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1822.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Praetor'
@@ -3218,6 +3361,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 29.0
@@ -3236,7 +3380,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.495
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3261,7 +3407,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2750.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Valkyrie'
@@ -3287,6 +3433,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3304,7 +3451,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.716
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3329,7 +3478,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 3300.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Valkyrie'
@@ -3357,6 +3506,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3374,7 +3524,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.725
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3398,7 +3550,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2079.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Vespa'
@@ -3424,6 +3576,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -3442,7 +3595,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.98
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3466,7 +3621,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2495.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Vespa'
@@ -3494,6 +3649,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 13.0
@@ -3512,7 +3668,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.495
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3537,7 +3695,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 4620.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Warrior'
@@ -3563,6 +3721,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3580,7 +3739,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.716
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3605,7 +3766,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 5544.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Warrior'
@@ -3633,6 +3794,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3650,7 +3812,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.725
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3674,7 +3838,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1238.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Wasp'
@@ -3700,6 +3864,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 29.0
@@ -3718,7 +3883,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.98
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3742,7 +3909,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1485.0
     metagroupid: 4
-    metalevelold: 8
+    metalevelold: 8.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Wasp'
@@ -3770,6 +3937,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 29.0
@@ -3788,8 +3956,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamage: 20.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3812,7 +3982,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4620.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Acolyte
@@ -3838,6 +4008,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3855,8 +4026,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamage: 32.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -3879,7 +4052,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2760.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Infiltrator
@@ -3905,6 +4078,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3922,8 +4096,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.55
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -3945,7 +4121,7 @@ types:
     maxrange: 42000.0
     maxvelocity: 1.0E-5
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Curator
@@ -3971,6 +4147,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -3988,8 +4165,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.68
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamage: 64.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4012,7 +4191,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1656.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Praetor
@@ -4038,6 +4217,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4055,7 +4235,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3200
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4079,7 +4261,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 3780.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Hornet
@@ -4105,6 +4287,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4122,7 +4305,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4146,7 +4331,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2268.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Vespa
@@ -4172,6 +4357,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4189,7 +4375,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4213,7 +4401,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1350.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Wasp
@@ -4239,6 +4427,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4256,7 +4445,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.4
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -4279,7 +4470,7 @@ types:
     maxrange: 60000.0
     maxvelocity: 1.0E-5
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Warden
@@ -4305,6 +4496,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4322,7 +4514,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4345,7 +4539,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3360.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Hobgoblin
@@ -4371,6 +4565,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 20.0
@@ -4389,7 +4584,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4412,7 +4609,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2016.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Hammerhead
@@ -4438,6 +4635,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 32.0
@@ -4456,7 +4654,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.92
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4479,7 +4679,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1200.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Ogre
@@ -4505,6 +4705,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 64.0
@@ -4523,7 +4724,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.65
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -4546,7 +4749,7 @@ types:
     maxrange: 18000.0
     maxvelocity: 1.0E-5
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Garde
@@ -4572,6 +4775,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 64.0
@@ -4590,7 +4794,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 2800
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4614,7 +4820,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 5040.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Warrior
@@ -4640,6 +4846,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4657,7 +4864,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 5600
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4681,7 +4890,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 3000.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Valkyrie
@@ -4707,6 +4916,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4724,7 +4934,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.56
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 7000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4748,7 +4960,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1800.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Berserker
@@ -4774,6 +4986,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4791,7 +5004,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.45
     dronebandwidthused: 25
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 250000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -4814,7 +5029,7 @@ types:
     maxrange: 36000.0
     maxvelocity: 1.0E-5
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Bouncer
@@ -4840,6 +5055,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 300.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 1.0
@@ -4857,7 +5073,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.6
     dronebandwidthused: 5
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 3000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4901,6 +5119,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     speed: 2000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 10.0
@@ -4919,8 +5138,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 2.05
     dronebandwidthused: 50
+    ecmduration: 30000
     emdamage: 32.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -4945,7 +5166,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1820.0
     metagroupid: 4
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Gecko
@@ -4971,6 +5192,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 32.0
@@ -4989,8 +5211,10 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 0.85
     dronebandwidthused: 20
+    ecmduration: 30000
     emdamage: 32.0
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 8000
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -5014,7 +5238,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1680.0
-    metalevelold: 6
+    metalevelold: 6.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Subverted'' JVN-UC49'
@@ -5040,6 +5264,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 100.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamage: 32.0
@@ -5053,7 +5278,9 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -5086,6 +5313,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -5096,7 +5324,9 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -5129,6 +5359,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -5139,7 +5370,9 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -5172,6 +5405,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -5182,7 +5416,9 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     damagemultiplier: 1.0
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
     entitychasemaxdelaychance: 1.0
@@ -5215,6 +5451,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 300.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
@@ -5230,7 +5467,9 @@ types:
     capacitorcapacity: 1.0
     damagemultiplier: 1.8
     dronebandwidthused: 10
+    ecmduration: 30000
     emdamageresonance: 1.0
+    energyneutralizerduration: 30000
     entityattackrange: 6400
     entitychasemaxdelay: 1.0
     entitychasemaxdelaychance: 1.0
@@ -5253,7 +5492,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 2268.0
-    metalevelold: 5
+    metalevelold: 5.0
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Aralez
@@ -5281,9 +5520,1402 @@ types:
     shielduniformity: 0.75
     signatureradius: 50.0
     speed: 4000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 1.0
     trackingspeed: 0.78
     uniformity: 0.75
     volume: 10.0
+  92033:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92033
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Orbweaver SW-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2115
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 3435
+    requiredskill4level: 3
+    requiredskill5: 12305
+    requiredskill5level: 1
+    scanmagnetometricstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    speed: 4000.0
+    speedfactor: -5.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    uniformity: 0.75
+    volume: 5.0
+  92034:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92034
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Huntsman SW-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2115
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 3435
+    requiredskill4level: 3
+    requiredskill5: 12305
+    requiredskill5level: 2
+    scanmagnetometricstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    speedfactor: -10.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    uniformity: 0.75
+    volume: 10.0
+  92035:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92035
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Arabellata SW-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2115
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 3435
+    requiredskill4level: 3
+    requiredskill5: 12305
+    requiredskill5level: 3
+    scanmagnetometricstrength: 22.5
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 4000.0
+    speedfactor: -20.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    uniformity: 0.75
+    volume: 25.0
+  92036:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    ecmduration: 30000
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizeramount: 5.0
+    energyneutralizerduration: 6000
+    energyneutralizerentitychance: 1.0
+    energyneutralizerrangeoptimal: 5000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92036
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Tick EV-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 3423
+    requiredskill4level: 3
+    scanmagnetometricstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    uniformity: 0.75
+    volume: 5.0
+  92037:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    ecmduration: 30000
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizeramount: 10.0
+    energyneutralizerduration: 6000
+    energyneutralizerentitychance: 1.0
+    energyneutralizerrangeoptimal: 7500
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92037
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Mosquito EV-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 3423
+    requiredskill4level: 3
+    scanmagnetometricstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    uniformity: 0.75
+    volume: 10.0
+  92038:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    ecmduration: 30000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizeramount: 25.0
+    energyneutralizerduration: 6000
+    energyneutralizerentitychance: 1.0
+    energyneutralizerrangeoptimal: 10000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92038
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Tabanida EV-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 3423
+    requiredskill4level: 3
+    scanmagnetometricstrength: 22.5
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    uniformity: 0.75
+    volume: 25.0
+  92039:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    ecmduration: 20000
+    ecmentitychance: 1.0
+    ecmjamduration: 5000
+    ecmrangeoptimal: 7500
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92039
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Inshore EC-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 3427
+    requiredskill4level: 4
+    scangravimetricstrengthbonus: 1.0
+    scanladarstrengthbonus: 1.0
+    scanmagnetometricstrength: 7.5
+    scanmagnetometricstrengthbonus: 1.0
+    scanradarstrengthbonus: 1.0
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    uniformity: 0.75
+    volume: 5.0
+  92040:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    ecmduration: 20000
+    ecmentitychance: 1.0
+    ecmjamduration: 5000
+    ecmrangeoptimal: 11250
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92040
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Nertic EC-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 3427
+    requiredskill4level: 4
+    scangravimetricstrengthbonus: 1.5
+    scanladarstrengthbonus: 1.5
+    scanmagnetometricstrength: 12.5
+    scanmagnetometricstrengthbonus: 1.5
+    scanradarstrengthbonus: 1.5
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    uniformity: 0.75
+    volume: 10.0
+  92041:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    ecmduration: 20000
+    ecmentitychance: 1.0
+    ecmjamduration: 5000
+    ecmrangeoptimal: 15000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92041
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Humboldt EC-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 3427
+    requiredskill4level: 4
+    scangravimetricstrengthbonus: 2.0
+    scanladarstrengthbonus: 2.0
+    scanmagnetometricstrength: 22.5
+    scanmagnetometricstrengthbonus: 2.0
+    scanradarstrengthbonus: 2.0
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    uniformity: 0.75
+    volume: 25.0
+  92461:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92461
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Skimmer TP-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2114
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 19921
+    requiredskill4level: 3
+    scanmagnetometricstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    signatureradiusbonus: 4.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    uniformity: 0.75
+    volume: 5.0
+  92462:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92462
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Darter TP-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2114
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 19921
+    requiredskill4level: 3
+    scanmagnetometricstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    signatureradiusbonus: 8.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    uniformity: 0.75
+    volume: 10.0
+  92463:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92463
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Meganeura TP-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2114
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 19921
+    requiredskill4level: 3
+    scanmagnetometricstrength: 22.5
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    signatureradiusbonus: 20.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    uniformity: 0.75
+    volume: 25.0
+  92464:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92464
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxtargetrangebonus: -8.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Stigmella SD-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2112
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 3433
+    requiredskill4level: 3
+    scanmagnetometricstrength: 7.5
+    scanresolutionbonus: -8.0
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    uniformity: 0.75
+    volume: 5.0
+  92465:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92465
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxtargetrangebonus: -12.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Luna SD-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2112
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 3433
+    requiredskill4level: 3
+    scanmagnetometricstrength: 12.5
+    scanresolutionbonus: -12.0
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    uniformity: 0.75
+    volume: 10.0
+  92466:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92466
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxtargetrangebonus: -25.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Atlas SD-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2112
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 3433
+    requiredskill4level: 3
+    scanmagnetometricstrength: 22.5
+    scanresolutionbonus: -25.0
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    uniformity: 0.75
+    volume: 25.0
+  92467:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 180.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 20.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 3200
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 600.0
+    entityflyrange: 800.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 2000.0
+    falloffbonus: -5.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 140.0
+    id: 92467
+    kineticdamageresonance: 1.0
+    marketGroup: 837
+    mass: 3000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 2400.0
+    maxrangebonus: -5.0
+    maxvelocity: 3750.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Stellate TD-300-I
+    optimalsigradius: 25
+    portionSize: 1
+    proximityrange: 3500
+    published: true
+    radius: 15.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2113
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 24241
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 1
+    requiredskill4: 3434
+    requiredskill4level: 3
+    scanmagnetometricstrength: 7.5
+    scanspeed: 2000
+    shieldcapacity: 40.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 125000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 2.4
+    trackingspeedbonus: -5.0
+    uniformity: 0.75
+    volume: 5.0
+  92468:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 360.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 10
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 30.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 6400
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 3000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 400.0
+    entityflyrange: 1600.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 3000.0
+    falloffbonus: -12.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 280.0
+    id: 92468
+    kineticdamageresonance: 1.0
+    marketGroup: 838
+    mass: 5000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxrangebonus: -12.0
+    maxvelocity: 2250.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Immaculate TD-600-I
+    optimalsigradius: 125
+    portionSize: 1
+    proximityrange: 5000
+    published: true
+    radius: 20.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2113
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 33699
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 2
+    requiredskill4: 3434
+    requiredskill4level: 3
+    scanmagnetometricstrength: 12.5
+    scanspeed: 2000
+    shieldcapacity: 80.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 200000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 50.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 15.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.8
+    trackingspeedbonus: -12.0
+    uniformity: 0.75
+    volume: 10.0
+  92469:
+    agility: 100.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 720.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 5000.0
+    ecmduration: 30000
+    emdamage: 60.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 8000
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 5000
+    entitychasemaxduration: 2500
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityflyrange: 3200.0
+    entitytargetpaintduration: 30000
+    explosivedamageresonance: 1.0
+    falloff: 5000.0
+    falloffbonus: -25.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 560.0
+    id: 92469
+    kineticdamageresonance: 1.0
+    marketGroup: 839
+    mass: 10000.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 4800.0
+    maxrangebonus: -25.0
+    maxvelocity: 1350.0
+    metalevelold: 6.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Torafugu TD-900-I
+    optimalsigradius: 400
+    portionSize: 1
+    proximityrange: 7000
+    published: true
+    radius: 35.0
+    rechargerate: 2500000.0
+    remoteresistanceid: 2113
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3441
+    requiredskill2level: 1
+    requiredskill3: 23566
+    requiredskill3level: 3
+    requiredskill4: 3434
+    requiredskill4level: 3
+    scanmagnetometricstrength: 22.5
+    scanspeed: 2000
+    shieldcapacity: 160.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 250000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    signatureradius: 100.0
+    speed: 4000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 30.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.6
+    trackingspeedbonus: -25.0
+    uniformity: 0.75
+    volume: 25.0

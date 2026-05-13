@@ -94,7 +94,7 @@ types:
     id: 26424
     marketGroup: 1239
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Projectile Collision Accelerator II
     portionSize: 1
     published: true
@@ -113,7 +113,7 @@ types:
     id: 26428
     marketGroup: 1239
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Projectile Ambit Extension II
     portionSize: 1
     published: true
@@ -131,7 +131,7 @@ types:
     id: 26430
     marketGroup: 1239
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Projectile Burst Aerator II
     portionSize: 1
     published: true
@@ -150,7 +150,7 @@ types:
     marketGroup: 1239
     mass: 200.0
     maxrangebonus: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Projectile Locus Coordinator II
     portionSize: 1
     published: true
@@ -168,7 +168,7 @@ types:
     id: 26434
     marketGroup: 1239
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Large Projectile Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -242,7 +242,7 @@ types:
     id: 31662
     marketGroup: 1237
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Projectile Ambit Extension II
     portionSize: 1
     published: true
@@ -261,7 +261,7 @@ types:
     id: 31664
     marketGroup: 1238
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Projectile Ambit Extension II
     portionSize: 1
     published: true
@@ -280,7 +280,7 @@ types:
     id: 31666
     marketGroup: 1731
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Projectile Ambit Extension II
     portionSize: 1
     published: true
@@ -349,7 +349,7 @@ types:
     id: 31674
     marketGroup: 1237
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Projectile Burst Aerator II
     portionSize: 1
     published: true
@@ -367,7 +367,7 @@ types:
     id: 31676
     marketGroup: 1238
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Projectile Burst Aerator II
     portionSize: 1
     published: true
@@ -385,7 +385,7 @@ types:
     id: 31678
     marketGroup: 1731
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Projectile Burst Aerator II
     portionSize: 1
     published: true
@@ -454,7 +454,7 @@ types:
     id: 31686
     marketGroup: 1237
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Projectile Collision Accelerator II
     portionSize: 1
     published: true
@@ -472,7 +472,7 @@ types:
     id: 31688
     marketGroup: 1238
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Projectile Collision Accelerator II
     portionSize: 1
     published: true
@@ -490,7 +490,7 @@ types:
     id: 31690
     marketGroup: 1731
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Projectile Collision Accelerator II
     portionSize: 1
     published: true
@@ -563,7 +563,7 @@ types:
     marketGroup: 1237
     mass: 200.0
     maxrangebonus: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Projectile Locus Coordinator II
     portionSize: 1
     published: true
@@ -582,7 +582,7 @@ types:
     marketGroup: 1238
     mass: 200.0
     maxrangebonus: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Projectile Locus Coordinator II
     portionSize: 1
     published: true
@@ -601,7 +601,7 @@ types:
     marketGroup: 1731
     mass: 200.0
     maxrangebonus: 20.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Projectile Locus Coordinator II
     portionSize: 1
     published: true
@@ -673,7 +673,7 @@ types:
     id: 31710
     marketGroup: 1237
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Small Projectile Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -692,7 +692,7 @@ types:
     id: 31712
     marketGroup: 1238
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Medium Projectile Metastasis Adjuster II
     portionSize: 1
     published: true
@@ -711,7 +711,7 @@ types:
     id: 31714
     marketGroup: 1731
     mass: 200.0
-    metalevelold: 5
+    metalevelold: 5.0
     name: Capital Projectile Metastasis Adjuster II
     portionSize: 1
     published: true

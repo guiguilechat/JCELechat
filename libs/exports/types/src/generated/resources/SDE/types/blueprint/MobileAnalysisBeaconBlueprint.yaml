@@ -8,3 +8,12 @@ types:
     price: 140000000.0
     published: true
     volume: 0.01
+  92182:
+    id: 92182
+    industryblueprintrank: 40.0
+    marketGroup: 2797
+    name: CONCORD-Carrier Rogue Analysis Beacon Blueprint
+    portionSize: 1
+    price: 140000000.0
+    published: true
+    volume: 0.01

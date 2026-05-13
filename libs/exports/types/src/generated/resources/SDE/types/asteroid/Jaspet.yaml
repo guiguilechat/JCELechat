@@ -112,6 +112,7 @@ types:
     asteroidradiusgrowthfactor: 0.5
     asteroidradiusunitsize: 600
     id: 28621
+    ignoreminingcrits: 1
     ignoreminingwaste: 1
     mass: 1.0E+35
     name: Pithix

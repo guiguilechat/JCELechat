@@ -976,6 +976,48 @@ locations:
     - M9-LAN
     - PX-IHN
     - WPV-JN
+  1st Accord District:
+    adjacentConstellations:
+    - 2nd Accord District
+    - 3rd Accord District
+    - 4th Accord District
+    - Federation Free-Zone
+    - Manifest District
+    adjacentSystems:
+    - Celerity
+    - Couth
+    - Decorum
+    - Forte
+    - Manifest
+    - Ratiocinate
+    - Rigor
+    - Steadfast
+    - Tiberis
+    - Triumph
+    centerX: -1.83949575417577E+17
+    centerY: -1243198702772280.0
+    centerZ: 5.23578723468621E+16
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: false
+    hasHub: true
+    id: 20010002
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: 1st Accord District
+    region: Exordium
+    systems:
+    - Fortitude
+    - Gallant
+    - Lustre
+    - Mettle
+    - Repute
+    - Venerate
   2-M6DE:
     adjacentConstellations:
     - Ancbeu
@@ -1249,6 +1291,48 @@ locations:
     - H-EDXD
     - KF1-DU
     - W-WQM5
+  2nd Accord District:
+    adjacentConstellations:
+    - 1st Accord District
+    - 3rd Accord District
+    - 4th Accord District
+    - Manifest District
+    - The Crucible
+    adjacentSystems:
+    - Decorum
+    - Fortitude
+    - Gallant
+    - Kita-Aino
+    - Lenity
+    - Lustre
+    - Manifest
+    - Rigor
+    - Steadfast
+    - Triumph
+    centerX: -1.81496022240103E+17
+    centerY: -1497646395522930.0
+    centerZ: 5.09649458329198E+16
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20010003
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: 2nd Accord District
+    region: Exordium
+    systems:
+    - Adroit
+    - Celerity
+    - Erudite
+    - Forte
+    - Ratiocinate
+    - Sagacity
   3-PC31:
     adjacentConstellations:
     - 42-WDG
@@ -1733,6 +1817,48 @@ locations:
     - E1UU-3
     - G-YZUX
     - P-3XVV
+  3rd Accord District:
+    adjacentConstellations:
+    - 1st Accord District
+    - 2nd Accord District
+    - 4th Accord District
+    - Manifest District
+    - Strokar
+    adjacentSystems:
+    - Celerity
+    - Couth
+    - Decorum
+    - Forte
+    - Fortitude
+    - Gallant
+    - Manifest
+    - Ratiocinate
+    - Steadfast
+    - Vatna
+    centerX: -1.83535009108121E+17
+    centerY: -1171041486977680.0
+    centerZ: 4.93376767906075E+16
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20010004
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: 3rd Accord District
+    region: Exordium
+    systems:
+    - Lenity
+    - Rigor
+    - Solemn
+    - Tenacity
+    - Triumph
+    - Valiance
   4-0VL9:
     adjacentConstellations:
     - MY-HQD
@@ -2292,6 +2418,48 @@ locations:
     - QYT-X8
     - XKM-DE
     - Y-BIPM
+  4th Accord District:
+    adjacentConstellations:
+    - 1st Accord District
+    - 2nd Accord District
+    - 3rd Accord District
+    - Haven
+    - Manifest District
+    adjacentSystems:
+    - Adaz
+    - Celerity
+    - Forte
+    - Fortitude
+    - Gallant
+    - Lenity
+    - Lustre
+    - Manifest
+    - Rigor
+    - Triumph
+    centerX: -1.85928875109995E+17
+    centerY: -1419430273134970.0
+    centerZ: 5.07237682154967E+16
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20010005
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: 4th Accord District
+    region: Exordium
+    systems:
+    - Abstention
+    - Chivalric
+    - Couth
+    - Decorum
+    - Equity
+    - Steadfast
   5-88B9:
     adjacentConstellations:
     - G2E-RJ
@@ -19635,6 +19803,36 @@ locations:
     - Murini
     - Nordar
     - Uanim
+  Federation Free-Zone:
+    adjacentConstellations:
+    - 1st Accord District
+    adjacentSystems:
+    - Fortitude
+    centerX: -1.95515117669175E+17
+    centerY: 4536851405052150.0
+    centerZ: 5.92348029292856E+16
+    hasBorder: true
+    hasCorridor: false
+    hasFringe: false
+    hasHub: true
+    id: 20010006
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: Federation Free-Zone
+    region: Exordium
+    systems:
+    - Axiosere
+    - Ligare
+    - Maso
+    - Mondaekus
+    - Rotonos
+    - Tiberis
+    - Waison
   Fekhoya:
     adjacentConstellations:
     - Arniri
@@ -21157,6 +21355,36 @@ locations:
     - Raussinen
     - Sotrentaira
     - Uemisaisen
+  Haven:
+    adjacentConstellations:
+    - 4th Accord District
+    adjacentSystems:
+    - Steadfast
+    centerX: -1.92977113603024E+17
+    centerY: 2978671956318920.0
+    centerZ: 3.50482154732457E+16
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: false
+    hasHub: true
+    id: 20010009
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: Haven
+    region: Exordium
+    systems:
+    - Adaz
+    - Ichorah
+    - Kanta
+    - Mazor
+    - Sakizra
+    - Taikud
+    - Vaejra
   Heart:
     adjacentConstellations:
     - Belt
@@ -25350,6 +25578,40 @@ locations:
     - Kazna
     - Lilmad
     - Podion
+  Manifest District:
+    adjacentConstellations:
+    - 1st Accord District
+    - 2nd Accord District
+    - 3rd Accord District
+    - 4th Accord District
+    - Sanctum
+    adjacentRegions:
+    - Genesis
+    adjacentSystems:
+    - Celerity
+    - Fortitude
+    - Rigor
+    - Steadfast
+    - Yulai
+    centerX: -1.83940979265E+17
+    centerY: -708397093744581.0
+    centerZ: 5.08859601995E+16
+    hasBorder: true
+    hasCorridor: false
+    hasFringe: false
+    hasHub: true
+    id: 20010001
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: Manifest District
+    region: Exordium
+    systems:
+    - Manifest
   Manticore:
     adjacentConstellations:
     - Kraken
@@ -31314,6 +31576,7 @@ locations:
     - Elalan
     - Eustron
     - Fabas
+    - Manifest District
     - Mih
     - Nazdirer
     - Panorad
@@ -31323,6 +31586,7 @@ locations:
     adjacentRegions:
     - Essence
     - Everyshore
+    - Exordium
     - Metropolis
     - Sinq Laison
     - Verge Vendor
@@ -31336,6 +31600,7 @@ locations:
     - Deninard
     - Girani-Fa
     - Irgrus
+    - Manifest
     - Merolles
     - Oursulaert
     - Renyn
@@ -32092,6 +32357,36 @@ locations:
     - Odette
     - Ravarin
     - Stegette
+  Strokar:
+    adjacentConstellations:
+    - 3rd Accord District
+    adjacentSystems:
+    - Rigor
+    centerX: -1.68715780184583E+17
+    centerY: 2333854709567680.0
+    centerZ: 4.22438161812331E+16
+    hasBorder: false
+    hasCorridor: false
+    hasFringe: false
+    hasHub: true
+    id: 20010008
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: Strokar
+    region: Exordium
+    systems:
+    - Dettisolin
+    - Dranga
+    - Hofs
+    - Lang
+    - Tindfjalla
+    - Tungna
+    - Vatna
   Subhatoub:
     adjacentConstellations:
     - Arvachah
@@ -32949,6 +33244,36 @@ locations:
     - Liparer
     - Miroona
     - Ranni
+  The Crucible:
+    adjacentConstellations:
+    - 2nd Accord District
+    adjacentSystems:
+    - Celerity
+    centerX: -1.74297951594344E+17
+    centerY: 8218167718717300.0
+    centerZ: 6.53286322710857E+16
+    hasBorder: true
+    hasCorridor: false
+    hasFringe: false
+    hasHub: true
+    id: 20010007
+    isAbyssal: false
+    isHidden: false
+    isJovian: false
+    isKS: true
+    isPochven: false
+    isVoid: false
+    isWormhole: false
+    name: The Crucible
+    region: Exordium
+    systems:
+    - Aldoras
+    - Dyka-hau
+    - Hotak
+    - Kita-Aino
+    - Pamirasu
+    - Tatrys
+    - Urtasvaar
   Thoulde:
     adjacentConstellations:
     - Caldari Border Zone

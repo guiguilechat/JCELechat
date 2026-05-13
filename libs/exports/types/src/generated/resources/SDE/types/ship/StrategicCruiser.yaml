@@ -42,7 +42,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 75000.0
     maxvelocity: 170.0
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Tengu
     portionSize: 1
@@ -135,7 +135,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 70000.0
     maxvelocity: 185.0
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Legion
     portionSize: 1
@@ -228,7 +228,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 70000.0
     maxvelocity: 230.0
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Proteus
     portionSize: 1
@@ -321,7 +321,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 65000.0
     maxvelocity: 185.0
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Loki
     portionSize: 1

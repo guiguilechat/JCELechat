@@ -40,7 +40,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 250.0
     medslots: 3
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Confessor
     portionSize: 1
@@ -128,7 +128,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 240.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Svipul
     portionSize: 1
@@ -217,7 +217,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 180.0
     medslots: 5
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Jackdaw
     portionSize: 1
@@ -304,7 +304,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 180.0
     medslots: 4
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Hecate
     portionSize: 1
@@ -395,7 +395,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 180.0
     medslots: 6
-    metalevelold: 5
+    metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Skua
     portionSize: 1

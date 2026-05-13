@@ -41,7 +41,7 @@ types:
     maxgroupfitted: 1
     maxgrouponline: 1
     maxrange: 300000.0
-    metalevelold: 5
+    metalevelold: 5.0
     modulereactivationdelay: 60000
     name: Standup Stasis Webifier II
     portionSize: 1
