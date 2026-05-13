@@ -223,7 +223,7 @@ public class Markets {
 	 * how many isk we removed from the existing BOs to get the max ones on regional
 	 * market
 	 */
-	private static final double DISCARD_BO_MAX = 100000000.0;
+	private static final double DISCARD_BO_MAX = 20000000.0;
 
 	/**
 	 * find the lowest, for each region's market, of the median price of this
@@ -232,13 +232,11 @@ public class Markets {
 	 * for example if BO prices are 4, 5, 1, 1, 3, then :
 	 * <ol>
 	 * <li>median of 4 is 4</li>
-	 * <li>median of 4,5 is 5</li>
 	 * <li>median of 4,5,1 is 4</li>
-	 * <li>median of 4,5,1,1 is 4</li>
 	 * <li>median of 4,5,1,1,3 is 3</li>
 	 * </ol>
-	 * so return 3. If the last one was removed, then return 4 ; if it was only
-	 * first item, then return 1
+	 * so return 3. If the last two wer removed, then return 4 ; if it was only
+	 * first item, then return 4
 	 * </p>
 	 * <p>
 	 * the goal is to always return first price if it is lower than the others, then

@@ -51,7 +51,7 @@ public class MarketActivityRestController {
 		if (type == null) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "type " + typeId + " unknown");
 		}
-		long start = System.currentTimeMillis();
+//		long start = System.currentTimeMillis();
 //		List<AggregatedHL> fetchedData =
 //				aggregatedDailyHistoryService
 //						.typeHistory(typeId, days);
