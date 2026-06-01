@@ -644,7 +644,7 @@ types:
     volume: 1.0
   92885:
     id: 92885
-    name: AIR Trade Hub
+    name: AIR Trade Center
     portionSize: 1
     published: false
     radius: 70000.0

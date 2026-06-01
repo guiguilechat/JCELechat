@@ -434,15 +434,15 @@ public class CommandDestroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusmd1;
+    @DefaultRealValue(0.0)
+    public double shipbonusmd1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusmd2;
+    @DefaultRealValue(0.0)
+    public double shipbonusmd2;
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(5)

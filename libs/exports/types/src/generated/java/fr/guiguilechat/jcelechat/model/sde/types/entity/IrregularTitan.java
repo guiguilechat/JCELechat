@@ -14,20 +14,22 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
@@ -43,6 +45,13 @@ import org.yaml.snakeyaml.Yaml;
 public class IrregularTitan
     extends Entity
 {
+    /**
+     * The agility of the object.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -86,19 +95,19 @@ public class IrregularTitan
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
+     * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowassistance;
+    /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double emdamageresonance;
-    /**
-     * The speed that entities fly at when not chasing a target.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double entitycruisespeed;
     /**
      * 
      */
@@ -141,6 +150,13 @@ public class IrregularTitan
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double kineticdamageresonance;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double maxvelocity;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -197,12 +213,16 @@ public class IrregularTitan
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, KineticDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, EntityCruiseSpeed.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, KineticDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, GfxBoosterID.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final IrregularTitan.MetaGroup METAGROUP = new IrregularTitan.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  70 :
+            {
+                return agility;
+            }
             case  267 :
             {
                 return armoremdamageresonance;
@@ -227,13 +247,13 @@ public class IrregularTitan
             {
                 return capacitorcapacity;
             }
+            case  854 :
+            {
+                return disallowassistance;
+            }
             case  113 :
             {
                 return emdamageresonance;
-            }
-            case  508 :
-            {
-                return entitycruisespeed;
             }
             case  562 :
             {
@@ -258,6 +278,10 @@ public class IrregularTitan
             case  109 :
             {
                 return kineticdamageresonance;
+            }
+            case  37 :
+            {
+                return maxvelocity;
             }
             case  55 :
             {

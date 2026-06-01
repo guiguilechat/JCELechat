@@ -5606,6 +5606,34 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  93351:
+    id: 93351
+    marketGroup: 3633
+    name: Jita Ascendent - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93352:
+    id: 93352
+    marketGroup: 3633
+    name: Jita Ascendent - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93353:
+    id: 93353
+    marketGroup: 3633
+    name: Mark of the 4-4 - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  93354:
+    id: 93354
+    marketGroup: 3633
+    name: Mark of the 4-4 - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
   93355:
     id: 93355
     marketGroup: 3633

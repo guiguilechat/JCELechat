@@ -6301,6 +6301,10 @@ bpId	activity	typeId	quantity	probability
 90476	manufacturing	90475	1	1.0
 90734	manufacturing	90733	500	1.0
 91175	manufacturing	91174	1	1.0
+91859	manufacturing	91775	1	1.0
+91860	manufacturing	91857	1	1.0
+91861	manufacturing	91849	1	1.0
+91862	manufacturing	91858	1	1.0
 92182	manufacturing	92183	1	1.0
 92654	manufacturing	92514	1	1.0
 92956	manufacturing	92954	5000	1.0

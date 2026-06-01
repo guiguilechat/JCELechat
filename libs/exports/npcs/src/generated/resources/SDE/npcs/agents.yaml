@@ -5521,6 +5521,17 @@ agents:
     stationId: 60005416
     system: Eram
     type: RnD
+  Akrenur Fronkendar:
+    corporation: Minmatar Mining Corporation
+    division: Mining
+    id: 3020253
+    isLocator: false
+    level: 1
+    name: Akrenur Fronkendar
+    station: Tindfjalla IV - Minmatar Mining Corporation Mining Outpost
+    stationId: 60015235
+    system: Tindfjalla
+    type: Basic
   Aksenber Savadeikur:
     corporation: Republic Parliament
     division: Security
@@ -22276,6 +22287,17 @@ agents:
     stationId: 60014599
     system: Sehmy
     type: Event
+  Berwelet Trisevent:
+    corporation: Sisters of EVE
+    division: Security
+    id: 3020239
+    isLocator: false
+    level: 1
+    name: Berwelet Trisevent
+    station: Lustre VI - Sisters of EVE Bureau
+    stationId: 60015246
+    system: Lustre
+    type: Basic
   Besindolf Ade:
     corporation: Thukker Mix
     division: Distribution
@@ -32056,6 +32078,17 @@ agents:
     stationId: 60005605
     system: Jatate
     type: Basic
+  Eilbavik Arngredad:
+    corporation: Minmatar Mining Corporation
+    division: Mining
+    id: 3020254
+    isLocator: false
+    level: 2
+    name: Eilbavik Arngredad
+    station: Tindfjalla IV - Minmatar Mining Corporation Mining Outpost
+    stationId: 60015235
+    system: Tindfjalla
+    type: Basic
   Eilbavik Ornhar:
     corporation: CONCORD
     division: Distribution
@@ -33475,6 +33508,17 @@ agents:
     stationId: 60000973
     system: Uchoshi
     type: Basic
+  Elutaba Gabk:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020246
+    isLocator: false
+    level: 2
+    name: Elutaba Gabk
+    station: Taikud IV - Amarr Navy Logistic Support
+    stationId: 60015231
+    system: Taikud
+    type: Basic
   Emah Gubala:
     corporation: Civic Court
     division: Distribution
@@ -33563,6 +33607,17 @@ agents:
     stationId: 60013495
     system: A-ZLHX
     type: Event
+  Emens Deroutte:
+    corporation: Federation Navy
+    division: Security
+    id: 3020240
+    isLocator: false
+    level: 1
+    name: Emens Deroutte
+    station: Axiosere V - Moon 1 - Federation Navy Logistic Support
+    stationId: 60015223
+    system: Axiosere
+    type: Basic
   Emfant Handriveau:
     corporation: Archangels
     division: Security
@@ -33772,6 +33827,17 @@ agents:
     stationId: 60004594
     system: Rens
     type: Storyline
+  Emps Metyt:
+    corporation: Astral Mining Inc.
+    division: Mining
+    id: 3020242
+    isLocator: false
+    level: 1
+    name: Emps Metyt
+    station: Axiosere VII - Astral Mining Inc. Mining Outpost
+    stationId: 60015224
+    system: Axiosere
+    type: Basic
   Empse Ophaeghe:
     corporation: Aliastra
     division: Security
@@ -34938,6 +35004,17 @@ agents:
     station: Ishomilken VIII - Moon 2 - Perkone Factory
     stationId: 60001600
     system: Ishomilken
+    type: Basic
+  Erkkeras Nigirada:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020250
+    isLocator: false
+    level: 2
+    name: Erkkeras Nigirada
+    station: Hotak III - Moon 1 - Caldari Navy Logistic Support
+    stationId: 60015218
+    system: Hotak
     type: Basic
   Erkkilen Era:
     corporation: Nugoeihuvi Corporation
@@ -39042,6 +39119,17 @@ agents:
     stationId: 60010537
     system: Gerek
     type: Basic
+  Frok Ollar:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020255
+    isLocator: false
+    level: 1
+    name: Frok Ollar
+    station: Tindfjalla V - Republic Fleet Logistic Support
+    stationId: 60015234
+    system: Tindfjalla
+    type: Basic
   Frollimmes Gois:
     corporation: Intaki Bank
     division: Distribution
@@ -41825,6 +41913,17 @@ agents:
     stationId: 60013993
     system: Serpentis Prime
     type: Event
+  Gonakis Dafemur:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020256
+    isLocator: false
+    level: 2
+    name: Gonakis Dafemur
+    station: Tindfjalla V - Republic Fleet Logistic Support
+    stationId: 60015234
+    system: Tindfjalla
+    type: Basic
   Gonakis Eraettafrin:
     corporation: Republic Military School
     division: AdvancedMilitaryPath
@@ -50273,6 +50372,17 @@ agents:
     stationId: 60015169
     system: Jita
     type: Paragon
+  IRIS - Manifest:
+    corporation: Paragon
+    division: Interbus
+    id: 3020257
+    isLocator: false
+    level: 1
+    name: IRIS - Manifest
+    station: Manifest IV - Moon 5 - Paragon Fulfillment Center
+    stationId: 60015251
+    system: Manifest
+    type: Paragon
   IRIS - Ourapheh:
     corporation: Paragon
     division: Interbus
@@ -52065,6 +52175,17 @@ agents:
     station: Frerstorn III - Ishukone Corporation Factory
     stationId: 60002125
     system: Frerstorn
+    type: Basic
+  Ilaere Achive:
+    corporation: Astral Mining Inc.
+    division: Mining
+    id: 3020243
+    isLocator: false
+    level: 2
+    name: Ilaere Achive
+    station: Axiosere VII - Astral Mining Inc. Mining Outpost
+    stationId: 60015224
+    system: Axiosere
     type: Basic
   Ilahed Gimehi:
     corporation: Royal Khanid Navy
@@ -54507,6 +54628,17 @@ agents:
     station: Dudreda VI - Moon 12 - Republic Fleet Assembly Plant
     stationId: 60004846
     system: Dudreda
+    type: Basic
+  Isiene Arelie:
+    corporation: Federation Navy
+    division: Security
+    id: 3020241
+    isLocator: false
+    level: 2
+    name: Isiene Arelie
+    station: Axiosere V - Moon 1 - Federation Navy Logistic Support
+    stationId: 60015223
+    system: Axiosere
     type: Basic
   Isiga Vesen:
     corporation: Caldari Navy
@@ -69722,6 +69854,17 @@ agents:
     stationId: 60012595
     system: X-7OMU
     type: Basic
+  Mashakus Timala:
+    corporation: HZO Refinery
+    division: Mining
+    id: 3020248
+    isLocator: false
+    level: 2
+    name: Mashakus Timala
+    station: Taikud XI - Moon 1 - HZO Refinery Mining Outpost
+    stationId: 60015232
+    system: Taikud
+    type: Basic
   Mashar Anez:
     corporation: Zoar and Sons
     division: Distribution
@@ -72240,6 +72383,17 @@ agents:
     station: Nourvukaiken VII - Moon 10 - Caldari Navy Assembly Plant
     stationId: 60003835
     system: Nourvukaiken
+    type: Basic
+  Mista Sirnad:
+    corporation: HZO Refinery
+    division: Mining
+    id: 3020247
+    isLocator: false
+    level: 1
+    name: Mista Sirnad
+    station: Taikud XI - Moon 1 - HZO Refinery Mining Outpost
+    stationId: 60015232
+    system: Taikud
     type: Basic
   Mitendrittan Eglerique:
     corporation: Aliastra
@@ -75364,6 +75518,17 @@ agents:
     station: Hatakani VII - Moon 20 - State and Region Bank Depository
     stationId: 60003202
     system: Hatakani
+    type: Basic
+  Natakko Kuomi:
+    corporation: Deep Core Mining Inc.
+    division: Mining
+    id: 3020251
+    isLocator: false
+    level: 1
+    name: Natakko Kuomi
+    station: Hotak IX - Deep Core Mining Inc. Mining Outpost
+    stationId: 60015219
+    system: Hotak
     type: Basic
   Natakko Saijimo:
     corporation: Caldari Navy
@@ -85441,6 +85606,17 @@ agents:
     station: Sotrentaira VI - Moon 3 - Caldari Provisions Warehouse
     stationId: 60000955
     system: Sotrentaira
+    type: Basic
+  Outoras Sukina:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020249
+    isLocator: false
+    level: 1
+    name: Outoras Sukina
+    station: Hotak III - Moon 1 - Caldari Navy Logistic Support
+    stationId: 60015218
+    system: Hotak
     type: Basic
   Outtattere Reyttel:
     corporation: Combined Harvest
@@ -103867,6 +104043,17 @@ agents:
     stationId: 60001705
     system: Autaris
     type: Basic
+  Talshardat Choku:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020245
+    isLocator: false
+    level: 1
+    name: Talshardat Choku
+    station: Taikud IV - Amarr Navy Logistic Support
+    stationId: 60015231
+    system: Taikud
+    type: Basic
   Talt Belk:
     corporation: Republic Security Services
     division: Security
@@ -116506,6 +116693,17 @@ agents:
     stationId: 60007858
     system: Yeeramoun
     type: Storyline
+  Yanaguno Aaraken:
+    corporation: Deep Core Mining Inc.
+    division: Mining
+    id: 3020252
+    isLocator: false
+    level: 2
+    name: Yanaguno Aaraken
+    station: Hotak IX - Deep Core Mining Inc. Mining Outpost
+    stationId: 60015219
+    system: Hotak
+    type: Basic
   Yanaguno Asine:
     corporation: Nugoeihuvi Corporation
     division: Distribution

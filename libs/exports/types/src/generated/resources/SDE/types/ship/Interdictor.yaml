@@ -170,8 +170,8 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
-    shipbonusmd1: 5
-    shipbonusmd2: 10
+    shipbonusmd1: 5.0
+    shipbonusmd2: 10.0
     shiprolebonuswarpspeed: 25
     signatureradius: 70.0
     stasiswebifierresistance: 1.0

@@ -61357,9 +61357,9 @@ locations:
     - Surgery
     solarSystem: Manifest
     solarSystemId: 30100032
-  Manifest VI - Moon 1 - CONCORD Bureau:
+  Manifest VI - CONCORD Bureau:
     id: 60015252
-    name: Manifest VI - Moon 1 - CONCORD Bureau
+    name: Manifest VI - CONCORD Bureau
     services:
     - Bounty Missions
     - Cloning
@@ -93649,9 +93649,9 @@ locations:
     - Security Office
     solarSystem: Thiarer
     solarSystemId: 30000069
-  Tiberis III - President Bureau:
+  Tiberis VII - Moon 1 - President Bureau:
     id: 60015225
-    name: Tiberis III - President Bureau
+    name: Tiberis VII - Moon 1 - President Bureau
     services:
     - Bounty Missions
     - Cloning
@@ -95386,9 +95386,9 @@ locations:
     - Surgery
     solarSystem: Tukanas
     solarSystemId: 30004275
-  Tungna IV - Moon 6 - Pator Tech School:
+  Tungna IV - Moon 1 - Pator Tech School:
     id: 60015212
-    name: Tungna IV - Moon 6 - Pator Tech School
+    name: Tungna IV - Moon 1 - Pator Tech School
     services:
     - Bounty Missions
     - Cloning

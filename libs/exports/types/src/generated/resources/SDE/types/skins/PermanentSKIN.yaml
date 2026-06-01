@@ -39936,3 +39936,58 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  94152:
+    id: 94152
+    marketGroup: 1964
+    name: Abaddon Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94153:
+    id: 94153
+    marketGroup: 2069
+    name: Zealot Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94155:
+    id: 94155
+    marketGroup: 2070
+    name: Cerberus State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94156:
+    id: 94156
+    marketGroup: 1965
+    name: Rokh State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94157:
+    id: 94157
+    marketGroup: 2145
+    name: Bifrost Stark Strategist SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94158:
+    id: 94158
+    marketGroup: 2392
+    name: Svipul Stark Strategist SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94160:
+    id: 94160
+    marketGroup: 2144
+    name: Magus Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94187:
+    id: 94187
+    name: Capsule Forever Creative SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01

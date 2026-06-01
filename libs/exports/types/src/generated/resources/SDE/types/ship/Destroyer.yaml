@@ -330,8 +330,8 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
-    shipbonusmd1: 5
-    shipbonusmd2: 10
+    shipbonusmd1: 5.0
+    shipbonusmd2: 10.0
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
@@ -688,8 +688,8 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
-    shipbonusmd1: 5
-    shipbonusmd2: -15
+    shipbonusmd1: 5.0
+    shipbonusmd2: -15.0
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
@@ -1048,8 +1048,8 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
-    shipbonusmd1: 5
-    shipbonusmd2: 10
+    shipbonusmd1: 5.0
+    shipbonusmd2: 10.0
     shipbonusnavydestroyerminmatar1: 5
     shipbonusnavydestroyerminmatar2: -5
     shipbonusnavydestroyerminmatar3: -15
@@ -1326,7 +1326,7 @@ types:
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusgd1: 7.5
-    shipbonusmd1: 10
+    shipbonusmd1: 10.0
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
@@ -1515,7 +1515,7 @@ types:
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonuscd1: 7.5
-    shipbonusmd1: -5
+    shipbonusmd1: -5.0
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
@@ -1820,5 +1820,365 @@ types:
     upgradeslotsleft: 3
     volume: 55000.0
     warpcapacitorneed: 1.35E-6
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  91775:
+    agility: 2.73
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8
+    armorhp: 1425.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.65
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 600.0
+    covertopsandreconopscloakmoduledelay: 30000
+    cpuoutput: 170
+    dronebandwidth: 25
+    dronecapacity: 75
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 40
+    gfxboosterid: 394
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.5
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.85
+    hislots: 5
+    hp: 1275.0
+    id: 91775
+    kineticdamageresonance: 0.67
+    launcherslotsleft: 3
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 3765
+    mass: 1700000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxrangebonus: 50.0
+    maxtargetrange: 41000.0
+    maxvelocity: 255.0
+    medslots: 3
+    mintargetveldmgmultiplier: 0.25
+    name: Dragoon Navy Issue
+    portionSize: 1
+    poweroutput: 64.0
+    powertospeed: 1
+    price: 800000.0
+    propulsiongraphicid: 394
+    published: true
+    radius: 150.0
+    rechargerate: 275000.0
+    requiredskill1: 33091
+    requiredskill1level: 2
+    rigsize: 1
+    rigslots: 3
+    scanradarstrength: 12.0
+    scanresolution: 525.0
+    scanspeed: 5000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 1125.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonusad1: 10
+    shipbonusad2: 20
+    shipbonusoredestroyer1: 5
+    shipbonusoredestroyer2: 5
+    shipbonusoredestroyer3: 5
+    shipbonusrole7: 25.0
+    signatureradius: 66.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    trackingspeedbonus: 50.0
+    turretslotsleft: 3
+    typecolorscheme: 11313
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 47000.0
+    warpcapacitorneed: 8.13E-7
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  91849:
+    agility: 2.71
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 1275.0
+    armorkineticdamageresonance: 0.65
+    armorthermaldamageresonance: 0.65
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 550.0
+    covertopsandreconopscloakmoduledelay: 30000
+    cpuoutput: 175
+    dronebandwidth: 35
+    dronecapacity: 100
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 40
+    gfxboosterid: 394
+    heatattenuationhi: 0.71
+    heatattenuationlow: 0.63
+    heatattenuationmed: 0.5
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.85
+    hislots: 5
+    hp: 1425.0
+    id: 91849
+    kineticdamageresonance: 0.67
+    lowslots: 4
+    maincolor: 16777215
+    marketGroup: 3767
+    mass: 1600000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxtargetrange: 44000.0
+    maxvelocity: 260.0
+    medslots: 3
+    mintargetveldmgmultiplier: 0.25
+    name: Algos Navy Issue
+    portionSize: 1
+    poweroutput: 58.0
+    powertospeed: 1
+    price: 800000.0
+    propulsiongraphicid: 394
+    published: true
+    radius: 150.0
+    rechargerate: 350000.0
+    requiredskill1: 33093
+    requiredskill1level: 2
+    rigsize: 1
+    rigslots: 3
+    scanmagnetometricstrength: 13.0
+    scanresolution: 500.0
+    scanspeed: 5000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 1200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonusgd1: 10.0
+    shipbonusgd2: 10
+    shipbonusoredestroyer1: 5
+    shipbonusoredestroyer2: 5
+    shipbonusoredestroyer3: 5
+    shipbonusrole7: 25.0
+    signatureradius: 72.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    trackingspeedbonus: 50.0
+    turretslotsleft: 4
+    typecolorscheme: 11331
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 55000.0
+    warpcapacitorneed: 8.13E-7
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  91857:
+    agility: 2.565
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.9
+    armorhp: 1125.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.55
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 500.0
+    covertopsandreconopscloakmoduledelay: 30000
+    cpuoutput: 230
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 40
+    gfxboosterid: 395
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.25
+    heatattenuationmed: 0.71
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.85
+    hislots: 6
+    hp: 1125.0
+    id: 91857
+    kineticdamageresonance: 0.67
+    launcherslotsleft: 6
+    lowslots: 2
+    maincolor: 16777215
+    marketGroup: 3766
+    mass: 1750000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxrangebonus: 50.0
+    maxtargetrange: 47000.0
+    maxvelocity: 250.0
+    medslots: 5
+    mintargetveldmgmultiplier: 0.25
+    name: Corax Navy Issue
+    portionSize: 1
+    poweroutput: 53.0
+    powertospeed: 1
+    price: 800000.0
+    propulsiongraphicid: 395
+    published: true
+    radius: 143.0
+    rechargerate: 320000.0
+    requiredskill1: 33092
+    requiredskill1level: 2
+    rigsize: 1
+    rigslots: 3
+    scangravimetricstrength: 14.0
+    scanresolution: 475.0
+    scanspeed: 5000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonuscd1: 5.0
+    shipbonuscd2: 10
+    shipbonuscd3: -5
+    shipbonusoredestroyer1: 5
+    shipbonusoredestroyer2: 5
+    shipbonusoredestroyer3: 5
+    shipbonusrole7: 50.0
+    signatureradius: 69.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    typecolorscheme: 11324
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 52000.0
+    warpcapacitorneed: 8.13E-7
+    warpspeedmultiplier: 4.5
+    weapondisruptionresistance: 1.0
+  91858:
+    agility: 2.755
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.9
+    armorhp: 1200.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.65
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 450.0
+    covertopsandreconopscloakmoduledelay: 30000
+    cpuoutput: 224
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 40
+    gfxboosterid: 397
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.5
+    heatattenuationmed: 0.63
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.85
+    hislots: 6
+    hp: 1200.0
+    id: 91858
+    kineticdamageresonance: 0.67
+    launcherslotsleft: 5
+    lowslots: 3
+    maincolor: 16777215
+    marketGroup: 3768
+    mass: 1650000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxrangebonus: 50.0
+    maxtargetrange: 38000.0
+    maxvelocity: 270.0
+    medslots: 4
+    mintargetveldmgmultiplier: 0.25
+    name: Talwar Fleet Issue
+    portionSize: 1
+    poweroutput: 51.0
+    powertospeed: 1
+    price: 800000.0
+    propulsiongraphicid: 397
+    published: true
+    radius: 150.0
+    rechargerate: 290000.0
+    requiredskill1: 33094
+    requiredskill1level: 2
+    rigsize: 1
+    rigslots: 3
+    scanladarstrength: 11.0
+    scanresolution: 550.0
+    scanspeed: 5000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 1275.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonusmd1: 7.5
+    shipbonusmd2: 7.5
+    shipbonusmd3: -7.5
+    shipbonusoredestroyer1: 5
+    shipbonusoredestroyer2: 5
+    shipbonusoredestroyer3: 5
+    shipbonusrole7: 50.0
+    signatureradius: 50.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    typecolorscheme: 11342
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 43000.0
+    warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 4.5
     weapondisruptionresistance: 1.0

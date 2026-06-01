@@ -4079,3 +4079,43 @@ types:
     name: Anhinga Alliance Emblem
     portionSize: 1
     published: true
+  91863:
+    id: 91863
+    name: Dragoon Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  91864:
+    id: 91864
+    name: Dragoon Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  91865:
+    id: 91865
+    name: Corax Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  91866:
+    id: 91866
+    name: Corax Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  91867:
+    id: 91867
+    name: Algos Navy Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  91868:
+    id: 91868
+    name: Algos Navy Issue Alliance Emblem
+    portionSize: 1
+    published: true
+  91869:
+    id: 91869
+    name: Talwar Fleet Issue Corporation Emblem
+    portionSize: 1
+    published: true
+  91870:
+    id: 91870
+    name: Talwar Fleet Issue Alliance Emblem
+    portionSize: 1
+    published: true

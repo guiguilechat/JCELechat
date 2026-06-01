@@ -6,14 +6,14 @@ import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 /**
  * 
  */
-public class ShipBonusMD2
+public class ShipBonusMD3
     extends RealAttribute
 {
-    public static final ShipBonusMD2 INSTANCE = new ShipBonusMD2();
+    public static final ShipBonusMD3 INSTANCE = new ShipBonusMD3();
 
     @Override
     public int getId() {
-        return  740;
+        return  6089;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class ShipBonusMD2
 
     @Override
     public String toString() {
-        return "ShipBonusMD2";
+        return "ShipBonusMD3";
     }
 }

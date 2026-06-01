@@ -240,3 +240,39 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  91859:
+    id: 91859
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Dragoon Navy Issue Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01
+  91860:
+    id: 91860
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Corax Navy Issue Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01
+  91861:
+    id: 91861
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Algos Navy Issue Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01
+  91862:
+    id: 91862
+    industryblueprintrank: 30.0
+    industryjobcostmultiplier: 1
+    name: Talwar Fleet Issue Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

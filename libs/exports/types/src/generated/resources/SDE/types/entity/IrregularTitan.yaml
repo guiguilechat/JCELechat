@@ -1,18 +1,20 @@
 types:
   93591:
+    agility: 0.036
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 60.0
     explosivedamageresonance: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93591
     kineticdamageresonance: 1.0
     mass: 2400000000.0
+    maxvelocity: 60.0
     name: Defending Avatar
     portionSize: 1
     published: false
@@ -25,19 +27,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93595:
+    agility: 0.036
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 80.0
     explosivedamageresonance: 1.0
     gfxboosterid: 397
     hp: 1.0E8
     id: 93595
     kineticdamageresonance: 1.0
     mass: 2200000000.0
+    maxvelocity: 80.0
     name: Invading Ragnarok
     portionSize: 1
     published: false
@@ -50,19 +54,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93597:
+    agility: 0.037
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 70.0
     explosivedamageresonance: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93597
     kineticdamageresonance: 1.0
     mass: 2100000000.0
+    maxvelocity: 70.0
     name: Invading Erebus
     portionSize: 1
     published: false
@@ -75,19 +81,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93598:
+    agility: 0.035
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 60.0
     explosivedamageresonance: 1.0
     gfxboosterid: 395
     hp: 1.0E8
     id: 93598
     kineticdamageresonance: 1.0
     mass: 2300000000.0
+    maxvelocity: 60.0
     name: Invading Leviathan
     portionSize: 1
     published: false
@@ -100,19 +108,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93599:
+    agility: 0.036
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 60.0
     explosivedamageresonance: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93599
     kineticdamageresonance: 1.0
     mass: 2400000000.0
+    maxvelocity: 60.0
     name: Invading Avatar
     portionSize: 1
     published: false
@@ -125,19 +135,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93613:
+    agility: 0.035
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 60.0
     explosivedamageresonance: 1.0
     gfxboosterid: 395
     hp: 1.0E8
     id: 93613
     kineticdamageresonance: 1.0
     mass: 2300000000.0
+    maxvelocity: 60.0
     name: Defending Leviathan
     portionSize: 1
     published: false
@@ -150,19 +162,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93614:
+    agility: 0.037
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 70.0
     explosivedamageresonance: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93614
     kineticdamageresonance: 1.0
     mass: 2100000000.0
+    maxvelocity: 70.0
     name: Defending Erebus
     portionSize: 1
     published: false
@@ -175,19 +189,21 @@ types:
     shieldthermaldamageresonance: 1.0
     thermaldamageresonance: 1.0
   93615:
+    agility: 0.036
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    disallowassistance: 1
     emdamageresonance: 1.0
-    entitycruisespeed: 80.0
     explosivedamageresonance: 1.0
     gfxboosterid: 397
     hp: 1.0E8
     id: 93615
     kineticdamageresonance: 1.0
     mass: 2200000000.0
+    maxvelocity: 80.0
     name: Defending Ragnarok
     portionSize: 1
     published: false

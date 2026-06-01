@@ -90,6 +90,13 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  91910:
+    id: 91910
+    mass: 1.0
+    name: Military Campaign Expert System
+    portionSize: 1
+    published: true
+    volume: 1.0
   92958:
     id: 92958
     mass: 1.0

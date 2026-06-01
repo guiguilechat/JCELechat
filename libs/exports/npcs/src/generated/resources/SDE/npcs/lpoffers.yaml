@@ -43194,6 +43194,70 @@ offers:
       quantity: 1
     requirements:
       lp: 12500
+  19536:
+    id: 19536
+    name: Dragoon Navy Issue Corporation Emblem
+    product:
+      id: 91863
+      quantity: 1
+    requirements:
+      lp: 8000
+  19537:
+    id: 19537
+    name: Dragoon Navy Issue Alliance Emblem
+    product:
+      id: 91864
+      quantity: 1
+    requirements:
+      lp: 8000
+  19538:
+    id: 19538
+    name: Corax Navy Issue Corporation Emblem
+    product:
+      id: 91865
+      quantity: 1
+    requirements:
+      lp: 8000
+  19539:
+    id: 19539
+    name: Corax Navy Issue Alliance Emblem
+    product:
+      id: 91866
+      quantity: 1
+    requirements:
+      lp: 8000
+  19540:
+    id: 19540
+    name: Algos Navy Issue Corporation Emblem
+    product:
+      id: 91867
+      quantity: 1
+    requirements:
+      lp: 8000
+  19541:
+    id: 19541
+    name: Algos Navy Issue Alliance Emblem
+    product:
+      id: 91868
+      quantity: 1
+    requirements:
+      lp: 8000
+  19542:
+    id: 19542
+    name: Talwar Fleet Issue Corporation Emblem
+    product:
+      id: 91869
+      quantity: 1
+    requirements:
+      lp: 8000
+  19543:
+    id: 19543
+    name: Talwar Fleet Issue Alliance Emblem
+    product:
+      id: 91870
+      quantity: 1
+    requirements:
+      lp: 8000
   19548:
     bpid: 92182
     bpruns: 5

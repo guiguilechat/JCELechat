@@ -1,19 +1,16 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-/**
- * 
- */
-public class ShipBonusMD2
-    extends RealAttribute
+public class BoosterMiningCriticalHitChanceBonus
+    extends IntAttribute
 {
-    public static final ShipBonusMD2 INSTANCE = new ShipBonusMD2();
+    public static final BoosterMiningCriticalHitChanceBonus INSTANCE = new BoosterMiningCriticalHitChanceBonus();
 
     @Override
     public int getId() {
-        return  740;
+        return  6090;
     }
 
     @Override
@@ -28,7 +25,7 @@ public class ShipBonusMD2
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -38,6 +35,6 @@ public class ShipBonusMD2
 
     @Override
     public String toString() {
-        return "ShipBonusMD2";
+        return "BoosterMiningCriticalHitChanceBonus";
     }
 }

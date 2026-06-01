@@ -8465,6 +8465,26 @@ types:
     socialbonus: 100
     speedfactor: 1.0
     volume: 1.0
+  91916:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterminingcriticalhitchancebonus: 2
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 91916
+    marketGroup: 2531
+    maxtargetrangebonus: 2.0
+    name: Imperial Electronics Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    scanstrengthbonus: 2
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebifierresistancebonus: -2
+    volume: 1.0
   92876:
     boosterduration: 7200000.0
     boosterlastinjectiondatetime: 20613.45763888889

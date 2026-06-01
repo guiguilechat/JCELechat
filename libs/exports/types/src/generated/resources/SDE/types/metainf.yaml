@@ -32948,6 +32948,22 @@ id2group:
   91640: skins/PermanentSKIN
   91773: commodity/FabricatorData
   91774: entity/IrregularStructure
+  91775: ship/Destroyer
+  91849: ship/Destroyer
+  91857: ship/Destroyer
+  91858: ship/Destroyer
+  91859: blueprint/DestroyerBlueprint
+  91860: blueprint/DestroyerBlueprint
+  91861: blueprint/DestroyerBlueprint
+  91862: blueprint/DestroyerBlueprint
+  91863: personalization/ShipEmblems
+  91864: personalization/ShipEmblems
+  91865: personalization/ShipEmblems
+  91866: personalization/ShipEmblems
+  91867: personalization/ShipEmblems
+  91868: personalization/ShipEmblems
+  91869: personalization/ShipEmblems
+  91870: personalization/ShipEmblems
   91873: entity/FabricatorRogueDrones
   91874: entity/FabricatorRogueDrones
   91875: entity/FabricatorRogueDrones
@@ -32963,6 +32979,8 @@ id2group:
   91898: entity/FabricatorRogueDrones
   91899: entity/FabricatorRogueDrones
   91902: entity/FabricatorRogueDrones
+  91910: expertsystems/PromotionalExpertSystems
+  91916: implant/Booster
   91938: specialeditionassets/SpecialEditionCommodities
   91986: personalization/ShipSKINDesignElement
   91987: personalization/ShipSKINDesignElement
@@ -33236,6 +33254,10 @@ id2group:
   93348: personalization/ShipSKINDesignElement
   93349: personalization/ShipSKINDesignElement
   93350: personalization/ShipSKINDesignElement
+  93351: personalization/ShipSKINDesignElement
+  93352: personalization/ShipSKINDesignElement
+  93353: personalization/ShipSKINDesignElement
+  93354: personalization/ShipSKINDesignElement
   93355: personalization/ShipSKINDesignElement
   93356: personalization/ShipSKINDesignElement
   93357: personalization/ShipSKINDesignElement
@@ -33411,6 +33433,13 @@ id2group:
   94054: skins/PermanentSKIN
   94055: skins/PermanentSKIN
   94056: skins/PermanentSKIN
+  94152: skins/PermanentSKIN
+  94153: skins/PermanentSKIN
+  94155: skins/PermanentSKIN
+  94156: skins/PermanentSKIN
+  94157: skins/PermanentSKIN
+  94158: skins/PermanentSKIN
+  94160: skins/PermanentSKIN
   94170: entity/FactionDrone
   94171: entity/FactionDrone
   94172: entity/FactionDrone
@@ -33419,6 +33448,11 @@ id2group:
   94175: entity/PoliceDrone
   94176: entity/CustomsOfficial
   94177: entity/CustomsOfficial
+  94187: skins/PermanentSKIN
+  94312: specialeditionassets/SpecialEditionCommodities
+  94314: specialeditionassets/SpecialEditionCommodities
+  94315: specialeditionassets/SpecialEditionCommodities
+  94316: specialeditionassets/SpecialEditionCommodities
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

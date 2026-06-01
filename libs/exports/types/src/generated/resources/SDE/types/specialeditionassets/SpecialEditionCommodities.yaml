@@ -4703,3 +4703,35 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  94312:
+    cpumultiplier: 1.0
+    id: 94312
+    marketGroup: 3837
+    name: Dragoon Navy Issue Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94314:
+    cpumultiplier: 1.0
+    id: 94314
+    marketGroup: 3837
+    name: Corax Navy Issue Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94315:
+    cpumultiplier: 1.0
+    id: 94315
+    marketGroup: 3837
+    name: Algos Navy Issue Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94316:
+    cpumultiplier: 1.0
+    id: 94316
+    marketGroup: 3837
+    name: Talwar Fleet Issue Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0

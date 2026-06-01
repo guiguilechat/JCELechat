@@ -78,8 +78,8 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
-    shipbonusmd1: 10
-    shipbonusmd2: -4
+    shipbonusmd1: 10.0
+    shipbonusmd2: -4.0
     shipbonusoredestroyer1: 5
     shipbonusoredestroyer2: 5
     shipbonusoredestroyer3: 5
