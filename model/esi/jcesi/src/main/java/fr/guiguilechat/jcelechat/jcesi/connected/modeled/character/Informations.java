@@ -6,11 +6,13 @@ import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIRawPublic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_gender;
 import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
 
 public class Informations {
 
@@ -23,6 +25,11 @@ public class Informations {
 	public ObjHolder<R_get_characters_character_id> get() {
 		return ESIRawPublic.INSTANCE.cache().characters.get(con.characterId());
 	}
+
+	@Getter(lazy = true)
+	private final R_post_characters_affiliation affiliation =
+			ESIRawPublic.INSTANCE.post_affiliation(new int[] { con.characterId() }, null)
+					.getOK()[0];
 
 	private IntHolder allianceId = null;
 
@@ -73,7 +80,10 @@ public class Informations {
 			ObjHolder<R_get_characters_character_id> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (corporationId == null) {
-					corporationId = fetch.mapInt(info -> (info != null ? info.corporation_id : -1));
+					corporationId =
+							fetch.mapInt(info -> (info != null
+									? info.corporation_id
+									: getAffiliation().corporation_id));
 				}
 			});
 		}

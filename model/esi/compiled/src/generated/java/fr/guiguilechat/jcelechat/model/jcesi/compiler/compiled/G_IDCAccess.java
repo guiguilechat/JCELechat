@@ -2,65 +2,10 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_ancestries;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_bloodlines;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_graphics_graphic_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_races;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_schematics_schematic_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_characters_affiliation;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_ids;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.*;
 
 
 /**
@@ -77,9 +22,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<Integer[]> get_alliances(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/alliances/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_alliances(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/alliances/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -88,13 +33,13 @@ public interface G_IDCAccess
      * Public information about an alliance<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default Requested<R_get_alliances_alliance_id> get_alliances(int alliance_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v3/alliances/{alliance_id}/".replace("{alliance_id}", ""+alliance_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id.class));
+    default Requested<R_get_alliances_alliance_id> get_alliances(int alliance_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v3/alliances/{alliance_id}/".replace("{alliance_id}", ""+alliance_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id.class);
     }
 
     /**
@@ -103,13 +48,13 @@ public interface G_IDCAccess
      * List all current member corporations of an alliance<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default Requested<Integer[]> get_alliances_corporations(int alliance_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/alliances/{alliance_id}/corporations/".replace("{alliance_id}", ""+alliance_id));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_alliances_corporations(int alliance_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/alliances/{alliance_id}/corporations/".replace("{alliance_id}", ""+alliance_id);
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -118,13 +63,13 @@ public interface G_IDCAccess
      * Get the icon urls for a alliance<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default Requested<R_get_alliances_alliance_id_icons> get_alliances_icons(int alliance_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/alliances/{alliance_id}/icons/".replace("{alliance_id}", ""+alliance_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons.class));
+    default Requested<R_get_alliances_alliance_id_icons> get_alliances_icons(int alliance_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/alliances/{alliance_id}/icons/".replace("{alliance_id}", ""+alliance_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_alliances_alliance_id_icons.class);
     }
 
     /**
@@ -133,13 +78,13 @@ public interface G_IDCAccess
      * Public information about a character<br />
      * This route is cached for up to 604800 seconds
      * </p>
-     * 
+     *
      * @param character_id
      *     An EVE character ID
      */
-    public default Requested<R_get_characters_character_id> get_characters(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v5/characters/{character_id}/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id.class));
+    default Requested<R_get_characters_character_id> get_characters(int character_id, Map<String, String> properties) {
+		String url = "https://esi.evetech.net/characters/{character_id}/".replace("{character_id}", "" + character_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id.class);
     }
 
     /**
@@ -148,13 +93,13 @@ public interface G_IDCAccess
      * Get a list of all the corporations a character has been a member of<br />
      * This route is cached for up to 86400 seconds
      * </p>
-     * 
+     *
      * @param character_id
      *     An EVE character ID
      */
-    public default Requested<R_get_characters_character_id_corporationhistory[]> get_characters_corporationhistory(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class));
+    default Requested<R_get_characters_character_id_corporationhistory[]> get_characters_corporationhistory(int character_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/characters/{character_id}/corporationhistory/".replace("{character_id}", ""+character_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory[].class);
     }
 
     /**
@@ -163,13 +108,13 @@ public interface G_IDCAccess
      * Get portrait urls for a character<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param character_id
      *     An EVE character ID
      */
-    public default Requested<R_get_characters_character_id_portrait> get_characters_portrait(int character_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/portrait/".replace("{character_id}", ""+character_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait.class));
+    default Requested<R_get_characters_character_id_portrait> get_characters_portrait(int character_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/characters/{character_id}/portrait/".replace("{character_id}", ""+character_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait.class);
     }
 
     /**
@@ -178,15 +123,15 @@ public interface G_IDCAccess
      * Returns a paginated list of all public contracts in the given region<br />
      * This route is cached for up to 1800 seconds
      * </p>
-     * 
+     *
      * @param page
      *     Which page of results to return
      * @param region_id
      *     An EVE region id
      */
-    public default Requested<R_get_contracts_public_region_id[]> get_contracts_public(Integer page, int region_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/contracts/public/{region_id}/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id[].class));
+    default Requested<R_get_contracts_public_region_id[]> get_contracts_public(Integer page, int region_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/contracts/public/{region_id}/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id[].class);
     }
 
     /**
@@ -195,15 +140,15 @@ public interface G_IDCAccess
      * Lists bids on a public auction contract<br />
      * This route is cached for up to 300 seconds
      * </p>
-     * 
+     *
      * @param contract_id
      *     ID of a contract
      * @param page
      *     Which page of results to return
      */
-    public default Requested<R_get_contracts_public_bids_contract_id[]> get_contracts_public_bids(int contract_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/contracts/public/bids/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id[].class));
+    default Requested<R_get_contracts_public_bids_contract_id[]> get_contracts_public_bids(int contract_id, Integer page, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/contracts/public/bids/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_bids_contract_id[].class);
     }
 
     /**
@@ -212,15 +157,15 @@ public interface G_IDCAccess
      * Lists items of a public contract<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param contract_id
      *     ID of a contract
      * @param page
      *     Which page of results to return
      */
-    public default Requested<R_get_contracts_public_items_contract_id[]> get_contracts_public_items(int contract_id, Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/contracts/public/items/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id[].class));
+    default Requested<R_get_contracts_public_items_contract_id[]> get_contracts_public_items(int contract_id, Integer page, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/contracts/public/items/{contract_id}/".replace("{contract_id}", ""+contract_id)+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id[].class);
     }
 
     /**
@@ -229,13 +174,13 @@ public interface G_IDCAccess
      * Public information about a corporation<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default Requested<R_get_corporations_corporation_id> get_corporations(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id.class));
+    default Requested<R_get_corporations_corporation_id> get_corporations(int corporation_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v4/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id.class);
     }
 
     /**
@@ -244,13 +189,13 @@ public interface G_IDCAccess
      * Get a list of all the alliances a corporation has been a member of<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default Requested<R_get_corporations_corporation_id_alliancehistory[]> get_corporations_alliancehistory(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/alliancehistory/".replace("{corporation_id}", ""+corporation_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class));
+    default Requested<R_get_corporations_corporation_id_alliancehistory[]> get_corporations_alliancehistory(int corporation_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/corporations/{corporation_id}/alliancehistory/".replace("{corporation_id}", ""+corporation_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class);
     }
 
     /**
@@ -259,13 +204,13 @@ public interface G_IDCAccess
      * Get the icon urls for a corporation<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default Requested<R_get_corporations_corporation_id_icons> get_corporations_icons(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/icons/".replace("{corporation_id}", ""+corporation_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons.class));
+    default Requested<R_get_corporations_corporation_id_icons> get_corporations_icons(int corporation_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/corporations/{corporation_id}/icons/".replace("{corporation_id}", ""+corporation_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_icons.class);
     }
 
     /**
@@ -275,9 +220,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_corporations_npccorps(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/corporations/npccorps/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_corporations_npccorps(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/corporations/npccorps/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -287,9 +232,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_dogma_attributes(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/dogma/attributes/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_dogma_attributes(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/dogma/attributes/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -298,13 +243,13 @@ public interface G_IDCAccess
      * Get information on a dogma attribute<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param attribute_id
      *     A dogma attribute ID
      */
-    public default Requested<R_get_dogma_attributes_attribute_id> get_dogma_attributes(int attribute_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/dogma/attributes/{attribute_id}/".replace("{attribute_id}", ""+attribute_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id.class));
+    default Requested<R_get_dogma_attributes_attribute_id> get_dogma_attributes(int attribute_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/dogma/attributes/{attribute_id}/".replace("{attribute_id}", ""+attribute_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id.class);
     }
 
     /**
@@ -313,15 +258,15 @@ public interface G_IDCAccess
      * Returns info about a dynamic item resulting from mutation with a mutaplasmid.<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param item_id
      *     item_id integer
      * @param type_id
      *     type_id integer
      */
-    public default Requested<R_get_dogma_dynamic_items_type_id_item_id> get_dogma_dynamic_items(long item_id, int type_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/dogma/dynamic/items/{type_id}/{item_id}/".replace("{item_id}", ""+item_id).replace("{type_id}", ""+type_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id.class));
+    default Requested<R_get_dogma_dynamic_items_type_id_item_id> get_dogma_dynamic_items(long item_id, int type_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/dogma/dynamic/items/{type_id}/{item_id}/".replace("{item_id}", ""+item_id).replace("{type_id}", ""+type_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id.class);
     }
 
     /**
@@ -331,9 +276,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_dogma_effects(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/dogma/effects/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_dogma_effects(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/dogma/effects/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -342,13 +287,13 @@ public interface G_IDCAccess
      * Get information on a dogma effect<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param effect_id
      *     A dogma effect ID
      */
-    public default Requested<R_get_dogma_effects_effect_id> get_dogma_effects(int effect_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/dogma/effects/{effect_id}/".replace("{effect_id}", ""+effect_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id.class));
+    default Requested<R_get_dogma_effects_effect_id> get_dogma_effects(int effect_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/dogma/effects/{effect_id}/".replace("{effect_id}", ""+effect_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id.class);
     }
 
     /**
@@ -358,9 +303,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/fw/leaderboards/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+    default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/fw/leaderboards/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class);
     }
 
     /**
@@ -370,9 +315,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_characters(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/fw/leaderboards/characters/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+    default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_characters(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/fw/leaderboards/characters/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class);
     }
 
     /**
@@ -382,9 +327,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/fw/leaderboards/corporations/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class));
+    default Requested<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/fw/leaderboards/corporations/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_fw_leaderboards_2.class);
     }
 
     /**
@@ -394,9 +339,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_fw_stats[]> get_fw_stats(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/fw/stats/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats[].class));
+    default Requested<R_get_fw_stats[]> get_fw_stats(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/fw/stats/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_stats[].class);
     }
 
     /**
@@ -406,9 +351,9 @@ public interface G_IDCAccess
      * This route is cached for up to 1800 seconds
      * </p>
      */
-    public default Requested<R_get_fw_systems[]> get_fw_systems(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/fw/systems/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems[].class));
+    default Requested<R_get_fw_systems[]> get_fw_systems(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/fw/systems/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_systems[].class);
     }
 
     /**
@@ -418,9 +363,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_fw_wars[]> get_fw_wars(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/fw/wars/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars[].class));
+    default Requested<R_get_fw_wars[]> get_fw_wars(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/fw/wars/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fw_wars[].class);
     }
 
     /**
@@ -430,9 +375,9 @@ public interface G_IDCAccess
      * This route is cached for up to 300 seconds
      * </p>
      */
-    public default Requested<R_get_incursions[]> get_incursions(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/incursions/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions[].class));
+    default Requested<R_get_incursions[]> get_incursions(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/incursions/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_incursions[].class);
     }
 
     /**
@@ -442,9 +387,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_industry_facilities[]> get_industry_facilities(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/industry/facilities/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities[].class));
+    default Requested<R_get_industry_facilities[]> get_industry_facilities(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/industry/facilities/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities[].class);
     }
 
     /**
@@ -454,9 +399,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_industry_systems[]> get_industry_systems(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/industry/systems/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems[].class));
+    default Requested<R_get_industry_systems[]> get_industry_systems(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/industry/systems/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems[].class);
     }
 
     /**
@@ -466,9 +411,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_insurance_prices[]> get_insurance_prices(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/insurance/prices/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices[].class));
+    default Requested<R_get_insurance_prices[]> get_insurance_prices(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/insurance/prices/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices[].class);
     }
 
     /**
@@ -477,15 +422,15 @@ public interface G_IDCAccess
      * Return a single killmail from its ID and hash<br />
      * This route is cached for up to 30758400 seconds
      * </p>
-     * 
+     *
      * @param killmail_hash
      *     The killmail hash for verification
      * @param killmail_id
      *     The killmail ID to be queried
      */
-    public default Requested<R_get_killmails_killmail_id_killmail_hash> get_killmails(String killmail_hash, int killmail_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/killmails/{killmail_id}/{killmail_hash}/".replace("{killmail_hash}", ""+killmail_hash).replace("{killmail_id}", ""+killmail_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash.class));
+    default Requested<R_get_killmails_killmail_id_killmail_hash> get_killmails(String killmail_hash, int killmail_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/killmails/{killmail_id}/{killmail_hash}/".replace("{killmail_hash}", ""+killmail_hash).replace("{killmail_id}", ""+killmail_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash.class);
     }
 
     /**
@@ -494,13 +439,13 @@ public interface G_IDCAccess
      * Return a list of offers from a specific corporation's loyalty store<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default Requested<R_get_loyalty_stores_corporation_id_offers[]> get_loyalty_stores_offers(int corporation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/loyalty/stores/{corporation_id}/offers/".replace("{corporation_id}", ""+corporation_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers[].class));
+    default Requested<R_get_loyalty_stores_corporation_id_offers[]> get_loyalty_stores_offers(int corporation_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/loyalty/stores/{corporation_id}/offers/".replace("{corporation_id}", ""+corporation_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers[].class);
     }
 
     /**
@@ -510,9 +455,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_markets_groups(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/groups/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_markets_groups(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/markets/groups/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -521,13 +466,13 @@ public interface G_IDCAccess
      * Get information on an item group<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param market_group_id
      *     An Eve item group ID
      */
-    public default Requested<R_get_markets_groups_market_group_id> get_markets_groups(int market_group_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id.class));
+    default Requested<R_get_markets_groups_market_group_id> get_markets_groups(int market_group_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_groups_market_group_id.class);
     }
 
     /**
@@ -536,15 +481,15 @@ public interface G_IDCAccess
      * Return a list of historical market statistics for the specified type in a region<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param region_id
      *     Return statistics in this region
      * @param type_id
      *     Return statistics for this type
      */
-    public default Requested<R_get_markets_region_id_history[]> get_markets_history(int region_id, int type_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/{region_id}/history/".replace("{region_id}", ""+region_id)+"?"+"&type_id="+flatten(type_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history[].class));
+    default Requested<R_get_markets_region_id_history[]> get_markets_history(int region_id, int type_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/markets/{region_id}/history/".replace("{region_id}", ""+region_id)+"?"+"&type_id="+flatten(type_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history[].class);
     }
 
     /**
@@ -553,7 +498,7 @@ public interface G_IDCAccess
      * Return a list of orders in a region<br />
      * This route is cached for up to 300 seconds
      * </p>
-     * 
+     *
      * @param order_type
      *     Filter buy/sell orders, return all orders by default. If you query without type_id, we always return both buy and sell orders
      * @param page
@@ -563,13 +508,13 @@ public interface G_IDCAccess
      * @param type_id
      *     Return orders only for this type
      */
-    public default Requested<R_get_markets_region_id_orders[]> get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type,
+    default Requested<R_get_markets_region_id_orders[]> get_markets_orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type,
         Integer page,
         int region_id,
         Integer type_id,
         Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?"+(order_type==null?"":"&order_type="+flatten(order_type))+(page==null?"":"&page="+flatten(page))+(type_id==null?"":"&type_id="+flatten(type_id)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders[].class));
+        String url = "https://esi.evetech.net/v1/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?"+(order_type==null?"":"&order_type="+flatten(order_type))+(page==null?"":"&page="+flatten(page))+(type_id==null?"":"&type_id="+flatten(type_id));
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders[].class);
     }
 
     /**
@@ -579,9 +524,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_markets_prices[]> get_markets_prices(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/prices/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices[].class));
+    default Requested<R_get_markets_prices[]> get_markets_prices(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/markets/prices/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices[].class);
     }
 
     /**
@@ -590,15 +535,15 @@ public interface G_IDCAccess
      * Return a list of type IDs that have active orders in the region, for efficient market indexing.<br />
      * This route is cached for up to 600 seconds
      * </p>
-     * 
+     *
      * @param page
      *     Which page of results to return
      * @param region_id
      *     Return statistics in this region
      */
-    public default Requested<Integer[]> get_markets_types(Integer page, int region_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/markets/{region_id}/types/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_markets_types(Integer page, int region_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/markets/{region_id}/types/".replace("{region_id}", ""+region_id)+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -607,7 +552,7 @@ public interface G_IDCAccess
      * Get the systems between origin and destination<br />
      * This route is cached for up to 86400 seconds
      * </p>
-     * 
+     *
      * @param avoid
      *     avoid solar system ID(s)
      * @param connections
@@ -619,14 +564,14 @@ public interface G_IDCAccess
      * @param origin
      *     origin solar system ID
      */
-    public default Requested<Integer[]> get_route(int[] avoid,
+    default Requested<Integer[]> get_route(int[] avoid,
         int[][] connections,
         int destination,
         fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
         int origin,
         Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?"+(avoid==null?"":"&avoid="+flatten(avoid))+(connections==null?"":"&connections="+flatten(connections))+(flag==null?"":"&flag="+flatten(flag)));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+        String url = "https://esi.evetech.net/v1/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?"+(avoid==null?"":"&avoid="+flatten(avoid))+(connections==null?"":"&connections="+flatten(connections))+(flag==null?"":"&flag="+flatten(flag));
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -636,9 +581,9 @@ public interface G_IDCAccess
      * This route is cached for up to 5 seconds
      * </p>
      */
-    public default Requested<R_get_sovereignty_campaigns[]> get_sovereignty_campaigns(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/sovereignty/campaigns/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns[].class));
+    default Requested<R_get_sovereignty_campaigns[]> get_sovereignty_campaigns(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/sovereignty/campaigns/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_campaigns[].class);
     }
 
     /**
@@ -648,9 +593,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_sovereignty_map[]> get_sovereignty_map(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/sovereignty/map/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map[].class));
+    default Requested<R_get_sovereignty_map[]> get_sovereignty_map(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/sovereignty/map/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_map[].class);
     }
 
     /**
@@ -660,9 +605,9 @@ public interface G_IDCAccess
      * This route is cached for up to 120 seconds
      * </p>
      */
-    public default Requested<R_get_sovereignty_structures[]> get_sovereignty_structures(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/sovereignty/structures/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures[].class));
+    default Requested<R_get_sovereignty_structures[]> get_sovereignty_structures(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/sovereignty/structures/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_sovereignty_structures[].class);
     }
 
     /**
@@ -672,9 +617,9 @@ public interface G_IDCAccess
      * This route is cached for up to 30 seconds
      * </p>
      */
-    public default Requested<R_get_status> get_status(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/status/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status.class));
+    default Requested<R_get_status> get_status(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/status/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_status.class);
     }
 
     /**
@@ -684,9 +629,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_universe_ancestries[]> get_universe_ancestries(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/ancestries/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_ancestries[].class));
+    default Requested<R_get_universe_ancestries[]> get_universe_ancestries(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/ancestries/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_ancestries[].class);
     }
 
     /**
@@ -695,13 +640,13 @@ public interface G_IDCAccess
      * Get information on an asteroid belt<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param asteroid_belt_id
      *     asteroid_belt_id integer
      */
-    public default Requested<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts(int asteroid_belt_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/asteroid_belts/{asteroid_belt_id}/".replace("{asteroid_belt_id}", ""+asteroid_belt_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id.class));
+    default Requested<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts(int asteroid_belt_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/asteroid_belts/{asteroid_belt_id}/".replace("{asteroid_belt_id}", ""+asteroid_belt_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id.class);
     }
 
     /**
@@ -711,9 +656,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_universe_bloodlines[]> get_universe_bloodlines(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/bloodlines/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_bloodlines[].class));
+    default Requested<R_get_universe_bloodlines[]> get_universe_bloodlines(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/bloodlines/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_bloodlines[].class);
     }
 
     /**
@@ -723,9 +668,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_universe_categories(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/categories/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_categories(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/categories/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -734,13 +679,13 @@ public interface G_IDCAccess
      * Get information of an item category<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param category_id
      *     An Eve item category ID
      */
-    public default Requested<R_get_universe_categories_category_id> get_universe_categories(int category_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/categories/{category_id}/".replace("{category_id}", ""+category_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id.class));
+    default Requested<R_get_universe_categories_category_id> get_universe_categories(int category_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/categories/{category_id}/".replace("{category_id}", ""+category_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id.class);
     }
 
     /**
@@ -750,9 +695,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_universe_constellations(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/constellations/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_constellations(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/constellations/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -761,13 +706,13 @@ public interface G_IDCAccess
      * Get information on a constellation<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param constellation_id
      *     constellation_id integer
      */
-    public default Requested<R_get_universe_constellations_constellation_id> get_universe_constellations(int constellation_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id.class));
+    default Requested<R_get_universe_constellations_constellation_id> get_universe_constellations(int constellation_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id.class);
     }
 
     /**
@@ -777,9 +722,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_universe_factions[]> get_universe_factions(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/factions/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions[].class));
+    default Requested<R_get_universe_factions[]> get_universe_factions(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/universe/factions/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions[].class);
     }
 
     /**
@@ -789,9 +734,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_universe_graphics(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/graphics/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_graphics(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/graphics/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -800,13 +745,13 @@ public interface G_IDCAccess
      * Get information on a graphic<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param graphic_id
      *     graphic_id integer
      */
-    public default Requested<R_get_universe_graphics_graphic_id> get_universe_graphics(int graphic_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/graphics/{graphic_id}/".replace("{graphic_id}", ""+graphic_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_graphics_graphic_id.class));
+    default Requested<R_get_universe_graphics_graphic_id> get_universe_graphics(int graphic_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/graphics/{graphic_id}/".replace("{graphic_id}", ""+graphic_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_graphics_graphic_id.class);
     }
 
     /**
@@ -815,13 +760,13 @@ public interface G_IDCAccess
      * Get a list of item groups<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param page
      *     Which page of results to return
      */
-    public default Requested<Integer[]> get_universe_groups(Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/groups/"+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_groups(Integer page, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/groups/"+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -830,13 +775,13 @@ public interface G_IDCAccess
      * Get information on an item group<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param group_id
      *     An Eve item group ID
      */
-    public default Requested<R_get_universe_groups_group_id> get_universe_groups(int group_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/groups/{group_id}/".replace("{group_id}", ""+group_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id.class));
+    default Requested<R_get_universe_groups_group_id> get_universe_groups(int group_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/groups/{group_id}/".replace("{group_id}", ""+group_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id.class);
     }
 
     /**
@@ -845,13 +790,13 @@ public interface G_IDCAccess
      * Get information on a moon<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param moon_id
      *     moon_id integer
      */
-    public default Requested<R_get_universe_moons_moon_id> get_universe_moons(int moon_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/moons/{moon_id}/".replace("{moon_id}", ""+moon_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id.class));
+    default Requested<R_get_universe_moons_moon_id> get_universe_moons(int moon_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/moons/{moon_id}/".replace("{moon_id}", ""+moon_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_moons_moon_id.class);
     }
 
     /**
@@ -860,13 +805,13 @@ public interface G_IDCAccess
      * Get information on a planet<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param planet_id
      *     planet_id integer
      */
-    public default Requested<R_get_universe_planets_planet_id> get_universe_planets(int planet_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id.class));
+    default Requested<R_get_universe_planets_planet_id> get_universe_planets(int planet_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id.class);
     }
 
     /**
@@ -876,9 +821,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<R_get_universe_races[]> get_universe_races(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/races/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_races[].class));
+    default Requested<R_get_universe_races[]> get_universe_races(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/races/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_races[].class);
     }
 
     /**
@@ -888,9 +833,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_universe_regions(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/regions/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_regions(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/regions/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -899,13 +844,13 @@ public interface G_IDCAccess
      * Get information on a region<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param region_id
      *     region_id integer
      */
-    public default Requested<R_get_universe_regions_region_id> get_universe_regions(int region_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/regions/{region_id}/".replace("{region_id}", ""+region_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id.class));
+    default Requested<R_get_universe_regions_region_id> get_universe_regions(int region_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/regions/{region_id}/".replace("{region_id}", ""+region_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id.class);
     }
 
     /**
@@ -914,13 +859,13 @@ public interface G_IDCAccess
      * Get information on a planetary factory schematic<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param schematic_id
      *     A PI schematic ID
      */
-    public default Requested<R_get_universe_schematics_schematic_id> get_universe_schematics(int schematic_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/schematics/{schematic_id}/".replace("{schematic_id}", ""+schematic_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_schematics_schematic_id.class));
+    default Requested<R_get_universe_schematics_schematic_id> get_universe_schematics(int schematic_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/schematics/{schematic_id}/".replace("{schematic_id}", ""+schematic_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_schematics_schematic_id.class);
     }
 
     /**
@@ -929,13 +874,13 @@ public interface G_IDCAccess
      * Get information on a stargate<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param stargate_id
      *     stargate_id integer
      */
-    public default Requested<R_get_universe_stargates_stargate_id> get_universe_stargates(int stargate_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/stargates/{stargate_id}/".replace("{stargate_id}", ""+stargate_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id.class));
+    default Requested<R_get_universe_stargates_stargate_id> get_universe_stargates(int stargate_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/stargates/{stargate_id}/".replace("{stargate_id}", ""+stargate_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id.class);
     }
 
     /**
@@ -944,13 +889,13 @@ public interface G_IDCAccess
      * Get information on a star<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param star_id
      *     star_id integer
      */
-    public default Requested<R_get_universe_stars_star_id> get_universe_stars(int star_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/stars/{star_id}/".replace("{star_id}", ""+star_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id.class));
+    default Requested<R_get_universe_stars_star_id> get_universe_stars(int star_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/stars/{star_id}/".replace("{star_id}", ""+star_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stars_star_id.class);
     }
 
     /**
@@ -959,13 +904,13 @@ public interface G_IDCAccess
      * Get information on a station<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param station_id
      *     station_id integer
      */
-    public default Requested<R_get_universe_stations_station_id> get_universe_stations(int station_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/stations/{station_id}/".replace("{station_id}", ""+station_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id.class));
+    default Requested<R_get_universe_stations_station_id> get_universe_stations(int station_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/universe/stations/{station_id}/".replace("{station_id}", ""+station_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id.class);
     }
 
     /**
@@ -974,13 +919,13 @@ public interface G_IDCAccess
      * List all public structures<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param filter
      *     Only list public structures that have this service online
      */
-    public default Requested<Long[]> get_universe_structures(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter filter, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/structures/"+"?"+(filter==null?"":"&filter="+flatten(filter)));
-        return (requestGet(url, properties,java.lang.Long[].class));
+    default Requested<Long[]> get_universe_structures(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter filter, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/structures/"+"?"+(filter==null?"":"&filter="+flatten(filter));
+        return requestGet(url, properties,java.lang.Long[].class);
     }
 
     /**
@@ -990,9 +935,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_universe_system_jumps[]> get_universe_system_jumps(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/system_jumps/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps[].class));
+    default Requested<R_get_universe_system_jumps[]> get_universe_system_jumps(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/system_jumps/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps[].class);
     }
 
     /**
@@ -1002,9 +947,9 @@ public interface G_IDCAccess
      * This route is cached for up to 3600 seconds
      * </p>
      */
-    public default Requested<R_get_universe_system_kills[]> get_universe_system_kills(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/system_kills/");
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills[].class));
+    default Requested<R_get_universe_system_kills[]> get_universe_system_kills(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/universe/system_kills/";
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills[].class);
     }
 
     /**
@@ -1014,9 +959,9 @@ public interface G_IDCAccess
      * This route expires daily at 11:05
      * </p>
      */
-    public default Requested<Integer[]> get_universe_systems(Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/systems/");
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_systems(Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/systems/";
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -1025,13 +970,13 @@ public interface G_IDCAccess
      * Get information on a solar system.<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param system_id
      *     system_id integer
      */
-    public default Requested<R_get_universe_systems_system_id> get_universe_systems(int system_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v4/universe/systems/{system_id}/".replace("{system_id}", ""+system_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id.class));
+    default Requested<R_get_universe_systems_system_id> get_universe_systems(int system_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v4/universe/systems/{system_id}/".replace("{system_id}", ""+system_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id.class);
     }
 
     /**
@@ -1040,13 +985,13 @@ public interface G_IDCAccess
      * Get a list of type ids<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param page
      *     Which page of results to return
      */
-    public default Requested<Integer[]> get_universe_types(Integer page, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/types/"+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_universe_types(Integer page, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/types/"+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -1055,13 +1000,13 @@ public interface G_IDCAccess
      * Get information on a type<br />
      * This route expires daily at 11:05
      * </p>
-     * 
+     *
      * @param type_id
      *     An Eve item type ID
      */
-    public default Requested<R_get_universe_types_type_id> get_universe_types(int type_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/types/{type_id}/".replace("{type_id}", ""+type_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id.class));
+    default Requested<R_get_universe_types_type_id> get_universe_types(int type_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/universe/types/{type_id}/".replace("{type_id}", ""+type_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id.class);
     }
 
     /**
@@ -1070,13 +1015,13 @@ public interface G_IDCAccess
      * Return a list of wars<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param max_war_id
      *     Only return wars with ID smaller than this
      */
-    public default Requested<Integer[]> get_wars(Integer max_war_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/wars/"+"?"+(max_war_id==null?"":"&max_war_id="+flatten(max_war_id)));
-        return (requestGet(url, properties,java.lang.Integer[].class));
+    default Requested<Integer[]> get_wars(Integer max_war_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/wars/"+"?"+(max_war_id==null?"":"&max_war_id="+flatten(max_war_id));
+        return requestGet(url, properties,java.lang.Integer[].class);
     }
 
     /**
@@ -1085,13 +1030,13 @@ public interface G_IDCAccess
      * Return details about a war<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param war_id
      *     ID for a war
      */
-    public default Requested<R_get_wars_war_id> get_wars(int war_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/wars/{war_id}/".replace("{war_id}", ""+war_id));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id.class));
+    default Requested<R_get_wars_war_id> get_wars(int war_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/wars/{war_id}/".replace("{war_id}", ""+war_id);
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id.class);
     }
 
     /**
@@ -1100,15 +1045,15 @@ public interface G_IDCAccess
      * Return a list of kills related to a war<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param page
      *     Which page of results to return
      * @param war_id
      *     A valid war ID
      */
-    public default Requested<M_get_killmails_2 []> get_wars_killmails(Integer page, int war_id, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        return (requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2[].class));
+    default Requested<M_get_killmails_2 []> get_wars_killmails(Integer page, int war_id, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id)+"?"+(page==null?"":"&page="+flatten(page));
+        return requestGet(url, properties,fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2[].class);
     }
 
     /**
@@ -1117,12 +1062,12 @@ public interface G_IDCAccess
      * Bulk lookup of character IDs to corporation, alliance and faction<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
+     *
      * @param characters
      *     The character IDs to fetch affiliations for. All characters must exist, or none will be returned
      */
-    public default Requested<R_post_characters_affiliation[]> post_affiliation(int[] characters, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/characters/affiliation/");
+    default Requested<R_post_characters_affiliation[]> post_affiliation(int[] characters, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/characters/affiliation/";
         Map<String, Object> content = new HashMap<>();
         content.put("characters", characters);
         return requestPost(url, properties, content, R_post_characters_affiliation[].class);
@@ -1133,12 +1078,12 @@ public interface G_IDCAccess
      * <p>
      * Resolve a set of names to IDs in the following categories: agents, alliances, characters, constellations, corporations factions, inventory_types, regions, stations, and systems. Only exact matches will be returned. All names searched for are cached for 12 hours
      * </p>
-     * 
+     *
      * @param names
      *     The names to resolve
      */
-    public default Requested<R_post_universe_ids> post_universe_ids(String[] names, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v1/universe/ids/");
+    default Requested<R_post_universe_ids> post_universe_ids(String[] names, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v1/universe/ids/";
         Map<String, Object> content = new HashMap<>();
         content.put("names", names);
         return requestPost(url, properties, content, R_post_universe_ids.class);
@@ -1149,12 +1094,12 @@ public interface G_IDCAccess
      * <p>
      * Resolve a set of IDs to names and categories. Supported ID's for resolving are: Characters, Corporations, Alliances, Stations, Solar Systems, Constellations, Regions, Types, Factions
      * </p>
-     * 
+     *
      * @param ids
      *     The ids to resolve
      */
-    public default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
-        String url = ("https://esi.evetech.net/v2/universe/names/");
+    default Requested<R_post_universe_names[]> post_universe_names(int[] ids, Map<String, String> properties) {
+        String url = "https://esi.evetech.net/v2/universe/names/";
         Map<String, Object> content = new HashMap<>();
         content.put("ids", ids);
         return requestPost(url, properties, content, R_post_universe_names[].class);
