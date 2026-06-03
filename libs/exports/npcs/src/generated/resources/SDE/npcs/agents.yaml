@@ -4938,6 +4938,17 @@ agents:
     stationId: 60008443
     system: Shafrak
     type: Basic
+  Ajvi Tureken:
+    corporation: Science and Trade Institute
+    division: MilitaryCareerPath
+    id: 3020178
+    isLocator: false
+    level: 1
+    name: Ajvi Tureken
+    station: Aldoras VI - Science and Trade Institute
+    stationId: 60015217
+    system: Aldoras
+    type: Career
   Akada Jukkallio:
     corporation: Society of Conscious Thought
     division: Distribution
@@ -5708,6 +5719,17 @@ agents:
     stationId: 60003133
     system: Santola
     type: Basic
+  Alameya Itiala:
+    corporation: School of Applied Knowledge
+    division: MilitaryCareerPath
+    id: 3020198
+    isLocator: false
+    level: 1
+    name: Alameya Itiala
+    station: Pamirasu VI - School of Applied Knowledge
+    stationId: 60015216
+    system: Pamirasu
+    type: Career
   Alanac Anjedin:
     corporation: Ministry of Assessment
     division: Mining
@@ -7556,6 +7578,17 @@ agents:
     stationId: 60010978
     system: Isenan
     type: Basic
+  Alourviron Acanitte:
+    corporation: University of Caille
+    division: AdvancedMilitaryPath
+    id: 3020222
+    isLocator: false
+    level: 1
+    name: Alourviron Acanitte
+    station: Ligare V - University of Caille
+    stationId: 60015214
+    system: Ligare
+    type: Career
   Alpedurch Soulobert:
     corporation: Sisters of EVE
     division: Distribution
@@ -11605,6 +11638,17 @@ agents:
     stationId: 60009658
     system: Annancale
     type: Basic
+  Arabeton Spilmottin:
+    corporation: Center for Advanced Studies
+    division: AdvancedMilitaryPath
+    id: 3020217
+    isLocator: false
+    level: 1
+    name: Arabeton Spilmottin
+    station: Rotonos IV - Moon 2 - Center for Advanced Studies
+    stationId: 60015215
+    system: Rotonos
+    type: Career
   Aradaki Povas:
     corporation: Caldari Constructions
     division: Distribution
@@ -13772,6 +13816,17 @@ agents:
     stationId: 60014692
     system: Dodenvale
     type: Basic
+  Arnelin Ygegnere:
+    corporation: Center for Advanced Studies
+    division: IndustryCareerPath
+    id: 3020216
+    isLocator: false
+    level: 1
+    name: Arnelin Ygegnere
+    station: Rotonos IV - Moon 2 - Center for Advanced Studies
+    stationId: 60015215
+    system: Rotonos
+    type: Career
   Arnelmerie Gers:
     corporation: Federal Defense Union
     division: Security
@@ -14972,6 +15027,17 @@ agents:
     stationId: 60010216
     system: Lirsautton
     type: Basic
+  Asden Klald:
+    corporation: Republic University
+    division: ExplorationCareerPath
+    id: 3020229
+    isLocator: false
+    level: 1
+    name: Asden Klald
+    station: Dranga III - Republic University
+    stationId: 60015213
+    system: Dranga
+    type: Career
   Ased Ibar:
     corporation: Amarr Civil Service
     division: Distribution
@@ -15764,6 +15830,17 @@ agents:
     stationId: 60014068
     system: Nakah
     type: Basic
+  Askola Ikkala:
+    corporation: School of Applied Knowledge
+    division: BusinessCareerPAth
+    id: 3020200
+    isLocator: false
+    level: 1
+    name: Askola Ikkala
+    station: Pamirasu VI - School of Applied Knowledge
+    stationId: 60015216
+    system: Pamirasu
+    type: Career
   Askuldur Almegila:
     corporation: Republic Justice Department
     division: Security
@@ -18789,6 +18866,17 @@ agents:
     stationId: 60005482
     system: Knophtikoo
     type: Storyline
+  Austreka Tjolleiror:
+    corporation: Pator Tech School
+    division: ExplorationCareerPath
+    id: 3020224
+    isLocator: false
+    level: 1
+    name: Austreka Tjolleiror
+    station: Tungna IV - Moon 1 - Pator Tech School
+    stationId: 60015212
+    system: Tungna
+    type: Career
   Austrelur Pessur:
     corporation: Republic Security Services
     division: Security
@@ -20769,6 +20857,17 @@ agents:
     stationId: 60005479
     system: Ruchy
     type: Basic
+  Banere Aviviere:
+    corporation: University of Caille
+    division: ExplorationCareerPath
+    id: 3020219
+    isLocator: false
+    level: 1
+    name: Banere Aviviere
+    station: Ligare V - University of Caille
+    stationId: 60015214
+    system: Ligare
+    type: Career
   Bangallia Benc:
     corporation: TransStellar Shipping
     division: Security
@@ -22023,6 +22122,17 @@ agents:
     stationId: 60009406
     system: Jovainnon
     type: Basic
+  Benshikell Rngulneltar:
+    corporation: Pator Tech School
+    division: BusinessCareerPAth
+    id: 3020225
+    isLocator: false
+    level: 1
+    name: Benshikell Rngulneltar
+    station: Tungna IV - Moon 1 - Pator Tech School
+    stationId: 60015212
+    system: Tungna
+    type: Career
   Benur Errus:
     corporation: Native Freshfood
     division: Distribution
@@ -22100,6 +22210,17 @@ agents:
     stationId: 60005716
     system: Helgatild
     type: RnD
+  Beradaillot Audates:
+    corporation: Center for Advanced Studies
+    division: BusinessCareerPAth
+    id: 3020215
+    isLocator: false
+    level: 1
+    name: Beradaillot Audates
+    station: Rotonos IV - Moon 2 - Center for Advanced Studies
+    stationId: 60015215
+    system: Rotonos
+    type: Career
   Berentes Byrcenne:
     corporation: Allotek Industries
     division: Distribution
@@ -24013,6 +24134,17 @@ agents:
     station: Embod IV - Moon 10 - Pator Tech School
     stationId: 60015046
     system: Embod
+    type: Career
+  Braen Aurnur:
+    corporation: Republic University
+    division: BusinessCareerPAth
+    id: 3020230
+    isLocator: false
+    level: 1
+    name: Braen Aurnur
+    station: Dranga III - Republic University
+    stationId: 60015213
+    system: Dranga
     type: Career
   Bragesar Asgureven:
     corporation: Ammatar Fleet
@@ -31803,6 +31935,17 @@ agents:
     stationId: 60005923
     system: Stacmon
     type: Basic
+  Egner Todrir:
+    corporation: Pator Tech School
+    division: IndustryCareerPath
+    id: 3020226
+    isLocator: false
+    level: 1
+    name: Egner Todrir
+    station: Tungna IV - Moon 1 - Pator Tech School
+    stationId: 60015212
+    system: Tungna
+    type: Career
   Egomako Ivafsolf:
     corporation: Freedom Extension
     division: Security
@@ -34598,6 +34741,17 @@ agents:
     stationId: 60003097
     system: Onatoh
     type: Basic
+  Erasouh Nodia:
+    corporation: Royal Amarr Institute
+    division: BusinessCareerPAth
+    id: 3020210
+    isLocator: false
+    level: 1
+    name: Erasouh Nodia
+    station: Kanta IV - Royal Amarr Institute
+    stationId: 60015211
+    system: Kanta
+    type: Career
   Eratoh Vistoya:
     corporation: Ytiri
     division: Distribution
@@ -35038,6 +35192,17 @@ agents:
     stationId: 60001159
     system: Khafis
     type: Basic
+  Erladnur Adill:
+    corporation: Pator Tech School
+    division: MilitaryCareerPath
+    id: 3020223
+    isLocator: false
+    level: 1
+    name: Erladnur Adill
+    station: Tungna IV - Moon 1 - Pator Tech School
+    stationId: 60015212
+    system: Tungna
+    type: Career
   Erleinur Ondgrulf:
     corporation: Republic Security Services
     division: Security
@@ -35192,6 +35357,17 @@ agents:
     stationId: 60003163
     system: Kaimon
     type: Basic
+  Ernstabet Raditter:
+    corporation: Pator Tech School
+    division: AdvancedMilitaryPath
+    id: 3020227
+    isLocator: false
+    level: 1
+    name: Ernstabet Raditter
+    station: Tungna IV - Moon 1 - Pator Tech School
+    stationId: 60015212
+    system: Tungna
+    type: Career
   Ernsteber Krandin:
     corporation: Core Complexion Inc.
     division: Security
@@ -37821,6 +37997,17 @@ agents:
     stationId: 60009337
     system: Aunsou
     type: Basic
+  Fe Stalfernirter:
+    corporation: Republic University
+    division: MilitaryCareerPath
+    id: 3020228
+    isLocator: false
+    level: 1
+    name: Fe Stalfernirter
+    station: Dranga III - Republic University
+    stationId: 60015213
+    system: Dranga
+    type: Career
   Fegh Aviantal:
     corporation: DED
     division: Security
@@ -38338,6 +38525,17 @@ agents:
     stationId: 60007048
     system: Gheth
     type: Basic
+  Firzagev Ramu:
+    corporation: Royal Amarr Institute
+    division: IndustryCareerPath
+    id: 3020211
+    isLocator: false
+    level: 1
+    name: Firzagev Ramu
+    station: Kanta IV - Royal Amarr Institute
+    stationId: 60015211
+    system: Kanta
+    type: Career
   Fisha Gimamin:
     corporation: Kador Family
     division: Distribution
@@ -46929,6 +47127,17 @@ agents:
     stationId: 60009586
     system: Aufay
     type: Basic
+  Here Elanille:
+    corporation: University of Caille
+    division: MilitaryCareerPath
+    id: 3020218
+    isLocator: false
+    level: 1
+    name: Here Elanille
+    station: Ligare V - University of Caille
+    stationId: 60015214
+    system: Ligare
+    type: Career
   Herila Ashnan:
     corporation: Ministry of War
     division: Security
@@ -47633,6 +47842,17 @@ agents:
     stationId: 60007909
     system: Andrub
     type: Basic
+  Hihala Uoyera:
+    corporation: School of Applied Knowledge
+    division: AdvancedMilitaryPath
+    id: 3020202
+    isLocator: false
+    level: 1
+    name: Hihala Uoyera
+    station: Pamirasu VI - School of Applied Knowledge
+    stationId: 60015216
+    system: Pamirasu
+    type: Career
   Hihba Patri:
     corporation: Amarr Civil Service
     division: Distribution
@@ -66785,6 +67005,17 @@ agents:
     stationId: 60000439
     system: Isikesu
     type: Basic
+  Liusasen Ogeniomaa:
+    corporation: Science and Trade Institute
+    division: IndustryCareerPath
+    id: 3020181
+    isLocator: false
+    level: 1
+    name: Liusasen Ogeniomaa
+    station: Aldoras VI - Science and Trade Institute
+    stationId: 60015217
+    system: Aldoras
+    type: Career
   Lo Hus:
     corporation: Genolution
     division: Distribution
@@ -68171,6 +68402,17 @@ agents:
     stationId: 60015115
     system: Samanuni
     type: Basic
+  Mainiras Rotta:
+    corporation: School of Applied Knowledge
+    division: ExplorationCareerPath
+    id: 3020199
+    isLocator: false
+    level: 1
+    name: Mainiras Rotta
+    station: Pamirasu VI - School of Applied Knowledge
+    stationId: 60015216
+    system: Pamirasu
+    type: Career
   Mairanard Hetymmon:
     corporation: Federation Customs
     division: Distribution
@@ -72032,6 +72274,28 @@ agents:
     stationId: 60007288
     system: Hjoramold
     type: Basic
+  Mimikh Makirai:
+    corporation: Hedion University
+    division: MilitaryCareerPath
+    id: 3020203
+    isLocator: false
+    level: 1
+    name: Mimikh Makirai
+    station: Mazor V - Hedion University
+    stationId: 60015210
+    system: Mazor
+    type: Career
+  Mimouh Chorkalmed:
+    corporation: Hedion University
+    division: AdvancedMilitaryPath
+    id: 3020207
+    isLocator: false
+    level: 1
+    name: Mimouh Chorkalmed
+    station: Mazor V - Hedion University
+    stationId: 60015210
+    system: Mazor
+    type: Career
   Minas Iksan:
     corporation: Amarr Navy
     division: Security
@@ -80041,6 +80305,17 @@ agents:
     stationId: 60003628
     system: Seil
     type: Basic
+  Oinoras Himirairos:
+    corporation: School of Applied Knowledge
+    division: IndustryCareerPath
+    id: 3020201
+    isLocator: false
+    level: 1
+    name: Oinoras Himirairos
+    station: Pamirasu VI - School of Applied Knowledge
+    stationId: 60015216
+    system: Pamirasu
+    type: Career
   Oinorolen Ocho:
     corporation: Sukuuvestaa Corporation
     division: Security
@@ -81240,6 +81515,17 @@ agents:
     stationId: 60009121
     system: Abudban
     type: Basic
+  Oleson Zaellau:
+    corporation: University of Caille
+    division: BusinessCareerPAth
+    id: 3020220
+    isLocator: false
+    level: 1
+    name: Oleson Zaellau
+    station: Ligare V - University of Caille
+    stationId: 60015214
+    system: Ligare
+    type: Career
   Olettiers Appaert:
     corporation: CreoDron
     division: Security
@@ -83440,6 +83726,17 @@ agents:
     stationId: 60008224
     system: Hilaban
     type: Basic
+  Ordreid Siltrendur:
+    corporation: Republic University
+    division: IndustryCareerPath
+    id: 3020231
+    isLocator: false
+    level: 1
+    name: Ordreid Siltrendur
+    station: Dranga III - Republic University
+    stationId: 60015213
+    system: Dranga
+    type: Career
   Orecier Aglien:
     corporation: FedMart
     division: Security
@@ -83726,6 +84023,17 @@ agents:
     stationId: 60004885
     system: Klingt
     type: Basic
+  Ormelace Vaille:
+    corporation: Center for Advanced Studies
+    division: MilitaryCareerPath
+    id: 3020213
+    isLocator: false
+    level: 1
+    name: Ormelace Vaille
+    station: Rotonos IV - Moon 2 - Center for Advanced Studies
+    stationId: 60015215
+    system: Rotonos
+    type: Career
   Ormendedier Upheve:
     corporation: The Scope
     division: Distribution
@@ -92240,6 +92548,17 @@ agents:
     stationId: 60005719
     system: Elgoi
     type: Event
+  Renayat Lolkir:
+    corporation: Royal Amarr Institute
+    division: AdvancedMilitaryPath
+    id: 3020212
+    isLocator: false
+    level: 1
+    name: Renayat Lolkir
+    station: Kanta IV - Royal Amarr Institute
+    stationId: 60015211
+    system: Kanta
+    type: Career
   Renen Kirtikko:
     corporation: Expert Housing
     division: Distribution
@@ -94066,6 +94385,17 @@ agents:
     stationId: 60009184
     system: Ulerah
     type: Basic
+  Rounaminck Folle:
+    corporation: Center for Advanced Studies
+    division: ExplorationCareerPath
+    id: 3020214
+    isLocator: false
+    level: 1
+    name: Rounaminck Folle
+    station: Rotonos IV - Moon 2 - Center for Advanced Studies
+    stationId: 60015215
+    system: Rotonos
+    type: Career
   Rounedent Enegute:
     corporation: Roden Shipyards
     division: Security
@@ -96596,6 +96926,17 @@ agents:
     stationId: 60008623
     system: Ghesis
     type: Storyline
+  Sastierre Logille:
+    corporation: University of Caille
+    division: IndustryCareerPath
+    id: 3020221
+    isLocator: false
+    level: 1
+    name: Sastierre Logille
+    station: Ligare V - University of Caille
+    stationId: 60015214
+    system: Ligare
+    type: Career
   Sastigas Kuhtataiken:
     corporation: Wiyrkomi Corporation
     division: Security
@@ -97036,6 +97377,17 @@ agents:
     stationId: 60002554
     system: Mabnen
     type: Storyline
+  Sazakhtid Ifar:
+    corporation: Hedion University
+    division: IndustryCareerPath
+    id: 3020206
+    isLocator: false
+    level: 1
+    name: Sazakhtid Ifar
+    station: Mazor V - Hedion University
+    stationId: 60015210
+    system: Mazor
+    type: Career
   Sazakhtid Nalfir:
     corporation: Amarr Navy
     division: Security
@@ -99566,6 +99918,28 @@ agents:
     stationId: 60008299
     system: Lisudeh
     type: Basic
+  Shokhta Porees:
+    corporation: Hedion University
+    division: BusinessCareerPAth
+    id: 3020205
+    isLocator: false
+    level: 1
+    name: Shokhta Porees
+    station: Mazor V - Hedion University
+    stationId: 60015210
+    system: Mazor
+    type: Career
+  Shom Nisahim:
+    corporation: Royal Amarr Institute
+    division: MilitaryCareerPath
+    id: 3020208
+    isLocator: false
+    level: 1
+    name: Shom Nisahim
+    station: Kanta IV - Royal Amarr Institute
+    stationId: 60015211
+    system: Kanta
+    type: Career
   Shooh Manyiphem:
     corporation: HZO Refinery
     division: Security
@@ -102239,6 +102613,17 @@ agents:
     stationId: 60005515
     system: Aporulie
     type: Basic
+  Steisannur Ladigber:
+    corporation: Republic University
+    division: AdvancedMilitaryPath
+    id: 3020232
+    isLocator: false
+    level: 1
+    name: Steisannur Ladigber
+    station: Dranga III - Republic University
+    stationId: 60015213
+    system: Dranga
+    type: Career
   Stelur Aremold:
     corporation: Trust Partners
     division: Distribution
@@ -103669,6 +104054,17 @@ agents:
     stationId: 60007336
     system: Siseide
     type: Basic
+  Taftas Psazi:
+    corporation: Royal Amarr Institute
+    division: ExplorationCareerPath
+    id: 3020209
+    isLocator: false
+    level: 1
+    name: Taftas Psazi
+    station: Kanta IV - Royal Amarr Institute
+    stationId: 60015211
+    system: Kanta
+    type: Career
   Tagana Moshu:
     corporation: Ardishapur Family
     division: Distribution
@@ -108091,6 +108487,17 @@ agents:
     stationId: 60006205
     system: Sasiekko
     type: Basic
+  Tsuhala Mikaala:
+    corporation: Science and Trade Institute
+    division: ExplorationCareerPath
+    id: 3020179
+    isLocator: false
+    level: 1
+    name: Tsuhala Mikaala
+    station: Aldoras VI - Science and Trade Institute
+    stationId: 60015217
+    system: Aldoras
+    type: Career
   Tsuhtala Tannemichi:
     corporation: Perkone
     division: Distribution
@@ -109818,6 +110225,17 @@ agents:
     stationId: 60013207
     system: Nannaras
     type: Basic
+  Ulen Aharas:
+    corporation: Science and Trade Institute
+    division: BusinessCareerPAth
+    id: 3020180
+    isLocator: false
+    level: 1
+    name: Ulen Aharas
+    station: Aldoras VI - Science and Trade Institute
+    stationId: 60015217
+    system: Aldoras
+    type: Career
   Ulkka Arateri:
     corporation: State Protectorate
     division: Security
@@ -113888,6 +114306,17 @@ agents:
     stationId: 60000775
     system: Aikantoh
     type: Basic
+  Vion Mostuyoemon:
+    corporation: Science and Trade Institute
+    division: AdvancedMilitaryPath
+    id: 3020182
+    isLocator: false
+    level: 1
+    name: Vion Mostuyoemon
+    station: Aldoras VI - Science and Trade Institute
+    stationId: 60015217
+    system: Aldoras
+    type: Career
   Vionnoreau Trillicon:
     corporation: Quafe Company
     division: Mining
@@ -118838,6 +119267,17 @@ agents:
     stationId: 60013405
     system: Poitot
     type: Event
+  Zakrava Jalmabia:
+    corporation: Hedion University
+    division: ExplorationCareerPath
+    id: 3020204
+    isLocator: false
+    level: 1
+    name: Zakrava Jalmabia
+    station: Mazor V - Hedion University
+    stationId: 60015210
+    system: Mazor
+    type: Career
   Zakt Alvald:
     corporation: Core Complexion Inc.
     division: RnD

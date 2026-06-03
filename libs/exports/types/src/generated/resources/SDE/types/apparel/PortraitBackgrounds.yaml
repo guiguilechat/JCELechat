@@ -23,3 +23,19 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  95228:
+    id: 95228
+    marketGroup: 3846
+    mass: 0.5
+    name: Manifest Homecoming Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95275:
+    id: 95275
+    marketGroup: 3846
+    mass: 0.5
+    name: Star Cradle Background
+    portionSize: 1
+    published: true
+    volume: 0.1
