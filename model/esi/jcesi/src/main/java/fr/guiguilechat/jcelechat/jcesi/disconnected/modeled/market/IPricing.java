@@ -19,7 +19,7 @@ public interface IPricing {
 	/**
 	 * @param typeID    type to get price of.
 	 * @param buyOrders if true, return values from buy order. Else from sell orders
-	 * @return cached data
+	 * @return cached data, unsorted
 	 */
 	LocalTypeOrders getMarketOrders(int typeID, boolean buyOrders);
 

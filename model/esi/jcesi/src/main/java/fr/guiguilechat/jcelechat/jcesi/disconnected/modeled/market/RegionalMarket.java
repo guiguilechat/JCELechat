@@ -24,6 +24,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+/// full orders of a regional market.
 @RequiredArgsConstructor
 @Slf4j
 public class RegionalMarket implements IPricing {
