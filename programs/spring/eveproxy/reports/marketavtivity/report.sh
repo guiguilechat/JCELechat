@@ -5,7 +5,7 @@
 
 printf -v date '%(%Y-%m-%d)T' -1
 rootdir=$(cd `dirname "$0"` && pwd)
-# rm -rf "$rootdir/$date"
+rm -rf "$rootdir/$date"
 mkdir "$rootdir/$date" || exit 1
 echo "writing report in $rootdir/$date"
 date -u -I seconds >> "$rootdir/$date/traces.log"
