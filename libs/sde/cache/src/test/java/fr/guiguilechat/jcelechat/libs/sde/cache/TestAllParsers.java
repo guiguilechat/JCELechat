@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.*;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlLoader;
 
 public class TestAllParsers {
 
@@ -30,6 +30,7 @@ public class TestAllParsers {
 				Ecategories.class,
 				Ecertificates.class,
 				EcharacterAttributes.class,
+				EcharacterTitles.class,
 				EcloneGrades.class,
 				EcompressibleTypes.class,
 				EcontrabandTypes.class,
@@ -74,7 +75,7 @@ public class TestAllParsers {
 				EsovereigntyUpgrades.class,
 				EstationOperations.class,
 				EstationServices.class,
-				// translation languages // won't do, indexed by string key
+				EtranslationLanguages.class,
 				EtypeBonus.class,
 				EtypeDogma.class,
 				EtypeLists.class,
@@ -83,7 +84,8 @@ public class TestAllParsers {
 		}) {
 			long start = System.currentTimeMillis();
 			Field f = cl.getField("LOADER");
-			YamlMapIntLoader<?> loader = ((IntMapLoader<?>) f.get(null)).yaml();
+			@SuppressWarnings({ "rawtypes", "unchecked" })
+			YamlLoader<Map<?, ?>> loader = ((MapLoader) f.get(null)).yaml();
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);

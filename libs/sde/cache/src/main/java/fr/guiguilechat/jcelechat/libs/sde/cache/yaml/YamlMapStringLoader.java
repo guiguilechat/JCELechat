@@ -20,7 +20,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader<Map<Integer, U>> {
+public class YamlMapStringLoader<U> extends YAMLCacheListener implements YamlLoader<Map<String, U>> {
 
 	@Getter
 	private final String archiveFileName;
@@ -31,7 +31,7 @@ public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader
 	@Getter(lazy = true)
 	private final File archiveFile = new File(YamlCache.INSTANCE.extractCacheDir(), archiveFileName);
 
-	private LinkedHashMap<Integer, U>  cache = null;
+	private LinkedHashMap<String, U> cache = null;
 
 	@Override
 	public void onSDECacheCleared() {
@@ -39,7 +39,7 @@ public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader
 	}
 
 	@Override
-	public synchronized LinkedHashMap<Integer, U> load() {
+	public synchronized LinkedHashMap<String, U> load() {
 		if (cache == null) {
 			try {
 				YamlCache.INSTANCE.donwloadSDE();
@@ -51,7 +51,7 @@ public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader
 		return cache;
 	}
 
-	public LinkedHashMap<Integer, U>  from(InputStream is) {
+	public LinkedHashMap<String, U> from(InputStream is) {
 		LoaderOptions loaderOptions = new LoaderOptions();
 		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
 		YAMLFactory yamlFactory = YAMLFactory.builder()
@@ -59,7 +59,8 @@ public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
 		try {
-			MapType mapType = TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, Integer.class,
+			MapType mapType =
+					TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, String.class,
 					clazz);
 			var reader = mapper.readerFor(mapType);
 			// can't call readValue with second param as it will close the stream.
@@ -69,7 +70,7 @@ public class YamlMapIntLoader<U> extends YAMLCacheListener implements YamlLoader
 		}
 	}
 
-	public U get(int id) {
+	public U get(String id) {
 		return load().get(id);
 	}
 
