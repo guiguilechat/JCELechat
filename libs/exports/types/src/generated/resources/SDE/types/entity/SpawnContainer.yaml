@@ -10615,7 +10615,7 @@ types:
     id: 76179
     lootrespawntime: 600000.0
     mass: 10000.0
-    name: Imperial Research Com Tower
+    name: Imperial Decipher Com Tower
     portionSize: 1
     published: false
     radius: 300.0
@@ -12436,6 +12436,352 @@ types:
     structureuniformity: 1.0
     tierdifficulty: 4
     volume: 27500.0
+  93216:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93216
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: MIO Data Exfiltrater
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  93217:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93217
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: HoR Data Exfiltrater
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  93218:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93218
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: FIO Data Exfiltrater
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  93219:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93219
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: RSS Data Exfiltrater
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  93220:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93220
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: MIO Data Cracker
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  93221:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93221
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: HoR Data Cracker
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  93222:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93222
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: FIO Data Cracker
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  93223:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93223
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: RSS Data Cracker
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  93224:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93224
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: MIO Data Speculator
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  93225:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93225
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: HoR Data Speculator
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  93226:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93226
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: FIO Data Speculator
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  93227:
+    capacitorcapacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 1000000.0
+    id: 93227
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: RSS Data Speculator
+    portionSize: 1
+    published: false
+    radius: 300.0
+    rechargerate: 1000000.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 4
+    volume: 27500.0
+  93308:
+    cargoscanresistance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    id: 93308
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Imperial Defense Platform
+    portionSize: 1
+    published: false
+    radius: 50.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
   93550:
     entityattackrange: 15000
     entitychasemaxdistance: 2500

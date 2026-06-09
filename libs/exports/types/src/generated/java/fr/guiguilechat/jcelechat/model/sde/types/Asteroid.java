@@ -33,17 +33,21 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hemorphite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hezorime;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Ice;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Jaspet;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kangite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kernite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kylixium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mercoxit;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Moissanite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mordunium;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mutanite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Nocxite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Omber;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Polycrase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Rakovene;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.RareMoonAsteroids;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Raspite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Spodumain;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Talassonite;
@@ -145,7 +149,7 @@ public abstract class Asteroid
 
         @Override
         public Collection<IMetaGroup<? extends Asteroid>> groups() {
-            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, Mutanite.METAGROUP, Kylixium.METAGROUP, Nocxite.METAGROUP, Ueganite.METAGROUP, Hezorime.METAGROUP, Griemeer.METAGROUP, Tyranite.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
+            return Arrays.asList(Mordunium.METAGROUP, Ytirium.METAGROUP, Eifyrium.METAGROUP, Ducinium.METAGROUP, Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, Mutanite.METAGROUP, Kylixium.METAGROUP, Nocxite.METAGROUP, Ueganite.METAGROUP, Hezorime.METAGROUP, Griemeer.METAGROUP, Tyranite.METAGROUP, Raspite.METAGROUP, Polycrase.METAGROUP, Moissanite.METAGROUP, Kangite.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP, Talassonite.METAGROUP, Rakovene.METAGROUP, Bezdnacine.METAGROUP);
         }
     }
 }

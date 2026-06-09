@@ -1146,3 +1146,57 @@ types:
     shieldbonus: 435.0
     techlevel: 1
     volume: 10.0
+  93838:
+    capacitorneed: 500.0
+    cpu: 112.0
+    duration: 8000.0
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.8
+    hp: 40.0
+    id: 93838
+    marketGroup: 601
+    maxrange: 8710.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 8.0
+    name: Caldari Navy Large Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    portionSize: 1
+    power: 250
+    price: 31244.0
+    published: true
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 680.0
+    techlevel: 1
+    volume: 25.0
+  93839:
+    capacitorneed: 408.0
+    cpu: 123.0
+    duration: 6000.0
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 2.1
+    hp: 40.0
+    id: 93839
+    marketGroup: 601
+    maxrange: 8710.0
+    mediumremoterepfittingmultiplier: 1
+    metalevelold: 8.0
+    name: Republic Fleet Large Remote Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
+    portionSize: 1
+    power: 208
+    price: 31244.0
+    published: true
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 510.0
+    techlevel: 1
+    volume: 25.0

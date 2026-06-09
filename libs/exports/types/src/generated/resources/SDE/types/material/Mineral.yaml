@@ -87,3 +87,35 @@ types:
     price: 10000.0
     published: true
     volume: 0.01
+  92569:
+    id: 92569
+    marketGroup: 3848
+    name: Crystalline Raspite
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.01
+  92570:
+    id: 92570
+    marketGroup: 3848
+    name: Crystalline Polycrase
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.01
+  92571:
+    id: 92571
+    marketGroup: 3848
+    name: Crystalline Moissanite
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.01
+  92572:
+    id: 92572
+    marketGroup: 3848
+    name: Crystalline Kangite
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.01

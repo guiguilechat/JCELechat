@@ -1,0 +1,37 @@
+types:
+  92568:
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.35
+    asteroidradiusunitsize: 600
+    id: 92568
+    marketGroup: 3849
+    mass: 1.0E+35
+    name: Kangite X-Grade
+    orebasictype: 1228
+    portionSize: 100
+    price: 23.0
+    published: true
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 1.0
+  92821:
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.011
+    asteroidradiusunitsize: 600
+    id: 92821
+    marketGroup: 3849
+    mass: 1.0E+35
+    name: Compressed Kangite X-Grade
+    orebasictype: 1228
+    portionSize: 100
+    price: 23.0
+    published: true
+    reprocessingskilltype: 60377
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
+    volume: 0.01

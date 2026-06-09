@@ -305,10 +305,10 @@ types:
     rechargerate: 4580000.0
     remoteassistanceimpedance: 1.0
     remoterepairimpedance: 1.0
-    requiredskill1: 20533
-    requiredskill1level: 4
-    requiredskill2: 77738
-    requiredskill2level: 1
+    requiredskill1: 77738
+    requiredskill1level: 1
+    requiredskill2: 20533
+    requiredskill2level: 4
     requiredskill3: 20530
     requiredskill3level: 5
     rigsize: 4

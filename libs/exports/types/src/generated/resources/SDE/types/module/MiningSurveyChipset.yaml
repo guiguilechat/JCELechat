@@ -77,3 +77,23 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
+  94065:
+    cpu: 10.0
+    hp: 40.0
+    id: 94065
+    marketGroup: 714
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    metalevelold: 8.0
+    miningcritbonusyieldbonus: 21
+    miningcritchancebonus: 21
+    miningscannerupgrade: 1
+    miningwasteprobabilitybonus: -21
+    name: Republic Fleet Mining Survey Chipset
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3426
+    requiredskill1level: 2
+    techlevel: 1
+    volume: 5.0

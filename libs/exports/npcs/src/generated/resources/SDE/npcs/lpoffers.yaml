@@ -1990,42 +1990,6 @@ offers:
       - id: 15673
         quantity: 33
       lp: 60750
-  3561:
-    id: 3561
-    name: 5000* Caldari Navy Antimatter Charge L
-    product:
-      id: 21740
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 238
-        quantity: 5000
-      lp: 2400
-  3562:
-    id: 3562
-    name: 5000* Caldari Navy Antimatter Charge M
-    product:
-      id: 23025
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 230
-        quantity: 5000
-      lp: 1600
-  3563:
-    id: 3563
-    name: 5000* Caldari Navy Antimatter Charge S
-    product:
-      id: 23009
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 222
-        quantity: 5000
-      lp: 1200
   3564:
     id: 3564
     name: 5000* Caldari Navy Nova Torpedo
@@ -2158,78 +2122,6 @@ offers:
       - id: 2510
         quantity: 5000
       lp: 5500
-  3577:
-    id: 3577
-    name: 5000* Caldari Navy Iridium Charge L
-    product:
-      id: 23049
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 233
-        quantity: 5000
-      lp: 2400
-  3578:
-    id: 3578
-    name: 5000* Caldari Navy Iridium Charge M
-    product:
-      id: 23035
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 225
-        quantity: 5000
-      lp: 1600
-  3579:
-    id: 3579
-    name: 5000* Caldari Navy Iridium Charge S
-    product:
-      id: 23019
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 217
-        quantity: 5000
-      lp: 1200
-  3580:
-    id: 3580
-    name: 5000* Caldari Navy Iron Charge L
-    product:
-      id: 23053
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 231
-        quantity: 5000
-      lp: 2400
-  3581:
-    id: 3581
-    name: 5000* Caldari Navy Iron Charge M
-    product:
-      id: 23039
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 223
-        quantity: 5000
-      lp: 1600
-  3582:
-    id: 3582
-    name: 5000* Caldari Navy Iron Charge S
-    product:
-      id: 23023
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 215
-        quantity: 5000
-      lp: 1200
   3583:
     id: 3583
     name: 5000* Caldari Navy Scourge Torpedo
@@ -2242,42 +2134,6 @@ offers:
       - id: 267
         quantity: 5000
       lp: 5500
-  3584:
-    id: 3584
-    name: 5000* Caldari Navy Lead Charge L
-    product:
-      id: 23047
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 234
-        quantity: 5000
-      lp: 2400
-  3585:
-    id: 3585
-    name: 5000* Caldari Navy Lead Charge M
-    product:
-      id: 23033
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 226
-        quantity: 5000
-      lp: 1600
-  3586:
-    id: 3586
-    name: 5000* Caldari Navy Lead Charge S
-    product:
-      id: 23017
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 218
-        quantity: 5000
-      lp: 1200
   3587:
     id: 3587
     name: 5000* Caldari Navy Mjolnir Torpedo
@@ -2326,42 +2182,6 @@ offers:
       - id: 213
         quantity: 5000
       lp: 2400
-  3591:
-    id: 3591
-    name: 5000* Caldari Navy Plutonium Charge L
-    product:
-      id: 23041
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 237
-        quantity: 5000
-      lp: 2400
-  3592:
-    id: 3592
-    name: 5000* Caldari Navy Plutonium Charge M
-    product:
-      id: 23027
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 229
-        quantity: 5000
-      lp: 1600
-  3593:
-    id: 3593
-    name: 5000* Caldari Navy Plutonium Charge S
-    product:
-      id: 23011
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 221
-        quantity: 5000
-      lp: 1200
   3594:
     id: 3594
     name: 5000* Caldari Navy Mjolnir Light Missile
@@ -2398,42 +2218,6 @@ offers:
       - id: 20307
         quantity: 5000
       lp: 3000
-  3598:
-    id: 3598
-    name: 5000* Caldari Navy Thorium Charge L
-    product:
-      id: 23045
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 235
-        quantity: 5000
-      lp: 2400
-  3599:
-    id: 3599
-    name: 5000* Caldari Navy Thorium Charge M
-    product:
-      id: 23031
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 227
-        quantity: 5000
-      lp: 1600
-  3600:
-    id: 3600
-    name: 5000* Caldari Navy Thorium Charge S
-    product:
-      id: 23015
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 219
-        quantity: 5000
-      lp: 1200
   3601:
     id: 3601
     name: 5000* Caldari Navy Scourge Rocket
@@ -2470,78 +2254,6 @@ offers:
       - id: 20306
         quantity: 5000
       lp: 3000
-  3604:
-    id: 3604
-    name: 5000* Caldari Navy Tungsten Charge L
-    product:
-      id: 23051
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 232
-        quantity: 5000
-      lp: 2400
-  3605:
-    id: 3605
-    name: 5000* Caldari Navy Tungsten Charge M
-    product:
-      id: 23037
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 224
-        quantity: 5000
-      lp: 1600
-  3606:
-    id: 3606
-    name: 5000* Caldari Navy Tungsten Charge S
-    product:
-      id: 23021
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 216
-        quantity: 5000
-      lp: 1200
-  3607:
-    id: 3607
-    name: 5000* Caldari Navy Uranium Charge L
-    product:
-      id: 23043
-      quantity: 5000
-    requirements:
-      isk: 2400000
-      items:
-      - id: 236
-        quantity: 5000
-      lp: 2400
-  3608:
-    id: 3608
-    name: 5000* Caldari Navy Uranium Charge M
-    product:
-      id: 23029
-      quantity: 5000
-    requirements:
-      isk: 1600000
-      items:
-      - id: 228
-        quantity: 5000
-      lp: 1600
-  3609:
-    id: 3609
-    name: 5000* Caldari Navy Uranium Charge S
-    product:
-      id: 23013
-      quantity: 5000
-    requirements:
-      isk: 1200000
-      items:
-      - id: 220
-        quantity: 5000
-      lp: 1200
   3610:
     id: 3610
     name: 5000* Caldari Navy Inferno Heavy Missile
@@ -25856,36 +25568,36 @@ offers:
       lp: 267750
   16429:
     bpid: 53989
-    bpruns: 5
+    bpruns: 10
     id: 16429
-    name: 5* Signal-15 'Needlejack' Filament(BPC)
+    name: 10* Signal-15 'Needlejack' Filament(BPC)
     product:
       id: 53986
-      quantity: 5
+      quantity: 10
     requirements:
-      isk: 7500000
+      isk: 15000000
       items:
       - id: 30305
-        quantity: 7500
+        quantity: 1500
       - id: 53984
-        quantity: 5
-      lp: 35000
+        quantity: 30
+      lp: 1500
   16430:
     bpid: 53988
-    bpruns: 5
+    bpruns: 10
     id: 16430
-    name: 5* Noise-15 'Needlejack' Filament(BPC)
+    name: 10* Noise-15 'Needlejack' Filament(BPC)
     product:
       id: 53985
-      quantity: 5
+      quantity: 10
     requirements:
-      isk: 5000000
+      isk: 15000000
       items:
       - id: 30305
-        quantity: 5000
+        quantity: 1500
       - id: 53977
-        quantity: 5
-      lp: 20000
+        quantity: 30
+      lp: 1500
   16431:
     bpid: 53908
     bpruns: 1
@@ -43258,6 +42970,126 @@ offers:
       quantity: 1
     requirements:
       lp: 8000
+  19544:
+    bpid: 91859
+    bpruns: 1
+    id: 19544
+    name: Dragoon Navy Issue(BPC)
+    product:
+      id: 91775
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 34
+        quantity: 80000
+      - id: 35
+        quantity: 15000
+      - id: 36
+        quantity: 5000
+      - id: 37
+        quantity: 1000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 12000
+  19545:
+    bpid: 91860
+    bpruns: 1
+    id: 19545
+    name: Corax Navy Issue(BPC)
+    product:
+      id: 91857
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 34
+        quantity: 80000
+      - id: 35
+        quantity: 15000
+      - id: 36
+        quantity: 5000
+      - id: 37
+        quantity: 1000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 12000
+  19546:
+    bpid: 91861
+    bpruns: 1
+    id: 19546
+    name: Algos Navy Issue(BPC)
+    product:
+      id: 91849
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 34
+        quantity: 80000
+      - id: 35
+        quantity: 15000
+      - id: 36
+        quantity: 5000
+      - id: 37
+        quantity: 1000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 12000
+  19547:
+    bpid: 91862
+    bpruns: 1
+    id: 19547
+    name: Talwar Fleet Issue(BPC)
+    product:
+      id: 91858
+      quantity: 1
+    requirements:
+      isk: 3500000
+      items:
+      - id: 34
+        quantity: 80000
+      - id: 35
+        quantity: 15000
+      - id: 36
+        quantity: 5000
+      - id: 37
+        quantity: 1000
+      - id: 38
+        quantity: 30
+      - id: 39
+        quantity: 20
+      - id: 40
+        quantity: 10
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
+      lp: 12000
   19548:
     bpid: 92182
     bpruns: 5
@@ -43398,3 +43230,1511 @@ offers:
       items:
       - id: 86216
         quantity: 24
+  19560:
+    bpid: 17704
+    bpruns: 30
+    id: 19560
+    name: 30* Imperial Navy Slicer(BPC)
+    product:
+      id: 17703
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93612
+        quantity: 1
+      lp: 20000
+  19561:
+    bpid: 40318
+    bpruns: 30
+    id: 19561
+    name: 30* Crucifier Navy Issue(BPC)
+    product:
+      id: 37453
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93612
+        quantity: 1
+      lp: 20000
+  19562:
+    bpid: 72920
+    bpruns: 30
+    id: 19562
+    name: 30* Magnate Navy Issue(BPC)
+    product:
+      id: 72907
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93612
+        quantity: 1
+      lp: 20000
+  19563:
+    bpid: 17620
+    bpruns: 30
+    id: 19563
+    name: 30* Caldari Navy Hookbill(BPC)
+    product:
+      id: 17619
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93611
+        quantity: 1
+      lp: 20000
+  19564:
+    bpid: 40316
+    bpruns: 30
+    id: 19564
+    name: 30* Griffin Navy Issue(BPC)
+    product:
+      id: 37455
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93611
+        quantity: 1
+      lp: 20000
+  19565:
+    bpid: 72922
+    bpruns: 30
+    id: 19565
+    name: 30* Heron Navy Issue(BPC)
+    product:
+      id: 72904
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93611
+        quantity: 1
+      lp: 20000
+  19566:
+    bpid: 17842
+    bpruns: 30
+    id: 19566
+    name: 30* Federation Navy Comet(BPC)
+    product:
+      id: 17841
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93610
+        quantity: 1
+      lp: 20000
+  19567:
+    bpid: 40315
+    bpruns: 30
+    id: 19567
+    name: 30* Maulus Navy Issue(BPC)
+    product:
+      id: 37456
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93610
+        quantity: 1
+      lp: 20000
+  19568:
+    bpid: 72919
+    bpruns: 30
+    id: 19568
+    name: 30* Imicus Navy Issue(BPC)
+    product:
+      id: 72913
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93610
+        quantity: 1
+      lp: 20000
+  19569:
+    bpid: 17813
+    bpruns: 30
+    id: 19569
+    name: 30* Republic Fleet Firetail(BPC)
+    product:
+      id: 17812
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93609
+        quantity: 1
+      lp: 20000
+  19570:
+    bpid: 40317
+    bpruns: 30
+    id: 19570
+    name: 30* Vigil Fleet Issue(BPC)
+    product:
+      id: 37454
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93609
+        quantity: 1
+      lp: 20000
+  19571:
+    bpid: 72917
+    bpruns: 30
+    id: 19571
+    name: 30* Probe Fleet Issue(BPC)
+    product:
+      id: 72903
+      quantity: 30
+    requirements:
+      isk: 60000000
+      items:
+      - id: 34
+        quantity: 960000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 75000
+      - id: 37
+        quantity: 15000
+      - id: 38
+        quantity: 900
+      - id: 39
+        quantity: 600
+      - id: 40
+        quantity: 300
+      - id: 57478
+        quantity: 300
+      - id: 57486
+        quantity: 150
+      - id: 93609
+        quantity: 1
+      lp: 20000
+  19572:
+    bpid: 73973
+    bpruns: 20
+    id: 19572
+    name: 20* Coercer Navy Issue(BPC)
+    product:
+      id: 73789
+      quantity: 20
+    requirements:
+      isk: 70000000
+      items:
+      - id: 34
+        quantity: 1600000
+      - id: 35
+        quantity: 300000
+      - id: 36
+        quantity: 100000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 600
+      - id: 39
+        quantity: 400
+      - id: 40
+        quantity: 200
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
+      - id: 93612
+        quantity: 2
+      lp: 40000
+  19573:
+    bpid: 73978
+    bpruns: 20
+    id: 19573
+    name: 20* Cormorant Navy Issue(BPC)
+    product:
+      id: 73795
+      quantity: 20
+    requirements:
+      isk: 70000000
+      items:
+      - id: 34
+        quantity: 1600000
+      - id: 35
+        quantity: 300000
+      - id: 36
+        quantity: 100000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 600
+      - id: 39
+        quantity: 400
+      - id: 40
+        quantity: 200
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
+      - id: 93611
+        quantity: 2
+      lp: 40000
+  19574:
+    bpid: 73972
+    bpruns: 20
+    id: 19574
+    name: 20* Catalyst Navy Issue(BPC)
+    product:
+      id: 73796
+      quantity: 20
+    requirements:
+      isk: 70000000
+      items:
+      - id: 34
+        quantity: 1600000
+      - id: 35
+        quantity: 300000
+      - id: 36
+        quantity: 100000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 600
+      - id: 39
+        quantity: 400
+      - id: 40
+        quantity: 200
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
+      - id: 93610
+        quantity: 2
+      lp: 40000
+  19575:
+    bpid: 73979
+    bpruns: 20
+    id: 19575
+    name: 20* Thrasher Fleet Issue(BPC)
+    product:
+      id: 73794
+      quantity: 20
+    requirements:
+      isk: 70000000
+      items:
+      - id: 34
+        quantity: 1600000
+      - id: 35
+        quantity: 300000
+      - id: 36
+        quantity: 100000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 600
+      - id: 39
+        quantity: 400
+      - id: 40
+        quantity: 200
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
+      - id: 93609
+        quantity: 2
+      lp: 40000
+  19576:
+    bpid: 17710
+    bpruns: 10
+    id: 19576
+    name: 10* Omen Navy Issue(BPC)
+    product:
+      id: 17709
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93612
+        quantity: 1
+      lp: 80000
+  19577:
+    bpid: 29338
+    bpruns: 10
+    id: 19577
+    name: 10* Augoror Navy Issue(BPC)
+    product:
+      id: 29337
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93612
+        quantity: 1
+      lp: 80000
+  19578:
+    bpid: 29341
+    bpruns: 10
+    id: 19578
+    name: 10* Osprey Navy Issue(BPC)
+    product:
+      id: 29340
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93611
+        quantity: 1
+      lp: 80000
+  19579:
+    bpid: 17635
+    bpruns: 10
+    id: 19579
+    name: 10* Caracal Navy Issue(BPC)
+    product:
+      id: 17634
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93611
+        quantity: 1
+      lp: 80000
+  19580:
+    bpid: 17844
+    bpruns: 10
+    id: 19580
+    name: 10* Vexor Navy Issue(BPC)
+    product:
+      id: 17843
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93610
+        quantity: 1
+      lp: 80000
+  19581:
+    bpid: 29345
+    bpruns: 10
+    id: 19581
+    name: 10* Exequror Navy Issue(BPC)
+    product:
+      id: 29344
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93610
+        quantity: 1
+      lp: 80000
+  19582:
+    bpid: 17714
+    bpruns: 10
+    id: 19582
+    name: 10* Stabber Fleet Issue(BPC)
+    product:
+      id: 17713
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93609
+        quantity: 1
+      lp: 80000
+  19583:
+    bpid: 29339
+    bpruns: 10
+    id: 19583
+    name: 10* Scythe Fleet Issue(BPC)
+    product:
+      id: 29336
+      quantity: 10
+    requirements:
+      isk: 50000000
+      items:
+      - id: 34
+        quantity: 5400000
+      - id: 35
+        quantity: 1800000
+      - id: 36
+        quantity: 360000
+      - id: 37
+        quantity: 100000
+      - id: 38
+        quantity: 15000
+      - id: 39
+        quantity: 10000
+      - id: 40
+        quantity: 5000
+      - id: 57478
+        quantity: 500
+      - id: 57486
+        quantity: 250
+      - id: 93609
+        quantity: 1
+      lp: 80000
+  19585:
+    bpid: 72924
+    bpruns: 10
+    id: 19585
+    name: 10* Prophecy Navy Issue(BPC)
+    product:
+      id: 72872
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93612
+        quantity: 3
+      lp: 100000
+  19586:
+    bpid: 33156
+    bpruns: 10
+    id: 19586
+    name: 10* Harbinger Navy Issue(BPC)
+    product:
+      id: 33155
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93612
+        quantity: 3
+      lp: 100000
+  19587:
+    bpid: 72926
+    bpruns: 10
+    id: 19587
+    name: 10* Ferox Navy Issue(BPC)
+    product:
+      id: 72812
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93611
+        quantity: 3
+      lp: 100000
+  19588:
+    bpid: 33154
+    bpruns: 10
+    id: 19588
+    name: 10* Drake Navy Issue(BPC)
+    product:
+      id: 33153
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93611
+        quantity: 3
+      lp: 100000
+  19589:
+    bpid: 33152
+    bpruns: 10
+    id: 19589
+    name: 10* Brutix Navy Issue(BPC)
+    product:
+      id: 33151
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93610
+        quantity: 3
+      lp: 100000
+  19590:
+    bpid: 72925
+    bpruns: 10
+    id: 19590
+    name: 10* Myrmidon Navy Issue(BPC)
+    product:
+      id: 72869
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93610
+        quantity: 3
+      lp: 100000
+  19591:
+    bpid: 72923
+    bpruns: 10
+    id: 19591
+    name: 10* Cyclone Fleet Issue(BPC)
+    product:
+      id: 72811
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93609
+        quantity: 3
+      lp: 100000
+  19592:
+    bpid: 33158
+    bpruns: 10
+    id: 19592
+    name: 10* Hurricane Fleet Issue(BPC)
+    product:
+      id: 33157
+      quantity: 10
+    requirements:
+      isk: 100000000
+      items:
+      - id: 34
+        quantity: 28000000
+      - id: 35
+        quantity: 10000000
+      - id: 36
+        quantity: 1800000
+      - id: 37
+        quantity: 200000
+      - id: 38
+        quantity: 100000
+      - id: 39
+        quantity: 40000
+      - id: 40
+        quantity: 20000
+      - id: 57478
+        quantity: 1000
+      - id: 57486
+        quantity: 500
+      - id: 93609
+        quantity: 3
+      lp: 100000
+  19593:
+    bpid: 32306
+    bpruns: 10
+    id: 19593
+    name: 10* Armageddon Navy Issue(BPC)
+    product:
+      id: 32305
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93612
+        quantity: 8
+      lp: 200000
+  19594:
+    bpid: 17727
+    bpruns: 10
+    id: 19594
+    name: 10* Apocalypse Navy Issue(BPC)
+    product:
+      id: 17726
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93612
+        quantity: 8
+      lp: 200000
+  19595:
+    bpid: 32310
+    bpruns: 10
+    id: 19595
+    name: 10* Scorpion Navy Issue(BPC)
+    product:
+      id: 32309
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93611
+        quantity: 8
+      lp: 200000
+  19596:
+    bpid: 17637
+    bpruns: 10
+    id: 19596
+    name: 10* Raven Navy Issue(BPC)
+    product:
+      id: 17636
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93611
+        quantity: 8
+      lp: 200000
+  19597:
+    bpid: 32308
+    bpruns: 10
+    id: 19597
+    name: 10* Dominix Navy Issue(BPC)
+    product:
+      id: 32307
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93610
+        quantity: 8
+      lp: 200000
+  19598:
+    bpid: 17729
+    bpruns: 10
+    id: 19598
+    name: 10* Megathron Navy Issue(BPC)
+    product:
+      id: 17728
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93610
+        quantity: 8
+      lp: 200000
+  19599:
+    bpid: 32312
+    bpruns: 10
+    id: 19599
+    name: 10* Typhoon Fleet Issue(BPC)
+    product:
+      id: 32311
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93609
+        quantity: 8
+      lp: 200000
+  19600:
+    bpid: 17733
+    bpruns: 10
+    id: 19600
+    name: 10* Tempest Fleet Issue(BPC)
+    product:
+      id: 17732
+      quantity: 10
+    requirements:
+      isk: 200000000
+      items:
+      - id: 34
+        quantity: 80000000
+      - id: 35
+        quantity: 40000000
+      - id: 36
+        quantity: 6000000
+      - id: 37
+        quantity: 4000000
+      - id: 38
+        quantity: 300000
+      - id: 39
+        quantity: 80000
+      - id: 40
+        quantity: 40000
+      - id: 57478
+        quantity: 2000
+      - id: 57479
+        quantity: 10
+      - id: 57486
+        quantity: 1000
+      - id: 93609
+        quantity: 8
+      lp: 200000
+  19601:
+    id: 19601
+    name: Imperial Navy Slicer Penumbral Shadows SKIN
+    product:
+      id: 93661
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 100000
+  19602:
+    id: 19602
+    name: Caldari Navy Hookbill Penumbral Shadows SKIN
+    product:
+      id: 93668
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 100000
+  19603:
+    id: 19603
+    name: Federation Navy Comet Penumbral Shadows SKIN
+    product:
+      id: 93697
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 100000
+  19604:
+    id: 19604
+    name: Republic Fleet Firetail Penumbral Shadows SKIN
+    product:
+      id: 93704
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 100000
+  19605:
+    id: 19605
+    name: Omen Penumbral Shadows SKIN
+    product:
+      id: 76235
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19606:
+    id: 19606
+    name: Omen Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76236
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19607:
+    id: 19607
+    name: Apocalypse Penumbral Shadows SKIN
+    product:
+      id: 76237
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19608:
+    id: 19608
+    name: Apocalypse Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76238
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19609:
+    id: 19609
+    name: Caracal Penumbral Shadows SKIN
+    product:
+      id: 76239
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19610:
+    id: 19610
+    name: Caracal Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76240
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19611:
+    id: 19611
+    name: Raven Penumbral Shadows SKIN
+    product:
+      id: 76241
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19612:
+    id: 19612
+    name: Raven Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76242
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19621:
+    id: 19621
+    name: Megathron Penumbral Shadows SKIN
+    product:
+      id: 76245
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19622:
+    id: 19622
+    name: Megathron Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76246
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19623:
+    id: 19623
+    name: Tempest Fleet Issue Penumbral Shadows SKIN
+    product:
+      id: 76250
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19624:
+    id: 19624
+    name: Tempest Penumbral Shadows SKIN
+    product:
+      id: 76249
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      lp: 1000000
+  19625:
+    id: 19625
+    name: Vexor Penumbral Shadows SKIN
+    product:
+      id: 76243
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19626:
+    id: 19626
+    name: Vexor Navy Issue Penumbral Shadows SKIN
+    product:
+      id: 76244
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19627:
+    id: 19627
+    name: Stabber Penumbral Shadows SKIN
+    product:
+      id: 76247
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19628:
+    id: 19628
+    name: Stabber Fleet Issue Penumbral Shadows SKIN
+    product:
+      id: 76248
+      quantity: 1
+    requirements:
+      isk: 500000000
+      lp: 500000
+  19629:
+    bpid: 53991
+    bpruns: 10
+    id: 19629
+    name: 10* Signal-25 'Needlejack' Filament(BPC)
+    product:
+      id: 53983
+      quantity: 10
+    requirements:
+      isk: 25000000
+      items:
+      - id: 30305
+        quantity: 2500
+      - id: 53984
+        quantity: 50
+      lp: 2500
+  19630:
+    bpid: 53990
+    bpruns: 10
+    id: 19630
+    name: 10* Noise-25 'Needlejack' Filament(BPC)
+    product:
+      id: 53987
+      quantity: 10
+    requirements:
+      isk: 25000000
+      items:
+      - id: 30305
+        quantity: 2500
+      - id: 53977
+        quantity: 50
+      lp: 2500

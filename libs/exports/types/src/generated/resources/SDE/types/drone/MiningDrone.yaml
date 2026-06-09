@@ -691,7 +691,6 @@ types:
     hp: 1500.0
     id: 90622
     kineticdamageresonance: 1.0
-    marketGroup: 158
     maxlockedtargets: 8
     metagroupid: 4
     metalevelold: 8.0
@@ -713,6 +712,116 @@ types:
     requiredskill4level: 1
     requiredskill5: 60515
     requiredskill5level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.64
+    shielduniformity: 0.75
+    signatureradius: 200.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 1100.0
+  93143:
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
+    armorhp: 1000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 60000.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 1500.0
+    id: 93143
+    kineticdamageresonance: 1.0
+    marketGroup: 158
+    maxlockedtargets: 8
+    maxrange: 5000.0
+    maxvelocity: 250.0
+    metagroupid: 4
+    metalevelold: 8.0
+    miningamount: 64
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 30
+    name: Prototype 'Pluto' Mining Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 3438
+    requiredskill1level: 1
+    requiredskill2: 3386
+    requiredskill2level: 2
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 22541
+    requiredskill4level: 1
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.48
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.64
+    shielduniformity: 0.75
+    signatureradius: 200.0
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
+    volume: 1100.0
+  93145:
+    armoremdamageresonance: 0.32
+    armorexplosivedamageresonance: 0.72
+    armorhp: 1000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.52
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 25
+    duration: 387500.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 1500.0
+    id: 93145
+    kineticdamageresonance: 1.0
+    marketGroup: 158
+    maxlockedtargets: 8
+    maxrange: 5000.0
+    maxvelocity: 90.0
+    metagroupid: 4
+    metalevelold: 8.0
+    miningamount: 1000
+    miningwastedvolumemultiplier: 1
+    miningwasteprobability: 30
+    name: Prototype 'Pluto' Ice Harvesting Drone
+    orbitrange: 200
+    portionSize: 1
+    proximityrange: 250
+    published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 43702
+    requiredskill1level: 5
+    requiredskill2: 16281
+    requiredskill2level: 4
+    requiredskill3: 3436
+    requiredskill3level: 1
+    requiredskill4: 43703
+    requiredskill4level: 1
     scanmagnetometricstrength: 1.0
     shieldcapacity: 1500.0
     shieldemdamageresonance: 0.8

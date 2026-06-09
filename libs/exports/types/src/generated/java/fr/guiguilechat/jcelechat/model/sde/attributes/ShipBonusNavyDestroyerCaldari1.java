@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class ShipBonusNavyDestroyerCaldari1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusNavyDestroyerCaldari1 INSTANCE = new ShipBonusNavyDestroyerCaldari1();
 

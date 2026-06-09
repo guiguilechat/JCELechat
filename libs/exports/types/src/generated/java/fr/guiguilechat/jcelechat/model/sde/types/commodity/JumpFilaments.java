@@ -14,8 +14,12 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActiveSystemJump;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentCharacterAgeLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentCharacterSPLimit;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentDescriptionMessageID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentHighSecOnly;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FilamentSpoolupTimeSeconds;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LocationListID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjdShipJumpCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MjfgRadius;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
@@ -33,10 +37,26 @@ public class JumpFilaments
     @Stackable(false)
     @DefaultIntValue(561098)
     public int filamentdescriptionmessageid;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int filamentcharacteragelimit;
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int filamentcharactersplimit;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int filamenthighseconly;
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int filamentspooluptimeseconds;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int locationlistid;
     /**
      * The maximum number of ships that can be jumped per activation
      */
@@ -51,7 +71,7 @@ public class JumpFilaments
     @Stackable(true)
     @DefaultIntValue(0)
     public int mjfgradius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, ActiveSystemJump.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, FilamentSpoolupTimeSeconds.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MjdShipJumpCap.INSTANCE, ActiveSystemJump.INSTANCE, FilamentDescriptionMessageID.INSTANCE, MjfgRadius.INSTANCE, FilamentHighSecOnly.INSTANCE, FilamentCharacterSPLimit.INSTANCE, FilamentSpoolupTimeSeconds.INSTANCE, FilamentCharacterAgeLimit.INSTANCE, LocationListID.INSTANCE })));
     public static final JumpFilaments.MetaGroup METAGROUP = new JumpFilaments.MetaGroup();
 
     @Override
@@ -65,9 +85,25 @@ public class JumpFilaments
             {
                 return filamentdescriptionmessageid;
             }
+            case  6215 :
+            {
+                return filamentcharacteragelimit;
+            }
+            case  6214 :
+            {
+                return filamentcharactersplimit;
+            }
+            case  6213 :
+            {
+                return filamenthighseconly;
+            }
             case  5783 :
             {
                 return filamentspooluptimeseconds;
+            }
+            case  3096 :
+            {
+                return locationlistid;
             }
             case  2832 :
             {

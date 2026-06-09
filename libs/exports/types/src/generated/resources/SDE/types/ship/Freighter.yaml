@@ -283,7 +283,7 @@ types:
     mass: 820000000.0
     maxdirectionalscanrange: 2.147483647E12
     maxpassengers: 150
-    maxvelocity: 80.0
+    maxvelocity: 81.0
     name: Fenrir
     portionSize: 1
     poweroutput: 3.0

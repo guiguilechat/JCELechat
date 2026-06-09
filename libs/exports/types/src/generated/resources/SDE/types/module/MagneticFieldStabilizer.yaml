@@ -246,3 +246,41 @@ types:
     speedmultiplier: 1.0
     techlevel: 1
     volume: 1.0
+  93998:
+    cpu: 32.0
+    damagemultiplier: 1.07
+    dronedamagebonus: 10.0
+    hp: 40.0
+    id: 93998
+    marketGroup: 648
+    metalevelold: 8.0
+    name: Federation Navy 'Argyreos' Magnetic Field Stabilizer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3318
+    requiredskill1level: 2
+    requiredskill2: 3436
+    requiredskill2level: 2
+    speedmultiplier: 0.93
+    techlevel: 1
+    volume: 5.0
+  94020:
+    cpu: 37.0
+    damagemultiplier: 1.1
+    dronedamagebonus: 15.0
+    hp: 40.0
+    id: 94020
+    marketGroup: 648
+    metalevelold: 12.0
+    name: Federation Navy 'Khryseos' Magnetic Field Stabilizer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3318
+    requiredskill1level: 5
+    requiredskill2: 3436
+    requiredskill2level: 5
+    speedmultiplier: 0.9
+    techlevel: 1
+    volume: 5.0

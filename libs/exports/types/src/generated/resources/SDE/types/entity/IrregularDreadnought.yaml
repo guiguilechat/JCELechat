@@ -8,6 +8,7 @@ types:
     armorthermaldamageresonance: 0.8
     capacitorcapacity: 57800.0
     damagemultiplier: 1.0
+    emdamageresonance: 1.0
     entityequipmentmax: 7
     entityequipmentmin: 5
     entitykillbounty: 2500000
@@ -18,12 +19,14 @@ types:
     entitysuperweaponmaxrange: 250000
     entitysuperweaponoptimalsignatureradius: 20
     entitysuperweapontrackingspeed: 1.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     gfxturretid: 41174
     hp: 100000.0
     id: 40729
     iscapitalsize: 1
+    kineticdamageresonance: 1.0
     mass: 1270000000.0
     maxlockedtargets: 7
     maxtargetrange: 115000.0
@@ -46,6 +49,7 @@ types:
     shieldrechargerate: 2000000.0
     shieldthermaldamageresonance: 0.8
     signatureradius: 12000.0
+    thermaldamageresonance: 1.0
     volume: 16250000.0
     warpspeedmultiplier: 25.0
   87232:
@@ -76,6 +80,7 @@ types:
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
+    emdamageresonance: 1.0
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 500000
     entitysuperweaponexplosivedamage: 500000
@@ -85,10 +90,12 @@ types:
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
     entitysuperweapontrackingspeed: 0.095
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 397
     hp: 187500.0
     id: 87232
+    kineticdamageresonance: 1.0
     mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
@@ -115,6 +122,7 @@ types:
     shieldrechargerate: 1.125E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 11200.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.0
     volume: 1000.0
     warpspeedmultiplier: 3.0
@@ -146,6 +154,7 @@ types:
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
+    emdamageresonance: 1.0
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 500000
     entitysuperweaponexplosivedamage: 500000
@@ -155,10 +164,12 @@ types:
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
     entitysuperweapontrackingspeed: 0.095
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 394
     hp: 187500.0
     id: 87243
+    kineticdamageresonance: 1.0
     mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
@@ -185,6 +196,7 @@ types:
     shieldrechargerate: 1.125E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 11200.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.0
     volume: 1000.0
     warpspeedmultiplier: 3.0
@@ -216,6 +228,7 @@ types:
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
+    emdamageresonance: 1.0
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 500000
     entitysuperweaponexplosivedamage: 500000
@@ -225,10 +238,12 @@ types:
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
     entitysuperweapontrackingspeed: 0.095
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 394
     hp: 187500.0
     id: 87244
+    kineticdamageresonance: 1.0
     mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
@@ -255,6 +270,7 @@ types:
     shieldrechargerate: 1.125E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 11200.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.0
     volume: 1000.0
     warpspeedmultiplier: 3.0
@@ -286,6 +302,7 @@ types:
     doomsdayenergyneutradius: 10000
     doomsdayenergyneutresistanceid: 2045
     doomsdayenergyneutsignatureradius: 20000
+    emdamageresonance: 1.0
     entitysuperweaponduration: 10000
     entitysuperweaponemdamage: 500000
     entitysuperweaponexplosivedamage: 500000
@@ -295,10 +312,12 @@ types:
     entitysuperweaponoptimalsignatureradius: 125
     entitysuperweaponthermaldamage: 500000
     entitysuperweapontrackingspeed: 0.095
+    explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
     hp: 187500.0
     id: 87245
+    kineticdamageresonance: 1.0
     mass: 1290000000.0
     maxlockedtargets: 1
     maxrange: 250000.0
@@ -325,6 +344,7 @@ types:
     shieldrechargerate: 1.125E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 11200.0
+    thermaldamageresonance: 1.0
     trackingspeed: 1.0
     volume: 1000.0
     warpspeedmultiplier: 3.0
@@ -352,6 +372,7 @@ types:
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 300.0
+    emdamageresonance: 1.0
     entitysuperweaponduration: 5000
     entitysuperweaponemdamage: 100000
     entitysuperweaponexplosivedamage: 100000
@@ -362,12 +383,14 @@ types:
     entitysuperweaponthermaldamage: 100000
     entitysuperweapontrackingspeed: 0.095
     explosivedamage: 300.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxboosterid: 397
     gfxturretid: 88348
     hp: 100000.0
     id: 88154
     kineticdamage: 300.0
+    kineticdamageresonance: 1.0
     mass: 1100000000.0
     maxlockedtargets: 7
     maxrange: 150000.0
@@ -398,6 +421,7 @@ types:
     signatureradius: 10000.0
     speed: 15000.0
     thermaldamage: 300.0
+    thermaldamageresonance: 1.0
     trackingspeed: 10.0
     volume: 18500000.0
     warpspeedmultiplier: 3.0
@@ -425,6 +449,7 @@ types:
     damagemultiplier: 5.0
     disallowassistance: 1
     emdamage: 300.0
+    emdamageresonance: 1.0
     entitysuperweaponduration: 5000
     entitysuperweaponemdamage: 100000
     entitysuperweaponexplosivedamage: 100000
@@ -435,12 +460,14 @@ types:
     entitysuperweaponthermaldamage: 100000
     entitysuperweapontrackingspeed: 0.095
     explosivedamage: 300.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxboosterid: 397
     gfxturretid: 88348
     hp: 100000.0
     id: 88613
     kineticdamage: 300.0
+    kineticdamageresonance: 1.0
     mass: 1100000000.0
     maxlockedtargets: 7
     maxrange: 150000.0
@@ -471,6 +498,111 @@ types:
     signatureradius: 10000.0
     speed: 15000.0
     thermaldamage: 300.0
+    thermaldamageresonance: 1.0
     trackingspeed: 10.0
     volume: 18500000.0
     warpspeedmultiplier: 3.0
+  93883:
+    agility: 1.0
+    armordamage: 4500
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 250.0
+    damage: 1200
+    damagemultiplier: 1.0
+    emdamage: 900.0
+    emdamageresonance: 1.0
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 20
+    entitysuperweapontrackingspeed: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 25000.0
+    gfxboosterid: 394
+    gfxturretid: 20444
+    hp: 1500.0
+    id: 93883
+    kineticdamageresonance: 1.0
+    mass: 1300000.0
+    maxlockedtargets: 7
+    maxrange: 75000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 160.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Nuras' Revelation
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    rechargerate: 375000.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 40.0
+    scanresolution: 80.0
+    shieldcapacity: 1000.0
+    shieldcharge: 800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11100.0
+    speed: 12000.0
+    thermaldamage: 600.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 10.0
+    warpspeedmultiplier: 15.0
+  93899:
+    agility: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 250.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entitysuperweaponfalloff: 250000
+    entitysuperweaponmaxrange: 250000
+    entitysuperweaponoptimalsignatureradius: 20
+    entitysuperweapontrackingspeed: 1.0
+    explosivedamage: 600.0
+    explosivedamageresonance: 1.0
+    falloff: 25000.0
+    gfxboosterid: 397
+    gfxturretcount: 3
+    gfxturretid: 20454
+    hp: 1500.0
+    id: 93899
+    kineticdamage: 900.0
+    kineticdamageresonance: 1.0
+    mass: 1300000.0
+    maxlockedtargets: 7
+    maxrange: 75000.0
+    maxtargetrange: 85000.0
+    maxvelocity: 300.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Flagship Naglfar
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 254.0
+    rechargerate: 375000.0
+    remoterepairimpedance: 1.0
+    scanradarstrength: 41.0
+    scanresolution: 80.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 80.0
+    speed: 12000.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 10.0
+    warpspeedmultiplier: 15.0

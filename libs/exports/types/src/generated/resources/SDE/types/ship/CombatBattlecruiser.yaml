@@ -1682,6 +1682,7 @@ types:
     weapondisruptionresistance: 1.0
   78369:
     agility: 0.59
+    angelcartelprojectilereloadingspeed: -75
     armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.9
     armorhp: 6750.0

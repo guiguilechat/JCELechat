@@ -387,6 +387,7 @@ types:
     weapondisruptionresistance: 1.0
   33395:
     agility: 0.47
+    angelcartelprojectilereloadingspeed: -75
     armoremdamageresonance: 0.2
     armorexplosivedamageresonance: 0.9
     armorhp: 1900.0
@@ -469,6 +470,7 @@ types:
     shipbonusgc: 15.0
     shipbonusmc2: 30.0
     shipbonusrole7: -25.0
+    shiprolebonuswarpspeed: 50
     signatureradius: 90.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

@@ -85,3 +85,19 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  93144:
+    id: 93144
+    name: Prototype 'Pluto' Mining Drone Blueprint
+    portionSize: 1
+    price: 200000000.0
+    published: true
+    techlevel: 1
+    volume: 0.01
+  93146:
+    id: 93146
+    name: Prototype 'Pluto' Ice Harvesting Drone Blueprint
+    portionSize: 1
+    price: 200000000.0
+    published: true
+    techlevel: 1
+    volume: 0.01

@@ -35,3 +35,31 @@ types:
     price: 1150000000.0
     published: true
     volume: 0.01
+  94072:
+    id: 94072
+    industryblueprintrank: 200.0
+    name: Salvation Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94073:
+    id: 94073
+    industryblueprintrank: 200.0
+    name: Simurgh Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94074:
+    id: 94074
+    industryblueprintrank: 200.0
+    name: Gaia Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.01
+  94075:
+    id: 94075
+    industryblueprintrank: 200.0
+    name: Ymir Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.01

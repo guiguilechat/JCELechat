@@ -1522,6 +1522,7 @@ types:
     weapondisruptionresistance: 1.0
   17738:
     agility: 0.096
+    angelcartelprojectilereloadingspeed: -75
     armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.9
     armorhp: 10175.0
@@ -2198,7 +2199,7 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   24694:
-    agility: 0.136
+    agility: 0.111
     armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.9
     armorhp: 8250.0
@@ -2212,7 +2213,7 @@ types:
     capacitorcapacity: 6000.0
     cpuoutput: 640
     dronebandwidth: 100
-    dronecapacity: 100
+    dronecapacity: 125
     emdamageresonance: 0.67
     energywarfareresistance: 1.0
     explosivedamageresonance: 0.67
@@ -2242,7 +2243,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 1000
     maxtargetrange: 90000.0
-    maxvelocity: 115.0
+    maxvelocity: 120.0
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Maelstrom
@@ -2276,7 +2277,7 @@ types:
     shipbonusmb2: 10.0
     shipbonusub1: 1
     shipbonusub2: 1
-    signatureradius: 460.0
+    signatureradius: 400.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2559,6 +2560,7 @@ types:
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
     shipbonusab: 10.0
+    shipbonusab2: 5.0
     shipbonusab3: 5
     shipbonuscb: 5
     shipbonusmb: 5.0

@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCTitan
+public class Titan
     extends Entity
 {
     /**
@@ -45,7 +45,7 @@ public class NPCTitan
     @DefaultIntValue(0)
     public int iscapitalsize;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityKamikazeResistance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, IsCapitalSize.INSTANCE })));
-    public static final NPCTitan.MetaGroup METAGROUP = new NPCTitan.MetaGroup();
+    public static final Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -75,18 +75,18 @@ public class NPCTitan
     }
 
     @Override
-    public IMetaGroup<NPCTitan> getGroup() {
+    public IMetaGroup<Titan> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<NPCTitan>
+        implements IMetaGroup<Titan>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/NPCTitan.yaml";
-        private Map<Integer, NPCTitan> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/Titan.yaml";
+        private Map<Integer, Titan> cache = (null);
 
         @Override
-        public IMetaCategory<? super NPCTitan> category() {
+        public IMetaCategory<? super Titan> category() {
             return Entity.METACAT;
         }
 
@@ -97,13 +97,13 @@ public class NPCTitan
 
         @Override
         public String getName() {
-            return "NPCTitan";
+            return "Titan";
         }
 
         @Override
-        public synchronized Map<Integer, NPCTitan> load() {
+        public synchronized Map<Integer, Titan> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(NPCTitan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(Titan.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -115,7 +115,7 @@ public class NPCTitan
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, NPCTitan> types;
+            public LinkedHashMap<Integer, Titan> types;
         }
     }
 }

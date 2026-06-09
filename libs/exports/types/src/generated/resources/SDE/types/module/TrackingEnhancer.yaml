@@ -185,3 +185,22 @@ types:
     techlevel: 1
     trackingspeedbonus: 10.0
     volume: 5.0
+  93913:
+    capneedbonus: -15
+    cpu: 10.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 93913
+    marketGroup: 707
+    mass: 30.0
+    maxrangebonus: 10.0
+    metalevelold: 8.0
+    name: Imperial Navy 'Atonement' Tracking Enhancer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
+    trackingspeedbonus: 9.5
+    volume: 5.0

@@ -8921,3 +8921,63 @@ types:
     published: true
     stasiswebifierresistance: 1.0
     volume: 0.1
+  93609:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 93609
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 0.01
+    name: Imperial War Reserves Supply Package
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.01
+  93610:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 93610
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 0.01
+    name: State Military Stockpile Supply Package
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.01
+  93611:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 93611
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 0.01
+    name: Federal Strategic Materiel Supply Package
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.01
+  93612:
+    aspectratioheight: 1
+    aspectratiowidth: 1
+    asteroidradiusgrowthfactor: 1.0
+    exporttaxmultiplier: 1
+    id: 93612
+    importtaxmultiplier: 1
+    marketGroup: 20
+    mass: 0.01
+    name: Republic Fleet Ordnance Supply Package
+    portionSize: 1
+    price: 100000.0
+    published: true
+    stasiswebifierresistance: 1.0
+    volume: 0.01

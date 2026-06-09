@@ -3,7 +3,7 @@ types:
     agility: 2.0
     armoremdamageresonance: 0.6
     armorexplosivedamageresonance: 0.9
-    armorhp: 500.0
+    armorhp: 250.0
     armorkineticdamageresonance: 0.8
     armorthermaldamageresonance: 0.7
     capacitorcapacity: 500.0
@@ -13,7 +13,7 @@ types:
     entitysecuritymaxgain: 5.0
     explosivedamageresonance: 1.0
     gfxboosterid: 397
-    hp: 1500.0
+    hp: 750.0
     id: 92251
     kineticdamageresonance: 1.0
     mass: 11200000.0
@@ -21,6 +21,45 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 600.0
     name: Republic Mammoth
+    portionSize: 1
+    published: false
+    radius: 617.0
+    rechargerate: 500000.0
+    scanladarstrength: 12.0
+    scanresolution: 450.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.9
+    shieldkineticdamageresonance: 0.8
+    shieldrechargerate: 300000.0
+    shieldthermaldamageresonance: 0.7
+    signatureradius: 250.0
+    thermaldamageresonance: 1.0
+    volume: 28600.0
+    warpspeedmultiplier: 35.0
+  92252:
+    agility: 2.0
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.9
+    armorhp: 500.0
+    armorkineticdamageresonance: 0.8
+    armorthermaldamageresonance: 0.7
+    behaviorshieldboosterdischarge: 1
+    capacitorcapacity: 500.0
+    emdamageresonance: 1.0
+    entitycruisespeed: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 1.0
+    gfxboosterid: 397
+    hp: 1500.0
+    id: 92252
+    kineticdamageresonance: 1.0
+    mass: 11200000.0
+    maxlockedtargets: 4
+    maxtargetrange: 50000.0
+    maxvelocity: 600.0
+    name: Republic Wreathe
     portionSize: 1
     published: false
     radius: 617.0
@@ -37,42 +76,42 @@ types:
     thermaldamageresonance: 1.0
     volume: 28600.0
     warpspeedmultiplier: 35.0
-  92252:
-    agility: 2.0
+  93297:
+    agility: 0.002
     armoremdamageresonance: 0.6
-    armorexplosivedamageresonance: 0.9
+    armorexplosivedamageresonance: 0.6
     armorhp: 1000.0
-    armorkineticdamageresonance: 0.8
-    armorthermaldamageresonance: 0.7
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     behaviorshieldboosterdischarge: 1
     capacitorcapacity: 500.0
     emdamageresonance: 1.0
-    entitycruisespeed: 500.0
+    entitycruisespeed: 15.0
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitysecuritymaxgain: 5.0
     explosivedamageresonance: 1.0
     gfxboosterid: 397
     hp: 3000.0
-    id: 92252
+    id: 93297
     kineticdamageresonance: 1.0
-    mass: 11200000.0
+    mass: 800000000.0
     maxlockedtargets: 4
     maxtargetrange: 50000.0
-    maxvelocity: 600.0
-    name: Republic Wreathe
+    maxvelocity: 60.0
+    name: Republic Fenrir
     portionSize: 1
     published: false
-    radius: 617.0
+    radius: 700.0
     rechargerate: 500000.0
     scanladarstrength: 12.0
     scanresolution: 450.0
     shieldcapacity: 6000.0
-    shieldemdamageresonance: 0.6
-    shieldexplosivedamageresonance: 0.9
-    shieldkineticdamageresonance: 0.8
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 300000.0
-    shieldthermaldamageresonance: 0.7
-    signatureradius: 250.0
+    shieldthermaldamageresonance: 0.4
+    signatureradius: 10000.0
     thermaldamageresonance: 1.0
     volume: 28600.0
     warpspeedmultiplier: 35.0

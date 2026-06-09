@@ -82,3 +82,59 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 2
     volume: 5.0
+  94063:
+    aoecloudsizebonus: -8.25
+    aoevelocitybonus: 8.25
+    capacitorneed: 7.0
+    chargegroup1: 1400
+    chargesize: 1
+    cpu: 28.0
+    duration: 10000.0
+    explosiondelaybonus: 6.5
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
+    hp: 40.0
+    id: 94063
+    marketGroup: 2032
+    metalevelold: 8.0
+    missilevelocitybonus: 6.5
+    name: Caldari Navy Missile Guidance Computer
+    overloadtrackingmodulestrengthbonus: 15
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    reloadtime: 0.01
+    requiredskill1: 12441
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  94064:
+    aoecloudsizebonus: -9.5
+    aoevelocitybonus: 9.5
+    capacitorneed: 7.0
+    chargegroup1: 1400
+    chargesize: 1
+    cpu: 28.0
+    duration: 10000.0
+    explosiondelaybonus: 5.5
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 3.3
+    hp: 40.0
+    id: 94064
+    marketGroup: 2032
+    metalevelold: 8.0
+    missilevelocitybonus: 5.5
+    name: Republic Fleet Missile Guidance Computer
+    overloadtrackingmodulestrengthbonus: 15
+    portionSize: 1
+    power: 1
+    price: 9900.0
+    published: true
+    reloadtime: 0.01
+    requiredskill1: 12441
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0

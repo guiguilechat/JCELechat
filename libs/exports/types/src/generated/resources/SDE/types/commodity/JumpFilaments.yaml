@@ -176,3 +176,17 @@ types:
     price: 1000.0
     published: true
     volume: 0.1
+  95274:
+    filamentcharacteragelimit: 840
+    filamentcharactersplimit: 2000000
+    filamentdescriptionmessageid: 1046355
+    filamenthighseconly: 1
+    filamentspooluptimeseconds: 3
+    id: 95274
+    locationlistid: 5079
+    mjdshipjumpcap: 1
+    mjfgradius: 6000
+    name: Exordium Filament
+    portionSize: 1
+    published: true
+    volume: 0.1

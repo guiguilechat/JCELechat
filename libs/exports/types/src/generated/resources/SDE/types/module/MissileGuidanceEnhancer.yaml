@@ -55,3 +55,41 @@ types:
     requiredskill1level: 1
     techlevel: 1
     volume: 5.0
+  93908:
+    aoecloudsizebonus: -6.0
+    aoevelocitybonus: 6.0
+    cpu: 10.0
+    explosiondelaybonus: 7.0
+    hp: 40.0
+    id: 93908
+    marketGroup: 2033
+    mass: 30.0
+    metalevelold: 8.0
+    missilevelocitybonus: 7.0
+    name: Caldari Navy Missile Guidance Enhancer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 5.0
+  93909:
+    aoecloudsizebonus: -7.0
+    aoevelocitybonus: 7.0
+    cpu: 10.0
+    explosiondelaybonus: 6.0
+    hp: 40.0
+    id: 93909
+    marketGroup: 2033
+    mass: 30.0
+    metalevelold: 8.0
+    missilevelocitybonus: 6.0
+    name: Republic Fleet Missile Guidance Enhancer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 5.0

@@ -12,6 +12,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1774
@@ -55,6 +56,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1773
@@ -98,6 +100,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     capacitorneed: 25.0
     chargegroup1: 1771
     chargerate: 1
@@ -140,6 +143,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1769
@@ -183,6 +187,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1772
@@ -226,6 +231,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     capacitorneed: 25.0
     chargegroup1: 1771
     chargerate: 1
@@ -272,6 +278,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1774
@@ -319,6 +326,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1773
@@ -366,6 +374,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype2: 89808
     capacitorneed: 25.0
     chargegroup1: 1769
@@ -413,6 +422,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1772
@@ -460,6 +470,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1769
@@ -507,6 +518,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1774
@@ -554,6 +566,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 4905
@@ -597,6 +610,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 4905
@@ -644,6 +658,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 4905
@@ -691,6 +706,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1773
@@ -738,6 +754,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     capacitorneed: 25.0
     chargegroup1: 1771
     chargerate: 1
@@ -784,6 +801,7 @@ types:
     canfitshipgroup09: 659
     canfitshipgroup10: 30
     canfitshipgroup11: 4902
+    canfitshipgroup12: 5120
     canfitshiptype1: 89808
     capacitorneed: 25.0
     chargegroup1: 1772

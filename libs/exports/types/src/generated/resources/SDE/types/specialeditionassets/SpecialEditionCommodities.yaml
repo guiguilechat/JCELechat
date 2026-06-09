@@ -4566,6 +4566,34 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  93640:
+    cpumultiplier: 1.0
+    id: 93640
+    name: 'Supplies: Golgothan Fields'
+    portionSize: 1
+    published: true
+    volume: 10.0
+  93641:
+    cpumultiplier: 1.0
+    id: 93641
+    name: 'Supplies: Caldari Prime Breakout'
+    portionSize: 1
+    published: true
+    volume: 10.0
+  93642:
+    cpumultiplier: 1.0
+    id: 93642
+    name: 'Supplies: Intaki Liberation'
+    portionSize: 1
+    published: true
+    volume: 10.0
+  93643:
+    cpumultiplier: 1.0
+    id: 93643
+    name: 'Supplies: Battle of Pator'
+    portionSize: 1
+    published: true
+    volume: 10.0
   93645:
     cpumultiplier: 1.0
     id: 93645
@@ -4700,6 +4728,20 @@ types:
     id: 94014
     marketGroup: 3837
     name: Republic Fleet Bastion Module Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94026:
+    cpumultiplier: 1.0
+    id: 94026
+    name: Prototype 'Pluto' Mining Drone Blueprint Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  94027:
+    cpumultiplier: 1.0
+    id: 94027
+    name: Prototype 'Pluto' Ice Harvesting Drone Blueprint Crate
     portionSize: 1
     published: true
     volume: 1.0

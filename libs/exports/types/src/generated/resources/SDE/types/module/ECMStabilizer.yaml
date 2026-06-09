@@ -83,3 +83,20 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 5.0
+  94067:
+    cpu: 25.0
+    ecmrangebonus: 11.0
+    ecmstrengthbonuspercent: 11
+    hp: 40.0
+    id: 94067
+    marketGroup: 967
+    mass: 1.0
+    metalevelold: 8.0
+    name: Caldari Navy Signal Distortion Amplifier
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 5.0

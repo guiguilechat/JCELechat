@@ -153,6 +153,17 @@ agents:
     stationId: 60001873
     system: Ishisomo
     type: Basic
+  Aaramon Okutila:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020281
+    isLocator: true
+    level: 4
+    name: Aaramon Okutila
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
+    type: Basic
   Aarapas Ogunuchi:
     corporation: Kaalakiota Corporation
     division: Mining
@@ -207,6 +218,17 @@ agents:
     station: Nonni III - Moon 1 - Home Guard Assembly Plant
     stationId: 60004006
     system: Nonni
+    type: Basic
+  Aarlanen Uchomida:
+    corporation: Caldari Navy
+    division: Distribution
+    id: 3020289
+    isLocator: false
+    level: 1
+    name: Aarlanen Uchomida
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
     type: Basic
   Aarnagas Midamawa:
     corporation: Poksu Mineral Group
@@ -8315,6 +8337,17 @@ agents:
     stationId: 60014206
     system: D9D-GD
     type: Basic
+  Ameisoure Cavande:
+    corporation: Federation Navy
+    division: Security
+    id: 3020259
+    isLocator: true
+    level: 2
+    name: Ameisoure Cavande
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Amemla Darkhaf:
     corporation: Ministry of Internal Order
     division: Security
@@ -13475,6 +13508,17 @@ agents:
     stationId: 60011914
     system: Renyn
     type: EpicArc
+  Armette Isassine:
+    corporation: Federation Navy
+    division: Security
+    id: 3020260
+    isLocator: true
+    level: 3
+    name: Armette Isassine
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Armette Mayen:
     corporation: Material Acquisition
     division: Mining
@@ -14498,6 +14542,17 @@ agents:
     stationId: 60012220
     system: ES-UWY
     type: Basic
+  Arthie Pienabainwer:
+    corporation: Federation Navy
+    division: Distribution
+    id: 3020291
+    isLocator: false
+    level: 1
+    name: Arthie Pienabainwer
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Artimielia Neraza:
     corporation: Imperial Chancellor
     division: Distribution
@@ -14695,6 +14750,17 @@ agents:
     station: Tuuriainas II - Spacelane Patrol Assembly Plant
     stationId: 60004240
     system: Tuuriainas
+    type: Basic
+  Arveber Ananholm:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020284
+    isLocator: true
+    level: 3
+    name: Arveber Ananholm
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
     type: Basic
   Arveler Ihra:
     corporation: Carthum Conglomerate
@@ -15412,6 +15478,17 @@ agents:
     stationId: 60013855
     system: Ashi
     type: Storyline
+  Ashkat Andrar:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020275
+    isLocator: true
+    level: 2
+    name: Ashkat Andrar
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
+    type: Basic
   Ashken Enaeel:
     corporation: Kador Family
     division: Security
@@ -20582,6 +20659,17 @@ agents:
     stationId: 60008722
     system: Ardishapur Prime
     type: Basic
+  Baisghap Nanary:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020277
+    isLocator: true
+    level: 4
+    name: Baisghap Nanary
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
+    type: Basic
   Bakkarault Brevier:
     corporation: Impetus
     division: Distribution
@@ -22396,6 +22484,17 @@ agents:
     station: Ahbazon VIII - Moon 2 - Carthum Conglomerate Warehouse
     stationId: 60006391
     system: Ahbazon
+    type: Basic
+  Bertnus Vunnidik:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020283
+    isLocator: true
+    level: 2
+    name: Bertnus Vunnidik
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
     type: Basic
   Beruni Soshi:
     corporation: Hedion University
@@ -24597,6 +24696,17 @@ agents:
     stationId: 60011113
     system: Aclan
     type: Basic
+  Brucrittian Alparune:
+    corporation: Federation Navy
+    division: Security
+    id: 3020261
+    isLocator: true
+    level: 4
+    name: Brucrittian Alparune
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Bruffrer Vria:
     corporation: Roden Shipyards
     division: Security
@@ -25609,6 +25719,17 @@ agents:
     stationId: 60010066
     system: Dammalin
     type: Storyline
+  Cassandra Ahfrim:
+    corporation: AIR Laboratories
+    division: Security
+    id: 3020233
+    isLocator: false
+    level: 1
+    name: Cassandra Ahfrim
+    station: Manifest V - AIR Laboratories Trade Center
+    stationId: 60015249
+    system: Manifest
+    type: EpicArc
   Casschaemena Eurawyns:
     corporation: Intaki Space Police
     division: Security
@@ -39592,6 +39713,17 @@ agents:
     stationId: 60001672
     system: Tamo
     type: Basic
+  Funtari Nantonen:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020278
+    isLocator: true
+    level: 1
+    name: Funtari Nantonen
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
+    type: Basic
   Funtataras Kaukko:
     corporation: Freedom Extension
     division: Security
@@ -40747,6 +40879,17 @@ agents:
     stationId: 60006901
     system: Gererique
     type: Storyline
+  Gavia Tindemed:
+    corporation: Amarr Navy
+    division: Mining
+    id: 3020288
+    isLocator: false
+    level: 1
+    name: Gavia Tindemed
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
+    type: Basic
   Gayle Alenille:
     corporation: Bank of Luminaire
     division: Distribution
@@ -47160,6 +47303,17 @@ agents:
     stationId: 60010834
     system: Scheenins
     type: Basic
+  Heritta Begeda:
+    corporation: Republic Fleet
+    division: Distribution
+    id: 3020292
+    isLocator: false
+    level: 1
+    name: Heritta Begeda
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
+    type: Basic
   Hermiko Eiteklur:
     corporation: Ammatar Fleet
     division: Distribution
@@ -47632,6 +47786,17 @@ agents:
     station: I-ME3L V - Moon 1 - True Creations Testing Facilities
     stationId: 60014245
     system: I-ME3L
+    type: Basic
+  Hidama Hesha:
+    corporation: Amarr Navy
+    division: Distribution
+    id: 3020286
+    isLocator: false
+    level: 1
+    name: Hidama Hesha
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
     type: Basic
   Hie Vandanela:
     corporation: Caldari Navy
@@ -48931,6 +49096,50 @@ agents:
     stationId: 60007408
     system: Reset
     type: Basic
+  'Holorelay: Foriana Revelli':
+    corporation: Federation Navy
+    division: Security
+    id: 3020236
+    isLocator: false
+    level: 1
+    name: 'Holorelay: Foriana Revelli'
+    station: Tiberis VII - Moon 1 - President Bureau
+    stationId: 60015225
+    system: Tiberis
+    type: EpicArc
+  'Holorelay: Heika Torigo':
+    corporation: State Protectorate
+    division: Security
+    id: 3020235
+    isLocator: false
+    level: 1
+    name: 'Holorelay: Heika Torigo'
+    station: Kita-Aino V - Moon 8 - Chief Executive Panel Bureau
+    stationId: 60015220
+    system: Kita-Aino
+    type: EpicArc
+  'Holorelay: Kanth Filmir':
+    corporation: Republic Fleet
+    division: Security
+    id: 3020237
+    isLocator: false
+    level: 1
+    name: 'Holorelay: Kanth Filmir'
+    station: Vatna III - Republic Parliament Bureau
+    stationId: 60015233
+    system: Vatna
+    type: EpicArc
+  'Holorelay: Sirdan xer Qosh':
+    corporation: Imperial Academy
+    division: Security
+    id: 3020234
+    isLocator: false
+    level: 1
+    name: 'Holorelay: Sirdan xer Qosh'
+    station: Adaz V - Emperor Family Bureau
+    stationId: 60015230
+    system: Adaz
+    type: EpicArc
   Homachono Sarmaras:
     corporation: Nugoeihuvi Corporation
     division: Distribution
@@ -51901,6 +52110,17 @@ agents:
     stationId: 60015133
     system: Nourvukaiken
     type: FactionalWarfare
+  Iitima Anttika:
+    corporation: Caldari Navy
+    division: Mining
+    id: 3020287
+    isLocator: false
+    level: 1
+    name: Iitima Anttika
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
+    type: Basic
   Iitima Kisodairos:
     corporation: Hyasyoda Corporation
     division: Security
@@ -59050,6 +59270,17 @@ agents:
     station: Kakakela VII - Caldari Navy Assembly Plant
     stationId: 60003889
     system: Kakakela
+    type: Basic
+  Kakki Hurvaanen:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020280
+    isLocator: true
+    level: 3
+    name: Kakki Hurvaanen
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
     type: Basic
   Kakkiainen Okokka:
     corporation: Serpentis Corporation
@@ -67642,6 +67873,17 @@ agents:
     station: WEQT-K I - Moon 12 - True Power Mineral Reserve
     stationId: 60014290
     system: WEQT-K
+    type: Basic
+  Lurela Stawitard:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020282
+    isLocator: true
+    level: 1
+    name: Lurela Stawitard
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
     type: Basic
   Luren Engano:
     corporation: Republic Security Services
@@ -88973,6 +89215,17 @@ agents:
     stationId: 60000208
     system: Ami
     type: Basic
+  Pimmoraine Andenette:
+    corporation: Federation Navy
+    division: Security
+    id: 3020258
+    isLocator: true
+    level: 1
+    name: Pimmoraine Andenette
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Pinala Adala:
     corporation: Sebiestor Tribe
     division: Security
@@ -90699,6 +90952,17 @@ agents:
     station: Stirht VII - Moon 13 - Joint Harvesting Mining Outpost
     stationId: 60007471
     system: Stirht
+    type: Basic
+  Qirnona Shari:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020276
+    isLocator: true
+    level: 3
+    name: Qirnona Shari
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
     type: Basic
   Querik Dafoz:
     corporation: Blood Raiders
@@ -102217,6 +102481,17 @@ agents:
     stationId: 60007789
     system: Polfaly
     type: Storyline
+  Sotisarin Gudbungur:
+    corporation: Republic Fleet
+    division: Security
+    id: 3020285
+    isLocator: true
+    level: 4
+    name: Sotisarin Gudbungur
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
+    type: Basic
   Sotken Motsen:
     corporation: CBD Corporation
     division: Security
@@ -109851,6 +110126,17 @@ agents:
     stationId: 60007366
     system: Arza
     type: Storyline
+  Ugar Drorn:
+    corporation: Republic Fleet
+    division: Mining
+    id: 3020293
+    isLocator: false
+    level: 1
+    name: Ugar Drorn
+    station: Amo III - Republic Fleet Anchorage
+    stationId: 60015186
+    system: Amo
+    type: Basic
   Uhas Ireran:
     corporation: Joint Harvesting
     division: Distribution
@@ -111687,6 +111973,17 @@ agents:
     station: Oishami VII - Moon 12 - Minedrill Mining Outpost
     stationId: 60000808
     system: Oishami
+    type: Basic
+  Uuhigoken Asenemi:
+    corporation: Caldari Navy
+    division: Security
+    id: 3020279
+    isLocator: true
+    level: 2
+    name: Uuhigoken Asenemi
+    station: Onnamon VII - Caldari Navy Anchorage
+    stationId: 60015184
+    system: Onnamon
     type: Basic
   Uuhigoken Imaka:
     corporation: Perkone
@@ -114383,6 +114680,17 @@ agents:
     stationId: 60010897
     system: Grispire
     type: Storyline
+  Viresoutte Erze:
+    corporation: Federation Navy
+    division: Mining
+    id: 3020290
+    isLocator: false
+    level: 1
+    name: Viresoutte Erze
+    station: Intaki V (Intaki Prime) - Federation Navy Anchorage
+    stationId: 60015180
+    system: Intaki
+    type: Basic
   Virim Shaket:
     corporation: Tribal Liberation Force
     division: Security
@@ -119816,6 +120124,17 @@ agents:
     station: Amdonen VIII - Moon 8 - Imperial Shipment Storage
     stationId: 60007018
     system: Amdonen
+    type: Basic
+  Zherema Yashkambim:
+    corporation: Amarr Navy
+    division: Security
+    id: 3020274
+    isLocator: true
+    level: 1
+    name: Zherema Yashkambim
+    station: Mehatoor III - Amarr Navy Anchorage
+    stationId: 60015185
+    system: Mehatoor
     type: Basic
   Zhesar Sungestot:
     corporation: Hedion University

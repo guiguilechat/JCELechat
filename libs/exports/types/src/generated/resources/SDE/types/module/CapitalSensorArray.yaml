@@ -37,6 +37,7 @@ types:
   90475:
     cancloak: 1
     canfitshipgroup01: 547
+    canfitshipgroup02: 5120
     capacitorneed: 3000.0
     cpu: 70.0
     disallowactivateonwarp: 1

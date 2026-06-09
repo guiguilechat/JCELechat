@@ -373,7 +373,7 @@ types:
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0
   22466:
-    agility: 0.7
+    agility: 0.69
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.9
     armorhp: 4900.0
@@ -385,7 +385,7 @@ types:
     cpuoutput: 450
     dronebandwidth: 50
     dronecapacity: 75
-    elitebonuscommandships1: -7.5
+    elitebonuscommandships1: 10.0
     elitebonuscommandships2: 10.0
     elitebonuscommandships3: 4
     emdamageresonance: 0.67
@@ -449,7 +449,7 @@ types:
     shieldrechargerate: 1400000.0
     shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
-    shipbonusgbc1: 7.5
+    shipbonusgbc1: 10.0
     shipbonusgbc2: 10.0
     signatureradius: 300.0
     stasiswebifierresistance: 1.0
@@ -543,7 +543,7 @@ types:
     shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
     shipbonusmbc1: -4.0
-    shipbonusmbc2: -5.0
+    shipbonusmbc2: 7.5
     signatureradius: 240.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

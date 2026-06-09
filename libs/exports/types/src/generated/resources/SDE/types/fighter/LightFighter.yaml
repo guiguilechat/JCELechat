@@ -537,6 +537,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92397
+    requiredskill3level: 1
     scanradarstrength: 8.0
     scanresolution: 950.0
     shieldcapacity: 1760.0
@@ -597,6 +599,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92399
+    requiredskill3level: 1
     scanladarstrength: 8.0
     scanresolution: 950.0
     shieldcapacity: 1760.0
@@ -657,6 +661,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92400
+    requiredskill3level: 1
     scangravimetricstrength: 8.0
     scanresolution: 950.0
     shieldcapacity: 1760.0
@@ -717,6 +723,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92398
+    requiredskill3level: 1
     scanmagnetometricstrength: 8.0
     scanresolution: 950.0
     shieldcapacity: 1760.0
@@ -781,6 +789,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92397
+    requiredskill3level: 1
     scanradarstrength: 7.0
     scanresolution: 800.0
     shieldcapacity: 3630.0
@@ -845,6 +855,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92400
+    requiredskill3level: 1
     scangravimetricstrength: 7.0
     scanresolution: 800.0
     shieldcapacity: 3630.0
@@ -909,6 +921,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92398
+    requiredskill3level: 1
     scanmagnetometricstrength: 7.0
     scanresolution: 800.0
     shieldcapacity: 3630.0
@@ -973,6 +987,8 @@ types:
     requiredskill1level: 4
     requiredskill2: 23069
     requiredskill2level: 5
+    requiredskill3: 92399
+    requiredskill3level: 1
     scanladarstrength: 7.0
     scanresolution: 800.0
     shieldcapacity: 3630.0

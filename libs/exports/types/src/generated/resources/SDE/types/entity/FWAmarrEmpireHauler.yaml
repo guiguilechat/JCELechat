@@ -3,7 +3,7 @@ types:
     agility: 2.0
     armoremdamageresonance: 0.9
     armorexplosivedamageresonance: 0.6
-    armorhp: 3000.0
+    armorhp: 1500.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.8
     capacitorcapacity: 500.0
@@ -12,7 +12,7 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 4
     explosivedamageresonance: 1.0
     gfxboosterid: 395
-    hp: 1500.0
+    hp: 750.0
     id: 92135
     kineticdamageresonance: 1.0
     mass: 13500000.0
@@ -26,7 +26,7 @@ types:
     rechargerate: 500000.0
     scanradarstrength: 12.0
     scanresolution: 800.0
-    shieldcapacity: 500.0
+    shieldcapacity: 250.0
     shieldemdamageresonance: 0.9
     shieldexplosivedamageresonance: 0.6
     shieldkineticdamageresonance: 0.7
@@ -40,7 +40,7 @@ types:
     agility: 2.0
     armoremdamageresonance: 0.9
     armorexplosivedamageresonance: 0.6
-    armorhp: 6000.0
+    armorhp: 3000.0
     armorkineticdamageresonance: 0.7
     armorthermaldamageresonance: 0.8
     capacitorcapacity: 500.0
@@ -49,7 +49,7 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 4
     explosivedamageresonance: 1.0
     gfxboosterid: 395
-    hp: 3000.0
+    hp: 1500.0
     id: 92150
     kineticdamageresonance: 1.0
     mass: 13500000.0
@@ -63,13 +63,50 @@ types:
     rechargerate: 500000.0
     scanradarstrength: 12.0
     scanresolution: 800.0
-    shieldcapacity: 1000.0
+    shieldcapacity: 500.0
     shieldemdamageresonance: 0.9
     shieldexplosivedamageresonance: 0.6
     shieldkineticdamageresonance: 0.7
     shieldrechargerate: 300000.0
     shieldthermaldamageresonance: 0.8
     signatureradius: 250.0
+    thermaldamageresonance: 1.0
+    volume: 28600.0
+    warpspeedmultiplier: 35.0
+  93288:
+    agility: 0.002
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
+    armorhp: 6000.0
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
+    capacitorcapacity: 500.0
+    emdamageresonance: 1.0
+    entitycruisespeed: 15.0
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    explosivedamageresonance: 1.0
+    gfxboosterid: 395
+    hp: 3000.0
+    id: 93288
+    kineticdamageresonance: 1.0
+    mass: 800000000.0
+    maxlockedtargets: 4
+    maxtargetrange: 30000.0
+    maxvelocity: 60.0
+    name: Imperial Providence
+    portionSize: 1
+    published: false
+    radius: 900.0
+    rechargerate: 500000.0
+    scanradarstrength: 12.0
+    scanresolution: 800.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 300000.0
+    shieldthermaldamageresonance: 0.6
+    signatureradius: 10000.0
     thermaldamageresonance: 1.0
     volume: 28600.0
     warpspeedmultiplier: 35.0

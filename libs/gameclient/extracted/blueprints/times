@@ -6598,6 +6598,7 @@ bpId	activity	time
 23736	research_material	18900
 23736	research_time	18900
 23758	copying	1600000
+23758	invention	1980000
 23758	manufacturing	1800000
 23758	research_material	28000
 23758	research_time	28000
@@ -6782,6 +6783,7 @@ bpId	activity	time
 23903	research_material	315
 23903	research_time	315
 23912	copying	1600000
+23912	invention	1980000
 23912	manufacturing	1800000
 23912	research_material	28000
 23912	research_time	28000
@@ -6790,6 +6792,7 @@ bpId	activity	time
 23914	research_material	84000
 23914	research_time	84000
 23916	copying	1600000
+23916	invention	1980000
 23916	manufacturing	1800000
 23916	research_material	28000
 23916	research_time	28000
@@ -6857,6 +6860,7 @@ bpId	activity	time
 24476	research_material	168
 24476	research_time	168
 24484	copying	1600000
+24484	invention	1980000
 24484	manufacturing	1800000
 24484	research_material	28000
 24484	research_time	28000
@@ -17439,10 +17443,10 @@ bpId	activity	time
 53925	manufacturing	6000
 53925	research_material	2100
 53925	research_time	2100
-53988	manufacturing	9000
-53989	manufacturing	9000
-53990	manufacturing	9000
-53991	manufacturing	9000
+53988	manufacturing	900
+53989	manufacturing	900
+53990	manufacturing	1500
+53991	manufacturing	1500
 54410	copying	7200
 54410	manufacturing	9000
 54410	research_material	3150
@@ -19117,6 +19121,8 @@ bpId	activity	time
 92654	manufacturing	36000
 92956	manufacturing	1200
 92957	manufacturing	1200
+93144	manufacturing	9000
+93146	manufacturing	9000
 93914	manufacturing	3600
 93919	manufacturing	3600
 93920	manufacturing	3600
@@ -19125,3 +19131,7 @@ bpId	activity	time
 94005	manufacturing	3600
 94006	manufacturing	3600
 94007	manufacturing	3600
+94072	manufacturing	4800000
+94073	manufacturing	4800000
+94074	manufacturing	4800000
+94075	manufacturing	4800000

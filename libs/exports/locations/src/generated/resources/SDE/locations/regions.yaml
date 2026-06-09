@@ -2048,6 +2048,7 @@ locations:
     - Anwyns
     - Araz
     - Balrille
+    - Caldari Border Zone
     - Comadu
     - Coriault
     - Crux
@@ -2073,6 +2074,7 @@ locations:
     - Kor-Azor
     - Metropolis
     - Sinq Laison
+    - The Citadel
     - The Forge
     - Verge Vendor
     adjacentSystems:
@@ -2091,6 +2093,7 @@ locations:
     - Iaokit
     - Irgrus
     - Kamda
+    - Kassigainen
     - Manifest
     - Merolles
     - Nebian
@@ -3923,10 +3926,12 @@ locations:
     - Okakuola
     - Okela
     - Patrie
+    - Sanctum
     - Thoulde
     adjacentRegions:
     - Black Rise
     - Essence
+    - Genesis
     - Lonetrek
     - Sinq Laison
     - The Forge
@@ -3945,6 +3950,7 @@ locations:
     - Mushikegi
     - New Caldari
     - Nourvukaiken
+    - Pakhshi
     - Sarekuwa
     - Sirseshin
     - Synchelle

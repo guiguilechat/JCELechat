@@ -217,7 +217,7 @@ types:
     primaryattribute: 165
     published: true
     requiredskill1: 24562
-    requiredskill1level: 5
+    requiredskill1level: 3
     secondaryattribute: 166
     skilltimeconstant: 14.0
     volume: 0.01

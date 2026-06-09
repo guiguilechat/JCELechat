@@ -179,3 +179,78 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 0.001
     volume: 1.0
+  92890:
+    disallowassistance: 1
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
+    hp: 1.0E9
+    id: 92890
+    kineticdamageresonance: 0.001
+    mass: 1000000.0
+    name: Amarr Relay Control Zone
+    portionSize: 1
+    published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 1.0
+  92891:
+    disallowassistance: 1
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
+    hp: 1.0E9
+    id: 92891
+    kineticdamageresonance: 0.001
+    mass: 1000000.0
+    name: Caldari Relay Control Zone
+    portionSize: 1
+    published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 1.0
+  92892:
+    disallowassistance: 1
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
+    hp: 1.0E9
+    id: 92892
+    kineticdamageresonance: 0.001
+    mass: 1000000.0
+    name: Gallente Relay Control Zone
+    portionSize: 1
+    published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 1.0
+  92893:
+    disallowassistance: 1
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
+    hp: 1.0E9
+    id: 92893
+    kineticdamageresonance: 0.001
+    mass: 1000000.0
+    name: Minmatar Relay Control Zone
+    portionSize: 1
+    published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 1.0
+  93305:
+    disallowassistance: 1
+    emdamageresonance: 0.001
+    explosivedamageresonance: 0.001
+    hp: 1.0E9
+    id: 93305
+    kineticdamageresonance: 0.001
+    mass: 1000000.0
+    name: QA Control Zone
+    portionSize: 1
+    published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.001
+    volume: 1.0

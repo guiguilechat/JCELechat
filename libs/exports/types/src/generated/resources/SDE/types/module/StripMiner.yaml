@@ -23,7 +23,7 @@ types:
     requiredskill1level: 1
     techlevel: 1
     typecolorscheme: 11346
-    volume: 25.0
+    volume: 5.0
   17482:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
@@ -49,7 +49,7 @@ types:
     requiredskill2level: 1
     techlevel: 1
     typecolorscheme: 11346
-    volume: 25.0
+    volume: 5.0
   22229:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
@@ -172,7 +172,7 @@ types:
     requiredskill1level: 4
     techlevel: 1
     typecolorscheme: 11346
-    volume: 25.0
+    volume: 5.0
   90498:
     canfitshipgroup01: 463
     canfitshipgroup02: 543
@@ -205,4 +205,4 @@ types:
     requiredskill1level: 1
     techlevel: 1
     typecolorscheme: 11346
-    volume: 25.0
+    volume: 5.0

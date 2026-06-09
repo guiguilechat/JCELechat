@@ -19408,11 +19408,11 @@ types:
     volume: 100000000.0
     warpscrambleduration: 8000
   72850:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.2
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 30000.0
-    armorkineticdamageresonance: 0.37
-    armorthermaldamageresonance: 0.65
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19441,22 +19441,22 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 10000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.12
-    shieldkineticdamageresonance: 0.3
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.8
+    shieldthermaldamageresonance: 0.6
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
     warpscrambleduration: 8000
   72851:
-    armoremdamageresonance: 0.1
-    armorexplosivedamageresonance: 0.9
-    armorhp: 20000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.325
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19483,10 +19483,10 @@ types:
     radius: 500.0
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
-    shieldcapacity: 20000.0
-    shieldemdamageresonance: 0.25
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6
+    shieldcapacity: 30000.0
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 0.4
     signatureradius: 1000.0
@@ -19495,11 +19495,11 @@ types:
     volume: 100000000.0
     warpscrambleduration: 8000
   72852:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.375
-    armorthermaldamageresonance: 0.1375
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19527,22 +19527,22 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 30000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.3
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.2
+    shieldthermaldamageresonance: 0.4
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
     warpscrambleduration: 8000
   72853:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 30000.0
-    armorkineticdamageresonance: 0.1625
-    armorthermaldamageresonance: 0.325
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19570,22 +19570,22 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 10000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.15
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.4
+    shieldthermaldamageresonance: 0.6
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
     warpscrambleduration: 8000
   73012:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.2
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 30000.0
-    armorkineticdamageresonance: 0.37
-    armorthermaldamageresonance: 0.65
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19614,22 +19614,22 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 10000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.12
-    shieldkineticdamageresonance: 0.3
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.8
+    shieldthermaldamageresonance: 0.6
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
     warpscrambleduration: 8000
   73013:
-    armoremdamageresonance: 0.1
-    armorexplosivedamageresonance: 0.9
-    armorhp: 20000.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.325
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
+    armorhp: 10000.0
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19656,10 +19656,10 @@ types:
     radius: 364.0
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
-    shieldcapacity: 20000.0
-    shieldemdamageresonance: 0.25
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6
+    shieldcapacity: 30000.0
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 0.4
     signatureradius: 1000.0
@@ -19668,11 +19668,11 @@ types:
     volume: 100000000.0
     warpscrambleduration: 8000
   73014:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
+    armoremdamageresonance: 0.6
+    armorexplosivedamageresonance: 0.6
     armorhp: 10000.0
-    armorkineticdamageresonance: 0.375
-    armorthermaldamageresonance: 0.1375
+    armorkineticdamageresonance: 0.6
+    armorthermaldamageresonance: 0.6
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19700,22 +19700,22 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 30000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.3
+    shieldemdamageresonance: 0.4
+    shieldexplosivedamageresonance: 0.4
+    shieldkineticdamageresonance: 0.4
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.2
+    shieldthermaldamageresonance: 0.4
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
     warpscrambleduration: 8000
   73015:
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.9
+    armoremdamageresonance: 0.4
+    armorexplosivedamageresonance: 0.4
     armorhp: 30000.0
-    armorkineticdamageresonance: 0.1625
-    armorthermaldamageresonance: 0.325
+    armorkineticdamageresonance: 0.4
+    armorthermaldamageresonance: 0.4
     armoruniformity: 1.0
     damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
@@ -19743,11 +19743,11 @@ types:
     rechargerate: 8.64E7
     remoterepairimpedance: 1.0
     shieldcapacity: 10000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.15
+    shieldemdamageresonance: 0.6
+    shieldexplosivedamageresonance: 0.6
+    shieldkineticdamageresonance: 0.6
     shieldrechargerate: 8.64E7
-    shieldthermaldamageresonance: 0.4
+    shieldthermaldamageresonance: 0.6
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
@@ -21274,4 +21274,196 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     tierdifficulty: 1
+    warpscrambleduration: 8000
+  93960:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 150000.0
+    id: 93960
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 1.0E+35
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Minmatar Occupied Stargate
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    rechargerate: 1000000.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+    warpscrambleduration: 8000
+  94028:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 150000.0
+    id: 94028
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 1.0E+35
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Gallente Occupied Stargate
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    rechargerate: 1000000.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+    warpscrambleduration: 8000
+  94029:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 150000.0
+    id: 94029
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 1.0E+35
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Caldari Occupied Stargate
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    rechargerate: 1000000.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
+    warpscrambleduration: 8000
+  94030:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 150000.0
+    id: 94030
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    mass: 1.0E+35
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Amarr Occupied Stargate
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 1500.0
+    rechargerate: 1000000.0
+    remoterepairimpedance: 1.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 100000000.0
     warpscrambleduration: 8000

@@ -2,6 +2,7 @@ types:
   24283:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 75.0
@@ -26,6 +27,7 @@ types:
   32951:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 62.0
@@ -51,6 +53,7 @@ types:
   32953:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 59.0
@@ -76,6 +79,7 @@ types:
   32955:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 53.0
@@ -101,6 +105,7 @@ types:
   32957:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 50.0
@@ -126,6 +131,7 @@ types:
   41414:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 60.0
@@ -151,6 +157,7 @@ types:
   41415:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 75.0
@@ -175,6 +182,7 @@ types:
   41417:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 80.0
@@ -201,6 +209,7 @@ types:
   60483:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 75.0
@@ -224,6 +233,7 @@ types:
   88264:
     canfitshipgroup01: 547
     canfitshipgroup02: 659
+    canfitshipgroup03: 5120
     canfitshiptype1: 45647
     canfitshiptype2: 45649
     cpu: 50.0

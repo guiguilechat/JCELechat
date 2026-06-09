@@ -32,11 +32,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterHackingVirusCoherenceModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterLastInjectionDatetime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMaxCharAgeHours;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMaxVelocityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMinerMaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMiningCriticalHitChanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMiningLaserIceGasHarvesterDurationReductionAndCapacitor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMissileAOECloudPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMissileDamageBonusPostPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMissileVelocityPenalty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterShieldBoostAmountPenalty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterShieldCapacityPenalty;
@@ -76,6 +80,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MineralNeedResearchBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningWasteProbabilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NonDiminishingSkillInjectorUses;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
@@ -100,6 +105,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSkillTargetPaintStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScramblerRangeAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBoostMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
@@ -274,6 +280,10 @@ public class Booster
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double boostereffectchance5;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int boosterhackingviruscoherencemodifier;
     /**
      * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
      */
@@ -298,7 +308,15 @@ public class Booster
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int boosterminermaxrangebonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int boosterminingcriticalhitchancebonus;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int boostermininglasericegasharvesterdurationreductionandcapacitor;
     /**
      * 
      */
@@ -306,6 +324,10 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int boostermissileaoecloudpenalty;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int boostermissiledamagebonuspostpercent;
     /**
      * 
      */
@@ -567,6 +589,10 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamountbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int miningwasteprobabilitybonus;
     /**
      * Additional percentage to the characters missile damage multiplier.
      */
@@ -711,6 +737,13 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int scramblerrangeadd;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int sensordampenerresistancebonus;
     /**
      * 
      */
@@ -862,7 +895,7 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MWDSignatureRadiusBonus.INSTANCE, IceHarvestCycleBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneTrackingBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, SignatureRadiusBonus.INSTANCE, MaxVelocityBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, DurationSkillBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, FalloffBonus.INSTANCE, StasisWebifierResistanceBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, ArmorDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, VirusCoherenceBonus.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, VirusStrengthBonus.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE, MaxScanDeviationModifier.INSTANCE, StasisWebRangeAdd.INSTANCE, AgilityBonus.INSTANCE, ArmorRepairBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, TurretSpeeBonus.INSTANCE, ScramblerRangeAdd.INSTANCE, HullDamageResistanceBonus.INSTANCE, StasisWebRangeBonus.INSTANCE, CargoScanResistance.INSTANCE, CopySpeedBonus.INSTANCE, BoosterMiningCriticalHitChanceBonus.INSTANCE, DroneRangeBonus.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, RemoteRepDurationCapBonus.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, WarpScrambleStrengthBonus.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MWDSignatureRadiusBonus.INSTANCE, IceHarvestCycleBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneTrackingBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, SignatureRadiusBonus.INSTANCE, MaxVelocityBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, DurationSkillBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, FalloffBonus.INSTANCE, StasisWebifierResistanceBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, ArmorDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, VirusCoherenceBonus.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, VirusStrengthBonus.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE, MaxScanDeviationModifier.INSTANCE, StasisWebRangeAdd.INSTANCE, AgilityBonus.INSTANCE, ArmorRepairBonus.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, TurretSpeeBonus.INSTANCE, ScramblerRangeAdd.INSTANCE, HullDamageResistanceBonus.INSTANCE, StasisWebRangeBonus.INSTANCE, CargoScanResistance.INSTANCE, CopySpeedBonus.INSTANCE, BoosterMiningCriticalHitChanceBonus.INSTANCE, DroneRangeBonus.INSTANCE, BoosterHackingVirusCoherenceModifier.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, RemoteRepDurationCapBonus.INSTANCE, BoosterMinerMaxRangeBonus.INSTANCE, BoosterMiningLaserIceGasHarvesterDurationReductionAndCapacitor.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, WarpScrambleStrengthBonus.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterMissileDamageBonusPostPercent.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
@@ -952,6 +985,10 @@ public class Booster
             {
                 return boostereffectchance5;
             }
+            case  6092 :
+            {
+                return boosterhackingviruscoherencemodifier;
+            }
             case  2422 :
             {
                 return boosterlastinjectiondatetime;
@@ -964,13 +1001,25 @@ public class Booster
             {
                 return boostermaxvelocitypenalty;
             }
+            case  6098 :
+            {
+                return boosterminermaxrangebonus;
+            }
             case  6090 :
             {
                 return boosterminingcriticalhitchancebonus;
             }
+            case  6099 :
+            {
+                return boostermininglasericegasharvesterdurationreductionandcapacitor;
+            }
             case  1149 :
             {
                 return boostermissileaoecloudpenalty;
+            }
+            case  6125 :
+            {
+                return boostermissiledamagebonuspostpercent;
             }
             case  1148 :
             {
@@ -1124,6 +1173,10 @@ public class Booster
             {
                 return miningamountbonus;
             }
+            case  6053 :
+            {
+                return miningwasteprobabilitybonus;
+            }
             case  213 :
             {
                 return missiledamagemultiplierbonus;
@@ -1207,6 +1260,10 @@ public class Booster
             case  3257 :
             {
                 return scramblerrangeadd;
+            }
+            case  2351 :
+            {
+                return sensordampenerresistancebonus;
             }
             case  548 :
             {

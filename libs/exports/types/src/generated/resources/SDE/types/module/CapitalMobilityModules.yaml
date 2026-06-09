@@ -1,6 +1,7 @@
 types:
   83465:
     canfitshipgroup01: 547
+    canfitshipgroup02: 5120
     canfitshiptype1: 87381
     capacitorneed: 20000.0
     cpu: 80.0
@@ -29,6 +30,7 @@ types:
     techlevel: 1
     volume: 4000.0
   83485:
+    canfitshipgroup01: 5120
     canfitshipgroup02: 547
     capacitorneed: 30000.0
     cpu: 85.0

@@ -79,7 +79,7 @@ types:
     volume: 5.0
   440:
     capacitorcapacitymultiplier: 0.8
-    capacitorneed: 50.0
+    capacitorneed: 40.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -100,14 +100,14 @@ types:
     requiredskill1: 3454
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 500.0
+    signatureradiusbonus: 475.0
     speedboostfactor: 1500000
     speedfactor: 510.0
     techlevel: 2
     volume: 10.0
   5945:
     capacitorcapacitymultiplier: 0.75
-    capacitorneed: 280.0
+    capacitorneed: 220.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -161,7 +161,7 @@ types:
     volume: 5.0
   5971:
     capacitorcapacitymultiplier: 0.75
-    capacitorneed: 35.0
+    capacitorneed: 30.0
     cpu: 25.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -217,7 +217,7 @@ types:
     volume: 10.0
   5975:
     capacitorcapacitymultiplier: 0.75
-    capacitorneed: 160.0
+    capacitorneed: 130.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -479,7 +479,7 @@ types:
     volume: 5.0
   12076:
     capacitorcapacitymultiplier: 0.8
-    capacitorneed: 200.0
+    capacitorneed: 160.0
     cpu: 50.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -500,14 +500,14 @@ types:
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 500.0
+    signatureradiusbonus: 475.0
     speedboostfactor: 15000000
     speedfactor: 510.0
     techlevel: 2
     volume: 10.0
   12084:
     capacitorcapacitymultiplier: 0.8
-    capacitorneed: 350.0
+    capacitorneed: 290.0
     cpu: 75.0
     deadspaceunsafe: 1
     duration: 10000.0
@@ -528,7 +528,7 @@ types:
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 500.0
+    signatureradiusbonus: 475.0
     speedboostfactor: 150000000
     speedfactor: 510.0
     techlevel: 2
@@ -3163,6 +3163,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3196,6 +3197,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 43.0
@@ -3230,6 +3232,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 7200.0
     cpu: 43.0
@@ -3264,6 +3267,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3298,6 +3302,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 75.0
@@ -3333,6 +3338,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 1.0
     capacitorneed: 8000.0
     cpu: 83.0
@@ -3368,6 +3374,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.75
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3403,6 +3410,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.75
     capacitorneed: 10000.0
     cpu: 85.0
@@ -3439,6 +3447,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.8
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3475,8 +3484,9 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.75
-    capacitorneed: 9000.0
+    capacitorneed: 7000.0
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
@@ -3511,8 +3521,9 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.8
-    capacitorneed: 11000.0
+    capacitorneed: 9000.0
     cpu: 100.0
     deadspaceunsafe: 1
     duration: 20000.0
@@ -3533,7 +3544,7 @@ types:
     requiredskill1: 3454
     requiredskill1level: 4
     requiredthermodynamicsskill: 1
-    signatureradiusbonus: 500.0
+    signatureradiusbonus: 475.0
     speedboostfactor: 1500000000
     speedfactor: 510.0
     techlevel: 2
@@ -3546,6 +3557,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.9
     capacitorneed: 10000.0
     cpu: 100.0
@@ -3583,6 +3595,7 @@ types:
     canfitshipgroup05: 30
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     capacitorcapacitymultiplier: 0.9
     capacitorneed: 10000.0
     cpu: 110.0

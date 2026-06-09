@@ -7444,6 +7444,7 @@ locations:
     - Perckhevin
   Araz:
     adjacentConstellations:
+    - Favo
     - Kakol
     - Mih
     adjacentRegions:
@@ -7451,6 +7452,7 @@ locations:
     adjacentSystems:
     - Aband
     - Iderion
+    - Rayeret
     centerX: -2.4021555144796826E+17
     centerY: 3.604199344821046E+16
     centerZ: -3.699719789859986E+16
@@ -12656,14 +12658,17 @@ locations:
     - Crux
     - Kantanen
     - Patrie
+    - Sanctum
     - Thoulde
     adjacentRegions:
     - Essence
+    - Genesis
     - Sinq Laison
     adjacentSystems:
     - Algogille
     - Jolevier
     - Kubinen
+    - Pakhshi
     - Synchelle
     - Uedama
     - Unel
@@ -15688,6 +15693,7 @@ locations:
     - Abthi
     - Ichida
     - Kabo
+    - Kisana
     - Maseend
     - Ryra
     adjacentRegions:
@@ -15697,6 +15703,7 @@ locations:
     - Esescama
     - Jarkkolen
     - Lower Debyl
+    - Mehatoor
     - Mendori
     - Naeel
     - Shastal
@@ -19693,6 +19700,7 @@ locations:
     - Aydoteaux
     - Beke
     - Hadji
+    - Kemerk
     - Madomi
     - Tarta
     - Zoohen
@@ -19723,6 +19731,7 @@ locations:
     - Nasreri
   Favo:
     adjacentConstellations:
+    - Araz
     - Meli
     - Pezarba
     - Reya
@@ -19730,6 +19739,7 @@ locations:
     - Genesis
     adjacentSystems:
     - Hirizan
+    - Jakri
     - Mod
     - Petidu
     centerX: -2.6509900909496672E+17
@@ -24080,6 +24090,7 @@ locations:
     - Urlen
   Kisana:
     adjacentConstellations:
+    - Daredan
     - Ryra
     - San Matar
     - Sasen
@@ -24088,6 +24099,7 @@ locations:
     - Derelik
     - The Bleak Lands
     adjacentSystems:
+    - Akes
     - Kamela
     - Lashesih
     - Odin
@@ -31570,6 +31582,7 @@ locations:
     - Aideron
     - Anwyns
     - Balrille
+    - Caldari Border Zone
     - Coriault
     - Crux
     - Ekrin
@@ -31589,17 +31602,20 @@ locations:
     - Exordium
     - Metropolis
     - Sinq Laison
+    - The Citadel
     - Verge Vendor
     adjacentSystems:
     - Arant
     - Arnon
     - Ashokon
     - Atlangeins
+    - Bania
     - Botane
     - Chantrousse
     - Deninard
     - Girani-Fa
     - Irgrus
+    - Kassigainen
     - Manifest
     - Merolles
     - Oursulaert

@@ -6,9 +6,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93591
@@ -16,6 +18,7 @@ types:
     mass: 2400000000.0
     maxvelocity: 60.0
     name: Defending Avatar
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 6800.0
@@ -25,7 +28,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93595:
     agility: 0.036
     armoremdamageresonance: 1.0
@@ -33,9 +38,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 397
     hp: 1.0E8
     id: 93595
@@ -43,6 +50,7 @@ types:
     mass: 2200000000.0
     maxvelocity: 80.0
     name: Invading Ragnarok
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 6800.0
@@ -52,7 +60,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93597:
     agility: 0.037
     armoremdamageresonance: 1.0
@@ -60,9 +70,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93597
@@ -70,6 +82,7 @@ types:
     mass: 2100000000.0
     maxvelocity: 70.0
     name: Invading Erebus
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 7500.0
@@ -79,7 +92,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93598:
     agility: 0.035
     armoremdamageresonance: 1.0
@@ -87,9 +102,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 395
     hp: 1.0E8
     id: 93598
@@ -97,6 +114,7 @@ types:
     mass: 2300000000.0
     maxvelocity: 60.0
     name: Invading Leviathan
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 9000.0
@@ -106,7 +124,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93599:
     agility: 0.036
     armoremdamageresonance: 1.0
@@ -114,9 +134,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93599
@@ -124,6 +146,7 @@ types:
     mass: 2400000000.0
     maxvelocity: 60.0
     name: Invading Avatar
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 6800.0
@@ -133,7 +156,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93613:
     agility: 0.035
     armoremdamageresonance: 1.0
@@ -141,9 +166,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 395
     hp: 1.0E8
     id: 93613
@@ -151,6 +178,7 @@ types:
     mass: 2300000000.0
     maxvelocity: 60.0
     name: Defending Leviathan
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 9000.0
@@ -160,7 +188,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93614:
     agility: 0.037
     armoremdamageresonance: 1.0
@@ -168,9 +198,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 394
     hp: 1.0E8
     id: 93614
@@ -178,6 +210,7 @@ types:
     mass: 2100000000.0
     maxvelocity: 70.0
     name: Defending Erebus
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 7500.0
@@ -187,7 +220,9 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
   93615:
     agility: 0.036
     armoremdamageresonance: 1.0
@@ -195,9 +230,11 @@ types:
     armorhp: 1.0E8
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    damagemultiplier: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
+    falloff: 1.0
     gfxboosterid: 397
     hp: 1.0E8
     id: 93615
@@ -205,6 +242,7 @@ types:
     mass: 2200000000.0
     maxvelocity: 80.0
     name: Defending Ragnarok
+    optimalsigradius: 1000
     portionSize: 1
     published: false
     radius: 6800.0
@@ -214,4 +252,50 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1.0E9
     shieldthermaldamageresonance: 1.0
+    signatureradius: 100.0
     thermaldamageresonance: 1.0
+    warpspeedmultiplier: 3.0
+  93888:
+    agility: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 250.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 25000.0
+    gfxboosterid: 394
+    gfxturretcount: 6
+    gfxturretid: 20444
+    hp: 1500.0
+    id: 93888
+    kineticdamage: 900.0
+    kineticdamageresonance: 1.0
+    mass: 1300000.0
+    maxlockedtargets: 7
+    maxrange: 75000.0
+    maxtargetrange: 100000.0
+    maxvelocity: 160.0
+    name: Federation Erebus
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 1700.0
+    rechargerate: 375000.0
+    scanradarstrength: 40.0
+    scanresolution: 50.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 11100.0
+    speed: 12000.0
+    thermaldamage: 600.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 10.0
+    warpspeedmultiplier: 15.0

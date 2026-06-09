@@ -195,6 +195,7 @@ types:
     gfxboosterid: 395
     hp: 187500.0
     id: 46653
+    iscapitalsize: 1
     kineticdamageresonance: 0.402
     mass: 1270000000.0
     maximumrangecap: 300000
@@ -264,6 +265,7 @@ types:
     gfxboosterid: 395
     hp: 187500.0
     id: 46654
+    iscapitalsize: 1
     kineticdamageresonance: 0.402
     mass: 1270000000.0
     maximumrangecap: 300000
@@ -568,6 +570,7 @@ types:
     gfxboosterid: 395
     hp: 187500.0
     id: 63154
+    iscapitalsize: 1
     kineticdamageresonance: 0.402
     mass: 1270000000.0
     maximumrangecap: 300000

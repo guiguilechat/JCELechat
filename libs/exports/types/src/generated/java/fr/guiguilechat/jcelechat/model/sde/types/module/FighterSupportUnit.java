@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
@@ -51,6 +52,13 @@ public class FighterSupportUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int canfitshipgroup02;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int canfitshipgroup03;
     /**
      * 
      */
@@ -136,7 +144,7 @@ public class FighterSupportUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill1level;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterBonusVelocityPercent.INSTANCE, FighterBonusROFPercent.INSTANCE, FighterBonusShieldRechargePercent.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, FighterBonusShieldCapacityPercent.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterBonusVelocityPercent.INSTANCE, FighterBonusROFPercent.INSTANCE, FighterBonusShieldRechargePercent.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, FighterBonusShieldCapacityPercent.INSTANCE })));
     public static final FighterSupportUnit.MetaGroup METAGROUP = new FighterSupportUnit.MetaGroup();
 
     @Override
@@ -149,6 +157,10 @@ public class FighterSupportUnit
             case  1299 :
             {
                 return canfitshipgroup02;
+            }
+            case  1300 :
+            {
+                return canfitshipgroup03;
             }
             case  1302 :
             {

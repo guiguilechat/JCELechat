@@ -7,6 +7,7 @@ types:
     canfitshipgroup05: 1538
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     canfitshiptype1: 81040
     capacitorneed: 3000.0
     chargegroup1: 1702
@@ -46,6 +47,7 @@ types:
     canfitshipgroup05: 1538
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     canfitshiptype1: 81040
     capacitorneed: 3600.0
     chargegroup1: 1702
@@ -86,6 +88,7 @@ types:
     canfitshipgroup05: 1538
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     canfitshiptype1: 81040
     capacitorneed: 2400.0
     chargegroup1: 1702
@@ -127,6 +130,7 @@ types:
     canfitshipgroup05: 1538
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     canfitshiptype1: 81040
     capacitorneed: 2400.0
     chargegroup1: 1702
@@ -168,6 +172,7 @@ types:
     canfitshipgroup05: 1538
     canfitshipgroup06: 883
     canfitshipgroup07: 4594
+    canfitshipgroup08: 5120
     canfitshiptype1: 81040
     capacitorneed: 2400.0
     chargegroup1: 1702

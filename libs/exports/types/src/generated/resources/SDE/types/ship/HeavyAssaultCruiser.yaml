@@ -871,7 +871,7 @@ types:
     maxlockedtargets: 6
     maxpassengers: 580
     maxtargetrange: 60000.0
-    maxvelocity: 230.0
+    maxvelocity: 250.0
     medslots: 4
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0

@@ -1142,7 +1142,7 @@ types:
     shielduniformity: 0.75
     shipbonuscd1: 10.0
     shipbonuscd2: 10
-    shipbonusnavydestroyercaldari1: 5
+    shipbonusnavydestroyercaldari1: 7.5
     shipbonusnavydestroyercaldari2: 10
     shipbonusnavydestroyercaldari3: 10
     shipbonusnavydestroyercaldari4: 50
@@ -1257,6 +1257,7 @@ types:
     weapondisruptionresistance: 1.0
   78333:
     agility: 2.475
+    angelcartelprojectilereloadingspeed: -75
     armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.9
     armorhp: 1125.0
@@ -1332,7 +1333,7 @@ types:
     shipbonusoredestroyer3: 5
     shipbonusrole6: 50.0
     shipbonusrole7: 100.0
-    shiprolebonuswarpspeed: 25
+    shiprolebonuswarpspeed: 50
     signatureradius: 50.4
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0

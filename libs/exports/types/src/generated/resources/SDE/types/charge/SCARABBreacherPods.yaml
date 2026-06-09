@@ -36,7 +36,7 @@ types:
     detonationrange: 35
     dotduration: 40000
     dotmaxdamagepertick: 600
-    dotmaxhppercentagepertick: 0.8
+    dotmaxhppercentagepertick: 0.6
     emdamageresonance: 1.0
     explosiondelay: 4000
     explosivedamageresonance: 1.0

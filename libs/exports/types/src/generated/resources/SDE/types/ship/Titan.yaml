@@ -857,6 +857,7 @@ types:
     advancedagility: 1
     advancedcapitalagility: 1
     agility: 0.031
+    angelcartelprojectilereloadingspeed: -75
     armoremdamageresonance: 0.4
     armorexplosivedamageresonance: 0.9
     armorhp: 750000.0

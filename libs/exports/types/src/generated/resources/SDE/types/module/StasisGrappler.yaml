@@ -10,6 +10,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 25.0
     duration: 2000.0
@@ -46,6 +47,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 20.0
     duration: 2000.0
@@ -83,6 +85,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 25.0
     duration: 2000.0
@@ -120,6 +123,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 2.0
     cpu: 25.0
     duration: 2000.0
@@ -157,6 +161,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 5.0
     cpu: 30.0
     duration: 2000.0
@@ -194,6 +199,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 25.0
     duration: 2000.0
@@ -232,6 +238,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 20.0
     duration: 2000.0
@@ -270,6 +277,7 @@ types:
     canfitshipgroup08: 30
     canfitshipgroup09: 883
     canfitshipgroup10: 4594
+    canfitshipgroup11: 5120
     capacitorneed: 4.0
     cpu: 25.0
     duration: 2000.0

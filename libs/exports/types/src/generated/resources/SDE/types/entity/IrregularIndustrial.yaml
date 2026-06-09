@@ -912,3 +912,54 @@ types:
     warpbubbleimmune: 1
     warpscramblestatus: -1000
     warpspeedmultiplier: 35.0
+  93938:
+    agility: 0.5
+    armoremdamageresonance: 0.9
+    armorexplosivedamageresonance: 0.72
+    armorhp: 1000.0
+    armorkineticdamageresonance: 0.45
+    armorthermaldamageresonance: 0.54
+    capacitorcapacity: 550.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 1500.0
+    id: 93938
+    kineticdamageresonance: 1.0
+    mass: 10650000.0
+    maxvelocity: 100.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Plundering Hauler
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 196.0
+    rechargerate: 181875.0
+    shieldcapacity: 11000.0
+    shieldemdamageresonance: 0.9
+    shieldexplosivedamageresonance: 0.72
+    shieldkineticdamageresonance: 0.45
+    shieldrechargerate: 468750.0
+    shieldthermaldamageresonance: 0.54
+    shielduniformity: 0.75
+    signatureradius: 270.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpspeedmultiplier: 10.0

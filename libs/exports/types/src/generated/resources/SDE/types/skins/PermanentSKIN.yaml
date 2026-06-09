@@ -34337,24 +34337,28 @@ types:
     volume: 0.01
   76150:
     id: 76150
+    marketGroup: 2000
     name: Magnate Navy Issue Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76151:
     id: 76151
+    marketGroup: 1994
     name: Coercer Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76152:
     id: 76152
+    marketGroup: 1964
     name: Oracle Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76153:
     id: 76153
+    marketGroup: 1964
     name: Abaddon Versus Redforce SKIN
     portionSize: 1
     published: true
@@ -34367,36 +34371,42 @@ types:
     volume: 0.01
   76155:
     id: 76155
+    marketGroup: 1990
     name: Augoror Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76156:
     id: 76156
+    marketGroup: 2103
     name: Harbinger Navy Issue Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76157:
     id: 76157
+    marketGroup: 2000
     name: Heron Navy Issue Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76158:
     id: 76158
+    marketGroup: 1995
     name: Cormorant Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76159:
     id: 76159
+    marketGroup: 1957
     name: Naga Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76160:
     id: 76160
+    marketGroup: 1965
     name: Rokh Versus Redforce SKIN
     portionSize: 1
     published: true
@@ -34409,30 +34419,35 @@ types:
     volume: 0.01
   76163:
     id: 76163
+    marketGroup: 1991
     name: Osprey Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76164:
     id: 76164
+    marketGroup: 2103
     name: Drake Navy Issue Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76165:
     id: 76165
+    marketGroup: 2000
     name: Imicus Navy Issue Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76166:
     id: 76166
+    marketGroup: 1996
     name: Catalyst Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76167:
     id: 76167
+    marketGroup: 1958
     name: Talos Versus Redforce SKIN
     portionSize: 1
     published: true
@@ -34445,18 +34460,21 @@ types:
     volume: 0.01
   76169:
     id: 76169
+    marketGroup: 2004
     name: Tristan Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76170:
     id: 76170
+    marketGroup: 1992
     name: Exequror Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76171:
     id: 76171
+    marketGroup: 2103
     name: Brutix Navy Issue Versus Blueforce SKIN
     portionSize: 1
     published: true
@@ -34469,132 +34487,154 @@ types:
     volume: 0.01
   76173:
     id: 76173
+    marketGroup: 1997
     name: Thrasher Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76174:
     id: 76174
+    marketGroup: 1959
     name: Tornado Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76175:
     id: 76175
+    marketGroup: 1967
     name: Maelstrom Versus Redforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76176:
     id: 76176
+    marketGroup: 2005
     name: Rifter Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76177:
     id: 76177
+    marketGroup: 1993
     name: Scythe Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76178:
     id: 76178
+    marketGroup: 1959
     name: Hurricane Fleet Issue Versus Blueforce SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76235:
     id: 76235
+    marketGroup: 1990
     name: Omen Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76236:
     id: 76236
+    marketGroup: 2063
     name: Omen Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76237:
     id: 76237
+    marketGroup: 1964
     name: Apocalypse Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76238:
     id: 76238
+    marketGroup: 2108
     name: Apocalypse Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76239:
     id: 76239
+    marketGroup: 1991
     name: Caracal Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76240:
     id: 76240
+    marketGroup: 2063
     name: Caracal Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76241:
     id: 76241
+    marketGroup: 1965
     name: Raven Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76242:
     id: 76242
+    marketGroup: 2108
     name: Raven Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76243:
     id: 76243
+    marketGroup: 1992
     name: Vexor Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76244:
     id: 76244
+    marketGroup: 2063
     name: Vexor Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76245:
     id: 76245
+    marketGroup: 1966
     name: Megathron Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76246:
     id: 76246
+    marketGroup: 2108
     name: Megathron Navy Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76247:
     id: 76247
+    marketGroup: 1993
     name: Stabber Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76248:
     id: 76248
+    marketGroup: 2063
     name: Stabber Fleet Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76249:
     id: 76249
+    marketGroup: 1967
     name: Tempest Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
   76250:
     id: 76250
+    marketGroup: 2108
     name: Tempest Fleet Issue Penumbral Shadows SKIN
     portionSize: 1
     published: true
@@ -39622,6 +39662,174 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  92779:
+    id: 92779
+    marketGroup: 2000
+    name: Crucifier Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92780:
+    id: 92780
+    marketGroup: 2063
+    name: Omen Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92781:
+    id: 92781
+    marketGroup: 2103
+    name: Harbinger Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92782:
+    id: 92782
+    marketGroup: 2108
+    name: Apocalypse Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92783:
+    id: 92783
+    marketGroup: 2108
+    name: Armageddon Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92784:
+    id: 92784
+    marketGroup: 2103
+    name: Prophecy Navy Issue War Reserves Lieutenant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92785:
+    id: 92785
+    marketGroup: 2000
+    name: Griffin Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92786:
+    id: 92786
+    marketGroup: 2063
+    name: Caracal Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92787:
+    id: 92787
+    marketGroup: 2103
+    name: Drake Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92788:
+    id: 92788
+    marketGroup: 2103
+    name: Ferox Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92789:
+    id: 92789
+    marketGroup: 2108
+    name: Scorpion Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92790:
+    id: 92790
+    marketGroup: 2108
+    name: Raven Navy Issue Military Stockpile Captain SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92791:
+    id: 92791
+    marketGroup: 2000
+    name: Maulus Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92792:
+    id: 92792
+    marketGroup: 2063
+    name: Vexor Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92793:
+    id: 92793
+    marketGroup: 2103
+    name: Myrmidon Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92794:
+    id: 92794
+    marketGroup: 2103
+    name: Brutix Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92795:
+    id: 92795
+    marketGroup: 2108
+    name: Dominix Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92796:
+    id: 92796
+    marketGroup: 2108
+    name: Megathron Navy Issue Strategic Materiel Defender SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92797:
+    id: 92797
+    marketGroup: 2000
+    name: Vigil Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92798:
+    id: 92798
+    marketGroup: 2063
+    name: Stabber Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92799:
+    id: 92799
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92800:
+    id: 92800
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92801:
+    id: 92801
+    marketGroup: 2108
+    name: Tempest Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  92802:
+    id: 92802
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Fleet Ordnance Spike SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
   92963:
     id: 92963
     marketGroup: 2031
@@ -39745,6 +39953,330 @@ types:
     id: 93078
     marketGroup: 2040
     name: Eris Pride of the Federation SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93655:
+    id: 93655
+    marketGroup: 2108
+    name: Armageddon Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93656:
+    id: 93656
+    marketGroup: 2103
+    name: Prophecy Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93657:
+    id: 93657
+    name: Augoror Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93658:
+    id: 93658
+    name: Coercer Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93659:
+    id: 93659
+    marketGroup: 2000
+    name: Magnate Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93660:
+    id: 93660
+    marketGroup: 2000
+    name: Crucifier Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93661:
+    id: 93661
+    marketGroup: 2000
+    name: Imperial Navy Slicer Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93662:
+    id: 93662
+    marketGroup: 2108
+    name: Scorpion Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93663:
+    id: 93663
+    marketGroup: 2103
+    name: Drake Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93664:
+    id: 93664
+    marketGroup: 2103
+    name: Ferox Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93665:
+    id: 93665
+    name: Cormorant Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93666:
+    id: 93666
+    marketGroup: 2000
+    name: Griffin Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93667:
+    id: 93667
+    marketGroup: 2000
+    name: Heron Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93668:
+    id: 93668
+    marketGroup: 2000
+    name: Caldari Navy Hookbill Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93669:
+    id: 93669
+    name: Osprey Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93691:
+    id: 93691
+    marketGroup: 2108
+    name: Dominix Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93692:
+    id: 93692
+    marketGroup: 2103
+    name: Myrmidon Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93693:
+    id: 93693
+    name: Exequror Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93694:
+    id: 93694
+    name: Catalyst Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93695:
+    id: 93695
+    marketGroup: 2000
+    name: Maulus Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93696:
+    id: 93696
+    marketGroup: 2000
+    name: Imicus Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93697:
+    id: 93697
+    marketGroup: 2000
+    name: Federation Navy Comet Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93698:
+    id: 93698
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93699:
+    id: 93699
+    marketGroup: 2103
+    name: Cyclone Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93700:
+    id: 93700
+    name: Scythe Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93701:
+    id: 93701
+    marketGroup: 3497
+    name: Thrasher Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93702:
+    id: 93702
+    marketGroup: 2000
+    name: Vigil Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93703:
+    id: 93703
+    marketGroup: 2000
+    name: Probe Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93704:
+    id: 93704
+    marketGroup: 2000
+    name: Republic Fleet Firetail Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93705:
+    id: 93705
+    name: Magnate Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93706:
+    id: 93706
+    marketGroup: 1990
+    name: Augoror Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93707:
+    id: 93707
+    name: Prophecy Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93708:
+    id: 93708
+    name: Armageddon Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93709:
+    id: 93709
+    marketGroup: 2002
+    name: Crucifier Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93710:
+    id: 93710
+    name: Scorpion Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93711:
+    id: 93711
+    name: Drake Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93712:
+    id: 93712
+    marketGroup: 1957
+    name: Ferox Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93713:
+    id: 93713
+    marketGroup: 2003
+    name: Griffin Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93714:
+    id: 93714
+    name: Heron Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93715:
+    id: 93715
+    name: Dominix Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93716:
+    id: 93716
+    name: Myrmidon Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93717:
+    id: 93717
+    marketGroup: 1992
+    name: Exequror Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93718:
+    id: 93718
+    marketGroup: 2004
+    name: Maulus Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93719:
+    id: 93719
+    name: Imicus Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93720:
+    id: 93720
+    name: Typhoon Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93721:
+    id: 93721
+    name: Cyclone Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93722:
+    id: 93722
+    marketGroup: 1993
+    name: Scythe Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93723:
+    id: 93723
+    marketGroup: 2005
+    name: Vigil Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  93724:
+    id: 93724
+    name: Probe Penumbral Shadows SKIN
     portionSize: 1
     published: true
     volume: 0.01
@@ -39950,6 +40482,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  94154:
+    id: 94154
+    marketGroup: 2310
+    name: Confessor Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
   94155:
     id: 94155
     marketGroup: 2070
@@ -39978,6 +40517,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  94159:
+    id: 94159
+    marketGroup: 2391
+    name: Jackdaw State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
   94160:
     id: 94160
     marketGroup: 2144
@@ -39988,6 +40534,97 @@ types:
   94187:
     id: 94187
     name: Capsule Forever Creative SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95266:
+    id: 95266
+    marketGroup: 3497
+    name: Talwar Fleet Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95267:
+    id: 95267
+    marketGroup: 3497
+    name: Dragoon Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95268:
+    id: 95268
+    marketGroup: 3497
+    name: Corax Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95269:
+    id: 95269
+    marketGroup: 3497
+    name: Algos Navy Issue Penumbral Shadows SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95292:
+    id: 95292
+    marketGroup: 2356
+    name: Hecate Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95293:
+    id: 95293
+    marketGroup: 1958
+    name: Talos Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95294:
+    id: 95294
+    marketGroup: 3497
+    name: Algos Navy Issue Presidential Agent SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95295:
+    id: 95295
+    marketGroup: 3497
+    name: Dragoon Navy Issue Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95296:
+    id: 95296
+    marketGroup: 1956
+    name: Oracle Mandate of Faith SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95297:
+    id: 95297
+    marketGroup: 3497
+    name: Corax Navy Issue State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95298:
+    id: 95298
+    marketGroup: 1957
+    name: Naga State Regulator SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95299:
+    id: 95299
+    marketGroup: 3497
+    name: Talwar Fleet Issue Stark Strategist SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  95300:
+    id: 95300
+    marketGroup: 1959
+    name: Tornado Stark Strategist SKIN
     portionSize: 1
     published: true
     volume: 0.01

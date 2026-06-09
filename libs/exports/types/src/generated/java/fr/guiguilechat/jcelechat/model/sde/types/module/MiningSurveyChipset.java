@@ -124,7 +124,7 @@ public class MiningSurveyChipset
     @Stackable(true)
     @DefaultIntValue(0)
     public int surveyscanrange;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningCritChanceBonus.INSTANCE, MiningCritBonusYieldBonus.INSTANCE, SurveyScanRange.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MiningScannerUpgrade.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MiningCritChanceBonus.INSTANCE, MiningCritBonusYieldBonus.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, SurveyScanRange.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MiningScannerUpgrade.INSTANCE, Power.INSTANCE })));
     public static final MiningSurveyChipset.MetaGroup METAGROUP = new MiningSurveyChipset.MetaGroup();
 
     @Override
