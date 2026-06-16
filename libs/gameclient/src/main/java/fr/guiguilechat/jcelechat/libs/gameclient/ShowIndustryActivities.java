@@ -5,9 +5,6 @@ import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
@@ -15,7 +12,7 @@ import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata.Ei
 
 public class ShowIndustryActivities {
 
-	public static void main(String[] args) throws JsonMappingException, JsonProcessingException, SQLException {
+	public static void main(String[] args) throws SQLException {
 		File cacheDir = new File(".evecache");
 		ClientCache cc = new ClientCache(cacheDir, ClientInfo.fetch());
 

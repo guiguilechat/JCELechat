@@ -14,9 +14,6 @@ import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.SDECacheListener.Ref;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.SdeMeta;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
@@ -29,6 +26,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.dataformat.yaml.YAMLFactory;
 
 @Slf4j
 public class YamlCache {

@@ -1,11 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.exports.common;
 
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.LoaderOptions;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
@@ -18,6 +15,7 @@ import tools.jackson.databind.type.MapType;
 import tools.jackson.databind.type.TypeFactory;
 import tools.jackson.dataformat.yaml.YAMLFactory;
 import tools.jackson.dataformat.yaml.YAMLMapper;
+import tools.jackson.dataformat.yaml.YAMLWriteFeature;
 
 @AllArgsConstructor
 public class MapIntSerializer<T> {
@@ -27,21 +25,19 @@ public class MapIntSerializer<T> {
 	private final Class<T> internalClass;
 
 	public LinkedHashMap<Integer, T> load(InputStream is) {
-		LoaderOptions loaderOptions = new LoaderOptions();
-		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
+//		LoaderOptions loaderOptions = new LoaderOptions();
+//		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
 		YAMLFactory yamlFactory = YAMLFactory.builder()
-				.loaderOptions(loaderOptions)
+//				.loaderOptions(loaderOptions)
 				.build();
 		var mapper = new ObjectMapper(yamlFactory);
-		try {
-			MapType mapType = TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, Integer.class,
-					internalClass);
-			var reader = mapper.readerFor(mapType);
-			// can't call readValue with second param as it will close the stream.
-			return reader.readValue(reader.createParser(is), mapType);
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
+		MapType mapType =
+				TypeFactory.createDefaultInstance().constructMapType(LinkedHashMap.class, Integer.class,
+						internalClass);
+		var reader = mapper.readerFor(mapType);
+		// we need to avoid closing the stream. So here we create a new parser instead
+		// of reading the stream directlly.
+		return reader.readValue(reader.createParser(is));
 	}
 
 	@Getter(lazy = true)
@@ -53,16 +49,13 @@ public class MapIntSerializer<T> {
 		File output = new File(folderout, resourcePath);
 		output.mkdirs();
 		output.delete();
-		try {
-			var mapper = YAMLMapper.builder()
-					.disable(Feature.WRITE_DOC_START_MARKER)
-					.enable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY)
-					.build();
-			mapper.setDefaultPropertyInclusion(Include.NON_DEFAULT);
-			mapper.writeValue(output, data);
-		} catch (IOException e) {
-			throw new RuntimeException("while exporting to " + output.getAbsolutePath(), e);
-		}
+		var mapper =
+				YAMLMapper.builder()
+						.disable(YAMLWriteFeature.WRITE_DOC_START_MARKER)
+						.enable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY)
+						.changeDefaultPropertyInclusion(incl -> incl.withContentInclusion(Include.NON_DEFAULT))
+						.build();
+		mapper.writeValue(output, data);
 		return output;
 	}
 

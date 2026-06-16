@@ -13,9 +13,6 @@ import java.util.Map.Entry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.exports.industry.Activity;
 import fr.guiguilechat.jcelechat.libs.exports.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
@@ -137,7 +134,7 @@ public class IndustryTranslator {
 	}
 
 	static void translateActivities(ClientCache cc, LinkedHashMap<Integer, Activity> activities)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		List<KeyValTime<EindustryActivities>> loaded = EindustryActivities.getLoader().load(cc);
 		loaded.stream()
 				.map(KeyValTime::getVal)
@@ -150,7 +147,7 @@ public class IndustryTranslator {
 	}
 
 	static void translateFilters(ClientCache cc, LinkedHashMap<Integer, TargetFilter> filters)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		List<KeyValTime<EindustryActivityTargetFilters>> loaded = EindustryActivityTargetFilters.getLoader().load(cc);
 		loaded.stream()
 				.sorted(Comparator.comparing(KeyValTime::getKey))
@@ -163,7 +160,7 @@ public class IndustryTranslator {
 	}
 
 	static void translateInstallationTypes(ClientCache cc, LinkedHashMap<Integer, InstallationType> newMap)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		List<KeyValTime<EindustryInstallationTypes>> loaded = EindustryInstallationTypes.getLoader().load(cc);
 		loaded.stream()
 				.sorted(Comparator.comparing(kvt -> kvt.getVal().typeId))

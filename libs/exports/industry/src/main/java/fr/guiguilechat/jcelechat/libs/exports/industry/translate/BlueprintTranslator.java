@@ -13,9 +13,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.libs.exports.industry.Blueprint.MaterialProd;
@@ -47,13 +44,13 @@ public class BlueprintTranslator {
 	}
 
 	List<KeyValTime<Eblueprints>> listBlueprints()
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		return Eblueprints.getLoader().load(clientCache);
 	}
 
 	public void translateBlueprints(ClientCache cc, LinkedHashMap<Integer, Blueprint> blueprints,
 			LinkedHashMap<Integer, IndustryUsage> usages)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		// set of type ids that are seeded by NPCs
 		Set<Integer> seededItems = EnpcCorporations.LOADER.yaml().load().values().stream()
 				.flatMap(crp -> crp.corporationTrades.keySet().stream())

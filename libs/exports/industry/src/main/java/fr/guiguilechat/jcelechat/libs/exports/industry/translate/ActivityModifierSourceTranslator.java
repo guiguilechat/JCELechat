@@ -5,9 +5,6 @@ import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.exports.industry.ActivityModifierSource;
 import fr.guiguilechat.jcelechat.libs.exports.industry.ActivityModifierSource.ModifiedActivity;
 import fr.guiguilechat.jcelechat.libs.exports.industry.ActivityModifierSource.ModifiedActivity.AttributeFilter;
@@ -21,7 +18,7 @@ public class ActivityModifierSourceTranslator {
 
 	public void translate(ClientCache cc,
 			LinkedHashMap<Integer, ActivityModifierSource> activityModifierSources)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		List<KeyValTime<EindustryActivityModifierSources>> loaded = EindustryActivityModifierSources.getLoader()
 				.load(cc);
 		loaded.stream()

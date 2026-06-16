@@ -3,15 +3,12 @@ package fr.guiguilechat.jcelechat.libs.gameclient;
 import java.io.File;
 import java.sql.SQLException;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 
 public class TestDB {
 
-	public static void main(String[] args) throws SQLException, JsonMappingException, JsonProcessingException {
+	public static void main(String[] args) throws SQLException {
 		File cacheDir = new File(".evecache");
 		ClientCache cache = new ClientCache(cacheDir, ClientInfo.fetch());
 		System.err.println(cache.getClientInfo().lastModified());

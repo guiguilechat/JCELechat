@@ -3,21 +3,16 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.yaml;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.yaml.snakeyaml.LoaderOptions;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.type.MapType;
-import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-
 import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.type.TypeFactory;
+import tools.jackson.dataformat.yaml.YAMLFactory;
 
 @RequiredArgsConstructor
 public class YamlMapStringLoader<U> extends YAMLCacheListener implements YamlLoader<Map<String, U>> {
@@ -52,22 +47,18 @@ public class YamlMapStringLoader<U> extends YAMLCacheListener implements YamlLoa
 	}
 
 	public LinkedHashMap<String, U> from(InputStream is) {
-		LoaderOptions loaderOptions = new LoaderOptions();
-		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
+//		LoaderOptions loaderOptions = new LoaderOptions();
+//		loaderOptions.setCodePointLimit(Integer.MAX_VALUE);
 		YAMLFactory yamlFactory = YAMLFactory.builder()
-			    .loaderOptions(loaderOptions)
+//			    .loaderOptions(loaderOptions)
 			    .build();
 		var mapper = new ObjectMapper(yamlFactory);
-		try {
-			MapType mapType =
-					TypeFactory.defaultInstance().constructMapType(LinkedHashMap.class, String.class,
-					clazz);
-			var reader = mapper.readerFor(mapType);
-			// can't call readValue with second param as it will close the stream.
-			return reader.readValue(reader.createParser(is), mapType);
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
+		var mapType =
+				TypeFactory.createDefaultInstance().constructMapType(LinkedHashMap.class, String.class,
+						clazz);
+		var reader = mapper.readerFor(mapType);
+		// can't call readValue with second param as it will close the stream.
+		return reader.readValue(reader.createParser(is));
 	}
 
 	public U get(String id) {
