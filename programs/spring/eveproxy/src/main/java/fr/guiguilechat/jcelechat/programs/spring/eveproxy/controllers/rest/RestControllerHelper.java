@@ -28,7 +28,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 import fr.guiguilechat.jcelechat.libs.spring.anon.universe.aggregate.DateAggregation;
-import fr.guiguilechat.jcelechat.programs.spring.eveproxy.services.YamlMessageConverter;
 import fr.guiguilechat.tools.FormatTools;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.Getter;
@@ -42,8 +41,8 @@ public class RestControllerHelper {
 		js(MediaType.APPLICATION_JSON),
 		json(MediaType.APPLICATION_JSON),
 		xml(MediaType.APPLICATION_XML),
-		yaml(YamlMessageConverter.APPLICATION_YAML),
-		yml(YamlMessageConverter.APPLICATION_YAML);
+		yaml(MediaType.APPLICATION_YAML),
+		yml(MediaType.APPLICATION_YAML);
 
 		private final MediaType mediaType;
 	}
