@@ -5,6 +5,19 @@ import java.util.concurrent.locks.ReadWriteLock;
 
 import lombok.RequiredArgsConstructor;
 
+/// make a try-with-resource resource out of a ReadWriteLock. This ensures the
+/// readlock/writelock is unlocked after a call
+///
+///
+/// usage is
+/// ```java
+/// var myRWLockResource = new RWLockResource<>(myReadWriteLock);
+/// try (var _ = myRWLockResource.readLock()) {
+/// 	// code using the lock here
+/// }
+/// ```
+/// You can call the constructor as much as you want for the same object, it's
+/// only delegation into a resource way.
 public class RWLockResource<T extends ReadWriteLock> {
 
 	@RequiredArgsConstructor

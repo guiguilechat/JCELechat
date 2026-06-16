@@ -16,17 +16,14 @@ import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YAMLCacheListener;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 import lombok.RequiredArgsConstructor;
 
-/**
- * map existing sde data into model instances. The internal caches are
- * invalidated on sde update
- * <p>
- * The various synchronized methods NEED to be (and so, are) synchronized on
- * write since the {@link ReentrantReadWriteLock} can't upgrade a read to a
- * write without allowing deadlocks. Therefore, if a method CAN create a write
- * (typically a call to the cache that can miss), the the full method must be
- * write locked
- * </p>
- */
+/// map existing sde data into instances. The internal caches are invalidated on
+/// sde update
+///
+/// The various synchronized methods NEED to be (and so, are) synchronized on
+/// write since the {@link ReentrantReadWriteLock} can't upgrade a read to a
+/// write without allowing deadlocks. Therefore, if a method CAN create a write
+/// (typically a call to the cache that can miss), the the full method must be
+/// write locked
 @RequiredArgsConstructor
 public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 
@@ -36,12 +33,15 @@ public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 
 	private final Map<Integer, U> cache = new HashMap<>();
 
-	protected final RWLockResource<ReentrantReadWriteLock> lck = new RWLockResource<>(
-			new ReentrantReadWriteLock());
+	protected final RWLockResource<ReentrantReadWriteLock> lck =
+			new RWLockResource<>(
+					new ReentrantReadWriteLock());
 
+	/// @return a single cache clearer. overriding implementations should
+	///         concatenate it with their own.
 	protected Stream<Runnable> cacheClearers() {
 		return Stream.of(() -> {
-			synchronized (cache) {
+			try (var _ = lck.writeLock()) {
 				cache.clear();
 			}
 		});
@@ -61,15 +61,16 @@ public class Mapper<T, U> extends YAMLCacheListener implements EntityMap<U> {
 
 	@Override
 	public U of(int id) {
-		var ret = cache.get(id);
-		if (ret != null) {
-			return ret;
+		U ret = null;
+		try (var _ = lck.readLock()) {
+			ret = cache.get(id);
 		}
-		try (var _ = lck.writeLock()) {
-			synchronized (cache) {
-				return cache.computeIfAbsent(id, this::convertId);
+		if (ret == null) {
+			try (var _ = lck.writeLock()) {
+				ret = cache.computeIfAbsent(id, this::convertId);
 			}
 		}
+		return ret;
 	}
 
 	@Override
