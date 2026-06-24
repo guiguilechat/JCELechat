@@ -45,6 +45,7 @@ public class Etypes {
 	/** {@link Eraces} */
 	public int raceID;
 	public BigDecimal radius;
+	public int shipTreeGroupID;
 	public int soundID;
 	public Integer variationParentTypeID;
 	public BigDecimal volume;
