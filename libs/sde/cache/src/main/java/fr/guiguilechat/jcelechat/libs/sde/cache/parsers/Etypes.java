@@ -47,6 +47,7 @@ public class Etypes {
 	public BigDecimal radius;
 	public int shipTreeGroupID;
 	public int soundID;
+	public int techLevel;
 	public Integer variationParentTypeID;
 	public BigDecimal volume;
 
