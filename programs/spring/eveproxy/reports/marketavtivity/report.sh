@@ -10,7 +10,7 @@ mkdir "$rootdir/$date" || exit 1
 echo "writing report in $rootdir/$date"
 date -u -I seconds >> "$rootdir/$date/traces.log"
 
-for report_name in diffactivity typesactivity botorders ; 
+for report_name in diffactivity typesactivity botorders hshubs; 
 do
 	echo "querying $report_name"
 	date_start=$SECONDS
