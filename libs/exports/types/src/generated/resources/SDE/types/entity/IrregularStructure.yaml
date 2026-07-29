@@ -5,6 +5,8 @@ types:
     armorhp: 1800000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    bombdamageresistance: 1.0
+    chainlightningdamageresistance: 1.0
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -21,6 +23,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
+    smartbombdamageresistance: 1.0
     thermaldamageresonance: 1.0
   91774:
     armoremdamageresonance: 1.0
@@ -28,7 +31,8 @@ types:
     armorhp: 14000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    disallowassistance: 1
+    bombdamageresistance: 0.05
+    chainlightningdamageresistance: 0.05
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -46,6 +50,7 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 1200.0
+    smartbombdamageresistance: 0.05
     thermaldamageresonance: 1.0
   92633:
     armoremdamageresonance: 1.0
@@ -53,6 +58,8 @@ types:
     armorhp: 3500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    bombdamageresistance: 0.05
+    chainlightningdamageresistance: 0.05
     disallowassistance: 1
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
@@ -71,4 +78,5 @@ types:
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
     signatureradius: 480.0
+    smartbombdamageresistance: 0.05
     thermaldamageresonance: 1.0

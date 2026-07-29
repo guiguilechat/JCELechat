@@ -32,7 +32,7 @@ public class InertialStabilizer
     /**
      * Multiplier to the agility of an object.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double agilitymultiplier;

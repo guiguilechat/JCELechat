@@ -18106,7 +18106,7 @@ bpId	activity	time
 60514	research_time	4200
 60767	manufacturing	12000
 60768	manufacturing	6000
-60769	manufacturing	600
+60769	manufacturing	21600
 61217	copying	240
 61217	invention	3300
 61217	manufacturing	300
@@ -19135,3 +19135,4 @@ bpId	activity	time
 94073	manufacturing	4800000
 94074	manufacturing	4800000
 94075	manufacturing	4800000
+95530	manufacturing	3600

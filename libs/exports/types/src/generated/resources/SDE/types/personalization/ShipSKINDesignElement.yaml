@@ -3088,7 +3088,7 @@ types:
     volume: 0.1
   87784:
     id: 87784
-    marketGroup: 3654
+    marketGroup: 3655
     name: Conflux Mist Gloss - Limited
     portionSize: 1
     published: true
@@ -6317,6 +6317,167 @@ types:
     id: 94150
     marketGroup: 3633
     name: Shield of the Empires - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95396:
+    id: 95396
+    marketGroup: 3632
+    name: Defiant Latten Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95397:
+    id: 95397
+    marketGroup: 3632
+    name: Defiant Latten Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95398:
+    id: 95398
+    marketGroup: 3632
+    name: Radiant Aureate Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95399:
+    id: 95399
+    marketGroup: 3632
+    name: Radiant Aureate Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95400:
+    id: 95400
+    marketGroup: 3653
+    name: Defiant Latten Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95401:
+    id: 95401
+    marketGroup: 3653
+    name: Defiant Latten Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95402:
+    id: 95402
+    marketGroup: 3655
+    name: Avalon Aqua Gloss - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95403:
+    id: 95403
+    marketGroup: 3655
+    name: Avalon Aqua Gloss - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95404:
+    id: 95404
+    marketGroup: 3632
+    name: Harmonic Alloy Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95405:
+    id: 95405
+    marketGroup: 3632
+    name: Harmonic Alloy Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95406:
+    id: 95406
+    marketGroup: 3653
+    name: Avalon Aqua Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95407:
+    id: 95407
+    marketGroup: 3653
+    name: Avalon Aqua Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95408:
+    id: 95408
+    marketGroup: 3654
+    name: Arkombine Dawn Satin - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95409:
+    id: 95409
+    marketGroup: 3654
+    name: Arkombine Dawn Satin - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95410:
+    id: 95410
+    marketGroup: 3655
+    name: Resonant Turf Gloss - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95411:
+    id: 95411
+    marketGroup: 3655
+    name: Resonant Turf Gloss - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95412:
+    id: 95412
+    marketGroup: 3633
+    name: Harmonius Bridge - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95413:
+    id: 95413
+    marketGroup: 3633
+    name: Harmonius Bridge - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95415:
+    id: 95415
+    marketGroup: 3633
+    name: Rebel Cross - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95416:
+    id: 95416
+    marketGroup: 3633
+    name: Rebel Cross - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95417:
+    id: 95417
+    marketGroup: 3633
+    name: Remnant Honor - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95418:
+    id: 95418
+    marketGroup: 3633
+    name: Remnant Honor - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95813:
+    id: 95813
+    marketGroup: 3633
+    name: Fabricated 100 - Limited
     portionSize: 1
     published: true
     volume: 0.1

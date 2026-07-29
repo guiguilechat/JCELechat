@@ -30,7 +30,7 @@ types:
     thermaldamageresonance: 1.0
     volume: 100000000.0
   79909:
-    agility: 1.5
+    agility: 0.015
     armoremdamageresonance: 0.1
     armorexplosivedamageresonance: 0.1
     armorhp: 5000000.0
@@ -43,7 +43,7 @@ types:
     hp: 5000000.0
     id: 79909
     kineticdamageresonance: 0.1
-    mass: 40000000.0
+    mass: 4000000000.0
     maxvelocity: 800.0
     name: Automated HISC-99 Tanker
     panicduration: 420000

@@ -24,19 +24,37 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelayChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDurationChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMaxVelocitySignatureRadiusMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeCloudSizeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
@@ -125,6 +143,41 @@ public class VanguardEntities
     @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
+     * The maximum amount of time stalled before entity chase speed kicks in.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(5000.0)
+    public double entitychasemaxdelay;
+    /**
+     * Chance that the max delay is waited before chase is engaged.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double entitychasemaxdelaychance;
+    /**
+     * The distance outside of which the entity activates their MWD equivalent.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2500)
+    public int entitychasemaxdistance;
+    /**
+     * The maximum amount of time chase is ever engaged for.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int entitychasemaxduration;
+    /**
+     * The chance of engaging chase for the maximum duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double entitychasemaxdurationchance;
+    /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
@@ -146,6 +199,20 @@ public class VanguardEntities
     @DefaultIntValue(0)
     public int entitykillbounty;
     /**
+     * Used to increase signature radius of entity when it activates Max Velocity. Used to fake MWD sig radius increase.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(6)
+    public int entitymaxvelocitysignatureradiusmultiplier;
+    /**
+     * The type of missiles the entity launches.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitymissiletypeid;
+    /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
@@ -159,6 +226,13 @@ public class VanguardEntities
     @Stackable(true)
     @DefaultIntValue(0)
     public int gfxboosterid;
+    /**
+     * Graphic ID of the turrets for drone type ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int gfxturretid;
     /**
      * The maximum hitpoints of an object.
      */
@@ -174,12 +248,75 @@ public class VanguardEntities
     @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
+     * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int maxlockedtargets;
+    /**
+     * Maximum range at which the scanner can lock a target.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double maxtargetrange;
+    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxvelocity;
+    /**
+     * The characters missile use efficiency, scales the damage missiles do.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double missiledamagemultiplier;
+    /**
+     * Affects the signature radius of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoecloudsizemultiplier;
+    /**
+     * Affects the velocity of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoevelocitymultiplier;
+    /**
+     * Multiplier for the missile's flight time.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityflighttimemultiplier;
+    /**
+     * Multiplier for the missile's speed.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityvelocitymultiplier;
+    /**
+     * Cycle time for a missile launch, in milliseconds.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(20000.0)
+    public double missilelaunchduration;
+    /**
+     * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
@@ -215,6 +352,13 @@ public class VanguardEntities
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanradarstrength;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanresolution;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -285,7 +429,7 @@ public class VanguardEntities
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, EntityChaseMaxDistance.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final VanguardEntities.MetaGroup METAGROUP = new VanguardEntities.MetaGroup();
 
     @Override
@@ -331,6 +475,26 @@ public class VanguardEntities
             {
                 return emdamageresonance;
             }
+            case  580 :
+            {
+                return entitychasemaxdelay;
+            }
+            case  581 :
+            {
+                return entitychasemaxdelaychance;
+            }
+            case  665 :
+            {
+                return entitychasemaxdistance;
+            }
+            case  582 :
+            {
+                return entitychasemaxduration;
+            }
+            case  583 :
+            {
+                return entitychasemaxdurationchance;
+            }
             case  508 :
             {
                 return entitycruisespeed;
@@ -343,6 +507,14 @@ public class VanguardEntities
             {
                 return entitykillbounty;
             }
+            case  1133 :
+            {
+                return entitymaxvelocitysignatureradiusmultiplier;
+            }
+            case  507 :
+            {
+                return entitymissiletypeid;
+            }
             case  111 :
             {
                 return explosivedamageresonance;
@@ -350,6 +522,10 @@ public class VanguardEntities
             case  246 :
             {
                 return gfxboosterid;
+            }
+            case  245 :
+            {
+                return gfxturretid;
             }
             case  9 :
             {
@@ -359,9 +535,45 @@ public class VanguardEntities
             {
                 return kineticdamageresonance;
             }
+            case  192 :
+            {
+                return maxlockedtargets;
+            }
+            case  76 :
+            {
+                return maxtargetrange;
+            }
             case  37 :
             {
                 return maxvelocity;
+            }
+            case  212 :
+            {
+                return missiledamagemultiplier;
+            }
+            case  858 :
+            {
+                return missileentityaoecloudsizemultiplier;
+            }
+            case  859 :
+            {
+                return missileentityaoevelocitymultiplier;
+            }
+            case  646 :
+            {
+                return missileentityflighttimemultiplier;
+            }
+            case  645 :
+            {
+                return missileentityvelocitymultiplier;
+            }
+            case  506 :
+            {
+                return missilelaunchduration;
+            }
+            case  2786 :
+            {
+                return npcbehaviormaximumcombatorbitrange;
             }
             case  55 :
             {
@@ -382,6 +594,10 @@ public class VanguardEntities
             case  208 :
             {
                 return scanradarstrength;
+            }
+            case  564 :
+            {
+                return scanresolution;
             }
             case  263 :
             {

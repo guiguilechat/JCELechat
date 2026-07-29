@@ -29,7 +29,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretCount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
@@ -51,6 +50,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageReson
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
@@ -169,13 +169,6 @@ public class IrregularTitan
     @Stackable(true)
     @DefaultIntValue(0)
     public int gfxboosterid;
-    /**
-     * Number of Turrets to fit for entity type ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int gfxturretcount;
     /**
      * Graphic ID of the turrets for drone type ships.
      */
@@ -324,6 +317,13 @@ public class IrregularTitan
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shielduniformity;
+    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
@@ -365,7 +365,7 @@ public class IrregularTitan
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, Falloff.INSTANCE, GfxTurretCount.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
     public static final IrregularTitan.MetaGroup METAGROUP = new IrregularTitan.MetaGroup();
 
     @Override
@@ -430,10 +430,6 @@ public class IrregularTitan
             case  246 :
             {
                 return gfxboosterid;
-            }
-            case  2654 :
-            {
-                return gfxturretcount;
             }
             case  245 :
             {
@@ -518,6 +514,10 @@ public class IrregularTitan
             case  274 :
             {
                 return shieldthermaldamageresonance;
+            }
+            case  484 :
+            {
+                return shielduniformity;
             }
             case  552 :
             {

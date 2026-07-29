@@ -912,14 +912,14 @@ types:
     warpbubbleimmune: 1
     warpscramblestatus: -1000
     warpspeedmultiplier: 35.0
-  93938:
-    agility: 0.5
-    armoremdamageresonance: 0.9
-    armorexplosivedamageresonance: 0.72
-    armorhp: 1000.0
-    armorkineticdamageresonance: 0.45
-    armorthermaldamageresonance: 0.54
-    capacitorcapacity: 550.0
+  93937:
+    agility: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 4000.0
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entityattackrange: 15000
@@ -935,11 +935,61 @@ types:
     explosivedamageresonance: 1.0
     falloff: 1.0
     gfxboosterid: 395
-    hp: 1500.0
+    hp: 50.0
+    id: 93937
+    kineticdamageresonance: 1.0
+    mass: 1500000.0
+    maxvelocity: 400.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Megacorp Transport
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 200.0
+    rechargerate: 700000.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 300.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpspeedmultiplier: 20.0
+  93938:
+    agility: 0.75
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    capacitorcapacity: 2000.0
+    damagemultiplier: 1.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    hp: 50.0
     id: 93938
     kineticdamageresonance: 1.0
-    mass: 10650000.0
-    maxvelocity: 100.0
+    mass: 10000000.0
+    maxvelocity: 50.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -950,16 +1000,16 @@ types:
     optimalsigradius: 1000
     portionSize: 1
     published: false
-    radius: 196.0
-    rechargerate: 181875.0
-    shieldcapacity: 11000.0
-    shieldemdamageresonance: 0.9
-    shieldexplosivedamageresonance: 0.72
-    shieldkineticdamageresonance: 0.45
-    shieldrechargerate: 468750.0
-    shieldthermaldamageresonance: 0.54
+    radius: 200.0
+    rechargerate: 180000.0
+    shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 3000000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 270.0
+    signatureradius: 500.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
-    warpspeedmultiplier: 10.0
+    warpspeedmultiplier: 30.0

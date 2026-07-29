@@ -33997,7 +33997,8 @@ bpId	activity	typeId	quantity
 60514	manufacturing	2876	1
 60767	manufacturing	34	1
 60768	manufacturing	34	1
-60769	manufacturing	34	1
+60769	manufacturing	2446	1
+60769	manufacturing	21638	1
 61217	invention	20411	4
 61217	invention	20413	4
 61217	manufacturing	38	556
@@ -35535,7 +35536,7 @@ bpId	activity	typeId	quantity
 86035	manufacturing	47802	1
 86035	manufacturing	85398	240
 86035	manufacturing	85402	240
-86036	manufacturing	47783	1
+86036	manufacturing	47835	1
 86036	manufacturing	85398	240
 86036	manufacturing	85402	240
 86037	manufacturing	47788	1
@@ -36496,3 +36497,4 @@ bpId	activity	typeId	quantity
 94075	manufacturing	29075	800
 94075	manufacturing	29079	1200
 94075	manufacturing	29089	800
+95530	manufacturing	27198	1

@@ -19,7 +19,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResona
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChainLightningDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -36,6 +38,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SmartbombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -79,6 +82,10 @@ public class IrregularStructure
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double bombdamageresistance;
     /**
      * Capacitor capacity
      */
@@ -86,6 +93,10 @@ public class IrregularStructure
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double chainlightningdamageresistance;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -198,6 +209,10 @@ public class IrregularStructure
     @Stackable(false)
     @DefaultRealValue(100.0)
     public double signatureradius;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double smartbombdamageresistance;
     /**
      * damage multiplier vs. thermal.
      */
@@ -205,7 +220,7 @@ public class IrregularStructure
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, KineticDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, RechargeRate.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, RechargeRate.INSTANCE })));
     public static final IrregularStructure.MetaGroup METAGROUP = new IrregularStructure.MetaGroup();
 
     @Override
@@ -231,9 +246,17 @@ public class IrregularStructure
             {
                 return armorthermaldamageresonance;
             }
+            case  6185 :
+            {
+                return bombdamageresistance;
+            }
             case  482 :
             {
                 return capacitorcapacity;
+            }
+            case  6186 :
+            {
+                return chainlightningdamageresistance;
             }
             case  854 :
             {
@@ -298,6 +321,10 @@ public class IrregularStructure
             case  552 :
             {
                 return signatureradius;
+            }
+            case  6184 :
+            {
+                return smartbombdamageresistance;
             }
             case  110 :
             {

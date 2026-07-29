@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BreacherPodActivatedDamageReceivedPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
@@ -84,6 +85,10 @@ public class DamageControl
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int breacherpodactivateddamagereceivedpercentage;
     /**
      * 
      */
@@ -288,7 +293,7 @@ public class DamageControl
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, HullEmDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, CanFitShipGroup05 .INSTANCE, ShieldKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, CanFitShipGroup11 .INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, ResistanceMultiplier.INSTANCE, MaxGroupActive.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, HullEmDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, CanFitShipGroup05 .INSTANCE, ShieldKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipGroup06 .INSTANCE, CanFitShipGroup07 .INSTANCE, MetaGroupID.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, TechLevel.INSTANCE, CanFitShipGroup11 .INSTANCE, BreacherPodActivatedDamageReceivedPercentage.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, ResistanceMultiplier.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final DamageControl.MetaGroup METAGROUP = new DamageControl.MetaGroup();
 
     @Override
@@ -309,6 +314,10 @@ public class DamageControl
             case  270 :
             {
                 return armorthermaldamageresonance;
+            }
+            case  6257 :
+            {
+                return breacherpodactivateddamagereceivedpercentage;
             }
             case  1298 :
             {

@@ -25,6 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
@@ -32,14 +33,17 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
@@ -58,6 +62,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonan
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
@@ -145,6 +150,13 @@ public class IrregularCarrier
     @DefaultRealValue(0.0)
     public double emdamage;
     /**
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double emdamageresonance;
+    /**
      *  0: white (default)
      *  1: red (hostile NPC)
      *  2: blue (Neutral NPC)
@@ -197,6 +209,13 @@ public class IrregularCarrier
     @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double explosivedamageresonance;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
@@ -239,6 +258,13 @@ public class IrregularCarrier
     @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double kineticdamageresonance;
+    /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
@@ -252,6 +278,13 @@ public class IrregularCarrier
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxrange;
+    /**
+     * Maximum range at which the scanner can lock a target.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double maxtargetrange;
     /**
      * Maximum velocity of ship
      */
@@ -379,6 +412,13 @@ public class IrregularCarrier
     @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double thermaldamageresonance;
+    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
@@ -392,7 +432,7 @@ public class IrregularCarrier
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, OptimalSigRadius.INSTANCE, EmDamage.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, IsCapitalSize.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, Agility.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, IsCapitalSize.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final IrregularCarrier.MetaGroup METAGROUP = new IrregularCarrier.MetaGroup();
 
     @Override
@@ -442,6 +482,10 @@ public class IrregularCarrier
             {
                 return emdamage;
             }
+            case  113 :
+            {
+                return emdamageresonance;
+            }
             case  798 :
             {
                 return entitybracketcolour;
@@ -470,6 +514,10 @@ public class IrregularCarrier
             {
                 return explosivedamage;
             }
+            case  111 :
+            {
+                return explosivedamageresonance;
+            }
             case  158 :
             {
                 return falloff;
@@ -494,6 +542,10 @@ public class IrregularCarrier
             {
                 return kineticdamage;
             }
+            case  109 :
+            {
+                return kineticdamageresonance;
+            }
             case  192 :
             {
                 return maxlockedtargets;
@@ -501,6 +553,10 @@ public class IrregularCarrier
             case  54 :
             {
                 return maxrange;
+            }
+            case  76 :
+            {
+                return maxtargetrange;
             }
             case  37 :
             {
@@ -573,6 +629,10 @@ public class IrregularCarrier
             case  118 :
             {
                 return thermaldamage;
+            }
+            case  110 :
+            {
+                return thermaldamageresonance;
             }
             case  160 :
             {

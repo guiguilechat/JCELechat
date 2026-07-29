@@ -13,7 +13,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 15840
     hp: 500.0
     id: 93939
     kineticdamageresonance: 1.0
@@ -57,7 +57,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 573
     hp: 500.0
     id: 93940
     kineticdamageresonance: 1.0
@@ -100,8 +100,8 @@ types:
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     falloff: 2500.0
-    gfxboosterid: 394
-    gfxturretid: 390
+    gfxboosterid: 397
+    gfxturretid: 9127
     hp: 500.0
     id: 93941
     kineticdamageresonance: 1.0
@@ -144,8 +144,8 @@ types:
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     falloff: 2500.0
-    gfxboosterid: 394
-    gfxturretid: 390
+    gfxboosterid: 397
+    gfxturretid: 492
     hp: 500.0
     id: 93942
     kineticdamageresonance: 1.0
@@ -188,8 +188,8 @@ types:
     emdamageresonance: 1.0
     explosivedamageresonance: 1.0
     falloff: 2500.0
-    gfxboosterid: 394
-    gfxturretid: 390
+    gfxboosterid: 397
+    gfxturretid: 16048
     hp: 500.0
     id: 93943
     kineticdamageresonance: 1.0
@@ -233,7 +233,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 456
     hp: 500.0
     id: 93948
     kineticdamageresonance: 1.0
@@ -277,7 +277,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 457
     hp: 500.0
     id: 93949
     kineticdamageresonance: 1.0
@@ -321,7 +321,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 462
     hp: 500.0
     id: 93950
     kineticdamageresonance: 1.0
@@ -365,7 +365,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 568
     hp: 500.0
     id: 93951
     kineticdamageresonance: 1.0
@@ -409,7 +409,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 570
     hp: 500.0
     id: 93954
     kineticdamageresonance: 1.0
@@ -453,7 +453,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 464
     hp: 500.0
     id: 93955
     kineticdamageresonance: 1.0
@@ -497,7 +497,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 2500.0
     gfxboosterid: 394
-    gfxturretid: 390
+    gfxturretid: 566
     hp: 500.0
     id: 93956
     kineticdamageresonance: 1.0

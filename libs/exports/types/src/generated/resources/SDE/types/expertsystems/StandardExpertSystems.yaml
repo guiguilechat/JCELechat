@@ -120,3 +120,25 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  95452:
+    id: 95452
+    marketGroup: 3745
+    mass: 1.0
+    name: Gallente Pilot
+    portionSize: 1
+    published: true
+    volume: 1.0
+  95633:
+    id: 95633
+    mass: 1.0
+    name: Minmatar Pilot
+    portionSize: 1
+    published: true
+    volume: 1.0
+  95744:
+    id: 95744
+    mass: 1.0
+    name: Amarr Pilot
+    portionSize: 1
+    published: true
+    volume: 1.0

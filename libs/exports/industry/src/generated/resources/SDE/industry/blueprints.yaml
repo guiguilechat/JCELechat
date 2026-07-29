@@ -62047,6 +62047,7 @@
     - id: 11444
       level: 1
     - id: 23087
+      level: 1
     time: 1980000
   manufacturing:
     materials:
@@ -171132,7 +171133,9 @@
   id: 60769
   manufacturing:
     materials:
-    - id: 34
+    - id: 2446
+      quantity: 1
+    - id: 21638
       quantity: 1
     products:
     - id: 60766
@@ -171140,9 +171143,13 @@
       quantity: 1
     skills:
     - id: 3380
+      level: 5
+    - id: 11446
       level: 1
-    time: 600
-  maxCopyRuns: 300
+    - id: 11453
+      level: 1
+    time: 21600
+  maxCopyRuns: 5
 61217:
   copying:
     time: 240
@@ -178761,7 +178768,7 @@
   id: 86036
   manufacturing:
     materials:
-    - id: 47783
+    - id: 47835
       quantity: 1
     - id: 85398
       quantity: 240
@@ -183673,4 +183680,19 @@
     - id: 77725
       level: 1
     time: 4800000
+  maxCopyRuns: 1
+95530:
+  id: 95530
+  manufacturing:
+    materials:
+    - id: 27198
+      quantity: 1
+    products:
+    - id: 95529
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 3600
   maxCopyRuns: 1

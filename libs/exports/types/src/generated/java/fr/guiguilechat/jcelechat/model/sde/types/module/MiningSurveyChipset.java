@@ -92,7 +92,7 @@ public class MiningSurveyChipset
     @Stackable(false)
     @DefaultIntValue(0)
     public int miningscannerupgrade;
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningwasteprobabilitybonus;

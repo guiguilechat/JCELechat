@@ -55,6 +55,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CargoScanResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CopySpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutputBonus2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DScanRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneMaxVelocityBonus;
@@ -426,6 +427,10 @@ public class Booster
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cpuoutputbonus2;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int dscanrangebonus;
     /**
      * Damage multiplier.
      */
@@ -589,7 +594,7 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningamountbonus;
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int miningwasteprobabilitybonus;
@@ -895,7 +900,7 @@ public class Booster
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MWDSignatureRadiusBonus.INSTANCE, IceHarvestCycleBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneTrackingBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, SignatureRadiusBonus.INSTANCE, MaxVelocityBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, DurationSkillBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, FalloffBonus.INSTANCE, StasisWebifierResistanceBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, ArmorDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, VirusCoherenceBonus.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, VirusStrengthBonus.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE, MaxScanDeviationModifier.INSTANCE, StasisWebRangeAdd.INSTANCE, AgilityBonus.INSTANCE, ArmorRepairBonus.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, TurretSpeeBonus.INSTANCE, ScramblerRangeAdd.INSTANCE, HullDamageResistanceBonus.INSTANCE, StasisWebRangeBonus.INSTANCE, CargoScanResistance.INSTANCE, CopySpeedBonus.INSTANCE, BoosterMiningCriticalHitChanceBonus.INSTANCE, DroneRangeBonus.INSTANCE, BoosterHackingVirusCoherenceModifier.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, RemoteRepDurationCapBonus.INSTANCE, BoosterMinerMaxRangeBonus.INSTANCE, BoosterMiningLaserIceGasHarvesterDurationReductionAndCapacitor.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, WarpScrambleStrengthBonus.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterMissileDamageBonusPostPercent.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MWDSignatureRadiusBonus.INSTANCE, IceHarvestCycleBonus.INSTANCE, ReloadTimeBonus.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneTrackingBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, SignatureRadiusBonus.INSTANCE, MaxVelocityBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, CapacitorCapacityBonus.INSTANCE, DurationSkillBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, VelocityBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, CapNeedBonus.INSTANCE, StabilizeCloakDurationBonus.INSTANCE, SpeedFBonus.INSTANCE, Boosterness.INSTANCE, DamageMultiplier.INSTANCE, ScanSkillTargetPaintStrengthBonus.INSTANCE, BoosterEffectChance1 .INSTANCE, DurationBonus.INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, BoosterEffectChance5 .INSTANCE, HullHpBonus.INSTANCE, BoosterDuration.INSTANCE, ScanStrengthBonus.INSTANCE, AoeVelocityBonus.INSTANCE, DroneMaxVelocityBonus.INSTANCE, ArmorHpBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, FalloffBonus.INSTANCE, StasisWebifierResistanceBonus.INSTANCE, MaxRangeBonus.INSTANCE, Nondestructible.INSTANCE, ArmorDamageResistanceBonus.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, WarpSBonus.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, MetaLevelOld.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, VirusCoherenceBonus.INSTANCE, RefiningYieldMutator.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, DScanRangeBonus.INSTANCE, VirusStrengthBonus.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE, MaxScanDeviationModifier.INSTANCE, StasisWebRangeAdd.INSTANCE, AgilityBonus.INSTANCE, ArmorRepairBonus.INSTANCE, MiningWasteProbabilityBonus.INSTANCE, CpuOutputBonus2 .INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, MiningAmountBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, RequiredSkill1 .INSTANCE, ManufacturingTimeBonus.INSTANCE, TurretSpeeBonus.INSTANCE, ScramblerRangeAdd.INSTANCE, HullDamageResistanceBonus.INSTANCE, StasisWebRangeBonus.INSTANCE, CargoScanResistance.INSTANCE, CopySpeedBonus.INSTANCE, BoosterMiningCriticalHitChanceBonus.INSTANCE, DroneRangeBonus.INSTANCE, BoosterHackingVirusCoherenceModifier.INSTANCE, ThermodynamicsHeatDamage.INSTANCE, SignatureRadiusBonusPercent.INSTANCE, RemoteRepDurationCapBonus.INSTANCE, BoosterMinerMaxRangeBonus.INSTANCE, BoosterMiningLaserIceGasHarvesterDurationReductionAndCapacitor.INSTANCE, MineralNeedResearchBonus.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, EnergyWarfareResistanceBonus.INSTANCE, WarpScrambleStrengthBonus.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterMissileDamageBonusPostPercent.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
@@ -1076,6 +1081,10 @@ public class Booster
             case  424 :
             {
                 return cpuoutputbonus2;
+            }
+            case  6269 :
+            {
+                return dscanrangebonus;
             }
             case  64 :
             {

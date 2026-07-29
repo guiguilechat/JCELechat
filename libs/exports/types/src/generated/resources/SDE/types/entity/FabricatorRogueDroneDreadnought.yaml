@@ -1,0 +1,45 @@
+types:
+  96032:
+    agility: 0.05
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.45
+    armorhp: 57000.0
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.6
+    bombdamageresistance: 0.05
+    capacitorcapacity: 19200.0
+    chainlightningdamageresistance: 0.05
+    emdamage: 5700.0
+    entitycruisespeed: 100.0
+    entityfactionloss: 0.36
+    falloff: 90000.0
+    fighterabilityantifightermissileresistance: 1
+    gfxboosterid: 394
+    gfxturretid: 20454
+    hp: 19000.0
+    id: 96032
+    mass: 1200000000.0
+    maxlockedtargets: 8
+    maxrange: 120000.0
+    maxtargetrange: 300000.0
+    maxvelocity: 300.0
+    name: Infested Naglfar
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 1200.0
+    rechargerate: 2400000.0
+    scanmagnetometricstrength: 120.0
+    scanresolution: 100.0
+    shieldcapacity: 9500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.55
+    shieldrechargerate: 2400000.0
+    shieldthermaldamageresonance: 0.6
+    shielduniformity: 0.75
+    signatureradius: 1600.0
+    smartbombdamageresistance: 0.05
+    speed: 2700.0
+    thermaldamage: 3800.0
+    trackingspeed: 10.0

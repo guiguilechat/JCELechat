@@ -37,7 +37,7 @@ types:
     id: 28606
     industrialbonusdronedamage: 100
     industrialcommandbonusdronedamage: 15
-    industrialcommandbonusdronehitpoints: 10
+    industrialcommandbonusdronehitpoints: 15
     industrialcommandbonusdroneiceharvestingcycletime: -5
     industrialcommandbonusdroneoreminingyield: 15
     industrialcommandbonusfuelconsuptioncompactindustrialcore: -5

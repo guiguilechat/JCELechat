@@ -20045,7 +20045,7 @@ offers:
       lp: 250000
   15450:
     id: 15450
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    name: Zainou 'Snapshot' XL Torpedoes XT-602
     product:
       id: 3149
       quantity: 1
@@ -20054,7 +20054,7 @@ offers:
       lp: 2500
   15451:
     id: 15451
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    name: Zainou 'Snapshot' XL Torpedoes XT-604
     product:
       id: 3150
       quantity: 1
@@ -20063,7 +20063,7 @@ offers:
       lp: 37500
   15452:
     id: 15452
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    name: Zainou 'Snapshot' XL Torpedoes XT-606
     product:
       id: 3151
       quantity: 1
@@ -44738,3 +44738,35 @@ offers:
       - id: 53977
         quantity: 50
       lp: 2500
+  19631:
+    id: 19631
+    name: Defiant Latten Matte - Limited
+    product:
+      id: 95445
+      quantity: 1
+    requirements:
+      lp: 6500
+  19632:
+    id: 19632
+    name: Shapash Alliance Emblem
+    product:
+      id: 95444
+      quantity: 1
+    requirements:
+      lp: 6500
+  19633:
+    id: 19633
+    name: Cybele Corporation Emblem
+    product:
+      id: 95484
+      quantity: 1
+    requirements:
+      lp: 11000
+  19634:
+    id: 19634
+    name: Cybele Alliance Emblem
+    product:
+      id: 95446
+      quantity: 1
+    requirements:
+      lp: 11000

@@ -112,3 +112,19 @@ types:
     signatureradiusbonus: 10.0
     techlevel: 1
     volume: 5.0
+  95556:
+    agilitymultiplier: -22.5
+    hp: 40.0
+    id: 95556
+    marketGroup: 1086
+    mass: 200.0
+    metagroupid: 5
+    metalevelold: 11.0
+    name: Lorharyth’s Modified Inertial Stabilizer
+    portionSize: 1
+    published: true
+    requiredskill1: 3394
+    requiredskill1level: 1
+    signatureradiusbonus: 9.0
+    techlevel: 1
+    volume: 5.0

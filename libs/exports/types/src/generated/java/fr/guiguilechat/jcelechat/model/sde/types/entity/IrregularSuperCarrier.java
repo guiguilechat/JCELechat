@@ -20,6 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResona
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -36,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageReson
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
@@ -88,6 +90,13 @@ public class IrregularSuperCarrier
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double armoruniformity;
     /**
      * Capacitor capacity
      */
@@ -201,6 +210,13 @@ public class IrregularSuperCarrier
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double shielduniformity;
+    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
@@ -221,7 +237,7 @@ public class IrregularSuperCarrier
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, WarpSpeedMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE })));
     public static final IrregularSuperCarrier.MetaGroup METAGROUP = new IrregularSuperCarrier.MetaGroup();
 
     @Override
@@ -250,6 +266,10 @@ public class IrregularSuperCarrier
             case  270 :
             {
                 return armorthermaldamageresonance;
+            }
+            case  524 :
+            {
+                return armoruniformity;
             }
             case  482 :
             {
@@ -314,6 +334,10 @@ public class IrregularSuperCarrier
             case  274 :
             {
                 return shieldthermaldamageresonance;
+            }
+            case  484 :
+            {
+                return shielduniformity;
             }
             case  552 :
             {

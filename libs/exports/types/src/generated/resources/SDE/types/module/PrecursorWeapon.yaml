@@ -779,7 +779,7 @@ types:
     published: true
     reloadtime: 0.01
     requiredskill1: 52998
-    requiredskill1level: 1
+    requiredskill1level: 5
     requiredskill2: 3300
     requiredskill2level: 5
     requiredskill3: 92541

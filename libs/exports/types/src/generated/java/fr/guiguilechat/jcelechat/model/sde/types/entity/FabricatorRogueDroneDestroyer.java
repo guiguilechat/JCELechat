@@ -20,21 +20,14 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResona
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMDischarge;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMFalloff;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDischarge;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerFalloff;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDischarge;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierFalloff;
-import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChainLightningDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
@@ -47,18 +40,16 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
@@ -67,15 +58,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SmartbombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 
-public class FabricatorRogueDrones
+public class FabricatorRogueDroneDestroyer
     extends Entity
 {
     /**
@@ -126,84 +117,32 @@ public class FabricatorRogueDrones
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double behaviorecmdischarge;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorecmduration;
+    public double behaviorsensordampenerdischarge;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double behaviorecmfalloff;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorecmrange;
+    public double behaviorsensordampenerduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double behaviorenergyneutralizerdischarge;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorenergyneutralizerduration;
+    public double behaviorsensordampenerfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double behaviorenergyneutralizerfalloff;
-    /**
-     * 
-     */
-    @HighIsGood(true)
+    public double behaviorsensordampenerrange;
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double behaviorenergyneutralizerrange;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double behaviorwebifierdischarge;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double behaviorwebifierduration;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierfalloff;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double behaviorwebifierrange;
+    @DefaultRealValue(1.0)
+    public double bombdamageresistance;
     /**
      * Capacitor capacity
      */
@@ -211,6 +150,10 @@ public class FabricatorRogueDrones
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double capacitorcapacity;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double chainlightningdamageresistance;
     /**
      * EM damage done.
      */
@@ -218,13 +161,6 @@ public class FabricatorRogueDrones
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double emdamage;
-    /**
-     * An amount to modify the power of the target by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double energyneutralizeramount;
     /**
      * The speed that entities fly at when not chasing a target.
      */
@@ -310,6 +246,13 @@ public class FabricatorRogueDrones
     @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
+     * Bonus to Max Targeting Range
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double maxtargetrangebonus;
+    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
@@ -338,26 +281,12 @@ public class FabricatorRogueDrones
     @DefaultRealValue(0.0)
     public double scangravimetricstrength;
     /**
-     * +/- modifier to the gravimetric strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scangravimetricstrengthbonus;
-    /**
      * Ladar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanladarstrength;
-    /**
-     * +/- modifier to the ladar strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanladarstrengthbonus;
     /**
      * Magnetometric strength.
      */
@@ -366,13 +295,6 @@ public class FabricatorRogueDrones
     @DefaultRealValue(0.0)
     public double scanmagnetometricstrength;
     /**
-     * +/- modifier to the magnetometric strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanmagnetometricstrengthbonus;
-    /**
      * Radar strength.
      */
     @HighIsGood(true)
@@ -380,19 +302,19 @@ public class FabricatorRogueDrones
     @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
-     * +/- modifier to the radar strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanradarstrengthbonus;
-    /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanresolution;
+    /**
+     * Bonus for scan resolution
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanresolutionbonus;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -449,6 +371,10 @@ public class FabricatorRogueDrones
     @Stackable(false)
     @DefaultRealValue(100.0)
     public double signatureradius;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double smartbombdamageresistance;
     /**
      * Time in milliseconds between possible activations
      */
@@ -456,13 +382,6 @@ public class FabricatorRogueDrones
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double speed;
-    /**
-     * Factor by which topspeed increases.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double speedfactor;
     /**
      * Thermal damage done.
      */
@@ -477,8 +396,8 @@ public class FabricatorRogueDrones
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, Agility.INSTANCE, BehaviorWebifierDischarge.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, EnergyNeutralizerAmount.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorECMDuration.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMRange.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, OptimalSigRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, EntityCruiseSpeed.INSTANCE })));
-    public static final FabricatorRogueDrones.MetaGroup METAGROUP = new FabricatorRogueDrones.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, TrackingSpeed.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, OptimalSigRadius.INSTANCE, EmDamage.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final FabricatorRogueDroneDestroyer.MetaGroup METAGROUP = new FabricatorRogueDroneDestroyer.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -507,65 +426,37 @@ public class FabricatorRogueDrones
             {
                 return armorthermaldamageresonance;
             }
-            case  2534 :
+            case  2530 :
             {
-                return behaviorecmdischarge;
+                return behaviorsensordampenerdischarge;
             }
-            case  2531 :
+            case  2527 :
             {
-                return behaviorecmduration;
+                return behaviorsensordampenerduration;
             }
-            case  2533 :
+            case  2529 :
             {
-                return behaviorecmfalloff;
+                return behaviorsensordampenerfalloff;
             }
-            case  2532 :
+            case  2528 :
             {
-                return behaviorecmrange;
+                return behaviorsensordampenerrange;
             }
-            case  2522 :
+            case  6185 :
             {
-                return behaviorenergyneutralizerdischarge;
-            }
-            case  2519 :
-            {
-                return behaviorenergyneutralizerduration;
-            }
-            case  2521 :
-            {
-                return behaviorenergyneutralizerfalloff;
-            }
-            case  2520 :
-            {
-                return behaviorenergyneutralizerrange;
-            }
-            case  2502 :
-            {
-                return behaviorwebifierdischarge;
-            }
-            case  2499 :
-            {
-                return behaviorwebifierduration;
-            }
-            case  2501 :
-            {
-                return behaviorwebifierfalloff;
-            }
-            case  2500 :
-            {
-                return behaviorwebifierrange;
+                return bombdamageresistance;
             }
             case  482 :
             {
                 return capacitorcapacity;
             }
+            case  6186 :
+            {
+                return chainlightningdamageresistance;
+            }
             case  114 :
             {
                 return emdamage;
-            }
-            case  97 :
-            {
-                return energyneutralizeramount;
             }
             case  508 :
             {
@@ -615,6 +506,10 @@ public class FabricatorRogueDrones
             {
                 return maxtargetrange;
             }
+            case  309 :
+            {
+                return maxtargetrangebonus;
+            }
             case  37 :
             {
                 return maxvelocity;
@@ -631,37 +526,25 @@ public class FabricatorRogueDrones
             {
                 return scangravimetricstrength;
             }
-            case  238 :
-            {
-                return scangravimetricstrengthbonus;
-            }
             case  209 :
             {
                 return scanladarstrength;
-            }
-            case  239 :
-            {
-                return scanladarstrengthbonus;
             }
             case  210 :
             {
                 return scanmagnetometricstrength;
             }
-            case  240 :
-            {
-                return scanmagnetometricstrengthbonus;
-            }
             case  208 :
             {
                 return scanradarstrength;
             }
-            case  241 :
-            {
-                return scanradarstrengthbonus;
-            }
             case  564 :
             {
                 return scanresolution;
+            }
+            case  566 :
+            {
+                return scanresolutionbonus;
             }
             case  263 :
             {
@@ -695,13 +578,13 @@ public class FabricatorRogueDrones
             {
                 return signatureradius;
             }
+            case  6184 :
+            {
+                return smartbombdamageresistance;
+            }
             case  51 :
             {
                 return speed;
-            }
-            case  20 :
-            {
-                return speedfactor;
             }
             case  118 :
             {
@@ -724,35 +607,35 @@ public class FabricatorRogueDrones
     }
 
     @Override
-    public IMetaGroup<FabricatorRogueDrones> getGroup() {
+    public IMetaGroup<FabricatorRogueDroneDestroyer> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<FabricatorRogueDrones>
+        implements IMetaGroup<FabricatorRogueDroneDestroyer>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/FabricatorRogueDrones.yaml";
-        private Map<Integer, FabricatorRogueDrones> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/FabricatorRogueDroneDestroyer.yaml";
+        private Map<Integer, FabricatorRogueDroneDestroyer> cache = (null);
 
         @Override
-        public IMetaCategory<? super FabricatorRogueDrones> category() {
+        public IMetaCategory<? super FabricatorRogueDroneDestroyer> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  5032;
+            return  5122;
         }
 
         @Override
         public String getName() {
-            return "FabricatorRogueDrones";
+            return "FabricatorRogueDroneDestroyer";
         }
 
         @Override
-        public synchronized Map<Integer, FabricatorRogueDrones> load() {
+        public synchronized Map<Integer, FabricatorRogueDroneDestroyer> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(FabricatorRogueDrones.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(FabricatorRogueDroneDestroyer.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     LoaderOptions options = new LoaderOptions();
                     options.setCodePointLimit(Integer.MAX_VALUE);
                     cache = new Yaml(options).loadAs(reader, (Container.class)).types;
@@ -764,7 +647,7 @@ public class FabricatorRogueDrones
         }
 
         private static class Container {
-            public LinkedHashMap<Integer, FabricatorRogueDrones> types;
+            public LinkedHashMap<Integer, FabricatorRogueDroneDestroyer> types;
         }
     }
 }

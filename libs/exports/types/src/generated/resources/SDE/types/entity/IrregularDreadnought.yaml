@@ -503,11 +503,11 @@ types:
     volume: 18500000.0
     warpspeedmultiplier: 3.0
   93883:
-    agility: 1.0
-    armordamage: 4500
+    agility: 0.01
+    armordamage: 2200
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 5000.0
+    armorhp: 2500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     capacitorcapacity: 250.0
@@ -526,7 +526,7 @@ types:
     hp: 1500.0
     id: 93883
     kineticdamageresonance: 1.0
-    mass: 1300000.0
+    mass: 1290000000.0
     maxlockedtargets: 7
     maxrange: 75000.0
     maxtargetrange: 85000.0
@@ -554,15 +554,15 @@ types:
     thermaldamage: 600.0
     thermaldamageresonance: 1.0
     trackingspeed: 10.0
-    warpspeedmultiplier: 15.0
+    warpspeedmultiplier: 5.0
   93899:
-    agility: 1.0
+    agility: 0.01
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
     armorhp: 500.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    capacitorcapacity: 250.0
+    capacitorcapacity: 500.0
     damagemultiplier: 1.0
     emdamageresonance: 1.0
     entitysuperweaponfalloff: 250000
@@ -579,7 +579,7 @@ types:
     id: 93899
     kineticdamage: 900.0
     kineticdamageresonance: 1.0
-    mass: 1300000.0
+    mass: 1260000000.0
     maxlockedtargets: 7
     maxrange: 75000.0
     maxtargetrange: 85000.0
@@ -590,8 +590,8 @@ types:
     optimalsigradius: 40000
     portionSize: 1
     published: false
-    radius: 254.0
-    rechargerate: 375000.0
+    radius: 1700.0
+    rechargerate: 600000.0
     remoterepairimpedance: 1.0
     scanradarstrength: 41.0
     scanresolution: 80.0

@@ -39,3 +39,43 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  95458:
+    id: 95458
+    marketGroup: 3846
+    mass: 0.5
+    name: Operation Avalon Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95501:
+    id: 95501
+    marketGroup: 3846
+    mass: 0.5
+    name: Soaring Federation Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95672:
+    id: 95672
+    marketGroup: 3846
+    mass: 0.5
+    name: Liberated Matar Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95673:
+    id: 95673
+    marketGroup: 3846
+    mass: 0.5
+    name: Foundation Wisdom Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95674:
+    id: 95674
+    marketGroup: 3846
+    mass: 0.5
+    name: Union Contemplation Background
+    portionSize: 1
+    published: true
+    volume: 0.1

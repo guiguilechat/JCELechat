@@ -13178,3 +13178,81 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  95348:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 95348
+    ishacking: 1
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Research Vault
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0
+  95385:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 95385
+    ishacking: 1
+    lootrespawntime: 600000.0
+    mass: 10000.0
+    name: Surveillance Vault
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 2
+    volume: 27500.0
+  95390:
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hackable: 1
+    hp: 100000.0
+    id: 95390
+    ishacking: 1
+    lootrespawntime: 8.64E7
+    mass: 10000.0
+    name: Surveillance Vault
+    portionSize: 1
+    published: false
+    radius: 300.0
+    requiredskill1: 21718
+    requiredskill1level: 1
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    tierdifficulty: 3
+    volume: 27500.0

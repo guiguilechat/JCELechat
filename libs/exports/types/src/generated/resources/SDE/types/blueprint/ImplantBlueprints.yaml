@@ -809,3 +809,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  95530:
+    id: 95530
+    name: Poteque 'Prospector' Salvaging SV-906 Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

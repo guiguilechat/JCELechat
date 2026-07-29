@@ -4119,3 +4119,23 @@ types:
     name: Talwar Fleet Issue Alliance Emblem
     portionSize: 1
     published: true
+  95444:
+    id: 95444
+    name: Shapash Alliance Emblem
+    portionSize: 1
+    published: true
+  95445:
+    id: 95445
+    name: Defiant Latten Matte - Limited
+    portionSize: 1
+    published: true
+  95446:
+    id: 95446
+    name: Cybele Alliance Emblem
+    portionSize: 1
+    published: true
+  95484:
+    id: 95484
+    name: Cybele Corporation Emblem
+    portionSize: 1
+    published: true

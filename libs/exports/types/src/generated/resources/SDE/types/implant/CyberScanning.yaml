@@ -200,3 +200,16 @@ types:
     viruscoherencebonus: 60
     virusstrengthbonus: -10
     volume: 1.0
+  95529:
+    accessdifficultybonus: 6.0
+    id: 95529
+    implantness: 9
+    marketGroup: 1773
+    name: Poteque 'Prospector' Salvaging SV-906
+    portionSize: 1
+    price: 200000.0
+    published: true
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 1.0

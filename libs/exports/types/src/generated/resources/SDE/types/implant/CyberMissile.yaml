@@ -250,7 +250,7 @@ types:
     id: 3149
     implantness: 6
     marketGroup: 1493
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    name: Zainou 'Snapshot' XL Torpedoes XT-602
     portionSize: 1
     price: 200000.0
     published: true
@@ -264,7 +264,7 @@ types:
     id: 3150
     implantness: 6
     marketGroup: 1493
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    name: Zainou 'Snapshot' XL Torpedoes XT-604
     portionSize: 1
     price: 200000.0
     published: true
@@ -278,7 +278,7 @@ types:
     id: 3151
     implantness: 6
     marketGroup: 1493
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    name: Zainou 'Snapshot' XL Torpedoes XT-606
     portionSize: 1
     price: 200000.0
     published: true
@@ -998,7 +998,8 @@ types:
     damagemultiplierbonus: 3.0
     id: 27204
     implantness: 6
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX100
+    marketGroup: 1493
+    name: Zainou 'Snapshot' XL Torpedoes XT-603
     portionSize: 1
     price: 200000.0
     published: true
@@ -1011,7 +1012,8 @@ types:
     damagemultiplierbonus: 5.0
     id: 27205
     implantness: 6
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
+    marketGroup: 1493
+    name: Zainou 'Snapshot' XL Torpedoes XT-605
     portionSize: 1
     price: 200000.0
     published: true
@@ -1024,7 +1026,8 @@ types:
     damagemultiplierbonus: 1.0
     id: 27206
     implantness: 6
-    name: Hardwiring - Zainou 'Sharpshooter' ZMX10
+    marketGroup: 1493
+    name: Zainou 'Snapshot' XL Torpedoes XT-601
     portionSize: 1
     price: 200000.0
     published: true

@@ -17,7 +17,7 @@ types:
     entitychasemaxdistance: 5000
     entitychasemaxduration: 2500
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 250.0
+    entitycruisespeed: 600.0
     entityflyrange: 1000.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -79,7 +79,7 @@ types:
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 300.0
+    entitycruisespeed: 700.0
     entityflyrange: 750.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -141,7 +141,7 @@ types:
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 350.0
+    entitycruisespeed: 800.0
     entityflyrange: 500.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1
@@ -203,7 +203,7 @@ types:
     entitychasemaxdistance: 3000
     entitychasemaxduration: 2500
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 350.0
+    entitycruisespeed: 900.0
     entityflyrange: 500.0
     explosivedamageresonance: 1.0
     fighterabilityantifightermissileresistance: 1

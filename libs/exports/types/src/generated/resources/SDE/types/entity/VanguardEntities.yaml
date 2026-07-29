@@ -10,7 +10,13 @@ types:
     capacitorcapacity: 1250.0
     disallowassistance: 1
     emdamageresonance: 0.67
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
     entitycruisespeed: 175.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 0.67
     gfxboosterid: 395
     hp: 1000.0
@@ -18,6 +24,12 @@ types:
     kineticdamageresonance: 0.67
     mass: 12800000.0
     maxvelocity: 1050.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
     name: Unlisted Squall
     portionSize: 1
     published: false
@@ -25,6 +37,59 @@ types:
     rechargerate: 500000.0
     scangravimetricstrength: 11.0
     shieldcapacity: 20000.0
+    shieldemdamageresonance: 0.7
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.45
+    shieldrechargerate: 1250000.0
+    shieldthermaldamageresonance: 0.7
+    shielduniformity: 0.75
+    signatureradius: 195.0
+    thermaldamageresonance: 0.67
+    warpspeedmultiplier: 5.0
+  95328:
+    agility: 0.8
+    armoremdamageresonance: 0.45
+    armorexplosivedamageresonance: 0.85
+    armorhp: 500.0
+    armorkineticdamageresonance: 0.7
+    armorthermaldamageresonance: 0.5
+    armoruniformity: 0.75
+    capacitorcapacity: 3500.0
+    disallowassistance: 1
+    emdamageresonance: 0.67
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 25000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 175.0
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entitymissiletypeid: 24490
+    explosivedamageresonance: 0.67
+    gfxboosterid: 395
+    gfxturretid: 13807
+    hp: 1000.0
+    id: 95328
+    kineticdamageresonance: 0.67
+    mass: 12800000.0
+    maxlockedtargets: 7
+    maxtargetrange: 40000.0
+    maxvelocity: 1050.0
+    missiledamagemultiplier: 2.0
+    missileentityaoecloudsizemultiplier: 0.5
+    missileentityaoevelocitymultiplier: 1.5
+    missileentityflighttimemultiplier: 5.0
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 2200.0
+    name: AEGIS Squall
+    npcbehaviormaximumcombatorbitrange: 14000.0
+    portionSize: 1
+    published: false
+    radius: 196.0
+    rechargerate: 875000.0
+    scangravimetricstrength: 11.0
+    scanresolution: 210.0
+    shieldcapacity: 10000.0
     shieldemdamageresonance: 0.7
     shieldexplosivedamageresonance: 0.45
     shieldkineticdamageresonance: 0.45

@@ -15465,19 +15465,18 @@ types:
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   93944:
-    agility: 1.9575
+    agility: 1.8
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
-    armoremdamageresonance: 0.45
-    armorexplosivedamageresonance: 0.9
-    armorhp: 1250.0
-    armorkineticdamageresonance: 0.72
-    armorthermaldamageresonance: 0.54
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 665.0
-    damagemultiplier: 2.6
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 10.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -15494,18 +15493,19 @@ types:
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 1.0
-    falloff: 2500.0
+    falloff: 2000.0
     gfxboosterid: 394
-    gfxturretid: 390
-    hp: 500.0
+    gfxturretid: 563
+    hp: 50.0
     id: 93944
+    kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1190000.0
+    mass: 1000000.0
     maxlockedtargets: 4
-    maxrange: 14437.5
+    maxrange: 12000.0
     maxtargetrange: 31250.0
     maxtargetrangemultiplier: 1.0
-    maxvelocity: 1350.0
+    maxvelocity: 600.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -15518,41 +15518,40 @@ types:
     optimalsigradius: 40000
     portionSize: 1
     published: false
-    radius: 34.0
+    radius: 30.0
     rechargerate: 120000.0
     scanradarstrength: 12.0
     scanresolution: 800.0
-    shieldcapacity: 500.0
-    shieldemdamageresonance: 0.45
-    shieldexplosivedamageresonance: 0.9
-    shieldkineticdamageresonance: 0.72
-    shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.54
+    shieldcapacity: 50.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 3000000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 37.0
-    speed: 1400.0
+    signatureradius: 100.0
+    speed: 1500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 6.0
+    thermaldamage: 4.0
     thermaldamageresonance: 1.0
-    trackingspeed: 146.25
+    trackingspeed: 100.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   93952:
-    agility: 1.9575
+    agility: 1.8
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
-    armoremdamageresonance: 0.45
-    armorexplosivedamageresonance: 0.9
-    armorhp: 1250.0
-    armorkineticdamageresonance: 0.72
-    armorthermaldamageresonance: 0.54
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 665.0
-    damagemultiplier: 2.6
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 10.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -15569,18 +15568,19 @@ types:
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 1.0
-    falloff: 2500.0
-    gfxboosterid: 394
-    gfxturretid: 390
-    hp: 500.0
+    falloff: 2000.0
+    gfxboosterid: 397
+    gfxturretid: 486
+    hp: 50.0
     id: 93952
+    kineticdamage: 8.0
     kineticdamageresonance: 1.0
-    mass: 1190000.0
+    mass: 1000000.0
     maxlockedtargets: 4
-    maxrange: 14437.5
+    maxrange: 12000.0
     maxtargetrange: 31250.0
     maxtargetrangemultiplier: 1.0
-    maxvelocity: 1350.0
+    maxvelocity: 600.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -15593,41 +15593,41 @@ types:
     optimalsigradius: 40000
     portionSize: 1
     published: false
-    radius: 34.0
+    radius: 30.0
     rechargerate: 120000.0
     scanradarstrength: 12.0
     scanresolution: 800.0
-    shieldcapacity: 500.0
-    shieldemdamageresonance: 0.45
-    shieldexplosivedamageresonance: 0.9
-    shieldkineticdamageresonance: 0.72
-    shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.54
+    shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 3000000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 37.0
-    speed: 1400.0
+    signatureradius: 100.0
+    speed: 1500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 6.0
+    thermaldamage: 4.0
     thermaldamageresonance: 1.0
-    trackingspeed: 146.25
+    trackingspeed: 100.0
     vortonarcrange: 1
     vortonarctargets: 1
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   93953:
-    agility: 1.9575
+    agility: 1.8
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
-    armoremdamageresonance: 0.45
-    armorexplosivedamageresonance: 0.9
-    armorhp: 1250.0
-    armorkineticdamageresonance: 0.72
-    armorthermaldamageresonance: 0.54
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 50.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacitorcapacity: 665.0
-    damagemultiplier: 2.6
+    damagemultiplier: 1.0
     damagemultiplierbonusmax: 0.5
-    emdamage: 10.0
+    emdamage: 8.0
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdelay: 5000.0
@@ -15644,18 +15644,18 @@ types:
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 1.0
-    falloff: 2500.0
+    falloff: 2000.0
     gfxboosterid: 394
     gfxturretid: 390
-    hp: 500.0
+    hp: 50.0
     id: 93953
     kineticdamageresonance: 1.0
-    mass: 1190000.0
+    mass: 1000000.0
     maxlockedtargets: 4
-    maxrange: 14437.5
-    maxtargetrange: 31250.0
+    maxrange: 12000.0
+    maxtargetrange: 25000.0
     maxtargetrangemultiplier: 1.0
-    maxvelocity: 1350.0
+    maxvelocity: 600.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -15668,37 +15668,37 @@ types:
     optimalsigradius: 40000
     portionSize: 1
     published: false
-    radius: 34.0
+    radius: 30.0
     rechargerate: 120000.0
     scanradarstrength: 12.0
     scanresolution: 800.0
-    shieldcapacity: 500.0
-    shieldemdamageresonance: 0.45
-    shieldexplosivedamageresonance: 0.9
-    shieldkineticdamageresonance: 0.72
-    shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.54
+    shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 3000000.0
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
-    signatureradius: 37.0
-    speed: 1400.0
+    signatureradius: 100.0
+    speed: 1500.0
     speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamage: 6.0
+    thermaldamage: 4.0
     thermaldamageresonance: 1.0
-    trackingspeed: 146.25
+    trackingspeed: 100.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0
   93958:
-    agility: 1.9575
+    agility: 1.2
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.7
     aoedamagereductionfactor: 1.0
-    armoremdamageresonance: 0.45
-    armorexplosivedamageresonance: 0.9
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1250.0
-    armorkineticdamageresonance: 0.72
-    armorthermaldamageresonance: 0.54
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 10000.0
     behaviorwarpscramblestrength: 2
@@ -15748,14 +15748,14 @@ types:
     published: false
     radius: 34.0
     rechargerate: 120000.0
-    scanradarstrength: 12.0
+    scanradarstrength: 6.0
     scanresolution: 800.0
     shieldcapacity: 500.0
-    shieldemdamageresonance: 0.45
-    shieldexplosivedamageresonance: 0.9
-    shieldkineticdamageresonance: 0.72
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 431250.0
-    shieldthermaldamageresonance: 0.54
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 0.75
     signatureradius: 37.0
     speed: 1400.0
@@ -15764,6 +15764,247 @@ types:
     thermaldamage: 6.0
     thermaldamageresonance: 1.0
     trackingspeed: 146.25
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpspeedmultiplier: 10.0
+  95428:
+    agility: 2.4
+    aipreferredsignatureradius: -1
+    aitankingmodifierdrone: 0.7
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.45
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.6
+    capacitorcapacity: 400.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 750.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 56250
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 30.0
+    explosivedamageresonance: 1.0
+    falloff: 10000.0
+    gfxboosterid: 397
+    gfxturretid: 487
+    hp: 500.0
+    id: 95428
+    kineticdamage: 20.0
+    kineticdamageresonance: 1.0
+    mass: 1000000.0
+    maxlockedtargets: 8
+    maxrange: 20000.0
+    maxtargetrange: 100000.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 2250.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Sentry Rifter
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 25.0
+    rechargerate: 120000.0
+    scanladarstrength: 10.0
+    scanresolution: 800.0
+    shieldcapacity: 1500.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.55
+    shieldrechargerate: 120000.0
+    shieldthermaldamageresonance: 0.6
+    shielduniformity: 0.75
+    signatureradius: 80.0
+    speed: 1350.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 600.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpspeedmultiplier: 3.0
+  95429:
+    agility: 2.4
+    aipreferredsignatureradius: -1
+    aitankingmodifierdrone: 0.7
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.45
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.6
+    behaviortargetpainterdischarge: 10.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 75000.0
+    behaviortargetpainterrange: 30000.0
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 700.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 62500
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 30.0
+    explosivedamageresonance: 1.0
+    falloff: 10000.0
+    gfxboosterid: 397
+    gfxturretid: 487
+    hp: 500.0
+    id: 95429
+    kineticdamage: 20.0
+    kineticdamageresonance: 1.0
+    mass: 1000000.0
+    maxlockedtargets: 8
+    maxrange: 20000.0
+    maxtargetrange: 100000.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 2100.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Inspector Slasher
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 25.0
+    rechargerate: 120000.0
+    scanladarstrength: 10.0
+    scanresolution: 800.0
+    shieldcapacity: 1750.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.55
+    shieldrechargerate: 120000.0
+    shieldthermaldamageresonance: 0.6
+    shielduniformity: 0.75
+    signatureradius: 80.0
+    signatureradiusbonus: 30.0
+    speed: 1650.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 600.0
+    vortonarcrange: 1
+    vortonarctargets: 1
+    warpspeedmultiplier: 3.0
+  95430:
+    agility: 2.4
+    aipreferredsignatureradius: -1
+    aitankingmodifierdrone: 0.7
+    aoedamagereductionfactor: 1.0
+    armoremdamageresonance: 0.8
+    armorexplosivedamageresonance: 0.45
+    armorhp: 250.0
+    armorkineticdamageresonance: 0.55
+    armorthermaldamageresonance: 0.6
+    behaviortargetpainterdischarge: 10.0
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 75000.0
+    behaviortargetpainterrange: 30000.0
+    capacitorcapacity: 500.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 700.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 75000
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entityreactionfactor: 1.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 36.0
+    explosivedamageresonance: 1.0
+    falloff: 10000.0
+    gfxboosterid: 397
+    gfxturretid: 487
+    hp: 500.0
+    id: 95430
+    kineticdamage: 24.0
+    kineticdamageresonance: 1.0
+    mass: 1000000.0
+    maxlockedtargets: 8
+    maxrange: 20000.0
+    maxtargetrange: 100000.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 2100.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Inspector Firetail
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 25.0
+    rechargerate: 120000.0
+    scanladarstrength: 10.0
+    scanresolution: 800.0
+    shieldcapacity: 2250.0
+    shieldemdamageresonance: 0.8
+    shieldexplosivedamageresonance: 0.45
+    shieldkineticdamageresonance: 0.55
+    shieldrechargerate: 120000.0
+    shieldthermaldamageresonance: 0.6
+    shielduniformity: 0.75
+    signatureradius: 80.0
+    signatureradiusbonus: 30.0
+    speed: 1500.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 600.0
     vortonarcrange: 1
     vortonarctargets: 1
     warpspeedmultiplier: 3.0

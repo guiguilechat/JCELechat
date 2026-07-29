@@ -4572,28 +4572,28 @@ types:
     name: 'Supplies: Golgothan Fields'
     portionSize: 1
     published: true
-    volume: 10.0
+    volume: 3000.0
   93641:
     cpumultiplier: 1.0
     id: 93641
     name: 'Supplies: Caldari Prime Breakout'
     portionSize: 1
     published: true
-    volume: 10.0
+    volume: 3000.0
   93642:
     cpumultiplier: 1.0
     id: 93642
     name: 'Supplies: Intaki Liberation'
     portionSize: 1
     published: true
-    volume: 10.0
+    volume: 3000.0
   93643:
     cpumultiplier: 1.0
     id: 93643
     name: 'Supplies: Battle of Pator'
     portionSize: 1
     published: true
-    volume: 10.0
+    volume: 3000.0
   93645:
     cpumultiplier: 1.0
     id: 93645
@@ -4611,59 +4611,11 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
-  93781:
-    cpumultiplier: 1.0
-    id: 93781
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Glamourex Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  93783:
-    cpumultiplier: 1.0
-    id: 93783
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Accelerator Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  93831:
-    cpumultiplier: 1.0
-    id: 93831
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Amarr Booster Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
   93832:
     cpumultiplier: 1.0
     id: 93832
     marketGroup: 3837
     name: Capsuleer Day Empire SKINR Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  93833:
-    cpumultiplier: 1.0
-    id: 93833
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Caldari Booster Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  93834:
-    cpumultiplier: 1.0
-    id: 93834
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Gallente Booster Crate
-    portionSize: 1
-    published: true
-    volume: 1.0
-  93835:
-    cpumultiplier: 1.0
-    id: 93835
-    marketGroup: 3837
-    name: Capsuleer Day XXIII Minmatar Booster Crate
     portionSize: 1
     published: true
     volume: 1.0
@@ -4777,3 +4729,57 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  95463:
+    cpumultiplier: 1.0
+    id: 95463
+    name: Federation Day Celebration Crate
+    portionSize: 1
+    published: true
+    volume: 4.0
+  95557:
+    cpumultiplier: 1.0
+    id: 95557
+    name: Arkombine Arisen SKIN Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  95640:
+    cpumultiplier: 1.0
+    id: 95640
+    marketGroup: 3864
+    mass: 0.1
+    name: Vanguard Resonant Cypher
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95647:
+    cpumultiplier: 1.0
+    id: 95647
+    marketGroup: 3864
+    name: Operation Avalon Booster Crate
+    portionSize: 1
+    published: true
+    volume: 1.0
+  95657:
+    cpumultiplier: 1.0
+    id: 95657
+    name: Liberation Day Celebration Crate
+    portionSize: 1
+    published: true
+    volume: 4.0
+  95716:
+    cpumultiplier: 1.0
+    id: 95716
+    marketGroup: 3864
+    mass: 0.1
+    name: Ranking Vanguard Resonant Cypher
+    portionSize: 1
+    published: true
+    volume: 0.1
+  95747:
+    cpumultiplier: 1.0
+    id: 95747
+    name: Foundation Day Celebration Crate
+    portionSize: 1
+    published: true
+    volume: 4.0

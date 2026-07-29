@@ -20166,8 +20166,8 @@ id2group:
   45468: entity/MissionMinmatarRepublicDestroyer
   45469: entity/MissionMinmatarRepublicCruiser
   45470: entity/NPCDreadnought
-  45471: entity/Titan
-  45472: entity/Titan
+  45471: entity/NPCTitan
+  45472: entity/NPCTitan
   45473: entity/NPCForceAuxiliary
   45474: entity/NPCDreadnought
   45480: skins/PermanentSKIN
@@ -32959,21 +32959,21 @@ id2group:
   91868: personalization/ShipEmblems
   91869: personalization/ShipEmblems
   91870: personalization/ShipEmblems
-  91873: entity/FabricatorRogueDrones
-  91874: entity/FabricatorRogueDrones
-  91875: entity/FabricatorRogueDrones
-  91876: entity/FabricatorRogueDrones
-  91877: entity/FabricatorRogueDrones
-  91878: entity/FabricatorRogueDrones
-  91879: entity/FabricatorRogueDrones
-  91880: entity/FabricatorRogueDrones
-  91881: entity/FabricatorRogueDrones
-  91882: entity/FabricatorRogueDrones
-  91883: entity/FabricatorRogueDrones
-  91897: entity/FabricatorRogueDrones
-  91898: entity/FabricatorRogueDrones
-  91899: entity/FabricatorRogueDrones
-  91902: entity/FabricatorRogueDrones
+  91873: entity/FabricatorRogueDroneFrigate
+  91874: entity/FabricatorRogueDroneFrigate
+  91875: entity/FabricatorRogueDroneFrigate
+  91876: entity/FabricatorRogueDroneDestroyer
+  91877: entity/FabricatorRogueDroneDestroyer
+  91878: entity/FabricatorRogueDroneCruiser
+  91879: entity/FabricatorRogueDroneCruiser
+  91880: entity/FabricatorRogueDroneCruiser
+  91881: entity/FabricatorRogueDroneBattlecruiser
+  91882: entity/FabricatorRogueDroneBattleship
+  91883: entity/FabricatorRogueDroneBattleship
+  91897: entity/FabricatorRogueDroneDestroyer
+  91898: entity/FabricatorRogueDroneBattlecruiser
+  91899: entity/FabricatorRogueDroneBattleship
+  91902: entity/FabricatorRogueDroneBattlecruiser
   91910: expertsystems/PromotionalExpertSystems
   91916: implant/Booster
   91920: implant/Booster
@@ -33176,17 +33176,13 @@ id2group:
   92823: ship/CommandCarrier
   92824: ship/CommandCarrier
   92825: ship/CommandCarrier
-  92876: implant/Booster
   92885: station/Station
   92890: entity/ControlPoint
   92891: entity/ControlPoint
   92892: entity/ControlPoint
   92893: entity/ControlPoint
-  92948: implant/Booster
   92952: charge/AdvancedExoticPlasmaCharge
-  92953: implant/Booster
   92954: charge/AdvancedExoticPlasmaCharge
-  92955: implant/Booster
   92956: blueprint/AdvancedExoticPlasmaChargeBlueprint
   92957: blueprint/AdvancedExoticPlasmaChargeBlueprint
   92958: expertsystems/PromotionalExpertSystems
@@ -33199,33 +33195,17 @@ id2group:
   92969: skins/PermanentSKIN
   92970: skins/PermanentSKIN
   92971: personalization/ShipSKINDesignElement
-  92972: implant/Booster
-  92973: implant/Booster
-  92974: implant/Booster
-  92975: implant/Booster
-  92976: implant/Booster
   92977: personalization/ShipSKINDesignElement
-  92978: implant/Booster
-  92979: implant/Booster
   92980: personalization/ShipSKINDesignElement
-  92981: implant/Booster
   92982: personalization/ShipSKINDesignElement
-  92983: implant/Booster
   92984: personalization/ShipSKINDesignElement
   92985: personalization/ShipSKINDesignElement
   92986: personalization/ShipSKINDesignElement
-  92987: implant/Booster
   92988: personalization/ShipSKINDesignElement
-  92989: implant/Booster
   92990: personalization/ShipSKINDesignElement
   92991: personalization/ShipSKINDesignElement
-  92992: implant/Booster
   92993: personalization/ShipSKINDesignElement
-  92994: implant/Booster
-  92996: implant/Booster
   92997: personalization/ShipSKINDesignElement
-  92998: implant/Booster
-  92999: implant/Booster
   93000: personalization/ShipSKINDesignElement
   93001: personalization/ShipSKINDesignElement
   93002: personalization/ShipSKINDesignElement
@@ -33234,36 +33214,6 @@ id2group:
   93014: personalization/ShipSKINDesignElement
   93015: personalization/ShipSKINDesignElement
   93016: personalization/ShipSKINDesignElement
-  93017: implant/Booster
-  93018: implant/Booster
-  93019: implant/Booster
-  93020: implant/Booster
-  93021: implant/Booster
-  93022: implant/Booster
-  93023: implant/Booster
-  93024: implant/Booster
-  93025: implant/Booster
-  93026: implant/Booster
-  93027: implant/Booster
-  93028: implant/Booster
-  93029: implant/Booster
-  93050: implant/Booster
-  93051: implant/Booster
-  93052: implant/Booster
-  93053: implant/Booster
-  93054: implant/Booster
-  93055: implant/Booster
-  93058: implant/Booster
-  93059: implant/Booster
-  93060: implant/Booster
-  93061: implant/Booster
-  93062: implant/Booster
-  93063: implant/Booster
-  93064: implant/Booster
-  93065: implant/Booster
-  93066: implant/Booster
-  93067: implant/Booster
-  93068: implant/Booster
   93069: skins/PermanentSKIN
   93070: skins/PermanentSKIN
   93071: skins/PermanentSKIN
@@ -33274,51 +33224,6 @@ id2group:
   93076: skins/PermanentSKIN
   93077: skins/PermanentSKIN
   93078: skins/PermanentSKIN
-  93085: implant/Booster
-  93087: implant/Booster
-  93088: implant/Booster
-  93093: implant/Booster
-  93095: implant/Booster
-  93096: implant/Booster
-  93098: implant/Booster
-  93101: implant/Booster
-  93102: implant/Booster
-  93103: implant/Booster
-  93106: implant/Booster
-  93107: implant/Booster
-  93108: implant/Booster
-  93109: implant/Booster
-  93110: implant/Booster
-  93111: implant/Booster
-  93112: implant/Booster
-  93113: implant/Booster
-  93114: implant/Booster
-  93115: implant/Booster
-  93116: implant/Booster
-  93117: implant/Booster
-  93118: implant/Booster
-  93119: implant/Booster
-  93120: implant/Booster
-  93121: implant/Booster
-  93122: implant/Booster
-  93123: implant/Booster
-  93124: implant/Booster
-  93125: implant/Booster
-  93126: implant/Booster
-  93127: implant/Booster
-  93128: implant/Booster
-  93129: implant/Booster
-  93130: implant/Booster
-  93131: implant/Booster
-  93132: implant/Booster
-  93133: implant/Booster
-  93134: implant/Booster
-  93135: implant/Booster
-  93136: implant/Booster
-  93137: implant/Booster
-  93138: implant/Booster
-  93139: implant/Booster
-  93140: implant/Booster
   93143: drone/MiningDrone
   93144: blueprint/MiningDroneBlueprint
   93145: drone/MiningDrone
@@ -33578,21 +33483,9 @@ id2group:
   93744: skins/PermanentSKIN
   93745: skins/PermanentSKIN
   93754: specialeditionassets/SpecialEditionCommodities
-  93775: implant/Booster
-  93776: implant/Booster
-  93777: implant/Booster
-  93778: implant/Booster
-  93779: implant/Booster
-  93780: implant/Booster
-  93781: specialeditionassets/SpecialEditionCommodities
-  93783: specialeditionassets/SpecialEditionCommodities
   93784: skins/PermanentSKIN
   93785: skins/PermanentSKIN
-  93831: specialeditionassets/SpecialEditionCommodities
   93832: specialeditionassets/SpecialEditionCommodities
-  93833: specialeditionassets/SpecialEditionCommodities
-  93834: specialeditionassets/SpecialEditionCommodities
-  93835: specialeditionassets/SpecialEditionCommodities
   93838: module/RemoteShieldBooster
   93839: module/RemoteShieldBooster
   93840: module/RemoteArmorRepairer
@@ -33627,7 +33520,7 @@ id2group:
   93919: blueprint/MiningLaserUpgradeBlueprint
   93920: blueprint/PowerManagerBlueprint
   93924: commodity/LimitedRarities
-  93937: entity/IrregularShuttle
+  93937: entity/IrregularIndustrial
   93938: entity/IrregularIndustrial
   93939: entity/AIRHoloDroneActors
   93940: entity/AIRHoloDroneActors
@@ -33789,6 +33682,123 @@ id2group:
   95298: skins/PermanentSKIN
   95299: skins/PermanentSKIN
   95300: skins/PermanentSKIN
+  95328: entity/VanguardEntities
+  95348: entity/SpawnContainer
+  95350: entity/LargeCollidableStructure
+  95351: entity/IrregularCarrier
+  95381: entity/LargeCollidableStructure
+  95383: entity/LargeCollidableStructure
+  95385: entity/SpawnContainer
+  95390: entity/SpawnContainer
+  95395: asteroid/Pyroxeres
+  95396: personalization/ShipSKINDesignElement
+  95397: personalization/ShipSKINDesignElement
+  95398: personalization/ShipSKINDesignElement
+  95399: personalization/ShipSKINDesignElement
+  95400: personalization/ShipSKINDesignElement
+  95401: personalization/ShipSKINDesignElement
+  95402: personalization/ShipSKINDesignElement
+  95403: personalization/ShipSKINDesignElement
+  95404: personalization/ShipSKINDesignElement
+  95405: personalization/ShipSKINDesignElement
+  95406: personalization/ShipSKINDesignElement
+  95407: personalization/ShipSKINDesignElement
+  95408: personalization/ShipSKINDesignElement
+  95409: personalization/ShipSKINDesignElement
+  95410: personalization/ShipSKINDesignElement
+  95411: personalization/ShipSKINDesignElement
+  95412: personalization/ShipSKINDesignElement
+  95413: personalization/ShipSKINDesignElement
+  95414: module/DamageControl
+  95415: personalization/ShipSKINDesignElement
+  95416: personalization/ShipSKINDesignElement
+  95417: personalization/ShipSKINDesignElement
+  95418: personalization/ShipSKINDesignElement
+  95428: entity/IrregularFrigate
+  95429: entity/IrregularFrigate
+  95430: entity/IrregularFrigate
+  95431: entity/IrregularDestroyer
+  95432: entity/IrregularDestroyer
+  95433: entity/IrregularDestroyer
+  95434: entity/IrregularCruiser
+  95435: entity/IrregularCruiser
+  95436: entity/IrregularCruiser
+  95437: entity/IrregularBattlecruiser
+  95438: entity/IrregularBattlecruiser
+  95439: entity/IrregularBattlecruiser
+  95440: entity/IrregularBattleship
+  95441: entity/IrregularBattleship
+  95442: entity/IrregularBattleship
+  95444: personalization/ShipEmblems
+  95445: personalization/ShipEmblems
+  95446: personalization/ShipEmblems
+  95452: expertsystems/StandardExpertSystems
+  95458: apparel/PortraitBackgrounds
+  95463: specialeditionassets/SpecialEditionCommodities
+  95473: skins/PermanentSKIN
+  95474: skins/PermanentSKIN
+  95475: skins/PermanentSKIN
+  95476: skins/PermanentSKIN
+  95477: skins/PermanentSKIN
+  95478: skins/PermanentSKIN
+  95479: skins/PermanentSKIN
+  95480: skins/PermanentSKIN
+  95481: skins/PermanentSKIN
+  95482: skins/PermanentSKIN
+  95484: personalization/ShipEmblems
+  95485: entity/IrregularBattleship
+  95501: apparel/PortraitBackgrounds
+  95502: entity/IrregularBattleship
+  95525: skins/PermanentSKIN
+  95526: skins/PermanentSKIN
+  95527: skins/PermanentSKIN
+  95528: skins/PermanentSKIN
+  95529: implant/CyberScanning
+  95530: blueprint/ImplantBlueprints
+  95532: implant/Booster
+  95533: implant/Booster
+  95534: implant/Booster
+  95537: implant/Booster
+  95538: implant/Booster
+  95539: implant/Booster
+  95540: implant/Booster
+  95541: implant/Booster
+  95542: implant/Booster
+  95543: implant/Booster
+  95556: module/InertialStabilizer
+  95557: specialeditionassets/SpecialEditionCommodities
+  95633: expertsystems/StandardExpertSystems
+  95640: specialeditionassets/SpecialEditionCommodities
+  95647: specialeditionassets/SpecialEditionCommodities
+  95648: skins/PermanentSKIN
+  95649: skins/PermanentSKIN
+  95650: skins/PermanentSKIN
+  95651: skins/PermanentSKIN
+  95652: skins/PermanentSKIN
+  95653: skins/PermanentSKIN
+  95654: skins/PermanentSKIN
+  95655: skins/PermanentSKIN
+  95656: skins/PermanentSKIN
+  95657: specialeditionassets/SpecialEditionCommodities
+  95660: entity/IrregularDrone
+  95672: apparel/PortraitBackgrounds
+  95673: apparel/PortraitBackgrounds
+  95674: apparel/PortraitBackgrounds
+  95716: specialeditionassets/SpecialEditionCommodities
+  95720: skins/PermanentSKIN
+  95721: skins/PermanentSKIN
+  95722: skins/PermanentSKIN
+  95723: skins/PermanentSKIN
+  95724: skins/PermanentSKIN
+  95725: skins/PermanentSKIN
+  95726: skins/PermanentSKIN
+  95727: skins/PermanentSKIN
+  95744: expertsystems/StandardExpertSystems
+  95747: specialeditionassets/SpecialEditionCommodities
+  95813: personalization/ShipSKINDesignElement
+  95903: entity/FWMinmatarRepublicHauler
+  95904: entity/FWMinmatarRepublicHauler
+  96032: entity/FabricatorRogueDroneDreadnought
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits
