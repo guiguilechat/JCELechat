@@ -7,10 +7,13 @@
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
 	<artifactId>oa3compiler-maven-plugin</artifactId>
-	<name>OpenApi3 compiler maven plugin</name>
+	<name>MVN OpenApi3 compiler</name>
 	<packaging>maven-plugin</packaging>
-
 	<dependencies>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+			<artifactId>commons</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>io.swagger.parser.v3</groupId>
 			<artifactId>swagger-parser</artifactId>

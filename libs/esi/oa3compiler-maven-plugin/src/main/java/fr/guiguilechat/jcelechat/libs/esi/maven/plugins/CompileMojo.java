@@ -1,7 +1,12 @@
 package fr.guiguilechat.jcelechat.libs.esi.maven.plugins;
 
 import java.io.File;
+import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -10,16 +15,16 @@ import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Component;
+import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 
-import fr.guiguilechat.jcelechat.libs.esi.maven.plugins.params.ParamVal;
 import io.swagger.parser.OpenAPIParser;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.parser.core.models.SwaggerParseResult;
 
-@Mojo(name = "compile-url", threadSafe = true)
+@Mojo(name = "compile-url", threadSafe = true, defaultPhase = LifecyclePhase.GENERATE_SOURCES)
 public class CompileMojo extends AbstractMojo {
 
 	@Component
@@ -32,19 +37,29 @@ public class CompileMojo extends AbstractMojo {
 
 		public String url;
 
-		public Map<String, ParamVal> params = new HashMap<>();
+		public Map<String, String> params = new HashMap<>();
 
 		public String makeUrl() {
+			LinkedHashMap<String, String> sortedParams = new LinkedHashMap<>(params);
+			if (transmitCompatibilityDate) {
+				sortedParams.put("compatibilitydate", Instant.now().atOffset(ZoneOffset.UTC).minus(11, ChronoUnit.HOURS)
+						.format(DateTimeFormatter.ofPattern("YYYY-MM-dd")));
+			}
 			return Stream.of(url,
-					params.entrySet().stream().map(e -> e.getKey() + "=" + e.getValue().evaluate())
+					sortedParams.entrySet().stream().map(e -> e.getKey() + "=" + e.getValue())
 							.collect(Collectors.joining("&")))
 					.collect(Collectors.joining("?"));
 		}
 
+		public boolean transmitCompatibilityDate = true;
+
 	}
 
-	@Parameter(property = "oa3compiler-fetch")
+	@Parameter
 	private FetchParams fetch;
+
+	@Parameter
+	private String serverChoice;
 
 	@Override
 	public void execute() throws MojoExecutionException, MojoFailureException {
@@ -54,12 +69,11 @@ public class CompileMojo extends AbstractMojo {
 		javaOutputFolder.mkdirs();
 		SwaggerParseResult result = new OpenAPIParser().readLocation(url, null, null);
 		OpenAPI schema = result.getOpenAPI();
-		new Compiler(getLog(), schema, javaOutputFolder).compile();
-
+		new Compiler(getLog(), schema, javaOutputFolder).serverChoice(serverChoice).compile();
 	}
 
 	protected File javaOutputFolder() {
-		if (outputJavaFolder == null) {
+		if (outputJavaFolder == null || outputJavaFolder.isBlank()) {
 			return new File(project.getBasedir(), "src/generated/java");
 		} else if (outputJavaFolder.startsWith("/")) {
 			return new File(outputJavaFolder);
