@@ -50,6 +50,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Eos
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1200.0
     powertospeed: 1
@@ -145,6 +146,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Sleipnir
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1300.0
     powertospeed: 1
@@ -238,6 +240,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Vulture
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1275.0
     powertospeed: 1
@@ -330,6 +333,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Absolution
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1550.0
     powertospeed: 1
@@ -423,6 +427,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Astarte
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1350.0
     powertospeed: 1
@@ -516,6 +521,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Claymore
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -610,6 +616,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Nighthawk
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1000.0
     powertospeed: 1
@@ -703,6 +710,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.25
     name: Damnation
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1300.0
     powertospeed: 1

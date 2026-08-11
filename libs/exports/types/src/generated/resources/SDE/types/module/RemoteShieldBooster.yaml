@@ -44,6 +44,7 @@ types:
     name: CONCORD Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 92500
     price: 24659510.0
@@ -229,6 +230,7 @@ types:
     name: Capital Remote Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
     price: 24659510.0
@@ -256,6 +258,7 @@ types:
     name: Capital Remote Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 107500
     price: 155242.0
@@ -885,6 +888,7 @@ types:
     name: Capital Asymmetric Enduring Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
     price: 24659510.0
@@ -912,6 +916,7 @@ types:
     name: Capital Murky Compact Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
     price: 24659510.0
@@ -939,6 +944,7 @@ types:
     name: Capital S95a Scoped Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
     price: 24659510.0
@@ -967,6 +973,7 @@ types:
     name: True Sansha Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
     price: 24659510.0
@@ -995,6 +1002,7 @@ types:
     name: Dread Guristas Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 92500
     price: 24659510.0
@@ -1023,6 +1031,7 @@ types:
     name: Domination Capital Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 87500
     price: 24659510.0

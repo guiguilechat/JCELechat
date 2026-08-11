@@ -45,6 +45,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Opux Luxury Yacht
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 600.0
     powertospeed: 1
@@ -127,6 +128,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Victorieux Luxury Yacht
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 100.0
     powertospeed: 1
@@ -213,6 +215,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Tenzin YC128 Campaign Bus
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 100.0
     powertospeed: 1
@@ -298,6 +301,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Moreau YC128 Campaign Bus
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 100.0
     powertospeed: 1
@@ -383,6 +387,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Roden YC128 Campaign Bus
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 100.0
     powertospeed: 1

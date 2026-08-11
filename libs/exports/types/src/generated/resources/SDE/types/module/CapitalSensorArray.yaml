@@ -20,6 +20,7 @@ types:
     maxtargetrangemultiplier: 1.0
     name: Networked Sensor Array
     networkedsensorarraydisallowcapitalmicrojump: 1
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     price: 30000000.0
@@ -54,6 +55,7 @@ types:
     maximumrangecap: 1000000000
     maxtargetrangemultiplier: 12.0
     name: Integrated Sensor Array
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     price: 30000000.0

@@ -14,7 +14,6 @@ types:
     capacitorcapacity: 62850.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 820
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -73,6 +72,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     name: Salvation
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 786075.0
     powertospeed: 1
@@ -144,7 +144,6 @@ types:
     capacitorcapacity: 59525.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 875
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -203,6 +202,7 @@ types:
     maxvelocity: 70.0
     medslots: 8
     name: Simurgh
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 490910.0
     powertospeed: 1
@@ -274,7 +274,6 @@ types:
     capacitorcapacity: 76335.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 825
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -333,6 +332,7 @@ types:
     maxvelocity: 80.0
     medslots: 5
     name: Gaia
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 795455.0
     powertospeed: 1
@@ -403,7 +403,6 @@ types:
     capacitorcapacity: 57600.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 875
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -462,6 +461,7 @@ types:
     maxvelocity: 85.0
     medslots: 7
     name: Ymir
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 555555.0
     powertospeed: 1

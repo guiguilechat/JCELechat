@@ -1134,7 +1134,7 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.6
     hp: 40.0
     id: 85003
@@ -1162,7 +1162,7 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.6
     hp: 40.0
     id: 85004
@@ -1190,7 +1190,7 @@ types:
     cpu: 60.0
     duration: 20000.0
     falloffeffectiveness: 33000
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 6.6
     hp: 40.0
     id: 85005

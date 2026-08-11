@@ -64,6 +64,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Revelation
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 700000.0
     powertospeed: 1
@@ -179,6 +180,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Naglfar
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 540000.0
     powertospeed: 1
@@ -294,6 +296,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Moros
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 660000.0
     powertospeed: 1
@@ -410,6 +413,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Phoenix
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 550000.0
     powertospeed: 1
@@ -526,6 +530,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Vehement
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 725000.0
     powertospeed: 1
@@ -646,6 +651,7 @@ types:
     mintargetveldmgmultiplier: 0.5
     name: Chemosh
     nosoverride: 1
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 858000.0
     powertospeed: 1
@@ -770,6 +776,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Caiman
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 550000.0
     powertospeed: 1
@@ -886,6 +893,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Zirnitra
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 935000.0
     powertospeed: 1
@@ -1003,6 +1011,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Naglfar Fleet Issue
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 640000.0
     powertospeed: 1
@@ -1119,6 +1128,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Revelation Navy Issue
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 825000.0
     powertospeed: 1
@@ -1235,6 +1245,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.5
     name: Moros Navy Issue
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 680000.0
     powertospeed: 1
@@ -1353,6 +1364,7 @@ types:
     medslots: 8
     mintargetveldmgmultiplier: 0.5
     name: Phoenix Navy Issue
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 575000.0
     powertospeed: 1
@@ -1469,6 +1481,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Sarathiel
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 680000.0
     powertospeed: 1

@@ -44,7 +44,7 @@ types:
     cpu: 36.0
     duration: 30000.0
     ecmburstrange: 12000
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 10.0
     hp: 40.0
     id: 2117

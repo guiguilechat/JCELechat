@@ -45,6 +45,7 @@ types:
     maxpassengers: 150
     maxvelocity: 70.0
     name: Providence
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 3.0
     powertospeed: 1
@@ -125,6 +126,7 @@ types:
     maxpassengers: 150
     maxvelocity: 60.0
     name: Charon
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 3.0
     powertospeed: 1
@@ -205,6 +207,7 @@ types:
     maxpassengers: 150
     maxvelocity: 65.0
     name: Obelisk
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 3.0
     powertospeed: 1
@@ -285,6 +288,7 @@ types:
     maxpassengers: 150
     maxvelocity: 81.0
     name: Fenrir
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 3.0
     powertospeed: 1
@@ -369,6 +373,7 @@ types:
     maxvelocity: 65.0
     medslots: 3
     name: Bowhead
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 1350.0
     powertospeed: 1
@@ -454,6 +459,7 @@ types:
     maxvelocity: 60.0
     medslots: 3
     name: Avalanche
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 10000.0
     powertospeed: 1

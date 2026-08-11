@@ -1161,6 +1161,7 @@ types:
     name: CONCORD Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
     price: 36286548.0
@@ -1200,6 +1201,7 @@ types:
     name: CONCORD Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
     price: 46052412.0
@@ -7053,6 +7055,7 @@ types:
     name: Dual 1000mm Railgun I
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 46052412.0
@@ -7089,6 +7092,7 @@ types:
     name: Ion Siege Blaster I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -7721,6 +7725,7 @@ types:
     name: Triple Neutron Blaster Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -7751,7 +7756,7 @@ types:
     cpu: 104.0
     damagemultiplier: 0.91884669
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 37300
@@ -7763,6 +7768,7 @@ types:
     name: Triple Neutron Blaster Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
     price: 36286548.0
@@ -7806,6 +7812,7 @@ types:
     name: Regulated Compact Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 89100
     price: 36286548.0
@@ -7834,7 +7841,7 @@ types:
     cpu: 115.0
     damagemultiplier: 6.125625
     falloff: 25000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 37302
@@ -7846,6 +7853,7 @@ types:
     name: Ion Siege Blaster II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
     price: 36286548.0
@@ -7874,7 +7882,7 @@ types:
     cpu: 126.5
     damagemultiplier: 8.16756534
     falloff: 32000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 37303
@@ -7886,6 +7894,7 @@ types:
     name: Dual 1000mm Railgun II
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
     price: 36286548.0
@@ -7927,6 +7936,7 @@ types:
     name: Modal Enduring Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -7968,6 +7978,7 @@ types:
     name: Anode Scoped Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -8009,6 +8020,7 @@ types:
     name: Limited Precise Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -8052,6 +8064,7 @@ types:
     name: Shadow Serpentis Triple Neutron Blaster Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
     price: 36286548.0
@@ -8091,6 +8104,7 @@ types:
     name: Regulated Compact Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 89100
     price: 36286548.0
@@ -8128,6 +8142,7 @@ types:
     name: Modal Enduring Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -8165,6 +8180,7 @@ types:
     name: Anode Scoped Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -8202,6 +8218,7 @@ types:
     name: Limited Precise Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 36286548.0
@@ -8241,6 +8258,7 @@ types:
     name: Shadow Serpentis Ion Siege Blaster
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108900
     price: 36286548.0
@@ -8278,6 +8296,7 @@ types:
     name: Carbide Compact Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 99000
     price: 46052412.0
@@ -8315,6 +8334,7 @@ types:
     name: Compressed Enduring Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 46052412.0
@@ -8352,6 +8372,7 @@ types:
     name: Scout Scoped Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 46052412.0
@@ -8389,6 +8410,7 @@ types:
     name: Prototype Precise Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 46052412.0
@@ -8428,6 +8450,7 @@ types:
     name: Shadow Serpentis Dual 1000mm Railgun
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 121000
     price: 46052412.0
@@ -8454,7 +8477,7 @@ types:
     cpu: 18.0
     damagemultiplier: 5.145
     falloff: 2500.0
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 0.8
     hp: 40.0
     id: 85008

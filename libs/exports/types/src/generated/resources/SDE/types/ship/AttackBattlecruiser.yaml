@@ -45,6 +45,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Oracle
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1375.0
     powertospeed: 1
@@ -131,6 +132,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Naga
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 875.0
     powertospeed: 1
@@ -219,6 +221,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Talos
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -305,6 +308,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Tornado
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1000.0
     powertospeed: 1
@@ -394,6 +398,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.25
     name: Anhinga
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1075.0
     powertospeed: 1

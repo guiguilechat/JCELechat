@@ -36,7 +36,7 @@ types:
     cpu: 39.0
     duration: 30000.0
     falloffbonus: 15.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 9.9
     hp: 40.0
     id: 24438

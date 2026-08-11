@@ -52,6 +52,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Helios
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 20.0
     powertospeed: 1
@@ -148,6 +149,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Cheetah
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 15.0
     powertospeed: 1
@@ -244,6 +246,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Anathema
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 20.0
     powertospeed: 1
@@ -339,6 +342,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Buzzard
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 15.0
     powertospeed: 1
@@ -438,6 +442,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Chremoas
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -539,6 +544,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     name: Caedes
     nosoverride: 1
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 60.0
     powertospeed: 1
@@ -643,6 +649,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Pacifier
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 60.0
     powertospeed: 1
@@ -751,6 +758,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.05
     name: Hydra
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 75.0
     powertospeed: 1
@@ -854,6 +862,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Sidewinder
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1

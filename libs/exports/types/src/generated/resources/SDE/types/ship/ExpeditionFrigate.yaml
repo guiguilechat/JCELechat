@@ -59,6 +59,7 @@ types:
     miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05
     name: Prospect
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -163,6 +164,7 @@ types:
     miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05
     name: Endurance
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1

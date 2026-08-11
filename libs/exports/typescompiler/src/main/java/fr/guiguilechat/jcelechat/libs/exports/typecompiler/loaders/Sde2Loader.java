@@ -51,8 +51,12 @@ public class Sde2Loader {
 			det.marketGroupID = e.getValue().marketGroupID;
 			det.groupID = e.getValue().groupID;
 			det.mass = sourceType.mass;
-			// no packaged volume in sde ?
-			// det.packagedVolume = BigDecimal.ZERO;
+			det.packagedVolume = sourceType.packagedVolume;
+			// unset packagedvolume when equal to volume
+			if (sourceType.packagedVolume != null && sourceType.volume != null
+					&& sourceType.packagedVolume.equals(sourceType.volume)) {
+				det.packagedVolume=null;
+			}
 			det.portionSize = sourceType.portionSize;
 			det.published = sourceType.published;
 			det.radius = sourceType.radius;

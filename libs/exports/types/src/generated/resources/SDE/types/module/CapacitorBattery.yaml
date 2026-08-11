@@ -391,6 +391,7 @@ types:
     id: 41484
     marketGroup: 2242
     name: Capital Cap Battery I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -408,6 +409,7 @@ types:
     marketGroup: 2242
     metalevelold: 1.0
     name: Capital Compact Pb-Acid Cap Battery
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -425,6 +427,7 @@ types:
     marketGroup: 2242
     metalevelold: 5.0
     name: Capital Cap Battery II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -443,6 +446,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Domination Capital Cap Battery
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -461,6 +465,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Dark Blood Capital Cap Battery
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true

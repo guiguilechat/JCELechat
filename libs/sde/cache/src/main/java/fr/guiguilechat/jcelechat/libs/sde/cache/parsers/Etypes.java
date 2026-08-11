@@ -40,6 +40,7 @@ public class Etypes {
 	public int metaGroupID;
 	public int metaLevel;
 	public HashMap<String, String> name = new HashMap<>();
+	public BigDecimal packagedVolume;
 	public int portionSize;
 	public boolean published;
 	/** {@link Eraces} */

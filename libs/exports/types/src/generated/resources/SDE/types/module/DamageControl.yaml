@@ -195,6 +195,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Capital Emergency Hull Energizer I
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     published: true
@@ -235,6 +236,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 1.0
     name: Capital Implacable Compact Emergency Hull Energizer
+    packagedVolume: 2000.0
     portionSize: 1
     power: 80000
     published: true
@@ -275,6 +277,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 1.0
     name: Capital Indefatigable Enduring Emergency Hull Energizer
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     published: true
@@ -315,6 +318,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 5.0
     name: Capital Emergency Hull Energizer II
+    packagedVolume: 2000.0
     portionSize: 1
     power: 120000
     published: true
@@ -356,6 +360,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Sisters Capital Emergency Hull Energizer
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     published: true

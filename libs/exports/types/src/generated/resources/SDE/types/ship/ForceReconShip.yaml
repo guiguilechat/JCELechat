@@ -53,6 +53,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Falcon
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 760.0
     powertospeed: 1
@@ -149,6 +150,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Rapier
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 750.0
     powertospeed: 1
@@ -246,6 +248,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Pilgrim
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1000.0
     powertospeed: 1
@@ -343,6 +346,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Arazu
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 750.0
     powertospeed: 1
@@ -439,6 +443,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Moracha
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 850.0
     powertospeed: 1
@@ -539,6 +544,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 1.0
     name: Chameleon
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 475.0
     powertospeed: 1
@@ -641,6 +647,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Enforcer
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -751,6 +758,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Victor
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1000.0
     powertospeed: 1
@@ -852,6 +860,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Tiamat
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1310.0
     powertospeed: 1
@@ -956,6 +965,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 1.0
     name: Cobra
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1

@@ -30,6 +30,7 @@ types:
     maxpassengers: 1
     maxvelocity: 150.0
     name: Capsule
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 1.0
     powertospeed: 1
@@ -91,6 +92,7 @@ types:
     metagroupid: 4
     metalevelold: 9.0
     name: Capsule - Genolution 'Auroral' 197-variant
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 1.0
     powertospeed: 1

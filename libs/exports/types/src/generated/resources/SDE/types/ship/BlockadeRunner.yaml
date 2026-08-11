@@ -52,6 +52,7 @@ types:
     medslots: 4
     metalevelold: 5.0
     name: Crane
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 125.0
     powertospeed: 1
@@ -148,6 +149,7 @@ types:
     medslots: 2
     metalevelold: 5.0
     name: Prorator
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 150.0
     powertospeed: 1
@@ -246,6 +248,7 @@ types:
     medslots: 3
     metalevelold: 5.0
     name: Prowler
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 130.0
     powertospeed: 1
@@ -343,6 +346,7 @@ types:
     medslots: 3
     metalevelold: 5.0
     name: Viator
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 135.0
     powertospeed: 1
@@ -440,6 +444,7 @@ types:
     medslots: 4
     metalevelold: 5.0
     name: Deluge
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 190.0
     powertospeed: 1

@@ -51,6 +51,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Nemesis
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -147,6 +148,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Manticore
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -243,6 +245,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Hound
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -339,6 +342,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Purifier
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -436,6 +440,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Virtuoso
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 39.0
     powertospeed: 1

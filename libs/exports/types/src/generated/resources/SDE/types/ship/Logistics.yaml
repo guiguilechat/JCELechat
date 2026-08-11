@@ -51,6 +51,7 @@ types:
     medslots: 5
     metalevelold: 5.0
     name: Scimitar
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 735.0
     powertospeed: 1
@@ -147,6 +148,7 @@ types:
     medslots: 5
     metalevelold: 5.0
     name: Basilisk
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1050.0
     powertospeed: 1
@@ -242,6 +244,7 @@ types:
     medslots: 2
     metalevelold: 5.0
     name: Guardian
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1075.0
     powertospeed: 1
@@ -338,6 +341,7 @@ types:
     medslots: 4
     metalevelold: 5.0
     name: Oneiros
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1050.0
     powertospeed: 1
@@ -435,6 +439,7 @@ types:
     metagroupid: 4
     metalevelold: 9.0
     name: Etana
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -536,6 +541,7 @@ types:
     metalevelold: 9.0
     name: Rabisu
     nosoverride: 1
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1025.0
     powertospeed: 1
@@ -638,6 +644,7 @@ types:
     medslots: 4
     metalevelold: 5.0
     name: Zarmazd
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 950.0
     powertospeed: 1

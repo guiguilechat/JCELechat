@@ -54,6 +54,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Osprey
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 470.0
     powertospeed: 1
@@ -147,6 +148,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Caracal
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 630.0
     powertospeed: 1
@@ -239,6 +241,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Stabber
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 715.0
     powertospeed: 1
@@ -332,6 +335,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Moa
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 850.0
     powertospeed: 1
@@ -424,6 +428,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Maller
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -521,6 +526,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Augoror
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 650.0
     powertospeed: 1
@@ -614,6 +620,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Vexor
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 700.0
     powertospeed: 1
@@ -706,6 +713,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Thorax
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 860.0
     powertospeed: 1
@@ -799,6 +807,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Arbitrator
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 695.0
     powertospeed: 1
@@ -893,6 +902,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Rupture
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 860.0
     powertospeed: 1
@@ -987,6 +997,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Bellicose
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 780.0
     powertospeed: 1
@@ -1084,6 +1095,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Scythe
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 375.0
     powertospeed: 1
@@ -1178,6 +1190,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Blackbird
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 525.0
     powertospeed: 1
@@ -1271,6 +1284,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Celestis
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 575.0
     powertospeed: 1
@@ -1367,6 +1381,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Exequror
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 610.0
     powertospeed: 1
@@ -1459,6 +1474,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Omen
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1000.0
     powertospeed: 1
@@ -1555,6 +1571,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.25
     name: Guardian-Vexor
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 725.0
     powertospeed: 1
@@ -1650,6 +1667,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Caracal Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 900.0
     powertospeed: 1
@@ -1743,6 +1761,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Omen Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 960.0
     powertospeed: 1
@@ -1839,6 +1858,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Stabber Fleet Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 950.0
     powertospeed: 1
@@ -1936,6 +1956,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Gila
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 670.0
     powertospeed: 1
@@ -2034,6 +2055,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Phantasm
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 890.0
     powertospeed: 1
@@ -2133,6 +2155,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Cynabal
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 980.0
     powertospeed: 1
@@ -2231,6 +2254,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Vigilant
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1050.0
     powertospeed: 1
@@ -2328,6 +2352,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Vexor Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 850.0
     powertospeed: 1
@@ -2424,6 +2449,7 @@ types:
     mintargetveldmgmultiplier: 0.25
     name: Ashimmu
     nosoverride: 1
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1300.0
     powertospeed: 1
@@ -2526,6 +2552,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Scythe Fleet Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 745.0
     powertospeed: 1
@@ -2621,6 +2648,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Augoror Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -2718,6 +2746,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Osprey Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 730.0
     powertospeed: 1
@@ -2813,6 +2842,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Exequror Navy Issue
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1030.0
     powertospeed: 1
@@ -2910,6 +2940,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Stratios
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 920.0
     powertospeed: 1
@@ -3011,6 +3042,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Stratios Emergency Responder
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 950.0
     powertospeed: 1
@@ -3112,6 +3144,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Orthrus
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 800.0
     powertospeed: 1
@@ -3207,6 +3240,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Vedmak
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 1170.0
     powertospeed: 1
@@ -3302,6 +3336,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Rodiva
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 750.0
     powertospeed: 1
@@ -3396,6 +3431,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Stormbringer
+    packagedVolume: 10000.0
     portionSize: 1
     poweroutput: 970.0
     powertospeed: 1

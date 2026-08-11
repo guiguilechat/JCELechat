@@ -66,6 +66,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     name: Apostle
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 825000.0
     powertospeed: 1
@@ -186,6 +187,7 @@ types:
     maxvelocity: 75.0
     medslots: 7
     name: Minokawa
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 475000.0
     powertospeed: 1
@@ -306,6 +308,7 @@ types:
     maxvelocity: 85.0
     medslots: 6
     name: Lif
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 630000.0
     powertospeed: 1
@@ -426,6 +429,7 @@ types:
     maxvelocity: 80.0
     medslots: 5
     name: Ninazu
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 760000.0
     powertospeed: 1
@@ -549,6 +553,7 @@ types:
     metalevelold: 8.0
     name: Dagon
     nosoverride: 1
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 660000.0
     powertospeed: 1
@@ -675,6 +680,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Loggerhead
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 530000.0
     powertospeed: 1

@@ -52,6 +52,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Bantam
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 39.0
     powertospeed: 1
@@ -145,6 +146,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Condor
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -237,6 +239,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Griffin
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 28.0
     powertospeed: 1
@@ -328,6 +331,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Slasher
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 36.0
     powertospeed: 1
@@ -424,6 +428,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Probe
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -517,6 +522,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Rifter
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 41.0
     powertospeed: 1
@@ -609,6 +615,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Executioner
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -703,6 +710,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Inquisitor
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 51.0
     powertospeed: 1
@@ -796,6 +804,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Tormentor
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -891,6 +900,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Navitas
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 49.0
     powertospeed: 1
@@ -984,6 +994,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Tristan
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -1077,6 +1088,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Incursus
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -1168,6 +1180,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Punisher
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 67.0
     powertospeed: 1
@@ -1260,6 +1273,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Breacher
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 37.0
     powertospeed: 1
@@ -1354,6 +1368,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Burst
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -1446,6 +1461,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Kestrel
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -1536,6 +1552,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Merlin
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -1632,6 +1649,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Heron
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 24.0
     powertospeed: 1
@@ -1728,6 +1746,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Imicus
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 21.0
     powertospeed: 1
@@ -1821,6 +1840,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Atron
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 37.0
     powertospeed: 1
@@ -1914,6 +1934,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Maulus
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 28.0
     powertospeed: 1
@@ -2007,6 +2028,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Crucifier
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 27.0
     powertospeed: 1
@@ -2095,6 +2117,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 1.0
     name: Echelon
+    packagedVolume: 2500.0
     portionSize: 1
     powertospeed: 1
     propulsiongraphicid: 394
@@ -2179,6 +2202,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Vigil
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 26.0
     powertospeed: 1
@@ -2272,6 +2296,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Gold Magnate
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 65.0
     powertospeed: 1
@@ -2365,6 +2390,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Silver Magnate
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 60.0
     powertospeed: 1
@@ -2458,6 +2484,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Caldari Navy Hookbill
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 37.0
     powertospeed: 1
@@ -2551,6 +2578,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Imperial Navy Slicer
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -2644,6 +2672,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Republic Fleet Firetail
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -2740,6 +2769,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Federation Navy Comet
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -2833,6 +2863,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Succubus
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -2932,6 +2963,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     name: Cruor
     nosoverride: 1
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 57.0
     powertospeed: 1
@@ -3029,6 +3061,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Daredevil
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -3128,6 +3161,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Worm
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -3227,6 +3261,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Dramiel
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 37.0
     powertospeed: 1
@@ -3327,6 +3362,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Magnate
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 26.0
     powertospeed: 1
@@ -3429,6 +3465,7 @@ types:
     miningfrigatesbonusoreminingyield: 5
     mintargetveldmgmultiplier: 0.05
     name: Venture
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -3528,6 +3565,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Astero
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 32.0
     powertospeed: 1
@@ -3627,6 +3665,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Garmur
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -3725,6 +3764,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Crucifier Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 42.0
     powertospeed: 1
@@ -3820,6 +3860,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Vigil Fleet Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -3918,6 +3959,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Griffin Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -4015,6 +4057,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Maulus Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -4109,6 +4152,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Damavik
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 55.0
     powertospeed: 1
@@ -4202,6 +4246,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Skybreaker
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 44.0
     powertospeed: 1
@@ -4294,6 +4339,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Probe Fleet Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -4389,6 +4435,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Heron Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -4483,6 +4530,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Magnate Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 49.0
     powertospeed: 1
@@ -4579,6 +4627,7 @@ types:
     miniprofessionrangebonus: 50
     mintargetveldmgmultiplier: 0.05
     name: Imicus Navy Issue
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 39.0
     powertospeed: 1
@@ -4677,6 +4726,7 @@ types:
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05
     name: Metamorphosis
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -4787,6 +4837,7 @@ types:
     name: Venture Consortium Issue
     oreexecutiverolebonussalvagedroneadditionalaccessdifficulty: 10
     oreminingfrigateexecutiveshieldboostershipbonus: 10
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 48.0
     powertospeed: 1

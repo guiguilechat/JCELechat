@@ -68,6 +68,7 @@ types:
     maxvelocity: 70.0
     medslots: 6
     name: Erebus
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 1050000.0
     powertospeed: 1
@@ -187,6 +188,7 @@ types:
     maxvelocity: 60.0
     medslots: 8
     name: Leviathan
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 755000.0
     powertospeed: 1
@@ -306,6 +308,7 @@ types:
     maxvelocity: 60.0
     medslots: 5
     name: Avatar
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 1250000.0
     powertospeed: 1
@@ -423,6 +426,7 @@ types:
     maxvelocity: 80.0
     medslots: 7
     name: Ragnarok
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 965000.0
     powertospeed: 1
@@ -543,6 +547,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Vanquisher
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 1155000.0
     powertospeed: 1
@@ -668,6 +673,7 @@ types:
     metalevelold: 8.0
     name: Molok
     nosoverride: 1
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 1375000.0
     powertospeed: 1
@@ -798,6 +804,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Komodo
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 840000.0
     powertospeed: 1
@@ -922,6 +929,7 @@ types:
     maxvelocity: 95.0
     medslots: 7
     name: Azariel
+    packagedVolume: 10000000.0
     portionSize: 1
     poweroutput: 1065000.0
     powertospeed: 1

@@ -13,6 +13,7 @@ types:
     metalevelold: 8.0
     name: CONCORD XL Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -38,6 +39,7 @@ types:
     marketGroup: 777
     name: XL Torpedo Launcher I
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -57,7 +59,7 @@ types:
     chargegroup2: 1677
     chargerate: 1
     cpu: 165.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.5
     hp: 40.0
     id: 37294
@@ -65,6 +67,7 @@ types:
     metalevelold: 5.0
     name: XL Torpedo Launcher II
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -93,6 +96,7 @@ types:
     metalevelold: 1.0
     name: Arbalest Compact XL Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -119,6 +123,7 @@ types:
     metalevelold: 1.0
     name: TE-2100 Ample XL Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -147,6 +152,7 @@ types:
     metalevelold: 8.0
     name: Dread Guristas XL Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true

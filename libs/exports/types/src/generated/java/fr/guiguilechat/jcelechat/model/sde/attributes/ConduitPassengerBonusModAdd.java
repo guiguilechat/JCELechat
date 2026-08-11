@@ -3,10 +3,10 @@ package fr.guiguilechat.jcelechat.model.sde.attributes;
 import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
-public class ConduitPassengerBonusPercent
+public class ConduitPassengerBonusModAdd
     extends IntAttribute
 {
-    public static final ConduitPassengerBonusPercent INSTANCE = new ConduitPassengerBonusPercent();
+    public static final ConduitPassengerBonusModAdd INSTANCE = new ConduitPassengerBonusModAdd();
 
     @Override
     public int getId() {
@@ -35,6 +35,6 @@ public class ConduitPassengerBonusPercent
 
     @Override
     public String toString() {
-        return "ConduitPassengerBonusPercent";
+        return "ConduitPassengerBonusModAdd";
     }
 }

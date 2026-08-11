@@ -679,6 +679,7 @@ types:
     marketGroup: 2240
     massaddition: 80000000
     name: 25000mm Steel Plates I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -695,6 +696,7 @@ types:
     massaddition: 68000000
     metalevelold: 1.0
     name: 25000mm Crystalline Carbonide Restrained Plates
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -711,6 +713,7 @@ types:
     massaddition: 80000000
     metalevelold: 1.0
     name: 25000mm Rolled Tungsten Compact Plates
+    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
@@ -727,6 +730,7 @@ types:
     massaddition: 88000000
     metalevelold: 5.0
     name: 25000mm Steel Plates II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -744,6 +748,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: CONCORD 25000mm Steel Plates
+    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
@@ -761,6 +766,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Dark Blood 25000mm Steel Plates
+    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true
@@ -778,6 +784,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Shadow Serpentis 25000mm Steel Plates
+    packagedVolume: 1000.0
     portionSize: 1
     power: 85000
     published: true

@@ -6,6 +6,7 @@ types:
     marketGroup: 1652
     mass: 10000.0
     name: Small Audit Log Secure Container
+    packagedVolume: 10.0
     portionSize: 1
     price: 50000.0
     published: true
@@ -21,6 +22,7 @@ types:
     marketGroup: 1652
     mass: 100000.0
     name: Medium Audit Log Secure Container
+    packagedVolume: 33.0
     portionSize: 1
     price: 145000.0
     published: true
@@ -36,6 +38,7 @@ types:
     marketGroup: 1652
     mass: 1000000.0
     name: Large Audit Log Secure Container
+    packagedVolume: 65.0
     portionSize: 1
     price: 310000.0
     published: true
@@ -51,6 +54,7 @@ types:
     marketGroup: 1658
     mass: 3000000.0
     name: Station Container
+    packagedVolume: 10000.0
     portionSize: 1
     price: 10000.0
     published: true
@@ -64,6 +68,7 @@ types:
     marketGroup: 1658
     mass: 6000000.0
     name: Station Vault Container
+    packagedVolume: 50000.0
     portionSize: 1
     price: 100000.0
     published: true
@@ -77,6 +82,7 @@ types:
     marketGroup: 1658
     mass: 18000000.0
     name: Station Warehouse Container
+    packagedVolume: 100000.0
     portionSize: 1
     price: 1000000.0
     published: true

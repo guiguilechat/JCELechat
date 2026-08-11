@@ -50983,7 +50983,7 @@ locations:
     isWormhole: false
     name: Egghelende
     region: Sinq Laison
-    truesec: 0.449268
+    truesec: 0.448268
   Eggheron:
     adjacentConstellations:
     - Ganoure
@@ -52263,7 +52263,7 @@ locations:
     isWormhole: false
     name: Erstet
     region: Metropolis
-    truesec: 0.449402
+    truesec: 0.448402
   Erstur:
     adjacentSystems:
     - Aldrat
@@ -60203,7 +60203,7 @@ locations:
     isWormhole: false
     name: Galeh
     region: Domain
-    truesec: 0.449164
+    truesec: 0.448164
   Gallant:
     adjacentConstellations:
     - 2nd Accord District
@@ -139739,7 +139739,7 @@ locations:
     isWormhole: false
     name: Liparer
     region: Kor-Azor
-    truesec: 0.449136
+    truesec: 0.448136
   Lirerim:
     adjacentConstellations:
     - Meinigefur
@@ -150273,7 +150273,7 @@ locations:
     isWormhole: false
     name: Neziel
     region: Domain
-    truesec: 0.449944
+    truesec: 0.448944
   Niarja:
     adjacentSystems:
     - Harva
@@ -159190,7 +159190,7 @@ locations:
     isWormhole: false
     name: Palmon
     region: Essence
-    truesec: 0.44971
+    truesec: 0.44871
   Palpis:
     adjacentSystems:
     - Arveyil
@@ -168142,7 +168142,7 @@ locations:
     isWormhole: false
     name: Rilera
     region: Khanid
-    truesec: 0.449848
+    truesec: 0.448848
   Rimbah:
     adjacentSystems:
     - Arodan

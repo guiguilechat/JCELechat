@@ -58,6 +58,7 @@ types:
     name: CONCORD Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 71250
     published: true
@@ -1861,6 +1862,7 @@ types:
     name: Capital Shield Booster I
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -1884,6 +1886,7 @@ types:
     name: Capital C-5L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true
@@ -1907,6 +1910,7 @@ types:
     name: Capital Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -1921,7 +1925,7 @@ types:
     capacitorneed: 2880.0
     cpu: 330.0
     duration: 10000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 3.3
     hp: 40.0
     id: 41507
@@ -1930,6 +1934,7 @@ types:
     name: Capital Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 82500
     published: true
@@ -1954,6 +1959,7 @@ types:
     name: True Sansha Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true
@@ -1978,6 +1984,7 @@ types:
     name: Dread Guristas Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 71250
     published: true
@@ -2002,6 +2009,7 @@ types:
     name: Domination Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true

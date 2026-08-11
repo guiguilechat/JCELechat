@@ -51,6 +51,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Paladin
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16000.0
     powertospeed: 1
@@ -146,6 +147,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Kronos
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 14000.0
     powertospeed: 1
@@ -242,6 +244,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Vargur
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 12900.0
     powertospeed: 1
@@ -338,6 +341,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Golem
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 8500.0
     powertospeed: 1
@@ -432,6 +436,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Babaroga
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17500.0
     powertospeed: 1

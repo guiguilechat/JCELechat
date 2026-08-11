@@ -95,7 +95,7 @@ types:
     capacitorneed: 513.0
     cpu: 72.0
     duration: 6000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 49773

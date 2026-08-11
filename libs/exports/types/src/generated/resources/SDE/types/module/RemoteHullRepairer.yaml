@@ -4,7 +4,7 @@ types:
     cpu: 99.0
     duration: 6000.0
     falloffeffectiveness: 8400
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 3986
@@ -29,7 +29,7 @@ types:
     cpu: 75.0
     duration: 6000.0
     falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 4296
@@ -54,7 +54,7 @@ types:
     cpu: 50.0
     duration: 6000.0
     falloffeffectiveness: 6000
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 4299
@@ -160,6 +160,7 @@ types:
     maxrange: 15000.0
     name: Capital Remote Hull Repairer I
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 13359116.0
@@ -177,7 +178,7 @@ types:
     cpu: 110.0
     duration: 12000.0
     falloffeffectiveness: 9600
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.0
     hp: 40.0
     id: 41475
@@ -187,6 +188,7 @@ types:
     metalevelold: 5.0
     name: Capital Remote Hull Repairer II
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 13359116.0

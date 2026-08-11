@@ -55,6 +55,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Odysseus
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 1175.0
     powertospeed: 1

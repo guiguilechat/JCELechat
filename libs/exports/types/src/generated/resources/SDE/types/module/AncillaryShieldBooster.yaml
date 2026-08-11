@@ -123,6 +123,7 @@ types:
     name: Capital Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -207,6 +208,7 @@ types:
     name: Xarasier Capital Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 67500
     published: true

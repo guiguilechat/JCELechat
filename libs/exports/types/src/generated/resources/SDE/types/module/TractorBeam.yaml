@@ -37,6 +37,7 @@ types:
     maxtractorvelocity: 3600
     metalevelold: 5.0
     name: Capital Tractor Beam II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 55000
     price: 1555840.0
@@ -84,6 +85,7 @@ types:
     maxrange: 200000.0
     maxtractorvelocity: 3000
     name: Capital Tractor Beam I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     price: 1555840.0
@@ -133,6 +135,7 @@ types:
     maxtractorvelocity: 4200
     metalevelold: 8.0
     name: Consortium Capital Tractor Beam
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     price: 1555840.0

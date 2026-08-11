@@ -49,6 +49,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Deacon
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 57.0
     powertospeed: 1
@@ -141,6 +142,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Kirin
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 42.0
     powertospeed: 1
@@ -234,6 +236,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Thalia
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 55.0
     powertospeed: 1
@@ -327,6 +330,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Scalpel
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 42.0
     powertospeed: 1

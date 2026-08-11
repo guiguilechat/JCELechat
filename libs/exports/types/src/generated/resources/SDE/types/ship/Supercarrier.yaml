@@ -14,7 +14,6 @@ types:
     capacitorcapacity: 90000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 950
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -75,6 +74,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Revenant
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 625000.0
     powertospeed: 1
@@ -146,7 +146,6 @@ types:
     capacitorcapacity: 78000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 950
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -205,6 +204,7 @@ types:
     maxvelocity: 85.0
     medslots: 7
     name: Hel
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 650000.0
     powertospeed: 1
@@ -273,7 +273,6 @@ types:
     capacitorcapacity: 81000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 800
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -332,6 +331,7 @@ types:
     maxvelocity: 80.0
     medslots: 5
     name: Nyx
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 825000.0
     powertospeed: 1
@@ -399,7 +399,6 @@ types:
     capacitorcapacity: 80000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 975
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -458,6 +457,7 @@ types:
     maxvelocity: 75.0
     medslots: 8
     name: Wyvern
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 550000.0
     powertospeed: 1
@@ -525,7 +525,6 @@ types:
     capacitorcapacity: 90000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 725
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -584,6 +583,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     name: Aeon
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 925000.0
     powertospeed: 1
@@ -651,7 +651,6 @@ types:
     capacitorcapacity: 85900.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 880
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -712,6 +711,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Vendetta
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 907500.0
     powertospeed: 1

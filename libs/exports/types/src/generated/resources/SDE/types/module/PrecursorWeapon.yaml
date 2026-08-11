@@ -207,7 +207,7 @@ types:
     damagemultiplier: 0.96
     damagemultiplierbonusmax: 2.125
     damagemultiplierbonuspercycle: 0.07
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 47914
@@ -370,7 +370,7 @@ types:
     damagemultiplier: 0.96
     damagemultiplierbonusmax: 2.125
     damagemultiplierbonuspercycle: 0.07
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 47918
@@ -526,7 +526,7 @@ types:
     damagemultiplier: 0.96
     damagemultiplierbonusmax: 2.125
     damagemultiplierbonuspercycle: 0.07
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 47922
@@ -762,7 +762,7 @@ types:
     damagemultiplier: 0.8
     damagemultiplierbonusmax: 1.5
     damagemultiplierbonuspercycle: 0.05
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 13.3
     hp: 40.0
     id: 92514

@@ -48,6 +48,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Crow
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -142,6 +143,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Raptor
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1
@@ -234,6 +236,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Crusader
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 48.0
     powertospeed: 1
@@ -326,6 +329,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Malediction
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 36.0
     powertospeed: 1
@@ -420,6 +424,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Claw
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -513,6 +518,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Stiletto
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 30.0
     powertospeed: 1
@@ -609,6 +615,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Taranis
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -701,6 +708,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Ares
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 33.0
     powertospeed: 1
@@ -798,6 +806,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Whiptail
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 35.0
     powertospeed: 1
@@ -894,6 +903,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.05
     name: Imp
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1

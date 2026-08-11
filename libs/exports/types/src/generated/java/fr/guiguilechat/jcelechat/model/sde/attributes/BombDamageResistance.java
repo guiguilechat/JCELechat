@@ -25,7 +25,7 @@ public class BombDamageResistance
 
     @Override
     public boolean getPublished() {
-        return false;
+        return true;
     }
 
     @Override

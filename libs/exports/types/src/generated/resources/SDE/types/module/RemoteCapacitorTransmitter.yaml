@@ -65,6 +65,7 @@ types:
     metalevelold: 8.0
     name: CONCORD Capital Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1300
@@ -195,6 +196,7 @@ types:
     maxrange: 16000.0
     name: Capital Remote Capacitor Transmitter I
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1000
@@ -239,7 +241,7 @@ types:
     capacitorneed: 2700.0
     cpu: 110.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.5
     hp: 40.0
     id: 12223
@@ -249,6 +251,7 @@ types:
     metalevelold: 5.0
     name: Capital Remote Capacitor Transmitter II
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     powertransferamount: 1300
@@ -892,6 +895,7 @@ types:
     metalevelold: 1.0
     name: Capital Radiative Scoped Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     powertransferamount: 1100
@@ -920,6 +924,7 @@ types:
     metalevelold: 1.0
     name: Capital Inductive Compact Remote Capacitor Transmitter
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     powertransferamount: 1100

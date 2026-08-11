@@ -114,6 +114,7 @@ types:
     name: Capital Ancillary Remote Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
+    packagedVolume: 1000.0
     portionSize: 1
     power: 97500
     price: 24659510.0

@@ -28,6 +28,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 5.0
     name: Siege Module II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 105000
     price: 47022756.0
@@ -86,6 +87,7 @@ types:
     maxlockedtargetsbonus: 5
     metalevelold: 5.0
     name: Triage Module II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 105000
     price: 47022756.0
@@ -139,6 +141,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Siege Module I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 47022756.0
@@ -196,6 +199,7 @@ types:
     maxgroupfitted: 1
     maxlockedtargetsbonus: 4
     name: Triage Module I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 47022756.0
@@ -258,6 +262,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: Capital Industrial Core I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 80000000.0
@@ -375,6 +380,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 5.0
     name: Capital Industrial Core II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 150000
     price: 208000000.0
@@ -668,6 +674,7 @@ types:
     maxgroupfitted: 1
     metalevelold: 5.0
     name: Strategos' Modified Siege Module
+    packagedVolume: 1000.0
     portionSize: 1
     power: 120000
     published: true

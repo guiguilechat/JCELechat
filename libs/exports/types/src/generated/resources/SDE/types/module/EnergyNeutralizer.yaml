@@ -1263,6 +1263,7 @@ types:
     maxrange: 30000.0
     name: Capital Energy Neutralizer I
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     published: true
@@ -1291,6 +1292,7 @@ types:
     metalevelold: 1.0
     name: Capital Gremlin Compact Energy Neutralizer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
     published: true
@@ -1319,6 +1321,7 @@ types:
     metalevelold: 1.0
     name: Capital Infectious Scoped Energy Neutralizer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     published: true
@@ -1337,7 +1340,7 @@ types:
     entitycapacitorlevelmodifiermedium: 0.53
     entitycapacitorlevelmodifiersmall: 0.318
     falloffeffectiveness: 18000
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.6
     hp: 40.0
     id: 40662
@@ -1347,6 +1350,7 @@ types:
     metalevelold: 5.0
     name: Capital Energy Neutralizer II
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -1376,6 +1380,7 @@ types:
     metalevelold: 8.0
     name: True Sansha Capital Energy Neutralizer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -1405,6 +1410,7 @@ types:
     metalevelold: 8.0
     name: Dark Blood Capital Energy Neutralizer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -1501,7 +1507,7 @@ types:
     entitycapacitorlevelmodifiermedium: 0.858333333
     entitycapacitorlevelmodifiersmall: 0.5
     falloffeffectiveness: 9000
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 3.2
     hp: 40.0
     id: 84992

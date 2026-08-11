@@ -363,7 +363,7 @@ types:
     duration: 10000.0
     explosiondelaybonus: -10.0
     falloffeffectiveness: 26000
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 3.4
     hp: 40.0
     id: 92451

@@ -413,6 +413,7 @@ types:
     id: 40354
     marketGroup: 2241
     name: Capital Shield Extender I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -429,6 +430,7 @@ types:
     marketGroup: 2241
     metalevelold: 1.0
     name: Capital Azeotropic Restrained Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     published: true
@@ -445,6 +447,7 @@ types:
     marketGroup: 2241
     metalevelold: 1.0
     name: Capital F-S9 Regolith Compact Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
@@ -461,6 +464,7 @@ types:
     marketGroup: 2241
     metalevelold: 5.0
     name: Capital Shield Extender II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 82500
     published: true
@@ -478,6 +482,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: CONCORD Capital Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
@@ -495,6 +500,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: True Sansha Capital Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
@@ -512,6 +518,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Dread Guristas Capital Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true
@@ -529,6 +536,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Domination Capital Shield Extender
+    packagedVolume: 1000.0
     portionSize: 1
     power: 62500
     published: true

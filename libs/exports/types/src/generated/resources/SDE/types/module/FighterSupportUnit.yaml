@@ -15,6 +15,7 @@ types:
     marketGroup: 938
     mass: 200.0
     name: Fighter Support Unit I
+    packagedVolume: 1000.0
     portionSize: 1
     power: 75000
     price: 15000000.0
@@ -145,6 +146,7 @@ types:
     mass: 200.0
     metalevelold: 1.0
     name: Hermes Compact Fighter Support Unit
+    packagedVolume: 1000.0
     portionSize: 1
     power: 60000
     price: 15000000.0
@@ -171,6 +173,7 @@ types:
     mass: 200.0
     metalevelold: 5.0
     name: Fighter Support Unit II
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     published: true
@@ -197,6 +200,7 @@ types:
     metagroupid: 4
     metalevelold: 8.0
     name: Sentient Fighter Support Unit
+    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     price: 15000000.0

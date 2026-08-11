@@ -899,6 +899,7 @@ types:
     maxgrouponline: 10
     name: Capital Capacitor Booster I
     overloadselfdurationbonus: -20.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 120000
     price: 70258.0
@@ -923,6 +924,7 @@ types:
     metalevelold: 1.0
     name: Capital F-RX Compact Capacitor Booster
     overloadselfdurationbonus: -20.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 108000
     price: 70258.0
@@ -938,7 +940,7 @@ types:
     chargerate: 1
     cpu: 66.0
     duration: 12000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 4.0
     hp: 40.0
     id: 41493
@@ -947,6 +949,7 @@ types:
     metalevelold: 5.0
     name: Capital Capacitor Booster II
     overloadselfdurationbonus: -20.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 132000
     price: 70258.0
@@ -972,6 +975,7 @@ types:
     metalevelold: 8.0
     name: Dark Blood Capital Capacitor Booster
     overloadselfdurationbonus: -20.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 70258.0
@@ -997,6 +1001,7 @@ types:
     metalevelold: 8.0
     name: True Sansha Capital Capacitor Booster
     overloadselfdurationbonus: -20.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 70258.0

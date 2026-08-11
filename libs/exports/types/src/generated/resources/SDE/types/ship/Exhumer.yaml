@@ -63,6 +63,7 @@ types:
     miningbargebonusoreminingyield: 3
     mintargetveldmgmultiplier: 0.05
     name: Hulk
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 110.0
     powertospeed: 1
@@ -166,6 +167,7 @@ types:
     miningbargebonusshieldcapacity: 6
     mintargetveldmgmultiplier: 0.05
     name: Skiff
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 176.0
     powertospeed: 1
@@ -269,6 +271,7 @@ types:
     miningbargebonusoreminingyield: 3
     mintargetveldmgmultiplier: 0.05
     name: Mackinaw
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 110.0
     powertospeed: 1

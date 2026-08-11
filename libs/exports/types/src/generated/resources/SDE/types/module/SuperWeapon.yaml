@@ -26,6 +26,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Gjallarhorn'' Explosive Doomsday'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240435272.0
@@ -66,6 +67,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Judgment'' Electromagnetic Doomsday'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240727880.0
@@ -106,6 +108,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Oblivion'' Kinetic Doomsday'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -147,6 +150,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     name: '''Aurora Ominae'' Thermal Doomsday'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240950758.0
@@ -200,6 +204,7 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Holy Destiny'' Electromagnetic Lance'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -252,6 +257,7 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Divine Harvest'' Electromagnetic Reaper'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -304,6 +310,7 @@ types:
     maxgroupfitted: 1
     maxrange: 30000.0
     name: Bosonic Field Generator
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -351,6 +358,7 @@ types:
     maxgroupfitted: 1
     maxrange: 100000.0
     name: Gravitational Transportation Field Oscillator
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 500000000.0
@@ -403,6 +411,7 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Iron Pike'' Kinetic Lance'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -456,6 +465,7 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Phalarica'' Thermal Lance'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -511,6 +521,7 @@ types:
     maxgroupfitted: 1
     maxrange: 200000.0
     name: '''Geiravor'' Explosive Lance'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -563,6 +574,7 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Cold Wind'' Kinetic Reaper'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -616,6 +628,7 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Guillotine'' Thermal Reaper'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0
@@ -671,6 +684,7 @@ types:
     maxgroupfitted: 1
     maxrange: 150000.0
     name: '''Jormungandr'' Explosive Reaper'
+    packagedVolume: 2000.0
     portionSize: 1
     power: 100000
     price: 240947786.0

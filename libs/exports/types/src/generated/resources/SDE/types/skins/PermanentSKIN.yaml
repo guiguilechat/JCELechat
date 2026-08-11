@@ -40837,3 +40837,66 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  96040:
+    id: 96040
+    marketGroup: 2278
+    name: Apostle Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96041:
+    id: 96041
+    marketGroup: 1964
+    name: Apocalypse Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96042:
+    id: 96042
+    marketGroup: 2387
+    name: Amarr Shuttle Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96043:
+    id: 96043
+    marketGroup: 3497
+    name: Dragoon Navy Issue Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96044:
+    id: 96044
+    marketGroup: 1956
+    name: Harbinger Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96045:
+    id: 96045
+    marketGroup: 2002
+    name: Tormentor Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96046:
+    id: 96046
+    marketGroup: 2007
+    name: Sigil Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96047:
+    id: 96047
+    marketGroup: 1990
+    name: Augoror Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96048:
+    id: 96048
+    marketGroup: 1994
+    name: Coercer Khanid Cyber Knight SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01

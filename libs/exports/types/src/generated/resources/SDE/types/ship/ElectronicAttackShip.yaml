@@ -47,6 +47,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Keres
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 33.0
     powertospeed: 1
@@ -138,6 +139,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Sentinel
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 40.0
     powertospeed: 1
@@ -226,6 +228,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Kitsune
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 30.0
     powertospeed: 1
@@ -315,6 +318,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.05
     name: Hyena
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 36.0
     powertospeed: 1
@@ -405,6 +409,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.05
     name: Raiju
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 38.0
     powertospeed: 1

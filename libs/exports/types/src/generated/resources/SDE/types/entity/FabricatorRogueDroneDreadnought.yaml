@@ -6,10 +6,15 @@ types:
     armorhp: 57000.0
     armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.6
+    behaviorenergyneutralizerdischarge: 2700.0
+    behaviorenergyneutralizerduration: 48000
+    behaviorenergyneutralizerfalloff: 27000.0
+    behaviorenergyneutralizerrange: 54000.0
     bombdamageresistance: 0.05
-    capacitorcapacity: 19200.0
+    capacitorcapacity: 24000.0
     chainlightningdamageresistance: 0.05
-    emdamage: 5700.0
+    emdamage: 6840.0
+    energyneutralizeramount: 4400.0
     entitycruisespeed: 100.0
     entityfactionloss: 0.36
     falloff: 90000.0
@@ -40,6 +45,6 @@ types:
     shielduniformity: 0.75
     signatureradius: 1600.0
     smartbombdamageresistance: 0.05
-    speed: 2700.0
-    thermaldamage: 3800.0
+    speed: 3000.0
+    thermaldamage: 4560.0
     trackingspeed: 10.0

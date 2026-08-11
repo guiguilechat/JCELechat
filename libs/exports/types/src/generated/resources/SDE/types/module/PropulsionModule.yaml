@@ -3178,6 +3178,7 @@ types:
     maxgroupactive: 1
     name: 10000MN Afterburner I
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
     price: 30000000.0
@@ -3213,6 +3214,7 @@ types:
     metalevelold: 1.0
     name: 10000MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 30000
     price: 30000000.0
@@ -3248,6 +3250,7 @@ types:
     metalevelold: 1.0
     name: 10000MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
     price: 30000000.0
@@ -3283,6 +3286,7 @@ types:
     metalevelold: 5.0
     name: 10000MN Afterburner II
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 40000
     price: 30000000.0
@@ -3319,6 +3323,7 @@ types:
     metalevelold: 8.0
     name: Domination 10000MN Afterburner
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 40000
     price: 30000000.0
@@ -3355,6 +3360,7 @@ types:
     metalevelold: 8.0
     name: Shadow Serpentis 10000MN Afterburner
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 35000
     price: 30000000.0
@@ -3390,6 +3396,7 @@ types:
     maxgroupactive: 1
     name: 50000MN Microwarpdrive I
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
     price: 60000000.0
@@ -3427,6 +3434,7 @@ types:
     metalevelold: 1.0
     name: 50000MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 60000
     price: 60000000.0
@@ -3464,6 +3472,7 @@ types:
     metalevelold: 1.0
     name: 50000MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
     price: 60000000.0
@@ -3501,6 +3510,7 @@ types:
     metalevelold: 1.0
     name: 50000MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
     price: 60000000.0
@@ -3538,6 +3548,7 @@ types:
     metalevelold: 5.0
     name: 50000MN Microwarpdrive II
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     published: true
@@ -3575,6 +3586,7 @@ types:
     metalevelold: 8.0
     name: Domination 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 80000
     price: 60000000.0
@@ -3613,6 +3625,7 @@ types:
     metalevelold: 8.0
     name: Shadow Serpentis 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
+    packagedVolume: 1000.0
     portionSize: 1
     power: 70000
     price: 60000000.0

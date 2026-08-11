@@ -47,6 +47,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Utu
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 47.0
     powertospeed: 1
@@ -135,6 +136,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Malice
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 77.0
     powertospeed: 1
@@ -228,6 +230,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Vengeance
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 46.0
     powertospeed: 1
@@ -319,6 +322,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Wolf
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 48.0
     powertospeed: 1
@@ -411,6 +415,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Hawk
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 45.0
     powertospeed: 1
@@ -503,6 +508,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Harpy
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -594,6 +600,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Retribution
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 62.0
     powertospeed: 1
@@ -687,6 +694,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Jaguar
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 39.0
     powertospeed: 1
@@ -780,6 +788,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Ishkur
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -874,6 +883,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Enyo
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -962,6 +972,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Freki
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 54.0
     powertospeed: 1
@@ -1054,6 +1065,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Cambion
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 63.0
     powertospeed: 1
@@ -1148,6 +1160,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Nergal
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 55.0
     powertospeed: 1
@@ -1244,6 +1257,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     mwdsignatureradiusbonus: -50
     name: Geri
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -1339,6 +1353,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.05
     name: Shapash
+    packagedVolume: 2500.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1

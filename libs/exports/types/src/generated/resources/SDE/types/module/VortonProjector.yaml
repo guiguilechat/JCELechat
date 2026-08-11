@@ -130,7 +130,7 @@ types:
     chargesize: 1
     cpu: 107.0
     damagemultiplier: 1.2
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 54742
@@ -333,7 +333,7 @@ types:
     chargesize: 2
     cpu: 222.0
     damagemultiplier: 1.2
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 54748
@@ -536,7 +536,7 @@ types:
     chargesize: 3
     cpu: 781.0
     damagemultiplier: 1.2
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 54753

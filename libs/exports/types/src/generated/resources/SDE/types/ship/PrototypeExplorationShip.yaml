@@ -34,6 +34,7 @@ types:
     maxvelocity: 300.0
     metalevelold: 6.0
     name: Zephyr
+    packagedVolume: 500.0
     portionSize: 1
     powertospeed: 1
     price: 17000.0

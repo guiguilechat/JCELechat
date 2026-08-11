@@ -49,6 +49,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Raven
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 11000.0
     powertospeed: 1
@@ -144,6 +145,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.5
     name: Tempest
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16000.0
     powertospeed: 1
@@ -238,6 +240,7 @@ types:
     medslots: 8
     mintargetveldmgmultiplier: 0.5
     name: Scorpion
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 9500.0
     powertospeed: 1
@@ -331,6 +334,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Megathron
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 15500.0
     powertospeed: 1
@@ -425,6 +429,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Apocalypse
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 21000.0
     powertospeed: 1
@@ -519,6 +524,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Armageddon
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 13500.0
     powertospeed: 1
@@ -613,6 +619,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.5
     name: Typhoon
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 12500.0
     powertospeed: 1
@@ -706,6 +713,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.5
     name: Dominix
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 10000.0
     powertospeed: 1
@@ -802,6 +810,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.5
     name: Apocalypse Imperial Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 23400.0
     powertospeed: 1
@@ -896,6 +905,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.5
     name: Armageddon Imperial Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 21000.0
     powertospeed: 1
@@ -991,6 +1001,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.5
     name: Megathron Federate Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18600.0
     powertospeed: 1
@@ -1088,6 +1099,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Raven Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 12000.0
     powertospeed: 1
@@ -1183,6 +1195,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Apocalypse Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 22000.0
     powertospeed: 1
@@ -1279,6 +1292,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Megathron Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16275.0
     powertospeed: 1
@@ -1377,6 +1391,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Tempest Fleet Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17500.0
     powertospeed: 1
@@ -1472,6 +1487,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Nightmare
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 14500.0
     powertospeed: 1
@@ -1572,6 +1588,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Machariel
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17950.0
     powertospeed: 1
@@ -1671,6 +1688,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Vindicator
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17500.0
     powertospeed: 1
@@ -1770,6 +1788,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Rattlesnake
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 10000.0
     powertospeed: 1
@@ -1869,6 +1888,7 @@ types:
     mintargetveldmgmultiplier: 0.5
     name: Bhaalgorn
     nosoverride: 1
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18400.0
     powertospeed: 1
@@ -1965,6 +1985,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Rokh
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 15000.0
     powertospeed: 1
@@ -2059,6 +2080,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.5
     name: Hyperion
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16000.0
     powertospeed: 1
@@ -2154,6 +2176,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Abaddon
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 21000.0
     powertospeed: 1
@@ -2247,6 +2270,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Maelstrom
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18000.0
     powertospeed: 1
@@ -2343,6 +2367,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.5
     name: Raven State Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 11400.0
     powertospeed: 1
@@ -2440,6 +2465,7 @@ types:
     metalevelold: 9.0
     mintargetveldmgmultiplier: 0.5
     name: Tempest Tribal Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18600.0
     powertospeed: 1
@@ -2536,6 +2562,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Armageddon Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16000.0
     powertospeed: 1
@@ -2631,6 +2658,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Dominix Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 14500.0
     powertospeed: 1
@@ -2729,6 +2757,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Scorpion Navy Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 11000.0
     powertospeed: 1
@@ -2825,6 +2854,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.5
     name: Typhoon Fleet Issue
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 13000.0
     powertospeed: 1
@@ -2923,6 +2953,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Nestor
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 11250.0
     powertospeed: 1
@@ -3025,6 +3056,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.5
     name: Barghest
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 11600.0
     powertospeed: 1
@@ -3121,6 +3153,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Leshak
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17000.0
     powertospeed: 1
@@ -3216,6 +3249,7 @@ types:
     metalevelold: 4.0
     mintargetveldmgmultiplier: 0.5
     name: Praxis
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 15000.0
     powertospeed: 1
@@ -3311,6 +3345,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.5
     name: Thunderchild
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 16500.0
     powertospeed: 1

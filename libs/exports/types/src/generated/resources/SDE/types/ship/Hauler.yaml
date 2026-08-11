@@ -45,6 +45,7 @@ types:
     maxvelocity: 127.0
     medslots: 6
     name: Badger
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 185.0
     powertospeed: 1
@@ -134,6 +135,7 @@ types:
     maxvelocity: 115.0
     medslots: 5
     name: Tayra
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 80.0
     powertospeed: 1
@@ -222,6 +224,7 @@ types:
     maxvelocity: 130.0
     medslots: 5
     name: Nereus
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 215.0
     powertospeed: 1
@@ -311,6 +314,7 @@ types:
     medslots: 4
     minmatarindustrialbonusgasholdcapacity: 10
     name: Hoarder
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 180.0
     powertospeed: 1
@@ -400,6 +404,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Mammoth
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 80.0
     powertospeed: 1
@@ -486,6 +491,7 @@ types:
     maxvelocity: 140.0
     medslots: 5
     name: Wreathe
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 200.0
     powertospeed: 1
@@ -575,6 +581,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Kryos
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 110.0
     powertospeed: 1
@@ -664,6 +671,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Epithal
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 130.0
     powertospeed: 1
@@ -755,6 +763,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Miasmos
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 120.0
     powertospeed: 1
@@ -841,6 +850,7 @@ types:
     maxvelocity: 105.0
     medslots: 4
     name: Iteron Mark V
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 85.0
     powertospeed: 1
@@ -927,6 +937,7 @@ types:
     maxvelocity: 110.0
     medslots: 3
     name: Bestower
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 90.0
     powertospeed: 1
@@ -1009,6 +1020,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 200.0
     name: Primae
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 175.0
     powertospeed: 1
@@ -1093,6 +1105,7 @@ types:
     maxvelocity: 155.0
     medslots: 2
     name: Noctis
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 250.0
     powertospeed: 1
@@ -1184,6 +1197,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Miasmos Quafe Ultra Edition
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -1271,6 +1285,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Miasmos Quafe Ultramarine Edition
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -1358,6 +1373,7 @@ types:
     maxvelocity: 125.0
     medslots: 4
     name: Sigil
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 250.0
     powertospeed: 1
@@ -1446,6 +1462,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     name: Miasmos Amastris Edition
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -1534,6 +1551,7 @@ types:
     maxvelocity: 175.0
     medslots: 5
     name: Squall
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 250.0
     powertospeed: 1

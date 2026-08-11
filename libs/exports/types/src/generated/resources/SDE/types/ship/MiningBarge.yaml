@@ -56,6 +56,7 @@ types:
     miningbargebonusoreminingyield: 3
     mintargetveldmgmultiplier: 0.05
     name: Covetor
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -155,6 +156,7 @@ types:
     miningbargebonusoreminingyield: 3
     mintargetveldmgmultiplier: 0.05
     name: Retriever
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 83.0
     powertospeed: 1
@@ -252,6 +254,7 @@ types:
     miningbargebonusshieldcapacity: 6
     mintargetveldmgmultiplier: 0.05
     name: Procurer
+    packagedVolume: 3750.0
     portionSize: 1
     poweroutput: 90.0
     powertospeed: 1

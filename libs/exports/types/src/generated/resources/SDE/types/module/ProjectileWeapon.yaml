@@ -1099,6 +1099,7 @@ types:
     name: CONCORD Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     price: 37692954.0
@@ -1136,6 +1137,7 @@ types:
     name: CONCORD Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 32694870.0
@@ -4750,6 +4752,7 @@ types:
     name: Hexa 2500mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -4784,6 +4787,7 @@ types:
     name: Quad 3500mm Siege Artillery I
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     price: 37692954.0
@@ -5272,6 +5276,7 @@ types:
     name: Quad 800mm Repeating Cannon I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5301,7 +5306,7 @@ types:
     cpu: 54.0
     damagemultiplier: 0.680622278
     falloff: 23000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 0.8
     hp: 40.0
     id: 37304
@@ -5312,6 +5317,7 @@ types:
     name: Quad 800mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 32694870.0
@@ -5353,6 +5359,7 @@ types:
     name: Compact Carbine Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     price: 32694870.0
@@ -5380,7 +5387,7 @@ types:
     cpu: 60.0
     damagemultiplier: 4.5375
     falloff: 28800.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.6
     hp: 40.0
     id: 37306
@@ -5391,6 +5398,7 @@ types:
     name: Hexa 2500mm Repeating Cannon II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 32694870.0
@@ -5418,7 +5426,7 @@ types:
     cpu: 77.0
     damagemultiplier: 11.34375
     falloff: 90000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 6.0
     hp: 40.0
     id: 37307
@@ -5429,6 +5437,7 @@ types:
     name: Quad 3500mm Siege Artillery II
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     price: 32694870.0
@@ -5468,6 +5477,7 @@ types:
     name: Ample Gallium Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5507,6 +5517,7 @@ types:
     name: Scout Scoped Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5546,6 +5557,7 @@ types:
     name: Prototype Precise Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5587,6 +5599,7 @@ types:
     name: Domination Quad 800mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 32694870.0
@@ -5624,6 +5637,7 @@ types:
     name: Carbine Compact Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 90000
     price: 32694870.0
@@ -5659,6 +5673,7 @@ types:
     name: Gallium Ample Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5694,6 +5709,7 @@ types:
     name: Scout Scoped Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5729,6 +5745,7 @@ types:
     name: Prototype Precise Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     price: 32694870.0
@@ -5766,6 +5783,7 @@ types:
     name: Domination Hexa 2500mm Repeating Cannon
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     price: 32694870.0
@@ -5801,6 +5819,7 @@ types:
     name: Carbide Compact Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     price: 37692954.0
@@ -5836,6 +5855,7 @@ types:
     name: Gallium Ample Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     price: 37692954.0
@@ -5871,6 +5891,7 @@ types:
     name: Scout Scoped Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     price: 37692954.0
@@ -5906,6 +5927,7 @@ types:
     name: Prototype Precise Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     price: 37692954.0
@@ -5943,6 +5965,7 @@ types:
     name: Domination Quad 3500mm Siege Artillery
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     price: 37692954.0
@@ -5968,7 +5991,7 @@ types:
     cpu: 9.0
     damagemultiplier: 4.0432
     falloff: 5160.0
-    heatabsorbtionratemodifier: 0.02
+    heatabsorbtionratemodifier: 0.01
     heatdamage: 1.0
     hp: 40.0
     id: 85010

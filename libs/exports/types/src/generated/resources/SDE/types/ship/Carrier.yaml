@@ -14,7 +14,6 @@ types:
     capacitorcapacity: 58000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 625
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -73,6 +72,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     name: Archon
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 775000.0
     powertospeed: 1
@@ -137,7 +137,6 @@ types:
     capacitorcapacity: 55000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 725
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -196,6 +195,7 @@ types:
     maxvelocity: 80.0
     medslots: 5
     name: Thanatos
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 700000.0
     powertospeed: 1
@@ -261,7 +261,6 @@ types:
     capacitorcapacity: 50000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 825
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -320,6 +319,7 @@ types:
     maxvelocity: 75.0
     medslots: 7
     name: Chimera
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 450000.0
     powertospeed: 1
@@ -384,7 +384,6 @@ types:
     capacitorcapacity: 48000.0
     conduitjumpdriveconsumptionamount: 3000
     conduitjumppassengercount: 5
-    conduitpassengerbonuspercent: 100
     cpuoutput: 775
     disallowinhighsec: 1
     emdamageresonance: 0.67
@@ -443,6 +442,7 @@ types:
     maxvelocity: 85.0
     medslots: 6
     name: Nidhoggur
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 500000.0
     powertospeed: 1

@@ -1033,6 +1033,7 @@ types:
     name: CONCORD Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -1070,6 +1071,7 @@ types:
     name: CONCORD Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 168750
     published: true
@@ -6059,6 +6061,7 @@ types:
     name: Dual Giga Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -6092,6 +6095,7 @@ types:
     name: Dual Giga Beam Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 152500
     published: true
@@ -6580,6 +6584,7 @@ types:
     name: Quad Mega Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -6608,7 +6613,7 @@ types:
     cpu: 80.0
     damagemultiplier: 1.26225
     falloff: 16000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.2
     hp: 40.0
     id: 37296
@@ -6619,6 +6624,7 @@ types:
     name: Quad Mega Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -6659,6 +6665,7 @@ types:
     name: Modulated Compact Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     published: true
@@ -6685,7 +6692,7 @@ types:
     cpu: 88.0
     damagemultiplier: 8.415
     falloff: 20000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 2.4
     hp: 40.0
     id: 37298
@@ -6696,6 +6703,7 @@ types:
     name: Dual Giga Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -6722,7 +6730,7 @@ types:
     cpu: 100.0
     damagemultiplier: 7.0125
     falloff: 42000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 3.0
     hp: 40.0
     id: 37299
@@ -6733,6 +6741,7 @@ types:
     name: Dual Giga Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 168750
     published: true
@@ -6771,6 +6780,7 @@ types:
     name: Modal Enduring Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -6809,6 +6819,7 @@ types:
     name: Anode Scoped Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -6847,6 +6858,7 @@ types:
     name: Afocal Precise Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -6887,6 +6899,7 @@ types:
     name: Dark Blood Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -6927,6 +6940,7 @@ types:
     name: True Sansha Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -6963,6 +6977,7 @@ types:
     name: Modulated Compact Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 112500
     published: true
@@ -6997,6 +7012,7 @@ types:
     name: Modal Enduring Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -7031,6 +7047,7 @@ types:
     name: Anode Scoped Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -7065,6 +7082,7 @@ types:
     name: Afocal Precise Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 125000
     published: true
@@ -7101,6 +7119,7 @@ types:
     name: Dark Blood Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -7137,6 +7156,7 @@ types:
     name: True Sansha Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 137500
     published: true
@@ -7171,6 +7191,7 @@ types:
     name: Modulated Compact Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 136250
     published: true
@@ -7205,6 +7226,7 @@ types:
     name: Modal Enduring Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 152500
     published: true
@@ -7239,6 +7261,7 @@ types:
     name: Anode Scoped Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 152500
     published: true
@@ -7273,6 +7296,7 @@ types:
     name: Afocal Precise Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 152500
     published: true
@@ -7309,6 +7333,7 @@ types:
     name: Dark Blood Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 168750
     published: true
@@ -7345,6 +7370,7 @@ types:
     name: True Sansha Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 168750
     published: true

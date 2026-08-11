@@ -80,6 +80,7 @@ types:
     maxvelocity: 60.0
     medslots: 7
     name: Rorqual
+    packagedVolume: 1300000.0
     portionSize: 1
     poweroutput: 420000.0
     powertospeed: 1

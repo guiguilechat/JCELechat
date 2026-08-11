@@ -34,6 +34,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Caldari Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -102,6 +103,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Gallente Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -170,6 +172,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Minmatar Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -238,6 +241,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Amarr Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -308,6 +312,7 @@ types:
     metagroupid: 3
     metalevelold: 6.0
     name: Goru's Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -377,6 +382,7 @@ types:
     metagroupid: 4
     metalevelold: 6.0
     name: Guristas Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -445,6 +451,7 @@ types:
     maxvelocity: 500.0
     metalevelold: 6.0
     name: Apotheosis
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -517,6 +524,7 @@ types:
     maxvelocity: 500.0
     metalevelold: 6.0
     name: InterBus Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -584,6 +592,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Leopard
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -654,6 +663,7 @@ types:
     maxvelocity: 500.0
     metalevelold: 7.0
     name: Council Diplomatic Shuttle
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1
@@ -726,6 +736,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 500.0
     name: Boobook
+    packagedVolume: 500.0
     portionSize: 1
     poweroutput: 25.0
     powertospeed: 1

@@ -44,6 +44,7 @@ types:
     medslots: 2
     mintargetveldmgmultiplier: 0.25
     name: Coercer
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 85.0
     powertospeed: 1
@@ -132,6 +133,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Cormorant
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 68.0
     powertospeed: 1
@@ -219,6 +221,7 @@ types:
     medslots: 2
     mintargetveldmgmultiplier: 0.25
     name: Catalyst
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -307,6 +310,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Thrasher
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 70.0
     powertospeed: 1
@@ -395,6 +399,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Algos
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 55.0
     powertospeed: 1
@@ -487,6 +492,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Dragoon
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 58.0
     powertospeed: 1
@@ -577,6 +583,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Corax
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 53.0
     powertospeed: 1
@@ -665,6 +672,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Talwar
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 51.0
     powertospeed: 1
@@ -754,6 +762,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Sunesis
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 63.0
     powertospeed: 1
@@ -842,6 +851,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.05
     name: Kikimora
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 55.0
     powertospeed: 1
@@ -930,6 +940,7 @@ types:
     medslots: 2
     mintargetveldmgmultiplier: 0.25
     name: Coercer Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 73.0
     powertospeed: 1
@@ -1025,6 +1036,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Thrasher Fleet Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 62.0
     powertospeed: 1
@@ -1117,6 +1129,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Cormorant Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 71.0
     powertospeed: 1
@@ -1208,6 +1221,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Catalyst Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 85.0
     powertospeed: 1
@@ -1301,6 +1315,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Mekubal
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 66.0
     powertospeed: 1
@@ -1395,6 +1410,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Mamba
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 53.0
     powertospeed: 1
@@ -1490,6 +1506,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Tholos
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -1589,6 +1606,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.05
     name: Pioneer
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 50.0
     powertospeed: 1
@@ -1684,6 +1702,7 @@ types:
     mintargetveldmgmultiplier: 0.05
     name: Pioneer Consortium Issue
     oreexecutiverolebonussalvagedroneadditionalaccessdifficulty: 10
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 52.5
     powertospeed: 1
@@ -1780,6 +1799,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.05
     name: Perseverance
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 52.5
     powertospeed: 1
@@ -1871,6 +1891,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Dragoon Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 64.0
     powertospeed: 1
@@ -1961,6 +1982,7 @@ types:
     medslots: 3
     mintargetveldmgmultiplier: 0.25
     name: Algos Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 58.0
     powertospeed: 1
@@ -2051,6 +2073,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Corax Navy Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 53.0
     powertospeed: 1
@@ -2140,6 +2163,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Talwar Fleet Issue
+    packagedVolume: 5000.0
     portionSize: 1
     poweroutput: 51.0
     powertospeed: 1

@@ -45,6 +45,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Gnosis
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1200.0
     powertospeed: 1
@@ -131,6 +132,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Ferox
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -218,6 +220,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Brutix
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1125.0
     powertospeed: 1
@@ -306,6 +309,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Cyclone
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -394,6 +398,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Prophecy
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -481,6 +486,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Harbinger
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1550.0
     powertospeed: 1
@@ -569,6 +575,7 @@ types:
     medslots: 6
     mintargetveldmgmultiplier: 0.25
     name: Drake
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 830.0
     powertospeed: 1
@@ -655,6 +662,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Myrmidon
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1050.0
     powertospeed: 1
@@ -743,6 +751,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Hurricane
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1140.0
     powertospeed: 1
@@ -832,6 +841,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Brutix Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1235.0
     powertospeed: 1
@@ -922,6 +932,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Drake Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 950.0
     powertospeed: 1
@@ -1010,6 +1021,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Harbinger Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1625.0
     powertospeed: 1
@@ -1101,6 +1113,7 @@ types:
     metalevelold: 7.0
     mintargetveldmgmultiplier: 0.25
     name: Hurricane Fleet Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1380.0
     powertospeed: 1
@@ -1188,6 +1201,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Drekavac
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1350.0
     powertospeed: 1
@@ -1278,6 +1292,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Cyclone Fleet Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -1366,6 +1381,7 @@ types:
     medslots: 7
     mintargetveldmgmultiplier: 0.25
     name: Ferox Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1150.0
     powertospeed: 1
@@ -1455,6 +1471,7 @@ types:
     medslots: 5
     mintargetveldmgmultiplier: 0.25
     name: Myrmidon Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1
@@ -1545,6 +1562,7 @@ types:
     medslots: 4
     mintargetveldmgmultiplier: 0.25
     name: Prophecy Navy Issue
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1300.0
     powertospeed: 1
@@ -1636,6 +1654,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Alligator
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 830.0
     powertospeed: 1
@@ -1728,6 +1747,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Khizriel
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1200.0
     powertospeed: 1
@@ -1824,6 +1844,7 @@ types:
     metalevelold: 8.0
     mintargetveldmgmultiplier: 0.25
     name: Cenotaph
+    packagedVolume: 15000.0
     portionSize: 1
     poweroutput: 1100.0
     powertospeed: 1

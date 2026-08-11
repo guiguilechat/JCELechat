@@ -515,6 +515,7 @@ types:
     mass: 1000.0
     name: Capital Hull Repairer I
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     published: true
@@ -541,6 +542,7 @@ types:
     metalevelold: 1.0
     name: Capital I-b Enduring Hull Repairer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 50000
     published: true
@@ -567,6 +569,7 @@ types:
     metalevelold: 1.0
     name: Capital IEF Compact Hull Repairer
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 45000
     published: true
@@ -584,7 +587,7 @@ types:
     capacitorneed: 864.0
     cpu: 198.0
     duration: 60000.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 5.7
     hp: 40.0
     id: 41514
@@ -593,6 +596,7 @@ types:
     metalevelold: 5.0
     name: Capital Hull Repairer II
     overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
     portionSize: 1
     power: 55000
     published: true

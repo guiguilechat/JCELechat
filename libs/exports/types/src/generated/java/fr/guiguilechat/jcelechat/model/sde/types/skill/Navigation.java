@@ -18,6 +18,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapitalMJDCapReductionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConduitPassengerBonusModAddSkill;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercent;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
@@ -68,6 +69,10 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int capitalmjdcapreductionbonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5)
+    public int conduitpassengerbonusmodaddskill;
     /**
      * 
      */
@@ -159,7 +164,7 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpcapacitorneedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, JumpDriveRangeBonus.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, CapitalMJDCapReductionBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, JumpDriveCapacitorNeedBonus.INSTANCE, JumpDriveRangeBonus.INSTANCE, ConduitPassengerBonusModAddSkill.INSTANCE, ConsumptionQuantityBonusPercent.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, CapitalMJDCapReductionBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3Level.INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, AgilityBonus.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
 
     @Override
@@ -180,6 +185,10 @@ public class Navigation
             case  5683 :
             {
                 return capitalmjdcapreductionbonus;
+            }
+            case  6350 :
+            {
+                return conduitpassengerbonusmodaddskill;
             }
             case  1775 :
             {

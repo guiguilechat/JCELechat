@@ -67,6 +67,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Redeemer
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 17000.0
     powertospeed: 1
@@ -181,6 +182,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Sin
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 8800.0
     powertospeed: 1
@@ -296,6 +298,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Widow
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 9800.0
     powertospeed: 1
@@ -410,6 +413,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Panther
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 12750.0
     powertospeed: 1
@@ -529,6 +533,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Marshal
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18000.0
     powertospeed: 1
@@ -660,6 +665,7 @@ types:
     metalevelold: 5.0
     mintargetveldmgmultiplier: 0.5
     name: Python
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 18000.0
     powertospeed: 1

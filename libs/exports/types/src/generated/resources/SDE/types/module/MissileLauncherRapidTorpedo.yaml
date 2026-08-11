@@ -12,6 +12,7 @@ types:
     marketGroup: 2247
     name: Rapid Torpedo Launcher I
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -35,7 +36,7 @@ types:
     chargegroup2: 657
     chargerate: 1
     cpu: 150.0
-    heatabsorbtionratemodifier: 0.01
+    heatabsorbtionratemodifier: 0.02
     heatdamage: 1.0
     hp: 40.0
     id: 37292
@@ -43,6 +44,7 @@ types:
     metalevelold: 5.0
     name: Rapid Torpedo Launcher II
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -77,6 +79,7 @@ types:
     metalevelold: 8.0
     name: Dread Guristas Rapid Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 110000
     published: true
@@ -107,6 +110,7 @@ types:
     metalevelold: 1.0
     name: Arbalest Compact Rapid Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true
@@ -137,6 +141,7 @@ types:
     metalevelold: 1.0
     name: TE-2100 Ample Rapid Torpedo Launcher
     overloadrofbonus: -15
+    packagedVolume: 1000.0
     portionSize: 1
     power: 100000
     published: true

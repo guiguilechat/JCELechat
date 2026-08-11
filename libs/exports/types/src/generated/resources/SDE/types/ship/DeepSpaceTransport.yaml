@@ -50,6 +50,7 @@ types:
     medslots: 6
     metalevelold: 5.0
     name: Bustard
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 200.0
     powertospeed: 1
@@ -145,6 +146,7 @@ types:
     medslots: 3
     metalevelold: 5.0
     name: Occator
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 290.0
     powertospeed: 1
@@ -241,6 +243,7 @@ types:
     medslots: 5
     metalevelold: 5.0
     name: Mastodon
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 230.0
     powertospeed: 1
@@ -338,6 +341,7 @@ types:
     medslots: 2
     metalevelold: 5.0
     name: Impel
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 330.0
     powertospeed: 1
@@ -434,6 +438,7 @@ types:
     medslots: 6
     metalevelold: 5.0
     name: Torrent
+    packagedVolume: 20000.0
     portionSize: 1
     poweroutput: 265.0
     powertospeed: 1

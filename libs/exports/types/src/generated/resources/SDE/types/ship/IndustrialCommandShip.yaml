@@ -63,6 +63,7 @@ types:
     maxvelocity: 60.0
     medslots: 5
     name: Orca
+    packagedVolume: 500000.0
     portionSize: 1
     poweroutput: 1200.0
     powertospeed: 1
@@ -169,6 +170,7 @@ types:
     maxvelocity: 100.0
     medslots: 4
     name: Porpoise
+    packagedVolume: 50000.0
     portionSize: 1
     poweroutput: 420.0
     powertospeed: 1
