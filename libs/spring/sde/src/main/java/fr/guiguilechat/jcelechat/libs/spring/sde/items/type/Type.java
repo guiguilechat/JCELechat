@@ -96,6 +96,10 @@ public class Type extends SdeEntity<Integer> {
 
 	private BigDecimal radius;
 
+	/// if the type can be packaged and has a different volume when packaged,
+	/// else null
+	private BigDecimal packagedVolume;
+
 	@ColumnDefault("0")
 	private int soundId;
 
@@ -152,6 +156,8 @@ public class Type extends SdeEntity<Integer> {
 		}
 		setMetalLevel(source.metaLevel);
 		setName(source.enName());
+		setPackagedVolume(source.packagedVolume != null
+				&& (source.volume == null || !source.volume.equals(source.packagedVolume)) ? source.packagedVolume : null);
 		setPortionSize(source.portionSize);
 		setPublished(source.published);
 		setRaceId(source.raceID);
