@@ -21,9 +21,11 @@ public class TestAllParsers {
 		System.out.println("dl : " + res);
 		Map<String, Set<String>> multipleClasses = new LinkedHashMap<>();
 		for (Class<?> cl : new Class<?>[] {
+				EaccountingEntryTypes.class,
 				EagentsInSpace.class,
 				EagentTypes.class,
 				Eancestries.class,
+				EappliedProximityEffects.class,
 				Earchetypes.class,
 				Ebloodlines.class,
 				Eblueprints.class,
@@ -36,6 +38,8 @@ public class TestAllParsers {
 				EcontrabandTypes.class,
 				EcontrolTowerResources.class,
 				EcorporationActivities.class,
+				EcorporationRoleGroups.class,
+				EcorporationRoles.class,
 				EdbuffCollections.class,
 				EdogmaAttributeCategories.class,
 				EdogmaAttributes.class,
@@ -43,6 +47,7 @@ public class TestAllParsers {
 				EdogmaUnits.class,
 				Edungeons.class,
 				EdynamicItemAttributes.class,
+				EepicArcs.class,
 				Efactions.class,
 				EfreelanceJobSchemas.class,
 				Egraphics.class,
