@@ -33,6 +33,8 @@ public class Etypes {
 	/** {@link Egroups} */
 	public int groupID;
 	public int iconID;
+	public boolean isDynamicType;
+	public boolean isRepackable;
 	/** {@link EmarketGroups} */
 	public int marketGroupID;
 	public BigDecimal mass;
