@@ -1,13 +1,22 @@
 package fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.staticdata;
 
+import java.io.IOException;
 import java.math.BigDecimal;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
+import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
+import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTimeLoader;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.common.category.CategoryReference;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.structure.common.group.GroupReference;
 import lombok.Getter;
+import lombok.ToString;
 
 public class EindustryAssemblyLines {
 
@@ -16,28 +25,23 @@ public class EindustryAssemblyLines {
 			EindustryAssemblyLines.class, "staticdata/industry_assembly_lines.static");
 
 	public static class CategoryDetail extends CategoryReference {
-
 		public BigDecimal cost_multiplier;
 		public BigDecimal material_multiplier;
 		public BigDecimal time_multiplier;
-
 	}
 
 	public static class GroupDetail extends GroupReference {
-
 		public BigDecimal cost_multiplier;
 		public BigDecimal material_multiplier;
 		public BigDecimal time_multiplier;
-
 	}
 
+	@ToString
 	public static class TypeListDetail {
-
 		public BigDecimal cost_multiplier;
 		public BigDecimal material_multiplier;
 		public BigDecimal time_multiplier;
 		public int type_list_id;
-
 	}
 
 	public int activity;
@@ -50,5 +54,15 @@ public class EindustryAssemblyLines {
 	public List<TypeListDetail> details_per_type_list = new ArrayList<>();
 	public int id;
 	public String name;
+
+	public static void
+			main(String[] args) throws JsonMappingException, JsonProcessingException, SQLException, IOException {
+		ClientInfo ci = ClientInfo.fetch();
+		List<KeyValTime<EindustryAssemblyLines>> loaded = getLoader().load(new ClientCache(ci));
+		System.out.println("build " + ci.getBuild());
+		System.out
+				.println("186.detailsPerTypeList : "
+						+ loaded.stream().filter(kvt -> kvt.getKey() == 186).findAny().get().getVal().details_per_type_list);
+	}
 
 }
