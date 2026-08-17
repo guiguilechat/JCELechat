@@ -45,8 +45,7 @@ public class EindustryAssemblyLines {
 		public BigDecimal costMultiplier;
 		public BigDecimal materialMultiplier;
 		public BigDecimal timeMultiplier;
-		// missing so far.
-		public int typeListId;
+		public int typeListID;
 
 	}
 
