@@ -6,9 +6,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import fr.guiguilechat.jcelechat.libs.gameclient.meta.ClientInfo;
 import fr.guiguilechat.jcelechat.libs.gameclient.parsers.sqlite.KeyValTime;
@@ -56,7 +53,7 @@ public class EindustryAssemblyLines {
 	public String name;
 
 	public static void
-			main(String[] args) throws JsonMappingException, JsonProcessingException, SQLException, IOException {
+			main(String[] args) throws SQLException, IOException {
 		ClientInfo ci = ClientInfo.fetch();
 		List<KeyValTime<EindustryAssemblyLines>> loaded = getLoader().load(new ClientCache(ci));
 		System.out.println("build " + ci.getBuild());

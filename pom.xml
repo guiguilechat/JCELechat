@@ -31,7 +31,7 @@
 		<!-- dependencies -->
 		<choco.version>4.10.14</choco.version>
 		<!-- using last verion 2.21.2 actually creates bugs on sh/install with classnotfound.-->
-		<jackson.version>2.20.2</jackson.version>
+		<jackson.version>3.2.1</jackson.version>
 		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
 		<javax.servlet-api.version>4.0.1</javax.servlet-api.version>
 		<logback.version>1.5.32</logback.version>
@@ -410,12 +410,12 @@
 				<version>2.20</version>
 			</dependency>
 			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
+				<groupId>tools.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.fasterxml.jackson.dataformat</groupId>
+				<groupId>tools.jackson.dataformat</groupId>
 				<artifactId>jackson-dataformat-yaml</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>

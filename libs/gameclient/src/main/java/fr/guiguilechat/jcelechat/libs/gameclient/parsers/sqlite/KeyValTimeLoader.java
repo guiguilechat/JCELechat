@@ -7,14 +7,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import fr.guiguilechat.jcelechat.libs.gameclient.cache.ClientCache;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import tools.jackson.databind.ObjectMapper;
 
 @Getter
 @RequiredArgsConstructor
@@ -27,7 +24,7 @@ public class KeyValTimeLoader<T> {
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
 	private final ObjectMapper mapper = new ObjectMapper();
 
-	protected KeyValTime<T> load(ResultSet rs) throws SQLException, JsonMappingException, JsonProcessingException {
+	protected KeyValTime<T> load(ResultSet rs) throws SQLException {
 		int key = rs.getInt("key");
 		String valStr = rs.getString("value");
 		double time = rs.getDouble("time");
@@ -36,7 +33,7 @@ public class KeyValTimeLoader<T> {
 	}
 
 	public List<KeyValTime<T>> load(Statement st)
-			throws SQLException, JsonMappingException, JsonProcessingException {
+			throws SQLException {
 		ResultSet rs = st.executeQuery("SELECT * FROM cache");
 		List<KeyValTime<T>> ret = new ArrayList<>();
 		while (rs.next()) {
@@ -46,12 +43,12 @@ public class KeyValTimeLoader<T> {
 	}
 
 	public List<KeyValTime<T>> load(ClientCache cache)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		return load(SQLiteLoad.loadFile(cache.file(resourceName)));
 	}
 
 	public List<KeyValTime<T>> loadPrintCSV(ClientCache cache, PrintStream ps)
-			throws JsonMappingException, JsonProcessingException, SQLException {
+			throws SQLException {
 		List<KeyValTime<T>> list = load(cache);
 		ps.println(valueClass.getSimpleName() + "\t" + list.size() + "\t" + resourceName);
 		return list;
