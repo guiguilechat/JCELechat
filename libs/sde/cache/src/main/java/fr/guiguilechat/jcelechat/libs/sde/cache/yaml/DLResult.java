@@ -20,7 +20,8 @@ public sealed interface DLResult {
 	public record Success(String url, RemoteMeta meta, ReadableByteChannel channel) implements DLResult {
 
 		public void copyTo(File targetDir)
-				throws FileNotFoundException, IOException {
+				throws FileNotFoundException,
+				IOException {
 			try (FileOutputStream fileOutputStream = new FileOutputStream(targetDir)) {
 				fileOutputStream.getChannel().transferFrom(channel(), 0, Long.MAX_VALUE);
 			}

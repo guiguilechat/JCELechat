@@ -88,7 +88,7 @@ public class EmilitaryCampaignObjectives {
 				public int factionID;
 			}
 			public Issuer issuer;
-			public int progressInterval;
+			public long progressInterval;
 		}
 
 		public Reward isk, lp, standing;
@@ -96,7 +96,7 @@ public class EmilitaryCampaignObjectives {
 
 	public Rewards rewards;
 	public HashMap<String, String> subtitle = new HashMap<>();
-	public int targetProgress;
+	public long targetProgress;
 	public HashMap<String, String> title = new HashMap<>();
 
 	public String enSubtitle() {

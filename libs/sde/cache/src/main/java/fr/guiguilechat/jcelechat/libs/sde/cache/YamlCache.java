@@ -19,6 +19,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.SDECacheListener.Ref;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.SdeMeta;
+import fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
@@ -50,10 +51,13 @@ public class YamlCache {
 	/**
 	 * try to fetch SDE is new version avail.
 	 *
-	 * @param lastReleaseDate last releaseDate received, can be null.
+	 * @param lastReleaseDate
+	 *          last releaseDate received, can be null.
+	 *
 	 * @return a {@link Success} with the channel of the connection to load the SDE
-	 *         from if newer SDE avail, a {@link Cached} if no new SDE avail, or an
-	 *         {@link Errored} if could not fetch the metadata or the new SDE.
+	 *           from if newer SDE avail, a {@link Cached} if no new SDE avail, or
+	 *           an
+	 *           {@link Errored} if could not fetch the metadata or the new SDE.
 	 */
 	public DLResult dl(String lastReleaseDate) {
 		RemoteMeta meta = null;
@@ -144,26 +148,23 @@ public class YamlCache {
 		}
 		DLResult result = dl(lastReleaseDate);
 		switch (result) {
-		case Success s: {
-			log.debug("new version of sde to download with releaseDate " + s.meta().releaseDate + " into "
+		case Success resultSuccess -> {
+			log.debug("new version of sde to download with releaseDate " + resultSuccess.meta().releaseDate + " into "
 					+ extractCacheDir().getAbsolutePath());
-			fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools.delDir(extractCacheDir());
+			FileTools.delDir(extractCacheDir());
 			extractCacheDir().mkdirs();
-			s.extract(extractCacheDir());
+			resultSuccess.extract(extractCacheDir());
 			clearCaches();
 			tryAfter = Instant.now().plusSeconds(60 * successDelayMinutes);
-			break;
 		}
-		case Errored e: {
-			log.error("failed to download SDE", e);
+		case Errored resultErrored -> {
+			log.error("failed to download SDE", resultErrored);
 			tryAfter = Instant.now().plusSeconds(60 * errorDelayMinutes);
-			break;
 		}
-		case Cached c: {
+		case Cached c -> {
 			log.debug("sde already last version: " + c.meta().releaseDate + " in  "
 					+ extractCacheDir().getAbsolutePath());
 			tryAfter = Instant.now().plusSeconds(60 * updateDelayMinutes);
-			break;
 		}
 		}
 		return result;
@@ -177,9 +178,10 @@ public class YamlCache {
 	 * unpack the SDE from a zip url into a folder.
 	 *
 	 * @param url
-	 *                 the sip url
+	 *          the sip url
 	 * @param cacheDir
-	 *                 output folder
+	 *          output folder
+	 *
 	 * @throws MalformedURLException
 	 * @throws IOException
 	 */
@@ -251,9 +253,11 @@ public class YamlCache {
 	/**
 	 * check if a new version is avail (using etag) and, when yes, download it
 	 *
-	 * @param nullOnCached when set to true, only return the file when newer sde
+	 * @param nullOnCached
+	 *          when set to true, only return the file when newer sde
+	 *
 	 * @return null if the file is the same as previous and returnOnlyNew is
-	 *         specified, existing file if no update, new file if update.
+	 *           specified, existing file if no update, new file if update.
 	 */
 	protected File updateZip(boolean nullOnCached) {
 		String lastReleaseDate = null;
