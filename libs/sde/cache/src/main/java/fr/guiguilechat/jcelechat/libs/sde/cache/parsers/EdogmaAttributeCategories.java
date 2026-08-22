@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EdogmaAttributeCategories {
 
@@ -8,7 +8,7 @@ public class EdogmaAttributeCategories {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EdogmaAttributeCategories> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EdogmaAttributeCategories> LOADER = new MapIntLoader<>(
 			"dogmaAttributeCategories",
 			EdogmaAttributeCategories.class);
 

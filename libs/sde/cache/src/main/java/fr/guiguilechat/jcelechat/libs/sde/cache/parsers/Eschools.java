@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Eschools {
 
@@ -13,7 +13,7 @@ public class Eschools {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Eschools> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Eschools> LOADER = new MapIntLoader<>(
 			"schools",
 			Eschools.class);
 

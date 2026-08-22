@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Eraces {
 
@@ -12,7 +12,7 @@ public class Eraces {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Eraces> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Eraces> LOADER = new MapIntLoader<>(
 			"races",
 			Eraces.class);
 

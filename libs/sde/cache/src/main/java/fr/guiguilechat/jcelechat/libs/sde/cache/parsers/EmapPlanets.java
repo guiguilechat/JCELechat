@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.AttributesPlanet;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InStarOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
@@ -16,7 +16,7 @@ public class EmapPlanets extends InStarOrbit {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapPlanets> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapPlanets> LOADER = new MapIntLoader<>(
 			"mapPlanets",
 			EmapPlanets.class);
 

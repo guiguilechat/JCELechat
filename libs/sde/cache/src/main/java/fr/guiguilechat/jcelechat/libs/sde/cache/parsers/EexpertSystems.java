@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EexpertSystems {
 
@@ -11,7 +11,7 @@ public class EexpertSystems {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EexpertSystems> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EexpertSystems> LOADER = new MapIntLoader<>(
 			"expertSystems",
 			EexpertSystems.class);
 

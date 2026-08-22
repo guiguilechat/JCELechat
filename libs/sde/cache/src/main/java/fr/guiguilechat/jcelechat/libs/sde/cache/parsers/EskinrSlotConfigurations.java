@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EskinrSlotConfigurations {
 
@@ -11,7 +11,7 @@ public class EskinrSlotConfigurations {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EskinrSlotConfigurations> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EskinrSlotConfigurations> LOADER = new MapIntLoader<>(
 			"skinrSlotConfigurations",
 			EskinrSlotConfigurations.class);
 

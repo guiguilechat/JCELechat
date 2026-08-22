@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EmapStars {
 
@@ -10,7 +10,7 @@ public class EmapStars {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapStars> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapStars> LOADER = new MapIntLoader<>(
 			"mapStars",
 			EmapStars.class);
 

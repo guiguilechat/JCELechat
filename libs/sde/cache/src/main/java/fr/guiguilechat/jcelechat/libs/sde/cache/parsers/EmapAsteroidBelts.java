@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
 
@@ -13,7 +13,7 @@ public class EmapAsteroidBelts extends InPlanetOrbit {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapAsteroidBelts> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapAsteroidBelts> LOADER = new MapIntLoader<>(
 			"mapAsteroidBelts",
 			EmapAsteroidBelts.class);
 

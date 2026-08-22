@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Egroups {
 
@@ -11,7 +11,7 @@ public class Egroups {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Egroups> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Egroups> LOADER = new MapIntLoader<>(
 			"groups",
 			Egroups.class);
 

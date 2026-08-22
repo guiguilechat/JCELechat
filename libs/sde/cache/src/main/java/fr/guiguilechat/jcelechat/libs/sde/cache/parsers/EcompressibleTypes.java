@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 /**
  * key is {@link Etypes} . Entries are read : (key) compresses into
@@ -12,7 +12,7 @@ public class EcompressibleTypes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EcompressibleTypes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EcompressibleTypes> LOADER = new MapIntLoader<>(
 			"compressibleTypes",
 			EcompressibleTypes.class);
 

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import lombok.ToString;
 
@@ -13,7 +13,7 @@ public class EnpcStations extends InPlanetOrbit {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EnpcStations> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EnpcStations> LOADER = new MapIntLoader<>(
 			"npcStations",
 			EnpcStations.class);
 

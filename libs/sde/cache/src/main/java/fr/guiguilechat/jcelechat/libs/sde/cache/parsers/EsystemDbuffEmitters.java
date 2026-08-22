@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EsystemDbuffEmitters {
 
@@ -12,7 +12,7 @@ public class EsystemDbuffEmitters {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EsystemDbuffEmitters> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EsystemDbuffEmitters> LOADER = new MapIntLoader<>(
 			"systemDbuffEmitters",
 			EsystemDbuffEmitters.class);
 

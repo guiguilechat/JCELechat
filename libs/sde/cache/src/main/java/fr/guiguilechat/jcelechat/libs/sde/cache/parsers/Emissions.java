@@ -7,7 +7,7 @@ import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Emissions {
 
@@ -15,7 +15,7 @@ public class Emissions {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Emissions> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Emissions> LOADER = new MapIntLoader<>(
 			"missions",
 			Emissions.class);
 

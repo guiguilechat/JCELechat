@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Efactions {
 
@@ -13,7 +13,7 @@ public class Efactions {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Efactions> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Efactions> LOADER = new MapIntLoader<>(
 			"factions",
 			Efactions.class);
 

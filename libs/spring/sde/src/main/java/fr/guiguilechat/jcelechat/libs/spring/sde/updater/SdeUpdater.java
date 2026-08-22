@@ -20,11 +20,11 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.YamlCache;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Cached;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Errored;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Success;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeResult.Status;
 import fr.guiguilechat.jcelechat.libs.spring.update.manager.EntityUpdater;
 import jakarta.transaction.Transactional;

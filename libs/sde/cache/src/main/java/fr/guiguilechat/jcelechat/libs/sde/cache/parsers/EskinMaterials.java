@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EskinMaterials {
 
@@ -11,7 +11,7 @@ public class EskinMaterials {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EskinMaterials> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EskinMaterials> LOADER = new MapIntLoader<>(
 			"skinMaterials",
 			EskinMaterials.class);
 

@@ -19,11 +19,6 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.json.JsonReadFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
-
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIDateTools;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.Requested;
@@ -31,6 +26,9 @@ import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntity
 import fr.guiguilechat.jcelechat.libs.spring.update.entities.number.NumberEntityUpdater;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import tools.jackson.core.json.JsonReadFeature;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
 
 @Slf4j
 @NoArgsConstructor
@@ -345,13 +343,11 @@ public abstract class RemoteNumberEntityUpdater<
 
 		@Override
 		public String propertiesAsString() {
-			try {
-				ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true)
+			ObjectMapper om =
+					JsonMapper.builder()
+							.enable(JsonReadFeature.ALLOW_UNQUOTED_PROPERTY_NAMES)
 						.build();
 				return om.writeValueAsString(propertiesMap());
-			} catch (JsonProcessingException e) {
-				throw new RuntimeException(e);
-			}
 		}
 
 		/**

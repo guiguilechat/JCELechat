@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EappliedProximityEffects {
 
@@ -11,7 +11,7 @@ public class EappliedProximityEffects {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EappliedProximityEffects> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EappliedProximityEffects> LOADER = new MapIntLoader<>(
 			"appliedProximityEffects",
 			EappliedProximityEffects.class);
 

@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EtypeDogma.EAttributes;
 
 /**
@@ -18,7 +18,7 @@ public class EdynamicItemAttributes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EdynamicItemAttributes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EdynamicItemAttributes> LOADER = new MapIntLoader<>(
 			"dynamicItemAttributes",
 			EdynamicItemAttributes.class);
 

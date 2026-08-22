@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EindustryInstallationTypes {
 
@@ -11,7 +11,7 @@ public class EindustryInstallationTypes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EindustryInstallationTypes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EindustryInstallationTypes> LOADER = new MapIntLoader<>(
 			"industryInstallationTypes",
 			EindustryInstallationTypes.class);
 

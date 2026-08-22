@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Ebloodlines {
 
@@ -10,7 +10,7 @@ public class Ebloodlines {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Ebloodlines> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Ebloodlines> LOADER = new MapIntLoader<>(
 			"bloodlines",
 			Ebloodlines.class);
 

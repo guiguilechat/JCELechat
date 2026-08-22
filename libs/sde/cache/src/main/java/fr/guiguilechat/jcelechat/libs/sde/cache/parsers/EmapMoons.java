@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.AttributesMoon;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InPlanetOrbit;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.StatisticsCelestial;
@@ -20,7 +20,7 @@ public class EmapMoons extends InPlanetOrbit {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapMoons> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapMoons> LOADER = new MapIntLoader<>(
 			"mapMoons",
 			EmapMoons.class);
 

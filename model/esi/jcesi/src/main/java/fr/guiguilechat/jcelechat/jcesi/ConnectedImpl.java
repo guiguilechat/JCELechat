@@ -24,11 +24,6 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-
 import fr.guiguilechat.jcelechat.jcesi.request.impl.RequestedImpl;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.request.interfaces.ITransfer;
@@ -50,6 +45,10 @@ import okhttp3.Request;
 import okhttp3.Request.Builder;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.ObjectWriter;
+import tools.jackson.databind.cfg.EnumFeature;
+import tools.jackson.databind.json.JsonMapper;
 
 @Slf4j
 public abstract class ConnectedImpl implements ITransfer {
@@ -622,9 +621,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	private final ObjectMapper mapper = makeMapper();
 
 	protected ObjectMapper makeMapper() {
-		ObjectMapper mapper = new ObjectMapper();
-		mapper.configure(DeserializationFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL, true);
-		return mapper;
+		return JsonMapper.builder()
+				.enable(EnumFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL)
+						.build();
 	}
 
 	@Getter(lazy = true)
@@ -668,7 +667,6 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * @return
 	 */
 	protected static String mapToJSON(Map<String, Object> transmit) {
-		try {
 			synchronized (writer()) {
 				if (transmit != null && transmit.size() == 1) {
 					return writer().writeValueAsString(transmit.values().iterator().next());
@@ -676,9 +674,6 @@ public abstract class ConnectedImpl implements ITransfer {
 					return writer().writeValueAsString(transmit);
 				}
 			}
-		} catch (JsonProcessingException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
 	}
 
 	//

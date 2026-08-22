@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.StringMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapStringLoader;
 
 public class EcharacterTitles {
 
@@ -11,8 +11,8 @@ public class EcharacterTitles {
 	// SDE loading
 	//
 
-	public static final StringMapLoader<EcharacterTitles> LOADER =
-			new StringMapLoader<>(
+	public static final MapStringLoader<EcharacterTitles> LOADER =
+			new MapStringLoader<>(
 					"characterTitles",
 					EcharacterTitles.class);
 

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ActivityDetails;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.Eblueprints.BPActivities.ProducingActivityDetails;
 
@@ -17,7 +17,7 @@ public class Eblueprints {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Eblueprints> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Eblueprints> LOADER = new MapIntLoader<>(
 			"blueprints",
 			Eblueprints.class);
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.StringMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapStringLoader;
 
 public class EmilitaryCampaignObjectives {
 
@@ -13,8 +13,8 @@ public class EmilitaryCampaignObjectives {
 	// SDE loading
 	//
 
-	public static final StringMapLoader<EmilitaryCampaignObjectives> LOADER =
-			new StringMapLoader<>(
+	public static final MapStringLoader<EmilitaryCampaignObjectives> LOADER =
+			new MapStringLoader<>(
 					"militaryCampaignObjectives",
 					EmilitaryCampaignObjectives.class);
 

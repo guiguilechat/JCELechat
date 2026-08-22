@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Eicons {
 
@@ -8,7 +8,7 @@ public class Eicons {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Eicons> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Eicons> LOADER = new MapIntLoader<>(
 			"icons",
 			Eicons.class);
 

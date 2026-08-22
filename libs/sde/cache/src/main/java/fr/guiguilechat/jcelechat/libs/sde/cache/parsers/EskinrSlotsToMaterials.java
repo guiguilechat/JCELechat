@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.ArrayList;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.EskinrSlotsToMaterials.MaterialSlot;
 
 @SuppressWarnings("serial")
@@ -12,7 +12,7 @@ public class EskinrSlotsToMaterials extends ArrayList<MaterialSlot> {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EskinrSlotsToMaterials> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EskinrSlotsToMaterials> LOADER = new MapIntLoader<>(
 			"skinrSlotsToMaterials",
 			EskinrSlotsToMaterials.class);
 

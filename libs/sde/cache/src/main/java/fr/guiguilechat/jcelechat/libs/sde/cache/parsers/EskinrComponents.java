@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EskinrComponents {
 
@@ -13,7 +13,7 @@ public class EskinrComponents {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EskinrComponents> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EskinrComponents> LOADER = new MapIntLoader<>(
 			"skinrComponents",
 			EskinrComponents.class);
 

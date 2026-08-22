@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EdogmaEffects {
 
@@ -13,7 +13,7 @@ public class EdogmaEffects {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EdogmaEffects> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EdogmaEffects> LOADER = new MapIntLoader<>(
 			"dogmaEffects",
 			EdogmaEffects.class);
 

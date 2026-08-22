@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 @SuppressWarnings("serial")
 public class EskinrTierThresholds extends LinkedHashMap<Integer, Integer> {
@@ -11,7 +11,7 @@ public class EskinrTierThresholds extends LinkedHashMap<Integer, Integer> {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EskinrTierThresholds> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EskinrTierThresholds> LOADER = new MapIntLoader<>(
 			"skinrTierThresholds",
 			EskinrTierThresholds.class);
 

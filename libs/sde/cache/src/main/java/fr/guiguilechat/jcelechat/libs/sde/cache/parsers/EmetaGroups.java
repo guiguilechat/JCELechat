@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EmetaGroups {
 
@@ -11,7 +11,7 @@ public class EmetaGroups {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmetaGroups> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmetaGroups> LOADER = new MapIntLoader<>(
 			"metaGroups",
 			EmetaGroups.class);
 

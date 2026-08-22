@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EdogmaUnits {
 
@@ -11,7 +11,7 @@ public class EdogmaUnits {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EdogmaUnits> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EdogmaUnits> LOADER = new MapIntLoader<>(
 			"dogmaUnits",
 			EdogmaUnits.class);
 

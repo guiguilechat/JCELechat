@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.ArrayList;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EtypeMaterials {
 
@@ -10,7 +10,7 @@ public class EtypeMaterials {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EtypeMaterials> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EtypeMaterials> LOADER = new MapIntLoader<>(
 			"typeMaterials",
 			EtypeMaterials.class);
 

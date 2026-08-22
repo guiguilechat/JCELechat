@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 
 public class EmapRegions extends InSpace {
@@ -14,7 +14,7 @@ public class EmapRegions extends InSpace {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapRegions> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapRegions> LOADER = new MapIntLoader<>(
 			"mapRegions",
 			EmapRegions.class);
 

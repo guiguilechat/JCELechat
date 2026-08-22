@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EcorporationRoles {
 
@@ -12,7 +12,7 @@ public class EcorporationRoles {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EcorporationRoles> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EcorporationRoles> LOADER = new MapIntLoader<>(
 			"corporationRoles",
 			EcorporationRoles.class);
 

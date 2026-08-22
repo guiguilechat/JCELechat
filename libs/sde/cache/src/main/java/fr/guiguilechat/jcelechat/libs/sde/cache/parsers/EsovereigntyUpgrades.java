@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EsovereigntyUpgrades {
 
@@ -8,7 +8,7 @@ public class EsovereigntyUpgrades {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EsovereigntyUpgrades> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EsovereigntyUpgrades> LOADER = new MapIntLoader<>(
 			"sovereigntyUpgrades",
 			EsovereigntyUpgrades.class);
 

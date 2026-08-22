@@ -7,14 +7,12 @@ import java.util.Map;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.scheduling.annotation.Scheduled;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.json.JsonReadFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
-
 import jakarta.transaction.Transactional;
 import lombok.Getter;
 import lombok.Setter;
+import tools.jackson.core.json.JsonReadFeature;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
 
 /**
  * General interface for service which update local entities.
@@ -97,31 +95,27 @@ public interface EntityUpdater extends EntityService {
 		@Override
 		public String toString() {
 			ObjectMapper objectMapper = new ObjectMapper();
-			try {
 				return objectMapper.writeValueAsString(this);
-			} catch (JsonProcessingException e) {
-				throw new RuntimeException(e);
-			}
 		}
 	}
 
-	/**
-	 * just set a private field to implement
-	 *
-	 * <pre>{@code
-	 * @Getter private final UpdateConfig update = new UpdateConfig();
-	 * }</pre>
-	 */
+	/// Configuration of this service's update.
+	///
+	/// To implement, add a private field :
+	///
+	/// ```
+	/// @Getter
+	/// private UpdateConfig update = new UpdateConfig();
+	/// ```
 	UpdateConfig getUpdate();
 
 	default String propertiesAsString() {
-		try {
-			ObjectMapper om = JsonMapper.builder().configure(JsonReadFeature.ALLOW_UNQUOTED_FIELD_NAMES, true).build();
+		ObjectMapper om =
+				JsonMapper.builder()
+						.enable(JsonReadFeature.ALLOW_UNQUOTED_PROPERTY_NAMES)
+						.build();
 			return om.writeValueAsString(Map.of(
 					"update", getUpdate()));
-		} catch (JsonProcessingException e) {
-			throw new RuntimeException(e);
-		}
 	}
 
 	/**

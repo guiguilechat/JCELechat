@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EproximityTrap {
 
@@ -12,7 +12,7 @@ public class EproximityTrap {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EproximityTrap> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EproximityTrap> LOADER = new MapIntLoader<>(
 			"proximityTrap",
 			EproximityTrap.class);
 

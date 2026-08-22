@@ -31,12 +31,10 @@ import javax.net.ssl.HttpsURLConnection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import lombok.Getter;
 import lombok.experimental.Accessors;
+import tools.jackson.core.type.TypeReference;
+import tools.jackson.databind.ObjectMapper;
 
 /**
  * code to make a sso key
@@ -190,11 +188,7 @@ public abstract class SsoFlow {
 
 			@Override
 			public String encode(Map<String, String> params) {
-				try {
 					return new ObjectMapper().writeValueAsString(params);
-				} catch (JsonProcessingException e) {
-					throw new RuntimeException(e);
-				}
 			}
 		},
 

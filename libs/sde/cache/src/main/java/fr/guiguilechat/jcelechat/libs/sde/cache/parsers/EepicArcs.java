@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EepicArcs {
 
@@ -12,7 +12,7 @@ public class EepicArcs {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EepicArcs> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EepicArcs> LOADER = new MapIntLoader<>(
 			"epicArcs",
 			EepicArcs.class);
 

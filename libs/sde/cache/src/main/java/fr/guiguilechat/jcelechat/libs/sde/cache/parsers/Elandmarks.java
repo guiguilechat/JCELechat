@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position3D;
 
 public class Elandmarks {
@@ -12,7 +12,7 @@ public class Elandmarks {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Elandmarks> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Elandmarks> LOADER = new MapIntLoader<>(
 			"landmarks",
 			Elandmarks.class);
 

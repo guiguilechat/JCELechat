@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.math.BigDecimal;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class ElinkWithShip {
 
@@ -11,7 +11,7 @@ public class ElinkWithShip {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<ElinkWithShip> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<ElinkWithShip> LOADER = new MapIntLoader<>(
 			"linkWithShip",
 			ElinkWithShip.class);
 

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EnpcCorporationDivisions {
 
@@ -10,7 +10,7 @@ public class EnpcCorporationDivisions {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EnpcCorporationDivisions> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EnpcCorporationDivisions> LOADER = new MapIntLoader<>(
 			"npcCorporationDivisions",
 			EnpcCorporationDivisions.class);
 

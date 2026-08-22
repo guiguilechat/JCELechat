@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EfreelanceJobSchemas {
 
@@ -14,7 +14,7 @@ public class EfreelanceJobSchemas {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EfreelanceJobSchemas> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EfreelanceJobSchemas> LOADER = new MapIntLoader<>(
 			"freelanceJobSchemas",
 			EfreelanceJobSchemas.class);
 

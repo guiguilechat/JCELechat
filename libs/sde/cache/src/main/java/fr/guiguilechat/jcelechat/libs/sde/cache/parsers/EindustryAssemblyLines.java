@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EindustryAssemblyLines {
 
@@ -12,7 +12,7 @@ public class EindustryAssemblyLines {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EindustryAssemblyLines> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EindustryAssemblyLines> LOADER = new MapIntLoader<>(
 			"industryAssemblyLines",
 			EindustryAssemblyLines.class);
 

@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EmetenoxMoonDrill {
 
@@ -10,7 +10,7 @@ public class EmetenoxMoonDrill {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmetenoxMoonDrill> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmetenoxMoonDrill> LOADER = new MapIntLoader<>(
 			"metenoxMoonDrill",
 			EmetenoxMoonDrill.class);
 

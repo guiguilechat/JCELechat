@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 /**
  * an entry in the sde/fsd/planetSchematics.yaml
@@ -16,7 +16,7 @@ public class EplanetSchematics {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EplanetSchematics> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EplanetSchematics> LOADER = new MapIntLoader<>(
 			"planetSchematics",
 			EplanetSchematics.class);
 

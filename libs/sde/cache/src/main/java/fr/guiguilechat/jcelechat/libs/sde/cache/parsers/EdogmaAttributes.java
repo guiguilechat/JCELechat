@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 /**
  *
@@ -15,7 +15,7 @@ public class EdogmaAttributes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EdogmaAttributes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EdogmaAttributes> LOADER = new MapIntLoader<>(
 			"dogmaAttributes",
 			EdogmaAttributes.class);
 

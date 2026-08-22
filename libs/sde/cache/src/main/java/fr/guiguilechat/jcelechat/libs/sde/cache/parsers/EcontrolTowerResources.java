@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EcontrolTowerResources {
 
@@ -12,7 +12,7 @@ public class EcontrolTowerResources {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EcontrolTowerResources> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EcontrolTowerResources> LOADER = new MapIntLoader<>(
 			"controlTowerResources",
 			EcontrolTowerResources.class);
 

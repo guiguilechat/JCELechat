@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache;
+package fr.guiguilechat.jcelechat.libs.sde.cache.loaders;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 import lombok.Getter;
@@ -10,10 +10,11 @@ import lombok.experimental.Accessors;
  * Allows for later yaml/jsonl parsing.
  *
  * @param <U>
+ *          value type of the collection to load
  */
 @Accessors(fluent = true)
 @RequiredArgsConstructor
-public class IntMapLoader<U> implements MapLoader<Integer, U> {
+public class MapIntLoader<U> implements MapLoader<Integer, U> {
 
 	public final String fileName;
 

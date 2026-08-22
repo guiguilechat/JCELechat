@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.StringMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapStringLoader;
 
 public class EmilitaryCampaigns {
 
@@ -10,8 +10,8 @@ public class EmilitaryCampaigns {
 	// SDE loading
 	//
 
-	public static final StringMapLoader<EmilitaryCampaigns> LOADER =
-			new StringMapLoader<>(
+	public static final MapStringLoader<EmilitaryCampaigns> LOADER =
+			new MapStringLoader<>(
 					"militaryCampaigns",
 					EmilitaryCampaigns.class);
 

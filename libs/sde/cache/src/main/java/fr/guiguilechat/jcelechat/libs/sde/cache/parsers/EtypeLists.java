@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EtypeLists {
 
@@ -12,8 +12,8 @@ public class EtypeLists {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EtypeLists> LOADER =
-			new IntMapLoader<>(
+	public static final MapIntLoader<EtypeLists> LOADER =
+			new MapIntLoader<>(
 					"typeLists",
 					EtypeLists.class);
 

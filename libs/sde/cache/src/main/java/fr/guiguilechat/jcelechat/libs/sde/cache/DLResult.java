@@ -1,24 +1,25 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache.yaml;
+package fr.guiguilechat.jcelechat.libs.sde.cache;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
-
+/// result of fetching a locally cached resource. The success stores the
+/// readablechannel to allow working with in in memory, and has a
 public sealed interface DLResult {
 
 	RemoteMeta meta();
 
 	public record Success(String url, RemoteMeta meta, ReadableByteChannel channel) implements DLResult {
 
+		/// @param targetDir
+		///          directory into which to dump the zipped files
 		public void copyTo(File targetDir)
 				throws FileNotFoundException,
 				IOException {
@@ -55,15 +56,8 @@ public sealed interface DLResult {
 
 		}
 
-		/**
-		 * load the internal channel into an inputstream.
-		 */
-		public InputStream inputStream() {
-			return Channels.newInputStream(channel());
-		}
-
 		public ZipInputStream zipputSteam() {
-			return new ZipInputStream(inputStream());
+			return new ZipInputStream(Channels.newInputStream(channel()));
 		}
 	}
 

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EstationStandingsRestrictions {
 
@@ -12,7 +12,7 @@ public class EstationStandingsRestrictions {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EstationStandingsRestrictions> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EstationStandingsRestrictions> LOADER = new MapIntLoader<>(
 			"stationStandingsRestrictions",
 			EstationStandingsRestrictions.class);
 

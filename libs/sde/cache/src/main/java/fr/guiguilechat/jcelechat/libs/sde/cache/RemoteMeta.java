@@ -4,9 +4,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import lombok.ToString;
+import tools.jackson.databind.ObjectMapper;
 
 @ToString
 public class RemoteMeta {

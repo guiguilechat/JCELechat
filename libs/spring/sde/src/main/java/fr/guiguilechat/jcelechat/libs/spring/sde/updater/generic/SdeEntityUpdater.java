@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.spring.sde.updater.SdeListener;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -32,7 +32,7 @@ public abstract class SdeEntityUpdater<Entity extends SdeEntity<Integer>, Repo e
 	@Getter(value = AccessLevel.PROTECTED)
 	private Service service;
 
-	private final IntMapLoader<SdeSource> loader;
+	private final MapIntLoader<SdeSource> loader;
 
 	private boolean receivedFile = false;
 

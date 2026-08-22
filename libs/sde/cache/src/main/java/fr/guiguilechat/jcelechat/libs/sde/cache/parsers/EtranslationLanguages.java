@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.StringMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapStringLoader;
 
 public class EtranslationLanguages {
 
@@ -8,8 +8,8 @@ public class EtranslationLanguages {
 	// SDE loading
 	//
 
-	public static final StringMapLoader<EtranslationLanguages> LOADER =
-			new StringMapLoader<>(
+	public static final MapStringLoader<EtranslationLanguages> LOADER =
+			new MapStringLoader<>(
 					"translationLanguages",
 					EtranslationLanguages.class);
 

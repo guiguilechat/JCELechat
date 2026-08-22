@@ -6,7 +6,7 @@ import java.util.HashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class Etypes {
 
@@ -16,7 +16,7 @@ public class Etypes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Etypes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Etypes> LOADER = new MapIntLoader<>(
 			"types",
 			Etypes.class);
 

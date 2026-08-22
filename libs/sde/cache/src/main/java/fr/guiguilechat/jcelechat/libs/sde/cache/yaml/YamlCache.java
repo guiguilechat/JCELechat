@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache;
+package fr.guiguilechat.jcelechat.libs.sde.cache.yaml;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,22 +14,23 @@ import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Cached;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Errored;
+import fr.guiguilechat.jcelechat.libs.sde.cache.DLResult.Success;
+import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
+import fr.guiguilechat.jcelechat.libs.sde.cache.SDECacheListener;
 import fr.guiguilechat.jcelechat.libs.sde.cache.SDECacheListener.Ref;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.SdeMeta;
 import fr.guiguilechat.jcelechat.libs.sde.cache.tools.FileTools;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Cached;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Errored;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult.Success;
 import fr.lelouet.tools.application.xdg.XDGApp;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.dataformat.yaml.YAMLFactory;
 
 @Slf4j
 public class YamlCache {

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EtypeDogma {
 
@@ -12,7 +12,7 @@ public class EtypeDogma {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EtypeDogma> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EtypeDogma> LOADER = new MapIntLoader<>(
 			"typeDogma",
 			EtypeDogma.class);
 

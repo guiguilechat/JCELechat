@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.math.BigDecimal;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EgraphicMaterialSets {
 
@@ -10,7 +10,7 @@ public class EgraphicMaterialSets {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EgraphicMaterialSets> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EgraphicMaterialSets> LOADER = new MapIntLoader<>(
 			"graphicMaterialSets",
 			EgraphicMaterialSets.class);
 

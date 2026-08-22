@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.InSpace;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.inspace.Position2D;
 
@@ -15,7 +15,7 @@ public class EmapSolarSystems extends InSpace {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EmapSolarSystems> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EmapSolarSystems> LOADER = new MapIntLoader<>(
 			"mapSolarSystems",
 			EmapSolarSystems.class);
 

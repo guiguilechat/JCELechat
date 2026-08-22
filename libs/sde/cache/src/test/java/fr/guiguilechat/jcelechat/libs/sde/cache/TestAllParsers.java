@@ -9,9 +9,10 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.FormattedLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapLoader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.parsers.*;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.DLResult;
-import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
 
 public class TestAllParsers {
 
@@ -142,7 +143,7 @@ public class TestAllParsers {
 			long start = System.currentTimeMillis();
 			Field f = cl.getField("LOADER");
 			@SuppressWarnings({ "rawtypes", "unchecked" })
-			YamlLoader<Map<?, ?>> loader = ((MapLoader) f.get(null)).yaml();
+			FormattedLoader<Map<?, ?>> loader = ((MapLoader) f.get(null)).yaml();
 
 			System.out.println("\n" + loader.getArchiveFileName());
 			Method m = cl.getMethod("main", String[].class);

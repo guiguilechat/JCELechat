@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EcloneGrades {
 
@@ -11,7 +11,7 @@ public class EcloneGrades {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EcloneGrades> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EcloneGrades> LOADER = new MapIntLoader<>(
 			"cloneGrades",
 			EcloneGrades.class);
 

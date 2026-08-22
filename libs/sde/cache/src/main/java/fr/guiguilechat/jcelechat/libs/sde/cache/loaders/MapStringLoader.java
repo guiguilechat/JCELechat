@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.sde.cache;
+package fr.guiguilechat.jcelechat.libs.sde.cache.loaders;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapStringLoader;
 import lombok.Getter;
@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
  */
 @Accessors(fluent = true)
 @RequiredArgsConstructor
-public class StringMapLoader<U> implements MapLoader<String, U> {
+public class MapStringLoader<U> implements MapLoader<String, U> {
 
 	public final String fileName;
 

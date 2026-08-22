@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EcontrabandTypes {
 
@@ -12,7 +12,7 @@ public class EcontrabandTypes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EcontrabandTypes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EcontrabandTypes> LOADER = new MapIntLoader<>(
 			"contrabandTypes",
 			EcontrabandTypes.class);
 

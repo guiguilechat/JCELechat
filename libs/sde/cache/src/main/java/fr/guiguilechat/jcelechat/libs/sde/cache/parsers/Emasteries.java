@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
 import java.util.HashMap;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 @SuppressWarnings("serial")
 public class Emasteries extends HashMap<Integer, Integer[]> {
@@ -11,7 +11,7 @@ public class Emasteries extends HashMap<Integer, Integer[]> {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<Emasteries> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<Emasteries> LOADER = new MapIntLoader<>(
 			"masteries",
 			Emasteries.class);
 

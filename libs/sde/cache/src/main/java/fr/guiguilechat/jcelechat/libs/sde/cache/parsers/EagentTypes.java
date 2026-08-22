@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.parsers;
 
-import fr.guiguilechat.jcelechat.libs.sde.cache.IntMapLoader;
+import fr.guiguilechat.jcelechat.libs.sde.cache.loaders.MapIntLoader;
 
 public class EagentTypes {
 
@@ -8,7 +8,7 @@ public class EagentTypes {
 	// SDE loading
 	//
 
-	public static final IntMapLoader<EagentTypes> LOADER = new IntMapLoader<>(
+	public static final MapIntLoader<EagentTypes> LOADER = new MapIntLoader<>(
 			"agentTypes",
 			EagentTypes.class);
 
