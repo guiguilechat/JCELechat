@@ -4,6 +4,7 @@ import java.io.File;
 
 import fr.guiguilechat.jcelechat.libs.sde.cache.RemoteMeta;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlCache;
+import tools.jackson.databind.ObjectMapper;
 
 public class JsonlCache extends YamlCache {
 
@@ -21,10 +22,8 @@ public class JsonlCache extends YamlCache {
 
 	@Override
 	protected RemoteMeta extractArchiveMeta(File file) {
-
-		// return new ObjectMapper().readValue(file, SdeMeta.class).sde;
-		// TODO
-		throw new UnsupportedOperationException();
+		RemoteMeta parsed = new ObjectMapper().readerFor(RemoteMeta.class).readValue(file);
+		return parsed;
 	}
 
 }

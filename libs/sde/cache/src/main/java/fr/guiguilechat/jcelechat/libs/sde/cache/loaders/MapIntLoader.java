@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.sde.cache.loaders;
 
+import fr.guiguilechat.jcelechat.libs.sde.cache.jsonl.JsonlReader;
 import fr.guiguilechat.jcelechat.libs.sde.cache.yaml.YamlMapIntLoader;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -25,5 +26,11 @@ public class MapIntLoader<U> implements MapLoader<Integer, U> {
 
 	@Getter(lazy = true)
 	private final YamlMapIntLoader<U> yaml = new YamlMapIntLoader<>(yamlFileName(), rootClass);
+
+	@Getter(lazy = true)
+	private final String jsonlFileName = fileName + ".jsonl";
+
+	@Getter(lazy = true)
+	private final JsonlReader<Integer, U> jsonl = new JsonlReader<>(jsonlFileName());
 
 }
