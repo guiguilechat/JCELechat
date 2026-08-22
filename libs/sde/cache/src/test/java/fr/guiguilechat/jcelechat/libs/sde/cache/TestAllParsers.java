@@ -94,13 +94,27 @@ public class TestAllParsers {
 					EskillPlans.class,
 					EskinLicenses.class,
 					EskinMaterials.class,
+					EskinrComponentCategories.class,
+					EskinrComponentPointValues.class,
+					EskinrComponentRarities.class,
+					EskinrComponents.class,
+					EskinrSlotCategories.class,
+					EskinrSlotConfigurations.class,
+					EskinrSlotNames.class,
+					EskinrSlots.class,
+					EskinrSlotsToMaterials.class,
+					EskinrTierThresholds.class,
 					Eskins.class,
 					EsovereigntyUpgrades.class,
 					EstationOperations.class,
 					EstationServices.class,
+					EstationStandingsRestrictions.class,
+					EsystemDbuffEmitters.class,
+					EsystemWideEffects.class,
 					EtranslationLanguages.class,
 					EtypeBonus.class,
 					EtypeDogma.class,
+					EtypeElements.class,
 					EtypeLists.class,
 					EtypeMaterials.class,
 					Etypes.class
@@ -112,10 +126,12 @@ public class TestAllParsers {
 		System.out.println("dl : " + res);
 
 		// remove the _sde directory
-		int nbFiles = YamlCache.INSTANCE.extractCacheDir().listFiles().length - 1;
+		int nbFiles =
+				YamlCache.INSTANCE.extractCacheDir().listFiles().length
+						- 1 // ignore _sde
+		;
 		int missingParsersNb =
 				nbFiles
-						- 1 // ignore _sde
 						- parsers.length;
 		if (missingParsersNb != 0) {
 			System.err.println("received " + nbFiles + " parseable files, with " + parsers.length + " parsers, missing "
