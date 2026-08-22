@@ -1375,7 +1375,6 @@ id2group:
   2861: commodity/Miscellaneous
   2862: commodity/Miscellaneous
   2863: ship/Hauler
-  2864: blueprint/HaulerBlueprint
   2865: module/ProjectileWeapon
   2866: blueprint/ProjectileWeaponBlueprint
   2867: planetarycommodities/AdvancedCommoditiesTier4
@@ -33755,16 +33754,6 @@ id2group:
   95528: skins/PermanentSKIN
   95529: implant/CyberScanning
   95530: blueprint/ImplantBlueprints
-  95532: implant/Booster
-  95533: implant/Booster
-  95534: implant/Booster
-  95537: implant/Booster
-  95538: implant/Booster
-  95539: implant/Booster
-  95540: implant/Booster
-  95541: implant/Booster
-  95542: implant/Booster
-  95543: implant/Booster
   95556: module/InertialStabilizer
   95557: specialeditionassets/SpecialEditionCommodities
   95633: expertsystems/StandardExpertSystems

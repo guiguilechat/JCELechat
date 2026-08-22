@@ -145,7 +145,7 @@ public class BlockadeRunner
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(30000)
     public int covertopsandreconopscloakmoduledelay;

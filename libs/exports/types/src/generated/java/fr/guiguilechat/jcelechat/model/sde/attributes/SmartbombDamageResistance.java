@@ -1,10 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
+import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 public class SmartbombDamageResistance
-    extends RealAttribute
+    extends IntAttribute
 {
     public static final SmartbombDamageResistance INSTANCE = new SmartbombDamageResistance();
 

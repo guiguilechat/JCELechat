@@ -12,7 +12,8 @@ types:
     behaviorenergyneutralizerrange: 54000.0
     bombdamageresistance: 0.05
     capacitorcapacity: 24000.0
-    chainlightningdamageresistance: 0.05
+    chainlightningdamageresistance: 0.1
+    debufflancedamageresistance: 0.05
     emdamage: 6840.0
     energyneutralizeramount: 4400.0
     entitycruisespeed: 100.0
@@ -44,7 +45,7 @@ types:
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 1600.0
-    smartbombdamageresistance: 0.05
+    smartbombdamageresistance: 1
     speed: 3000.0
     thermaldamage: 4560.0
     trackingspeed: 10.0

@@ -109,15 +109,6 @@ types:
     price: 4977500.0
     published: true
     volume: 0.01
-  2864:
-    id: 2864
-    industryblueprintrank: 40.0
-    industryjobcostmultiplier: 1
-    name: Primae Blueprint
-    portionSize: 1
-    price: 9999999.0
-    published: true
-    volume: 0.01
   3039:
     id: 3039
     industryblueprintrank: 40.0

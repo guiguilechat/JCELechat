@@ -22,6 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonanc
 import fr.guiguilechat.jcelechat.model.sde.attributes.BombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChainLightningDamageResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DebuffLanceDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -97,6 +98,10 @@ public class IrregularStructure
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double chainlightningdamageresistance;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double debufflancedamageresistance;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -211,8 +216,8 @@ public class IrregularStructure
     public double signatureradius;
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double smartbombdamageresistance;
+    @DefaultIntValue(1)
+    public int smartbombdamageresistance;
     /**
      * damage multiplier vs. thermal.
      */
@@ -220,7 +225,7 @@ public class IrregularStructure
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double thermaldamageresonance;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, RechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, DebuffLanceDamageResistance.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EntityFactionLoss.INSTANCE, RechargeRate.INSTANCE })));
     public static final IrregularStructure.MetaGroup METAGROUP = new IrregularStructure.MetaGroup();
 
     @Override
@@ -257,6 +262,10 @@ public class IrregularStructure
             case  6186 :
             {
                 return chainlightningdamageresistance;
+            }
+            case  6363 :
+            {
+                return debufflancedamageresistance;
             }
             case  854 :
             {

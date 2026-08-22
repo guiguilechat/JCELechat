@@ -19239,15 +19239,6 @@
   research_time:
     time: 4200
   seeded: true
-2864:
-  copying:
-    time: 9600
-  id: 2864
-  maxCopyRuns: 10
-  research_material:
-    time: 4200
-  research_time:
-    time: 4200
 2866:
   copying:
     materials:

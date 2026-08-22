@@ -27,6 +27,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterRange
 import fr.guiguilechat.jcelechat.model.sde.attributes.BombDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ChainLightningDamageResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DebuffLanceDamageResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
@@ -153,6 +154,10 @@ public class FabricatorRogueDroneBattlecruiser
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double chainlightningdamageresistance;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double debufflancedamageresistance;
     /**
      * EM damage done.
      */
@@ -365,8 +370,8 @@ public class FabricatorRogueDroneBattlecruiser
     public double signatureradiusbonus;
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double smartbombdamageresistance;
+    @DefaultIntValue(1)
+    public int smartbombdamageresistance;
     /**
      * Time in milliseconds between possible activations
      */
@@ -388,7 +393,7 @@ public class FabricatorRogueDroneBattlecruiser
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, Falloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, SignatureRadiusBonus.INSTANCE, OptimalSigRadius.INSTANCE, EmDamage.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, EntityCruiseSpeed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, Agility.INSTANCE, ShieldCapacity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, MaxTargetRange.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ScanMagnetometricStrength.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ScanGravimetricStrength.INSTANCE, DebuffLanceDamageResistance.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, Falloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, SignatureRadius.INSTANCE, SmartbombDamageResistance.INSTANCE, BombDamageResistance.INSTANCE, ChainLightningDamageResistance.INSTANCE, SignatureRadiusBonus.INSTANCE, OptimalSigRadius.INSTANCE, EmDamage.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, ScanResolution.INSTANCE, KineticDamage.INSTANCE, MaxRange.INSTANCE, ThermalDamage.INSTANCE, GfxBoosterID.INSTANCE, RechargeRate.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final FabricatorRogueDroneBattlecruiser.MetaGroup METAGROUP = new FabricatorRogueDroneBattlecruiser.MetaGroup();
 
     @Override
@@ -445,6 +450,10 @@ public class FabricatorRogueDroneBattlecruiser
             case  6186 :
             {
                 return chainlightningdamageresistance;
+            }
+            case  6363 :
+            {
+                return debufflancedamageresistance;
             }
             case  114 :
             {

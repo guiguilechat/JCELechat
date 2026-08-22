@@ -8,7 +8,8 @@ types:
     armorthermaldamageresonance: 0.6
     bombdamageresistance: 0.05
     capacitorcapacity: 400.0
-    chainlightningdamageresistance: 0.05
+    chainlightningdamageresistance: 0.1
+    debufflancedamageresistance: 0.05
     emdamage: 150.0
     entitycruisespeed: 750.0
     entityfactionloss: 0.12
@@ -38,7 +39,7 @@ types:
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 80.0
-    smartbombdamageresistance: 0.05
+    smartbombdamageresistance: 1
     speed: 1350.0
     thermaldamage: 100.0
     trackingspeed: 600.0
@@ -55,7 +56,8 @@ types:
     behaviorecmrange: 30000
     bombdamageresistance: 0.05
     capacitorcapacity: 500.0
-    chainlightningdamageresistance: 0.05
+    chainlightningdamageresistance: 0.1
+    debufflancedamageresistance: 0.05
     emdamage: 150.0
     entitycruisespeed: 700.0
     entityfactionloss: 0.12
@@ -89,7 +91,7 @@ types:
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 80.0
-    smartbombdamageresistance: 0.05
+    smartbombdamageresistance: 1
     speed: 1650.0
     thermaldamage: 100.0
     trackingspeed: 600.0
@@ -106,7 +108,8 @@ types:
     behaviorecmrange: 30000
     bombdamageresistance: 0.05
     capacitorcapacity: 500.0
-    chainlightningdamageresistance: 0.05
+    chainlightningdamageresistance: 0.1
+    debufflancedamageresistance: 0.05
     emdamage: 180.0
     entitycruisespeed: 700.0
     entityfactionloss: 0.15
@@ -140,7 +143,7 @@ types:
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     signatureradius: 80.0
-    smartbombdamageresistance: 0.05
+    smartbombdamageresistance: 1
     speed: 1500.0
     thermaldamage: 120.0
     trackingspeed: 600.0

@@ -144,7 +144,7 @@ public class StealthBomber
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(30000)
     public int covertopsandreconopscloakmoduledelay;
