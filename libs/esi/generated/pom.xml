@@ -15,6 +15,12 @@
 			<artifactId>commons</artifactId>
 		</dependency>
 		<dependency>
+			<!-- needs to be compiled after-->
+			<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
+			<artifactId>generator</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -25,22 +31,6 @@
 			<id>buildccp</id>
 			<build>
 				<plugins>
-					<plugin>
-						<groupId>fr.guiguilechat.jcelechat.libs.esi</groupId>
-						<artifactId>oa3compiler-maven-plugin</artifactId>
-						<executions>
-							<execution>
-								<goals>
-									<goal>compile-url</goal>
-								</goals>
-								<configuration>
-									<fetch>
-										<url>https://esi.evetech.net/meta/openapi.yaml</url>
-									</fetch>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
 				</plugins>
 			</build>
 		</profile>

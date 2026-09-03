@@ -13,6 +13,6 @@
 	<modules>
 		<module>commons</module>
 		<module>generated</module>
-		<module>oa3compiler-maven-plugin</module>
+		<module>generator</module>
 	</modules>
 </project>
