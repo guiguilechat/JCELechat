@@ -4783,3 +4783,10 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  96336:
+    cpumultiplier: 1.0
+    id: 96336
+    name: Union Day Celebration Crate
+    portionSize: 1
+    published: true
+    volume: 4.0

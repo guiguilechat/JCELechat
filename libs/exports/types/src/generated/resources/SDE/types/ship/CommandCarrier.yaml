@@ -60,7 +60,7 @@ types:
     kineticdamageresonance: 0.67
     lowslots: 8
     maincolor: 16777215
-    marketGroup: 3856
+    marketGroup: 3878
     mass: 1260000000.0
     maxdirectionalscanrange: 2.147483647E12
     maximumrangecap: 750000

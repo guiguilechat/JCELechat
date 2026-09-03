@@ -40900,3 +40900,192 @@ types:
     portionSize: 1
     published: true
     volume: 0.01
+  96140:
+    id: 96140
+    marketGroup: 1964
+    name: Armageddon Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96141:
+    id: 96141
+    marketGroup: 2002
+    name: Inquisitor Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96142:
+    id: 96142
+    marketGroup: 2391
+    name: Jackdaw Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96143:
+    id: 96143
+    marketGroup: 2108
+    name: Raven Navy Issue Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96158:
+    id: 96158
+    marketGroup: 1992
+    name: Vexor Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96159:
+    id: 96159
+    marketGroup: 2005
+    name: Vigil Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96160:
+    id: 96160
+    marketGroup: 2084
+    name: Huginn Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96161:
+    id: 96161
+    marketGroup: 3567
+    name: Cenotaph Shattered Paradigm SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96315:
+    id: 96315
+    marketGroup: 3497
+    name: Dragoon Navy Issue Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96316:
+    id: 96316
+    marketGroup: 2002
+    name: Crucifier Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96317:
+    id: 96317
+    marketGroup: 2063
+    name: Omen Navy Issue Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96318:
+    id: 96318
+    marketGroup: 2104
+    name: Absolution Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96319:
+    id: 96319
+    marketGroup: 2110
+    name: Redeemer Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96320:
+    id: 96320
+    marketGroup: 1994
+    name: Coercer Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96321:
+    id: 96321
+    marketGroup: 3878
+    name: Salvation Sanguinary Savant SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96327:
+    id: 96327
+    marketGroup: 2388
+    name: Caldari Shuttle Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96328:
+    id: 96328
+    marketGroup: 2000
+    name: Heron Navy Issue Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96329:
+    id: 96329
+    marketGroup: 3497
+    name: Corax Navy Issue Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96330:
+    id: 96330
+    marketGroup: 2008
+    name: Tayra Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96331:
+    id: 96331
+    marketGroup: 1991
+    name: Osprey Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96332:
+    id: 96332
+    marketGroup: 1957
+    name: Ferox Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96333:
+    id: 96333
+    marketGroup: 1965
+    name: Raven Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96334:
+    id: 96334
+    marketGroup: 2279
+    name: Minokawa Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  96335:
+    id: 96335
+    marketGroup: 3879
+    name: Simurgh Cold Wind's Call SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97198:
+    id: 97198
+    marketGroup: 1969
+    name: Rorqual Nautgripur Industrial Input SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97199:
+    id: 97199
+    marketGroup: 2338
+    name: Orca Nautgripur Industrial Input SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97200:
+    id: 97200
+    marketGroup: 2318
+    name: Bowhead Nautgripur Industrial Input SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
