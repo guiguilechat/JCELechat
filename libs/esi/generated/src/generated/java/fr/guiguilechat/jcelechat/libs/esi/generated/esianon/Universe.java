@@ -1,0 +1,80 @@
+package fr.guiguilechat.jcelechat.libs.esi.generated.esianon;
+
+import fr.guiguilechat.jcelechat.libs.esi.generated.EsiAnon;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Ancestries;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Asteroidbelts;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Bloodlines;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Categories;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Constellations;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Factions;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Graphics;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Groups;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Ids;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Moons;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Names;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Planets;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Races;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Regions;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Schematics;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Stargates;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Stars;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Stations;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Structures;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Systemjumps;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Systemkills;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Systems;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esianon.universe.Types;
+
+public class Universe {
+    public final EsiAnon security;
+    public Ancestries ancestries;
+    public Asteroidbelts asteroidbelts;
+    public Bloodlines bloodlines;
+    public Categories categories;
+    public Constellations constellations;
+    public Factions factions;
+    public Graphics graphics;
+    public Groups groups;
+    public Ids ids;
+    public Moons moons;
+    public Names names;
+    public Planets planets;
+    public Races races;
+    public Regions regions;
+    public Schematics schematics;
+    public Stargates stargates;
+    public Stars stars;
+    public Stations stations;
+    public Structures structures;
+    public Systemjumps systemjumps;
+    public Systemkills systemkills;
+    public Systems systems;
+    public Types types;
+
+    public Universe(EsiAnon security) {
+        this.security = security;
+        ancestries = new Ancestries(security);
+        asteroidbelts = new Asteroidbelts(security);
+        bloodlines = new Bloodlines(security);
+        categories = new Categories(security);
+        constellations = new Constellations(security);
+        factions = new Factions(security);
+        graphics = new Graphics(security);
+        groups = new Groups(security);
+        ids = new Ids(security);
+        moons = new Moons(security);
+        names = new Names(security);
+        planets = new Planets(security);
+        races = new Races(security);
+        regions = new Regions(security);
+        schematics = new Schematics(security);
+        stargates = new Stargates(security);
+        stars = new Stars(security);
+        stations = new Stations(security);
+        structures = new Structures(security);
+        systemjumps = new Systemjumps(security);
+        systemkills = new Systemkills(security);
+        systems = new Systems(security);
+        types = new Types(security);
+    }
+}

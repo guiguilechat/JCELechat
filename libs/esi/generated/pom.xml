@@ -60,6 +60,10 @@
 					<plugin>
 						<groupId>com.helger.jcodemodel</groupId>
 						<artifactId>jcodemodel-maven-plugin</artifactId>
+						<configuration>
+							<!-- default package is root one. this sets the root package to the module's -->
+							<rootPackage>${project.groupId}.${project.artifactId}</rootPackage>
+						</configuration>
 						<executions>
 							<execution>
 								<id>generate source</id>

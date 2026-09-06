@@ -1,0 +1,14 @@
+package fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.characters.characterid;
+
+import fr.guiguilechat.jcelechat.libs.esi.generated.EsiOauth2;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.characters.characterid.industry.Jobs;
+
+public class Industry {
+    public final EsiOauth2 security;
+    public Jobs jobs;
+
+    public Industry(EsiOauth2 security) {
+        this.security = security;
+        jobs = new Jobs(security);
+    }
+}

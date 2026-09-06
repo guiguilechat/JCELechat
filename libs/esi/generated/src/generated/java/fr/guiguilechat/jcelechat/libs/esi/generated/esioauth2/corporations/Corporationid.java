@@ -1,0 +1,83 @@
+package fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations;
+
+import fr.guiguilechat.jcelechat.libs.esi.generated.EsiOauth2;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Assets;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Blueprints;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Contacts;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Containers;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Contracts;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Customsoffices;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Divisions;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Facilities;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Freelancejobs;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Fw;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Industry;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Killmails;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Medals;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Members;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Membertracking;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Orders;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Projects;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Roles;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Shareholders;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Standings;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Starbases;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Structures;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Titles;
+import fr.guiguilechat.jcelechat.libs.esi.generated.esioauth2.corporations.corporationid.Wallets;
+
+public class Corporationid {
+    public final EsiOauth2 security;
+    public Assets assets;
+    public Blueprints blueprints;
+    public Contacts contacts;
+    public Containers containers;
+    public Contracts contracts;
+    public Customsoffices customsoffices;
+    public Divisions divisions;
+    public Facilities facilities;
+    public Freelancejobs freelancejobs;
+    public Fw fw;
+    public Industry industry;
+    public Killmails killmails;
+    public Medals medals;
+    public Members members;
+    public Membertracking membertracking;
+    public Orders orders;
+    public Projects projects;
+    public Roles roles;
+    public Shareholders shareholders;
+    public Standings standings;
+    public Starbases starbases;
+    public Structures structures;
+    public Titles titles;
+    public Wallets wallets;
+
+    public Corporationid(EsiOauth2 security) {
+        this.security = security;
+        assets = new Assets(security);
+        blueprints = new Blueprints(security);
+        contacts = new Contacts(security);
+        containers = new Containers(security);
+        contracts = new Contracts(security);
+        customsoffices = new Customsoffices(security);
+        divisions = new Divisions(security);
+        facilities = new Facilities(security);
+        freelancejobs = new Freelancejobs(security);
+        fw = new Fw(security);
+        industry = new Industry(security);
+        killmails = new Killmails(security);
+        medals = new Medals(security);
+        members = new Members(security);
+        membertracking = new Membertracking(security);
+        orders = new Orders(security);
+        projects = new Projects(security);
+        roles = new Roles(security);
+        shareholders = new Shareholders(security);
+        standings = new Standings(security);
+        starbases = new Starbases(security);
+        structures = new Structures(security);
+        titles = new Titles(security);
+        wallets = new Wallets(security);
+    }
+}
