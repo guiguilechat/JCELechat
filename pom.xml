@@ -28,12 +28,14 @@
 		<!-- basic maven project configuration -->
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
 		<!-- dependencies -->
 		<choco.version>4.10.14</choco.version>
 		<!-- using last verion 2.21.2 actually creates bugs on sh/install with classnotfound.-->
 		<jackson.version>3.2.1</jackson.version>
 		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
 		<javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+		<jcodemodel.version>4.3.1-SNAPSHOT</jcodemodel.version>
 		<logback.version>1.5.32</logback.version>
 		<lombok.version>1.18.42</lombok.version>
 		<openjfx.version>27-ea+5</openjfx.version>
@@ -230,6 +232,11 @@
 				</plugin>
 				<!-- end codehaus plugins-->
 				<plugin>
+					<groupId>com.helger.jcodemodel</groupId>
+					<artifactId>jcodemodel-maven-plugin</artifactId>
+					<version>${jcodemodel.version}</version>
+				</plugin>
+				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
 					<version>4.0.3</version>
@@ -421,7 +428,12 @@
 			<dependency>
 				<groupId>com.helger</groupId>
 				<artifactId>jcodemodel</artifactId>
-				<version>4.3.0</version>
+				<version>${jcodemodel.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.helger.jcodemodel</groupId>
+				<artifactId>jcodemodel-maven-plugin</artifactId>
+				<version>${jcodemodel.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.squareup.okhttp3</groupId>
