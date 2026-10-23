@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.gameclient.meta;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
@@ -41,10 +42,12 @@ public class ClientInfo {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			URI uri = ServerInfo.subResource(RES_NAME, null);
-			HttpRequest request = HttpRequest.newBuilder(uri)
-					.build();
-			HttpResponse<String> response = HttpClient.newHttpClient().send(request, BodyHandlers.ofString());
-			ClientInfo ret = mapper.readValue(response.body(), ClientInfo.class);
+			HttpRequest request =
+					HttpRequest.newBuilder(uri)
+							.build();
+			HttpResponse<InputStream> response = HttpClient.newHttpClient().send(request, BodyHandlers.ofInputStream());
+			InputStream is = ServerInfo.decodeIfNeeded(response);
+			ClientInfo ret = mapper.readValue(is, ClientInfo.class);
 			ret.setHeaders(response.headers());
 			return ret;
 		} catch (IOException | InterruptedException e) {

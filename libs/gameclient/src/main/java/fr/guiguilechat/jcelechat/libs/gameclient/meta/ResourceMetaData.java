@@ -50,7 +50,7 @@ public record ResourceMetaData(String resName, String serverType, String relPath
 		}
 		targetFile.getParentFile().mkdirs();
 		try (
-				BufferedInputStream in = new BufferedInputStream(uri().toURL().openStream());
+				BufferedInputStream in = new BufferedInputStream(ServerInfo.loadInputStream(uri()));
 				FileOutputStream out = new FileOutputStream(targetFile)) {
 			byte dataBuffer[] = new byte[1024];
 			int bytesRead;
