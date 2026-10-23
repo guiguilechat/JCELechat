@@ -37,7 +37,7 @@
 		<javax.servlet-api.version>4.0.1</javax.servlet-api.version>
 		<jcodemodel.version>4.3.1-SNAPSHOT</jcodemodel.version>
 		<logback.version>1.5.32</logback.version>
-		<lombok.version>1.18.42</lombok.version>
+		<lombok.version>1.18.48</lombok.version>
 		<openjfx.version>27-ea+5</openjfx.version>
 		<slf4j.version>2.0.17</slf4j.version>
 		<springboot.version>3.5.11</springboot.version>
