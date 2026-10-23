@@ -128,3 +128,19 @@ types:
     requiredskill1level: 3
     techlevel: 1
     volume: 25.0
+  97245:
+    cpu: 55.0
+    dronerangebonus: 24000
+    hp: 40.0
+    id: 97245
+    mass: 200.0
+    metalevelold: 5.0
+    name: Mutated Drone Link Augmentor
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 3437
+    requiredskill1level: 5
+    techlevel: 2
+    volume: 25.0

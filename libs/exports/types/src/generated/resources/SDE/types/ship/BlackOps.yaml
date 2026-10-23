@@ -1,12 +1,13 @@
 types:
   22428:
-    agility: 0.072
+    agility: 0.096
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.51
     armorhp: 5312.0
     armorkineticdamageresonance: 0.59
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     canjump: 1
@@ -56,7 +57,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1076
-    mass: 150300000.0
+    mass: 112700000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
@@ -114,13 +115,14 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   22430:
-    agility: 0.0513
+    agility: 0.0684
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.9
     armorhp: 4968.0
     armorkineticdamageresonance: 0.4
     armorthermaldamageresonance: 0.53
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     canjump: 1
@@ -171,7 +173,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1078
-    mass: 141700000.0
+    mass: 106300000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
@@ -230,13 +232,14 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   22436:
-    agility: 0.068
+    agility: 0.0907
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.9
     armorhp: 4375.0
     armorkineticdamageresonance: 0.61
     armorthermaldamageresonance: 0.33
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     canjump: 1
@@ -287,7 +290,7 @@ types:
     lowslots: 4
     maincolor: 16777215
     marketGroup: 1077
-    mass: 151100000.0
+    mass: 113300000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
@@ -345,13 +348,14 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   22440:
-    agility: 0.064
+    agility: 0.0853
     armoremdamageresonance: 0.26
     armorexplosivedamageresonance: 0.9
     armorhp: 4375.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.51
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     canjump: 1
@@ -402,7 +406,7 @@ types:
     lowslots: 6
     maincolor: 16777215
     marketGroup: 1079
-    mass: 148800000.0
+    mass: 111600000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
@@ -460,13 +464,14 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   44996:
-    agility: 0.07
+    agility: 0.0933
     armoremdamageresonance: 0.6
     armorexplosivedamageresonance: 0.6
     armorhp: 5000.0
     armorkineticdamageresonance: 0.6
     armorthermaldamageresonance: 0.6
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -522,7 +527,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1620
-    mass: 150000000.0
+    mass: 112500000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7
@@ -590,7 +595,7 @@ types:
     warpspeedmultiplier: 3.0
     weapondisruptionresistance: 1.0
   85236:
-    agility: 0.0513
+    agility: 0.0684
     armoremdamageresonance: 0.6
     armorexplosivedamageresonance: 0.6
     armorhp: 6000.0
@@ -599,6 +604,7 @@ types:
     armoruniformity: 0.75
     atburstjammerstrengthbonus: -7.5
     atinversesecstatus: -1
+    basejumpbridgecapacitorcost: 18000
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -654,7 +660,7 @@ types:
     lowslots: 7
     maincolor: 16777215
     marketGroup: 1620
-    mass: 141700000.0
+    mass: 106300000.0
     maxdirectionalscanrange: 2.147483647E12
     maxdirectionalvelocity: 1000
     maxlockedtargets: 7

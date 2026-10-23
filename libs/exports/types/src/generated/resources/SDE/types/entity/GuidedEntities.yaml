@@ -26,6 +26,7 @@ types:
     shieldrechargerate: 8640000.0
     shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 100000000.0
@@ -58,6 +59,7 @@ types:
     shieldrechargerate: 8640000.0
     shieldthermaldamageresonance: 0.1
     signatureradius: 1000.0
+    stasiswebifierresistance: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.1
     volume: 100000000.0

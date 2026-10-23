@@ -791,3 +791,43 @@ types:
     trackingspeed: 0.02
     typecolorscheme: 11313
     volume: 1600.0
+  97712:
+    canfitshiptype1: 52907
+    capacitorneed: 307.0
+    chargegroup1: 1987
+    chargegroup2: 1989
+    chargerate: 1
+    chargesize: 4
+    cpu: 480.0
+    damagemultiplier: 0.867
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 13.3
+    hp: 40.0
+    id: 97712
+    marketGroup: 2691
+    mass: 40000.0
+    maxrange: 58650.0
+    metagroupid: 2
+    metalevelold: 5.0
+    name: Zorya's Ultratidal Entropic Disintegrator
+    optimalsigradius: 40000
+    overloaddamagemodifier: 15
+    portionSize: 1
+    power: 687500
+    published: true
+    reloadtime: 0.01
+    requiredskill1: 52998
+    requiredskill1level: 5
+    requiredskill2: 3300
+    requiredskill2level: 5
+    requiredskill3: 92541
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 13000.0
+    techlevel: 2
+    trackingspeed: 0.02
+    typecolorscheme: 11313
+    volume: 1600.0

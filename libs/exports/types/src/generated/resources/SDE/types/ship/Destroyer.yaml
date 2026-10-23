@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 700.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -95,6 +96,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 600.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -184,6 +186,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 650.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -272,6 +275,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 550.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -361,6 +365,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 550.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -452,6 +457,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 600.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -545,6 +551,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -634,6 +641,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -723,6 +731,7 @@ types:
     armorkineticdamageresonance: 0.675
     armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 575.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -814,6 +823,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 750.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -904,6 +914,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 700.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -999,6 +1010,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 550.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1092,6 +1104,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 600.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1185,6 +1198,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 650.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1278,6 +1292,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 550.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1371,6 +1386,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1464,6 +1480,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     cargoscanresistance: 1.0
@@ -1564,6 +1581,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1659,6 +1677,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1757,6 +1776,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1851,6 +1871,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 600.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -1944,6 +1965,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 550.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -2035,6 +2057,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 30000
@@ -2125,6 +2148,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 6000
     basewarpspeed: 1
     capacitorcapacity: 450.0
     covertopsandreconopscloakmoduledelay: 30000

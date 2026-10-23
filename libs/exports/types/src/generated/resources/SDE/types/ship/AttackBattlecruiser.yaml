@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
     basewarpspeed: 1
     bclargeturretcap: 0.5
     bclargeturretcpu: 0.5
@@ -94,6 +95,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
     basewarpspeed: 1
     bclargeturretcap: 0.5
     bclargeturretcpu: 0.5
@@ -181,6 +183,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
     basewarpspeed: 1
     bclargeturretcap: 0.5
     bclargeturretcpu: 0.5
@@ -270,6 +273,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
     basewarpspeed: 1
     bclargeturretcap: 1.0
     bclargeturretcpu: 0.5
@@ -359,6 +363,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
     basewarpspeed: 1
     bclargeturretcap: 0.5
     bclargeturretcpu: 0.5
@@ -437,6 +442,100 @@ types:
     upgradecapacity: 400
     upgradeslotsleft: 3
     volume: 252000.0
+    warpcapacitorneed: 8.13E-7
+    warpspeedmultiplier: 3.5
+    weapondisruptionresistance: 1.0
+  95741:
+    agility: 0.47
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8
+    armorhp: 2700.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.65
+    armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 14000
+    basewarpspeed: 1
+    bclargeturretcap: 0.5
+    bclargeturretcpu: 0.5
+    bclargeturretpower: 0.05
+    capacitorcapacity: 3500.0
+    cpuoutput: 345
+    emdamageresonance: 0.67
+    energywarfareresistance: 1.0
+    explosivedamageresonance: 0.67
+    fwlpkill: 200
+    gfxboosterid: 394
+    heatattenuationhi: 0.76
+    heatattenuationlow: 0.79
+    heatattenuationmed: 0.63
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.01
+    heatdissipationratelow: 0.01
+    heatdissipationratemed: 0.01
+    heatgenerationmultiplier: 0.65
+    hislots: 6
+    hp: 2500.0
+    id: 95741
+    kineticdamageresonance: 0.67
+    lowslots: 7
+    maincolor: 16777215
+    marketGroup: 3534
+    mass: 14760000.0
+    maxdirectionalscanrange: 2.147483647E12
+    maxdirectionalvelocity: 2000
+    maxlockedtargets: 7
+    maxpassengers: 450
+    maxtargetrange: 70000.0
+    maxvelocity: 220.0
+    medslots: 4
+    mintargetveldmgmultiplier: 0.25
+    name: Akoman
+    nosoverride: 1
+    packagedVolume: 15000.0
+    portionSize: 1
+    poweroutput: 1300.0
+    powertospeed: 1
+    price: 52500000.0
+    propulsiongraphicid: 394
+    published: true
+    radius: 199.0
+    rechargerate: 875000.0
+    requiredskill1: 33095
+    requiredskill1level: 2
+    requiredskill2: 33098
+    requiredskill2level: 2
+    rigsize: 2
+    rigslots: 3
+    scanradarstrength: 25.0
+    scanresolution: 230.0
+    scanspeed: 5000
+    sensordampenerresistance: 1.0
+    shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 1400000.0
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 0.75
+    shipbonusabc1: 15.0
+    shipbonusabc2: 20.0
+    shipbonusabc3: 10.0
+    shipbonusmb: 5.0
+    shipbonusmbc1: 20.0
+    shipbonusrole7: 125.0
+    signatureradius: 210.0
+    stasiswebifierresistance: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.67
+    turretslotsleft: 4
+    typecolorscheme: 11313
+    uniformity: 1.0
+    upgradecapacity: 350
+    upgradeslotsleft: 3
+    volume: 234000.0
     warpcapacitorneed: 8.13E-7
     warpspeedmultiplier: 3.5
     weapondisruptionresistance: 1.0

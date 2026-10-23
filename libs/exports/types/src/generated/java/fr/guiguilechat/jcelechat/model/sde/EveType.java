@@ -52,7 +52,7 @@ public abstract class EveType {
     }
 
     public void loadDefault() {
-        for (Field f: (getClass().getFields())) {
+        for (Field f:(getClass().getFields())) {
             DefaultRealValue annotDouble = f.getAnnotation(DefaultRealValue.class);
             if (annotDouble!= (null)) {
                 try {

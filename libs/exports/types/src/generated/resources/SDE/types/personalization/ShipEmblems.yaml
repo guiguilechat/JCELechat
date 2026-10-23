@@ -4139,3 +4139,13 @@ types:
     name: Cybele Corporation Emblem
     portionSize: 1
     published: true
+  95745:
+    id: 95745
+    name: Akoman Alliance Emblem
+    portionSize: 1
+    published: true
+  95746:
+    id: 95746
+    name: Akoman Corporation Emblem
+    portionSize: 1
+    published: true

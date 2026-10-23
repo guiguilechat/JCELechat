@@ -9,6 +9,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 1000
     basewarpspeed: 1
     capacitorcapacity: 300.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -112,6 +113,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 1000
     basewarpspeed: 1
     capacitorcapacity: 300.0
     covertopsandreconopscloakmoduledelay: 5000

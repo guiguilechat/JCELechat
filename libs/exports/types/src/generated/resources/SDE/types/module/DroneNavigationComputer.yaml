@@ -147,3 +147,19 @@ types:
     speedfactor: 32.0
     techlevel: 1
     volume: 25.0
+  97243:
+    cpu: 35.0
+    hp: 40.0
+    id: 97243
+    mass: 200.0
+    metalevelold: 5.0
+    name: Mutated Drone Navigation Computer
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 5
+    speedfactor: 30.0
+    techlevel: 2
+    volume: 25.0

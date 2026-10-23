@@ -27,6 +27,7 @@ types:
     reinforcementduration: 86400
     reinforcementvariance: 10800
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0

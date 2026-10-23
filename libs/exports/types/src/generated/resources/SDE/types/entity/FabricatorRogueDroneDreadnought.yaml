@@ -49,3 +49,5 @@ types:
     speed: 3000.0
     thermaldamage: 4560.0
     trackingspeed: 10.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000

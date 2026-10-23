@@ -24,17 +24,9 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidthUsed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ECMDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ECMEntityChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ECMRangeOptimal;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EcmJamDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerDuration;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerEntityChance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerRangeOptimal;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelayChance;
@@ -51,7 +43,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityTargetPaintFallOff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
-import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -60,8 +51,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -70,7 +59,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
@@ -79,17 +67,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
@@ -99,15 +80,12 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Drone;
 import org.yaml.snakeyaml.LoaderOptions;
@@ -116,20 +94,6 @@ import org.yaml.snakeyaml.Yaml;
 public class CombatDrone
     extends Drone
 {
-    /**
-     * Duration of NPC effect
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(30000)
-    public int ecmduration;
-    /**
-     * Chance of NPC effect to be activated each duration
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double ecmentitychance;
     /**
      * Max Range for NPC Target Jam
      */
@@ -180,20 +144,6 @@ public class CombatDrone
     @DefaultRealValue(1.0)
     public double damagemultiplier;
     /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double duration;
-    /**
-     * Length of jam duration
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ecmjamduration;
-    /**
      * EM damage done.
      */
     @HighIsGood(true)
@@ -201,33 +151,12 @@ public class CombatDrone
     @DefaultRealValue(0.0)
     public double emdamage;
     /**
-     * An amount to modify the power of the target by.
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double energyneutralizeramount;
-    /**
-     * Duration of NPC Energy Neutralizer effect
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(30000)
-    public int energyneutralizerduration;
-    /**
-     * Chance of NPC effect to be activated each duration
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double energyneutralizerentitychance;
-    /**
-     * Optimal Range of Energy Neutralizer
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int energyneutralizerrangeoptimal;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double emdamageresonance;
     /**
      * The distance from a target an entity starts using its weapons.
      */
@@ -328,19 +257,19 @@ public class CombatDrone
     @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double explosivedamageresonance;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double falloff;
-    /**
-     * Autogenerated skill attribute, falloffBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double falloffbonus;
     /**
      * Graphic ID of the turrets for drone type ships.
      */
@@ -356,6 +285,13 @@ public class CombatDrone
     @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double kineticdamageresonance;
+    /**
      * The maximum number of their targets that the character can attack at a given time.
      */
     @HighIsGood(true)
@@ -369,20 +305,6 @@ public class CombatDrone
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxrange;
-    /**
-     * Autogenerated skill attribute, maxRangeBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double maxrangebonus;
-    /**
-     * Bonus to Max Targeting Range
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double maxtargetrangebonus;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -428,13 +350,6 @@ public class CombatDrone
     @DefaultIntValue(1000)
     public int optimalsigradius;
     /**
-     * Attribute ID of the resistance type v's this Ewar module.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int remoteresistanceid;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -448,55 +363,6 @@ public class CombatDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int requiredskill4level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill5;
-    /**
-     * Required skill level for skill 5
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredskill5level;
-    /**
-     * +/- modifier to the gravimetric strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scangravimetricstrengthbonus;
-    /**
-     * +/- modifier to the ladar strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanladarstrengthbonus;
-    /**
-     * +/- modifier to the magnetometric strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanmagnetometricstrengthbonus;
-    /**
-     * +/- modifier to the radar strength of an electronic system.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanradarstrengthbonus;
-    /**
-     * Bonus for scan resolution
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double scanresolutionbonus;
     /**
      * scanning speed in milliseconds
      */
@@ -533,13 +399,6 @@ public class CombatDrone
     @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
-     * Autogenerated skill attribute, signatureRadiusBonus
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double signatureradiusbonus;
-    /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
@@ -547,12 +406,12 @@ public class CombatDrone
     @DefaultRealValue(0.0)
     public double speed;
     /**
-     * Factor by which topspeed increases.
+     * DO NOT MESS WITH
      */
     @HighIsGood(true)
-    @Stackable(false)
+    @Stackable(true)
     @DefaultRealValue(1.0)
-    public double speedfactor;
+    public double structureuniformity;
     /**
      * Thermal damage done.
      */
@@ -561,33 +420,25 @@ public class CombatDrone
     @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double thermaldamageresonance;
+    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double trackingspeed;
-    /**
-     * Tracking Speed Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, EcmJamDuration.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, ECMDuration.INSTANCE, ECMEntityChance.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, EntityTargetPaintDurationChance.INSTANCE, ECMRangeOptimal.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EnergyNeutralizerDuration.INSTANCE, EntityTargetPaintDuration.INSTANCE, Speed.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, EntityTargetPaintFallOff.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, Duration.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, RemoteResistanceID.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ThermalDamageResonance.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ExplosiveDamageResonance.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, DroneBandwidthUsed.INSTANCE, MetaLevelOld.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, EntityTargetPaintDurationChance.INSTANCE, ECMRangeOptimal.INSTANCE, SignatureRadius.INSTANCE, EntityTargetPaintDuration.INSTANCE, Speed.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, EntityTargetPaintFallOff.INSTANCE, DamageMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, GfxTurretID.INSTANCE, ThermalDamage.INSTANCE, EntityAttackRange.INSTANCE, DroneBandwidthUsed.INSTANCE, MetaLevelOld.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final CombatDrone.MetaGroup METAGROUP = new CombatDrone.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
-            case  929 :
-            {
-                return ecmduration;
-            }
-            case  930 :
-            {
-                return ecmentitychance;
-            }
             case  936 :
             {
                 return ecmrangeoptimal;
@@ -616,33 +467,13 @@ public class CombatDrone
             {
                 return damagemultiplier;
             }
-            case  73 :
-            {
-                return duration;
-            }
-            case  2822 :
-            {
-                return ecmjamduration;
-            }
             case  114 :
             {
                 return emdamage;
             }
-            case  97 :
+            case  113 :
             {
-                return energyneutralizeramount;
-            }
-            case  942 :
-            {
-                return energyneutralizerduration;
-            }
-            case  931 :
-            {
-                return energyneutralizerentitychance;
-            }
-            case  98 :
-            {
-                return energyneutralizerrangeoptimal;
+                return emdamageresonance;
             }
             case  247 :
             {
@@ -700,13 +531,13 @@ public class CombatDrone
             {
                 return explosivedamage;
             }
+            case  111 :
+            {
+                return explosivedamageresonance;
+            }
             case  158 :
             {
                 return falloff;
-            }
-            case  349 :
-            {
-                return falloffbonus;
             }
             case  245 :
             {
@@ -716,6 +547,10 @@ public class CombatDrone
             {
                 return kineticdamage;
             }
+            case  109 :
+            {
+                return kineticdamageresonance;
+            }
             case  193 :
             {
                 return maxattacktargets;
@@ -723,14 +558,6 @@ public class CombatDrone
             case  54 :
             {
                 return maxrange;
-            }
-            case  351 :
-            {
-                return maxrangebonus;
-            }
-            case  309 :
-            {
-                return maxtargetrangebonus;
             }
             case  1692 :
             {
@@ -752,10 +579,6 @@ public class CombatDrone
             {
                 return optimalsigradius;
             }
-            case  2138 :
-            {
-                return remoteresistanceid;
-            }
             case  1285 :
             {
                 return requiredskill4;
@@ -763,34 +586,6 @@ public class CombatDrone
             case  1286 :
             {
                 return requiredskill4level;
-            }
-            case  1289 :
-            {
-                return requiredskill5;
-            }
-            case  1287 :
-            {
-                return requiredskill5level;
-            }
-            case  238 :
-            {
-                return scangravimetricstrengthbonus;
-            }
-            case  239 :
-            {
-                return scanladarstrengthbonus;
-            }
-            case  240 :
-            {
-                return scanmagnetometricstrengthbonus;
-            }
-            case  241 :
-            {
-                return scanradarstrengthbonus;
-            }
-            case  566 :
-            {
-                return scanresolutionbonus;
             }
             case  79 :
             {
@@ -812,29 +607,25 @@ public class CombatDrone
             {
                 return shieldthermaldamageresonance;
             }
-            case  554 :
-            {
-                return signatureradiusbonus;
-            }
             case  51 :
             {
                 return speed;
             }
-            case  20 :
+            case  525 :
             {
-                return speedfactor;
+                return structureuniformity;
             }
             case  118 :
             {
                 return thermaldamage;
             }
+            case  110 :
+            {
+                return thermaldamageresonance;
+            }
             case  160 :
             {
                 return trackingspeed;
-            }
-            case  767 :
-            {
-                return trackingspeedbonus;
             }
             default:
             {

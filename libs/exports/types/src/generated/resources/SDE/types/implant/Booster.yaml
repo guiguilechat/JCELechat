@@ -9536,3 +9536,851 @@ types:
     velocitybonus: 6.0
     volume: 1.0
     warpsbonus: 6
+  96542:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 10
+    charismabonus: 4
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 96542
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    perceptionbonus: 4
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 4
+  96543:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 10
+    charismabonus: 8
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 96543
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 8
+  96544:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 10
+    charismabonus: 6
+    damagemultiplier: 1.0
+    followsjumpclones: 1
+    id: 96544
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    perceptionbonus: 6
+    portionSize: 1
+    price: 32768.0
+    published: true
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    willpowerbonus: 6
+  96545:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96545
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: Harvest Anti-Disruptor Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -24
+  96546:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96546
+    marketGroup: 2531
+    name: Harvest Anti-Disruptor Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -6
+  96547:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96547
+    marketGroup: 2531
+    name: Harvest Anti-Disruptor Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -12
+  96548:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96548
+    marketGroup: 2531
+    metalevelold: 5.0
+    name: Harvest Anti-Disruptor Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+    weapondisruptionresistancebonus: -18
+  96549:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -3
+    id: 96549
+    marketGroup: 2790
+    name: Harvest Nosferatu Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96550:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -6
+    id: 96550
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Harvest Nosferatu Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96551:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -9
+    id: 96551
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Harvest Nosferatu Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96552:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    durationbonus: -12
+    id: 96552
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: Harvest Nosferatu Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96553:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96553
+    marketGroup: 2791
+    name: Harvest Webifier Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 1000
+    volume: 1.0
+  96554:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96554
+    marketGroup: 2791
+    metalevelold: 3.0
+    name: Harvest Webifier Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 2000
+    volume: 1.0
+  96555:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96555
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Harvest Webifier Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 3000
+    volume: 1.0
+  96556:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96556
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: Harvest Webifier Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    stasiswebrangeadd: 4000
+    volume: 1.0
+  96557:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.03
+    id: 96557
+    marketGroup: 2792
+    name: Harvest Damage Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96558:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.06
+    id: 96558
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: Harvest Damage Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96560:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.09
+    id: 96560
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: Harvest Damage Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96561:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.12
+    id: 96561
+    marketGroup: 2792
+    metalevelold: 6.0
+    name: Harvest Damage Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96562:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -6
+    id: 96562
+    marketGroup: 2531
+    name: Tetrimon Anti-Drain Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96563:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -12
+    id: 96563
+    marketGroup: 2531
+    metalevelold: 3.0
+    name: Tetrimon Anti-Drain Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96565:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -18
+    id: 96565
+    marketGroup: 2531
+    metalevelold: 5.0
+    name: Tetrimon Anti-Drain Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96566:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    energywarfareresistancebonus: -24
+    id: 96566
+    marketGroup: 2531
+    metalevelold: 6.0
+    name: Tetrimon Anti-Drain Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96567:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    capacitorcapacitybonus: 3.0
+    damagemultiplier: 1.0
+    id: 96567
+    marketGroup: 2790
+    name: Tetrimon Capacitor Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96568:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    capacitorcapacitybonus: 6.0
+    damagemultiplier: 1.0
+    id: 96568
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Tetrimon Capacitor Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96569:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    capacitorcapacitybonus: 9.0
+    damagemultiplier: 1.0
+    id: 96569
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Tetrimon Capacitor Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96570:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    capacitorcapacitybonus: 12.0
+    damagemultiplier: 1.0
+    id: 96570
+    marketGroup: 2790
+    metalevelold: 6.0
+    name: Tetrimon Capacitor Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96571:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96571
+    marketGroup: 2791
+    name: Tetrimon Resistance Booster I
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -2
+    passiveexplosivedamageresistancebonus: -2
+    passivekineticdamageresistancebonus: -2
+    passivethermicdamageresistancebonus: -2
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96572:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96572
+    marketGroup: 2791
+    metalevelold: 3.0
+    name: Tetrimon Resistance Booster II
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -4
+    passiveexplosivedamageresistancebonus: -4
+    passivekineticdamageresistancebonus: -4
+    passivethermicdamageresistancebonus: -4
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96573:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96573
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Tetrimon Resistance Booster III
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -6
+    passiveexplosivedamageresistancebonus: -6
+    passivekineticdamageresistancebonus: -6
+    passivethermicdamageresistancebonus: -6
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96574:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    id: 96574
+    marketGroup: 2791
+    metalevelold: 6.0
+    name: Tetrimon Resistance Booster IV
+    nondiminishingskillinjectoruses: 1
+    passiveemdamageresistancebonus: -8
+    passiveexplosivedamageresistancebonus: -8
+    passivekineticdamageresistancebonus: -8
+    passivethermicdamageresistancebonus: -8
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96575:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 96575
+    marketGroup: 2792
+    maxrangebonus: 3.0
+    name: Tetrimon Precision Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 3.0
+    volume: 1.0
+  96576:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 96576
+    marketGroup: 2792
+    maxrangebonus: 6.0
+    metalevelold: 3.0
+    name: Tetrimon Precision Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  96577:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 96577
+    marketGroup: 2792
+    maxrangebonus: 9.0
+    metalevelold: 5.0
+    name: Tetrimon Precision Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 9.0
+    volume: 1.0
+  96578:
+    boosterduration: 7200000.0
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    id: 96578
+    marketGroup: 2792
+    maxrangebonus: 12.0
+    metalevelold: 6.0
+    name: Tetrimon Precision Booster IV
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 12.0
+    volume: 1.0
+  96581:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 4.0
+    id: 96581
+    marketGroup: 2792
+    name: Chemal Tech Turret Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 4.0
+    volume: 1.0
+  96582:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 6.0
+    id: 96582
+    marketGroup: 2792
+    metalevelold: 3.0
+    name: Chemal Tech Turret Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 6.0
+    volume: 1.0
+  96583:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 17
+    damagemultiplier: 1.0
+    damagemultiplierbonus: 8.0
+    id: 96583
+    marketGroup: 2792
+    metalevelold: 5.0
+    name: Chemal Tech Turret Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    trackingspeedbonus: 8.0
+    volume: 1.0
+  96584:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96584
+    marketGroup: 2531
+    maxrangebonus: 10.0
+    miningamountbonus: 4
+    name: Chemal Tech Mining Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96585:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96585
+    marketGroup: 2531
+    maxrangebonus: 15.0
+    metalevelold: 3.0
+    miningamountbonus: 8
+    name: Chemal Tech Mining Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96586:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 14
+    damagemultiplier: 1.0
+    id: 96586
+    marketGroup: 2531
+    maxrangebonus: 20.0
+    metalevelold: 5.0
+    miningamountbonus: 12
+    name: Chemal Tech Mining Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96588:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 96588
+    marketGroup: 2790
+    name: Chemal Tech Exploration Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    scanstrengthbonus: 4
+    socialbonus: 100
+    speedfactor: 1.0
+    virusstrengthbonus: 4
+    volume: 1.0
+  96589:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 96589
+    marketGroup: 2790
+    metalevelold: 3.0
+    name: Chemal Tech Exploration Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    scanstrengthbonus: 8
+    socialbonus: 100
+    speedfactor: 1.0
+    virusstrengthbonus: 6
+    volume: 1.0
+  96590:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 15
+    damagemultiplier: 1.0
+    id: 96590
+    marketGroup: 2790
+    metalevelold: 5.0
+    name: Chemal Tech Exploration Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    scanstrengthbonus: 12
+    socialbonus: 100
+    speedfactor: 1.0
+    virusstrengthbonus: 8
+    volume: 1.0
+  96591:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    durationskillbonus: -4
+    id: 96591
+    marketGroup: 2791
+    name: Chemal Tech Repair Booster I
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96592:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    durationskillbonus: -8
+    id: 96592
+    marketGroup: 2791
+    metalevelold: 3.0
+    name: Chemal Tech Repair Booster II
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0
+  96593:
+    boosterduration: 1.08E7
+    boosterlastinjectiondatetime: 20767.45763888889
+    boosterness: 16
+    damagemultiplier: 1.0
+    durationskillbonus: -12
+    id: 96593
+    marketGroup: 2791
+    metalevelold: 5.0
+    name: Chemal Tech Repair Booster III
+    nondiminishingskillinjectoruses: 1
+    portionSize: 1
+    published: true
+    socialbonus: 100
+    speedfactor: 1.0
+    volume: 1.0

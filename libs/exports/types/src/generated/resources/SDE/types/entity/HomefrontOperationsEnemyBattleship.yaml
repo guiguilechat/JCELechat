@@ -171,7 +171,6 @@ types:
     entitysuperweapontrackingspeed: 1.0
     falloff: 1.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 5500.0
     id: 77699
     mass: 63000000.0
@@ -223,7 +222,6 @@ types:
     entitysuperweapontrackingspeed: 1.0
     falloff: 1.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 6250.0
     id: 77700
     mass: 63000000.0

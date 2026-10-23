@@ -44770,3 +44770,74 @@ offers:
       quantity: 1
     requirements:
       lp: 11000
+  19647:
+    id: 19647
+    name: Akoman Corporation Emblem
+    product:
+      id: 95746
+      quantity: 1
+    requirements:
+      lp: 13000
+  19648:
+    id: 19648
+    name: Akoman Alliance Emblem
+    product:
+      id: 95745
+      quantity: 1
+    requirements:
+      lp: 13000
+  19678:
+    id: 19678
+    name: Radical Drone Link Augmentor Mutaplasmid
+    product:
+      id: 97247
+      quantity: 1
+    requirements:
+      isk: 30000000
+      items:
+      - id: 91773
+        quantity: 300
+  19679:
+    id: 19679
+    name: Radical Drone Navigation Computer Mutaplasmid
+    product:
+      id: 97249
+      quantity: 1
+    requirements:
+      isk: 45000000
+      items:
+      - id: 91773
+        quantity: 450
+  19680:
+    id: 19680
+    name: Radical Omnidirectional Tracking Enhancer Mutaplasmid
+    product:
+      id: 97246
+      quantity: 1
+    requirements:
+      isk: 45000000
+      items:
+      - id: 91773
+        quantity: 450
+  19681:
+    id: 19681
+    name: Radical Omnidirectional Tracking Link Mutaplasmid
+    product:
+      id: 97248
+      quantity: 1
+    requirements:
+      isk: 60000000
+      items:
+      - id: 91773
+        quantity: 600
+  19682:
+    id: 19682
+    name: Hybrid Drone Specialization
+    product:
+      id: 97263
+      quantity: 1
+    requirements:
+      isk: 30000000
+      items:
+      - id: 91773
+        quantity: 300

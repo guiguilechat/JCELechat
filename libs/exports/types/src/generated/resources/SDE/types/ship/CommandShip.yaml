@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 2812.5
     cpuoutput: 425
@@ -103,6 +104,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 2625.0
     cpuoutput: 475
@@ -197,6 +199,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 3000.0
     cpuoutput: 545
@@ -292,6 +295,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 3375.0
     cpuoutput: 420
@@ -384,6 +388,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 3000.0
     cpuoutput: 450
@@ -478,6 +483,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 2625.0
     cpuoutput: 525
@@ -573,6 +579,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 2812.5
     cpuoutput: 560
@@ -667,6 +674,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 3375.0
     cpuoutput: 500

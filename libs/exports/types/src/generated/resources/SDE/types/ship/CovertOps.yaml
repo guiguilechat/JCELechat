@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 218.75
     covertopsandreconopscloakmoduledelay: 5000
@@ -105,6 +106,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 187.5
     covertopsandreconopscloakmoduledelay: 5000
@@ -202,6 +204,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 250.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -298,6 +301,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 218.75
     covertopsandreconopscloakmoduledelay: 5000
@@ -369,7 +373,7 @@ types:
     shieldthermaldamageresonance: 0.7
     shielduniformity: 0.75
     shipbonus2af: 5.0
-    shipbonuscf: -5
+    shipbonuscf: -5.0
     shipbonuscf2: -15.0
     shiprolebonuswarpspeed: 60
     signatureradius: 50.0
@@ -396,6 +400,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.4875
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 365.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -498,6 +503,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 500.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -602,6 +608,7 @@ types:
     armorkineticdamageresonance: 0.67
     armorthermaldamageresonance: 0.67
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 350.0
     concordrolebonussecgain: 10
@@ -683,7 +690,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 10.0
     shipbonusaf: 5.0
-    shipbonuscf: 10
+    shipbonuscf: 10.0
     shipbonuscf2: -5.0
     shipbonusgf: 5.0
     shipbonusgf2: 7.5
@@ -714,6 +721,7 @@ types:
     armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 450.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -815,6 +823,7 @@ types:
     atfrigdmgbonus: -7.5
     atfrigdronebonus: 150
     atinversesecstatus: -1
+    basejumpbridgecapacitorcost: 5000
     basewarpspeed: 1
     capacitorcapacity: 400.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -896,7 +905,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 10.0
     shipbonus3cf: -4
-    shipbonuscf: 10
+    shipbonuscf: 10.0
     shipbonusgf2: 7.5
     shipbonusmf2: 10.0
     shipbonusrole7: -100.0

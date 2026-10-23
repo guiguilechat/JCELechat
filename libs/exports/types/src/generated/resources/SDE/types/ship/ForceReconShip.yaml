@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.46875
     armorthermaldamageresonance: 0.20625
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1190.0
     consumptionquantitybonuspercentage: -80
@@ -104,6 +105,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.40625
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1180.0
     consumptionquantitybonuspercentage: -80
@@ -202,6 +204,7 @@ types:
     armorkineticdamageresonance: 0.46875
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1440.0
     consumptionquantitybonuspercentage: -80
@@ -300,6 +303,7 @@ types:
     armorkineticdamageresonance: 0.24375
     armorthermaldamageresonance: 0.40625
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1290.0
     consumptionquantitybonuspercentage: -80
@@ -398,6 +402,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.4875
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1415.0
     covertopsandreconopscloakmoduledelay: 5000
@@ -498,6 +503,7 @@ types:
     armorkineticdamageresonance: 0.5625
     armorthermaldamageresonance: 0.275
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1000.0
     consumptionquantitybonuspercentage: -80
@@ -597,6 +603,7 @@ types:
     armorkineticdamageresonance: 0.67
     armorthermaldamageresonance: 0.67
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1300.0
     concordrolebonussecgain: 10
@@ -710,6 +717,7 @@ types:
     armorkineticdamageresonance: 0.24375
     armorthermaldamageresonance: 0.40625
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1545.0
     consumptionquantitybonuspercentage: -80
@@ -815,6 +823,7 @@ types:
     armorkineticdamageresonance: 0.55
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1800.0
     consumptionquantitybonuspercentage: -80
@@ -918,6 +927,7 @@ types:
     atcruiserscramblerdisruptorbonus: -3.75
     atcruiserstasiswebifierbonus: -7.5
     atinversesecstatus: -1
+    basejumpbridgecapacitorcost: 11500
     basewarpspeed: 1
     capacitorcapacity: 1650.0
     consumptionquantitybonuspercentage: -80

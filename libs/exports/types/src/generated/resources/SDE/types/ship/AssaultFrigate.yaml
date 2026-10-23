@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 410.0
     cpuoutput: 225
@@ -98,6 +99,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 612.0
     cpuoutput: 178
@@ -188,6 +190,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 487.5
     cpuoutput: 170
@@ -280,6 +283,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 357.5
     cpuoutput: 135
@@ -373,6 +377,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 406.3
     cpuoutput: 190
@@ -442,7 +447,7 @@ types:
     shieldthermaldamageresonance: 0.2
     shielduniformity: 0.75
     shipbonus2af: 5.0
-    shipbonuscf: 10
+    shipbonuscf: 7.5
     shipbonuscf2: -5.0
     signatureradius: 39.0
     stasiswebifierresistance: 1.0
@@ -466,12 +471,13 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 450.0
     cpuoutput: 185
     elitebonusassaultships1: 75
     elitebonusescorts: 10
-    elitebonusgunship1: 10.0
+    elitebonusgunship1: 5.0
     elitebonusgunship2: 5.0
     emdamageresonance: 0.67
     energywarfareresistance: 1.0
@@ -535,8 +541,8 @@ types:
     shieldthermaldamageresonance: 0.2
     shielduniformity: 0.75
     shipbonus2af: 5.0
-    shipbonuscf: -4
-    shipbonuscf2: 10.0
+    shipbonuscf: -4.0
+    shipbonuscf2: 15.0
     signatureradius: 37.0
     stasiswebifierresistance: 1.0
     structureuniformity: 1.0
@@ -559,6 +565,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 568.8
     cpuoutput: 140
@@ -650,6 +657,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 325.0
     cpuoutput: 180
@@ -745,6 +753,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 406.0
     cpuoutput: 170
@@ -839,6 +848,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 450.0
     cpuoutput: 155
@@ -933,6 +943,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 350.0
     cpuoutput: 187
@@ -1025,6 +1036,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 400.0
     cpuoutput: 225
@@ -1094,7 +1106,7 @@ types:
     shipbonus2af: 5.0
     shipbonusatf1: -50
     shipbonusatf2: 115
-    shipbonuscf: -4
+    shipbonuscf: -4.0
     shipbonuscf2: 20.0
     shipbonusrole7: 200.0
     signatureradius: 37.0
@@ -1119,6 +1131,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.25
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 525.0
     cpuoutput: 150
@@ -1213,6 +1226,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 325.0
     cpuoutput: 200
@@ -1311,6 +1325,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 420.0
     cpuoutput: 225

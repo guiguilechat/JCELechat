@@ -716,17 +716,27 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
-  90117:
-    id: 90117
+  97207:
+    id: 97207
+    marketGroup: 3836
+    mass: 1.0
+    name: Crimson Gauntlet Shortcut Keypass
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97208:
+    id: 97208
+    marketGroup: 3836
     mass: 1.0
     name: Tetrimon Base Shortcut Keypass
     portionSize: 1
     published: true
     volume: 0.1
-  90118:
-    id: 90118
+  97265:
+    id: 97265
+    marketGroup: 3732
     mass: 1.0
-    name: Crimson Gauntlet Shortcut Keypass
+    name: Criterion Cipher
     portionSize: 1
     published: true
     volume: 0.1

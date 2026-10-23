@@ -68,3 +68,11 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  97714:
+    id: 97714
+    industryblueprintrank: 6.0
+    name: Dark Blood Stasis Webifier Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

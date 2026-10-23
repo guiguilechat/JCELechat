@@ -294,3 +294,31 @@ types:
     techlevel: 1
     trackingspeedbonus: 12.0
     volume: 5.0
+  97242:
+    aoecloudsizebonus: -8.25
+    aoevelocitybonus: 8.25
+    capacitorneed: 4.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 39.0
+    duration: 30000.0
+    falloffbonus: 15.0
+    heatabsorbtionratemodifier: 0.02
+    heatdamage: 9.9
+    hp: 40.0
+    id: 97242
+    maxrangebonus: 7.5
+    metalevelold: 5.0
+    name: Mutated Omnidirectional Tracking Link
+    overloadtrackingmodulestrengthbonus: 15
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 100.0
+    reloadtime: 0.01
+    requiredskill1: 23606
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    trackingspeedbonus: 15.0
+    volume: 5.0

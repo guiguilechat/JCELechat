@@ -184,3 +184,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  97716:
+    id: 97716
+    name: Sarikusa’s Capital Energy Nosferatu Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

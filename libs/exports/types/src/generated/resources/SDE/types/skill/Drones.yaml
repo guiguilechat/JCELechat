@@ -512,3 +512,18 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 14.0
     volume: 0.01
+  97263:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 3.0
+    id: 97263
+    marketGroup: 366
+    name: Hybrid Drone Specialization
+    portionSize: 1
+    price: 90000000.0
+    primaryattribute: 166
+    published: true
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
+    volume: 0.01

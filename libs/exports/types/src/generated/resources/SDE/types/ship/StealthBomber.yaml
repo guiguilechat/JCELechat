@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.4875
     armorthermaldamageresonance: 0.56875
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11000
     basewarpspeed: 1
     capacitorcapacity: 355.0
     cloakingcpuneedbonus: 0.5
@@ -104,6 +105,7 @@ types:
     armorkineticdamageresonance: 0.65625
     armorthermaldamageresonance: 0.4125
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11000
     basewarpspeed: 1
     capacitorcapacity: 315.0
     cloakingcpuneedbonus: 0.5
@@ -175,7 +177,7 @@ types:
     shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     shipbonus2af: 5.0
-    shipbonuscf: 10
+    shipbonuscf: 10.0
     shipbonuscf2: 15.0
     signatureradius: 41.0
     stasiswebifierresistance: 1.0
@@ -201,6 +203,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.56875
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11000
     basewarpspeed: 1
     capacitorcapacity: 285.0
     cloakingcpuneedbonus: 0.5
@@ -298,6 +301,7 @@ types:
     armorkineticdamageresonance: 0.65625
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11000
     basewarpspeed: 1
     capacitorcapacity: 355.0
     cloakingcpuneedbonus: 0.5
@@ -394,6 +398,7 @@ types:
     armorkineticdamageresonance: 0.4875
     armorthermaldamageresonance: 0.56875
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 11000
     basewarpspeed: 1
     capacitorcapacity: 400.0
     covertopsandreconopscloakmoduledelay: 15000

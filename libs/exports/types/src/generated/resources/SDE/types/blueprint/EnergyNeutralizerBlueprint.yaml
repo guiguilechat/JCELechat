@@ -185,3 +185,10 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  97717:
+    id: 97717
+    name: Horm’s Capital Energy Neutralizer Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

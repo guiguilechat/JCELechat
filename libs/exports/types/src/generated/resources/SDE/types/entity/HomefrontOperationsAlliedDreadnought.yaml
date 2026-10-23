@@ -15,6 +15,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 425
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -100.0
     behaviorsiegeremoterepairimpedancemodifier: -100.0
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 425
@@ -49,6 +50,7 @@ types:
     portionSize: 1
     published: false
     radius: 1700.0
+    remotecapacitorimpedance: 0.5
     remoterepairimpedance: 0.5
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
@@ -80,6 +82,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 425
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -100.0
     behaviorsiegeremoterepairimpedancemodifier: -100.0
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 425
@@ -114,6 +117,7 @@ types:
     portionSize: 1
     published: false
     radius: 1700.0
+    remotecapacitorimpedance: 0.5
     remoterepairimpedance: 0.5
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
@@ -145,6 +149,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 425
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -100.0
     behaviorsiegeremoterepairimpedancemodifier: -100.0
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 425
@@ -179,6 +184,7 @@ types:
     portionSize: 1
     published: false
     radius: 1700.0
+    remotecapacitorimpedance: 0.5
     remoterepairimpedance: 0.5
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
@@ -210,6 +216,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 425
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -100.0
     behaviorsiegeremoterepairimpedancemodifier: -100.0
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 425
@@ -244,6 +251,7 @@ types:
     portionSize: 1
     published: false
     radius: 1700.0
+    remotecapacitorimpedance: 0.5
     remoterepairimpedance: 0.5
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0

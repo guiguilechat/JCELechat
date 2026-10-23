@@ -19,6 +19,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -100,6 +101,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -180,6 +182,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -250,6 +253,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -319,6 +323,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -397,6 +402,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -475,6 +481,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -554,6 +561,7 @@ types:
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegemissiledamagemodifier: 200
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840
@@ -623,6 +631,7 @@ types:
     behaviorsiegemassmodifier: 10
     behaviorsiegemaxvelocitymodifier: -100
     behaviorsiegeremoteassistanceimpedancemodifier: -80
+    behaviorsiegeremotecapacitorimpedancemodifier: -99.9999
     behaviorsiegeremoterepairimpedancemodifier: -99.9999
     behaviorsiegesensordampenerresistancemodifier: -70
     behaviorsiegeturretdamagemodifier: 840

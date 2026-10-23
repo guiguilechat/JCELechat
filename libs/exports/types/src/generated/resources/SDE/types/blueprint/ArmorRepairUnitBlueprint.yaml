@@ -171,3 +171,11 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  97715:
+    id: 97715
+    industryblueprintrank: 9.0
+    name: Dark Blood Large Armor Repairer Blueprint
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.01

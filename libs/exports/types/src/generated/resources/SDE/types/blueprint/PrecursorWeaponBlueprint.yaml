@@ -151,3 +151,9 @@ types:
     price: 43006260.0
     published: true
     volume: 0.01
+  97718:
+    id: 97718
+    name: Zorya’s Ultratidal Entropic Disintegrator Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.01

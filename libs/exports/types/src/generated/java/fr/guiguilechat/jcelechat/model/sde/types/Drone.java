@@ -17,11 +17,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidthUsed;
-import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiFighterMissileResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
-import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
@@ -40,13 +37,12 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
-import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.CombatDrone;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.ElectronicWarfareDrone;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.EnergyNeutralizerDrone;
+import fr.guiguilechat.jcelechat.model.sde.types.drone.HybridDrone;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.LogisticDrone;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.MiningDrone;
 import fr.guiguilechat.jcelechat.model.sde.types.drone.SalvageDrone;
@@ -84,20 +80,6 @@ public abstract class Drone
     @DefaultIntValue(0)
     public int dronebandwidthused;
     /**
-     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double emdamageresonance;
-    /**
-     * damage multiplier vs. explosive damagers.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double explosivedamageresonance;
-    /**
      * 
      */
     @HighIsGood(false)
@@ -111,13 +93,6 @@ public abstract class Drone
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
-    /**
-     * damage multiplier vs. kinetic damagers.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double kineticdamageresonance;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
@@ -245,13 +220,6 @@ public abstract class Drone
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultRealValue(1.0)
-    public double structureuniformity;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -260,20 +228,13 @@ public abstract class Drone
     @DefaultIntValue(1)
     public int techlevel;
     /**
-     * damage multiplier vs. thermal.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultRealValue(1.0)
-    public double thermaldamageresonance;
-    /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double uniformity;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ProximityRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, DroneBandwidthUsed.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ProximityRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, DroneBandwidthUsed.INSTANCE })));
     public static final Drone.MetaCat METACAT = new Drone.MetaCat();
 
     @Override
@@ -295,14 +256,6 @@ public abstract class Drone
             {
                 return dronebandwidthused;
             }
-            case  113 :
-            {
-                return emdamageresonance;
-            }
-            case  111 :
-            {
-                return explosivedamageresonance;
-            }
             case  2189 :
             {
                 return fighterabilityantifightermissileresistance;
@@ -310,10 +263,6 @@ public abstract class Drone
             case  9 :
             {
                 return hp;
-            }
-            case  109 :
-            {
-                return kineticdamageresonance;
             }
             case  192 :
             {
@@ -387,17 +336,9 @@ public abstract class Drone
             {
                 return signatureradius;
             }
-            case  525 :
-            {
-                return structureuniformity;
-            }
             case  422 :
             {
                 return techlevel;
-            }
-            case  110 :
-            {
-                return thermaldamageresonance;
             }
             case  136 :
             {
@@ -436,7 +377,7 @@ public abstract class Drone
 
         @Override
         public Collection<IMetaGroup<? extends Drone>> groups() {
-            return Arrays.asList(CombatDrone.METAGROUP, MiningDrone.METAGROUP, EnergyNeutralizerDrone.METAGROUP, ElectronicWarfareDrone.METAGROUP, LogisticDrone.METAGROUP, StasisWebifyingDrone.METAGROUP, SalvageDrone.METAGROUP);
+            return Arrays.asList(CombatDrone.METAGROUP, MiningDrone.METAGROUP, EnergyNeutralizerDrone.METAGROUP, ElectronicWarfareDrone.METAGROUP, LogisticDrone.METAGROUP, StasisWebifyingDrone.METAGROUP, HybridDrone.METAGROUP, SalvageDrone.METAGROUP);
         }
     }
 }

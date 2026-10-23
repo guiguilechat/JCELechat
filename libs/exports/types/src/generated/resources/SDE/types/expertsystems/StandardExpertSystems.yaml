@@ -149,3 +149,24 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  97348:
+    id: 97348
+    mass: 1.0
+    name: Wormhole Pilot
+    portionSize: 1
+    published: true
+    volume: 1.0
+  97406:
+    id: 97406
+    mass: 1.0
+    name: Insurgent
+    portionSize: 1
+    published: true
+    volume: 1.0
+  97659:
+    id: 97659
+    mass: 1.0
+    name: Triglavian Pilot
+    portionSize: 1
+    published: true
+    volume: 1.0

@@ -45,6 +45,7 @@ types:
     radius: 45000.0
     rechargerate: 3600000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 2
     rigslots: 3
@@ -129,6 +130,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
@@ -215,6 +217,7 @@ types:
     radius: 150000.0
     rechargerate: 7200000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 4
     rigslots: 3
@@ -303,6 +306,7 @@ types:
     radius: 150000.0
     rechargerate: 7200000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 4
     rigslots: 3
@@ -390,6 +394,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
@@ -478,6 +483,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
@@ -565,6 +571,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
@@ -652,6 +659,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3
@@ -739,6 +747,7 @@ types:
     radius: 85000.0
     rechargerate: 5760000.0
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0E-5
     remoterepairimpedance: 1.0E-5
     rigsize: 3
     rigslots: 3

@@ -135,6 +135,13 @@ public class LogisticDrone
     @DefaultRealValue(0.0)
     public double duration;
     /**
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double emdamageresonance;
+    /**
      * The maximum amount of time stalled before entity chase speed kicks in.
      */
     @HighIsGood(true)
@@ -183,6 +190,20 @@ public class LogisticDrone
     @Stackable(true)
     @DefaultRealValue(500.0)
     public double entityflyrange;
+    /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double explosivedamageresonance;
+    /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double kineticdamageresonance;
     /**
      * The maximum number of their targets that the character can attack at a given time.
      */
@@ -261,6 +282,20 @@ public class LogisticDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int structuredamageamount;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double structureuniformity;
+    /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(1.0)
+    public double thermaldamageresonance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, FighterAbilityAntiFighterMissileResistance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, EntityFlyRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, SignatureRadius.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RechargeRate.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, ShieldBonus.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, Duration.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, StructureDamageAmount.INSTANCE, ScanGravimetricStrength.INSTANCE, ArmorDamageAmount.INSTANCE, RemoteResistanceID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, DroneBandwidthUsed.INSTANCE, MetaLevelOld.INSTANCE, EntityCruiseSpeed.INSTANCE })));
     public static final LogisticDrone.MetaGroup METAGROUP = new LogisticDrone.MetaGroup();
 
@@ -299,6 +334,10 @@ public class LogisticDrone
             {
                 return duration;
             }
+            case  113 :
+            {
+                return emdamageresonance;
+            }
             case  580 :
             {
                 return entitychasemaxdelay;
@@ -326,6 +365,14 @@ public class LogisticDrone
             case  416 :
             {
                 return entityflyrange;
+            }
+            case  111 :
+            {
+                return explosivedamageresonance;
+            }
+            case  109 :
+            {
+                return kineticdamageresonance;
             }
             case  193 :
             {
@@ -370,6 +417,14 @@ public class LogisticDrone
             case  83 :
             {
                 return structuredamageamount;
+            }
+            case  525 :
+            {
+                return structureuniformity;
+            }
+            case  110 :
+            {
+                return thermaldamageresonance;
             }
             default:
             {

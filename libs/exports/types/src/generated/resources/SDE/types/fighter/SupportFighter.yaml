@@ -27,6 +27,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -77,6 +78,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -121,6 +123,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -168,6 +171,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -216,6 +220,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 4
@@ -267,6 +272,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 4
@@ -312,6 +318,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 4
@@ -360,6 +367,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 4
@@ -409,6 +417,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -461,6 +470,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -507,6 +517,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1
@@ -556,6 +567,7 @@ types:
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 40573
     requiredskill1level: 1

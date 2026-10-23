@@ -2815,3 +2815,67 @@ types:
     thermaldamageresonance: 0.6
     trackingspeed: 106.0
     volume: 5.0
+  96281:
+    agility: 50.0
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8
+    armorhp: 10125.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.65
+    armoruniformity: 1.0
+    capacitorcapacity: 1.0
+    damagemultiplier: 3.0
+    emdamage: 78.0
+    emdamageresonance: 1.0
+    entitychasemaxdelay: 1.0
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 40
+    entitychasemaxduration: 6000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 140.0
+    entityequipmentgroupmax: 1
+    entityfactionloss: 0.21
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    explosivedamage: 78.0
+    explosivedamageresonance: 1.0
+    falloff: 18000.0
+    gfxboosterid: 397
+    hp: 10000.0
+    id: 96281
+    kineticdamage: 78.0
+    kineticdamageresonance: 1.0
+    mass: 100000.0
+    maxlockedtargets: 8
+    maxrange: 40000.0
+    maxtargetrange: 60000.0
+    maxvelocity: 525.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Proven Overmind
+    npcbehaviormaximumcombatorbitrange: 50000.0
+    optimalsigradius: 40000
+    portionSize: 1
+    published: false
+    radius: 150.0
+    rechargerate: 2500000.0
+    scanradarstrength: 100.0
+    scanresolution: 2000.0
+    shieldcapacity: 4781.25
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6
+    shieldrechargerate: 9.0E11
+    shieldthermaldamageresonance: 0.8
+    shielduniformity: 1.0
+    signatureradius: 300.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 78.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 106.0
+    volume: 60.0

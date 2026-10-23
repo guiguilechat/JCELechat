@@ -770,7 +770,6 @@ types:
     entitykillbounty: 175000
     falloff: 6000.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 1500.0
     id: 77647
     mass: 13000000.0
@@ -2195,7 +2194,6 @@ types:
     entitykillbounty: 187500
     falloff: 6000.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 1300.0
     id: 77675
     mass: 11200000.0
@@ -2974,7 +2972,6 @@ types:
     entitykillbounty: 325000
     falloff: 6000.0
     gfxboosterid: 397
-    gfxturretid: 390
     hp: 2000.0
     id: 77689
     mass: 13000000.0

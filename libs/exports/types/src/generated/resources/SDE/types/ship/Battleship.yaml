@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -103,6 +104,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -198,6 +200,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -293,6 +296,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -388,6 +392,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -482,6 +487,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -577,6 +583,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -672,6 +679,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -767,6 +775,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -862,6 +871,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -957,6 +967,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1055,6 +1066,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1152,6 +1164,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1248,6 +1261,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1347,6 +1361,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1444,6 +1459,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1545,6 +1561,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1645,6 +1662,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1744,6 +1762,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1844,6 +1863,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -1943,6 +1963,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2038,6 +2059,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2134,6 +2156,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2229,6 +2252,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2323,6 +2347,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2421,6 +2446,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2518,6 +2544,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2615,6 +2642,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2713,6 +2741,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2810,6 +2839,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -2907,6 +2937,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -3012,6 +3043,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -3112,6 +3144,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100
@@ -3209,6 +3242,7 @@ types:
     armorkineticdamageresonance: 0.675
     armorthermaldamageresonance: 0.675
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     capacitorcapacity: 6450.0
     cpuoutput: 600
@@ -3304,6 +3338,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.55
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 16500
     basewarpspeed: 1
     battleshipbulkheadhpmodifierbonus: 0.05
     battleshipextenderhpbonus: 100

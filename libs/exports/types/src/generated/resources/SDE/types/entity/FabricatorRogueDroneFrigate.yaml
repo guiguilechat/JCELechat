@@ -43,6 +43,8 @@ types:
     speed: 1350.0
     thermaldamage: 100.0
     trackingspeed: 600.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000
   91874:
     agility: 2.4
     armoremdamageresonance: 0.8
@@ -95,6 +97,8 @@ types:
     speed: 1650.0
     thermaldamage: 100.0
     trackingspeed: 600.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000
   91875:
     agility: 2.4
     armoremdamageresonance: 0.8
@@ -147,3 +151,5 @@ types:
     speed: 1500.0
     thermaldamage: 120.0
     trackingspeed: 600.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000

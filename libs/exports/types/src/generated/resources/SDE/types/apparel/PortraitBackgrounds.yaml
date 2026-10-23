@@ -79,3 +79,19 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  96845:
+    id: 96845
+    marketGroup: 3846
+    mass: 0.5
+    name: Star of Pochven Background
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97897:
+    id: 97897
+    marketGroup: 3846
+    mass: 0.5
+    name: Blood Raider Background
+    portionSize: 1
+    published: true
+    volume: 0.1

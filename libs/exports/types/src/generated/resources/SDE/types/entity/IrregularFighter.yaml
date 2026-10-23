@@ -102,7 +102,6 @@ types:
     entitygrouprespawnchance: 1
     falloff: 2000.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 50.0
     id: 93313
     mass: 800000.0

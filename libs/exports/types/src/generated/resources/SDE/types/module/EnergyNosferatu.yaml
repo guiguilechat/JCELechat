@@ -1379,3 +1379,30 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  97710:
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 21500
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 1.9
+    hp: 40.0
+    id: 97710
+    marketGroup: 2251
+    mass: 2000.0
+    maxrange: 43000.0
+    metagroupid: 5
+    metalevelold: 11.0
+    name: Sarikusa's Capital Energy Nosferatu
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 110000
+    powertransferamount: 870
+    published: true
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0

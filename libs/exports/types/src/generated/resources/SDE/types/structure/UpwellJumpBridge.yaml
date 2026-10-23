@@ -9,7 +9,7 @@ types:
     armoruniformity: 1.0
     canhavearmorphases: 1
     canhaveautorepair: 1
-    capacitorcapacity: 200000.0
+    capacitorcapacity: 1250000.0
     cargodeliveryrange: 10000
     cpuoutput: 10000
     ecmresistance: 1.0E-5
@@ -39,8 +39,9 @@ types:
     prefitserviceslot0: 35913
     published: true
     radius: 7000.0
-    rechargerate: 3600000.0
+    rechargerate: 2.25E7
     remoteassistanceimpedance: 1.0E-5
+    remotecapacitorimpedance: 1.0
     scangravimetricstrength: 100.0
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0

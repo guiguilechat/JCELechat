@@ -76,6 +76,7 @@ types:
     radius: 3000.0
     rechargerate: 5000000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -197,6 +198,7 @@ types:
     radius: 3000.0
     rechargerate: 4250000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -318,6 +320,7 @@ types:
     radius: 3000.0
     rechargerate: 4330000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -439,6 +442,7 @@ types:
     radius: 3000.0
     rechargerate: 4500000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -563,6 +567,7 @@ types:
     radius: 3000.0
     rechargerate: 5000000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -690,6 +695,7 @@ types:
     radius: 3000.0
     rechargerate: 5500000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1

@@ -34,6 +34,7 @@ types:
     price: 47022756.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 5
@@ -93,6 +94,7 @@ types:
     price: 47022756.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 27906
     requiredskill1level: 5
@@ -147,6 +149,7 @@ types:
     price: 47022756.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 1
@@ -205,6 +208,7 @@ types:
     price: 47022756.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 27906
     requiredskill1level: 1
@@ -268,6 +272,7 @@ types:
     price: 80000000.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 28585
     requiredskill1level: 1
@@ -322,6 +327,7 @@ types:
     price: 5000000.0
     published: true
     remoteassistanceimpedancebonus: -95
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5
@@ -386,6 +392,7 @@ types:
     price: 208000000.0
     published: true
     remoteassistanceimpedancebonus: -100
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 28585
     requiredskill1level: 5
@@ -469,6 +476,7 @@ types:
     price: 60000000.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 1
@@ -523,6 +531,7 @@ types:
     price: 156000000.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 5
@@ -577,6 +586,7 @@ types:
     price: 20000000.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 1
@@ -631,6 +641,7 @@ types:
     price: 50000000.0
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 58956
     requiredskill1level: 4
@@ -679,6 +690,7 @@ types:
     power: 120000
     published: true
     remoteassistanceimpedancebonus: -80
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 22043
     requiredskill1level: 5
@@ -741,6 +753,7 @@ types:
     price: 5000000.0
     published: true
     remoteassistanceimpedancebonus: -95
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5
@@ -800,6 +813,7 @@ types:
     price: 5000000.0
     published: true
     remoteassistanceimpedancebonus: -95
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5
@@ -859,6 +873,7 @@ types:
     price: 5000000.0
     published: true
     remoteassistanceimpedancebonus: -95
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5
@@ -918,6 +933,7 @@ types:
     price: 5000000.0
     published: true
     remoteassistanceimpedancebonus: -95
+    remotecapacitorimpedancebonus: -99.9999
     remoterepairimpedancebonus: -99.9999
     requiredskill1: 11207
     requiredskill1level: 5

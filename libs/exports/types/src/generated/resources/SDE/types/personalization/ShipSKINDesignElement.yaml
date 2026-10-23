@@ -6504,6 +6504,7 @@ types:
     volume: 0.1
   96610:
     id: 96610
+    marketGroup: 3633
     name: Circle Outline - Limited
     portionSize: 1
     published: true
@@ -6517,6 +6518,7 @@ types:
     volume: 0.1
   96612:
     id: 96612
+    marketGroup: 3633
     name: Circle Hole - Limited
     portionSize: 1
     published: true
@@ -6572,6 +6574,7 @@ types:
     volume: 0.1
   96620:
     id: 96620
+    marketGroup: 3633
     name: Triangle - Limited
     portionSize: 1
     published: true
@@ -6921,6 +6924,7 @@ types:
     volume: 0.1
   96675:
     id: 96675
+    marketGroup: 3633
     name: Half Arch - Limited
     portionSize: 1
     published: true
@@ -7163,10 +7167,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  96803:
+    id: 96803
+    marketGroup: 3633
+    name: Hexfold Terror - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
   96804:
     id: 96804
     marketGroup: 3632
     name: Marine Shallows Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96805:
+    id: 96805
+    marketGroup: 3633
+    name: Hexfold Terror - Unlimited
     portionSize: 1
     published: true
     volume: 0.1
@@ -7198,10 +7216,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  96810:
+    id: 96810
+    marketGroup: 3633
+    name: Triglavian Collective - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
   96811:
     id: 96811
     marketGroup: 3632
     name: Marine Alloy Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96812:
+    id: 96812
+    marketGroup: 3633
+    name: Triglavian Collective - Unlimited
     portionSize: 1
     published: true
     volume: 0.1
@@ -7216,6 +7248,202 @@ types:
     id: 96814
     marketGroup: 3632
     name: Marine Plate Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96815:
+    id: 96815
+    marketGroup: 3633
+    name: Overflowing Harvest - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96816:
+    id: 96816
+    marketGroup: 3633
+    name: Overflowing Harvest - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96817:
+    id: 96817
+    marketGroup: 3633
+    name: Trinary Complex - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96818:
+    id: 96818
+    marketGroup: 3633
+    name: Trinary Complex - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96820:
+    id: 96820
+    marketGroup: 3633
+    name: Ascendant Clades - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96821:
+    id: 96821
+    marketGroup: 3633
+    name: Ascendant Clades - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96822:
+    id: 96822
+    marketGroup: 3633
+    name: Trinary Echo - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96823:
+    id: 96823
+    marketGroup: 3633
+    name: Trinary Echo - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96824:
+    id: 96824
+    marketGroup: 3633
+    name: Savant’s Ruin - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96825:
+    id: 96825
+    marketGroup: 3633
+    name: Savant’s Ruin - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96826:
+    id: 96826
+    marketGroup: 3633
+    name: Bleak Stigmata - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96827:
+    id: 96827
+    marketGroup: 3633
+    name: Bleak Stigmata - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96828:
+    id: 96828
+    marketGroup: 3655
+    name: Liminal Sanguine Gloss - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96829:
+    id: 96829
+    marketGroup: 3655
+    name: Liminal Sanguine Gloss - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96830:
+    id: 96830
+    marketGroup: 3653
+    name: Shadowy Totality Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96831:
+    id: 96831
+    marketGroup: 3653
+    name: Shadowy Totality Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96832:
+    id: 96832
+    marketGroup: 3654
+    name: Ecru Marrow Satin - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96833:
+    id: 96833
+    marketGroup: 3654
+    name: Ecru Marrow Satin - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96834:
+    id: 96834
+    marketGroup: 3653
+    name: Ossified Beige Matte - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96835:
+    id: 96835
+    marketGroup: 3653
+    name: Ossified Beige Matte - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96836:
+    id: 96836
+    marketGroup: 3655
+    name: Ossified Beige Gloss - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96838:
+    id: 96838
+    marketGroup: 3655
+    name: Ossified Beige Gloss - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96839:
+    id: 96839
+    marketGroup: 3632
+    name: Proven Chrome Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96840:
+    id: 96840
+    marketGroup: 3632
+    name: Proven Chrome Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96841:
+    id: 96841
+    marketGroup: 3632
+    name: Clotted Bronze Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96842:
+    id: 96842
+    marketGroup: 3632
+    name: Clotted Bronze Metallic - Unlimited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96843:
+    id: 96843
+    marketGroup: 3632
+    name: Entropic Rose Metallic - Limited
+    portionSize: 1
+    published: true
+    volume: 0.1
+  96844:
+    id: 96844
+    marketGroup: 3632
+    name: Entropic Rose Metallic - Unlimited
     portionSize: 1
     published: true
     volume: 0.1

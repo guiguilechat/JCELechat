@@ -9,6 +9,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 1300.0
     cargoscanresistance: 1.0
@@ -106,6 +107,7 @@ types:
     armorkineticdamageresonance: 0.375
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 1375.0
     cargoscanresistance: 1.0
@@ -204,6 +206,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 1200.0
     cargoscanresistance: 1.0
@@ -303,6 +306,7 @@ types:
     armorkineticdamageresonance: 0.1625
     armorthermaldamageresonance: 0.325
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 1300.0
     cargoscanresistance: 1.0
@@ -401,6 +405,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.1375
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 7000
     basewarpspeed: 1
     capacitorcapacity: 2000.0
     cargoscanresistance: 1.0

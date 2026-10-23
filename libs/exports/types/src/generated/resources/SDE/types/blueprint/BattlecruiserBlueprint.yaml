@@ -341,3 +341,13 @@ types:
     published: true
     techlevel: 1
     volume: 0.01
+  95742:
+    id: 95742
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
+    name: Akoman Blueprint
+    portionSize: 1
+    price: 625000000.0
+    published: true
+    techlevel: 1
+    volume: 0.01

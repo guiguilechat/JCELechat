@@ -1231,3 +1231,47 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 25.0
+  97648:
+    id: 97648
+    mass: 20.0
+    mediumremoterepfittingmultiplier: 1
+    name: Capital Abyssal Remote Armor Repairer
+    portionSize: 1
+    published: true
+    requiredskill1: 24568
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
+  97657:
+    id: 97657
+    mass: 20.0
+    mediumremoterepfittingmultiplier: 1
+    name: Large Abyssal Remote Armor Repairer
+    portionSize: 1
+    published: true
+    requiredskill1: 16069
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 25.0
+  97668:
+    id: 97668
+    mass: 20.0
+    mediumremoterepfittingmultiplier: 1
+    name: Medium Abyssal Remote Armor Repairer
+    portionSize: 1
+    published: true
+    requiredskill1: 16069
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 10.0
+  97675:
+    id: 97675
+    mass: 20.0
+    mediumremoterepfittingmultiplier: 1
+    name: Small Abyssal Remote Armor Repairer
+    portionSize: 1
+    published: true
+    requiredskill1: 16069
+    requiredskill1level: 3
+    techlevel: 1
+    volume: 5.0

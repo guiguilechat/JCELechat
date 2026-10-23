@@ -1525,3 +1525,33 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  97711:
+    capacitorneed: 3600.0
+    cpu: 90.0
+    duration: 48000.0
+    energyneutralizeramount: 4800.0
+    energyneutralizersignatureresolution: 8000
+    entitycapacitorlevelmodifierlarge: 0.814
+    entitycapacitorlevelmodifiermedium: 0.53
+    entitycapacitorlevelmodifiersmall: 0.318
+    falloffeffectiveness: 21500
+    heatabsorbtionratemodifier: 0.01
+    heatdamage: 4.6
+    hp: 40.0
+    id: 97711
+    marketGroup: 2250
+    mass: 2000.0
+    maxrange: 43000.0
+    metagroupid: 5
+    metalevelold: 11.0
+    name: Horm's Capital Energy Neutralizer
+    overloadselfdurationbonus: -15.0
+    packagedVolume: 1000.0
+    portionSize: 1
+    power: 110000
+    published: true
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 4000.0

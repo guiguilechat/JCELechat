@@ -76,6 +76,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 20.0
     scanresolution: 275.0
@@ -180,6 +181,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 16.0
     scanresolution: 260.0
@@ -265,6 +267,7 @@ types:
     published: true
     radius: 166.0
     rechargerate: 2000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 22.0
     scanresolution: 285.0
@@ -348,6 +351,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 18.0
     scanresolution: 390.0
@@ -445,6 +449,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 20.0
     scanresolution: 275.0
@@ -546,6 +551,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 500000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 10.0
     scanladarstrength: 10.0
@@ -643,6 +649,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanladarstrength: 20.0
@@ -738,6 +745,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanladarstrength: 20.0
@@ -819,6 +827,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanladarstrength: 20.0
@@ -906,6 +915,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanladarstrength: 20.0
@@ -995,6 +1005,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 500000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
@@ -1082,6 +1093,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 2000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 210.0
@@ -1183,6 +1195,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 500000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 15.0
     scanmagnetometricstrength: 13.0
@@ -1287,6 +1300,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 500000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 15.0
     scanmagnetometricstrength: 13.0
@@ -1395,6 +1409,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 24.0
     scanresolution: 235.0
@@ -1498,6 +1513,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 15.0
     scanresolution: 265.0
@@ -1606,6 +1622,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 21.0
     scanresolution: 235.0
@@ -1705,6 +1722,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 20.0
     scanresolution: 275.0
@@ -1796,6 +1814,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 18.0
     scangravimetricstrengthbonus: 3.25
@@ -1876,6 +1895,7 @@ types:
     published: false
     radius: 199.86
     rechargerate: 333750.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 19.2
     scanresolution: 337.5
@@ -1970,6 +1990,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 20.0
     scanresolution: 275.0
@@ -2070,6 +2091,7 @@ types:
     published: false
     radius: 174.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 22.8
     scanresolution: 400.0
@@ -2153,6 +2175,7 @@ types:
     published: false
     radius: 202.0
     rechargerate: 280000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 19.2
     scanresolution: 400.0
@@ -2238,6 +2261,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.4
     scanresolution: 400.0
@@ -2332,6 +2356,7 @@ types:
     published: false
     radius: 170.0
     rechargerate: 368000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 22.0
     scanresolution: 500.0
@@ -2428,6 +2453,7 @@ types:
     published: false
     radius: 149.0
     rechargerate: 367000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 24.0
     scanresolution: 400.0
@@ -2526,6 +2552,7 @@ types:
     published: false
     radius: 133.0
     rechargerate: 274500.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 34.0
     scanresolution: 400.0
@@ -2616,6 +2643,7 @@ types:
     published: false
     radius: 79.0
     rechargerate: 347000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 22.0
     scanresolution: 400.0
@@ -2711,6 +2739,7 @@ types:
     published: false
     radius: 79.0
     rechargerate: 242250.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 37.0
     scanresolution: 350.0
@@ -2800,6 +2829,7 @@ types:
     published: false
     radius: 224.0
     rechargerate: 140000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 30.0
     scanresolution: 600.0
@@ -2884,6 +2914,7 @@ types:
     published: false
     radius: 224.0
     rechargerate: 140000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 40.0
     scanresolution: 700.0
@@ -2973,6 +3004,7 @@ types:
     published: false
     radius: 202.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 15.0
     scanresolution: 1000.0
@@ -3067,6 +3099,7 @@ types:
     published: false
     radius: 139.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 15.0
     scangravimetricstrengthbonus: 2.0
@@ -3165,6 +3198,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 15.0
     scanresolution: 1000.0
@@ -3257,6 +3291,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -3355,6 +3390,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -3459,6 +3495,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -3554,6 +3591,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 22.0
     scanresolution: 1600.0
@@ -3649,6 +3687,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 22.0
     scanresolution: 1600.0
@@ -3748,6 +3787,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -3846,6 +3886,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -3961,6 +4002,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 20.0
     scanresolution: 500.0
@@ -4079,6 +4121,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 20.0
     scanresolution: 500.0
@@ -4172,6 +4215,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 400.0
@@ -4262,6 +4306,7 @@ types:
     published: false
     radius: 80.0
     rechargerate: 367000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 40.0
     scanresolution: 400.0
@@ -4351,6 +4396,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 347000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 25.0
     scanresolution: 400.0
@@ -4454,6 +4500,7 @@ types:
     published: false
     radius: 176.0
     rechargerate: 274500.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 30.0
     scanresolution: 400.0
@@ -4552,6 +4599,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 530000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 340.0
@@ -4643,6 +4691,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 1000000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 18.0
     scangravimetricstrengthbonus: 3.25
@@ -4736,6 +4785,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 400.0
@@ -4831,6 +4881,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 530000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 340.0
@@ -4926,6 +4977,7 @@ types:
     published: false
     radius: 79.0
     rechargerate: 242250.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 37.0
     scanresolution: 350.0
@@ -5016,6 +5068,7 @@ types:
     published: false
     radius: 80.0
     rechargerate: 380000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 16.0
     scanresolution: 375.0
@@ -5100,6 +5153,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 350.0
@@ -5199,6 +5253,7 @@ types:
     published: false
     radius: 172.0
     rechargerate: 415000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 350.0
@@ -5286,6 +5341,7 @@ types:
     published: false
     radius: 80.0
     rechargerate: 356250.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 25.0
     scanresolution: 400.0
@@ -5372,6 +5428,7 @@ types:
     published: false
     radius: 134.43
     rechargerate: 347000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 25.0
     scanresolution: 382.0
@@ -5479,6 +5536,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -5586,6 +5644,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -5693,6 +5752,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -5800,6 +5860,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -5907,6 +5968,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 30.0
     scanresolution: 1000.0
@@ -6014,6 +6076,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 30.0
     scanresolution: 1000.0
@@ -6121,6 +6184,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 30.0
     scanresolution: 1000.0
@@ -6228,6 +6292,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 30.0
     scanresolution: 1000.0
@@ -6308,6 +6373,7 @@ types:
     published: false
     radius: 199.86
     rechargerate: 333750.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 19.2
     scanresolution: 337.5
@@ -6401,6 +6467,7 @@ types:
     published: false
     radius: 200.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 35.0
     scanresolution: 400.0
@@ -6491,6 +6558,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 19.0
     scanresolution: 400.0
@@ -6597,6 +6665,7 @@ types:
     published: false
     radius: 176.0
     rechargerate: 250000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 28.0
     scanresolution: 400.0
@@ -6693,6 +6762,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 17.0
     scanresolution: 400.0
@@ -6784,6 +6854,7 @@ types:
     published: false
     radius: 174.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 0.25
     remoterepairimpedance: 0.25
     scangravimetricstrength: 22.0
     scanresolution: 600.0
@@ -6877,6 +6948,7 @@ types:
     published: false
     radius: 202.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 24.0
     scanresolution: 400.0
@@ -6969,6 +7041,7 @@ types:
     published: false
     radius: 113.0
     rechargerate: 250000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 24.0
     scanresolution: 400.0
@@ -7059,6 +7132,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 22.0
     scanresolution: 400.0
@@ -7164,6 +7238,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -7263,6 +7338,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 15.0
     scanresolution: 1000.0
@@ -7363,6 +7439,7 @@ types:
     published: false
     radius: 79.0
     rechargerate: 347000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 22.0
     scanresolution: 400.0
@@ -7470,6 +7547,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -7575,6 +7653,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanresolution: 1000.0
@@ -7674,6 +7753,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 15.0
     scanresolution: 1000.0
@@ -7773,6 +7853,7 @@ types:
     published: false
     radius: 79.0
     rechargerate: 347000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 22.0
     scanresolution: 400.0
@@ -7880,6 +7961,7 @@ types:
     published: false
     radius: 110.0
     rechargerate: 395000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 18.0
     scanresolution: 1200.0
@@ -7977,6 +8059,7 @@ types:
     published: false
     radius: 113.0
     rechargerate: 250000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 24.0
     scanresolution: 400.0
@@ -8072,6 +8155,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 22.0
     scanresolution: 400.0
@@ -8164,6 +8248,7 @@ types:
     published: false
     radius: 170.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanladarstrength: 22.0
     scanresolution: 425.0
@@ -8256,6 +8341,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 24.0
     scanresolution: 350.0
@@ -8350,6 +8436,7 @@ types:
     published: false
     radius: 200.0
     rechargerate: 300000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 35.0
     scanresolution: 400.0
@@ -8441,6 +8528,7 @@ types:
     published: false
     radius: 166.0
     rechargerate: 200000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 19.0
     scanresolution: 400.0
@@ -8526,6 +8614,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -8615,6 +8704,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -8705,6 +8795,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -8797,6 +8888,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -8883,6 +8975,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -8967,6 +9060,7 @@ types:
     published: false
     radius: 80.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -9053,6 +9147,7 @@ types:
     published: false
     radius: 172.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -9136,6 +9231,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 420800.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 15.0
     scanresolution: 300.0
@@ -9217,6 +9313,7 @@ types:
     published: false
     radius: 80.0
     rechargerate: 256500.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 15.6
     scanresolution: 375.0
@@ -9300,6 +9397,7 @@ types:
     published: false
     radius: 172.0
     rechargerate: 367500.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 25.92
     scanresolution: 403.0
@@ -9399,6 +9497,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 25.0
     scanresolution: 1000.0
@@ -9501,6 +9600,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 25.0
     scanresolution: 1000.0
@@ -9603,6 +9703,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 25.0
     scanresolution: 1000.0
@@ -9705,6 +9806,7 @@ types:
     published: false
     radius: 250.0
     rechargerate: 400000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 25.0
     scanresolution: 1000.0
@@ -9799,6 +9901,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 150000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 24.0
     scanresolution: 400.0
@@ -9894,6 +9997,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 150000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 24.0
     scanresolution: 340.0
@@ -9988,6 +10092,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 150000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 25.0
     scanladarstrength: 25.0
@@ -10073,6 +10178,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 20.0
     scanladarstrength: 20.0
@@ -10163,6 +10269,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 420800.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 15.0
     scanresolution: 300.0
@@ -10254,6 +10361,7 @@ types:
     published: false
     radius: 137.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 400.0
@@ -10356,6 +10464,7 @@ types:
     published: false
     radius: 150.0
     rechargerate: 150000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 500.0
     scanladarstrength: 500.0
@@ -10443,6 +10552,7 @@ types:
     published: false
     radius: 172.0
     rechargerate: 367500.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 25.92
     scanresolution: 403.0
@@ -10526,6 +10636,7 @@ types:
     published: false
     radius: 134.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanladarstrength: 12.0
@@ -10620,6 +10731,7 @@ types:
     published: false
     radius: 202.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 400.0
@@ -10713,6 +10825,7 @@ types:
     published: false
     radius: 202.0
     rechargerate: 720000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanradarstrength: 19.0
     scanresolution: 400.0
@@ -10795,6 +10908,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 20.0
     scanresolution: 300.0
@@ -10878,6 +10992,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 20.0
     scanresolution: 300.0
@@ -10961,6 +11076,7 @@ types:
     published: false
     radius: 50.0
     rechargerate: 360000.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 20.0
     scanresolution: 300.0

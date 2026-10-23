@@ -32528,8 +32528,6 @@ id2group:
   90058: blueprint/MiningCrystalBlueprint
   90059: blueprint/MiningCrystalBlueprint
   90072: commodity/LimitedRarities
-  90117: commodity/AccelerationGateKeys
-  90118: commodity/AccelerationGateKeys
   90120: skins/PermanentSKIN
   90121: skins/PermanentSKIN
   90122: skins/PermanentSKIN
@@ -32539,7 +32537,6 @@ id2group:
   90126: skins/PermanentSKIN
   90134: specialeditionassets/SpecialEditionCommodities
   90135: specialeditionassets/SpecialEditionCommodities
-  90136: specialeditionassets/SpecialEditionCommodities
   90137: specialeditionassets/SpecialEditionCommodities
   90139: entity/DeadspaceOverseerSStructure
   90140: personalization/ShipSKINDesignElement
@@ -33025,15 +33022,15 @@ id2group:
   91977: implant/Booster
   91986: personalization/ShipSKINDesignElement
   91987: personalization/ShipSKINDesignElement
-  92033: drone/CombatDrone
-  92034: drone/CombatDrone
-  92035: drone/CombatDrone
-  92036: drone/CombatDrone
-  92037: drone/CombatDrone
-  92038: drone/CombatDrone
-  92039: drone/CombatDrone
-  92040: drone/CombatDrone
-  92041: drone/CombatDrone
+  92033: drone/HybridDrone
+  92034: drone/HybridDrone
+  92035: drone/HybridDrone
+  92036: drone/HybridDrone
+  92037: drone/HybridDrone
+  92038: drone/HybridDrone
+  92039: drone/HybridDrone
+  92040: drone/HybridDrone
+  92041: drone/HybridDrone
   92092: specialeditionassets/SpecialEditionCommodities
   92135: entity/FWAmarrEmpireHauler
   92144: entity/SpawnContainer
@@ -33081,15 +33078,15 @@ id2group:
   92455: module/CommandBurst
   92456: module/CommandBurst
   92458: module/CommandBurst
-  92461: drone/CombatDrone
-  92462: drone/CombatDrone
-  92463: drone/CombatDrone
-  92464: drone/CombatDrone
-  92465: drone/CombatDrone
-  92466: drone/CombatDrone
-  92467: drone/CombatDrone
-  92468: drone/CombatDrone
-  92469: drone/CombatDrone
+  92461: drone/HybridDrone
+  92462: drone/HybridDrone
+  92463: drone/HybridDrone
+  92464: drone/HybridDrone
+  92465: drone/HybridDrone
+  92466: drone/HybridDrone
+  92467: drone/HybridDrone
+  92468: drone/HybridDrone
+  92469: drone/HybridDrone
   92506: entity/MoreauSCapsuleerOutreachCenterEntities
   92507: entity/MoreauSCapsuleerOutreachCenterEntities
   92508: entity/MoreauSCapsuleerOutreachCenterEntities
@@ -33782,7 +33779,11 @@ id2group:
   95725: skins/PermanentSKIN
   95726: skins/PermanentSKIN
   95727: skins/PermanentSKIN
+  95741: ship/AttackBattlecruiser
+  95742: blueprint/BattlecruiserBlueprint
   95744: expertsystems/StandardExpertSystems
+  95745: personalization/ShipEmblems
+  95746: personalization/ShipEmblems
   95747: specialeditionassets/SpecialEditionCommodities
   95813: personalization/ShipSKINDesignElement
   95903: entity/FWMinmatarRepublicHauler
@@ -33805,6 +33806,9 @@ id2group:
   96159: skins/PermanentSKIN
   96160: skins/PermanentSKIN
   96161: skins/PermanentSKIN
+  96278: entity/SleeperEntities
+  96281: entity/RogueDroneEntities
+  96284: entity/TriglavianEntities
   96315: skins/PermanentSKIN
   96316: skins/PermanentSKIN
   96317: skins/PermanentSKIN
@@ -33812,7 +33816,10 @@ id2group:
   96319: skins/PermanentSKIN
   96320: skins/PermanentSKIN
   96321: skins/PermanentSKIN
+  96323: entity/SpawnContainer
+  96324: entity/SpawnContainer
   96325: expertsystems/StandardExpertSystems
+  96326: specialeditionassets/SpecialEditionCommodities
   96327: skins/PermanentSKIN
   96328: skins/PermanentSKIN
   96329: skins/PermanentSKIN
@@ -33823,6 +33830,53 @@ id2group:
   96334: skins/PermanentSKIN
   96335: skins/PermanentSKIN
   96336: specialeditionassets/SpecialEditionCommodities
+  96542: implant/Booster
+  96543: implant/Booster
+  96544: implant/Booster
+  96545: implant/Booster
+  96546: implant/Booster
+  96547: implant/Booster
+  96548: implant/Booster
+  96549: implant/Booster
+  96550: implant/Booster
+  96551: implant/Booster
+  96552: implant/Booster
+  96553: implant/Booster
+  96554: implant/Booster
+  96555: implant/Booster
+  96556: implant/Booster
+  96557: implant/Booster
+  96558: implant/Booster
+  96560: implant/Booster
+  96561: implant/Booster
+  96562: implant/Booster
+  96563: implant/Booster
+  96565: implant/Booster
+  96566: implant/Booster
+  96567: implant/Booster
+  96568: implant/Booster
+  96569: implant/Booster
+  96570: implant/Booster
+  96571: implant/Booster
+  96572: implant/Booster
+  96573: implant/Booster
+  96574: implant/Booster
+  96575: implant/Booster
+  96576: implant/Booster
+  96577: implant/Booster
+  96578: implant/Booster
+  96581: implant/Booster
+  96582: implant/Booster
+  96583: implant/Booster
+  96584: implant/Booster
+  96585: implant/Booster
+  96586: implant/Booster
+  96588: implant/Booster
+  96589: implant/Booster
+  96590: implant/Booster
+  96591: implant/Booster
+  96592: implant/Booster
+  96593: implant/Booster
   96607: personalization/ShipSKINDesignElement
   96608: personalization/ShipSKINDesignElement
   96609: personalization/ShipSKINDesignElement
@@ -33909,6 +33963,7 @@ id2group:
   96770: personalization/ShipSKINDesignElement
   96771: personalization/ShipSKINDesignElement
   96772: personalization/ShipSKINDesignElement
+  96789: specialeditionassets/SpecialEditionCommodities
   96791: personalization/ShipSKINDesignElement
   96792: personalization/ShipSKINDesignElement
   96793: personalization/ShipSKINDesignElement
@@ -33921,17 +33976,183 @@ id2group:
   96800: personalization/ShipSKINDesignElement
   96801: personalization/ShipSKINDesignElement
   96802: personalization/ShipSKINDesignElement
+  96803: personalization/ShipSKINDesignElement
   96804: personalization/ShipSKINDesignElement
+  96805: personalization/ShipSKINDesignElement
   96806: personalization/ShipSKINDesignElement
   96807: personalization/ShipSKINDesignElement
   96808: personalization/ShipSKINDesignElement
   96809: personalization/ShipSKINDesignElement
+  96810: personalization/ShipSKINDesignElement
   96811: personalization/ShipSKINDesignElement
+  96812: personalization/ShipSKINDesignElement
   96813: personalization/ShipSKINDesignElement
   96814: personalization/ShipSKINDesignElement
+  96815: personalization/ShipSKINDesignElement
+  96816: personalization/ShipSKINDesignElement
+  96817: personalization/ShipSKINDesignElement
+  96818: personalization/ShipSKINDesignElement
+  96820: personalization/ShipSKINDesignElement
+  96821: personalization/ShipSKINDesignElement
+  96822: personalization/ShipSKINDesignElement
+  96823: personalization/ShipSKINDesignElement
+  96824: personalization/ShipSKINDesignElement
+  96825: personalization/ShipSKINDesignElement
+  96826: personalization/ShipSKINDesignElement
+  96827: personalization/ShipSKINDesignElement
+  96828: personalization/ShipSKINDesignElement
+  96829: personalization/ShipSKINDesignElement
+  96830: personalization/ShipSKINDesignElement
+  96831: personalization/ShipSKINDesignElement
+  96832: personalization/ShipSKINDesignElement
+  96833: personalization/ShipSKINDesignElement
+  96834: personalization/ShipSKINDesignElement
+  96835: personalization/ShipSKINDesignElement
+  96836: personalization/ShipSKINDesignElement
+  96838: personalization/ShipSKINDesignElement
+  96839: personalization/ShipSKINDesignElement
+  96840: personalization/ShipSKINDesignElement
+  96841: personalization/ShipSKINDesignElement
+  96842: personalization/ShipSKINDesignElement
+  96843: personalization/ShipSKINDesignElement
+  96844: personalization/ShipSKINDesignElement
+  96845: apparel/PortraitBackgrounds
   97198: skins/PermanentSKIN
   97199: skins/PermanentSKIN
   97200: skins/PermanentSKIN
+  97206: specialeditionassets/SpecialEditionCommodities
+  97207: commodity/AccelerationGateKeys
+  97208: commodity/AccelerationGateKeys
+  97242: module/DroneTrackingModules
+  97243: module/DroneNavigationComputer
+  97244: module/DroneTrackingEnhancer
+  97245: module/DroneControlRangeModule
+  97246: commodity/Mutaplasmids
+  97247: commodity/Mutaplasmids
+  97248: commodity/Mutaplasmids
+  97249: commodity/Mutaplasmids
+  97262: entity/IrregularStructure
+  97263: skill/Drones
+  97265: commodity/AccelerationGateKeys
+  97288: entity/TriglavianEntities
+  97290: entity/TriglavianEntities
+  97310: entity/TriglavianEntities
+  97314: specialeditionassets/SpecialEditionCommodities
+  97348: expertsystems/StandardExpertSystems
+  97406: expertsystems/StandardExpertSystems
+  97421: skins/PermanentSKIN
+  97422: skins/PermanentSKIN
+  97423: skins/PermanentSKIN
+  97424: skins/PermanentSKIN
+  97425: skins/PermanentSKIN
+  97426: skins/PermanentSKIN
+  97427: skins/PermanentSKIN
+  97428: skins/PermanentSKIN
+  97429: skins/PermanentSKIN
+  97430: skins/PermanentSKIN
+  97431: skins/PermanentSKIN
+  97432: skins/PermanentSKIN
+  97433: skins/PermanentSKIN
+  97434: skins/PermanentSKIN
+  97435: skins/PermanentSKIN
+  97436: skins/PermanentSKIN
+  97437: skins/PermanentSKIN
+  97438: skins/PermanentSKIN
+  97439: skins/PermanentSKIN
+  97440: skins/PermanentSKIN
+  97441: skins/PermanentSKIN
+  97487: entity/DeadspaceSleeperSleeplessDefender
+  97488: entity/DeadspaceSleeperEmergentDefender
+  97489: entity/DeadspaceSleeperEmergentDefender
+  97490: entity/DeadspaceSleeperSleeplessDefender
+  97491: entity/DeadspaceSleeperEmergentPatroller
+  97492: entity/DeadspaceSleeperAwakenedPatroller
+  97493: entity/DeadspaceSleeperEmergentPatroller
+  97494: entity/DeadspaceSleeperAwakenedPatroller
+  97497: entity/DeadspaceSleeperAwakenedPatroller
+  97498: entity/DeadspaceSleeperEmergentPatroller
+  97499: entity/DeadspaceSleeperSleeplessPatroller
+  97500: entity/DeadspaceSleeperSleeplessPatroller
+  97501: entity/DeadspaceSleeperSleeplessPatroller
+  97502: entity/DeadspaceSleeperSleeplessPatroller
+  97503: entity/DeadspaceSleeperAwakenedDefender
+  97504: entity/DeadspaceSleeperAwakenedDefender
+  97505: entity/DeadspaceSleeperAwakenedDefender
+  97506: entity/DeadspaceSleeperSleeplessDefender
+  97507: entity/DeadspaceSleeperEmergentDefender
+  97516: specialeditionassets/SpecialEditionCommodities
+  97617: skins/PermanentSKIN
+  97618: skins/PermanentSKIN
+  97619: skins/PermanentSKIN
+  97620: skins/PermanentSKIN
+  97621: skins/PermanentSKIN
+  97638: commodity/Mutaplasmids
+  97639: commodity/Mutaplasmids
+  97640: commodity/Mutaplasmids
+  97641: commodity/Mutaplasmids
+  97642: commodity/Mutaplasmids
+  97643: commodity/Mutaplasmids
+  97648: module/RemoteArmorRepairer
+  97649: specialeditionassets/SpecialEditionCommodities
+  97650: commodity/Mutaplasmids
+  97651: commodity/Mutaplasmids
+  97652: commodity/Mutaplasmids
+  97653: commodity/Mutaplasmids
+  97654: commodity/Mutaplasmids
+  97655: commodity/Mutaplasmids
+  97657: module/RemoteArmorRepairer
+  97659: expertsystems/StandardExpertSystems
+  97661: commodity/Mutaplasmids
+  97662: commodity/Mutaplasmids
+  97663: commodity/Mutaplasmids
+  97665: commodity/Mutaplasmids
+  97666: commodity/Mutaplasmids
+  97667: commodity/Mutaplasmids
+  97668: module/RemoteArmorRepairer
+  97669: commodity/Mutaplasmids
+  97670: commodity/Mutaplasmids
+  97671: commodity/Mutaplasmids
+  97672: commodity/Mutaplasmids
+  97673: commodity/Mutaplasmids
+  97674: commodity/Mutaplasmids
+  97675: module/RemoteArmorRepairer
+  97676: blueprint/MutaplasmidBlueprint
+  97677: blueprint/MutaplasmidBlueprint
+  97678: blueprint/MutaplasmidBlueprint
+  97679: blueprint/MutaplasmidBlueprint
+  97680: blueprint/MutaplasmidBlueprint
+  97681: blueprint/MutaplasmidBlueprint
+  97682: blueprint/MutaplasmidBlueprint
+  97683: blueprint/MutaplasmidBlueprint
+  97684: blueprint/MutaplasmidBlueprint
+  97685: blueprint/MutaplasmidBlueprint
+  97686: blueprint/MutaplasmidBlueprint
+  97687: blueprint/MutaplasmidBlueprint
+  97710: module/EnergyNosferatu
+  97711: module/EnergyNeutralizer
+  97712: module/PrecursorWeapon
+  97714: blueprint/StasisWebBlueprint
+  97715: blueprint/ArmorRepairUnitBlueprint
+  97716: blueprint/EnergyNosferatuBlueprint
+  97717: blueprint/EnergyNeutralizerBlueprint
+  97718: blueprint/PrecursorWeaponBlueprint
+  97719: specialeditionassets/SpecialEditionCommodities
+  97720: specialeditionassets/SpecialEditionCommodities
+  97721: specialeditionassets/SpecialEditionCommodities
+  97722: specialeditionassets/SpecialEditionCommodities
+  97723: specialeditionassets/SpecialEditionCommodities
+  97724: specialeditionassets/SpecialEditionCommodities
+  97725: specialeditionassets/SpecialEditionCommodities
+  97726: specialeditionassets/SpecialEditionCommodities
+  97727: specialeditionassets/SpecialEditionCommodities
+  97728: specialeditionassets/SpecialEditionCommodities
+  97729: specialeditionassets/SpecialEditionCommodities
+  97730: specialeditionassets/SpecialEditionCommodities
+  97731: specialeditionassets/SpecialEditionCommodities
+  97732: specialeditionassets/SpecialEditionCommodities
+  97733: specialeditionassets/SpecialEditionCommodities
+  97897: apparel/PortraitBackgrounds
+  98268: skins/PermanentSKIN
   350916: infantry/InfantryWeapons
   351063: infantry/InfantryWeapons
   351071: infantry/InfantryDropsuits

@@ -986,3 +986,75 @@ types:
     portionSize: 1
     published: true
     volume: 0.1
+  97676:
+    id: 97676
+    name: Glorified Decayed Capital Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97677:
+    id: 97677
+    name: Glorified Gravid Capital Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97678:
+    id: 97678
+    name: Glorified Unstable Capital Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97679:
+    id: 97679
+    name: Glorified Decayed Large Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97680:
+    id: 97680
+    name: Glorified Gravid Large Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97681:
+    id: 97681
+    name: Glorified Unstable Large Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97682:
+    id: 97682
+    name: Glorified Decayed Medium Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97683:
+    id: 97683
+    name: Glorified Unstable Medium Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97684:
+    id: 97684
+    name: Glorified Gravid Medium Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97685:
+    id: 97685
+    name: Glorified Decayed Small Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97686:
+    id: 97686
+    name: Glorified Gravid Small Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1
+  97687:
+    id: 97687
+    name: Glorified Unstable Small Remote Armor Repairer Mutaplasmid Blueprint
+    portionSize: 1
+    published: true
+    volume: 0.1

@@ -38581,30 +38581,35 @@ types:
     volume: 0.01
   90008:
     id: 90008
+    marketGroup: 2383
     name: Molok Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90009:
     id: 90009
+    marketGroup: 2030
     name: Ashimmu Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90010:
     id: 90010
+    marketGroup: 2069
     name: Zealot Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90011:
     id: 90011
+    marketGroup: 2110
     name: Redeemer Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90012:
     id: 90012
+    marketGroup: 2047
     name: Retribution Deathglow Remnant SKIN
     portionSize: 1
     published: true
@@ -38618,18 +38623,21 @@ types:
     volume: 0.01
   90014:
     id: 90014
+    marketGroup: 2025
     name: Golem Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90015:
     id: 90015
+    marketGroup: 2105
     name: Hawk Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90016:
     id: 90016
+    marketGroup: 2071
     name: Ishtar Deathglow Remnant SKIN
     portionSize: 1
     published: true
@@ -38643,30 +38651,35 @@ types:
     volume: 0.01
   90018:
     id: 90018
+    marketGroup: 2049
     name: Ishkur Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90019:
     id: 90019
+    marketGroup: 2072
     name: Muninn Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90020:
     id: 90020
+    marketGroup: 2027
     name: Vargur Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90021:
     id: 90021
+    marketGroup: 2050
     name: Jaguar Deathglow Remnant SKIN
     portionSize: 1
     published: true
     volume: 0.01
   90022:
     id: 90022
+    marketGroup: 3794
     name: Babaroga Deathglow Remnant SKIN
     portionSize: 1
     published: true
@@ -41086,6 +41099,184 @@ types:
     id: 97200
     marketGroup: 2318
     name: Bowhead Nautgripur Industrial Input SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97421:
+    id: 97421
+    marketGroup: 2486
+    name: Damavik Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97422:
+    id: 97422
+    marketGroup: 2485
+    name: Vedmak Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97423:
+    id: 97423
+    marketGroup: 2519
+    name: Drekavac Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97424:
+    id: 97424
+    name: Leshak Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97425:
+    id: 97425
+    name: Nergal Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97426:
+    id: 97426
+    name: Kikimora Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97427:
+    id: 97427
+    name: Ikitursa Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97428:
+    id: 97428
+    name: Zarmazd Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97429:
+    id: 97429
+    marketGroup: 2485
+    name: Rodiva Blood Raiders Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97430:
+    id: 97430
+    marketGroup: 2486
+    name: Nergal Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97431:
+    id: 97431
+    name: Leshak Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97432:
+    id: 97432
+    name: Damavik Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97433:
+    id: 97433
+    marketGroup: 3794
+    name: Babaroga Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97434:
+    id: 97434
+    marketGroup: 2704
+    name: Zirnitra Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97435:
+    id: 97435
+    marketGroup: 2519
+    name: Drekavac Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97436:
+    id: 97436
+    marketGroup: 2521
+    name: Kikimora Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97437:
+    id: 97437
+    marketGroup: 2485
+    name: Ikitursa Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97438:
+    id: 97438
+    name: Draugur Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97439:
+    id: 97439
+    name: Rodiva Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97440:
+    id: 97440
+    name: Vedmak Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97441:
+    id: 97441
+    marketGroup: 2485
+    name: Zarmazd Tetrimon Crimson Mark SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97617:
+    id: 97617
+    marketGroup: 2002
+    name: Crucifier Medical Enforcement Taskforce SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97618:
+    id: 97618
+    marketGroup: 2003
+    name: Griffin Medical Enforcement Taskforce SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97619:
+    id: 97619
+    marketGroup: 2004
+    name: Maulus Medical Enforcement Taskforce SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97620:
+    id: 97620
+    marketGroup: 2005
+    name: Vigil Medical Enforcement Taskforce SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  97621:
+    id: 97621
+    marketGroup: 3813
+    name: Pioneer Medical Enforcement Taskforce SKIN
+    portionSize: 1
+    published: true
+    volume: 0.01
+  98268:
+    id: 98268
+    name: Akoman Sanguinary Savant SKIN
     portionSize: 1
     published: true
     volume: 0.01

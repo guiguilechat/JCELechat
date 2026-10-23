@@ -9,6 +9,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 19000
     basewarpspeed: 1
     canjump: 1
     canreceiveclonejumps: 1

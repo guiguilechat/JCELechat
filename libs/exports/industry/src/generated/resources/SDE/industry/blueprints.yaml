@@ -180497,7 +180497,7 @@
     - id: 52311
       quantity: 666
     - id: 52312
-      quantity: 6666
+      quantity: 4800
     - id: 52313
       quantity: 6666
     - id: 52314
@@ -181533,8 +181533,6 @@
     materials:
     - id: 20280
       quantity: 1
-    - id: 88087
-      quantity: 150000
     products:
     - id: 88266
       probability: 1.0
@@ -183686,4 +183684,362 @@
     - id: 3380
       level: 1
     time: 3600
+  maxCopyRuns: 1
+95742:
+  copying:
+    time: 12000
+  id: 95742
+  manufacturing:
+    materials:
+    - id: 34
+      quantity: 4368000
+    - id: 35
+      quantity: 1560000
+    - id: 36
+      quantity: 280800
+    - id: 37
+      quantity: 31200
+    - id: 38
+      quantity: 12480
+    - id: 39
+      quantity: 3120
+    - id: 40
+      quantity: 624
+    - id: 57478
+      quantity: 156
+    - id: 57486
+      quantity: 78
+    - id: 83468
+      quantity: 100
+    products:
+    - id: 95741
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 15000
+  maxCopyRuns: 10
+  research_material:
+    time: 5250
+  research_time:
+    time: 5250
+97676:
+  id: 97676
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 250
+    - id: 85400
+      quantity: 250
+    - id: 97638
+      quantity: 1
+    products:
+    - id: 97641
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 3600
+  maxCopyRuns: 10
+97677:
+  id: 97677
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 500
+    - id: 85400
+      quantity: 500
+    - id: 97640
+      quantity: 1
+    products:
+    - id: 97643
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 2
+    time: 7200
+  maxCopyRuns: 10
+97678:
+  id: 97678
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 1000
+    - id: 85400
+      quantity: 1000
+    - id: 97639
+      quantity: 1
+    products:
+    - id: 97642
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 3
+    time: 10800
+  maxCopyRuns: 10
+97679:
+  id: 97679
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 125
+    - id: 85399
+      quantity: 125
+    - id: 97650
+      quantity: 1
+    products:
+    - id: 97653
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 3600
+  maxCopyRuns: 10
+97680:
+  id: 97680
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 250
+    - id: 85399
+      quantity: 250
+    - id: 97652
+      quantity: 1
+    products:
+    - id: 97655
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 2
+    time: 7200
+  maxCopyRuns: 10
+97681:
+  id: 97681
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 500
+    - id: 85399
+      quantity: 500
+    - id: 97651
+      quantity: 1
+    products:
+    - id: 97654
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 3
+    time: 10800
+  maxCopyRuns: 10
+97682:
+  id: 97682
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 60
+    - id: 85398
+      quantity: 60
+    - id: 97661
+      quantity: 1
+    products:
+    - id: 97665
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 3600
+  maxCopyRuns: 10
+97683:
+  id: 97683
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 240
+    - id: 85398
+      quantity: 240
+    - id: 97662
+      quantity: 1
+    products:
+    - id: 97666
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 3
+    time: 10800
+  maxCopyRuns: 10
+97684:
+  id: 97684
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 120
+    - id: 85398
+      quantity: 120
+    - id: 97663
+      quantity: 1
+    products:
+    - id: 97667
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 2
+    time: 7200
+  maxCopyRuns: 10
+97685:
+  id: 97685
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 25
+    - id: 85397
+      quantity: 25
+    - id: 97669
+      quantity: 1
+    products:
+    - id: 97672
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 3600
+  maxCopyRuns: 10
+97686:
+  id: 97686
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 50
+    - id: 85397
+      quantity: 50
+    - id: 97671
+      quantity: 1
+    products:
+    - id: 97674
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 2
+    time: 7200
+  maxCopyRuns: 10
+97687:
+  id: 97687
+  manufacturing:
+    materials:
+    - id: 85390
+      quantity: 100
+    - id: 85397
+      quantity: 100
+    - id: 97670
+      quantity: 1
+    products:
+    - id: 97673
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 3
+    time: 10800
+  maxCopyRuns: 10
+97714:
+  id: 97714
+  manufacturing:
+    materials:
+    - id: 34
+      quantity: 862
+    - id: 35
+      quantity: 792
+    - id: 36
+      quantity: 529
+    - id: 526
+      quantity: 1
+    products:
+    - id: 14262
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 1800
+  maxCopyRuns: 100
+97715:
+  id: 97715
+  manufacturing:
+    materials:
+    - id: 34
+      quantity: 4662
+    - id: 35
+      quantity: 1857
+    - id: 36
+      quantity: 1027
+    - id: 37
+      quantity: 44
+    - id: 38
+      quantity: 51
+    - id: 3538
+      quantity: 1
+    products:
+    - id: 13957
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 2700
+  maxCopyRuns: 60
+97716:
+  id: 97716
+  manufacturing:
+    materials:
+    - id: 40665
+      quantity: 1
+    products:
+    - id: 97710
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 7200
+  maxCopyRuns: 1
+97717:
+  id: 97717
+  manufacturing:
+    materials:
+    - id: 40659
+      quantity: 1
+    products:
+    - id: 97711
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 7200
+  maxCopyRuns: 1
+97718:
+  id: 97718
+  manufacturing:
+    materials:
+    - id: 52915
+      quantity: 1
+    products:
+    - id: 97712
+      probability: 1.0
+      quantity: 1
+    skills:
+    - id: 3380
+      level: 1
+    time: 7200
   maxCopyRuns: 1

@@ -205,3 +205,22 @@ types:
     techlevel: 1
     trackingspeedbonus: 8.0
     volume: 5.0
+  97244:
+    aoecloudsizebonus: -6.0
+    aoevelocitybonus: 6.0
+    cpu: 15.0
+    falloffbonus: 20.0
+    hp: 40.0
+    id: 97244
+    mass: 20.0
+    maxrangebonus: 10.0
+    metalevelold: 5.0
+    name: Mutated Omnidirectional Tracking Enhancer
+    portionSize: 1
+    power: 1
+    published: true
+    requiredskill1: 23606
+    requiredskill1level: 4
+    techlevel: 2
+    trackingspeedbonus: 9.5
+    volume: 5.0

@@ -7,6 +7,7 @@ types:
     armorkineticdamageresonance: 0.65
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
+    basejumpbridgecapacitorcost: 15000
     basewarpspeed: 1
     capacitorcapacity: 2900.0
     covertopsandreconopscloakmoduledelay: 15000

@@ -3147,7 +3147,7 @@ types:
     id: 16042
     importtaxmultiplier: 1
     mass: 500.0
-    name: Medium Sized Sealed Cargo Containers
+    name: Medium Sized Sealed Cargo Container
     portionSize: 1
     price: 100.0
     published: true

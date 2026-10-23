@@ -3716,3 +3716,255 @@ types:
     price: 1000.0
     published: true
     volume: 1.0
+  97246:
+    id: 97246
+    marketGroup: 3724
+    mass: 1.0
+    name: Radical Omnidirectional Tracking Enhancer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97247:
+    id: 97247
+    marketGroup: 3724
+    mass: 1.0
+    name: Radical Drone Link Augmentor Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97248:
+    id: 97248
+    marketGroup: 3724
+    mass: 1.0
+    name: Radical Omnidirectional Tracking Link Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97249:
+    id: 97249
+    marketGroup: 3724
+    mass: 1.0
+    name: Radical Drone Navigation Computer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97638:
+    id: 97638
+    marketGroup: 2751
+    mass: 1.0
+    name: Decayed Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97639:
+    id: 97639
+    marketGroup: 2751
+    mass: 1.0
+    name: Unstable Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97640:
+    id: 97640
+    marketGroup: 2751
+    mass: 1.0
+    name: Gravid Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97641:
+    id: 97641
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Decayed Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97642:
+    id: 97642
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Unstable Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97643:
+    id: 97643
+    marketGroup: 2751
+    mass: 1.0
+    name: Glorified Gravid Capital Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97650:
+    id: 97650
+    marketGroup: 2445
+    mass: 1.0
+    name: Decayed Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97651:
+    id: 97651
+    marketGroup: 2445
+    mass: 1.0
+    name: Unstable Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97652:
+    id: 97652
+    marketGroup: 2445
+    mass: 1.0
+    name: Gravid Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97653:
+    id: 97653
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Decayed Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97654:
+    id: 97654
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Unstable Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97655:
+    id: 97655
+    marketGroup: 2445
+    mass: 1.0
+    name: Glorified Gravid Large Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97661:
+    id: 97661
+    marketGroup: 2444
+    mass: 1.0
+    name: Decayed Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97662:
+    id: 97662
+    marketGroup: 2444
+    mass: 1.0
+    name: Unstable Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97663:
+    id: 97663
+    marketGroup: 2444
+    mass: 1.0
+    name: Gravid Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97665:
+    id: 97665
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Decayed Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97666:
+    id: 97666
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Unstable Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97667:
+    id: 97667
+    marketGroup: 2444
+    mass: 1.0
+    name: Glorified Gravid Medium Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97669:
+    id: 97669
+    marketGroup: 2443
+    mass: 1.0
+    name: Decayed Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97670:
+    id: 97670
+    marketGroup: 2443
+    mass: 1.0
+    name: Unstable Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97671:
+    id: 97671
+    marketGroup: 2443
+    mass: 1.0
+    name: Gravid Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97672:
+    id: 97672
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Decayed Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97673:
+    id: 97673
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Unstable Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0
+  97674:
+    id: 97674
+    marketGroup: 2443
+    mass: 1.0
+    name: Glorified Gravid Small Remote Armor Repairer Mutaplasmid
+    portionSize: 1
+    price: 1000.0
+    published: true
+    volume: 1.0

@@ -85,6 +85,7 @@ types:
     rechargerate: 5630000.0
     reclonerfueltype: 4247
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -215,6 +216,7 @@ types:
     rechargerate: 4880000.0
     reclonerfueltype: 4246
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -342,6 +344,7 @@ types:
     rechargerate: 5060000.0
     reclonerfueltype: 4312
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -468,6 +471,7 @@ types:
     rechargerate: 5000000.0
     reclonerfueltype: 4051
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -594,6 +598,7 @@ types:
     rechargerate: 5630000.0
     reclonerfueltype: 4247
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1
@@ -722,6 +727,7 @@ types:
     rechargerate: 5080000.0
     reclonerfueltype: 4312
     remoteassistanceimpedance: 0.5
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 1

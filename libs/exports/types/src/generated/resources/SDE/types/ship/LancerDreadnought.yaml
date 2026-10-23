@@ -6,8 +6,8 @@ types:
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.9
     armorhp: 115000.0
-    armorkineticdamageresonance: 0.4875
-    armorthermaldamageresonance: 0.56875
+    armorkineticdamageresonance: 0.35
+    armorthermaldamageresonance: 0.45
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -74,6 +74,7 @@ types:
     radius: 1613.0
     rechargerate: 4730000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -90,9 +91,9 @@ types:
     shieldcapacity: 85000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.45
+    shieldkineticdamageresonance: 0.3
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.7
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     shipbonusadvanceddreadnought1: 10
     shipbonusadvanceddreadnought2: 20
@@ -121,9 +122,9 @@ types:
     advancedcapitalagility: 1
     agility: 0.044
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.6
+    armorexplosivedamageresonance: 0.45
     armorhp: 120000.0
-    armorkineticdamageresonance: 0.65625
+    armorkineticdamageresonance: 0.525
     armorthermaldamageresonance: 0.65
     armoruniformity: 0.75
     basewarpspeed: 1
@@ -192,6 +193,7 @@ types:
     radius: 1700.0
     rechargerate: 4770000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -207,8 +209,8 @@ types:
     sensordampenerresistance: 1.0
     shieldcapacity: 75000.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.375
-    shieldkineticdamageresonance: 0.525
+    shieldexplosivedamageresonance: 0.275
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1.5E7
     shieldthermaldamageresonance: 0.8
     shielduniformity: 0.75
@@ -239,8 +241,8 @@ types:
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.9
     armorhp: 85000.0
-    armorkineticdamageresonance: 0.65625
-    armorthermaldamageresonance: 0.4125
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.375
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -307,6 +309,7 @@ types:
     radius: 1700.0
     rechargerate: 4580000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 77738
     requiredskill1level: 1
@@ -323,9 +326,9 @@ types:
     shieldcapacity: 115000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.525
+    shieldkineticdamageresonance: 0.45
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.6
+    shieldthermaldamageresonance: 0.4
     shielduniformity: 0.75
     shipbonusadvanceddreadnought1: 10
     shipbonusadvanceddreadnought2: 20
@@ -352,11 +355,11 @@ types:
     advancedagility: 1
     advancedcapitalagility: 1
     agility: 0.045
-    armoremdamageresonance: 0.3
+    armoremdamageresonance: 0.2
     armorexplosivedamageresonance: 0.9
     armorhp: 100000.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.56875
+    armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -423,6 +426,7 @@ types:
     radius: 1700.0
     rechargerate: 4390000.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -437,11 +441,11 @@ types:
     scanspeed: 7500
     sensordampenerresistance: 1.0
     shieldcapacity: 100000.0
-    shieldemdamageresonance: 0.75
+    shieldemdamageresonance: 0.55
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6
     shieldrechargerate: 1.5E7
-    shieldthermaldamageresonance: 0.7
+    shieldthermaldamageresonance: 0.6
     shielduniformity: 0.75
     shipbonusadvanceddreadnought1: 10
     shipbonusadvanceddreadnought2: 20

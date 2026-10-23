@@ -400,7 +400,6 @@ types:
     entitykillbounty: 462500
     falloff: 12000.0
     gfxboosterid: 394
-    gfxturretid: 390
     hp: 4500.0
     id: 77551
     mass: 15300000.0

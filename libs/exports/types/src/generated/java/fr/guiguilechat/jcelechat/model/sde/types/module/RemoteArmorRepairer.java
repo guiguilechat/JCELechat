@@ -192,7 +192,7 @@ public class RemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int shipbonusrole4;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, OverloadArmorDamageAmount.INSTANCE, Cpu.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MediumRemoteRepFittingMultiplier.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RepairMultiplierBonusPerCycle.INSTANCE, RepairMultiplierBonusMax.INSTANCE, OverloadArmorDamageAmount.INSTANCE, Cpu.INSTANCE, ArmorDamageAmount.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, ShipBonusRole3 .INSTANCE, ShipBonusRole4 .INSTANCE, Power.INSTANCE })));
     public static final RemoteArmorRepairer.MetaGroup METAGROUP = new RemoteArmorRepairer.MetaGroup();
 
     @Override

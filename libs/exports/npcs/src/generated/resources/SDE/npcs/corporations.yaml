@@ -21678,6 +21678,8 @@ corporations:
     - 19632
     - 19633
     - 19634
+    - 19647
+    - 19648
     name: Paragon
   Pator Tech School:
     concordRate: 0.8
@@ -22553,6 +22555,11 @@ corporations:
     - 19556
     - 19557
     - 19558
+    - 19678
+    - 19679
+    - 19680
+    - 19681
+    - 19682
     name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
@@ -29290,6 +29297,11 @@ corporations:
     - 19556
     - 19557
     - 19558
+    - 19678
+    - 19679
+    - 19680
+    - 19681
+    - 19682
     name: Svarog Clade
   Tal-Romon Legion:
     faction: Amarr Empire
@@ -29537,6 +29549,11 @@ corporations:
     - 19556
     - 19557
     - 19558
+    - 19678
+    - 19679
+    - 19680
+    - 19681
+    - 19682
     name: The Convocation of Triglav
   The Equilibrium of Mankind:
     id: 1000409
@@ -31918,6 +31935,11 @@ corporations:
     - 19556
     - 19557
     - 19558
+    - 19678
+    - 19679
+    - 19680
+    - 19681
+    - 19682
     name: Veles Clade
   Verity Enhancements:
     faction: EverMore

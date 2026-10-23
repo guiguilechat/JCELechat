@@ -60,7 +60,7 @@ types:
     kineticdamageresonance: 0.67
     lowslots: 8
     maincolor: 16777215
-    marketGroup: 3878
+    marketGroup: 3856
     mass: 1260000000.0
     maxdirectionalscanrange: 2.147483647E12
     maximumrangecap: 750000
@@ -82,6 +82,7 @@ types:
     radius: 1643.0
     rechargerate: 4824205.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -212,6 +213,7 @@ types:
     radius: 1000.0
     rechargerate: 4568104.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -342,6 +344,7 @@ types:
     radius: 1134.0
     rechargerate: 4966500.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4
@@ -471,6 +474,7 @@ types:
     radius: 1000.0
     rechargerate: 4425984.0
     remoteassistanceimpedance: 1.0
+    remotecapacitorimpedance: 1.0
     remoterepairimpedance: 1.0
     requiredskill1: 20533
     requiredskill1level: 4

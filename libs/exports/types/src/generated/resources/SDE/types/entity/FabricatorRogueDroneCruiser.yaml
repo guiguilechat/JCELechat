@@ -44,6 +44,8 @@ types:
     speedfactor: 1.0
     thermaldamage: 400.0
     trackingspeed: 200.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000
   91879:
     agility: 0.48
     armoremdamageresonance: 0.8
@@ -92,6 +94,8 @@ types:
     speedfactor: -60.0
     thermaldamage: 400.0
     trackingspeed: 200.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000
   91880:
     agility: 0.48
     armoremdamageresonance: 0.8
@@ -140,3 +144,5 @@ types:
     speedfactor: -60.0
     thermaldamage: 480.0
     trackingspeed: 200.0
+    warpbubbleimmune: 1
+    warpscramblestatus: -1000

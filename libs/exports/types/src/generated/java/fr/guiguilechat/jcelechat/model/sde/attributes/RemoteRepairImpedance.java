@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
- * Impedance against Remote Repair (shield, armor, hull and energy).
+ * Impedance against Remote Repair (shield, armor, and hull).
  */
 public class RemoteRepairImpedance
     extends RealAttribute
